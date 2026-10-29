@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 3 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 7 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,12 +28,13 @@ Actualizado: 29/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 578 de 600 · 30d: quedan 976 de 2000 (visto 2026-10-29T17:00:30.000Z)
+15m: quedan 149 de 150 · 24h: quedan 577 de 600 · 30d: quedan 975 de 2000 (visto 2026-10-29T17:20:21.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (11 esperando)
 - TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Eugenia Blotta: ordenanzas que no se cumplen en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Mauricio De Marzi: la absurda burocracia que frena la ciencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -51,10 +52,6 @@ Actualizado: 29/10/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T14:40 recibido web:76e7c276-9244-4833-b1f9-9ae148587bd5|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-29T14:40 depurado web:714face4-6e7c-4d56-be14-b048fd1cefb1|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-29T14:40 programado bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x 
-- 2026-10-29T15:20 enviado bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tikto 
 - 2026-10-29T15:20 enviado bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x 
 - 2026-10-29T15:20 enviado bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x 
 - 2026-10-29T15:20 enviado bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok 
@@ -76,3 +73,7 @@ Actualizado: 29/10/2026 14:00 (hora AR) · ACTIVO
 - 2026-10-29T17:00 recibido entrevistas:job00260|x 
 - 2026-10-29T17:00 recibido entrevistas:job00260|tiktok 
 - 2026-10-29T17:00 programado entrevistas:job00260|x 
+- 2026-10-29T17:20 entrevista_aprobada entrevistas:job00261 
+- 2026-10-29T17:20 recibido entrevistas:job00261|x 
+- 2026-10-29T17:20 recibido entrevistas:job00261|tiktok 
+- 2026-10-29T17:20 programado entrevistas:job00261|x 

@@ -3034,6 +3034,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00260.mp4",
    "youtube_url": "https://youtu.be/VNYokg7jncg"
   },
+  "entrevistas:job00261": {
+   "descripcion": "La concejal Eugenia Blotta reclamó al Ejecutivo municipal de Chivilcoy por la falta de implementación de las ordenanzas aprobadas. Remarcó la importancia de respetar la institucionalidad y cumplir las normas que se legislan.",
+   "duracion_seg": null,
+   "entrevistado": "Eugenia Blotta",
+   "generado": "2026-10-29T17:20:13.000Z",
+   "id": "entrevistas:job00261",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Eugenia Blotta: ordenanzas que no se cumplen en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 27578608,
+   "video_mb": 26.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00261.mp4",
+   "youtube_url": "https://youtu.be/WWNY-up4DKQ"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -3643,32 +3664,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_54abafdb21_desacuerdo-entre-milei-y-trump-por-el-comite-de.mp4",
    "volanta": "Conflicto diplomático",
    "youtube_url": "https://youtube.com/shorts/VTE9rHoyIO8"
-  },
-  "nacionales:552c66c451a5584e": {
-   "categoria": "Mundo",
-   "categoria_nacional": "internacionales",
-   "descripcion": "Tras arrestar a casi 2400 personas y registrar 1000 policías heridos por protestas contra el costo de vida, el mandatario francés reclamó calma.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T22:51:37.000Z",
-   "hashtags": [
-    "Francia",
-    "EmmanuelMacron"
-   ],
-   "id": "nacionales:552c66c451a5584e",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "tipo": "video",
-   "titulo": "Francia: Macron condenó la violencia y responsabilizó a sectores de extrema izquierda",
-   "urgente": false,
-   "video_bytes": 98355,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_552c66c451_francia-macron-condeno-la-violencia-y.mp4",
-   "volanta": "Disturbios en Francia",
-   "youtube_url": "https://youtube.com/shorts/arL_c0Ljl6c"
   },
   "nacionales:56e46b4aea933185": {
    "categoria": "Economía",
@@ -4645,32 +4640,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
    "volanta": "Javier Milei",
    "youtube_url": "https://youtube.com/shorts/935r-7nZec0"
-  },
-  "nacionales:e2ff40109224ceb4": {
-   "categoria": "Deportes",
-   "categoria_nacional": "deportes",
-   "descripcion": "El arquero de la Selección Argentina sufrió un choque de cabezas en el partido de su equipo y estará un mes y medio inactivo, por lo que se perderá la próxima fecha FIFA de noviembre.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T23:05:56.000Z",
-   "hashtags": [
-    "DibuMartinez",
-    "SeleccionArgentina"
-   ],
-   "id": "nacionales:e2ff40109224ceb4",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "tipo": "video",
-   "titulo": "Operaron con éxito a Emiliano 'Dibu' Martínez tras una fractura de maxilar",
-   "urgente": false,
-   "video_bytes": 97197,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e2ff401092_operaron-con-exito-a-emiliano-dibu-martinez-tras.mp4",
-   "volanta": "Fútbol internacional",
-   "youtube_url": "https://youtube.com/shorts/Pu3MwR05sIE"
   },
   "nacionales:e50827dd69db5a5d": {
    "categoria": "Mundo",
@@ -10115,24 +10084,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-torneo-federal-a-gimnasia-avanza-a-la-tercera-etapa-de-la",
    "volanta": "Fútbol"
   },
-  "web:c4fb57c6-7a3a-4813-9b35-62db9de59700": {
-   "categoria": "nacionales",
-   "descripcion": "El organismo fiscal de la provincia habilitará un plan de pagos desde el 26 de octubre. Habrá bonificaciones de hasta el 40 por ciento según la fecha y la…",
-   "generado": "2026-10-18T17:07:33.493Z",
-   "id": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_3a7806cfc2e743e6921e8a8dde48c802~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Moratoria de ARBA: cuándo comienza, qué deudas incluye y cuáles son los descuentos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
-   "volanta": ""
-  },
   "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b": {
    "categoria": "",
    "descripcion": "Imputaron a un menor tras allanamientos por robos en dos comercios La Policía Comunal, junto con personal de la SubDDI Chivilcoy, realizó un allanamiento que permitió esclarecer dos hechos delictivos ocurridos durante la madrugada del 20 de octubre, con intervención de la Justicia de Mercedes. La investigación se inició a partir de la denuncia por el robo en la carnicería La Cabaña, ubicada en la avenida Güemes 475, propiedad de Silvana Bravo. A partir de la recolección de imágenes de cámaras...",
@@ -11456,17 +11407,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 578,
-   "segundos": 58787,
+   "restantes": 577,
+   "segundos": 57595,
    "tope": 600
   },
   "30d": {
-   "restantes": 976,
-   "segundos": 1051812,
+   "restantes": 975,
+   "segundos": 1050620,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T17:00:30.000Z",
+ "cuota_visto": "2026-10-29T17:20:21.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -20360,6 +20311,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00260.mp4",
    "viral": false
   },
+  "entrevistas:job00261|tiktok": {
+   "actualizado": "2026-10-29T17:20:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00261|tiktok",
+   "creado": "2026-10-29T17:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T17:20:13.000Z",
+   "id": "entrevistas:job00261",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Eugenia Blotta: ordenanzas que no se cumplen en Chivilcoy\n\nLa concejal Eugenia Blotta reclamó al Ejecutivo municipal de Chivilcoy por la falta de implementación de las ordenanzas aprobadas. Remarcó la importancia de respetar la institucionalidad y cumplir las normas que se legislan.\n\nhttps://youtu.be/WWNY-up4DKQ\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Eugenia Blotta: ordenanzas que no se cumplen en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-31T17:20:13.000Z",
+   "video_bytes": 27578608,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00261.mp4",
+   "viral": false
+  },
+  "entrevistas:job00261|x": {
+   "actualizado": "2026-10-29T17:20:20.000Z",
+   "buffer_id": "6ae38055a23f0986fe075d60",
+   "clave": "entrevistas:job00261|x",
+   "creado": "2026-10-29T17:20:13.000Z",
+   "dueAt": "2026-10-29T17:22:48.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T17:20:13.000Z",
+   "id": "entrevistas:job00261",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:blotta-chivilcoy-cumplen-eugenia-ordenanzas",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Eugenia Blotta: ordenanzas que no se cumplen en Chivilcoy\n\nLa concejal Eugenia Blotta reclamó al Ejecutivo municipal de Chivilcoy por la falta de implementación de las ordenanzas aprobadas.\n\nhttps://youtu.be/WWNY-up4DKQ",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Eugenia Blotta: ordenanzas que no se cumplen en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-29T19:20:13.000Z",
+   "video_bytes": 27578608,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00261.mp4",
+   "viral": false
+  },
   "nacionales:01c0d7889e6b5047|tiktok": {
    "actualizado": "2026-10-21T00:20:25.000Z",
    "buffer_id": "",
@@ -21315,32 +21322,6 @@
    "vence": "2026-10-20T08:35:47.000Z",
    "video_bytes": 8722595,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_54abafdb21_desacuerdo-entre-milei-y-trump-por-el-comite-de.mp4"
-  },
-  "nacionales:552c66c451a5584e|tiktok": {
-   "actualizado": "2026-10-19T17:00:44.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:552c66c451a5584e|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T22:51:37.000Z",
-   "id": "nacionales:552c66c451a5584e",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Francia: Macron condenó la violencia y responsabilizó a sectores de extrema izquierda\n\nTras arrestar a casi 2400 personas y registrar 1000 policías heridos por protestas contra el costo de vida, el mandatario francés reclamó calma.\n\nhttps://www.diariolacampaña.com.ar/n/francia-emmanuel-macron-repudio-los-saqueos-y-pidio-orden-tras-552c66\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #Francia",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Francia: Macron condenó la violencia y responsabilizó a sectores de extrema izquierda",
-   "urgente": false,
-   "vence": "2026-10-19T16:51:37.000Z",
-   "video_bytes": 98355,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_552c66c451_francia-macron-condeno-la-violencia-y.mp4"
   },
   "nacionales:56e46b4aea933185|tiktok": {
    "actualizado": "2026-10-24T01:00:20.000Z",
@@ -22746,32 +22727,6 @@
    "video_bytes": 80334,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
    "viral": false
-  },
-  "nacionales:e2ff40109224ceb4|tiktok": {
-   "actualizado": "2026-10-19T17:20:16.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:e2ff40109224ceb4|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T23:05:56.000Z",
-   "id": "nacionales:e2ff40109224ceb4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Operaron con éxito a Emiliano 'Dibu' Martínez tras una fractura de maxilar\n\nEl arquero de la Selección Argentina sufrió un choque de cabezas en el partido de su equipo y estará un mes y medio inactivo, por lo que se perderá la próxima fecha FIFA de noviembre.\n\nhttps://www.diariolacampaña.com.ar/n/operaron-con-exito-a-emiliano-dibu-martinez-por-una-fractura-de-e2ff40\n\n#chivilcoy #diariolacampaña #radiodelcentro #deportes #DibuMartinez",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Operaron con éxito a Emiliano 'Dibu' Martínez tras una fractura de maxilar",
-   "urgente": false,
-   "vence": "2026-10-19T17:05:56.000Z",
-   "video_bytes": 97197,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e2ff401092_operaron-con-exito-a-emiliano-dibu-martinez-tras.mp4"
   },
   "nacionales:e50827dd69db5a5d|tiktok": {
    "actualizado": "2026-10-19T19:00:19.000Z",
@@ -31593,32 +31548,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:c4fb57c6-7a3a-4813-9b35-62db9de59700|x": {
-   "actualizado": "2026-10-19T17:20:16.000Z",
-   "buffer_id": "",
-   "clave": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700|x",
-   "creado": "2026-10-18T17:20:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T17:07:33.493Z",
-   "id": "web:c4fb57c6-7a3a-4813-9b35-62db9de59700",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Moratoria de ARBA: cuándo comienza, qué deudas incluye y cuáles son los descuentos\n\nEl organismo fiscal de la provincia habilitará un plan de pagos desde el 26 de octubre. Habrá bonificaciones de hasta el 40 por ciento.\n\nhttps://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Moratoria de ARBA: cuándo comienza, qué deudas incluye y cuáles son los descuentos",
-   "urgente": false,
-   "vence": "2026-10-19T17:07:33.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x": {
    "actualizado": "2026-10-22T22:20:19.000Z",
    "buffer_id": "",
@@ -33639,35 +33568,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6add2f1f8b3d437ddcde1644",
-   "clave": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x",
-   "cuando": "2026-10-24T22:20:15.000Z",
-   "dueAt": "2026-10-24T22:23:49.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x",
-   "cuando": "2026-10-24T22:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tiktok",
-   "cuando": "2026-10-24T22:40:14.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x",
-   "cuando": "2026-10-24T23:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok",
    "cuando": "2026-10-24T23:00:24.000Z",
@@ -37867,6 +37767,34 @@
    "cuando": "2026-10-29T17:00:30.000Z",
    "dueAt": "2026-10-29T17:02:34.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00261",
+   "cuando": "2026-10-29T17:20:13.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00261|x",
+   "cuando": "2026-10-29T17:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00261|tiktok",
+   "cuando": "2026-10-29T17:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ae38055a23f0986fe075d60",
+   "clave": "entrevistas:job00261|x",
+   "cuando": "2026-10-29T17:20:21.000Z",
+   "dueAt": "2026-10-29T17:22:48.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38116,6 +38044,7 @@
   "entrevistas:job00258": "2026-10-28T18:20:17.000Z",
   "entrevistas:job00259": "2026-10-28T18:40:15.000Z",
   "entrevistas:job00260": "2026-10-29T17:00:20.000Z",
+  "entrevistas:job00261": "2026-10-29T17:20:13.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
