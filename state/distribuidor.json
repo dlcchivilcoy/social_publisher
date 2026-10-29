@@ -3013,6 +3013,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00259.mp4",
    "youtube_url": "https://youtu.be/D7YCIaE8COo"
   },
+  "entrevistas:job00260": {
+   "descripcion": "En Chivilcoy, el docente e investigador Mauricio De Marzi denunció los insólitos controles burocráticos para montos mínimos que obligan a los científicos a financiar proyectos de su propio bolsillo. Explicó cómo la inflación y las trabas administrativas asfixian la investigación universitaria.",
+   "duracion_seg": null,
+   "entrevistado": "Mauricio De Marzi",
+   "generado": "2026-10-29T17:00:20.000Z",
+   "id": "entrevistas:job00260",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Mauricio De Marzi: la absurda burocracia que frena la ciencia",
+   "urgente": false,
+   "video_bytes": 27785957,
+   "video_mb": 26.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00260.mp4",
+   "youtube_url": "https://youtu.be/VNYokg7jncg"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -11435,17 +11456,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 579,
-   "segundos": 59990,
+   "restantes": 578,
+   "segundos": 58787,
    "tope": 600
   },
   "30d": {
-   "restantes": 977,
-   "segundos": 1053015,
+   "restantes": 976,
+   "segundos": 1051812,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T16:40:26.000Z",
+ "cuota_visto": "2026-10-29T17:00:30.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -20281,6 +20302,62 @@
    "vence": "2026-10-28T20:40:15.000Z",
    "video_bytes": 18575838,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00259.mp4",
+   "viral": false
+  },
+  "entrevistas:job00260|tiktok": {
+   "actualizado": "2026-10-29T17:00:20.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00260|tiktok",
+   "creado": "2026-10-29T17:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T17:00:20.000Z",
+   "id": "entrevistas:job00260",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Mauricio De Marzi: la absurda burocracia que frena la ciencia\n\nEn Chivilcoy, el docente e investigador Mauricio De Marzi denunció los insólitos controles burocráticos para montos mínimos que obligan a los científicos a financiar proyectos de su propio bolsillo. Explicó cómo la inflación y las trabas administrativas asfixian la investigación universitaria.\n\nhttps://youtu.be/VNYokg7jncg\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Mauricio De Marzi: la absurda burocracia que frena la ciencia",
+   "urgente": false,
+   "vence": "2026-10-31T17:00:20.000Z",
+   "video_bytes": 27785957,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00260.mp4",
+   "viral": false
+  },
+  "entrevistas:job00260|x": {
+   "actualizado": "2026-10-29T17:00:28.000Z",
+   "buffer_id": "6ae37bae03ff312c0926937c",
+   "clave": "entrevistas:job00260|x",
+   "creado": "2026-10-29T17:00:20.000Z",
+   "dueAt": "2026-10-29T17:02:34.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T17:00:20.000Z",
+   "id": "entrevistas:job00260",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:absurda-burocracia-ciencia-frena-marzi-mauricio",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Mauricio De Marzi: la absurda burocracia que frena la ciencia\n\nMauricio De Marzi denunció los insólitos controles burocráticos para montos mínimos que obligan a los científicos a financiar proyectos de su propio bolsillo.\n\nhttps://youtu.be/VNYokg7jncg",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Mauricio De Marzi: la absurda burocracia que frena la ciencia",
+   "urgente": false,
+   "vence": "2026-10-29T19:00:20.000Z",
+   "video_bytes": 27785957,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00260.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -33563,33 +33640,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6add1c6a6887a2efc1d59f5c",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tiktok",
-   "cuando": "2026-10-24T21:00:26.000Z",
-   "dueAt": "2026-10-24T23:03:38.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|tiktok",
-   "cuando": "2026-10-24T21:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700342974583934228"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|tiktok",
-   "cuando": "2026-10-24T21:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700348242227105044"
-  },
-  {
-   "clave": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x",
-   "cuando": "2026-10-24T22:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "buffer_id": "6add2f1f8b3d437ddcde1644",
    "clave": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x",
    "cuando": "2026-10-24T22:20:15.000Z",
@@ -37789,6 +37839,34 @@
    "cuando": "2026-10-29T16:40:26.000Z",
    "dueAt": "2026-10-29T16:42:32.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00260",
+   "cuando": "2026-10-29T17:00:20.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00260|x",
+   "cuando": "2026-10-29T17:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00260|tiktok",
+   "cuando": "2026-10-29T17:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ae37bae03ff312c0926937c",
+   "clave": "entrevistas:job00260|x",
+   "cuando": "2026-10-29T17:00:30.000Z",
+   "dueAt": "2026-10-29T17:02:34.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38037,6 +38115,7 @@
   "entrevistas:job00257": "2026-10-28T17:40:18.000Z",
   "entrevistas:job00258": "2026-10-28T18:20:17.000Z",
   "entrevistas:job00259": "2026-10-28T18:40:15.000Z",
+  "entrevistas:job00260": "2026-10-29T17:00:20.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
