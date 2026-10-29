@@ -11832,17 +11832,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 594,
-   "segundos": 80396,
+   "restantes": 593,
+   "segundos": 79202,
    "tope": 600
   },
   "30d": {
-   "restantes": 992,
-   "segundos": 1073421,
+   "restantes": 991,
+   "segundos": 1072226,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T11:00:20.000Z",
+ "cuota_visto": "2026-10-29T11:20:14.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -33255,14 +33255,14 @@
    "video_url": ""
   },
   "web:dbcff185-c524-4cad-9ffd-27938d2a4920|x": {
-   "actualizado": "2026-10-29T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T11:20:14.000Z",
+   "buffer_id": "6ae32bee92ad728a45751d04",
    "clave": "web:dbcff185-c524-4cad-9ffd-27938d2a4920|x",
    "creado": "2026-10-29T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T12:37:18.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T10:02:50.996Z",
    "id": "web:dbcff185-c524-4cad-9ffd-27938d2a4920",
    "ig_hora": "2026-10-29T12:37:20.000Z",
@@ -34459,12 +34459,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tiktok",
-   "cuando": "2026-10-24T14:20:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700229194143272244"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok",
    "cuando": "2026-10-24T14:20:20.000Z",
@@ -38692,6 +38686,13 @@
    "cuando": "2026-10-29T11:00:20.000Z",
    "evento": "depurado",
    "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "buffer_id": "6ae32bee92ad728a45751d04",
+   "clave": "web:dbcff185-c524-4cad-9ffd-27938d2a4920|x",
+   "cuando": "2026-10-29T11:20:14.000Z",
+   "dueAt": "2026-10-29T12:37:18.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
