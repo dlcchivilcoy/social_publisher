@@ -11754,17 +11754,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 590,
-   "segundos": 76798,
+   "restantes": 589,
+   "segundos": 74401,
    "tope": 600
   },
   "30d": {
-   "restantes": 988,
-   "segundos": 1069822,
+   "restantes": 987,
+   "segundos": 1067426,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T12:00:20.000Z",
+ "cuota_visto": "2026-10-29T12:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -28215,14 +28215,14 @@
    "viral": false
   },
   "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85|x": {
-   "actualizado": "2026-10-29T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T12:40:15.000Z",
+   "buffer_id": "6ae33eaf1d52e172a10483af",
    "clave": "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85|x",
    "creado": "2026-10-29T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T13:52:03.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T10:03:32.476Z",
    "id": "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85",
    "ig_hora": "2026-10-29T13:52:20.000Z",
@@ -34263,14 +34263,14 @@
    "video_url": ""
   },
   "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x": {
-   "actualizado": "2026-10-29T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T12:40:15.000Z",
+   "buffer_id": "6ae33eaf650dab96a371692c",
    "clave": "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x",
    "creado": "2026-10-29T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T14:07:22.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T10:03:40.244Z",
    "id": "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b",
    "ig_hora": "2026-10-29T14:07:20.000Z",
@@ -34293,18 +34293,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok",
-   "cuando": "2026-10-24T15:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700250611882691841"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvl80hcengob_01.mp4|tiktok",
-   "cuando": "2026-10-24T15:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700235213494062356"
-  },
   {
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|x",
    "cuando": "2026-10-24T16:20:16.000Z",
@@ -38529,6 +38517,20 @@
    "clave": "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x",
    "cuando": "2026-10-29T12:00:20.000Z",
    "dueAt": "2026-10-29T13:22:02.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae33eaf1d52e172a10483af",
+   "clave": "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85|x",
+   "cuando": "2026-10-29T12:40:15.000Z",
+   "dueAt": "2026-10-29T13:52:03.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae33eaf650dab96a371692c",
+   "clave": "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x",
+   "cuando": "2026-10-29T12:40:15.000Z",
+   "dueAt": "2026-10-29T14:07:22.000Z",
    "evento": "programado"
   }
  ],
