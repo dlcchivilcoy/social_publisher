@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 29/10/2026 08:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 2 | 4 | 5 | 0 | 0 | 3 |
+| Notas web | X | 15 | 3 | 5 | 3 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 26 enviadas + 2 programadas de 100 por día
+- X: conectado · Buffer: 25 enviadas + 2 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -25,17 +25,15 @@ Actualizado: 29/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Recortes de entrevistas: 12 con métricas · mediana vistas/impresiones 95.5 · likes 0
 - TikTok · Reels del bot: 61 con métricas · mediana vistas/impresiones 315 · likes 3
 - TikTok · Reels policiales: 8 con métricas · mediana vistas/impresiones 520 · likes 3.5
-- TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 501.5 · likes 4.5
+- TikTok · Nacionales y categorías: 7 con métricas · mediana vistas/impresiones 593 · likes 4
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 593 de 600 · 30d: quedan 991 de 2000 (visto 2026-10-29T11:20:14.000Z)
+15m: quedan 148 de 150 · 24h: quedan 591 de 600 · 30d: quedan 989 de 2000 (visto 2026-10-29T11:40:19.000Z)
 
-## Cola propia (12 esperando)
+## Cola propia (10 esperando)
 - X · Notas web · Impulsan una colecta solidaria para asistir a los damnificados por la crecida de — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · El Honorable Concejo Deliberante se prepara para una nueva Sesión Pública Ordina — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Destacada actuación del Ciclismo chivilcoyano en el Campeonato Argentino de Mar  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Torneo Clausura: Colón, Racing y San Lorenzo festejaron en la recta final de la  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Cuenta regresiva para el Medio Maratón "Eduardo Pollaroli": "Estamos preparados  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a dos menores acusados de robar en una panadería — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una ciclista fue trasladada al hospital tras colisionar con un utilitario — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -53,9 +51,6 @@ Actualizado: 29/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T10:02 recibido web:b078718b-3db7-4e2d-a7e7-5e989121b045|x 
-- 2026-10-29T10:02 recibido web:0cd5c457-7502-4d59-8051-9927ae917ce7|x 
-- 2026-10-29T10:03 recibido web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x 
 - 2026-10-29T10:03 recibido web:66bad44b-4ffb-4fe4-a2d7-800fe271a723|x 
 - 2026-10-29T10:03 recibido web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x 
 - 2026-10-29T10:03 recibido web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x 
@@ -78,3 +73,6 @@ Actualizado: 29/10/2026 08:20 (hora AR) · ACTIVO
 - 2026-10-29T11:00 depurado web:0cd5c457-7502-4d59-8051-9927ae917ce7|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-10-29T11:00 depurado web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-10-29T11:20 programado web:dbcff185-c524-4cad-9ffd-27938d2a4920|x 
+- 2026-10-29T11:40 enviado web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x 
+- 2026-10-29T11:40 programado web:f5e279af-867b-46f2-92ed-06cee448bd38|x 
+- 2026-10-29T11:40 programado web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x 

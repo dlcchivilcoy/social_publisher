@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-29T10:40:16.000Z"
+   "visto": "2026-10-29T11:40:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 2,
-    "sent": 26
+    "sent": 25
    },
    "pausado": false,
-   "visto": "2026-10-29T10:40:16.000Z"
+   "visto": "2026-10-29T11:40:18.000Z"
   }
  },
  "contenidos": {
@@ -3517,32 +3517,6 @@
    "volanta": "Blindaje político",
    "youtube_url": "https://youtube.com/shorts/jL46LySK2ak"
   },
-  "nacionales:509780bc5420f2f5": {
-   "categoria": "Mundo",
-   "categoria_nacional": "internacionales",
-   "descripcion": "El 18 de octubre de 2026 se registraron violentos enfrentamientos, saqueos y destrozos en Milán y Bolonia durante protestas por la situación económica, con un saldo de siete detenidos.",
-   "duracion_seg": 31.2,
-   "generado": "2026-10-19T00:21:01.000Z",
-   "hashtags": [
-    "Italia",
-    "Milan"
-   ],
-   "id": "nacionales:509780bc5420f2f5",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/violentos-disturbios-y-saqueos-en-milan-y-bolonia-en-medio-de-509780",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "tipo": "video",
-   "titulo": "Graves disturbios en Milán y Bolonia contra el costo de vida con 7 detenidos",
-   "urgente": false,
-   "video_bytes": 5644249,
-   "video_mb": 5.4,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_509780bc54_graves-disturbios-en-milan-y-bolonia-contra-el.mp4",
-   "volanta": "Protestas y violencia en Italia",
-   "youtube_url": "https://youtube.com/shorts/dnlKpoT9KQg"
-  },
   "nacionales:545f9842d5a42866": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -4517,32 +4491,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b4cf751f44_enzo-perez-estuvo-en-la-tribuna-de-river-en-la.mp4",
    "volanta": "Enzo Pérez",
    "youtube_url": "https://youtube.com/shorts/Yy2G8Sd10WU"
-  },
-  "nacionales:b541d9169f033092": {
-   "categoria": "Economía",
-   "categoria_nacional": "",
-   "descripcion": "El organismo fiscal de la provincia habilitará un plan de pagos desde el 26 de octubre. Habrá bonificaciones de hasta el 40 por ciento según la fecha y la modalidad elegida.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T17:07:38.000Z",
-   "hashtags": [
-    "ARBA",
-    "Impuestos"
-   ],
-   "id": "nacionales:b541d9169f033092",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "tipo": "video",
-   "titulo": "Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos",
-   "urgente": false,
-   "video_bytes": 98299,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b541d9169f_nueva-moratoria-bonaerense-descuentos-y-plazos.mp4",
-   "volanta": "ARBA",
-   "youtube_url": "https://youtube.com/shorts/wcCXtaLJEjQ"
   },
   "nacionales:b7b1426a9ab6b8b3": {
    "categoria": "Política",
@@ -11827,22 +11775,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 593,
-   "segundos": 79202,
+   "restantes": 591,
+   "segundos": 77997,
    "tope": 600
   },
   "30d": {
-   "restantes": 991,
-   "segundos": 1072226,
+   "restantes": 989,
+   "segundos": 1071022,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T11:20:14.000Z",
+ "cuota_visto": "2026-10-29T11:40:19.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -21431,43 +21379,6 @@
    "video_bytes": 97876,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4d4c5be14f_el-dilema-de-milei-apoyo-de-gobernadores-y-la.mp4"
   },
-  "nacionales:509780bc5420f2f5|tiktok": {
-   "actualizado": "2026-10-19T11:40:19.000Z",
-   "buffer_id": "6ad5fcf238bcdab6ee5127ee",
-   "clave": "nacionales:509780bc5420f2f5|tiktok",
-   "creado": "2026-10-19T02:40:14.000Z",
-   "dueAt": "2026-10-19T11:23:30.000Z",
-   "enviado": "2026-10-19T11:25:13.226Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T00:21:01.000Z",
-   "id": "nacionales:509780bc5420f2f5",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698338114913176853",
-   "metricas": {
-    "averageTimeWatched": 6.1,
-    "comments": 0,
-    "engagementRate": 4.2,
-    "reach": 0,
-    "reactions": 5,
-    "shares": 0,
-    "totalTimeWatched": 13.92,
-    "views": 119
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/violentos-disturbios-y-saqueos-en-milan-y-bolonia-en-medio-de-509780",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Graves disturbios en Milán y Bolonia contra el costo de vida con 7 detenidos\n\nEl 18 de octubre de 2026 se registraron violentos enfrentamientos, saqueos y destrozos en Milán y Bolonia durante protestas por la situación económica, con un saldo de siete detenidos.\n\nhttps://www.diariolacampaña.com.ar/n/violentos-disturbios-y-saqueos-en-milan-y-bolonia-en-medio-de-509780\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #Italia",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Graves disturbios en Milán y Bolonia contra el costo de vida con 7 detenidos",
-   "urgente": false,
-   "vence": "2026-10-19T18:21:01.000Z",
-   "video_bytes": 5644249,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_509780bc54_graves-disturbios-en-milan-y-bolonia-contra-el.mp4"
-  },
   "nacionales:545f9842d5a42866|tiktok": {
    "actualizado": "2026-10-24T00:20:34.000Z",
    "buffer_id": "",
@@ -22855,32 +22766,6 @@
    "vence": "2026-10-19T23:05:59.000Z",
    "video_bytes": 83413,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b4cf751f44_enzo-perez-estuvo-en-la-tribuna-de-river-en-la.mp4"
-  },
-  "nacionales:b541d9169f033092|tiktok": {
-   "actualizado": "2026-10-19T11:20:16.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:b541d9169f033092|tiktok",
-   "creado": "2026-10-18T17:20:13.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T17:07:38.000Z",
-   "id": "nacionales:b541d9169f033092",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos\n\nEl organismo fiscal de la provincia habilitará un plan de pagos desde el 26 de octubre. Habrá bonificaciones de hasta el 40 por ciento según la fecha y la modalidad elegida.\n\nhttps://www.diariolacampaña.com.ar/n/moratoria-de-arba-cuando-comienza-que-deudas-incluye-y-cuales-b541d9\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #ARBA",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Nueva moratoria bonaerense: descuentos y plazos para regularizar impuestos",
-   "urgente": false,
-   "vence": "2026-10-19T11:07:38.000Z",
-   "video_bytes": 98299,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b541d9169f_nueva-moratoria-bonaerense-descuentos-y-plazos.mp4"
   },
   "nacionales:b7b1426a9ab6b8b3|tiktok": {
    "actualizado": "2026-10-22T01:20:16.000Z",
@@ -28126,19 +28011,20 @@
    "viral": false
   },
   "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x": {
-   "actualizado": "2026-10-29T10:03:20.000Z",
+   "actualizado": "2026-10-29T11:40:18.000Z",
    "buffer_id": "6ae319eabdb1fae7ce366166",
    "clave": "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x",
    "creado": "2026-10-29T10:02:34.000Z",
    "dueAt": "2026-10-29T11:07:27.000Z",
+   "enviado": "2026-10-29T11:07:31.090Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:01:51.986Z",
    "id": "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec",
    "ig_hora": "2026-10-29T11:07:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115762446270857674",
    "nota_url": "https://www.diariolacampaña.com.ar/n/actividad-academica-jorge-guelffi-destaco-las-actividades-educativas",
    "noticia": "nota:actividad-academica-jorge-guelffi-destaco-las-actividades-educativas",
    "origen": "web",
@@ -29649,14 +29535,14 @@
    "viral": false
   },
   "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x": {
-   "actualizado": "2026-10-29T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T11:40:19.000Z",
+   "buffer_id": "6ae330a3a0a200dca8ba6054",
    "clave": "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x",
    "creado": "2026-10-29T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T13:07:30.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T10:03:06.878Z",
    "id": "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3",
    "ig_hora": "2026-10-29T13:07:20.000Z",
@@ -34083,14 +33969,14 @@
    "viral": false
   },
   "web:f5e279af-867b-46f2-92ed-06cee448bd38|x": {
-   "actualizado": "2026-10-29T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T11:40:19.000Z",
+   "buffer_id": "6ae330a3bab0e956b96cd16f",
    "clave": "web:f5e279af-867b-46f2-92ed-06cee448bd38|x",
    "creado": "2026-10-29T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T12:52:28.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T10:02:58.642Z",
    "id": "web:f5e279af-867b-46f2-92ed-06cee448bd38",
    "ig_hora": "2026-10-29T12:52:20.000Z",
@@ -34459,24 +34345,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|tiktok",
-   "cuando": "2026-10-24T14:20:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700224521046953237"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|tiktok",
-   "cuando": "2026-10-24T15:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tiktok",
-   "cuando": "2026-10-24T15:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700245124176940296"
-  },
   {
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tiktok",
    "cuando": "2026-10-24T15:40:14.000Z",
@@ -38693,6 +38561,26 @@
    "cuando": "2026-10-29T11:20:14.000Z",
    "dueAt": "2026-10-29T12:37:18.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x",
+   "cuando": "2026-10-29T11:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115762446270857674"
+  },
+  {
+   "buffer_id": "6ae330a3bab0e956b96cd16f",
+   "clave": "web:f5e279af-867b-46f2-92ed-06cee448bd38|x",
+   "cuando": "2026-10-29T11:40:19.000Z",
+   "dueAt": "2026-10-29T12:52:28.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae330a3a0a200dca8ba6054",
+   "clave": "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x",
+   "cuando": "2026-10-29T11:40:19.000Z",
+   "dueAt": "2026-10-29T13:07:30.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38726,7 +38614,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T10:40:16.000Z",
+ "ultima_sync": "2026-10-29T11:40:18.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
