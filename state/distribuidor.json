@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 2,
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-29T13:00:23.000Z"
+   "visto": "2026-10-29T14:00:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 2,
-    "sent": 24
+    "scheduled": 1,
+    "sent": 25
    },
    "pausado": false,
-   "visto": "2026-10-29T13:00:23.000Z"
+   "visto": "2026-10-29T14:00:23.000Z"
   }
  },
  "contenidos": {
@@ -3860,32 +3860,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_780212f6b8_banco-provincia-lanzo-prestamos-de-hasta-50.mp4",
    "volanta": "Créditos hipotecarios",
    "youtube_url": "https://youtube.com/shorts/EbdFuZNpCqU"
-  },
-  "nacionales:78b5fd65bc73d6c5": {
-   "categoria": "Deportes",
-   "categoria_nacional": "deportes",
-   "descripcion": "Darío Barzola, alias Gamuza, asumió el mando en el paravalancha de la Academia tras una dura disputa interna. El anterior jefe, Leandro Paredes, sigue prófugo.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T19:38:06.000Z",
-   "hashtags": [
-    "Racing",
-    "FutbolArgentino"
-   ],
-   "id": "nacionales:78b5fd65bc73d6c5",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "Racing define al nuevo líder de su barra brava en la antesala del clásico",
-   "urgente": false,
-   "video_bytes": 91884,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_78b5fd65bc_racing-define-al-nuevo-lider-de-su-barra-brava-en.mp4",
-   "volanta": "Interna en Racing",
-   "youtube_url": "https://youtube.com/shorts/BqvBt9P8caM"
   },
   "nacionales:883bc6cd67a29d7e": {
    "categoria": "Espectáculos",
@@ -11519,6 +11493,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/atletismo-destacada-actuacion-de-los-hermanos-vega-en-los-15k-de",
    "volanta": "Atletismo"
   },
+  "web:fa24c212-927b-4b43-b2d4-535b06d40feb": {
+   "categoria": "",
+   "descripcion": "TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas En horas de la mañana del sábado 24 de octubre, personal de la SDDITDI CHIVILCOY a cargo del comisario DONATO RAFAEL PITETTI, junto a la POLICIA COMUNAL y la SECRETARIA de SEGURIDAD encabezada por NESTOR DABI, concretó cuatro órdenes de allanamiento en distintos domicilios de la ciudad. El procedimiento, que contó con la intervención del can rastreador K9 “FALU”, se dio en el marco de una investigación por infracción a la...",
+   "generado": "2026-10-29T13:59:15.923Z",
+   "id": "web:fa24c212-927b-4b43-b2d4-535b06d40feb",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3120a29d6d2d45a5bc49ab6d7645f999~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
+   "volanta": "CHIVILCOY · Policiales"
+  },
   "web:fa7a2365-e27c-4bdf-9c34-2f2ee579ca54": {
    "categoria": "",
    "descripcion": "Aprehendieron a dos menores acusados de robar en una panadería Dos menores de edad fueron aprehendidos en el marco de una investigación por el robo de $200.000 en efectivo en la panadería El Águila, ubicada en avenida Suárez 350, en Chivilcoy. El hecho fue denunciado luego de que, al abrir el comercio, constataran que desconocidos habían ingresado tras forzar la puerta de blindex y sustraído el dinero. A partir del análisis del material fílmico aportado por el denunciante, personal del Grupo...",
@@ -11672,21 +11665,21 @@
  "cuota": {
   "15m": {
    "restantes": 148,
-   "segundos": 897,
+   "segundos": 899,
    "tope": 150
   },
   "24h": {
-   "restantes": 587,
-   "segundos": 73189,
+   "restantes": 585,
+   "segundos": 69591,
    "tope": 600
   },
   "30d": {
-   "restantes": 985,
-   "segundos": 1066214,
+   "restantes": 983,
+   "segundos": 1062616,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T13:00:35.000Z",
+ "cuota_visto": "2026-10-29T14:00:25.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -15669,19 +15662,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|tiktok": {
-   "actualizado": "2026-10-29T13:00:24.000Z",
+   "actualizado": "2026-10-29T14:00:23.000Z",
    "buffer_id": "6ae3436c3843f63a48589b96",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|tiktok",
    "creado": "2026-10-28T18:40:15.000Z",
    "dueAt": "2026-10-29T13:03:52.000Z",
+   "enviado": "2026-10-29T13:09:07.131Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T18:25:40.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702075758998506759",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-dos-menores-acusados-de-robar-en",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -18428,19 +18422,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok": {
-   "actualizado": "2026-10-29T13:00:24.000Z",
+   "actualizado": "2026-10-29T14:00:23.000Z",
    "buffer_id": "6ae343703843f63a4858a62a",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok",
    "creado": "2026-10-28T17:20:19.000Z",
    "dueAt": "2026-10-29T13:43:50.000Z",
+   "enviado": "2026-10-29T13:45:44.307Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T17:15:01.000Z",
    "id": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702085151139892501",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -18493,19 +18488,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok": {
-   "actualizado": "2026-10-29T13:00:24.000Z",
+   "actualizado": "2026-10-29T14:00:23.000Z",
    "buffer_id": "6ae3436f1d52e172a1061a6f",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok",
    "creado": "2026-10-29T01:00:22.000Z",
    "dueAt": "2026-10-29T13:23:42.000Z",
+   "enviado": "2026-10-29T13:25:28.262Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T00:43:18.000Z",
    "id": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702079923812371719",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -21774,32 +21770,6 @@
    "video_bytes": 93720,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_780212f6b8_banco-provincia-lanzo-prestamos-de-hasta-50.mp4",
    "viral": false
-  },
-  "nacionales:78b5fd65bc73d6c5|tiktok": {
-   "actualizado": "2026-10-19T13:40:23.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:78b5fd65bc73d6c5|tiktok",
-   "creado": "2026-10-18T20:20:13.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T19:38:06.000Z",
-   "id": "nacionales:78b5fd65bc73d6c5",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Racing define al nuevo líder de su barra brava en la antesala del clásico\n\nDarío Barzola, alias Gamuza, asumió el mando en el paravalancha de la Academia tras una dura disputa interna. El anterior jefe, Leandro Paredes, sigue prófugo.\n\nhttps://www.diariolacampaña.com.ar/n/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd\n\n#chivilcoy #diariolacampaña #radiodelcentro #deportes #Racing",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Racing define al nuevo líder de su barra brava en la antesala del clásico",
-   "urgente": false,
-   "vence": "2026-10-19T13:38:06.000Z",
-   "video_bytes": 91884,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_78b5fd65bc_racing-define-al-nuevo-lider-de-su-barra-brava-en.mp4"
   },
   "nacionales:883bc6cd67a29d7e|tiktok": {
    "actualizado": "2026-10-19T20:40:17.000Z",
@@ -28012,19 +27982,20 @@
    "viral": false
   },
   "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85|x": {
-   "actualizado": "2026-10-29T12:40:15.000Z",
+   "actualizado": "2026-10-29T14:00:23.000Z",
    "buffer_id": "6ae33eaf1d52e172a10483af",
    "clave": "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85|x",
    "creado": "2026-10-29T10:20:14.000Z",
    "dueAt": "2026-10-29T13:52:03.000Z",
+   "enviado": "2026-10-29T13:52:16.421Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:03:32.476Z",
    "id": "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85",
    "ig_hora": "2026-10-29T13:52:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115803908350103744",
    "nota_url": "https://www.diariolacampaña.com.ar/n/temario-diverso-el-honorable-concejo-deliberante-se-prepara-para-una",
    "noticia": "nota:temario-diverso-el-honorable-concejo-deliberante-se-prepara-para-una",
    "origen": "web",
@@ -29280,19 +29251,20 @@
    "viral": false
   },
   "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x": {
-   "actualizado": "2026-10-29T11:40:19.000Z",
+   "actualizado": "2026-10-29T14:00:23.000Z",
    "buffer_id": "6ae330a3a0a200dca8ba6054",
    "clave": "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x",
    "creado": "2026-10-29T10:20:14.000Z",
    "dueAt": "2026-10-29T13:07:30.000Z",
+   "enviado": "2026-10-29T13:07:31.405Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:03:06.878Z",
    "id": "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3",
    "ig_hora": "2026-10-29T13:07:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115792646270550330",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-torneo-clausura-colon-racing-y-san-lorenzo-festejaron-en-la",
    "noticia": "nota:basquet-torneo-clausura-colon-racing-y-san-lorenzo-festejaron-en-la",
    "origen": "web",
@@ -31159,19 +31131,20 @@
    "video_url": ""
   },
   "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x": {
-   "actualizado": "2026-10-29T12:00:18.000Z",
+   "actualizado": "2026-10-29T14:00:23.000Z",
    "buffer_id": "6ae3355344715b877827a3dd",
    "clave": "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x",
    "creado": "2026-10-29T10:20:14.000Z",
    "dueAt": "2026-10-29T13:22:02.000Z",
+   "enviado": "2026-10-29T13:22:16.229Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:03:14.533Z",
    "id": "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56",
    "ig_hora": "2026-10-29T13:22:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115796357826941041",
    "nota_url": "https://www.diariolacampaña.com.ar/n/gravel-destacada-actuacion-del-ciclismo-chivilcoyano-en-el-campeonato",
    "noticia": "nota:gravel-destacada-actuacion-del-ciclismo-chivilcoyano-en-el-campeonato",
    "origen": "web",
@@ -33846,6 +33819,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x": {
+   "actualizado": "2026-10-29T14:00:24.000Z",
+   "buffer_id": "6ae35179958f4a52750a73c6",
+   "clave": "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x",
+   "creado": "2026-10-29T14:00:20.000Z",
+   "dueAt": "2026-10-29T14:22:56.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T13:59:15.923Z",
+   "id": "web:fa24c212-927b-4b43-b2d4-535b06d40feb",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
+   "noticia": "nota:chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas\n\nFuerzas policiales y de seguridad concretaron cuatro allanamientos en la ciudad. El procedimiento se dio en el marco de una investigación por infracción a la ley de drogas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas",
+   "urgente": false,
+   "vence": "2026-10-29T17:59:15.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:fa7a2365-e27c-4bdf-9c34-2f2ee579ca54|x": {
    "actualizado": "2026-10-28T18:40:15.000Z",
    "buffer_id": "",
@@ -34093,67 +34094,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|tiktok",
-   "cuando": "2026-10-24T17:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|x",
-   "cuando": "2026-10-24T17:40:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tiktok",
-   "cuando": "2026-10-24T17:40:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:6871a7bc-9ddf-4c76-927a-6d48120cbf5a|x",
-   "cuando": "2026-10-24T17:40:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:df585fc0-4639-4338-88f4-51fc0c0eb03c|x",
-   "cuando": "2026-10-24T17:40:31.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6871a7bc-9ddf-4c76-927a-6d48120cbf5a|x",
-   "cuando": "2026-10-24T17:40:31.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "buffer_id": "6adced900b5343d0709633dd",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|x",
-   "cuando": "2026-10-24T17:40:32.000Z",
-   "dueAt": "2026-10-24T17:42:20.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|x",
-   "cuando": "2026-10-24T18:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tiktok",
    "cuando": "2026-10-24T18:00:24.000Z",
@@ -38321,6 +38261,57 @@
    "cuando": "2026-10-29T13:00:35.000Z",
    "dueAt": "2026-10-29T14:23:39.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x",
+   "cuando": "2026-10-29T14:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|tiktok",
+   "cuando": "2026-10-29T14:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702075758998506759"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok",
+   "cuando": "2026-10-29T14:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702085151139892501"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok",
+   "cuando": "2026-10-29T14:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702079923812371719"
+  },
+  {
+   "clave": "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85|x",
+   "cuando": "2026-10-29T14:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115803908350103744"
+  },
+  {
+   "clave": "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x",
+   "cuando": "2026-10-29T14:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115792646270550330"
+  },
+  {
+   "clave": "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x",
+   "cuando": "2026-10-29T14:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115796357826941041"
+  },
+  {
+   "buffer_id": "6ae35179958f4a52750a73c6",
+   "clave": "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x",
+   "cuando": "2026-10-29T14:00:25.000Z",
+   "dueAt": "2026-10-29T14:22:56.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38355,7 +38346,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T13:00:23.000Z",
+ "ultima_sync": "2026-10-29T14:00:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -39313,6 +39304,7 @@
   "web:f63f1d45-410e-4f36-8009-91b5fac0a28e": "2026-10-11T21:58:03.000Z",
   "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc": "2026-10-19T14:20:14.000Z",
   "web:f86f8375-5d60-4a7c-9520-9169b60938a8": "2026-10-22T10:02:31.000Z",
+  "web:fa24c212-927b-4b43-b2d4-535b06d40feb": "2026-10-29T14:00:20.000Z",
   "web:fa7a2365-e27c-4bdf-9c34-2f2ee579ca54": "2026-10-28T18:40:15.000Z",
   "web:fb2bfea1-5f49-42b1-a737-bf9bb3f423a5": "2026-10-19T15:00:20.000Z",
   "web:fb360714-5639-4bf4-a1f0-001886885d15": "2026-10-11T21:58:03.000Z",
