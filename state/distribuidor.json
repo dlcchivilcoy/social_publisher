@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 5
+    "scheduled": 0,
+    "sent": 8
    },
    "pausado": false,
-   "visto": "2026-10-29T00:40:17.000Z"
+   "visto": "2026-10-29T01:40:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 28
    },
    "pausado": false,
-   "visto": "2026-10-29T00:40:17.000Z"
+   "visto": "2026-10-29T01:40:18.000Z"
   }
  },
  "contenidos": {
@@ -11766,17 +11766,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 564,
-   "segundos": 28786,
+   "restantes": 563,
+   "segundos": 26402,
    "tope": 600
   },
   "30d": {
-   "restantes": 999,
-   "segundos": 1109406,
+   "restantes": 998,
+   "segundos": 1107022,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T01:00:36.000Z",
+ "cuota_visto": "2026-10-29T01:40:19.000Z",
  "metricas_buffer": {
   "con_metricas": 70,
   "disponible": true,
@@ -18597,18 +18597,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|x": {
-   "actualizado": "2026-10-29T01:00:34.000Z",
+   "actualizado": "2026-10-29T01:40:18.000Z",
    "buffer_id": "6ae29ab4cc91be5434bd0f26",
    "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|x",
    "creado": "2026-10-29T01:00:22.000Z",
    "dueAt": "2026-10-29T01:02:10.000Z",
+   "enviado": "2026-10-29T01:02:25.689Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T00:43:18.000Z",
    "id": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115610170340384818",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
    "noticia": "nota:chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
    "origen": "bot",
@@ -19998,19 +19999,20 @@
    "viral": false
   },
   "entrevistas:job00255|tiktok": {
-   "actualizado": "2026-10-29T00:00:18.000Z",
+   "actualizado": "2026-10-29T01:40:18.000Z",
    "buffer_id": "6ae28c987d94db46db249930",
    "categoria": "",
    "clave": "entrevistas:job00255|tiktok",
    "creado": "2026-10-28T16:40:16.000Z",
    "dueAt": "2026-10-29T01:23:38.000Z",
+   "enviado": "2026-10-29T01:25:28.373Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T16:40:16.000Z",
    "id": "entrevistas:job00255",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701894399164271892",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -20055,19 +20057,20 @@
    "viral": false
   },
   "entrevistas:job00256|tiktok": {
-   "actualizado": "2026-10-29T00:00:18.000Z",
+   "actualizado": "2026-10-29T01:40:18.000Z",
    "buffer_id": "6ae28c977a72c9efac07e69f",
    "categoria": "",
    "clave": "entrevistas:job00256|tiktok",
    "creado": "2026-10-28T17:00:32.000Z",
    "dueAt": "2026-10-29T01:03:32.000Z",
+   "enviado": "2026-10-29T01:05:28.490Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T17:00:32.000Z",
    "id": "entrevistas:job00256",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701889235728518421",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -20112,19 +20115,20 @@
    "viral": false
   },
   "entrevistas:job00257|tiktok": {
-   "actualizado": "2026-10-29T00:00:18.000Z",
+   "actualizado": "2026-10-29T01:40:18.000Z",
    "buffer_id": "6ae28c96b5c2969a0720afe5",
    "categoria": "",
    "clave": "entrevistas:job00257|tiktok",
    "creado": "2026-10-28T17:40:18.000Z",
    "dueAt": "2026-10-29T00:43:14.000Z",
+   "enviado": "2026-10-29T00:44:58.691Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T17:40:18.000Z",
    "id": "entrevistas:job00257",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7701883958681799957",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -24457,18 +24461,19 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc|x": {
-   "actualizado": "2026-10-29T01:00:34.000Z",
+   "actualizado": "2026-10-29T01:40:18.000Z",
    "buffer_id": "6ae29ab404f348da4000b75c",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc|x",
    "creado": "2026-10-28T23:20:14.000Z",
    "dueAt": "2026-10-29T01:07:44.000Z",
+   "enviado": "2026-10-29T01:07:48.323Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-28T23:01:57.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115611523653497290",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-atraparon-a-un-joven-de-24-anos-dentro-del-a025c0",
    "noticia": "nota:bragado-atraparon-a-un-joven-de-24-anos-dentro-del-a025c0",
    "origen": "policiales",
@@ -33932,38 +33937,6 @@
  },
  "registro": [
   {
-   "clave": "nacionales:56e46b4aea933185|tiktok",
-   "cuando": "2026-10-24T01:00:20.000Z",
-   "evento": "depurado",
-   "motivo": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvllmur3yyre_01.mp4|x",
-   "cuando": "2026-10-24T01:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113778223720915260"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|tiktok",
-   "cuando": "2026-10-24T01:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700016586958163252"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un|x",
-   "cuando": "2026-10-24T01:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2113779702892548245"
-  },
-  {
-   "clave": "nacionales:48bb4e9d6ed706f8|x",
-   "cuando": "2026-10-24T01:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "nacionales"
-  },
-  {
    "clave": "nacionales:48bb4e9d6ed706f8|tiktok",
    "cuando": "2026-10-24T01:20:18.000Z",
    "estado": "pendiente",
@@ -38150,6 +38123,36 @@
    "cuando": "2026-10-29T01:20:15.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|x",
+   "cuando": "2026-10-29T01:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115610170340384818"
+  },
+  {
+   "clave": "entrevistas:job00255|tiktok",
+   "cuando": "2026-10-29T01:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701894399164271892"
+  },
+  {
+   "clave": "entrevistas:job00256|tiktok",
+   "cuando": "2026-10-29T01:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701889235728518421"
+  },
+  {
+   "clave": "entrevistas:job00257|tiktok",
+   "cuando": "2026-10-29T01:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7701883958681799957"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc|x",
+   "cuando": "2026-10-29T01:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115611523653497290"
   }
  ],
  "tandas": {
@@ -38183,7 +38186,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T00:40:17.000Z",
+ "ultima_sync": "2026-10-29T01:40:18.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
