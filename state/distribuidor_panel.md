@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 1 | 4 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 2 | 3 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 2 |
-| Reels del bot | TikTok | 20 | 2 | 1 | 6 | 1 | 0 | 1 |
+| Reels del bot | TikTok | 20 | 3 | 0 | 6 | 1 | 0 | 1 |
 | Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 28 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 5 enviadas + 3 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 30.5 · likes 0
@@ -28,7 +28,7 @@ Actualizado: 28/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 501.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 566 de 600 · 30d: quedan 1001 de 2000 (visto 2026-10-29T00:00:25.000Z)
+15m: quedan 149 de 150 · 24h: quedan 565 de 600 · 30d: quedan 1000 de 2000 (visto 2026-10-29T00:40:17.000Z)
 
 ## Cola propia (8 esperando)
 - TikTok · Reels del bot · Aprehendieron a dos menores acusados de robar en una panadería — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -49,8 +49,6 @@ Actualizado: 28/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T18:40 recibido entrevistas:job00259|x 
-- 2026-10-28T18:40 recibido entrevistas:job00259|tiktok 
 - 2026-10-28T18:40 recibido web:fa7a2365-e27c-4bdf-9c34-2f2ee579ca54|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-28T18:40 programado bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|x 
 - 2026-10-28T18:40 programado entrevistas:job00259|x 
@@ -74,3 +72,5 @@ Actualizado: 28/10/2026 21:20 (hora AR) · ACTIVO
 - 2026-10-29T00:00 programado entrevistas:job00257|tiktok 
 - 2026-10-29T00:00 programado entrevistas:job00256|tiktok 
 - 2026-10-29T00:00 programado entrevistas:job00255|tiktok 
+- 2026-10-29T00:40 enviado bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|tikto 
+- 2026-10-29T00:40 enviado entrevistas:job00258|tiktok 
