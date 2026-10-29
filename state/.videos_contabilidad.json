@@ -35864,5 +35864,61 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-10-29T11:00:57",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti",
+    "uploader": "",
+    "fecha_recibido": "2026-10-29T11:15:27",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Chivilcoy · Servicios",
+    "titulo": "Los bancos no atenderán al público durante cinco días seguidos",
+    "resumen": "Las sucursales bancarias tendrán cinco jornadas consecutivas sin atención presencial durante noviembre. El período comenzará el viernes 6, por el Día del Trabajador Bancario, y continuará durante el sábado 7 y el domingo 8. A ese cierre se sumarán el lunes 9 y el martes 10.",
+    "texto": "Las sucursales bancarias tendrán cinco jornadas consecutivas sin atención presencial durante noviembre. El período comenzará el viernes 6, por el Día del Trabajador Bancario, y continuará durante el sábado 7 y el domingo 8.\n\nA ese cierre se sumarán el lunes 9, declarado feriado nacional por la visita del papa León XIV, y el martes 10, establecido como feriado bancario en todo el país por el Banco Central mediante la Comunicación A 8487/2026. Esta última disposición también alcanza a Chivilcoy.\n\nPara los usuarios bonaerenses existe una particularidad adicional: el Decreto 1103/2026 establece un feriado para el miércoles 11 de noviembre en la provincia de Buenos Aires. Sin embargo, esa fecha no figura en el calendario general de feriados bancarios del BCRA. Por ese motivo, antes de concurrir a una sucursal de Chivilcoy, será necesario consultar a cada entidad para confirmar la atención de esa jornada.\n\nDurante el cierre seguirán disponibles el home banking, las aplicaciones bancarias y las billeteras virtuales para realizar transferencias, pagos y consultas. También podrán utilizarse tarjetas de débito y crédito y extraerse efectivo en cajeros automáticos, sujeto a la disponibilidad de cada terminal.\n\nQuienes necesiten realizar trámites por ventanilla podrán organizar sus gestiones antes del jueves 5 de noviembre. Para pagos y vencimientos, conviene revisar las condiciones y fechas de procesamiento informadas por cada entidad.",
+    "bajada_reel": "La interrupción presencial abarcará del viernes 6 al martes 10 de noviembre inclusive.",
+    "escrito": "Los bancos cerrarán cinco días seguidos en noviembre: qué deberán tener en cuenta los vecinos de Chivilcoy\nLa atención presencial estará interrumpida desde el viernes 6 hasta el martes 10. Los canales digitales continuarán disponibles. En territorio bonaerense, además, habrá que confirmar la atención del miércoles 11.\nLas sucursales bancarias tendrán cinco jornadas consecutivas sin atención presencial durante noviembre. El período comenzará el viernes 6, por el Día del Trabajador Bancario, y continuará durante el sábado 7 y el domingo 8.\nA ese cierre se sumarán el lunes 9, declarado feriado nacional por la visita del papa León XIV, y el martes 10, establecido como feriado bancario en todo el país por el Banco Central mediante la Comunicación A 8487/2026. Esta última disposición también alcanza a Chivilcoy.\nPara los usuarios bonaerenses existe una particularidad adicional: el Decreto 1103/2026 establece un feriado para el miércoles 11 de noviembre en la provincia de Buenos Aires. Sin embargo, esa fecha no figura en el calendario general de feriados bancarios del BCRA. Por ese motivo, antes de concurrir a una sucursal de Chivilcoy, será necesario consultar a cada entidad para confirmar la atención de esa jornada.\nDurante el cierre seguirán disponibles el home banking, las aplicaciones bancarias y las billeteras virtuales para realizar transferencias, pagos y consultas. También podrán utilizarse tarjetas de débito y crédito y extraerse efectivo en cajeros automáticos, sujeto a la disponibilidad de cada terminal.\nQuienes necesiten realizar trámites por ventanilla podrán organizar sus gestiones antes del jueves 5 de noviembre. Para pagos y vencimientos, conviene revisar las condiciones y fechas de procesamiento informadas por cada entidad.",
+    "tarjetas_fotos": [
+      [
+        "CRONOGRAMA",
+        "El cierre irá del viernes 6 al martes 10 de noviembre"
+      ],
+      [
+        "MIÉRCOLES 11",
+        "Piden consultar a cada sucursal si atenderá por feriado provincial"
+      ],
+      [
+        "CANALES DIGITALES",
+        "Seguirán habilitados cajeros automáticos, transferencias y pagos por billeteras virtuales"
+      ]
+    ],
+    "draft_id": "d5f53bed-b052-4c25-bed8-d407293e0f55",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-10-29-matias-zucchi-mv.mp4",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-10-29T14:11:57.958Z — wa:5492346417636",
+    "decl": null,
+    "tema_4x5": "blanco",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-10-29T11:17:50",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "vía Buffer (distribuidor)",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
+    "ig_media_id": "18033483518905068",
+    "fb_video_id": "4826794624216235",
+    "ig_historia_id": "17899321131612277",
+    "fb_historia_id": "1105887338737292",
+    "yt_video_id": "8ct89pSas9w",
+    "yt_url": "https://www.youtube.com/shorts/8ct89pSas9w"
   }
 ]
