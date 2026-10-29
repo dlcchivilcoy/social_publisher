@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 12:20 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 12:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 2 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 4 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 0 | 2 |
+| Reels del bot | TikTok | 20 | 5 | 0 | 5 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 6 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,9 +28,10 @@ Actualizado: 29/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 582 de 600 · 30d: quedan 980 de 2000 (visto 2026-10-29T15:20:20.000Z)
+15m: quedan 149 de 150 · 24h: quedan 581 de 600 · 30d: quedan 979 de 2000 (visto 2026-10-29T15:40:29.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (7 esperando)
+- TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -47,10 +48,6 @@ Actualizado: 29/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T14:00 enviado bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok 
-- 2026-10-29T14:00 enviado web:561853b1-67e1-45fd-b235-1ca7ac0f7b85|x 
-- 2026-10-29T14:00 enviado web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x 
-- 2026-10-29T14:00 enviado web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x 
 - 2026-10-29T14:00 programado web:fa24c212-927b-4b43-b2d4-535b06d40feb|x 
 - 2026-10-29T14:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x 
 - 2026-10-29T14:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tikto 
@@ -72,3 +69,7 @@ Actualizado: 29/10/2026 12:20 (hora AR) · ACTIVO
 - 2026-10-29T15:20 enviado bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok 
 - 2026-10-29T15:20 enviado web:fa24c212-927b-4b43-b2d4-535b06d40feb|x 
 - 2026-10-29T15:20 enviado web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x 
+- 2026-10-29T15:40 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x 
+- 2026-10-29T15:40 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tikto 
+- 2026-10-29T15:40 recibido web:990de47c-8ca8-4fd3-898a-2d852ee61aa7|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-29T15:40 programado bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x 

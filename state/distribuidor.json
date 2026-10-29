@@ -1335,6 +1335,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_269f1429ca8d2a05.mp4",
    "youtube_url": "https://www.youtube.com/shorts/ZgGmutFOBcU"
   },
+  "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2": {
+   "descripcion": "Chivilcoy consolida políticas de sustentabilidad, economía circular y educación ecológica. La coordinadora de Medio Ambiente de la Municipalidad de Chivilcoy, Camila Martínez, destacó el trabajo conjunto con las instituciones educativas y convocó a la comunidad a incorporar hábitos",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-29T15:27:59.000Z",
+   "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Habilitaron un nuevo espacio sustentable en el Paseo Guernica",
+   "urgente": false,
+   "video_bytes": 855785,
+   "video_mb": 0.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_758f7c67115ec0d1.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/oi03fKdNyXw"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -4504,32 +4525,6 @@
    "volanta": "Clásico de Avellaneda",
    "youtube_url": "https://youtube.com/shorts/Yg_pXXpi3iE"
   },
-  "nacionales:c557a454a9895504": {
-   "categoria": "Mundo",
-   "categoria_nacional": "internacionales",
-   "descripcion": "El trágico episodio ocurrió en una iglesia de Guayaquil durante la transmisión en vivo de la ceremonia. La víctima fue identificada como el padre Patricio Alfredo Sánchez Molinari.",
-   "duracion_seg": 20.1,
-   "generado": "2026-10-18T21:35:51.000Z",
-   "hashtags": [
-    "Ecuador",
-    "Guayaquil"
-   ],
-   "id": "nacionales:c557a454a9895504",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/murio-un-sacerdote-en-plena-misa-en-ecuador-tras-la-caida-de-c557a4",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "Murió un sacerdote en plena misa tras caerle una cruz de madera en la cabeza",
-   "urgente": false,
-   "video_bytes": 288153,
-   "video_mb": 0.3,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_c557a454a9_murio-un-sacerdote-en-plena-misa-tras-caerle-una.mp4",
-   "volanta": "Tragedia en Ecuador",
-   "youtube_url": "https://youtube.com/shorts/X7rufqvm7js"
-  },
   "nacionales:c6ed9c5ff821ce8c": {
    "categoria": "Cine y series",
    "categoria_nacional": "cine_series",
@@ -6847,24 +6842,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/aniversario-especial-el-circulo-criollo-el-bozal-celebra-sus-50-anos",
    "volanta": "Aniversario especial"
   },
-  "web:2991bf21-e852-48ba-87ce-5d073c3a7487": {
-   "categoria": "nacionales",
-   "descripcion": "El secretario de Minería, Luis Lucero, encabeza una comitiva en el Reino Unido para foros de inversión. El viaje se da tras la demanda argentina en…",
-   "generado": "2026-10-18T15:07:35.915Z",
-   "id": "web:2991bf21-e852-48ba-87ce-5d073c3a7487",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_4808a292940c405ead1e585c66225af9~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Misión minera en Londres en plena tensión diplomática por las Islas Malvinas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085",
-   "volanta": ""
-  },
   "web:29bafb6c-db7b-4454-ba46-6708c7e90b80": {
    "categoria": "",
    "descripcion": "“A pesar de las dificultades”, Britos aseguró que en los últimos 11 años “los distintos barrios de Chivilcoy registraron mejoras en infraestructura y otros servicios” En el acto central por el aniversario de la ciudad, el intendente destacó los avances de los últimos 11 años, defendió la gestión en materia de seguridad, anticipó gestiones para recuperar parte de la exclínica IMO para el patrimonio municipal y puso en valor el trabajo de los empleados municipales. Además, anunció que está...",
@@ -7238,24 +7215,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-capacitaron-a-las-fuerzas-de-seguridad-para",
    "volanta": "Chivilcoy · Seguridad"
-  },
-  "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b": {
-   "categoria": "",
-   "descripcion": "La Secretaría de Agricultura estrenó un sitio web para monitorear el fenómeno climático y brindar asesoramiento técnico a productores.",
-   "generado": "2026-10-18T15:02:20.979Z",
-   "id": "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_44d763046e7f406bbf86a73d35ec24db~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-lanzan-plataforma-oficial-con-monitoreo-y-guias-49f74d",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-nino-lanzan-plataforma-oficial-con-monitoreo-y-guias-49f74d",
-   "volanta": ""
   },
   "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade": {
    "categoria": "",
@@ -7910,24 +7869,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/comunidad-educativa-movilizada-este-viernes-la-escuela-secundaria-n-8",
    "volanta": ""
   },
-  "web:5e1b7468-652a-43da-baf9-771cda1103ff": {
-   "categoria": "",
-   "descripcion": "El Padre Ricardo brindó una bendición especial a las madres En el marco de las celebraciones por el Día de la Madre, el Padre Ricardo realizó una bendición especial dedicada a todas las madres en la Parroquia San Pedro de Chivilcoy. Durante su mensaje, destacó la importancia de «recordar, agradecer y valorar» a las madres «como uno de los regalos más preciosos», remarcando que desde la fe, la esperanza y la caridad van orientando y haciendo crecer a sus hijos. Asimismo, pidió bendecir a las...",
-   "generado": "2026-10-18T15:04:15.437Z",
-   "id": "web:5e1b7468-652a-43da-baf9-771cda1103ff",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0be924d832434556a66f9cfb6ba3bc13~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Padre Ricardo brindó una bendición especial a las madres",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
-   "volanta": "Chivilcoy · Sociedad"
-  },
   "web:603008ee-aaa2-4035-94d1-a082d4cfaa32": {
    "categoria": "",
    "descripcion": "La Libertad Avanza reunió a más de 400 concejales bonaerenses con la mirada puesta en 2027 y presencia chivilcoyana El encuentro provincial se realizó en Avellaneda y contó con la participación del concejal y coordinador local, Federico Feminella. Se abordaron ejes de trabajo legislativo, reducción de tasas y fortalecimiento territorial.  La Libertad Avanza (LLA) llevó a cabo en la ciudad de Avellaneda el Primer Encuentro Provincial de Concejales, una convocatoria que reunió a más de 400...",
@@ -8079,24 +8020,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
    "volanta": "Chivilcoy · Educación"
-  },
-  "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7": {
-   "categoria": "nacionales",
-   "descripcion": "El Sumo Pontífice brindó el Ángelus desde el Palacio Apostólico luego de recibir el alta médica. Su equipo médico confirmó que no existen impedimentos…",
-   "generado": "2026-10-18T15:37:35.894Z",
-   "id": "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a5e288fb1e7745e79f2afe43328f551a~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El papa León XIV reapareció en público tras una cirugía de pulmón y descartan impedimentos para su viaje",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
-   "volanta": ""
   },
   "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d": {
    "categoria": "",
@@ -9298,6 +9221,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
    "volanta": "Chivilcoy · Deportes"
+  },
+  "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7": {
+   "categoria": "",
+   "descripcion": "Habilitaron un nuevo espacio sustentable en el Paseo Guernica",
+   "generado": "2026-10-29T15:26:00.160Z",
+   "id": "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ec019ae13abf4ef0bd82100c955287b2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy · Medio ambiente",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
+   "volanta": ""
   },
   "web:992a0e03-d222-428d-b6f8-9d7b90cebe38": {
    "categoria": "nacionales",
@@ -11611,17 +11553,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 582,
-   "segundos": 64796,
+   "restantes": 581,
+   "segundos": 63587,
    "tope": 600
   },
   "30d": {
-   "restantes": 980,
-   "segundos": 1057820,
+   "restantes": 979,
+   "segundos": 1056612,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T15:20:20.000Z",
+ "cuota_visto": "2026-10-29T15:40:29.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -15858,6 +15800,62 @@
    "vence": "2026-10-29T16:25:34.000Z",
    "video_bytes": 1568675,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_269f1429ca8d2a05.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok": {
+   "actualizado": "2026-10-29T15:40:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok",
+   "creado": "2026-10-29T15:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T15:27:59.000Z",
+   "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Habilitaron un nuevo espacio sustentable en el Paseo Guernica\n\nChivilcoy consolida sus políticas de sustentabilidad, economía circular y educación ecológica. En este marco, la coordinadora de Medio Ambiente de la Municipalidad, Camila Martínez, destacó el trabajo conjunto con instituciones educativas y convocó a la comunidad a incorporar nuevos hábitos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Habilitaron un nuevo espacio sustentable en el Paseo Guernica",
+   "urgente": false,
+   "vence": "2026-10-31T15:27:59.000Z",
+   "video_bytes": 855785,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_758f7c67115ec0d1.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x": {
+   "actualizado": "2026-10-29T15:40:28.000Z",
+   "buffer_id": "6ae368edf3a8aff3f355fc4c",
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x",
+   "creado": "2026-10-29T15:40:17.000Z",
+   "dueAt": "2026-10-29T15:42:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T15:27:59.000Z",
+   "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
+   "noticia": "nota:chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Habilitaron un nuevo espacio sustentable en el Paseo Guernica\n\nChivilcoy consolida políticas de sustentabilidad, economía circular y educación ecológica.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Habilitaron un nuevo espacio sustentable en el Paseo Guernica",
+   "urgente": false,
+   "vence": "2026-10-29T17:27:59.000Z",
+   "video_bytes": 855785,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_758f7c67115ec0d1.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -22714,32 +22712,6 @@
    "video_bytes": 89515,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_c27183ebaf_racing-e-independiente-empataron-1-1-en-el.mp4"
   },
-  "nacionales:c557a454a9895504|tiktok": {
-   "actualizado": "2026-10-19T15:40:25.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:c557a454a9895504|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T21:35:51.000Z",
-   "id": "nacionales:c557a454a9895504",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/murio-un-sacerdote-en-plena-misa-en-ecuador-tras-la-caida-de-c557a4",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Murió un sacerdote en plena misa tras caerle una cruz de madera en la cabeza\n\nEl trágico episodio ocurrió en una iglesia de Guayaquil durante la transmisión en vivo de la ceremonia. La víctima fue identificada como el padre Patricio Alfredo Sánchez Molinari.\n\nhttps://www.diariolacampaña.com.ar/n/murio-un-sacerdote-en-plena-misa-en-ecuador-tras-la-caida-de-c557a4\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #Ecuador",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Murió un sacerdote en plena misa tras caerle una cruz de madera en la cabeza",
-   "urgente": false,
-   "vence": "2026-10-19T15:35:51.000Z",
-   "video_bytes": 288153,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_c557a454a9_murio-un-sacerdote-en-plena-misa-tras-caerle-una.mp4"
-  },
   "nacionales:c6ed9c5ff821ce8c|tiktok": {
    "actualizado": "2026-10-20T09:00:31.000Z",
    "buffer_id": "",
@@ -26574,32 +26546,6 @@
    "video_bytes": 0,
    "video_url": ""
   },
-  "web:2991bf21-e852-48ba-87ce-5d073c3a7487|x": {
-   "actualizado": "2026-10-19T15:20:50.000Z",
-   "buffer_id": "",
-   "clave": "web:2991bf21-e852-48ba-87ce-5d073c3a7487|x",
-   "creado": "2026-10-18T15:20:15.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T15:07:35.915Z",
-   "id": "web:2991bf21-e852-48ba-87ce-5d073c3a7487",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Misión minera en Londres en plena tensión diplomática por las Islas Malvinas\n\nEl secretario de Minería, Luis Lucero, encabeza una comitiva en el Reino Unido para foros de inversión. El viaje se da tras una demanda argentina.\n\nhttps://www.diariolacampaña.com.ar/n/mision-minera-en-londres-en-plena-tension-diplomatica-por-las-b61085",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Misión minera en Londres en plena tensión diplomática por las Islas Malvinas",
-   "urgente": false,
-   "vence": "2026-10-19T15:07:35.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:29bafb6c-db7b-4454-ba46-6708c7e90b80|x": {
    "actualizado": "2026-10-23T11:40:15.000Z",
    "buffer_id": "6adb3101e4169c55aabddab3",
@@ -27167,32 +27113,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x": {
-   "actualizado": "2026-10-19T15:20:50.000Z",
-   "buffer_id": "",
-   "clave": "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b|x",
-   "creado": "2026-10-18T15:20:15.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T15:02:20.979Z",
-   "id": "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-lanzan-plataforma-oficial-con-monitoreo-y-guias-49f74d",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro\n\nLa Secretaría de Agricultura estrenó un sitio web para monitorear el fenómeno climático y brindar asesoramiento técnico a productores.\n\nhttps://www.diariolacampaña.com.ar/n/el-nino-lanzan-plataforma-oficial-con-monitoreo-y-guias-49f74d",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El Niño: lanzan plataforma oficial con monitoreo y guías técnicas para el agro",
-   "urgente": false,
-   "vence": "2026-10-19T15:02:20.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade|x": {
    "actualizado": "2026-10-20T21:20:16.000Z",
@@ -28236,32 +28156,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:5e1b7468-652a-43da-baf9-771cda1103ff|x": {
-   "actualizado": "2026-10-19T15:20:50.000Z",
-   "buffer_id": "",
-   "clave": "web:5e1b7468-652a-43da-baf9-771cda1103ff|x",
-   "creado": "2026-10-18T15:20:15.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T15:04:15.437Z",
-   "id": "web:5e1b7468-652a-43da-baf9-771cda1103ff",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "El Padre Ricardo brindó una bendición especial a las madres\n\nEn la Parroquia San Pedro de Chivilcoy, el sacerdote destacó la importancia de recordar, agradecer y valorar a las madres como uno de los regalos más preciosos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-padre-ricardo-brindo-una-bendicion-especial-a",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El Padre Ricardo brindó una bendición especial a las madres",
-   "urgente": false,
-   "vence": "2026-10-19T15:04:15.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:603008ee-aaa2-4035-94d1-a082d4cfaa32|x": {
    "actualizado": "2026-10-22T11:40:14.000Z",
    "buffer_id": "6ad9e35f81158a0b17983abe",
@@ -28500,32 +28394,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x": {
-   "actualizado": "2026-10-19T15:40:25.000Z",
-   "buffer_id": "",
-   "clave": "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7|x",
-   "creado": "2026-10-18T15:40:18.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T15:37:35.894Z",
-   "id": "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "El papa León XIV reapareció en público tras una cirugía de pulmón y descartan impedimentos para su viaje\n\nEl Sumo Pontífice brindó el Ángelus tras recibir el alta médica. Su equipo confirmó que no existen impedimentos.\n\nhttps://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El papa León XIV reapareció en público tras una cirugía de pulmón y descartan impedimentos para su viaje",
-   "urgente": false,
-   "vence": "2026-10-19T15:37:35.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d|x": {
    "actualizado": "2026-10-22T11:40:14.000Z",
@@ -30453,6 +30321,31 @@
    "titulo": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy",
    "urgente": false,
    "vence": "2026-10-24T22:26:35.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7|x": {
+   "actualizado": "2026-10-29T15:40:17.000Z",
+   "buffer_id": "",
+   "clave": "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7|x",
+   "creado": "2026-10-29T15:40:17.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-29T15:26:00.160Z",
+   "id": "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
+   "noticia": "nota:chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy · Medio ambiente",
+   "urgente": false,
+   "vence": "2026-10-29T19:26:00.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -33981,34 +33874,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x",
-   "cuando": "2026-10-24T19:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114057475687059838"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|x",
-   "cuando": "2026-10-24T19:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114064971436814378"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x",
-   "cuando": "2026-10-24T19:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|tiktok",
-   "cuando": "2026-10-24T19:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "buffer_id": "6add09a60b5343d0709cd55d",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8|x",
@@ -38201,6 +38066,37 @@
    "cuando": "2026-10-29T15:20:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2115807746406629774"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x",
+   "cuando": "2026-10-29T15:40:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok",
+   "cuando": "2026-10-29T15:40:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7|x",
+   "cuando": "2026-10-29T15:40:28.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae368edf3a8aff3f355fc4c",
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x",
+   "cuando": "2026-10-29T15:40:29.000Z",
+   "dueAt": "2026-10-29T15:42:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38332,6 +38228,7 @@
   "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh": "2026-10-28T21:20:21.000Z",
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti": "2026-10-29T14:20:15.000Z",
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b": "2026-10-29T14:40:15.000Z",
+  "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2": "2026-10-29T15:40:17.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -38992,6 +38889,7 @@
   "web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5": "2026-10-19T15:20:16.000Z",
   "web:98a9875b-509c-4991-a320-f773a9713053": "2026-10-27T18:40:16.000Z",
   "web:98e77637-c555-4989-b556-499e25484041": "2026-10-24T18:40:13.000Z",
+  "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7": "2026-10-29T15:40:17.000Z",
   "web:992a0e03-d222-428d-b6f8-9d7b90cebe38": "2026-10-19T23:20:14.000Z",
   "web:993aea8e-95de-4b48-ac0f-22d386bc338b": "2026-10-22T10:02:31.000Z",
   "web:99a98512-7ac4-4629-a1a6-eab0dc99a301": "2026-10-20T00:00:19.000Z",
