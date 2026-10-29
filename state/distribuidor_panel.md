@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 06:00 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 06:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -17,18 +17,18 @@ Actualizado: 29/10/2026 06:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 30.5 · likes 0
-- X · Reels del bot: 76 con métricas · mediana vistas/impresiones 28 · likes 0
-- X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
-- X · Notas web: 72 con métricas · mediana vistas/impresiones 23.5 · likes 0
+- X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 30 · likes 0
+- X · Reels del bot: 84 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels policiales: 23 con métricas · mediana vistas/impresiones 40 · likes 0
+- X · Notas web: 85 con métricas · mediana vistas/impresiones 24 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
-- TikTok · Recortes de entrevistas: 7 con métricas · mediana vistas/impresiones 107 · likes 0
-- TikTok · Reels del bot: 58 con métricas · mediana vistas/impresiones 298 · likes 3
+- TikTok · Recortes de entrevistas: 12 con métricas · mediana vistas/impresiones 95.5 · likes 0
+- TikTok · Reels del bot: 61 con métricas · mediana vistas/impresiones 315 · likes 3
 - TikTok · Reels policiales: 8 con métricas · mediana vistas/impresiones 520 · likes 3.5
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 501.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 563 de 600 · 30d: quedan 998 de 2000 (visto 2026-10-29T01:40:19.000Z)
+15m: quedan 149 de 150 · 24h: quedan 599 de 600 · 30d: quedan 997 de 2000 (visto 2026-10-29T09:20:15.000Z)
 
 ## Cola propia (7 esperando)
 - TikTok · Reels del bot · Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
