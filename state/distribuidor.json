@@ -11827,22 +11827,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
+   "restantes": 149,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 595,
-   "segundos": 81599,
+   "restantes": 594,
+   "segundos": 80396,
    "tope": 600
   },
   "30d": {
-   "restantes": 993,
-   "segundos": 1074624,
+   "restantes": 992,
+   "segundos": 1073421,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T10:40:17.000Z",
+ "cuota_visto": "2026-10-29T11:00:20.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -26078,14 +26078,14 @@
    "viral": false
   },
   "web:0cd5c457-7502-4d59-8051-9927ae917ce7|x": {
-   "actualizado": "2026-10-29T10:20:51.000Z",
+   "actualizado": "2026-10-29T11:00:19.000Z",
    "buffer_id": "6ae31e031db2603c2d97799f",
    "clave": "web:0cd5c457-7502-4d59-8051-9927ae917ce7|x",
    "creado": "2026-10-29T10:02:34.000Z",
    "dueAt": "2026-10-29T11:37:08.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-10-29T10:02:03.116Z",
    "id": "web:0cd5c457-7502-4d59-8051-9927ae917ce7",
    "intentos": 0,
@@ -31723,14 +31723,14 @@
    "viral": false
   },
   "web:b078718b-3db7-4e2d-a7e7-5e989121b045|x": {
-   "actualizado": "2026-10-29T10:02:34.000Z",
+   "actualizado": "2026-10-29T11:00:19.000Z",
    "buffer_id": "",
    "clave": "web:b078718b-3db7-4e2d-a7e7-5e989121b045|x",
    "creado": "2026-10-29T10:02:34.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-10-29T10:02:14.981Z",
    "id": "web:b078718b-3db7-4e2d-a7e7-5e989121b045",
    "intentos": 0,
@@ -33151,14 +33151,14 @@
    "viral": false
   },
   "web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x": {
-   "actualizado": "2026-10-29T10:03:20.000Z",
+   "actualizado": "2026-10-29T11:00:19.000Z",
    "buffer_id": "6ae319eaa667c7b474ae405d",
    "clave": "web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x",
    "creado": "2026-10-29T10:02:34.000Z",
    "dueAt": "2026-10-29T11:22:57.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-10-29T10:01:02.768Z",
    "id": "web:d90365e7-57ab-4bdc-90e5-fbd2e5210400",
    "intentos": 0,
@@ -34459,24 +34459,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|tiktok",
-   "cuando": "2026-10-24T13:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700219619839053076"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvjluzixklug_01.mp4|tiktok",
-   "cuando": "2026-10-24T14:20:20.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4|tiktok",
-   "cuando": "2026-10-24T14:20:20.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
   {
    "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|tiktok",
    "cuando": "2026-10-24T14:20:20.000Z",
@@ -38692,6 +38674,24 @@
    "cuando": "2026-10-29T10:40:17.000Z",
    "dueAt": "2026-10-29T12:07:31.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:b078718b-3db7-4e2d-a7e7-5e989121b045|x",
+   "cuando": "2026-10-29T11:00:19.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:0cd5c457-7502-4d59-8051-9927ae917ce7|x",
+   "cuando": "2026-10-29T11:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "clave": "web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x",
+   "cuando": "2026-10-29T11:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
   }
  ],
  "tandas": {

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 29/10/2026 07:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 2 | 5 | 7 | 0 | 0 | 0 |
+| Notas web | X | 15 | 2 | 3 | 6 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,16 +28,15 @@ Actualizado: 29/10/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 501.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 595 de 600 · 30d: quedan 993 de 2000 (visto 2026-10-29T10:40:17.000Z)
+15m: quedan 149 de 150 · 24h: quedan 594 de 600 · 30d: quedan 992 de 2000 (visto 2026-10-29T11:00:20.000Z)
 
-## Cola propia (14 esperando)
+## Cola propia (13 esperando)
 - X · Notas web · Impulsan una colecta solidaria para asistir a los damnificados por la crecida de — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · El Honorable Concejo Deliberante se prepara para una nueva Sesión Pública Ordina — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Destacada actuación del Ciclismo chivilcoyano en el Campeonato Argentino de Mar  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Clausura: Colón, Racing y San Lorenzo festejaron en la recta final de la  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Cuenta regresiva para el Medio Maratón "Eduardo Pollaroli": "Estamos preparados  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Simón Domínguez vuelve a vestir la albiceleste: representará a la Argentina en e — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · “Justicia, levántate y anda” — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a dos menores acusados de robar en una panadería — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una ciclista fue trasladada al hospital tras colisionar con un utilitario — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,9 +54,6 @@ Actualizado: 29/10/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T01:40 enviado entrevistas:job00257|tiktok 
-- 2026-10-29T01:40 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/ 
-- 2026-10-29T10:02 recibido web:d8bbde96-e323-4c02-93f7-b2e09a555019|x 
 - 2026-10-29T10:02 recibido web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x 
 - 2026-10-29T10:02 recibido web:b078718b-3db7-4e2d-a7e7-5e989121b045|x 
 - 2026-10-29T10:02 recibido web:0cd5c457-7502-4d59-8051-9927ae917ce7|x 
@@ -80,3 +76,6 @@ Actualizado: 29/10/2026 07:40 (hora AR) · ACTIVO
 - 2026-10-29T10:40 enviado web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x 
 - 2026-10-29T10:40 programado web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x 
 - 2026-10-29T10:40 programado web:d8bbde96-e323-4c02-93f7-b2e09a555019|x 
+- 2026-10-29T11:00 depurado web:b078718b-3db7-4e2d-a7e7-5e989121b045|x no está en el carrusel del diario de hoy
+- 2026-10-29T11:00 depurado web:0cd5c457-7502-4d59-8051-9927ae917ce7|x no está en el carrusel del diario de hoy (sacado de Buffer)
+- 2026-10-29T11:00 depurado web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x no está en el carrusel del diario de hoy (sacado de Buffer)
