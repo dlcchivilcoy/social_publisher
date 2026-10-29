@@ -3088,32 +3088,6 @@
    "volanta": "Julieta Prandi",
    "youtube_url": "https://youtube.com/shorts/Mghy9UsuAgU"
   },
-  "nacionales:0d6b3d4ada951c07": {
-   "categoria": "Espectáculos",
-   "categoria_nacional": "espectaculos",
-   "descripcion": "Celebridades de distintos ámbitos utilizaron las plataformas digitales para publicar dedicatorias, recuerdos familiares y reflexiones sobre la crianza en el marco de la conmemoración.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-19T04:07:09.000Z",
-   "hashtags": [
-    "DiaDeLaMadre",
-    "Famosos"
-   ],
-   "id": "nacionales:0d6b3d4ada951c07",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/dia-de-la-madre-los-mensajes-recuerdos-y-dedicatorias-de-los-0d6b3d",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "Famosos en las redes: mensajes y dedicatorias por el Día de la Madre",
-   "urgente": false,
-   "video_bytes": 84790,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0d6b3d4ada_famosos-en-las-redes-mensajes-y-dedicatorias-por.mp4",
-   "volanta": "Día de la Madre",
-   "youtube_url": "https://youtube.com/shorts/NpqDZJcQEwI"
-  },
   "nacionales:0f149db2f4d13c80": {
    "categoria": "Economía",
    "categoria_nacional": "",
@@ -3246,32 +3220,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_23d1fc7d23_ponzio-define-quien-reemplaza-a-martinez-quarta.mp4",
    "volanta": "River Plate",
    "youtube_url": "https://youtube.com/shorts/IK8lpOTf-8k"
-  },
-  "nacionales:25f7704c0cf2a754": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "El jefe de Gabinete defendió la modificación del sistema de votación, cuestionó al peronismo y criticó con dureza la gestión del gobernador bonaerense Axel Kicillof.",
-   "duracion_seg": 269.2,
-   "generado": "2026-10-19T04:37:04.000Z",
-   "hashtags": [
-    "DiegoSantilli",
-    "JavierMilei"
-   ],
-   "id": "nacionales:25f7704c0cf2a754",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/diego-santilli-aseguro-que-javier-milei-ganara-las-elecciones-25f770",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Santilli aseguró que Milei ganará en 2027 y ratificó la eliminación de las PASO",
-   "urgente": false,
-   "video_bytes": 10512704,
-   "video_mb": 10.0,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_25f7704c0c_santilli-aseguro-que-milei-ganara-en-2027-y.mp4",
-   "volanta": "Reforma electoral",
-   "youtube_url": "https://youtube.com/shorts/4Le0lO7VSw0"
   },
   "nacionales:2880ee387867b2da": {
    "categoria": "Economía",
@@ -5170,6 +5118,32 @@
    "volanta": "Siniestro vial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/O_7zp65rxFY"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html": {
+   "categoria": "accidente_vial",
+   "descripcion": "Una motociclista de 31 años terminó internada en el hospital municipal luego de impactar contra la parte trasera de un automóvil en la tarde de este martes.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-29T22:31:42.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-31-anos-fue-hospitalizada-tras-chocar-en-660ce7",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Una motociclista de 31 años fue hospitalizada esta tarde tras protagonizar un choque en la ciudad de Chacabuco.\n\nEl episodio se registró sobre la calle Deán Funes, entre San Juan y Alvear, cuando la conductora embistió la parte trasera de un auto que frenó de manera imprevista.\n\nTras el impacto, personal del SAME acudió al lugar y decidió su traslado en ambulancia al centro de salud debido a una lesión en una pierna.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #AccidenteDeTransito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Una mujer de 31 años fue hospitalizada tras chocar en moto contra un auto",
+   "urgente": false,
+   "video_bytes": 105194,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_02_chacabuco_una-mujer-de-31-a-os-fue-hospi.mp4",
+   "volanta": "Siniestro vial en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/TLZh9rg71nw"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html": {
    "categoria": "otro_policial",
    "descripcion": "Una vecina de esta ciudad solicitó auxilio policial en la madrugada luego de que su ex pareja intentara ingresar a su domicilio por los fondos. El agresor escapó antes de la llegada de los móviles.",
@@ -6577,24 +6551,6 @@
    "titulo": "Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/crecida-del-parana-preparan-la-evacuacion-de-15-000-vacas-en-c0e5d0",
-   "volanta": ""
-  },
-  "web:31a6f540-e9dd-415d-9833-6137456f0a06": {
-   "categoria": "nacionales",
-   "descripcion": "La Bolsa de Comercio de Rosario anticipa un incremento del 2% en la superficie sojera, que alcanzará 4,5 millones de hectáreas. El sector ajusta fechas y…",
-   "generado": "2026-10-18T22:35:10.484Z",
-   "id": "web:31a6f540-e9dd-415d-9833-6137456f0a06",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_acd47511f7964d2fadc08143865c39ed~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El Niño impulsa la \"soja táctica\" en la región núcleo y el trigo enciende alertas sanitarias",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
    "volanta": ""
   },
   "web:34578935-f4ba-4a48-b177-a3e196a4e890": {
@@ -8705,24 +8661,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/camiones-y-camioneta-siniestros-viales-fin-de-semana-con-multiples",
    "volanta": "Camiones y camioneta"
   },
-  "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283": {
-   "categoria": "nacionales",
-   "descripcion": "El nuevo vehículo eléctrico de Tesla fue presentado con propulsores de SpaceX capaces de realizar saltos aéreos, una función que recordó a la clásica…",
-   "generado": "2026-10-18T22:20:09.603Z",
-   "id": "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_84c2d2ef6f7641d4881a0b1608f5ae15~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nuevo-tesla-roadster-de-elon-musk-emula-el-turbo-boost-de-el-7570d6",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El nuevo Tesla Roadster de Elon Musk emula el Turbo Boost de El auto fantástico",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-nuevo-tesla-roadster-de-elon-musk-emula-el-turbo-boost-de-el-7570d6",
-   "volanta": ""
-  },
   "web:9bcaa52a-5164-4329-99d8-9e88c2c29241": {
    "categoria": "nacionales",
    "descripcion": "El Consejo de la Magistratura acelera las designaciones ante el próximo recambio de consejeros. Hay 191 vacantes en trámite, 77 en el Ejecutivo y 30 en el…",
@@ -9641,24 +9579,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
    "volanta": "Chivilcoy · Deportes"
-  },
-  "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4": {
-   "categoria": "nacionales",
-   "descripcion": "La Academia y el Rojo no se sacaron ventajas en el interzonal de la fecha 13. Anotaron Matías Zaracho y Maximiliano Meza. Iván Marcone y Matías…",
-   "generado": "2026-10-18T22:05:11.376Z",
-   "id": "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_2109041deb3d4f8694a9be82a4020132~mv2.webp",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-e-independiente-empataron-1-1-en-el-cilindro-por-la-c27183",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Racing e Independiente empataron 1-1 en el Cilindro por la fecha 13 del Torneo Clausura",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/racing-e-independiente-empataron-1-1-en-el-cilindro-por-la-c27183",
-   "volanta": ""
   },
   "web:cda8454d-0a50-4bdf-a400-999d0e9be823": {
    "categoria": "",
@@ -10798,17 +10718,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 568,
-   "segundos": 39594,
+   "restantes": 567,
+   "segundos": 38401,
    "tope": 600
   },
   "30d": {
-   "restantes": 966,
-   "segundos": 1032618,
+   "restantes": 965,
+   "segundos": 1031426,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T22:20:22.000Z",
+ "cuota_visto": "2026-10-29T22:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -19831,32 +19751,6 @@
    "video_bytes": 10564309,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_07376db259_julieta-prandi-viajo-a-brasil-tras-su-separacion.mp4"
   },
-  "nacionales:0d6b3d4ada951c07|tiktok": {
-   "actualizado": "2026-10-19T22:20:24.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:0d6b3d4ada951c07|tiktok",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T04:07:09.000Z",
-   "id": "nacionales:0d6b3d4ada951c07",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/dia-de-la-madre-los-mensajes-recuerdos-y-dedicatorias-de-los-0d6b3d",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Famosos en las redes: mensajes y dedicatorias por el Día de la Madre\n\nCelebridades de distintos ámbitos utilizaron las plataformas digitales para publicar dedicatorias, recuerdos familiares y reflexiones sobre la crianza en el marco de la conmemoración.\n\nhttps://www.diariolacampaña.com.ar/n/dia-de-la-madre-los-mensajes-recuerdos-y-dedicatorias-de-los-0d6b3d\n\n#chivilcoy #diariolacampaña #radiodelcentro #espectáculos #DiaDeLaMadre",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Famosos en las redes: mensajes y dedicatorias por el Día de la Madre",
-   "urgente": false,
-   "vence": "2026-10-19T22:07:09.000Z",
-   "video_bytes": 84790,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0d6b3d4ada_famosos-en-las-redes-mensajes-y-dedicatorias-por.mp4"
-  },
   "nacionales:0f149db2f4d13c80|tiktok": {
    "actualizado": "2026-10-23T22:00:21.000Z",
    "buffer_id": "",
@@ -20070,32 +19964,6 @@
    "vence": "2026-10-20T07:06:28.000Z",
    "video_bytes": 75724,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_23d1fc7d23_ponzio-define-quien-reemplaza-a-martinez-quarta.mp4"
-  },
-  "nacionales:25f7704c0cf2a754|tiktok": {
-   "actualizado": "2026-10-19T22:40:15.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:25f7704c0cf2a754|tiktok",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T04:37:04.000Z",
-   "id": "nacionales:25f7704c0cf2a754",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/diego-santilli-aseguro-que-javier-milei-ganara-las-elecciones-25f770",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Santilli aseguró que Milei ganará en 2027 y ratificó la eliminación de las PASO\n\nEl jefe de Gabinete defendió la modificación del sistema de votación, cuestionó al peronismo y criticó con dureza la gestión del gobernador bonaerense Axel Kicillof.\n\nhttps://www.diariolacampaña.com.ar/n/diego-santilli-aseguro-que-javier-milei-ganara-las-elecciones-25f770\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #DiegoSantilli",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Santilli aseguró que Milei ganará en 2027 y ratificó la eliminación de las PASO",
-   "urgente": false,
-   "vence": "2026-10-19T22:37:04.000Z",
-   "video_bytes": 10512704,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_25f7704c0c_santilli-aseguro-que-milei-ganara-en-2027-y.mp4"
   },
   "nacionales:2880ee387867b2da|tiktok": {
    "actualizado": "2026-10-20T22:00:21.000Z",
@@ -23414,6 +23282,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_0104_04_chacabuco_una-motociclista-de-20-a-os-su.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x": {
+   "actualizado": "2026-10-29T22:40:14.000Z",
+   "buffer_id": "6ae3cb4f2782e7f331bc4dec",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x",
+   "creado": "2026-10-29T22:40:14.000Z",
+   "dueAt": "2026-10-29T22:43:29.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T22:31:42.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-31-anos-fue-hospitalizada-tras-chocar-en-660ce7",
+   "noticia": "nota:chacabuco-una-mujer-de-31-anos-fue-hospitalizada-tras-chocar-en-660ce7",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Una mujer de 31 años fue hospitalizada tras chocar en moto contra un auto\n\nUna motociclista de 31 años terminó internada en el hospital municipal luego de impactar contra la parte trasera de un automóvil en la tarde de este martes.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-31-anos-fue-hospitalizada-tras-chocar-en-660ce7",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una mujer de 31 años fue hospitalizada tras chocar en moto contra un auto",
+   "urgente": false,
+   "vence": "2026-10-30T00:31:42.000Z",
+   "video_bytes": 105194,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_02_chacabuco_una-mujer-de-31-a-os-fue-hospi.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok": {
    "actualizado": "2026-10-21T14:20:14.000Z",
    "buffer_id": "6ad8b76b88865f7e6d302290",
@@ -25658,32 +25554,6 @@
    "titulo": "Crecida del Paraná: preparan la evacuación de 15.000 vacas en islas santafesinas",
    "urgente": false,
    "vence": "2026-10-20T17:03:24.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
-  "web:31a6f540-e9dd-415d-9833-6137456f0a06|x": {
-   "actualizado": "2026-10-19T22:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:31a6f540-e9dd-415d-9833-6137456f0a06|x",
-   "creado": "2026-10-18T22:40:12.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T22:35:10.484Z",
-   "id": "web:31a6f540-e9dd-415d-9833-6137456f0a06",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "El Niño impulsa la \"soja táctica\" en la región núcleo y el trigo enciende alertas sanitarias\n\nLa Bolsa de Comercio de Rosario anticipa un incremento del 2% en la superficie sojera, que alcanzará 4,5 millones de hectáreas.\n\nhttps://www.diariolacampaña.com.ar/n/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El Niño impulsa la \"soja táctica\" en la región núcleo y el trigo enciende alertas sanitarias",
-   "urgente": false,
-   "vence": "2026-10-19T22:35:10.000Z",
    "video_bytes": 0,
    "video_url": ""
   },
@@ -29028,32 +28898,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x": {
-   "actualizado": "2026-10-19T22:20:24.000Z",
-   "buffer_id": "",
-   "clave": "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283|x",
-   "creado": "2026-10-18T22:20:14.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T22:20:09.603Z",
-   "id": "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nuevo-tesla-roadster-de-elon-musk-emula-el-turbo-boost-de-el-7570d6",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "El nuevo Tesla Roadster de Elon Musk emula el Turbo Boost de El auto fantástico\n\nEl nuevo vehículo eléctrico presentado incluye propulsores de SpaceX que le permiten realizar saltos aéreos.\n\nhttps://www.diariolacampaña.com.ar/n/el-nuevo-tesla-roadster-de-elon-musk-emula-el-turbo-boost-de-el-7570d6",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El nuevo Tesla Roadster de Elon Musk emula el Turbo Boost de El auto fantástico",
-   "urgente": false,
-   "vence": "2026-10-19T22:20:09.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:9bcaa52a-5164-4329-99d8-9e88c2c29241|x": {
    "actualizado": "2026-10-19T23:20:22.000Z",
    "buffer_id": "",
@@ -30431,32 +30275,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x": {
-   "actualizado": "2026-10-19T22:20:24.000Z",
-   "buffer_id": "",
-   "clave": "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4|x",
-   "creado": "2026-10-18T22:20:14.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T22:05:11.376Z",
-   "id": "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-e-independiente-empataron-1-1-en-el-cilindro-por-la-c27183",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Racing e Independiente empataron 1-1 en el Cilindro por la fecha 13 del Torneo Clausura\n\nLa Academia y el Rojo no se sacaron ventajas en el interzonal de la fecha 13. Anotaron Matías Zaracho y Maximiliano Meza.\n\nhttps://www.diariolacampaña.com.ar/n/racing-e-independiente-empataron-1-1-en-el-cilindro-por-la-c27183",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Racing e Independiente empataron 1-1 en el Cilindro por la fecha 13 del Torneo Clausura",
-   "urgente": false,
-   "vence": "2026-10-19T22:05:11.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:cda8454d-0a50-4bdf-a400-999d0e9be823|x": {
    "actualizado": "2026-10-26T12:06:06.000Z",
@@ -32195,18 +32013,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x",
-   "cuando": "2026-10-25T01:40:14.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkzj6qzp6h9|tiktok",
-   "cuando": "2026-10-25T01:40:14.000Z",
-   "evento": "error_publicacion",
-   "motivo": "TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again."
-  },
   {
    "cuando": "2026-10-25T01:40:14.000Z",
    "evento": "pausa_red",
@@ -36420,6 +36226,21 @@
    "cuando": "2026-10-29T22:20:22.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7702203599878671637"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x",
+   "cuando": "2026-10-29T22:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6ae3cb4f2782e7f331bc4dec",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x",
+   "cuando": "2026-10-29T22:40:15.000Z",
+   "dueAt": "2026-10-29T22:43:29.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -36847,6 +36668,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/nuevo-choque-en-chacabuco.html": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/persecucion-con-detenidos-en-chacabuco.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/situaciones-violentas-en-un-casa-y-en.html": "2026-10-17T19:00:17.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html": "2026-10-29T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html": "2026-10-21T01:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html": "2026-10-17T16:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html": "2026-10-16T02:00:19.000Z",

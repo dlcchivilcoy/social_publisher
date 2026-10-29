@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 29/10/2026 19:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 2 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 4 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 8 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,7 +28,7 @@ Actualizado: 29/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 568 de 600 · 30d: quedan 966 de 2000 (visto 2026-10-29T22:20:22.000Z)
+15m: quedan 149 de 150 · 24h: quedan 567 de 600 · 30d: quedan 965 de 2000 (visto 2026-10-29T22:40:15.000Z)
 
 ## Cola propia (13 esperando)
 - TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -53,8 +53,6 @@ Actualizado: 29/10/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T17:40 enviado bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|x 
-- 2026-10-29T17:40 enviado entrevistas:job00260|x 
 - 2026-10-29T17:40 enviado entrevistas:job00261|x 
 - 2026-10-29T18:00 entrevista_aprobada entrevistas:job00262 
 - 2026-10-29T18:00 recibido entrevistas:job00262|x 
@@ -78,3 +76,5 @@ Actualizado: 29/10/2026 19:20 (hora AR) · ACTIVO
 - 2026-10-29T21:00 programado entrevistas:job00263|tiktok 
 - 2026-10-29T21:20 enviado entrevistas:job00264|tiktok 
 - 2026-10-29T22:20 enviado entrevistas:job00263|tiktok 
+- 2026-10-29T22:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/una-perso 
+- 2026-10-29T22:40 programado policiales:https://www.chacabuquero.com.ar/2026/10/una-perso 
