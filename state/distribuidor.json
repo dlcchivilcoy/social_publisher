@@ -4215,32 +4215,6 @@
    "volanta": "España",
    "youtube_url": "https://youtube.com/shorts/9WrNChFwTWw"
   },
-  "nacionales:a9f9a2fbd358a314": {
-   "categoria": "Deportes",
-   "categoria_nacional": "deportes",
-   "descripcion": "El clásico de Avellaneda terminó igualado en el Cilindro. Por su parte, el conjunto xeneize superó a Talleres y trepó a la cima de la tabla anual del fútbol argentino.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-19T01:06:29.000Z",
-   "hashtags": [
-    "LigaProfesional",
-    "ClasicoDeAvellaneda"
-   ],
-   "id": "nacionales:a9f9a2fbd358a314",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "tipo": "video",
-   "titulo": "Racing e Independiente empataron en el clásico y Boca lidera la tabla anual",
-   "urgente": false,
-   "video_bytes": 89169,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a9f9a2fbd3_racing-e-independiente-empataron-en-el-clasico-y.mp4",
-   "volanta": "Liga Profesional",
-   "youtube_url": "https://youtube.com/shorts/7wS5VzWSk4A"
-  },
   "nacionales:ae9e5a4804b66987": {
    "categoria": "Economía",
    "categoria_nacional": "",
@@ -8311,24 +8285,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rutas-5-y-3-construir-un-trazado-simple-en-territorio-pampeano-puede",
    "volanta": "Rutas 5 y 3"
-  },
-  "web:82b6cce8-6765-4661-8b19-1e22966dd60a": {
-   "categoria": "nacionales",
-   "descripcion": "El sector privado de la salud reclama extender la normativa vigente desde 2001 para evitar embargos. En paralelo, el PAMI atraviesa tensiones internas y…",
-   "generado": "2026-10-18T19:07:23.613Z",
-   "id": "web:82b6cce8-6765-4661-8b19-1e22966dd60a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_91d504ab5dfb46ee9c24e6e4264d97fe~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco mil clínicas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
-   "volanta": ""
   },
   "web:82d9c768-a466-49ff-882d-09e27a21796f": {
    "categoria": "nacionales",
@@ -22011,32 +21967,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a7e42407f5_javier-milei-trato-de-miserables-a-una-periodista.mp4",
    "viral": false
   },
-  "nacionales:a9f9a2fbd358a314|tiktok": {
-   "actualizado": "2026-10-19T19:20:16.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:a9f9a2fbd358a314|tiktok",
-   "creado": "2026-10-19T02:40:14.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-19T01:06:29.000Z",
-   "id": "nacionales:a9f9a2fbd358a314",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Racing e Independiente empataron en el clásico y Boca lidera la tabla anual\n\nEl clásico de Avellaneda terminó igualado en el Cilindro. Por su parte, el conjunto xeneize superó a Talleres y trepó a la cima de la tabla anual del fútbol argentino.\n\nhttps://www.diariolacampaña.com.ar/n/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2\n\n#chivilcoy #diariolacampaña #radiodelcentro #deportes #LigaProfesional",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Racing e Independiente empataron en el clásico y Boca lidera la tabla anual",
-   "urgente": false,
-   "vence": "2026-10-19T19:06:29.000Z",
-   "video_bytes": 89169,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a9f9a2fbd3_racing-e-independiente-empataron-en-el-clasico-y.mp4"
-  },
   "nacionales:ae9e5a4804b66987|tiktok": {
    "actualizado": "2026-10-23T23:00:24.000Z",
    "buffer_id": "",
@@ -28725,32 +28655,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:82b6cce8-6765-4661-8b19-1e22966dd60a|x": {
-   "actualizado": "2026-10-19T19:20:16.000Z",
-   "buffer_id": "",
-   "clave": "web:82b6cce8-6765-4661-8b19-1e22966dd60a|x",
-   "creado": "2026-10-18T19:20:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T19:07:23.613Z",
-   "id": "web:82b6cce8-6765-4661-8b19-1e22966dd60a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco mil clínicas\n\nEl sector privado de la salud reclama extender la normativa vigente desde 2001 para evitar embargos.\n\nhttps://www.diariolacampaña.com.ar/n/salud-en-alerta-analizan-extender-la-emergencia-para-evitar-la-b1c71e",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Salud en alerta: analizan extender la emergencia para evitar la quiebra de cinco mil clínicas",
-   "urgente": false,
-   "vence": "2026-10-19T19:07:23.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:82d9c768-a466-49ff-882d-09e27a21796f|x": {
    "actualizado": "2026-10-20T01:40:18.000Z",
