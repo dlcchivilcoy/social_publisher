@@ -1,13 +1,13 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 28/10/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 28/10/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-28)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 1 | 0 | 4 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 1 | 4 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 2 |
-| Reels del bot | TikTok | 20 | 2 | 0 | 7 | 1 | 0 | 1 |
+| Reels del bot | TikTok | 20 | 2 | 1 | 6 | 1 | 0 | 1 |
 | Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -18,7 +18,7 @@ Actualizado: 28/10/2026 20:40 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 30.5 · likes 0
-- X · Reels del bot: 78 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels del bot: 76 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 72 con métricas · mediana vistas/impresiones 23.5 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
@@ -28,20 +28,15 @@ Actualizado: 28/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 501.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 567 de 600 · 30d: quedan 1002 de 2000 (visto 2026-10-28T23:40:14.000Z)
+15m: quedan 149 de 150 · 24h: quedan 566 de 600 · 30d: quedan 1001 de 2000 (visto 2026-10-29T00:00:25.000Z)
 
-## Cola propia (13 esperando)
-- TikTok · Reels del bot · Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Aprehendieron a dos menores acusados de robar en una panadería — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Una ciclista fue trasladada al hospital tras colisionar con un utilitario — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Romina Serrano y el riesgo en la estética — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Maria Molina pide más solidaridad a los clubes de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Chivilcoy Teatrero: 1400 alumnos llenan las salas, por Diego Scarpellino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Jorge Guelffi: inclusión y carros adaptados en UNLu Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (8 esperando)
+- TikTok · Reels del bot · Aprehendieron a dos menores acusados de robar en una panadería — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · Una ciclista fue trasladada al hospital tras colisionar con un utilitario — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — no entró entre las 5 más virales de la tanda 21 h
 - X · Reels policiales · Detuvieron en Lomas de Zamora a un hombre de 41 años por robar techos solares — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Aprehenden a un joven de 24 años por intento de robo de cables en el exsupermerc — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
@@ -54,11 +49,6 @@ Actualizado: 28/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T18:20 enviado entrevistas:job00257|x 
-- 2026-10-28T18:20 programado entrevistas:job00258|x 
-- 2026-10-28T18:40 entrevista_aprobada entrevistas:job00259 
-- 2026-10-28T18:40 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|x 
-- 2026-10-28T18:40 recibido bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|tikto 
 - 2026-10-28T18:40 recibido entrevistas:job00259|x 
 - 2026-10-28T18:40 recibido entrevistas:job00259|tiktok 
 - 2026-10-28T18:40 recibido web:fa7a2365-e27c-4bdf-9c34-2f2ee579ca54|x la misma noticia ya sale en X (Reels del bot, pendiente)
@@ -79,3 +69,8 @@ Actualizado: 28/10/2026 20:40 (hora AR) · ACTIVO
 - 2026-10-28T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/ 
 - 2026-10-28T23:20 recibido policiales:https://www.diariodemocracia.com/policiales/34723 
 - 2026-10-28T23:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/28/cho 
+- 2026-10-29T00:00 programado bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|tikto 
+- 2026-10-29T00:00 programado entrevistas:job00258|tiktok 
+- 2026-10-29T00:00 programado entrevistas:job00257|tiktok 
+- 2026-10-29T00:00 programado entrevistas:job00256|tiktok 
+- 2026-10-29T00:00 programado entrevistas:job00255|tiktok 
