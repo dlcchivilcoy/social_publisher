@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 8
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-29T01:40:18.000Z"
+   "visto": "2026-10-29T10:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 28
+    "scheduled": 2,
+    "sent": 26
    },
    "pausado": false,
-   "visto": "2026-10-29T01:40:18.000Z"
+   "visto": "2026-10-29T10:40:16.000Z"
   }
  },
  "contenidos": {
@@ -3251,32 +3251,6 @@
    "volanta": "Consejo de la Magistratura",
    "youtube_url": "https://youtube.com/shorts/VnUlY05b_PU"
   },
-  "nacionales:2be0a52708a62532": {
-   "categoria": "Deportes",
-   "categoria_nacional": "deportes",
-   "descripcion": "El conjunto dirigido de manera interina por Leonardo Ponzio se medirá este domingo ante el Pirata en el estadio Mario Alberto Kempes, con la urgencia de sumar de a tres.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T16:38:37.000Z",
-   "hashtags": [
-    "RiverPlate",
-    "Belgrano"
-   ],
-   "id": "nacionales:2be0a52708a62532",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "River visita a Belgrano con dudas en el equipo y la obligación de ganar",
-   "urgente": false,
-   "video_bytes": 96022,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2be0a52708_river-visita-a-belgrano-con-dudas-en-el-equipo-y.mp4",
-   "volanta": "Torneo Clausura",
-   "youtube_url": "https://youtube.com/shorts/iXTNO5lYvj0"
-  },
   "nacionales:2f1a6dccc7eef682": {
    "categoria": "Cine y series",
    "categoria_nacional": "cine_series",
@@ -4411,32 +4385,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
    "volanta": "Subastas de ARCA",
    "youtube_url": "https://youtube.com/shorts/qVERJf7R1Eg"
-  },
-  "nacionales:b010138b1fbfe036": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "El aval médico y los preparativos renovaron las expectativas sobre la llegada del pontífice al país, prevista para noviembre.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T16:07:35.000Z",
-   "hashtags": [
-    "PapaLeonXIV",
-    "Vaticano"
-   ],
-   "id": "nacionales:b010138b1fbfe036",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "crece el optimismo por la posible visita del papa León XIV a la Argentina",
-   "urgente": false,
-   "video_bytes": 97171,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b010138b1f_crece-el-optimismo-por-la-posible-visita-del-papa.mp4",
-   "volanta": "Visita papal",
-   "youtube_url": "https://youtube.com/shorts/AX4EKiBZ2FI"
   },
   "nacionales:b164c7aa50445aed": {
    "categoria": "Sociedad",
@@ -10921,24 +10869,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/investigacion-iniciada-en-junio-cuatro-allanamientos-por-drogas-en",
    "volanta": ""
   },
-  "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc": {
-   "categoria": "nacionales",
-   "descripcion": "Las protestas por el costo de vida en París derivaron en nuevos saqueos y enfrentamientos. Reportan un muerto, 1500 locales saqueados, 600 agentes heridos…",
-   "generado": "2026-10-19T00:50:11.270Z",
-   "id": "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ca428bb76f93488285064af677e2bbfb~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-nuevos-saqueos-2000-detenidos-y-fuerte-tension-en-paris-e50827",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Francia: nuevos saqueos, 2000 detenidos y fuerte tensión en París contra el gobierno",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-nuevos-saqueos-2000-detenidos-y-fuerte-tension-en-paris-e50827",
-   "volanta": ""
-  },
   "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f": {
    "categoria": "",
    "descripcion": "Presentaron oficialmente la 39ª edición del Rally de Chivilcoy Este fin de semana tendrá lugar la tradicional competencia en el marco del 172° aniversario de la ciudad de Chivilcoy. La edición tendrá como protagonista al Auto Club, en reconocimiento a su trayectoria en el automovilismo, y contará con tramos tradicionales y un súper especial sobre asfalto. La Municipalidad de Chivilcoy acompañó la presentación oficial de la 39ª edición del Rally de Chivilcoy, que se desarrollará en homenaje al...",
@@ -11897,22 +11827,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 597,
-   "segundos": 82765,
+   "restantes": 595,
+   "segundos": 81599,
    "tope": 600
   },
   "30d": {
-   "restantes": 995,
-   "segundos": 1075789,
+   "restantes": 993,
+   "segundos": 1074624,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T10:20:51.000Z",
+ "cuota_visto": "2026-10-29T10:40:17.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -16225,41 +16155,6 @@
    "plataforma": "tiktok",
    "prioridad": 7,
    "texto": "Huracán y Florencio Varela igualaron tras una histórica remontada\n\nEl Mirasol se fue al descanso con una ventaja de 3 a 0 en el estadio Jorge Ramón Leva. En el complemento, el Globo reaccionó y empató el encuentro en una ráfaga con tantos de Torres, Petit y Almeyra.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Huracán y Florencio Varela igualaron tras una histórica remontada",
-   "urgente": false,
-   "vence": "2026-10-21T00:41:18.000Z",
-   "video_bytes": 8987863,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e7d10552d188329.mp4"
-  },
-  "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|x": {
-   "actualizado": "2026-10-19T10:21:31.000Z",
-   "buffer_id": "6ad5dc56fbe396fa0f895c50",
-   "clave": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|x",
-   "creado": "2026-10-19T01:00:18.000Z",
-   "dueAt": "2026-10-19T10:15:36.000Z",
-   "enviado": "2026-10-19T10:15:51.497Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T00:41:18.000Z",
-   "id": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112125567256412525",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 6.38,
-    "impressions": 47,
-    "reactions": 1,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Huracán y Florencio Varela igualaron tras una histórica remontada\n\nEl Mirasol ganaba 3 a 0 en el primer tiempo. Sin embargo, el Globo reaccionó en el complemento y selló el 3 a 3 definitivo con dos goles en menos de un minuto.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
    "texto_v": 2,
    "tipo": "video",
    "titulo": "Huracán y Florencio Varela igualaron tras una histórica remontada",
@@ -21082,32 +20977,6 @@
    "video_bytes": 82971,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2b26f422b8_la-justicia-federal-registra-298-cargos-vacantes.mp4"
   },
-  "nacionales:2be0a52708a62532|tiktok": {
-   "actualizado": "2026-10-19T10:40:17.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:2be0a52708a62532|tiktok",
-   "creado": "2026-10-18T17:20:13.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T16:38:37.000Z",
-   "id": "nacionales:2be0a52708a62532",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "River visita a Belgrano con dudas en el equipo y la obligación de ganar\n\nEl conjunto dirigido de manera interina por Leonardo Ponzio se medirá este domingo ante el Pirata en el estadio Mario Alberto Kempes, con la urgencia de sumar de a tres.\n\nhttps://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5\n\n#chivilcoy #diariolacampaña #radiodelcentro #deportes #RiverPlate",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "River visita a Belgrano con dudas en el equipo y la obligación de ganar",
-   "urgente": false,
-   "vence": "2026-10-19T10:38:37.000Z",
-   "video_bytes": 96022,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2be0a52708_river-visita-a-belgrano-con-dudas-en-el-equipo-y.mp4"
-  },
   "nacionales:2f1a6dccc7eef682|tiktok": {
    "actualizado": "2026-10-19T19:40:15.000Z",
    "buffer_id": "",
@@ -22800,32 +22669,6 @@
    "video_bytes": 80162,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
    "viral": false
-  },
-  "nacionales:b010138b1fbfe036|tiktok": {
-   "actualizado": "2026-10-19T10:21:31.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:b010138b1fbfe036|tiktok",
-   "creado": "2026-10-18T17:20:13.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T16:07:35.000Z",
-   "id": "nacionales:b010138b1fbfe036",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "crece el optimismo por la posible visita del papa León XIV a la Argentina\n\nEl aval médico y los preparativos renovaron las expectativas sobre la llegada del pontífice al país, prevista para noviembre.\n\nhttps://www.diariolacampaña.com.ar/n/crece-el-optimismo-en-el-gobierno-y-la-iglesia-por-el-viaje-del-b01013\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #PapaLeonXIV",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "crece el optimismo por la posible visita del papa León XIV a la Argentina",
-   "urgente": false,
-   "vence": "2026-10-19T10:07:35.000Z",
-   "video_bytes": 97171,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b010138b1f_crece-el-optimismo-por-la-posible-visita-del-papa.mp4"
   },
   "nacionales:b164c7aa50445aed|tiktok": {
    "actualizado": "2026-10-21T01:20:16.000Z",
@@ -27230,14 +27073,14 @@
    "viral": false
   },
   "web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x": {
-   "actualizado": "2026-10-29T10:02:34.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T10:40:16.000Z",
+   "buffer_id": "6ae3229142a28ed29401f717",
    "clave": "web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x",
    "creado": "2026-10-29T10:02:34.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T11:52:38.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T10:02:25.823Z",
    "id": "web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a",
    "ig_hora": "2026-10-29T11:52:20.000Z",
@@ -28932,19 +28775,20 @@
    "viral": false
   },
   "web:66bad44b-4ffb-4fe4-a2d7-800fe271a723|x": {
-   "actualizado": "2026-10-29T10:03:20.000Z",
+   "actualizado": "2026-10-29T10:40:16.000Z",
    "buffer_id": "6ae319e91b10eea3de284a5d",
    "clave": "web:66bad44b-4ffb-4fe4-a2d7-800fe271a723|x",
    "creado": "2026-10-29T10:02:34.000Z",
    "dueAt": "2026-10-29T10:37:27.000Z",
+   "enviado": "2026-10-29T10:37:31.298Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:01:24.588Z",
    "id": "web:66bad44b-4ffb-4fe4-a2d7-800fe271a723",
    "ig_hora": "2026-10-29T10:37:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115754897190604811",
    "nota_url": "https://www.diariolacampaña.com.ar/n/encuentro-en-chivilcoy-atiadim-fue-sede-del-primer-encuentro-zonal-de",
    "noticia": "nota:encuentro-en-chivilcoy-atiadim-fue-sede-del-primer-encuentro-zonal-de",
    "origen": "web",
@@ -33123,41 +32967,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc|x": {
-   "actualizado": "2026-10-19T10:21:31.000Z",
-   "buffer_id": "6ad5dc55fbe396fa0f895bf2",
-   "clave": "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc|x",
-   "creado": "2026-10-19T01:00:18.000Z",
-   "dueAt": "2026-10-19T10:00:01.000Z",
-   "enviado": "2026-10-19T10:02:47.573Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T00:50:11.270Z",
-   "id": "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112122278859186546",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 42,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-nuevos-saqueos-2000-detenidos-y-fuerte-tension-en-paris-e50827",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Francia: nuevos saqueos, 2000 detenidos y fuerte tensión en París contra el gobierno\n\nLas protestas por el costo de vida derivaron en enfrentamientos. Reportan un muerto, 1500 locales saqueados y 600 agentes heridos.\n\nhttps://www.diariolacampaña.com.ar/n/francia-nuevos-saqueos-2000-detenidos-y-fuerte-tension-en-paris-e50827",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Francia: nuevos saqueos, 2000 detenidos y fuerte tensión en París contra el gobierno",
-   "urgente": false,
-   "vence": "2026-10-20T00:50:11.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f|x": {
    "actualizado": "2026-10-22T01:40:20.000Z",
    "buffer_id": "",
@@ -33288,14 +33097,14 @@
    "viral": false
   },
   "web:d8bbde96-e323-4c02-93f7-b2e09a555019|x": {
-   "actualizado": "2026-10-29T10:02:34.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T10:40:16.000Z",
+   "buffer_id": "6ae3229107196764b373ce8c",
    "clave": "web:d8bbde96-e323-4c02-93f7-b2e09a555019|x",
    "creado": "2026-10-29T10:02:34.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T12:07:31.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T10:02:33.519Z",
    "id": "web:d8bbde96-e323-4c02-93f7-b2e09a555019",
    "ig_hora": "2026-10-29T12:07:20.000Z",
@@ -33754,19 +33563,20 @@
    "viral": false
   },
   "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x": {
-   "actualizado": "2026-10-29T10:03:20.000Z",
+   "actualizado": "2026-10-29T10:40:16.000Z",
    "buffer_id": "6ae319e968ebd3a1d7752cf9",
    "clave": "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x",
    "creado": "2026-10-29T10:02:34.000Z",
    "dueAt": "2026-10-29T10:22:32.000Z",
+   "enviado": "2026-10-29T10:22:46.395Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:01:11.313Z",
    "id": "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5",
    "ig_hora": "2026-10-29T10:22:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115751185441317046",
    "nota_url": "https://www.diariolacampaña.com.ar/n/allanamientos-robo-en-una-panaderia-de-chivilcoy-dos-menores-con",
    "noticia": "nota:allanamientos-robo-en-una-panaderia-de-chivilcoy-dos-menores-con",
    "origen": "web",
@@ -34649,33 +34459,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6adcabe80b5343d07083895d",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl5nvm6qjuj|tiktok",
-   "cuando": "2026-10-24T13:00:27.000Z",
-   "dueAt": "2026-10-24T14:23:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adcabe96887a2efc1b9031e",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvl0uo0chcei|tiktok",
-   "cuando": "2026-10-24T13:00:27.000Z",
-   "dueAt": "2026-10-24T14:43:36.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adcabebbd33ce99c32338a3",
-   "clave": "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok",
-   "cuando": "2026-10-24T13:00:27.000Z",
-   "dueAt": "2026-10-24T15:03:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|tiktok",
-   "cuando": "2026-10-24T13:20:18.000Z",
-   "evento": "vencido",
-   "motivo": "no entró entre las 7 más virales de la tanda 10 h"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|tiktok",
    "cuando": "2026-10-24T13:20:19.000Z",
@@ -38883,6 +38666,32 @@
    "cuando": "2026-10-29T10:20:51.000Z",
    "dueAt": "2026-10-29T11:37:08.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:66bad44b-4ffb-4fe4-a2d7-800fe271a723|x",
+   "cuando": "2026-10-29T10:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115754897190604811"
+  },
+  {
+   "clave": "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x",
+   "cuando": "2026-10-29T10:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115751185441317046"
+  },
+  {
+   "buffer_id": "6ae3229142a28ed29401f717",
+   "clave": "web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x",
+   "cuando": "2026-10-29T10:40:17.000Z",
+   "dueAt": "2026-10-29T11:52:38.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae3229107196764b373ce8c",
+   "clave": "web:d8bbde96-e323-4c02-93f7-b2e09a555019|x",
+   "cuando": "2026-10-29T10:40:17.000Z",
+   "dueAt": "2026-10-29T12:07:31.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38916,7 +38725,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T01:40:18.000Z",
+ "ultima_sync": "2026-10-29T10:40:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
