@@ -5147,32 +5147,6 @@
    "volanta": "Crisis en Francia",
    "youtube_url": "https://youtube.com/shorts/SnVEgXdAGuo"
   },
-  "nacionales:fbd1321e4156d9c7": {
-   "categoria": "Mundo",
-   "categoria_nacional": "internacionales",
-   "descripcion": "El Sumo Pontífice brindó el Ángelus desde el Palacio Apostólico luego de recibir el alta médica. Su equipo médico confirmó que no existen impedimentos clínicos para concretar su gira por Sudamérica en noviembre.",
-   "duracion_seg": 20.1,
-   "generado": "2026-10-18T15:38:17.000Z",
-   "hashtags": [
-    "PapaLeonXIV",
-    "Vaticano"
-   ],
-   "id": "nacionales:fbd1321e4156d9c7",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "El papa León XIV reapareció tras ser operado de un cáncer de pulmón",
-   "urgente": false,
-   "video_bytes": 1328728,
-   "video_mb": 1.3,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_fbd1321e41_el-papa-leon-xiv-reaparecio-tras-ser-operado-de.mp4",
-   "volanta": "Vaticano",
-   "youtube_url": "https://youtube.com/shorts/21HFj1mTKmE"
-  },
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/": {
    "categoria": "robo",
    "descripcion": "La planta de reciclaje sufrió un nuevo ataque delictivo tras forzar las rejas y una ventana de la oficina. Se llevaron herramientas, materiales y alimentos. Apuntan a la falta de respuestas del secretario de Seguridad, Ramón Ojeda.",
@@ -23507,32 +23481,6 @@
    "video_bytes": 10054309,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_fb8bbb9c22_francia-aplicara-nuevos-toques-de-queda-tras-los.mp4",
    "viral": false
-  },
-  "nacionales:fbd1321e4156d9c7|tiktok": {
-   "actualizado": "2026-10-19T09:40:16.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:fbd1321e4156d9c7|tiktok",
-   "creado": "2026-10-18T17:20:13.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T15:38:17.000Z",
-   "id": "nacionales:fbd1321e4156d9c7",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "El papa León XIV reapareció tras ser operado de un cáncer de pulmón\n\nEl Sumo Pontífice brindó el Ángelus desde el Palacio Apostólico luego de recibir el alta médica. Su equipo médico confirmó que no existen impedimentos clínicos para concretar su gira por Sudamérica en noviembre.\n\nhttps://www.diariolacampaña.com.ar/n/el-papa-leon-xiv-reaparecio-en-publico-tras-una-cirugia-de-fbd132\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #PapaLeonXIV",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El papa León XIV reapareció tras ser operado de un cáncer de pulmón",
-   "urgente": false,
-   "vence": "2026-10-19T09:38:17.000Z",
-   "video_bytes": 1328728,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_fbd1321e41_el-papa-leon-xiv-reaparecio-tras-ser-operado-de.mp4"
   },
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|tiktok": {
    "actualizado": "2026-10-22T13:40:15.000Z",
