@@ -1293,6 +1293,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_84f995c8c74b2ec5.mp4",
    "youtube_url": "https://www.youtube.com/shorts/pHPqsStM-HY"
   },
+  "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti": {
+   "descripcion": "Las sucursales bancarias tendrán cinco jornadas consecutivas sin atención presencial durante noviembre. El período comenzará el viernes 6, por el Día del Trabajador Bancario, y continuará durante el sábado 7 y el domingo 8. A ese cierre se sumarán el lunes 9 y el martes 10.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-29T14:17:52.000Z",
+   "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Los bancos no atenderán al público durante cinco días seguidos",
+   "urgente": false,
+   "video_bytes": 500827,
+   "video_mb": 0.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1b758d58c16cc1f6.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/8ct89pSas9w"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -1397,27 +1418,6 @@
    "video_mb": 3.9,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4",
    "youtube_url": "https://www.youtube.com/shorts/SjXHCr65IPs"
-  },
-  "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4": {
-   "descripcion": "Huracán y Florencio Varela igualaron 3 a 3 en el estadio Jorge Ramón Leva, en el marco del partido postergado correspondiente a la cuarta fecha del Torneo Clausura 2026 de la Liga Chivilcoyana de Fútbol, disputado el 18 de octubre.\n\nEl Mirasol demostró una gran contundencia durante la primera etapa y se retiró al descanso con una ventaja de 3 a 0. En esa mitad inicial, las acciones ofensivas contaron con intervenciones de Montenegro y Córdoba, sumadas a un gol en contra tras un centro y a un error en la salida entre Casado y Sevilla que derivó en la tercera conquista anotada por Córdoba.\n\nSin embargo, el desarrollo cambió radicalmente en el complemento. El Globo reaccionó a partir de varias aproximaciones en ataque encabezadas por Santiago Villegas y tiros que se estrellaron en el travesaño, hasta conseguir el descuento con un cabezazo de Torres.\n\nA partir de ese envión y con la participación de futbolistas como Petit y Almeyra, Huracán concretó una ráfaga de dos goles en menos de un minuto para sellar una notable recuperación y establecer el 3 a 3 definitivo.",
-   "duracion_seg": 64.0,
-   "generado": "2026-10-19T00:41:18.000Z",
-   "id": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Huracán y Florencio Varela igualaron tras una histórica remontada",
-   "urgente": false,
-   "video_bytes": 8987863,
-   "video_mb": 8.6,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e7d10552d188329.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/63QK96Pt_0U"
   },
   "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4": {
    "descripcion": "La delegación de Chivilcoy viaja rumbo a Mar del Plata con el objetivo de participar en la Final Provincial de los Juegos Bonaerenses.\n\nLos representantes locales forman parte de la comitiva que disputará las distintas instancias decisivas del certamen en la ciudad balnearia.\n\nLa competencia reúne a clasificados de diversos distritos de la provincia de Buenos Aires en el cierre de la tradicional cita deportiva y cultural.",
@@ -2195,6 +2195,27 @@
    "video_mb": 9.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bf98c04fede72a44.mp4",
    "youtube_url": "https://www.youtube.com/shorts/ba-8vK1dbgI"
+  },
+  "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4": {
+   "descripcion": "Tres hombres fueron aprehendidos tras cuatro allanamientos realizados en distintos puntos de la ciudad, en el marco de una investigación por presunta infracción a la Ley de Drogas iniciada en el mes de junio.\n\nLos procedimientos se llevaron a cabo el sábado 24 de octubre por la mañana, a cargo del personal de la SDDITDI Chivilcoy encabezado por el comisario Donato Rafael Pitetti, con la participación del can rastreador K9 «Falu», la Policía Comunal y la Secretaría de Seguridad dirigida por Néstor Dabi.\n\nEn un inmueble de Arenales y San Martín, donde residía Iván David Espina (33), se secuestraron 86 gramos de cocaína fraccionada, elementos de corte, recortes de nylon, dos celulares y dos balanzas de precisión. En una vivienda de calle Siria entre Ameghino y Chacabuco, donde Espina paraba de forma eventual, se incautaron elementos de interés para la pesquisa.\n\nLos otros dos operativos fueron en el barrio La Victoria. En Santiago Fornos al 723, domicilio de Carlos Omar Curioni (32), se hallaron unos 50 gramos de cocaína, 10 gramos de marihuana, dinero, celular y balanza. En Indacochea entre Ventemiglia y Fornos, donde residía Maximiliano Ezequiel Benítez (19), se incautaron 21 gramos de cocaína en 27 envoltorios, 55 gramos de marihuana, un indoor con tres plantas, dinero y un teléfono.\n\nLa agente fiscal interviniente avaló lo actuado y dispuso la aprehensión de los tres involucrados por tenencia de estupefacientes con fines de comercialización fraccionado para consumo directo, disponiendo su posterior traslado a sede judicial.",
+   "duracion_seg": 219.4,
+   "generado": "2026-10-29T14:01:00.000Z",
+   "id": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas",
+   "urgente": false,
+   "video_bytes": 28922697,
+   "video_mb": 27.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c9e88ec2befbb21b.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/b0a9juqQfO8"
   },
   "entrevistas:job00224": {
    "descripcion": "Victoria Barros, referente del Centro Universitario Chivilcoy, anunció el lanzamiento de diplomaturas en diseño comercial y de indumentaria en Chivilcoy. La propuesta para comerciantes se dictará en horario de la siesta para facilitar la cursada.",
@@ -9752,24 +9773,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gravel-destacada-actuacion-del-ciclismo-chivilcoyano-en-el-campeonato",
    "volanta": "Gravel"
   },
-  "web:a7506907-93aa-4f39-beaa-3504a79c1fe5": {
-   "categoria": "nacionales",
-   "descripcion": "El Ejecutivo presentó una contrapropuesta a los legisladores aliados para destrabar el proyecto de inversiones.",
-   "generado": "2026-10-19T05:35:11.489Z",
-   "id": "web:a7506907-93aa-4f39-beaa-3504a79c1fe5",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1a052ba14e604685abf276583860c4bf~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-negocia-cambios-con-los-aliados-en-el-senado-para-eba0c0",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El Gobierno negocia cambios con los aliados en el Senado para destrabar el Súper RIGI",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-gobierno-negocia-cambios-con-los-aliados-en-el-senado-para-eba0c0",
-   "volanta": ""
-  },
   "web:a7875969-2bc4-498e-8b29-ec2539b13deb": {
    "categoria": "",
    "descripcion": "La Fuente de Hebe volvió a funcionar después de más de 20 años La Municipalidad de Chivilcoy inauguró la puesta en valor de la Fuente de Hebe, ubicada en el centro de la Plaza 25 de Mayo, que volvió a funcionar después de más de 20 años. La obra fue realizada por trabajadores municipales de la Secretaría de Servicios Públicos y la colaboración de distintas áreas, quienes durante tres meses y medio llevaron adelante tareas de restauración, reacondicionamiento y reparación. El intendente...",
@@ -10687,6 +10690,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/investigacion-iniciada-en-junio-cuatro-allanamientos-por-drogas-en",
    "volanta": ""
   },
+  "web:d5f53bed-b052-4c25-bed8-d407293e0f55": {
+   "categoria": "",
+   "descripcion": "Los bancos no atenderán al público durante cinco días seguidos Las sucursales bancarias tendrán cinco jornadas consecutivas sin atención presencial durante noviembre. El período comenzará el viernes 6, por el Día del Trabajador Bancario, y continuará durante el sábado 7 y el domingo 8. A ese cierre se sumarán el lunes 9, declarado feriado nacional por la visita del papa León XIV, y el martes 10, establecido como feriado bancario en todo el país por el Banco Central mediante la Comunicación A...",
+   "generado": "2026-10-29T14:15:54.205Z",
+   "id": "web:d5f53bed-b052-4c25-bed8-d407293e0f55",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_11a4c6c4cdff47d2889df9780fca72f4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Los bancos no atenderán al público durante cinco días seguidos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
+   "volanta": "Chivilcoy · Servicios"
+  },
   "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f": {
    "categoria": "",
    "descripcion": "Presentaron oficialmente la 39ª edición del Rally de Chivilcoy Este fin de semana tendrá lugar la tradicional competencia en el marco del 172° aniversario de la ciudad de Chivilcoy. La edición tendrá como protagonista al Auto Club, en reconocimiento a su trayectoria en el automovilismo, y contará con tramos tradicionales y un súper especial sobre asfalto. La Municipalidad de Chivilcoy acompañó la presentación oficial de la 39ª edición del Rally de Chivilcoy, que se desarrollará en homenaje al...",
@@ -11232,24 +11254,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
    "volanta": "Chivilcoy · Política"
   },
-  "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a": {
-   "categoria": "",
-   "descripcion": "Huracán y Florencio Varela igualaron tras una histórica remontada Huracán y Florencio Varela igualaron 3 a 3 en el estadio Jorge Ramón Leva, en el marco del partido postergado de la cuarta fecha del Torneo Clausura 2026 de la Liga Chivilcoyana de Fútbol, disputado el 18 de octubre. El Mirasol se fue al descanso con una ventaja de 3 a 0. Durante esa primera mitad, las acciones ofensivas contaron con intervenciones de Montenegro y Córdoba, además de un gol en contra tras un centro y un error en...",
-   "generado": "2026-10-19T00:40:45.336Z",
-   "id": "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7af1c864794c4868aad9dda773385c38~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Huracán y Florencio Varela igualaron tras una histórica remontada",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9": {
    "categoria": "",
    "descripcion": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva Medallero Chivilcoy 2026 (Total: 17) Medallas de oro (6): • Atletismo en 400 metros sub-18. • Magali Cortiana (patín artístico). • Tejo intergeneracional: Raúl Miguez y Josemir Montalbano. • Salto en largo. • Bochas intergeneracional. • Básquet 3x3 sub-14 masculino. Medallas de plata (4): • Atletismo: salto en alto sub-16. • Ramon Marzano y Hugo Torres (escoba de 15). • Básquet 3x3 sub-14 femenino. • Básquet sub-16 masculino....",
@@ -11287,24 +11291,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/delegacion-destacada-la-pena-virgen-de-loreto-brillo-en-santiago-del-1",
    "volanta": "Delegación destacada"
-  },
-  "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630": {
-   "categoria": "",
-   "descripcion": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa Punto Rosa: Gimnasia y Esgrima unió tenis, salud y concientización en una jornada especial. Con la participación de 27 parejas de dobles mixtos, el club fue escenario de una propuesta deportiva en el marco de Octubre Rosa. La iniciativa combinó competencia, prevención del cáncer de mama y un fuerte compromiso institucional y comunitario. El Club Gimnasia y Esgrima de Chivilcoy llevó adelante el pasado sábado el torneo Punto Rosa, una...",
-   "generado": "2026-10-18T22:38:08.010Z",
-   "id": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_19b96dc443f84d33b37054a7e40d4049~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
-   "volanta": "Chivilcoy · Deportes"
   },
   "web:f02de8c1-15da-4722-a133-920069b5d431": {
    "categoria": "",
@@ -11664,22 +11650,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
-   "segundos": 899,
+   "restantes": 149,
+   "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 585,
-   "segundos": 69591,
+   "restantes": 584,
+   "segundos": 68393,
    "tope": 600
   },
   "30d": {
-   "restantes": 983,
-   "segundos": 1062616,
+   "restantes": 982,
+   "segundos": 1061417,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T14:00:25.000Z",
+ "cuota_visto": "2026-10-29T14:20:23.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -15803,6 +15789,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_84f995c8c74b2ec5.mp4",
    "viral": false
   },
+  "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tiktok": {
+   "actualizado": "2026-10-29T14:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tiktok",
+   "creado": "2026-10-29T14:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T14:17:52.000Z",
+   "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Los bancos no atenderán al público durante cinco días seguidos\n\nLas sucursales bancarias tendrán cinco jornadas consecutivas sin atención presencial durante noviembre. El período comenzará el viernes 6, por el Día del Trabajador Bancario, y continuará durante el sábado 7 y el domingo 8. A ese cierre se sumarán el lunes 9 y el martes 10.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Los bancos no atenderán al público durante cinco días seguidos",
+   "urgente": false,
+   "vence": "2026-10-31T14:17:52.000Z",
+   "video_bytes": 500827,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1b758d58c16cc1f6.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x": {
+   "actualizado": "2026-10-29T14:20:23.000Z",
+   "buffer_id": "6ae356273173bf37af4ecfc3",
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x",
+   "creado": "2026-10-29T14:20:15.000Z",
+   "dueAt": "2026-10-29T14:28:16.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T14:17:52.000Z",
+   "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
+   "noticia": "nota:chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Los bancos no atenderán al público durante cinco días seguidos\n\n10 por el Día del Trabajador Bancario y el fin de semana.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Los bancos no atenderán al público durante cinco días seguidos",
+   "urgente": false,
+   "vence": "2026-10-29T16:17:52.000Z",
+   "video_bytes": 500827,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1b758d58c16cc1f6.mp4",
+   "viral": false
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
    "actualizado": "2026-10-25T00:20:15.000Z",
    "buffer_id": "6add4695bd33ce99c3492b8f",
@@ -15963,43 +16005,6 @@
    "vence": "2026-10-20T21:50:36.000Z",
    "video_bytes": 4050055,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_fbaeb82a8c25f350.mp4"
-  },
-  "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T14:00:35.000Z",
-   "buffer_id": "6ad5fcf4b9948a7ec0693f1f",
-   "clave": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4|tiktok",
-   "creado": "2026-10-19T01:00:18.000Z",
-   "dueAt": "2026-10-19T13:23:12.000Z",
-   "enviado": "2026-10-19T13:24:58.565Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T00:41:18.000Z",
-   "id": "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698368844783488257",
-   "metricas": {
-    "averageTimeWatched": 8.86,
-    "comments": 0,
-    "engagementRate": 1.78,
-    "reach": 0,
-    "reactions": 10,
-    "shares": 0,
-    "totalTimeWatched": 88.33,
-    "views": 563
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Huracán y Florencio Varela igualaron tras una histórica remontada\n\nEl Mirasol se fue al descanso con una ventaja de 3 a 0 en el estadio Jorge Ramón Leva. En el complemento, el Globo reaccionó y empató el encuentro en una ráfaga con tantos de Torres, Petit y Almeyra.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Huracán y Florencio Varela igualaron tras una histórica remontada",
-   "urgente": false,
-   "vence": "2026-10-21T00:41:18.000Z",
-   "video_bytes": 8987863,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e7d10552d188329.mp4"
   },
   "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x": {
    "actualizado": "2026-10-19T16:20:22.000Z",
@@ -18551,6 +18556,59 @@
    "vence": "2026-10-29T02:43:18.000Z",
    "video_bytes": 9430716,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_bf98c04fede72a44.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|tiktok": {
+   "actualizado": "2026-10-29T14:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|tiktok",
+   "creado": "2026-10-29T14:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T14:01:00.000Z",
+   "id": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas\n\nLa agente fiscal interviniente avaló los procedimientos y dispuso la aprehensión de los involucrados por tenencia de estupefacientes con fines de comercialización fraccionado para consumo directo. Durante los operativos se secuestraron cocaína, marihuana, balanzas, dinero y teléfonos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas",
+   "urgente": false,
+   "vence": "2026-10-31T14:01:00.000Z",
+   "video_bytes": 28922697,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c9e88ec2befbb21b.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|x": {
+   "actualizado": "2026-10-29T14:20:15.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|x",
+   "creado": "2026-10-29T14:20:15.000Z",
+   "dueAt": "",
+   "error": "dura 219 s y X admite 140 s sin suscripción",
+   "estado": "descartado",
+   "generado": "2026-10-29T14:01:00.000Z",
+   "id": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
+   "noticia": "nota:chivilcoy-policiales-tres-hombres-quedaron-aprehendidos-tras-cuatro",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas",
+   "urgente": false,
+   "vence": "2026-10-29T16:01:00.000Z",
+   "video_bytes": 28922697,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c9e88ec2befbb21b.mp4",
    "viral": false
   },
   "entrevistas:job00224|x": {
@@ -31160,41 +31218,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:a7506907-93aa-4f39-beaa-3504a79c1fe5|x": {
-   "actualizado": "2026-10-19T14:00:35.000Z",
-   "buffer_id": "6ad5dc57ea5ddfc300f51ca1",
-   "clave": "web:a7506907-93aa-4f39-beaa-3504a79c1fe5|x",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "2026-10-19T13:45:38.000Z",
-   "enviado": "2026-10-19T13:45:46.691Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T05:35:11.489Z",
-   "id": "web:a7506907-93aa-4f39-beaa-3504a79c1fe5",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112178394825662736",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 17,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-negocia-cambios-con-los-aliados-en-el-senado-para-eba0c0",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "El Gobierno negocia cambios con los aliados en el Senado para destrabar el Súper RIGI\n\nEl Ejecutivo presentó una contrapropuesta a los legisladores aliados para destrabar el proyecto de inversiones.\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-negocia-cambios-con-los-aliados-en-el-senado-para-eba0c0",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El Gobierno negocia cambios con los aliados en el Senado para destrabar el Súper RIGI",
-   "urgente": false,
-   "vence": "2026-10-20T05:35:11.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:a7875969-2bc4-498e-8b29-ec2539b13deb|x": {
    "actualizado": "2026-10-22T13:20:15.000Z",
    "buffer_id": "",
@@ -32571,6 +32594,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:d5f53bed-b052-4c25-bed8-d407293e0f55|x": {
+   "actualizado": "2026-10-29T14:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:d5f53bed-b052-4c25-bed8-d407293e0f55|x",
+   "creado": "2026-10-29T14:20:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-29T14:15:54.205Z",
+   "id": "web:d5f53bed-b052-4c25-bed8-d407293e0f55",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
+   "noticia": "nota:chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Los bancos no atenderán al público durante cinco días seguidos",
+   "urgente": false,
+   "vence": "2026-10-29T18:15:54.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f|x": {
    "actualizado": "2026-10-22T01:40:20.000Z",
    "buffer_id": "",
@@ -33390,41 +33438,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a|x": {
-   "actualizado": "2026-10-19T14:00:35.000Z",
-   "buffer_id": "6ad5dc56ea56886c471776da",
-   "clave": "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a|x",
-   "creado": "2026-10-19T01:00:18.000Z",
-   "dueAt": "2026-10-19T13:15:55.000Z",
-   "enviado": "2026-10-19T13:16:02.172Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T00:40:45.336Z",
-   "id": "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112170909863698732",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 35,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Huracán y Florencio Varela igualaron tras una histórica remontada\n\nEl encuentro terminó 3 a 3 por el Torneo Clausura 2026 de la Liga Chivilcoyana de Fútbol. El Mirasol ganaba 3 a 0 al término de la primera mitad.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-huracan-y-florencio-varela-igualaron-tras-una",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Huracán y Florencio Varela igualaron tras una histórica remontada",
-   "urgente": false,
-   "vence": "2026-10-20T00:40:45.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9|x": {
    "actualizado": "2026-10-23T22:40:17.000Z",
    "buffer_id": "",
@@ -33474,41 +33487,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x": {
-   "actualizado": "2026-10-19T14:00:35.000Z",
-   "buffer_id": "6ad5dc56e1ba3b5f47d6b0fd",
-   "clave": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630|x",
-   "creado": "2026-10-18T22:40:12.000Z",
-   "dueAt": "2026-10-19T13:30:02.000Z",
-   "enviado": "2026-10-19T13:31:09.193Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-18T22:38:08.010Z",
-   "id": "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112174714231685240",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 25,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa\n\nEl club unió tenis, salud y concientización en el marco de Octubre Rosa. Participaron 27 parejas de dobles mixtos en una jornada que combinó deporte y prevención del cáncer de mama.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-y-esgrima-realizo-el-torneo-de-tenis",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Gimnasia y Esgrima realizó el torneo de tenis Punto Rosa",
-   "urgente": false,
-   "vence": "2026-10-19T22:38:08.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:f02de8c1-15da-4722-a133-920069b5d431|x": {
    "actualizado": "2026-10-19T20:40:17.000Z",
@@ -34094,51 +34072,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tiktok",
-   "cuando": "2026-10-24T18:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x",
-   "cuando": "2026-10-24T18:00:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tiktok",
-   "cuando": "2026-10-24T18:00:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:9f2f4ad4-ec7d-4e33-94b8-2d8c741a84d4|x",
-   "cuando": "2026-10-24T18:00:32.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|x",
-   "cuando": "2026-10-24T18:00:33.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114049943132397692"
-  },
-  {
-   "buffer_id": "6adcf2420b5343d070976330",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|x",
-   "cuando": "2026-10-24T18:00:36.000Z",
-   "dueAt": "2026-10-24T18:02:19.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6adcf2430b5343d07097638c",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|x",
@@ -38312,6 +38245,53 @@
    "cuando": "2026-10-29T14:00:25.000Z",
    "dueAt": "2026-10-29T14:22:56.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x",
+   "cuando": "2026-10-29T14:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tiktok",
+   "cuando": "2026-10-29T14:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|x",
+   "cuando": "2026-10-29T14:20:20.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 219 s y X admite 140 s sin suscripción",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|tiktok",
+   "cuando": "2026-10-29T14:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:d5f53bed-b052-4c25-bed8-d407293e0f55|x",
+   "cuando": "2026-10-29T14:20:23.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae356273173bf37af4ecfc3",
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x",
+   "cuando": "2026-10-29T14:20:23.000Z",
+   "dueAt": "2026-10-29T14:28:16.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38441,6 +38421,7 @@
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq": "2026-10-28T14:40:14.000Z",
   "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p": "2026-10-28T18:40:15.000Z",
   "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh": "2026-10-28T21:20:21.000Z",
+  "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti": "2026-10-29T14:20:15.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -38495,6 +38476,7 @@
   "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4": "2026-10-28T17:20:18.000Z",
   "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4": "2026-10-28T17:20:19.000Z",
   "bot:video_matias-zucchi_mvstco4fog1j_01.mp4": "2026-10-29T01:00:22.000Z",
+  "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4": "2026-10-29T14:20:15.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -39226,6 +39208,7 @@
   "web:d455c1c4-5f25-4847-bf67-277dd0e30dd7": "2026-10-27T10:03:31.000Z",
   "web:d4a9ca49-807f-4353-9ac9-56f63e81d000": "2026-10-15T22:20:20.000Z",
   "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc": "2026-10-19T01:00:18.000Z",
+  "web:d5f53bed-b052-4c25-bed8-d407293e0f55": "2026-10-29T14:20:15.000Z",
   "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f": "2026-10-22T01:40:20.000Z",
   "web:d6abc04f-5ec6-4b07-8f51-5bccc93205ef": "2026-10-21T00:40:14.000Z",
   "web:d72917a3-67e5-41df-affc-436383926d89": "2026-10-14T14:20:14.000Z",
