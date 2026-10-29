@@ -3055,6 +3055,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00262.mp4",
    "youtube_url": "https://youtu.be/e-Ki_KAEXLs"
   },
+  "entrevistas:job00263": {
+   "descripcion": "Carolina Amena, responsable del Centro Municipal de Danza Creativa y Psicomotricidad de Chivilcoy, destacó el esfuerzo de las familias y la emoción en los ensayos previos a Magic Dance. Remarcó que el objetivo es que todos puedan participar y ser protagonistas.",
+   "duracion_seg": null,
+   "entrevistado": "Carolina Amena",
+   "generado": "2026-10-29T18:20:14.000Z",
+   "id": "entrevistas:job00263",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Carolina Amena: la emoción previa al show Magic Dance",
+   "urgente": false,
+   "video_bytes": 22593470,
+   "video_mb": 21.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00263.mp4",
+   "youtube_url": "https://youtu.be/KxLwJsOkOS0"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -3903,32 +3924,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_883bc6cd67_wanda-nara-celebro-el-dia-de-la-madre-rodeada-de.mp4",
    "volanta": "Día de la Madre",
    "youtube_url": "https://youtube.com/shorts/L1dBT4TzWcw"
-  },
-  "nacionales:897bae57805e193b": {
-   "categoria": "Tecnología",
-   "categoria_nacional": "tecnologia_ia",
-   "descripcion": "Jensen Huang advirtió que la firma podría cortar el suministro de procesadores. Además, anunció una donación millonaria para investigar la seguridad en el Reino Unido.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-19T00:06:13.000Z",
-   "hashtags": [
-    "InteligenciaArtificial",
-    "Nvidia"
-   ],
-   "id": "nacionales:897bae57805e193b",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-ceo-de-nvidia-advirtio-que-evaluaran-dejar-de-vender-chips-a-897bae",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Nvidia analiza no vender chips a desarrolladores de IA insegura según su CEO",
-   "urgente": false,
-   "video_bytes": 88520,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_897bae5780_nvidia-analiza-no-vender-chips-a-desarrolladores.mp4",
-   "volanta": "Inteligencia artificial",
-   "youtube_url": "https://youtube.com/shorts/UQ2Vw_QQrBw"
   },
   "nacionales:89b6dd1b304f6c4e": {
    "categoria": "Política",
@@ -10591,24 +10586,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-prueba-de-fuego-en-el-grilon-arena-racing-recibe-a-boca-y",
    "volanta": "Básquet"
   },
-  "web:dd87b7aa-3504-4ee1-855b-97c17f044d34": {
-   "categoria": "nacionales",
-   "descripcion": "El oficialismo logró frenar la caída del DNU 70 en el Congreso gracias al respaldo de 14 gobernadores, entre ellos Hugo Passalacqua y Gustavo Melella. El…",
-   "generado": "2026-10-18T18:07:28.224Z",
-   "id": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a68e80b05a8d4be1b232a1b3d39fd625~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El dilema de Milei: blindaje político de gobernadores y la espera de la reactivación económica",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
-   "volanta": ""
-  },
   "web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399": {
    "categoria": "nacionales",
    "descripcion": "El presidente argentino partirá rumbo a Madrid en una breve visita enfocada en la Escuela Austríaca y en un nuevo encuentro con la dirigente del Partido…",
@@ -11311,17 +11288,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 575,
-   "segundos": 55181,
+   "restantes": 574,
+   "segundos": 53991,
    "tope": 600
   },
   "30d": {
-   "restantes": 973,
-   "segundos": 1048206,
+   "restantes": 972,
+   "segundos": 1047016,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T18:00:35.000Z",
+ "cuota_visto": "2026-10-29T18:20:25.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -20277,6 +20254,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00262.mp4",
    "viral": false
   },
+  "entrevistas:job00263|tiktok": {
+   "actualizado": "2026-10-29T18:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00263|tiktok",
+   "creado": "2026-10-29T18:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T18:20:14.000Z",
+   "id": "entrevistas:job00263",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Carolina Amena: la emoción previa al show Magic Dance\n\nCarolina Amena, responsable del Centro Municipal de Danza Creativa y Psicomotricidad de Chivilcoy, destacó el esfuerzo de las familias y la emoción en los ensayos previos a Magic Dance. Remarcó que el objetivo es que todos puedan participar y ser protagonistas.\n\nhttps://youtu.be/KxLwJsOkOS0\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Carolina Amena: la emoción previa al show Magic Dance",
+   "urgente": false,
+   "vence": "2026-10-31T18:20:14.000Z",
+   "video_bytes": 22593470,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00263.mp4",
+   "viral": false
+  },
+  "entrevistas:job00263|x": {
+   "actualizado": "2026-10-29T18:20:24.000Z",
+   "buffer_id": "6ae38e69b3aaeefe23225ae5",
+   "clave": "entrevistas:job00263|x",
+   "creado": "2026-10-29T18:20:14.000Z",
+   "dueAt": "2026-10-29T18:22:59.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T18:20:14.000Z",
+   "id": "entrevistas:job00263",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:amena-carolina-dance-emocion-magic-previa-show",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Carolina Amena: la emoción previa al show Magic Dance\n\nCarolina Amena, responsable del Centro Municipal de Danza Creativa y Psicomotricidad de Chivilcoy, destacó el esfuerzo de las familias y la emoción en los ensayos previos a Magic Dance.\n\nhttps://youtu.be/KxLwJsOkOS0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Carolina Amena: la emoción previa al show Magic Dance",
+   "urgente": false,
+   "vence": "2026-10-29T20:20:14.000Z",
+   "video_bytes": 22593470,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00263.mp4",
+   "viral": false
+  },
   "nacionales:01c0d7889e6b5047|tiktok": {
    "actualizado": "2026-10-21T00:20:25.000Z",
    "buffer_id": "",
@@ -21637,32 +21670,6 @@
    "vence": "2026-10-19T20:20:56.000Z",
    "video_bytes": 2769281,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_883bc6cd67_wanda-nara-celebro-el-dia-de-la-madre-rodeada-de.mp4"
-  },
-  "nacionales:897bae57805e193b|tiktok": {
-   "actualizado": "2026-10-19T18:20:17.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:897bae57805e193b|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-19T00:06:13.000Z",
-   "id": "nacionales:897bae57805e193b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-ceo-de-nvidia-advirtio-que-evaluaran-dejar-de-vender-chips-a-897bae",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Nvidia analiza no vender chips a desarrolladores de IA insegura según su CEO\n\nJensen Huang advirtió que la firma podría cortar el suministro de procesadores. Además, anunció una donación millonaria para investigar la seguridad en el Reino Unido.\n\nhttps://www.diariolacampaña.com.ar/n/el-ceo-de-nvidia-advirtio-que-evaluaran-dejar-de-vender-chips-a-897bae\n\n#chivilcoy #diariolacampaña #radiodelcentro #tecnología #InteligenciaArtificial",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Nvidia analiza no vender chips a desarrolladores de IA insegura según su CEO",
-   "urgente": false,
-   "vence": "2026-10-19T18:06:13.000Z",
-   "video_bytes": 88520,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_897bae5780_nvidia-analiza-no-vender-chips-a-desarrolladores.mp4"
   },
   "nacionales:89b6dd1b304f6c4e|tiktok": {
    "actualizado": "2026-10-22T00:20:25.000Z",
@@ -32248,32 +32255,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x": {
-   "actualizado": "2026-10-19T18:20:17.000Z",
-   "buffer_id": "",
-   "clave": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34|x",
-   "creado": "2026-10-18T18:20:15.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T18:07:28.224Z",
-   "id": "web:dd87b7aa-3504-4ee1-855b-97c17f044d34",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "El dilema de Milei: blindaje político de gobernadores y la espera de la reactivación económica\n\nEl oficialismo logró frenar la caída del DNU 70 en el Congreso gracias al respaldo de 14 gobernadores, entre ellos Hugo Passalacqua y Gustavo Melella.\n\nhttps://www.diariolacampaña.com.ar/n/el-dilema-de-milei-blindaje-politico-de-gobernadores-y-la-4d4c5b",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El dilema de Milei: blindaje político de gobernadores y la espera de la reactivación económica",
-   "urgente": false,
-   "vence": "2026-10-19T18:07:28.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399|x": {
    "actualizado": "2026-10-20T02:40:18.000Z",
    "buffer_id": "",
@@ -33374,36 +33355,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6add388a8b3d437ddcdff473",
-   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|x",
-   "cuando": "2026-10-24T23:00:27.000Z",
-   "dueAt": "2026-10-24T23:02:24.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6add388a8b3d437ddcdff4d2",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u|x",
-   "cuando": "2026-10-24T23:00:27.000Z",
-   "dueAt": "2026-10-24T23:07:48.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en|x",
-   "cuando": "2026-10-24T23:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x",
-   "cuando": "2026-10-24T23:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok",
    "cuando": "2026-10-24T23:40:18.000Z",
@@ -37601,6 +37552,34 @@
    "cuando": "2026-10-29T18:00:35.000Z",
    "dueAt": "2026-10-29T18:02:05.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00263",
+   "cuando": "2026-10-29T18:20:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00263|x",
+   "cuando": "2026-10-29T18:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00263|tiktok",
+   "cuando": "2026-10-29T18:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ae38e69b3aaeefe23225ae5",
+   "clave": "entrevistas:job00263|x",
+   "cuando": "2026-10-29T18:20:25.000Z",
+   "dueAt": "2026-10-29T18:22:59.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -37852,6 +37831,7 @@
   "entrevistas:job00260": "2026-10-29T17:00:20.000Z",
   "entrevistas:job00261": "2026-10-29T17:20:13.000Z",
   "entrevistas:job00262": "2026-10-29T18:00:21.000Z",
+  "entrevistas:job00263": "2026-10-29T18:20:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",

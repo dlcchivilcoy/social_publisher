@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 3 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 7 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,11 +28,12 @@ Actualizado: 29/10/2026 15:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 575 de 600 · 30d: quedan 973 de 2000 (visto 2026-10-29T18:00:35.000Z)
+15m: quedan 149 de 150 · 24h: quedan 574 de 600 · 30d: quedan 972 de 2000 (visto 2026-10-29T18:20:25.000Z)
 
-## Cola propia (12 esperando)
+## Cola propia (13 esperando)
 - TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Carolina Amena: la emoción previa al show Magic Dance — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Fernando Cabani: Apuestas online y salud mental en jóvenes — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Eugenia Blotta: ordenanzas que no se cumplen en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,10 +53,6 @@ Actualizado: 29/10/2026 15:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T15:40 recibido web:990de47c-8ca8-4fd3-898a-2d852ee61aa7|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-29T15:40 programado bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x 
-- 2026-10-29T16:20 recibido bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|x dura 250 s y X admite 140 s sin suscripción
-- 2026-10-29T16:20 recibido bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|tiktok 
 - 2026-10-29T16:20 recibido web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x 
 - 2026-10-29T16:20 depurado web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x de la web, a X solo van las notas del diario de la mañana
 - 2026-10-29T16:20 enviado bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x 
@@ -77,3 +74,7 @@ Actualizado: 29/10/2026 15:00 (hora AR) · ACTIVO
 - 2026-10-29T18:00 recibido entrevistas:job00262|x 
 - 2026-10-29T18:00 recibido entrevistas:job00262|tiktok 
 - 2026-10-29T18:00 programado entrevistas:job00262|x 
+- 2026-10-29T18:20 entrevista_aprobada entrevistas:job00263 
+- 2026-10-29T18:20 recibido entrevistas:job00263|x 
+- 2026-10-29T18:20 recibido entrevistas:job00263|tiktok 
+- 2026-10-29T18:20 programado entrevistas:job00263|x 
