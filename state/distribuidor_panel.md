@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 07:03 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 29/10/2026 07:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 4 | 4 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,9 +28,13 @@ Actualizado: 29/10/2026 07:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 8 con métricas · mediana vistas/impresiones 501.5 · likes 4.5
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 599 de 600 · 30d: quedan 997 de 2000 (visto 2026-10-29T09:20:15.000Z)
+15m: quedan 149 de 150 · 24h: quedan 598 de 600 · 30d: quedan 996 de 2000 (visto 2026-10-29T10:03:23.000Z)
 
-## Cola propia (7 esperando)
+## Cola propia (11 esperando)
+- X · Notas web · Chivilcoy se prepara para la primera edición de "Folklore Sunset" en Campus Mult — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Biaus al Disco tiene fecha reprogramada para el domingo 1° de noviembre — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · “Justicia, levántate y anda” — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · “Murales de Identidad, Chivilcoy se cuenta” — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Aprehendieron a dos menores acusados de robar en una panadería — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una ciclista fue trasladada al hospital tras colisionar con un utilitario — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -48,18 +52,6 @@ Actualizado: 29/10/2026 07:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-28T21:20 programado bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x 
-- 2026-10-28T22:40 recibido policiales:https://www.latrochadigital.com.ar/2026/10/28/cho 
-- 2026-10-28T22:40 enviado bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|x 
-- 2026-10-28T22:40 programado policiales:https://www.latrochadigital.com.ar/2026/10/28/cho 
-- 2026-10-28T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/ 
-- 2026-10-28T23:20 recibido policiales:https://www.diariodemocracia.com/policiales/34723 
-- 2026-10-28T23:40 enviado policiales:https://www.latrochadigital.com.ar/2026/10/28/cho 
-- 2026-10-29T00:00 programado bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|tikto 
-- 2026-10-29T00:00 programado entrevistas:job00258|tiktok 
-- 2026-10-29T00:00 programado entrevistas:job00257|tiktok 
-- 2026-10-29T00:00 programado entrevistas:job00256|tiktok 
-- 2026-10-29T00:00 programado entrevistas:job00255|tiktok 
 - 2026-10-29T00:40 enviado bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh|tikto 
 - 2026-10-29T00:40 enviado entrevistas:job00258|tiktok 
 - 2026-10-29T01:00 recibido bot:video_matias-zucchi_mvstco4fog1j_01.mp4|x 
@@ -73,3 +65,15 @@ Actualizado: 29/10/2026 07:00 (hora AR) · ACTIVO
 - 2026-10-29T01:40 enviado entrevistas:job00256|tiktok 
 - 2026-10-29T01:40 enviado entrevistas:job00257|tiktok 
 - 2026-10-29T01:40 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/ 
+- 2026-10-29T10:02 recibido web:d8bbde96-e323-4c02-93f7-b2e09a555019|x 
+- 2026-10-29T10:02 recibido web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x 
+- 2026-10-29T10:02 recibido web:b078718b-3db7-4e2d-a7e7-5e989121b045|x 
+- 2026-10-29T10:02 recibido web:0cd5c457-7502-4d59-8051-9927ae917ce7|x 
+- 2026-10-29T10:03 recibido web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x 
+- 2026-10-29T10:03 recibido web:66bad44b-4ffb-4fe4-a2d7-800fe271a723|x 
+- 2026-10-29T10:03 recibido web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x 
+- 2026-10-29T10:03 recibido web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x 
+- 2026-10-29T10:03 programado web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x 
+- 2026-10-29T10:03 programado web:66bad44b-4ffb-4fe4-a2d7-800fe271a723|x 
+- 2026-10-29T10:03 programado web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x 
+- 2026-10-29T10:03 programado web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x 
