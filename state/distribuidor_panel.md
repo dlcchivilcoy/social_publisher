@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 3 |
+| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 3 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 7 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 27 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 26 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -28,7 +28,7 @@ Actualizado: 29/10/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 577 de 600 · 30d: quedan 975 de 2000 (visto 2026-10-29T17:20:21.000Z)
+15m: quedan 149 de 150 · 24h: quedan 576 de 600 · 30d: quedan 974 de 2000 (visto 2026-10-29T17:40:16.000Z)
 
 ## Cola propia (11 esperando)
 - TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,9 +52,6 @@ Actualizado: 29/10/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T15:20 enviado bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x 
-- 2026-10-29T15:20 enviado bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x 
-- 2026-10-29T15:20 enviado bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok 
 - 2026-10-29T15:20 enviado web:fa24c212-927b-4b43-b2d4-535b06d40feb|x 
 - 2026-10-29T15:20 enviado web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x 
 - 2026-10-29T15:40 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x 
@@ -77,3 +74,6 @@ Actualizado: 29/10/2026 14:20 (hora AR) · ACTIVO
 - 2026-10-29T17:20 recibido entrevistas:job00261|x 
 - 2026-10-29T17:20 recibido entrevistas:job00261|tiktok 
 - 2026-10-29T17:20 programado entrevistas:job00261|x 
+- 2026-10-29T17:40 enviado bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|x 
+- 2026-10-29T17:40 enviado entrevistas:job00260|x 
+- 2026-10-29T17:40 enviado entrevistas:job00261|x 
