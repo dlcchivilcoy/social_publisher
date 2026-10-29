@@ -3103,32 +3103,6 @@
    "volanta": "Malvinas",
    "youtube_url": "https://youtube.com/shorts/QOKsb3JPkqQ"
   },
-  "nacionales:02472f0cd4ba4800": {
-   "categoria": "Espectáculos",
-   "categoria_nacional": "espectaculos",
-   "descripcion": "A pocos días de confirmar el final de su relación de 16 años, el productor le dedicó dos mensajes públicos a la bailarina por el Día de la Madre.",
-   "duracion_seg": 65.0,
-   "generado": "2026-10-19T01:21:17.000Z",
-   "hashtags": [
-    "LourdesSanchez",
-    "ChatoPrada"
-   ],
-   "id": "nacionales:02472f0cd4ba4800",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-doble-saludo-publico-del-chato-prada-a-lourdes-sanchez-tras-02472f",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "El doble saludo del Chato Prada a Lourdes Sánchez tras la separación",
-   "urgente": false,
-   "video_bytes": 2380531,
-   "video_mb": 2.3,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_02472f0cd4_el-doble-saludo-del-chato-prada-a-lourdes-sanchez.mp4",
-   "volanta": "Lourdes Sánchez y el Chato Prada",
-   "youtube_url": "https://youtube.com/shorts/jn0RCmklZnY"
-  },
   "nacionales:07376db2590e79bf": {
    "categoria": "Espectáculos",
    "categoria_nacional": "espectaculos",
@@ -3366,32 +3340,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2880ee3878_advierten-que-el-boleto-de-colectivo-podria.mp4",
    "volanta": "Tarifas de colectivos",
    "youtube_url": ""
-  },
-  "nacionales:2f1a6dccc7eef682": {
-   "categoria": "Cine y series",
-   "categoria_nacional": "cine_series",
-   "descripcion": "Ricardo Darín y Diego Peretti protagonizan Lo dejamos acá, un filme dirigido por Hernán Goldfrid que ya se puede ver en Netflix en Argentina 2026.",
-   "duracion_seg": 127.4,
-   "generado": "2026-10-19T01:36:13.000Z",
-   "hashtags": [
-    "CineArgentino",
-    "Netflix"
-   ],
-   "id": "nacionales:2f1a6dccc7eef682",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ricardo-darin-y-diego-peretti-protagonizan-lo-dejamos-aca-en-2f1a6d",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Ricardo Darín y Diego Peretti juntos en Lo dejamos acá",
-   "urgente": false,
-   "video_bytes": 4938098,
-   "video_mb": 4.7,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2f1a6dccc7_ricardo-darin-y-diego-peretti-juntos-en-lo.mp4",
-   "volanta": "Estreno en Netflix",
-   "youtube_url": "https://youtube.com/shorts/wfq9bhC3Sno"
   },
   "nacionales:41a4276d3cbfa924": {
    "categoria": "Política",
@@ -5921,24 +5869,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
    "volanta": "Chivilcoy · Policiales"
-  },
-  "web:04425d89-83c4-4e64-b618-b51e5d8d09e0": {
-   "categoria": "nacionales",
-   "descripcion": "Darío Barzola, alias Gamuza, asumió el mando en el paravalancha de la Academia tras una dura disputa interna. El anterior jefe, Leandro Paredes, sigue…",
-   "generado": "2026-10-18T19:37:25.960Z",
-   "id": "web:04425d89-83c4-4e64-b618-b51e5d8d09e0",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_beff54c643dd4226a081d8e54b750bff~mv2.webp",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Racing: quién es el nuevo jefe de la barra brava antes del clásico",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd",
-   "volanta": ""
   },
   "web:053f7722-ce93-4d22-9679-cc89862bee76": {
    "categoria": "",
@@ -20242,32 +20172,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_01c0d7889e_tribunal-del-mar-fijo-audiencias-por-la.mp4",
    "viral": false
   },
-  "nacionales:02472f0cd4ba4800|tiktok": {
-   "actualizado": "2026-10-19T19:40:15.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:02472f0cd4ba4800|tiktok",
-   "creado": "2026-10-19T02:40:14.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-19T01:21:17.000Z",
-   "id": "nacionales:02472f0cd4ba4800",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-doble-saludo-publico-del-chato-prada-a-lourdes-sanchez-tras-02472f",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "El doble saludo del Chato Prada a Lourdes Sánchez tras la separación\n\nA pocos días de confirmar el final de su relación de 16 años, el productor le dedicó dos mensajes públicos a la bailarina por el Día de la Madre.\n\nhttps://www.diariolacampaña.com.ar/n/el-doble-saludo-publico-del-chato-prada-a-lourdes-sanchez-tras-02472f\n\n#chivilcoy #diariolacampaña #radiodelcentro #espectáculos #LourdesSanchez",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El doble saludo del Chato Prada a Lourdes Sánchez tras la separación",
-   "urgente": false,
-   "vence": "2026-10-19T19:21:17.000Z",
-   "video_bytes": 2380531,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_02472f0cd4_el-doble-saludo-del-chato-prada-a-lourdes-sanchez.mp4"
-  },
   "nacionales:07376db2590e79bf|tiktok": {
    "actualizado": "2026-10-19T23:40:28.000Z",
    "buffer_id": "",
@@ -20609,32 +20513,6 @@
    "video_bytes": 27928725,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2880ee3878_advierten-que-el-boleto-de-colectivo-podria.mp4",
    "viral": false
-  },
-  "nacionales:2f1a6dccc7eef682|tiktok": {
-   "actualizado": "2026-10-19T19:40:15.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:2f1a6dccc7eef682|tiktok",
-   "creado": "2026-10-19T02:40:14.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-19T01:36:13.000Z",
-   "id": "nacionales:2f1a6dccc7eef682",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ricardo-darin-y-diego-peretti-protagonizan-lo-dejamos-aca-en-2f1a6d",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Ricardo Darín y Diego Peretti juntos en Lo dejamos acá\n\nRicardo Darín y Diego Peretti protagonizan Lo dejamos acá, un filme dirigido por Hernán Goldfrid que ya se puede ver en Netflix en Argentina 2026.\n\nhttps://www.diariolacampaña.com.ar/n/ricardo-darin-y-diego-peretti-protagonizan-lo-dejamos-aca-en-2f1a6d\n\n#chivilcoy #diariolacampaña #radiodelcentro #cineyseries #CineArgentino",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Ricardo Darín y Diego Peretti juntos en Lo dejamos acá",
-   "urgente": false,
-   "vence": "2026-10-19T19:36:13.000Z",
-   "video_bytes": 4938098,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_2f1a6dccc7_ricardo-darin-y-diego-peretti-juntos-en-lo.mp4"
   },
   "nacionales:41a4276d3cbfa924|tiktok": {
    "actualizado": "2026-10-21T21:20:24.000Z",
@@ -24923,32 +24801,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x": {
-   "actualizado": "2026-10-19T19:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:04425d89-83c4-4e64-b618-b51e5d8d09e0|x",
-   "creado": "2026-10-18T19:40:15.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T19:37:25.960Z",
-   "id": "web:04425d89-83c4-4e64-b618-b51e5d8d09e0",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Racing: quién es el nuevo jefe de la barra brava antes del clásico\n\nDarío Barzola, alias Gamuza, asumió el mando en el paravalancha de la Academia tras una dura disputa interna. Reemplaza a Leandro Paredes.\n\nhttps://www.diariolacampaña.com.ar/n/racing-quien-es-el-nuevo-jefe-de-la-barra-brava-antes-del-78b5fd",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Racing: quién es el nuevo jefe de la barra brava antes del clásico",
-   "urgente": false,
-   "vence": "2026-10-19T19:37:25.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:053f7722-ce93-4d22-9679-cc89862bee76|x": {
    "actualizado": "2026-10-20T14:20:17.000Z",
