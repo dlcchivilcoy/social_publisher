@@ -1,13 +1,13 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 0 | 3 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 6 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 3 |
+| Reels del bot | TikTok | 20 | 5 | 0 | 7 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,9 +28,10 @@ Actualizado: 29/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 580 de 600 · 30d: quedan 978 de 2000 (visto 2026-10-29T16:20:27.000Z)
+15m: quedan 149 de 150 · 24h: quedan 579 de 600 · 30d: quedan 977 de 2000 (visto 2026-10-29T16:40:26.000Z)
 
-## Cola propia (8 esperando)
+## Cola propia (9 esperando)
+- TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -49,9 +50,6 @@ Actualizado: 29/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T14:20 recibido web:d5f53bed-b052-4c25-bed8-d407293e0f55|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-29T14:20 programado bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x 
-- 2026-10-29T14:40 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x 
 - 2026-10-29T14:40 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|tikto 
 - 2026-10-29T14:40 recibido bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|x dura 168 s y X admite 140 s sin suscripción
 - 2026-10-29T14:40 recibido bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|tiktok 
@@ -74,3 +72,6 @@ Actualizado: 29/10/2026 13:20 (hora AR) · ACTIVO
 - 2026-10-29T16:20 recibido web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x 
 - 2026-10-29T16:20 depurado web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x de la web, a X solo van las notas del diario de la mañana
 - 2026-10-29T16:20 enviado bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|x 
+- 2026-10-29T16:40 recibido bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|x 
+- 2026-10-29T16:40 recibido bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok 
+- 2026-10-29T16:40 programado bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|x 

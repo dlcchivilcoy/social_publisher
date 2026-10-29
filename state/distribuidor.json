@@ -2280,6 +2280,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6ab02763c866b4cb.mp4",
    "youtube_url": "https://www.youtube.com/shorts/xRtANlKLHKQ"
   },
+  "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4": {
+   "descripcion": "En el marco de la jornada de paro nacional docente, se llevó adelante una volanteada en Chivilcoy en reclamo de justicia y visibilización por la situación de Nancy Godoy.\n\nLa medida formó parte de las acciones gremiales y comunitarias desarrolladas a nivel local para acompañar el cese de actividades y difundir el pedido vinculado al caso de la docente.",
+   "duracion_seg": 80.5,
+   "generado": "2026-10-29T16:22:09.000Z",
+   "id": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Paro nacional docente y volanteada por Nancy Godoy",
+   "urgente": false,
+   "video_bytes": 17923907,
+   "video_mb": 17.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f43eda94a61a0369.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/jMlt7gQlwqo"
+  },
   "entrevistas:job00224": {
    "descripcion": "Victoria Barros, referente del Centro Universitario Chivilcoy, anunció el lanzamiento de diplomaturas en diseño comercial y de indumentaria en Chivilcoy. La propuesta para comerciantes se dictará en horario de la siesta para facilitar la cursada.",
    "duracion_seg": null,
@@ -3708,32 +3729,6 @@
    "volanta": "Visita papal",
    "youtube_url": "https://youtube.com/shorts/Yr3kS0oAe-s"
   },
-  "nacionales:605a06264731bcec": {
-   "categoria": "Campo",
-   "categoria_nacional": "",
-   "descripcion": "La Bolsa de Comercio de Rosario anticipa un incremento del 2% en la superficie sojera, que alcanzará 4,5 millones de hectáreas. El sector ajusta fechas y densidades por las lluvias, mientras el trigo atraviesa la floración bajo la amenaza de la fusariosis.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-18T22:36:24.000Z",
-   "hashtags": [
-    "Campo",
-    "Soja"
-   ],
-   "id": "nacionales:605a06264731bcec",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "El Niño condiciona al campo: lanzan la estrategia de \"soja táctica\" en la región núcleo",
-   "urgente": false,
-   "video_bytes": 98198,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_605a062647_el-nino-condiciona-al-campo-lanzan-la-estrategia.mp4",
-   "volanta": "Soja y trigo",
-   "youtube_url": "https://youtube.com/shorts/rpi0g2-uPtk"
-  },
   "nacionales:632442afcb23e9fb": {
    "categoria": "Mundo",
    "categoria_nacional": "internacionales",
@@ -3865,32 +3860,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_7473fc970b_superavit-energetico-historico-usd-9-427-millones.mp4",
    "volanta": "Vaca Muerta y energía",
    "youtube_url": "https://youtube.com/shorts/tQ0EQ5FkatM"
-  },
-  "nacionales:7570d6c409614369": {
-   "categoria": "Cine y series",
-   "categoria_nacional": "cine_series",
-   "descripcion": "El nuevo vehículo eléctrico de Tesla fue presentado con propulsores de SpaceX capaces de realizar saltos aéreos, una función que recordó a la clásica serie de los años 80.",
-   "duracion_seg": 20.1,
-   "generado": "2026-10-18T22:20:52.000Z",
-   "hashtags": [
-    "Tesla",
-    "CineYSeries"
-   ],
-   "id": "nacionales:7570d6c409614369",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nuevo-tesla-roadster-de-elon-musk-emula-el-turbo-boost-de-el-7570d6",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Elon Musk creó el Turbo Boost del auto fantástico con un Tesla",
-   "urgente": false,
-   "video_bytes": 686709,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_7570d6c409_elon-musk-creo-el-turbo-boost-del-auto-fantastico.mp4",
-   "volanta": "Tesla Roadster",
-   "youtube_url": "https://youtube.com/shorts/2fng36Yu2MQ"
   },
   "nacionales:780212f6b8352df4": {
    "categoria": "Economía",
@@ -9995,24 +9964,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-german-romanello-presento-la-iniciativa-la-unlu",
    "volanta": "Chivilcoy · Sociedad"
   },
-  "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a": {
-   "categoria": "nacionales",
-   "descripcion": "El conjunto dirigido de manera interina por Leonardo Ponzio se medirá este domingo ante el Pirata en el estadio Mario Alberto Kempes, con la urgencia de…",
-   "generado": "2026-10-18T16:37:32.896Z",
-   "id": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_3439c9aa2f9d49b8abf83329ad4cedef~mv2.webp",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "River visita a Belgrano en Córdoba por el Torneo Clausura: formaciones y horario",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
-   "volanta": ""
-  },
   "web:be16b20b-29a0-45de-ae35-dec56c678655": {
    "categoria": "nacionales",
    "descripcion": "La Juventud Radical de la Cuarta Sección renovó autoridades en Chacabuco Este sábado, la Juventud Radical de la Cuarta Sección Electoral llevó adelante una jornada de formación e intercambio en la ciudad de Chacabuco, que culminó con el recambio de sus autoridades seccionales. El encuentro contó con espacios de formación política, debate e intercambio de experiencias. Durante la jornada se abordaron distintas temáticas vinculadas a la participación juvenil en instituciones sociales, los...",
@@ -11484,17 +11435,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 580,
-   "segundos": 61189,
+   "restantes": 579,
+   "segundos": 59990,
    "tope": 600
   },
   "30d": {
-   "restantes": 978,
-   "segundos": 1054213,
+   "restantes": 977,
+   "segundos": 1053015,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T16:20:27.000Z",
+ "cuota_visto": "2026-10-29T16:40:26.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -18523,6 +18474,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6ab02763c866b4cb.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok": {
+   "actualizado": "2026-10-29T16:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok",
+   "creado": "2026-10-29T16:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-29T16:22:09.000Z",
+   "id": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Paro nacional docente y volanteada por Nancy Godoy\n\nEn el marco de la jornada de paro nacional docente, se llevó adelante una volanteada en Chivilcoy en reclamo de justicia y visibilización por la situación de Nancy Godoy. La medida formó parte de las acciones gremiales y comunitarias desarrolladas a nivel local para acompañar el cese de actividades y difundir el pedido vinculado al caso de la docente.\n\nhttps://www.youtube.com/shorts/jMlt7gQlwqo\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Paro nacional docente y volanteada por Nancy Godoy",
+   "urgente": false,
+   "vence": "2026-10-31T16:22:09.000Z",
+   "video_bytes": 17923907,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f43eda94a61a0369.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|x": {
+   "actualizado": "2026-10-29T16:40:25.000Z",
+   "buffer_id": "6ae376fa4128a17189158276",
+   "clave": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|x",
+   "creado": "2026-10-29T16:40:15.000Z",
+   "dueAt": "2026-10-29T16:42:32.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-29T16:22:09.000Z",
+   "id": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:docente-godoy-nacional-nancy-paro-volanteada",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Paro nacional docente y volanteada por Nancy Godoy\n\nEn el marco de la jornada de paro nacional docente, se llevó adelante una volanteada en Chivilcoy en reclamo de justicia y visibilización por la situación de Nancy Godoy.\n\nhttps://www.youtube.com/shorts/jMlt7gQlwqo",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Paro nacional docente y volanteada por Nancy Godoy",
+   "urgente": false,
+   "vence": "2026-10-29T18:22:09.000Z",
+   "video_bytes": 17923907,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f43eda94a61a0369.mp4",
+   "viral": false
+  },
   "entrevistas:job00224|x": {
    "actualizado": "2026-10-19T21:00:29.000Z",
    "buffer_id": "6ad64347b5b645b3c338e4b4",
@@ -21392,32 +21399,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_5de2902aa9_confirman-que-el-papa-leon-xiv-llegara-a-la.mp4",
    "viral": false
   },
-  "nacionales:605a06264731bcec|tiktok": {
-   "actualizado": "2026-10-19T16:40:15.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:605a06264731bcec|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T22:36:24.000Z",
-   "id": "nacionales:605a06264731bcec",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "El Niño condiciona al campo: lanzan la estrategia de \"soja táctica\" en la región núcleo\n\nLa Bolsa de Comercio de Rosario anticipa un incremento del 2% en la superficie sojera, que alcanzará 4,5 millones de hectáreas. El sector ajusta fechas y densidades por las lluvias, mientras el trigo atraviesa la floración bajo la amenaza de la fusariosis.\n\nhttps://www.diariolacampaña.com.ar/n/el-nino-impulsa-la-soja-tactica-en-la-region-nucleo-y-el-trigo-605a06\n\n#chivilcoy #diariolacampaña #radiodelcentro #Campo #Soja",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El Niño condiciona al campo: lanzan la estrategia de \"soja táctica\" en la región núcleo",
-   "urgente": false,
-   "vence": "2026-10-19T16:36:24.000Z",
-   "video_bytes": 98198,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_605a062647_el-nino-condiciona-al-campo-lanzan-la-estrategia.mp4"
-  },
   "nacionales:632442afcb23e9fb|tiktok": {
    "actualizado": "2026-10-20T01:40:18.000Z",
    "buffer_id": "6ad6af15cba41b0140518ab1",
@@ -21634,32 +21615,6 @@
    "video_bytes": 79673,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_7473fc970b_superavit-energetico-historico-usd-9-427-millones.mp4",
    "viral": false
-  },
-  "nacionales:7570d6c409614369|tiktok": {
-   "actualizado": "2026-10-19T16:40:15.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:7570d6c409614369|tiktok",
-   "creado": "2026-10-19T00:20:16.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T22:20:52.000Z",
-   "id": "nacionales:7570d6c409614369",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-nuevo-tesla-roadster-de-elon-musk-emula-el-turbo-boost-de-el-7570d6",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Elon Musk creó el Turbo Boost del auto fantástico con un Tesla\n\nEl nuevo vehículo eléctrico de Tesla fue presentado con propulsores de SpaceX capaces de realizar saltos aéreos, una función que recordó a la clásica serie de los años 80.\n\nhttps://www.diariolacampaña.com.ar/n/el-nuevo-tesla-roadster-de-elon-musk-emula-el-turbo-boost-de-el-7570d6\n\n#chivilcoy #diariolacampaña #radiodelcentro #Tesla #CineYSeries",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Elon Musk creó el Turbo Boost del auto fantástico con un Tesla",
-   "urgente": false,
-   "vence": "2026-10-19T16:20:52.000Z",
-   "video_bytes": 686709,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_7570d6c409_elon-musk-creo-el-turbo-boost-del-auto-fantastico.mp4"
   },
   "nacionales:780212f6b8352df4|tiktok": {
    "actualizado": "2026-10-21T23:00:17.000Z",
@@ -31378,32 +31333,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x": {
-   "actualizado": "2026-10-19T16:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a|x",
-   "creado": "2026-10-18T16:40:14.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T16:37:32.896Z",
-   "id": "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "River visita a Belgrano en Córdoba por el Torneo Clausura: formaciones y horario\n\nhttps://www.diariolacampaña.com.ar/n/river-visita-a-belgrano-en-cordoba-por-el-torneo-clausura-2be0a5",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "River visita a Belgrano en Córdoba por el Torneo Clausura: formaciones y horario",
-   "urgente": false,
-   "vence": "2026-10-19T16:37:32.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:be16b20b-29a0-45de-ae35-dec56c678655|x": {
    "actualizado": "2026-10-19T23:00:25.000Z",
    "buffer_id": "",
@@ -33633,27 +33562,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6add1c683d5b27036ba19bf2",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tiktok",
-   "cuando": "2026-10-24T21:00:26.000Z",
-   "dueAt": "2026-10-24T22:03:03.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6add1c69bd33ce99c34047dd",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tiktok",
-   "cuando": "2026-10-24T21:00:26.000Z",
-   "dueAt": "2026-10-24T22:23:18.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6add1c696887a2efc1d59eaa",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tiktok",
-   "cuando": "2026-10-24T21:00:26.000Z",
-   "dueAt": "2026-10-24T22:43:23.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6add1c6a6887a2efc1d59f5c",
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tiktok",
@@ -37858,6 +37766,29 @@
    "cuando": "2026-10-29T16:20:27.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2115831666539184404"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|x",
+   "cuando": "2026-10-29T16:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok",
+   "cuando": "2026-10-29T16:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "buffer_id": "6ae376fa4128a17189158276",
+   "clave": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|x",
+   "cuando": "2026-10-29T16:40:26.000Z",
+   "dueAt": "2026-10-29T16:42:32.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38047,6 +37978,7 @@
   "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4": "2026-10-29T14:20:15.000Z",
   "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4": "2026-10-29T14:40:15.000Z",
   "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4": "2026-10-29T16:20:15.000Z",
+  "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4": "2026-10-29T16:40:15.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
