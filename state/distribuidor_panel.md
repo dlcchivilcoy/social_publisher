@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 10:00 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 10:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -31,8 +31,8 @@ Actualizado: 29/10/2026 10:00 (hora AR) · ACTIVO
 15m: quedan 148 de 150 · 24h: quedan 587 de 600 · 30d: quedan 985 de 2000 (visto 2026-10-29T13:00:35.000Z)
 
 ## Cola propia (2 esperando)
-- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — no entró entre las 5 más virales de la tanda 10 h
+- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
