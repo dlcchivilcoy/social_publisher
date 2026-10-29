@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,13 +7,13 @@ Actualizado: 29/10/2026 09:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 5 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 3 | 8 | 0 | 0 | 0 | 3 |
+| Notas web | X | 15 | 7 | 4 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 25 enviadas + 2 programadas de 100 por día
+- X: conectado · Buffer: 24 enviadas + 2 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -23,21 +23,16 @@ Actualizado: 29/10/2026 09:40 (hora AR) · ACTIVO
 - X · Notas web: 84 con métricas · mediana vistas/impresiones 23.5 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 12 con métricas · mediana vistas/impresiones 95.5 · likes 0
-- TikTok · Reels del bot: 61 con métricas · mediana vistas/impresiones 315 · likes 3
+- TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 309 · likes 3
 - TikTok · Reels policiales: 8 con métricas · mediana vistas/impresiones 520 · likes 3.5
-- TikTok · Nacionales y categorías: 7 con métricas · mediana vistas/impresiones 593 · likes 4
+- TikTok · Nacionales y categorías: 6 con métricas · mediana vistas/impresiones 501.5 · likes 5
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 589 de 600 · 30d: quedan 987 de 2000 (visto 2026-10-29T12:40:15.000Z)
+15m: quedan 148 de 150 · 24h: quedan 587 de 600 · 30d: quedan 985 de 2000 (visto 2026-10-29T13:00:35.000Z)
 
-## Cola propia (7 esperando)
-- TikTok · Reels del bot · Presentaron la 21° edición de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Aprehendieron a dos menores acusados de robar en una panadería — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Una ciclista fue trasladada al hospital tras colisionar con un utilitario — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (2 esperando)
+- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — no entró entre las 5 más virales de la tanda 10 h
+- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — no entró entre las 5 más virales de la tanda 10 h
 
 ## Errores recientes
 - TikTok · Recuperaron la tercera moto robada en la propiedad de Sebastián Porto — Please update the media URL to be publicly accessible before retrying the post.
@@ -48,15 +43,6 @@ Actualizado: 29/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T10:03 programado web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x 
-- 2026-10-29T10:03 programado web:66bad44b-4ffb-4fe4-a2d7-800fe271a723|x 
-- 2026-10-29T10:03 programado web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x 
-- 2026-10-29T10:03 programado web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x 
-- 2026-10-29T10:20 recibido web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x 
-- 2026-10-29T10:20 recibido web:561853b1-67e1-45fd-b235-1ca7ac0f7b85|x 
-- 2026-10-29T10:20 recibido web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x 
-- 2026-10-29T10:20 recibido web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x 
-- 2026-10-29T10:20 recibido web:f5e279af-867b-46f2-92ed-06cee448bd38|x 
 - 2026-10-29T10:20 recibido web:dbcff185-c524-4cad-9ffd-27938d2a4920|x 
 - 2026-10-29T10:20 programado web:0cd5c457-7502-4d59-8051-9927ae917ce7|x 
 - 2026-10-29T10:40 enviado web:66bad44b-4ffb-4fe4-a2d7-800fe271a723|x 
@@ -73,3 +59,12 @@ Actualizado: 29/10/2026 09:40 (hora AR) · ACTIVO
 - 2026-10-29T12:00 programado web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x 
 - 2026-10-29T12:40 programado web:561853b1-67e1-45fd-b235-1ca7ac0f7b85|x 
 - 2026-10-29T12:40 programado web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x 
+- 2026-10-29T13:00 enviado web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x 
+- 2026-10-29T13:00 enviado web:d8bbde96-e323-4c02-93f7-b2e09a555019|x 
+- 2026-10-29T13:00 enviado web:dbcff185-c524-4cad-9ffd-27938d2a4920|x 
+- 2026-10-29T13:00 enviado web:f5e279af-867b-46f2-92ed-06cee448bd38|x 
+- 2026-10-29T13:00 programado bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|tikto 
+- 2026-10-29T13:00 programado bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok 
+- 2026-10-29T13:00 programado bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok 
+- 2026-10-29T13:00 programado bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok 
+- 2026-10-29T13:00 programado bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tikto 

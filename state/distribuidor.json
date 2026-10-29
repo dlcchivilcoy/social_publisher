@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-29T11:40:18.000Z"
+   "visto": "2026-10-29T13:00:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 2,
-    "sent": 25
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-29T11:40:18.000Z"
+   "visto": "2026-10-29T13:00:23.000Z"
   }
  },
  "contenidos": {
@@ -3887,32 +3887,6 @@
    "volanta": "Interna en Racing",
    "youtube_url": "https://youtube.com/shorts/BqvBt9P8caM"
   },
-  "nacionales:82015de779d2e56d": {
-   "categoria": "Cine y series",
-   "categoria_nacional": "cine_series",
-   "descripcion": "La plataforma de streaming renovó su catálogo con opciones de suspenso, comedia romántica y animación. Conocé las producciones imperdibles que marcan tendencia con duraciones de 1 h 48 min, 1 h 43 min, 1 h 41 min y 1 h 17 min.",
-   "duracion_seg": 20.1,
-   "generado": "2026-10-18T18:39:00.000Z",
-   "hashtags": [
-    "CineYSeries",
-    "Netflix"
-   ],
-   "id": "nacionales:82015de779d2e56d",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "Las cinco películas para maratonear este fin de semana en Netflix",
-   "urgente": false,
-   "video_bytes": 418635,
-   "video_mb": 0.4,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_82015de779_las-cinco-peliculas-para-maratonear-este-fin-de.mp4",
-   "volanta": "Estrenos en Netflix",
-   "youtube_url": "https://youtube.com/shorts/XJCgrqgAfQQ"
-  },
   "nacionales:883bc6cd67a29d7e": {
    "categoria": "Espectáculos",
    "categoria_nacional": "espectaculos",
@@ -4201,32 +4175,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a09771b77a_jugador-de-racing-reacciono-con-insultos-y-gestos.mp4",
    "volanta": "Racing e Independiente",
    "youtube_url": "https://youtube.com/shorts/1eEvHhl8o5E"
-  },
-  "nacionales:a28aa737cf87213c": {
-   "categoria": "Mundo",
-   "categoria_nacional": "internacionales",
-   "descripcion": "Una mujer de 26 años fue arrestada en el departamento de Colón acusada de contratar a dos sicarios para asesinar a Yeni Elizabeth Rivera Guzmán, de 20 años y con cuatro y cinco meses de embarazo, en un hecho motivado por un conflicto pasional.",
-   "duracion_seg": 89.3,
-   "generado": "2026-10-19T03:06:13.000Z",
-   "hashtags": [
-    "Honduras",
-    "Policiales"
-   ],
-   "id": "nacionales:a28aa737cf87213c",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/honduras-detienen-a-una-mujer-acusada-de-contratar-sicarios-a28aa7",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "Detuvieron a una mujer acusada de ordenar el crimen de una joven embarazada",
-   "urgente": false,
-   "video_bytes": 5726224,
-   "video_mb": 5.5,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a28aa737cf_detuvieron-a-una-mujer-acusada-de-ordenar-el.mp4",
-   "volanta": "Honduras",
-   "youtube_url": "https://youtube.com/shorts/G7zgFBEOZZQ"
   },
   "nacionales:a45e03c51dbe2f12": {
    "categoria": "Deportes",
@@ -11749,22 +11697,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
-   "segundos": 900,
+   "restantes": 148,
+   "segundos": 897,
    "tope": 150
   },
   "24h": {
-   "restantes": 589,
-   "segundos": 74401,
+   "restantes": 587,
+   "segundos": 73189,
    "tope": 600
   },
   "30d": {
-   "restantes": 987,
-   "segundos": 1067426,
+   "restantes": 985,
+   "segundos": 1066214,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T12:40:15.000Z",
+ "cuota_visto": "2026-10-29T13:00:35.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -15559,7 +15507,7 @@
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-28T14:22:30.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1",
@@ -15624,7 +15572,7 @@
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-28T14:29:20.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm",
@@ -15682,15 +15630,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tiktok": {
-   "actualizado": "2026-10-28T14:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T13:00:24.000Z",
+   "buffer_id": "6ae34373650dab96a372d6f5",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tiktok",
    "creado": "2026-10-28T14:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T14:23:39.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T14:37:26.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq",
    "intentos": 0,
@@ -15747,15 +15695,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|tiktok": {
-   "actualizado": "2026-10-28T18:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T13:00:24.000Z",
+   "buffer_id": "6ae3436c3843f63a48589b96",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|tiktok",
    "creado": "2026-10-28T18:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T13:03:52.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T18:25:40.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p",
    "intentos": 0,
@@ -16084,43 +16032,6 @@
    "vence": "2026-10-21T00:41:18.000Z",
    "video_bytes": 8987863,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5e7d10552d188329.mp4"
-  },
-  "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok": {
-   "actualizado": "2026-10-19T13:00:21.000Z",
-   "buffer_id": "6ad5fcf238bcdab6ee512843",
-   "clave": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|tiktok",
-   "creado": "2026-10-19T11:20:14.000Z",
-   "dueAt": "2026-10-19T12:03:19.000Z",
-   "enviado": "2026-10-19T12:06:48.965Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T11:18:12.000Z",
-   "id": "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698348865329712405",
-   "metricas": {
-    "averageTimeWatched": 4.2,
-    "comments": 0,
-    "engagementRate": 1.69,
-    "reach": 0,
-    "reactions": 7,
-    "shares": 0,
-    "totalTimeWatched": 29.75,
-    "views": 413
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata\n\nLa delegación de Chivilcoy viaja rumbo a Mar del Plata con el objetivo de participar en la Final Provincial de los Juegos Bonaerenses. Los representantes locales forman parte de la comitiva que disputará las distintas instancias decisivas del certamen en la ciudad balnearia. La competencia reúne a clasificados de diversos distritos de la provincia de Buenos Aires en el cierre de la tradicional cita deportiva y cultural.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-la-delegacion-de-chivilcoy-viaja-a-la-final\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "La delegación de Chivilcoy viaja a la Final Provincial en Mar del Plata",
-   "urgente": false,
-   "vence": "2026-10-21T11:18:12.000Z",
-   "video_bytes": 8740858,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0ab379229a76e6f7.mp4"
   },
   "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4|x": {
    "actualizado": "2026-10-19T16:20:22.000Z",
@@ -18426,15 +18337,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok": {
-   "actualizado": "2026-10-28T15:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T13:00:24.000Z",
+   "buffer_id": "6ae34372017e28c83c5eb075",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok",
    "creado": "2026-10-28T15:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T14:03:09.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T15:05:47.000Z",
    "id": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4",
    "intentos": 0,
@@ -18543,15 +18454,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok": {
-   "actualizado": "2026-10-28T17:20:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T13:00:24.000Z",
+   "buffer_id": "6ae343703843f63a4858a62a",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok",
    "creado": "2026-10-28T17:20:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T13:43:50.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-28T17:15:01.000Z",
    "id": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4",
    "intentos": 0,
@@ -18608,15 +18519,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok": {
-   "actualizado": "2026-10-29T01:00:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-29T13:00:24.000Z",
+   "buffer_id": "6ae3436f1d52e172a1061a6f",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok",
    "creado": "2026-10-29T01:00:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-29T13:23:42.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T00:43:18.000Z",
    "id": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4",
    "intentos": 0,
@@ -21916,32 +21827,6 @@
    "video_bytes": 91884,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_78b5fd65bc_racing-define-al-nuevo-lider-de-su-barra-brava-en.mp4"
   },
-  "nacionales:82015de779d2e56d|tiktok": {
-   "actualizado": "2026-10-19T12:40:16.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:82015de779d2e56d|tiktok",
-   "creado": "2026-10-18T20:20:13.000Z",
-   "dueAt": "",
-   "error": "tope de 12 publicaciones en 24 h de TikTok",
-   "espera": "tope de 12 publicaciones en 24 h de TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-18T18:39:00.000Z",
-   "id": "nacionales:82015de779d2e56d",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Las cinco películas para maratonear este fin de semana en Netflix\n\nLa plataforma de streaming renovó su catálogo con opciones de suspenso, comedia romántica y animación. Conocé las producciones imperdibles que marcan tendencia con duraciones de 1 h 48 min, 1 h 43 min, 1 h 41 min y 1 h 17 min.\n\nhttps://www.diariolacampaña.com.ar/n/netflix-las-cinco-peliculas-recomendadas-para-ver-este-fin-de-82015d\n\n#chivilcoy #diariolacampaña #radiodelcentro #CineYSeries #Netflix",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Las cinco películas para maratonear este fin de semana en Netflix",
-   "urgente": false,
-   "vence": "2026-10-19T12:39:00.000Z",
-   "video_bytes": 418635,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_82015de779_las-cinco-peliculas-para-maratonear-este-fin-de.mp4"
-  },
   "nacionales:883bc6cd67a29d7e|tiktok": {
    "actualizado": "2026-10-19T20:40:17.000Z",
    "buffer_id": "",
@@ -22331,43 +22216,6 @@
    "vence": "2026-10-20T08:05:14.000Z",
    "video_bytes": 84103,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a09771b77a_jugador-de-racing-reacciono-con-insultos-y-gestos.mp4"
-  },
-  "nacionales:a28aa737cf87213c|tiktok": {
-   "actualizado": "2026-10-19T13:00:21.000Z",
-   "buffer_id": "6ad5fcf3189a03b5ff21238f",
-   "clave": "nacionales:a28aa737cf87213c|tiktok",
-   "creado": "2026-10-19T09:00:17.000Z",
-   "dueAt": "2026-10-19T12:43:32.000Z",
-   "enviado": "2026-10-19T12:45:29.129Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T03:06:13.000Z",
-   "id": "nacionales:a28aa737cf87213c",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698358778961399048",
-   "metricas": {
-    "averageTimeWatched": 5.67,
-    "comments": 0,
-    "engagementRate": 0.33,
-    "reach": 0,
-    "reactions": 4,
-    "shares": 0,
-    "totalTimeWatched": 125.3,
-    "views": 1228
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/honduras-detienen-a-una-mujer-acusada-de-contratar-sicarios-a28aa7",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Detuvieron a una mujer acusada de ordenar el crimen de una joven embarazada\n\nUna mujer de 26 años fue arrestada en el departamento de Colón acusada de contratar a dos sicarios para asesinar a Yeni Elizabeth Rivera Guzmán, de 20 años y con cuatro y cinco meses de embarazo, en un hecho motivado por un conflicto pasional.\n\nhttps://www.diariolacampaña.com.ar/n/honduras-detienen-a-una-mujer-acusada-de-contratar-sicarios-a28aa7\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #Honduras",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Detuvieron a una mujer acusada de ordenar el crimen de una joven embarazada",
-   "urgente": false,
-   "vence": "2026-10-19T21:06:13.000Z",
-   "video_bytes": 5726224,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_a28aa737cf_detuvieron-a-una-mujer-acusada-de-ordenar-el.mp4"
   },
   "nacionales:a45e03c51dbe2f12|tiktok": {
    "actualizado": "2026-10-19T20:20:16.000Z",
@@ -26906,19 +26754,20 @@
    "viral": false
   },
   "web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x": {
-   "actualizado": "2026-10-29T10:40:16.000Z",
+   "actualizado": "2026-10-29T13:00:23.000Z",
    "buffer_id": "6ae3229142a28ed29401f717",
    "clave": "web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x",
    "creado": "2026-10-29T10:02:34.000Z",
    "dueAt": "2026-10-29T11:52:38.000Z",
+   "enviado": "2026-10-29T11:52:46.353Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:02:25.823Z",
    "id": "web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a",
    "ig_hora": "2026-10-29T11:52:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115773834712207512",
    "nota_url": "https://www.diariolacampaña.com.ar/n/gastronomia-recreacion-biaus-al-disco-tiene-fecha-reprogramada-para",
    "noticia": "nota:gastronomia-recreacion-biaus-al-disco-tiene-fecha-reprogramada-para",
    "origen": "web",
@@ -32931,19 +32780,20 @@
    "viral": false
   },
   "web:d8bbde96-e323-4c02-93f7-b2e09a555019|x": {
-   "actualizado": "2026-10-29T10:40:16.000Z",
+   "actualizado": "2026-10-29T13:00:23.000Z",
    "buffer_id": "6ae3229107196764b373ce8c",
    "clave": "web:d8bbde96-e323-4c02-93f7-b2e09a555019|x",
    "creado": "2026-10-29T10:02:34.000Z",
    "dueAt": "2026-10-29T12:07:31.000Z",
+   "enviado": "2026-10-29T12:07:46.098Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:02:33.519Z",
    "id": "web:d8bbde96-e323-4c02-93f7-b2e09a555019",
    "ig_hora": "2026-10-29T12:07:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115777608671486030",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cultura-y-recreacion-chivilcoy-se-prepara-para-la-primera-edicion-de",
    "noticia": "nota:cultura-y-recreacion-chivilcoy-se-prepara-para-la-primera-edicion-de",
    "origen": "web",
@@ -33089,19 +32939,20 @@
    "video_url": ""
   },
   "web:dbcff185-c524-4cad-9ffd-27938d2a4920|x": {
-   "actualizado": "2026-10-29T11:20:14.000Z",
+   "actualizado": "2026-10-29T13:00:23.000Z",
    "buffer_id": "6ae32bee92ad728a45751d04",
    "clave": "web:dbcff185-c524-4cad-9ffd-27938d2a4920|x",
    "creado": "2026-10-29T10:20:14.000Z",
    "dueAt": "2026-10-29T12:37:18.000Z",
+   "enviado": "2026-10-29T12:37:31.176Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:02:50.996Z",
    "id": "web:dbcff185-c524-4cad-9ffd-27938d2a4920",
    "ig_hora": "2026-10-29T12:37:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115785095625748932",
    "nota_url": "https://www.diariolacampaña.com.ar/n/handball-simon-dominguez-vuelve-a-vestir-la-albiceleste-representara",
    "noticia": "nota:handball-simon-dominguez-vuelve-a-vestir-la-albiceleste-representara",
    "origen": "web",
@@ -33917,19 +33768,20 @@
    "viral": false
   },
   "web:f5e279af-867b-46f2-92ed-06cee448bd38|x": {
-   "actualizado": "2026-10-29T11:40:19.000Z",
+   "actualizado": "2026-10-29T13:00:23.000Z",
    "buffer_id": "6ae330a3bab0e956b96cd16f",
    "clave": "web:f5e279af-867b-46f2-92ed-06cee448bd38|x",
    "creado": "2026-10-29T10:20:14.000Z",
    "dueAt": "2026-10-29T12:52:28.000Z",
+   "enviado": "2026-10-29T12:52:31.279Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T10:02:58.642Z",
    "id": "web:f5e279af-867b-46f2-92ed-06cee448bd38",
    "ig_hora": "2026-10-29T12:52:20.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115788871002734874",
    "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-cuenta-regresiva-para-el-medio-maraton-eduardo-pollaroli",
    "noticia": "nota:atletismo-cuenta-regresiva-para-el-medio-maraton-eduardo-pollaroli",
    "origen": "web",
@@ -34293,76 +34145,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|x",
-   "cuando": "2026-10-24T16:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tiktok",
-   "cuando": "2026-10-24T16:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:1e08419d-60ee-4c27-98d2-488e539b6952|x",
-   "cuando": "2026-10-24T16:20:17.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|x",
-   "cuando": "2026-10-24T17:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tiktok",
-   "cuando": "2026-10-24T17:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:c00bb224-879f-4991-ba6d-b57cef2f5104|x",
-   "cuando": "2026-10-24T17:20:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:bf6521bd-4d33-4790-8b06-46d2c1596e82|x",
-   "cuando": "2026-10-24T17:20:30.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c00bb224-879f-4991-ba6d-b57cef2f5104|x",
-   "cuando": "2026-10-24T17:20:30.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|x",
-   "cuando": "2026-10-24T17:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|tiktok",
    "cuando": "2026-10-24T17:40:22.000Z",
@@ -38532,6 +38314,65 @@
    "cuando": "2026-10-29T12:40:15.000Z",
    "dueAt": "2026-10-29T14:07:22.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x",
+   "cuando": "2026-10-29T13:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115773834712207512"
+  },
+  {
+   "clave": "web:d8bbde96-e323-4c02-93f7-b2e09a555019|x",
+   "cuando": "2026-10-29T13:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115777608671486030"
+  },
+  {
+   "clave": "web:dbcff185-c524-4cad-9ffd-27938d2a4920|x",
+   "cuando": "2026-10-29T13:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115785095625748932"
+  },
+  {
+   "clave": "web:f5e279af-867b-46f2-92ed-06cee448bd38|x",
+   "cuando": "2026-10-29T13:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115788871002734874"
+  },
+  {
+   "buffer_id": "6ae3436c3843f63a48589b96",
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|tiktok",
+   "cuando": "2026-10-29T13:00:35.000Z",
+   "dueAt": "2026-10-29T13:03:52.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae3436f1d52e172a1061a6f",
+   "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok",
+   "cuando": "2026-10-29T13:00:35.000Z",
+   "dueAt": "2026-10-29T13:23:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae343703843f63a4858a62a",
+   "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok",
+   "cuando": "2026-10-29T13:00:35.000Z",
+   "dueAt": "2026-10-29T13:43:50.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae34372017e28c83c5eb075",
+   "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok",
+   "cuando": "2026-10-29T13:00:35.000Z",
+   "dueAt": "2026-10-29T14:03:09.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae34373650dab96a372d6f5",
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tiktok",
+   "cuando": "2026-10-29T13:00:35.000Z",
+   "dueAt": "2026-10-29T14:23:39.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -38561,11 +38402,12 @@
    "2026-10-27 21",
    "2026-10-28 10",
    "2026-10-28 18",
-   "2026-10-28 21"
+   "2026-10-28 21",
+   "2026-10-29 10"
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T11:40:18.000Z",
+ "ultima_sync": "2026-10-29T13:00:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
