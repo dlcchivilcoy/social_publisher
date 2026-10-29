@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 1 | 1 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 2 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 4 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 8 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -13,8 +13,8 @@ Actualizado: 29/10/2026 19:00 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 25 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 6 enviadas + 1 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 24 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 29 · likes 0
@@ -28,7 +28,7 @@ Actualizado: 29/10/2026 19:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 569 de 600 · 30d: quedan 967 de 2000 (visto 2026-10-29T21:20:17.000Z)
+15m: quedan 149 de 150 · 24h: quedan 568 de 600 · 30d: quedan 966 de 2000 (visto 2026-10-29T22:20:22.000Z)
 
 ## Cola propia (13 esperando)
 - TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -53,7 +53,6 @@ Actualizado: 29/10/2026 19:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T17:20 programado entrevistas:job00261|x 
 - 2026-10-29T17:40 enviado bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|x 
 - 2026-10-29T17:40 enviado entrevistas:job00260|x 
 - 2026-10-29T17:40 enviado entrevistas:job00261|x 
@@ -78,3 +77,4 @@ Actualizado: 29/10/2026 19:00 (hora AR) · ACTIVO
 - 2026-10-29T21:00 programado entrevistas:job00264|tiktok 
 - 2026-10-29T21:00 programado entrevistas:job00263|tiktok 
 - 2026-10-29T21:20 enviado entrevistas:job00264|tiktok 
+- 2026-10-29T22:20 enviado entrevistas:job00263|tiktok 

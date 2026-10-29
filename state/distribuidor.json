@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 6
+    "scheduled": 0,
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-29T21:20:17.000Z"
+   "visto": "2026-10-29T22:20:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 25
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-29T21:20:17.000Z"
+   "visto": "2026-10-29T22:20:22.000Z"
   }
  },
  "contenidos": {
@@ -10528,24 +10528,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
    "volanta": "Chivilcoy · Incidentes"
   },
-  "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055": {
-   "categoria": "nacionales",
-   "descripcion": "El músico argentino fue reconocido por la banda sonora de la serie \"La Casa de los Espíritus\". Su recorrido desde Buenos Aires hasta Hollywood.",
-   "generado": "2026-10-18T21:50:12.597Z",
-   "id": "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_706b6501daf64346a7eff5e143d21df2~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY 2026",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
-   "volanta": ""
-  },
   "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72": {
    "categoria": "",
    "descripcion": "Amarilla Gas cierra su sector de fraccionamiento y envasado: desvincularían a nueve trabajadores La empresa mantendrá operativa la división de distribución en su planta de la Ruta 5. Tras la mediación del Ministerio de Trabajo, se garantizó el pago total de las indemnizaciones. La empresa Amarilla Gas confirmó el cierre definitivo del sector de fraccionamiento de su planta ubicada sobre la Ruta Nacional 5, en la ciudad de Chivilcoy. La medida impacta de manera directa en ocho trabajadores que...",
@@ -10816,17 +10798,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 569,
-   "segundos": 43198,
+   "restantes": 568,
+   "segundos": 39594,
    "tope": 600
   },
   "30d": {
-   "restantes": 967,
-   "segundos": 1036223,
+   "restantes": 966,
+   "segundos": 1032618,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T21:20:17.000Z",
+ "cuota_visto": "2026-10-29T22:20:22.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -19654,19 +19636,20 @@
    "viral": false
   },
   "entrevistas:job00263|tiktok": {
-   "actualizado": "2026-10-29T21:00:18.000Z",
+   "actualizado": "2026-10-29T22:20:22.000Z",
    "buffer_id": "6ae3b3e4f3a9d5311bceb392",
    "categoria": "",
    "clave": "entrevistas:job00263|tiktok",
    "creado": "2026-10-29T18:20:14.000Z",
    "dueAt": "2026-10-29T21:23:34.000Z",
+   "enviado": "2026-10-29T21:25:28.515Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T18:20:14.000Z",
    "id": "entrevistas:job00263",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702203599878671637",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -31766,32 +31749,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x": {
-   "actualizado": "2026-10-19T22:00:20.000Z",
-   "buffer_id": "",
-   "clave": "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055|x",
-   "creado": "2026-10-18T22:00:19.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T21:50:12.597Z",
-   "id": "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY 2026\n\nEl músico argentino fue reconocido por la banda sonora de la serie \"La Casa de los Espíritus\". Su recorrido desde Buenos Aires hasta Hollywood.\n\nhttps://www.diariolacampaña.com.ar/n/el-compositor-argentino-tomas-videla-fue-nominado-a-los-latin-0ffb2e",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El compositor argentino Tomás Videla fue nominado a los Latin GRAMMY 2026",
-   "urgente": false,
-   "vence": "2026-10-19T21:50:12.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x": {
    "actualizado": "2026-10-28T10:20:37.000Z",
    "buffer_id": "6ae1c868979a56d9e57bfd21",
@@ -32238,12 +32195,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en|x",
-   "cuando": "2026-10-25T01:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
   {
    "clave": "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|x",
    "cuando": "2026-10-25T01:40:14.000Z",
@@ -36463,6 +36414,12 @@
    "cuando": "2026-10-29T21:20:17.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7702198313533132052"
+  },
+  {
+   "clave": "entrevistas:job00263|tiktok",
+   "cuando": "2026-10-29T22:20:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702203599878671637"
   }
  ],
  "tandas": {
@@ -36498,7 +36455,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-29",
- "ultima_sync": "2026-10-29T21:20:17.000Z",
+ "ultima_sync": "2026-10-29T22:20:22.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
