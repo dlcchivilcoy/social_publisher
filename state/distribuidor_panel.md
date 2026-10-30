@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 11:20 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 11:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 3 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 20 | 3 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 0 | 0 | 0 | 0 | 5 |
+| Notas web | X | 15 | 5 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -29,7 +29,8 @@ Actualizado: 30/10/2026 11:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 589 de 600 · 30d: quedan 945 de 2000 (visto 2026-10-30T14:00:24.000Z)
 
-## Cola propia (12 esperando)
+## Cola propia (11 esperando)
+- TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -40,8 +41,6 @@ Actualizado: 30/10/2026 11:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -51,12 +50,6 @@ Actualizado: 30/10/2026 11:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T10:20 recibido web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x 
-- 2026-10-30T10:21 recibido web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x 
-- 2026-10-30T10:21 enviado web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x 
-- 2026-10-30T10:21 programado web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x 
-- 2026-10-30T10:40 programado web:8eedc4c8-7ed9-4248-9de7-468717547999|x 
-- 2026-10-30T10:40 programado web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x 
 - 2026-10-30T11:00 depurado web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x no está en el carrusel del diario de hoy
 - 2026-10-30T11:00 depurado web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x no está en el carrusel del diario de hoy
 - 2026-10-30T11:00 depurado web:8fd9d678-2717-4972-af3c-fcb225b55159|x no está en el carrusel del diario de hoy
@@ -76,3 +69,9 @@ Actualizado: 30/10/2026 11:20 (hora AR) · ACTIVO
 - 2026-10-30T14:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tikto 
 - 2026-10-30T14:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tikto 
 - 2026-10-30T14:00 programado bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x 
+- 2026-10-30T14:40 recibido bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|x dura 188 s y X admite 140 s sin suscripción
+- 2026-10-30T14:40 recibido bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok 
+- 2026-10-30T14:40 recibido web:898dd9bc-8d37-4255-aaf1-59fb965090e9|x 
+- 2026-10-30T14:40 vencido bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-30T14:40 vencido bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-30T14:40 depurado web:898dd9bc-8d37-4255-aaf1-59fb965090e9|x de la web, a X solo van las notas del diario de la mañana

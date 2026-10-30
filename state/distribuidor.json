@@ -2196,6 +2196,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e371fae2a43f96ec.mp4",
    "youtube_url": "https://www.youtube.com/shorts/BscXI-vAjyk"
   },
+  "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4": {
+   "descripcion": "Representantes de los gremios docentes FEB, SUTEBA y UDOCBA presentaron de manera conjunta una nota con firmas en la sede local de IOMA, con el objetivo de exigir el cumplimiento de las prestaciones de la obra social en Chivilcoy y reclamar por la situación que atraviesan los afiliados.\n\nDurante la presentación, Cristina Bergerot, Emiliano Pellegrino y Fabiana Scandizzo señalaron que los afiliados sufren problemas vinculados a cobros indebidos por parte de prestadores médicos y de la caja radiográfica. En ese sentido, remarcaron que a cada trabajador se le realiza el descuento mensual correspondiente.\n\nLos dirigentes sostuvieron que la falencia se concentra en los prestadores locales, a diferencia de lo que ocurre en distritos como Junín o La Plata, situación que en ocasiones obliga a los docentes a trasladarse a otras ciudades para recibir atención.\n\nAsimismo, sumaron al reclamo la demora en la efectivización de los reintegros. Explicaron que transcurren varios meses hasta que se concretan los pagos y advirtieron que, al momento de percibirse, los montos quedan totalmente desactualizados, por lo que quedaron a la espera de una respuesta por parte del organismo provincial.",
+   "duracion_seg": 187.6,
+   "generado": "2026-10-30T14:22:57.000Z",
+   "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA",
+   "urgente": false,
+   "video_bytes": 34247235,
+   "video_mb": 32.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_39892404b3b558e4.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/7FaMS1GTlHE"
+  },
   "entrevistas:job00230": {
    "descripcion": "En Chivilcoy, el escritor Jorge Giallorenzi presentó 'Terremotos' de Espacio Luna Alfanje y relató el desgarrador poema de una madre que perdió a su hijo durante un sismo.",
    "duracion_seg": null,
@@ -7006,6 +7027,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-santiago-zalabardo-obtuvo-la-medalla-de-plata-en",
    "volanta": "Chivilcoy · Deportes"
+  },
+  "web:898dd9bc-8d37-4255-aaf1-59fb965090e9": {
+   "categoria": "",
+   "descripcion": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA Representantes de los gremios docentes FEB, SUTEBA y UDOCBA presentaron de manera conjunta una nota con firmas en la sede local de IOMA, con el objetivo de exigir el cumplimiento de las prestaciones de la obra social en Chivilcoy y reclamar por la situación que atraviesan los afiliados. Durante la presentación, Cristina Bergerot, Emiliano Pellegrino y Fabiana Scandizzo señalaron que los afiliados sufren problemas vinculados...",
+   "generado": "2026-10-30T14:20:21.620Z",
+   "id": "web:898dd9bc-8d37-4255-aaf1-59fb965090e9",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_31c1a54beb8c44f090e5c2b0147c0372~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
+   "volanta": "Chivilcoy · Gremiales"
   },
   "web:89c9f8af-db2e-425f-9362-568f282ebcfe": {
    "categoria": "",
@@ -12533,15 +12573,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|tiktok": {
-   "actualizado": "2026-10-28T14:40:14.000Z",
+   "actualizado": "2026-10-30T14:40:19.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|tiktok",
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-28T14:22:30.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1",
    "intentos": 0,
@@ -12598,15 +12638,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|tiktok": {
-   "actualizado": "2026-10-28T14:40:14.000Z",
+   "actualizado": "2026-10-30T14:40:19.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|tiktok",
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-28T14:29:20.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm",
    "intentos": 0,
@@ -15992,6 +16032,59 @@
    "vence": "2026-10-30T15:59:15.000Z",
    "video_bytes": 1331754,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e371fae2a43f96ec.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok": {
+   "actualizado": "2026-10-30T14:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok",
+   "creado": "2026-10-30T14:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-30T14:22:57.000Z",
+   "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA\n\nRepresentantes de FEB, SUTEBA y UDOCBA exigieron el cumplimiento de las prestaciones de la obra social en Chivilcoy mediante una nota con firmas. Los dirigentes señalaron cobros indebidos de prestadores locales y demoras en los reintegros.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA",
+   "urgente": false,
+   "vence": "2026-11-01T14:22:57.000Z",
+   "video_bytes": 34247235,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_39892404b3b558e4.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|x": {
+   "actualizado": "2026-10-30T14:40:14.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|x",
+   "creado": "2026-10-30T14:40:14.000Z",
+   "dueAt": "",
+   "error": "dura 188 s y X admite 140 s sin suscripción",
+   "estado": "descartado",
+   "generado": "2026-10-30T14:22:57.000Z",
+   "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
+   "noticia": "nota:chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA",
+   "urgente": false,
+   "vence": "2026-10-30T16:22:57.000Z",
+   "video_bytes": 34247235,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_39892404b3b558e4.mp4",
    "viral": false
   },
   "entrevistas:job00230|x": {
@@ -24840,6 +24933,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:898dd9bc-8d37-4255-aaf1-59fb965090e9|x": {
+   "actualizado": "2026-10-30T14:40:19.000Z",
+   "buffer_id": "",
+   "clave": "web:898dd9bc-8d37-4255-aaf1-59fb965090e9|x",
+   "creado": "2026-10-30T14:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-10-30T14:20:21.620Z",
+   "id": "web:898dd9bc-8d37-4255-aaf1-59fb965090e9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
+   "noticia": "nota:chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA\n\nRepresentantes de FEB, SUTEBA y UDOCBA exigieron el cumplimiento de las prestaciones de la obra social en Chivilcoy. Señalaron que los afiliados sufren diversos problemas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA",
+   "urgente": false,
+   "vence": "2026-10-30T18:20:21.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:89c9f8af-db2e-425f-9362-568f282ebcfe|x": {
    "actualizado": "2026-10-23T19:40:20.000Z",
    "buffer_id": "",
@@ -28023,48 +28143,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura|x",
-   "cuando": "2026-10-26T09:00:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial|x",
-   "cuando": "2026-10-26T09:00:29.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/|x",
-   "cuando": "2026-10-26T09:00:29.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura|x",
-   "cuando": "2026-10-26T09:00:29.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:6c509d7f-52e1-4541-aa96-22083404a169|x",
-   "cuando": "2026-10-26T10:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5|x",
-   "cuando": "2026-10-26T10:20:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:34578935-f4ba-4a48-b177-a3e196a4e890|x",
    "cuando": "2026-10-26T10:20:27.000Z",
@@ -32239,6 +32317,48 @@
    "cuando": "2026-10-30T14:00:24.000Z",
    "dueAt": "2026-10-30T14:02:24.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|x",
+   "cuando": "2026-10-30T14:40:14.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 188 s y X admite 140 s sin suscripción",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok",
+   "cuando": "2026-10-30T14:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:898dd9bc-8d37-4255-aaf1-59fb965090e9|x",
+   "cuando": "2026-10-30T14:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|tiktok",
+   "cuando": "2026-10-30T14:40:19.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|tiktok",
+   "cuando": "2026-10-30T14:40:19.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "web:898dd9bc-8d37-4255-aaf1-59fb965090e9|x",
+   "cuando": "2026-10-30T14:40:19.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -32438,6 +32558,7 @@
   "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4": "2026-10-29T16:40:15.000Z",
   "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4": "2026-10-29T20:20:13.000Z",
   "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4": "2026-10-30T14:00:18.000Z",
+  "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4": "2026-10-30T14:40:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -33021,6 +33142,7 @@
   "web:887e9416-1c3a-42bc-923b-55f9724b7fc4": "2026-10-19T10:20:14.000Z",
   "web:88c4485b-b3c8-4e50-b111-0de101c23ab0": "2026-10-20T10:20:14.000Z",
   "web:88cf316f-775e-44d8-a2ae-b1cca1162e08": "2026-10-22T15:40:16.000Z",
+  "web:898dd9bc-8d37-4255-aaf1-59fb965090e9": "2026-10-30T14:40:14.000Z",
   "web:89c9f8af-db2e-425f-9362-568f282ebcfe": "2026-10-23T19:40:20.000Z",
   "web:8a598b83-5323-45ea-98bb-999b66679299": "2026-10-23T13:40:14.000Z",
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
