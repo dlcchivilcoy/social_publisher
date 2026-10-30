@@ -4233,32 +4233,6 @@
    "volanta": "Moto abandonada en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/pnc3TH7Kz-E"
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html": {
-   "categoria": "otro_policial",
-   "descripcion": "Un llamado de emergencia alertó a los efectivos sobre tres sospechosos que ingresaron a una vivienda. Lograron prevenir un robo o usurpación.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-20T02:50:52.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-vecino-evito-un-robo-tras-ver-a-tres-sujetos-b22404",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Un vecino de Chacabuco alertó a las autoridades tras observar a tres sujetos sospechosos ingresando a una vivienda ubicada en la zona de Sosa continuación.\n\nLos efectivos policiales acudieron de inmediato al lugar y constataron que la propiedad se encontraba abierta y sin ocupantes en su interior.\n\nGracias al aviso oportuno, se logró prevenir un robo o una posible usurpación en el inmueble.\n\nEn un hecho aparte, la Patrulla Motorizada identificó y trasladó a la comisaría a un hombre en el barrio La Amistad.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Seguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Vecino evitó un robo al alertar a la Policía sobre tres ladrones",
-   "urgente": false,
-   "video_bytes": 80822,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_0239_01_chacabuco_vecino-evit-un-robo-al-alertar.mp4",
-   "volanta": "Operativo policial en Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/Qv-J3gWVvbI"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html": {
    "categoria": "otro_policial",
    "descripcion": "Una joven de 20 años resultó herida esta tarde tras protagonizar un accidente en su moto en Chacabuco. Fue trasladada al hospital y no hubo otros vehículos involucrados, pero la policía halló la escena sin el rodado.",
@@ -8701,17 +8675,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 578,
-   "segundos": 50399,
+   "restantes": 577,
+   "segundos": 45595,
    "tope": 600
   },
   "30d": {
-   "restantes": 934,
-   "segundos": 955823,
+   "restantes": 933,
+   "segundos": 951020,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T19:40:17.000Z",
+ "cuota_visto": "2026-10-30T21:00:27.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -12502,7 +12476,7 @@
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:17:52.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti",
@@ -12567,7 +12541,7 @@
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:25:34.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b",
@@ -12632,7 +12606,7 @@
    "creado": "2026-10-29T15:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-29T15:27:59.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
@@ -12697,7 +12671,7 @@
    "creado": "2026-10-30T00:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-30T00:00:57.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9",
@@ -12953,15 +12927,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|tiktok": {
-   "actualizado": "2026-10-30T19:20:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T21:00:18.000Z",
+   "buffer_id": "6ae50565eaa24d6f9a3bef6a",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|tiktok",
    "creado": "2026-10-30T19:20:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T21:03:30.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-30T19:06:32.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3",
    "intentos": 0,
@@ -15219,7 +15193,7 @@
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:01:00.000Z",
    "id": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4",
@@ -15272,7 +15246,7 @@
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:36:08.000Z",
    "id": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4",
@@ -15325,7 +15299,7 @@
    "creado": "2026-10-29T16:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-29T16:14:55.000Z",
    "id": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4",
@@ -15378,7 +15352,7 @@
    "creado": "2026-10-29T16:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-29T16:22:09.000Z",
    "id": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4",
@@ -15443,7 +15417,7 @@
    "creado": "2026-10-29T20:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-29T20:15:37.000Z",
    "id": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4",
@@ -15496,7 +15470,7 @@
    "creado": "2026-10-30T14:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-30T13:59:15.000Z",
    "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
@@ -15553,7 +15527,7 @@
    "creado": "2026-10-30T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-30T14:22:57.000Z",
    "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
@@ -15606,7 +15580,7 @@
    "creado": "2026-10-30T15:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-30T14:53:31.000Z",
    "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
@@ -17409,15 +17383,15 @@
    "viral": false
   },
   "entrevistas:job00265|tiktok": {
-   "actualizado": "2026-10-30T16:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T21:00:18.000Z",
+   "buffer_id": "6ae5056bb84259308b9f4980",
    "categoria": "",
    "clave": "entrevistas:job00265|tiktok",
    "creado": "2026-10-30T16:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T22:23:26.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-30T16:20:14.000Z",
    "id": "entrevistas:job00265",
    "intentos": 0,
@@ -17466,15 +17440,15 @@
    "viral": false
   },
   "entrevistas:job00266|tiktok": {
-   "actualizado": "2026-10-30T17:00:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T21:00:18.000Z",
+   "buffer_id": "6ae5056a406ab8a018811b4e",
    "categoria": "",
    "clave": "entrevistas:job00266|tiktok",
    "creado": "2026-10-30T17:00:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T22:03:08.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-30T17:00:20.000Z",
    "id": "entrevistas:job00266",
    "intentos": 0,
@@ -17523,15 +17497,15 @@
    "viral": false
   },
   "entrevistas:job00267|tiktok": {
-   "actualizado": "2026-10-30T17:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T21:00:18.000Z",
+   "buffer_id": "6ae5056afc1ac02b6eddf699",
    "categoria": "",
    "clave": "entrevistas:job00267|tiktok",
    "creado": "2026-10-30T17:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T21:43:22.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-30T17:40:14.000Z",
    "id": "entrevistas:job00267",
    "intentos": 0,
@@ -17580,15 +17554,15 @@
    "viral": false
   },
   "entrevistas:job00268|tiktok": {
-   "actualizado": "2026-10-30T18:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T21:00:18.000Z",
+   "buffer_id": "6ae5056818914720939932c5",
    "categoria": "",
    "clave": "entrevistas:job00268|tiktok",
    "creado": "2026-10-30T18:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T21:23:26.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-30T18:20:15.000Z",
    "id": "entrevistas:job00268",
    "intentos": 0,
@@ -20139,32 +20113,6 @@
    "video_bytes": 75635,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_07_chacabuco_j-venes-escaparon-y-abandonaro.mp4",
    "viral": false
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok": {
-   "actualizado": "2026-10-20T21:00:21.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html|tiktok",
-   "creado": "2026-10-20T09:00:21.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-20T02:50:52.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-vecino-evito-un-robo-tras-ver-a-tres-sujetos-b22404",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Vecino evitó un robo al alertar a la Policía sobre tres ladrones\n\nUn llamado de emergencia alertó a los efectivos sobre tres sospechosos que ingresaron a una vivienda. Lograron prevenir un robo o usurpación.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-un-vecino-evito-un-robo-tras-ver-a-tres-sujetos-b22404\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Vecino evitó un robo al alertar a la Policía sobre tres ladrones",
-   "urgente": false,
-   "vence": "2026-10-20T20:50:52.000Z",
-   "video_bytes": 80822,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-20_0239_01_chacabuco_vecino-evit-un-robo-al-alertar.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html|tiktok": {
    "actualizado": "2026-10-22T20:20:13.000Z",
@@ -27199,36 +27147,6 @@
  },
  "registro": [
   {
-   "clave": "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84|x",
-   "cuando": "2026-10-26T12:06:20.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5|x",
-   "cuando": "2026-10-26T12:06:20.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:6c509d7f-52e1-4541-aa96-22083404a169|x",
-   "cuando": "2026-10-26T12:06:20.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:76ba9989-902f-48e4-be31-1bb0265c5c60|x",
-   "cuando": "2026-10-26T12:06:20.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f|x",
-   "cuando": "2026-10-26T12:06:20.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
    "clave": "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892|x",
    "cuando": "2026-10-26T12:06:20.000Z",
    "evento": "depurado",
@@ -31388,11 +31306,45 @@
    "cuando": "2026-10-30T19:40:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2116249372887257484"
+  },
+  {
+   "buffer_id": "6ae50565eaa24d6f9a3bef6a",
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|tiktok",
+   "cuando": "2026-10-30T21:00:27.000Z",
+   "dueAt": "2026-10-30T21:03:30.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae5056818914720939932c5",
+   "clave": "entrevistas:job00268|tiktok",
+   "cuando": "2026-10-30T21:00:27.000Z",
+   "dueAt": "2026-10-30T21:23:26.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae5056afc1ac02b6eddf699",
+   "clave": "entrevistas:job00267|tiktok",
+   "cuando": "2026-10-30T21:00:27.000Z",
+   "dueAt": "2026-10-30T21:43:22.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae5056a406ab8a018811b4e",
+   "clave": "entrevistas:job00266|tiktok",
+   "cuando": "2026-10-30T21:00:27.000Z",
+   "dueAt": "2026-10-30T22:03:08.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae5056bb84259308b9f4980",
+   "clave": "entrevistas:job00265|tiktok",
+   "cuando": "2026-10-30T21:00:27.000Z",
+   "dueAt": "2026-10-30T22:23:26.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-19 18",
    "2026-10-19 21",
    "2026-10-20 10",
    "2026-10-20 18",
@@ -31421,7 +31373,8 @@
    "2026-10-29 10",
    "2026-10-29 18",
    "2026-10-29 21",
-   "2026-10-30 10"
+   "2026-10-30 10",
+   "2026-10-30 18"
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
