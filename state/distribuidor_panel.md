@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 10:40 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 11:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 3 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 3 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 5 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 27 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 24 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 3 enviadas + 2 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 28 · likes 0
@@ -27,9 +27,10 @@ Actualizado: 30/10/2026 10:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 3 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 591 de 600 · 30d: quedan 947 de 2000 (visto 2026-10-30T13:00:33.000Z)
+15m: quedan 148 de 150 · 24h: quedan 589 de 600 · 30d: quedan 945 de 2000 (visto 2026-10-30T14:00:24.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (12 esperando)
+- TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -50,12 +51,6 @@ Actualizado: 30/10/2026 10:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T10:02 recibido web:606007a3-f032-422b-ace3-ee59408ba8de|x 
-- 2026-10-30T10:02 recibido web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x 
-- 2026-10-30T10:02 recibido web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x 
-- 2026-10-30T10:02 programado web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x 
-- 2026-10-30T10:02 programado web:606007a3-f032-422b-ace3-ee59408ba8de|x 
-- 2026-10-30T10:02 programado web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x 
 - 2026-10-30T10:20 recibido web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x 
 - 2026-10-30T10:21 recibido web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x 
 - 2026-10-30T10:21 enviado web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x 
@@ -75,3 +70,9 @@ Actualizado: 30/10/2026 10:40 (hora AR) · ACTIVO
 - 2026-10-30T13:00 programado bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tikto 
 - 2026-10-30T13:00 programado entrevistas:job00261|tiktok 
 - 2026-10-30T13:00 programado entrevistas:job00260|tiktok 
+- 2026-10-30T14:00 recibido bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x 
+- 2026-10-30T14:00 recibido bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok 
+- 2026-10-30T14:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tikto 
+- 2026-10-30T14:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tikto 
+- 2026-10-30T14:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tikto 
+- 2026-10-30T14:00 programado bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x 

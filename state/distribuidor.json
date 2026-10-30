@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 2,
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-10-30T13:00:19.000Z"
+   "visto": "2026-10-30T14:00:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 27
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-10-30T13:00:19.000Z"
+   "visto": "2026-10-30T14:00:23.000Z"
   }
  },
  "contenidos": {
@@ -2195,6 +2195,27 @@
    "video_mb": 13.1,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6ee9f57971e38631.mp4",
    "youtube_url": "https://www.youtube.com/shorts/OY202FGzB5o"
+  },
+  "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4": {
+   "descripcion": "Una vecina de la ciudad continúa con la intensa búsqueda de su motocicleta, la cual fue sustraída en la puerta de un edificio ubicado sobre la calle Ameghino al 63.\n\nSe trata de una Gilera Smash 110 de color azul, con dominio A049SIT. La damnificada, Nati Andrade, difundió grabaciones de cámaras de seguridad que captaron el ilícito con el propósito de solicitar colaboración para recuperarla.\n\nA partir de esa difusión, la familia afirmó haber recolectado identidades y diversos elementos sobre quiénes habrían participado en el robo. De acuerdo con el testimonio de la propietaria, sospechan que el rodado pasó por distintas manos tras el hecho, una situación que, según consideran, complica precisar su ubicación actual. Esta versión corresponde exclusivamente a lo manifestado por los afectados y no cuenta con confirmación policial en la información disponible.\n\nAndrade remarcó su preocupación e indignación ante lo sucedido y enfatizó que el vehículo constituye su único medio de transporte diario.\n\nPor el momento, la motocicleta sigue sin aparecer, por lo que solicitan a cualquier persona que cuente con datos certeros sobre el paradero del rodado que se comunique con la damnificada.",
+   "duracion_seg": 38.4,
+   "generado": "2026-10-30T13:59:15.000Z",
+   "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Buscan una moto robada en la puerta de un edificio",
+   "urgente": false,
+   "video_bytes": 1331754,
+   "video_mb": 1.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e371fae2a43f96ec.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/BscXI-vAjyk"
   },
   "entrevistas:job00230": {
    "descripcion": "En Chivilcoy, el escritor Jorge Giallorenzi presentó 'Terremotos' de Espacio Luna Alfanje y relató el desgarrador poema de una madre que perdió a su hijo durante un sismo.",
@@ -6825,25 +6846,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-una-vecina-relato-un-episodio-de-exhibicionismo",
    "volanta": "Chivilcoy · Seguridad"
   },
-  "web:78916e74-3542-4bb3-a594-1c57aa500533": {
-   "categoria": "",
-   "descripcion": "Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses Comenzó el primer día de competencia en la Final Provincial de los Juegos Bonaerenses con la participación de los equipos de Chivilcoy en fútbol PCD. En la categoría mayores de 17 años, el conjunto local disputa su encuentro frente a Escobar. Por su parte, a las 11.45 horas está programado el partido de fútbol PCD sub 16 ante el representativo de Tres Arroyos.",
-   "generado": "2026-10-20T13:52:52.348Z",
-   "id": "web:78916e74-3542-4bb3-a594-1c57aa500533",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_06838e6dcebf4edd8d4b3f2d564106f5~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da": {
    "categoria": "",
    "descripcion": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas Jorge Ponte y Marcos Curioni lograron la medalla de oro en la disciplina bochas intergeneracional. En la premiación estuvo presente el coordinador de Deportes de Chivilcoy, Emilio Calabelli.",
@@ -7052,25 +7054,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
    "volanta": "Chivilcoy · Deportes"
-  },
-  "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1": {
-   "categoria": "",
-   "descripcion": "El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos El secretario de Servicios Públicos, Esteban Genaro, repudió los hechos de vandalismo registrados nuevamente en la Plaza Francia, ubicada en la intersección de la avenida Echeverría y Monseñor de Andrea. Según informó, se trata del tercer episodio de estas características en el espacio público, donde se produjeron importantes daños en bancos, arcos, una columna de alumbrado y el sector eléctrico. Genaro explicó que...",
-   "generado": "2026-10-20T13:41:14.924Z",
-   "id": "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7bf52811eb164d53a92ef437000c9cc8~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-municipio-modificara-el-alumbrado-de-plaza",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-el-municipio-modificara-el-alumbrado-de-plaza",
-   "volanta": "Chivilcoy · Sociedad"
   },
   "web:815f1320-b368-407e-9e43-21cf0ad1b815": {
    "categoria": "",
@@ -9440,21 +9423,21 @@
  "cuota": {
   "15m": {
    "restantes": 148,
-   "segundos": 898,
+   "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 591,
-   "segundos": 74394,
+   "restantes": 589,
+   "segundos": 70792,
    "tope": 600
   },
   "30d": {
-   "restantes": 947,
-   "segundos": 979818,
+   "restantes": 945,
+   "segundos": 976217,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T13:00:33.000Z",
+ "cuota_visto": "2026-10-30T14:00:24.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -13535,19 +13518,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tiktok": {
-   "actualizado": "2026-10-30T13:00:20.000Z",
+   "actualizado": "2026-10-30T14:00:23.000Z",
    "buffer_id": "6ae494ee4233ff6805bf2c95",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tiktok",
    "creado": "2026-10-30T00:40:16.000Z",
    "dueAt": "2026-10-30T13:43:55.000Z",
+   "enviado": "2026-10-30T13:45:46.911Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T00:28:52.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702456250629410066",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-teatrero-abrio-una-nueva-edicion-con-un",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -13600,19 +13584,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tiktok": {
-   "actualizado": "2026-10-30T13:00:20.000Z",
+   "actualizado": "2026-10-30T14:00:23.000Z",
    "buffer_id": "6ae494ed6516a7746a2bbd0d",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tiktok",
    "creado": "2026-10-30T01:20:15.000Z",
    "dueAt": "2026-10-30T13:23:15.000Z",
+   "enviado": "2026-10-30T13:24:58.361Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T01:19:21.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702450916233989396",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -13665,19 +13650,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok": {
-   "actualizado": "2026-10-30T13:00:20.000Z",
+   "actualizado": "2026-10-30T14:00:23.000Z",
    "buffer_id": "6ae494eb3dc61ec0c20102be",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok",
    "creado": "2026-10-30T02:00:19.000Z",
    "dueAt": "2026-10-30T13:03:58.000Z",
+   "enviado": "2026-10-30T13:09:01.560Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T01:54:39.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702446632171801857",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16382,6 +16368,62 @@
    "vence": "2026-10-29T22:15:37.000Z",
    "video_bytes": 13745511,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6ee9f57971e38631.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok": {
+   "actualizado": "2026-10-30T14:00:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok",
+   "creado": "2026-10-30T14:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-30T13:59:15.000Z",
+   "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Buscan una moto robada en la puerta de un edificio\n\nUna vecina busca su Gilera Smash 110 azul sustraída en la calle Ameghino al 63 y difundió videos del hecho para pedir colaboración ciudadana. Según afirmó la propietaria, sospechan que el vehículo pasó por distintas manos tras el robo, lo que dificulta conocer su ubicación actual.\n\nhttps://www.youtube.com/shorts/BscXI-vAjyk\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Buscan una moto robada en la puerta de un edificio",
+   "urgente": false,
+   "vence": "2026-11-01T13:59:15.000Z",
+   "video_bytes": 1331754,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e371fae2a43f96ec.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x": {
+   "actualizado": "2026-10-30T14:00:23.000Z",
+   "buffer_id": "6ae4a2f8e266b27191eb8467",
+   "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x",
+   "creado": "2026-10-30T14:00:18.000Z",
+   "dueAt": "2026-10-30T14:02:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-30T13:59:15.000Z",
+   "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:buscan-edificio-moto-puerta-robada",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Buscan una moto robada en la puerta de un edificio\n\nUna vecina busca su Gilera Smash 110 sustraída en la calle Ameghino. Tras difundir videos del hecho, la familia afirmó haber reunido datos sobre los sospechosos y solicitó ayuda para recuperarla.\n\nhttps://www.youtube.com/shorts/BscXI-vAjyk",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Buscan una moto robada en la puerta de un edificio",
+   "urgente": false,
+   "vence": "2026-10-30T15:59:15.000Z",
+   "video_bytes": 1331754,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e371fae2a43f96ec.mp4",
    "viral": false
   },
   "entrevistas:job00230|x": {
@@ -24885,31 +24927,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:78916e74-3542-4bb3-a594-1c57aa500533|x": {
-   "actualizado": "2026-10-20T14:00:21.000Z",
-   "buffer_id": "",
-   "clave": "web:78916e74-3542-4bb3-a594-1c57aa500533|x",
-   "creado": "2026-10-20T14:00:21.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-20T13:52:52.348Z",
-   "id": "web:78916e74-3542-4bb3-a594-1c57aa500533",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
-   "noticia": "nota:chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses",
-   "urgente": false,
-   "vence": "2026-10-20T17:52:52.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da|x": {
    "actualizado": "2026-10-23T17:20:14.000Z",
    "buffer_id": "",
@@ -25267,31 +25284,6 @@
    "titulo": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización",
    "urgente": false,
    "vence": "2026-10-23T04:19:11.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1|x": {
-   "actualizado": "2026-10-20T14:00:21.000Z",
-   "buffer_id": "",
-   "clave": "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1|x",
-   "creado": "2026-10-20T14:00:21.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-20T13:41:14.924Z",
-   "id": "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-municipio-modificara-el-alumbrado-de-plaza",
-   "noticia": "nota:chivilcoy-sociedad-el-municipio-modificara-el-alumbrado-de-plaza",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Municipio modificará el alumbrado de Plaza Francia tras nuevos destrozos",
-   "urgente": false,
-   "vence": "2026-10-20T17:41:14.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -29004,48 +28996,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6adeb44d8b3d437ddc3c65c5",
-   "clave": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|x",
-   "cuando": "2026-10-26T02:00:46.000Z",
-   "dueAt": "2026-10-26T02:02:27.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adeb44ebd33ce99c3a1925a",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|x",
-   "cuando": "2026-10-26T02:00:46.000Z",
-   "dueAt": "2026-10-26T02:07:46.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|x",
-   "cuando": "2026-10-26T02:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114539533903577390"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|x",
-   "cuando": "2026-10-26T02:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114538144431222933"
-  },
-  {
-   "clave": "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial|x",
-   "cuando": "2026-10-26T09:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/|x",
-   "cuando": "2026-10-26T09:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura|x",
    "cuando": "2026-10-26T09:00:29.000Z",
@@ -33221,6 +33171,47 @@
    "cuando": "2026-10-30T13:00:33.000Z",
    "dueAt": "2026-10-30T14:23:30.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x",
+   "cuando": "2026-10-30T14:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok",
+   "cuando": "2026-10-30T14:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tiktok",
+   "cuando": "2026-10-30T14:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702456250629410066"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tiktok",
+   "cuando": "2026-10-30T14:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702450916233989396"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok",
+   "cuando": "2026-10-30T14:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702446632171801857"
+  },
+  {
+   "buffer_id": "6ae4a2f8e266b27191eb8467",
+   "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x",
+   "cuando": "2026-10-30T14:00:24.000Z",
+   "dueAt": "2026-10-30T14:02:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -33258,7 +33249,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
- "ultima_sync": "2026-10-30T13:00:19.000Z",
+ "ultima_sync": "2026-10-30T14:00:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -33419,6 +33410,7 @@
   "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4": "2026-10-29T16:20:15.000Z",
   "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4": "2026-10-29T16:40:15.000Z",
   "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4": "2026-10-29T20:20:13.000Z",
+  "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4": "2026-10-30T14:00:18.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
