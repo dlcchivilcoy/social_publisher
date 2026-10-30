@@ -17,7 +17,7 @@
     "sent": 8
    },
    "pausado": false,
-   "visto": "2026-10-30T01:00:22.000Z"
+   "visto": "2026-10-30T02:00:28.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 28
    },
    "pausado": false,
-   "visto": "2026-10-30T01:00:22.000Z"
+   "visto": "2026-10-30T02:00:28.000Z"
   }
  },
  "contenidos": {
@@ -1334,6 +1334,27 @@
    "video_mb": 0.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5dfb6909fceac284.mp4",
    "youtube_url": "https://www.youtube.com/shorts/sW1iEXExgwo"
+  },
+  "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va": {
+   "descripcion": "El Tribunal de Disciplina Deportiva del Interior confirmó la sanción al conjunto correntino por los incidentes del pasado 25 de octubre. El \"Lobo\" se mete por segundo año consecutivo entre los ocho mejores de la Reválida en busca del ascenso. La incertidumbre llegó a su fin.",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-30T01:54:39.000Z",
+   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos",
+   "urgente": false,
+   "video_bytes": 774012,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5a90ebb65d014673.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/yNqU14wRAgs"
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
@@ -3446,32 +3467,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_5de2902aa9_confirman-que-el-papa-leon-xiv-llegara-a-la.mp4",
    "volanta": "Visita papal",
    "youtube_url": "https://youtube.com/shorts/Yr3kS0oAe-s"
-  },
-  "nacionales:632442afcb23e9fb": {
-   "categoria": "Mundo",
-   "categoria_nacional": "internacionales",
-   "descripcion": "Fuertes precipitaciones provocadas por la tormenta Adam causaron estragos en Valencia y Alicante. Hay ciudades aisladas, rescates en helicóptero y registros sin precedentes desde 1987.",
-   "duracion_seg": 30.6,
-   "generado": "2026-10-19T22:15:15.000Z",
-   "hashtags": [
-    "Inundaciones",
-    "Espana"
-   ],
-   "id": "nacionales:632442afcb23e9fb",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "tipo": "video",
-   "titulo": "España: cuatro muertos y más de 800.000 confinados por inundaciones",
-   "urgente": false,
-   "video_bytes": 1741538,
-   "video_mb": 1.7,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_632442afcb_espana-cuatro-muertos-y-mas-de-800-000-confinados.mp4",
-   "volanta": "Temporal en España",
-   "youtube_url": "https://youtube.com/shorts/shPnmQNh93M"
   },
   "nacionales:64c61b88e47d5daf": {
    "categoria": "Economía",
@@ -5725,6 +5720,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/andrea-bustabas-construyendo-puentes-volque-todos-estos-anos-de",
    "volanta": ""
   },
+  "web:118a5f02-a016-4997-b53a-36c088349592": {
+   "categoria": "",
+   "descripcion": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos El Tribunal de Disciplina Deportiva del Interior confirmó la sanción al conjunto correntino por los incidentes del pasado 25 de octubre. El \"Lobo\" se mete por segundo año consecutivo entre los ocho mejores de la Reválida en busca del ascenso. La incertidumbre llegó a su fin y la alegría se desató en el campamento de Gimnasia y Esgrima. El Tribunal de Disciplina Deportiva del Interior emitió el Boletín Oficial N.º 88/26, en el...",
+   "generado": "2026-10-30T01:51:45.391Z",
+   "id": "web:118a5f02-a016-4997-b53a-36c088349592",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2f1c058830bc4e57a54079b062cae271~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:125df7be-6590-4828-b258-27d7a0764f2d": {
    "categoria": "",
    "descripcion": "El CUCH y la UTN convocan a un encuentro con empresas locales El Centro Universitario de Chivilcoy (CUCH) y la UTN Aula Chivilcoy realizarán un “Desayuno con Empresas”, un espacio de diálogo destinado a fortalecer el vínculo entre la universidad y el sector productivo de la ciudad. El encuentro se llevará a cabo el viernes 30 de octubre, a las 10 horas, en el Centro Universitario Chivilcoy, y contará con la presencia del decano de la Facultad Regional San Nicolás de la UTN, Ing. Tomás Avetta,...",
@@ -6946,24 +6960,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/raviol-de-oro-2026-domingo-pastas-representara-a-la-ciudad-en-la",
    "volanta": "‘Raviol de Oro 2026’"
   },
-  "web:594e84e0-bc01-4c60-a132-6a7f872182e0": {
-   "categoria": "nacionales",
-   "descripcion": "Ricardo Darín y Diego Peretti protagonizan Lo dejamos acá, un filme dirigido por Hernán Goldfrid que ya se puede ver en Netflix en Argentina 2026.",
-   "generado": "2026-10-19T01:35:21.858Z",
-   "id": "web:594e84e0-bc01-4c60-a132-6a7f872182e0",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ce83bfa937944987a2f965c0bb07a528~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ricardo-darin-y-diego-peretti-protagonizan-lo-dejamos-aca-en-2f1a6d",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Ricardo Darín y Diego Peretti protagonizan Lo dejamos acá en Netflix: de qué trata",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ricardo-darin-y-diego-peretti-protagonizan-lo-dejamos-aca-en-2f1a6d",
-   "volanta": ""
-  },
   "web:5bed14ed-a1b5-489b-a283-67d7d832c78c": {
    "categoria": "",
    "descripcion": "La Provincia impulsa la articulación productiva regional en un encuentro con representantes de diez distritos El Ministerio de Producción bonaerense reunió en Alberti a representantes de municipios, parques industriales y cámaras empresariales para intercambiar diagnósticos, identificar oportunidades de complementación productiva y presentar herramientas provinciales para la industria y el comercio. El Ministerio de Producción, Ciencia e Innovación Tecnológica de la provincia de Buenos Aires...",
@@ -7114,25 +7110,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/encuentro-en-chivilcoy-atiadim-fue-sede-del-primer-encuentro-zonal-de",
    "volanta": "Encuentro en Chivilcoy"
-  },
-  "web:67055abb-71ec-4503-8f54-7b4f60c9d4a4": {
-   "categoria": "nacionales",
-   "descripcion": "Entre enero y septiembre, la balanza comercial energética alcanzó un saldo positivo de USD 9.427 millones, superando marcas previas impulsada por la…",
-   "generado": "2026-10-20T01:45:07.955Z",
-   "id": "web:67055abb-71ec-4503-8f54-7b4f60c9d4a4",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_48a2d018b5494cdf8e6597836a12032d~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/vaca-muerta-dispara-el-superavit-energetico-a-usd-9-427-7473fc",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Vaca Muerta dispara el superávit energético a USD 9.427 millones en nueve meses",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vaca-muerta-dispara-el-superavit-energetico-a-usd-9-427-7473fc",
-   "volanta": ""
   },
   "web:67070b71-0e27-4e84-903f-83a20dacbf1a": {
    "categoria": "",
@@ -7417,25 +7394,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-una-vecina-relato-un-episodio-de-exhibicionismo",
    "volanta": "Chivilcoy · Seguridad"
   },
-  "web:76ff5169-2518-4c32-96e7-955ae7a8d272": {
-   "categoria": "nacionales",
-   "descripcion": "A doce días de la desaparición de Nancy Estela Godoy en Esquina, la fiscalía investiga prendas y armas blancas incautadas en la vivienda de un sospechoso.",
-   "generado": "2026-10-19T21:45:08.004Z",
-   "id": "web:76ff5169-2518-4c32-96e7-955ae7a8d272",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_75b884d82b404da7aca966b80e3345f0~mv2.gif",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Desaparición de Nancy Godoy en Corrientes: hallaron prendas y armas blancas con manchas rojas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
-   "volanta": ""
-  },
   "web:78916e74-3542-4bb3-a594-1c57aa500533": {
    "categoria": "",
    "descripcion": "Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses Comenzó el primer día de competencia en la Final Provincial de los Juegos Bonaerenses con la participación de los equipos de Chivilcoy en fútbol PCD. En la categoría mayores de 17 años, el conjunto local disputa su encuentro frente a Escobar. Por su parte, a las 11.45 horas está programado el partido de fútbol PCD sub 16 ante el representativo de Tres Arroyos.",
@@ -7682,24 +7640,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rutas-5-y-3-construir-un-trazado-simple-en-territorio-pampeano-puede",
    "volanta": "Rutas 5 y 3"
-  },
-  "web:82d9c768-a466-49ff-882d-09e27a21796f": {
-   "categoria": "nacionales",
-   "descripcion": "A pocos días de confirmar el final de su relación de 16 años, el productor le dedicó dos mensajes públicos a la bailarina por el Día de la Madre.",
-   "generado": "2026-10-19T01:20:18.614Z",
-   "id": "web:82d9c768-a466-49ff-882d-09e27a21796f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1c9019a90d99487a989de7208b849050~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-doble-saludo-publico-del-chato-prada-a-lourdes-sanchez-tras-02472f",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "El doble saludo público del Chato Prada a Lourdes Sánchez tras su separación",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/el-doble-saludo-publico-del-chato-prada-a-lourdes-sanchez-tras-02472f",
-   "volanta": ""
   },
   "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae": {
    "categoria": "",
@@ -10242,24 +10182,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/lla-4-seccion-nicolas-felice-enfatizo-los-jovenes-somos-los-que",
    "volanta": "LLA 4° Sección"
   },
-  "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3": {
-   "categoria": "nacionales",
-   "descripcion": "El bloque libertario debatió su estrategia tras frenar el avance opositor en el Congreso. Divergencias internas entre el sector que busca acuerdos con…",
-   "generado": "2026-10-19T01:50:11.307Z",
-   "id": "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e7dcc42ee4e844ca98dc32bb93c6fa57~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Internas en La Libertad Avanza por la estrategia electoral de 2027 y los acuerdos con gobernadores",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f",
-   "volanta": ""
-  },
   "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b": {
    "categoria": "",
    "descripcion": "Impulsan una colecta solidaria para asistir a los damnificados por la crecida del río Paraná El espacio político y social Argentina Humana —referenciado en Patria Grande— puso en marcha una campaña de recolección de donaciones para ayudar a las familias evacuadas en el Litoral. La recepción de insumos se realiza en la sede del Sindicato de Trabajadores Municipales hasta el viernes 30 de octubre. La grave emergencia hídrica que afecta a la región del Litoral argentino, como consecuencia de las...",
@@ -10282,22 +10204,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 561,
-   "segundos": 28792,
+   "restantes": 559,
+   "segundos": 26387,
    "tope": 600
   },
   "30d": {
-   "restantes": 959,
-   "segundos": 1021816,
+   "restantes": 957,
+   "segundos": 1019412,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T01:20:25.000Z",
+ "cuota_visto": "2026-10-30T02:00:29.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -10391,34 +10313,6 @@
    "vence": "2026-10-21T23:52:22.000Z",
    "video_bytes": 488890,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6094c27799bec562.mp4"
-  },
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|x": {
-   "actualizado": "2026-10-20T02:00:29.000Z",
-   "buffer_id": "",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|x",
-   "creado": "2026-10-20T00:00:19.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Reels del bot en X completo (10)",
-   "espera": "cupo diario de Reels del bot en X completo (10)",
-   "estado": "vencido",
-   "generado": "2026-10-19T23:52:22.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30",
-   "noticia": "nota:ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Se incendió un automóvil en el trazado de la Ruta 30\n\nSe reportó el incendio de un automóvil sobre la Ruta 30, entre el acceso a Ozono y el Cementerio Parque, a la altura de los silos de Alagna, en Chivilcoy. Noticia en desarrollo.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Se incendió un automóvil en el trazado de la Ruta 30",
-   "urgente": false,
-   "vence": "2026-10-20T01:52:22.000Z",
-   "video_bytes": 488890,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6094c27799bec562.mp4",
-   "viral": false
   },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i|tiktok": {
    "actualizado": "2026-10-20T13:20:15.000Z",
@@ -14504,18 +14398,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x": {
-   "actualizado": "2026-10-30T01:20:23.000Z",
+   "actualizado": "2026-10-30T02:00:28.000Z",
    "buffer_id": "6ae3f0d84b8768bfb2d24511",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x",
    "creado": "2026-10-30T01:20:15.000Z",
    "dueAt": "2026-10-30T01:22:27.000Z",
+   "enviado": "2026-10-30T01:22:34.228Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T01:19:21.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115977627450130527",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
    "noticia": "nota:chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
    "origen": "bot",
@@ -14529,6 +14424,62 @@
    "vence": "2026-10-30T03:19:21.000Z",
    "video_bytes": 661424,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5dfb6909fceac284.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok": {
+   "actualizado": "2026-10-30T02:00:19.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok",
+   "creado": "2026-10-30T02:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-30T01:54:39.000Z",
+   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos\n\nEl Tribunal de Disciplina Deportiva del Interior confirmó la sanción al conjunto correntino por los incidentes del pasado 25 de octubre. El \"Lobo\" se mete por segundo año consecutivo entre los ocho mejores de la Reválida en busca del ascenso. La incertidumbre llegó a su fin.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos",
+   "urgente": false,
+   "vence": "2026-11-01T01:54:39.000Z",
+   "video_bytes": 774012,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5a90ebb65d014673.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x": {
+   "actualizado": "2026-10-30T02:00:28.000Z",
+   "buffer_id": "6ae3fa3d6385db216a1c76d2",
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x",
+   "creado": "2026-10-30T02:00:19.000Z",
+   "dueAt": "2026-10-30T02:02:59.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-30T01:54:39.000Z",
+   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
+   "noticia": "nota:chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos\n\nEl Tribunal de Disciplina Deportiva del Interior confirmó la sanción al conjunto correntino por los incidentes del pasado 25 de octubre.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos",
+   "urgente": false,
+   "vence": "2026-10-30T03:54:39.000Z",
+   "video_bytes": 774012,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5a90ebb65d014673.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -19438,43 +19389,6 @@
    "video_bytes": 1325632,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_42bad0f0b5_el-modelo-de-paris-para-vivir-a-quince-minutos-de.mp4"
   },
-  "nacionales:42bad0f0b5785838|x": {
-   "actualizado": "2026-10-20T01:40:18.000Z",
-   "buffer_id": "6ad6b3c32fcafd0f1842313c",
-   "clave": "nacionales:42bad0f0b5785838|x",
-   "creado": "2026-10-20T00:20:16.000Z",
-   "dueAt": "2026-10-20T00:23:33.000Z",
-   "enviado": "2026-10-20T00:23:49.459Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-20T00:15:50.000Z",
-   "id": "nacionales:42bad0f0b5785838",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112338964770173167",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 4.95,
-    "impressions": 101,
-    "reactions": 1,
-    "reposts": 1
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-ciudad-de-los-15-minutos-el-modelo-urbano-de-paris-explicado-42bad0",
-   "noticia": "nota:la-ciudad-de-los-15-minutos-el-modelo-urbano-de-paris-explicado-42bad0",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "El modelo de París para vivir a quince minutos de todo llega a las librerías\n\nCarlos Moreno detalla en un libro la teoría de la proximidad. Diversos gobiernos la aplican para bajar el uso del auto y mejorar el bienestar.\n\nhttps://www.diariolacampaña.com.ar/n/la-ciudad-de-los-15-minutos-el-modelo-urbano-de-paris-explicado-42bad0",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El modelo de París para vivir a quince minutos de todo llega a las librerías",
-   "urgente": false,
-   "vence": "2026-10-20T02:15:50.000Z",
-   "video_bytes": 1325632,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_42bad0f0b5_el-modelo-de-paris-para-vivir-a-quince-minutos-de.mp4",
-   "viral": false
-  },
   "nacionales:4399eb58559e6a51|tiktok": {
    "actualizado": "2026-10-20T15:43:36.000Z",
    "buffer_id": "",
@@ -19500,43 +19414,6 @@
    "vence": "2026-10-20T19:16:43.000Z",
    "video_bytes": 1317400,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4399eb5855_una-avioneta-se-estrello-en-una-calle-de.mp4"
-  },
-  "nacionales:4399eb58559e6a51|x": {
-   "actualizado": "2026-10-20T01:40:18.000Z",
-   "buffer_id": "6ad6c1d2cba41b014055f739",
-   "clave": "nacionales:4399eb58559e6a51|x",
-   "creado": "2026-10-20T01:20:14.000Z",
-   "dueAt": "2026-10-20T01:23:12.000Z",
-   "enviado": "2026-10-20T01:23:20.818Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-20T01:16:43.000Z",
-   "id": "nacionales:4399eb58559e6a51",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112353944265494811",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 53,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
-   "noticia": "nota:una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Una avioneta se estrelló en una calle de California y sus tres ocupantes sobrevivieron\n\nUna aeronave colisionó contra un poste y cayó sobre una transitada avenida en San José. Las tres personas que iban a bordo sufrieron heridas leves.\n\nhttps://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Una avioneta se estrelló en una calle de California y sus tres ocupantes sobrevivieron",
-   "urgente": false,
-   "vence": "2026-10-20T03:16:43.000Z",
-   "video_bytes": 1317400,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_4399eb5855_una-avioneta-se-estrello-en-una-calle-de.mp4",
-   "viral": false
   },
   "nacionales:43c837025338a70a|tiktok": {
    "actualizado": "2026-10-20T09:00:31.000Z",
@@ -19948,43 +19825,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_5de2902aa9_confirman-que-el-papa-leon-xiv-llegara-a-la.mp4",
    "viral": false
   },
-  "nacionales:632442afcb23e9fb|tiktok": {
-   "actualizado": "2026-10-20T01:40:18.000Z",
-   "buffer_id": "6ad6af15cba41b0140518ab1",
-   "clave": "nacionales:632442afcb23e9fb|tiktok",
-   "creado": "2026-10-19T23:20:14.000Z",
-   "dueAt": "2026-10-20T00:23:04.000Z",
-   "enviado": "2026-10-20T00:23:57.767Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-19T22:15:15.000Z",
-   "id": "nacionales:632442afcb23e9fb",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7698538640070298881",
-   "metricas": {
-    "averageTimeWatched": 5.88,
-    "comments": 0,
-    "engagementRate": 1.38,
-    "reach": 0,
-    "reactions": 9,
-    "shares": 2,
-    "totalTimeWatched": 85.65,
-    "views": 800
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "España: cuatro muertos y más de 800.000 confinados por inundaciones\n\nFuertes precipitaciones provocadas por la tormenta Adam causaron estragos en Valencia y Alicante. Hay ciudades aisladas, rescates en helicóptero y registros sin precedentes desde 1987.\n\nhttps://www.diariolacampaña.com.ar/n/temporal-historico-en-espana-cuatro-muertos-y-mas-de-800-000-632442\n\n#chivilcoy #diariolacampaña #radiodelcentro #mundo #Inundaciones",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "España: cuatro muertos y más de 800.000 confinados por inundaciones",
-   "urgente": false,
-   "vence": "2026-10-20T16:15:15.000Z",
-   "video_bytes": 1741538,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_632442afcb_espana-cuatro-muertos-y-mas-de-800-000-confinados.mp4"
-  },
   "nacionales:64c61b88e47d5daf|tiktok": {
    "actualizado": "2026-10-21T22:00:22.000Z",
    "buffer_id": "",
@@ -20378,43 +20218,6 @@
    "vence": "2026-10-20T18:46:05.000Z",
    "video_bytes": 105772,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_9e0c09454f_kicillof-inauguro-los-juegos-bonaerenses-en-mar.mp4"
-  },
-  "nacionales:9e0c09454f9048c5|x": {
-   "actualizado": "2026-10-20T01:40:18.000Z",
-   "buffer_id": "6ad6bd2ab81183413da73d08",
-   "clave": "nacionales:9e0c09454f9048c5|x",
-   "creado": "2026-10-20T01:00:18.000Z",
-   "dueAt": "2026-10-20T01:03:32.000Z",
-   "enviado": "2026-10-20T01:03:50.277Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-20T00:46:05.000Z",
-   "id": "nacionales:9e0c09454f9048c5",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112349034677420319",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 46,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
-   "noticia": "nota:kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei\n\nhttps://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata y apuntó contra Milei",
-   "urgente": false,
-   "vence": "2026-10-20T02:46:05.000Z",
-   "video_bytes": 105772,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_9e0c09454f_kicillof-inauguro-los-juegos-bonaerenses-en-mar.mp4",
-   "viral": false
   },
   "nacionales:a09771b77a360e01|tiktok": {
    "actualizado": "2026-10-20T09:00:31.000Z",
@@ -22862,18 +22665,19 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x": {
-   "actualizado": "2026-10-30T01:20:23.000Z",
+   "actualizado": "2026-10-30T02:00:28.000Z",
    "buffer_id": "6ae3f0d9a83a7fb63c89b742",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x",
    "creado": "2026-10-29T23:40:14.000Z",
    "dueAt": "2026-10-30T01:28:29.000Z",
+   "enviado": "2026-10-30T01:28:33.515Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T23:31:53.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115979134077690026",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-sospechoso-de-robos-a-un-profugo-y-1b082d",
    "noticia": "nota:chacabuco-detuvieron-a-un-sospechoso-de-robos-a-un-profugo-y-1b082d",
    "origen": "policiales",
@@ -23742,6 +23546,31 @@
    "titulo": "Andrea Bustabas ‘Construyendo Puentes’",
    "urgente": false,
    "vence": "2026-10-27T14:02:18.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:118a5f02-a016-4997-b53a-36c088349592|x": {
+   "actualizado": "2026-10-30T02:00:19.000Z",
+   "buffer_id": "",
+   "clave": "web:118a5f02-a016-4997-b53a-36c088349592|x",
+   "creado": "2026-10-30T02:00:19.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-30T01:51:45.391Z",
+   "id": "web:118a5f02-a016-4997-b53a-36c088349592",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
+   "noticia": "nota:chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos",
+   "urgente": false,
+   "vence": "2026-10-30T05:51:45.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -25661,32 +25490,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:594e84e0-bc01-4c60-a132-6a7f872182e0|x": {
-   "actualizado": "2026-10-20T01:40:18.000Z",
-   "buffer_id": "",
-   "clave": "web:594e84e0-bc01-4c60-a132-6a7f872182e0|x",
-   "creado": "2026-10-19T01:40:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-19T01:35:21.858Z",
-   "id": "web:594e84e0-bc01-4c60-a132-6a7f872182e0",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ricardo-darin-y-diego-peretti-protagonizan-lo-dejamos-aca-en-2f1a6d",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Ricardo Darín y Diego Peretti protagonizan Lo dejamos acá en Netflix: de qué trata\n\nRicardo Darín y Diego Peretti protagonizan Lo dejamos acá, un filme dirigido por Hernán Goldfrid que ya se puede ver en Netflix en Argentina 2026.\n\nhttps://www.diariolacampaña.com.ar/n/ricardo-darin-y-diego-peretti-protagonizan-lo-dejamos-aca-en-2f1a6d",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Ricardo Darín y Diego Peretti protagonizan Lo dejamos acá en Netflix: de qué trata",
-   "urgente": false,
-   "vence": "2026-10-20T01:35:21.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x": {
    "actualizado": "2026-10-27T14:00:22.000Z",
    "buffer_id": "6ae096fe8e7337e594349086",
@@ -25937,31 +25740,6 @@
    "titulo": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad",
    "urgente": false,
    "vence": "2026-10-29T14:01:24.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:67055abb-71ec-4503-8f54-7b4f60c9d4a4|x": {
-   "actualizado": "2026-10-20T02:00:19.000Z",
-   "buffer_id": "",
-   "clave": "web:67055abb-71ec-4503-8f54-7b4f60c9d4a4|x",
-   "creado": "2026-10-20T02:00:19.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Nacionales y categorías, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-20T01:45:07.955Z",
-   "id": "web:67055abb-71ec-4503-8f54-7b4f60c9d4a4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/vaca-muerta-dispara-el-superavit-energetico-a-usd-9-427-7473fc",
-   "noticia": "nota:vaca-muerta-dispara-el-superavit-energetico-a-usd-9-427-7473fc",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Vaca Muerta dispara el superávit energético a USD 9.427 millones en nueve meses",
-   "urgente": false,
-   "vence": "2026-10-20T05:45:07.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -26419,34 +26197,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:76ff5169-2518-4c32-96e7-955ae7a8d272|x": {
-   "actualizado": "2026-10-20T02:00:29.000Z",
-   "buffer_id": "",
-   "clave": "web:76ff5169-2518-4c32-96e7-955ae7a8d272|x",
-   "creado": "2026-10-19T22:00:20.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-19T21:45:08.004Z",
-   "id": "web:76ff5169-2518-4c32-96e7-955ae7a8d272",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
-   "noticia": "nota:desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Desaparición de Nancy Godoy en Corrientes: hallaron prendas y armas blancas con manchas rojas\n\nA doce días de la desaparición de Nancy Estela Godoy en Esquina, la fiscalía investiga prendas y armas blancas incautadas en la vivienda de un sospechoso.\n\nhttps://www.diariolacampaña.com.ar/n/desaparicion-de-nancy-godoy-en-corrientes-hallaron-prendas-y-d553fb",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Desaparición de Nancy Godoy en Corrientes: hallaron prendas y armas blancas con manchas rojas",
-   "urgente": false,
-   "vence": "2026-10-20T01:45:08.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:78916e74-3542-4bb3-a594-1c57aa500533|x": {
    "actualizado": "2026-10-20T14:00:21.000Z",
    "buffer_id": "",
@@ -26859,32 +26609,6 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
-  },
-  "web:82d9c768-a466-49ff-882d-09e27a21796f|x": {
-   "actualizado": "2026-10-20T01:40:18.000Z",
-   "buffer_id": "",
-   "clave": "web:82d9c768-a466-49ff-882d-09e27a21796f|x",
-   "creado": "2026-10-19T01:40:13.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-19T01:20:18.614Z",
-   "id": "web:82d9c768-a466-49ff-882d-09e27a21796f",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-doble-saludo-publico-del-chato-prada-a-lourdes-sanchez-tras-02472f",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "El doble saludo público del Chato Prada a Lourdes Sánchez tras su separación\n\nA pocos días de confirmar el final de su relación de 16 años, el productor le dedicó dos mensajes públicos a la bailarina por el Día de la Madre.\n\nhttps://www.diariolacampaña.com.ar/n/el-doble-saludo-publico-del-chato-prada-a-lourdes-sanchez-tras-02472f",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El doble saludo público del Chato Prada a Lourdes Sánchez tras su separación",
-   "urgente": false,
-   "vence": "2026-10-20T01:20:18.000Z",
-   "video_bytes": 0,
-   "video_url": ""
   },
   "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae|x": {
    "actualizado": "2026-10-22T14:20:16.000Z",
@@ -30810,32 +30534,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x": {
-   "actualizado": "2026-10-20T02:00:29.000Z",
-   "buffer_id": "",
-   "clave": "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3|x",
-   "creado": "2026-10-19T02:00:17.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-19T01:50:11.307Z",
-   "id": "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Internas en La Libertad Avanza por la estrategia electoral de 2027 y los acuerdos con gobernadores\n\nEl bloque libertario debatió su estrategia tras frenar el avance opositor en el Congreso. Hay divergencias internas sobre los acuerdos.\n\nhttps://www.diariolacampaña.com.ar/n/internas-en-la-libertad-avanza-por-la-estrategia-electoral-de-97bd2f",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Internas en La Libertad Avanza por la estrategia electoral de 2027 y los acuerdos con gobernadores",
-   "urgente": false,
-   "vence": "2026-10-20T01:50:11.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b|x": {
    "actualizado": "2026-10-29T15:20:20.000Z",
    "buffer_id": "6ae33eaf650dab96a371692c",
@@ -30868,53 +30566,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ade14d40b5343d070d7d3bd",
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x",
-   "cuando": "2026-10-25T14:40:20.000Z",
-   "dueAt": "2026-10-25T14:42:19.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x",
-   "cuando": "2026-10-25T15:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|tiktok",
-   "cuando": "2026-10-25T15:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x",
-   "cuando": "2026-10-25T15:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|tiktok",
-   "cuando": "2026-10-25T15:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:4738ab65-8dbc-4d5e-807d-78b88a465544|x",
-   "cuando": "2026-10-25T15:40:18.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
   {
    "clave": "web:b2e7bc59-967c-48e3-baeb-a84fbfd3edb2|x",
    "cuando": "2026-10-25T15:40:19.000Z",
@@ -35097,6 +34748,49 @@
    "cuando": "2026-10-30T01:20:25.000Z",
    "dueAt": "2026-10-30T01:28:29.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x",
+   "cuando": "2026-10-30T02:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok",
+   "cuando": "2026-10-30T02:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:118a5f02-a016-4997-b53a-36c088349592|x",
+   "cuando": "2026-10-30T02:00:28.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x",
+   "cuando": "2026-10-30T02:00:28.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115977627450130527"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x",
+   "cuando": "2026-10-30T02:00:28.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115979134077690026"
+  },
+  {
+   "buffer_id": "6ae3fa3d6385db216a1c76d2",
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x",
+   "cuando": "2026-10-30T02:00:29.000Z",
+   "dueAt": "2026-10-30T02:02:59.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -35133,7 +34827,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
- "ultima_sync": "2026-10-30T01:00:22.000Z",
+ "ultima_sync": "2026-10-30T02:00:28.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -35234,6 +34928,7 @@
   "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9": "2026-10-30T00:20:14.000Z",
   "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv": "2026-10-30T00:40:16.000Z",
   "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj": "2026-10-30T01:20:15.000Z",
+  "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va": "2026-10-30T02:00:19.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -35623,6 +35318,7 @@
   "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36": "2026-10-15T10:20:13.000Z",
   "web:110a806e-7381-4845-8f7e-851f18f79901": "2026-10-26T10:20:14.000Z",
   "web:114e0244-c0a8-4f64-8b31-96e1a4aa4cb9": "2026-10-27T10:03:31.000Z",
+  "web:118a5f02-a016-4997-b53a-36c088349592": "2026-10-30T02:00:19.000Z",
   "web:125df7be-6590-4828-b258-27d7a0764f2d": "2026-10-28T14:40:14.000Z",
   "web:126d1602-781f-4ba0-8fa9-63424a9f9e78": "2026-10-21T10:02:08.000Z",
   "web:12954328-2406-4753-ade8-612eaeebeb3a": "2026-10-16T10:20:16.000Z",

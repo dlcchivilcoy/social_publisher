@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 3 | 0 | 2 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 6 | 1 | 0 | 0 | 0 | 4 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 11 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 12 |
+| Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 4 |
+| Reels del bot | TikTok | 20 | 5 | 0 | 12 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 13 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -21,16 +21,17 @@ Actualizado: 29/10/2026 22:40 (hora AR) · ACTIVO
 - X · Reels del bot: 74 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 70 con métricas · mediana vistas/impresiones 22.5 · likes 0
-- X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
+- X · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 25 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 12 con métricas · mediana vistas/impresiones 95.5 · likes 0
 - TikTok · Reels del bot: 55 con métricas · mediana vistas/impresiones 293 · likes 3
 - TikTok · Reels policiales: 7 con métricas · mediana vistas/impresiones 515 · likes 3
-- TikTok · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 532 · likes 5 ⚠️muestra chica
+- TikTok · Nacionales y categorías: 3 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 561 de 600 · 30d: quedan 959 de 2000 (visto 2026-10-30T01:20:25.000Z)
+15m: quedan 148 de 150 · 24h: quedan 559 de 600 · 30d: quedan 957 de 2000 (visto 2026-10-30T02:00:29.000Z)
 
-## Cola propia (15 esperando)
+## Cola propia (16 esperando)
+- TikTok · Reels del bot · Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Municipio entregó el aporte mensual a 31 entidades deportivas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy Teatrero abrió una nueva edición con un recorrido histórico — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,12 +56,6 @@ Actualizado: 29/10/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T23:40 recibido policiales:https://www.diariodemocracia.com/policiales/34728 
-- 2026-10-29T23:40 recibido policiales:https://laopinionline.ar/articulo/celeste-montara 
-- 2026-10-29T23:40 enviado policiales:https://www.chacabuquero.com.ar/2026/10/una-perso 
-- 2026-10-30T00:00 recibido web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x 
-- 2026-10-30T00:00 depurado web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-30T00:00 programado entrevistas:job00262|tiktok 
 - 2026-10-30T00:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x 
 - 2026-10-30T00:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|tikto 
 - 2026-10-30T00:20 programado bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x 
@@ -80,3 +75,9 @@ Actualizado: 29/10/2026 22:40 (hora AR) · ACTIVO
 - 2026-10-30T01:20 recibido web:5571de4c-caad-4918-b27a-06c644676364|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-30T01:20 programado bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x 
 - 2026-10-30T01:20 programado policiales:https://www.diariodemocracia.com/policiales/34728 
+- 2026-10-30T02:00 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x 
+- 2026-10-30T02:00 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tikto 
+- 2026-10-30T02:00 recibido web:118a5f02-a016-4997-b53a-36c088349592|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-30T02:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x 
+- 2026-10-30T02:00 enviado policiales:https://www.diariodemocracia.com/policiales/34728 
+- 2026-10-30T02:00 programado bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x 
