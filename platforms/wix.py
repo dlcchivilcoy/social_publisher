@@ -103,6 +103,17 @@ def _titulo_wix(title: str, limit: int = 200) -> str:
     return (corte + "…") if corte else t[:limit]
 
 
+def _chivilcoy_web(title: str, body: str, page: int = 0, seccion: str = "") -> tuple:
+    """Las notas locales dicen «Chivilcoy» en el título y en la primera línea (utils/chivilcoy_web.py,
+    informe de Google Noticias del 30/10/2026). Solo en la web; nunca impide que la nota salga."""
+    try:
+        from utils import chivilcoy_web
+        return chivilcoy_web.ajustar(title, body, page=page, seccion=seccion)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[chivilcoy web] no se pudo ajustar ({e})")
+        return title, body
+
+
 def _marca() -> str:
     return get("SEO_PUBLISHER_NAME") or "Diario La Campaña"
 
@@ -275,6 +286,7 @@ def crear_borrador(title: str, body: str, image_path: Path, page: int = 0,
     un nodo VIDEO arriba del texto. Devuelve {draft_id, file_id, image_url}."""
     headers = _headers()
     member_id = _get_member_id(headers)
+    title, body = _chivilcoy_web(title, body, page, seccion)
     title = _titulo_wix(title)  # Wix limita el título a 200 caracteres
 
     # La FOTO no puede hacer perder la nota (2026-08-31). Antes esto era una llamada dura:
@@ -425,7 +437,14 @@ def leer_borrador_texto(draft_id: str) -> dict:
                     for sub in (n.get("nodes") or []) if sub.get("type") == "TEXT")
         if t.strip():
             parrafos.append(t.strip())
-    return {"title": (draft.get("title") or "").strip(), "texto": "\n\n".join(parrafos)}
+    titulo, texto = (draft.get("title") or "").strip(), "\n\n".join(parrafos)
+    # Las marcas de «Chivilcoy» son de la web: las redes siguen con el texto de siempre.
+    try:
+        from utils import chivilcoy_web
+        titulo, texto = chivilcoy_web.deshacer(titulo, texto)
+    except Exception:  # noqa: BLE001
+        pass
+    return {"title": titulo, "texto": texto}
 
 
 def insertar_video_youtube(draft_id: str, youtube_url: str) -> bool:
@@ -529,6 +548,7 @@ def crear_borrador_galeria(title: str, body: str, image_paths, video_urls=None,
     {draft_id, file_id, image_url}."""
     headers = _headers()
     member_id = _get_member_id(headers)
+    title, body = _chivilcoy_web(title, body, page, seccion)
     title = _titulo_wix(title)
     image_paths = [Path(p) for p in (image_paths or []) if p]
     if not image_paths:
