@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 30/10/2026 07:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 5 | 3 | 0 | 0 | 1 |
+| Notas web | X | 15 | 1 | 4 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,12 +27,9 @@ Actualizado: 30/10/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 3 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 595 de 600 · 30d: quedan 951 de 2000 (visto 2026-10-30T10:40:16.000Z)
+15m: quedan 149 de 150 · 24h: quedan 594 de 600 · 30d: quedan 950 de 2000 (visto 2026-10-30T11:00:21.000Z)
 
-## Cola propia (19 esperando)
-- X · Notas web · Vínculo académico y productivo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Espectáculo Anual Inclusivo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Infraestructura y Burocracia — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (16 esperando)
 - TikTok · Reels del bot · Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Municipio entregó el aporte mensual a 31 entidades deportivas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy Teatrero abrió una nueva edición con un recorrido histórico — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -58,10 +55,6 @@ Actualizado: 30/10/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T01:20 programado policiales:https://www.diariodemocracia.com/policiales/34728 
-- 2026-10-30T02:00 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x 
-- 2026-10-30T02:00 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tikto 
-- 2026-10-30T02:00 recibido web:118a5f02-a016-4997-b53a-36c088349592|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-30T02:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x 
 - 2026-10-30T02:00 enviado policiales:https://www.diariodemocracia.com/policiales/34728 
 - 2026-10-30T02:00 programado bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x 
@@ -83,3 +76,7 @@ Actualizado: 30/10/2026 07:40 (hora AR) · ACTIVO
 - 2026-10-30T10:21 programado web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x 
 - 2026-10-30T10:40 programado web:8eedc4c8-7ed9-4248-9de7-468717547999|x 
 - 2026-10-30T10:40 programado web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x 
+- 2026-10-30T11:00 depurado web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x no está en el carrusel del diario de hoy
+- 2026-10-30T11:00 depurado web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x no está en el carrusel del diario de hoy
+- 2026-10-30T11:00 depurado web:8fd9d678-2717-4972-af3c-fcb225b55159|x no está en el carrusel del diario de hoy
+- 2026-10-30T11:00 depurado web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x no está en el carrusel del diario de hoy (sacado de Buffer)

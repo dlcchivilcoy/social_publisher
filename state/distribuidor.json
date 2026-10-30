@@ -9628,17 +9628,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 595,
-   "segundos": 82800,
+   "restantes": 594,
+   "segundos": 81596,
    "tope": 600
   },
   "30d": {
-   "restantes": 951,
-   "segundos": 988225,
+   "restantes": 950,
+   "segundos": 987021,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T10:40:16.000Z",
+ "cuota_visto": "2026-10-30T11:00:21.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -23282,14 +23282,14 @@
    "viral": false
   },
   "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x": {
-   "actualizado": "2026-10-30T10:21:01.000Z",
+   "actualizado": "2026-10-30T11:00:17.000Z",
    "buffer_id": "6ae46f8d38b96b6f5ba2f210",
    "clave": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x",
    "creado": "2026-10-30T10:01:54.000Z",
    "dueAt": "2026-10-30T11:36:33.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-10-30T10:00:57.835Z",
    "id": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94",
    "intentos": 0,
@@ -25388,14 +25388,14 @@
    "viral": false
   },
   "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x": {
-   "actualizado": "2026-10-30T10:01:54.000Z",
+   "actualizado": "2026-10-30T11:00:17.000Z",
    "buffer_id": "",
    "clave": "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x",
    "creado": "2026-10-30T10:01:54.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-10-30T10:01:21.124Z",
    "id": "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0",
    "intentos": 0,
@@ -26214,14 +26214,14 @@
    "viral": false
   },
   "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x": {
-   "actualizado": "2026-10-30T10:20:13.000Z",
+   "actualizado": "2026-10-30T11:00:17.000Z",
    "buffer_id": "",
    "clave": "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x",
    "creado": "2026-10-30T10:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-10-30T10:02:06.333Z",
    "id": "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7",
    "intentos": 0,
@@ -26373,14 +26373,14 @@
    "viral": false
   },
   "web:8fd9d678-2717-4972-af3c-fcb225b55159|x": {
-   "actualizado": "2026-10-30T10:01:54.000Z",
+   "actualizado": "2026-10-30T11:00:17.000Z",
    "buffer_id": "",
    "clave": "web:8fd9d678-2717-4972-af3c-fcb225b55159|x",
    "creado": "2026-10-30T10:01:54.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-10-30T10:01:29.716Z",
    "id": "web:8fd9d678-2717-4972-af3c-fcb225b55159",
    "intentos": 0,
@@ -29502,36 +29502,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados|x",
-   "cuando": "2026-10-25T23:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114488000423825477"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/|x",
-   "cuando": "2026-10-25T23:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|x",
-   "cuando": "2026-10-26T00:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|tiktok",
-   "cuando": "2026-10-26T00:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72|x",
    "cuando": "2026-10-26T00:40:19.000Z",
@@ -33732,6 +33702,30 @@
    "cuando": "2026-10-30T10:40:16.000Z",
    "dueAt": "2026-10-30T12:06:37.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x",
+   "cuando": "2026-10-30T11:00:17.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x",
+   "cuando": "2026-10-30T11:00:17.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:8fd9d678-2717-4972-af3c-fcb225b55159|x",
+   "cuando": "2026-10-30T11:00:17.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x",
+   "cuando": "2026-10-30T11:00:21.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
   }
  ],
  "tandas": {
