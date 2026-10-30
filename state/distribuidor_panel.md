@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 07:02 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 07:21 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 30/10/2026 07:02 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 3 | 4 | 0 | 0 | 1 |
+| Notas web | X | 15 | 1 | 3 | 5 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 29 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 30 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,13 +27,14 @@ Actualizado: 30/10/2026 07:02 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 3 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 598 de 600 · 30d: quedan 954 de 2000 (visto 2026-10-30T10:02:39.000Z)
+15m: quedan 148 de 150 · 24h: quedan 596 de 600 · 30d: quedan 952 de 2000 (visto 2026-10-30T10:21:01.000Z)
 
-## Cola propia (20 esperando)
+## Cola propia (21 esperando)
+- X · Notas web · Vínculo académico y productivo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · La undécima fecha tendrá un arranque y cierre con partidos sumamente destacados, — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · El Club Atlético Independiente celebra los 30 años de su escuela de fútbol con u — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Espectáculo Anual Inclusivo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Infraestructura y Burocracia — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Acuerdo en el Ministerio de Trabajo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Municipio entregó el aporte mensual a 31 entidades deportivas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Chivilcoy Teatrero abrió una nueva edición con un recorrido histórico — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -59,10 +60,6 @@ Actualizado: 30/10/2026 07:02 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T01:00 enviado policiales:https://laopinionline.ar/articulo/celeste-montara 
-- 2026-10-30T01:00 enviado policiales:https://www.junindigital.com/policiales/2026-10-2 
-- 2026-10-30T01:20 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x 
-- 2026-10-30T01:20 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tikto 
 - 2026-10-30T01:20 recibido web:5571de4c-caad-4918-b27a-06c644676364|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-30T01:20 programado bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x 
 - 2026-10-30T01:20 programado policiales:https://www.diariodemocracia.com/policiales/34728 
@@ -84,3 +81,7 @@ Actualizado: 30/10/2026 07:02 (hora AR) · ACTIVO
 - 2026-10-30T10:02 programado web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x 
 - 2026-10-30T10:02 programado web:606007a3-f032-422b-ace3-ee59408ba8de|x 
 - 2026-10-30T10:02 programado web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x 
+- 2026-10-30T10:20 recibido web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x 
+- 2026-10-30T10:21 recibido web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x 
+- 2026-10-30T10:21 enviado web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x 
+- 2026-10-30T10:21 programado web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x 

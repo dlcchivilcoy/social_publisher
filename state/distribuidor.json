@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-30T09:00:19.000Z"
+   "visto": "2026-10-30T10:21:00.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 29
+    "sent": 30
    },
    "pausado": false,
-   "visto": "2026-10-30T09:00:19.000Z"
+   "visto": "2026-10-30T10:21:00.000Z"
   }
  },
  "contenidos": {
@@ -7575,6 +7575,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-boca-vencio-a-racing-de-chivilcoy-en-la-liga",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7": {
+   "categoria": "",
+   "descripcion": "La UTN y el Centro Universitario organizan un desayuno de trabajo con empresas locales",
+   "generado": "2026-10-30T10:02:06.333Z",
+   "id": "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_de8b89f15d4f4d23980f072461bad3ad~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/vinculo-academico-y-productivo-la-utn-y-el-centro-universitario",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Vínculo académico y productivo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vinculo-academico-y-productivo-la-utn-y-el-centro-universitario",
+   "volanta": ""
+  },
   "web:8d5f9e45-c3ff-4b47-a721-0097362139bf": {
    "categoria": "nacionales",
    "descripcion": "Constanza Blanco tiene 42 años, vive en Tandil y cautiva en Instagram al retratar su rutina cotidiana en una granja, donde cría a su familia numerosa y…",
@@ -9045,6 +9064,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/trafico-de-drogas-ilicitas-operativos-contra-el-narcomenudeo-en",
    "volanta": ""
   },
+  "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa": {
+   "categoria": "",
+   "descripcion": "La undécima fecha tendrá un arranque y cierre con partidos sumamente destacados, el líder Moquehuá visitará a Ciclón La emoción del fútbol de Primera División entra en su etapa de ebullición. Con la fase regular transitando sus capítulos decisivos, este fin de semana se disputará la undécima fecha del Torneo Clausura, un verdadero atrapanieves que promete emociones fuertes tanto en la lucha por la cima como en el apretado embudo por meterse entre los clasificados. Entre sábado y domingo, la...",
+   "generado": "2026-10-30T10:01:57.270Z",
+   "id": "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2116993ec7b44c7290af8a2a6c20c34e~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "La undécima fecha tendrá un arranque y cierre con partidos sumamente destacados, el líder Moquehuá visitará a Ciclón",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
+   "volanta": "Fútbol"
+  },
   "web:da88e1e4-510a-45e4-992a-55ed16bef1e5": {
    "categoria": "",
    "descripcion": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata La delegación de Chivilcoy fue recibida luego de su participación y competencia en la Final Provincial de los Juegos Bonaerenses, desarrollada en la ciudad de Mar del Plata.",
@@ -9747,22 +9785,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 598,
-   "segundos": 85058,
+   "restantes": 596,
+   "segundos": 83955,
    "tope": 600
   },
   "30d": {
-   "restantes": 954,
-   "segundos": 990483,
+   "restantes": 952,
+   "segundos": 989380,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T10:02:39.000Z",
+ "cuota_visto": "2026-10-30T10:21:01.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -23432,14 +23470,14 @@
    "viral": false
   },
   "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x": {
-   "actualizado": "2026-10-30T10:01:54.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T10:21:01.000Z",
+   "buffer_id": "6ae46f8d38b96b6f5ba2f210",
    "clave": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x",
    "creado": "2026-10-30T10:01:54.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T11:36:33.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-30T10:00:57.835Z",
    "id": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94",
    "intentos": 0,
@@ -23628,19 +23666,20 @@
    "video_url": ""
   },
   "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x": {
-   "actualizado": "2026-10-30T10:02:37.000Z",
+   "actualizado": "2026-10-30T10:21:00.000Z",
    "buffer_id": "6ae46b3eceb12661efdc7770",
    "clave": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x",
    "creado": "2026-10-30T10:01:54.000Z",
    "dueAt": "2026-10-30T10:06:53.000Z",
+   "enviado": "2026-10-30T10:07:02.582Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T10:00:49.086Z",
    "id": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe",
    "ig_hora": "2026-10-30T10:06:41.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116109615003758980",
    "nota_url": "https://www.diariolacampaña.com.ar/n/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
    "noticia": "nota:problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
    "origen": "web",
@@ -26414,6 +26453,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x": {
+   "actualizado": "2026-10-30T10:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x",
+   "creado": "2026-10-30T10:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-30T10:02:06.333Z",
+   "id": "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/vinculo-academico-y-productivo-la-utn-y-el-centro-universitario",
+   "noticia": "nota:vinculo-academico-y-productivo-la-utn-y-el-centro-universitario",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Vínculo académico y productivo\n\nLa UTN y el Centro Universitario organizan un desayuno de trabajo con empresas locales.\n\nhttps://www.diariolacampaña.com.ar/n/vinculo-academico-y-productivo-la-utn-y-el-centro-universitario",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Vínculo académico y productivo",
+   "urgente": false,
+   "vence": "2026-10-30T14:02:06.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:8d5f9e45-c3ff-4b47-a721-0097362139bf|x": {
    "actualizado": "2026-10-20T15:20:17.000Z",
    "buffer_id": "",
@@ -28667,6 +28734,35 @@
    "video_url": "",
    "viral": false
   },
+  "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x": {
+   "actualizado": "2026-10-30T10:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x",
+   "creado": "2026-10-30T10:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-30T10:01:57.270Z",
+   "id": "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa",
+   "ig_hora": "2026-10-30T12:06:41.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
+   "noticia": "nota:futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "La undécima fecha tendrá un arranque y cierre con partidos sumamente destacados, el líder Moquehuá visitará a Ciclón\n\nEl fútbol de Primera División entra en etapa decisiva. El Torneo Clausura promete emociones en la lucha por clasificar.\n\nhttps://www.diariolacampaña.com.ar/n/futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "La undécima fecha tendrá un arranque y cierre con partidos sumamente destacados, el líder Moquehuá visitará a Ciclón",
+   "urgente": false,
+   "vence": "2026-10-30T14:01:57.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:da88e1e4-510a-45e4-992a-55ed16bef1e5|x": {
    "actualizado": "2026-10-24T23:00:21.000Z",
    "buffer_id": "",
@@ -29820,35 +29916,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok",
-   "cuando": "2026-10-25T21:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:3e3abc09-6c21-4ab2-88f6-118e63835441|x",
-   "cuando": "2026-10-25T21:00:20.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ade6de6bd33ce99c38f1784",
-   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x",
-   "cuando": "2026-10-25T21:00:22.000Z",
-   "dueAt": "2026-10-25T21:02:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x",
-   "cuando": "2026-10-25T22:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114462601442697661"
-  },
   {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados|x",
    "cuando": "2026-10-25T22:40:25.000Z",
@@ -34051,6 +34118,35 @@
    "cuando": "2026-10-30T10:02:39.000Z",
    "dueAt": "2026-10-30T11:21:53.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x",
+   "cuando": "2026-10-30T10:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x",
+   "cuando": "2026-10-30T10:21:00.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x",
+   "cuando": "2026-10-30T10:21:01.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116109615003758980"
+  },
+  {
+   "buffer_id": "6ae46f8d38b96b6f5ba2f210",
+   "clave": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x",
+   "cuando": "2026-10-30T10:21:01.000Z",
+   "dueAt": "2026-10-30T11:36:33.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -34087,7 +34183,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
- "ultima_sync": "2026-10-30T09:00:19.000Z",
+ "ultima_sync": "2026-10-30T10:21:00.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -34840,6 +34936,7 @@
   "web:8c2797b4-7dbb-4d7f-ac67-65970009882b": "2026-10-19T11:20:14.000Z",
   "web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5": "2026-10-24T09:00:20.000Z",
   "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870": "2026-10-15T10:20:13.000Z",
+  "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7": "2026-10-30T10:20:13.000Z",
   "web:8d5f9e45-c3ff-4b47-a721-0097362139bf": "2026-10-19T15:20:16.000Z",
   "web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755": "2026-10-28T10:02:28.000Z",
   "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3": "2026-10-18T23:00:17.000Z",
@@ -35017,6 +35114,7 @@
   "web:d90c2d36-2cc4-48ee-830d-808b16f57c3b": "2026-10-16T10:20:16.000Z",
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
   "web:d9d5c19d-7cdc-4599-9431-674725b57a40": "2026-10-17T15:40:15.000Z",
+  "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa": "2026-10-30T10:20:13.000Z",
   "web:da812ee7-10e6-4f68-a954-bbcfc675078c": "2026-10-16T12:40:14.000Z",
   "web:da88e1e4-510a-45e4-992a-55ed16bef1e5": "2026-10-24T23:00:21.000Z",
   "web:daae8efc-080c-4b85-8684-6b87ab41878c": "2026-10-26T12:06:06.000Z",
