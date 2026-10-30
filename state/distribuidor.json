@@ -2955,6 +2955,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00264.mp4",
    "youtube_url": "https://youtu.be/ZsWzInbxJhw"
   },
+  "entrevistas:job00265": {
+   "descripcion": "La contratista rural chivilcoyana Jeni Simone explicó que, sin créditos que se licúen con la inflación, es indispensable calcular costos reales para asegurar la rentabilidad.",
+   "duracion_seg": null,
+   "entrevistado": "Jeni Simone",
+   "generado": "2026-10-30T16:20:14.000Z",
+   "id": "entrevistas:job00265",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Jeni Simone: el contratista rural y el fin de las tasas negativas",
+   "urgente": false,
+   "video_bytes": 16622588,
+   "video_mb": 15.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00265.mp4",
+   "youtube_url": "https://youtu.be/Myl7AtK_nVg"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -8729,17 +8750,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 588,
-   "segundos": 67192,
+   "restantes": 587,
+   "segundos": 62401,
    "tope": 600
   },
   "30d": {
-   "restantes": 944,
-   "segundos": 972616,
+   "restantes": 943,
+   "segundos": 967825,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T15:00:24.000Z",
+ "cuota_visto": "2026-10-30T16:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -17672,6 +17693,62 @@
    "vence": "2026-10-29T21:00:17.000Z",
    "video_bytes": 18091646,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00264.mp4",
+   "viral": false
+  },
+  "entrevistas:job00265|tiktok": {
+   "actualizado": "2026-10-30T16:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00265|tiktok",
+   "creado": "2026-10-30T16:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-30T16:20:14.000Z",
+   "id": "entrevistas:job00265",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Jeni Simone: el contratista rural y el fin de las tasas negativas\n\nLa contratista rural chivilcoyana Jeni Simone explicó que, sin créditos que se licúen con la inflación, es indispensable calcular costos reales para asegurar la rentabilidad.\n\nhttps://youtu.be/Myl7AtK_nVg\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Jeni Simone: el contratista rural y el fin de las tasas negativas",
+   "urgente": false,
+   "vence": "2026-11-01T16:20:14.000Z",
+   "video_bytes": 16622588,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00265.mp4",
+   "viral": false
+  },
+  "entrevistas:job00265|x": {
+   "actualizado": "2026-10-30T16:20:14.000Z",
+   "buffer_id": "6ae4c3bfcd8290b9b9fd1403",
+   "clave": "entrevistas:job00265|x",
+   "creado": "2026-10-30T16:20:14.000Z",
+   "dueAt": "2026-10-30T16:22:26.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-30T16:20:14.000Z",
+   "id": "entrevistas:job00265",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:contratista-jeni-negativas-rural-simone-tasas",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Jeni Simone: el contratista rural y el fin de las tasas negativas\n\nLa contratista rural chivilcoyana Jeni Simone explicó que, sin créditos que se licúen con la inflación, es indispensable calcular costos reales para asegurar la rentabilidad.\n\nhttps://youtu.be/Myl7AtK_nVg",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Jeni Simone: el contratista rural y el fin de las tasas negativas",
+   "urgente": false,
+   "vence": "2026-10-30T18:20:14.000Z",
+   "video_bytes": 16622588,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00265.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -27264,38 +27341,6 @@
  },
  "registro": [
   {
-   "clave": "web:2c08d2bb-2c10-4352-a617-4a84c0781807|x",
-   "cuando": "2026-10-26T10:21:04.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f|x",
-   "cuando": "2026-10-26T10:21:11.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:439df9f0-970a-42fd-979a-69b57c0f8607|x",
-   "cuando": "2026-10-26T10:21:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:76ba9989-902f-48e4-be31-1bb0265c5c60|x",
-   "cuando": "2026-10-26T10:21:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938|x",
    "cuando": "2026-10-26T10:21:32.000Z",
    "estado": "pendiente",
@@ -31473,6 +31518,34 @@
    "cuando": "2026-10-30T15:00:24.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7702462008666459393"
+  },
+  {
+   "clave": "entrevistas:job00265",
+   "cuando": "2026-10-30T16:20:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00265|x",
+   "cuando": "2026-10-30T16:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00265|tiktok",
+   "cuando": "2026-10-30T16:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ae4c3bfcd8290b9b9fd1403",
+   "clave": "entrevistas:job00265|x",
+   "cuando": "2026-10-30T16:20:16.000Z",
+   "dueAt": "2026-10-30T16:22:26.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -31737,6 +31810,7 @@
   "entrevistas:job00262": "2026-10-29T18:00:21.000Z",
   "entrevistas:job00263": "2026-10-29T18:20:14.000Z",
   "entrevistas:job00264": "2026-10-29T19:00:17.000Z",
+  "entrevistas:job00265": "2026-10-30T16:20:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
