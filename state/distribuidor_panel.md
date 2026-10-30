@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 2 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 2 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,9 +27,10 @@ Actualizado: 30/10/2026 15:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 2 con métricas · mediana vistas/impresiones 532 · likes 5 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 582 de 600 · 30d: quedan 938 de 2000 (visto 2026-10-30T17:40:18.000Z)
+15m: quedan 149 de 150 · 24h: quedan 581 de 600 · 30d: quedan 937 de 2000 (visto 2026-10-30T18:20:25.000Z)
 
-## Cola propia (15 esperando)
+## Cola propia (16 esperando)
+- TikTok · Recortes de entrevistas · Lucas Cáceres: El grabado busca renacer en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Camila Martinez: no se sabe hasta dónde llega la red de agua potable — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Dalia Navarro sobre el drama de los talles reales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -54,10 +55,6 @@ Actualizado: 30/10/2026 15:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T14:40 vencido bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-30T14:40 vencido bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- 2026-10-30T14:40 depurado web:898dd9bc-8d37-4255-aaf1-59fb965090e9|x de la web, a X solo van las notas del diario de la mañana
-- 2026-10-30T15:00 recibido bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x 
 - 2026-10-30T15:00 recibido bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok 
 - 2026-10-30T15:00 recibido web:6d89df05-3cd7-473e-86f0-a26bb0b4a677|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-30T15:00 enviado bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x 
@@ -79,3 +76,7 @@ Actualizado: 30/10/2026 15:00 (hora AR) · ACTIVO
 - 2026-10-30T17:40 enviado bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x 
 - 2026-10-30T17:40 enviado entrevistas:job00266|x 
 - 2026-10-30T17:40 programado entrevistas:job00267|x 
+- 2026-10-30T18:20 entrevista_aprobada entrevistas:job00268 
+- 2026-10-30T18:20 recibido entrevistas:job00268|x 
+- 2026-10-30T18:20 recibido entrevistas:job00268|tiktok 
+- 2026-10-30T18:20 programado entrevistas:job00268|x 

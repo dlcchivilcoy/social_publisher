@@ -2998,6 +2998,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00267.mp4",
    "youtube_url": "https://youtu.be/VZgmohTNX7s"
   },
+  "entrevistas:job00268": {
+   "descripcion": "El grabador Lucas Cáceres expresó su deseo de revitalizar y poner en valor el arte del grabado en Chivilcoy a través de la muestra colectiva Huellas Impresas. Destacó el impulso colectivo para que esta disciplina vuelva a crecer en la ciudad.",
+   "duracion_seg": null,
+   "entrevistado": "Sofia Speranza",
+   "generado": "2026-10-30T18:20:15.000Z",
+   "id": "entrevistas:job00268",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Lucas Cáceres: El grabado busca renacer en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 35701365,
+   "video_mb": 34.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00268.mp4",
+   "youtube_url": "https://youtu.be/4_mPNPe7_gg"
+  },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -8715,22 +8736,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
+   "restantes": 149,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 582,
-   "segundos": 57598,
+   "restantes": 581,
+   "segundos": 55191,
    "tope": 600
   },
   "30d": {
-   "restantes": 938,
-   "segundos": 963023,
+   "restantes": 937,
+   "segundos": 960616,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T17:40:18.000Z",
+ "cuota_visto": "2026-10-30T18:20:25.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -17723,6 +17744,62 @@
    "vence": "2026-10-30T19:40:14.000Z",
    "video_bytes": 19008094,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00267.mp4",
+   "viral": false
+  },
+  "entrevistas:job00268|tiktok": {
+   "actualizado": "2026-10-30T18:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00268|tiktok",
+   "creado": "2026-10-30T18:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-30T18:20:15.000Z",
+   "id": "entrevistas:job00268",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Lucas Cáceres: El grabado busca renacer en Chivilcoy\n\nEl grabador Lucas Cáceres expresó su deseo de revitalizar y poner en valor el arte del grabado en Chivilcoy a través de la muestra colectiva Huellas Impresas. Destacó el impulso colectivo para que esta disciplina vuelva a crecer en la ciudad.\n\nhttps://youtu.be/4_mPNPe7_gg\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Lucas Cáceres: El grabado busca renacer en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-01T18:20:15.000Z",
+   "video_bytes": 35701365,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00268.mp4",
+   "viral": false
+  },
+  "entrevistas:job00268|x": {
+   "actualizado": "2026-10-30T18:20:24.000Z",
+   "buffer_id": "6ae4dfe9a351214acfa157aa",
+   "clave": "entrevistas:job00268|x",
+   "creado": "2026-10-30T18:20:15.000Z",
+   "dueAt": "2026-10-30T18:22:39.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-30T18:20:15.000Z",
+   "id": "entrevistas:job00268",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:busca-caceres-chivilcoy-grabado-lucas-renacer",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Lucas Cáceres: El grabado busca renacer en Chivilcoy\n\nEl grabador Lucas Cáceres expresó su deseo de revitalizar y poner en valor el arte del grabado en Chivilcoy a través de la muestra colectiva Huellas Impresas.\n\nhttps://youtu.be/4_mPNPe7_gg",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Lucas Cáceres: El grabado busca renacer en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-30T20:20:15.000Z",
+   "video_bytes": 35701365,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00268.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -27263,38 +27340,6 @@
  },
  "registro": [
   {
-   "clave": "web:d243e208-dd8e-46a7-9465-8665ba05218a|x",
-   "cuando": "2026-10-26T12:06:18.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:1f7131d8-0343-4072-9cd4-8996b6088ee3|x",
-   "cuando": "2026-10-26T12:06:18.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:02e93911-55df-4a65-bb82-d3e764bdb7c5|x",
-   "cuando": "2026-10-26T12:06:19.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:543a1dac-3518-4b28-b261-d81059e2857d|x",
-   "cuando": "2026-10-26T12:06:19.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
    "clave": "web:daae8efc-080c-4b85-8684-6b87ab41878c|x",
    "cuando": "2026-10-26T12:06:20.000Z",
    "estado": "descartado",
@@ -31453,6 +31498,34 @@
    "cuando": "2026-10-30T17:40:18.000Z",
    "dueAt": "2026-10-30T17:42:09.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00268",
+   "cuando": "2026-10-30T18:20:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00268|x",
+   "cuando": "2026-10-30T18:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00268|tiktok",
+   "cuando": "2026-10-30T18:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6ae4dfe9a351214acfa157aa",
+   "clave": "entrevistas:job00268|x",
+   "cuando": "2026-10-30T18:20:25.000Z",
+   "dueAt": "2026-10-30T18:22:39.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -31720,6 +31793,7 @@
   "entrevistas:job00265": "2026-10-30T16:20:14.000Z",
   "entrevistas:job00266": "2026-10-30T17:00:20.000Z",
   "entrevistas:job00267": "2026-10-30T17:40:14.000Z",
+  "entrevistas:job00268": "2026-10-30T18:20:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
