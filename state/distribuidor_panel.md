@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -30,8 +30,8 @@ Actualizado: 30/10/2026 12:00 (hora AR) · ACTIVO
 15m: quedan 149 de 150 · 24h: quedan 588 de 600 · 30d: quedan 944 de 2000 (visto 2026-10-30T15:00:24.000Z)
 
 ## Cola propia (13 esperando)
-- X · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
