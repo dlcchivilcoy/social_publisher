@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 2 | 1 | 2 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 2 | 0 | 0 | 0 | 4 |
+| Recortes de entrevistas | TikTok | 10 | 3 | 0 | 2 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 6 | 0 | 0 | 0 | 0 | 4 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 10 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 2 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 3 | 0 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 11 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 24 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 28 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 29 · likes 0
@@ -28,7 +28,7 @@ Actualizado: 29/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 532 · likes 5 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 563 de 600 · 30d: quedan 961 de 2000 (visto 2026-10-30T00:40:20.000Z)
+15m: quedan 149 de 150 · 24h: quedan 562 de 600 · 30d: quedan 960 de 2000 (visto 2026-10-30T01:00:22.000Z)
 
 ## Cola propia (15 esperando)
 - TikTok · Reels del bot · Chivilcoy Teatrero abrió una nueva edición con un recorrido histórico — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,11 +55,6 @@ Actualizado: 29/10/2026 21:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T20:20 recibido bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|tiktok 
-- 2026-10-29T20:20 recibido web:e5615e3b-7d1f-407b-b876-c42670585cb1|x la misma noticia ya sale en X (Reels del bot, enviado)
-- 2026-10-29T20:20 enviado entrevistas:job00264|x 
-- 2026-10-29T21:00 programado entrevistas:job00264|tiktok 
-- 2026-10-29T21:00 programado entrevistas:job00263|tiktok 
 - 2026-10-29T21:20 enviado entrevistas:job00264|tiktok 
 - 2026-10-29T22:20 enviado entrevistas:job00263|tiktok 
 - 2026-10-29T22:40 recibido policiales:https://www.chacabuquero.com.ar/2026/10/una-perso 
@@ -80,3 +75,8 @@ Actualizado: 29/10/2026 21:40 (hora AR) · ACTIVO
 - 2026-10-30T00:40 recibido web:41b50fea-05eb-4988-89d9-dc639e73ba72|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-30T00:40 programado bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|x 
 - 2026-10-30T00:40 programado policiales:https://www.junindigital.com/policiales/2026-10-2 
+- 2026-10-30T01:00 enviado bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x 
+- 2026-10-30T01:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|x 
+- 2026-10-30T01:00 enviado entrevistas:job00262|tiktok 
+- 2026-10-30T01:00 enviado policiales:https://laopinionline.ar/articulo/celeste-montara 
+- 2026-10-30T01:00 enviado policiales:https://www.junindigital.com/policiales/2026-10-2 

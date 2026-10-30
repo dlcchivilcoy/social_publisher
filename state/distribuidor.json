@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 7
+    "sent": 8
    },
    "pausado": false,
-   "visto": "2026-10-29T23:40:34.000Z"
+   "visto": "2026-10-30T01:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 24
+    "sent": 28
    },
    "pausado": false,
-   "visto": "2026-10-29T23:40:34.000Z"
+   "visto": "2026-10-30T01:00:22.000Z"
   }
  },
  "contenidos": {
@@ -5970,25 +5970,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-el-agua-de-las-cisternas-escolares-analizadas-es-apta",
    "volanta": "Chivilcoy · Salud"
   },
-  "web:2412c923-bb37-4065-b81b-1dac0777e220": {
-   "categoria": "nacionales",
-   "descripcion": "El gobernador bonaerense inauguró la trigésima quinta edición del certamen en Mar del Plata, que se desarrollará del 19 al 23 de octubre con más de 30.000…",
-   "generado": "2026-10-20T00:45:07.268Z",
-   "id": "web:2412c923-bb37-4065-b81b-1dac0777e220",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_66f9bca1fab5424f9e55b4ef1d5df96a~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata con récord de inscriptos y críticas a la Nación",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
-   "volanta": ""
-  },
   "web:248ece43-82ef-4e37-a82d-ea5d6b751b0e": {
    "categoria": "nacionales",
    "descripcion": "El arquero de la Selección Argentina y el Chelsea regresó a su hogar en Inglaterra luego de ser intervenido quirúrgicamente con éxito por una fractura de…",
@@ -10362,17 +10343,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 563,
-   "segundos": 31196,
+   "restantes": 562,
+   "segundos": 29993,
    "tope": 600
   },
   "30d": {
-   "restantes": 961,
-   "segundos": 1024221,
+   "restantes": 960,
+   "segundos": 1023018,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T00:40:20.000Z",
+ "cuota_visto": "2026-10-30T01:00:22.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -14465,18 +14446,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x": {
-   "actualizado": "2026-10-30T00:20:23.000Z",
+   "actualizado": "2026-10-30T01:00:22.000Z",
    "buffer_id": "6ae3e2c84b8768bfb2ce8ae0",
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x",
    "creado": "2026-10-30T00:20:14.000Z",
    "dueAt": "2026-10-30T00:22:14.000Z",
+   "enviado": "2026-10-30T00:22:23.609Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T00:00:57.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115962483391279369",
    "nota_url": "https://www.diariolacampaña.com.ar/n/coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
    "noticia": "nota:coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
    "origen": "bot",
@@ -14521,18 +14503,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|x": {
-   "actualizado": "2026-10-30T00:40:19.000Z",
+   "actualizado": "2026-10-30T01:00:22.000Z",
    "buffer_id": "6ae3e774a83a7fb63c870c0e",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|x",
    "creado": "2026-10-30T00:40:16.000Z",
    "dueAt": "2026-10-30T00:42:07.000Z",
+   "enviado": "2026-10-30T00:42:19.606Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T00:28:52.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115967499611116004",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-teatrero-abrio-una-nueva-edicion-con-un",
    "noticia": "nota:chivilcoy-cultura-chivilcoy-teatrero-abrio-una-nueva-edicion-con-un",
    "origen": "bot",
@@ -18884,19 +18867,20 @@
    "viral": false
   },
   "entrevistas:job00262|tiktok": {
-   "actualizado": "2026-10-30T00:00:21.000Z",
+   "actualizado": "2026-10-30T01:00:22.000Z",
    "buffer_id": "6ae3de164b8768bfb2cd0264",
    "categoria": "",
    "clave": "entrevistas:job00262|tiktok",
    "creado": "2026-10-29T18:00:21.000Z",
    "dueAt": "2026-10-30T00:03:21.000Z",
+   "enviado": "2026-10-30T00:05:13.732Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T18:00:21.000Z",
    "id": "entrevistas:job00262",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702244787683921204",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -21665,18 +21649,19 @@
    "viral": false
   },
   "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia|x": {
-   "actualizado": "2026-10-30T00:20:23.000Z",
+   "actualizado": "2026-10-30T01:00:22.000Z",
    "buffer_id": "6ae3e2c856e01b97637990ce",
    "clave": "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia|x",
    "creado": "2026-10-29T23:40:14.000Z",
    "dueAt": "2026-10-30T00:27:39.000Z",
+   "enviado": "2026-10-30T00:27:49.250Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T23:31:53.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115963849161486722",
    "nota_url": "https://www.diariolacampaña.com.ar/n/arrecifes-celeste-montarana-sigue-critica-tras-recibir-dos-1c7893",
    "noticia": "nota:arrecifes-celeste-montarana-sigue-critica-tras-recibir-dos-1c7893",
    "origen": "policiales",
@@ -22987,18 +22972,19 @@
    "viral": false
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin|x": {
-   "actualizado": "2026-10-30T00:40:19.000Z",
+   "actualizado": "2026-10-30T01:00:22.000Z",
    "buffer_id": "6ae3e7744b8768bfb2cf925f",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin|x",
    "creado": "2026-10-29T23:40:14.000Z",
    "dueAt": "2026-10-30T00:47:32.000Z",
+   "enviado": "2026-10-30T00:47:47.277Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T23:31:51.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2115968874034205176",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-aprehendido-y-un-revolver-incautado-durante-un-a2d0ab",
    "noticia": "nota:junin-un-aprehendido-y-un-revolver-incautado-durante-un-a2d0ab",
    "origen": "policiales",
@@ -24174,31 +24160,6 @@
    "titulo": "El agua de las cisternas escolares analizadas es apta para consumo",
    "urgente": false,
    "vence": "2026-10-25T18:08:35.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:2412c923-bb37-4065-b81b-1dac0777e220|x": {
-   "actualizado": "2026-10-20T01:00:18.000Z",
-   "buffer_id": "",
-   "clave": "web:2412c923-bb37-4065-b81b-1dac0777e220|x",
-   "creado": "2026-10-20T01:00:18.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Nacionales y categorías, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-20T00:45:07.268Z",
-   "id": "web:2412c923-bb37-4065-b81b-1dac0777e220",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
-   "noticia": "nota:kicillof-inauguro-los-juegos-bonaerenses-en-mar-del-plata-con-9e0c09",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Kicillof inauguró los Juegos Bonaerenses en Mar del Plata con récord de inscriptos y críticas a la Nación",
-   "urgente": false,
-   "vence": "2026-10-20T04:45:07.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -31013,44 +30974,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|tiktok",
-   "cuando": "2026-10-25T14:20:33.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:23a74d83-2170-4408-abe4-23838297e05f|x",
-   "cuando": "2026-10-25T14:20:33.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:35d13524-acfa-4d7e-b1ad-255c88759bcc|x",
-   "cuando": "2026-10-25T14:20:33.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ade10328b3d437ddc0fb385",
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x",
-   "cuando": "2026-10-25T14:20:35.000Z",
-   "dueAt": "2026-10-25T14:22:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ade1033e4be8a4d86aee20e",
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x",
-   "cuando": "2026-10-25T14:20:35.000Z",
-   "dueAt": "2026-10-25T14:28:29.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x",
    "cuando": "2026-10-25T14:40:17.000Z",
    "estado": "pendiente",
@@ -35247,6 +35170,36 @@
    "cuando": "2026-10-30T00:40:20.000Z",
    "dueAt": "2026-10-30T00:47:32.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x",
+   "cuando": "2026-10-30T01:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115962483391279369"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|x",
+   "cuando": "2026-10-30T01:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115967499611116004"
+  },
+  {
+   "clave": "entrevistas:job00262|tiktok",
+   "cuando": "2026-10-30T01:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702244787683921204"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia|x",
+   "cuando": "2026-10-30T01:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115963849161486722"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin|x",
+   "cuando": "2026-10-30T01:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2115968874034205176"
   }
  ],
  "tandas": {
@@ -35283,7 +35236,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
- "ultima_sync": "2026-10-29T23:40:34.000Z",
+ "ultima_sync": "2026-10-30T01:00:22.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
