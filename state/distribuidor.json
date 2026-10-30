@@ -2133,6 +2133,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
    "youtube_url": "https://www.youtube.com/shorts/aJrxzIQKw1Q"
   },
+  "bot:video_matias-zucchi_mvvldft40mvd_01.mp4": {
+   "descripcion": "Personal policial detuvo en Bragado a Jonatan Diz en el marco de una causa por comercialización de estupefacientes al menudeo, iniciada el 26 de mayo a partir de información sobre presunta venta de drogas en un lavadero de automóviles.\n\nEl operativo fue encabezado por la Subdelegación Departamental de Investigaciones del Tráfico de Drogas Ilícitas Chivilcoy, a cargo del comisario Donato Rafael Pitetti, junto a la Estación de Policía Comunal de Bragado, el GAD de Nueve de Julio y la Dirección General de Seguridad. Mediante seguimientos y registros fílmicos, se investigó el accionar de Agustín Picado, quien había sido aprehendido previamente con secuestro de cocaína, y de Diz, de quien se determinó que continuaba con la actividad ilícita.\n\nDurante la mañana del miércoles 28 de octubre, efectivos concretaron la detención de Diz en una vivienda de Troilo 2060. Según el parte policial, el hombre opuso una violenta resistencia, logró liberarse de los recintos de seguridad e intentó quitarle el arma reglamentaria a un efectivo antes de ser finalmente reducido.\n\nEn simultáneo se allanó el domicilio familiar en Maestros Argentinos 2259, donde se incautó una balanza de precisión y recortes de nylon. El Ministerio Público Fiscal avaló las actuaciones e imputó a Diz por atentado agravado contra la autoridad y tenencia de estupefacientes con fines de comercialización.",
+   "duracion_seg": 42.2,
+   "generado": "2026-10-30T23:22:22.000Z",
+   "id": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto",
+   "urgente": false,
+   "video_bytes": 6596113,
+   "video_mb": 6.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_797779e1cadc4e06.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/sv8r78PU6H0"
+  },
   "entrevistas:job00235": {
    "descripcion": "La concejal Rosario Galland advirtió sobre las graves fallas edilicias y la humedad en las viviendas de San Ceferino 3 en Chivilcoy. También alertó sobre la falta de respuestas y asfalto de cara a las obras del San Ceferino 4.",
    "duracion_seg": null,
@@ -4546,6 +4567,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_07_9-de-julio_choque-entre-camioneta-y-moto-.mp4",
    "volanta": "Siniestro vial en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/XvYQhOLgDIs"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/": {
+   "categoria": "narcotrafico",
+   "descripcion": "Un hombre fue capturado en su vivienda de Bragado en el marco de una causa por venta de estupefacientes al menudeo. Durante el procedimiento atacó a los uniformados, se zafó de los precintos y quiso desarmar a un efectivo antes de ser reducido.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-10-30T23:31:41.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-por-narcotrafico-a-un-hombre-que-intento-0af3f7",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "La investigación por venta de drogas en un lavadero sumó un nuevo arresto tras una serie de allanamientos.\n\nEl procedimiento se llevó a cabo este miércoles en una finca situada en la calle Troilo al 2000.\n\nEl implicado se soltó de las atenciones e intentó quitarle el arma reglamentaria a un policía antes de ser reducido.\n\nIntervinieron efectivos de la división de drogas ilícitas, la policía local, el GAD y personal municipal.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Narcotrafico #Operativo #BuenosAires",
+   "tipo": "video",
+   "titulo": "Bragado: cayó un sospechoso por drogas que intentó robarle el arma a un policía",
+   "urgente": false,
+   "video_bytes": 93928,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_07_9-de-julio_bragado-cay-un-sospechoso-por-.mp4",
+   "volanta": "Operativo antidrogas en Bragado",
+   "youtube_url": "https://youtube.com/shorts/96LUxcpJYhM"
   },
   "web:004e7af4-996b-4844-babe-bcc9c91c2fe6": {
    "categoria": "",
@@ -8024,6 +8071,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
    "volanta": "Chivilcoy · Cultura"
   },
+  "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc": {
+   "categoria": "",
+   "descripcion": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto En el marco de una investigación por comercialización de estupefacientes al menudeo, personal policial detuvo en Bragado a Jonatan Diz. La causa se había iniciado el 26 de mayo a partir de información que señalaba la presunta venta de drogas en un lavadero de automóviles. El procedimiento estuvo a cargo de la Subdelegación Departamental de Investigaciones del Tráfico de Drogas Ilícitas Chivilcoy, conducida por el...",
+   "generado": "2026-10-30T23:20:33Z",
+   "id": "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8815dc0f213243888499f256afb156e0~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
+   "volanta": "Bragado · Policiales"
+  },
   "web:e5615e3b-7d1f-407b-b876-c42670585cb1": {
    "categoria": "",
    "descripcion": "Presentaron los detalles de la Media Maratón Eduardo Pollaroli El coordinador de Deportes, Emilio Carabelli, y el presidente del Círculo de Atletas, Juan Borgogna, brindaron precisiones sobre la realización de la Media Maratón \"Eduardo Pollaroli\". Carabelli destacó la disposición del área de Deportes hacia el Círculo, los clubes y las instituciones que llevan adelante este tipo de actividades. Además, valoró la articulación con el área de oncología para difundir información sobre prevención y...",
@@ -8469,17 +8535,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 573,
-   "segundos": 37202,
+   "restantes": 572,
+   "segundos": 35985,
    "tope": 600
   },
   "30d": {
-   "restantes": 929,
-   "segundos": 942626,
+   "restantes": 928,
+   "segundos": 941410,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T23:20:14.000Z",
+ "cuota_visto": "2026-10-30T23:40:31.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -15218,6 +15284,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|tiktok": {
+   "actualizado": "2026-10-30T23:40:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|tiktok",
+   "creado": "2026-10-30T23:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-30T23:22:22.000Z",
+   "id": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto\n\nPersonal policial detuvo en Bragado a Jonatan Diz por comercialización de estupefacientes al menudeo luego de que, según el parte policial, opusiera una violenta resistencia e intentara quitarle el arma a un efectivo. En simultáneo, se allanó el domicilio familiar, donde se incautó una balanza de precisión y recortes de nylon.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto",
+   "urgente": false,
+   "vence": "2026-11-01T23:22:22.000Z",
+   "video_bytes": 6596113,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_797779e1cadc4e06.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|x": {
+   "actualizado": "2026-10-30T23:40:30.000Z",
+   "buffer_id": "6ae52aefb84259308ba94fa8",
+   "clave": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|x",
+   "creado": "2026-10-30T23:40:18.000Z",
+   "dueAt": "2026-10-30T23:42:41.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-30T23:22:22.000Z",
+   "id": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
+   "noticia": "nota:bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto\n\nSegún el parte policial, Jonatan Diz intentó quitarle el arma reglamentaria a un efectivo antes de ser reducido. Fue imputado por tenencia de drogas.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto",
+   "urgente": false,
+   "vence": "2026-10-31T01:22:22.000Z",
+   "video_bytes": 6596113,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_797779e1cadc4e06.mp4",
+   "viral": false
+  },
   "entrevistas:job00235|x": {
    "actualizado": "2026-10-21T17:00:18.000Z",
    "buffer_id": "6ad8eaf1bc53d1798323c30a",
@@ -20415,6 +20537,34 @@
    "vence": "2026-10-29T00:31:27.000Z",
    "video_bytes": 112344,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_07_9-de-julio_choque-entre-camioneta-y-moto-.mp4",
+   "viral": false
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x": {
+   "actualizado": "2026-10-30T23:40:18.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x",
+   "creado": "2026-10-30T23:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-30T23:31:41.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-por-narcotrafico-a-un-hombre-que-intento-0af3f7",
+   "noticia": "nota:bragado-detuvieron-por-narcotrafico-a-un-hombre-que-intento-0af3f7",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Bragado: cayó un sospechoso por drogas que intentó robarle el arma a un policía\n\nUn hombre fue capturado en su vivienda por venta de estupefacientes. Durante el procedimiento atacó a los agentes y quiso desarmar a uno de ellos.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-detuvieron-por-narcotrafico-a-un-hombre-que-intento-0af3f7",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bragado: cayó un sospechoso por drogas que intentó robarle el arma a un policía",
+   "urgente": false,
+   "vence": "2026-10-31T01:31:41.000Z",
+   "video_bytes": 93928,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_07_9-de-julio_bragado-cay-un-sospechoso-por-.mp4",
    "viral": false
   },
   "web:004e7af4-996b-4844-babe-bcc9c91c2fe6|x": {
@@ -25870,6 +26020,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc|x": {
+   "actualizado": "2026-10-30T23:40:18.000Z",
+   "buffer_id": "",
+   "clave": "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc|x",
+   "creado": "2026-10-30T23:40:18.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-30T23:20:33Z",
+   "id": "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
+   "noticia": "nota:bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto",
+   "urgente": false,
+   "vence": "2026-10-31T03:20:33.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:e5615e3b-7d1f-407b-b876-c42670585cb1|x": {
    "actualizado": "2026-10-29T20:20:13.000Z",
    "buffer_id": "",
@@ -26582,43 +26757,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|tiktok",
-   "cuando": "2026-10-26T13:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700962619070352647"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x",
-   "cuando": "2026-10-26T13:48:37.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok",
-   "cuando": "2026-10-26T13:48:37.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x",
-   "cuando": "2026-10-26T13:48:37.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6adf5a3600bfbbae70047c19",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|x",
-   "cuando": "2026-10-26T13:48:38.000Z",
-   "dueAt": "2026-10-26T13:50:43.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x",
    "cuando": "2026-10-26T14:20:16.000Z",
@@ -30779,6 +30917,45 @@
    "cuando": "2026-10-30T23:20:14.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7702590119995542785"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|x",
+   "cuando": "2026-10-30T23:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|tiktok",
+   "cuando": "2026-10-30T23:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x",
+   "cuando": "2026-10-30T23:40:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc|x",
+   "cuando": "2026-10-30T23:40:30.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae52aefb84259308ba94fa8",
+   "clave": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|x",
+   "cuando": "2026-10-30T23:40:31.000Z",
+   "dueAt": "2026-10-30T23:42:41.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -30982,6 +31159,7 @@
   "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4": "2026-10-30T14:00:18.000Z",
   "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4": "2026-10-30T14:40:14.000Z",
   "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4": "2026-10-30T15:00:19.000Z",
+  "bot:video_matias-zucchi_mvvldft40mvd_01.mp4": "2026-10-30T23:40:18.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -31278,6 +31456,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/": "2026-10-25T23:40:15.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/26/bragado-robos-persecucion-y-detencion-de-una-banda/": "2026-10-27T00:20:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/": "2026-10-28T22:40:14.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/": "2026-10-30T23:40:18.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
@@ -31786,6 +31965,7 @@
   "web:e32dc39e-b193-41c9-8bce-3a9773d75a39": "2026-10-27T10:03:31.000Z",
   "web:e33fe1b7-9b8b-45a7-b36f-96a3382d978b": "2026-10-23T10:02:47.000Z",
   "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b": "2026-10-27T16:40:16.000Z",
+  "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc": "2026-10-30T23:40:18.000Z",
   "web:e5615e3b-7d1f-407b-b876-c42670585cb1": "2026-10-29T20:20:13.000Z",
   "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5": "2026-10-29T10:02:34.000Z",
   "web:e71fb0dc-94d7-456d-9127-31522ce0aa70": "2026-10-27T10:03:31.000Z",

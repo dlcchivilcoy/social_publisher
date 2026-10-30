@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 20 | 4 | 0 | 4 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 0 | 0 | 0 | 0 | 9 |
+| Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 20 | 4 | 0 | 5 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 5 | 0 | 0 | 0 | 0 | 10 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,10 +27,12 @@ Actualizado: 30/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 2 con métricas · mediana vistas/impresiones 532 · likes 5 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 573 de 600 · 30d: quedan 929 de 2000 (visto 2026-10-30T23:20:14.000Z)
+15m: quedan 149 de 150 · 24h: quedan 572 de 600 · 30d: quedan 928 de 2000 (visto 2026-10-30T23:40:31.000Z)
 
-## Cola propia (13 esperando)
+## Cola propia (15 esperando)
+- TikTok · Reels del bot · DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Oscar Potetti afirmó que la reactivación del tramo Mercedes-Suipacha es una fals — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Bragado: cayó un sospechoso por drogas que intentó robarle el arma a un policía — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,11 +54,6 @@ Actualizado: 30/10/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T18:20 recibido entrevistas:job00268|x 
-- 2026-10-30T18:20 recibido entrevistas:job00268|tiktok 
-- 2026-10-30T18:20 programado entrevistas:job00268|x 
-- 2026-10-30T18:40 enviado entrevistas:job00267|x 
-- 2026-10-30T18:40 enviado entrevistas:job00268|x 
 - 2026-10-30T19:20 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|x 
 - 2026-10-30T19:20 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|tikto 
 - 2026-10-30T19:20 recibido web:9d6e2c2f-9fc7-45c1-b526-e6505524729f|x la misma noticia ya sale en X (Reels del bot, pendiente)
@@ -77,3 +74,8 @@ Actualizado: 30/10/2026 20:20 (hora AR) · ACTIVO
 - 2026-10-30T23:00 programado bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|x 
 - 2026-10-30T23:20 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|x 
 - 2026-10-30T23:20 enviado entrevistas:job00265|tiktok 
+- 2026-10-30T23:40 recibido bot:video_matias-zucchi_mvvldft40mvd_01.mp4|x 
+- 2026-10-30T23:40 recibido bot:video_matias-zucchi_mvvldft40mvd_01.mp4|tiktok 
+- 2026-10-30T23:40 recibido policiales:https://www.latrochadigital.com.ar/2026/10/30/bra 
+- 2026-10-30T23:40 recibido web:e54d9265-71d9-4648-b23f-4daf8e41d1fc|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-30T23:40 programado bot:video_matias-zucchi_mvvldft40mvd_01.mp4|x 
