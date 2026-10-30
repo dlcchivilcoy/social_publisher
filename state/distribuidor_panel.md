@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 16:20 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 16:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 2 | 0 | 4 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 5 | 0 | 0 | 0 | 0 | 8 |
@@ -17,7 +17,7 @@ Actualizado: 30/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 28.5 · likes 0
 - X · Reels del bot: 78 con métricas · mediana vistas/impresiones 28.5 · likes 0
 - X · Reels policiales: 25 con métricas · mediana vistas/impresiones 39 · likes 0
 - X · Notas web: 67 con métricas · mediana vistas/impresiones 21 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 30/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 2 con métricas · mediana vistas/impresiones 532 · likes 5 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 579 de 600 · 30d: quedan 935 de 2000 (visto 2026-10-30T19:20:29.000Z)
+15m: quedan 149 de 150 · 24h: quedan 578 de 600 · 30d: quedan 934 de 2000 (visto 2026-10-30T19:40:17.000Z)
 
 ## Cola propia (17 esperando)
 - TikTok · Reels del bot · El Municipio realizó una nueva jornada de la Mesa de Prevención en Comunidad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -56,7 +56,6 @@ Actualizado: 30/10/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T16:20 recibido entrevistas:job00265|x 
 - 2026-10-30T16:20 recibido entrevistas:job00265|tiktok 
 - 2026-10-30T16:20 programado entrevistas:job00265|x 
 - 2026-10-30T16:40 enviado entrevistas:job00265|x 
@@ -81,3 +80,4 @@ Actualizado: 30/10/2026 16:20 (hora AR) · ACTIVO
 - 2026-10-30T19:20 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|tikto 
 - 2026-10-30T19:20 recibido web:9d6e2c2f-9fc7-45c1-b526-e6505524729f|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-30T19:20 programado bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|x 
+- 2026-10-30T19:40 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|x 
