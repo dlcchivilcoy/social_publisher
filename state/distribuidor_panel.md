@@ -1,34 +1,33 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-10-29)
+## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 3 | 0 | 2 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 7 | 1 | 0 | 0 | 0 | 4 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 12 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 13 |
+| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 28 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 29 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 29 · likes 0
 - X · Reels del bot: 74 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 70 con métricas · mediana vistas/impresiones 22.5 · likes 0
-- X · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 25 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 12 con métricas · mediana vistas/impresiones 95.5 · likes 0
 - TikTok · Reels del bot: 55 con métricas · mediana vistas/impresiones 293 · likes 3
 - TikTok · Reels policiales: 7 con métricas · mediana vistas/impresiones 515 · likes 3
 - TikTok · Nacionales y categorías: 3 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 559 de 600 · 30d: quedan 957 de 2000 (visto 2026-10-30T02:00:29.000Z)
+15m: quedan 149 de 150 · 24h: quedan 558 de 600 · 30d: quedan 956 de 2000 (visto 2026-10-30T09:00:19.000Z)
 
 ## Cola propia (16 esperando)
 - TikTok · Reels del bot · Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -56,7 +55,6 @@ Actualizado: 29/10/2026 23:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T00:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x 
 - 2026-10-30T00:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|tikto 
 - 2026-10-30T00:20 programado bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x 
 - 2026-10-30T00:20 programado policiales:https://laopinionline.ar/articulo/celeste-montara 
@@ -81,3 +79,4 @@ Actualizado: 29/10/2026 23:40 (hora AR) · ACTIVO
 - 2026-10-30T02:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x 
 - 2026-10-30T02:00 enviado policiales:https://www.diariodemocracia.com/policiales/34728 
 - 2026-10-30T02:00 programado bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x 
+- 2026-10-30T09:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x 
