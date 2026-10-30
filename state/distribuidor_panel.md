@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,25 +9,25 @@ Actualizado: 30/10/2026 08:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 4 | 0 | 0 | 0 | 5 |
+| Notas web | X | 15 | 3 | 2 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 30 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 29 enviadas + 1 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels del bot: 82 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 25 con métricas · mediana vistas/impresiones 39 · likes 0
-- X · Notas web: 80 con métricas · mediana vistas/impresiones 21.5 · likes 0
+- X · Notas web: 75 con métricas · mediana vistas/impresiones 22 · likes 0
 - TikTok · Recortes de entrevistas: 15 con métricas · mediana vistas/impresiones 98 · likes 1
 - TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 282.5 · likes 3
 - TikTok · Reels policiales: 7 con métricas · mediana vistas/impresiones 515 · likes 3
 - TikTok · Nacionales y categorías: 3 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 594 de 600 · 30d: quedan 950 de 2000 (visto 2026-10-30T11:00:21.000Z)
+15m: quedan 149 de 150 · 24h: quedan 593 de 600 · 30d: quedan 949 de 2000 (visto 2026-10-30T11:40:17.000Z)
 
 ## Cola propia (16 esperando)
 - TikTok · Reels del bot · Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,8 +55,6 @@ Actualizado: 30/10/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T02:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x 
-- 2026-10-30T02:00 enviado policiales:https://www.diariodemocracia.com/policiales/34728 
 - 2026-10-30T02:00 programado bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x 
 - 2026-10-30T09:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x 
 - 2026-10-30T10:01 recibido web:8eedc4c8-7ed9-4248-9de7-468717547999|x 
@@ -80,3 +78,5 @@ Actualizado: 30/10/2026 08:20 (hora AR) · ACTIVO
 - 2026-10-30T11:00 depurado web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x no está en el carrusel del diario de hoy
 - 2026-10-30T11:00 depurado web:8fd9d678-2717-4972-af3c-fcb225b55159|x no está en el carrusel del diario de hoy
 - 2026-10-30T11:00 depurado web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x no está en el carrusel del diario de hoy (sacado de Buffer)
+- 2026-10-30T11:40 enviado web:606007a3-f032-422b-ace3-ee59408ba8de|x 
+- 2026-10-30T11:40 enviado web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x 
