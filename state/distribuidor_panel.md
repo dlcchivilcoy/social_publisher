@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 06:20 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 06:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -17,17 +17,17 @@ Actualizado: 30/10/2026 06:20 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 29 · likes 0
-- X · Reels del bot: 74 con métricas · mediana vistas/impresiones 28 · likes 0
-- X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
-- X · Notas web: 70 con métricas · mediana vistas/impresiones 22.5 · likes 0
-- TikTok · Recortes de entrevistas: 12 con métricas · mediana vistas/impresiones 95.5 · likes 0
-- TikTok · Reels del bot: 55 con métricas · mediana vistas/impresiones 293 · likes 3
+- X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels del bot: 82 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels policiales: 25 con métricas · mediana vistas/impresiones 39 · likes 0
+- X · Notas web: 82 con métricas · mediana vistas/impresiones 21 · likes 0
+- TikTok · Recortes de entrevistas: 15 con métricas · mediana vistas/impresiones 98 · likes 1
+- TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 282.5 · likes 3
 - TikTok · Reels policiales: 7 con métricas · mediana vistas/impresiones 515 · likes 3
 - TikTok · Nacionales y categorías: 3 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 558 de 600 · 30d: quedan 956 de 2000 (visto 2026-10-30T09:00:19.000Z)
+15m: quedan 149 de 150 · 24h: quedan 599 de 600 · 30d: quedan 955 de 2000 (visto 2026-10-30T09:40:16.000Z)
 
 ## Cola propia (16 esperando)
 - TikTok · Reels del bot · Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
