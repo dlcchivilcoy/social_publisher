@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 3
+    "scheduled": 0,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-30T14:00:23.000Z"
+   "visto": "2026-10-30T15:00:24.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 24
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-30T14:00:23.000Z"
+   "visto": "2026-10-30T15:00:24.000Z"
   }
  },
  "contenidos": {
@@ -2216,6 +2216,27 @@
    "video_mb": 32.7,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_39892404b3b558e4.mp4",
    "youtube_url": "https://www.youtube.com/shorts/7FaMS1GTlHE"
+  },
+  "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4": {
+   "descripcion": "Un hombre identificado como Jonatan Diz fue detenido en la localidad de Bragado, acusado de presunta comercialización de estupefacientes al menudeo y de atentado agravado contra la autoridad.\n\nEl procedimiento se llevó a cabo durante la mañana del miércoles 28 de octubre por personal de la Subdelegación Departamental de Investigaciones del Tráfico de Drogas Ilícitas Chivilcoy, a cargo del comisario Donato Rafael Pitetti, en conjunto con la Estación de Policía Comunal Bragado, el GAD Nueve de Julio y la Dirección General de Seguridad, encabezada por Marcelo Guevara.\n\nLa causa comenzó el 26 de mayo a raíz de averiguaciones sobre la presunta venta de drogas en un lavadero de autos. Con vigilancias, seguimientos y registros fotográficos, se identificó a Agustín Picado —previamente detenido con secuestro de cocaína— y a Diz. A partir del peritaje telefónico, los investigadores determinaron que Diz habría continuado con la actividad ilícita, por lo que el Juzgado de Garantías ordenó su detención y nuevos allanamientos.\n\nEl operativo principal se concretó en calle Troilo al 2060, donde Diz pernoctaba. Según se informó, el acusado opuso resistencia, se liberó de los precintos e intentó arrebatar el arma de un efectivo antes de ser reducido. De forma simultánea, en Maestros Argentinos al 2259 incautaron una balanza de precisión y recortes de nylon. La fiscalía avaló lo actuado y amplió la imputación.",
+   "duracion_seg": 57.1,
+   "generado": "2026-10-30T14:53:31.000Z",
+   "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Detuvieron a un hombre acusado de vender estupefacientes al menudeo",
+   "urgente": false,
+   "video_bytes": 8983884,
+   "video_mb": 8.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/aJrxzIQKw1Q"
   },
   "entrevistas:job00230": {
    "descripcion": "En Chivilcoy, el escritor Jorge Giallorenzi presentó 'Terremotos' de Espacio Luna Alfanje y relató el desgarrador poema de una madre que perdió a su hijo durante un sismo.",
@@ -5381,24 +5402,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
    "volanta": "Chivilcoy · Policiales"
   },
-  "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f": {
-   "categoria": "nacionales",
-   "descripcion": "Elegir un asistente virtual depende de la tarea específica, ya que las herramientas varían según su capacidad para redactar, programar, verificar datos o…",
-   "generado": "2026-10-19T14:50:13.014Z",
-   "id": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_fe40ddc4082d4e3a964b319e28d1b681~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cual-es-el-mejor-chatbot-de-inteligencia-artificial-para-d4259e",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Cuál es el mejor chatbot de inteligencia artificial para trabajar en tu negocio",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cual-es-el-mejor-chatbot-de-inteligencia-artificial-para-d4259e",
-   "volanta": ""
-  },
   "web:1f7131d8-0343-4072-9cd4-8996b6088ee3": {
    "categoria": "",
    "descripcion": "El libro de Alicia Ríos profundiza el recorrido histórico de la institución denominada “Luz del Oeste Nº 55”, focalizándose “en el período comprendido entre 1877 y 1919” La investigadora y museóloga Alicia Ríos presentó detalles de su obra bibliográfica dedicada a reconstruir el accionar y la trayectoria de la logia masónica que funcionó en Chivilcoy. Tras una primera exposición realizada en el marco de las Jornadas Regionales por la Educación Pública desarrolladas en la Escuela Normal, la...",
@@ -6515,6 +6518,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/atletismo-destacada-actuacion-chivilcoyana-en-la-27-maraton",
    "volanta": "Atletismo"
+  },
+  "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677": {
+   "categoria": "",
+   "descripcion": "Detuvieron a un hombre acusado de vender estupefacientes al menudeo En horas de la mañana del miércoles 28 de octubre de 2026, personal policial de la SUBDELEGACION DEPARTAMENTAL de Investigaciones del TRAFICO de DROGAS ILICITAS CHIVILCOY, a cargo del comisario DONATO RAFAEL PITETTI, llevó a cabo procedimientos en conjunto con la EPC BRAGADO, el GAD NUEVE de Julio y la DIRECCIÓN GENERAL de SEGURIDAD, a cargo de MARCELO GUEVARA. La causa se inició el 26 de mayo de 2026 a partir de información...",
+   "generado": "2026-10-30T14:51:23.830Z",
+   "id": "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_4be8d208d2b34357a83422bf9a30b76d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Detuvieron a un hombre acusado de vender estupefacientes al menudeo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
+   "volanta": "BRAGADO · Policiales"
   },
   "web:6eaf6418-146a-46ea-add6-5506d89ee4b7": {
    "categoria": "",
@@ -9095,22 +9117,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
+   "restantes": 149,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 589,
-   "segundos": 70792,
+   "restantes": 588,
+   "segundos": 67192,
    "tope": 600
   },
   "30d": {
-   "restantes": 945,
-   "segundos": 976217,
+   "restantes": 944,
+   "segundos": 972616,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T14:00:24.000Z",
+ "cuota_visto": "2026-10-30T15:00:24.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -16007,18 +16029,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x": {
-   "actualizado": "2026-10-30T14:00:23.000Z",
+   "actualizado": "2026-10-30T15:00:24.000Z",
    "buffer_id": "6ae4a2f8e266b27191eb8467",
    "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x",
    "creado": "2026-10-30T14:00:18.000Z",
    "dueAt": "2026-10-30T14:02:24.000Z",
+   "enviado": "2026-10-30T14:06:04.962Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T13:59:15.000Z",
    "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116169771305619921",
    "nota_url": "",
    "noticia": "titulo:buscan-edificio-moto-puerta-robada",
    "origen": "bot",
@@ -16085,6 +16108,62 @@
    "vence": "2026-10-30T16:22:57.000Z",
    "video_bytes": 34247235,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_39892404b3b558e4.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok": {
+   "actualizado": "2026-10-30T15:00:19.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok",
+   "creado": "2026-10-30T15:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-30T14:53:31.000Z",
+   "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Detuvieron a un hombre acusado de vender estupefacientes al menudeo\n\nJonatan Diz fue apresado en Bragado por la Subdelegación de Drogas Ilícitas de Chivilcoy, la policía local y fuerzas de seguridad, imputado por comercialización de drogas y atentado agravado contra la autoridad. Durante el operativo en calle Troilo, el acusado opuso resistencia e intentó quitarle el arma a un efectivo antes de ser reducido.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un hombre acusado de vender estupefacientes al menudeo",
+   "urgente": false,
+   "vence": "2026-11-01T14:53:31.000Z",
+   "video_bytes": 8983884,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x": {
+   "actualizado": "2026-10-30T15:00:19.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x",
+   "creado": "2026-10-30T15:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-30T14:53:31.000Z",
+   "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
+   "noticia": "nota:bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Detuvieron a un hombre acusado de vender estupefacientes al menudeo\n\nJonatan Diz fue apresado en Bragado por la policía. Lo acusan de comercializar drogas al menudeo y de atentado agravado contra la autoridad.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un hombre acusado de vender estupefacientes al menudeo",
+   "urgente": false,
+   "vence": "2026-10-30T16:53:31.000Z",
+   "video_bytes": 8983884,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
    "viral": false
   },
   "entrevistas:job00230|x": {
@@ -17666,19 +17745,20 @@
    "viral": false
   },
   "entrevistas:job00260|tiktok": {
-   "actualizado": "2026-10-30T13:00:20.000Z",
+   "actualizado": "2026-10-30T15:00:24.000Z",
    "buffer_id": "6ae494f1f522e615d3a50358",
    "categoria": "",
    "clave": "entrevistas:job00260|tiktok",
    "creado": "2026-10-29T17:00:20.000Z",
    "dueAt": "2026-10-30T14:23:30.000Z",
+   "enviado": "2026-10-30T14:27:14.144Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T17:00:20.000Z",
    "id": "entrevistas:job00260",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702466435045461254",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -17731,19 +17811,20 @@
    "viral": false
   },
   "entrevistas:job00261|tiktok": {
-   "actualizado": "2026-10-30T13:00:20.000Z",
+   "actualizado": "2026-10-30T15:00:24.000Z",
    "buffer_id": "6ae494efabdb62a0e37e9583",
    "categoria": "",
    "clave": "entrevistas:job00261|tiktok",
    "creado": "2026-10-29T17:20:13.000Z",
    "dueAt": "2026-10-30T14:03:35.000Z",
+   "enviado": "2026-10-30T14:08:00.669Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-29T17:20:13.000Z",
    "id": "entrevistas:job00261",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702462008666459393",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -22266,32 +22347,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x": {
-   "actualizado": "2026-10-20T15:00:20.000Z",
-   "buffer_id": "",
-   "clave": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f|x",
-   "creado": "2026-10-19T15:00:20.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-19T14:50:13.014Z",
-   "id": "web:1f09d9c6-abe1-4f88-8850-4f63e0b0e44f",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cual-es-el-mejor-chatbot-de-inteligencia-artificial-para-d4259e",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Cuál es el mejor chatbot de inteligencia artificial para trabajar en tu negocio\n\nElegir un asistente virtual depende de la tarea específica. Las herramientas varían según su capacidad para redactar, programar o verificar datos.\n\nhttps://www.diariolacampaña.com.ar/n/cual-es-el-mejor-chatbot-de-inteligencia-artificial-para-d4259e",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Cuál es el mejor chatbot de inteligencia artificial para trabajar en tu negocio",
-   "urgente": false,
-   "vence": "2026-10-20T14:50:13.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:1f7131d8-0343-4072-9cd4-8996b6088ee3|x": {
    "actualizado": "2026-10-26T12:06:06.000Z",
    "buffer_id": "",
@@ -24070,6 +24125,31 @@
    "titulo": "Destacada actuación chivilcoyana en la 27ª Maratón Internacional \"Dino Hugo Tinelli\"",
    "urgente": false,
    "vence": "2026-10-26T14:03:45.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677|x": {
+   "actualizado": "2026-10-30T15:00:19.000Z",
+   "buffer_id": "",
+   "clave": "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677|x",
+   "creado": "2026-10-30T15:00:19.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-30T14:51:23.830Z",
+   "id": "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
+   "noticia": "nota:bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Detuvieron a un hombre acusado de vender estupefacientes al menudeo",
+   "urgente": false,
+   "vence": "2026-10-30T18:51:23.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -28143,54 +28223,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:34578935-f4ba-4a48-b177-a3e196a4e890|x",
-   "cuando": "2026-10-26T10:20:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:110a806e-7381-4845-8f7e-851f18f79901|x",
-   "cuando": "2026-10-26T10:20:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b6d79f8b-20cb-429f-95dc-adf0d9340584|x",
-   "cuando": "2026-10-26T10:20:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b4dddc38-6caa-416d-8010-6276dec99036|x",
-   "cuando": "2026-10-26T10:20:41.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84|x",
-   "cuando": "2026-10-26T10:20:47.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:aac6f864-9661-40bc-8e13-c03b62c05fed|x",
-   "cuando": "2026-10-26T10:20:57.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:2c08d2bb-2c10-4352-a617-4a84c0781807|x",
    "cuando": "2026-10-26T10:21:04.000Z",
@@ -32359,6 +32391,48 @@
    "cuando": "2026-10-30T14:40:19.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x",
+   "cuando": "2026-10-30T15:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok",
+   "cuando": "2026-10-30T15:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677|x",
+   "cuando": "2026-10-30T15:00:24.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x",
+   "cuando": "2026-10-30T15:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116169771305619921"
+  },
+  {
+   "clave": "entrevistas:job00260|tiktok",
+   "cuando": "2026-10-30T15:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702466435045461254"
+  },
+  {
+   "clave": "entrevistas:job00261|tiktok",
+   "cuando": "2026-10-30T15:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702462008666459393"
   }
  ],
  "tandas": {
@@ -32396,7 +32470,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
- "ultima_sync": "2026-10-30T14:00:23.000Z",
+ "ultima_sync": "2026-10-30T15:00:24.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -32559,6 +32633,7 @@
   "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4": "2026-10-29T20:20:13.000Z",
   "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4": "2026-10-30T14:00:18.000Z",
   "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4": "2026-10-30T14:40:14.000Z",
+  "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4": "2026-10-30T15:00:19.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -33070,6 +33145,7 @@
   "web:6c509d7f-52e1-4541-aa96-22083404a169": "2026-10-26T10:20:14.000Z",
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": "2026-10-15T13:20:17.000Z",
   "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7": "2026-10-15T18:40:15.000Z",
+  "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677": "2026-10-30T15:00:19.000Z",
   "web:6eaf6418-146a-46ea-add6-5506d89ee4b7": "2026-10-24T19:20:18.000Z",
   "web:6f536878-4577-4da9-9ab2-31ae024c0a0e": "2026-10-23T10:02:47.000Z",
   "web:6f8cf702-5cb7-4b03-8945-02d406201533": "2026-10-19T12:40:14.000Z",
