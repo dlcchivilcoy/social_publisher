@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 10:00 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 10:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -22,7 +22,7 @@ Actualizado: 30/10/2026 10:00 (hora AR) · ACTIVO
 - X · Reels policiales: 25 con métricas · mediana vistas/impresiones 39 · likes 0
 - X · Notas web: 75 con métricas · mediana vistas/impresiones 22 · likes 0
 - TikTok · Recortes de entrevistas: 15 con métricas · mediana vistas/impresiones 98 · likes 1
-- TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 282.5 · likes 3
+- TikTok · Reels del bot: 59 con métricas · mediana vistas/impresiones 282 · likes 3
 - TikTok · Reels policiales: 7 con métricas · mediana vistas/impresiones 515 · likes 3
 - TikTok · Nacionales y categorías: 3 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
@@ -30,17 +30,17 @@ Actualizado: 30/10/2026 10:00 (hora AR) · ACTIVO
 15m: quedan 148 de 150 · 24h: quedan 591 de 600 · 30d: quedan 947 de 2000 (visto 2026-10-30T13:00:33.000Z)
 
 ## Cola propia (11 esperando)
-- TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — no entró entre las 5 más virales de la tanda 10 h
-- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — no entró entre las 5 más virales de la tanda 10 h
+- TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
