@@ -9469,25 +9469,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/honduras-detienen-a-una-mujer-acusada-de-contratar-sicarios-a28aa7",
    "volanta": ""
   },
-  "web:d831e553-7a38-4db9-87b3-9dc75a105046": {
-   "categoria": "",
-   "descripcion": "Aprehendieron a dos personas y secuestraron dosis de cocaína El operativo se llevó a cabo en un domicilio de la calle Ángel Peñaloza en el marco de una investigación iniciada en julio. Se incautaron 22 envoltorios de sustancia, celulares y una balanza de precisión. En horas de la tarde del pasado sábado 17 de octubre de 2026, personal de la Subdelegación Departamental de Investigaciones del Tráfico de Drogas Ilícitas (SDDITDI) Chivilcoy, bajo la dirección de Donato Rafael Pitetti, llevó...",
-   "generado": "2026-10-20T01:33:22.406Z",
-   "id": "web:d831e553-7a38-4db9-87b3-9dc75a105046",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a7087aa981664bcea33c8ef51ce97668~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-dos-personas-y-secuestraron",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Aprehendieron a dos personas y secuestraron dosis de cocaína",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-aprehendieron-a-dos-personas-y-secuestraron",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:d8bbde96-e323-4c02-93f7-b2e09a555019": {
    "categoria": "",
    "descripcion": "Chivilcoy se prepara para la primera edición de \"Folklore Sunset\" en Campus Multiespacio El próximo domingo 8 de noviembre a las 19:30 horas, la ciudad vivirá una propuesta cultural y gastronómica diferente al atardecer. Habrá shows en vivo de Folkazo y Chueco Figueroa Grupo, propuesta culinaria de autor y una gran guitarreada participativa para el cierre. Este domingo 8 de noviembre, desde las 19:30 horas, se llevará a cabo la primera edición de \"Folklore Sunset\", una jornada pensada para...",
@@ -29612,31 +29593,6 @@
    "vence": "2026-10-20T03:05:24.000Z",
    "video_bytes": 0,
    "video_url": ""
-  },
-  "web:d831e553-7a38-4db9-87b3-9dc75a105046|x": {
-   "actualizado": "2026-10-20T01:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:d831e553-7a38-4db9-87b3-9dc75a105046|x",
-   "creado": "2026-10-20T01:40:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-20T01:33:22.406Z",
-   "id": "web:d831e553-7a38-4db9-87b3-9dc75a105046",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-dos-personas-y-secuestraron",
-   "noticia": "nota:chivilcoy-policiales-aprehendieron-a-dos-personas-y-secuestraron",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Aprehendieron a dos personas y secuestraron dosis de cocaína",
-   "urgente": false,
-   "vence": "2026-10-20T05:33:22.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
   },
   "web:d8bbde96-e323-4c02-93f7-b2e09a555019|x": {
    "actualizado": "2026-10-29T13:00:23.000Z",
