@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 2 | 1 | 2 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 0 | 4 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 9 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 1 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 10 |
+| Reels del bot | X | 10 | 4 | 2 | 0 | 0 | 0 | 4 |
+| Reels del bot | TikTok | 20 | 5 | 0 | 10 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 2 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 11 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,9 +28,10 @@ Actualizado: 29/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 532 · likes 5 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 564 de 600 · 30d: quedan 962 de 2000 (visto 2026-10-30T00:20:25.000Z)
+15m: quedan 149 de 150 · 24h: quedan 563 de 600 · 30d: quedan 961 de 2000 (visto 2026-10-30T00:40:20.000Z)
 
 ## Cola propia (15 esperando)
+- TikTok · Reels del bot · Chivilcoy Teatrero abrió una nueva edición con un recorrido histórico — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -43,7 +44,6 @@ Actualizado: 29/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Cayó un sospechoso por robos, atraparon a un prófugo y hallaron un arma — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Aprehendieron a un hombre y secuestraron un revólver tras un allanamiento en Jun — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -55,11 +55,6 @@ Actualizado: 29/10/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T19:00 recibido entrevistas:job00264|tiktok 
-- 2026-10-29T19:00 enviado entrevistas:job00262|x 
-- 2026-10-29T19:00 enviado entrevistas:job00263|x 
-- 2026-10-29T19:00 programado entrevistas:job00264|x 
-- 2026-10-29T20:20 recibido bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|x la misma noticia ya sale en X (Reels del bot, enviado)
 - 2026-10-29T20:20 recibido bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|tiktok 
 - 2026-10-29T20:20 recibido web:e5615e3b-7d1f-407b-b876-c42670585cb1|x la misma noticia ya sale en X (Reels del bot, enviado)
 - 2026-10-29T20:20 enviado entrevistas:job00264|x 
@@ -80,3 +75,8 @@ Actualizado: 29/10/2026 21:20 (hora AR) · ACTIVO
 - 2026-10-30T00:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|tikto 
 - 2026-10-30T00:20 programado bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x 
 - 2026-10-30T00:20 programado policiales:https://laopinionline.ar/articulo/celeste-montara 
+- 2026-10-30T00:40 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|x 
+- 2026-10-30T00:40 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tikto 
+- 2026-10-30T00:40 recibido web:41b50fea-05eb-4988-89d9-dc639e73ba72|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-30T00:40 programado bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|x 
+- 2026-10-30T00:40 programado policiales:https://www.junindigital.com/policiales/2026-10-2 
