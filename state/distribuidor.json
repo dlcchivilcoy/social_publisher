@@ -1314,6 +1314,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_06ff1750c3a32365.mp4",
    "youtube_url": "https://www.youtube.com/shorts/gw8Za5xDOQk"
   },
+  "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj": {
+   "descripcion": "El Municipio llevó a cabo la entrega del aporte económico correspondiente al mes de octubre a 31 instituciones y entidades deportivas de Chivilcoy. El acto, realizado en la sede del Club San Lorenzo, estuvo encabezado por el secretario de Gobierno, Ezequiel Pinotti, junto a funcionarios",
+   "duracion_seg": 30.0,
+   "generado": "2026-10-30T01:19:21.000Z",
+   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El Municipio entregó el aporte mensual a 31 entidades deportivas",
+   "urgente": false,
+   "video_bytes": 661424,
+   "video_mb": 0.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5dfb6909fceac284.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/sW1iEXExgwo"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -1334,27 +1355,6 @@
    "video_mb": 3.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/nw8YFrIR984"
-  },
-  "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4": {
-   "descripcion": "La Feria Artesanal y Cultural celebró su 35° aniversario con una propuesta especial en las instalaciones del Museo Pompeo Boggio, donde se combinaron la tradicional feria con una muestra artística y presentaciones musicales.\n\nMiguel Pierantoni, referente del espacio, expresó su satisfacción por el camino recorrido desde el nacimiento del proyecto hace tres décadas y media. En este sentido, recordó a las personas que impulsaron la iniciativa desde sus comienzos y remarcó el orgullo de haber podido sostener la propuesta activa a lo largo del tiempo.\n\nAsimismo, el organizador valoró la posibilidad de llevar adelante este festejo dentro de una institución dedicada a las artes plásticas, lo que consideró un paso importante para poner en valor el trabajo y la labor constante de los artesanos de la comunidad.",
-   "duracion_seg": 51.6,
-   "generado": "2026-10-18T00:46:10.000Z",
-   "id": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio",
-   "urgente": false,
-   "video_bytes": 6093842,
-   "video_mb": 5.8,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_722ffb679b83608b.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/3WznKwdrDgs"
   },
   "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4": {
    "descripcion": "Comenzaron los preparativos iniciales para la realización de una Caminata Familiar comunitaria a beneficio de dos instituciones educativas de la ciudad.\n\nLa propuesta solidaria estará destinada a colaborar con la Escuela de Educación Especial N° 502 y el Centro de Formación Integral N° 1.\n\nSegún informaron en la convocatoria, la actividad tiene horario de inicio programado para las 18.",
@@ -5782,24 +5782,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-el-derecho-a-protestar-no-es-el-derecho-a-ejercer-la-violencia-1",
    "volanta": "Opinión"
   },
-  "web:1577e055-5def-4f13-aaba-45b5fbac35da": {
-   "categoria": "nacionales",
-   "descripcion": "El clásico de Avellaneda terminó igualado en el Cilindro. Por su parte, el conjunto xeneize superó a Talleres y trepó a la cima de la tabla anual del…",
-   "generado": "2026-10-19T01:05:08.425Z",
-   "id": "web:1577e055-5def-4f13-aaba-45b5fbac35da",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_f43dd773050d4f3bb2cbe9447cb6e23c~mv2.webp",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Liga Profesional 2026: empate en el clásico de Avellaneda y triunfo de Boca",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
-   "volanta": ""
-  },
   "web:1666fae3-dd89-410f-b67f-9206fc69affb": {
    "categoria": "",
    "descripcion": "Cosecha récord de medallas para Chivilcoy en la tercera jornada de los Juegos Bonaerenses La delegación local tuvo una jornada consagratoria en Mar del Plata: el atletismo y el patín artístico brillaron con múltiples podios, mientras que los adultos mayores sumaron la primera presea de plata. Además, varias disciplinas aseguraron su lugar en semifinales. El tercer día de competencias en la Final Provincial de los Juegos Bonaerenses dejó un saldo sumamente positivo para la delegación de...",
@@ -6004,25 +5986,6 @@
    "titulo": "Masterchef Junior debutó por Telefe con la conducción de Vero Lozano y tocó los 10,2 puntos",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/masterchef-junior-debuto-por-telefe-con-la-conduccion-de-vero-b18ec1",
-   "volanta": ""
-  },
-  "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4": {
-   "categoria": "nacionales",
-   "descripcion": "El gobierno francés anunció toques de queda y prohibición de protestas en París, Lyon, Niza y otras ciudades tras los graves disturbios del fin de semana.",
-   "generado": "2026-10-19T21:15:17.422Z",
-   "id": "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_aaf55fe7b52646eeadc4e6326d664e24~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-decreto-toques-de-queda-y-prohibio-206df8",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Francia: el gobierno decretó toques de queda y prohibió protestas tras los saqueos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-el-gobierno-decreto-toques-de-queda-y-prohibio-206df8",
    "volanta": ""
   },
   "web:27dc8470-4f21-4899-9a5b-ad57413cf2f3": {
@@ -6758,25 +6721,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juegos-bonaerenses-jorge-ponte-y-marcos-curioni-se-consagraron-con-la",
    "volanta": "Juegos Bonaerenses"
   },
-  "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699": {
-   "categoria": "nacionales",
-   "descripcion": "Una aeronave con tres personas a bordo colisionó contra un poste y se precipitó sobre una transitada avenida en la ciudad de San José. Los pasajeros…",
-   "generado": "2026-10-20T01:15:10.942Z",
-   "id": "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1ad5a54d3a974e6a9ddafc796ea721ab~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Una avioneta cayó en plena calle de California: tres pasajeros resultaron con heridas leves",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
-   "volanta": ""
-  },
   "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec": {
    "categoria": "",
    "descripcion": "Jorge Guelffi destacó las actividades educativas y el compromiso social de la UNLu sede Chivilcoy con la comunidad El director del Centro Regional Chivilcoy de la Universidad Nacional de Luján (UNLu), Jorge Guelffi, visitó los estudios de Radio del Centro para repasar la intensa actividad académica e institucional que atraviesa la casa de altos estudios en este tramo final del año. Durante una extensa charla en el programa “La Mañana del Centro”, el directivo puso especial énfasis en el rol...",
@@ -6907,6 +6851,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
    "volanta": "Chivilcoy · Sociedad"
+  },
+  "web:5571de4c-caad-4918-b27a-06c644676364": {
+   "categoria": "",
+   "descripcion": "El Municipio entregó el aporte mensual a 31 entidades deportivas El Municipio llevó a cabo la entrega del aporte económico correspondiente al mes de octubre a 31 instituciones y entidades deportivas de Chivilcoy. El acto, realizado en la sede del Club San Lorenzo, estuvo encabezado por el secretario de Gobierno, Ezequiel Pinotti, junto a funcionarios municipales de distintas áreas. Durante el encuentro, las autoridades destacaron el constante crecimiento de cada una de las instituciones y...",
+   "generado": "2026-10-30T01:16:37.405Z",
+   "id": "web:5571de4c-caad-4918-b27a-06c644676364",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6f620ee6ce1645d0be9c8ef17d131da2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "El Municipio entregó el aporte mensual a 31 entidades deportivas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
+   "volanta": "Chivilcoy · Deportes"
   },
   "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438": {
    "categoria": "",
@@ -10343,17 +10306,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 562,
-   "segundos": 29993,
+   "restantes": 561,
+   "segundos": 28792,
    "tope": 600
   },
   "30d": {
-   "restantes": 960,
-   "segundos": 1023018,
+   "restantes": 959,
+   "segundos": 1021816,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T01:00:22.000Z",
+ "cuota_visto": "2026-10-30T01:20:25.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -14531,6 +14494,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_06ff1750c3a32365.mp4",
    "viral": false
   },
+  "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tiktok": {
+   "actualizado": "2026-10-30T01:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tiktok",
+   "creado": "2026-10-30T01:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-30T01:19:21.000Z",
+   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El Municipio entregó el aporte mensual a 31 entidades deportivas\n\nEl acto de entrega de la ayuda económica correspondiente a octubre se realizó en la sede del Club San Lorenzo. La actividad estuvo encabezada por el secretario de Gobierno, Ezequiel Pinotti, junto a funcionarios municipales.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Municipio entregó el aporte mensual a 31 entidades deportivas",
+   "urgente": false,
+   "vence": "2026-11-01T01:19:21.000Z",
+   "video_bytes": 661424,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5dfb6909fceac284.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x": {
+   "actualizado": "2026-10-30T01:20:23.000Z",
+   "buffer_id": "6ae3f0d84b8768bfb2d24511",
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x",
+   "creado": "2026-10-30T01:20:15.000Z",
+   "dueAt": "2026-10-30T01:22:27.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-30T01:19:21.000Z",
+   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
+   "noticia": "nota:chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "El Municipio entregó el aporte mensual a 31 entidades deportivas\n\nSe otorgó el aporte económico de octubre a 31 instituciones y entidades de Chivilcoy. El acto en el Club San Lorenzo fue encabezado por el secretario de Gobierno, Ezequiel Pinotti.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Municipio entregó el aporte mensual a 31 entidades deportivas",
+   "urgente": false,
+   "vence": "2026-10-30T03:19:21.000Z",
+   "video_bytes": 661424,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5dfb6909fceac284.mp4",
+   "viral": false
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
    "actualizado": "2026-10-25T00:20:15.000Z",
    "buffer_id": "6add4695bd33ce99c3492b8f",
@@ -14587,32 +14606,6 @@
    "video_bytes": 3585991,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "viral": false
-  },
-  "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok": {
-   "actualizado": "2026-10-20T01:00:25.000Z",
-   "buffer_id": "",
-   "clave": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4|tiktok",
-   "creado": "2026-10-18T01:00:19.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-18T00:46:10.000Z",
-   "id": "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio\n\nEl evento festejó su aniversario con una muestra artística y shows musicales en el Museo Pompeo Boggio. Su referente, Miguel Pierantoni, expresó satisfacción por el camino recorrido y consideró que realizarlo allí pone en valor la labor de los artesanos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-la-feria-artesanal-y-cultural-celebro-sus-35-anos\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "La Feria Artesanal y Cultural celebró sus 35 años en el Pompeo Boggio",
-   "urgente": false,
-   "vence": "2026-10-20T00:46:10.000Z",
-   "video_bytes": 6093842,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_722ffb679b83608b.mp4"
   },
   "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4|tiktok": {
    "actualizado": "2026-10-20T22:00:21.000Z",
@@ -22888,14 +22881,14 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x": {
-   "actualizado": "2026-10-29T23:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T01:20:23.000Z",
+   "buffer_id": "6ae3f0d9a83a7fb63c89b742",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x",
    "creado": "2026-10-29T23:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T01:28:29.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T23:31:53.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo",
    "intentos": 0,
@@ -23860,32 +23853,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:1577e055-5def-4f13-aaba-45b5fbac35da|x": {
-   "actualizado": "2026-10-20T01:20:17.000Z",
-   "buffer_id": "",
-   "clave": "web:1577e055-5def-4f13-aaba-45b5fbac35da|x",
-   "creado": "2026-10-19T01:20:15.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-19T01:05:08.425Z",
-   "id": "web:1577e055-5def-4f13-aaba-45b5fbac35da",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Liga Profesional 2026: empate en el clásico de Avellaneda y triunfo de Boca\n\nEl clásico de Avellaneda terminó igualado en el Cilindro. Por su parte, el conjunto xeneize superó a Talleres y trepó a la cima de la tabla anual.\n\nhttps://www.diariolacampaña.com.ar/n/liga-profesional-2026-empate-en-el-clasico-de-avellaneda-y-a9f9a2",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Liga Profesional 2026: empate en el clásico de Avellaneda y triunfo de Boca",
-   "urgente": false,
-   "vence": "2026-10-20T01:05:08.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:1666fae3-dd89-410f-b67f-9206fc69affb|x": {
    "actualizado": "2026-10-23T12:40:19.000Z",
    "buffer_id": "6adb398ffe8ae6dfd4556e9f",
@@ -24215,34 +24182,6 @@
    "vence": "2026-10-20T04:50:15.000Z",
    "video_bytes": 0,
    "video_url": ""
-  },
-  "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x": {
-   "actualizado": "2026-10-20T01:20:17.000Z",
-   "buffer_id": "",
-   "clave": "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4|x",
-   "creado": "2026-10-19T21:20:14.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-19T21:15:17.422Z",
-   "id": "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-decreto-toques-de-queda-y-prohibio-206df8",
-   "noticia": "nota:francia-el-gobierno-decreto-toques-de-queda-y-prohibio-206df8",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Francia: el gobierno decretó toques de queda y prohibió protestas tras los saqueos\n\nEl gobierno francés anunció toques de queda y prohibición de protestas en París, Lyon, Niza y otras ciudades tras los graves disturbios del fin de semana.\n\nhttps://www.diariolacampaña.com.ar/n/francia-el-gobierno-decreto-toques-de-queda-y-prohibio-206df8",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Francia: el gobierno decretó toques de queda y prohibió protestas tras los saqueos",
-   "urgente": false,
-   "vence": "2026-10-20T01:15:17.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
   },
   "web:27dc8470-4f21-4899-9a5b-ad57413cf2f3|x": {
    "actualizado": "2026-10-21T11:40:16.000Z",
@@ -25367,31 +25306,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699|x": {
-   "actualizado": "2026-10-20T01:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699|x",
-   "creado": "2026-10-20T01:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Nacionales y categorías, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-20T01:15:10.942Z",
-   "id": "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
-   "noticia": "nota:una-avioneta-cayo-en-plena-calle-de-california-tres-pasajeros-4399eb",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Una avioneta cayó en plena calle de California: tres pasajeros resultaron con heridas leves",
-   "urgente": false,
-   "vence": "2026-10-20T05:15:10.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x": {
    "actualizado": "2026-10-29T11:40:18.000Z",
    "buffer_id": "6ae319eabdb1fae7ce366166",
@@ -25606,6 +25520,31 @@
    "titulo": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad",
    "urgente": false,
    "vence": "2026-10-28T19:04:18.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:5571de4c-caad-4918-b27a-06c644676364|x": {
+   "actualizado": "2026-10-30T01:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:5571de4c-caad-4918-b27a-06c644676364|x",
+   "creado": "2026-10-30T01:20:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-30T01:16:37.405Z",
+   "id": "web:5571de4c-caad-4918-b27a-06c644676364",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
+   "noticia": "nota:chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "El Municipio entregó el aporte mensual a 31 entidades deportivas",
+   "urgente": false,
+   "vence": "2026-10-30T05:16:37.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -30974,42 +30913,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x",
-   "cuando": "2026-10-25T14:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tiktok",
-   "cuando": "2026-10-25T14:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:ea96db9d-ebd8-4901-99d2-e402feab16e7|x",
-   "cuando": "2026-10-25T14:40:19.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnw7invpuro|x",
-   "cuando": "2026-10-25T14:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114362040261235054"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwhbbvy2u0|x",
-   "cuando": "2026-10-25T14:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114363491750461873"
-  },
-  {
    "buffer_id": "6ade14d40b5343d070d7d3bd",
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x",
    "cuando": "2026-10-25T14:40:20.000Z",
@@ -35200,6 +35103,44 @@
    "cuando": "2026-10-30T01:00:22.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2115968874034205176"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x",
+   "cuando": "2026-10-30T01:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tiktok",
+   "cuando": "2026-10-30T01:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:5571de4c-caad-4918-b27a-06c644676364|x",
+   "cuando": "2026-10-30T01:20:23.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae3f0d84b8768bfb2d24511",
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x",
+   "cuando": "2026-10-30T01:20:25.000Z",
+   "dueAt": "2026-10-30T01:22:27.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae3f0d9a83a7fb63c89b742",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x",
+   "cuando": "2026-10-30T01:20:25.000Z",
+   "dueAt": "2026-10-30T01:28:29.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -35336,6 +35277,7 @@
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2": "2026-10-29T15:40:17.000Z",
   "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9": "2026-10-30T00:20:14.000Z",
   "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv": "2026-10-30T00:40:16.000Z",
+  "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj": "2026-10-30T01:20:15.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -35860,6 +35802,7 @@
   "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba": "2026-10-27T10:03:31.000Z",
   "web:543a1dac-3518-4b28-b261-d81059e2857d": "2026-10-26T12:06:06.000Z",
   "web:556c12fe-a45e-4611-9e39-4ff603a2f030": "2026-10-28T15:20:14.000Z",
+  "web:5571de4c-caad-4918-b27a-06c644676364": "2026-10-30T01:20:15.000Z",
   "web:559ac15c-0c52-40db-b3a1-6118e02867ed": "2026-10-16T21:40:13.000Z",
   "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438": "2026-10-22T10:02:31.000Z",
   "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85": "2026-10-29T10:20:14.000Z",
