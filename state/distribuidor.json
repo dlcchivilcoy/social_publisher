@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-30T11:40:17.000Z"
+   "visto": "2026-10-30T13:00:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 29
+    "scheduled": 0,
+    "sent": 27
    },
    "pausado": false,
-   "visto": "2026-10-30T11:40:17.000Z"
+   "visto": "2026-10-30T13:00:19.000Z"
   }
  },
  "contenidos": {
@@ -5957,24 +5957,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
    "volanta": "Chivilcoy · Sociedad"
   },
-  "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a": {
-   "categoria": "nacionales",
-   "descripcion": "El gobierno de Emmanuel Macron ordenó restricciones parciales tras jornadas de protestas contra el costo de vida que dejaron más de 2000 detenidos y un…",
-   "generado": "2026-10-19T12:50:10.747Z",
-   "id": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1d64e373e4bc47c3af580e0d1256a34c~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-ordena-toques-de-queda-localizados-tras-43c837",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "Francia: el gobierno ordena toques de queda localizados tras masivos disturbios",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/francia-el-gobierno-ordena-toques-de-queda-localizados-tras-43c837",
-   "volanta": ""
-  },
   "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd": {
    "categoria": "",
    "descripcion": "Impactante vuelco en el Rally de Chivilcoy: el piloto mercedino Luis Zuffo debió ser trasladado al Hospital Austral El competidor sufrió lesiones de consideración tras despistarse en el tramo de velocidad. Su navegante, Hugo Chopita, resultó casi ileso. Hubo otros despistes durante la jornada que obligaron a neutralizar temporalmente la competencia provocando demoras en su cronograma original. La 39ª edición del Rally de Chivilcoy vivió momentos de alta tensión este sábado tras registrarse un...",
@@ -9514,22 +9496,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
-   "segundos": 900,
+   "restantes": 148,
+   "segundos": 898,
    "tope": 150
   },
   "24h": {
-   "restantes": 593,
-   "segundos": 79198,
+   "restantes": 591,
+   "segundos": 74394,
    "tope": 600
   },
   "30d": {
-   "restantes": 949,
-   "segundos": 984623,
+   "restantes": 947,
+   "segundos": 979818,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T11:40:17.000Z",
+ "cuota_visto": "2026-10-30T13:00:33.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -13036,7 +13018,7 @@
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-28T14:22:30.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1",
@@ -13101,7 +13083,7 @@
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-28T14:29:20.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm",
@@ -13394,7 +13376,7 @@
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:17:52.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti",
@@ -13459,7 +13441,7 @@
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:25:34.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b",
@@ -13524,7 +13506,7 @@
    "creado": "2026-10-29T15:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-29T15:27:59.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
@@ -13589,7 +13571,7 @@
    "creado": "2026-10-30T00:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-30T00:00:57.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9",
@@ -13647,15 +13629,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tiktok": {
-   "actualizado": "2026-10-30T00:40:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T13:00:20.000Z",
+   "buffer_id": "6ae494ee4233ff6805bf2c95",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tiktok",
    "creado": "2026-10-30T00:40:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T13:43:55.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-30T00:28:52.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv",
    "intentos": 0,
@@ -13712,15 +13694,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tiktok": {
-   "actualizado": "2026-10-30T01:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T13:00:20.000Z",
+   "buffer_id": "6ae494ed6516a7746a2bbd0d",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tiktok",
    "creado": "2026-10-30T01:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T13:23:15.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-30T01:19:21.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj",
    "intentos": 0,
@@ -13777,15 +13759,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok": {
-   "actualizado": "2026-10-30T02:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T13:00:20.000Z",
+   "buffer_id": "6ae494eb3dc61ec0c20102be",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok",
    "creado": "2026-10-30T02:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T13:03:58.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-30T01:54:39.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va",
    "intentos": 0,
@@ -16227,7 +16209,7 @@
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:01:00.000Z",
    "id": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4",
@@ -16280,7 +16262,7 @@
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:36:08.000Z",
    "id": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4",
@@ -16333,7 +16315,7 @@
    "creado": "2026-10-29T16:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-29T16:14:55.000Z",
    "id": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4",
@@ -16386,7 +16368,7 @@
    "creado": "2026-10-29T16:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-29T16:22:09.000Z",
    "id": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4",
@@ -16451,7 +16433,7 @@
    "creado": "2026-10-29T20:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 10 h",
    "estado": "pendiente",
    "generado": "2026-10-29T20:15:37.000Z",
    "id": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4",
@@ -18075,15 +18057,15 @@
    "viral": false
   },
   "entrevistas:job00260|tiktok": {
-   "actualizado": "2026-10-29T17:00:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T13:00:20.000Z",
+   "buffer_id": "6ae494f1f522e615d3a50358",
    "categoria": "",
    "clave": "entrevistas:job00260|tiktok",
    "creado": "2026-10-29T17:00:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T14:23:30.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T17:00:20.000Z",
    "id": "entrevistas:job00260",
    "intentos": 0,
@@ -18140,15 +18122,15 @@
    "viral": false
   },
   "entrevistas:job00261|tiktok": {
-   "actualizado": "2026-10-29T17:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T13:00:20.000Z",
+   "buffer_id": "6ae494efabdb62a0e37e9583",
    "categoria": "",
    "clave": "entrevistas:job00261|tiktok",
    "creado": "2026-10-29T17:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T14:03:35.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T17:20:13.000Z",
    "id": "entrevistas:job00261",
    "intentos": 0,
@@ -23555,32 +23537,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x": {
-   "actualizado": "2026-10-20T13:00:18.000Z",
-   "buffer_id": "",
-   "clave": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a|x",
-   "creado": "2026-10-19T13:00:18.000Z",
-   "dueAt": "",
-   "error": "los últimos 6 lugares de las 24 h quedan para los reels virales",
-   "espera": "los últimos 6 lugares de las 24 h quedan para los reels virales",
-   "estado": "vencido",
-   "generado": "2026-10-19T12:50:10.747Z",
-   "id": "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/francia-el-gobierno-ordena-toques-de-queda-localizados-tras-43c837",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "Francia: el gobierno ordena toques de queda localizados tras masivos disturbios\n\nEl gobierno de Emmanuel Macron ordenó restricciones parciales tras jornadas de protestas contra el costo de vida que dejaron más de 2000 detenidos.\n\nhttps://www.diariolacampaña.com.ar/n/francia-el-gobierno-ordena-toques-de-queda-localizados-tras-43c837",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Francia: el gobierno ordena toques de queda localizados tras masivos disturbios",
-   "urgente": false,
-   "vence": "2026-10-20T12:50:10.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd|x": {
    "actualizado": "2026-10-26T12:06:20.000Z",
    "buffer_id": "",
@@ -26059,19 +26015,20 @@
    "viral": false
   },
   "web:8eedc4c8-7ed9-4248-9de7-468717547999|x": {
-   "actualizado": "2026-10-30T10:40:15.000Z",
+   "actualizado": "2026-10-30T13:00:19.000Z",
    "buffer_id": "6ae47410609b6f28735ebaf0",
    "clave": "web:8eedc4c8-7ed9-4248-9de7-468717547999|x",
    "creado": "2026-10-30T10:01:54.000Z",
    "dueAt": "2026-10-30T11:51:52.000Z",
+   "enviado": "2026-10-30T11:52:01.807Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T10:01:49.557Z",
    "id": "web:8eedc4c8-7ed9-4248-9de7-468717547999",
    "ig_hora": "2026-10-30T11:51:41.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116136036082262109",
    "nota_url": "https://www.diariolacampaña.com.ar/n/semillero-rojo-de-fiesta-el-club-atletico-independiente-celebra-los",
    "noticia": "nota:semillero-rojo-de-fiesta-el-club-atletico-independiente-celebra-los",
    "origen": "web",
@@ -28039,19 +27996,20 @@
    "viral": false
   },
   "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x": {
-   "actualizado": "2026-10-30T10:40:15.000Z",
+   "actualizado": "2026-10-30T13:00:19.000Z",
    "buffer_id": "6ae47410c56bf7afb3abc441",
    "clave": "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x",
    "creado": "2026-10-30T10:20:13.000Z",
    "dueAt": "2026-10-30T12:06:37.000Z",
+   "enviado": "2026-10-30T12:06:46.347Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T10:01:57.270Z",
    "id": "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa",
    "ig_hora": "2026-10-30T12:06:41.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116139745788969212",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
    "noticia": "nota:futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
    "origen": "web",
@@ -29192,57 +29150,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6adea1743d5b27036bfed3e5",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/|x",
-   "cuando": "2026-10-26T00:40:20.000Z",
-   "dueAt": "2026-10-26T00:48:00.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4|x",
-   "cuando": "2026-10-26T01:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114518192253006016"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/|x",
-   "cuando": "2026-10-26T01:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114519391849054542"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|x",
-   "cuando": "2026-10-26T02:00:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|tiktok",
-   "cuando": "2026-10-26T02:00:35.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|x",
-   "cuando": "2026-10-26T02:00:41.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|tiktok",
-   "cuando": "2026-10-26T02:00:44.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "buffer_id": "6adeb44d8b3d437ddc3c65c5",
    "clave": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|x",
@@ -33413,6 +33320,53 @@
    "cuando": "2026-10-30T11:40:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2116128485911466397"
+  },
+  {
+   "clave": "web:8eedc4c8-7ed9-4248-9de7-468717547999|x",
+   "cuando": "2026-10-30T13:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116136036082262109"
+  },
+  {
+   "clave": "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x",
+   "cuando": "2026-10-30T13:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116139745788969212"
+  },
+  {
+   "buffer_id": "6ae494eb3dc61ec0c20102be",
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok",
+   "cuando": "2026-10-30T13:00:33.000Z",
+   "dueAt": "2026-10-30T13:03:58.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae494ed6516a7746a2bbd0d",
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tiktok",
+   "cuando": "2026-10-30T13:00:33.000Z",
+   "dueAt": "2026-10-30T13:23:15.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae494ee4233ff6805bf2c95",
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tiktok",
+   "cuando": "2026-10-30T13:00:33.000Z",
+   "dueAt": "2026-10-30T13:43:55.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae494efabdb62a0e37e9583",
+   "clave": "entrevistas:job00261|tiktok",
+   "cuando": "2026-10-30T13:00:33.000Z",
+   "dueAt": "2026-10-30T14:03:35.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae494f1f522e615d3a50358",
+   "clave": "entrevistas:job00260|tiktok",
+   "cuando": "2026-10-30T13:00:33.000Z",
+   "dueAt": "2026-10-30T14:23:30.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -33445,11 +33399,12 @@
    "2026-10-28 21",
    "2026-10-29 10",
    "2026-10-29 18",
-   "2026-10-29 21"
+   "2026-10-29 21",
+   "2026-10-30 10"
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
- "ultima_sync": "2026-10-30T11:40:17.000Z",
+ "ultima_sync": "2026-10-30T13:00:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
