@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-30T15:00:24.000Z"
+   "visto": "2026-10-30T16:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 21
    },
    "pausado": false,
-   "visto": "2026-10-30T15:00:24.000Z"
+   "visto": "2026-10-30T16:40:15.000Z"
   }
  },
  "contenidos": {
@@ -8745,22 +8745,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 587,
-   "segundos": 62401,
+   "restantes": 585,
+   "segundos": 61200,
    "tope": 600
   },
   "30d": {
-   "restantes": 943,
-   "segundos": 967825,
+   "restantes": 941,
+   "segundos": 966625,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T16:20:16.000Z",
+ "cuota_visto": "2026-10-30T16:40:16.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -13199,43 +13199,6 @@
    "video_bytes": 8534877,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b21fb0ad580ac177.mp4"
   },
-  "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x": {
-   "actualizado": "2026-10-20T16:20:25.000Z",
-   "buffer_id": "6ad78b628cf9a879674b3b15",
-   "clave": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4|x",
-   "creado": "2026-10-20T14:00:21.000Z",
-   "dueAt": "2026-10-20T15:43:02.000Z",
-   "enviado": "2026-10-20T15:43:20.527Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-20T13:54:14.000Z",
-   "id": "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112570369043251613",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 22,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
-   "noticia": "nota:chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses\n\nChivilcoy comenzó su participación en la Final Provincial con el duelo de mayores de 17 años ante Escobar. Luego, el equipo sub 16 enfrentará a Tres Arroyos a las 11.45 horas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-comenzo-la-competencia-de-futbol-pcd-en-los-juegos",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Comenzó la competencia de fútbol PCD en los Juegos Bonaerenses",
-   "urgente": false,
-   "vence": "2026-10-20T15:54:14.000Z",
-   "video_bytes": 8534877,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b21fb0ad580ac177.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|tiktok": {
    "actualizado": "2026-10-20T22:40:13.000Z",
    "buffer_id": "6ad7d66965cedd57fee67309",
@@ -15730,14 +15693,14 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x": {
-   "actualizado": "2026-10-30T15:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T16:40:15.000Z",
+   "buffer_id": "6ae4c870a351214acf998c07",
    "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x",
    "creado": "2026-10-30T15:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T16:42:57.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-30T14:53:31.000Z",
    "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
    "intentos": 0,
@@ -17724,18 +17687,19 @@
    "viral": false
   },
   "entrevistas:job00265|x": {
-   "actualizado": "2026-10-30T16:20:14.000Z",
+   "actualizado": "2026-10-30T16:40:15.000Z",
    "buffer_id": "6ae4c3bfcd8290b9b9fd1403",
    "clave": "entrevistas:job00265|x",
    "creado": "2026-10-30T16:20:14.000Z",
    "dueAt": "2026-10-30T16:22:26.000Z",
+   "enviado": "2026-10-30T16:22:36.352Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T16:20:14.000Z",
    "id": "entrevistas:job00265",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116204128800035266",
    "nota_url": "",
    "noticia": "titulo:contratista-jeni-negativas-rural-simone-tasas",
    "origen": "entrevistas",
@@ -27341,22 +27305,6 @@
  },
  "registro": [
   {
-   "clave": "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938|x",
-   "cuando": "2026-10-26T10:21:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892|x",
-   "cuando": "2026-10-26T10:21:34.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd|x",
    "cuando": "2026-10-26T10:21:36.000Z",
    "estado": "pendiente",
@@ -31546,6 +31494,19 @@
    "cuando": "2026-10-30T16:20:16.000Z",
    "dueAt": "2026-10-30T16:22:26.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00265|x",
+   "cuando": "2026-10-30T16:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116204128800035266"
+  },
+  {
+   "buffer_id": "6ae4c870a351214acf998c07",
+   "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x",
+   "cuando": "2026-10-30T16:40:16.000Z",
+   "dueAt": "2026-10-30T16:42:57.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -31583,7 +31544,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
- "ultima_sync": "2026-10-30T15:00:24.000Z",
+ "ultima_sync": "2026-10-30T16:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
