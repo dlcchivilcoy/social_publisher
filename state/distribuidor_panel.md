@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 2 | 0 | 4 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 20 | 3 | 0 | 3 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 20 | 3 | 0 | 4 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 0 | 0 | 0 | 0 | 7 |
+| Notas web | X | 15 | 5 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,9 +27,10 @@ Actualizado: 30/10/2026 16:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 2 con métricas · mediana vistas/impresiones 532 · likes 5 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 580 de 600 · 30d: quedan 936 de 2000 (visto 2026-10-30T18:40:17.000Z)
+15m: quedan 149 de 150 · 24h: quedan 579 de 600 · 30d: quedan 935 de 2000 (visto 2026-10-30T19:20:29.000Z)
 
-## Cola propia (16 esperando)
+## Cola propia (17 esperando)
+- TikTok · Reels del bot · El Municipio realizó una nueva jornada de la Mesa de Prevención en Comunidad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Lucas Cáceres: El grabado busca renacer en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Camila Martinez: no se sabe hasta dónde llega la red de agua potable — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,10 +56,6 @@ Actualizado: 30/10/2026 16:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T15:00 enviado bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x 
-- 2026-10-30T15:00 enviado entrevistas:job00260|tiktok 
-- 2026-10-30T15:00 enviado entrevistas:job00261|tiktok 
-- 2026-10-30T16:20 entrevista_aprobada entrevistas:job00265 
 - 2026-10-30T16:20 recibido entrevistas:job00265|x 
 - 2026-10-30T16:20 recibido entrevistas:job00265|tiktok 
 - 2026-10-30T16:20 programado entrevistas:job00265|x 
@@ -80,3 +77,7 @@ Actualizado: 30/10/2026 16:00 (hora AR) · ACTIVO
 - 2026-10-30T18:20 programado entrevistas:job00268|x 
 - 2026-10-30T18:40 enviado entrevistas:job00267|x 
 - 2026-10-30T18:40 enviado entrevistas:job00268|x 
+- 2026-10-30T19:20 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|x 
+- 2026-10-30T19:20 recibido bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|tikto 
+- 2026-10-30T19:20 recibido web:9d6e2c2f-9fc7-45c1-b526-e6505524729f|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-10-30T19:20 programado bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|x 
