@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 5
+    "scheduled": 4,
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-10-30T19:40:17.000Z"
+   "visto": "2026-10-30T21:20:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-10-30T19:40:17.000Z"
+   "visto": "2026-10-30T21:20:13.000Z"
   }
  },
  "contenidos": {
@@ -8675,17 +8675,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 577,
-   "segundos": 45595,
+   "restantes": 576,
+   "segundos": 44402,
    "tope": 600
   },
   "30d": {
-   "restantes": 933,
-   "segundos": 951020,
+   "restantes": 932,
+   "segundos": 949827,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T21:00:27.000Z",
+ "cuota_visto": "2026-10-30T21:20:14.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -12476,7 +12476,7 @@
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-29T14:17:52.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti",
@@ -12541,7 +12541,7 @@
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-29T14:25:34.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b",
@@ -12606,7 +12606,7 @@
    "creado": "2026-10-29T15:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-29T15:27:59.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
@@ -12671,7 +12671,7 @@
    "creado": "2026-10-30T00:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-30T00:00:57.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9",
@@ -12927,19 +12927,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|tiktok": {
-   "actualizado": "2026-10-30T21:00:18.000Z",
+   "actualizado": "2026-10-30T21:20:13.000Z",
    "buffer_id": "6ae50565eaa24d6f9a3bef6a",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|tiktok",
    "creado": "2026-10-30T19:20:18.000Z",
    "dueAt": "2026-10-30T21:03:30.000Z",
+   "enviado": "2026-10-30T21:04:12.747Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T19:06:32.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702569485097618694",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-municipio-realizo-una-nueva-jornada-de-la-mesa",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15193,7 +15194,7 @@
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-29T14:01:00.000Z",
    "id": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4",
@@ -15246,7 +15247,7 @@
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-29T14:36:08.000Z",
    "id": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4",
@@ -15299,7 +15300,7 @@
    "creado": "2026-10-29T16:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-29T16:14:55.000Z",
    "id": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4",
@@ -15352,7 +15353,7 @@
    "creado": "2026-10-29T16:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-29T16:22:09.000Z",
    "id": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4",
@@ -15417,7 +15418,7 @@
    "creado": "2026-10-29T20:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-29T20:15:37.000Z",
    "id": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4",
@@ -15470,7 +15471,7 @@
    "creado": "2026-10-30T14:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-30T13:59:15.000Z",
    "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
@@ -15527,7 +15528,7 @@
    "creado": "2026-10-30T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-30T14:22:57.000Z",
    "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
@@ -15580,7 +15581,7 @@
    "creado": "2026-10-30T15:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-30T14:53:31.000Z",
    "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
@@ -27147,12 +27148,6 @@
  },
  "registro": [
   {
-   "clave": "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892|x",
-   "cuando": "2026-10-26T12:06:20.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
    "clave": "web:aac6f864-9661-40bc-8e13-c03b62c05fed|x",
    "cuando": "2026-10-26T12:06:20.000Z",
    "evento": "depurado",
@@ -31341,6 +31336,12 @@
    "cuando": "2026-10-30T21:00:27.000Z",
    "dueAt": "2026-10-30T22:23:26.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|tiktok",
+   "cuando": "2026-10-30T21:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702569485097618694"
   }
  ],
  "tandas": {
@@ -31378,7 +31379,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
- "ultima_sync": "2026-10-30T19:40:17.000Z",
+ "ultima_sync": "2026-10-30T21:20:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
