@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 2 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 3 | 0 | 0 | 0 |
@@ -17,8 +17,8 @@ Actualizado: 30/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 27.5 · likes 0
-- X · Reels del bot: 79 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels del bot: 78 con métricas · mediana vistas/impresiones 28.5 · likes 0
 - X · Reels policiales: 25 con métricas · mediana vistas/impresiones 39 · likes 0
 - X · Notas web: 67 con métricas · mediana vistas/impresiones 21 · likes 0
 - TikTok · Recortes de entrevistas: 15 con métricas · mediana vistas/impresiones 98 · likes 1
@@ -27,7 +27,7 @@ Actualizado: 30/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 2 con métricas · mediana vistas/impresiones 532 · likes 5 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 581 de 600 · 30d: quedan 937 de 2000 (visto 2026-10-30T18:20:25.000Z)
+15m: quedan 149 de 150 · 24h: quedan 580 de 600 · 30d: quedan 936 de 2000 (visto 2026-10-30T18:40:17.000Z)
 
 ## Cola propia (16 esperando)
 - TikTok · Recortes de entrevistas · Lucas Cáceres: El grabado busca renacer en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -55,8 +55,6 @@ Actualizado: 30/10/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T15:00 recibido bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok 
-- 2026-10-30T15:00 recibido web:6d89df05-3cd7-473e-86f0-a26bb0b4a677|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-30T15:00 enviado bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x 
 - 2026-10-30T15:00 enviado entrevistas:job00260|tiktok 
 - 2026-10-30T15:00 enviado entrevistas:job00261|tiktok 
@@ -80,3 +78,5 @@ Actualizado: 30/10/2026 15:20 (hora AR) · ACTIVO
 - 2026-10-30T18:20 recibido entrevistas:job00268|x 
 - 2026-10-30T18:20 recibido entrevistas:job00268|tiktok 
 - 2026-10-30T18:20 programado entrevistas:job00268|x 
+- 2026-10-30T18:40 enviado entrevistas:job00267|x 
+- 2026-10-30T18:40 enviado entrevistas:job00268|x 

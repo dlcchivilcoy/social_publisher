@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-30T17:40:17.000Z"
+   "visto": "2026-10-30T18:40:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-10-30T17:40:17.000Z"
+   "visto": "2026-10-30T18:40:17.000Z"
   }
  },
  "contenidos": {
@@ -2237,66 +2237,6 @@
    "video_mb": 8.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
    "youtube_url": "https://www.youtube.com/shorts/aJrxzIQKw1Q"
-  },
-  "entrevistas:job00231": {
-   "descripcion": "En Chivilcoy, la médica clínica Itatí Pérez Cosimano reflexionó sobre la formación tradicional de la medicina y destacó el valor de los cuidados paliativos para acompañar al paciente.",
-   "duracion_seg": null,
-   "entrevistado": "Itatí Pérez Cosimano",
-   "generado": "2026-10-20T17:40:15.000Z",
-   "id": "entrevistas:job00231",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Itatí Pérez Cosimano: Cuando no se puede curar, hay que cuidar",
-   "urgente": false,
-   "video_bytes": 24946685,
-   "video_mb": 23.8,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00231.mp4",
-   "youtube_url": "https://youtu.be/i6g7HigNUPI"
-  },
-  "entrevistas:job00232": {
-   "descripcion": "En Chivilcoy, el meteorólogo Marcelo Speranza advirtió que los centros internacionales coinciden en que transitamos el fenómeno de El Niño más potente registrado.",
-   "duracion_seg": null,
-   "entrevistado": "Marcelo Speranza",
-   "generado": "2026-10-20T18:00:17.000Z",
-   "id": "entrevistas:job00232",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Marcelo Speranza: El Niño más fuerte de la historia",
-   "urgente": false,
-   "video_bytes": 33708334,
-   "video_mb": 32.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00232.mp4",
-   "youtube_url": "https://youtu.be/qj0ae_9Ebow"
-  },
-  "entrevistas:job00233": {
-   "descripcion": "El coordinador de Deportes de Chivilcoy, Emilio Carabelli, detalló el despliegue de la delegación local en Mar del Plata durante la final de los Juegos Bonaerenses. Destacó el trabajo conjunto entre los clubes, los profes y el municipio.",
-   "duracion_seg": null,
-   "entrevistado": "Emilio Carabelli",
-   "generado": "2026-10-20T18:20:18.000Z",
-   "id": "entrevistas:job00233",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Emilio Carabelli: 255 chivilcoyanos en Juegos Bonaerenses",
-   "urgente": false,
-   "video_bytes": 28712062,
-   "video_mb": 27.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00233.mp4",
-   "youtube_url": "https://youtu.be/_moa8RfVXis"
   },
   "entrevistas:job00234": {
    "descripcion": "Nicolás Gonzalez Bergés, titular de AIKE Drones en Chivilcoy, explica cómo funcionan los equipos con cámara térmica para vigilancia rural y búsqueda nocturna de personas.",
@@ -8741,17 +8681,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 581,
-   "segundos": 55191,
+   "restantes": 580,
+   "segundos": 53999,
    "tope": 600
   },
   "30d": {
-   "restantes": 937,
-   "segundos": 960616,
+   "restantes": 936,
+   "segundos": 959423,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T18:20:25.000Z",
+ "cuota_visto": "2026-10-30T18:40:17.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -13264,43 +13204,6 @@
    "video_bytes": 1586715,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_81afb90091bfbc33.mp4"
   },
-  "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|x": {
-   "actualizado": "2026-10-20T18:40:15.000Z",
-   "buffer_id": "6ad7ac3ddbe8f4b851e4ef4e",
-   "clave": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|x",
-   "creado": "2026-10-20T18:00:17.000Z",
-   "dueAt": "2026-10-20T18:02:28.000Z",
-   "enviado": "2026-10-20T18:04:16.272Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-20T17:46:03.000Z",
-   "id": "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112605835037708576",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 26,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:camaras-difundieron-robaron-seguridad-troka",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Robaron en Troka y difundieron las cámaras de seguridad\n\nLos responsables del local manifestaron tristeza e impotencia tras el hecho. Además, agradecieron a sus clientes por el constante acompañamiento recibido.\n\nhttps://www.youtube.com/shorts/sYn6p-oJYRc",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Robaron en Troka y difundieron las cámaras de seguridad",
-   "urgente": false,
-   "vence": "2026-10-20T19:46:03.000Z",
-   "video_bytes": 1586715,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_81afb90091bfbc33.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4|tiktok": {
    "actualizado": "2026-10-21T21:20:24.000Z",
    "buffer_id": "6ad927e54989bea5baf5b48b",
@@ -15675,117 +15578,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
    "viral": false
   },
-  "entrevistas:job00231|x": {
-   "actualizado": "2026-10-20T18:40:15.000Z",
-   "buffer_id": "6ad7a78099840d511e09a17c",
-   "clave": "entrevistas:job00231|x",
-   "creado": "2026-10-20T17:40:15.000Z",
-   "dueAt": "2026-10-20T17:42:17.000Z",
-   "enviado": "2026-10-20T17:42:40.063Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-20T17:40:15.000Z",
-   "id": "entrevistas:job00231",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112600398385025535",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 17,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:cosimano-cuidar-curar-itati-perez-puede",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Itatí Pérez Cosimano: Cuando no se puede curar, hay que cuidar\n\nEn Chivilcoy, la médica clínica Itatí Pérez Cosimano reflexionó sobre la formación tradicional de la medicina y destacó el valor de los cuidados paliativos para acompañar al paciente.\n\nhttps://youtu.be/i6g7HigNUPI",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Itatí Pérez Cosimano: Cuando no se puede curar, hay que cuidar",
-   "urgente": false,
-   "vence": "2026-10-20T19:40:15.000Z",
-   "video_bytes": 24946685,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00231.mp4",
-   "viral": false
-  },
-  "entrevistas:job00232|x": {
-   "actualizado": "2026-10-20T18:40:15.000Z",
-   "buffer_id": "6ad7ac3ddbe8f4b851e4f035",
-   "clave": "entrevistas:job00232|x",
-   "creado": "2026-10-20T18:00:17.000Z",
-   "dueAt": "2026-10-20T18:08:28.000Z",
-   "enviado": "2026-10-20T18:08:50.019Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-20T18:00:17.000Z",
-   "id": "entrevistas:job00232",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112606982641156112",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 14,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:fuerte-historia-marcelo-nino-speranza",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Marcelo Speranza: El Niño más fuerte de la historia\n\nEn Chivilcoy, el meteorólogo Marcelo Speranza advirtió que los centros internacionales coinciden en que transitamos el fenómeno de El Niño más potente registrado.\n\nhttps://youtu.be/qj0ae_9Ebow",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Marcelo Speranza: El Niño más fuerte de la historia",
-   "urgente": false,
-   "vence": "2026-10-20T20:00:17.000Z",
-   "video_bytes": 33708334,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00232.mp4",
-   "viral": false
-  },
-  "entrevistas:job00233|x": {
-   "actualizado": "2026-10-20T18:40:15.000Z",
-   "buffer_id": "6ad7b0e559e93798fafa7959",
-   "clave": "entrevistas:job00233|x",
-   "creado": "2026-10-20T18:20:18.000Z",
-   "dueAt": "2026-10-20T18:22:18.000Z",
-   "enviado": "2026-10-20T18:22:48.984Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-20T18:20:18.000Z",
-   "id": "entrevistas:job00233",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112610502119457161",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 27,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:bonaerenses-carabelli-chivilcoyanos-emilio-juegos",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Emilio Carabelli: 255 chivilcoyanos en Juegos Bonaerenses\n\nEl coordinador de Deportes, Emilio Carabelli, detalló el despliegue local en Mar del Plata. Destacó el trabajo conjunto entre clubes, profes y el municipio.\n\nhttps://youtu.be/_moa8RfVXis",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Emilio Carabelli: 255 chivilcoyanos en Juegos Bonaerenses",
-   "urgente": false,
-   "vence": "2026-10-20T20:20:18.000Z",
-   "video_bytes": 28712062,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00233.mp4",
-   "viral": false
-  },
   "entrevistas:job00234|x": {
    "actualizado": "2026-10-20T19:40:15.000Z",
    "buffer_id": "6ad7ba451a1ce97999a577f3",
@@ -17719,18 +17511,19 @@
    "viral": false
   },
   "entrevistas:job00267|x": {
-   "actualizado": "2026-10-30T17:40:17.000Z",
+   "actualizado": "2026-10-30T18:40:17.000Z",
    "buffer_id": "6ae4d682260ad0ee5bbe3ec3",
    "clave": "entrevistas:job00267|x",
    "creado": "2026-10-30T17:40:14.000Z",
    "dueAt": "2026-10-30T17:42:09.000Z",
+   "enviado": "2026-10-30T17:42:32.794Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T17:40:14.000Z",
    "id": "entrevistas:job00267",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116224246523330573",
    "nota_url": "",
    "noticia": "titulo:agua-camila-llega-martinez-potable-sabe",
    "origen": "entrevistas",
@@ -17775,18 +17568,19 @@
    "viral": false
   },
   "entrevistas:job00268|x": {
-   "actualizado": "2026-10-30T18:20:24.000Z",
+   "actualizado": "2026-10-30T18:40:17.000Z",
    "buffer_id": "6ae4dfe9a351214acfa157aa",
    "clave": "entrevistas:job00268|x",
    "creado": "2026-10-30T18:20:15.000Z",
    "dueAt": "2026-10-30T18:22:39.000Z",
+   "enviado": "2026-10-30T18:23:05.169Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T18:20:15.000Z",
    "id": "entrevistas:job00268",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116234448173731944",
    "nota_url": "",
    "noticia": "titulo:busca-caceres-chivilcoy-grabado-lucas-renacer",
    "origen": "entrevistas",
@@ -27340,22 +27134,6 @@
  },
  "registro": [
   {
-   "clave": "web:daae8efc-080c-4b85-8684-6b87ab41878c|x",
-   "cuando": "2026-10-26T12:06:20.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:8b789d89-b735-4a61-8637-1f4be868e032|x",
-   "cuando": "2026-10-26T12:06:20.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
    "clave": "web:110a806e-7381-4845-8f7e-851f18f79901|x",
    "cuando": "2026-10-26T12:06:20.000Z",
    "evento": "depurado",
@@ -31526,6 +31304,18 @@
    "cuando": "2026-10-30T18:20:25.000Z",
    "dueAt": "2026-10-30T18:22:39.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00267|x",
+   "cuando": "2026-10-30T18:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116224246523330573"
+  },
+  {
+   "clave": "entrevistas:job00268|x",
+   "cuando": "2026-10-30T18:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116234448173731944"
   }
  ],
  "tandas": {
@@ -31563,7 +31353,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
- "ultima_sync": "2026-10-30T17:40:17.000Z",
+ "ultima_sync": "2026-10-30T18:40:17.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
