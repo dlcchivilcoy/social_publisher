@@ -3687,32 +3687,6 @@
    "volanta": "Búsqueda en Corrientes",
    "youtube_url": "https://youtube.com/shorts/bNLNcn7RXBc"
   },
-  "nacionales:dc18047933ea00df": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "La secretaria general de la Presidencia lideró una conferencia por la mudanza de presos a Marcos Paz y coordinó la agenda ante una posible visita papal.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-19T15:45:14.000Z",
-   "hashtags": [
-    "KarinaMilei",
-    "Devoto"
-   ],
-   "id": "nacionales:dc18047933ea00df",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804",
-   "origen": "nacionales",
-   "plataformas": [
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo político",
-   "urgente": false,
-   "video_bytes": 95380,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_dc18047933_karina-milei-encabezo-el-traslado-de-reclusos-de.mp4",
-   "volanta": "Cárcel de Devoto",
-   "youtube_url": "https://youtube.com/shorts/DGtvR3FVSic"
-  },
   "nacionales:e25c9cf3646e5306": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -5735,6 +5709,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-el-derecho-a-protestar-no-es-el-derecho-a-ejercer-la-violencia",
    "volanta": "Opinión"
   },
+  "web:2dd35939-7165-409c-b92f-1aa5b8b67a94": {
+   "categoria": "",
+   "descripcion": "Amarilla Gas cierra el sector de envasado en Chivilcoy y desvincula a ocho trabajadores",
+   "generado": "2026-10-30T10:00:57.835Z",
+   "id": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c7949caecee348719eb26a05b038c105~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/acuerdo-en-el-ministerio-de-trabajo-amarilla-gas-cierra-el-sector-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Acuerdo en el Ministerio de Trabajo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/acuerdo-en-el-ministerio-de-trabajo-amarilla-gas-cierra-el-sector-de",
+   "volanta": ""
+  },
   "web:2e4fe240-6f88-48fa-9527-8c188ea675b0": {
    "categoria": "",
    "descripcion": "“El objetivo es fortalecer nuestro perfil industrial, impulsar nuevas radicaciones y generar beneficios concretos para la producción y el empleo local\"…",
@@ -5846,6 +5839,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/crecida-del-parana-preparan-la-evacuacion-de-15-000-vacas-en-c0e5d0",
    "volanta": ""
+  },
+  "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe": {
+   "categoria": "",
+   "descripcion": "Fernando Cabani advirtió sobre el impacto de las apuestas online en Chivilcoy El concejal Fernando Cabani visitó los estudios de Radio del Centro durante el programa La Mañana del Centro, donde abordó la problemática del avance de las apuestas virtuales en los jóvenes y analizó las iniciativas legislativas orientadas a regular esta actividad en el territorio bonaerense. Durante la charla, el edil se refirió a las repercusiones tras la visita de los diputados provinciales Facundo Tignanelli y...",
+   "generado": "2026-10-30T10:00:49.086Z",
+   "id": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5cf4a5badcc24e2d941ecbdff95d6ff6~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Fernando Cabani advirtió sobre el impacto de las apuestas online en Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
+   "volanta": "PROBLEMÁTICA EN JÓVENES"
   },
   "web:34578935-f4ba-4a48-b177-a3e196a4e890": {
    "categoria": "",
@@ -6130,6 +6142,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/acto-y-festejo-musical-chivilcoy-se-prepara-para-celebrar-su-172",
    "volanta": "Acto y festejo musical"
+  },
+  "web:415bcffd-26ca-41bb-807f-0d3961339b5c": {
+   "categoria": "",
+   "descripcion": "¡A cuartos de final!: Gimnasia de Chivilcoy avanzó en el Federal A tras el fallo contra Boca Unidos El Tribunal de Disciplina Deportiva del Interior confirmó la sanción al conjunto correntino por los incidentes del pasado 25 de octubre. El \"Lobo\" se mete por segundo año consecutivo entre los ocho mejores de la Reválida en busca del ascenso. La incertidumbre llegó a su fin y la alegría se desató en el campamento de Gimnasia y Esgrima. El Tribunal de Disciplina Deportiva del Interior emitió el...",
+   "generado": "2026-10-30T10:01:42.638Z",
+   "id": "web:415bcffd-26ca-41bb-807f-0d3961339b5c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_57e84c3cb9fd4024bb1f520cc2a98516~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-a-cuartos-de-final-gimnasia-de-chivilcoy-avanzo-en-el-federal",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "¡A cuartos de final!: Gimnasia de Chivilcoy avanzó en el Federal A tras el fallo contra Boca Unidos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-a-cuartos-de-final-gimnasia-de-chivilcoy-avanzo-en-el-federal",
+   "volanta": "Fútbol"
   },
   "web:41b50fea-05eb-4988-89d9-dc639e73ba72": {
    "categoria": "",
@@ -6581,6 +6612,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-libertad-avanza-reunio-a-mas-de-400-concejales-bonaerenses-con-la",
    "volanta": ""
   },
+  "web:606007a3-f032-422b-ace3-ee59408ba8de": {
+   "categoria": "",
+   "descripcion": "“La falta de actualización salarial arrastra a muchos docentes universitarios a percibir ingresos por debajo de la línea de la canasta básica”, sostiene De Marzi El docente e investigador Mauricio De Marzi visitó los estudios de Radio del Centro durante la emisión del programa “La Mañana del Centro”, donde brindó un pormenorizado análisis sobre la compleja situación que atraviesan las casas de altos estudios y el sistema científico nacional. En su exposición, remarcó la falta de recuperación...",
+   "generado": "2026-10-30T10:01:09.245Z",
+   "id": "web:606007a3-f032-422b-ace3-ee59408ba8de",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_9a276221d493421bb11e6fd868b90f0e~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/educacion-y-ciencia-la-falta-de-actualizacion-salarial-arrastra-a",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "“La falta de actualización salarial arrastra a muchos docentes universitarios a percibir ingresos por debajo de la línea de la canasta básica”, sostiene De Marzi",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/educacion-y-ciencia-la-falta-de-actualizacion-salarial-arrastra-a",
+   "volanta": "Educación y Ciencia"
+  },
   "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": {
    "categoria": "",
    "descripcion": "Con seis pruebas especiales disputadas: Monserratt y Muciachio marcaron el ritmo en el Rally de Chivilcoy escoltados por Gandolfo - Labaronnie La jornada combinó las dos pasadas por Pantalón Cortito y Circuito Largo con el cierre en la súper especial Matías B. y Circuito Corto. Los sectores finales tuvieron peso en el resultado: ampliaron algunas diferencias y modificaron el orden entre los principales protagonistas de varias clases siendo a la postre la única jornada de competencia que...",
@@ -6694,6 +6744,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/costanza-alonso-necesitamos-que-sea-ley-para-empezar-a-abordar-un",
    "volanta": "Costanza Alonso"
+  },
+  "web:6adb3465-c4e1-4c1f-a175-109ba016efbd": {
+   "categoria": "",
+   "descripcion": "Dos menores fueron imputados tras recibir uno de ellos una descarga eléctrica El episodio ocurrió en un camino rural cercano a la localidad. Un adolescente de 15 años, oriundo de Pla, sufrió una descarga eléctrica y cayó desde unos tres metros de altura. Permanece internado en terapia intensiva en el Hospital Municipal de Alberti con pronóstico favorable. La investigación determinó que ambos jóvenes habrían intentado sustraer cables de un transformador y de instalaciones eléctricas cercanas....",
+   "generado": "2026-10-30T10:01:35.647Z",
+   "id": "web:6adb3465-c4e1-4c1f-a175-109ba016efbd",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_56c90fef92af4eb9bfd83fbbcf59332f~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/coronel-mom-dos-menores-fueron-imputados-tras-recibir-uno-de-ellos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Dos menores fueron imputados tras recibir uno de ellos una descarga eléctrica",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/coronel-mom-dos-menores-fueron-imputados-tras-recibir-uno-de-ellos",
+   "volanta": "Coronel Mom"
   },
   "web:6c509d7f-52e1-4541-aa96-22083404a169": {
    "categoria": "",
@@ -6996,6 +7065,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/salud-y-comunidad-itati-perez-cosimano-destaco-el-valor-de-los",
    "volanta": "Salud y Comunidad"
+  },
+  "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0": {
+   "categoria": "",
+   "descripcion": "Peajes, trámites \"kafkianos\" y la Ruta 5: la agenda de Eduardo Falcone en el debate presupuestario",
+   "generado": "2026-10-30T10:01:21.124Z",
+   "id": "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_baeca8ed647e48b686db7be5e05b409f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/infraestructura-y-burocracia-peajes-tramites-kafkianos-y-la-ruta-5-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Infraestructura y Burocracia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/infraestructura-y-burocracia-peajes-tramites-kafkianos-y-la-ruta-5-la",
+   "volanta": ""
   },
   "web:7a521c20-c0d0-4494-9499-82a795b8a1f6": {
    "categoria": "",
@@ -7524,6 +7612,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/carta-abierta-reclaman-respuestas-urgentes-y-proponen-un-peaje",
    "volanta": "Carta abierta"
   },
+  "web:8eedc4c8-7ed9-4248-9de7-468717547999": {
+   "categoria": "",
+   "descripcion": "El Club Atlético Independiente celebra los 30 años de su escuela de fútbol con un gran reencuentro La institución festeja tres décadas de historia formativa reuniendo a las categorías históricas de la primera camada (1988 a 1996), junto a familiares, formadores y colaboradores. Tras la reprogramación por cuestiones climáticas, el evento central se llevará a cabo este domingo 1 de noviembre en el predio \"El Semillero Rojo\". El Club Atlético Independiente se viste de gala para celebrar un hito...",
+   "generado": "2026-10-30T10:01:49.557Z",
+   "id": "web:8eedc4c8-7ed9-4248-9de7-468717547999",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_30104defec364972b3c1cb5cd57c2840~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/semillero-rojo-de-fiesta-el-club-atletico-independiente-celebra-los",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "El Club Atlético Independiente celebra los 30 años de su escuela de fútbol con un gran reencuentro",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/semillero-rojo-de-fiesta-el-club-atletico-independiente-celebra-los",
+   "volanta": "Semillero Rojo de fiesta"
+  },
   "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960": {
    "categoria": "",
    "descripcion": "En la ciudad, localidades y escuelas: Este jueves comienza la undécima edición del “Chivilcoy Teatrero” La 11ª edición del festival inicia con un tour teatral por la plaza 25 de Mayo. La programación incluirá espectáculos en salas independientes, escuelas y localidades de campaña, con entrada libre y gratuita. Chivilcoy se prepara para vivir una nueva edición del Chivilcoy Teatrero, el festival que desde hace 11 años reúne a los elencos independientes de la ciudad y promueve el acceso a las...",
@@ -7542,6 +7649,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/entrada-libre-y-gratuita-en-la-ciudad-localidades-y-escuelas-este",
    "volanta": "Entrada libre y gratuita"
+  },
+  "web:8fd9d678-2717-4972-af3c-fcb225b55159": {
+   "categoria": "",
+   "descripcion": "El Centro Municipal de Danza presenta ‘Magic Dance’, este domingo en el Estadio Centro",
+   "generado": "2026-10-30T10:01:29.716Z",
+   "id": "web:8fd9d678-2717-4972-af3c-fcb225b55159",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_00a6a4f515484d96b9135e0f455f96af~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/espectaculo-anual-inclusivo-el-centro-municipal-de-danza-presenta",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Espectáculo Anual Inclusivo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/espectaculo-anual-inclusivo-el-centro-municipal-de-danza-presenta",
+   "volanta": ""
   },
   "web:92c264ae-78ff-431e-bebc-0875504ae30a": {
    "categoria": "",
@@ -9626,17 +9752,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 599,
-   "segundos": 86400,
+   "restantes": 598,
+   "segundos": 85058,
    "tope": 600
   },
   "30d": {
-   "restantes": 955,
-   "segundos": 991825,
+   "restantes": 954,
+   "segundos": 990483,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T09:40:16.000Z",
+ "cuota_visto": "2026-10-30T10:02:39.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -19870,32 +19996,6 @@
    "video_bytes": 78849,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_d553fbc1ee_hallaron-elementos-con-manchas-rojas-en-la-casa.mp4"
   },
-  "nacionales:dc18047933ea00df|tiktok": {
-   "actualizado": "2026-10-20T10:00:20.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:dc18047933ea00df|tiktok",
-   "creado": "2026-10-19T16:00:16.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T15:45:14.000Z",
-   "id": "nacionales:dc18047933ea00df",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo político\n\nLa secretaria general de la Presidencia lideró una conferencia por la mudanza de presos a Marcos Paz y coordinó la agenda ante una posible visita papal.\n\nhttps://www.diariolacampaña.com.ar/n/karina-milei-lidero-el-traslado-de-presos-de-devoto-a-marcos-dc1804\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #KarinaMilei",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Karina Milei encabezó el traslado de reclusos de Devoto y suma protagonismo político",
-   "urgente": false,
-   "vence": "2026-10-20T09:45:14.000Z",
-   "video_bytes": 95380,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_dc18047933_karina-milei-encabezo-el-traslado-de-reclusos-de.mp4"
-  },
   "nacionales:e25c9cf3646e5306|tiktok": {
    "actualizado": "2026-10-22T21:20:15.000Z",
    "buffer_id": "",
@@ -23331,6 +23431,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x": {
+   "actualizado": "2026-10-30T10:01:54.000Z",
+   "buffer_id": "",
+   "clave": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x",
+   "creado": "2026-10-30T10:01:54.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-30T10:00:57.835Z",
+   "id": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/acuerdo-en-el-ministerio-de-trabajo-amarilla-gas-cierra-el-sector-de",
+   "noticia": "nota:acuerdo-en-el-ministerio-de-trabajo-amarilla-gas-cierra-el-sector-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Acuerdo en el Ministerio de Trabajo\n\nAmarilla Gas cierra el sector de envasado en Chivilcoy. La empresa desvincula a ocho trabajadores.\n\nhttps://www.diariolacampaña.com.ar/n/acuerdo-en-el-ministerio-de-trabajo-amarilla-gas-cierra-el-sector-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Acuerdo en el Ministerio de Trabajo",
+   "urgente": false,
+   "vence": "2026-10-30T14:00:57.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:2e4fe240-6f88-48fa-9527-8c188ea675b0|x": {
    "actualizado": "2026-10-22T11:00:23.000Z",
    "buffer_id": "",
@@ -23498,6 +23626,35 @@
    "vence": "2026-10-20T17:03:24.000Z",
    "video_bytes": 0,
    "video_url": ""
+  },
+  "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x": {
+   "actualizado": "2026-10-30T10:02:37.000Z",
+   "buffer_id": "6ae46b3eceb12661efdc7770",
+   "clave": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x",
+   "creado": "2026-10-30T10:01:54.000Z",
+   "dueAt": "2026-10-30T10:06:53.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-30T10:00:49.086Z",
+   "id": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe",
+   "ig_hora": "2026-10-30T10:06:41.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
+   "noticia": "nota:problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Fernando Cabani advirtió sobre el impacto de las apuestas online en Chivilcoy\n\nEl concejal Fernando Cabani abordó el avance de las apuestas virtuales en los jóvenes y analizó proyectos para regular la actividad en territorio bonaerense.\n\nhttps://www.diariolacampaña.com.ar/n/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Fernando Cabani advirtió sobre el impacto de las apuestas online en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-30T14:00:49.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   },
   "web:34578935-f4ba-4a48-b177-a3e196a4e890|x": {
    "actualizado": "2026-10-26T12:06:20.000Z",
@@ -23908,6 +24065,31 @@
    "titulo": "Chivilcoy se prepara para celebrar su 172° aniversario con un variado cronograma de actividades",
    "urgente": false,
    "vence": "2026-10-21T14:02:12.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:415bcffd-26ca-41bb-807f-0d3961339b5c|x": {
+   "actualizado": "2026-10-30T10:01:54.000Z",
+   "buffer_id": "",
+   "clave": "web:415bcffd-26ca-41bb-807f-0d3961339b5c|x",
+   "creado": "2026-10-30T10:01:54.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, enviado)",
+   "estado": "descartado",
+   "generado": "2026-10-30T10:01:42.638Z",
+   "id": "web:415bcffd-26ca-41bb-807f-0d3961339b5c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-a-cuartos-de-final-gimnasia-de-chivilcoy-avanzo-en-el-federal",
+   "noticia": "nota:futbol-a-cuartos-de-final-gimnasia-de-chivilcoy-avanzo-en-el-federal",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "¡A cuartos de final!: Gimnasia de Chivilcoy avanzó en el Federal A tras el fallo contra Boca Unidos",
+   "urgente": false,
+   "vence": "2026-10-30T14:01:42.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -24665,6 +24847,35 @@
    "video_url": "",
    "viral": false
   },
+  "web:606007a3-f032-422b-ace3-ee59408ba8de|x": {
+   "actualizado": "2026-10-30T10:02:37.000Z",
+   "buffer_id": "6ae46b3eceb12661efdc77b1",
+   "clave": "web:606007a3-f032-422b-ace3-ee59408ba8de|x",
+   "creado": "2026-10-30T10:01:54.000Z",
+   "dueAt": "2026-10-30T10:36:14.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-30T10:01:09.245Z",
+   "id": "web:606007a3-f032-422b-ace3-ee59408ba8de",
+   "ig_hora": "2026-10-30T10:36:41.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/educacion-y-ciencia-la-falta-de-actualizacion-salarial-arrastra-a",
+   "noticia": "nota:educacion-y-ciencia-la-falta-de-actualizacion-salarial-arrastra-a",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "“La falta de actualización salarial arrastra a muchos docentes universitarios a percibir ingresos por debajo de la línea de la canasta básica”, sostiene De Marzi\n\nhttps://www.diariolacampaña.com.ar/n/educacion-y-ciencia-la-falta-de-actualizacion-salarial-arrastra-a",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "“La falta de actualización salarial arrastra a muchos docentes universitarios a percibir ingresos por debajo de la línea de la canasta básica”, sostiene De Marzi",
+   "urgente": false,
+   "vence": "2026-10-30T14:01:09.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5|x": {
    "actualizado": "2026-10-26T12:06:20.000Z",
    "buffer_id": "",
@@ -24855,6 +25066,35 @@
    "titulo": "“Necesitamos que sea ley para empezar a abordar un problema y un flagelo muy grande para nuestra juventud y para nuestra población en general”",
    "urgente": false,
    "vence": "2026-10-22T14:01:05.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x": {
+   "actualizado": "2026-10-30T10:02:37.000Z",
+   "buffer_id": "6ae46b3f38b96b6f5ba13276",
+   "clave": "web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x",
+   "creado": "2026-10-30T10:01:54.000Z",
+   "dueAt": "2026-10-30T11:21:53.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-30T10:01:35.647Z",
+   "id": "web:6adb3465-c4e1-4c1f-a175-109ba016efbd",
+   "ig_hora": "2026-10-30T11:21:41.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/coronel-mom-dos-menores-fueron-imputados-tras-recibir-uno-de-ellos",
+   "noticia": "nota:coronel-mom-dos-menores-fueron-imputados-tras-recibir-uno-de-ellos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Dos menores fueron imputados tras recibir uno de ellos una descarga eléctrica\n\nUn adolescente de 15 años cayó tras sufrir una descarga eléctrica. La investigación determinó que los jóvenes habrían intentado sustraer cables de instalaciones eléctricas.\n\nhttps://www.diariolacampaña.com.ar/n/coronel-mom-dos-menores-fueron-imputados-tras-recibir-uno-de-ellos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Dos menores fueron imputados tras recibir uno de ellos una descarga eléctrica",
+   "urgente": false,
+   "vence": "2026-10-30T14:01:35.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -25344,6 +25584,34 @@
    "titulo": "Itatí Pérez Cosimano destacó el valor de los cuidados paliativos en Chivilcoy",
    "urgente": false,
    "vence": "2026-10-27T14:02:56.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x": {
+   "actualizado": "2026-10-30T10:01:54.000Z",
+   "buffer_id": "",
+   "clave": "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x",
+   "creado": "2026-10-30T10:01:54.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-30T10:01:21.124Z",
+   "id": "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/infraestructura-y-burocracia-peajes-tramites-kafkianos-y-la-ruta-5-la",
+   "noticia": "nota:infraestructura-y-burocracia-peajes-tramites-kafkianos-y-la-ruta-5-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Infraestructura y Burocracia\n\nPeajes, trámites kafkianos y la Ruta 5 forman parte de la agenda de Eduardo Falcone en el debate presupuestario.\n\nhttps://www.diariolacampaña.com.ar/n/infraestructura-y-burocracia-peajes-tramites-kafkianos-y-la-ruta-5-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Infraestructura y Burocracia",
+   "urgente": false,
+   "vence": "2026-10-30T14:01:21.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -26210,6 +26478,35 @@
    "video_url": "",
    "viral": false
   },
+  "web:8eedc4c8-7ed9-4248-9de7-468717547999|x": {
+   "actualizado": "2026-10-30T10:01:54.000Z",
+   "buffer_id": "",
+   "clave": "web:8eedc4c8-7ed9-4248-9de7-468717547999|x",
+   "creado": "2026-10-30T10:01:54.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-30T10:01:49.557Z",
+   "id": "web:8eedc4c8-7ed9-4248-9de7-468717547999",
+   "ig_hora": "2026-10-30T11:51:41.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/semillero-rojo-de-fiesta-el-club-atletico-independiente-celebra-los",
+   "noticia": "nota:semillero-rojo-de-fiesta-el-club-atletico-independiente-celebra-los",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "El Club Atlético Independiente celebra los 30 años de su escuela de fútbol con un gran reencuentro\n\nLa institución reúne a su primera camada junto a familiares y formadores. El evento será este domingo 1 de noviembre en el predio El Semillero Rojo.\n\nhttps://www.diariolacampaña.com.ar/n/semillero-rojo-de-fiesta-el-club-atletico-independiente-celebra-los",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El Club Atlético Independiente celebra los 30 años de su escuela de fútbol con un gran reencuentro",
+   "urgente": false,
+   "vence": "2026-10-30T14:01:49.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x": {
    "actualizado": "2026-10-28T11:40:15.000Z",
    "buffer_id": "6ae1c86a5719a3c4c80fb983",
@@ -26244,6 +26541,34 @@
    "titulo": "En la ciudad, localidades y escuelas: Este jueves comienza la undécima edición del “Chivilcoy Teatrero”",
    "urgente": false,
    "vence": "2026-10-28T14:01:57.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:8fd9d678-2717-4972-af3c-fcb225b55159|x": {
+   "actualizado": "2026-10-30T10:01:54.000Z",
+   "buffer_id": "",
+   "clave": "web:8fd9d678-2717-4972-af3c-fcb225b55159|x",
+   "creado": "2026-10-30T10:01:54.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-10-30T10:01:29.716Z",
+   "id": "web:8fd9d678-2717-4972-af3c-fcb225b55159",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/espectaculo-anual-inclusivo-el-centro-municipal-de-danza-presenta",
+   "noticia": "nota:espectaculo-anual-inclusivo-el-centro-municipal-de-danza-presenta",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Espectáculo Anual Inclusivo\n\nEl Centro Municipal de Danza presenta Magic Dance este domingo en el Estadio Centro.\n\nhttps://www.diariolacampaña.com.ar/n/espectaculo-anual-inclusivo-el-centro-municipal-de-danza-presenta",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Espectáculo Anual Inclusivo",
+   "urgente": false,
+   "vence": "2026-10-30T14:01:29.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -29495,83 +29820,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|x",
-   "cuando": "2026-10-25T15:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114367032720245239"
-  },
-  {
-   "buffer_id": "6ade22e48b3d437ddc14d885",
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x",
-   "cuando": "2026-10-25T15:40:21.000Z",
-   "dueAt": "2026-10-25T15:42:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ade22e5e4be8a4d86b3feef",
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x",
-   "cuando": "2026-10-25T15:40:21.000Z",
-   "dueAt": "2026-10-25T15:48:19.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|x",
-   "cuando": "2026-10-25T17:00:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114382246853435739"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnza1nf34kw|x",
-   "cuando": "2026-10-25T17:00:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114383624908726714"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x",
-   "cuando": "2026-10-25T20:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|tiktok",
-   "cuando": "2026-10-25T20:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9|x",
-   "cuando": "2026-10-25T20:20:24.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ade64890b5343d070edcb0e",
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x",
-   "cuando": "2026-10-25T20:20:25.000Z",
-   "dueAt": "2026-10-25T20:22:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x",
-   "cuando": "2026-10-25T20:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114452715426197609"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|x",
-   "cuando": "2026-10-25T21:00:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4|tiktok",
    "cuando": "2026-10-25T21:00:20.000Z",
@@ -33718,6 +33966,91 @@
    "cuando": "2026-10-30T09:00:19.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2115987825971572746"
+  },
+  {
+   "clave": "web:8eedc4c8-7ed9-4248-9de7-468717547999|x",
+   "cuando": "2026-10-30T10:01:58.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:415bcffd-26ca-41bb-807f-0d3961339b5c|x",
+   "cuando": "2026-10-30T10:02:00.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, enviado)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x",
+   "cuando": "2026-10-30T10:02:03.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:8fd9d678-2717-4972-af3c-fcb225b55159|x",
+   "cuando": "2026-10-30T10:02:07.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x",
+   "cuando": "2026-10-30T10:02:10.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:606007a3-f032-422b-ace3-ee59408ba8de|x",
+   "cuando": "2026-10-30T10:02:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x",
+   "cuando": "2026-10-30T10:02:31.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x",
+   "cuando": "2026-10-30T10:02:37.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae46b3eceb12661efdc7770",
+   "clave": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x",
+   "cuando": "2026-10-30T10:02:39.000Z",
+   "dueAt": "2026-10-30T10:06:53.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae46b3eceb12661efdc77b1",
+   "clave": "web:606007a3-f032-422b-ace3-ee59408ba8de|x",
+   "cuando": "2026-10-30T10:02:39.000Z",
+   "dueAt": "2026-10-30T10:36:14.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae46b3f38b96b6f5ba13276",
+   "clave": "web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x",
+   "cuando": "2026-10-30T10:02:39.000Z",
+   "dueAt": "2026-10-30T11:21:53.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -34303,6 +34636,7 @@
   "web:2c0cf71d-3221-42c6-a7f2-1cb2edfd800e": "2026-10-17T21:00:16.000Z",
   "web:2c1ec0ef-520d-4e6d-924b-85dcbfdcfbf6": "2026-10-12T10:20:17.000Z",
   "web:2cb1b47f-15fc-4ef7-b8d5-3c2361abecb9": "2026-10-15T02:00:18.000Z",
+  "web:2dd35939-7165-409c-b92f-1aa5b8b67a94": "2026-10-30T10:01:54.000Z",
   "web:2de9a502-e952-44a4-8525-478c9d70047a": "2026-10-15T10:20:13.000Z",
   "web:2e4fe240-6f88-48fa-9527-8c188ea675b0": "2026-10-22T10:02:31.000Z",
   "web:2e67d217-7a79-4046-8927-8123258e800c": "2026-10-19T00:00:21.000Z",
@@ -34315,6 +34649,7 @@
   "web:317c620f-6da5-4b5a-b6b9-577556143229": "2026-10-19T17:20:14.000Z",
   "web:31a6f540-e9dd-415d-9833-6137456f0a06": "2026-10-18T22:40:12.000Z",
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
+  "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe": "2026-10-30T10:01:54.000Z",
   "web:34578935-f4ba-4a48-b177-a3e196a4e890": "2026-10-26T10:20:14.000Z",
   "web:34f6c2bc-72ff-4d48-84bc-64729fa9b00c": "2026-10-29T01:00:22.000Z",
   "web:357de5ae-2788-4cb5-9198-9e07743ac18f": "2026-10-17T15:20:13.000Z",
@@ -34347,6 +34682,7 @@
   "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1": "2026-10-20T10:20:14.000Z",
   "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc": "2026-10-21T10:20:15.000Z",
   "web:4147973e-0e73-44d6-9661-dcc8d8cfd198": "2026-10-13T12:20:17.000Z",
+  "web:415bcffd-26ca-41bb-807f-0d3961339b5c": "2026-10-30T10:01:54.000Z",
   "web:4199d5d7-7749-42b5-a204-16844f3014eb": "2026-10-19T10:20:14.000Z",
   "web:41b50fea-05eb-4988-89d9-dc639e73ba72": "2026-10-30T00:40:16.000Z",
   "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03": "2026-10-19T15:00:20.000Z",
@@ -34398,6 +34734,7 @@
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": "2026-10-13T12:20:17.000Z",
   "web:603008ee-aaa2-4035-94d1-a082d4cfaa32": "2026-10-22T10:02:31.000Z",
+  "web:606007a3-f032-422b-ace3-ee59408ba8de": "2026-10-30T10:01:54.000Z",
   "web:6092c4f7-b53e-4964-a892-2470dfeed127": "2026-10-14T10:20:15.000Z",
   "web:61fa0efb-5787-4c59-bce8-a86006933cfa": "2026-10-17T13:20:16.000Z",
   "web:62679199-0cb1-44ba-8928-add87ea1fa3f": "2026-10-15T10:20:13.000Z",
@@ -34416,6 +34753,7 @@
   "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7": "2026-10-18T15:40:18.000Z",
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": "2026-10-13T18:20:14.000Z",
   "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d": "2026-10-22T10:02:31.000Z",
+  "web:6adb3465-c4e1-4c1f-a175-109ba016efbd": "2026-10-30T10:01:54.000Z",
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": "2026-10-14T10:20:15.000Z",
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b": "2026-10-16T10:20:16.000Z",
   "web:6c509d7f-52e1-4541-aa96-22083404a169": "2026-10-26T10:20:14.000Z",
@@ -34455,6 +34793,7 @@
   "web:7979f8df-c1e0-4e6b-a81e-c02341bb946d": "2026-10-16T15:40:14.000Z",
   "web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d": "2026-10-28T10:02:28.000Z",
   "web:79d9f140-48df-40f4-b83c-a3e8b305ad23": "2026-10-27T10:03:31.000Z",
+  "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0": "2026-10-30T10:01:54.000Z",
   "web:7a521c20-c0d0-4494-9499-82a795b8a1f6": "2026-10-20T10:20:14.000Z",
   "web:7a5b06dc-62c8-478f-b00c-f1f4482e5452": "2026-10-12T10:20:17.000Z",
   "web:7a98b9ec-3121-4e64-91db-56be15cef0a9": "2026-10-16T15:20:15.000Z",
@@ -34505,7 +34844,9 @@
   "web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755": "2026-10-28T10:02:28.000Z",
   "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3": "2026-10-18T23:00:17.000Z",
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",
+  "web:8eedc4c8-7ed9-4248-9de7-468717547999": "2026-10-30T10:01:54.000Z",
   "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960": "2026-10-28T10:02:28.000Z",
+  "web:8fd9d678-2717-4972-af3c-fcb225b55159": "2026-10-30T10:01:54.000Z",
   "web:902234a6-60aa-4826-bffd-430eafadfad0": "2026-10-17T21:20:16.000Z",
   "web:903567f7-46a1-4218-a19a-686670a11eb1": "2026-10-13T10:20:16.000Z",
   "web:9075c8b1-30d7-4ed5-bcac-01cab7be51ad": "2026-10-16T10:20:16.000Z",
