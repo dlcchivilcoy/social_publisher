@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-30T16:40:15.000Z"
+   "visto": "2026-10-30T17:40:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 21
+    "sent": 20
    },
    "pausado": false,
-   "visto": "2026-10-30T16:40:15.000Z"
+   "visto": "2026-10-30T17:40:17.000Z"
   }
  },
  "contenidos": {
@@ -2238,26 +2238,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
    "youtube_url": "https://www.youtube.com/shorts/aJrxzIQKw1Q"
   },
-  "entrevistas:job00230": {
-   "descripcion": "En Chivilcoy, el escritor Jorge Giallorenzi presentó 'Terremotos' de Espacio Luna Alfanje y relató el desgarrador poema de una madre que perdió a su hijo durante un sismo.",
-   "duracion_seg": null,
-   "entrevistado": "Jorge Giallorenzi",
-   "generado": "2026-10-20T17:00:17.000Z",
-   "id": "entrevistas:job00230",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Jorge Giallorenzi: el desgarrador haiku sobre un terremoto",
-   "urgente": false,
-   "video_bytes": 24158249,
-   "video_mb": 23.0,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00230.mp4",
-   "youtube_url": "https://youtu.be/MCVGMIP1KV4"
-  },
   "entrevistas:job00231": {
    "descripcion": "En Chivilcoy, la médica clínica Itatí Pérez Cosimano reflexionó sobre la formación tradicional de la medicina y destacó el valor de los cuidados paliativos para acompañar al paciente.",
    "duracion_seg": null,
@@ -2996,6 +2976,27 @@
    "video_mb": 31.9,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00266.mp4",
    "youtube_url": "https://youtu.be/siuRnDnt1Qk"
+  },
+  "entrevistas:job00267": {
+   "descripcion": "Camila Martinez, coordinadora de CAZMA en Chivilcoy, explicó las dificultades para relevar los domicilios al no contar con el plano exacto de la red de agua potable. Como parte de la Comisión Fiscalizadora, debieron armar su propia cartografía casa por casa.",
+   "duracion_seg": null,
+   "entrevistado": "Camila Martinez",
+   "generado": "2026-10-30T17:40:14.000Z",
+   "id": "entrevistas:job00267",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Camila Martinez: no se sabe hasta dónde llega la red de agua potable",
+   "urgente": false,
+   "video_bytes": 19008094,
+   "video_mb": 18.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00267.mp4",
+   "youtube_url": "https://youtu.be/VZgmohTNX7s"
   },
   "nacionales:01c0d7889e6b5047": {
    "categoria": "Política",
@@ -4191,32 +4192,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_03_chacabuco_se-prendi-fuego-un-auto-en-ple.mp4",
    "volanta": "Principio de incendio en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/6ZYsZuWQCu4"
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html": {
-   "categoria": "accidente_vial",
-   "descripcion": "Un conductor de moto debió ser trasladado de urgencia al hospital local con dolencias en una pierna tras protagonizar un violento impacto contra un automóvil en la intersección de las calles Alberdi y Falucho.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-19T23:21:15.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Un motociclista fue trasladado al hospital municipal con una lesión en la pierna tras protagonizar un fuerte choque contra un automóvil en la tarde de este lunes en la ciudad de Chacabuco.\n\nEl siniestro vial ocurrió en la esquina de las calles Alberdi y Falucho, según confirmaron testigos en el lugar.\n\nEl conductor del rodado menor, identificado como de apellido Schettino y señalado como docente de la Universidad Tecnológica Nacional, debió ser asistido por personal médico y evacuado en ambulancia.\n\nEn el hecho participaron una moto y un auto, y las actuaciones quedaron en curso para establecer la mecánica exacta de la colisión.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #AccidenteDeTransito #BuenosAires",
-   "tipo": "video",
-   "titulo": "Un motociclista terminó internado tras chocar contra un auto en Chacabuco",
-   "urgente": false,
-   "video_bytes": 154752,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-19_2109_01_chacabuco_un-motociclista-termin-interna.mp4",
-   "volanta": "Choque en Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/_xTOtXUBmYc"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html": {
    "categoria": "robo",
@@ -8740,22 +8715,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 584,
-   "segundos": 59994,
+   "restantes": 582,
+   "segundos": 57598,
    "tope": 600
   },
   "30d": {
-   "restantes": 940,
-   "segundos": 965419,
+   "restantes": 938,
+   "segundos": 963023,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-30T17:00:22.000Z",
+ "cuota_visto": "2026-10-30T17:40:18.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -13231,43 +13206,6 @@
    "video_bytes": 761161,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a736f6dc52cc6da9.mp4"
   },
-  "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x": {
-   "actualizado": "2026-10-20T17:40:15.000Z",
-   "buffer_id": "6ad794ca7a8c18c236ab0576",
-   "clave": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4|x",
-   "creado": "2026-10-20T16:20:16.000Z",
-   "dueAt": "2026-10-20T16:22:58.000Z",
-   "enviado": "2026-10-20T16:23:05.114Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-20T16:06:52.000Z",
-   "id": "bot:video_matias-zucchi_mvgve3f60o53_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112580370763813335",
-   "metricas": {
-    "clicks": 0,
-    "comments": 1,
-    "engagementRate": 5.41,
-    "impressions": 37,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:avenida-caja-carniceria-guemes-registradora-robaron",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Robaron la caja registradora de una carnicería en la avenida Güemes\n\nEl comercio informó que el hecho ocurrió de madrugada y difundió videos de seguridad para pedir la colaboración de la comunidad. Buscan datos para esclarecer lo ocurrido.\n\nhttps://www.youtube.com/shorts/QaZXdRs838A",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Robaron la caja registradora de una carnicería en la avenida Güemes",
-   "urgente": false,
-   "vence": "2026-10-20T18:06:52.000Z",
-   "video_bytes": 761161,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a736f6dc52cc6da9.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4|tiktok": {
    "actualizado": "2026-10-20T21:20:25.000Z",
    "buffer_id": "6ad7d66765cedd57fee67167",
@@ -15688,18 +15626,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x": {
-   "actualizado": "2026-10-30T16:40:15.000Z",
+   "actualizado": "2026-10-30T17:40:17.000Z",
    "buffer_id": "6ae4c870a351214acf998c07",
    "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x",
    "creado": "2026-10-30T15:00:19.000Z",
    "dueAt": "2026-10-30T16:42:57.000Z",
+   "enviado": "2026-10-30T16:43:16.783Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T14:53:31.000Z",
    "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116209331372785932",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
    "noticia": "nota:bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
    "origen": "bot",
@@ -15713,43 +15652,6 @@
    "vence": "2026-10-30T16:53:31.000Z",
    "video_bytes": 8983884,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
-   "viral": false
-  },
-  "entrevistas:job00230|x": {
-   "actualizado": "2026-10-20T17:40:15.000Z",
-   "buffer_id": "6ad79e224367d45ae956ea3b",
-   "clave": "entrevistas:job00230|x",
-   "creado": "2026-10-20T17:00:17.000Z",
-   "dueAt": "2026-10-20T17:02:24.000Z",
-   "enviado": "2026-10-20T17:05:42.147Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-20T17:00:17.000Z",
-   "id": "entrevistas:job00230",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112591095636922703",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 31,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:desgarrador-giallorenzi-haiku-jorge-terremoto",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Jorge Giallorenzi: el desgarrador haiku sobre un terremoto\n\nEn Chivilcoy, el escritor Jorge Giallorenzi presentó 'Terremotos' de Espacio Luna Alfanje y relató el desgarrador poema de una madre que perdió a su hijo durante un sismo.\n\nhttps://youtu.be/MCVGMIP1KV4",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Jorge Giallorenzi: el desgarrador haiku sobre un terremoto",
-   "urgente": false,
-   "vence": "2026-10-20T19:00:17.000Z",
-   "video_bytes": 24158249,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00230.mp4",
    "viral": false
   },
   "entrevistas:job00231|x": {
@@ -17739,18 +17641,19 @@
    "viral": false
   },
   "entrevistas:job00266|x": {
-   "actualizado": "2026-10-30T17:00:21.000Z",
+   "actualizado": "2026-10-30T17:40:17.000Z",
    "buffer_id": "6ae4cd2610a950f1373327f8",
    "clave": "entrevistas:job00266|x",
    "creado": "2026-10-30T17:00:20.000Z",
    "dueAt": "2026-10-30T17:02:12.000Z",
+   "enviado": "2026-10-30T17:06:40.454Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T17:00:20.000Z",
    "id": "entrevistas:job00266",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116215218971803817",
    "nota_url": "",
    "noticia": "titulo:dalia-drama-navarro-reales-talles",
    "origen": "entrevistas",
@@ -17764,6 +17667,62 @@
    "vence": "2026-10-30T19:00:20.000Z",
    "video_bytes": 33469263,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00266.mp4",
+   "viral": false
+  },
+  "entrevistas:job00267|tiktok": {
+   "actualizado": "2026-10-30T17:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00267|tiktok",
+   "creado": "2026-10-30T17:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-30T17:40:14.000Z",
+   "id": "entrevistas:job00267",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Camila Martinez: no se sabe hasta dónde llega la red de agua potable\n\nCamila Martinez, coordinadora de CAZMA en Chivilcoy, explicó las dificultades para relevar los domicilios al no contar con el plano exacto de la red de agua potable. Como parte de la Comisión Fiscalizadora, debieron armar su propia cartografía casa por casa.\n\nhttps://youtu.be/VZgmohTNX7s\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Camila Martinez: no se sabe hasta dónde llega la red de agua potable",
+   "urgente": false,
+   "vence": "2026-11-01T17:40:14.000Z",
+   "video_bytes": 19008094,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00267.mp4",
+   "viral": false
+  },
+  "entrevistas:job00267|x": {
+   "actualizado": "2026-10-30T17:40:17.000Z",
+   "buffer_id": "6ae4d682260ad0ee5bbe3ec3",
+   "clave": "entrevistas:job00267|x",
+   "creado": "2026-10-30T17:40:14.000Z",
+   "dueAt": "2026-10-30T17:42:09.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-30T17:40:14.000Z",
+   "id": "entrevistas:job00267",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:agua-camila-llega-martinez-potable-sabe",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Camila Martinez: no se sabe hasta dónde llega la red de agua potable\n\nLa coordinadora de CAZMA explicó que, al no tener el plano exacto de la red, debieron armar su propia cartografía casa por casa para relevar los domicilios.\n\nhttps://youtu.be/VZgmohTNX7s",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Camila Martinez: no se sabe hasta dónde llega la red de agua potable",
+   "urgente": false,
+   "vence": "2026-10-30T19:40:14.000Z",
+   "video_bytes": 19008094,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00267.mp4",
    "viral": false
   },
   "nacionales:01c0d7889e6b5047|tiktok": {
@@ -20072,32 +20031,6 @@
    "video_bytes": 88899,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_03_chacabuco_se-prendi-fuego-un-auto-en-ple.mp4",
    "viral": false
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-20T17:40:15.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html|tiktok",
-   "creado": "2026-10-19T23:40:17.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T23:21:15.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Un motociclista terminó internado tras chocar contra un auto en Chacabuco\n\nUn conductor de moto debió ser trasladado de urgencia al hospital local con dolencias en una pierna tras protagonizar un violento impacto contra un automóvil en la intersección de las calles Alberdi y Falucho.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-un-motociclista-hospitalizado-tras-chocar-con-un-auto-362eb3\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Un motociclista terminó internado tras chocar contra un auto en Chacabuco",
-   "urgente": false,
-   "vence": "2026-10-20T17:21:15.000Z",
-   "video_bytes": 154752,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-19_2109_01_chacabuco_un-motociclista-termin-interna.mp4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html|tiktok": {
    "actualizado": "2026-10-23T19:40:33.000Z",
@@ -27330,54 +27263,6 @@
  },
  "registro": [
   {
-   "clave": "web:eca084c4-f470-4290-a9ab-e8a57e117475|x",
-   "cuando": "2026-10-26T12:06:08.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:a604bb88-c1b1-4d8c-aeb4-73f24939ba20|x",
-   "cuando": "2026-10-26T12:06:08.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:bfd610a6-2963-4140-98d0-d45bf948298c|x",
-   "cuando": "2026-10-26T12:06:09.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:f34b4317-aae2-4788-9b60-afe5d1e7eb93|x",
-   "cuando": "2026-10-26T12:06:11.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2bda9681-8499-4001-bce8-f38052f6e045|x",
-   "cuando": "2026-10-26T12:06:14.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:141e8c71-d366-458d-8748-f475405147ab|x",
-   "cuando": "2026-10-26T12:06:16.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
    "clave": "web:d243e208-dd8e-46a7-9465-8665ba05218a|x",
    "cuando": "2026-10-26T12:06:18.000Z",
    "estado": "descartado",
@@ -31528,6 +31413,46 @@
    "cuando": "2026-10-30T17:00:22.000Z",
    "dueAt": "2026-10-30T17:02:12.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00267",
+   "cuando": "2026-10-30T17:40:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00267|x",
+   "cuando": "2026-10-30T17:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00267|tiktok",
+   "cuando": "2026-10-30T17:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x",
+   "cuando": "2026-10-30T17:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116209331372785932"
+  },
+  {
+   "clave": "entrevistas:job00266|x",
+   "cuando": "2026-10-30T17:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116215218971803817"
+  },
+  {
+   "buffer_id": "6ae4d682260ad0ee5bbe3ec3",
+   "clave": "entrevistas:job00267|x",
+   "cuando": "2026-10-30T17:40:18.000Z",
+   "dueAt": "2026-10-30T17:42:09.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -31565,7 +31490,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-30",
- "ultima_sync": "2026-10-30T16:40:15.000Z",
+ "ultima_sync": "2026-10-30T17:40:17.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -31794,6 +31719,7 @@
   "entrevistas:job00264": "2026-10-29T19:00:17.000Z",
   "entrevistas:job00265": "2026-10-30T16:20:14.000Z",
   "entrevistas:job00266": "2026-10-30T17:00:20.000Z",
+  "entrevistas:job00267": "2026-10-30T17:40:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
