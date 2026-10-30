@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 2 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 2 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 3 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,10 +27,11 @@ Actualizado: 30/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 2 con métricas · mediana vistas/impresiones 532 · likes 5 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 585 de 600 · 30d: quedan 941 de 2000 (visto 2026-10-30T16:40:16.000Z)
+15m: quedan 149 de 150 · 24h: quedan 584 de 600 · 30d: quedan 940 de 2000 (visto 2026-10-30T17:00:22.000Z)
 
-## Cola propia (13 esperando)
+## Cola propia (14 esperando)
 - TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Dalia Navarro sobre el drama de los talles reales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Jeni Simone: el contratista rural y el fin de las tasas negativas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -52,10 +53,6 @@ Actualizado: 30/10/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T13:00 programado entrevistas:job00260|tiktok 
-- 2026-10-30T14:00 recibido bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x 
-- 2026-10-30T14:00 recibido bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok 
-- 2026-10-30T14:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tikto 
 - 2026-10-30T14:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tikto 
 - 2026-10-30T14:00 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tikto 
 - 2026-10-30T14:00 programado bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x 
@@ -77,3 +74,7 @@ Actualizado: 30/10/2026 13:40 (hora AR) · ACTIVO
 - 2026-10-30T16:20 programado entrevistas:job00265|x 
 - 2026-10-30T16:40 enviado entrevistas:job00265|x 
 - 2026-10-30T16:40 programado bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x 
+- 2026-10-30T17:00 entrevista_aprobada entrevistas:job00266 
+- 2026-10-30T17:00 recibido entrevistas:job00266|x 
+- 2026-10-30T17:00 recibido entrevistas:job00266|tiktok 
+- 2026-10-30T17:00 programado entrevistas:job00266|x 
