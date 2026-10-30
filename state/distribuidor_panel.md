@@ -1,14 +1,14 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 29/10/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 29/10/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-29)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 2 | 1 | 2 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 4 |
-| Reels del bot | TikTok | 20 | 5 | 0 | 8 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 0 | 4 |
+| Reels del bot | TikTok | 20 | 5 | 0 | 9 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 1 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 10 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -17,35 +17,35 @@ Actualizado: 29/10/2026 21:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 29 · likes 0
-- X · Reels del bot: 78 con métricas · mediana vistas/impresiones 28 · likes 0
-- X · Reels policiales: 23 con métricas · mediana vistas/impresiones 40 · likes 0
+- X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 29 · likes 0
+- X · Reels del bot: 74 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 70 con métricas · mediana vistas/impresiones 22.5 · likes 0
 - X · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 49.5 · likes 0 ⚠️muestra chica
 - TikTok · Recortes de entrevistas: 12 con métricas · mediana vistas/impresiones 95.5 · likes 0
 - TikTok · Reels del bot: 55 con métricas · mediana vistas/impresiones 293 · likes 3
 - TikTok · Reels policiales: 7 con métricas · mediana vistas/impresiones 515 · likes 3
-- TikTok · Nacionales y categorías: 5 con métricas · mediana vistas/impresiones 410 · likes 2
+- TikTok · Nacionales y categorías: 4 con métricas · mediana vistas/impresiones 532 · likes 5 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 565 de 600 · 30d: quedan 963 de 2000 (visto 2026-10-30T00:00:22.000Z)
+15m: quedan 149 de 150 · 24h: quedan 564 de 600 · 30d: quedan 962 de 2000 (visto 2026-10-30T00:20:25.000Z)
 
 ## Cola propia (15 esperando)
-- TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — no entró entre las 1 más virales de la tanda 21 h
-- X · Reels policiales · Celeste Montarana sigue crítica tras la balacera policial y su padre exige justi — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — no entró entre las 1 más virales de la tanda 21 h
-- TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — no entró entre las 1 más virales de la tanda 21 h
-- TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — no entró entre las 1 más virales de la tanda 21 h
-- TikTok · Recortes de entrevistas · Eugenia Blotta: ordenanzas que no se cumplen en Chivilcoy — no entró entre las 1 más virales de la tanda 21 h
-- TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — no entró entre las 1 más virales de la tanda 21 h
-- TikTok · Recortes de entrevistas · Mauricio De Marzi: la absurda burocracia que frena la ciencia — no entró entre las 1 más virales de la tanda 21 h
-- TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — no entró entre las 1 más virales de la tanda 21 h
-- TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — no entró entre las 1 más virales de la tanda 21 h
-- TikTok · Reels del bot · TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas — no entró entre las 1 más virales de la tanda 21 h
+- TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Eugenia Blotta: ordenanzas que no se cumplen en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Mauricio De Marzi: la absurda burocracia que frena la ciencia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Cayó un sospechoso por robos, atraparon a un prófugo y hallaron un arma — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Aprehendieron a un hombre y secuestraron un revólver tras un allanamiento en Jun — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — no entró entre las 1 más virales de la tanda 21 h
-- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — no entró entre las 1 más virales de la tanda 21 h
+- TikTok · Reels del bot · El CUCH y la UTN convocan a un encuentro con empresas locales — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Se realizó la séptima Jornada de Infectología en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -55,10 +55,6 @@ Actualizado: 29/10/2026 21:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-29T18:20 recibido entrevistas:job00263|tiktok 
-- 2026-10-29T18:20 programado entrevistas:job00263|x 
-- 2026-10-29T19:00 entrevista_aprobada entrevistas:job00264 
-- 2026-10-29T19:00 recibido entrevistas:job00264|x 
 - 2026-10-29T19:00 recibido entrevistas:job00264|tiktok 
 - 2026-10-29T19:00 enviado entrevistas:job00262|x 
 - 2026-10-29T19:00 enviado entrevistas:job00263|x 
@@ -80,3 +76,7 @@ Actualizado: 29/10/2026 21:00 (hora AR) · ACTIVO
 - 2026-10-30T00:00 recibido web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x 
 - 2026-10-30T00:00 depurado web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x de la web, a X solo van las notas del diario de la mañana
 - 2026-10-30T00:00 programado entrevistas:job00262|tiktok 
+- 2026-10-30T00:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x 
+- 2026-10-30T00:20 recibido bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|tikto 
+- 2026-10-30T00:20 programado bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x 
+- 2026-10-30T00:20 programado policiales:https://laopinionline.ar/articulo/celeste-montara 
