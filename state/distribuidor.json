@@ -6356,24 +6356,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/sector-productivo-local-y-la-provincia-el-objetivo-es-fortalecer",
    "volanta": ""
   },
-  "web:2e67d217-7a79-4046-8927-8123258e800c": {
-   "categoria": "nacionales",
-   "descripcion": "El oficialismo despliega congresos en el interior para consolidar su estructura de cara a 2027, mientras persisten las diferencias estratégicas entre las…",
-   "generado": "2026-10-18T23:50:08.654Z",
-   "id": "web:2e67d217-7a79-4046-8927-8123258e800c",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_2d40d60be6f944c1a10909e47c08b37f~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-libertad-avanza-acelera-el-armado-juvenil-y-expone-internas-ef9d9f",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 3,
-   "tipo": "nota",
-   "titulo": "La Libertad Avanza acelera el armado juvenil y expone internas entre virtuales y territoriales",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-libertad-avanza-acelera-el-armado-juvenil-y-expone-internas-ef9d9f",
-   "volanta": ""
-  },
   "web:2fdbd396-83fc-451f-926b-d71cfd42c1be": {
    "categoria": "",
    "descripcion": "Torneo Federal ‘A’: Boca Unidos pedirá la continuidad del partido frente a Gimnasia de Chivilcoy Boca Unidos prepara un descargo ante el Tribunal de Disciplina del Consejo Federal de la AFA pero se anticipó que pedirá la continuidad del encuentro frente a Gimnasia de Chivilcoy que fue suspendido a los 40 minutos del primer tiempo cuando una bomba de estruendo cayó en el campo de juego y perjudicó a cuatro jugadores. El presidente de la institución correntina, Marcelo Insaurralde, confirmó la...",
@@ -6561,6 +6543,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/haikus-jorge-giallorenzi-presentara-una-edicion-especial-de-su",
    "volanta": "Haikus"
+  },
+  "web:37a8cc6e-d0f6-44df-bd80-5ee911112801": {
+   "categoria": "",
+   "descripcion": "Un menor sufrió una descarga eléctrica en un predio rural Un adolescente resultó herido tras recibir una descarga eléctrica en un predio rural de Coronel Mom, en un episodio investigado como un intento de robo de cables en el que habrían participado dos menores de edad. Según la información difundida sobre la investigación, la descarga se produjo mientras los jóvenes manipulaban conexiones y tableros eléctricos. El adolescente lesionado quedó bajo atención médica, a la espera de su evolución....",
+   "generado": "2026-10-29T23:58:56.316Z",
+   "id": "web:37a8cc6e-d0f6-44df-bd80-5ee911112801",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_29fcbb196e474e94aff09764c69cf81b~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Un menor sufrió una descarga eléctrica en un predio rural",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
+   "volanta": "Coronel Mom · Policiales"
   },
   "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72": {
    "categoria": "",
@@ -8499,25 +8500,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/recursos-especificos-proponen-financiar-la-autovia-ruta-5-con-un",
    "volanta": "Recursos específicos"
-  },
-  "web:99a98512-7ac4-4629-a1a6-eab0dc99a301": {
-   "categoria": "",
-   "descripcion": "Se incendió un automóvil en el trazado de la Ruta 30 Se reportó el incendio de un automóvil sobre la Ruta 30, entre el acceso a Ozono y el Cementerio Parque, a la altura de los silos de Alagna, en Chivilcoy. Noticia en desarrollo.",
-   "generado": "2026-10-19T23:50:37.503Z",
-   "id": "web:99a98512-7ac4-4629-a1a6-eab0dc99a301",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_4956f1eda29841dabf80b26c0d25f634~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Se incendió un automóvil en el trazado de la Ruta 30",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30",
-   "volanta": "Ruta 30 · Bomberos"
   },
   "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce": {
    "categoria": "",
@@ -10522,17 +10504,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 566,
-   "segundos": 34782,
+   "restantes": 565,
+   "segundos": 33594,
    "tope": 600
   },
   "30d": {
-   "restantes": 964,
-   "segundos": 1027806,
+   "restantes": 963,
+   "segundos": 1026619,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-29T23:40:34.000Z",
+ "cuota_visto": "2026-10-30T00:00:22.000Z",
  "metricas_buffer": {
   "con_metricas": 93,
   "disponible": true,
@@ -14095,7 +14077,7 @@
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-28T14:22:30.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1",
@@ -14160,7 +14142,7 @@
    "creado": "2026-10-28T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-28T14:29:20.000Z",
    "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm",
@@ -14433,7 +14415,7 @@
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:17:52.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti",
@@ -14490,7 +14472,7 @@
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:25:34.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b",
@@ -14547,7 +14529,7 @@
    "creado": "2026-10-29T15:40:17.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-29T15:27:59.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
@@ -17148,7 +17130,7 @@
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:01:00.000Z",
    "id": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4",
@@ -17201,7 +17183,7 @@
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-29T14:36:08.000Z",
    "id": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4",
@@ -17254,7 +17236,7 @@
    "creado": "2026-10-29T16:20:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-29T16:14:55.000Z",
    "id": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4",
@@ -17307,7 +17289,7 @@
    "creado": "2026-10-29T16:40:15.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-29T16:22:09.000Z",
    "id": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4",
@@ -17364,7 +17346,7 @@
    "creado": "2026-10-29T20:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-29T20:15:37.000Z",
    "id": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4",
@@ -19135,7 +19117,7 @@
    "creado": "2026-10-29T17:00:20.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-29T17:00:20.000Z",
    "id": "entrevistas:job00260",
@@ -19192,7 +19174,7 @@
    "creado": "2026-10-29T17:20:13.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 1 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-29T17:20:13.000Z",
    "id": "entrevistas:job00261",
@@ -19242,15 +19224,15 @@
    "viral": false
   },
   "entrevistas:job00262|tiktok": {
-   "actualizado": "2026-10-29T18:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-30T00:00:21.000Z",
+   "buffer_id": "6ae3de164b8768bfb2cd0264",
    "categoria": "",
    "clave": "entrevistas:job00262|tiktok",
    "creado": "2026-10-29T18:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-30T00:03:21.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-29T18:00:21.000Z",
    "id": "entrevistas:job00262",
    "intentos": 0,
@@ -25089,32 +25071,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:2e67d217-7a79-4046-8927-8123258e800c|x": {
-   "actualizado": "2026-10-20T00:00:19.000Z",
-   "buffer_id": "",
-   "clave": "web:2e67d217-7a79-4046-8927-8123258e800c|x",
-   "creado": "2026-10-19T00:00:21.000Z",
-   "dueAt": "",
-   "error": "cupo diario de Notas web en X completo (15)",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "vencido",
-   "generado": "2026-10-18T23:50:08.654Z",
-   "id": "web:2e67d217-7a79-4046-8927-8123258e800c",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-libertad-avanza-acelera-el-armado-juvenil-y-expone-internas-ef9d9f",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 3,
-   "texto": "La Libertad Avanza acelera el armado juvenil y expone internas entre virtuales y territoriales\n\nEl oficialismo despliega congresos en el interior para consolidar su estructura hacia 2027, en medio de diferencias estratégicas.\n\nhttps://www.diariolacampaña.com.ar/n/la-libertad-avanza-acelera-el-armado-juvenil-y-expone-internas-ef9d9f",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "La Libertad Avanza acelera el armado juvenil y expone internas entre virtuales y territoriales",
-   "urgente": false,
-   "vence": "2026-10-19T23:50:08.000Z",
-   "video_bytes": 0,
-   "video_url": ""
-  },
   "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x": {
    "actualizado": "2026-10-28T12:40:16.000Z",
    "buffer_id": "6ae1da6ef8d0c164b1601720",
@@ -25392,6 +25348,33 @@
    "titulo": "Jorge Giallorenzi presentará una edición especial de su publicación internacional de poesía haiku titulada “Terremotos”",
    "urgente": false,
    "vence": "2026-10-21T14:02:22.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x": {
+   "actualizado": "2026-10-30T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x",
+   "creado": "2026-10-30T00:00:18.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-10-29T23:58:56.316Z",
+   "id": "web:37a8cc6e-d0f6-44df-bd80-5ee911112801",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
+   "noticia": "nota:coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Un menor sufrió una descarga eléctrica en un predio rural\n\nUn adolescente resultó herido en Coronel Mom al recibir una descarga. Ocurrió en un predio rural en un hecho investigado como intento de robo de cables.\n\nhttps://www.diariolacampaña.com.ar/n/coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Un menor sufrió una descarga eléctrica en un predio rural",
+   "urgente": false,
+   "vence": "2026-10-30T03:58:56.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -28479,31 +28462,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:99a98512-7ac4-4629-a1a6-eab0dc99a301|x": {
-   "actualizado": "2026-10-20T00:00:19.000Z",
-   "buffer_id": "",
-   "clave": "web:99a98512-7ac4-4629-a1a6-eab0dc99a301|x",
-   "creado": "2026-10-20T00:00:19.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-19T23:50:37.503Z",
-   "id": "web:99a98512-7ac4-4629-a1a6-eab0dc99a301",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30",
-   "noticia": "nota:ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Se incendió un automóvil en el trazado de la Ruta 30",
-   "urgente": false,
-   "vence": "2026-10-20T03:50:37.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x": {
    "actualizado": "2026-10-21T14:20:14.000Z",
    "buffer_id": "6ad8a4a13021c1ef52b36650",
@@ -31557,25 +31515,6 @@
   }
  },
  "registro": [
-  {
-   "cuando": "2026-10-25T01:40:14.000Z",
-   "evento": "pausa_red",
-   "hasta": "2026-10-26T01:23:00.000Z",
-   "red": "tiktok",
-   "tope": 13
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok",
-   "cuando": "2026-10-25T01:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7700393778057579782"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/24/incendio-en-el-fonavi-i-investigan-un-conflicto-entre-vecinos/|x",
-   "cuando": "2026-10-25T02:20:13.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
   {
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x",
    "cuando": "2026-10-25T13:20:14.000Z",
@@ -35789,6 +35728,27 @@
    "cuando": "2026-10-29T23:40:34.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2115937609469907195"
+  },
+  {
+   "clave": "web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x",
+   "cuando": "2026-10-30T00:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x",
+   "cuando": "2026-10-30T00:00:21.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "buffer_id": "6ae3de164b8768bfb2cd0264",
+   "clave": "entrevistas:job00262|tiktok",
+   "cuando": "2026-10-30T00:00:22.000Z",
+   "dueAt": "2026-10-30T00:03:21.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -35820,10 +35780,11 @@
    "2026-10-28 18",
    "2026-10-28 21",
    "2026-10-29 10",
-   "2026-10-29 18"
+   "2026-10-29 18",
+   "2026-10-29 21"
   ]
  },
- "ultima_limpieza_release": "2026-10-29",
+ "ultima_limpieza_release": "2026-10-30",
  "ultima_sync": "2026-10-29T23:40:34.000Z",
  "version": 1,
  "vistos": {
@@ -36392,6 +36353,7 @@
   "web:36f35444-e990-4d78-aeea-920acd95d869": "2026-10-17T15:20:13.000Z",
   "web:373879d8-54ba-4e71-9032-4f6c8f181ebc": "2026-10-14T10:20:15.000Z",
   "web:3759665f-fb36-4adc-8b4c-b317b209876b": "2026-10-21T10:20:15.000Z",
+  "web:37a8cc6e-d0f6-44df-bd80-5ee911112801": "2026-10-30T00:00:18.000Z",
   "web:380cc711-312c-4089-9509-56feaafc5238": "2026-10-12T15:20:17.000Z",
   "web:38a2facb-610c-48c3-ba78-33049770dfcf": "2026-10-17T18:20:13.000Z",
   "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72": "2026-10-23T13:40:14.000Z",
