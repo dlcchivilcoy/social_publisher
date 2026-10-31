@@ -117,27 +117,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7caf0be1881dd79b.mp4",
    "youtube_url": "https://www.youtube.com/shorts/IjtihqJpC6c"
   },
-  "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34": {
-   "descripcion": "La Municipalidad de Chivilcoy dio a conocer el cronograma de actividades para celebrar los 172 años de la fundación de la ciudad, con eventos centrales entre el 21 y el 25 de octubre de 2026. La grilla incluye actos protocolares, intervenciones artísticas y espectáculos.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-21T02:10:14.000Z",
-   "id": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Presentaron el cronograma por el 172° aniversario de Chivilcoy",
-   "urgente": false,
-   "video_bytes": 842913,
-   "video_mb": 0.8,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b552eeb93ecf83e0.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/tPRNG86WU0w"
-  },
   "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe": {
    "descripcion": "Este fin de semana tendrá lugar la tradicional competencia en el marco del 172° aniversario de la ciudad de Chivilcoy. La edición tendrá como protagonista al Auto Club, en reconocimiento a su trayectoria en el automovilismo, y contará con tramos tradicionales y un súper especial.",
    "duracion_seg": 30.0,
@@ -1481,27 +1460,6 @@
    "video_mb": 13.3,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_06ba86356c076768.mp4",
    "youtube_url": "https://www.youtube.com/shorts/WqCuSypvdyk"
-  },
-  "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4": {
-   "descripcion": "La concejal de Fuerza Patria, Eugenia Blotta, destacó la importancia y la llegada a la ciudad del proyecto «La UNLu corre por la inclusión», una propuesta impulsada por la Educación Pública Universitaria.\n\nLa edil valoró la iniciativa por articular áreas que considera fundamentales, combinando el deporte y el running inclusivo con una mirada centrada en la discapacidad.\n\nLa actividad se llevará a cabo el 1 de noviembre en Chivilcoy de forma conjunta con la media maratón del Círculo de Atletas, gracias a la apertura de dicha institución. En ese marco, Blotta resaltó el trabajo conjunto entre la universidad pública y el área de discapacidad, además de mencionar el impulso brindado por Germán para concretar la iniciativa.\n\nFinalmente, la concejal adelantó que desde su bloque presentarán un proyecto en el recinto con la intención de declarar la propuesta de interés municipal.",
-   "duracion_seg": 69.8,
-   "generado": "2026-10-21T00:29:10.000Z",
-   "id": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-eugenia-blotta-destaco-la-llegada-de-la-unlu-corre",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Eugenia Blotta destacó la llegada de La UNLu corre por la inclusión",
-   "urgente": false,
-   "video_bytes": 9087491,
-   "video_mb": 8.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c58edec5691bf919.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/9UpeqM31mz4"
   },
   "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4": {
    "descripcion": "Representantes de Chivilcoy continúan con su participación en la disciplina de tejo intergeneracional en el marco de los Juegos Bonaerenses.\n\nLa pareja integrada por Leonardo Raúl Miguez y José Mir compite en dicha categoría. En relación con el desarrollo deportivo, explicaron que hasta el momento registran una victoria y una derrota, por lo que su continuidad en el certamen quedó sujeta a los resultados de los demás partidos de la zona.\n\nRespecto a la experiencia en el torneo provincial, los protagonistas destacaron el saldo positivo. Para Miguez se trata de su primera presentación en la competencia, mientras que para Mir representa su tercer año de participación.\n\nPor su parte, desde el acompañamiento técnico describieron cómo se vive la actividad desde afuera de la cancha y valoraron de manera favorable la estancia y la atención recibida durante el evento.",
@@ -4127,32 +4085,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_02_chacabuco_una-mujer-de-31-a-os-fue-hospi.mp4",
    "volanta": "Siniestro vial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/TLZh9rg71nw"
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html": {
-   "categoria": "otro_policial",
-   "descripcion": "Una vecina de esta ciudad solicitó auxilio policial en la madrugada luego de que su ex pareja intentara ingresar a su domicilio por los fondos. El agresor escapó antes de la llegada de los móviles.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-21T01:31:08.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "radio_ok": true,
-   "texto_tiktok": "Una vecina de Chacabuco vivió momentos de tensión durante la madrugada cuando su ex pareja intentó ingresar a la fuerza a su domicilio.\n\nEl sujeto trató de entrar por los fondos de la propiedad y una reja en una ventana frustró su ingreso a la vivienda.\n\nEfectivos de la policía local acudieron al llamado de auxilio de la víctima, aunque el acusado logró escapar antes de ser interceptado.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #ViolenciaDeGenero #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos",
-   "urgente": false,
-   "video_bytes": 82430,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_0104_04_chacabuco_acoso-y-persecuci-n-de-una-ex-.mp4",
-   "volanta": "Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/KoqoLADZ27Y"
   },
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": {
    "categoria": "incendio",
@@ -6814,25 +6746,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/recursos-especificos-proponen-financiar-la-autovia-ruta-5-con-un",
    "volanta": "Recursos específicos"
   },
-  "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: allanamiento por drogas dejó dos aprehendidos y el secuestro de cocaína fraccionada El operativo se llevó a cabo en un domicilio de la calle Ángel Peñaloza en el marco de una investigación iniciada en julio. Se incautaron 22 envoltorios de sustancia, celulares y una balanza de precisión. En horas de la tarde del pasado sábado 17 de octubre de 2026, personal de la Subdelegación Departamental de Investigaciones del Tráfico de Drogas Ilícitas (SDDITDI) Chivilcoy, bajo la dirección de...",
-   "generado": "2026-10-21T10:03:17.727Z",
-   "id": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8b5953cb4d9a41d58d385cc4c4b9fdf1~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: allanamiento por drogas dejó dos aprehendidos y el secuestro de cocaína fraccionada",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
-   "volanta": "Drogas Ilícitas"
-  },
   "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892": {
    "categoria": "",
    "descripcion": "Siniestros viales: Fin de semana con múltiples vuelcos en las rutas 5 y 46 Tres accidentes de tránsito de consideración se registraron entre el jueves y el sábado en jurisdicción de Chivilcoy, Luján y Morse. Pese a la espectacularidad de los vuelcos e importantes daños materiales, no se lamentaron víctimas fatales. Siniestros viales de diversa magnitud movilizaron a las fuerzas de seguridad, bomberos y personal vial de la región durante el fin de semana. Los hechos se registraron en las rutas...",
@@ -8518,45 +8431,6 @@
    "vence": "2026-10-22T23:52:29.000Z",
    "video_bytes": 627174,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7caf0be1881dd79b.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok": {
-   "actualizado": "2026-10-21T14:20:14.000Z",
-   "buffer_id": "6ad8b76c820ac627995086d8",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34|tiktok",
-   "creado": "2026-10-21T02:20:14.000Z",
-   "dueAt": "2026-10-21T13:23:53.000Z",
-   "enviado": "2026-10-21T13:25:47.139Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-21T02:10:14.000Z",
-   "id": "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7699111332712353032",
-   "metricas": {
-    "averageTimeWatched": 8.15,
-    "comments": 0,
-    "engagementRate": 0.78,
-    "reach": 177,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 39.5,
-    "views": 258
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Presentaron el cronograma por el 172° aniversario de Chivilcoy\n\nLa Municipalidad de Chivilcoy dio a conocer el cronograma de actividades para celebrar los 172 años de la fundación de la ciudad, con eventos centrales entre el 21 y el 25 de octubre de 2026. La grilla incluye actos protocolares, intervenciones artísticas y espectáculos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Presentaron el cronograma por el 172° aniversario de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-23T02:10:14.000Z",
-   "video_bytes": 842913,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b552eeb93ecf83e0.mp4",
    "viral": false
   },
   "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|tiktok": {
@@ -11918,15 +11792,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tiktok": {
-   "actualizado": "2026-10-29T14:20:15.000Z",
+   "actualizado": "2026-10-31T14:20:14.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tiktok",
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-29T14:17:52.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti",
    "intentos": 0,
@@ -12906,45 +12780,6 @@
    "vence": "2026-10-23T00:21:37.000Z",
    "video_bytes": 13957259,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_06ba86356c076768.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok": {
-   "actualizado": "2026-10-21T14:20:14.000Z",
-   "buffer_id": "6ad8b76e0c5e774bdfb0c60e",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4|tiktok",
-   "creado": "2026-10-21T00:40:14.000Z",
-   "dueAt": "2026-10-21T13:43:01.000Z",
-   "enviado": "2026-10-21T13:44:58.851Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-21T00:29:10.000Z",
-   "id": "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7699116206346784052",
-   "metricas": {
-    "averageTimeWatched": 4.57,
-    "comments": 0,
-    "engagementRate": 0.63,
-    "reach": 208,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 25.72,
-    "views": 315
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-eugenia-blotta-destaco-la-llegada-de-la-unlu-corre",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Eugenia Blotta destacó la llegada de La UNLu corre por la inclusión\n\nLa concejal Eugenia Blotta valoró la iniciativa por articular el deporte con una mirada centrada en la discapacidad, en el marco de una actividad que se realizará el 1 de noviembre junto a la media maratón del Círculo de Atletas. Además, adelantó que presentarán un proyecto para declararla de interés municipal.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-eugenia-blotta-destaco-la-llegada-de-la-unlu-corre\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Eugenia Blotta destacó la llegada de La UNLu corre por la inclusión",
-   "urgente": false,
-   "vence": "2026-10-23T00:29:10.000Z",
-   "video_bytes": 9087491,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c58edec5691bf919.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4|tiktok": {
@@ -14726,15 +14561,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|tiktok": {
-   "actualizado": "2026-10-29T14:20:15.000Z",
+   "actualizado": "2026-10-31T14:20:14.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|tiktok",
    "creado": "2026-10-29T14:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-29T14:01:00.000Z",
    "id": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4",
    "intentos": 0,
@@ -19569,45 +19404,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_02_chacabuco_una-mujer-de-31-a-os-fue-hospi.mp4",
    "viral": false
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok": {
-   "actualizado": "2026-10-21T14:20:14.000Z",
-   "buffer_id": "6ad8b76b88865f7e6d302290",
-   "categoria": "",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html|tiktok",
-   "creado": "2026-10-21T01:40:14.000Z",
-   "dueAt": "2026-10-21T13:03:37.000Z",
-   "enviado": "2026-10-21T13:09:07.869Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-21T01:31:08.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7699107057726688532",
-   "metricas": {
-    "averageTimeWatched": 4.02,
-    "comments": 0,
-    "engagementRate": 0.27,
-    "reach": 266,
-    "reactions": 1,
-    "shares": 0,
-    "totalTimeWatched": 27.97,
-    "views": 375
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos\n\nUna vecina de esta ciudad solicitó auxilio policial en la madrugada luego de que su ex pareja intentara ingresar a su domicilio por los fondos. El agresor escapó antes de la llegada de los móviles.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-pidio-auxilio-tras-ser-acosada-por-su-ex-1c9da0\n\n#chivilcoy #diariolacampaña #radiodelcentro #chacabuco #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Acoso y persecución de una ex pareja que intentó meterse a robar por los fondos",
-   "urgente": false,
-   "vence": "2026-10-21T19:31:08.000Z",
-   "video_bytes": 82430,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_0104_04_chacabuco_acoso-y-persecuci-n-de-una-ex-.mp4",
-   "viral": false
-  },
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d|x": {
    "actualizado": "2026-10-31T02:20:21.000Z",
    "buffer_id": "",
@@ -23780,44 +23576,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x": {
-   "actualizado": "2026-10-21T14:20:14.000Z",
-   "buffer_id": "6ad8a4a13021c1ef52b36650",
-   "clave": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce|x",
-   "creado": "2026-10-21T10:20:15.000Z",
-   "dueAt": "2026-10-21T13:06:59.000Z",
-   "enviado": "2026-10-21T13:07:39.040Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-21T10:03:17.727Z",
-   "id": "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce",
-   "ig_hora": "2026-10-21T13:06:57.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112893575486742860",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 2.7,
-    "impressions": 37,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
-   "noticia": "nota:drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: allanamiento por drogas dejó dos aprehendidos y el secuestro de cocaína fraccionada\n\nIncautaron 22 envoltorios de sustancia, celulares y una balanza de precisión. El operativo se realizó tras una investigación.\n\nhttps://www.diariolacampaña.com.ar/n/drogas-ilicitas-chivilcoy-allanamiento-por-drogas-dejo-dos",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: allanamiento por drogas dejó dos aprehendidos y el secuestro de cocaína fraccionada",
-   "urgente": false,
-   "vence": "2026-10-21T14:06:57.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892|x": {
    "actualizado": "2026-10-26T12:06:20.000Z",
    "buffer_id": "",
@@ -26176,20 +25934,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00251|tiktok",
-   "cuando": "2026-10-26T18:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x",
-   "cuando": "2026-10-26T18:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114765862779392223"
-  },
   {
    "clave": "entrevistas:job00249|x",
    "cuando": "2026-10-26T18:20:15.000Z",
@@ -30378,6 +30122,18 @@
    "cuando": "2026-10-31T14:00:23.000Z",
    "dueAt": "2026-10-31T14:02:03.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tiktok",
+   "cuando": "2026-10-31T14:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|tiktok",
+   "cuando": "2026-10-31T14:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {

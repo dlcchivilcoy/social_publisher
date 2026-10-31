@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 11:00 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 11:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -20,16 +20,16 @@ Actualizado: 31/10/2026 11:00 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 29 · likes 0
 - X · Reels del bot: 78 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
-- X · Notas web: 63 con métricas · mediana vistas/impresiones 20 · likes 0
+- X · Notas web: 62 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 100 · likes 1
-- TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 258 · likes 3
-- TikTok · Reels policiales: 6 con métricas · mediana vistas/impresiones 541.5 · likes 3.5
+- TikTok · Reels del bot: 58 con métricas · mediana vistas/impresiones 258 · likes 3
+- TikTok · Reels policiales: 5 con métricas · mediana vistas/impresiones 568 · likes 4
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
 15m: quedan 149 de 150 · 24h: quedan 596 de 600 · 30d: quedan 919 de 2000 (visto 2026-10-31T14:00:23.000Z)
 
-## Cola propia (15 esperando)
+## Cola propia (13 esperando)
 - TikTok · Reels del bot · Una camioneta quedó destruida por un incendio en la ruta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Daniel Magni presentó su libro Remembranzas junto a una muestra sobre Borges — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · RECUPERARON una moto robada y aprehendieron a un menor — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -43,8 +43,6 @@ Actualizado: 31/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -54,8 +52,6 @@ Actualizado: 31/10/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T01:40 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tikto 
-- 2026-10-31T02:20 recibido web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54|x 
 - 2026-10-31T02:20 vencido policiales:https://www.bragadoinforma.com.ar/nota/31090/un-a espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-31T02:20 vencido policiales:https://www.chacabuquero.com.ar/2026/10/policiale espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-31T02:20 vencido policiales:https://www.diariodemocracia.com/ciudad/junin/347 espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -79,3 +75,5 @@ Actualizado: 31/10/2026 11:00 (hora AR) · ACTIVO
 - 2026-10-31T14:00 recibido bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|tikto 
 - 2026-10-31T14:00 recibido web:2001b7d6-2e52-49f0-b4f5-8b548c3ef7f9|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-31T14:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|x 
+- 2026-10-31T14:20 vencido bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-31T14:20 vencido bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
