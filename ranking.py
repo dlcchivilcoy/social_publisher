@@ -19,6 +19,7 @@ PREMIO: uno solo, $50.000 para el 1er puesto (RANKING_PREMIOS).
 """
 import json
 import math
+import re
 import smtplib
 import ssl
 import tempfile
@@ -110,7 +111,9 @@ def _identidad(filas: list[dict]) -> dict:
     for f in filas:
         clave = (f.get("corresponsal_celular") or "").strip() or \
                 " ".join((f.get("corresponsal_nombre") or "—").split()).lower()
-        nombre = " ".join((f.get("corresponsal_nombre") or "").split())
+        # Sin números: hay quien firma «Daniel Magni. 2346. 667351.» y el nombre sale en la web.
+        nombre = " ".join(re.sub(r"\d[\d\s.\-]*", " ", f.get("corresponsal_nombre") or "").split())
+        nombre = nombre.strip(" .,-·")
         por_clave.setdefault(clave, []).append(nombre)
     salida = {}
     for clave, nombres in por_clave.items():
@@ -129,6 +132,18 @@ def _identidad(filas: list[dict]) -> dict:
 def _clave_de(fila: dict) -> str:
     return (fila.get("corresponsal_celular") or "").strip() or \
         " ".join((fila.get("corresponsal_nombre") or "—").split()).lower()
+
+
+def _fuera_del_ranking(fila: dict) -> bool:
+    """¿Es de un número con publicación directa (`CORRESPONSALES_DIRECTO`)? Esos no compiten
+    por el premio (pedido del usuario 2026-10-31). Se mira el número de HOY en el `.env`, no la
+    marca `publicacion_directa` de la fila: las notas que mandaron antes de habilitarlos no la
+    tienen. Misma comparación que `transcriber._publica_directo` (últimos 10 dígitos)."""
+    propio = re.sub(r"\D", "", fila.get("corresponsal_celular") or "")[-10:]
+    if len(propio) < 8:
+        return False
+    return any(re.sub(r"\D", "", n)[-10:] == propio
+               for n in (get("CORRESPONSALES_DIRECTO") or "").split(",") if re.sub(r"\D", "", n))
 
 
 def _filas_del_mes(rows: list[dict], mes: str) -> list[dict]:
@@ -357,6 +372,11 @@ def run_corresponsales_ranking(mes: str | None = None, dry_run: bool = False) ->
 
     rows = _leer_ledger()
     filas = _filas_del_mes(rows, mes)
+    # Afuera ANTES de puntuar: tampoco cuentan para las medianas contra las que se compara al resto.
+    fuera = [f for f in filas if _fuera_del_ranking(f)]
+    filas = [f for f in filas if not _fuera_del_ranking(f)]
+    if fuera:
+        logger.info(f"{len(fuera)} nota(s) de números con publicación directa quedan fuera del ranking.")
     if not filas:
         logger.info(f"No hubo notas de corresponsales publicadas en {mes}. No se manda ranking.")
         return
@@ -447,7 +467,9 @@ def run_corresponsales_ranking(mes: str | None = None, dry_run: bool = False) ->
         f"y se promedian solo las redes donde el video salió. El puntaje final combina la calidad "
         f"promedio con la constancia (más notas suman, con rendimientos decrecientes). "
         f"Detalle nota por nota en el Excel adjunto.</p>"
-        f"{intro_wix}</div>")
+        + (f"<p style='color:#777;font-size:13px'>No compiten los números con publicación directa "
+           f"({len(fuera)} nota/s este mes).</p>" if fuera else "")
+        + f"{intro_wix}</div>")
     _enviar_mail(f"🏆 Ranking Corresponsales — {_mes_largo(mes)}", html, resumen_txt, xlsx)
     logger.info(f"Ranking {mes} listo. Podio: "
                 + " | ".join(f"{d['puesto']}° {d['nombre']}" for d in ganadores))
