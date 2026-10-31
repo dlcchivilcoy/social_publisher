@@ -2238,25 +2238,26 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
    "youtube_url": "https://www.youtube.com/shorts/LsKqqaxZmvA"
   },
-  "entrevistas:job00236": {
-   "descripcion": "El referente peronista Pablo Poggi cuestionó con dureza al intendente de Chivilcoy y afirmó que la gestión municipal está terminada ante las fallas en seguridad, tránsito y salud pública.",
-   "duracion_seg": null,
-   "entrevistado": "Pablo Poggi",
-   "generado": "2026-10-21T20:00:18.000Z",
-   "id": "entrevistas:job00236",
+  "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4": {
+   "descripcion": "Cientos de niños se congregaron en la plaza principal de Chivilcoy para celebrar los festejos de Halloween.\n\nLa jornada convocó a una multitud de chicos en el centro de la ciudad para compartir la tradicional celebración.",
+   "duracion_seg": 27.5,
+   "generado": "2026-10-31T20:36:50.000Z",
+   "id": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4",
    "localidad": "Chivilcoy",
-   "origen": "entrevistas",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
+   "origen": "bot",
    "plataformas": [
-    "x"
+    "x",
+    "tiktok"
    ],
    "prioridad": 7,
    "tipo": "video",
-   "titulo": "Pablo Poggi criticó la gestión en Chivilcoy",
+   "titulo": "Cientos de niños festejan Halloween en la plaza principal",
    "urgente": false,
-   "video_bytes": 28043208,
-   "video_mb": 26.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00236.mp4",
-   "youtube_url": "https://youtu.be/_gvuAHILQsY"
+   "video_bytes": 10651560,
+   "video_mb": 10.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b9f995cf7502a2db.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/G-25f68CK44"
   },
   "entrevistas:job00239": {
    "descripcion": "Fabián Casco, organizador del festival La Pampa Rock en Chivilcoy, destacó la gran respuesta del público y la pasión con la que preparan cada edición. Mirá todo lo que contó sobre el evento.",
@@ -7132,6 +7133,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/festival-al-aire-libre-la-pampa-rock-reprogramo-su-fecha-manteniendo",
    "volanta": "Festival al aire libre"
   },
+  "web:be3f2357-0b41-4b5c-a76e-7242f7a153df": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Cientos de niños festejan Halloween en la plaza principal Cientos de niños se congregaron en la plaza principal de Chivilcoy para celebrar los festejos de Halloween.",
+   "generado": "2026-10-31T20:35:36.201Z",
+   "id": "web:be3f2357-0b41-4b5c-a76e-7242f7a153df",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_67186964fa7f45348757559bee38deb3~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Cientos de niños festejan Halloween en la plaza principal",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
+   "volanta": "Chivilcoy · Sociedad"
+  },
   "web:bf6521bd-4d33-4790-8b06-46d2c1596e82": {
    "categoria": "",
    "descripcion": "APREHENDIERON a una mujer acusada de tentativa de robo Personal policial aprehendió a una mujer de 41 años en un domicilio ubicado en Alem 729, en Chivilcoy, acusada de intentar sustraer distintos elementos. Según se informó, la mujer habría intentado llevarse planchas de PVC, una bordeadora y caños de plástico, propiedad de una vecina. Intervino la UFI N.º 4 de Mercedes, que dispuso el cumplimiento de los recaudos legales correspondientes y las diligencias de rigor. Asimismo, ordenó que la...",
@@ -8242,17 +8262,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 595,
-   "segundos": 68402,
+   "restantes": 594,
+   "segundos": 46794,
    "tope": 600
   },
   "30d": {
-   "restantes": 918,
-   "segundos": 887425,
+   "restantes": 917,
+   "segundos": 865817,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-31T14:40:15.000Z",
+ "cuota_visto": "2026-10-31T20:40:24.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -15230,41 +15250,60 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
    "viral": false
   },
-  "entrevistas:job00236|x": {
-   "actualizado": "2026-10-21T20:20:17.000Z",
-   "buffer_id": "6ad919d4b945508d3f845e7d",
-   "clave": "entrevistas:job00236|x",
-   "creado": "2026-10-21T20:00:18.000Z",
-   "dueAt": "2026-10-21T20:02:05.000Z",
-   "enviado": "2026-10-21T20:02:32.246Z",
+  "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok": {
+   "actualizado": "2026-10-31T20:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok",
+   "creado": "2026-10-31T20:40:14.000Z",
+   "dueAt": "",
    "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-21T20:00:18.000Z",
-   "id": "entrevistas:job00236",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-31T20:36:50.000Z",
+   "id": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4",
    "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112997985634173024",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 8.57,
-    "impressions": 35,
-    "reactions": 1,
-    "reposts": 1
-   },
-   "nota_url": "",
-   "noticia": "titulo:chivilcoy-critico-gestion-pablo-poggi",
-   "origen": "entrevistas",
-   "plataforma": "x",
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
    "prioridad": 7,
-   "texto": "Pablo Poggi criticó la gestión en Chivilcoy\n\nEl referente peronista Pablo Poggi cuestionó con dureza al intendente de Chivilcoy y afirmó que la gestión municipal está terminada ante las fallas en seguridad, tránsito y salud pública.\n\nhttps://youtu.be/_gvuAHILQsY",
+   "texto": "Cientos de niños festejan Halloween en la plaza principal\n\nCientos de niños se congregaron en la plaza principal de Chivilcoy para celebrar los festejos de Halloween. La jornada convocó a una multitud de chicos en el centro de la ciudad para compartir la tradicional celebración.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
    "texto_v": 2,
    "tipo": "video",
-   "titulo": "Pablo Poggi criticó la gestión en Chivilcoy",
+   "titulo": "Cientos de niños festejan Halloween en la plaza principal",
    "urgente": false,
-   "vence": "2026-10-21T22:00:18.000Z",
-   "video_bytes": 28043208,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00236.mp4",
+   "vence": "2026-11-02T20:36:50.000Z",
+   "video_bytes": 10651560,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b9f995cf7502a2db.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x": {
+   "actualizado": "2026-10-31T20:40:23.000Z",
+   "buffer_id": "6ae6523837c1acd2a0ccbba2",
+   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x",
+   "creado": "2026-10-31T20:40:14.000Z",
+   "dueAt": "2026-10-31T20:42:16.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-31T20:36:50.000Z",
+   "id": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
+   "noticia": "nota:chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Cientos de niños festejan Halloween en la plaza principal\n\nCientos de niños se congregaron en la plaza principal de Chivilcoy para celebrar los festejos de Halloween.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cientos de niños festejan Halloween en la plaza principal",
+   "urgente": false,
+   "vence": "2026-10-31T22:36:50.000Z",
+   "video_bytes": 10651560,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b9f995cf7502a2db.mp4",
    "viral": false
   },
   "entrevistas:job00239|x": {
@@ -24176,6 +24215,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:be3f2357-0b41-4b5c-a76e-7242f7a153df|x": {
+   "actualizado": "2026-10-31T20:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:be3f2357-0b41-4b5c-a76e-7242f7a153df|x",
+   "creado": "2026-10-31T20:40:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-31T20:35:36.201Z",
+   "id": "web:be3f2357-0b41-4b5c-a76e-7242f7a153df",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
+   "noticia": "nota:chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Cientos de niños festejan Halloween en la plaza principal",
+   "urgente": false,
+   "vence": "2026-11-01T00:35:36.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:bf6521bd-4d33-4790-8b06-46d2c1596e82|x": {
    "actualizado": "2026-10-24T17:20:15.000Z",
    "buffer_id": "",
@@ -25897,36 +25961,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6adfd222786a2b5ea421b85a",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|x",
-   "cuando": "2026-10-26T22:20:19.000Z",
-   "dueAt": "2026-10-26T22:22:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adfd223c26d8b40cc7a5a35",
-   "clave": "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero|x",
-   "cuando": "2026-10-26T22:20:19.000Z",
-   "dueAt": "2026-10-26T22:28:26.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x",
-   "cuando": "2026-10-26T22:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|tiktok",
-   "cuando": "2026-10-26T22:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x",
    "cuando": "2026-10-26T22:40:30.000Z",
@@ -30095,6 +30129,37 @@
    "cuando": "2026-10-31T20:20:14.000Z",
    "evento": "vencido",
    "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x",
+   "cuando": "2026-10-31T20:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok",
+   "cuando": "2026-10-31T20:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:be3f2357-0b41-4b5c-a76e-7242f7a153df|x",
+   "cuando": "2026-10-31T20:40:23.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae6523837c1acd2a0ccbba2",
+   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x",
+   "cuando": "2026-10-31T20:40:24.000Z",
+   "dueAt": "2026-10-31T20:42:16.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -30305,6 +30370,7 @@
   "bot:video_matias-zucchi_mvvldft40mvd_01.mp4": "2026-10-30T23:40:18.000Z",
   "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4": "2026-10-31T09:00:16.000Z",
   "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4": "2026-10-31T16:40:18.000Z",
+  "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4": "2026-10-31T20:40:14.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -31025,6 +31091,7 @@
   "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c": "2026-10-16T01:00:17.000Z",
   "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a": "2026-10-18T16:40:14.000Z",
   "web:be16b20b-29a0-45de-ae35-dec56c678655": "2026-10-18T23:00:17.000Z",
+  "web:be3f2357-0b41-4b5c-a76e-7242f7a153df": "2026-10-31T20:40:14.000Z",
   "web:bf6521bd-4d33-4790-8b06-46d2c1596e82": "2026-10-24T17:20:15.000Z",
   "web:bfd610a6-2963-4140-98d0-d45bf948298c": "2026-10-26T12:06:06.000Z",
   "web:c00bb224-879f-4991-ba6d-b57cef2f5104": "2026-10-24T17:20:15.000Z",
