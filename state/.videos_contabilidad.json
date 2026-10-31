@@ -37162,5 +37162,82 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-10-31T17:43:29",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26",
+    "uploader": "",
+    "fecha_recibido": "2026-10-31T17:52:17",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Incendio forestal",
+    "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
+    "resumen": "Bomberos Voluntarios sofocaron un incendio de ramas y monte registrado este domingo en la banquina de la Ruta 30. El bombero Emmanuel Artola confirmó que el siniestro no causó pérdidas mayores y que lograron evitar su propagación a campos linderos.",
+    "texto": "Una dotación de Bomberos Voluntarios intervino este domingo pasadas las 16 horas en un incendio forestal registrado sobre la banquina de la Ruta Provincial 30, a unos kilómetros del parque La Martija, en cercanías a la propiedad de Hugo Vita.\n\nEl bombero voluntario Emmanuel Artola, quien estuvo a cargo de las tareas, explicó que al arribar al sector hallaron fuego en ramas y monte. «Rápidamente desplegamos de línea de ataque, logrando circunscribir el incendio en ese sector, evitando que se propague a un campo lindero», señaló.\n\nPor último, Artola precisó que no se lamentaron pérdidas mayores y que «solamente fue afectado un poco el alambrado». El foco fue calificado como de proporciones pequeñas y en el lugar trabajó una dotación compuesta por cinco efectivos.",
+    "bajada_reel": "",
+    "escrito": "Incendio forestal por ruta 30 en un campo de Hugo Vita, incendio de ramas y monte que estaban por la banquina, evitaron que se propague a campos linderos apagando el incendio, se trabajó con una dotación de 5 hombres a cargo de Emmanuel Artola",
+    "tarjetas_fotos": [],
+    "draft_id": "84b9ef63-b752-4b47-a2ac-8e5b53cabe38",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-10-31-matias-zucchi-mv.mp4",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-10-31T20:47:14.047Z — wa:5492346417636",
+    "decl": {
+      "audio": "audio_matias-zucchi_mvwvgtctjr26_01.ogg",
+      "visual": "foto_matias-zucchi_mvwvgtctjr26_02.jpg",
+      "es_foto": true,
+      "nombre": "Emmanuel Artola",
+      "cargo": "Bombero Voluntario",
+      "frases": [
+        {
+          "desde": 0.1,
+          "texto": "Alerta por incendio en Ruta 30"
+        },
+        {
+          "desde": 12.2,
+          "texto": "Fuego en ramas sobre la banquina"
+        },
+        {
+          "desde": 26.7,
+          "texto": "Evitaron propagación a campo lindero"
+        },
+        {
+          "desde": 41.5,
+          "texto": "Solo se afectó un alambrado"
+        },
+        {
+          "desde": 52.1,
+          "texto": "Dotación de cinco bomberos"
+        }
+      ],
+      "tramo": {
+        "desde": 0.1,
+        "hasta": 55.1
+      },
+      "transcripcion": "Pasadas las 16 horas fuimos alertados por el incendio de un campo en ruta 30, pasando la martija unos cuantos kilómetros, el campo de Hugo Vita. Al llegar al lugar nos encontramos con un incendio de ramas y monte que estaban en la banquina de dicha ruta. Así que bueno, rápidamente desplegamos de línea de ataque, logrando circunscribir el incendio en ese sector, evitando que se propague a un campo lindero Así que bueno, las pérdidas, nada, por suerte no hubo, solamente fue afectado un poco el alambrado Pero el incendio en sí fue de proporciones pequeñas, se trabajó con una dotación de 5 hombres a mi cargo",
+      "asr": "groq"
+    },
+    "tema_4x5": "grafito",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-10-31T17:55:55",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "vía Buffer (distribuidor)",
+      "ig_historia": "omitida (dura 60 s; las historias admiten hasta 60)",
+      "fb_historia": "omitida (dura 60 s; las historias admiten hasta 60)"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
+    "ig_media_id": "18115632068027768",
+    "fb_video_id": "2509610476194481",
+    "ig_historia_id": "",
+    "fb_historia_id": "",
+    "yt_video_id": "WJXamdVGLck",
+    "yt_url": "https://www.youtube.com/shorts/WJXamdVGLck"
   }
 ]
