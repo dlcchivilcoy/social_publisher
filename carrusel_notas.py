@@ -412,6 +412,42 @@ def _individual_activo() -> bool:
     return (get("CARRUSEL_INDIVIDUAL") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
+def _reel_activo() -> bool:
+    """Instagram: cada nota sale como REEL hecho con las mismas placas del carrusel explicativo (pedido del
+    31/10/2026: «transformar los carruseles de las notas del diario de la mañana en reels»).
+    CARRUSEL_REEL=0 vuelve al carrusel."""
+    return (get("CARRUSEL_REEL") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+def _seg_por_placa() -> float:
+    """Segundos que se ve cada placa en el reel (CARRUSEL_REEL_SEG, 6: lo que lleva leer una lámina)."""
+    try:
+        return max(3.0, float(get("CARRUSEL_REEL_SEG") or 6))
+    except ValueError:
+        return 6.0
+
+
+def _reel_de_placas(placas: list) -> Path:
+    """El reel de UNA nota: la portada con la foto y las láminas, una tras otra con fundido, en 4:5 (el
+    tamaño de las placas) y con la placa de cierre de siempre. Las placas ya traen logo e isologo."""
+    from video import build_slideshow, to_vertical_reel
+    carpeta = Path(placas[0]).parent
+    base = build_slideshow(placas, carpeta / "_base_reel.mp4", seg=_seg_por_placa(), alto=1350)
+    return to_vertical_reel(base, carpeta / "reel.mp4", audio=False, compuesto=True, logo=False, alto=1350)
+
+
+def _publicar_reel(caption: str, placas: list) -> None:
+    from utils.image_host import upload_to_imgbb
+    from utils.video_host import upload_reel
+    url = upload_reel(_reel_de_placas(placas))
+    try:
+        portada = upload_to_imgbb(Path(placas[0]))
+    except Exception as e:  # noqa: BLE001 — sin portada propia Instagram usa el primer cuadro, que es la misma
+        logger.warning(f"[instagram] no pude subir la portada del reel ({e}); va sin cover_url")
+        portada = ""
+    instagram.publish_reel(url, caption, cover_url=portada)
+
+
 def _intervalo_seg() -> int:
     """Minutos entre una nota y la siguiente en Instagram (CARRUSEL_INTERVALO_MIN). 15 desde el 19/10/2026
     (pedido del editor: «que arranque a las 7am y se posteen cada 15 minutos»); antes, 5."""
@@ -523,93 +559,115 @@ def _laminas_de_parrafos(cuerpo: list) -> list:
 
 
 def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, primer: str,
-                          site: str, escribir=None, tema: str = "claro") -> list:
+                          site: str, escribir=None, tema: str = "claro", numerar: bool = True) -> list:
     """Las placas del carrusel de UNA nota: la portada CON LA FOTO de la nota (la misma placa del carrusel
     de siempre) y las láminas que la explican, SOLO TEXTO (pedido del 18/10/2026: «la primera con imagen y
     las siguientes solo texto bien diseñado; no quiero carruseles sin fotos»). Sin foto de la nota no hay
     carrusel: ValueError, y la nota no sale en Instagram. `escribir(volanta, titular, texto)` →
-    [{titulo, texto}] (Gemini)."""
+    [{titulo, texto}] (Gemini). `numerar=False` (el reel): sin «01 / 04» ni «Deslizá y seguí leyendo»; abajo
+    va «Seguí leyendo en <sitio>»."""
     if not note.get("image") or not Path(note["image"]).is_file():
         raise ValueError("la nota no tiene foto propia: sin foto no sale el carrusel")
     if escribir is None:
         from utils import gemini
         escribir = gemini.laminas_explicativas
     laminas = escribir(volanta, titular, "\n\n".join(cuerpo)) or _laminas_de_parrafos(cuerpo)
-    total = 1 + len(laminas)
-    placas = [compose_carrusel_slide(note["image"], volanta, titular, primer, site_url=site, idx=1, total=total,
-                                     tema=tema)]
-    for i, l in enumerate(laminas, 2):
-        placas.append(compose_lamina_carrusel(None, volanta, l["titulo"], l["texto"], site,
-                                              idx=i, total=total, tema=tema))
-    # El compositor nombra el archivo por el texto: dos notas con láminas parecidas (o la placa del
-    # carrusel de Facebook) se pisarían. Cada nota guarda las suyas en su propia carpeta.
+    total = 1 + len(laminas) if numerar else None
+    # El compositor nombra el archivo por el texto (y el número): dos notas con láminas parecidas (o la
+    # placa del carrusel de Facebook) se pisarían. Cada nota guarda las suyas en su propia carpeta, y cada
+    # placa se mueve apenas sale (sin número, dos láminas sin título tendrían el mismo nombre).
     import hashlib
     import shutil
-    carpeta = placas[0].parent / "explicativo" / hashlib.sha1(note["key"].encode("utf-8")).hexdigest()[:12]
-    carpeta.mkdir(parents=True, exist_ok=True)
-    propias = []
-    for i, placa in enumerate(placas, 1):
+    propias, carpeta = [], None
+    for i, l in enumerate([None] + laminas, 1):
+        idx = i if numerar else None
+        if l is None:
+            placa = compose_carrusel_slide(note["image"], volanta, titular, primer, site_url=site, idx=idx,
+                                           total=total, tema=tema)
+        else:
+            placa = compose_lamina_carrusel(None, volanta, l["titulo"], l["texto"], site, idx=idx, total=total,
+                                            tema=tema)
+        if carpeta is None:
+            carpeta = placa.parent / "explicativo" / hashlib.sha1(note["key"].encode("utf-8")).hexdigest()[:12]
+            carpeta.mkdir(parents=True, exist_ok=True)
         destino = carpeta / f"{i:02d}.jpg"
         shutil.move(str(placa), destino)
         propias.append(destino)
     return propias
 
 
-def _caption_individual(note: dict, volanta: str, titular: str, primer: str, site: str) -> str:
-    """El texto de cada nota en Instagram: volanta, titular, un resumen, la invitación a deslizar y la
-    WEB del diario (pedido del 18/10/2026: nunca el link de la nota) + hashtags."""
+def _caption_individual(note: dict, volanta: str, titular: str, primer: str, site: str,
+                        reel: bool = False) -> str:
+    """El texto de cada nota en Instagram: volanta, titular, un resumen, la invitación a deslizar (en el
+    carrusel) y la WEB del diario (pedido del 18/10/2026: nunca el link de la nota) + hashtags."""
     cabeza = f"{volanta.strip().upper()}\n📰 {titular}" if (volanta or "").strip() else f"📰 {titular}"
     partes = [cabeza]
     resumen = _resumen_caption(primer, 280)
     if resumen:
         partes.append(resumen)
-    partes += ["👉 Deslizá para conocer los detalles.", f"📲 Más noticias en {site}", _hashtags(note)]
+    if not reel:
+        partes.append("👉 Deslizá para conocer los detalles.")
+    partes += [f"📲 Más noticias en {site}", _hashtags(note)]
     return "\n\n".join(p for p in partes if p)
 
 
 def _instagram_individual(posts_folder: Path, notas: list, ledger: set, hoy: date, site: str,
-                          dry_run: bool, escribir=None, dormir=time.sleep, reloj=time.monotonic) -> int:
-    """Publica cada nota como su propio carrusel explicativo en Instagram, una cada _intervalo_seg().
+                          dry_run: bool, escribir=None, dormir=time.sleep, reloj=time.monotonic,
+                          publicar_reel=None) -> int:
+    """Publica cada nota como su propio carrusel explicativo en Instagram —o, con _reel_activo(), como reel
+    hecho con esas mismas placas—, una cada _intervalo_seg().
     `notas`: [(note, volanta, titular, cuerpo, primer)] en orden. Anota cada nota en el ledger apenas
     sale (una corrida cortada no repite las que ya salieron). Devuelve cuántas salieron."""
+    reel = _reel_activo()
+    publicar_reel = publicar_reel or _publicar_reel
+    formato = "reel" if reel else "carrusel explicativo"
     armadas = []
     for k, (note, volanta, titular, cuerpo, primer) in enumerate(notas):
         try:
-            placas = _carrusel_explicativo(note, volanta, titular, cuerpo, primer, site, escribir, _tema_de(k))
+            placas = _carrusel_explicativo(note, volanta, titular, cuerpo, primer, site, escribir, _tema_de(k),
+                                           numerar=not reel)
         except Exception as e:  # noqa: BLE001 — una nota que no se puede armar no frena a las otras
             logger.error(f"[instagram] no se pudo armar el carrusel de «{titular[:40]}»: {e}")
             continue
-        armadas.append((note, titular, placas, _caption_individual(note, volanta, titular, primer, site)))
+        armadas.append((note, titular, placas, _caption_individual(note, volanta, titular, primer, site, reel),
+                        _caption_individual(note, volanta, titular, primer, site)))
     intervalo = _intervalo_seg()
-    logger.info(f"[instagram] {len(armadas)} nota(s) como carrusel explicativo, una cada {intervalo // 60} min")
+    logger.info(f"[instagram] {len(armadas)} nota(s) como {formato}, una cada {intervalo // 60} min")
     if dry_run:
-        for note, titular, placas, caption in armadas:
+        for note, titular, placas, caption, _cc in armadas:
             logger.info(f"[dry-run] «{titular[:50]}»: {len(placas)} placa(s)\n{caption}")
         return 0
     # X a la par (20/10/2026): el plan va primero; si quedó arriba, la primera nota espera al distribuidor.
     adelanto = 0
     if armadas and _plan_x_activo():
         adelanto = _plan_adelanto_seg()
-        plan = plan_para_x([t for _n, t, _p, _c in armadas],
+        plan = plan_para_x([t for _n, t, _p, _c, _cc in armadas],
                            datetime.now(timezone.utc) + timedelta(seconds=adelanto), intervalo)
         if not _avisar_plan_x(plan):
             adelanto = 0
     inicio = reloj() + adelanto
     salieron, historia_hecha = 0, False
-    for k, (note, titular, placas, caption) in enumerate(armadas):
+    for k, (note, titular, placas, caption, caption_carrusel) in enumerate(armadas):
         # Grilla fija (la hora del plan), aunque una publicación tarde.
         falta = inicio + intervalo * k - reloj()
         if falta > 0:
             dormir(falta)
         try:
-            instagram.publish_carousel(caption, placas)
+            if reel:
+                try:
+                    publicar_reel(caption, placas)
+                except Exception as e:  # noqa: BLE001 — el reel no salió: la nota no se pierde, va en carrusel
+                    logger.error(f"[instagram] el reel de «{titular[:40]}» FALLÓ ({e}); sale como carrusel")
+                    instagram.publish_carousel(caption_carrusel, placas)
+            else:
+                instagram.publish_carousel(caption_carrusel, placas)
         except Exception as e:  # noqa: BLE001
             logger.error(f"[instagram] «{titular[:40]}» FALLÓ: {e}")
             continue
         salieron += 1
         ledger.add(note["key"])
         _save_ledger(posts_folder, ledger)          # tras cada nota: un corte no repite lo hecho
-        logger.info(f"[instagram] carrusel explicativo OK — «{titular[:40]}» ({len(placas)} placas)")
+        logger.info(f"[instagram] {formato} OK — «{titular[:40]}» ({len(placas)} placas)")
         # La historia con la portada (pedido 2026-10-03), con la primera que sale.
         if not historia_hecha and _historia_activa():
             historia_hecha = True
