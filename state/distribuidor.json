@@ -2217,26 +2217,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
    "youtube_url": "https://www.youtube.com/shorts/LsKqqaxZmvA"
   },
-  "entrevistas:job00235": {
-   "descripcion": "La concejal Rosario Galland advirtió sobre las graves fallas edilicias y la humedad en las viviendas de San Ceferino 3 en Chivilcoy. También alertó sobre la falta de respuestas y asfalto de cara a las obras del San Ceferino 4.",
-   "duracion_seg": null,
-   "entrevistado": "Rosario Galland",
-   "generado": "2026-10-21T16:40:14.000Z",
-   "id": "entrevistas:job00235",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Rosario Galland denuncia fallas en San Ceferino 3",
-   "urgente": false,
-   "video_bytes": 30763549,
-   "video_mb": 29.3,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00235.mp4",
-   "youtube_url": "https://youtu.be/nbVuebH4AQ4"
-  },
   "entrevistas:job00236": {
    "descripcion": "El referente peronista Pablo Poggi cuestionó con dureza al intendente de Chivilcoy y afirmó que la gestión municipal está terminada ante las fallas en seguridad, tránsito y salud pública.",
    "duracion_seg": null,
@@ -15244,43 +15224,6 @@
    "vence": "2026-10-31T18:38:46.000Z",
    "video_bytes": 22824196,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
-   "viral": false
-  },
-  "entrevistas:job00235|x": {
-   "actualizado": "2026-10-21T17:00:18.000Z",
-   "buffer_id": "6ad8eaf1bc53d1798323c30a",
-   "clave": "entrevistas:job00235|x",
-   "creado": "2026-10-21T16:40:14.000Z",
-   "dueAt": "2026-10-21T16:42:51.000Z",
-   "enviado": "2026-10-21T16:43:15.199Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-21T16:40:14.000Z",
-   "id": "entrevistas:job00235",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2112947834018201982",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 5.71,
-    "impressions": 35,
-    "reactions": 1,
-    "reposts": 1
-   },
-   "nota_url": "",
-   "noticia": "titulo:ceferino-denuncia-fallas-galland-rosario",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Rosario Galland denuncia fallas en San Ceferino 3\n\nLa concejal Rosario Galland advirtió sobre fallas edilicias y humedad en viviendas de San Ceferino 3 en Chivilcoy. También alertó por la falta de respuestas y asfalto ante obras del San Ceferino 4.\n\nhttps://youtu.be/nbVuebH4AQ4",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Rosario Galland denuncia fallas en San Ceferino 3",
-   "urgente": false,
-   "vence": "2026-10-21T18:40:14.000Z",
-   "video_bytes": 30763549,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00235.mp4",
    "viral": false
   },
   "entrevistas:job00236|x": {
