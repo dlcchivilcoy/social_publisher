@@ -11922,15 +11922,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok": {
-   "actualizado": "2026-10-29T15:40:17.000Z",
+   "actualizado": "2026-10-31T15:40:14.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok",
    "creado": "2026-10-29T15:40:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-29T15:27:59.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
    "intentos": 0,
@@ -25936,12 +25936,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00251|x",
-   "cuando": "2026-10-26T19:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114784927321346532"
-  },
-  {
    "buffer_id": "6adfbf64465475d287755669",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tiktok",
    "cuando": "2026-10-26T21:00:23.000Z",
@@ -30134,6 +30128,12 @@
    "cuando": "2026-10-31T14:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2116531790382788783"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok",
+   "cuando": "2026-10-31T15:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
   }
  ],
  "tandas": {

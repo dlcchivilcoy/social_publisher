@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 12:20 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 12:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -29,7 +29,7 @@ Actualizado: 31/10/2026 12:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 149 de 150 · 24h: quedan 595 de 600 · 30d: quedan 918 de 2000 (visto 2026-10-31T14:40:15.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (10 esperando)
 - TikTok · Reels del bot · Una camioneta quedó destruida por un incendio en la ruta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Daniel Magni presentó su libro Remembranzas junto a una muestra sobre Borges — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · RECUPERARON una moto robada y aprehendieron a un menor — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -40,7 +40,6 @@ Actualizado: 31/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -50,7 +49,6 @@ Actualizado: 31/10/2026 12:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T02:20 vencido policiales:https://www.latrochadigital.com.ar/2026/10/30/dos espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-31T02:20 depurado web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54|x de la web, a X solo van las notas del diario de la mañana
 - 2026-10-31T02:40 recibido bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
 - 2026-10-31T02:40 recibido bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
@@ -75,3 +73,4 @@ Actualizado: 31/10/2026 12:20 (hora AR) · ACTIVO
 - 2026-10-31T14:40 vencido bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-31T14:40 vencido bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-31T14:40 enviado bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|x 
+- 2026-10-31T15:40 vencido bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
