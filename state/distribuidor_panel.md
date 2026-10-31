@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 30/10/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 30/10/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-30)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 30/10/2026 22:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 20 | 5 | 1 | 3 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 5 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 6 | 0 | 3 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 4 | 0 | 1 | 0 |
 | Notas web | X | 15 | 5 | 0 | 0 | 0 | 0 | 10 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 21 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 11 enviadas + 1 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 12 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 28.5 · likes 0
@@ -27,10 +27,9 @@ Actualizado: 30/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 570 de 600 · 30d: quedan 926 de 2000 (visto 2026-10-31T00:20:32.000Z)
+15m: quedan 149 de 150 · 24h: quedan 569 de 600 · 30d: quedan 925 de 2000 (visto 2026-10-31T01:40:16.000Z)
 
-## Cola propia (17 esperando)
-- X · Reels policiales · Bragado: cayó un sospechoso por drogas que intentó robarle el arma a un policía — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (16 esperando)
 - TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Dos allanamientos por intento de homicidio y daño — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -56,8 +55,6 @@ Actualizado: 30/10/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-30T21:00 programado entrevistas:job00266|tiktok 
-- 2026-10-30T21:00 programado entrevistas:job00265|tiktok 
 - 2026-10-30T21:20 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3|tikto 
 - 2026-10-30T22:20 enviado entrevistas:job00266|tiktok 
 - 2026-10-30T22:20 enviado entrevistas:job00267|tiktok 
@@ -81,3 +78,5 @@ Actualizado: 30/10/2026 22:20 (hora AR) · ACTIVO
 - 2026-10-31T00:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31090/un-a 
 - 2026-10-31T00:20 enviado bot:video_matias-zucchi_mvvldft40mvd_01.mp4|tiktok 
 - 2026-10-31T00:20 enviado bot:video_matias-zucchi_mvvldft40mvd_01.mp4|x 
+- 2026-10-31T01:40 vencido policiales:https://www.latrochadigital.com.ar/2026/10/30/bra espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-10-31T01:40 enviado bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tikto 

@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 11
+    "scheduled": 0,
+    "sent": 12
    },
    "pausado": false,
-   "visto": "2026-10-31T00:20:31.000Z"
+   "visto": "2026-10-31T01:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 21
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-10-31T00:20:31.000Z"
+   "visto": "2026-10-31T01:40:15.000Z"
   }
  },
  "contenidos": {
@@ -8429,17 +8429,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 570,
-   "segundos": 33585,
+   "restantes": 569,
+   "segundos": 28800,
    "tope": 600
   },
   "30d": {
-   "restantes": 926,
-   "segundos": 939009,
+   "restantes": 925,
+   "segundos": 934225,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-31T00:20:32.000Z",
+ "cuota_visto": "2026-10-31T01:40:16.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -12539,19 +12539,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tiktok": {
-   "actualizado": "2026-10-31T00:00:18.000Z",
+   "actualizado": "2026-10-31T01:40:15.000Z",
    "buffer_id": "6ae52f95ceb491e585c98ff2",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tiktok",
    "creado": "2026-10-30T23:00:20.000Z",
    "dueAt": "2026-10-31T00:23:06.000Z",
+   "enviado": "2026-10-31T00:24:57.888Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T22:52:24.000Z",
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702620964760210689",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -20025,14 +20026,14 @@
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x": {
-   "actualizado": "2026-10-30T23:40:18.000Z",
+   "actualizado": "2026-10-31T01:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x",
    "creado": "2026-10-30T23:40:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-30T23:31:41.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/",
    "intentos": 0,
@@ -26171,22 +26172,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x",
-   "cuando": "2026-10-26T15:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok",
-   "cuando": "2026-10-26T15:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:ce55311f-7f8e-46c0-8f9a-27108c261a21|x",
    "cuando": "2026-10-26T15:20:18.000Z",
    "estado": "descartado",
@@ -30373,6 +30358,18 @@
    "cuando": "2026-10-31T00:20:31.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2116314945621029090"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x",
+   "cuando": "2026-10-31T01:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tiktok",
+   "cuando": "2026-10-31T01:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702620964760210689"
   }
  ],
  "tandas": {
@@ -30410,7 +30407,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-31",
- "ultima_sync": "2026-10-31T00:20:31.000Z",
+ "ultima_sync": "2026-10-31T01:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
