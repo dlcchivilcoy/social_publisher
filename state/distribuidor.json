@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 12
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-10-31T01:40:15.000Z"
+   "visto": "2026-10-31T09:00:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 15
    },
    "pausado": false,
-   "visto": "2026-10-31T01:40:15.000Z"
+   "visto": "2026-10-31T09:00:21.000Z"
   }
  },
  "contenidos": {
@@ -2195,6 +2195,27 @@
    "video_mb": 6.3,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_797779e1cadc4e06.mp4",
    "youtube_url": "https://www.youtube.com/shorts/sv8r78PU6H0"
+  },
+  "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4": {
+   "descripcion": "Comenzó a disputarse el Torneo Sudamericano de Handball Baptiste De Martelaer, certamen deportivo que reúne a diversas delegaciones en las instalaciones del Club Atlético Independiente.\n\nLa primera jornada de la competencia culminó con el cruce de Primera División entre el equipo anfitrión y Embaixada de Brasil. La actividad se desarrolla de manera simultánea tanto en el playón de la institución como en el microestadio Grilon Arena.\n\nEl certamen cuenta con la participación de jugadoras y jugadores que abarcan desde la categoría Mini hasta Primera División, congregando a una gran cantidad de deportistas durante las diferentes fechas del calendario.\n\nLa acción continuará durante la jornada del sábado 31 de octubre a partir de las 9, mientras que el acto de inauguración oficial del evento deportivo está programado para las 21.15.",
+   "duracion_seg": 38.2,
+   "generado": "2026-10-31T02:56:17.000Z",
+   "id": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer",
+   "urgente": false,
+   "video_bytes": 8171597,
+   "video_mb": 7.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1a4a651c49b46480.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/bsigZ60JKsk"
   },
   "entrevistas:job00235": {
    "descripcion": "La concejal Rosario Galland advirtió sobre las graves fallas edilicias y la humedad en las viviendas de San Ceferino 3 en Chivilcoy. También alertó sobre la falta de respuestas y asfalto de cara a las obras del San Ceferino 4.",
@@ -5632,6 +5653,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juegos-bonaerenses-jorge-ponte-y-marcos-curioni-se-consagraron-con-la",
    "volanta": "Juegos Bonaerenses"
   },
+  "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer CHIVILCOY.– Con el partido de Primera División entre Independiente y Embaixada de Brasil culminó la primera jornada del Torneo Sudamericano de Handball Baptiste De Martelaer, certamen que se desarrolla tanto en el playón como en el Grilon Arena del Club Atlético Independiente. El torneo reúne a jugadoras y jugadores desde la categoría Mini hasta Primera División. La actividad continuará durante la jornada del sábado a...",
+   "generado": "2026-10-31T02:54:23.930Z",
+   "id": "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0dc2b44b39f84ad3a04d626d6f9a33ab~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec": {
    "categoria": "",
    "descripcion": "Jorge Guelffi destacó las actividades educativas y el compromiso social de la UNLu sede Chivilcoy con la comunidad El director del Centro Regional Chivilcoy de la Universidad Nacional de Luján (UNLu), Jorge Guelffi, visitó los estudios de Radio del Centro para repasar la intensa actividad académica e institucional que atraviesa la casa de altos estudios en este tramo final del año. Durante una extensa charla en el programa “La Mañana del Centro”, el directivo puso especial énfasis en el rol...",
@@ -8490,17 +8530,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 568,
-   "segundos": 25186,
+   "restantes": 567,
+   "segundos": 2395,
    "tope": 600
   },
   "30d": {
-   "restantes": 924,
-   "segundos": 930611,
+   "restantes": 923,
+   "segundos": 907819,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-31T02:40:30.000Z",
+ "cuota_visto": "2026-10-31T09:00:21.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -12649,18 +12689,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|x": {
-   "actualizado": "2026-10-31T02:40:29.000Z",
+   "actualizado": "2026-10-31T09:00:21.000Z",
    "buffer_id": "6ae5551e406ab8a018956a8e",
    "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|x",
    "creado": "2026-10-31T02:40:16.000Z",
    "dueAt": "2026-10-31T02:42:07.000Z",
+   "enviado": "2026-10-31T02:42:22.063Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-31T02:32:52.000Z",
    "id": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116360095772684590",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cultura-daniel-magni-presento-su-libro-remembranzas-junto-a-una",
    "noticia": "nota:cultura-daniel-magni-presento-su-libro-remembranzas-junto-a-una",
    "origen": "bot",
@@ -12705,14 +12746,14 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|x": {
-   "actualizado": "2026-10-31T02:40:16.000Z",
+   "actualizado": "2026-10-31T09:00:21.000Z",
    "buffer_id": "",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|x",
    "creado": "2026-10-31T02:40:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-31T02:22:25.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p",
    "intentos": 0,
@@ -15223,6 +15264,61 @@
    "vence": "2026-10-31T01:22:22.000Z",
    "video_bytes": 6596113,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_797779e1cadc4e06.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|tiktok": {
+   "actualizado": "2026-10-31T09:00:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|tiktok",
+   "creado": "2026-10-31T09:00:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-31T02:56:17.000Z",
+   "id": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer\n\nEl certamen reúne a diversas delegaciones en el Club Atlético Independiente y se desarrolla en el playón de la institución y en el microestadio Grilon Arena. La competencia cuenta con la participación de jugadoras y jugadores desde la categoría Mini hasta Primera División.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer",
+   "urgente": false,
+   "vence": "2026-11-02T02:56:17.000Z",
+   "video_bytes": 8171597,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1a4a651c49b46480.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|x": {
+   "actualizado": "2026-10-31T09:00:21.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|x",
+   "creado": "2026-10-31T09:00:16.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-10-31T02:56:17.000Z",
+   "id": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer\n\nEl certamen reúne a diversas delegaciones en el Club Atlético Independiente. Participan categorías desde Mini hasta Primera División en el playón y en el microestadio Grilon Arena.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer",
+   "urgente": false,
+   "vence": "2026-10-31T04:56:17.000Z",
+   "video_bytes": 8171597,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1a4a651c49b46480.mp4",
    "viral": false
   },
   "entrevistas:job00235|x": {
@@ -21759,6 +21855,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b|x": {
+   "actualizado": "2026-10-31T09:00:16.000Z",
+   "buffer_id": "",
+   "clave": "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b|x",
+   "creado": "2026-10-31T09:00:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-31T02:54:23.930Z",
+   "id": "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer",
+   "urgente": false,
+   "vence": "2026-10-31T06:54:23.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x": {
    "actualizado": "2026-10-29T11:40:18.000Z",
    "buffer_id": "6ae319eabdb1fae7ce366166",
@@ -26298,47 +26419,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00249",
-   "cuando": "2026-10-26T17:00:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00249|x",
-   "cuando": "2026-10-26T17:00:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00249|tiktok",
-   "cuando": "2026-10-26T17:00:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00248|x",
-   "cuando": "2026-10-26T17:00:29.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114759618370932749"
-  },
-  {
-   "buffer_id": "6adf872efd915805681eb270",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x",
-   "cuando": "2026-10-26T17:00:31.000Z",
-   "dueAt": "2026-10-26T17:02:44.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adf872f79c317817cfe982f",
-   "clave": "entrevistas:job00249|x",
-   "cuando": "2026-10-26T17:00:31.000Z",
-   "dueAt": "2026-10-26T17:08:20.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00250",
    "cuando": "2026-10-26T17:40:15.000Z",
    "evento": "entrevista_aprobada"
@@ -30495,6 +30575,48 @@
    "cuando": "2026-10-31T02:40:30.000Z",
    "dueAt": "2026-10-31T02:42:07.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|x",
+   "cuando": "2026-10-31T09:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|tiktok",
+   "cuando": "2026-10-31T09:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b|x",
+   "cuando": "2026-10-31T09:00:21.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|x",
+   "cuando": "2026-10-31T09:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|x",
+   "cuando": "2026-10-31T09:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|x",
+   "cuando": "2026-10-31T09:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116360095772684590"
   }
  ],
  "tandas": {
@@ -30532,7 +30654,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-31",
- "ultima_sync": "2026-10-31T01:40:15.000Z",
+ "ultima_sync": "2026-10-31T09:00:21.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -30701,6 +30823,7 @@
   "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4": "2026-10-30T14:40:14.000Z",
   "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4": "2026-10-30T15:00:19.000Z",
   "bot:video_matias-zucchi_mvvldft40mvd_01.mp4": "2026-10-30T23:40:18.000Z",
+  "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4": "2026-10-31T09:00:16.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -31165,6 +31288,7 @@
   "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": "2026-10-16T23:20:14.000Z",
   "web:4932e566-1b9a-47b3-98b4-4a91035bb79b": "2026-10-18T01:00:19.000Z",
   "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e": "2026-10-28T10:20:19.000Z",
+  "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b": "2026-10-31T09:00:16.000Z",
   "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699": "2026-10-20T01:20:14.000Z",
   "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec": "2026-10-29T10:02:34.000Z",
   "web:4c67800d-ecb6-4757-8e30-b02eb076372e": "2026-10-12T10:20:17.000Z",
