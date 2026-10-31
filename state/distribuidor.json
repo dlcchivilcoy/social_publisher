@@ -17,7 +17,7 @@
     "sent": 1
    },
    "pausado": false,
-   "visto": "2026-10-31T13:20:15.000Z"
+   "visto": "2026-10-31T14:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-31T13:20:15.000Z"
+   "visto": "2026-10-31T14:40:15.000Z"
   }
  },
  "contenidos": {
@@ -8274,17 +8274,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 596,
-   "segundos": 70795,
+   "restantes": 595,
+   "segundos": 68402,
    "tope": 600
   },
   "30d": {
-   "restantes": 919,
-   "segundos": 889818,
+   "restantes": 918,
+   "segundos": 887425,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-31T14:00:23.000Z",
+ "cuota_visto": "2026-10-31T14:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -11857,15 +11857,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|tiktok": {
-   "actualizado": "2026-10-29T14:40:15.000Z",
+   "actualizado": "2026-10-31T14:40:15.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|tiktok",
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-29T14:25:34.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b",
    "intentos": 0,
@@ -12581,18 +12581,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|x": {
-   "actualizado": "2026-10-31T14:00:22.000Z",
+   "actualizado": "2026-10-31T14:40:15.000Z",
    "buffer_id": "6ae5f477ab019b9087078023",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|x",
    "creado": "2026-10-31T14:00:18.000Z",
    "dueAt": "2026-10-31T14:02:03.000Z",
+   "enviado": "2026-10-31T14:04:37.021Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-31T13:52:35.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116531790382788783",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
    "noticia": "nota:ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
    "origen": "bot",
@@ -14614,15 +14615,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|tiktok": {
-   "actualizado": "2026-10-29T14:40:15.000Z",
+   "actualizado": "2026-10-31T14:40:15.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|tiktok",
    "creado": "2026-10-29T14:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-29T14:36:08.000Z",
    "id": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4",
    "intentos": 0,
@@ -25935,25 +25936,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00249|x",
-   "cuando": "2026-10-26T18:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114766170146439335"
-  },
-  {
-   "clave": "entrevistas:job00250|x",
-   "cuando": "2026-10-26T18:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114774725373083985"
-  },
-  {
-   "buffer_id": "6adf99e0188ed7b87267b2a9",
-   "clave": "entrevistas:job00251|x",
-   "cuando": "2026-10-26T18:20:16.000Z",
-   "dueAt": "2026-10-26T18:22:58.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00251|x",
    "cuando": "2026-10-26T19:20:16.000Z",
    "evento": "enviado",
@@ -30134,6 +30116,24 @@
    "cuando": "2026-10-31T14:20:14.000Z",
    "evento": "vencido",
    "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|tiktok",
+   "cuando": "2026-10-31T14:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|tiktok",
+   "cuando": "2026-10-31T14:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|x",
+   "cuando": "2026-10-31T14:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116531790382788783"
   }
  ],
  "tandas": {
@@ -30171,7 +30171,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-10-31",
- "ultima_sync": "2026-10-31T13:20:15.000Z",
+ "ultima_sync": "2026-10-31T14:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
