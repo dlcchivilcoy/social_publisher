@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 31/10/2026 09:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -20,31 +20,30 @@ Actualizado: 31/10/2026 09:40 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 29 · likes 0
 - X · Reels del bot: 78 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
-- X · Notas web: 66 con métricas · mediana vistas/impresiones 20 · likes 0
+- X · Notas web: 63 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 100 · likes 1
 - TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 258 · likes 3
 - TikTok · Reels policiales: 6 con métricas · mediana vistas/impresiones 541.5 · likes 3.5
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 599 de 600 · 30d: quedan 922 de 2000 (visto 2026-10-31T09:40:17.000Z)
+15m: quedan 149 de 150 · 24h: quedan 598 de 600 · 30d: quedan 921 de 2000 (visto 2026-10-31T13:00:26.000Z)
 
-## Cola propia (15 esperando)
-- TikTok · Reels del bot · Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Daniel Magni presentó su libro Remembranzas junto a una muestra sobre Borges — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · RECUPERARON una moto robada y aprehendieron a un menor — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (14 esperando)
+- TikTok · Reels del bot · Daniel Magni presentó su libro Remembranzas junto a una muestra sobre Borges — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · RECUPERARON una moto robada y aprehendieron a un menor — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gas — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Habilitaron un nuevo espacio sustentable en el Paseo Guernica — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Realizaron una volanteada para pedir justicia por el femicidio de Nancy — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Una vecina relató un episodio de exhibicionismo en avenida Villarino — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · Los bancos no atenderán al público durante cinco días seguidos — no entró entre las 1 más virales de la tanda 10 h
+- TikTok · Reels del bot · TRES hombres quedaron aprehendidos tras cuatro allanamientos por drogas — no entró entre las 1 más virales de la tanda 10 h
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -54,7 +53,6 @@ Actualizado: 31/10/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T00:20 recibido policiales:https://www.chacabuquero.com.ar/2026/10/policiale 
 - 2026-10-31T00:20 recibido policiales:https://www.latrochadigital.com.ar/2026/10/30/dos 
 - 2026-10-31T00:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31090/un-a 
 - 2026-10-31T00:20 enviado bot:video_matias-zucchi_mvvldft40mvd_01.mp4|tiktok 
@@ -79,3 +77,4 @@ Actualizado: 31/10/2026 09:40 (hora AR) · ACTIVO
 - 2026-10-31T09:00 vencido bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|x espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-10-31T09:00 vencido bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|x no hubo lugar antes de su vencimiento
 - 2026-10-31T09:00 enviado bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
+- 2026-10-31T13:00 programado bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|tiktok 
