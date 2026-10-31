@@ -2280,6 +2280,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_455ae2b8ac0c2900.mp4",
    "youtube_url": "https://www.youtube.com/shorts/WC6ltn6LyI0"
   },
+  "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4": {
+   "descripcion": "Se está llevando a cabo en Chivilcoy el Súper Torneo Intercolegial de Ajedrez 2026, con una destacada convocatoria de más de 150 alumnos que representan a diversas instituciones educativas de la ciudad.\n\nEntre los colegios participantes se encuentran la Escuela 65, la Secundaria 10 y la Técnica N° 1, cuyos estudiantes compiten frente al tablero por llevarse la copa, en un marco caracterizado por la concentración, la estrategia y el compañerismo.\n\nEl certamen tiene lugar en avenida Sóarez 114 a partir de las 14 horas. La propuesta cuenta con inscripción gratuita, no posee límite de edad e incluye la entrega de trofeos, medallas y sorteos entre los asistentes.\n\nDesde la organización informaron que aquellos interesados en sumarse todavía pueden registrarse comunicándose por WhatsApp al 2346-522136, donde se les asignará un lugar en el equipo correspondiente a su establecimiento escolar.",
+   "duracion_seg": 20.2,
+   "generado": "2026-10-31T21:03:41.000Z",
+   "id": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026",
+   "urgente": false,
+   "video_bytes": 6433164,
+   "video_mb": 6.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_053fb6430d6dce0f.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/vk0VolxTfEE"
+  },
   "entrevistas:job00239": {
    "descripcion": "Fabián Casco, organizador del festival La Pampa Rock en Chivilcoy, destacó la gran respuesta del público y la pasión con la que preparan cada edición. Mirá todo lo que contó sobre el evento.",
    "duracion_seg": null,
@@ -5406,6 +5427,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-chivilcoy-teatrero-abrio-una-nueva-edicion-con-un",
    "volanta": "Chivilcoy · Cultura"
   },
+  "web:436624c4-dead-4338-b58f-541ff1196bfe": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026 Se está llevando a cabo en Chivilcoy el Súper Torneo Intercolegial de Ajedrez 2026, con la participación de más de 150 alumnos pertenecientes a distintas instituciones educativas, entre ellas la Escuela 65, la Secundaria 10 y la Técnica N° 1, quienes compiten en representación de sus colegios. El certamen tiene lugar en avenida Sóarez 114 a partir de las 14 horas, con modalidad de inscripción gratuita y sin límite de edad....",
+   "generado": "2026-10-31T21:02:24.475Z",
+   "id": "web:436624c4-dead-4338-b58f-541ff1196bfe",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_400785b2e7864f8d9a270c2e31deed8c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:439df9f0-970a-42fd-979a-69b57c0f8607": {
    "categoria": "",
    "descripcion": "El libro de Alicia Ríos profundiza el recorrido histórico de la institución denominada “Luz del Oeste Nº 55”, focalizándose “en el período comprendido entre 1877 y 1919” La investigadora y museóloga Alicia Ríos presentó detalles de su obra bibliográfica dedicada a reconstruir el accionar y la trayectoria de la logia masónica que funcionó en Chivilcoy. Tras una primera exposición realizada en el marco de las Jornadas Regionales por la Educación Pública desarrolladas en la Escuela Normal, la...",
@@ -8316,22 +8356,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
-   "segundos": 899,
+   "restantes": 149,
+   "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 592,
-   "segundos": 45585,
+   "restantes": 591,
+   "segundos": 44397,
    "tope": 600
   },
   "30d": {
-   "restantes": 915,
-   "segundos": 864608,
+   "restantes": 914,
+   "segundos": 863420,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-31T21:00:37.000Z",
+ "cuota_visto": "2026-10-31T21:20:21.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -12041,7 +12081,7 @@
    "creado": "2026-10-30T00:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-30T00:00:57.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9",
@@ -12486,7 +12526,7 @@
    "creado": "2026-10-31T02:40:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-31T02:32:52.000Z",
    "id": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz",
@@ -12551,7 +12591,7 @@
    "creado": "2026-10-31T02:40:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-31T02:22:25.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p",
@@ -12607,7 +12647,7 @@
    "creado": "2026-10-31T14:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-31T13:52:35.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4",
@@ -14979,7 +15019,7 @@
    "creado": "2026-10-30T14:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-30T13:59:15.000Z",
    "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
@@ -15044,7 +15084,7 @@
    "creado": "2026-10-30T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-30T14:22:57.000Z",
    "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
@@ -15097,7 +15137,7 @@
    "creado": "2026-10-30T15:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "no entró entre las 5 más virales de la tanda 18 h",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "estado": "pendiente",
    "generado": "2026-10-30T14:53:31.000Z",
    "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
@@ -15450,6 +15490,62 @@
    "vence": "2026-10-31T22:43:30.000Z",
    "video_bytes": 6429654,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_455ae2b8ac0c2900.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok": {
+   "actualizado": "2026-10-31T21:20:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok",
+   "creado": "2026-10-31T21:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-31T21:03:41.000Z",
+   "id": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026\n\nMás de 150 alumnos representan a diversas instituciones educativas de Chivilcoy en una competencia con inscripción gratuita que entrega trofeos y medallas. Desde la organización informaron que los interesados todavía pueden registrarse comunicándose por WhatsApp para sumarse al equipo de su establecimiento escolar.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026",
+   "urgente": false,
+   "vence": "2026-11-02T21:03:41.000Z",
+   "video_bytes": 6433164,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_053fb6430d6dce0f.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x": {
+   "actualizado": "2026-10-31T21:20:20.000Z",
+   "buffer_id": "6ae65b9537c1acd2a0cf6693",
+   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x",
+   "creado": "2026-10-31T21:20:16.000Z",
+   "dueAt": "2026-10-31T21:22:02.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-31T21:03:41.000Z",
+   "id": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026\n\nMás de 150 alumnos representan a diversas instituciones educativas en Chivilcoy. La propuesta cuenta con inscripción gratuita e incluye la entrega de trofeos, medallas y sorteos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026",
+   "urgente": false,
+   "vence": "2026-10-31T23:03:41.000Z",
+   "video_bytes": 6433164,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_053fb6430d6dce0f.mp4",
    "viral": false
   },
   "entrevistas:job00239|x": {
@@ -21549,6 +21645,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:436624c4-dead-4338-b58f-541ff1196bfe|x": {
+   "actualizado": "2026-10-31T21:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:436624c4-dead-4338-b58f-541ff1196bfe|x",
+   "creado": "2026-10-31T21:20:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, programado)",
+   "estado": "descartado",
+   "generado": "2026-10-31T21:02:24.475Z",
+   "id": "web:436624c4-dead-4338-b58f-541ff1196bfe",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026",
+   "urgente": false,
+   "vence": "2026-11-01T01:02:24.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:439df9f0-970a-42fd-979a-69b57c0f8607|x": {
    "actualizado": "2026-10-26T12:06:20.000Z",
    "buffer_id": "",
@@ -26158,34 +26279,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tiktok",
-   "cuando": "2026-10-27T00:00:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:36e83a1d-e03b-401c-8c1b-edd4182a003f|x",
-   "cuando": "2026-10-27T00:00:30.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x",
-   "cuando": "2026-10-27T00:00:30.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114850200149782907"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x",
-   "cuando": "2026-10-27T00:00:30.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114851414312694047"
-  },
-  {
    "buffer_id": "6adfe9a00565644c947fbc75",
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tiktok",
    "cuando": "2026-10-27T00:00:34.000Z",
@@ -30360,6 +30453,37 @@
    "cuando": "2026-10-31T21:00:37.000Z",
    "dueAt": "2026-10-31T22:23:07.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x",
+   "cuando": "2026-10-31T21:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok",
+   "cuando": "2026-10-31T21:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:436624c4-dead-4338-b58f-541ff1196bfe|x",
+   "cuando": "2026-10-31T21:20:20.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, programado)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae65b9537c1acd2a0cf6693",
+   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x",
+   "cuando": "2026-10-31T21:20:21.000Z",
+   "dueAt": "2026-10-31T21:22:02.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -30573,6 +30697,7 @@
   "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4": "2026-10-31T16:40:18.000Z",
   "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4": "2026-10-31T20:40:14.000Z",
   "bot:video_matias-zucchi_mvwv5r5js633_01.mp4": "2026-10-31T21:00:19.000Z",
+  "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4": "2026-10-31T21:20:16.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -31023,6 +31148,7 @@
   "web:41b50fea-05eb-4988-89d9-dc639e73ba72": "2026-10-30T00:40:16.000Z",
   "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03": "2026-10-19T15:00:20.000Z",
   "web:432a1738-bd99-40ee-ac9f-6bc60445b517": "2026-10-12T10:20:17.000Z",
+  "web:436624c4-dead-4338-b58f-541ff1196bfe": "2026-10-31T21:20:16.000Z",
   "web:439df9f0-970a-42fd-979a-69b57c0f8607": "2026-10-26T10:20:14.000Z",
   "web:43a2b43f-fc3d-423a-ac09-144e2e421326": "2026-10-20T10:20:14.000Z",
   "web:44657646-5aa8-40e2-92e8-9107905b81c5": "2026-10-14T00:20:13.000Z",
