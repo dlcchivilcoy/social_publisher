@@ -17,7 +17,7 @@
     "sent": 1
    },
    "pausado": false,
-   "visto": "2026-10-31T14:40:15.000Z"
+   "visto": "2026-10-31T21:00:31.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 10
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-10-31T14:40:15.000Z"
+   "visto": "2026-10-31T21:00:31.000Z"
   }
  },
  "contenidos": {
@@ -1377,6 +1377,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c91a38de3b67b5b2.mp4",
    "youtube_url": "https://www.youtube.com/shorts/6UF1bh55J-U"
   },
+  "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26": {
+   "descripcion": "Bomberos Voluntarios sofocaron un incendio de ramas y monte registrado este domingo en la banquina de la Ruta 30. El bombero Emmanuel Artola confirmó que el siniestro no causó pérdidas mayores y que lograron evitar su propagación a campos linderos.",
+   "duracion_seg": 60.0,
+   "generado": "2026-10-31T20:55:57.000Z",
+   "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
+   "urgente": false,
+   "video_bytes": 3277408,
+   "video_mb": 3.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55f594186713cb25.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/WJXamdVGLck"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -1397,27 +1418,6 @@
    "video_mb": 3.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/nw8YFrIR984"
-  },
-  "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4": {
-   "descripcion": "Se llevó a cabo en la ciudad de Mar del Plata la ceremonia de inauguración correspondiente a los Juegos Bonaerenses 2026.\n\nA través de registros obtenidos en el lugar, se dio a conocer el marco en el que se desarrolló la apertura del tradicional certamen provincial en la localidad balnearia.\n\nEl evento deportivo y cultural reúne a participantes de distintos puntos de la provincia de Buenos Aires en una nueva edición de la competencia.",
-   "duracion_seg": 67.7,
-   "generado": "2026-10-19T20:44:10.000Z",
-   "id": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-deportes-se-inauguraron-los-juegos-bonaerenses-2026-en",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata",
-   "urgente": false,
-   "video_bytes": 21687244,
-   "video_mb": 20.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4f39461367cac8a5.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/0jqyiN7sDGk"
   },
   "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4": {
    "descripcion": "El diputado provincial y presidente del bloque de Fuerza Patria, Facundo Tignanelli, advirtió sobre las sumas millonarias de dinero que pierde el país y la provincia de Buenos Aires a causa de las apuestas online, tanto en sus variantes legales como ilegales.\n\nSegún expresó el legislador a partir de estimaciones realizadas con información oficial de la provincia de Buenos Aires, alrededor de 20 mil millones de dólares al año salen de los recursos de los bonaerenses con destino a este sector. En ese sentido, puntualizó que el 80% de las empresas licenciatarias son extranjeras, por lo cual los fondos se retiran de la economía local hacia otras naciones.\n\nPor otra parte, Tignanelli hizo referencia a datos provistos por el titular de Lotería y remarcó que más del 70% de las jugadas que se registran en territorio bonaerense corresponden al circuito ilegal. Frente a los 1.600 millones contabilizados en el mercado legal, estimó que casi el triple de ese monto se canaliza de forma no regulada.\n\nPara finalizar, el diputado cuestionó el drenaje de estos recursos hacia firmas foráneas que buscan captar apostadores a partir de las necesidades económicas de la sociedad.",
@@ -2258,6 +2258,27 @@
    "video_mb": 10.2,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b9f995cf7502a2db.mp4",
    "youtube_url": "https://www.youtube.com/shorts/G-25f68CK44"
+  },
+  "bot:video_matias-zucchi_mvwv5r5js633_01.mp4": {
+   "descripcion": "El 31 de octubre, a partir de las 14, se llevará a cabo el Torneo Intercolegial de Ajedrez 2026 de Chivilcoy. La jornada se desarrollará en las instalaciones de la Biblioteca Popular Dr. A. Novaro, ubicada en avenida Sóarez 114.\n\nLa competencia es organizada de forma conjunta por la Escuela de Ajedrez Chivilcoy y Kassy al Kosto, con el apoyo de la Jefatura Distrital de Educación y la coordinación del profesor Juan Dallura. La iniciativa está abierta a todas las edades y niveles de juego.\n\nEl certamen se disputará por equipos de cuatro representantes por institución educativa, con el objetivo de disputar la copa intercolegial. Quienes no dispongan de un grupo completo pueden anotarse de manera individual para ser asignados al conjunto de su colegio. La participación es gratuita y la inscripción se gestiona a través de la línea de WhatsApp 2346-522136.\n\nHasta el momento ya se encuentran inscriptos más de 150 estudiantes de establecimientos locales como la Escuela 65, la Escuela N° 6, la Secundaria 10 y la Técnica N° 1, entre otros. Durante el evento se entregarán trofeos, medallas y se realizarán sorteos entre los presentes.",
+   "duracion_seg": 20.2,
+   "generado": "2026-10-31T20:43:30.000Z",
+   "id": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 6429654,
+   "video_mb": 6.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_455ae2b8ac0c2900.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/WC6ltn6LyI0"
   },
   "entrevistas:job00239": {
    "descripcion": "Fabián Casco, organizador del festival La Pampa Rock en Chivilcoy, destacó la gran respuesta del público y la pasión con la que preparan cada edición. Mirá todo lo que contó sobre el evento.",
@@ -4777,6 +4798,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/final-provincial-cosecha-record-de-medallas-para-chivilcoy-en-la",
    "volanta": "Final Provincial"
   },
+  "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c": {
+   "categoria": "",
+   "descripcion": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy El próximo 31 de octubre, a partir de las 14, se llevará a cabo el Torneo Intercolegial de Ajedrez 2026 de Chivilcoy en la Biblioteca Popular Dr. A. Novaro, ubicada en Av. Sóarez 114. El evento es organizado por la Escuela de Ajedrez Chivilcoy y Kassy al Kosto, con el apoyo de la Jefatura Distrital de Educación de Chivilcoy y la coordinación del profesor Juan Dallura. La propuesta está destinada a todas las edades y niveles. La...",
+   "generado": "2026-10-31T20:42:18.446Z",
+   "id": "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_808b557c3b1847b392e3203ad3049c7c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:1deb9aa6-a333-4510-9fa6-def9de7621af": {
    "categoria": "",
    "descripcion": "Llega a Chivilcoy “La hermana infame”: una mirada descarnada sobre los recuerdos y los lazos familiares La cartelera teatral local suma una destacada propuesta dramática. El próximo domingo 25 de octubre a las 19:00 horas, el público chivilcoyano podrá disfrutar de “La hermana infame”, una obra escrita por el reconocido dramaturgo Sebastián Suñé, bajo la dirección de Elena Acuña y la actuación unipersonal de Gilda Scarpetta. La historia gira en torno a Gilda, quien decide homenajear a su...",
@@ -6239,6 +6279,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-preso-mientras-la-justicia-demora-un-fallo-del-tribunal-de",
    "volanta": "Opinión"
+  },
+  "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38": {
+   "categoria": "",
+   "descripcion": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30 Una dotación de Bomberos Voluntarios intervino este domingo pasadas las 16 horas en un incendio forestal registrado sobre la banquina de la Ruta Provincial 30, a unos kilómetros del parque La Martija, en cercanías a la propiedad de Hugo Vita. El bombero voluntario Emmanuel Artola, quien estuvo a cargo de las tareas, explicó que al arribar al sector hallaron fuego en ramas y monte. «Rápidamente desplegamos de línea de...",
+   "generado": "2026-10-31T20:54:24.041Z",
+   "id": "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a1eb8e3d3eff46818b4122d402ae5515~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
+   "volanta": "Incendio forestal"
   },
   "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc": {
    "categoria": "",
@@ -8257,22 +8316,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
-   "segundos": 900,
+   "restantes": 148,
+   "segundos": 899,
    "tope": 150
   },
   "24h": {
-   "restantes": 594,
-   "segundos": 46794,
+   "restantes": 592,
+   "segundos": 45585,
    "tope": 600
   },
   "30d": {
-   "restantes": 917,
-   "segundos": 865817,
+   "restantes": 915,
+   "segundos": 864608,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-31T20:40:24.000Z",
+ "cuota_visto": "2026-10-31T21:00:37.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -11982,7 +12041,7 @@
    "creado": "2026-10-30T00:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-30T00:00:57.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9",
@@ -12427,7 +12486,7 @@
    "creado": "2026-10-31T02:40:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-31T02:32:52.000Z",
    "id": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz",
@@ -12492,7 +12551,7 @@
    "creado": "2026-10-31T02:40:16.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-31T02:22:25.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p",
@@ -12548,7 +12607,7 @@
    "creado": "2026-10-31T14:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-31T13:52:35.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4",
@@ -12598,15 +12657,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|tiktok": {
-   "actualizado": "2026-10-31T20:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-31T21:00:31.000Z",
+   "buffer_id": "6ae656f437c1acd2a0cded0a",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|tiktok",
    "creado": "2026-10-31T20:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-31T21:43:05.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-31T20:08:29.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml",
    "intentos": 0,
@@ -12626,14 +12685,14 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|x": {
-   "actualizado": "2026-10-31T20:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-31T21:00:31.000Z",
+   "buffer_id": "6ae656f11ee172cd6dc1ff25",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|x",
    "creado": "2026-10-31T20:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-31T21:02:51.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-31T20:08:29.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml",
    "intentos": 0,
@@ -12651,6 +12710,62 @@
    "vence": "2026-10-31T22:08:29.000Z",
    "video_bytes": 280066,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c91a38de3b67b5b2.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tiktok": {
+   "actualizado": "2026-10-31T21:00:31.000Z",
+   "buffer_id": "6ae656f31ee172cd6dc200b5",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tiktok",
+   "creado": "2026-10-31T21:00:19.000Z",
+   "dueAt": "2026-10-31T21:03:57.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-31T20:55:57.000Z",
+   "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30\n\nBomberos Voluntarios sofocaron un incendio de ramas y monte registrado este domingo en la banquina de la Ruta 30. El bombero Emmanuel Artola confirmó que el siniestro no causó pérdidas mayores y que lograron evitar su propagación a campos linderos.\n\nhttps://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
+   "urgente": false,
+   "vence": "2026-11-02T20:55:57.000Z",
+   "video_bytes": 3277408,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55f594186713cb25.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x": {
+   "actualizado": "2026-10-31T21:00:31.000Z",
+   "buffer_id": "6ae656f21ee172cd6dc1ffbf",
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x",
+   "creado": "2026-10-31T21:00:19.000Z",
+   "dueAt": "2026-10-31T21:13:09.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-31T20:55:57.000Z",
+   "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
+   "noticia": "nota:incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30\n\nBomberos Voluntarios sofocaron un incendio de ramas y monte registrado este domingo en la banquina de la Ruta 30.\n\nhttps://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
+   "urgente": false,
+   "vence": "2026-10-31T22:55:57.000Z",
+   "video_bytes": 3277408,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55f594186713cb25.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -12709,32 +12824,6 @@
    "video_bytes": 3585991,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "viral": false
-  },
-  "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|tiktok": {
-   "actualizado": "2026-10-21T21:00:19.000Z",
-   "buffer_id": "",
-   "clave": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4|tiktok",
-   "creado": "2026-10-19T21:00:21.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T20:44:10.000Z",
-   "id": "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mar-del-plata-deportes-se-inauguraron-los-juegos-bonaerenses-2026-en",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata\n\nSe llevó a cabo en la ciudad de Mar del Plata la ceremonia de inauguración correspondiente a los Juegos Bonaerenses 2026. A través de registros obtenidos en el lugar, se dio a conocer el marco en el que se desarrolló la apertura del tradicional certamen provincial en la localidad balnearia. El evento deportivo y cultural reúne a participantes de distintos puntos de la provincia de Buenos Aires en una nueva edición de la competencia.\n\nhttps://www.diariolacampaña.com.ar/n/mar-del-plata-deportes-se-inauguraron-los-juegos-bonaerenses-2026-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Se inauguraron los Juegos Bonaerenses 2026 en Mar del Plata",
-   "urgente": false,
-   "vence": "2026-10-21T20:44:10.000Z",
-   "video_bytes": 21687244,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4f39461367cac8a5.mp4"
   },
   "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4|tiktok": {
    "actualizado": "2026-10-21T23:20:16.000Z",
@@ -14890,7 +14979,7 @@
    "creado": "2026-10-30T14:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-30T13:59:15.000Z",
    "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
@@ -14955,7 +15044,7 @@
    "creado": "2026-10-30T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-30T14:22:57.000Z",
    "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
@@ -15008,7 +15097,7 @@
    "creado": "2026-10-30T15:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 18 h",
    "estado": "pendiente",
    "generado": "2026-10-30T14:53:31.000Z",
    "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
@@ -15198,15 +15287,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok": {
-   "actualizado": "2026-10-31T16:40:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-31T21:00:31.000Z",
+   "buffer_id": "6ae656f51ee172cd6dc20253",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok",
    "creado": "2026-10-31T16:40:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-31T22:23:07.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-31T16:38:46.000Z",
    "id": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4",
    "intentos": 0,
@@ -15251,15 +15340,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok": {
-   "actualizado": "2026-10-31T20:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-10-31T21:00:31.000Z",
+   "buffer_id": "6ae656f41ee172cd6dc201e4",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok",
    "creado": "2026-10-31T20:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-10-31T22:03:51.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-31T20:36:50.000Z",
    "id": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4",
    "intentos": 0,
@@ -15279,18 +15368,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x": {
-   "actualizado": "2026-10-31T20:40:23.000Z",
+   "actualizado": "2026-10-31T21:00:31.000Z",
    "buffer_id": "6ae6523837c1acd2a0ccbba2",
    "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x",
    "creado": "2026-10-31T20:40:14.000Z",
    "dueAt": "2026-10-31T20:42:16.000Z",
+   "enviado": "2026-10-31T20:42:39.021Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-31T20:36:50.000Z",
    "id": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116631959036121530",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
    "noticia": "nota:chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
    "origen": "bot",
@@ -15304,6 +15394,62 @@
    "vence": "2026-10-31T22:36:50.000Z",
    "video_bytes": 10651560,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b9f995cf7502a2db.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|tiktok": {
+   "actualizado": "2026-10-31T21:00:31.000Z",
+   "buffer_id": "6ae656f3cf3a3112f3c2de7f",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|tiktok",
+   "creado": "2026-10-31T21:00:19.000Z",
+   "dueAt": "2026-10-31T21:23:27.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-31T20:43:30.000Z",
+   "id": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy\n\nEl 31 de octubre a partir de las 14 se desarrollará la competencia abierta a todas las edades y niveles en la Biblioteca Popular Dr. A. Novaro. La participación es gratuita, se disputará por equipos de cuatro representantes por institución educativa y ya cuenta con más de 150 estudiantes inscriptos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-02T20:43:30.000Z",
+   "video_bytes": 6429654,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_455ae2b8ac0c2900.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|x": {
+   "actualizado": "2026-10-31T21:00:31.000Z",
+   "buffer_id": "6ae656f237c1acd2a0cdeb4c",
+   "clave": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|x",
+   "creado": "2026-10-31T21:00:19.000Z",
+   "dueAt": "2026-10-31T21:08:09.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-10-31T20:43:30.000Z",
+   "id": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
+   "noticia": "nota:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy\n\nEl 31 de octubre se disputará el certamen en la Biblioteca Popular Dr. A. Novaro. La competencia es gratuita y está abierta a todas las edades y niveles de juego.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-10-31T22:43:30.000Z",
+   "video_bytes": 6429654,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_455ae2b8ac0c2900.mp4",
    "viral": false
   },
   "entrevistas:job00239|x": {
@@ -20482,6 +20628,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c|x": {
+   "actualizado": "2026-10-31T21:00:19.000Z",
+   "buffer_id": "",
+   "clave": "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c|x",
+   "creado": "2026-10-31T21:00:19.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-31T20:42:18.446Z",
+   "id": "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
+   "noticia": "nota:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-01T00:42:18.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:1deb9aa6-a333-4510-9fa6-def9de7621af|x": {
    "actualizado": "2026-10-23T11:40:15.000Z",
    "buffer_id": "6adb3101efac72e60fc118fc",
@@ -22844,6 +23015,31 @@
    "titulo": "Preso mientras la Justicia demora: un fallo del Tribunal de Casación Bonaerense que expone los tiempos de la justicia bonaerense",
    "urgente": false,
    "vence": "2026-10-26T14:02:16.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38|x": {
+   "actualizado": "2026-10-31T21:00:19.000Z",
+   "buffer_id": "",
+   "clave": "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38|x",
+   "creado": "2026-10-31T21:00:19.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-10-31T20:54:24.041Z",
+   "id": "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
+   "noticia": "nota:incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
+   "urgente": false,
+   "vence": "2026-11-01T00:54:24.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -25961,112 +26157,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x",
-   "cuando": "2026-10-26T22:40:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|tiktok",
-   "cuando": "2026-10-26T22:40:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:024c510b-0090-4885-a004-6612c092f38b|x",
-   "cuando": "2026-10-26T22:40:32.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:67070b71-0e27-4e84-903f-83a20dacbf1a|x",
-   "cuando": "2026-10-26T22:40:32.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|x",
-   "cuando": "2026-10-26T22:40:33.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114845295724966334"
-  },
-  {
-   "clave": "entrevistas:job00248|tiktok",
-   "cuando": "2026-10-26T22:40:33.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701105715200527637"
-  },
-  {
-   "clave": "entrevistas:job00249|tiktok",
-   "cuando": "2026-10-26T22:40:33.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701100867365162241"
-  },
-  {
-   "clave": "entrevistas:job00250|tiktok",
-   "cuando": "2026-10-26T22:40:33.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701095606680472852"
-  },
-  {
-   "clave": "entrevistas:job00251|tiktok",
-   "cuando": "2026-10-26T22:40:33.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701090283609394484"
-  },
-  {
-   "clave": "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero|x",
-   "cuando": "2026-10-26T22:40:33.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114846667673424230"
-  },
-  {
-   "buffer_id": "6adfd6e2ade6626d93178ef3",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5|x",
-   "cuando": "2026-10-26T22:40:35.000Z",
-   "dueAt": "2026-10-26T22:42:18.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adfd6e3c26d8b40cc7b7531",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt|x",
-   "cuando": "2026-10-26T22:40:35.000Z",
-   "dueAt": "2026-10-26T22:47:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron|x",
-   "cuando": "2026-10-26T23:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se|x",
-   "cuando": "2026-10-26T23:40:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x",
-   "cuando": "2026-10-27T00:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|tiktok",
    "cuando": "2026-10-27T00:00:30.000Z",
@@ -30160,11 +30250,120 @@
    "cuando": "2026-10-31T20:40:24.000Z",
    "dueAt": "2026-10-31T20:42:16.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x",
+   "cuando": "2026-10-31T21:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tiktok",
+   "cuando": "2026-10-31T21:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|x",
+   "cuando": "2026-10-31T21:00:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|tiktok",
+   "cuando": "2026-10-31T21:00:31.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38|x",
+   "cuando": "2026-10-31T21:00:31.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c|x",
+   "cuando": "2026-10-31T21:00:31.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x",
+   "cuando": "2026-10-31T21:00:31.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116631959036121530"
+  },
+  {
+   "buffer_id": "6ae656f11ee172cd6dc1ff25",
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|x",
+   "cuando": "2026-10-31T21:00:37.000Z",
+   "dueAt": "2026-10-31T21:02:51.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae656f237c1acd2a0cdeb4c",
+   "clave": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|x",
+   "cuando": "2026-10-31T21:00:37.000Z",
+   "dueAt": "2026-10-31T21:08:09.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae656f21ee172cd6dc1ffbf",
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x",
+   "cuando": "2026-10-31T21:00:37.000Z",
+   "dueAt": "2026-10-31T21:13:09.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae656f31ee172cd6dc200b5",
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tiktok",
+   "cuando": "2026-10-31T21:00:37.000Z",
+   "dueAt": "2026-10-31T21:03:57.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae656f3cf3a3112f3c2de7f",
+   "clave": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|tiktok",
+   "cuando": "2026-10-31T21:00:37.000Z",
+   "dueAt": "2026-10-31T21:23:27.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae656f437c1acd2a0cded0a",
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|tiktok",
+   "cuando": "2026-10-31T21:00:37.000Z",
+   "dueAt": "2026-10-31T21:43:05.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae656f41ee172cd6dc201e4",
+   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok",
+   "cuando": "2026-10-31T21:00:37.000Z",
+   "dueAt": "2026-10-31T22:03:51.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae656f51ee172cd6dc20253",
+   "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok",
+   "cuando": "2026-10-31T21:00:37.000Z",
+   "dueAt": "2026-10-31T22:23:07.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-20 18",
    "2026-10-20 21",
    "2026-10-21 10",
    "2026-10-21 18",
@@ -30193,11 +30392,12 @@
    "2026-10-30 10",
    "2026-10-30 18",
    "2026-10-30 21",
-   "2026-10-31 10"
+   "2026-10-31 10",
+   "2026-10-31 18"
   ]
  },
  "ultima_limpieza_release": "2026-10-31",
- "ultima_sync": "2026-10-31T14:40:15.000Z",
+ "ultima_sync": "2026-10-31T21:00:31.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -30305,6 +30505,7 @@
   "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p": "2026-10-31T02:40:16.000Z",
   "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4": "2026-10-31T14:00:18.000Z",
   "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml": "2026-10-31T20:20:13.000Z",
+  "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26": "2026-10-31T21:00:19.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -30371,6 +30572,7 @@
   "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4": "2026-10-31T09:00:16.000Z",
   "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4": "2026-10-31T16:40:18.000Z",
   "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4": "2026-10-31T20:40:14.000Z",
+  "bot:video_matias-zucchi_mvwv5r5js633_01.mp4": "2026-10-31T21:00:19.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -30728,6 +30930,7 @@
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2": "2026-10-16T19:20:14.000Z",
   "web:1a3f2450-d820-426b-a2f8-b91f8e338629": "2026-10-18T12:40:15.000Z",
+  "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c": "2026-10-31T21:00:19.000Z",
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0": "2026-10-15T10:20:13.000Z",
   "web:1abafabb-ff53-4fcd-911c-6a4465fed747": "2026-10-18T16:20:14.000Z",
   "web:1aebaa22-868e-46df-ae05-8c08cc674c03": "2026-10-17T10:20:15.000Z",
@@ -30956,6 +31159,7 @@
   "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f": "2026-10-26T10:20:14.000Z",
   "web:847aec7b-6e8c-4074-82b2-d77103ae355f": "2026-10-19T13:40:18.000Z",
   "web:84b5112d-aa11-45e0-b614-d5bb307939e1": "2026-10-14T10:20:15.000Z",
+  "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38": "2026-10-31T21:00:19.000Z",
   "web:8573e42b-75a0-4616-bdb3-930c6007225a": "2026-10-15T10:20:13.000Z",
   "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc": "2026-10-23T13:00:20.000Z",
   "web:85b0f263-df46-4783-b4dd-311f977e50c9": "2026-10-19T14:00:19.000Z",
