@@ -2196,6 +2196,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1a4a651c49b46480.mp4",
    "youtube_url": "https://www.youtube.com/shorts/bsigZ60JKsk"
   },
+  "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4": {
+   "descripcion": "El Servicio de Oncología del Hospital Municipal participará de la Media Maratón Eduardo Pollaroli, programada para el domingo 1 de noviembre a partir de las 8, con el objetivo de fomentar la actividad física y concientizar sobre los controles médicos preventivos.\n\nJavier Azcola, integrante del área hospitalaria, explicó que aprovecharon la convocatoria del Círculo de Atletas para impulsar la difusión en el marco de las fechas dedicadas a la lucha contra el cáncer de mama y de próstata. En ese sentido, remarcó la necesidad de realizarse estudios a tiempo, tales como mamografías y chequeos prostáticos, para favorecer diagnósticos tempranos y tratamientos oportunos.\n\nEl equipo del servicio, integrado por oncólogas, psicólogas, enfermeras y secretarias, promueve el ejercicio regular tanto para la salud general como para quienes transitan una patología oncológica. Por esta razón, pacientes del área formarán parte de la caminata y de las distintas distancias de la competencia.\n\nLa jornada contará con el acompañamiento de profesionales del sector y la participación del propio Azcola en la prueba de los 21 kilómetros.",
+   "duracion_seg": 162.3,
+   "generado": "2026-10-31T16:38:46.000Z",
+   "id": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Oncología del Hospital Municipal promueve la prevención y la actividad física",
+   "urgente": false,
+   "video_bytes": 22824196,
+   "video_mb": 21.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/LsKqqaxZmvA"
+  },
   "entrevistas:job00235": {
    "descripcion": "La concejal Rosario Galland advirtió sobre las graves fallas edilicias y la humedad en las viviendas de San Ceferino 3 en Chivilcoy. También alertó sobre la falta de respuestas y asfalto de cara a las obras del San Ceferino 4.",
    "duracion_seg": null,
@@ -7961,6 +7982,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
    "volanta": "Chivilcoy · Educación"
+  },
+  "web:ea13235b-dbb9-482c-b517-2865e5df2d34": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Oncología del Hospital Municipal promueve la prevención y la actividad física CHIVILCOY.– En la antesala de la Media Maratón Eduardo Pollaroli, que se correrá a partir de las 8, Javier Azcola, integrante del Servicio de Oncología del Hospital Municipal, destacó la relevancia de sumarse al evento deportivo para concientizar sobre la salud. Azcola explicó que aprovecharon el espacio brindado por el Círculo de Atletas para impulsar la campaña en el marco de las fechas de lucha contra...",
+   "generado": "2026-10-31T16:37:40.033Z",
+   "id": "web:ea13235b-dbb9-482c-b517-2865e5df2d34",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b93064487fcc48c5b5589dfef8525b36~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Oncología del Hospital Municipal promueve la prevención y la actividad física",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
+   "volanta": "Chivilcoy · Salud"
   },
   "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52": {
    "categoria": "",
@@ -14721,15 +14761,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok": {
-   "actualizado": "2026-10-29T16:40:15.000Z",
+   "actualizado": "2026-10-31T16:40:26.000Z",
    "buffer_id": "",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok",
    "creado": "2026-10-29T16:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
    "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-29T16:22:09.000Z",
    "id": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4",
    "intentos": 0,
@@ -15151,6 +15191,59 @@
    "vence": "2026-10-31T04:56:17.000Z",
    "video_bytes": 8171597,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1a4a651c49b46480.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok": {
+   "actualizado": "2026-10-31T16:40:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok",
+   "creado": "2026-10-31T16:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-10-31T16:38:46.000Z",
+   "id": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Oncología del Hospital Municipal promueve la prevención y la actividad física\n\nEl Servicio de Oncología participará el domingo 1 de noviembre en la Media Maratón Eduardo Pollaroli para concientizar sobre los controles médicos preventivos. Javier Azcola, integrante del área, remarcó la necesidad de realizarse chequeos a tiempo para favorecer diagnósticos tempranos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Oncología del Hospital Municipal promueve la prevención y la actividad física",
+   "urgente": false,
+   "vence": "2026-11-02T16:38:46.000Z",
+   "video_bytes": 22824196,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|x": {
+   "actualizado": "2026-10-31T16:40:18.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|x",
+   "creado": "2026-10-31T16:40:18.000Z",
+   "dueAt": "",
+   "error": "dura 162 s y X admite 140 s sin suscripción",
+   "estado": "descartado",
+   "generado": "2026-10-31T16:38:46.000Z",
+   "id": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
+   "noticia": "nota:chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Oncología del Hospital Municipal promueve la prevención y la actividad física",
+   "urgente": false,
+   "vence": "2026-10-31T18:38:46.000Z",
+   "video_bytes": 22824196,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
    "viral": false
   },
   "entrevistas:job00235|x": {
@@ -25440,6 +25533,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:ea13235b-dbb9-482c-b517-2865e5df2d34|x": {
+   "actualizado": "2026-10-31T16:40:26.000Z",
+   "buffer_id": "",
+   "clave": "web:ea13235b-dbb9-482c-b517-2865e5df2d34|x",
+   "creado": "2026-10-31T16:40:18.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-10-31T16:37:40.033Z",
+   "id": "web:ea13235b-dbb9-482c-b517-2865e5df2d34",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
+   "noticia": "nota:chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Oncología del Hospital Municipal promueve la prevención y la actividad física\n\nJavier Azcola destacó sumarse al evento deportivo para concientizar sobre la salud. El servicio aprovechó el espacio del Círculo de Atletas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Oncología del Hospital Municipal promueve la prevención y la actividad física",
+   "urgente": false,
+   "vence": "2026-10-31T20:37:40.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x": {
    "actualizado": "2026-10-27T13:20:17.000Z",
    "buffer_id": "6ae09bc06cd613c4832841dd",
@@ -25935,40 +26055,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6adfbf653ffda7dd0590f9f9",
-   "clave": "entrevistas:job00251|tiktok",
-   "cuando": "2026-10-26T21:00:23.000Z",
-   "dueAt": "2026-10-26T21:23:26.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adfbf66ca308c8a23254421",
-   "clave": "entrevistas:job00250|tiktok",
-   "cuando": "2026-10-26T21:00:23.000Z",
-   "dueAt": "2026-10-26T21:43:57.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adfbf663ffda7dd0590fcba",
-   "clave": "entrevistas:job00249|tiktok",
-   "cuando": "2026-10-26T21:00:23.000Z",
-   "dueAt": "2026-10-26T22:03:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adfbf67ca308c8a232544e0",
-   "clave": "entrevistas:job00248|tiktok",
-   "cuando": "2026-10-26T21:00:23.000Z",
-   "dueAt": "2026-10-26T22:23:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tiktok",
-   "cuando": "2026-10-26T21:20:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701085163316546822"
-  },
   {
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|x",
    "cuando": "2026-10-26T22:20:16.000Z",
@@ -30133,6 +30219,42 @@
    "cuando": "2026-10-31T16:20:21.000Z",
    "evento": "vencido",
    "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|x",
+   "cuando": "2026-10-31T16:40:18.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 162 s y X admite 140 s sin suscripción",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok",
+   "cuando": "2026-10-31T16:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:ea13235b-dbb9-482c-b517-2865e5df2d34|x",
+   "cuando": "2026-10-31T16:40:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok",
+   "cuando": "2026-10-31T16:40:26.000Z",
+   "evento": "vencido",
+   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
+  },
+  {
+   "clave": "web:ea13235b-dbb9-482c-b517-2865e5df2d34|x",
+   "cuando": "2026-10-31T16:40:26.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -30341,6 +30463,7 @@
   "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4": "2026-10-30T15:00:19.000Z",
   "bot:video_matias-zucchi_mvvldft40mvd_01.mp4": "2026-10-30T23:40:18.000Z",
   "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4": "2026-10-31T09:00:16.000Z",
+  "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4": "2026-10-31T16:40:18.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -31167,6 +31290,7 @@
   "web:e94166ae-41a4-4aa6-a0f9-064b0440ec09": "2026-10-12T10:20:17.000Z",
   "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11": "2026-10-18T13:20:13.000Z",
   "web:e9ecee5a-947a-4cd4-b82f-e13a9d0d19d8": "2026-10-16T14:00:21.000Z",
+  "web:ea13235b-dbb9-482c-b517-2865e5df2d34": "2026-10-31T16:40:18.000Z",
   "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52": "2026-10-27T12:40:18.000Z",
   "web:ea96db9d-ebd8-4901-99d2-e402feab16e7": "2026-10-25T14:40:14.000Z",
   "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b": "2026-10-22T18:00:18.000Z",

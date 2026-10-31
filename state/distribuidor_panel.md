@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 1 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -30,6 +30,7 @@ Actualizado: 31/10/2026 13:20 (hora AR) · ACTIVO
 15m: quedan 149 de 150 · 24h: quedan 595 de 600 · 30d: quedan 918 de 2000 (visto 2026-10-31T14:40:15.000Z)
 
 ## Cola propia (9 esperando)
+- TikTok · Reels del bot · Oncología del Hospital Municipal promueve la prevención y la actividad física — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una camioneta quedó destruida por un incendio en la ruta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Daniel Magni presentó su libro Remembranzas junto a una muestra sobre Borges — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · RECUPERARON una moto robada y aprehendieron a un menor — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -38,7 +39,6 @@ Actualizado: 31/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Presentaron los detalles de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Paro nacional docente y volanteada por Nancy Godoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -48,11 +48,6 @@ Actualizado: 31/10/2026 13:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T02:40 recibido bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
-- 2026-10-31T02:40 recibido bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
-- 2026-10-31T02:40 recibido bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|x 
-- 2026-10-31T02:40 recibido bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tikto 
-- 2026-10-31T02:40 recibido web:c78cf34b-a7dd-4d5d-a862-56c5b50b3972|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-31T02:40 programado bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
 - 2026-10-31T09:00 recibido bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|x 
 - 2026-10-31T09:00 recibido bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|tiktok 
@@ -73,3 +68,8 @@ Actualizado: 31/10/2026 13:20 (hora AR) · ACTIVO
 - 2026-10-31T14:40 enviado bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|x 
 - 2026-10-31T15:40 vencido bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tikto TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - 2026-10-31T16:20 vencido bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-31T16:40 recibido bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|x dura 162 s y X admite 140 s sin suscripción
+- 2026-10-31T16:40 recibido bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok 
+- 2026-10-31T16:40 recibido web:ea13235b-dbb9-482c-b517-2865e5df2d34|x 
+- 2026-10-31T16:40 vencido bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- 2026-10-31T16:40 depurado web:ea13235b-dbb9-482c-b517-2865e5df2d34|x de la web, a X solo van las notas del diario de la mañana
