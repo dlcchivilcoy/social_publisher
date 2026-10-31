@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 31/10/2026 20:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 1 | 3 |
-| Reels del bot | TikTok | 20 | 3 | 1 | 2 | 0 | 0 | 2 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 4 | 0 | 2 | 0 | 0 | 2 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 9 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 4 enviadas + 1 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 27 · likes 0
@@ -27,12 +27,13 @@ Actualizado: 31/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 906 de 2000 (visto 2026-10-31T22:20:24.000Z)
+15m: quedan 149 de 150 · 24h: quedan 582 de 600 · 30d: quedan 905 de 2000 (visto 2026-10-31T23:20:24.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (10 esperando)
 - TikTok · Reels del bot · Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una camioneta quedó destruida por un incendio en la ruta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Una camioneta se prendió fuego de madrugada en la vía pública — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Menor herido tras impactar en moto contra un auto en Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Daniel Magni presentó su libro Remembranzas junto a una muestra sobre Borges — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · RECUPERARON una moto robada y aprehendieron a un menor — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -48,9 +49,6 @@ Actualizado: 31/10/2026 20:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T21:00 recibido web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-31T21:00 enviado bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x 
-- 2026-10-31T21:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|x 
 - 2026-10-31T21:00 programado bot:video_matias-zucchi_mvwv5r5js633_01.mp4|x 
 - 2026-10-31T21:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x 
 - 2026-10-31T21:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tikto 
@@ -73,3 +71,6 @@ Actualizado: 31/10/2026 20:00 (hora AR) · ACTIVO
 - 2026-10-31T22:20 enviado bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x 
 - 2026-10-31T22:20 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
 - 2026-10-31T22:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
+- 2026-10-31T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
+- 2026-10-31T23:20 enviado bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok 
+- 2026-10-31T23:20 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
