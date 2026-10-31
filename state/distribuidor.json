@@ -6521,6 +6521,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
    "volanta": "Chivilcoy · Policiales"
   },
+  "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: RECUPERARON una moto robada y aprehendieron a un menor CHIVILCOY.– Personal policial aprehendió a un menor de 14 años en la intersección de las calles Padre Zacarías y 110, en el marco de un procedimiento por encubrimiento, y logró recuperar una motocicleta que había sido sustraída durante la misma jornada. El rodado, una Gilera Smash de 125 cc, de color blanco y con dominio colocado, había sido denunciado como robado por un vecino de 71 años, domiciliado en Chivilcoy. Tras el...",
+   "generado": "2026-10-31T02:19:43.993Z",
+   "id": "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6443dcd808ef46818306b44e3738769f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-recuperaron-una-moto-robada-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: RECUPERARON una moto robada y aprehendieron a un menor",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-recuperaron-una-moto-robada-y",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:8a598b83-5323-45ea-98bb-999b66679299": {
    "categoria": "",
    "descripcion": "Jorge Ponte y Marcos Curioni son finalistas en bochas intergeneracional La dupla chivilcoyana de bochas intergeneracional, integrada por Jorge Ponte y Marcos Curioni, logró meterse en la final del certamen. El encuentro definitorio se disputará a las 11:45 frente a Saavedra.",
@@ -6881,25 +6900,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/camiones-y-camioneta-siniestros-viales-fin-de-semana-con-multiples",
    "volanta": "Camiones y camioneta"
-  },
-  "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327": {
-   "categoria": "",
-   "descripcion": "Presentaron el cronograma por el 172° aniversario de Chivilcoy La Municipalidad de Chivilcoy dio a conocer el cronograma de actividades para celebrar los 172 años de la fundación de la ciudad, con eventos centrales entre el 21 y el 25 de octubre de 2026. La grilla incluye actos protocolares, intervenciones artísticas, espectáculos musicales en vivo, teatro y eventos deportivos. Miércoles 21 de octubre: Vísperas y festival artístico Las actividades comenzarán a partir de las 18:00 con la...",
-   "generado": "2026-10-21T02:07:52.816Z",
-   "id": "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_675a189a4709442489e18de0361f5fb9~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Presentaron el cronograma por el 172° aniversario de Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
-   "volanta": "Chivilcoy · Sociedad"
   },
   "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f": {
    "categoria": "",
@@ -18850,14 +18850,14 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html|x": {
-   "actualizado": "2026-10-31T00:20:20.000Z",
+   "actualizado": "2026-10-31T02:20:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html|x",
    "creado": "2026-10-31T00:20:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-31T00:02:15.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html",
    "intentos": 0,
@@ -19185,14 +19185,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/policiales-robo-conflicto-de-ex-pareja.html|x": {
-   "actualizado": "2026-10-31T00:20:20.000Z",
+   "actualizado": "2026-10-31T02:20:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/policiales-robo-conflicto-de-ex-pareja.html|x",
    "creado": "2026-10-31T00:20:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-31T00:02:03.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/10/policiales-robo-conflicto-de-ex-pareja.html",
    "intentos": 0,
@@ -19326,14 +19326,14 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d|x": {
-   "actualizado": "2026-10-31T00:20:20.000Z",
+   "actualizado": "2026-10-31T02:20:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d|x",
    "creado": "2026-10-31T00:20:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-31T00:02:02.000Z",
    "id": "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d",
    "intentos": 0,
@@ -20054,14 +20054,14 @@
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/|x": {
-   "actualizado": "2026-10-31T00:20:20.000Z",
+   "actualizado": "2026-10-31T02:20:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/|x",
    "creado": "2026-10-31T00:20:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-31T00:02:03.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/",
    "intentos": 0,
@@ -23213,6 +23213,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54|x": {
+   "actualizado": "2026-10-31T02:20:21.000Z",
+   "buffer_id": "",
+   "clave": "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54|x",
+   "creado": "2026-10-31T02:20:13.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-10-31T02:19:43.993Z",
+   "id": "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-recuperaron-una-moto-robada-y",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-recuperaron-una-moto-robada-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: RECUPERARON una moto robada y aprehendieron a un menor\n\nPersonal policial aprehendió a un menor de 14 años por encubrimiento en Chivilcoy. En el operativo se recuperó una motocicleta que había sido denunciada por un vecino.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-recuperaron-una-moto-robada-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: RECUPERARON una moto robada y aprehendieron a un menor",
+   "urgente": false,
+   "vence": "2026-10-31T06:19:43.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:8a598b83-5323-45ea-98bb-999b66679299|x": {
    "actualizado": "2026-10-23T13:40:14.000Z",
    "buffer_id": "",
@@ -23779,31 +23806,6 @@
    "titulo": "Siniestros viales: Fin de semana con múltiples vuelcos en las rutas 5 y 46",
    "urgente": false,
    "vence": "2026-10-26T14:01:44.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327|x": {
-   "actualizado": "2026-10-21T02:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327|x",
-   "creado": "2026-10-21T02:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-21T02:07:52.816Z",
-   "id": "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
-   "noticia": "nota:chivilcoy-sociedad-presentaron-el-cronograma-por-el-172-aniversario",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Presentaron el cronograma por el 172° aniversario de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-21T06:07:52.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -26171,45 +26173,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:ce55311f-7f8e-46c0-8f9a-27108c261a21|x",
-   "cuando": "2026-10-26T15:20:18.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6adf6fb3fc971906906ff133",
-   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x",
-   "cuando": "2026-10-26T15:20:19.000Z",
-   "dueAt": "2026-10-26T15:22:00.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6adf745fbc208c66b5000f9f",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x",
-   "cuando": "2026-10-26T15:40:16.000Z",
-   "dueAt": "2026-10-26T15:42:20.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|x",
-   "cuando": "2026-10-26T16:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114744503961543134"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|x",
-   "cuando": "2026-10-26T16:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2114739369844126064"
-  },
-  {
-   "clave": "entrevistas:job00248",
-   "cuando": "2026-10-26T16:40:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x",
    "cuando": "2026-10-26T16:40:25.000Z",
@@ -30370,6 +30333,44 @@
    "cuando": "2026-10-31T01:40:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7702620964760210689"
+  },
+  {
+   "clave": "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54|x",
+   "cuando": "2026-10-31T02:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html|x",
+   "cuando": "2026-10-31T02:20:21.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/policiales-robo-conflicto-de-ex-pareja.html|x",
+   "cuando": "2026-10-31T02:20:21.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d|x",
+   "cuando": "2026-10-31T02:20:21.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/|x",
+   "cuando": "2026-10-31T02:20:21.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54|x",
+   "cuando": "2026-10-31T02:20:21.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -31169,6 +31170,7 @@
   "web:88cf316f-775e-44d8-a2ae-b1cca1162e08": "2026-10-22T15:40:16.000Z",
   "web:898dd9bc-8d37-4255-aaf1-59fb965090e9": "2026-10-30T14:40:14.000Z",
   "web:89c9f8af-db2e-425f-9362-568f282ebcfe": "2026-10-23T19:40:20.000Z",
+  "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54": "2026-10-31T02:20:13.000Z",
   "web:8a598b83-5323-45ea-98bb-999b66679299": "2026-10-23T13:40:14.000Z",
   "web:8ac555c1-2aa6-417f-a7be-91ff500635ff": "2026-10-12T21:20:14.000Z",
   "web:8ac5a9d1-f97e-42c6-997c-8e86b5aa064b": "2026-10-16T16:00:18.000Z",
