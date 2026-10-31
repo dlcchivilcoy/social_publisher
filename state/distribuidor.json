@@ -5501,25 +5501,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980": {
-   "categoria": "",
-   "descripcion": "Gran arranque de la delegación de Chivilcoy en la Final Provincial de Mar del Plata Benjamín Gómez conquistó la primera medalla de bronce en atletismo. En una jornada intensa, las disciplinas de conjunto y PCD lograron importantes victorias para el municipio. La delegación de la Municipalidad de Chivilcoy completó con éxito su primer día de competencia en la etapa final de los Juegos Bonaerenses 2026. En una jornada repleta de acción, emoción y espíritu deportivo, los deportistas y...",
-   "generado": "2026-10-21T10:02:34.422Z",
-   "id": "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_3cee55295dbf465ca4bf6c6fba9b9f32~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/juegos-bonaerenses-2026-gran-arranque-de-la-delegacion-de-chivilcoy",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Gran arranque de la delegación de Chivilcoy en la Final Provincial de Mar del Plata",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/juegos-bonaerenses-2026-gran-arranque-de-la-delegacion-de-chivilcoy",
-   "volanta": "Juegos Bonaerenses 2026"
-  },
   "web:3e3abc09-6c21-4ab2-88f6-118e63835441": {
    "categoria": "",
    "descripcion": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha El encuentro entre Boca Unidos y Gimnasia y Esgrima de Chivilcoy, correspondiente a la ida de los octavos de final de la Reválida del Torneo Federal A, fue suspendido este domingo en el complejo Leoncio Benítez, en Corrientes. El episodio ocurrió a los 40 minutos de la primera etapa, con el marcador 0 a 0, cuando una bomba de estruendo cayó desde la tribuna ubicada detrás de uno de los arcos. Las explosiones afectaron a...",
@@ -21830,31 +21811,6 @@
    "titulo": "José Navarro clasificó a la final de Taba y definirá el podio",
    "urgente": false,
    "vence": "2026-10-22T04:32:45.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980|x": {
-   "actualizado": "2026-10-21T10:20:15.000Z",
-   "buffer_id": "",
-   "clave": "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980|x",
-   "creado": "2026-10-21T10:20:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, enviado)",
-   "estado": "descartado",
-   "generado": "2026-10-21T10:02:34.422Z",
-   "id": "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/juegos-bonaerenses-2026-gran-arranque-de-la-delegacion-de-chivilcoy",
-   "noticia": "nota:juegos-bonaerenses-2026-gran-arranque-de-la-delegacion-de-chivilcoy",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Gran arranque de la delegación de Chivilcoy en la Final Provincial de Mar del Plata",
-   "urgente": false,
-   "vence": "2026-10-21T14:02:34.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
