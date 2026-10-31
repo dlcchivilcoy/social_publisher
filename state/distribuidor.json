@@ -8530,23 +8530,23 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 567,
-   "segundos": 2395,
+   "restantes": 599,
+   "segundos": 86400,
    "tope": 600
   },
   "30d": {
-   "restantes": 923,
-   "segundos": 907819,
+   "restantes": 922,
+   "segundos": 905423,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-31T09:00:21.000Z",
+ "cuota_visto": "2026-10-31T09:40:17.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
   "enviados": 100,
   "motivo": "",
-  "visto": "2026-10-30T09:40:15.000Z"
+  "visto": "2026-10-31T09:40:17.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -10948,14 +10948,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7701713944599317780",
    "metricas": {
-    "averageTimeWatched": 4.94,
+    "averageTimeWatched": 4.92,
     "comments": 0,
-    "engagementRate": 0.52,
-    "reach": 0,
+    "engagementRate": 0.51,
+    "reach": 288,
     "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 35.97,
-    "views": 385
+    "totalTimeWatched": 36.28,
+    "views": 391
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-sustraida-y-demoraron-a-un",
    "origen": "bot",
@@ -11683,8 +11683,8 @@
     "reach": 267,
     "reactions": 4,
     "shares": 0,
-    "totalTimeWatched": 26.92,
-    "views": 302
+    "totalTimeWatched": 26.98,
+    "views": 303
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-se-incendio-una-camioneta-en-la-prolongacion-de-la",
    "origen": "bot",
@@ -11774,7 +11774,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 16,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -11839,7 +11839,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 17,
+    "impressions": 19,
     "reactions": 0,
     "reposts": 0
    },
@@ -11874,14 +11874,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702095378472045832",
    "metricas": {
-    "averageTimeWatched": 4.08,
+    "averageTimeWatched": 4.2,
     "comments": 0,
     "engagementRate": 0,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 9.1,
-    "views": 120
+    "totalTimeWatched": 10.92,
+    "views": 140
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-presentaron-las-intervenciones-artisticas-en-las",
    "origen": "bot",
@@ -11915,7 +11915,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 19,
+    "impressions": 20,
     "reactions": 0,
     "reposts": 0
    },
@@ -11950,14 +11950,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702075758998506759",
    "metricas": {
-    "averageTimeWatched": 4.61,
+    "averageTimeWatched": 4.38,
     "comments": 0,
-    "engagementRate": 3.18,
+    "engagementRate": 2.94,
     "reach": 0,
-    "reactions": 9,
+    "reactions": 13,
     "shares": 0,
-    "totalTimeWatched": 23.97,
-    "views": 283
+    "totalTimeWatched": 37.15,
+    "views": 442
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-dos-menores-acusados-de-robar-en",
    "origen": "bot",
@@ -11990,8 +11990,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 1.69,
-    "impressions": 59,
+    "engagementRate": 1.64,
+    "impressions": 61,
     "reactions": 1,
     "reposts": 0
    },
@@ -12026,14 +12026,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7701873598834773249",
    "metricas": {
-    "averageTimeWatched": 3.16,
+    "averageTimeWatched": 3.13,
     "comments": 0,
-    "engagementRate": 0.9,
+    "engagementRate": 0.85,
     "reach": 0,
     "reactions": 0,
     "shares": 1,
-    "totalTimeWatched": 6.27,
-    "views": 111
+    "totalTimeWatched": 6.5,
+    "views": 117
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
    "origen": "bot",
@@ -12066,8 +12066,8 @@
    "metricas": {
     "clicks": 1,
     "comments": 0,
-    "engagementRate": 8.7,
-    "impressions": 23,
+    "engagementRate": 8.33,
+    "impressions": 24,
     "reactions": 0,
     "reposts": 0
    },
@@ -12132,7 +12132,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 16,
+    "impressions": 19,
     "reactions": 0,
     "reposts": 0
    },
@@ -12196,8 +12196,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 2.38,
-    "impressions": 84,
+    "engagementRate": 2.06,
+    "impressions": 97,
     "reactions": 0,
     "reposts": 0
    },
@@ -12262,7 +12262,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 12,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },
@@ -12327,7 +12327,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 35,
+    "impressions": 47,
     "reactions": 0,
     "reposts": 0
    },
@@ -12361,6 +12361,16 @@
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702456250629410066",
+   "metricas": {
+    "averageTimeWatched": 4.65,
+    "comments": 0,
+    "engagementRate": 2.22,
+    "reach": 0,
+    "reactions": 6,
+    "shares": 0,
+    "totalTimeWatched": 21.28,
+    "views": 270
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-teatrero-abrio-una-nueva-edicion-con-un",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12393,7 +12403,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 13,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -12427,6 +12437,16 @@
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702450916233989396",
+   "metricas": {
+    "averageTimeWatched": 3.83,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 6.95,
+    "views": 96
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12459,7 +12479,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 5,
+    "impressions": 28,
     "reactions": 0,
     "reposts": 0
    },
@@ -12493,6 +12513,16 @@
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702446632171801857",
+   "metricas": {
+    "averageTimeWatched": 3.94,
+    "comments": 0,
+    "engagementRate": 2.2,
+    "reach": 0,
+    "reactions": 2,
+    "shares": 0,
+    "totalTimeWatched": 6.28,
+    "views": 91
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12525,7 +12555,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 2,
+    "impressions": 45,
     "reactions": 0,
     "reposts": 0
    },
@@ -12559,6 +12589,16 @@
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702569485097618694",
+   "metricas": {
+    "averageTimeWatched": 3.82,
+    "comments": 0,
+    "engagementRate": 3.7,
+    "reach": 0,
+    "reactions": 2,
+    "shares": 0,
+    "totalTimeWatched": 3.75,
+    "views": 54
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-municipio-realizo-una-nueva-jornada-de-la-mesa",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12587,6 +12627,14 @@
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvvc2tlbm6k3",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116249372887257484",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 6,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-municipio-realizo-una-nueva-jornada-de-la-mesa",
    "noticia": "nota:chivilcoy-sociedad-el-municipio-realizo-una-nueva-jornada-de-la-mesa",
    "origen": "bot",
@@ -12617,6 +12665,16 @@
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702620964760210689",
+   "metricas": {
+    "averageTimeWatched": 5.77,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 1.33,
+    "views": 13
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12645,6 +12703,14 @@
    "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116304828573856144",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 19,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
    "noticia": "nota:ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
    "origen": "bot",
@@ -12702,6 +12768,14 @@
    "id": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116360095772684590",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/cultura-daniel-magni-presento-su-libro-remembranzas-junto-a-una",
    "noticia": "nota:cultura-daniel-magni-presento-su-libro-remembranzas-junto-a-una",
    "origen": "bot",
@@ -14500,14 +14574,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702090975904255252",
    "metricas": {
-    "averageTimeWatched": 6.64,
+    "averageTimeWatched": 6.05,
     "comments": 0,
-    "engagementRate": 2.63,
+    "engagementRate": 2.5,
     "reach": 0,
-    "reactions": 5,
+    "reactions": 6,
     "shares": 0,
-    "totalTimeWatched": 23.25,
-    "views": 190
+    "totalTimeWatched": 27.5,
+    "views": 240
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-atiadim-fue-sede-del-primer-encuentro-zonal-de",
    "origen": "bot",
@@ -14628,14 +14702,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702085151139892501",
    "metricas": {
-    "averageTimeWatched": 6.53,
+    "averageTimeWatched": 6.17,
     "comments": 0,
-    "engagementRate": 2.74,
+    "engagementRate": 3.28,
     "reach": 0,
-    "reactions": 11,
+    "reactions": 17,
     "shares": 0,
-    "totalTimeWatched": 48.75,
-    "views": 402
+    "totalTimeWatched": 61.23,
+    "views": 518
    },
    "nota_url": "",
    "origen": "bot",
@@ -14668,8 +14742,8 @@
    "metricas": {
     "clicks": 1,
     "comments": 0,
-    "engagementRate": 1.79,
-    "impressions": 56,
+    "engagementRate": 1.69,
+    "impressions": 59,
     "reactions": 0,
     "reposts": 0
    },
@@ -14704,14 +14778,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702079923812371719",
    "metricas": {
-    "averageTimeWatched": 3.2,
+    "averageTimeWatched": 3.38,
     "comments": 0,
-    "engagementRate": 1.81,
+    "engagementRate": 1.57,
     "reach": 0,
-    "reactions": 3,
+    "reactions": 4,
     "shares": 0,
-    "totalTimeWatched": 9.9,
-    "views": 166
+    "totalTimeWatched": 16.25,
+    "views": 254
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-la-21-edicion-de-la-media-maraton",
    "origen": "bot",
@@ -14745,7 +14819,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 29,
+    "impressions": 30,
     "reactions": 0,
     "reposts": 0
    },
@@ -14968,8 +15042,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0.66,
-    "impressions": 151,
+    "engagementRate": 0.62,
+    "impressions": 161,
     "reactions": 1,
     "reposts": 0
    },
@@ -15083,6 +15157,14 @@
    "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116169771305619921",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 18,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:buscan-edificio-moto-puerta-robada",
    "origen": "bot",
@@ -15193,6 +15275,14 @@
    "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116209331372785932",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 22,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
    "noticia": "nota:bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
    "origen": "bot",
@@ -15223,6 +15313,16 @@
    "id": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702615797167869205",
+   "metricas": {
+    "averageTimeWatched": 10.94,
+    "comments": 0,
+    "engagementRate": 2.98,
+    "reach": 0,
+    "reactions": 5,
+    "shares": 0,
+    "totalTimeWatched": 29.33,
+    "views": 168
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15251,6 +15351,14 @@
    "id": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116314945621029090",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 14,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
    "noticia": "nota:bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
    "origen": "bot",
@@ -16350,14 +16458,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7701894399164271892",
    "metricas": {
-    "averageTimeWatched": 5.32,
+    "averageTimeWatched": 5.39,
     "comments": 0,
-    "engagementRate": 0.42,
+    "engagementRate": 0.41,
     "reach": 0,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 24.2,
-    "views": 239
+    "totalTimeWatched": 25.07,
+    "views": 244
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -16391,7 +16499,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 28,
+    "impressions": 30,
     "reactions": 0,
     "reposts": 0
    },
@@ -16426,14 +16534,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7701889235728518421",
    "metricas": {
-    "averageTimeWatched": 3.62,
+    "averageTimeWatched": 3.54,
     "comments": 0,
-    "engagementRate": 1.23,
+    "engagementRate": 1.18,
     "reach": 0,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 5.85,
-    "views": 81
+    "totalTimeWatched": 6.02,
+    "views": 85
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -16467,7 +16575,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 28,
+    "impressions": 29,
     "reactions": 0,
     "reposts": 0
    },
@@ -16502,14 +16610,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7701883958681799957",
    "metricas": {
-    "averageTimeWatched": 5.04,
+    "averageTimeWatched": 4.83,
     "comments": 0,
-    "engagementRate": 0.71,
+    "engagementRate": 0.65,
     "reach": 0,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 9.73,
-    "views": 140
+    "totalTimeWatched": 11.02,
+    "views": 155
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -16543,7 +16651,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 24,
+    "impressions": 26,
     "reactions": 0,
     "reposts": 0
    },
@@ -16578,14 +16686,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7701878983033457928",
    "metricas": {
-    "averageTimeWatched": 6.76,
+    "averageTimeWatched": 6.95,
     "comments": 0,
-    "engagementRate": 1.42,
+    "engagementRate": 1.16,
     "reach": 0,
     "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 16.55,
-    "views": 141
+    "totalTimeWatched": 21.18,
+    "views": 173
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -16619,7 +16727,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 38,
+    "impressions": 41,
     "reactions": 0,
     "reposts": 0
    },
@@ -16654,14 +16762,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7701826683745127686",
    "metricas": {
-    "averageTimeWatched": 2.66,
+    "averageTimeWatched": 2.64,
     "comments": 0,
     "engagementRate": 0,
     "reach": 20,
     "reactions": 0,
     "shares": 0,
     "totalTimeWatched": 3.98,
-    "views": 85
+    "views": 86
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -16694,8 +16802,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 2,
-    "impressions": 50,
+    "engagementRate": 1.72,
+    "impressions": 58,
     "reactions": 1,
     "reposts": 0
    },
@@ -16729,6 +16837,16 @@
    "id": "entrevistas:job00260",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702466435045461254",
+   "metricas": {
+    "averageTimeWatched": 5.45,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 8.88,
+    "views": 93
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -16761,7 +16879,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 12,
+    "impressions": 15,
     "reactions": 0,
     "reposts": 0
    },
@@ -16795,6 +16913,16 @@
    "id": "entrevistas:job00261",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702462008666459393",
+   "metricas": {
+    "averageTimeWatched": 5.62,
+    "comments": 0,
+    "engagementRate": 1.33,
+    "reach": 0,
+    "reactions": 2,
+    "shares": 0,
+    "totalTimeWatched": 14.9,
+    "views": 150
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -16827,7 +16955,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 12,
+    "impressions": 15,
     "reactions": 0,
     "reposts": 0
    },
@@ -16862,14 +16990,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702244787683921204",
    "metricas": {
-    "averageTimeWatched": 5.78,
+    "averageTimeWatched": 4.97,
     "comments": 0,
-    "engagementRate": 2.38,
+    "engagementRate": 1.95,
     "reach": 0,
-    "reactions": 2,
+    "reactions": 3,
     "shares": 0,
-    "totalTimeWatched": 9.05,
-    "views": 84
+    "totalTimeWatched": 14.4,
+    "views": 154
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -16903,7 +17031,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 8,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },
@@ -16938,14 +17066,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702203599878671637",
    "metricas": {
-    "averageTimeWatched": 3.43,
+    "averageTimeWatched": 3.38,
     "comments": 0,
-    "engagementRate": 1.16,
+    "engagementRate": 0.79,
     "reach": 0,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 5.25,
-    "views": 86
+    "totalTimeWatched": 7.48,
+    "views": 126
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -16979,7 +17107,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 16,
+    "impressions": 19,
     "reactions": 0,
     "reposts": 0
    },
@@ -17016,12 +17144,12 @@
    "metricas": {
     "averageTimeWatched": 1.87,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 2.47,
-    "views": 79
+    "totalTimeWatched": 3.3,
+    "views": 100
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -17055,7 +17183,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 18,
+    "impressions": 25,
     "reactions": 0,
     "reposts": 0
    },
@@ -17089,6 +17217,16 @@
    "id": "entrevistas:job00265",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702590119995542785",
+   "metricas": {
+    "averageTimeWatched": 3.46,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 2.35,
+    "views": 40
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -17117,6 +17255,14 @@
    "id": "entrevistas:job00265",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116204128800035266",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 17,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:contratista-jeni-negativas-rural-simone-tasas",
    "origen": "entrevistas",
@@ -17147,6 +17293,16 @@
    "id": "entrevistas:job00266",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702584846979304722",
+   "metricas": {
+    "averageTimeWatched": 3.99,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 2.98,
+    "views": 44
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -17175,6 +17331,14 @@
    "id": "entrevistas:job00266",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116215218971803817",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 29,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:dalia-drama-navarro-reales-talles",
    "origen": "entrevistas",
@@ -17205,6 +17369,16 @@
    "id": "entrevistas:job00267",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702579751243844882",
+   "metricas": {
+    "averageTimeWatched": 5.21,
+    "comments": 0,
+    "engagementRate": 1.72,
+    "reach": 0,
+    "reactions": 1,
+    "shares": 0,
+    "totalTimeWatched": 5.37,
+    "views": 58
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -17233,6 +17407,14 @@
    "id": "entrevistas:job00267",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116224246523330573",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 15,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:agua-camila-llega-martinez-potable-sabe",
    "origen": "entrevistas",
@@ -17263,6 +17445,16 @@
    "id": "entrevistas:job00268",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702574638898924821",
+   "metricas": {
+    "averageTimeWatched": 3.61,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 2.4,
+    "views": 42
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -17291,6 +17483,14 @@
    "id": "entrevistas:job00268",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116234448173731944",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 15,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:busca-caceres-chivilcoy-grabado-lucas-renacer",
    "origen": "entrevistas",
@@ -18810,7 +19010,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 33,
+    "impressions": 58,
     "reactions": 0,
     "reposts": 0
    },
@@ -19192,7 +19392,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 46,
+    "impressions": 48,
     "reactions": 0,
     "reposts": 0
    },
@@ -19462,7 +19662,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 17,
+    "impressions": 35,
     "reactions": 0,
     "reposts": 0
    },
@@ -19830,7 +20030,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 1,
+    "impressions": 34,
     "reactions": 0,
     "reposts": 0
    },
@@ -19923,7 +20123,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 10,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -20200,8 +20400,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 2.56,
-    "impressions": 39,
+    "engagementRate": 2.5,
+    "impressions": 40,
     "reactions": 0,
     "reposts": 0
    },
@@ -21159,7 +21359,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 16,
+    "impressions": 18,
     "reactions": 0,
     "reposts": 0
    },
@@ -21280,8 +21480,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 2.94,
-    "impressions": 68,
+    "engagementRate": 2.82,
+    "impressions": 71,
     "reactions": 0,
     "reposts": 0
    },
@@ -21365,6 +21565,14 @@
    "ig_hora": "2026-10-30T10:06:41.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116109615003758980",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 16,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
    "noticia": "nota:problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
    "origen": "web",
@@ -21836,7 +22044,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 27,
+    "impressions": 28,
     "reactions": 0,
     "reposts": 0
    },
@@ -21899,7 +22107,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 13,
+    "impressions": 14,
     "reactions": 0,
     "reposts": 0
    },
@@ -22090,7 +22298,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 13,
+    "impressions": 15,
     "reactions": 0,
     "reposts": 0
    },
@@ -22256,6 +22464,14 @@
    "ig_hora": "2026-10-30T10:36:41.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116116970105954617",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 17,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/educacion-y-ciencia-la-falta-de-actualizacion-salarial-arrastra-a",
    "noticia": "nota:educacion-y-ciencia-la-falta-de-actualizacion-salarial-arrastra-a",
    "origen": "web",
@@ -22318,7 +22534,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 18,
+    "impressions": 20,
     "reactions": 0,
     "reposts": 0
    },
@@ -22356,7 +22572,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 12,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },
@@ -22480,6 +22696,14 @@
    "ig_hora": "2026-10-30T11:21:41.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116128485911466397",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 4.76,
+    "impressions": 21,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/coronel-mom-dos-menores-fueron-imputados-tras-recibir-uno-de-ellos",
    "noticia": "nota:coronel-mom-dos-menores-fueron-imputados-tras-recibir-uno-de-ellos",
    "origen": "web",
@@ -22838,7 +23062,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 21,
+    "impressions": 22,
     "reactions": 0,
     "reposts": 0
    },
@@ -22941,8 +23165,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 2.13,
-    "impressions": 47,
+    "engagementRate": 1.96,
+    "impressions": 51,
     "reactions": 0,
     "reposts": 0
    },
@@ -22980,7 +23204,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 14,
+    "impressions": 15,
     "reactions": 0,
     "reposts": 0
    },
@@ -23056,7 +23280,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 15,
+    "impressions": 22,
     "reactions": 0,
     "reposts": 0
    },
@@ -23581,8 +23805,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 4,
-    "impressions": 25,
+    "engagementRate": 3.7,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -23616,6 +23840,14 @@
    "ig_hora": "2026-10-30T11:51:41.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116136036082262109",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 14,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/semillero-rojo-de-fiesta-el-club-atletico-independiente-celebra-los",
    "noticia": "nota:semillero-rojo-de-fiesta-el-club-atletico-independiente-celebra-los",
    "origen": "web",
@@ -23649,8 +23881,8 @@
    "metricas": {
     "clicks": 1,
     "comments": 0,
-    "engagementRate": 18.75,
-    "impressions": 16,
+    "engagementRate": 16.67,
+    "impressions": 18,
     "reactions": 0,
     "reposts": 1
    },
@@ -24174,7 +24406,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 26,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -24292,8 +24524,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 5.56,
-    "impressions": 18,
+    "engagementRate": 5,
+    "impressions": 20,
     "reactions": 0,
     "reposts": 1
    },
@@ -24490,7 +24722,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 16,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -25159,7 +25391,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 21,
+    "impressions": 22,
     "reactions": 0,
     "reposts": 0
    },
@@ -25300,7 +25532,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 15,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -25387,6 +25619,14 @@
    "ig_hora": "2026-10-30T12:06:41.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2116139745788969212",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 14,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
    "noticia": "nota:futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
    "origen": "web",
@@ -25471,7 +25711,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 14,
+    "impressions": 15,
     "reactions": 0,
     "reposts": 0
    },
@@ -25750,7 +25990,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 24,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -26130,7 +26370,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 7,
+    "impressions": 8,
     "reactions": 0,
     "reposts": 0
    },
@@ -26257,8 +26497,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 5,
-    "impressions": 20,
+    "engagementRate": 4.55,
+    "impressions": 22,
     "reactions": 0,
     "reposts": 0
    },
@@ -26320,8 +26560,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 3.85,
-    "impressions": 26,
+    "engagementRate": 3.7,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 1
    },
@@ -26396,8 +26636,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 13.33,
-    "impressions": 15,
+    "engagementRate": 11.76,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },

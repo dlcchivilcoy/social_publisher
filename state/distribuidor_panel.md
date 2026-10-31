@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 06:20 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 06:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -17,17 +17,17 @@ Actualizado: 31/10/2026 06:20 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 28.5 · likes 0
-- X · Reels del bot: 72 con métricas · mediana vistas/impresiones 28.5 · likes 0
-- X · Reels policiales: 21 con métricas · mediana vistas/impresiones 38 · likes 0
-- X · Notas web: 67 con métricas · mediana vistas/impresiones 21 · likes 0
-- TikTok · Recortes de entrevistas: 15 con métricas · mediana vistas/impresiones 98 · likes 1
-- TikTok · Reels del bot: 54 con métricas · mediana vistas/impresiones 270.5 · likes 3
+- X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 29 · likes 0
+- X · Reels del bot: 78 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
+- X · Notas web: 72 con métricas · mediana vistas/impresiones 21.5 · likes 0
+- TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 100 · likes 1
+- TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 258 · likes 3
 - TikTok · Reels policiales: 6 con métricas · mediana vistas/impresiones 541.5 · likes 3.5
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 567 de 600 · 30d: quedan 923 de 2000 (visto 2026-10-31T09:00:21.000Z)
+15m: quedan 149 de 150 · 24h: quedan 599 de 600 · 30d: quedan 922 de 2000 (visto 2026-10-31T09:40:17.000Z)
 
 ## Cola propia (15 esperando)
 - TikTok · Reels del bot · Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
