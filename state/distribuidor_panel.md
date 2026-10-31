@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 2 | 0 | 0 | 1 | 3 |
-| Reels del bot | TikTok | 20 | 1 | 3 | 2 | 0 | 0 | 2 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 1 | 3 |
+| Reels del bot | TikTok | 20 | 3 | 1 | 2 | 0 | 0 | 2 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 5 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 9 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 4 enviadas + 1 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 27 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 31/10/2026 19:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 585 de 600 · 30d: quedan 908 de 2000 (visto 2026-10-31T21:40:15.000Z)
+15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 906 de 2000 (visto 2026-10-31T22:20:24.000Z)
 
 ## Cola propia (8 esperando)
 - TikTok · Reels del bot · Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -47,12 +47,6 @@ Actualizado: 31/10/2026 19:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T20:40 recibido web:be3f2357-0b41-4b5c-a76e-7242f7a153df|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-31T20:40 programado bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x 
-- 2026-10-31T21:00 recibido bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x 
-- 2026-10-31T21:00 recibido bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tikto 
-- 2026-10-31T21:00 recibido bot:video_matias-zucchi_mvwv5r5js633_01.mp4|x 
-- 2026-10-31T21:00 recibido bot:video_matias-zucchi_mvwv5r5js633_01.mp4|tiktok 
 - 2026-10-31T21:00 recibido web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-31T21:00 recibido web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-31T21:00 enviado bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x 
@@ -72,3 +66,9 @@ Actualizado: 31/10/2026 19:00 (hora AR) · ACTIVO
 - 2026-10-31T21:40 baja bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|x 
 - 2026-10-31T21:40 baja bot:video_matias-zucchi_mvwv5r5js633_01.mp4|tiktok 
 - 2026-10-31T21:40 baja bot:video_matias-zucchi_mvwv5r5js633_01.mp4|x 
+- 2026-10-31T22:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
+- 2026-10-31T22:20 enviado bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tikto 
+- 2026-10-31T22:20 enviado bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x 
+- 2026-10-31T22:20 enviado bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok 
+- 2026-10-31T22:20 enviado bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x 
+- 2026-10-31T22:20 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
