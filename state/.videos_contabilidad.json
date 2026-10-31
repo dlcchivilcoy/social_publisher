@@ -37003,5 +37003,74 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-10-31T13:38:43",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml",
+    "uploader": "",
+    "fecha_recibido": "2026-10-31T17:05:54",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Incendio forestal",
+    "titulo": "Emmanuel Artola: Bomberos acuden a un incendio forestal en Ruta 30",
+    "resumen": "Personal de Bomberos Voluntarios acudió este viernes a un incendio forestal sobre la Ruta Provincial 30. El hecho se registró cerca de las 17 horas pasando el Parque La Martija.",
+    "texto": "Bomberos Voluntarios de Chivilcoy fueron convocados este viernes alrededor de las 17 horas a raíz de un incendio forestal registrado sobre la Ruta Provincial 30.\n\nEl servidor público Emmanuel Artola informó sobre la salida de la dotación mientras se dirigían hacia la zona afectada para intervenir en el siniestro.\n\n«Estamos yendo a un incendio forestal, Ruta 30», señaló Artola respecto al servicio que se localizó pasando el predio del Parque La Martija.",
+    "bajada_reel": "",
+    "escrito": "Incendio forestal en Ruta 30 pasando el Parque La Martija aproximadamente a las 17hs",
+    "tarjetas_fotos": [],
+    "draft_id": "e5999468-a4ca-4894-bd6f-4cc43da3cca5",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-10-31-matias-zucchi-mv.mp4",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-10-31T20:03:33.556Z — wa:5492346417636",
+    "decl": {
+      "audio": "audio_matias-zucchi_mvwtwncehaml_01.mp3",
+      "visual": "foto_matias-zucchi_mvwtwncehaml_02.jpg",
+      "es_foto": true,
+      "nombre": "Emmanuel Artola",
+      "cargo": "Bombero Voluntario",
+      "frases": [
+        {
+          "desde": 0,
+          "texto": "Convocatoria por incendio forestal"
+        },
+        {
+          "desde": 1.5,
+          "texto": "Intervención en Ruta 30"
+        },
+        {
+          "desde": 2.5,
+          "texto": "Pasando el Parque La Martija"
+        }
+      ],
+      "tramo": {
+        "desde": 0,
+        "hasta": 3.8
+      },
+      "transcripcion": "Estamos yendo a un incendio forestal, Ruta 30, Pasata de la Martija",
+      "asr": "groq"
+    },
+    "tema_4x5": "blanco",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-10-31T17:08:27",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "vía Buffer (distribuidor)",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un",
+    "ig_media_id": "17992389572862392",
+    "fb_video_id": "1428009912206195",
+    "ig_historia_id": "18096384533403805",
+    "fb_historia_id": "3198617387012108",
+    "yt_video_id": "6UF1bh55J-U",
+    "yt_url": "https://www.youtube.com/shorts/6UF1bh55J-U"
   }
 ]
