@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 4
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-01T15:00:19.000Z"
+   "visto": "2026-11-01T21:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,34 +26,13 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 10
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-01T15:00:19.000Z"
+   "visto": "2026-11-01T21:20:16.000Z"
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w": {
-   "descripcion": "Chivilcoy Trabaja, Emprende y Aprende: alrededor de 450 personas se capacitan en 23 cursos de oficios. El programa municipal, desarrollado en articulación con el CUCH, promueve la formación, la autonomía económica y la inserción laboral. Desde el área anticiparon que ya trabajan...",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-20T21:07:56.000Z",
-   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Alrededor de 450 personas se capacitan en 23 cursos de oficios",
-   "urgente": false,
-   "video_bytes": 908760,
-   "video_mb": 0.9,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77078a4e924dcafe.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/AWtdJRTPfQU"
-  },
   "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4": {
    "descripcion": "Chivilcoy celebró su 172° aniversario con un reconocimiento a Horacio Milozzi como Ciudadano Ilustre y un mensaje de Britos sobre el futuro de la gestión. En el acto central por el aniversario de la ciudad, el intendente destacó los avances de los últimos 11 años, defendió la gestión",
    "duracion_seg": 30.0,
@@ -2939,33 +2918,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
    "volanta": "Subastas de ARCA",
    "youtube_url": "https://youtube.com/shorts/qVERJf7R1Eg"
-  },
-  "nacionales:e25c9cf3646e5306": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "Funcionarios y legisladores de La Libertad Avanza celebraron el cumpleaños número 56 del mandatario con mensajes en redes sociales y un festejo en el Congreso encabezado por Karina Milei y Martín Menem.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-22T21:15:47.000Z",
-   "hashtags": [
-    "JavierMilei",
-    "Politica"
-   ],
-   "id": "nacionales:e25c9cf3646e5306",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c",
-   "origen": "nacionales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 5,
-   "tipo": "video",
-   "titulo": "Diputados y ministros saludaron al presidente Javier Milei por su cumpleaños",
-   "urgente": false,
-   "video_bytes": 80334,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
-   "volanta": "Javier Milei",
-   "youtube_url": "https://youtube.com/shorts/935r-7nZec0"
   },
   "nacionales:f1cea0fec08ce954": {
    "categoria": "Política",
@@ -7567,17 +7519,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 592,
-   "segundos": 46799,
+   "restantes": 591,
+   "segundos": 45603,
    "tope": 600
   },
   "30d": {
-   "restantes": 893,
-   "segundos": 778221,
+   "restantes": 892,
+   "segundos": 777025,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-01T21:00:20.000Z",
+ "cuota_visto": "2026-11-01T21:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 83,
   "disponible": true,
@@ -7594,34 +7546,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tiktok": {
-   "actualizado": "2026-10-22T21:20:15.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tiktok",
-   "creado": "2026-10-20T21:20:16.000Z",
-   "dueAt": "",
-   "error": "ya salieron los 5 de bot de hoy en TikTok",
-   "espera": "ya salieron los 5 de bot de hoy en TikTok",
-   "estado": "vencido",
-   "generado": "2026-10-20T21:07:56.000Z",
-   "id": "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Alrededor de 450 personas se capacitan en 23 cursos de oficios\n\nChivilcoy Trabaja, Emprende y Aprende: alrededor de 450 personas se capacitan en 23 cursos de oficios. El programa municipal, desarrollado en articulación con el CUCH, promueve la formación, la autonomía económica y la inserción laboral. Desde el área anticiparon que ya trabajan...\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-alrededor-de-450-personas-se-capacitan-en-23\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Alrededor de 450 personas se capacitan en 23 cursos de oficios",
-   "urgente": false,
-   "vence": "2026-10-22T21:07:56.000Z",
-   "video_bytes": 908760,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77078a4e924dcafe.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok": {
    "actualizado": "2026-10-22T22:00:28.000Z",
    "buffer_id": "6ada796665d602339aec77dc",
@@ -14408,19 +14332,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok": {
-   "actualizado": "2026-11-01T21:00:19.000Z",
+   "actualizado": "2026-11-01T21:20:16.000Z",
    "buffer_id": "6ae7a8641120555c2a37da1d",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok",
    "creado": "2026-11-01T13:20:14.000Z",
    "dueAt": "2026-11-01T21:03:04.000Z",
+   "enviado": "2026-11-01T21:03:58.224Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-01T13:08:47.000Z",
    "id": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7703311600094104850",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-luis-molina-gano-los-21k-de-la-media",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -16667,60 +16592,6 @@
    "vence": "2026-10-24T00:45:55.000Z",
    "video_bytes": 80162,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
-   "viral": false
-  },
-  "nacionales:e25c9cf3646e5306|tiktok": {
-   "actualizado": "2026-10-22T21:20:15.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "nacionales:e25c9cf3646e5306|tiktok",
-   "creado": "2026-10-22T21:20:13.000Z",
-   "dueAt": "",
-   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
-   "estado": "descartado",
-   "generado": "2026-10-22T21:15:47.000Z",
-   "id": "nacionales:e25c9cf3646e5306",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 5,
-   "texto": "Diputados y ministros saludaron al presidente Javier Milei por su cumpleaños\n\nFuncionarios y legisladores de La Libertad Avanza celebraron el cumpleaños número 56 del mandatario con mensajes en redes sociales y un festejo en el Congreso encabezado por Karina Milei y Martín Menem.\n\nhttps://www.diariolacampaña.com.ar/n/el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #JavierMilei",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Diputados y ministros saludaron al presidente Javier Milei por su cumpleaños",
-   "urgente": false,
-   "vence": "2026-10-23T15:15:47.000Z",
-   "video_bytes": 80334,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
-   "viral": false
-  },
-  "nacionales:e25c9cf3646e5306|x": {
-   "actualizado": "2026-10-22T21:20:15.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:e25c9cf3646e5306|x",
-   "creado": "2026-10-22T21:20:13.000Z",
-   "dueAt": "",
-   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
-   "estado": "descartado",
-   "generado": "2026-10-22T21:15:47.000Z",
-   "id": "nacionales:e25c9cf3646e5306",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c",
-   "noticia": "nota:el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 5,
-   "texto": "Diputados y ministros saludaron al presidente Javier Milei por su cumpleaños\n\nLegisladores y funcionarios de La Libertad Avanza celebraron el cumpleaños 56 del mandatario en redes y en el Congreso. Karina Milei y Martín Menem encabezaron el festejo.\n\nhttps://www.diariolacampaña.com.ar/n/el-oficialismo-saludo-a-javier-milei-por-su-cumpleanos-numero-e25c9c",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Diputados y ministros saludaron al presidente Javier Milei por su cumpleaños",
-   "urgente": false,
-   "vence": "2026-10-22T23:15:47.000Z",
-   "video_bytes": 80334,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_e25c9cf364_diputados-y-ministros-saludaron-al-presidente.mp4",
    "viral": false
   },
   "nacionales:f1cea0fec08ce954|tiktok": {
@@ -23765,14 +23636,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok",
-   "cuando": "2026-10-27T13:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x",
    "cuando": "2026-10-27T13:00:21.000Z",
    "evento": "enviado",
@@ -27947,6 +27810,12 @@
    "cuando": "2026-11-01T21:00:20.000Z",
    "dueAt": "2026-11-01T21:03:04.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok",
+   "cuando": "2026-11-01T21:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7703311600094104850"
   }
  ],
  "tandas": {
@@ -27984,7 +27853,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-01",
- "ultima_sync": "2026-11-01T15:00:19.000Z",
+ "ultima_sync": "2026-11-01T21:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
