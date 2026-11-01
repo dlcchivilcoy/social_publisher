@@ -524,7 +524,8 @@ def _avisar_plan_x(plan: dict, http=None) -> bool:
 
 
 # Colores intercalados (19/10/2026): cada nota del diario sale con el tema que sigue, blanco o grafito.
-TEMAS_INTERCALADOS = ("claro", "grafito")
+# 01/11/2026: y naranja (el del isologo, con la letra blanca), pedido del usuario.
+TEMAS_INTERCALADOS = ("claro", "grafito", "naranja")
 
 
 def _tema_de(i: int) -> str:

@@ -1300,8 +1300,12 @@ FONTS_DIR = Path(__file__).parent / "fonts"
 _vfont_cache: dict = {}
 
 HORIZONTAL_MIN = 1.2            # ancho/alto desde el que una foto cuenta como horizontal
-FOTO_A_H = (600, 760)           # estilo A: la foto entera a lo ancho, con el alto entre estos dos
-FOTO_B_H = 500                  # estilo B: foto más baja (se recorta arriba/abajo cuidando las caras)
+# 01/11/2026 («priorizá mayor ocupación del video o foto por sobre la placa con texto»): la foto ocupa
+# más de la mitad de la placa. Una 16:9 en el estilo A ya no entra entera: se recortan los costados
+# (cuidando las caras, `_encuadrar`) para llegar al mínimo. Antes: A (600, 760) y B 500.
+FOTO_A_H = (760, 840)           # estilo A: la foto a lo ancho, con el alto entre estos dos
+FOTO_B_H = 720                  # estilo B: foto más baja (se recorta arriba/abajo cuidando las caras)
+FOTO_LAMINA_H = 420             # la foto de una lámina con texto largo (carrusel explicativo)
 CARRUSEL_MARGEN = 60
 NARANJA_MARCA = (247, 127, 0)   # el naranja de la web (--naranja)
 
@@ -1310,6 +1314,12 @@ TEMAS_CARRUSEL = {
               "acento": (226, 98, 12)},
     "grafito": {"fondo": (32, 34, 38), "texto": (255, 255, 255), "suave": (200, 202, 208),
                 "acento": (239, 150, 60)},
+    # 01/11/2026: tercer color intercalado, el naranja del isologo con la letra BLANCA. Los acentos
+    # (filete, pestaña, volanta, número) van blancos; la flecha, naranja sobre su caja blanca; el
+    # isologo, blanco.
+    "naranja": {"fondo": (253, 133, 17), "texto": (255, 255, 255), "suave": (255, 241, 228),
+                "acento": (255, 255, 255), "flecha": (253, 133, 17), "iso_blanco": True,
+                "linea": (255, 196, 140)},
 }
 
 
@@ -1518,13 +1528,15 @@ def _lockup_marca(ancho: int) -> "Image.Image":
     return lock
 
 
-def _cabecera_carrusel(canvas) -> int:
-    """Velo arriba + logo a la izquierda + isologo a la derecha. Devuelve la y donde terminan."""
-    _grad_overlay(canvas, 0, 280, (0, 0, 0), 170, 0, gamma=1.2)
+def _cabecera_carrusel(canvas, iso_blanco: bool = False) -> int:
+    """Velo arriba + logo a la izquierda + isologo a la derecha. Devuelve la y donde terminan.
+    `iso_blanco` (placa naranja sin foto): isologo blanco y sin el velo, que ensucia el naranja."""
+    if not iso_blanco:
+        _grad_overlay(canvas, 0, 280, (0, 0, 0), 170, 0, gamma=1.2)
     m, y = CARRUSEL_MARGEN, 46
     lock = _lockup_marca(350)
     _con_sombra(canvas, lock, m, y)
-    iso = _iso(True)
+    iso = _iso(not iso_blanco)
     alto = lock.height
     if iso:
         ih = round(alto * 1.2)
@@ -1555,7 +1567,7 @@ def _pie_carrusel(canvas, draw, tema: dict, x0: int, x1: int, y_centro: int, idx
     lado = 58
     derecha = x1
     if idx and total and idx < total:
-        fl = _caja_flecha(lado, tema["acento"], (255, 255, 255))
+        fl = _caja_flecha(lado, tema["acento"], tema.get("flecha", (255, 255, 255)))
         canvas.paste(fl, (derecha - lado, y_centro - lado // 2), fl)
         derecha -= lado + 14
     if idx:
@@ -1667,7 +1679,7 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
     if foto is not None:
         canvas.paste(_encuadrar(foto, SLIDE_W, SLIDE_H), (0, 0))
     caras = _detect_faces(canvas) if foto is not None else []
-    tope_logos = _cabecera_carrusel(canvas) + 34
+    tope_logos = _cabecera_carrusel(canvas, iso_blanco=foto is None and t.get("iso_blanco", False)) + 34
     draw = ImageDraw.Draw(canvas)
     pad, fila_pie = 40, 58
     bx0, bx1 = m - 14, SLIDE_W - m + 14
@@ -1721,7 +1733,7 @@ def compose_lamina_carrusel(photo_path, volanta: str, titulo: str, texto: str, s
             logger.warning(f"No se pudo abrir la foto de la lámina: {e}")
     if foto is None:
         return _lamina_solo_texto(volanta, titulo, texto, site_url, idx, total, t)
-    foto_h = FOTO_B_H - 80 if foto is not None else 0
+    foto_h = FOTO_LAMINA_H if foto is not None else 0
     if foto is not None:
         canvas.paste(_encuadrar(foto, SLIDE_W, foto_h), (0, 0))
         _cabecera_carrusel(canvas)
@@ -1764,13 +1776,13 @@ def _lamina_solo_texto(volanta: str, titulo: str, texto: str, site_url: str, idx
     ancho = W - 2 * m
     claro = sum(t["fondo"]) > 600
     tenue = tuple(round(f * 0.94 + a * 0.06) for f, a in zip(t["fondo"], t["acento"]))
-    linea = (226, 228, 233) if claro else (64, 66, 74)
+    linea = t.get("linea") or ((226, 228, 233) if claro else (64, 66, 74))
     canvas = Image.new("RGB", (W, H), t["fondo"])
     draw = ImageDraw.Draw(canvas)
     if idx:
         draw.text((W - 40, H - 150), f"{idx:02d}", font=_sans(520, 800), fill=tenue, anchor="rs")
     # Cabecera: isotipo + DIARIO LA CAMPAÑA a la izquierda, «02 / 06» a la derecha.
-    x = _paste_iso(canvas, m, 70, 50, orange=True) + 16
+    x = _paste_iso(canvas, m, 70, 50, orange=not t.get("iso_blanco")) + 16
     draw.text((x, 95), "DIARIO LA CAMPAÑA", font=_sans(24, 700), fill=t["texto"], anchor="lm")
     if idx and total:
         draw.text((W - m, 95), f"{idx:02d} / {total:02d}", font=_sans(32, 700), fill=t["acento"],

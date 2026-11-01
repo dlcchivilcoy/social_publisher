@@ -243,17 +243,27 @@ CORR_AR_APAISADO = 1.0                  # más ancho que alto = «apaisado»
 # El isologo va en naranja en los dos (se lee igual sobre blanco y sobre grafito). Quien publica
 # elige el tema con `tema_siguiente(el del último)` y lo anota si el reel salió 4:5
 # (`tema_usado`). `REEL_BLOQUE_4X5=0` vuelve al 4:5 de antes (marca arriba, cajas debajo);
-# `REEL_TEMA_4X5=blanco|grafito` fija uno solo.
+# `REEL_TEMA_4X5=blanco|grafito|naranja` fija uno solo.
+# 2026-11-01 (pedido del usuario: «sumá otro color intercalado, fondo naranja de mi isologo con letra
+# blanca»): tercer tema «naranja», fondo #FD8511 (el del isologo nuevo) con volanta, titular, logo e
+# isologo en BLANCO. `linea` es el color de la línea entre la imagen y el bloque (y de los detalles:
+# espectro y progreso de las declaraciones); en el naranja va blanca, si no se perdería en el fondo.
 LOGO_NARANJA = ASSETS / "logo_reel_naranja.png"
 LOGO_TEXTO = ASSETS / "logo.png"           # «La Campaña», negro sobre transparente
+NARANJA_ISOLOGO = (253, 133, 17, 255)      # #FD8511
 BLOQUE_TEMAS = {
     "blanco": dict(fondo=(255, 255, 255, 255), volanta=(222, 112, 26, 255),
-                   titular=CORR_GRAFITO, logo=CORR_GRAFITO, tenue=(32, 34, 38, 60)),
+                   titular=CORR_GRAFITO, logo=CORR_GRAFITO, tenue=(32, 34, 38, 60),
+                   linea=CORR_NARANJA, iso=None),
     "grafito": dict(fondo=CORR_GRAFITO, volanta=CORR_NARANJA,
                     titular=(255, 255, 255, 255), logo=(255, 255, 255, 255),
-                    tenue=(255, 255, 255, 90)),
+                    tenue=(255, 255, 255, 90), linea=CORR_NARANJA, iso=None),
+    "naranja": dict(fondo=NARANJA_ISOLOGO, volanta=(255, 255, 255, 255),
+                    titular=(255, 255, 255, 255), logo=(255, 255, 255, 255),
+                    tenue=(255, 255, 255, 110), linea=(255, 255, 255, 255),
+                    iso=(255, 255, 255, 255)),
 }
-BLOQUE_ORDEN = ("blanco", "grafito")
+BLOQUE_ORDEN = ("blanco", "grafito", "naranja")
 BLOQUE_LINEA = 10                  # la línea naranja entre la imagen y el bloque
 BLOQUE_X = 80                      # margen izquierdo de todo lo del bloque
 BLOQUE_ANCHO = 850                 # de X 80 a 930: lejos de la columna de botones de IG
@@ -267,6 +277,12 @@ BLOQUE_TITULAR = (78, 40, "700")   # tope, piso, peso
 BLOQUE_TITULAR_PREFIERE = 52       # por debajo de esto, antes se resigna un poco de imagen
 BLOQUE_SALTO = 1.1
 BLOQUE_RECORTE_MAX = 0.25          # lo más que se recorta de la imagen (desde abajo)
+# 2026-11-01 («priorizá mayor ocupación del video o foto por sobre la placa con texto, hay veces que
+# ocupa más espacio la placa»): una 16:9 entera medía 608 de 1350 y el bloque 742. Ahora la imagen
+# llega hasta `BLOQUE_4X5_IMG` (60 % del cuadro) recortando los COSTADOS (hasta un 30 % del ancho,
+# centrado en las caras o en lo importante, como en el 9:16). Un afiche no se recorta.
+BLOQUE_4X5_IMG = 810
+BLOQUE_4X5_RECORTE = 0.30
 # El bloque DENTRO de un reel 9:16 (pedido 2026-10-17: en un pase de fotos con alguna vertical,
 # las horizontales van «como las de policiales»; conviven las dos estéticas en el mismo reel).
 # La imagen sigue arrancando arriba, pero se estira hasta `BLOQUE_9X16_IMG` de alto recortando
@@ -2053,6 +2069,11 @@ def _logo_bloque(tema: str):
         iso = Image.open(LOGO_NARANJA).convert("RGBA")
         iso = iso.crop(iso.getchannel("A").point(lambda a: 255 if a > 40 else 0).getbbox()
                        or (0, 0, iso.width, iso.height))
+        color = BLOQUE_TEMAS[tema].get("iso")
+        if color:                    # sobre el fondo naranja, el isologo va de otro color (blanco)
+            liso = Image.new("RGBA", iso.size, color)
+            liso.putalpha(iso.getchannel("A"))
+            iso = liso
         piezas.append(iso.resize((max(1, round(iso.width * BLOQUE_ISOLOGO / iso.height)),
                                   BLOQUE_ISOLOGO), Image.LANCZOS))
     if LOGO_TEXTO.exists():
@@ -2177,7 +2198,9 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
         if not grafica:
             am = max(am, min(BLOQUE_9X16_IMG,
                              round(natural / (1 - BLOQUE_9X16_RECORTE)))) // 2 * 2
-    fijo = BLOQUE_LINEA + pad_a + BLOQUE_ISOLOGO + BLOQUE_GAP_LOGO + pad_b
+    elif not grafica and not entera:
+        am = max(am, min(BLOQUE_4X5_IMG, round(natural / (1 - BLOQUE_4X5_RECORTE)))) // 2 * 2
+    fijo =BLOQUE_LINEA + pad_a + BLOQUE_ISOLOGO + BLOQUE_GAP_LOGO + pad_b
     if entera:
         hm = BLOQUE_9X16_ENTERA
         esc = min(1080 / w, hm / h)
@@ -2213,7 +2236,7 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
     # Se armó en y=0 para medir: se corre al lugar, con la misma letra.
     txt["bloques"] = [b[:2] + (b[2] + y_txt,) + b[3:] for b in txt["bloques"]]
     t = BLOQUE_TEMAS[tema]
-    cajas = [(0, hm, 1080, hm + BLOQUE_LINEA, CORR_NARANJA),
+    cajas = [(0, hm, 1080, hm + BLOQUE_LINEA, t["linea"]),
              (0, hm + BLOQUE_LINEA, 1080, alto, t["fondo"])]
     plan.update(media=media, cover=cover, lienzo=(1080, alto),
                 cajas=cajas, bloques=txt["bloques"], titulo=txt["titulo"],
@@ -3796,7 +3819,7 @@ def autochequeo() -> bool:
                                      ("afiche 4:5", 1080, 1350, True)):
             fallas = []
             # Las maquetas se alternan de tema, como los posteos.
-            tema = BLOQUE_ORDEN[(MAQUETAS.index((nombre, vol, tit, res)) + w) % 2]
+            tema = BLOQUE_ORDEN[(MAQUETAS.index((nombre, vol, tit, res)) + w) % len(BLOQUE_ORDEN)]
             plan = plan_placa(vol, tit, res, w, h, grafica=graf, estilo="corresponsal", tema=tema)
             lw, lh = plan["lienzo"]
             piso = lh - (BANDA_SEGURO if lh >= 1920 else 30)

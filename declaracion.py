@@ -245,7 +245,7 @@ def plan(w: int, h: int, nombre: str, cargo: str, frases: list, caras=None, tema
         extra = max(0, Y_ABAJO_9X16 - hm - V.BLOQUE_LINEA - pad_a - alto_b)
         b = bloque_4x5(nombre, cargo, frases, f, tema,
                        hm + V.BLOQUE_LINEA + pad_a + round(extra * 0.38))
-        cajas = [(0, hm, 1080, hm + V.BLOQUE_LINEA, V.CORR_NARANJA),
+        cajas = [(0, hm, 1080, hm + V.BLOQUE_LINEA, V.BLOQUE_TEMAS[tema]["linea"]),
                  (0, hm + V.BLOQUE_LINEA, 1080, H, V.BLOQUE_TEMAS[tema]["fondo"])]
         return dict(lienzo=(1080, H), media=((1080 - wi) // 2, (hm - hi) // 2, wi, hi, False),
                     bloque=b, encima=False, fuentes=f, tema=tema, cajas=cajas)
@@ -261,7 +261,7 @@ def plan(w: int, h: int, nombre: str, cargo: str, frases: list, caras=None, tema
         extra = max(0, H - hm - fijo)
         b = bloque_4x5(nombre, cargo, frases, f, tema,
                        hm + V.BLOQUE_LINEA + pad_a + round(extra * 0.38))
-        cajas = [(0, hm, 1080, hm + V.BLOQUE_LINEA, V.CORR_NARANJA),
+        cajas = [(0, hm, 1080, hm + V.BLOQUE_LINEA, V.BLOQUE_TEMAS[tema]["linea"]),
                  (0, hm + V.BLOQUE_LINEA, 1080, H, V.BLOQUE_TEMAS[tema]["fondo"])]
         return dict(lienzo=(1080, H), media=(0, 0, 1080, hm, hm < am), bloque=b, encima=False,
                     fuentes=f, tema=tema, cajas=cajas)
@@ -412,7 +412,7 @@ def alturas(muestras, sr: int, n_cuadros: int, barras: int = BARRAS):
 
 
 def _espectro_mov(audio: Path, desde: float, dur: float, salida: Path,
-                  pista: tuple = (255, 255, 255, 110)) -> tuple:
+                  pista: tuple = (255, 255, 255, 110), color: tuple = None) -> tuple:
     """El espectro y la línea de progreso, cuadro a cuadro, en un .mov con transparencia.
     Devuelve (archivo, ancho, alto)."""
     from PIL import Image, ImageDraw
@@ -424,7 +424,7 @@ def _espectro_mov(audio: Path, desde: float, dur: float, salida: Path,
     paso = W / BARRAS
     ancho_barra = max(3, round(paso * 0.46))
     medio = Hb / 2
-    naranja = V.CORR_NARANJA
+    naranja = color or V.CORR_NARANJA
     cmd = [V._ffmpeg(), "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}",
            "-r", str(FPS), "-i", "-", "-c:v", "png", "-pix_fmt", "rgba", str(salida)]
     with tempfile.TemporaryFile() as err:
@@ -492,7 +492,8 @@ def armar(audio, visual, salida, *, nombre: str, cargo: str = "", frases=None, t
             for i, (a, b, t) in enumerate(lista)]
     if p.get("tema"):
         esp, ew, eh = _espectro_mov(audio, desde, dur, work / f"_espectro_{clave}.mov",
-                                    pista=V.BLOQUE_TEMAS[p["tema"]]["tenue"])
+                                    pista=V.BLOQUE_TEMAS[p["tema"]]["tenue"],
+                                    color=V.BLOQUE_TEMAS[p["tema"]]["linea"])
         ex = V.BLOQUE_X
     else:
         esp, ew, eh = _espectro_mov(audio, desde, dur, work / f"_espectro_{clave}.mov")
