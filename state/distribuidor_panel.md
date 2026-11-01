@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 31/10/2026 21:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 1 | 3 |
 | Reels del bot | TikTok | 20 | 4 | 5 | 0 | 0 | 0 | 2 |
-| Reels policiales | X | 6 | 1 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 1 | 3 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -30,12 +30,12 @@ Actualizado: 31/10/2026 21:00 (hora AR) · ACTIVO
 15m: quedan 149 de 150 · 24h: quedan 580 de 600 · 30d: quedan 903 de 2000 (visto 2026-11-01T00:00:26.000Z)
 
 ## Cola propia (6 esperando)
+- X · Reels policiales · Una mujer sufrió una fractura grave tras chocar con su moto en Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Allanaron dos viviendas y secuestraron ropa y calzado deportivo trucho — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Menor herido tras impactar en moto contra un auto en Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — no entró entre las 5 más virales de la tanda 21 h
-- TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -45,8 +45,6 @@ Actualizado: 31/10/2026 21:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T21:40 baja bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|tikto 
-- 2026-10-31T21:40 baja bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|x 
 - 2026-10-31T21:40 baja bot:video_matias-zucchi_mvwv5r5js633_01.mp4|tiktok 
 - 2026-10-31T21:40 baja bot:video_matias-zucchi_mvwv5r5js633_01.mp4|x 
 - 2026-10-31T22:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
@@ -70,3 +68,5 @@ Actualizado: 31/10/2026 21:00 (hora AR) · ACTIVO
 - 2026-11-01T00:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tikto 
 - 2026-11-01T00:00 programado bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok 
 - 2026-11-01T00:00 programado bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
+- 2026-11-01T00:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31099/choc 
+- 2026-11-01T00:20 vencido bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|tikto no entró entre las 5 más virales de la tanda 21 h
