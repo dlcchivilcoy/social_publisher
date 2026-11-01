@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 3
+    "scheduled": 0,
+    "sent": 4
    },
    "pausado": false,
-   "visto": "2026-11-01T14:00:18.000Z"
+   "visto": "2026-11-01T15:00:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 11
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-11-01T14:00:18.000Z"
+   "visto": "2026-11-01T15:00:19.000Z"
   }
  },
  "contenidos": {
@@ -7796,17 +7796,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 594,
-   "segundos": 72001,
+   "restantes": 593,
+   "segundos": 68399,
    "tope": 600
   },
   "30d": {
-   "restantes": 895,
-   "segundos": 803422,
+   "restantes": 894,
+   "segundos": 799821,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-01T14:00:20.000Z",
+ "cuota_visto": "2026-11-01T15:00:19.000Z",
  "metricas_buffer": {
   "con_metricas": 83,
   "disponible": true,
@@ -14163,19 +14163,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok": {
-   "actualizado": "2026-11-01T13:00:22.000Z",
+   "actualizado": "2026-11-01T15:00:19.000Z",
    "buffer_id": "6ae737ebcf3a3112f3fa3cbf",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok",
    "creado": "2026-10-30T14:40:14.000Z",
    "dueAt": "2026-11-01T14:03:21.000Z",
+   "enviado": "2026-11-01T14:08:46.490Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T14:22:57.000Z",
    "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7703204491524361473",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -24482,13 +24483,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae09bc06cd613c4832841dd",
-   "clave": "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x",
-   "cuando": "2026-10-27T12:40:32.000Z",
-   "dueAt": "2026-10-27T13:53:46.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|x",
    "cuando": "2026-10-27T13:00:20.000Z",
    "estado": "descartado",
@@ -28666,6 +28660,12 @@
    "cuando": "2026-11-01T14:00:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2116883570153201918"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok",
+   "cuando": "2026-11-01T15:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7703204491524361473"
   }
  ],
  "tandas": {
@@ -28703,7 +28703,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-01",
- "ultima_sync": "2026-11-01T14:00:18.000Z",
+ "ultima_sync": "2026-11-01T15:00:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
