@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 01/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 01/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-01)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,12 +8,12 @@ Actualizado: 01/11/2026 19:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 6 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 5 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,9 +27,10 @@ Actualizado: 01/11/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 590 de 600 · 30d: quedan 891 de 2000 (visto 2026-11-01T22:20:16.000Z)
+15m: quedan 149 de 150 · 24h: quedan 589 de 600 · 30d: quedan 890 de 2000 (visto 2026-11-01T22:40:16.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Reels policiales · Emiten una alerta meteorológica amarilla por tormentas para Chacabuco y la zona — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -39,8 +40,6 @@ Actualizado: 01/11/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-01T02:00 enviado bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
-- 2026-11-01T02:00 enviado bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tikto 
 - 2026-11-01T02:00 enviado bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok 
 - 2026-11-01T02:20 vencido policiales:https://www.bragadoinforma.com.ar/nota/31099/choc espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-01T12:20 recibido bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x 
@@ -64,3 +63,5 @@ Actualizado: 01/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-01T21:20 enviado bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok 
 - 2026-11-01T22:20 recibido policiales:https://www.diariodemocracia.com/policiales/34745 
 - 2026-11-01T22:20 programado policiales:https://www.diariodemocracia.com/policiales/34745 
+- 2026-11-01T22:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/la-semana 
+- 2026-11-01T22:40 enviado policiales:https://www.diariodemocracia.com/policiales/34745 

@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-01T21:20:16.000Z"
+   "visto": "2026-11-01T22:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 6
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-01T21:20:16.000Z"
+   "visto": "2026-11-01T22:40:15.000Z"
   }
  },
  "contenidos": {
@@ -3481,6 +3481,32 @@
    "volanta": "Siniestro vial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/TLZh9rg71nw"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": {
+   "categoria": "alerta_meteorologica",
+   "descripcion": "El Servicio Meteorológico Nacional emitió una alerta amarilla por tormentas prevista para la tarde del martes en Chacabuco y varios distritos de la región.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-01T22:31:26.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-emiten-una-alerta-meteorologica-amarilla-por-1fd2e8",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "El partido de Chacabuco se prepara para la llegada de nuevas precipitaciones.\n\nEl Servicio Meteorológico Nacional anunció una alerta amarilla por tormentas.\n\nEl fenómeno climático se registrará durante la tarde del martes.\n\nLa medida alcanza también a otros distritos de la región.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #AlertaMeteorologica #Clima #Tormentas #BuenosAires",
+   "tipo": "video",
+   "titulo": "Emiten una alerta meteorológica amarilla por tormentas para Chacabuco y la zona",
+   "urgente": false,
+   "video_bytes": 74441,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_02_chacabuco_emiten-una-alerta-meteorol-gic.mp4",
+   "volanta": "Alerta meteorológica en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/YvZAS1cAA24"
+  },
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": {
    "categoria": "incendio",
    "descripcion": "Efectivos del Comando de Patrullas y bomberos debieron intervenir este viernes por la tarde en una vivienda de Junín tras un desperfecto en el horno que generó fuego. Utilizaron un matafuego portátil y no se registraron personas heridas.",
@@ -6554,25 +6580,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/herramientas-y-conocimientos-llevaron-a-cabo-la-capacitacion-virtual",
    "volanta": ""
   },
-  "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b": {
-   "categoria": "",
-   "descripcion": "Imputaron a un menor tras allanamientos por robos en dos comercios La Policía Comunal, junto con personal de la SubDDI Chivilcoy, realizó un allanamiento que permitió esclarecer dos hechos delictivos ocurridos durante la madrugada del 20 de octubre, con intervención de la Justicia de Mercedes. La investigación se inició a partir de la denuncia por el robo en la carnicería La Cabaña, ubicada en la avenida Güemes 475, propiedad de Silvana Bravo. A partir de la recolección de imágenes de cámaras...",
-   "generado": "2026-10-22T22:18:26.627Z",
-   "id": "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ac892805c97e4f54b6c342f82cc5939d~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Imputaron a un menor tras allanamientos por robos en dos comercios",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:c636a949-65bd-4d05-988f-93cbad23a411": {
    "categoria": "",
    "descripcion": "Presentaron una nueva edición de la Expo Hecho en Chivilcoy La Expo se realizará este sábado 31 de octubre y domingo 1 de noviembre en el Espacio Vallerga, con la participación de comercios, industrias, pymes y productores locales. Habrá espectáculos musicales, propuestas artísticas y una carpa cultural con 22 artistas de la ciudad. La entrada tendrá un valor de $3.000. La Municipalidad de Chivilcoy anunció una nueva edición de la Expo Hecho en Chivilcoy, una iniciativa destinada a...",
@@ -7455,17 +7462,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 590,
-   "segundos": 42003,
+   "restantes": 589,
+   "segundos": 40803,
    "tope": 600
   },
   "30d": {
-   "restantes": 891,
-   "segundos": 773425,
+   "restantes": 890,
+   "segundos": 772225,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-01T22:20:16.000Z",
+ "cuota_visto": "2026-11-01T22:40:16.000Z",
  "metricas_buffer": {
   "con_metricas": 83,
   "disponible": true,
@@ -17329,6 +17336,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_02_chacabuco_una-mujer-de-31-a-os-fue-hospi.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html|x": {
+   "actualizado": "2026-11-01T22:40:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html|x",
+   "creado": "2026-11-01T22:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-01T22:31:26.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-emiten-una-alerta-meteorologica-amarilla-por-1fd2e8",
+   "noticia": "nota:chacabuco-emiten-una-alerta-meteorologica-amarilla-por-1fd2e8",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Emiten una alerta meteorológica amarilla por tormentas para Chacabuco y la zona\n\nEl Servicio Meteorológico Nacional emitió una alerta amarilla por tormentas prevista para la tarde del martes en Chacabuco y varios distritos de la región.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-emiten-una-alerta-meteorologica-amarilla-por-1fd2e8",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Emiten una alerta meteorológica amarilla por tormentas para Chacabuco y la zona",
+   "urgente": false,
+   "vence": "2026-11-02T00:31:26.000Z",
+   "video_bytes": 74441,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_02_chacabuco_emiten-una-alerta-meteorol-gic.mp4",
+   "viral": false
+  },
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d|x": {
    "actualizado": "2026-10-31T02:20:21.000Z",
    "buffer_id": "",
@@ -17659,18 +17694,19 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x": {
-   "actualizado": "2026-11-01T22:20:15.000Z",
+   "actualizado": "2026-11-01T22:40:15.000Z",
    "buffer_id": "6ae7bb2048ce42a6b42cf164",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x",
    "creado": "2026-11-01T22:20:15.000Z",
    "dueAt": "2026-11-01T22:23:12.000Z",
+   "enviado": "2026-11-01T22:23:18.210Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-01T22:01:21.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117019677050208388",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-36-anos-y-recuperaron-una-3ba5d0",
    "noticia": "nota:chacabuco-detuvieron-a-un-hombre-de-36-anos-y-recuperaron-una-3ba5d0",
    "origen": "policiales",
@@ -22029,33 +22065,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x": {
-   "actualizado": "2026-10-22T22:20:19.000Z",
-   "buffer_id": "",
-   "clave": "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b|x",
-   "creado": "2026-10-22T22:20:17.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-10-22T22:18:26.627Z",
-   "id": "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
-   "noticia": "nota:chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Imputaron a un menor tras allanamientos por robos en dos comercios\n\nLa Policía Comunal y la SubDDI Chivilcoy realizaron un allanamiento que esclareció dos hechos delictivos ocurridos el 20 de octubre. La causa intervino en la Justicia de Mercedes.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Imputaron a un menor tras allanamientos por robos en dos comercios",
-   "urgente": false,
-   "vence": "2026-10-23T02:18:26.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c636a949-65bd-4d05-988f-93cbad23a411|x": {
    "actualizado": "2026-10-27T16:20:15.000Z",
    "buffer_id": "",
@@ -23428,18 +23437,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x",
-   "cuando": "2026-10-27T13:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115064346430554624"
-  },
-  {
-   "clave": "web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x",
-   "cuando": "2026-10-27T13:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115056734645473654"
-  },
   {
    "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tiktok",
    "cuando": "2026-10-27T13:20:17.000Z",
@@ -27612,6 +27609,20 @@
    "cuando": "2026-11-01T22:20:16.000Z",
    "dueAt": "2026-11-01T22:23:12.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html|x",
+   "cuando": "2026-11-01T22:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x",
+   "cuando": "2026-11-01T22:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117019677050208388"
   }
  ],
  "tandas": {
@@ -27649,7 +27660,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-01",
- "ultima_sync": "2026-11-01T21:20:16.000Z",
+ "ultima_sync": "2026-11-01T22:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -28081,6 +28092,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html": "2026-10-21T01:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html": "2026-10-17T16:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html": "2026-10-16T02:00:19.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": "2026-11-01T22:40:15.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven": "2026-10-12T21:40:15.000Z",
