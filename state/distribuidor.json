@@ -5241,25 +5241,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/accidentes-de-carrera-impactante-vuelco-en-el-rally-de-chivilcoy-el",
    "volanta": "Accidentes de carrera"
   },
-  "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44": {
-   "categoria": "",
-   "descripcion": "José Navarro clasificó a la final de Taba y definirá el podio El competidor José Navarro logró la clasificación en la disciplina de Taba y disputará la jornada final en busca del podio. Saúl Pesce, quien se desempeña en esta oportunidad como su delegado, confirmó que Navarro completó su participación de la fecha logrando el pase a la siguiente instancia, donde competirá por el primer, segundo o tercer puesto. Pesce destacó la experiencia que vive en el certamen, la atención recibida en el...",
-   "generado": "2026-10-22T00:32:45.083Z",
-   "id": "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_649c75dd4e9b4d9e9cdbbfe3e05db443~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "José Navarro clasificó a la final de Taba y definirá el podio",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:3e3abc09-6c21-4ab2-88f6-118e63835441": {
    "categoria": "",
    "descripcion": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha El encuentro entre Boca Unidos y Gimnasia y Esgrima de Chivilcoy, correspondiente a la ida de los octavos de final de la Reválida del Torneo Federal A, fue suspendido este domingo en el complejo Leoncio Benítez, en Corrientes. El episodio ocurrió a los 40 minutos de la primera etapa, con el marcador 0 a 0, cuando una bomba de estruendo cayó desde la tribuna ubicada detrás de uno de los arcos. Las explosiones afectaron a...",
@@ -21135,31 +21116,6 @@
    "titulo": "Impactante vuelco en el Rally de Chivilcoy: el piloto mercedino Luis Zuffo debió ser trasladado al Hospital Austral",
    "urgente": false,
    "vence": "2026-10-26T14:01:37.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44|x": {
-   "actualizado": "2026-10-22T00:40:17.000Z",
-   "buffer_id": "",
-   "clave": "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44|x",
-   "creado": "2026-10-22T00:40:17.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-22T00:32:45.083Z",
-   "id": "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
-   "noticia": "nota:chivilcoy-deportes-jose-navarro-clasifico-a-la-final-de-taba-y",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "José Navarro clasificó a la final de Taba y definirá el podio",
-   "urgente": false,
-   "vence": "2026-10-22T04:32:45.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
