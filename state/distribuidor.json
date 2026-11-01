@@ -2196,6 +2196,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_053fb6430d6dce0f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/vk0VolxTfEE"
   },
+  "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4": {
+   "descripcion": "Este domingo 1 de noviembre, desde las 8, se puso en marcha la 21.ª edición de la tradicional Media Maratón Eduardo Pollaroli en Chivilcoy.\n\nLa competencia es organizada por el Círculo de Atletas de Chivilcoy y representa una de las citas más emblemáticas dentro del calendario del atletismo local.\n\nLa jornada deportiva reúne a corredores en las distancias competitivas de 21K y 10K, las cuales cuentan con la certificación de la Confederación Argentina de Atletismo, además de la modalidad participativa de 5K.",
+   "duracion_seg": 19.8,
+   "generado": "2026-11-01T12:09:30.000Z",
+   "id": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Se puso en marcha la 21.ª edición de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "video_bytes": 4298262,
+   "video_mb": 4.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ccae16edd05cec4b.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/4tPKrk233oQ"
+  },
   "entrevistas:job00239": {
    "descripcion": "Fabián Casco, organizador del festival La Pampa Rock en Chivilcoy, destacó la gran respuesta del público y la pasión con la que preparan cada edición. Mirá todo lo que contó sobre el evento.",
    "duracion_seg": null,
@@ -7981,17 +8002,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 599,
-   "segundos": 86400,
+   "restantes": 598,
+   "segundos": 77986,
    "tope": 600
   },
   "30d": {
-   "restantes": 900,
-   "segundos": 817822,
+   "restantes": 899,
+   "segundos": 809408,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-01T10:00:18.000Z",
+ "cuota_visto": "2026-11-01T12:20:33.000Z",
  "metricas_buffer": {
   "con_metricas": 83,
   "disponible": true,
@@ -15083,6 +15104,62 @@
    "vence": "2026-10-31T23:03:41.000Z",
    "video_bytes": 6433164,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_053fb6430d6dce0f.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok": {
+   "actualizado": "2026-11-01T12:20:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok",
+   "creado": "2026-11-01T12:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-01T12:09:30.000Z",
+   "id": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Se puso en marcha la 21.ª edición de la Media Maratón Eduardo Pollaroli\n\nOrganizada por el Círculo de Atletas de Chivilcoy, la competencia deportiva reúne a corredores en las distancias competitivas de 21K y 10K, ambas certificadas por la Confederación Argentina de Atletismo, y en una modalidad participativa de 5K. El evento representa una de las citas más emblemáticas dentro del calendario del atletismo local.\n\nhttps://www.youtube.com/shorts/4tPKrk233oQ\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Se puso en marcha la 21.ª edición de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "vence": "2026-11-03T12:09:30.000Z",
+   "video_bytes": 4298262,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ccae16edd05cec4b.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x": {
+   "actualizado": "2026-11-01T12:20:32.000Z",
+   "buffer_id": "6ae72e9137c1acd2a002d841",
+   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x",
+   "creado": "2026-11-01T12:20:13.000Z",
+   "dueAt": "2026-11-01T12:22:54.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-01T12:09:30.000Z",
+   "id": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:edicion-eduardo-maraton-marcha-media-pollaroli-puso",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Se puso en marcha la 21.ª edición de la Media Maratón Eduardo Pollaroli\n\nEste domingo 1 de noviembre, desde las 8, se puso en marcha la 21.ª edición de la tradicional Media Maratón Eduardo Pollaroli en Chivilcoy.\n\nhttps://www.youtube.com/shorts/4tPKrk233oQ",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Se puso en marcha la 21.ª edición de la Media Maratón Eduardo Pollaroli",
+   "urgente": false,
+   "vence": "2026-11-01T14:09:30.000Z",
+   "video_bytes": 4298262,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ccae16edd05cec4b.mp4",
    "viral": false
   },
   "entrevistas:job00239|x": {
@@ -25057,27 +25134,6 @@
  },
  "registro": [
   {
-   "clave": "web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x",
-   "cuando": "2026-10-27T10:20:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ae07aeae3a1beb2ea01f620",
-   "clave": "web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x",
-   "cuando": "2026-10-27T10:20:26.000Z",
-   "dueAt": "2026-10-27T11:38:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:c6773443-ef8a-493a-b392-a16cd01f5057|x",
-   "cuando": "2026-10-27T10:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115026661875876030"
-  },
-  {
    "buffer_id": "6ae07f942dee8577b89e413f",
    "clave": "web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x",
    "cuando": "2026-10-27T10:40:20.000Z",
@@ -29236,6 +29292,29 @@
    "cuando": "2026-11-01T02:20:13.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x",
+   "cuando": "2026-11-01T12:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok",
+   "cuando": "2026-11-01T12:20:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "buffer_id": "6ae72e9137c1acd2a002d841",
+   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x",
+   "cuando": "2026-11-01T12:20:33.000Z",
+   "dueAt": "2026-11-01T12:22:54.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -29453,6 +29532,7 @@
   "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4": "2026-10-31T20:40:14.000Z",
   "bot:video_matias-zucchi_mvwv5r5js633_01.mp4": "2026-10-31T21:40:15.000Z",
   "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4": "2026-10-31T21:20:16.000Z",
+  "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4": "2026-11-01T12:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
