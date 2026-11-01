@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3": {
-   "descripcion": "Se reportó el incendio de un automóvil sobre la Ruta 30, entre el acceso a Ozono y el Cementerio Parque, a la altura de los silos de Alagna, en Chivilcoy. Noticia en desarrollo.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-19T23:52:22.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Se incendió un automóvil en el trazado de la Ruta 30",
-   "urgente": false,
-   "video_bytes": 488890,
-   "video_mb": 0.5,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6094c27799bec562.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/6pl0sLGtsbc"
-  },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w": {
    "descripcion": "Chivilcoy Trabaja, Emprende y Aprende: alrededor de 450 personas se capacitan en 23 cursos de oficios. El programa municipal, desarrollado en articulación con el CUCH, promueve la formación, la autonomía económica y la inserción laboral. Desde el área anticiparon que ya trabajan...",
    "duracion_seg": 30.0,
@@ -8292,17 +8271,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 581,
-   "segundos": 35997,
+   "restantes": 580,
+   "segundos": 34795,
    "tope": 600
   },
   "30d": {
-   "restantes": 904,
-   "segundos": 855020,
+   "restantes": 903,
+   "segundos": 853818,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-10-31T23:40:22.000Z",
+ "cuota_visto": "2026-11-01T00:00:26.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -8319,32 +8298,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|tiktok": {
-   "actualizado": "2026-10-22T00:00:19.000Z",
-   "buffer_id": "",
-   "clave": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3|tiktok",
-   "creado": "2026-10-20T00:00:19.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-19T23:52:22.000Z",
-   "id": "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Se incendió un automóvil en el trazado de la Ruta 30\n\nSe reportó el incendio de un automóvil sobre la Ruta 30, entre el acceso a Ozono y el Cementerio Parque, a la altura de los silos de Alagna, en Chivilcoy. Noticia en desarrollo.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-30-bomberos-se-incendio-un-automovil-en-el-trazado-de-la-ruta-30\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Se incendió un automóvil en el trazado de la Ruta 30",
-   "urgente": false,
-   "vence": "2026-10-21T23:52:22.000Z",
-   "video_bytes": 488890,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6094c27799bec562.mp4"
-  },
   "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w|tiktok": {
    "actualizado": "2026-10-22T21:20:15.000Z",
    "buffer_id": "",
@@ -11934,7 +11887,7 @@
    "creado": "2026-10-30T00:20:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-30T00:00:57.000Z",
    "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9",
@@ -12372,15 +12325,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok": {
-   "actualizado": "2026-10-31T02:40:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-01T00:00:20.000Z",
+   "buffer_id": "6ae6811aab019b9087306dfe",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok",
    "creado": "2026-10-31T02:40:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-01T01:23:20.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-31T02:32:52.000Z",
    "id": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz",
    "intentos": 0,
@@ -12437,15 +12390,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tiktok": {
-   "actualizado": "2026-10-31T02:40:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-01T00:00:20.000Z",
+   "buffer_id": "6ae6811937c1acd2a0da3ba2",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tiktok",
    "creado": "2026-10-31T02:40:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-01T00:43:12.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-31T02:22:25.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p",
    "intentos": 0,
@@ -12493,15 +12446,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|tiktok": {
-   "actualizado": "2026-10-31T14:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-01T00:00:20.000Z",
+   "buffer_id": "6ae68117f0984eef333a7d75",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|tiktok",
    "creado": "2026-10-31T14:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-01T00:03:16.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-31T13:52:35.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4",
    "intentos": 0,
@@ -12664,15 +12617,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tiktok": {
-   "actualizado": "2026-10-31T23:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-01T00:00:20.000Z",
+   "buffer_id": "6ae681181ee172cd6dcd860c",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tiktok",
    "creado": "2026-10-31T23:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-01T00:23:32.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-31T23:26:03.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs",
    "intentos": 0,
@@ -14839,7 +14792,7 @@
    "creado": "2026-10-30T14:00:18.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-30T13:59:15.000Z",
    "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
@@ -14904,7 +14857,7 @@
    "creado": "2026-10-30T14:40:14.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-30T14:22:57.000Z",
    "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
@@ -14957,7 +14910,7 @@
    "creado": "2026-10-30T15:00:19.000Z",
    "dueAt": "",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "espera": "no entró entre las 5 más virales de la tanda 21 h",
    "estado": "pendiente",
    "generado": "2026-10-30T14:53:31.000Z",
    "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
@@ -15315,15 +15268,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok": {
-   "actualizado": "2026-10-31T21:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-01T00:00:20.000Z",
+   "buffer_id": "6ae6811937c1acd2a0da3c22",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok",
    "creado": "2026-10-31T21:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-01T01:03:42.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-10-31T21:03:41.000Z",
    "id": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4",
    "intentos": 0,
@@ -18492,43 +18445,6 @@
    "titulo": "Dos aprehendidos en Junín por el robo de carne y otros comercios",
    "urgente": false,
    "vence": "2026-10-22T17:31:41.000Z",
-   "video_bytes": 1348253,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_01_junin_dos-aprehendidos-en-jun-n-por-.mp4",
-   "viral": false
-  },
-  "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad|x": {
-   "actualizado": "2026-10-22T00:00:19.000Z",
-   "buffer_id": "6ad94d5fb086d40f57251255",
-   "clave": "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad|x",
-   "creado": "2026-10-21T23:40:15.000Z",
-   "dueAt": "2026-10-21T23:43:26.000Z",
-   "enviado": "2026-10-21T23:43:35.597Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-21T23:31:41.000Z",
-   "id": "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2113053615854154133",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 29,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-dos-aprehendidos-por-el-hurto-de-carne-en-una-carniceria-8c1b0c",
-   "noticia": "nota:junin-dos-aprehendidos-por-el-hurto-de-carne-en-una-carniceria-8c1b0c",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Dos aprehendidos en Junín por el robo de carne y otros comercios\n\nLa policía aprehendió a dos personas vinculadas con el hurto de carne en una carnicería y su participación en una serie de robos contra distintos comercios locales.\n\nhttps://www.diariolacampaña.com.ar/n/junin-dos-aprehendidos-por-el-hurto-de-carne-en-una-carniceria-8c1b0c",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Dos aprehendidos en Junín por el robo de carne y otros comercios",
-   "urgente": false,
-   "vence": "2026-10-22T01:31:41.000Z",
    "video_bytes": 1348253,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-21_2305_01_junin_dos-aprehendidos-en-jun-n-por-.mp4",
    "viral": false
@@ -26024,44 +25940,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok",
-   "cuando": "2026-10-27T09:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|x",
-   "cuando": "2026-10-27T09:00:24.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x",
-   "cuando": "2026-10-27T10:03:35.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x",
-   "cuando": "2026-10-27T10:03:45.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x",
-   "cuando": "2026-10-27T10:03:57.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:e71fb0dc-94d7-456d-9127-31522ce0aa70|x",
    "cuando": "2026-10-27T10:03:59.000Z",
    "estado": "pendiente",
@@ -30225,11 +30103,45 @@
    "cuando": "2026-10-31T23:40:22.000Z",
    "dueAt": "2026-10-31T23:48:52.000Z",
    "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae68117f0984eef333a7d75",
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|tiktok",
+   "cuando": "2026-11-01T00:00:26.000Z",
+   "dueAt": "2026-11-01T00:03:16.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae681181ee172cd6dcd860c",
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tiktok",
+   "cuando": "2026-11-01T00:00:26.000Z",
+   "dueAt": "2026-11-01T00:23:32.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae6811937c1acd2a0da3ba2",
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tiktok",
+   "cuando": "2026-11-01T00:00:26.000Z",
+   "dueAt": "2026-11-01T00:43:12.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae6811937c1acd2a0da3c22",
+   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok",
+   "cuando": "2026-11-01T00:00:26.000Z",
+   "dueAt": "2026-11-01T01:03:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae6811aab019b9087306dfe",
+   "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok",
+   "cuando": "2026-11-01T00:00:26.000Z",
+   "dueAt": "2026-11-01T01:23:20.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-20 21",
    "2026-10-21 10",
    "2026-10-21 18",
    "2026-10-21 21",
@@ -30258,10 +30170,11 @@
    "2026-10-30 18",
    "2026-10-30 21",
    "2026-10-31 10",
-   "2026-10-31 18"
+   "2026-10-31 18",
+   "2026-10-31 21"
   ]
  },
- "ultima_limpieza_release": "2026-10-31",
+ "ultima_limpieza_release": "2026-11-01",
  "ultima_sync": "2026-10-31T23:20:24.000Z",
  "version": 1,
  "vistos": {

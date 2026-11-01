@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 31/10/2026 20:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 1 | 0 | 0 | 1 | 3 |
-| Reels del bot | TikTok | 20 | 4 | 0 | 3 | 0 | 0 | 2 |
+| Reels del bot | TikTok | 20 | 4 | 5 | 0 | 0 | 0 | 2 |
 | Reels policiales | X | 6 | 1 | 1 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -19,7 +19,7 @@ Actualizado: 31/10/2026 20:40 (hora AR) · ACTIVO
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 27 · likes 0
 - X · Reels del bot: 78 con métricas · mediana vistas/impresiones 28 · likes 0
-- X · Reels policiales: 21 con métricas · mediana vistas/impresiones 40 · likes 0
+- X · Reels policiales: 20 con métricas · mediana vistas/impresiones 42.5 · likes 0
 - X · Notas web: 62 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 100 · likes 1
 - TikTok · Reels del bot: 55 con métricas · mediana vistas/impresiones 258 · likes 3
@@ -27,20 +27,15 @@ Actualizado: 31/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 581 de 600 · 30d: quedan 904 de 2000 (visto 2026-10-31T23:40:22.000Z)
+15m: quedan 149 de 150 · 24h: quedan 580 de 600 · 30d: quedan 903 de 2000 (visto 2026-11-01T00:00:26.000Z)
 
-## Cola propia (11 esperando)
-- TikTok · Reels del bot · Aprobaron la creación de la Ventanilla Única Digital para habilitaciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Una camioneta quedó destruida por un incendio en la ruta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (6 esperando)
 - X · Reels policiales · Allanaron dos viviendas y secuestraron ropa y calzado deportivo trucho — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Menor herido tras impactar en moto contra un auto en Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- TikTok · Reels del bot · Daniel Magni presentó su libro Remembranzas junto a una muestra sobre Borges — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · RECUPERARON una moto robada y aprehendieron a un menor — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — no entró entre las 5 más virales de la tanda 21 h
+- TikTok · Reels del bot · Un menor sufrió una descarga eléctrica en un predio rural — no entró entre las 5 más virales de la tanda 21 h
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -50,11 +45,6 @@ Actualizado: 31/10/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T21:00 programado bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok 
-- 2026-10-31T21:20 recibido bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x 
-- 2026-10-31T21:20 recibido bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok 
-- 2026-10-31T21:20 recibido web:436624c4-dead-4338-b58f-541ff1196bfe|x la misma noticia ya sale en X (Reels del bot, programado)
-- 2026-10-31T21:20 programado bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x 
 - 2026-10-31T21:40 baja bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|tikto 
 - 2026-10-31T21:40 baja bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|x 
 - 2026-10-31T21:40 baja bot:video_matias-zucchi_mvwv5r5js633_01.mp4|tiktok 
@@ -75,3 +65,8 @@ Actualizado: 31/10/2026 20:40 (hora AR) · ACTIVO
 - 2026-10-31T23:40 recibido web:464e2e48-a775-44fb-ba64-8d4a372bbadb|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-31T23:40 programado bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|x 
 - 2026-10-31T23:40 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
+- 2026-11-01T00:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|tikto 
+- 2026-11-01T00:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tikto 
+- 2026-11-01T00:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tikto 
+- 2026-11-01T00:00 programado bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok 
+- 2026-11-01T00:00 programado bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
