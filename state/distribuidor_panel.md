@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 01/11/2026 06:40 (hora AR) · ACTIVO
+Actualizado: 01/11/2026 07:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-01)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -17,17 +17,17 @@ Actualizado: 01/11/2026 06:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 27 · likes 0
-- X · Reels del bot: 75 con métricas · mediana vistas/impresiones 28 · likes 0
-- X · Reels policiales: 17 con métricas · mediana vistas/impresiones 48 · likes 0
+- X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 27.5 · likes 0
+- X · Reels del bot: 82 con métricas · mediana vistas/impresiones 28.5 · likes 0
+- X · Reels policiales: 19 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 62 con métricas · mediana vistas/impresiones 20 · likes 0
-- TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 100 · likes 1
-- TikTok · Reels del bot: 55 con métricas · mediana vistas/impresiones 258 · likes 3
+- TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 131 · likes 1
+- TikTok · Reels del bot: 65 con métricas · mediana vistas/impresiones 259 · likes 3
 - TikTok · Reels policiales: 4 con métricas · mediana vistas/impresiones 584.5 · likes 5 ⚠️muestra chica
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 578 de 600 · 30d: quedan 901 de 2000 (visto 2026-11-01T02:00:24.000Z)
+15m: quedan 149 de 150 · 24h: quedan 599 de 600 · 30d: quedan 900 de 2000 (visto 2026-11-01T10:00:18.000Z)
 
 ## Cola propia (3 esperando)
 - TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
