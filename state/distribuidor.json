@@ -3060,33 +3060,6 @@
    "volanta": "Subastas de ARCA",
    "youtube_url": "https://youtube.com/shorts/qVERJf7R1Eg"
   },
-  "nacionales:b7b1426a9ab6b8b3": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "El Tribunal Internacional fijó las audiencias pedidas por la administración de Javier Milei para frenar la explotación petrolera británica en Malvinas.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-22T01:16:11.000Z",
-   "hashtags": [
-    "Malvinas",
-    "PoliticaExterior"
-   ],
-   "id": "nacionales:b7b1426a9ab6b8b3",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142",
-   "origen": "nacionales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Quién es la jueza argentina que integra el tribunal que evaluará a Londres",
-   "urgente": false,
-   "video_bytes": 82798,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b7b1426a9a_quien-es-la-jueza-argentina-que-integra-el.mp4",
-   "volanta": "Malvinas y petróleo",
-   "youtube_url": "https://youtube.com/shorts/6O_EOWeXYlE"
-  },
   "nacionales:e25c9cf3646e5306": {
    "categoria": "Política",
    "categoria_nacional": "",
@@ -17588,60 +17561,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
    "viral": false
   },
-  "nacionales:b7b1426a9ab6b8b3|tiktok": {
-   "actualizado": "2026-10-22T01:20:16.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "nacionales:b7b1426a9ab6b8b3|tiktok",
-   "creado": "2026-10-22T01:20:15.000Z",
-   "dueAt": "",
-   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
-   "estado": "descartado",
-   "generado": "2026-10-22T01:16:11.000Z",
-   "id": "nacionales:b7b1426a9ab6b8b3",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Quién es la jueza argentina que integra el tribunal que evaluará a Londres\n\nEl Tribunal Internacional fijó las audiencias pedidas por la administración de Javier Milei para frenar la explotación petrolera británica en Malvinas.\n\nhttps://www.diariolacampaña.com.ar/n/quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Malvinas",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Quién es la jueza argentina que integra el tribunal que evaluará a Londres",
-   "urgente": false,
-   "vence": "2026-10-22T19:16:11.000Z",
-   "video_bytes": 82798,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b7b1426a9a_quien-es-la-jueza-argentina-que-integra-el.mp4",
-   "viral": false
-  },
-  "nacionales:b7b1426a9ab6b8b3|x": {
-   "actualizado": "2026-10-22T01:20:16.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:b7b1426a9ab6b8b3|x",
-   "creado": "2026-10-22T01:20:15.000Z",
-   "dueAt": "",
-   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
-   "estado": "descartado",
-   "generado": "2026-10-22T01:16:11.000Z",
-   "id": "nacionales:b7b1426a9ab6b8b3",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142",
-   "noticia": "nota:quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Quién es la jueza argentina que integra el tribunal que evaluará a Londres\n\nEl Tribunal Internacional fijó las audiencias pedidas por la administración de Javier Milei para frenar la explotación petrolera británica en Malvinas.\n\nhttps://www.diariolacampaña.com.ar/n/quien-es-la-jueza-argentina-que-interviene-en-el-reclamo-por-b7b142",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Quién es la jueza argentina que integra el tribunal que evaluará a Londres",
-   "urgente": false,
-   "vence": "2026-10-22T03:16:11.000Z",
-   "video_bytes": 82798,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_b7b1426a9a_quien-es-la-jueza-argentina-que-integra-el.mp4",
-   "viral": false
-  },
   "nacionales:e25c9cf3646e5306|tiktok": {
    "actualizado": "2026-10-22T21:20:15.000Z",
    "buffer_id": "",
@@ -19643,14 +19562,14 @@
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/31/allanamientos-en-la-ciudad-con-secuestro-de-ropa-y-calzado-deportivo/|x": {
-   "actualizado": "2026-10-31T23:40:14.000Z",
+   "actualizado": "2026-11-01T01:40:12.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/31/allanamientos-en-la-ciudad-con-secuestro-de-ropa-y-calzado-deportivo/|x",
    "creado": "2026-10-31T23:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-10-31T23:30:55.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/10/31/allanamientos-en-la-ciudad-con-secuestro-de-ropa-y-calzado-deportivo/",
    "intentos": 0,
@@ -25572,14 +25491,6 @@
  },
  "registro": [
   {
-   "clave": "web:c6773443-ef8a-493a-b392-a16cd01f5057|x",
-   "cuando": "2026-10-27T10:04:50.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:d455c1c4-5f25-4847-bf67-277dd0e30dd7|x",
    "cuando": "2026-10-27T10:04:54.000Z",
    "estado": "pendiente",
@@ -29756,6 +29667,12 @@
   {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26700-un-adolescente-resulto-con-lesiones-leves-tras-un-choque-entre-un-auto-y-una-moto|x",
    "cuando": "2026-11-01T01:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/31/allanamientos-en-la-ciudad-con-secuestro-de-ropa-y-calzado-deportivo/|x",
+   "cuando": "2026-11-01T01:40:12.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
