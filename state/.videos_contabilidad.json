@@ -36802,7 +36802,107 @@
     "ig_historia_id": "18218356891360943",
     "fb_historia_id": "29106127839020143",
     "yt_video_id": "f0gE9LNWoFw",
-    "yt_url": "https://www.youtube.com/shorts/f0gE9LNWoFw"
+    "yt_url": "https://www.youtube.com/shorts/f0gE9LNWoFw",
+    "metricas": {
+      "capturado": "2026-11-01T09:00:42",
+      "horas": 33.5,
+      "facebook": {
+        "vistas": 159,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "instagram": {
+        "vistas": 422,
+        "alcance": 301,
+        "likes": 3,
+        "comentarios": 0,
+        "compartidas": 2,
+        "guardados": 0
+      },
+      "youtube": {
+        "vistas": 9,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      },
+      "web": {
+        "vistas": 25,
+        "alcance": 0,
+        "likes": 0,
+        "comentarios": 0,
+        "compartidas": 0,
+        "guardados": 0
+      }
+    },
+    "_indice": 0.25,
+    "_detalle": {
+      "facebook": {
+        "interacciones": 0.0,
+        "alcance": 159,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "instagram": {
+        "interacciones": 9.0,
+        "alcance": 301,
+        "tasa": 0.0299,
+        "indice": 1.0
+      },
+      "youtube": {
+        "interacciones": 0.0,
+        "alcance": 9,
+        "tasa": 0.0,
+        "indice": 0.0
+      },
+      "web": {
+        "interacciones": 0.0,
+        "alcance": 25,
+        "tasa": 0.0,
+        "indice": 0.0
+      }
+    },
+    "_redes": 4,
+    "_vistas": 615,
+    "_inter": 9.0,
+    "ranking_metrics": {
+      "mes": "2026-10",
+      "indice": 0.25,
+      "redes": 4,
+      "vistas": 615,
+      "interacciones": 9.0,
+      "detalle": {
+        "facebook": {
+          "interacciones": 0.0,
+          "alcance": 159,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "instagram": {
+          "interacciones": 9.0,
+          "alcance": 301,
+          "tasa": 0.0299,
+          "indice": 1.0
+        },
+        "youtube": {
+          "interacciones": 0.0,
+          "alcance": 9,
+          "tasa": 0.0,
+          "indice": 0.0
+        },
+        "web": {
+          "interacciones": 0.0,
+          "alcance": 25,
+          "tasa": 0.0,
+          "indice": 0.0
+        }
+      },
+      "calculado": "2026-11-01T09:00:46"
+    }
   },
   {
     "file": "corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p",
