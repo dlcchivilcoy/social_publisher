@@ -3013,6 +3013,32 @@
    "volanta": "Robos en Junín",
    "youtube_url": "https://youtube.com/shorts/qedn9xU_dxI"
   },
+  "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea": {
+   "categoria": "robo",
+   "descripcion": "Un ladrón ingresó este domingo al mediodía por el sector de elaboración de La Europea, ubicada en Rivadavia y Salta, y se llevó dos tarros de dulce de leche.",
+   "distancia_km": 91.2,
+   "duracion_seg": 41.8,
+   "generado": "2026-11-01T23:31:34.000Z",
+   "id": "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-robaron-dos-tarros-de-dulce-de-leche-en-la-panaderia-la-e1a002",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Un delincuente ingresó a robar este domingo al mediodía en la tradicional panadería La Europea.\n\nEl hecho ocurrió cerca de las 12:15 en el local situado en la esquina de Rivadavia y Salta.\n\nEl ladrón se metió por el acceso lateral que lleva directo a la cuadra de elaboración.\n\nDe allí sustrajo dos tarros de dulce de leche y la secuencia quedó registrada por las cámaras de seguridad.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Inseguridad #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Delincuente robó dulce de leche de una conocida panadería",
+   "urgente": false,
+   "video_bytes": 768920,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_06_junin_delincuente-rob-dulce-de-leche.mp4",
+   "volanta": "Robo en Junín",
+   "youtube_url": "https://youtube.com/shorts/ky-toTFl05o"
+  },
   "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos": {
    "categoria": "narcotrafico",
    "descripcion": "Cuatro personas fueron detenidas tras una serie de procedimientos antidrogas realizados en los barrios La Celeste y Los Paraguayos de esta ciudad.",
@@ -16648,6 +16674,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-27_2135_01_junin_sufri-dos-robos-en-24-horas-y-.mp4",
    "viral": false
   },
+  "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea|x": {
+   "actualizado": "2026-11-01T23:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea|x",
+   "creado": "2026-11-01T23:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-01T23:31:34.000Z",
+   "id": "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-robaron-dos-tarros-de-dulce-de-leche-en-la-panaderia-la-e1a002",
+   "noticia": "nota:junin-robaron-dos-tarros-de-dulce-de-leche-en-la-panaderia-la-e1a002",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Delincuente robó dulce de leche de una conocida panadería\n\nUn ladrón ingresó este domingo al mediodía por el sector de elaboración de La Europea, ubicada en Rivadavia y Salta, y se llevó dos tarros de dulce de leche.\n\nhttps://www.diariolacampaña.com.ar/n/junin-robaron-dos-tarros-de-dulce-de-leche-en-la-panaderia-la-e1a002",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Delincuente robó dulce de leche de una conocida panadería",
+   "urgente": false,
+   "vence": "2026-11-02T01:31:34.000Z",
+   "video_bytes": 768920,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_06_junin_delincuente-rob-dulce-de-leche.mp4",
+   "viral": false
+  },
   "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x": {
    "actualizado": "2026-10-24T23:00:25.000Z",
    "buffer_id": "6add2f1f8b3d437ddcde1644",
@@ -23455,12 +23509,6 @@
  },
  "registro": [
   {
-   "clave": "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x",
-   "cuando": "2026-10-27T13:20:18.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
-  },
-  {
    "clave": "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba|x",
    "cuando": "2026-10-27T14:00:23.000Z",
    "evento": "enviado",
@@ -27642,6 +27690,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea|x",
+   "cuando": "2026-11-01T23:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -28037,6 +28093,7 @@
   "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/": "2026-10-16T16:00:18.000Z",
   "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/": "2026-10-19T23:00:18.000Z",
   "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas": "2026-10-27T23:20:16.000Z",
+  "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea": "2026-11-01T23:40:14.000Z",
   "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos": "2026-10-24T22:20:14.000Z",
   "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad": "2026-10-21T23:40:15.000Z",
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero": "2026-10-26T22:20:14.000Z",
