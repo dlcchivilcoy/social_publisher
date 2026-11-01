@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4": {
-   "descripcion": "Chivilcoy celebró su 172° aniversario con un reconocimiento a Horacio Milozzi como Ciudadano Ilustre y un mensaje de Britos sobre el futuro de la gestión. En el acto central por el aniversario de la ciudad, el intendente destacó los avances de los últimos 11 años, defendió la gestión",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-22T17:42:57.000Z",
-   "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Britos evalúa que De Lillo complete el mandato municipal",
-   "urgente": false,
-   "video_bytes": 759817,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_71b9a0d818aa609a.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/2JrmslSkQ9o"
-  },
   "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl": {
    "descripcion": "La Policía Comunal, junto con personal de la SubDDI Chivilcoy, realizó un allanamiento que permitió esclarecer dos hechos delictivos ocurridos durante la madrugada del 20 de octubre, con intervención de la Justicia de Mercedes. La investigación se inició tras un robo a una carnicería.",
    "duracion_seg": 30.0,
@@ -1440,48 +1419,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_835d57903e56a808.mp4",
    "youtube_url": "https://www.youtube.com/shorts/K46_MNDta5E"
   },
-  "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4": {
-   "descripcion": "El atleta Santiago Zalabardo obtuvo la medalla de plata en la disciplina de salto en alto durante su participación en las finales de los Juegos Bonaerenses.\n\nEn una prueba sumamente disputada donde los competidores registraron marcas muy parejas, Zalabardo alcanzó un registro de 1,70 metros, quedando a solo cinco centímetros del primer puesto, que se definió en 1,75 metros.\n\nTras la competencia, el deportista manifestó su satisfacción por el podio conseguido. Además, señaló que logró sentirse cómodo a lo largo de la prueba más allá de haber afrontado la instancia con una molestia física en la espalda.\n\nSe trata de la primera experiencia provincial para Zalabardo en este certamen, quien destacó la gran concurrencia y el nivel deportivo que encontró en el torneo. Tras culminar su participación individual, continuará acompañando al resto de la delegación en las jornadas restantes.",
-   "duracion_seg": 91.2,
-   "generado": "2026-10-22T15:30:34.000Z",
-   "id": "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-obtuvo-la-medalla-de-plata-en",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Santiago Zalabardo obtuvo la medalla de plata en salto en alto",
-   "urgente": false,
-   "video_bytes": 15204265,
-   "video_mb": 14.5,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_075e80146ebc6818.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/WAhnK6tXL5Q"
-  },
-  "bot:video_matias-zucchi_mvjruzv7puat_01.mp4": {
-   "descripcion": "La atleta Clara Galván logró una destacada actuación al obtener la medalla de bronce en la disciplina de lanzamiento de disco.\n\nCon este resultado, la deportista subió al podio en su especialidad, sumando un importante reconocimiento a su desempeño en la competencia.",
-   "duracion_seg": 25.3,
-   "generado": "2026-10-22T16:49:25.000Z",
-   "id": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Clara Galván obtuvo la medalla de bronce en lanzamiento de disco",
-   "urgente": false,
-   "video_bytes": 5496629,
-   "video_mb": 5.2,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9d85f296f0a4c736.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/WWKPjSVUxWA"
-  },
   "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4": {
    "descripcion": "La edición 2026 del Medio Maratón Eduardo Pollaroli presentará un perfil inclusivo y participativo con la incorporación de nuevas modalidades a la tradicional competencia de 21 kilómetros.\n\nPara esta edición, la prueba sumará circuitos de 5 y 10 kilómetros, a los que se agregará una caminata impulsada por el servicio de Oncología del Hospital Municipal, orientada a concientizar sobre el cáncer de mama y de próstata.\n\nAsimismo, se implementará por primera vez la iniciativa «UNLu corre por la inclusión», una propuesta pensada especialmente para que personas con discapacidad motriz formen parte de la jornada deportiva.\n\nEl presidente del Círculo de Atletas de Chivilcoy, Juan Borgogna, resaltó el trabajo coordinado entre las instituciones locales. Explicó que la entidad se mantiene abierta a nuevos desafíos y manifestó satisfacción por la articulación conjunta para brindar una mejor propuesta a la comunidad.",
    "duracion_seg": 55.9,
@@ -2865,33 +2802,6 @@
    "volanta": "Visita papal",
    "youtube_url": "https://youtube.com/shorts/Yr3kS0oAe-s"
   },
-  "nacionales:975c5666332b123b": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "La senadora nacional aseguró estar lista para postularse a la presidencia, pero pidió postergar las definiciones electorales. Además, advirtió que el Congreso debe definir el futuro de las primarias antes de fin de año.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-22T21:46:04.000Z",
-   "hashtags": [
-    "PatriciaBullrich",
-    "Politica"
-   ],
-   "id": "nacionales:975c5666332b123b",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56",
-   "origen": "nacionales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Patricia Bullrich habló sobre su candidatura presidencial y la eliminación de las PASO",
-   "urgente": false,
-   "video_bytes": 75944,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_975c566633_patricia-bullrich-hablo-sobre-su-candidatura.mp4",
-   "volanta": "Elecciones y candidaturas",
-   "youtube_url": "https://youtube.com/shorts/Ud2s4theh5A"
-  },
   "nacionales:ae9e5a4804b66987": {
    "categoria": "Economía",
    "categoria_nacional": "",
@@ -3778,6 +3688,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_01_chacabuco_cay-un-sospechoso-por-robos-at.mp4",
    "volanta": "Operativos policiales en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/VhID-hG78T0"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific": {
+   "categoria": "robo",
+   "descripcion": "Un sospechoso de 36 años, oriundo de Lobos, fue arrestado en un hotel de Chacabuco tras robar una bicicleta Venzo de un medio local. La Policía recuperó el rodado.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-01T22:01:21.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-36-anos-y-recuperaron-una-3ba5d0",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un sujeto de 36 años fue arrestado en un hospedaje céntrico de Chacabuco tras robar una bicicleta.\n\nEl rodado sustraído pertenece a un trabajador del diario ubicado sobre la calle Rivadavia al 400.\n\nLos efectivos policiales analizaron las cámaras de seguridad públicas y privadas para dar con el sospechoso.\n\nLa causa quedó en manos de la UFI N° 1 del Departamento Judicial Junín.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Detenido #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Cayó en un hotel céntrico el ladrón que se llevó una bicicleta en Chacabuco",
+   "urgente": false,
+   "video_bytes": 77111,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_01_chacabuco_cay-en-un-hotel-c-ntrico-el-la.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/LFU40SymsTU"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros": {
    "categoria": "operativo_policial",
@@ -7519,17 +7455,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 591,
-   "segundos": 45603,
+   "restantes": 590,
+   "segundos": 42003,
    "tope": 600
   },
   "30d": {
-   "restantes": 892,
-   "segundos": 777025,
+   "restantes": 891,
+   "segundos": 773425,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-01T21:20:16.000Z",
+ "cuota_visto": "2026-11-01T22:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 83,
   "disponible": true,
@@ -7546,45 +7482,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok": {
-   "actualizado": "2026-10-22T22:00:28.000Z",
-   "buffer_id": "6ada796665d602339aec77dc",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok",
-   "creado": "2026-10-22T18:00:18.000Z",
-   "dueAt": "2026-10-22T21:03:29.000Z",
-   "enviado": "2026-10-22T21:04:13.212Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-22T17:42:57.000Z",
-   "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7699600789576158472",
-   "metricas": {
-    "averageTimeWatched": 5.5,
-    "comments": 0,
-    "engagementRate": 1.42,
-    "reach": 0,
-    "reactions": 4,
-    "shares": 0,
-    "totalTimeWatched": 28.15,
-    "views": 282
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Britos evalúa que De Lillo complete el mandato municipal\n\nDurante el acto central por el 172° aniversario de Chivilcoy, se reconoció a Horacio Milozzi como Ciudadano Ilustre y el intendente Britos brindó un mensaje sobre el futuro de la gestión. En la ceremonia, el mandatario comunal destacó los avances de los últimos 11 años y defendió la labor realizada.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Britos evalúa que De Lillo complete el mandato municipal",
-   "urgente": false,
-   "vence": "2026-10-24T17:42:57.000Z",
-   "video_bytes": 759817,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_71b9a0d818aa609a.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tiktok": {
    "actualizado": "2026-10-24T22:40:14.000Z",
    "buffer_id": "",
@@ -12063,84 +11960,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_835d57903e56a808.mp4",
    "viral": false
   },
-  "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok": {
-   "actualizado": "2026-10-22T22:00:28.000Z",
-   "buffer_id": "6ada796765d602339aec78b7",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4|tiktok",
-   "creado": "2026-10-22T15:40:16.000Z",
-   "dueAt": "2026-10-22T21:43:00.000Z",
-   "enviado": "2026-10-22T21:44:44.017Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-22T15:30:34.000Z",
-   "id": "bot:video_matias-zucchi_mvjoyzmu4pos_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7699610978505346324",
-   "metricas": {
-    "averageTimeWatched": 5.1,
-    "comments": 0,
-    "engagementRate": 0.99,
-    "reach": 0,
-    "reactions": 3,
-    "shares": 0,
-    "totalTimeWatched": 28.27,
-    "views": 303
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-obtuvo-la-medalla-de-plata-en",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Santiago Zalabardo obtuvo la medalla de plata en salto en alto\n\nEl atleta logró una marca de 1,70 metros en las finales de los Juegos Bonaerenses y quedó a cinco centímetros del primer puesto. Pese a competir con una molestia en la espalda, manifestó su satisfacción por el podio en su primera experiencia provincial.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-santiago-zalabardo-obtuvo-la-medalla-de-plata-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Santiago Zalabardo obtuvo la medalla de plata en salto en alto",
-   "urgente": false,
-   "vence": "2026-10-24T15:30:34.000Z",
-   "video_bytes": 15204265,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_075e80146ebc6818.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok": {
-   "actualizado": "2026-10-22T22:00:28.000Z",
-   "buffer_id": "6ada79669daa16478767fd74",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4|tiktok",
-   "creado": "2026-10-22T17:00:19.000Z",
-   "dueAt": "2026-10-22T21:23:30.000Z",
-   "enviado": "2026-10-22T21:24:13.120Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-22T16:49:25.000Z",
-   "id": "bot:video_matias-zucchi_mvjruzv7puat_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7699605909567196422",
-   "metricas": {
-    "averageTimeWatched": 4.61,
-    "comments": 0,
-    "engagementRate": 0.45,
-    "reach": 0,
-    "reactions": 1,
-    "shares": 0,
-    "totalTimeWatched": 18.88,
-    "views": 220
-   },
-   "nota_url": "",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Clara Galván obtuvo la medalla de bronce en lanzamiento de disco\n\nLa atleta Clara Galván logró una destacada actuación al obtener la medalla de bronce en la disciplina de lanzamiento de disco. Con este resultado, la deportista subió al podio en su especialidad, sumando un importante reconocimiento a su desempeño en la competencia.\n\nhttps://www.youtube.com/shorts/WWKPjSVUxWA\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Clara Galván obtuvo la medalla de bronce en lanzamiento de disco",
-   "urgente": false,
-   "vence": "2026-10-24T16:49:25.000Z",
-   "video_bytes": 5496629,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_9d85f296f0a4c736.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4|tiktok": {
    "actualizado": "2026-10-23T13:40:28.000Z",
    "buffer_id": "6adb5a6997d61d392147ab0b",
@@ -16486,60 +16305,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_5de2902aa9_confirman-que-el-papa-leon-xiv-llegara-a-la.mp4",
    "viral": false
   },
-  "nacionales:975c5666332b123b|tiktok": {
-   "actualizado": "2026-10-22T22:00:28.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "nacionales:975c5666332b123b|tiktok",
-   "creado": "2026-10-22T22:00:20.000Z",
-   "dueAt": "",
-   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
-   "estado": "descartado",
-   "generado": "2026-10-22T21:46:04.000Z",
-   "id": "nacionales:975c5666332b123b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Patricia Bullrich habló sobre su candidatura presidencial y la eliminación de las PASO\n\nLa senadora nacional aseguró estar lista para postularse a la presidencia, pero pidió postergar las definiciones electorales. Además, advirtió que el Congreso debe definir el futuro de las primarias antes de fin de año.\n\nhttps://www.diariolacampaña.com.ar/n/patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #PatriciaBullrich",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Patricia Bullrich habló sobre su candidatura presidencial y la eliminación de las PASO",
-   "urgente": false,
-   "vence": "2026-10-23T15:46:04.000Z",
-   "video_bytes": 75944,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_975c566633_patricia-bullrich-hablo-sobre-su-candidatura.mp4",
-   "viral": false
-  },
-  "nacionales:975c5666332b123b|x": {
-   "actualizado": "2026-10-22T22:00:28.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:975c5666332b123b|x",
-   "creado": "2026-10-22T22:00:20.000Z",
-   "dueAt": "",
-   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
-   "estado": "descartado",
-   "generado": "2026-10-22T21:46:04.000Z",
-   "id": "nacionales:975c5666332b123b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56",
-   "noticia": "nota:patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Patricia Bullrich habló sobre su candidatura presidencial y la eliminación de las PASO\n\nLa senadora nacional aseguró estar lista para postularse a la presidencia, pero pidió postergar las definiciones electorales.\n\nhttps://www.diariolacampaña.com.ar/n/patricia-bullrich-sobre-su-candidatura-presidencial-y-la-975c56",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Patricia Bullrich habló sobre su candidatura presidencial y la eliminación de las PASO",
-   "urgente": false,
-   "vence": "2026-10-22T23:46:04.000Z",
-   "video_bytes": 75944,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_975c566633_patricia-bullrich-hablo-sobre-su-candidatura.mp4",
-   "viral": false
-  },
   "nacionales:ae9e5a4804b66987|tiktok": {
    "actualizado": "2026-10-23T23:00:24.000Z",
    "buffer_id": "",
@@ -17891,6 +17656,34 @@
    "vence": "2026-10-30T01:31:53.000Z",
    "video_bytes": 81931,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_01_chacabuco_cay-un-sospechoso-por-robos-at.mp4",
+   "viral": false
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x": {
+   "actualizado": "2026-11-01T22:20:15.000Z",
+   "buffer_id": "6ae7bb2048ce42a6b42cf164",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x",
+   "creado": "2026-11-01T22:20:15.000Z",
+   "dueAt": "2026-11-01T22:23:12.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-01T22:01:21.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-36-anos-y-recuperaron-una-3ba5d0",
+   "noticia": "nota:chacabuco-detuvieron-a-un-hombre-de-36-anos-y-recuperaron-una-3ba5d0",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Cayó en un hotel céntrico el ladrón que se llevó una bicicleta en Chacabuco\n\nUn sospechoso de 36 años, oriundo de Lobos, fue arrestado en un hotel de Chacabuco tras robar una bicicleta Venzo de un medio local. La Policía recuperó el rodado.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-36-anos-y-recuperaron-una-3ba5d0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cayó en un hotel céntrico el ladrón que se llevó una bicicleta en Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-02T00:01:21.000Z",
+   "video_bytes": 77111,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_01_chacabuco_cay-en-un-hotel-c-ntrico-el-la.mp4",
    "viral": false
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros|tiktok": {
@@ -23636,18 +23429,6 @@
  },
  "registro": [
   {
-   "clave": "web:79d9f140-48df-40f4-b83c-a3e8b305ad23|x",
-   "cuando": "2026-10-27T13:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115052963164995880"
-  },
-  {
-   "clave": "web:83aa22b6-5664-4e7e-9984-1dfd644a5220|x",
-   "cuando": "2026-10-27T13:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115060509711994943"
-  },
-  {
    "clave": "web:e32dc39e-b193-41c9-8bce-3a9773d75a39|x",
    "cuando": "2026-10-27T13:00:21.000Z",
    "evento": "enviado",
@@ -27816,6 +27597,21 @@
    "cuando": "2026-11-01T21:20:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7703311600094104850"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x",
+   "cuando": "2026-11-01T22:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6ae7bb2048ce42a6b42cf164",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x",
+   "cuando": "2026-11-01T22:20:16.000Z",
+   "dueAt": "2026-11-01T22:23:12.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -28307,6 +28103,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se": "2026-10-26T23:40:20.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac": "2026-10-28T23:20:14.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo": "2026-10-29T23:40:14.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific": "2026-11-01T22:20:15.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html": "2026-10-12T15:40:18.000Z",

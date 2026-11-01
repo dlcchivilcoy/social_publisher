@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 01/11/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 01/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-01)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 01/11/2026 19:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -22,12 +22,12 @@ Actualizado: 01/11/2026 19:00 (hora AR) · ACTIVO
 - X · Reels policiales: 19 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 52 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 131 · likes 1
-- TikTok · Reels del bot: 63 con métricas · mediana vistas/impresiones 259 · likes 3
+- TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 258.5 · likes 3
 - TikTok · Reels policiales: 2 con métricas · mediana vistas/impresiones 692 · likes 5.5 ⚠️muestra chica
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 591 de 600 · 30d: quedan 892 de 2000 (visto 2026-11-01T21:20:16.000Z)
+15m: quedan 149 de 150 · 24h: quedan 590 de 600 · 30d: quedan 891 de 2000 (visto 2026-11-01T22:20:16.000Z)
 
 ## Cola propia (0 esperando)
 
@@ -39,8 +39,6 @@ Actualizado: 01/11/2026 19:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-01T01:20 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-01T01:40 vencido policiales:https://www.latrochadigital.com.ar/2026/10/31/all espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-01T02:00 enviado bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
 - 2026-11-01T02:00 enviado bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tikto 
 - 2026-11-01T02:00 enviado bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok 
@@ -64,3 +62,5 @@ Actualizado: 01/11/2026 19:00 (hora AR) · ACTIVO
 - 2026-11-01T15:00 enviado bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok 
 - 2026-11-01T21:00 programado bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok 
 - 2026-11-01T21:20 enviado bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok 
+- 2026-11-01T22:20 recibido policiales:https://www.diariodemocracia.com/policiales/34745 
+- 2026-11-01T22:20 programado policiales:https://www.diariodemocracia.com/policiales/34745 
