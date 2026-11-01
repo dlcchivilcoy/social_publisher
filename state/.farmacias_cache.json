@@ -632,5 +632,161 @@
     },
     "fuente": "mail",
     "actualizado": "2026-10-31"
+  },
+  "2026-11": {
+    "dias": {
+      "1": [
+        "Ceballos",
+        "Cruz Roja",
+        "Homar"
+      ],
+      "16": [
+        "Bogliolo",
+        "De Francesco",
+        "Lucini"
+      ],
+      "2": [
+        "Palumbo",
+        "Rossi",
+        "Traverso"
+      ],
+      "17": [
+        "Frenkiel",
+        "Litterio",
+        "Rolando"
+      ],
+      "3": [
+        "Moderna",
+        "Mitre",
+        "Giacchetta"
+      ],
+      "18": [
+        "Ideal",
+        "Sivori",
+        "Zurita"
+      ],
+      "4": [
+        "Suipacha",
+        "Merce",
+        "Villarino"
+      ],
+      "19": [
+        "Cruz Roja",
+        "Homar",
+        "Ceballos"
+      ],
+      "5": [
+        "Miranda",
+        "Cassino",
+        "Mecca"
+      ],
+      "20": [
+        "Rossi",
+        "Traverso",
+        "Palumbo"
+      ],
+      "6": [
+        "Rolando",
+        "Mitre",
+        "Pereyra"
+      ],
+      "21": [
+        "Mitre",
+        "Giacchetta",
+        "Moderna"
+      ],
+      "7": [
+        "De Francesco",
+        "Lucini",
+        "Bogliolo"
+      ],
+      "22": [
+        "Merce",
+        "Villarino",
+        "Suipacha"
+      ],
+      "8": [
+        "Litterio",
+        "Frenkiel",
+        "Rolando"
+      ],
+      "23": [
+        "Cassino",
+        "Mecca",
+        "Miranda"
+      ],
+      "9": [
+        "Sivori",
+        "Zurita",
+        "Ideal"
+      ],
+      "24": [
+        "Pereyra",
+        "Feijoo",
+        "Rolando"
+      ],
+      "10": [
+        "Homar",
+        "Ceballos",
+        "Cruz Roja"
+      ],
+      "25": [
+        "Lucini",
+        "Bogliolo",
+        "De Francesco"
+      ],
+      "11": [
+        "Litterio",
+        "Palumbo",
+        "Rossi"
+      ],
+      "26": [
+        "Litterio",
+        "Frenkiel",
+        "Rolando"
+      ],
+      "12": [
+        "Giacchetta",
+        "Moderna",
+        "Mitre"
+      ],
+      "27": [
+        "Sivori",
+        "Ideal",
+        "Zurita"
+      ],
+      "13": [
+        "Villarino",
+        "Suipacha",
+        "Merce"
+      ],
+      "28": [
+        "Ceballos",
+        "Cruz Roja",
+        "Homar"
+      ],
+      "14": [
+        "Mecca",
+        "Miranda",
+        "Cassino"
+      ],
+      "29": [
+        "Palumbo",
+        "Rossi",
+        "Traverso"
+      ],
+      "15": [
+        "Pereyra",
+        "Rolando",
+        "Mitre"
+      ],
+      "30": [
+        "Moderna",
+        "Mitre",
+        "Giacchetta"
+      ]
+    },
+    "fuente": "mail",
+    "actualizado": "2026-11-01"
   }
 }
