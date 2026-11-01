@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 01/11/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 01/11/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-01)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 01/11/2026 09:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,13 +27,9 @@ Actualizado: 01/11/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 597 de 600 · 30d: quedan 898 de 2000 (visto 2026-11-01T12:40:15.000Z)
+15m: quedan 149 de 150 · 24h: quedan 596 de 600 · 30d: quedan 897 de 2000 (visto 2026-11-01T13:00:27.000Z)
 
-## Cola propia (4 esperando)
-- TikTok · Reels del bot · Se puso en marcha la 21.ª edición de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -43,10 +39,6 @@ Actualizado: 01/11/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T23:40 recibido policiales:https://www.latrochadigital.com.ar/2026/10/31/all 
-- 2026-10-31T23:40 recibido web:464e2e48-a775-44fb-ba64-8d4a372bbadb|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-10-31T23:40 programado bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|x 
-- 2026-10-31T23:40 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
 - 2026-11-01T00:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|tikto 
 - 2026-11-01T00:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tikto 
 - 2026-11-01T00:00 programado bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tikto 
@@ -68,3 +60,7 @@ Actualizado: 01/11/2026 09:40 (hora AR) · ACTIVO
 - 2026-11-01T12:20 recibido bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok 
 - 2026-11-01T12:20 programado bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x 
 - 2026-11-01T12:40 enviado bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x 
+- 2026-11-01T13:00 programado bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok 
+- 2026-11-01T13:00 programado bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok 
+- 2026-11-01T13:00 programado bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok 
+- 2026-11-01T13:00 programado bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok 
