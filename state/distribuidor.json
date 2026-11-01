@@ -2883,6 +2883,32 @@
    "volanta": "Visita papal",
    "youtube_url": "https://youtube.com/shorts/2hV-5DWkXog"
   },
+  "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
+   "categoria": "robo",
+   "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-01T23:01:18.000Z",
+   "id": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-piden-colaboracion-para-identificar-a-los-autores-de-9ca5b0",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Se solicita colaboración a la comunidad para identificar a los responsables de un robo cometido en las instalaciones de la Terminal de Ómnibus de 9 de Julio.\n\nDesde el medio local difundieron el pedido para dar con los autores del ilícito que es materia de investigación.\n\nCualquier información útil puede ser aportada a las autoridades policiales para esclarecer lo sucedido en el predio.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Robo #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Robo en la Terminal de Ómnibus de 9 de Julio",
+   "urgente": false,
+   "video_bytes": 89284,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_05_9-de-julio_robo-en-la-terminal-de-mnibus-.mp4",
+   "volanta": "Robo en 9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/nDNWk0FHbKk"
+  },
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": {
    "categoria": "operativo_policial",
    "descripcion": "Dos sospechosos fueron arrestados en Luján tras intimidar a un vecino con una pistola. Durante la huida en moto descartaron un arma calibre 9 milímetros, la cual fue hallada gracias al seguimiento de las cámaras de seguridad municipales.",
@@ -7513,43 +7539,6 @@
    "titulo": "Imputaron a un menor tras allanamientos por robos en dos comercios",
    "urgente": false,
    "vence": "2026-10-24T22:20:46.000Z",
-   "video_bytes": 995570,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6c2aa2b19c388ff2.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x": {
-   "actualizado": "2026-10-22T23:20:15.000Z",
-   "buffer_id": "6ada90d71dc335d347e1bce8",
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|x",
-   "creado": "2026-10-22T22:40:13.000Z",
-   "dueAt": "2026-10-22T22:42:59.000Z",
-   "enviado": "2026-10-22T22:43:51.197Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-22T22:20:46.000Z",
-   "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2113400969828446329",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 24,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
-   "noticia": "nota:chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Imputaron a un menor tras allanamientos por robos en dos comercios\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Imputaron a un menor tras allanamientos por robos en dos comercios",
-   "urgente": false,
-   "vence": "2026-10-23T00:20:46.000Z",
    "video_bytes": 995570,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6c2aa2b19c388ff2.mp4",
    "viral": false
@@ -16474,6 +16463,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8740af29d_la-cgt-recibio-invitaciones-para-ver-al-papa-pero.mp4",
    "viral": false
   },
+  "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
+   "actualizado": "2026-11-01T23:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x",
+   "creado": "2026-11-01T23:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-01T23:01:18.000Z",
+   "id": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-piden-colaboracion-para-identificar-a-los-autores-de-9ca5b0",
+   "noticia": "nota:9-de-julio-piden-colaboracion-para-identificar-a-los-autores-de-9ca5b0",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Robo en la Terminal de Ómnibus de 9 de Julio\n\nSolicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-piden-colaboracion-para-identificar-a-los-autores-de-9ca5b0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Robo en la Terminal de Ómnibus de 9 de Julio",
+   "urgente": false,
+   "vence": "2026-11-02T01:01:18.000Z",
+   "video_bytes": 89284,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_05_9-de-julio_robo-en-la-terminal-de-mnibus-.mp4",
+   "viral": false
+  },
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/|tiktok": {
    "actualizado": "2026-10-24T12:40:12.000Z",
    "buffer_id": "",
@@ -23438,12 +23455,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tiktok",
-   "cuando": "2026-10-27T13:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "tanda sin lugar (tope de 24 h o Buffer lleno)"
-  },
-  {
    "clave": "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x",
    "cuando": "2026-10-27T13:20:18.000Z",
    "evento": "depurado",
@@ -27623,6 +27634,14 @@
    "cuando": "2026-11-01T22:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117019677050208388"
+  },
+  {
+   "clave": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x",
+   "cuando": "2026-11-01T23:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -28002,6 +28021,7 @@
   "nacionales:fbd1321e4156d9c7": "2026-10-18T17:20:13.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59149/un-joven-murio-atropellado-en-la-ruta-7-cuando-volvia-de-lujan.html": "2026-10-14T13:20:22.000Z",
   "policiales:http://www.elcivismo.com.ar/notas/59152/dos-muertos-en-un-choque-frontal-en-el-acceso-oeste.html": "2026-10-14T18:00:18.000Z",
+  "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/": "2026-10-22T01:40:20.000Z",
   "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/": "2026-10-15T02:00:18.000Z",
   "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/": "2026-10-14T22:20:16.000Z",
