@@ -4425,25 +4425,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/murales-de-identidad-chivilcoy-se-cuenta-las-garitas-de-colectivos-de",
    "volanta": ""
   },
-  "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb": {
-   "categoria": "",
-   "descripcion": "Juanita Fernández logró la primera medalla de oro para Chivilcoy La atleta Juanita Fernández obtuvo la primera medalla de oro para Chivilcoy tras imponerse en la prueba de atletismo de 400 metros. Luego de su participación, la deportista expresó su satisfacción por el logro: «Muy contenta, la verdad que venía a esto. Especulamos mucho con el profe. Vengo entrenando de lunes a lunes, literal. Aparte estoy con una lesión hace unos meses, pero bueno, venimos manejando eso, tratando de no parar y...",
-   "generado": "2026-10-22T15:15:08.609Z",
-   "id": "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_90e9903a06ae42b19719bb4992be05da~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-logro-la-primera-medalla-de-oro",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Juanita Fernández logró la primera medalla de oro para Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-juanita-fernandez-logro-la-primera-medalla-de-oro",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:10530670-a72a-4de8-bc7f-13a21143d576": {
    "categoria": "",
    "descripcion": "Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cien por ciento La empresa Amarilla Gas resolvió cerrar el sector de fraccionamiento y envasado de su planta ubicada sobre la Ruta Nacional 5 en Chivilcoy, situación que derivó en una audiencia en la delegación regional del Ministerio de Trabajo encabezada por su delegado, Fernando Antonelli. Tras el encuentro con representantes de la firma y dirigentes gremiales, el funcionario explicó el alcance de la medida...",
@@ -19269,31 +19250,6 @@
    "titulo": "“Murales de Identidad, Chivilcoy se cuenta”",
    "urgente": false,
    "vence": "2026-10-29T14:02:03.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb|x": {
-   "actualizado": "2026-10-22T15:20:17.000Z",
-   "buffer_id": "",
-   "clave": "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb|x",
-   "creado": "2026-10-22T15:20:17.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-22T15:15:08.609Z",
-   "id": "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-logro-la-primera-medalla-de-oro",
-   "noticia": "nota:chivilcoy-deportes-juanita-fernandez-logro-la-primera-medalla-de-oro",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Juanita Fernández logró la primera medalla de oro para Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-22T19:15:08.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
