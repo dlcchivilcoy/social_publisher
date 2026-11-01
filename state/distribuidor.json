@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 5
+    "scheduled": 3,
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-10-31T23:20:24.000Z"
+   "visto": "2026-11-01T00:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 9
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-10-31T23:20:24.000Z"
+   "visto": "2026-11-01T00:40:15.000Z"
   }
  },
  "contenidos": {
@@ -3005,33 +3005,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_5de2902aa9_confirman-que-el-papa-leon-xiv-llegara-a-la.mp4",
    "volanta": "Visita papal",
    "youtube_url": "https://youtube.com/shorts/Yr3kS0oAe-s"
-  },
-  "nacionales:89b6dd1b304f6c4e": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "La Cámara baja avaló la inviolabilidad de la propiedad privada, la trazabilidad de medicamentos de alto riesgo tras el caso del fentanilo contaminado y subió sanciones por vandalismo en campos. Prosigue el debate sobre discapacidad y endeudamiento.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-22T00:16:05.000Z",
-   "hashtags": [
-    "Diputados",
-    "Congreso"
-   ],
-   "id": "nacionales:89b6dd1b304f6c4e",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd",
-   "origen": "nacionales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "Diputados aprobó propiedad privada, trazabilidad de fármacos y endureció penas rurales",
-   "urgente": false,
-   "video_bytes": 123889,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_89b6dd1b30_diputados-aprobo-propiedad-privada-trazabilidad.mp4",
-   "volanta": "Sesión en Diputados",
-   "youtube_url": "https://youtube.com/shorts/-qfB5gGSgEg"
   },
   "nacionales:975c5666332b123b": {
    "categoria": "Política",
@@ -7928,25 +7901,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-moquehua-recupero-la-cima-en-una-decima-fecha-a-puro-gol-en-la",
    "volanta": "Fútbol"
   },
-  "web:e790e167-f2c1-4e20-bcee-7d86399107cd": {
-   "categoria": "",
-   "descripcion": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses En el marco de la competencia de los Juegos Bonaerenses, representantes de Chivilcoy brindaron sus testimonios sobre el desarrollo de su participación en la disciplina de tejo intergeneracional. Leonardo Raúl Miguez compite junto a José Mir en la categoría mencionada. Al ser consultados sobre la marcha deportiva, explicaron que hasta el momento registran una derrota y una victoria: \"Perdimos uno y ganamos uno. Mañana...",
-   "generado": "2026-10-22T00:11:54.903Z",
-   "id": "web:e790e167-f2c1-4e20-bcee-7d86399107cd",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_492378bac49044319ba827d1ac693d54~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:e92d7cef-125b-45bf-8655-591a3ccc565b": {
    "categoria": "",
    "descripcion": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal El domingo se realizará la Primera Feria de Cooperadoras Escolares en la Plaza 25 de Mayo. En el marco del 172° aniversario de Chivilcoy y del Mes de la Cooperación Escolar, la Plaza 25 de Mayo albergará una jornada comunitaria con 17 instituciones educativas, espectáculos folclóricos y la reinauguración de la emblemática Fuente de Hebe. Este próximo domingo 25 de octubre, a partir de las 15:00 horas, la zona central...",
@@ -8297,17 +8251,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 580,
-   "segundos": 34795,
+   "restantes": 579,
+   "segundos": 32402,
    "tope": 600
   },
   "30d": {
-   "restantes": 903,
-   "segundos": 853818,
+   "restantes": 902,
+   "segundos": 851425,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-01T00:00:26.000Z",
+ "cuota_visto": "2026-11-01T00:40:16.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -12472,19 +12426,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|tiktok": {
-   "actualizado": "2026-11-01T00:00:20.000Z",
+   "actualizado": "2026-11-01T00:40:15.000Z",
    "buffer_id": "6ae68117f0984eef333a7d75",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|tiktok",
    "creado": "2026-10-31T14:00:18.000Z",
    "dueAt": "2026-11-01T00:03:16.000Z",
+   "enviado": "2026-11-01T00:04:12.637Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-31T13:52:35.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702986961333570837",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12643,19 +12598,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tiktok": {
-   "actualizado": "2026-11-01T00:00:20.000Z",
+   "actualizado": "2026-11-01T00:40:15.000Z",
    "buffer_id": "6ae681181ee172cd6dcd860c",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tiktok",
    "creado": "2026-10-31T23:40:14.000Z",
    "dueAt": "2026-11-01T00:23:32.000Z",
+   "enviado": "2026-11-01T00:24:27.386Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-31T23:26:03.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702992163100953876",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-aprobaron-la-creacion-de-la-ventanilla",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12671,18 +12627,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|x": {
-   "actualizado": "2026-10-31T23:40:20.000Z",
+   "actualizado": "2026-11-01T00:40:15.000Z",
    "buffer_id": "6ae67c6521c807e9d590138b",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|x",
    "creado": "2026-10-31T23:40:14.000Z",
    "dueAt": "2026-10-31T23:42:40.000Z",
+   "enviado": "2026-10-31T23:42:48.163Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-31T23:26:03.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116677295721087144",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-aprobaron-la-creacion-de-la-ventanilla",
    "noticia": "nota:chivilcoy-politica-chivilcoy-aprobaron-la-creacion-de-la-ventanilla",
    "origen": "bot",
@@ -17669,60 +17626,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_5de2902aa9_confirman-que-el-papa-leon-xiv-llegara-a-la.mp4",
    "viral": false
   },
-  "nacionales:89b6dd1b304f6c4e|tiktok": {
-   "actualizado": "2026-10-22T00:20:25.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "nacionales:89b6dd1b304f6c4e|tiktok",
-   "creado": "2026-10-22T00:20:17.000Z",
-   "dueAt": "",
-   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
-   "estado": "descartado",
-   "generado": "2026-10-22T00:16:05.000Z",
-   "id": "nacionales:89b6dd1b304f6c4e",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Diputados aprobó propiedad privada, trazabilidad de fármacos y endureció penas rurales\n\nLa Cámara baja avaló la inviolabilidad de la propiedad privada, la trazabilidad de medicamentos de alto riesgo tras el caso del fentanilo contaminado y subió sanciones por vandalismo en campos. Prosigue el debate sobre discapacidad y endeudamiento.\n\nhttps://www.diariolacampaña.com.ar/n/diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Diputados",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Diputados aprobó propiedad privada, trazabilidad de fármacos y endureció penas rurales",
-   "urgente": false,
-   "vence": "2026-10-22T18:16:05.000Z",
-   "video_bytes": 123889,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_89b6dd1b30_diputados-aprobo-propiedad-privada-trazabilidad.mp4",
-   "viral": false
-  },
-  "nacionales:89b6dd1b304f6c4e|x": {
-   "actualizado": "2026-10-22T00:20:25.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:89b6dd1b304f6c4e|x",
-   "creado": "2026-10-22T00:20:17.000Z",
-   "dueAt": "",
-   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
-   "estado": "descartado",
-   "generado": "2026-10-22T00:16:05.000Z",
-   "id": "nacionales:89b6dd1b304f6c4e",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd",
-   "noticia": "nota:diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Diputados aprobó propiedad privada, trazabilidad de fármacos y endureció penas rurales\n\nLa Cámara baja avaló la trazabilidad de fármacos de alto riesgo y subió sanciones por vandalismo en campos. Prosigue el debate sobre discapacidad y endeudamiento.\n\nhttps://www.diariolacampaña.com.ar/n/diputados-aprobo-propiedad-privada-trazabilidad-de-farmacos-y-89b6dd",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Diputados aprobó propiedad privada, trazabilidad de fármacos y endureció penas rurales",
-   "urgente": false,
-   "vence": "2026-10-22T02:16:05.000Z",
-   "video_bytes": 123889,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_89b6dd1b30_diputados-aprobo-propiedad-privada-trazabilidad.mp4",
-   "viral": false
-  },
   "nacionales:975c5666332b123b|tiktok": {
    "actualizado": "2026-10-22T22:00:28.000Z",
    "buffer_id": "",
@@ -18932,18 +18835,19 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26703-una-camioneta-se-incendio-durante-la-madrugada-en-la-via-publica|x": {
-   "actualizado": "2026-10-31T23:40:20.000Z",
+   "actualizado": "2026-11-01T00:40:15.000Z",
    "buffer_id": "6ae67c65ab019b90872f5fbd",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26703-una-camioneta-se-incendio-durante-la-madrugada-en-la-via-publica|x",
    "creado": "2026-10-31T22:40:14.000Z",
    "dueAt": "2026-10-31T23:48:52.000Z",
+   "enviado": "2026-10-31T23:49:03.587Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-31T22:31:18.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26703-una-camioneta-se-incendio-durante-la-madrugada-en-la-via-publica",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116678870338306066",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-una-camioneta-se-incendio-de-madrugada-en-jaime-coll-y-0d4e1d",
    "noticia": "nota:bragado-una-camioneta-se-incendio-de-madrugada-en-jaime-coll-y-0d4e1d",
    "origen": "policiales",
@@ -25421,31 +25325,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:e790e167-f2c1-4e20-bcee-7d86399107cd|x": {
-   "actualizado": "2026-10-22T00:20:17.000Z",
-   "buffer_id": "",
-   "clave": "web:e790e167-f2c1-4e20-bcee-7d86399107cd|x",
-   "creado": "2026-10-22T00:20:17.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-22T00:11:54.903Z",
-   "id": "web:e790e167-f2c1-4e20-bcee-7d86399107cd",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-compite-en-tejo-intergeneracional-en-los",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy compite en tejo intergeneracional en los Juegos Bonaerenses",
-   "urgente": false,
-   "vence": "2026-10-22T04:11:54.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:e92d7cef-125b-45bf-8655-591a3ccc565b|x": {
    "actualizado": "2026-10-23T14:00:23.000Z",
    "buffer_id": "",
@@ -25993,38 +25872,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:235c69cb-f4d0-4bac-832b-a776588dd3e9|x",
-   "cuando": "2026-10-27T10:04:04.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6fa97049-5784-463a-a94e-a3d63da21b58|x",
-   "cuando": "2026-10-27T10:04:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:114e0244-c0a8-4f64-8b31-96e1a4aa4cb9|x",
-   "cuando": "2026-10-27T10:04:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x",
-   "cuando": "2026-10-27T10:04:35.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:5ca863ea-d5c6-45ae-b613-ee86268b66cc|x",
    "cuando": "2026-10-27T10:04:43.000Z",
@@ -30190,6 +30037,30 @@
    "cuando": "2026-11-01T00:20:15.000Z",
    "evento": "vencido",
    "motivo": "no entró entre las 5 más virales de la tanda 21 h"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|tiktok",
+   "cuando": "2026-11-01T00:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702986961333570837"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tiktok",
+   "cuando": "2026-11-01T00:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702992163100953876"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|x",
+   "cuando": "2026-11-01T00:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116677295721087144"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26703-una-camioneta-se-incendio-durante-la-madrugada-en-la-via-publica|x",
+   "cuando": "2026-11-01T00:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116678870338306066"
   }
  ],
  "tandas": {
@@ -30227,7 +30098,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-01",
- "ultima_sync": "2026-10-31T23:20:24.000Z",
+ "ultima_sync": "2026-11-01T00:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
