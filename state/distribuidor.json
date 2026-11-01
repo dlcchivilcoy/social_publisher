@@ -7522,25 +7522,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
    "volanta": "Ayarza · Policiales"
   },
-  "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b": {
-   "categoria": "",
-   "descripcion": "Britos evalúa que De Lillo complete el mandato municipal Chivilcoy celebró su 172° aniversario con un reconocimiento a Horacio Milozzi como Ciudadano Ilustre y un mensaje de Britos sobre el futuro de la gestión. En el acto central por el aniversario de la ciudad, el intendente destacó los avances de los últimos 11 años, defendió la gestión en materia de seguridad, anticipó gestiones para recuperar parte de la ex clínica IMO para el patrimonio municipal y puso en valor el trabajo de los...",
-   "generado": "2026-10-22T17:40:51.756Z",
-   "id": "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_f1600f3e2f3c4c3aacd67e018795620f~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Britos evalúa que De Lillo complete el mandato municipal",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
-   "volanta": "Chivilcoy · Política"
-  },
   "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9": {
    "categoria": "",
    "descripcion": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva Medallero Chivilcoy 2026 (Total: 17) Medallas de oro (6): • Atletismo en 400 metros sub-18. • Magali Cortiana (patín artístico). • Tejo intergeneracional: Raúl Miguez y Josemir Montalbano. • Salto en largo. • Bochas intergeneracional. • Básquet 3x3 sub-14 masculino. Medallas de plata (4): • Atletismo: salto en alto sub-16. • Ramon Marzano y Hugo Torres (escoba de 15). • Básquet 3x3 sub-14 femenino. • Básquet sub-16 masculino....",
@@ -23925,31 +23906,6 @@
    "titulo": "Investigan el faltante de herramientas y agroquímicos en un campo",
    "urgente": false,
    "vence": "2026-10-25T18:23:39.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b|x": {
-   "actualizado": "2026-10-22T18:00:18.000Z",
-   "buffer_id": "",
-   "clave": "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b|x",
-   "creado": "2026-10-22T18:00:18.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-22T17:40:51.756Z",
-   "id": "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
-   "noticia": "nota:chivilcoy-politica-britos-evalua-que-de-lillo-complete-el-mandato",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Britos evalúa que De Lillo complete el mandato municipal",
-   "urgente": false,
-   "vence": "2026-10-22T21:40:51.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
