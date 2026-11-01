@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 1,
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-11-01T12:40:15.000Z"
+   "visto": "2026-11-01T14:00:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 10
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-11-01T12:40:15.000Z"
+   "visto": "2026-11-01T14:00:18.000Z"
   }
  },
  "contenidos": {
@@ -53,27 +53,6 @@
    "video_mb": 0.9,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77078a4e924dcafe.mp4",
    "youtube_url": "https://www.youtube.com/shorts/AWtdJRTPfQU"
-  },
-  "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe": {
-   "descripcion": "Este fin de semana tendrá lugar la tradicional competencia en el marco del 172° aniversario de la ciudad de Chivilcoy. La edición tendrá como protagonista al Auto Club, en reconocimiento a su trayectoria en el automovilismo, y contará con tramos tradicionales y un súper especial.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-22T01:31:03.000Z",
-   "id": "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-oficialmente-la-39-edicion-del-rally",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Presentaron oficialmente la 39ª edición del Rally de Chivilcoy",
-   "urgente": false,
-   "video_bytes": 751829,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d900088211d66e7e.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/mV1In68pkS8"
   },
   "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4": {
    "descripcion": "Chivilcoy celebró su 172° aniversario con un reconocimiento a Horacio Milozzi como Ciudadano Ilustre y un mensaje de Britos sobre el futuro de la gestión. En el acto central por el aniversario de la ciudad, el intendente destacó los avances de los últimos 11 años, defendió la gestión",
@@ -3182,32 +3161,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8740af29d_la-cgt-recibio-invitaciones-para-ver-al-papa-pero.mp4",
    "volanta": "Visita papal",
    "youtube_url": "https://youtube.com/shorts/2hV-5DWkXog"
-  },
-  "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/": {
-   "categoria": "robo",
-   "descripcion": "La planta de reciclaje sufrió un nuevo ataque delictivo tras forzar las rejas y una ventana de la oficina. Se llevaron herramientas, materiales y alimentos. Apuntan a la falta de respuestas del secretario de Seguridad, Ramón Ojeda.",
-   "distancia_km": 88.2,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-22T01:32:00.000Z",
-   "id": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/",
-   "localidad": "San Antonio de Areco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-la-cooperativa-27-de-octubre-sufrio-su-35d0de",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "radio_ok": true,
-   "texto_tiktok": "La planta de reciclaje de la Cooperativa 27 de Octubre fue blanco de un nuevo asalto en el predio del basural municipal de San Antonio de Areco.\n\nLos delincuentes violentaron las aberturas para ingresar a la oficina y sustrajeron herramientas de trabajo, cables y mercadería destinada al personal.\n\nLa referente Marcela D’Amico expresó su desesperación tras constatar el décimo hecho delictivo y lamentó la falta de respuestas de las autoridades locales.\n\nLa investigación quedó en manos del personal policial tras la denuncia radicada por los damnificados.\n\n📲 Más noticias de San Antonio de Areco en www.diariolacampaña.com.ar\n\n#SanAntonioDeAreco #Inseguridad #Robo #BuenosAires",
-   "tipo": "video",
-   "titulo": "Sufrió su décimo robo la Cooperativa 27 de Octubre en el basural municipal",
-   "urgente": false,
-   "video_bytes": 86885,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_0104_01_san-antonio-de-areco_sufri-su-d-cimo-robo-la-cooper.mp4",
-   "volanta": "San Antonio de Areco",
-   "youtube_url": "https://youtube.com/shorts/0uJCa1OOs4E"
   },
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": {
    "categoria": "operativo_policial",
@@ -7027,25 +6980,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
    "volanta": "Chivilcoy · Policiales"
   },
-  "web:c5296d2f-83a9-4c62-8aac-248e918bda5e": {
-   "categoria": "",
-   "descripcion": "Cierre de temporada con sello propio: \"Habladurías\" despide su primer ciclo con teatro, monólogo y performance El espectáculo de teatro improvisado encabezado por Sebastián Bravo y Memi Mesplet ofrecerá su última función este domingo en CasaVieja San Luis. La jornada contará con las actuaciones especiales de Juan Luis Bayona y Drag Fride. El teatro independiente local se prepara para vivir una tarde a pura emoción y expresión artística. Este domingo 25 de octubre a las 18:30 hs, el espacio...",
-   "generado": "2026-10-22T10:02:08.336Z",
-   "id": "web:c5296d2f-83a9-4c62-8aac-248e918bda5e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_4518115eac044bc18c07dde93becbd4f~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/casavieja-san-luis-cierre-de-temporada-con-sello-propio-habladurias",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Cierre de temporada con sello propio: \"Habladurías\" despide su primer ciclo con teatro, monólogo y performance",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/casavieja-san-luis-cierre-de-temporada-con-sello-propio-habladurias",
-   "volanta": "CasaVieja San Luis"
-  },
   "web:c636a949-65bd-4d05-988f-93cbad23a411": {
    "categoria": "",
    "descripcion": "Presentaron una nueva edición de la Expo Hecho en Chivilcoy La Expo se realizará este sábado 31 de octubre y domingo 1 de noviembre en el Espacio Vallerga, con la participación de comercios, industrias, pymes y productores locales. Habrá espectáculos musicales, propuestas artísticas y una carpa cultural con 22 artistas de la ciudad. La entrada tendrá un valor de $3.000. La Municipalidad de Chivilcoy anunció una nueva edición de la Expo Hecho en Chivilcoy, una iniciativa destinada a...",
@@ -7947,17 +7881,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 595,
-   "segundos": 74399,
+   "restantes": 594,
+   "segundos": 72001,
    "tope": 600
   },
   "30d": {
-   "restantes": 896,
-   "segundos": 805821,
+   "restantes": 895,
+   "segundos": 803422,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-01T13:20:21.000Z",
+ "cuota_visto": "2026-11-01T14:00:20.000Z",
  "metricas_buffer": {
   "con_metricas": 83,
   "disponible": true,
@@ -8000,45 +7934,6 @@
    "vence": "2026-10-22T21:07:56.000Z",
    "video_bytes": 908760,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77078a4e924dcafe.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|tiktok": {
-   "actualizado": "2026-10-22T13:40:15.000Z",
-   "buffer_id": "6ada08e7eb1348c17abe016e",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe|tiktok",
-   "creado": "2026-10-22T01:40:20.000Z",
-   "dueAt": "2026-10-22T13:03:37.000Z",
-   "enviado": "2026-10-22T13:08:50.975Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-22T01:31:03.000Z",
-   "id": "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7699477911946186036",
-   "metricas": {
-    "averageTimeWatched": 5.61,
-    "comments": 0,
-    "engagementRate": 1.43,
-    "reach": 0,
-    "reactions": 3,
-    "shares": 0,
-    "totalTimeWatched": 22.33,
-    "views": 210
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-oficialmente-la-39-edicion-del-rally",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Presentaron oficialmente la 39ª edición del Rally de Chivilcoy\n\nEste fin de semana tendrá lugar la tradicional competencia en el marco del 172° aniversario de la ciudad de Chivilcoy. La edición tendrá como protagonista al Auto Club, en reconocimiento a su trayectoria en el automovilismo, y contará con tramos tradicionales y un súper especial.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-oficialmente-la-39-edicion-del-rally\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Presentaron oficialmente la 39ª edición del Rally de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-24T01:31:03.000Z",
-   "video_bytes": 751829,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d900088211d66e7e.mp4",
    "viral": false
   },
   "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4|tiktok": {
@@ -12550,43 +12445,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4f1871eacf1316a.mp4",
    "viral": false
   },
-  "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|x": {
-   "actualizado": "2026-10-22T13:40:15.000Z",
-   "buffer_id": "6ada0d93bf6d801ac6ecd605",
-   "clave": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|x",
-   "creado": "2026-10-22T13:20:15.000Z",
-   "dueAt": "2026-10-22T13:22:07.000Z",
-   "enviado": "2026-10-22T13:22:21.620Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-22T13:05:47.000Z",
-   "id": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2113259665559540152",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 23,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
-   "noticia": "nota:chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "La Fuente de Hebe volvió a funcionar después de más de 20 años\n\nLa Municipalidad de Chivilcoy inauguró las obras de puesta en valor en la Plaza 25 de Mayo. El intendente Guillermo Britos destacó que el proyecto se concretó con recursos propios.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "La Fuente de Hebe volvió a funcionar después de más de 20 años",
-   "urgente": false,
-   "vence": "2026-10-22T15:05:47.000Z",
-   "video_bytes": 12893075,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4f1871eacf1316a.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mvjluzixklug_01.mp4|tiktok": {
    "actualizado": "2026-10-24T14:20:20.000Z",
    "buffer_id": "",
@@ -14437,19 +14295,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok": {
-   "actualizado": "2026-11-01T13:00:22.000Z",
+   "actualizado": "2026-11-01T14:00:18.000Z",
    "buffer_id": "6ae737eaab019b90875cf7bf",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok",
    "creado": "2026-10-30T14:00:18.000Z",
    "dueAt": "2026-11-01T13:43:02.000Z",
+   "enviado": "2026-11-01T13:44:57.899Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T13:59:15.000Z",
    "id": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7703198230078573830",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -14555,19 +14414,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok": {
-   "actualizado": "2026-11-01T13:00:22.000Z",
+   "actualizado": "2026-11-01T14:00:18.000Z",
    "buffer_id": "6ae737e821c807e9d5bc3f36",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok",
    "creado": "2026-10-30T15:00:19.000Z",
    "dueAt": "2026-11-01T13:03:13.000Z",
+   "enviado": "2026-11-01T13:08:14.906Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-30T14:53:31.000Z",
    "id": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7703188734249848084",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15052,19 +14912,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok": {
-   "actualizado": "2026-11-01T13:00:22.000Z",
+   "actualizado": "2026-11-01T14:00:18.000Z",
    "buffer_id": "6ae737e9cf3a3112f3fa3b7c",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok",
    "creado": "2026-11-01T12:20:13.000Z",
    "dueAt": "2026-11-01T13:23:34.000Z",
+   "enviado": "2026-11-01T13:25:28.102Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-01T12:09:30.000Z",
    "id": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7703193190991629586",
    "nota_url": "",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15137,18 +14998,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|x": {
-   "actualizado": "2026-11-01T13:20:19.000Z",
+   "actualizado": "2026-11-01T14:00:18.000Z",
    "buffer_id": "6ae73c9437c1acd2a0070959",
    "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|x",
    "creado": "2026-11-01T13:20:14.000Z",
    "dueAt": "2026-11-01T13:22:04.000Z",
+   "enviado": "2026-11-01T13:22:27.815Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-01T13:08:47.000Z",
    "id": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2116883570153201918",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-luis-molina-gano-los-21k-de-la-media",
    "noticia": "nota:chivilcoy-deportes-chivilcoy-luis-molina-gano-los-21k-de-la-media",
    "origen": "bot",
@@ -17751,45 +17613,6 @@
    "vence": "2026-10-23T03:16:04.000Z",
    "video_bytes": 85988,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f8740af29d_la-cgt-recibio-invitaciones-para-ver-al-papa-pero.mp4",
-   "viral": false
-  },
-  "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|tiktok": {
-   "actualizado": "2026-10-22T13:40:15.000Z",
-   "buffer_id": "6ada08e8f09f431dcadc90ea",
-   "categoria": "",
-   "clave": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/|tiktok",
-   "creado": "2026-10-22T01:40:20.000Z",
-   "dueAt": "2026-10-22T13:23:33.000Z",
-   "enviado": "2026-10-22T13:27:28.342Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-22T01:32:00.000Z",
-   "id": "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7699482347594337557",
-   "metricas": {
-    "averageTimeWatched": 4.83,
-    "comments": 0,
-    "engagementRate": 1,
-    "reach": 0,
-    "reactions": 6,
-    "shares": 0,
-    "totalTimeWatched": 53.65,
-    "views": 601
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-la-cooperativa-27-de-octubre-sufrio-su-35d0de",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 8,
-   "texto": "Sufrió su décimo robo la Cooperativa 27 de Octubre en el basural municipal\n\nLa planta de reciclaje sufrió un nuevo ataque delictivo tras forzar las rejas y una ventana de la oficina. Se llevaron herramientas, materiales y alimentos. Apuntan a la falta de respuestas del secretario de Seguridad, Ramón Ojeda.\n\nhttps://www.diariolacampaña.com.ar/n/san-antonio-de-areco-la-cooperativa-27-de-octubre-sufrio-su-35d0de\n\n#chivilcoy #diariolacampaña #radiodelcentro #sanantoniodeareco #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Sufrió su décimo robo la Cooperativa 27 de Octubre en el basural municipal",
-   "urgente": false,
-   "vence": "2026-10-22T19:32:00.000Z",
-   "video_bytes": 86885,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_0104_01_san-antonio-de-areco_sufri-su-d-cimo-robo-la-cooper.mp4",
    "viral": false
   },
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/|tiktok": {
@@ -23548,44 +23371,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x": {
-   "actualizado": "2026-10-22T13:40:15.000Z",
-   "buffer_id": "6ad9f61febec8224f3bd6be1",
-   "clave": "web:c5296d2f-83a9-4c62-8aac-248e918bda5e|x",
-   "creado": "2026-10-22T10:02:31.000Z",
-   "dueAt": "2026-10-22T13:07:21.000Z",
-   "enviado": "2026-10-22T13:07:31.429Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-22T10:02:08.336Z",
-   "id": "web:c5296d2f-83a9-4c62-8aac-248e918bda5e",
-   "ig_hora": "2026-10-22T13:07:12.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2113255931601449354",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 6.45,
-    "impressions": 31,
-    "reactions": 1,
-    "reposts": 1
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/casavieja-san-luis-cierre-de-temporada-con-sello-propio-habladurias",
-   "noticia": "nota:casavieja-san-luis-cierre-de-temporada-con-sello-propio-habladurias",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Cierre de temporada con sello propio: \"Habladurías\" despide su primer ciclo con teatro, monólogo y performance\n\nEl espectáculo de teatro improvisado dará su última función este domingo en CasaVieja San Luis. Tendrá artistas invitados.\n\nhttps://www.diariolacampaña.com.ar/n/casavieja-san-luis-cierre-de-temporada-con-sello-propio-habladurias",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Cierre de temporada con sello propio: \"Habladurías\" despide su primer ciclo con teatro, monólogo y performance",
-   "urgente": false,
-   "vence": "2026-10-22T14:07:12.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c636a949-65bd-4d05-988f-93cbad23a411|x": {
    "actualizado": "2026-10-27T16:20:15.000Z",
    "buffer_id": "",
@@ -24983,33 +24768,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:6fa97049-5784-463a-a94e-a3d63da21b58|x",
-   "cuando": "2026-10-27T12:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115041760195813849"
-  },
-  {
-   "clave": "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x",
-   "cuando": "2026-10-27T12:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115034084879577457"
-  },
-  {
-   "buffer_id": "6ae096fe8e7337e594349086",
-   "clave": "web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x",
-   "cuando": "2026-10-27T12:20:14.000Z",
-   "dueAt": "2026-10-27T13:38:13.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x",
-   "cuando": "2026-10-27T12:40:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "buffer_id": "6ae09bc06cd613c4832841dd",
    "clave": "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52|x",
@@ -29171,6 +28929,30 @@
    "cuando": "2026-11-01T13:20:21.000Z",
    "dueAt": "2026-11-01T13:22:04.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok",
+   "cuando": "2026-11-01T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7703198230078573830"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok",
+   "cuando": "2026-11-01T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7703188734249848084"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok",
+   "cuando": "2026-11-01T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7703193190991629586"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|x",
+   "cuando": "2026-11-01T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2116883570153201918"
   }
  ],
  "tandas": {
@@ -29208,7 +28990,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-01",
- "ultima_sync": "2026-11-01T12:40:15.000Z",
+ "ultima_sync": "2026-11-01T14:00:18.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
