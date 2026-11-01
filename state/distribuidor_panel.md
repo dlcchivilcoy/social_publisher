@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 01/11/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-10-31)
+## Hoy (2026-11-01)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 1 | 3 |
-| Reels del bot | TikTok | 20 | 9 | 0 | 0 | 0 | 0 | 2 |
-| Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
