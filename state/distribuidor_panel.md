@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 01/11/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 01/11/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-01)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -14,20 +14,20 @@ Actualizado: 01/11/2026 09:20 (hora AR) · ACTIVO
 
 ## Canales
 - X: conectado · Buffer: 10 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 27.5 · likes 0
 - X · Reels del bot: 82 con métricas · mediana vistas/impresiones 28.5 · likes 0
 - X · Reels policiales: 19 con métricas · mediana vistas/impresiones 40 · likes 0
-- X · Notas web: 57 con métricas · mediana vistas/impresiones 20 · likes 0
+- X · Notas web: 53 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 131 · likes 1
 - TikTok · Reels del bot: 65 con métricas · mediana vistas/impresiones 259 · likes 3
 - TikTok · Reels policiales: 4 con métricas · mediana vistas/impresiones 584.5 · likes 5 ⚠️muestra chica
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 598 de 600 · 30d: quedan 899 de 2000 (visto 2026-11-01T12:20:33.000Z)
+15m: quedan 149 de 150 · 24h: quedan 597 de 600 · 30d: quedan 898 de 2000 (visto 2026-11-01T12:40:15.000Z)
 
 ## Cola propia (4 esperando)
 - TikTok · Reels del bot · Se puso en marcha la 21.ª edición de la Media Maratón Eduardo Pollaroli — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -43,7 +43,6 @@ Actualizado: 01/11/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T23:40 recibido bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tikto 
 - 2026-10-31T23:40 recibido policiales:https://www.latrochadigital.com.ar/2026/10/31/all 
 - 2026-10-31T23:40 recibido web:464e2e48-a775-44fb-ba64-8d4a372bbadb|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-10-31T23:40 programado bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|x 
@@ -68,3 +67,4 @@ Actualizado: 01/11/2026 09:20 (hora AR) · ACTIVO
 - 2026-11-01T12:20 recibido bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x 
 - 2026-11-01T12:20 recibido bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok 
 - 2026-11-01T12:20 programado bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x 
+- 2026-11-01T12:40 enviado bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x 
