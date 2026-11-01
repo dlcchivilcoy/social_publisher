@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 7
+    "scheduled": 0,
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-11-01T00:40:15.000Z"
+   "visto": "2026-11-01T02:00:24.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 10
    },
    "pausado": false,
-   "visto": "2026-11-01T00:40:15.000Z"
+   "visto": "2026-11-01T02:00:24.000Z"
   }
  },
  "contenidos": {
@@ -7441,25 +7441,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-los-bancos-no-atenderan-al-publico-durante-cinco",
    "volanta": "Chivilcoy · Servicios"
   },
-  "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f": {
-   "categoria": "",
-   "descripcion": "Presentaron oficialmente la 39ª edición del Rally de Chivilcoy Este fin de semana tendrá lugar la tradicional competencia en el marco del 172° aniversario de la ciudad de Chivilcoy. La edición tendrá como protagonista al Auto Club, en reconocimiento a su trayectoria en el automovilismo, y contará con tramos tradicionales y un súper especial sobre asfalto. La Municipalidad de Chivilcoy acompañó la presentación oficial de la 39ª edición del Rally de Chivilcoy, que se desarrollará en homenaje al...",
-   "generado": "2026-10-22T01:28:44.628Z",
-   "id": "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_9b0cd50edd984d27bae0664a0e5f1990~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-oficialmente-la-39-edicion-del-rally",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Presentaron oficialmente la 39ª edición del Rally de Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-presentaron-oficialmente-la-39-edicion-del-rally",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:d8bbde96-e323-4c02-93f7-b2e09a555019": {
    "categoria": "",
    "descripcion": "Chivilcoy se prepara para la primera edición de \"Folklore Sunset\" en Campus Multiespacio El próximo domingo 8 de noviembre a las 19:30 horas, la ciudad vivirá una propuesta cultural y gastronómica diferente al atardecer. Habrá shows en vivo de Folkazo y Chueco Figueroa Grupo, propuesta culinaria de autor y una gran guitarreada participativa para el cierre. Este domingo 8 de noviembre, desde las 19:30 horas, se llevará a cabo la primera edición de \"Folklore Sunset\", una jornada pensada para...",
@@ -8152,17 +8133,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 579,
-   "segundos": 32402,
+   "restantes": 578,
+   "segundos": 27593,
    "tope": 600
   },
   "30d": {
-   "restantes": 902,
-   "segundos": 851425,
+   "restantes": 901,
+   "segundos": 846616,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-01T00:40:16.000Z",
+ "cuota_visto": "2026-11-01T02:00:24.000Z",
  "metricas_buffer": {
   "con_metricas": 99,
   "disponible": true,
@@ -12206,19 +12187,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok": {
-   "actualizado": "2026-11-01T00:00:20.000Z",
+   "actualizado": "2026-11-01T02:00:24.000Z",
    "buffer_id": "6ae6811aab019b9087306dfe",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok",
    "creado": "2026-10-31T02:40:16.000Z",
    "dueAt": "2026-11-01T01:23:20.000Z",
+   "enviado": "2026-11-01T01:24:12.721Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-31T02:32:52.000Z",
    "id": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7703007564392336661",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cultura-daniel-magni-presento-su-libro-remembranzas-junto-a-una",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12271,19 +12253,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tiktok": {
-   "actualizado": "2026-11-01T00:00:20.000Z",
+   "actualizado": "2026-11-01T02:00:24.000Z",
    "buffer_id": "6ae6811937c1acd2a0da3ba2",
    "categoria": "",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tiktok",
    "creado": "2026-10-31T02:40:16.000Z",
    "dueAt": "2026-11-01T00:43:12.000Z",
+   "enviado": "2026-11-01T00:44:57.949Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-31T02:22:25.000Z",
    "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7702997167128071432",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-recuperaron-una-moto-robada-y",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15078,19 +15061,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok": {
-   "actualizado": "2026-11-01T00:00:20.000Z",
+   "actualizado": "2026-11-01T02:00:24.000Z",
    "buffer_id": "6ae6811937c1acd2a0da3c22",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok",
    "creado": "2026-10-31T21:20:16.000Z",
    "dueAt": "2026-11-01T01:03:42.000Z",
+   "enviado": "2026-11-01T01:05:28.611Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-10-31T21:03:41.000Z",
    "id": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7703002464869551367",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -24359,31 +24343,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f|x": {
-   "actualizado": "2026-10-22T01:40:20.000Z",
-   "buffer_id": "",
-   "clave": "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f|x",
-   "creado": "2026-10-22T01:40:20.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-22T01:28:44.628Z",
-   "id": "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-presentaron-oficialmente-la-39-edicion-del-rally",
-   "noticia": "nota:chivilcoy-deportes-presentaron-oficialmente-la-39-edicion-del-rally",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Presentaron oficialmente la 39ª edición del Rally de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-22T05:28:44.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:d8bbde96-e323-4c02-93f7-b2e09a555019|x": {
    "actualizado": "2026-10-29T13:00:23.000Z",
    "buffer_id": "6ae3229107196764b373ce8c",
@@ -25490,28 +25449,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:d455c1c4-5f25-4847-bf67-277dd0e30dd7|x",
-   "cuando": "2026-10-27T10:04:54.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ae07746227c7f64b78aa878",
-   "clave": "web:c6773443-ef8a-493a-b392-a16cd01f5057|x",
-   "cuando": "2026-10-27T10:04:55.000Z",
-   "dueAt": "2026-10-27T10:23:40.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae0774738034660d295a9ce",
-   "clave": "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69|x",
-   "cuando": "2026-10-27T10:04:55.000Z",
-   "dueAt": "2026-10-27T10:53:05.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae07747e3a1beb2ea00c7ab",
    "clave": "web:6fa97049-5784-463a-a94e-a3d63da21b58|x",
@@ -29675,6 +29612,24 @@
    "cuando": "2026-11-01T01:40:12.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok",
+   "cuando": "2026-11-01T02:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7703007564392336661"
+  },
+  {
+   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tiktok",
+   "cuando": "2026-11-01T02:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7702997167128071432"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok",
+   "cuando": "2026-11-01T02:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7703002464869551367"
   }
  ],
  "tandas": {
@@ -29712,7 +29667,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-01",
- "ultima_sync": "2026-11-01T00:40:15.000Z",
+ "ultima_sync": "2026-11-01T02:00:24.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

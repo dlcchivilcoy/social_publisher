@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 31/10/2026 22:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 1 | 3 |
-| Reels del bot | TikTok | 20 | 6 | 3 | 0 | 0 | 0 | 2 |
+| Reels del bot | TikTok | 20 | 9 | 0 | 0 | 0 | 0 | 2 |
 | Reels policiales | X | 6 | 2 | 0 | 1 | 0 | 2 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 10 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 7 enviadas + 3 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 27 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 31/10/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 579 de 600 · 30d: quedan 902 de 2000 (visto 2026-11-01T00:40:16.000Z)
+15m: quedan 149 de 150 · 24h: quedan 578 de 600 · 30d: quedan 901 de 2000 (visto 2026-11-01T02:00:24.000Z)
 
 ## Cola propia (4 esperando)
 - X · Reels policiales · Una mujer sufrió una fractura grave tras chocar con su moto en Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -43,9 +43,6 @@ Actualizado: 31/10/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T22:20 enviado bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x 
-- 2026-10-31T22:20 programado policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
-- 2026-10-31T22:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
 - 2026-10-31T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
 - 2026-10-31T23:20 enviado bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok 
 - 2026-10-31T23:20 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
@@ -68,3 +65,6 @@ Actualizado: 31/10/2026 22:40 (hora AR) · ACTIVO
 - 2026-11-01T00:40 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
 - 2026-11-01T01:20 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-01T01:40 vencido policiales:https://www.latrochadigital.com.ar/2026/10/31/all espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-01T02:00 enviado bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
+- 2026-11-01T02:00 enviado bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tikto 
+- 2026-11-01T02:00 enviado bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok 
