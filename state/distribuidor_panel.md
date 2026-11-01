@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 31/10/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 31/10/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-10-31)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 31/10/2026 23:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 5 | 0 | 0 | 0 | 1 | 3 |
 | Reels del bot | TikTok | 20 | 9 | 0 | 0 | 0 | 0 | 2 |
-| Reels policiales | X | 6 | 2 | 0 | 1 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 3 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -29,8 +29,7 @@ Actualizado: 31/10/2026 23:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 149 de 150 · 24h: quedan 578 de 600 · 30d: quedan 901 de 2000 (visto 2026-11-01T02:00:24.000Z)
 
-## Cola propia (4 esperando)
-- X · Reels policiales · Una mujer sufrió una fractura grave tras chocar con su moto en Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (3 esperando)
 - TikTok · Reels del bot · Detuvieron a un hombre acusado de vender estupefacientes al menudeo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Buscan una moto robada en la puerta de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -43,7 +42,6 @@ Actualizado: 31/10/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-10-31T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
 - 2026-10-31T23:20 enviado bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok 
 - 2026-10-31T23:20 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/ 
 - 2026-10-31T23:40 recibido bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|x 
@@ -68,3 +66,4 @@ Actualizado: 31/10/2026 23:00 (hora AR) · ACTIVO
 - 2026-11-01T02:00 enviado bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8 
 - 2026-11-01T02:00 enviado bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tikto 
 - 2026-11-01T02:00 enviado bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok 
+- 2026-11-01T02:20 vencido policiales:https://www.bragadoinforma.com.ar/nota/31099/choc espera su momento (se programa cerca de la hora en que sale en las otras redes)
