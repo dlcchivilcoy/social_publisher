@@ -16010,33 +16010,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_47f4536459_anses-montos-jubilaciones-y-quienes-cobran-este.mp4",
    "viral": true
   },
-  "nacionales:47f4536459d66a4a|x": {
-   "actualizado": "2026-10-23T01:00:32.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:47f4536459d66a4a|x",
-   "creado": "2026-10-23T01:00:17.000Z",
-   "dueAt": "",
-   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
-   "estado": "descartado",
-   "generado": "2026-10-23T00:45:50.000Z",
-   "id": "nacionales:47f4536459d66a4a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/anses-jubilacion-minima-de-435-662-86-montos-y-quienes-cobran-47f453",
-   "noticia": "nota:anses-jubilacion-minima-de-435-662-86-montos-y-quienes-cobran-47f453",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 9,
-   "texto": "ANSES: montos, jubilaciones y quiénes cobran este jueves 22 de octubre\n\nEl organismo previsional ejecuta este jueves el cronograma de haberes con un incremento del 1,66%.\n\nhttps://www.diariolacampaña.com.ar/n/anses-jubilacion-minima-de-435-662-86-montos-y-quienes-cobran-47f453",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "ANSES: montos, jubilaciones y quiénes cobran este jueves 22 de octubre",
-   "urgente": false,
-   "vence": "2026-10-23T02:45:50.000Z",
-   "video_bytes": 88874,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_47f4536459_anses-montos-jubilaciones-y-quienes-cobran-este.mp4",
-   "viral": true
-  },
   "nacionales:48bb4e9d6ed706f8|tiktok": {
    "actualizado": "2026-10-24T01:20:18.000Z",
    "buffer_id": "",
@@ -16416,14 +16389,14 @@
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
-   "actualizado": "2026-11-01T23:20:16.000Z",
+   "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x",
    "creado": "2026-11-01T23:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-01T23:01:18.000Z",
    "id": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus",
    "intentos": 0,
@@ -23397,14 +23370,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x",
-   "cuando": "2026-10-27T14:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|tiktok",
    "cuando": "2026-10-27T14:20:19.000Z",
    "estado": "pendiente",
@@ -27586,6 +27551,12 @@
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html|x",
    "cuando": "2026-11-02T00:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x",
+   "cuando": "2026-11-02T01:20:13.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
