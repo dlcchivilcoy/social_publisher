@@ -11144,15 +11144,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tiktok": {
-   "actualizado": "2026-11-02T18:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-02T21:00:20.000Z",
+   "buffer_id": "6ae8f9e625a58c431d04f275",
    "categoria": "",
    "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tiktok",
    "creado": "2026-11-02T18:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-02T21:03:35.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-02T18:15:04.000Z",
    "id": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl",
    "intentos": 0,
@@ -15121,15 +15121,15 @@
    "viral": false
   },
   "entrevistas:job00269|tiktok": {
-   "actualizado": "2026-11-02T17:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-02T21:00:20.000Z",
+   "buffer_id": "6ae8f9e9b665951ec2fb9b31",
    "categoria": "",
    "clave": "entrevistas:job00269|tiktok",
    "creado": "2026-11-02T17:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-02T21:43:27.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-02T17:00:19.000Z",
    "id": "entrevistas:job00269",
    "intentos": 0,
@@ -15178,15 +15178,15 @@
    "viral": false
   },
   "entrevistas:job00270|tiktok": {
-   "actualizado": "2026-11-02T17:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-02T21:00:20.000Z",
+   "buffer_id": "6ae8f9e774d7e03ec0569a7e",
    "categoria": "",
    "clave": "entrevistas:job00270|tiktok",
    "creado": "2026-11-02T17:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-02T21:23:50.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-02T17:20:15.000Z",
    "id": "entrevistas:job00270",
    "intentos": 0,
@@ -22138,26 +22138,6 @@
  },
  "registro": [
   {
-   "clave": "web:10530670-a72a-4de8-bc7f-13a21143d576|x",
-   "cuando": "2026-10-28T00:40:18.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|tiktok",
-   "cuando": "2026-10-28T00:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701507795484527892"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|tiktok",
-   "cuando": "2026-10-28T00:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701502546317200661"
-  },
-  {
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html|x",
    "cuando": "2026-10-28T00:40:18.000Z",
    "evento": "enviado",
@@ -26328,11 +26308,31 @@
    "cuando": "2026-11-02T19:40:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117321618313605498"
+  },
+  {
+   "buffer_id": "6ae8f9e625a58c431d04f275",
+   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tiktok",
+   "cuando": "2026-11-02T21:00:25.000Z",
+   "dueAt": "2026-11-02T21:03:35.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae8f9e774d7e03ec0569a7e",
+   "clave": "entrevistas:job00270|tiktok",
+   "cuando": "2026-11-02T21:00:25.000Z",
+   "dueAt": "2026-11-02T21:23:50.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae8f9e9b665951ec2fb9b31",
+   "clave": "entrevistas:job00269|tiktok",
+   "cuando": "2026-11-02T21:00:25.000Z",
+   "dueAt": "2026-11-02T21:43:27.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-22 18",
    "2026-10-22 21",
    "2026-10-23 10",
    "2026-10-23 18",
@@ -26361,7 +26361,8 @@
    "2026-11-01 10",
    "2026-11-01 18",
    "2026-11-01 21",
-   "2026-11-02 10"
+   "2026-11-02 10",
+   "2026-11-02 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-02",

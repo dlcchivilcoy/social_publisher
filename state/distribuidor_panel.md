@@ -1,13 +1,13 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -28,10 +28,7 @@ Actualizado: 02/11/2026 17:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
-- TikTok · Reels del bot · Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Salud mental en escuelas: Mailén Ruiz Decung — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Daniel Muchiut: el lazo emocional con sus retratados — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -41,9 +38,6 @@ Actualizado: 02/11/2026 17:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T12:40 programado web:2cd145f9-d647-4204-81bc-4c12d0944591|x 
-- 2026-11-02T13:00 programado web:987bd392-013a-42fa-93e2-03b50c823a35|x 
-- 2026-11-02T13:20 enviado web:00e5dd74-44ac-4950-93b6-b45c439734be|x 
 - 2026-11-02T13:20 enviado web:2c6f475b-bc10-4a41-b949-4390268a7b97|x 
 - 2026-11-02T13:20 enviado web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x 
 - 2026-11-02T14:20 enviado web:2cd145f9-d647-4204-81bc-4c12d0944591|x 
@@ -66,3 +60,6 @@ Actualizado: 02/11/2026 17:40 (hora AR) · ACTIVO
 - 2026-11-02T18:20 enviado entrevistas:job00270|x 
 - 2026-11-02T18:20 programado bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x 
 - 2026-11-02T19:40 enviado bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x 
+- 2026-11-02T21:00 programado bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tikto 
+- 2026-11-02T21:00 programado entrevistas:job00270|tiktok 
+- 2026-11-02T21:00 programado entrevistas:job00269|tiktok 
