@@ -2640,33 +2640,6 @@
    "volanta": "Créditos hipotecarios",
    "youtube_url": "https://youtube.com/shorts/NdYh5vxrZFw"
   },
-  "nacionales:1bc3bff36ba5e828": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "La senadora nacional dejó abierta su postulación para 2027 y expertos señalan que intenta revalorizarse dentro del oficialismo sin arriesgar la estabilidad institucional.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-23T00:15:57.000Z",
-   "hashtags": [
-    "Politica",
-    "PatriciaBullrich"
-   ],
-   "id": "nacionales:1bc3bff36ba5e828",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf",
-   "origen": "nacionales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "Analizan cómo Patricia Bullrich busca condicionar al Gobierno de Javier Milei",
-   "urgente": false,
-   "video_bytes": 71146,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_1bc3bff36b_analizan-como-patricia-bullrich-busca-condicionar.mp4",
-   "volanta": "Estrategia política",
-   "youtube_url": "https://youtube.com/shorts/Ldye5l5bhyk"
-  },
   "nacionales:47f4536459d66a4a": {
    "categoria": "Economía",
    "categoria_nacional": "",
@@ -5687,25 +5660,6 @@
    "titulo": "Simón Domínguez jugará con la Selección Argentina en el Sur-Centro Juvenil",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-simon-dominguez-jugara-con-la-seleccion-argentina",
-   "volanta": "Chivilcoy · Deportes"
-  },
-  "web:7fb16583-71d2-4d12-9242-d6637d144fca": {
-   "categoria": "",
-   "descripcion": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización La edición 2026 del Medio Maraton Eduardo Pollaroli tendrá un perfil inclusivo y participativo. A los tradicionales 21K se incorporarán las distancias de 5 y 10K, además de una caminata promovida por el servicio de Oncologia del Hospital Municipal destinada a concientizar sobre el cáncer de mama y de próstata. Asimismo, en esta edición se llevará a cabo por primera vez la iniciativa denominada «UNLu corre por...",
-   "generado": "2026-10-23T00:19:11.417Z",
-   "id": "web:7fb16583-71d2-4d12-9242-d6637d144fca",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_aa9533b505134536b1ffb41b70457e96~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
    "volanta": "Chivilcoy · Deportes"
   },
   "web:815f1320-b368-407e-9e43-21cf0ad1b815": {
@@ -16017,60 +15971,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_0f149db2f4_banco-ciudad-bajo-la-tasa-de-sus-hipotecarios.mp4",
    "viral": false
   },
-  "nacionales:1bc3bff36ba5e828|tiktok": {
-   "actualizado": "2026-10-23T00:20:25.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "nacionales:1bc3bff36ba5e828|tiktok",
-   "creado": "2026-10-23T00:20:14.000Z",
-   "dueAt": "",
-   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
-   "estado": "descartado",
-   "generado": "2026-10-23T00:15:57.000Z",
-   "id": "nacionales:1bc3bff36ba5e828",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "Analizan cómo Patricia Bullrich busca condicionar al Gobierno de Javier Milei\n\nLa senadora nacional dejó abierta su postulación para 2027 y expertos señalan que intenta revalorizarse dentro del oficialismo sin arriesgar la estabilidad institucional.\n\nhttps://www.diariolacampaña.com.ar/n/patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Politica",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Analizan cómo Patricia Bullrich busca condicionar al Gobierno de Javier Milei",
-   "urgente": false,
-   "vence": "2026-10-23T18:15:57.000Z",
-   "video_bytes": 71146,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_1bc3bff36b_analizan-como-patricia-bullrich-busca-condicionar.mp4",
-   "viral": false
-  },
-  "nacionales:1bc3bff36ba5e828|x": {
-   "actualizado": "2026-10-23T00:20:25.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:1bc3bff36ba5e828|x",
-   "creado": "2026-10-23T00:20:14.000Z",
-   "dueAt": "",
-   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
-   "estado": "descartado",
-   "generado": "2026-10-23T00:15:57.000Z",
-   "id": "nacionales:1bc3bff36ba5e828",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf",
-   "noticia": "nota:patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Analizan cómo Patricia Bullrich busca condicionar al Gobierno de Javier Milei\n\nLa senadora nacional dejó abierta su postulación para 2027 y expertos señalan que intenta revalorizarse dentro del oficialismo sin arriesgar la estabilidad institucional.\n\nhttps://www.diariolacampaña.com.ar/n/patricia-bullrich-y-su-estrategia-para-posicionarse-dentro-del-1bc3bf",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Analizan cómo Patricia Bullrich busca condicionar al Gobierno de Javier Milei",
-   "urgente": false,
-   "vence": "2026-10-23T02:15:57.000Z",
-   "video_bytes": 71146,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_1bc3bff36b_analizan-como-patricia-bullrich-busca-condicionar.mp4",
-   "viral": false
-  },
   "nacionales:47f4536459d66a4a|tiktok": {
    "actualizado": "2026-10-23T15:00:18.000Z",
    "buffer_id": "6adb5a6bcc96832878a35a83",
@@ -17462,14 +17362,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html|x": {
-   "actualizado": "2026-11-01T22:40:15.000Z",
+   "actualizado": "2026-11-02T00:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html|x",
    "creado": "2026-11-01T22:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-01T22:31:26.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html",
    "intentos": 0,
@@ -17515,45 +17415,6 @@
    "vence": "2026-10-31T02:02:02.000Z",
    "video_bytes": 90769,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_01_chacabuco_controlaron-un-principio-de-in.mp4",
-   "viral": false
-  },
-  "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|tiktok": {
-   "actualizado": "2026-10-23T00:20:25.000Z",
-   "buffer_id": "6adaa3949ef33e7811ab2531",
-   "categoria": "",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|tiktok",
-   "creado": "2026-10-22T23:40:15.000Z",
-   "dueAt": "2026-10-23T00:03:41.000Z",
-   "enviado": "2026-10-23T00:04:27.628Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-22T23:31:07.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7699647230004792597",
-   "metricas": {
-    "averageTimeWatched": 5.79,
-    "comments": 1,
-    "engagementRate": 1.04,
-    "reach": 0,
-    "reactions": 7,
-    "shares": 1,
-    "totalTimeWatched": 94.4,
-    "views": 869
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/salto-detuvieron-a-un-sospechoso-de-19-anos-tras-el-robo-de-una-f61b26",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Cayó un joven de 19 años tras robar una moto bajo la modalidad de falsa compra en la Ruta\n\nUn sospechoso de 19 años fue aprehendido en el barrio Villa del Parque tras un allanamiento policial. El rodado sustraído en una estación de servicio tenía pedido de secuestro de 2025.\n\nhttps://www.diariolacampaña.com.ar/n/salto-detuvieron-a-un-sospechoso-de-19-anos-tras-el-robo-de-una-f61b26\n\n#chivilcoy #diariolacampaña #radiodelcentro #salto #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cayó un joven de 19 años tras robar una moto bajo la modalidad de falsa compra en la Ruta",
-   "urgente": false,
-   "vence": "2026-10-23T17:31:07.000Z",
-   "video_bytes": 73242,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_01_chacabuco_cay-un-joven-de-19-a-os-tras-r.mp4",
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten|x": {
@@ -20716,33 +20577,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:7fb16583-71d2-4d12-9242-d6637d144fca|x": {
-   "actualizado": "2026-10-23T00:20:25.000Z",
-   "buffer_id": "",
-   "clave": "web:7fb16583-71d2-4d12-9242-d6637d144fca|x",
-   "creado": "2026-10-23T00:20:14.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-10-23T00:19:11.417Z",
-   "id": "web:7fb16583-71d2-4d12-9242-d6637d144fca",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
-   "noticia": "nota:chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización\n\nEl evento sumará carreras de 5 y 10K. También habrá una caminata del Hospital Municipal para concientizar sobre el cáncer de mama y próstata.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-medio-maraton-eduardo-pollaroli-sumara",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El Medio Maraton Eduardo Pollaroli sumará propuestas inclusivas y de concientización",
-   "urgente": false,
-   "vence": "2026-10-23T04:19:11.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:815f1320-b368-407e-9e43-21cf0ad1b815|x": {
    "actualizado": "2026-10-23T12:40:19.000Z",
    "buffer_id": "6adb398eefac72e60fc3924d",
@@ -23562,12 +23396,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:5bed14ed-a1b5-489b-a283-67d7d832c78c|x",
-   "cuando": "2026-10-27T14:00:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115075608862429479"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|x",
    "cuando": "2026-10-27T14:20:17.000Z",
@@ -27754,6 +27582,12 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html|x",
+   "cuando": "2026-11-02T00:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
