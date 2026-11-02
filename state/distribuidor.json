@@ -4035,25 +4035,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
    "volanta": "Chivilcoy · Policiales"
   },
-  "web:07ef819a-940d-48e5-aee9-922cce690ab8": {
-   "categoria": "",
-   "descripcion": "Intentaron robar una motocicleta en un comercio de la avenida Soáres Dos personas ingresaron durante la madrugada de este viernes 23 de octubre al local de Motos Distribuidora Oeste, ubicado en la última cuadra de la avenida Soáres, en inmediaciones de la plaza España, e intentaron sustraer una motocicleta de 110 centímetros cúbicos. Según explicó Alejo, uno de los responsables del establecimiento, el episodio se registró alrededor de las 5. Los sujetos dieron una patada contra la puerta de...",
-   "generado": "2026-10-23T18:53:24.868Z",
-   "id": "web:07ef819a-940d-48e5-aee9-922cce690ab8",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_61a8829da1c44c27a96d5b95b053fe1f~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Intentaron robar una motocicleta en un comercio de la avenida Soáres",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:088386b2-2c10-423c-848f-4605d2b2e0e5": {
    "categoria": "",
    "descripcion": "Chivilcoy: Angelina Reyes: récord, triunfo en los 21K y la mirada puesta en Chile En una jornada marcada por la lluvia y la exigencia física, la atleta oriunda de Trenque Lauquen, Angelina Reyes, se adjudicó la victoria en los 21 kilómetros de Chivilcoy, logrando además batir el récord del circuito. La atleta de Trenque Lauquen se consagró en la categoría femenina tras una exigente competencia. Sin embargo, la verdadera carrera de Reyes se juega en el día a día: entre el trabajo, el hogar,...",
@@ -17509,31 +17490,6 @@
    "titulo": "Una vecina denunció que le robaron la moto frente a su vivienda",
    "urgente": false,
    "vence": "2026-10-25T03:36:26.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:07ef819a-940d-48e5-aee9-922cce690ab8|x": {
-   "actualizado": "2026-10-23T19:00:17.000Z",
-   "buffer_id": "",
-   "clave": "web:07ef819a-940d-48e5-aee9-922cce690ab8|x",
-   "creado": "2026-10-23T19:00:17.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-23T18:53:24.868Z",
-   "id": "web:07ef819a-940d-48e5-aee9-922cce690ab8",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
-   "noticia": "nota:chivilcoy-policiales-intentaron-robar-una-motocicleta-en-un-comercio",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Intentaron robar una motocicleta en un comercio de la avenida Soáres",
-   "urgente": false,
-   "vence": "2026-10-23T22:53:24.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
