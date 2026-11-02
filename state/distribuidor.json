@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 5
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-01T22:40:15.000Z"
+   "visto": "2026-11-02T11:00:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 5
+    "scheduled": 3,
+    "sent": 4
    },
    "pausado": false,
-   "visto": "2026-11-01T22:40:15.000Z"
+   "visto": "2026-11-02T11:00:23.000Z"
   }
  },
  "contenidos": {
@@ -6046,25 +6046,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/espectaculo-anual-inclusivo-el-centro-municipal-de-danza-presenta",
    "volanta": ""
   },
-  "web:92c264ae-78ff-431e-bebc-0875504ae30a": {
-   "categoria": "",
-   "descripcion": "Chivilcoy celebra la tradición con el 5° Gran Encuentro Folklórico en la Plaza Principal",
-   "generado": "2026-10-23T10:03:21.453Z",
-   "id": "web:92c264ae-78ff-431e-bebc-0875504ae30a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_eef3fa3a4ce344b9874b88525d4ff1ef~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Centro de Jubilados Jo.T.A.",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
-   "volanta": ""
-  },
   "web:9460231f-30bd-422d-89e0-f6db3cfd0675": {
    "categoria": "",
    "descripcion": "Se realizó la séptima Jornada de Infectología en Chivilcoy Se realizó la VII Jornada de Infectología en Chivilcoy con eje en la prevención y el abordaje de enfermedades infecciosas. La actividad reunió a profesionales de distintas disciplinas para compartir experiencias, actualizar conocimientos y abordar problemáticas como la tuberculosis, la sífilis, el uso responsable de antibióticos y la prevención y el control de infecciones. Se llevó a cabo en Chivilcoy la VII Jornada de Infectología,...",
@@ -7702,22 +7683,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 597,
-   "segundos": 84268,
+   "restantes": 595,
+   "segundos": 83060,
    "tope": 600
   },
   "30d": {
-   "restantes": 886,
-   "segundos": 729026,
+   "restantes": 884,
+   "segundos": 727817,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-02T10:40:15.000Z",
+ "cuota_visto": "2026-11-02T11:00:25.000Z",
  "metricas_buffer": {
   "con_metricas": 54,
   "disponible": true,
@@ -21223,34 +21204,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:92c264ae-78ff-431e-bebc-0875504ae30a|x": {
-   "actualizado": "2026-10-23T11:00:17.000Z",
-   "buffer_id": "",
-   "clave": "web:92c264ae-78ff-431e-bebc-0875504ae30a|x",
-   "creado": "2026-10-23T10:20:15.000Z",
-   "dueAt": "",
-   "error": "no está en el carrusel del diario de hoy",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "descartado",
-   "generado": "2026-10-23T10:03:21.453Z",
-   "id": "web:92c264ae-78ff-431e-bebc-0875504ae30a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
-   "noticia": "nota:centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Centro de Jubilados Jo.T.A.\n\nChivilcoy celebra la tradición con el 5° Gran Encuentro Folklórico. La fiesta se realiza en la Plaza Principal.\n\nhttps://www.diariolacampaña.com.ar/n/centro-de-jubilados-jo-t-a-chivilcoy-celebra-la-tradicion-con-el-5",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Centro de Jubilados Jo.T.A.",
-   "urgente": false,
-   "vence": "2026-10-23T14:03:21.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:9460231f-30bd-422d-89e0-f6db3cfd0675|x": {
    "actualizado": "2026-10-28T14:40:14.000Z",
    "buffer_id": "",
@@ -21277,14 +21230,14 @@
    "viral": false
   },
   "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880|x": {
-   "actualizado": "2026-11-02T10:03:22.000Z",
+   "actualizado": "2026-11-02T11:00:22.000Z",
    "buffer_id": "",
    "clave": "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-02T10:01:09.823Z",
    "id": "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880",
    "intentos": 0,
@@ -22301,14 +22254,14 @@
    "viral": false
   },
   "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x": {
-   "actualizado": "2026-11-02T10:20:15.000Z",
+   "actualizado": "2026-11-02T11:00:22.000Z",
    "buffer_id": "6ae863e04a24ce7f363585bf",
    "clave": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "2026-11-02T11:38:37.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-02T10:01:31.030Z",
    "id": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2",
    "intentos": 0,
@@ -22329,14 +22282,14 @@
    "viral": false
   },
   "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e|x": {
-   "actualizado": "2026-11-02T10:03:22.000Z",
+   "actualizado": "2026-11-02T11:00:22.000Z",
    "buffer_id": "",
    "clave": "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-02T10:00:53.398Z",
    "id": "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e",
    "intentos": 0,
@@ -23333,14 +23286,14 @@
    "viral": false
   },
   "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f|x": {
-   "actualizado": "2026-11-02T10:03:22.000Z",
+   "actualizado": "2026-11-02T11:00:22.000Z",
    "buffer_id": "",
    "clave": "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-02T10:00:58.720Z",
    "id": "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f",
    "intentos": 0,
@@ -23528,19 +23481,20 @@
    "viral": false
   },
   "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x": {
-   "actualizado": "2026-11-02T10:04:42.000Z",
+   "actualizado": "2026-11-02T11:00:23.000Z",
    "buffer_id": "6ae8603bb0da614b553ea704",
    "clave": "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "2026-11-02T10:53:33.000Z",
+   "enviado": "2026-11-02T10:53:46.115Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-02T10:01:19.892Z",
    "id": "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae",
    "ig_hora": "2026-11-02T10:53:00.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117208537260601851",
    "nota_url": "https://www.diariolacampaña.com.ar/n/reclamo-regional-chivilcoy-vecinos-impulsan-el-freno-de-los-aumentos",
    "noticia": "nota:reclamo-regional-chivilcoy-vecinos-impulsan-el-freno-de-los-aumentos",
    "origen": "web",
@@ -23759,40 +23713,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00252|x",
-   "cuando": "2026-10-27T17:41:27.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115132151314157597"
-  },
-  {
-   "clave": "entrevistas:job00253",
-   "cuando": "2026-10-27T18:00:20.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00253|x",
-   "cuando": "2026-10-27T18:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00253|tiktok",
-   "cuando": "2026-10-27T18:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6ae0e6b9500f0a489fea180b",
-   "clave": "entrevistas:job00253|x",
-   "cuando": "2026-10-27T18:00:26.000Z",
-   "dueAt": "2026-10-27T18:02:20.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00254",
    "cuando": "2026-10-27T18:20:15.000Z",
@@ -27963,6 +27883,36 @@
    "cuando": "2026-11-02T10:40:15.000Z",
    "dueAt": "2026-11-02T12:08:00.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880|x",
+   "cuando": "2026-11-02T11:00:22.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e|x",
+   "cuando": "2026-11-02T11:00:22.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f|x",
+   "cuando": "2026-11-02T11:00:22.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x",
+   "cuando": "2026-11-02T11:00:23.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "clave": "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x",
+   "cuando": "2026-11-02T11:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117208537260601851"
   }
  ],
  "tandas": {
@@ -28000,7 +27950,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-02",
- "ultima_sync": "2026-11-01T22:40:15.000Z",
+ "ultima_sync": "2026-11-02T11:00:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
