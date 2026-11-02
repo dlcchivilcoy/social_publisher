@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 08:00 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 08:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 02/11/2026 08:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 3 | 6 | 0 | 0 | 6 |
+| Notas web | X | 15 | 1 | 4 | 5 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,15 +27,14 @@ Actualizado: 02/11/2026 08:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 595 de 600 · 30d: quedan 884 de 2000 (visto 2026-11-02T11:00:25.000Z)
+15m: quedan 149 de 150 · 24h: quedan 594 de 600 · 30d: quedan 883 de 2000 (visto 2026-11-02T11:20:21.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (5 esperando)
 - X · Notas web · Chivilcoy: Pura contundencia nicoleña: Somisa mantiene el invicto y Belgrano ase — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Un final vibrante: Racing de Chivilcoy cayó por la mínima ante Atenas en Córdoba — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Angelina Reyes: récord, triunfo en los 21K y la mirada puesta en Chil — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Luis Molina brilló en Chivilcoy: se quedó con los 21K de la Maratón "Eduardo Pol — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Federal A: los cruces de la cuarta etapa de la reválida; Gimnasia tendrá  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Torneo Clausura: Gimnasia dio el golpe ante Florencio Varela, Moquehu — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -45,7 +44,6 @@ Actualizado: 02/11/2026 08:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T10:03 recibido web:2cd145f9-d647-4204-81bc-4c12d0944591|x 
 - 2026-11-02T10:03 recibido web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x 
 - 2026-11-02T10:03 recibido web:00e5dd74-44ac-4950-93b6-b45c439734be|x 
 - 2026-11-02T10:03 recibido web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x 
@@ -70,3 +68,4 @@ Actualizado: 02/11/2026 08:00 (hora AR) · ACTIVO
 - 2026-11-02T11:00 depurado web:eaacf3db-efb8-47ba-a1c1-76b857c7021f|x no está en el carrusel del diario de hoy
 - 2026-11-02T11:00 depurado web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-02T11:00 enviado web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x 
+- 2026-11-02T11:20 programado web:2c6f475b-bc10-4a41-b949-4390268a7b97|x 

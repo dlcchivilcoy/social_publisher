@@ -7683,22 +7683,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
+   "restantes": 149,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 595,
-   "segundos": 83060,
+   "restantes": 594,
+   "segundos": 81862,
    "tope": 600
   },
   "30d": {
-   "restantes": 884,
-   "segundos": 727817,
+   "restantes": 883,
+   "segundos": 726620,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-02T11:00:25.000Z",
+ "cuota_visto": "2026-11-02T11:20:21.000Z",
  "metricas_buffer": {
   "con_metricas": 54,
   "disponible": true,
@@ -18925,14 +18925,14 @@
    "viral": false
   },
   "web:2c6f475b-bc10-4a41-b949-4390268a7b97|x": {
-   "actualizado": "2026-11-02T10:03:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-02T11:20:20.000Z",
+   "buffer_id": "6ae871f597ae21595d5343a2",
    "clave": "web:2c6f475b-bc10-4a41-b949-4390268a7b97|x",
    "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-02T12:38:54.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-02T10:02:27.267Z",
    "id": "web:2c6f475b-bc10-4a41-b949-4390268a7b97",
    "ig_hora": "2026-11-02T12:38:00.000Z",
@@ -23714,11 +23714,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00254",
-   "cuando": "2026-10-27T18:20:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
    "clave": "entrevistas:job00254|x",
    "cuando": "2026-10-27T18:20:16.000Z",
    "estado": "pendiente",
@@ -27913,6 +27908,13 @@
    "cuando": "2026-11-02T11:00:25.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117208537260601851"
+  },
+  {
+   "buffer_id": "6ae871f597ae21595d5343a2",
+   "clave": "web:2c6f475b-bc10-4a41-b949-4390268a7b97|x",
+   "cuando": "2026-11-02T11:20:21.000Z",
+   "dueAt": "2026-11-02T12:38:54.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
