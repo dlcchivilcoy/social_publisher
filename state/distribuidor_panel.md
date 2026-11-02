@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -13,7 +13,7 @@ Actualizado: 02/11/2026 14:00 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 11 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 12 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -26,9 +26,10 @@ Actualizado: 02/11/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Reels policiales: 1 con métricas · mediana vistas/impresiones 515 · likes 4 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 585 de 600 · 30d: quedan 874 de 2000 (visto 2026-11-02T17:00:30.000Z)
+15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- TikTok · Recortes de entrevistas · Salud mental en escuelas: Mailén Ruiz Decung — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Daniel Muchiut: el lazo emocional con sus retratados — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -39,11 +40,6 @@ Actualizado: 02/11/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T10:40 programado web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x 
-- 2026-11-02T11:00 depurado web:94a1ed2f-6e3d-4321-8824-5f14bd63f880|x no está en el carrusel del diario de hoy
-- 2026-11-02T11:00 depurado web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e|x no está en el carrusel del diario de hoy
-- 2026-11-02T11:00 depurado web:eaacf3db-efb8-47ba-a1c1-76b857c7021f|x no está en el carrusel del diario de hoy
-- 2026-11-02T11:00 depurado web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-02T11:00 enviado web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x 
 - 2026-11-02T11:20 programado web:2c6f475b-bc10-4a41-b949-4390268a7b97|x 
 - 2026-11-02T11:40 programado web:00e5dd74-44ac-4950-93b6-b45c439734be|x 
@@ -64,3 +60,8 @@ Actualizado: 02/11/2026 14:00 (hora AR) · ACTIVO
 - 2026-11-02T17:00 recibido entrevistas:job00269|x 
 - 2026-11-02T17:00 recibido entrevistas:job00269|tiktok 
 - 2026-11-02T17:00 programado entrevistas:job00269|x 
+- 2026-11-02T17:20 entrevista_aprobada entrevistas:job00270 
+- 2026-11-02T17:20 recibido entrevistas:job00270|x 
+- 2026-11-02T17:20 recibido entrevistas:job00270|tiktok 
+- 2026-11-02T17:20 enviado entrevistas:job00269|x 
+- 2026-11-02T17:20 programado entrevistas:job00270|x 

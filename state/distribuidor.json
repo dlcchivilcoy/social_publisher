@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-02T15:40:26.000Z"
+   "visto": "2026-11-02T17:20:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 11
+    "sent": 12
    },
    "pausado": false,
-   "visto": "2026-11-02T15:40:26.000Z"
+   "visto": "2026-11-02T17:20:18.000Z"
   }
  },
  "contenidos": {
@@ -2571,6 +2571,27 @@
    "video_mb": 29.1,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00269.mp4",
    "youtube_url": "https://youtu.be/GI6PSR_21zg"
+  },
+  "entrevistas:job00270": {
+   "descripcion": "En Chivilcoy, Mailén Ruiz Decung, coordinadora de Casa Pueblo, advirtió sobre el sufrimiento psíquico y las señales de alerta que se manifiestan en las aulas. Detalló el trabajo conjunto en los conversatorios escolares.",
+   "duracion_seg": null,
+   "entrevistado": "Mailén Ruiz Decung",
+   "generado": "2026-11-02T17:20:15.000Z",
+   "id": "entrevistas:job00270",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Salud mental en escuelas: Mailén Ruiz Decung",
+   "urgente": false,
+   "video_bytes": 27407471,
+   "video_mb": 26.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00270.mp4",
+   "youtube_url": "https://youtu.be/Sd-9SEolrIk"
   },
   "nacionales:0f149db2f4d13c80": {
    "categoria": "Economía",
@@ -5370,25 +5391,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-una-vecina-relato-un-episodio-de-exhibicionismo",
    "volanta": "Chivilcoy · Seguridad"
   },
-  "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da": {
-   "categoria": "",
-   "descripcion": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas Jorge Ponte y Marcos Curioni lograron la medalla de oro en la disciplina bochas intergeneracional. En la premiación estuvo presente el coordinador de Deportes de Chivilcoy, Emilio Calabelli.",
-   "generado": "2026-10-23T17:10:26.683Z",
-   "id": "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b137bc95281f49d88f85e415b0f64e0a~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d": {
    "categoria": "",
    "descripcion": "Los Duendes de Cage se presentan en La Cueva con un ensamble de 22 músicos El ensamble ‘Los Duendes de Cage’, una destacada formación surgida en el Conservatorio de Música ‘Alberto Williams’ de Chivilcoy, brindará un concierto este jueves 29 a partir de las 20 horas en las instalaciones del Teatro La Cueva, ubicado en Rossetti 36. La velada marcará un hecho significativo en la historia de la agrupación, ya que por primera vez se animarán a montar un espectáculo independiente en una sala...",
@@ -7311,22 +7313,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 149,
+   "restantes": 148,
    "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 585,
-   "segundos": 61463,
+   "restantes": 583,
+   "segundos": 60264,
    "tope": 600
   },
   "30d": {
-   "restantes": 874,
-   "segundos": 706220,
+   "restantes": 872,
+   "segundos": 705022,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-02T17:00:30.000Z",
+ "cuota_visto": "2026-11-02T17:20:19.000Z",
  "metricas_buffer": {
   "con_metricas": 54,
   "disponible": true,
@@ -15435,18 +15437,19 @@
    "viral": false
   },
   "entrevistas:job00269|x": {
-   "actualizado": "2026-11-02T17:00:19.000Z",
+   "actualizado": "2026-11-02T17:20:18.000Z",
    "buffer_id": "6ae8c1ab16eeb393286b2767",
    "clave": "entrevistas:job00269|x",
    "creado": "2026-11-02T17:00:19.000Z",
    "dueAt": "2026-11-02T17:02:41.000Z",
+   "enviado": "2026-11-02T17:08:45.955Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-02T17:00:19.000Z",
    "id": "entrevistas:job00269",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117302908538486839",
    "nota_url": "",
    "noticia": "titulo:daniel-emocional-lazo-muchiut-retratados",
    "origen": "entrevistas",
@@ -15460,6 +15463,62 @@
    "vence": "2026-11-02T19:00:19.000Z",
    "video_bytes": 30485973,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00269.mp4",
+   "viral": false
+  },
+  "entrevistas:job00270|tiktok": {
+   "actualizado": "2026-11-02T17:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00270|tiktok",
+   "creado": "2026-11-02T17:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-02T17:20:15.000Z",
+   "id": "entrevistas:job00270",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Salud mental en escuelas: Mailén Ruiz Decung\n\nEn Chivilcoy, Mailén Ruiz Decung, coordinadora de Casa Pueblo, advirtió sobre el sufrimiento psíquico y las señales de alerta que se manifiestan en las aulas. Detalló el trabajo conjunto en los conversatorios escolares.\n\nhttps://youtu.be/Sd-9SEolrIk\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Salud mental en escuelas: Mailén Ruiz Decung",
+   "urgente": false,
+   "vence": "2026-11-04T17:20:15.000Z",
+   "video_bytes": 27407471,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00270.mp4",
+   "viral": false
+  },
+  "entrevistas:job00270|x": {
+   "actualizado": "2026-11-02T17:20:18.000Z",
+   "buffer_id": "6ae8c653948a9655f41aeefd",
+   "clave": "entrevistas:job00270|x",
+   "creado": "2026-11-02T17:20:15.000Z",
+   "dueAt": "2026-11-02T17:22:19.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-02T17:20:15.000Z",
+   "id": "entrevistas:job00270",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:decung-escuelas-mailen-mental-ruiz-salud",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Salud mental en escuelas: Mailén Ruiz Decung\n\nMailén Ruiz Decung, coordinadora de Casa Pueblo, advirtió sobre el sufrimiento psíquico en las aulas de Chivilcoy. Además, detalló el trabajo en los conversatorios escolares.\n\nhttps://youtu.be/Sd-9SEolrIk",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Salud mental en escuelas: Mailén Ruiz Decung",
+   "urgente": false,
+   "vence": "2026-11-02T19:20:15.000Z",
+   "video_bytes": 27407471,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00270.mp4",
    "viral": false
   },
   "nacionales:0f149db2f4d13c80|tiktok": {
@@ -19509,31 +19568,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da|x": {
-   "actualizado": "2026-10-23T17:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da|x",
-   "creado": "2026-10-23T17:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-23T17:10:26.683Z",
-   "id": "web:78b4b7a1-9f16-4a4b-be15-6fca871ae1da",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
-   "noticia": "nota:chivilcoy-deportes-jorge-ponte-y-marcos-curioni-obtuvieron-la-medalla",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Jorge Ponte y Marcos Curioni obtuvieron la medalla de oro en bochas",
-   "urgente": false,
-   "vence": "2026-10-23T21:10:26.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x": {
    "actualizado": "2026-10-28T11:40:15.000Z",
    "buffer_id": "6ae1c869979a56d9e57bfd90",
@@ -22500,42 +22534,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00254|tiktok",
-   "cuando": "2026-10-27T22:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701466615967190292"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html|x",
-   "cuando": "2026-10-27T23:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas|x",
-   "cuando": "2026-10-27T23:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/26592-la-justicia-confirmo-la-prision-preventiva-de-german-diaz-y-el-concejo-deliberante-definira-su-reemplazo|x",
-   "cuando": "2026-10-27T23:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "entrevistas:job00252|tiktok",
-   "cuando": "2026-10-27T23:20:25.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701476164224765190"
-  },
   {
    "buffer_id": "6ae131baed0a3f2cb40ee0e9",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html|x",
@@ -26694,6 +26692,40 @@
    "cuando": "2026-11-02T17:00:30.000Z",
    "dueAt": "2026-11-02T17:02:41.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00270",
+   "cuando": "2026-11-02T17:20:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00270|x",
+   "cuando": "2026-11-02T17:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00270|tiktok",
+   "cuando": "2026-11-02T17:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00269|x",
+   "cuando": "2026-11-02T17:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117302908538486839"
+  },
+  {
+   "buffer_id": "6ae8c653948a9655f41aeefd",
+   "clave": "entrevistas:job00270|x",
+   "cuando": "2026-11-02T17:20:19.000Z",
+   "dueAt": "2026-11-02T17:22:19.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -26731,7 +26763,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-02",
- "ultima_sync": "2026-11-02T15:40:26.000Z",
+ "ultima_sync": "2026-11-02T17:20:18.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -26981,6 +27013,7 @@
   "entrevistas:job00267": "2026-10-30T17:40:14.000Z",
   "entrevistas:job00268": "2026-10-30T18:20:15.000Z",
   "entrevistas:job00269": "2026-11-02T17:00:19.000Z",
+  "entrevistas:job00270": "2026-11-02T17:20:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
