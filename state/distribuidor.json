@@ -4393,25 +4393,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cem-espacio-de-arte-llega-a-chivilcoy-la-hermana-infame-una-mirada",
    "volanta": "CEM Espacio de arte"
   },
-  "web:1df540af-0585-4bf5-9430-5b0234724aff": {
-   "categoria": "",
-   "descripcion": "Esclarecieron dos hechos delictivos y un menor de 17 años quedó imputado Tras un allanamiento ordenado por la Justicia de Mercedes, la policía secuestró prendas clave e identificó a un joven involucrado en el robo a una carnicería y la tentativa de asalto a una agencia de lotería sobre la avenida Güemes. La Policía Comunal, junto con personal de la SubDDI (Dirección Departamental de Investigaciones) de Chivilcoy, realizó un allanamiento que permitió esclarecer dos hechos delictivos ocurridos...",
-   "generado": "2026-10-23T10:01:37.767Z",
-   "id": "web:1df540af-0585-4bf5-9430-5b0234724aff",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_eec32d1aea9d4306a8d317778a692c07~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/allanamiento-en-chivilcoy-esclarecieron-dos-hechos-delictivos-y-un",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Esclarecieron dos hechos delictivos y un menor de 17 años quedó imputado",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/allanamiento-en-chivilcoy-esclarecieron-dos-hechos-delictivos-y-un",
-   "volanta": "Allanamiento en Chivilcoy"
-  },
   "web:1e08419d-60ee-4c27-98d2-488e539b6952": {
    "categoria": "",
    "descripcion": "Aprehendieron a dos menores por una tentativa de robo a una agencia La Policía de Chivilcoy esclareció una tentativa de robo en una agencia de venta de motocicletas ubicada en avenida Soárez 368, tras realizar dos allanamientos en distintos domicilios de la ciudad. Según informó la Secretaría de Seguridad, a cargo de Néstor Dabi, la investigación se inició a partir de una denuncia radicada el 23 de octubre. A partir de las tareas investigativas, personal del Grupo Táctico Operativo (GTO), la...",
@@ -7726,17 +7707,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 598,
-   "segundos": 85468,
+   "restantes": 597,
+   "segundos": 84268,
    "tope": 600
   },
   "30d": {
-   "restantes": 887,
-   "segundos": 730225,
+   "restantes": 886,
+   "segundos": 729026,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-02T10:20:16.000Z",
+ "cuota_visto": "2026-11-02T10:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 54,
   "disponible": true,
@@ -18645,44 +18626,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:1df540af-0585-4bf5-9430-5b0234724aff|x": {
-   "actualizado": "2026-10-23T10:20:42.000Z",
-   "buffer_id": "6adb3100e4169c55aabdda8a",
-   "clave": "web:1df540af-0585-4bf5-9430-5b0234724aff|x",
-   "creado": "2026-10-23T10:02:47.000Z",
-   "dueAt": "2026-10-23T10:07:57.000Z",
-   "enviado": "2026-10-23T10:08:01.819Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-23T10:01:37.767Z",
-   "id": "web:1df540af-0585-4bf5-9430-5b0234724aff",
-   "ig_hora": "2026-10-23T10:07:37.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2113573147807002830",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 2.78,
-    "impressions": 36,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/allanamiento-en-chivilcoy-esclarecieron-dos-hechos-delictivos-y-un",
-   "noticia": "nota:allanamiento-en-chivilcoy-esclarecieron-dos-hechos-delictivos-y-un",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Esclarecieron dos hechos delictivos y un menor de 17 años quedó imputado\n\nLa policía secuestró prendas e identificó a un joven involucrado en el robo a una carnicería y la tentativa de asalto a una agencia de lotería.\n\nhttps://www.diariolacampaña.com.ar/n/allanamiento-en-chivilcoy-esclarecieron-dos-hechos-delictivos-y-un",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Esclarecieron dos hechos delictivos y un menor de 17 años quedó imputado",
-   "urgente": false,
-   "vence": "2026-10-23T14:01:37.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:1e08419d-60ee-4c27-98d2-488e539b6952|x": {
    "actualizado": "2026-10-24T16:20:14.000Z",
    "buffer_id": "",
@@ -20903,14 +20846,14 @@
    "viral": false
   },
   "web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x": {
-   "actualizado": "2026-11-02T10:03:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-02T10:40:15.000Z",
+   "buffer_id": "6ae8688fbc7258b27b4068db",
    "clave": "web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x",
    "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-02T12:08:00.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-02T10:02:15.704Z",
    "id": "web:85c7c574-2535-4b4c-9aa4-cab46d956ea6",
    "ig_hora": "2026-11-02T12:08:00.000Z",
@@ -23468,14 +23411,14 @@
    "viral": false
   },
   "web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x": {
-   "actualizado": "2026-11-02T10:03:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-02T10:40:15.000Z",
+   "buffer_id": "6ae8688fbc7258b27b4068af",
    "clave": "web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x",
    "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-02T11:53:20.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-02T10:02:09.414Z",
    "id": "web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e",
    "ig_hora": "2026-11-02T11:53:00.000Z",
@@ -23816,19 +23759,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae0dd524490ad849033e11e",
-   "clave": "entrevistas:job00252|x",
-   "cuando": "2026-10-27T17:20:18.000Z",
-   "dueAt": "2026-10-27T17:22:05.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x",
-   "cuando": "2026-10-27T17:41:27.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115121993867546633"
-  },
   {
    "clave": "entrevistas:job00252|x",
    "cuando": "2026-10-27T17:41:27.000Z",
@@ -28018,6 +27948,20 @@
    "clave": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x",
    "cuando": "2026-11-02T10:20:16.000Z",
    "dueAt": "2026-11-02T11:38:37.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae8688fbc7258b27b4068af",
+   "clave": "web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x",
+   "cuando": "2026-11-02T10:40:15.000Z",
+   "dueAt": "2026-11-02T11:53:20.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae8688fbc7258b27b4068db",
+   "clave": "web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x",
+   "cuando": "2026-11-02T10:40:15.000Z",
+   "dueAt": "2026-11-02T12:08:00.000Z",
    "evento": "programado"
   }
  ],

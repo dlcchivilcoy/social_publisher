@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 02/11/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 3 | 11 | 0 | 0 | 2 |
+| Notas web | X | 15 | 0 | 5 | 9 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,24 +20,22 @@ Actualizado: 02/11/2026 07:20 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 24 con métricas · mediana vistas/impresiones 26.5 · likes 0
 - X · Reels del bot: 75 con métricas · mediana vistas/impresiones 31 · likes 0
 - X · Reels policiales: 18 con métricas · mediana vistas/impresiones 49 · likes 0
-- X · Notas web: 52 con métricas · mediana vistas/impresiones 20 · likes 0
+- X · Notas web: 51 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 132 · likes 1
 - TikTok · Reels del bot: 65 con métricas · mediana vistas/impresiones 303 · likes 3
 - TikTok · Reels policiales: 1 con métricas · mediana vistas/impresiones 515 · likes 4 ⚠️muestra chica
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 598 de 600 · 30d: quedan 887 de 2000 (visto 2026-11-02T10:20:16.000Z)
+15m: quedan 149 de 150 · 24h: quedan 597 de 600 · 30d: quedan 886 de 2000 (visto 2026-11-02T10:40:15.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (9 esperando)
 - X · Notas web · Chivilcoy: Pura contundencia nicoleña: Somisa mantiene el invicto y Belgrano ase — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Un final vibrante: Racing de Chivilcoy cayó por la mínima ante Atenas en Córdoba — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Angelina Reyes: récord, triunfo en los 21K y la mirada puesta en Chil — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Luis Molina brilló en Chivilcoy: se quedó con los 21K de la Maratón "Eduardo Pol — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Federal A: los cruces de la cuarta etapa de la reválida; Gimnasia tendrá  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Clausura: Gimnasia dio el golpe ante Florencio Varela, Moquehu — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · BONAERENSES SOMOS TODOS, no necesitamos que nos dividan — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · La política del descreimiento, de 1985 a hoy — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Plan "Autovía Ruta 5 Sí o Sí" — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Allanamiento por venta de drogas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Octubre amplió la estadística — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -50,8 +48,6 @@ Actualizado: 02/11/2026 07:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-01T23:40 recibido policiales:https://junin24.com/locales/robaron-en-panaderia- 
-- 2026-11-02T00:20 recibido policiales:https://junin24.com/locales/solo-danos-materiales 
 - 2026-11-02T00:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/la-semana espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-02T01:20 vencido policiales:https://9dejulio.diariotiempodigital.com/sociedad espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-02T01:40 vencido policiales:https://junin24.com/locales/robaron-en-panaderia- espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -75,3 +71,5 @@ Actualizado: 02/11/2026 07:20 (hora AR) · ACTIVO
 - 2026-11-02T10:04 programado web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x 
 - 2026-11-02T10:04 programado web:cb5bd56e-c625-4389-948e-845e3cd94779|x 
 - 2026-11-02T10:20 programado web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x 
+- 2026-11-02T10:40 programado web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x 
+- 2026-11-02T10:40 programado web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x 
