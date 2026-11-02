@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 01/11/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 01/11/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-01)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 01/11/2026 23:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 3 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 4 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -29,8 +29,7 @@ Actualizado: 01/11/2026 23:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 149 de 150 · 24h: quedan 589 de 600 · 30d: quedan 890 de 2000 (visto 2026-11-01T22:40:16.000Z)
 
-## Cola propia (1 esperando)
-- X · Reels policiales · Controlaron un principio de incendio en una cocina de calle Jean Jaures — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -40,7 +39,6 @@ Actualizado: 01/11/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-01T13:00 programado bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok 
 - 2026-11-01T13:00 programado bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok 
 - 2026-11-01T13:00 programado bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok 
 - 2026-11-01T13:00 programado bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok 
@@ -65,3 +63,4 @@ Actualizado: 01/11/2026 23:00 (hora AR) · ACTIVO
 - 2026-11-02T00:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/la-semana espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-02T01:20 vencido policiales:https://9dejulio.diariotiempodigital.com/sociedad espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-02T01:40 vencido policiales:https://junin24.com/locales/robaron-en-panaderia- espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-02T02:20 vencido policiales:https://junin24.com/locales/solo-danos-materiales espera su momento (se programa cerca de la hora en que sale en las otras redes)
