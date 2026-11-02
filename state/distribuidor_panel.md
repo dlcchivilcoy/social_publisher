@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 16:20 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 16:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 13 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 14 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -41,7 +41,6 @@ Actualizado: 02/11/2026 16:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T12:20 enviado web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x 
 - 2026-11-02T12:40 programado web:2cd145f9-d647-4204-81bc-4c12d0944591|x 
 - 2026-11-02T13:00 programado web:987bd392-013a-42fa-93e2-03b50c823a35|x 
 - 2026-11-02T13:20 enviado web:00e5dd74-44ac-4950-93b6-b45c439734be|x 
@@ -66,3 +65,4 @@ Actualizado: 02/11/2026 16:20 (hora AR) · ACTIVO
 - 2026-11-02T18:20 depurado web:6541af24-4488-427f-95aa-ae535252bd65|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-02T18:20 enviado entrevistas:job00270|x 
 - 2026-11-02T18:20 programado bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x 
+- 2026-11-02T19:40 enviado bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x 

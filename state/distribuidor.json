@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-02T18:20:35.000Z"
+   "visto": "2026-11-02T19:40:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 13
+    "sent": 14
    },
    "pausado": false,
-   "visto": "2026-11-02T18:20:35.000Z"
+   "visto": "2026-11-02T19:40:20.000Z"
   }
  },
  "contenidos": {
@@ -5585,25 +5585,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
    "volanta": "Chivilcoy · Gremiales"
-  },
-  "web:89c9f8af-db2e-425f-9362-568f282ebcfe": {
-   "categoria": "",
-   "descripcion": "Intentaron robar una moto tras romper la puerta de un comercio Dos personas ingresaron durante la madrugada de este viernes 23 de octubre al local de Motos Distribuidora Oeste, ubicado en la última cuadra de la avenida Soárez, en inmediaciones de Plaza España, e intentaron sustraer una motocicleta de 110 centímetros cúbicos. Según explicó Alejo, uno de los responsables del establecimiento, el episodio se registró alrededor de las 5. Los sujetos dieron una patada contra la puerta de vidrio del...",
-   "generado": "2026-10-23T19:30:36.145Z",
-   "id": "web:89c9f8af-db2e-425f-9362-568f282ebcfe",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_2913eaf8b6d347c7b363063cae01b602~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Intentaron robar una moto tras romper la puerta de un comercio",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
-   "volanta": "Chivilcoy · Policiales"
   },
   "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54": {
    "categoria": "",
@@ -11280,18 +11261,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x": {
-   "actualizado": "2026-11-02T18:20:35.000Z",
+   "actualizado": "2026-11-02T19:40:20.000Z",
    "buffer_id": "6ae8d47487c5ea7cde546b3e",
    "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x",
    "creado": "2026-11-02T18:20:16.000Z",
    "dueAt": "2026-11-02T18:22:47.000Z",
+   "enviado": "2026-11-02T18:23:06.672Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-02T18:15:04.000Z",
    "id": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117321618313605498",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
    "noticia": "nota:chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
    "origen": "bot",
@@ -19817,31 +19799,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:89c9f8af-db2e-425f-9362-568f282ebcfe|x": {
-   "actualizado": "2026-10-23T19:40:20.000Z",
-   "buffer_id": "",
-   "clave": "web:89c9f8af-db2e-425f-9362-568f282ebcfe|x",
-   "creado": "2026-10-23T19:40:20.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-23T19:30:36.145Z",
-   "id": "web:89c9f8af-db2e-425f-9362-568f282ebcfe",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
-   "noticia": "nota:chivilcoy-policiales-intentaron-robar-una-moto-tras-romper-la-puerta",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Intentaron robar una moto tras romper la puerta de un comercio",
-   "urgente": false,
-   "vence": "2026-10-23T23:30:36.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54|x": {
    "actualizado": "2026-10-31T02:20:21.000Z",
    "buffer_id": "",
@@ -22362,14 +22319,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tiktok",
-   "cuando": "2026-10-28T00:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:10530670-a72a-4de8-bc7f-13a21143d576|x",
    "cuando": "2026-10-28T00:40:18.000Z",
@@ -26555,6 +26504,12 @@
    "cuando": "2026-11-02T18:20:36.000Z",
    "dueAt": "2026-11-02T18:22:47.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x",
+   "cuando": "2026-11-02T19:40:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117321618313605498"
   }
  ],
  "tandas": {
@@ -26592,7 +26547,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-02",
- "ultima_sync": "2026-11-02T18:20:35.000Z",
+ "ultima_sync": "2026-11-02T19:40:20.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
