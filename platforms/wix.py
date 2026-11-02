@@ -513,6 +513,19 @@ def publish(title: str, body: str, image_path: Path, page: int = 0,
     return publicar_borrador(info["draft_id"])
 
 
+def _sin_chivilcoy(titulo: str) -> str:
+    """El título de la web SIN el «Chivilcoy: » que `_chivilcoy_web` le agrega a las notas locales.
+
+    2026-11-02: la carga de la mañana lo pone en la web (79f15b5, 30/10), pero el posteo de Facebook
+    busca la nota con el título del .docx («Básquet — Pura contundencia…» contra «Básquet — Chivilcoy:
+    Pura contundencia…»): 7 notas quedaron «sin link» y no salieron en Facebook."""
+    try:
+        from utils import chivilcoy_web
+        return chivilcoy_web.deshacer(titulo, "")[0]
+    except Exception:  # noqa: BLE001
+        return titulo
+
+
 def url_de_nota(titulo: str, buscar: int = 100) -> str:
     """Devuelve la URL pública (dominio real) de una nota YA publicada, buscándola por
     TÍTULO entre las últimas `buscar` publicaciones (match por slug, robusto a acentos/
@@ -533,7 +546,8 @@ def url_de_nota(titulo: str, buscar: int = 100) -> str:
         )
         _raise_for_status(r, "buscar URL de nota")
         for p in r.json().get("posts", []):
-            if _slugify(p.get("title", "")) == objetivo:
+            t = p.get("title", "")
+            if _slugify(t) == objetivo or _slugify(_sin_chivilcoy(t)) == objetivo:
                 u = p.get("url", {})
                 return u.get("base", "") + u.get("path", "")
     except Exception as e:

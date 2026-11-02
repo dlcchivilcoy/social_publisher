@@ -245,17 +245,29 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
     intervalo = _fb_intervalo_seg()
     logger.info(f"[facebook] una nota cada {intervalo // 60} min")
     ultimo = None
+    # 2026-11-02: la misma nota estaba DOS veces en la carpeta (Angelina Reyes, dos .docx con el mismo
+    # titular): se cargó dos veces en la web y Facebook la habría posteado dos veces. Un titular que ya
+    # salió en esta corrida no se repite; se anota como hecho.
+    titulares_vistos = set()
     for i, note in enumerate(pending):
         volanta, titular, _ = _parse_nota(note["docx"])
         if not titular:
             titular = note.get("titular") or note["title"]
         wix_title = f"{volanta} — {titular}" if volanta else titular
+        clave_titular = wix._slugify(wix_title)
+        if clave_titular in titulares_vistos:
+            logger.warning(f"[facebook] «{titular[:40]}» está dos veces en la carpeta: sale una sola vez.")
+            if not dry_run:
+                fb_ledger.add(note["key"])
+                _save_fb_ledger(posts_folder, fb_ledger)
+            continue
         url = wix.url_de_nota(wix_title)
         if not url:
             logger.error(f"[facebook] no encontré la URL web de «{titular[:40]}» "
                          f"(se reintenta la próxima corrida).")
             sin_url.append(titular[:60])
             continue
+        titulares_vistos.add(clave_titular)
 
         if dry_run:
             logger.info(f"[facebook][dry-run] postearía [{modo}] «{titular[:40]}» → {url}")
