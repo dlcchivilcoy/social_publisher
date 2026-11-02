@@ -7612,17 +7612,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 593,
-   "segundos": 80664,
+   "restantes": 592,
+   "segundos": 79463,
    "tope": 600
   },
   "30d": {
-   "restantes": 882,
-   "segundos": 725421,
+   "restantes": 881,
+   "segundos": 724221,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-02T11:40:20.000Z",
+ "cuota_visto": "2026-11-02T12:00:24.000Z",
  "metricas_buffer": {
   "con_metricas": 54,
   "disponible": true,
@@ -22823,14 +22823,14 @@
    "viral": false
   },
   "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x": {
-   "actualizado": "2026-11-02T10:03:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-02T12:00:18.000Z",
+   "buffer_id": "6ae87b576e3fc295002306f0",
    "clave": "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x",
    "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-02T13:23:33.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-02T10:02:44.568Z",
    "id": "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a",
    "ig_hora": "2026-11-02T13:23:00.000Z",
@@ -23485,13 +23485,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae0eb6151de1fce7dcf0924",
-   "clave": "entrevistas:job00254|x",
-   "cuando": "2026-10-27T18:20:17.000Z",
-   "dueAt": "2026-10-27T18:22:41.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|x",
    "cuando": "2026-10-27T18:40:21.000Z",
@@ -27684,6 +27677,13 @@
    "clave": "web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x",
    "cuando": "2026-11-02T11:40:20.000Z",
    "dueAt": "2026-11-02T13:08:52.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae87b576e3fc295002306f0",
+   "clave": "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x",
+   "cuando": "2026-11-02T12:00:24.000Z",
+   "dueAt": "2026-11-02T13:23:33.000Z",
    "evento": "programado"
   }
  ],
