@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-02T13:20:16.000Z"
+   "visto": "2026-11-02T14:20:24.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 3,
-    "sent": 8
+    "scheduled": 1,
+    "sent": 10
    },
    "pausado": false,
-   "visto": "2026-11-02T13:20:16.000Z"
+   "visto": "2026-11-02T14:20:24.000Z"
   }
  },
  "contenidos": {
@@ -7030,25 +7030,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-moquehua-recupero-la-cima-en-una-decima-fecha-a-puro-gol-en-la",
    "volanta": "Fútbol"
   },
-  "web:e92d7cef-125b-45bf-8655-591a3ccc565b": {
-   "categoria": "",
-   "descripcion": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal El domingo se realizará la Primera Feria de Cooperadoras Escolares en la Plaza 25 de Mayo. En el marco del 172° aniversario de Chivilcoy y del Mes de la Cooperación Escolar, la Plaza 25 de Mayo albergará una jornada comunitaria con 17 instituciones educativas, espectáculos folclóricos y la reinauguración de la emblemática Fuente de Hebe. Este próximo domingo 25 de octubre, a partir de las 15:00 horas, la zona central...",
-   "generado": "2026-10-23T13:48:55.272Z",
-   "id": "web:e92d7cef-125b-45bf-8655-591a3ccc565b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_49589be15f10431e86c5c13bb4137e66~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
-   "volanta": "Chivilcoy · Educación"
-  },
   "web:ea13235b-dbb9-482c-b517-2865e5df2d34": {
    "categoria": "",
    "descripcion": "Chivilcoy: Oncología del Hospital Municipal promueve la prevención y la actividad física CHIVILCOY.– En la antesala de la Media Maratón Eduardo Pollaroli, que se correrá a partir de las 8, Javier Azcola, integrante del Servicio de Oncología del Hospital Municipal, destacó la relevancia de sumarse al evento deportivo para concientizar sobre la salud. Azcola explicó que aprovecharon el espacio brindado por el Círculo de Atletas para impulsar la campaña en el marco de las fechas de lucha contra...",
@@ -7380,17 +7361,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 588,
-   "segundos": 74667,
+   "restantes": 587,
+   "segundos": 71058,
    "tope": 600
   },
   "30d": {
-   "restantes": 877,
-   "segundos": 719424,
+   "restantes": 876,
+   "segundos": 715816,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-02T13:20:16.000Z",
+ "cuota_visto": "2026-11-02T14:20:25.000Z",
  "metricas_buffer": {
   "con_metricas": 54,
   "disponible": true,
@@ -18394,19 +18375,20 @@
    "viral": false
   },
   "web:2cd145f9-d647-4204-81bc-4c12d0944591|x": {
-   "actualizado": "2026-11-02T12:40:15.000Z",
+   "actualizado": "2026-11-02T14:20:24.000Z",
    "buffer_id": "6ae884afd3d929aa69ccd31e",
    "clave": "web:2cd145f9-d647-4204-81bc-4c12d0944591|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "2026-11-02T14:08:45.000Z",
+   "enviado": "2026-11-02T14:08:46.053Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-02T10:03:07.355Z",
    "id": "web:2cd145f9-d647-4204-81bc-4c12d0944591",
    "ig_hora": "2026-11-02T14:08:00.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://twitter.com/diarioyradio/status/2117257610692858296",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-un-final-vibrante-racing-de-chivilcoy-cayo-por-la-minima-ante",
    "noticia": "nota:basquet-un-final-vibrante-racing-de-chivilcoy-cayo-por-la-minima-ante",
    "origen": "web",
@@ -22116,19 +22098,20 @@
    "viral": false
   },
   "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x": {
-   "actualizado": "2026-11-02T12:00:18.000Z",
+   "actualizado": "2026-11-02T14:20:24.000Z",
    "buffer_id": "6ae87b576e3fc295002306f0",
    "clave": "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "2026-11-02T13:23:33.000Z",
+   "enviado": "2026-11-02T13:23:46.410Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-02T10:02:44.568Z",
    "id": "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a",
    "ig_hora": "2026-11-02T13:23:00.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://twitter.com/diarioyradio/status/2117246287523229817",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-torneo-federal-a-los-cruces-de-la-cuarta-etapa-de-la-revalida",
    "noticia": "nota:futbol-torneo-federal-a-los-cruces-de-la-cuarta-etapa-de-la-revalida",
    "origen": "web",
@@ -22241,31 +22224,6 @@
    "titulo": "Moquehuá recuperó la cima en una décima fecha a puro gol en la Liga Chivilcoyana",
    "urgente": false,
    "vence": "2026-10-27T14:03:03.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:e92d7cef-125b-45bf-8655-591a3ccc565b|x": {
-   "actualizado": "2026-10-23T14:00:23.000Z",
-   "buffer_id": "",
-   "clave": "web:e92d7cef-125b-45bf-8655-591a3ccc565b|x",
-   "creado": "2026-10-23T14:00:23.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-23T13:48:55.272Z",
-   "id": "web:e92d7cef-125b-45bf-8655-591a3ccc565b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
-   "noticia": "nota:chivilcoy-educacion-realizaran-la-primera-feria-de-cooperadoras",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Realizarán la Primera Feria de Cooperadoras Escolares en la plaza principal",
-   "urgente": false,
-   "vence": "2026-10-23T17:48:55.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -22779,20 +22737,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae110e72f35d654faed57b7",
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tiktok",
-   "cuando": "2026-10-27T21:00:25.000Z",
-   "dueAt": "2026-10-27T21:23:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae110e84e914b3cee29a2ad",
-   "clave": "entrevistas:job00254|tiktok",
-   "cuando": "2026-10-27T21:00:25.000Z",
-   "dueAt": "2026-10-27T21:43:43.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae110e8b017df23970aafd4",
    "clave": "entrevistas:job00253|tiktok",
@@ -26973,6 +26917,18 @@
    "cuando": "2026-11-02T13:20:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117242581394374685"
+  },
+  {
+   "clave": "web:2cd145f9-d647-4204-81bc-4c12d0944591|x",
+   "cuando": "2026-11-02T14:20:25.000Z",
+   "evento": "enviado",
+   "link": "https://twitter.com/diarioyradio/status/2117257610692858296"
+  },
+  {
+   "clave": "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x",
+   "cuando": "2026-11-02T14:20:25.000Z",
+   "evento": "enviado",
+   "link": "https://twitter.com/diarioyradio/status/2117246287523229817"
   }
  ],
  "tandas": {
@@ -27010,7 +26966,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-02",
- "ultima_sync": "2026-11-02T13:20:16.000Z",
+ "ultima_sync": "2026-11-02T14:20:24.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
