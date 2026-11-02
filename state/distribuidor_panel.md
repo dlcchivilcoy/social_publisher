@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 18:00 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 18:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 02/11/2026 18:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 14 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 1 enviadas + 2 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -38,7 +38,6 @@ Actualizado: 02/11/2026 18:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T13:20 enviado web:2c6f475b-bc10-4a41-b949-4390268a7b97|x 
 - 2026-11-02T13:20 enviado web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x 
 - 2026-11-02T14:20 enviado web:2cd145f9-d647-4204-81bc-4c12d0944591|x 
 - 2026-11-02T14:20 enviado web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x 
@@ -63,3 +62,4 @@ Actualizado: 02/11/2026 18:00 (hora AR) · ACTIVO
 - 2026-11-02T21:00 programado bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tikto 
 - 2026-11-02T21:00 programado entrevistas:job00270|tiktok 
 - 2026-11-02T21:00 programado entrevistas:job00269|tiktok 
+- 2026-11-02T21:20 enviado bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tikto 
