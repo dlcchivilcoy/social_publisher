@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 02/11/2026 09:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 4 | 5 | 1 | 0 | 0 | 6 |
+| Notas web | X | 15 | 4 | 6 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,17 +20,16 @@ Actualizado: 02/11/2026 09:40 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 24 con métricas · mediana vistas/impresiones 26.5 · likes 0
 - X · Reels del bot: 75 con métricas · mediana vistas/impresiones 31 · likes 0
 - X · Reels policiales: 18 con métricas · mediana vistas/impresiones 49 · likes 0
-- X · Notas web: 47 con métricas · mediana vistas/impresiones 20 · likes 0
+- X · Notas web: 43 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 132 · likes 1
 - TikTok · Reels del bot: 65 con métricas · mediana vistas/impresiones 303 · likes 3
 - TikTok · Reels policiales: 1 con métricas · mediana vistas/impresiones 515 · likes 4 ⚠️muestra chica
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 590 de 600 · 30d: quedan 879 de 2000 (visto 2026-11-02T12:40:15.000Z)
+15m: quedan 149 de 150 · 24h: quedan 589 de 600 · 30d: quedan 878 de 2000 (visto 2026-11-02T13:00:29.000Z)
 
-## Cola propia (1 esperando)
-- X · Notas web · Chivilcoy: Pura contundencia nicoleña: Somisa mantiene el invicto y Belgrano ase — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -40,7 +39,6 @@ Actualizado: 02/11/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T10:04 recibido web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x 
 - 2026-11-02T10:04 recibido web:cb5bd56e-c625-4389-948e-845e3cd94779|x 
 - 2026-11-02T10:04 recibido web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x 
 - 2026-11-02T10:04 recibido web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x 
@@ -65,3 +63,4 @@ Actualizado: 02/11/2026 09:40 (hora AR) · ACTIVO
 - 2026-11-02T12:20 enviado web:cb5bd56e-c625-4389-948e-845e3cd94779|x 
 - 2026-11-02T12:20 enviado web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x 
 - 2026-11-02T12:40 programado web:2cd145f9-d647-4204-81bc-4c12d0944591|x 
+- 2026-11-02T13:00 programado web:987bd392-013a-42fa-93e2-03b50c823a35|x 
