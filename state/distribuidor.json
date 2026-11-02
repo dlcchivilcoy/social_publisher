@@ -2640,33 +2640,6 @@
    "volanta": "Subastas de ARCA",
    "youtube_url": "https://youtube.com/shorts/qVERJf7R1Eg"
   },
-  "nacionales:f1cea0fec08ce954": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "La administración libertaria restó trascendencia a los reparos planteados por enviados de Washington sobre el proyecto oficial. Participaron del encuentro Adrián Ravier, María Ibarzábal Murphy y Santiago Caputo, mientras el debate legislativo sigue demorado.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-23T22:15:53.000Z",
-   "hashtags": [
-    "Malvinas",
-    "Politica"
-   ],
-   "id": "nacionales:f1cea0fec08ce954",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0",
-   "origen": "nacionales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "tipo": "video",
-   "titulo": "El Gobierno minimizó las dudas de EE.UU. sobre la ley de soberanía en Malvinas",
-   "urgente": false,
-   "video_bytes": 88736,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f1cea0fec0_el-gobierno-minimizo-las-dudas-de-ee-uu-sobre-la.mp4",
-   "volanta": "Ley de Malvinas",
-   "youtube_url": "https://youtube.com/shorts/h45_Lvn0Kj8"
-  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -2770,6 +2743,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_04_pergamino_joven-baleada-en-arrecifes-fam.mp4",
    "volanta": "Operativo policial en Arrecifes",
    "youtube_url": "https://youtube.com/shorts/PtODhCE9o_c"
+  },
+  "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/": {
+   "categoria": "operativo_policial",
+   "descripcion": "El sospechoso saltó un portón y rompió vidrios para ingresar a un local comercial durante la madrugada del viernes. Quedó alojado a disposición de la Justicia.",
+   "distancia_km": 72.7,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-02T22:32:11.000Z",
+   "id": "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/",
+   "localidad": "Carmen de Areco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-detuvieron-a-un-hombre-que-intento-robar-3fe392",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un individuo fue aprehendido en las primeras horas del viernes tras ingresar de manera clandestina a un comercio de compra y venta de motovehículos.\n\nEl episodio tuvo lugar en un establecimiento situado sobre la calle 25 de Mayo, entre Mitre y Avellaneda, en la zona céntrica.\n\nEl implicado vulneró un cerco perimetral y destrozó cristales para concretar su ingreso, quedando registrado por las cámaras de seguridad.\n\nLa Unidad Funcional de Instrucción N° 6 de Mercedes interviene en el expediente bajo la carátula de tentativa de robo agravado.\n\n📲 Más noticias de Carmen de Areco en www.diariolacampaña.com.ar\n\n#CarmenDeAreco #Operativo #Policia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Cayó preso tras intentar robar una moto de un depósito céntrico",
+   "urgente": false,
+   "video_bytes": 101065,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_03_carmen-de-areco_cay-preso-tras-intentar-robar-.mp4",
+   "volanta": "Carmen de Areco",
+   "youtube_url": "https://youtube.com/shorts/a5tHmWmIw3E"
   },
   "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas": {
    "categoria": "robo",
@@ -15279,60 +15278,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
    "viral": false
   },
-  "nacionales:f1cea0fec08ce954|tiktok": {
-   "actualizado": "2026-10-23T22:20:23.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "nacionales:f1cea0fec08ce954|tiktok",
-   "creado": "2026-10-23T22:20:15.000Z",
-   "dueAt": "",
-   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
-   "estado": "descartado",
-   "generado": "2026-10-23T22:15:53.000Z",
-   "id": "nacionales:f1cea0fec08ce954",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 6,
-   "texto": "El Gobierno minimizó las dudas de EE.UU. sobre la ley de soberanía en Malvinas\n\nLa administración libertaria restó trascendencia a los reparos planteados por enviados de Washington sobre el proyecto oficial. Participaron del encuentro Adrián Ravier, María Ibarzábal Murphy y Santiago Caputo, mientras el debate legislativo sigue demorado.\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Malvinas",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El Gobierno minimizó las dudas de EE.UU. sobre la ley de soberanía en Malvinas",
-   "urgente": false,
-   "vence": "2026-10-24T16:15:53.000Z",
-   "video_bytes": 88736,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f1cea0fec0_el-gobierno-minimizo-las-dudas-de-ee-uu-sobre-la.mp4",
-   "viral": false
-  },
-  "nacionales:f1cea0fec08ce954|x": {
-   "actualizado": "2026-10-23T22:20:23.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:f1cea0fec08ce954|x",
-   "creado": "2026-10-23T22:20:15.000Z",
-   "dueAt": "",
-   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
-   "estado": "descartado",
-   "generado": "2026-10-23T22:15:53.000Z",
-   "id": "nacionales:f1cea0fec08ce954",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0",
-   "noticia": "nota:el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "El Gobierno minimizó las dudas de EE.UU. sobre la ley de soberanía en Malvinas\n\nLa administración libertaria restó trascendencia a los reparos planteados por enviados de Washington sobre el proyecto oficial.\n\nhttps://www.diariolacampaña.com.ar/n/el-gobierno-relativizo-los-reparos-de-estados-unidos-al-f1cea0",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El Gobierno minimizó las dudas de EE.UU. sobre la ley de soberanía en Malvinas",
-   "urgente": false,
-   "vence": "2026-10-24T00:15:53.000Z",
-   "video_bytes": 88736,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_f1cea0fec0_el-gobierno-minimizo-las-dudas-de-ee-uu-sobre-la.mp4",
-   "viral": false
-  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -15479,6 +15424,34 @@
    "vence": "2026-10-27T01:01:20.000Z",
    "video_bytes": 74276,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_04_pergamino_joven-baleada-en-arrecifes-fam.mp4",
+   "viral": false
+  },
+  "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/|x": {
+   "actualizado": "2026-11-02T22:40:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/|x",
+   "creado": "2026-11-02T22:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-02T22:32:11.000Z",
+   "id": "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-detuvieron-a-un-hombre-que-intento-robar-3fe392",
+   "noticia": "nota:san-andres-de-giles-detuvieron-a-un-hombre-que-intento-robar-3fe392",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Cayó preso tras intentar robar una moto de un depósito céntrico\n\nEl sospechoso saltó un portón y rompió vidrios para ingresar a un local comercial durante la madrugada del viernes. Quedó alojado a disposición de la Justicia.\n\nhttps://www.diariolacampaña.com.ar/n/san-andres-de-giles-detuvieron-a-un-hombre-que-intento-robar-3fe392",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cayó preso tras intentar robar una moto de un depósito céntrico",
+   "urgente": false,
+   "vence": "2026-11-03T00:32:11.000Z",
+   "video_bytes": 101065,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_03_carmen-de-areco_cay-preso-tras-intentar-robar-.mp4",
    "viral": false
   },
   "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas|x": {
@@ -21859,14 +21832,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|x",
-   "cuando": "2026-10-28T01:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tiktok",
    "cuando": "2026-10-28T01:00:19.000Z",
    "estado": "pendiente",
@@ -26048,6 +26013,14 @@
    "cuando": "2026-11-02T22:20:21.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7703688035610676501"
+  },
+  {
+   "clave": "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/|x",
+   "cuando": "2026-11-02T22:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -26444,6 +26417,7 @@
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron": "2026-10-26T23:20:14.000Z",
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": "2026-10-16T00:00:21.000Z",
   "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/": "2026-10-16T16:00:18.000Z",
+  "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/": "2026-11-02T22:40:16.000Z",
   "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/": "2026-10-19T23:00:18.000Z",
   "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas": "2026-10-27T23:20:16.000Z",
   "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea": "2026-11-01T23:40:14.000Z",

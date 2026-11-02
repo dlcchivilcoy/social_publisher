@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 02/11/2026 19:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -28,7 +28,8 @@ Actualizado: 02/11/2026 19:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Reels policiales · Cayó preso tras intentar robar una moto de un depósito céntrico — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -38,7 +39,6 @@ Actualizado: 02/11/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T14:20 enviado web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x 
 - 2026-11-02T15:40 enviado web:987bd392-013a-42fa-93e2-03b50c823a35|x 
 - 2026-11-02T17:00 entrevista_aprobada entrevistas:job00269 
 - 2026-11-02T17:00 recibido entrevistas:job00269|x 
@@ -63,3 +63,4 @@ Actualizado: 02/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-02T21:20 enviado bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tikto 
 - 2026-11-02T22:20 enviado entrevistas:job00269|tiktok 
 - 2026-11-02T22:20 enviado entrevistas:job00270|tiktok 
+- 2026-11-02T22:40 recibido policiales:https://infociudad.com.ar/actualidad/intento-roba 
