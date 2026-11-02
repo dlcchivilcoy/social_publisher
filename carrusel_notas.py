@@ -427,8 +427,9 @@ def _individual_activo() -> bool:
 def _reel_activo() -> bool:
     """Instagram: cada nota sale como REEL hecho con las mismas placas del carrusel explicativo (pedido del
     31/10/2026: «transformar los carruseles de las notas del diario de la mañana en reels»).
-    CARRUSEL_REEL=0 vuelve al carrusel."""
-    return (get("CARRUSEL_REEL") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+    02/11/2026 («volver carrusel los reels de la mañana»): de fábrica vuelve a ser CARRUSEL; CARRUSEL_REEL=1
+    prende otra vez el reel."""
+    return (get("CARRUSEL_REEL") or "0").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
 def _seg_por_placa() -> float:
