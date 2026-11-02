@@ -1366,6 +1366,15 @@ def _generar_nota(media_part: dict, img_parts: list, extra_text: str, key: str, 
     return _parse_nota(raw)
 
 
+def _bloque_entrevistados(gente: list[dict]) -> str:
+    """Las personas de la nota que confirmó la redacción, para el prompt."""
+    renglones = [f"- {p['nombre']}" + (f" — {p['cargo']}" if p.get("cargo") else "") for p in gente]
+    return ("PERSONAS DE LA NOTA CONFIRMADAS POR LA REDACCIÓN (valen igual que el TÍTULO: estos "
+            "nombres, apellidos y cargos se pueden escribir y se copian EXACTAMENTE así; si la "
+            "transcripción escribe parecido uno de estos nombres, es esa persona y va la forma de "
+            "esta lista):\n" + "\n".join(renglones))
+
+
 def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = "",
                            api_key: str = "", duracion_seg: float = 0) -> dict:
     """Desgraba un video de YouTube PÚBLICO pasándole la URL DIRECTA a Gemini (sin bajar
@@ -1418,6 +1427,20 @@ def transcribe_youtube_url(url: str, extra_text: str = "", instrucciones: str = 
     # Los videos son del canal propio, así que el token OAuth puede bajar su transcripción.
     if not (g_txt and len(g_txt) >= 25) and _audio_first_on() and _subs_api_on():
         g_txt, fuente = _subtitulos_de_youtube(url), "subtítulos de YouTube"
+
+    if g_txt and len(g_txt) >= 25 and fuente == "PC de la radio":
+        # Nombres y cargos que la redacción cargó en el tablero de la radio (2026-11-02):
+        # sin esto la regla de oro del desgrabador sólo dejaba escribir los del título, y el
+        # segundo invitado o el cargo salían en genérico («el entrevistado»).
+        try:
+            from utils import transcripciones_pc
+            gente = transcripciones_pc.entrevistados(_id_de_youtube(url))
+        except Exception:  # noqa: BLE001
+            gente = []
+        if gente:
+            extra_text = ((extra_text or "").rstrip() + "\n" + _bloque_entrevistados(gente)).strip()
+            logger.info("  PC radio: " + ", ".join(p["nombre"] for p in gente)
+                        + " (confirmados por la redacción).")
 
     if g_txt and len(g_txt) >= 25:
         logger.info(f"Audio-first (YouTube): {fuente} dio {len(g_txt)} chars; "
