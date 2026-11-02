@@ -6110,25 +6110,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gravel-destacada-actuacion-del-ciclismo-chivilcoyano-en-el-campeonato",
    "volanta": "Gravel"
   },
-  "web:a88f249c-9e23-46be-8a40-bb31f049e2b7": {
-   "categoria": "",
-   "descripcion": "El Club Independiente celebrará los 30 años de su escuela de fútbol La institución festejará las tres décadas de su semillero reuniendo a las categorías históricas que formaron la primera camada (desde la clase 1988 hasta la 1996), junto a familiares, formadores y colaboradores que dejaron su huella. Nicolás Giaccone, exjugador e integrante de la comisión directiva del club, detalló los orígenes de este proyecto formativo: \"Se toma como fecha del inicio de la nueva escuela de fútbol del Club...",
-   "generado": "2026-10-23T16:02:44.730Z",
-   "id": "web:a88f249c-9e23-46be-8a40-bb31f049e2b7",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_925f18d315d24198a0f0385547e99a28~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-club-independiente-celebrara-los-30-anos-de-su",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "El Club Independiente celebrará los 30 años de su escuela de fútbol",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-el-club-independiente-celebrara-los-30-anos-de-su",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:aac6f864-9661-40bc-8e13-c03b62c05fed": {
    "categoria": "",
    "descripcion": "El CUCH presentó su oferta académica: “Hemos logrado tener la diversidad de propuestas que siempre estamos buscando”, resaltó Barros El Centro Universitario de Chivilcoy (CUCH) dio a conocer de manera oficial la nómina de carreras y trayectos formativos que compondrán su propuesta académica para el ciclo lectivo 2027. La presentación abarca la continuidad de ciclos tradicionales, la apertura de tecnicaturas fuertemente orientadas al agro y la producción industrial, y una amplia batería de...",
@@ -20699,31 +20680,6 @@
    "titulo": "Destacada actuación del Ciclismo chivilcoyano en el Campeonato Argentino de Mar del Plata",
    "urgente": false,
    "vence": "2026-10-29T14:22:20.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:a88f249c-9e23-46be-8a40-bb31f049e2b7|x": {
-   "actualizado": "2026-10-23T16:20:15.000Z",
-   "buffer_id": "",
-   "clave": "web:a88f249c-9e23-46be-8a40-bb31f049e2b7|x",
-   "creado": "2026-10-23T16:20:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-23T16:02:44.730Z",
-   "id": "web:a88f249c-9e23-46be-8a40-bb31f049e2b7",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-club-independiente-celebrara-los-30-anos-de-su",
-   "noticia": "nota:chivilcoy-deportes-el-club-independiente-celebrara-los-30-anos-de-su",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Club Independiente celebrará los 30 años de su escuela de fútbol",
-   "urgente": false,
-   "vence": "2026-10-23T20:02:44.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
