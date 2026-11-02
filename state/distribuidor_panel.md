@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 02/11/2026 09:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 4 | 4 | 2 | 0 | 0 | 6 |
+| Notas web | X | 15 | 4 | 5 | 1 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,11 +27,10 @@ Actualizado: 02/11/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 591 de 600 · 30d: quedan 880 de 2000 (visto 2026-11-02T12:20:14.000Z)
+15m: quedan 149 de 150 · 24h: quedan 590 de 600 · 30d: quedan 879 de 2000 (visto 2026-11-02T12:40:15.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - X · Notas web · Chivilcoy: Pura contundencia nicoleña: Somisa mantiene el invicto y Belgrano ase — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Un final vibrante: Racing de Chivilcoy cayó por la mínima ante Atenas en Córdoba — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -41,7 +40,6 @@ Actualizado: 02/11/2026 09:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T10:04 recibido web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x 
 - 2026-11-02T10:04 recibido web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x 
 - 2026-11-02T10:04 recibido web:cb5bd56e-c625-4389-948e-845e3cd94779|x 
 - 2026-11-02T10:04 recibido web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x 
@@ -66,3 +64,4 @@ Actualizado: 02/11/2026 09:20 (hora AR) · ACTIVO
 - 2026-11-02T12:20 enviado web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x 
 - 2026-11-02T12:20 enviado web:cb5bd56e-c625-4389-948e-845e3cd94779|x 
 - 2026-11-02T12:20 enviado web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x 
+- 2026-11-02T12:40 programado web:2cd145f9-d647-4204-81bc-4c12d0944591|x 

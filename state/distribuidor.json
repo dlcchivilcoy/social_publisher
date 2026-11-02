@@ -7612,17 +7612,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 591,
-   "segundos": 78269,
+   "restantes": 590,
+   "segundos": 77068,
    "tope": 600
   },
   "30d": {
-   "restantes": 880,
-   "segundos": 723027,
+   "restantes": 879,
+   "segundos": 721825,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-02T12:20:14.000Z",
+ "cuota_visto": "2026-11-02T12:40:15.000Z",
  "metricas_buffer": {
   "con_metricas": 54,
   "disponible": true,
@@ -18802,14 +18802,14 @@
    "viral": false
   },
   "web:2cd145f9-d647-4204-81bc-4c12d0944591|x": {
-   "actualizado": "2026-11-02T10:03:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-02T12:40:15.000Z",
+   "buffer_id": "6ae884afd3d929aa69ccd31e",
    "clave": "web:2cd145f9-d647-4204-81bc-4c12d0944591|x",
    "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-02T14:08:45.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-02T10:03:07.355Z",
    "id": "web:2cd145f9-d647-4204-81bc-4c12d0944591",
    "ig_hora": "2026-11-02T14:08:00.000Z",
@@ -23489,13 +23489,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae0f0169886bd6ed21cf7a8",
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|x",
-   "cuando": "2026-10-27T18:40:22.000Z",
-   "dueAt": "2026-10-27T18:42:26.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|x",
    "cuando": "2026-10-27T19:00:21.000Z",
    "evento": "enviado",
@@ -27682,6 +27675,13 @@
    "cuando": "2026-11-02T12:20:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117223574905724970"
+  },
+  {
+   "buffer_id": "6ae884afd3d929aa69ccd31e",
+   "clave": "web:2cd145f9-d647-4204-81bc-4c12d0944591|x",
+   "cuando": "2026-11-02T12:40:15.000Z",
+   "dueAt": "2026-11-02T14:08:45.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
