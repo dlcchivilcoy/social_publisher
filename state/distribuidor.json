@@ -2592,33 +2592,6 @@
    "volanta": "PyMEs industriales",
    "youtube_url": "https://youtube.com/shorts/0wPQuTeUEf8"
   },
-  "nacionales:ae9e5a4804b66987": {
-   "categoria": "Economía",
-   "categoria_nacional": "",
-   "descripcion": "El Banco Ciudad realizará dos subastas online los días 5 y 12 de noviembre por cuenta de ARCA. Habrá más de 1.100 botellas de vino y whiskys, además de consolas Pioneer, parlantes JBL y equipos de audio.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-23T22:45:55.000Z",
-   "hashtags": [
-    "Economia",
-    "Subastas"
-   ],
-   "id": "nacionales:ae9e5a4804b66987",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a",
-   "origen": "nacionales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "ARCA y Banco Ciudad rematan vinos de alta gama y tecnología desde $50.000",
-   "urgente": false,
-   "video_bytes": 80162,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
-   "volanta": "Subastas de ARCA",
-   "youtube_url": "https://youtube.com/shorts/qVERJf7R1Eg"
-  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -2930,6 +2903,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_01_pergamino_dos-polic-as-demorados-y-dos-j.mp4",
    "volanta": "Arrecifes",
    "youtube_url": "https://youtube.com/shorts/Bdr0EelOjRI"
+  },
+  "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/": {
+   "categoria": "otro_policial",
+   "descripcion": "La Policía Comunal concretó tres procedimientos durante el fin de semana. Hubo un arresto por golpear a un agente, dos menores demorados con un rodado robado y un operativo de saturación con 21 infracciones.",
+   "distancia_km": 89.8,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-02T23:02:34.000Z",
+   "id": "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/",
+   "localidad": "Lobos",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-dos-aprehendidos-cinco-motos-secuestradas-y-21-actas-en-676f78",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "La Policía Comunal de Lobos informó sobre tres intervenciones desarrolladas durante el fin de semana en el distrito.\n\nEl primer caso ocurrió el 31 de octubre en 25 de Mayo y Buenos Aires, donde un hombre de 41 años fue aprehendido por resistencia a la autoridad tras agredir a un uniformado.\n\nEn otro procedimiento, dos menores fueron demorados en Laguna de Lobos en poder de una moto Honda GLH roja sin patente que tenía pedido de secuestro activo.\n\nFinalmente, un operativo de saturación vehicular conjunto dejó un saldo de 21 actas de infracción y cinco motocicletas incautadas.\n\n📲 Más noticias de Lobos en www.diariolacampaña.com.ar\n\n#Lobos #Policiales #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Lobos: dos aprehendidos, cinco motos secuestradas y 21 actas viales",
+   "urgente": false,
+   "video_bytes": 170116,
+   "video_mb": 0.2,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_04_lobos_lobos-dos-aprehendidos-cinco-m.mp4",
+   "volanta": "Operativos policiales en Lobos",
+   "youtube_url": "https://youtube.com/shorts/4kFHFmyvdec"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html": {
    "categoria": "robo",
@@ -15145,60 +15144,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_56e46b4aea_pymes-industriales-la-produccion-cayo-casi-12-y.mp4",
    "viral": false
   },
-  "nacionales:ae9e5a4804b66987|tiktok": {
-   "actualizado": "2026-10-23T23:00:24.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "nacionales:ae9e5a4804b66987|tiktok",
-   "creado": "2026-10-23T23:00:18.000Z",
-   "dueAt": "",
-   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
-   "estado": "descartado",
-   "generado": "2026-10-23T22:45:55.000Z",
-   "id": "nacionales:ae9e5a4804b66987",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "ARCA y Banco Ciudad rematan vinos de alta gama y tecnología desde $50.000\n\nEl Banco Ciudad realizará dos subastas online los días 5 y 12 de noviembre por cuenta de ARCA. Habrá más de 1.100 botellas de vino y whiskys, además de consolas Pioneer, parlantes JBL y equipos de audio.\n\nhttps://www.diariolacampaña.com.ar/n/arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a\n\n#chivilcoy #diariolacampaña #radiodelcentro #economía #Economia",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "ARCA y Banco Ciudad rematan vinos de alta gama y tecnología desde $50.000",
-   "urgente": false,
-   "vence": "2026-10-24T16:45:55.000Z",
-   "video_bytes": 80162,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
-   "viral": false
-  },
-  "nacionales:ae9e5a4804b66987|x": {
-   "actualizado": "2026-10-23T23:00:24.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:ae9e5a4804b66987|x",
-   "creado": "2026-10-23T23:00:18.000Z",
-   "dueAt": "",
-   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
-   "estado": "descartado",
-   "generado": "2026-10-23T22:45:55.000Z",
-   "id": "nacionales:ae9e5a4804b66987",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a",
-   "noticia": "nota:arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "ARCA y Banco Ciudad rematan vinos de alta gama y tecnología desde $50.000\n\nEl Banco Ciudad realizará dos subastas online los días 5 y 12 de noviembre por cuenta de ARCA.\n\nhttps://www.diariolacampaña.com.ar/n/arca-remata-vinos-de-alta-gama-whiskys-y-tecnologia-con-precios-ae9e5a",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "ARCA y Banco Ciudad rematan vinos de alta gama y tecnología desde $50.000",
-   "urgente": false,
-   "vence": "2026-10-24T00:45:55.000Z",
-   "video_bytes": 80162,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_ae9e5a4804_arca-y-banco-ciudad-rematan-vinos-de-alta-gama-y.mp4",
-   "viral": false
-  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -15605,6 +15550,34 @@
    "video_bytes": 86004,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-25_2134_01_pergamino_dos-polic-as-demorados-y-dos-j.mp4",
    "viral": true
+  },
+  "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/|x": {
+   "actualizado": "2026-11-02T23:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/|x",
+   "creado": "2026-11-02T23:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-02T23:02:34.000Z",
+   "id": "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-dos-aprehendidos-cinco-motos-secuestradas-y-21-actas-en-676f78",
+   "noticia": "nota:lobos-dos-aprehendidos-cinco-motos-secuestradas-y-21-actas-en-676f78",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Lobos: dos aprehendidos, cinco motos secuestradas y 21 actas viales\n\nLa Policía Comunal concretó tres procedimientos durante el fin de semana. Hubo arrestos, secuestros de rodados e infracciones viales.\n\nhttps://www.diariolacampaña.com.ar/n/lobos-dos-aprehendidos-cinco-motos-secuestradas-y-21-actas-en-676f78",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Lobos: dos aprehendidos, cinco motos secuestradas y 21 actas viales",
+   "urgente": false,
+   "vence": "2026-11-03T01:02:34.000Z",
+   "video_bytes": 170116,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_04_lobos_lobos-dos-aprehendidos-cinco-m.mp4",
+   "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html|x": {
    "actualizado": "2026-10-28T00:40:18.000Z",
@@ -21728,14 +21701,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tiktok",
-   "cuando": "2026-10-28T01:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:27dff6dd-cc71-429b-b4b6-cd136b76a346|x",
    "cuando": "2026-10-28T01:00:19.000Z",
    "estado": "descartado",
@@ -25917,6 +25882,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/|x",
+   "cuando": "2026-11-02T23:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -26338,6 +26311,7 @@
   "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego": "2026-10-16T00:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana": "2026-10-15T02:00:18.000Z",
   "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/": "2026-10-16T19:00:17.000Z",
+  "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/": "2026-11-02T23:20:15.000Z",
   "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/": "2026-10-15T19:20:15.000Z",
   "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/": "2026-10-17T19:00:17.000Z",
   "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": "2026-10-12T18:20:14.000Z",
