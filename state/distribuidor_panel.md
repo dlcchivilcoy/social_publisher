@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 01/11/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 01/11/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-01)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 01/11/2026 22:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 3 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -18,8 +18,8 @@ Actualizado: 01/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 24 con métricas · mediana vistas/impresiones 26.5 · likes 0
-- X · Reels del bot: 75 con métricas · mediana vistas/impresiones 29 · likes 0
-- X · Reels policiales: 19 con métricas · mediana vistas/impresiones 40 · likes 0
+- X · Reels del bot: 74 con métricas · mediana vistas/impresiones 29.5 · likes 0
+- X · Reels policiales: 18 con métricas · mediana vistas/impresiones 39 · likes 0
 - X · Notas web: 52 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 131 · likes 1
 - TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 258.5 · likes 3
@@ -29,8 +29,7 @@ Actualizado: 01/11/2026 22:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 149 de 150 · 24h: quedan 589 de 600 · 30d: quedan 890 de 2000 (visto 2026-11-01T22:40:16.000Z)
 
-## Cola propia (2 esperando)
-- X · Reels policiales · Delincuente robó dulce de leche de una conocida panadería — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (1 esperando)
 - X · Reels policiales · Controlaron un principio de incendio en una cocina de calle Jean Jaures — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
@@ -41,7 +40,6 @@ Actualizado: 01/11/2026 22:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-01T12:40 enviado bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x 
 - 2026-11-01T13:00 programado bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok 
 - 2026-11-01T13:00 programado bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok 
 - 2026-11-01T13:00 programado bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok 
@@ -66,3 +64,4 @@ Actualizado: 01/11/2026 22:20 (hora AR) · ACTIVO
 - 2026-11-02T00:20 recibido policiales:https://junin24.com/locales/solo-danos-materiales 
 - 2026-11-02T00:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/la-semana espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-02T01:20 vencido policiales:https://9dejulio.diariotiempodigital.com/sociedad espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-02T01:40 vencido policiales:https://junin24.com/locales/robaron-en-panaderia- espera su momento (se programa cerca de la hora en que sale en las otras redes)
