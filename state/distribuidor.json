@@ -2696,6 +2696,32 @@
    "volanta": "Operativo policial en Arrecifes",
    "youtube_url": "https://youtube.com/shorts/PtODhCE9o_c"
   },
+  "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion": {
+   "categoria": "otro_policial",
+   "descripcion": "La joven de 21 años que resultó herida durante un operativo de persecución policial en Arrecifes fue derivada al Hospital San Martín de La Plata para recibir atención de mayor complejidad.",
+   "distancia_km": 92.6,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-02T23:31:27.000Z",
+   "id": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion",
+   "localidad": "Arrecifes",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arrecifes-trasladaron-a-la-plata-a-la-joven-herida-durante-una-62cba1",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Una joven de 21 años que sufrió heridas durante una persecución policial en Arrecifes fue derivada de urgencia para recibir atención médica especializada.\n\nEl traslado se concretó desde el Hospital San José de Pergamino hacia el Hospital San Martín de La Plata.\n\nSu estado requiere asistencia de mayor complejidad y las actuaciones continúan para esclarecer las circunstancias del hecho.\n\n📲 Más noticias de Arrecifes en www.diariolacampaña.com.ar\n\n#Arrecifes #PersecucionPolicial #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Derivaron a La Plata a la joven herida tras una persecución policial",
+   "urgente": false,
+   "video_bytes": 137218,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_05_pergamino_derivaron-a-la-plata-a-la-jove.mp4",
+   "volanta": "Traslado sanitario en Arrecifes",
+   "youtube_url": "https://youtube.com/shorts/3pbXLEVJkdw"
+  },
   "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/": {
    "categoria": "operativo_policial",
    "descripcion": "El sospechoso saltó un portón y rompió vidrios para ingresar a un local comercial durante la madrugada del viernes. Quedó alojado a disposición de la Justicia.",
@@ -6250,25 +6276,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-octubre-amplio-la-estadistica-ola-de-incendios-vehiculares",
    "volanta": ""
-  },
-  "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd": {
-   "categoria": "",
-   "descripcion": "El Rally Regional puso en marcha su penúltima fecha El Rally Regional puso en marcha su penúltima fecha con la clásica largada simbólica frente al Palacio Municipal, dando inicio formal a la competencia en Chivilcoy. Superadas las verificaciones previas, la carrera cuenta con un recorrido total de 121,66 kilómetros de pruebas especiales distribuidos en dos etapas sobre caminos rurales. La primera etapa se desarrolla este sábado con un total de 59,11 kilómetros de velocidad pura. El cronograma...",
-   "generado": "2026-10-23T23:33:01.370Z",
-   "id": "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_da14bc111817406d8f0f85f711116f49~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "El Rally Regional puso en marcha su penúltima fecha",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
-   "volanta": "Chivilcoy · Deportes"
   },
   "web:cb5bd56e-c625-4389-948e-845e3cd94779": {
    "categoria": "",
@@ -15292,6 +15299,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_04_pergamino_joven-baleada-en-arrecifes-fam.mp4",
    "viral": false
   },
+  "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion|x": {
+   "actualizado": "2026-11-02T23:40:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion|x",
+   "creado": "2026-11-02T23:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-02T23:31:27.000Z",
+   "id": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/arrecifes-trasladaron-a-la-plata-a-la-joven-herida-durante-una-62cba1",
+   "noticia": "nota:arrecifes-trasladaron-a-la-plata-a-la-joven-herida-durante-una-62cba1",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Derivaron a La Plata a la joven herida tras una persecución policial\n\nLa joven de 21 años herida en Arrecifes fue trasladada al Hospital San Martín para recibir atención de mayor complejidad.\n\nhttps://www.diariolacampaña.com.ar/n/arrecifes-trasladaron-a-la-plata-a-la-joven-herida-durante-una-62cba1",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Derivaron a La Plata a la joven herida tras una persecución policial",
+   "urgente": false,
+   "vence": "2026-11-03T01:31:27.000Z",
+   "video_bytes": 137218,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_05_pergamino_derivaron-a-la-plata-a-la-jove.mp4",
+   "viral": false
+  },
   "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/|x": {
    "actualizado": "2026-11-02T22:40:16.000Z",
    "buffer_id": "",
@@ -20457,31 +20492,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd|x": {
-   "actualizado": "2026-10-23T23:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd|x",
-   "creado": "2026-10-23T23:40:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-23T23:33:01.370Z",
-   "id": "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
-   "noticia": "nota:chivilcoy-deportes-el-rally-regional-puso-en-marcha-su-penultima-fecha",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Rally Regional puso en marcha su penúltima fecha",
-   "urgente": false,
-   "vence": "2026-10-24T03:33:01.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:cb5bd56e-c625-4389-948e-845e3cd94779|x": {
    "actualizado": "2026-11-02T12:20:13.000Z",
    "buffer_id": "6ae8603bbc7258b27b3dcfb6",
@@ -21700,14 +21710,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:27dff6dd-cc71-429b-b4b6-cd136b76a346|x",
-   "cuando": "2026-10-28T01:00:19.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
   {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/26592-la-justicia-confirmo-la-prision-preventiva-de-german-diaz-y-el-concejo-deliberante-definira-su-reemplazo|x",
    "cuando": "2026-10-28T01:20:15.000Z",
@@ -25890,6 +25892,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion|x",
+   "cuando": "2026-11-02T23:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -26284,6 +26294,7 @@
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": "2026-10-16T13:00:18.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura": "2026-10-26T09:00:18.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron": "2026-10-26T23:20:14.000Z",
+  "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion": "2026-11-02T23:40:16.000Z",
   "policiales:https://infoarenales.com/2026/10/15/un-fiscal-espanol-pidio-que-se-investigue-a-julio-iglesias-por-abuso-sexual-y-explotacion-laboral/": "2026-10-16T00:00:21.000Z",
   "policiales:https://infoarenales.com/2026/10/16/ofrecen-hasta-10-millones-de-recompensa-para-esclarecer-un-crimen-en-mar-del-plata/": "2026-10-16T16:00:18.000Z",
   "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/": "2026-11-02T22:40:16.000Z",
