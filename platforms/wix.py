@@ -250,12 +250,41 @@ def _category_ids(page: int = 0, title: str = "", body: str = "",
     return cats
 
 
+MEDIA_UPLOAD_URL = "https://www.wixapis.com/site-media/v1/files/generate-upload-url"
+
+
+def _subir_imagen_directo(headers: dict, image_path: Path, nombre: str, mime: str) -> tuple[str, str]:
+    """Sube la imagen DIRECTO al Media Manager de Wix (pide una URL de subida y le manda los bytes),
+    sin pasar por un hosting intermedio. Devuelve (file_id, url de la imagen en Wix).
+
+    2026-11-02: el Editor de notas de la notebook no podía crear notas («ImgBB rechaza la clave»):
+    ImgBB dio de baja la clave el 18/10 y el respaldo en GitHub necesita un GITHUB_TOKEN que en la
+    PC no está. Así ninguna nota depende de ImgBB ni de GitHub para su foto."""
+    ext = Path(image_path).suffix.lower() or ".jpg"
+    r = _post(MEDIA_UPLOAD_URL, headers=headers,
+              json={"mimeType": mime, "fileName": f"{nombre}{ext}"}, timeout=30)
+    _raise_for_status(r, "pedir la URL de subida de la imagen")
+    subida = r.json()["uploadUrl"]
+    put = requests.put(subida, params={"filename": f"{nombre}{ext}"}, headers={"Content-Type": mime},
+                       data=Path(image_path).read_bytes(), timeout=120)
+    _raise_for_status(put, "subir la imagen a Wix")
+    f = put.json().get("file") or {}
+    if not f.get("id"):
+        raise RuntimeError(f"Wix no devolvió el archivo subido: {put.text[:200]}")
+    return f["id"], f.get("url") or ""
+
+
 def _importar_imagen(headers: dict, image_path: Path, title: str) -> tuple[str, str]:
-    """Sube la imagen a ImgBB (o GitHub si ImgBB no sirve) y la importa al Media Manager
-    de Wix con nombre descriptivo. Devuelve (file_id, image_url)."""
-    image_url = url_imagen_verificada(image_path)
+    """Sube la imagen al Media Manager de Wix con nombre descriptivo. Devuelve (file_id, image_url).
+    Primero DIRECTO a Wix (`_subir_imagen_directo`); si eso falla, como antes: ImgBB (o GitHub si
+    ImgBB no sirve) y Wix la importa desde esa URL."""
     mime = "image/png" if Path(image_path).suffix.lower() == ".png" else "image/jpeg"
     nombre_archivo = _slugify(title)[:80] or "nota"
+    try:
+        return _subir_imagen_directo(headers, Path(image_path), nombre_archivo, mime)
+    except Exception as e:  # noqa: BLE001 — queda el camino de siempre
+        logger.warning(f"[wix] la subida directa de la imagen falló ({e}); pruebo importándola desde una URL…")
+    image_url = url_imagen_verificada(image_path)
     imp = _post(MEDIA_IMPORT_URL, headers=headers,
                         json={"mediaType": "IMAGE", "url": image_url, "mimeType": mime,
                               "displayName": nombre_archivo}, timeout=30)
