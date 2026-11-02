@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-02T14:20:24.000Z"
+   "visto": "2026-11-02T15:40:26.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 10
+    "scheduled": 0,
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-11-02T14:20:24.000Z"
+   "visto": "2026-11-02T15:40:26.000Z"
   }
  },
  "contenidos": {
@@ -7334,17 +7334,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 587,
-   "segundos": 71058,
+   "restantes": 586,
+   "segundos": 66257,
    "tope": 600
   },
   "30d": {
-   "restantes": 876,
-   "segundos": 715816,
+   "restantes": 875,
+   "segundos": 711014,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-02T14:20:25.000Z",
+ "cuota_visto": "2026-11-02T15:40:26.000Z",
  "metricas_buffer": {
   "con_metricas": 54,
   "disponible": true,
@@ -20342,19 +20342,20 @@
    "viral": false
   },
   "web:987bd392-013a-42fa-93e2-03b50c823a35|x": {
-   "actualizado": "2026-11-02T13:00:21.000Z",
+   "actualizado": "2026-11-02T15:40:26.000Z",
    "buffer_id": "6ae8896b3911b6a45d4e53cc",
    "clave": "web:987bd392-013a-42fa-93e2-03b50c823a35|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "2026-11-02T14:23:51.000Z",
+   "enviado": "2026-11-02T14:24:02.956Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-02T10:03:12.454Z",
    "id": "web:987bd392-013a-42fa-93e2-03b50c823a35",
    "ig_hora": "2026-11-02T14:23:00.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117261456282472615",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-pura-contundencia-nicolena-somisa-mantiene-el",
    "noticia": "nota:basquet-chivilcoy-pura-contundencia-nicolena-somisa-mantiene-el",
    "origen": "web",
@@ -22560,13 +22561,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae110e8b017df23970aafd4",
-   "clave": "entrevistas:job00253|tiktok",
-   "cuando": "2026-10-27T21:00:25.000Z",
-   "dueAt": "2026-10-27T22:03:48.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae110e9e2341add8c5b082b",
    "clave": "entrevistas:job00252|tiktok",
@@ -26752,6 +26746,12 @@
    "cuando": "2026-11-02T14:20:25.000Z",
    "evento": "enviado",
    "link": "https://twitter.com/diarioyradio/status/2117246287523229817"
+  },
+  {
+   "clave": "web:987bd392-013a-42fa-93e2-03b50c823a35|x",
+   "cuando": "2026-11-02T15:40:26.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117261456282472615"
   }
  ],
  "tandas": {
@@ -26789,7 +26789,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-02",
- "ultima_sync": "2026-11-02T14:20:24.000Z",
+ "ultima_sync": "2026-11-02T15:40:26.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
