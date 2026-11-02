@@ -7721,22 +7721,22 @@
  },
  "cuota": {
   "15m": {
-   "restantes": 148,
-   "segundos": 636,
+   "restantes": 149,
+   "segundos": 900,
    "tope": 150
   },
   "24h": {
-   "restantes": 599,
-   "segundos": 86400,
+   "restantes": 598,
+   "segundos": 85468,
    "tope": 600
   },
   "30d": {
-   "restantes": 888,
-   "segundos": 731158,
+   "restantes": 887,
+   "segundos": 730225,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-02T10:04:43.000Z",
+ "cuota_visto": "2026-11-02T10:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 54,
   "disponible": true,
@@ -22358,14 +22358,14 @@
    "viral": false
   },
   "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x": {
-   "actualizado": "2026-11-02T10:03:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-02T10:20:15.000Z",
+   "buffer_id": "6ae863e04a24ce7f363585bf",
    "clave": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x",
    "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-02T11:38:37.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-02T10:01:31.030Z",
    "id": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2",
    "intentos": 0,
@@ -23816,14 +23816,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00252|tiktok",
-   "cuando": "2026-10-27T17:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "buffer_id": "6ae0dd524490ad849033e11e",
    "clave": "entrevistas:job00252|x",
@@ -28019,6 +28011,13 @@
    "clave": "web:cb5bd56e-c625-4389-948e-845e3cd94779|x",
    "cuando": "2026-11-02T10:04:43.000Z",
    "dueAt": "2026-11-02T11:23:07.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae863e04a24ce7f363585bf",
+   "clave": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x",
+   "cuando": "2026-11-02T10:20:16.000Z",
+   "dueAt": "2026-11-02T11:38:37.000Z",
    "evento": "programado"
   }
  ],

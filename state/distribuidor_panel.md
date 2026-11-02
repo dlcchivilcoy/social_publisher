@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 07:04 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 02/11/2026 07:04 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 2 | 12 | 0 | 0 | 2 |
+| Notas web | X | 15 | 0 | 3 | 11 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,10 +27,9 @@ Actualizado: 02/11/2026 07:04 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 148 de 150 · 24h: quedan 599 de 600 · 30d: quedan 888 de 2000 (visto 2026-11-02T10:04:43.000Z)
+15m: quedan 149 de 150 · 24h: quedan 598 de 600 · 30d: quedan 887 de 2000 (visto 2026-11-02T10:20:16.000Z)
 
-## Cola propia (12 esperando)
-- X · Notas web · 🔴 URGENTE · Chivilcoy: Ventanilla Única Digital de Habilitaciones — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (11 esperando)
 - X · Notas web · Chivilcoy: Pura contundencia nicoleña: Somisa mantiene el invicto y Belgrano ase — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Un final vibrante: Racing de Chivilcoy cayó por la mínima ante Atenas en Córdoba — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Angelina Reyes: récord, triunfo en los 21K y la mirada puesta en Chil — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -51,7 +50,6 @@ Actualizado: 02/11/2026 07:04 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-01T23:20 recibido policiales:https://9dejulio.diariotiempodigital.com/sociedad 
 - 2026-11-01T23:40 recibido policiales:https://junin24.com/locales/robaron-en-panaderia- 
 - 2026-11-02T00:20 recibido policiales:https://junin24.com/locales/solo-danos-materiales 
 - 2026-11-02T00:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/la-semana espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -76,3 +74,4 @@ Actualizado: 02/11/2026 07:04 (hora AR) · ACTIVO
 - 2026-11-02T10:04 recibido web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e|x 
 - 2026-11-02T10:04 programado web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x 
 - 2026-11-02T10:04 programado web:cb5bd56e-c625-4389-948e-845e3cd94779|x 
+- 2026-11-02T10:20 programado web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x 
