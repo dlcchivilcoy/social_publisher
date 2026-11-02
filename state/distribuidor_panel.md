@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 09:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 02/11/2026 09:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 7 | 2 | 0 | 0 | 6 |
+| Notas web | X | 15 | 4 | 4 | 2 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 4 enviadas + 3 programadas de 100 por día
+- X: conectado · Buffer: 6 enviadas + 3 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,7 +27,7 @@ Actualizado: 02/11/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 592 de 600 · 30d: quedan 881 de 2000 (visto 2026-11-02T12:00:24.000Z)
+15m: quedan 149 de 150 · 24h: quedan 591 de 600 · 30d: quedan 880 de 2000 (visto 2026-11-02T12:20:14.000Z)
 
 ## Cola propia (2 esperando)
 - X · Notas web · Chivilcoy: Pura contundencia nicoleña: Somisa mantiene el invicto y Belgrano ase — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -41,9 +41,6 @@ Actualizado: 02/11/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T10:03 recibido web:088386b2-2c10-423c-848f-4605d2b2e0e5|x la misma noticia ya sale en X (Notas web, pendiente)
-- 2026-11-02T10:03 recibido web:1220ed02-91e7-42b8-b751-204f3ecd4e28|x la misma noticia ya sale en X (Notas web, pendiente)
-- 2026-11-02T10:03 recibido web:2c6f475b-bc10-4a41-b949-4390268a7b97|x 
 - 2026-11-02T10:04 recibido web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x 
 - 2026-11-02T10:04 recibido web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x 
 - 2026-11-02T10:04 recibido web:cb5bd56e-c625-4389-948e-845e3cd94779|x 
@@ -66,3 +63,6 @@ Actualizado: 02/11/2026 09:00 (hora AR) · ACTIVO
 - 2026-11-02T11:40 programado web:00e5dd74-44ac-4950-93b6-b45c439734be|x 
 - 2026-11-02T11:40 programado web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x 
 - 2026-11-02T12:00 programado web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x 
+- 2026-11-02T12:20 enviado web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x 
+- 2026-11-02T12:20 enviado web:cb5bd56e-c625-4389-948e-845e3cd94779|x 
+- 2026-11-02T12:20 enviado web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x 
