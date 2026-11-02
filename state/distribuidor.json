@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-02T12:20:13.000Z"
+   "visto": "2026-11-02T13:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 3,
-    "sent": 6
+    "sent": 8
    },
    "pausado": false,
-   "visto": "2026-11-02T12:20:13.000Z"
+   "visto": "2026-11-02T13:20:16.000Z"
   }
  },
  "contenidos": {
@@ -6008,25 +6008,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-fecha-10-del-torneo-clausura-con-interesantes-enfrentamientos",
    "volanta": "Fútbol"
   },
-  "web:96fc984a-5682-4bad-8148-1f36bdb208c1": {
-   "categoria": "",
-   "descripcion": "Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos Un camión cerealero Ford protagonizó un despiste y posterior vuelco durante la tarde del jueves 22 de octubre sobre la Ruta Nacional 5. El hecho se registró a la altura del kilómetro 148, en jurisdicción de Chivilcoy, cuando el vehículo circulaba en sentido Suipacha–Chivilcoy. Tras salir de la calzada, el camión quedó volcado sobre su lateral derecho en la zona de préstamo de la ruta. A pesar de las características del...",
-   "generado": "2026-10-23T13:11:34.203Z",
-   "id": "web:96fc984a-5682-4bad-8148-1f36bdb208c1",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b14f71a738f94f7f8707f3799040f45d~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-5-accidente-un-camion-cerealero-volco-en-la-ruta-5-y-dos",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-5-accidente-un-camion-cerealero-volco-en-la-ruta-5-y-dos",
-   "volanta": "Ruta 5 · Accidente"
-  },
   "web:987bd392-013a-42fa-93e2-03b50c823a35": {
    "categoria": "",
    "descripcion": "Chivilcoy: Pura contundencia nicoleña: Somisa mantiene el invicto y Belgrano aseguró su pasaje a la Liga Federal 2027 El Torneo Prefederal Bonaerense de Basquetbol completó su octava jornada con un saldo inmejorable para los equipos de San Nicolás. Por un lado, Somisa derrotó en casa a Colón de Chivilcoy y extendió su impecable marcha a ocho triunfos consecutivos para ratificarse como único puntero de la Zona ‘D’; por el otro, Belgrano batalló en Chacabuco ante Porteño, se quedó con una...",
@@ -7536,17 +7517,17 @@
    "tope": 150
   },
   "24h": {
-   "restantes": 589,
-   "segundos": 75862,
+   "restantes": 588,
+   "segundos": 74667,
    "tope": 600
   },
   "30d": {
-   "restantes": 878,
-   "segundos": 720619,
+   "restantes": 877,
+   "segundos": 719424,
    "tope": 2000
   }
  },
- "cuota_visto": "2026-11-02T13:00:29.000Z",
+ "cuota_visto": "2026-11-02T13:20:16.000Z",
  "metricas_buffer": {
   "con_metricas": 54,
   "disponible": true,
@@ -7654,31 +7635,6 @@
    "titulo": "Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad",
    "urgente": false,
    "vence": "2026-10-25T13:00:49.000Z",
-   "video_bytes": 461279,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d10b826d1157389.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|x": {
-   "actualizado": "2026-10-23T13:20:15.000Z",
-   "buffer_id": "",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|x",
-   "creado": "2026-10-23T13:20:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Notas web, programado)",
-   "estado": "descartado",
-   "generado": "2026-10-23T13:00:49.000Z",
-   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
-   "noticia": "nota:chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad",
-   "urgente": false,
-   "vence": "2026-10-23T15:00:49.000Z",
    "video_bytes": 461279,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d10b826d1157389.mp4",
    "viral": false
@@ -17967,19 +17923,20 @@
    "viral": false
   },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be|x": {
-   "actualizado": "2026-11-02T11:40:19.000Z",
+   "actualizado": "2026-11-02T13:20:16.000Z",
    "buffer_id": "6ae876a3339e85e6016a8d44",
    "clave": "web:00e5dd74-44ac-4950-93b6-b45c439734be|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "2026-11-02T12:53:39.000Z",
+   "enviado": "2026-11-02T12:53:46.270Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-02T10:02:56.029Z",
    "id": "web:00e5dd74-44ac-4950-93b6-b45c439734be",
    "ig_hora": "2026-11-02T12:53:00.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117238737063100808",
    "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-luis-molina-brillo-en-chivilcoy-se-quedo-con-los-21k-de-la-1",
    "noticia": "nota:atletismo-luis-molina-brillo-en-chivilcoy-se-quedo-con-los-21k-de-la-1",
    "origen": "web",
@@ -18659,19 +18616,20 @@
    "viral": false
   },
   "web:2c6f475b-bc10-4a41-b949-4390268a7b97|x": {
-   "actualizado": "2026-11-02T11:20:20.000Z",
+   "actualizado": "2026-11-02T13:20:16.000Z",
    "buffer_id": "6ae871f597ae21595d5343a2",
    "clave": "web:2c6f475b-bc10-4a41-b949-4390268a7b97|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "2026-11-02T12:38:54.000Z",
+   "enviado": "2026-11-02T12:39:01.649Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-02T10:02:27.267Z",
    "id": "web:2c6f475b-bc10-4a41-b949-4390268a7b97",
    "ig_hora": "2026-11-02T12:38:00.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117235026840408269",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-torneo-clausura-gimnasia-dio-el-golpe-ante-florencio",
    "noticia": "nota:futbol-chivilcoy-torneo-clausura-gimnasia-dio-el-golpe-ante-florencio",
    "origen": "web",
@@ -20328,19 +20286,20 @@
    "viral": false
   },
   "web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x": {
-   "actualizado": "2026-11-02T11:40:19.000Z",
+   "actualizado": "2026-11-02T13:20:16.000Z",
    "buffer_id": "6ae876a4146ca029aa15d21a",
    "clave": "web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x",
    "creado": "2026-11-02T10:03:22.000Z",
    "dueAt": "2026-11-02T13:08:52.000Z",
+   "enviado": "2026-11-02T13:09:02.941Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-02T10:03:02.077Z",
    "id": "web:816a3792-59b4-4a7e-af9a-a442a4ba3443",
    "ig_hora": "2026-11-02T13:08:00.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117242581394374685",
    "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-chivilcoy-angelina-reyes-record-triunfo-en-los-21k-y-la-1",
    "noticia": "nota:atletismo-chivilcoy-angelina-reyes-record-triunfo-en-los-21k-y-la-1",
    "origen": "web",
@@ -20950,31 +20909,6 @@
    "titulo": "Fecha 10° del Torneo Clausura con interesantes enfrentamientos por la punta del certamen y juegos directos por la clasificación",
    "urgente": false,
    "vence": "2026-10-23T14:02:59.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:96fc984a-5682-4bad-8148-1f36bdb208c1|x": {
-   "actualizado": "2026-10-23T13:20:15.000Z",
-   "buffer_id": "",
-   "clave": "web:96fc984a-5682-4bad-8148-1f36bdb208c1|x",
-   "creado": "2026-10-23T13:20:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-23T13:11:34.203Z",
-   "id": "web:96fc984a-5682-4bad-8148-1f36bdb208c1",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-5-accidente-un-camion-cerealero-volco-en-la-ruta-5-y-dos",
-   "noticia": "nota:ruta-5-accidente-un-camion-cerealero-volco-en-la-ruta-5-y-dos",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron ilesos",
-   "urgente": false,
-   "vence": "2026-10-23T17:11:34.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -23260,25 +23194,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00253|x",
-   "cuando": "2026-10-27T19:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115142805911711766"
-  },
-  {
-   "clave": "entrevistas:job00254|x",
-   "cuando": "2026-10-27T19:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115147231791583742"
-  },
-  {
-   "buffer_id": "6ae110e64e914b3cee29a19b",
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tiktok",
-   "cuando": "2026-10-27T21:00:25.000Z",
-   "dueAt": "2026-10-27T21:03:09.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae110e72f35d654faed57b7",
    "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tiktok",
@@ -27455,6 +27370,24 @@
    "cuando": "2026-11-02T13:00:29.000Z",
    "dueAt": "2026-11-02T14:23:51.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:00e5dd74-44ac-4950-93b6-b45c439734be|x",
+   "cuando": "2026-11-02T13:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117238737063100808"
+  },
+  {
+   "clave": "web:2c6f475b-bc10-4a41-b949-4390268a7b97|x",
+   "cuando": "2026-11-02T13:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117235026840408269"
+  },
+  {
+   "clave": "web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x",
+   "cuando": "2026-11-02T13:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117242581394374685"
   }
  ],
  "tandas": {
@@ -27492,7 +27425,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-02",
- "ultima_sync": "2026-11-02T12:20:13.000Z",
+ "ultima_sync": "2026-11-02T13:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 10:00 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 10:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 02/11/2026 10:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 4 | 6 | 0 | 0 | 0 | 6 |
+| Notas web | X | 15 | 7 | 3 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 6 enviadas + 3 programadas de 100 por día
+- X: conectado · Buffer: 8 enviadas + 3 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,7 +27,7 @@ Actualizado: 02/11/2026 10:00 (hora AR) · ACTIVO
 - TikTok · Nacionales y categorías: 1 con métricas · mediana vistas/impresiones 410 · likes 2 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
-15m: quedan 149 de 150 · 24h: quedan 589 de 600 · 30d: quedan 878 de 2000 (visto 2026-11-02T13:00:29.000Z)
+15m: quedan 149 de 150 · 24h: quedan 588 de 600 · 30d: quedan 877 de 2000 (visto 2026-11-02T13:20:16.000Z)
 
 ## Cola propia (0 esperando)
 
@@ -39,9 +39,6 @@ Actualizado: 02/11/2026 10:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T10:04 recibido web:cb5bd56e-c625-4389-948e-845e3cd94779|x 
-- 2026-11-02T10:04 recibido web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x 
-- 2026-11-02T10:04 recibido web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x 
 - 2026-11-02T10:04 recibido web:94a1ed2f-6e3d-4321-8824-5f14bd63f880|x 
 - 2026-11-02T10:04 recibido web:eaacf3db-efb8-47ba-a1c1-76b857c7021f|x 
 - 2026-11-02T10:04 recibido web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e|x 
@@ -64,3 +61,6 @@ Actualizado: 02/11/2026 10:00 (hora AR) · ACTIVO
 - 2026-11-02T12:20 enviado web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x 
 - 2026-11-02T12:40 programado web:2cd145f9-d647-4204-81bc-4c12d0944591|x 
 - 2026-11-02T13:00 programado web:987bd392-013a-42fa-93e2-03b50c823a35|x 
+- 2026-11-02T13:20 enviado web:00e5dd74-44ac-4950-93b6-b45c439734be|x 
+- 2026-11-02T13:20 enviado web:2c6f475b-bc10-4a41-b949-4390268a7b97|x 
+- 2026-11-02T13:20 enviado web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x 
