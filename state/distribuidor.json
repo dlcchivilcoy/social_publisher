@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-02T17:20:18.000Z"
+   "visto": "2026-11-02T18:20:35.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 12
+    "sent": 13
    },
    "pausado": false,
-   "visto": "2026-11-02T17:20:18.000Z"
+   "visto": "2026-11-02T18:20:35.000Z"
   }
  },
  "contenidos": {
@@ -1271,6 +1271,27 @@
    "video_mb": 0.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b059500b63ffda72.mp4",
    "youtube_url": "https://www.youtube.com/shorts/TnPtXPfVCMs"
+  },
+  "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl": {
+   "descripcion": "Una vecina de Chivilcoy hizo público un reclamo por hechos de inseguridad que, según sostuvo, se registran en la zona de Tomasso. En su publicación, advirtió sobre el robo de instalaciones eléctricas completas de maquinaria agrícola para sustraer cobre, provocando importantes daños.",
+   "duracion_seg": 30.0,
+   "generado": "2026-11-02T18:15:04.000Z",
+   "id": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola",
+   "urgente": false,
+   "video_bytes": 532175,
+   "video_mb": 0.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ce67196207b0fb8.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/f1IMzY6aT6M"
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
@@ -3704,32 +3725,6 @@
    "volanta": "Operativo policial en Junín",
    "youtube_url": "https://youtube.com/shorts/lB0TtqyIwoc"
   },
-  "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": {
-   "categoria": "alerta_meteorologica",
-   "descripcion": "El Servicio Meteorológico Nacional y Defensa Civil emitieron advertencias por precipitaciones intensas, ráfagas de hasta 90 kilómetros por hora y posible caída de granizo en distritos del centro y norte bonaerense durante este jueves.",
-   "distancia_km": 61.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-23T00:00:55.000Z",
-   "id": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/",
-   "localidad": "25 de Mayo",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 9,
-   "radio_ok": true,
-   "texto_tiktok": "El Servicio Meteorológico Nacional junto a Defensa Civil lanzaron advertencias de niveles amarillo y naranja para varios partidos del territorio bonaerense.\n\nSe esperan chaparrones intensos, actividad eléctrica constante, ráfagas muy fuertes que podrían alcanzar los 90 kilómetros por hora y posible caída de granizo.\n\nLos acumulados de agua estimados rondarán entre los 40 y 70 milímetros en las zonas bajo advertencia amarilla, mientras que en las áreas con nivel naranja podrían trepar hasta los 100 milímetros.\n\n📲 Más noticias de 25 de Mayo en www.diariolacampaña.com.ar\n\n#25DeMayo #AlertaMeteorologica #Tormentas #DefensaCivil #BuenosAires",
-   "tipo": "video",
-   "titulo": "Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos Aires",
-   "urgente": true,
-   "video_bytes": 86547,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_02_25-de-mayo_rige-alerta-naranja-y-amarilla.mp4",
-   "volanta": "Alerta en 25 de Mayo",
-   "youtube_url": "https://youtube.com/shorts/w-u1dut_2TM"
-  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/": {
    "categoria": "accidente_vial",
    "descripcion": "El transporte pesado salió de la calzada durante la noche del jueves a la altura de la estancia Los Hornitos. Advierten sobre el peligro del asfalto roto.",
@@ -5104,6 +5099,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/campeonato-regional-con-seis-pruebas-especiales-disputadas-monserratt",
    "volanta": "Campeonato Regional"
   },
+  "web:6541af24-4488-427f-95aa-ae535252bd65": {
+   "categoria": "",
+   "descripcion": "Un viaje que nadie había planeado, un país que te enamora y una pregunta simple: ¿por qué es tan difícil encontrar a alguien de confianza para arreglar algo en casa? ¿Y por qué le cuesta tanto a un buen profesional de oficio conseguir trabajo constante? Hay historias que empiezan con un plan de negocios. La de Servidos empezó con un comentario en internet. Domas, el fundador de Servidos, trabaja como desarrollador web freelance desde 2013, cuando estudiaba economía y negocios en el Reino...",
+   "generado": "2026-11-02T18:17:44.148Z",
+   "id": "web:6541af24-4488-427f-95aa-ae535252bd65",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b6f2a9287a1f468e93141c0ffcc02c6b~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/material-de-prensa-octubre-2026-la-historia-de-servidos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "La historia de Servidos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/material-de-prensa-octubre-2026-la-historia-de-servidos",
+   "volanta": ""
+  },
   "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b": {
    "categoria": "",
    "descripcion": "Actividad de extensión: El CUCH propone una charla sobre nutrición y salud orientada al deporte En el marco de las actividades de extensión que impulsa el Centro Universitario de Chivilcoy (CUCH), se realizará la charla “Nutrición y salud orientada al deporte recreativo y competitivo”, una propuesta que busca acercar a la comunidad herramientas y conocimientos vinculados al cuidado de la salud, la alimentación y el rendimiento deportivo. La actividad se desarrolla en acompañamiento a la 21°...",
@@ -6072,6 +6086,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gravel-destacada-actuacion-del-ciclismo-chivilcoyano-en-el-campeonato",
    "volanta": "Gravel"
+  },
+  "web:a872c57c-897c-4bec-8f45-2e83bffd630f": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola Una vecina de Chivilcoy hizo público un reclamo por hechos de inseguridad que, según sostuvo, se registran en la zona de Tomasso. En su publicación, advirtió sobre el robo de instalaciones eléctricas completas de maquinaria agrícola para sustraer cobre, provocando importantes daños que afectan el trabajo diario, y pidió mayores medidas de prevención. “¿Qué está pasando con la seguridad en la ciudad? ¿Hasta...",
+   "generado": "2026-11-02T18:12:54.271Z",
+   "id": "web:a872c57c-897c-4bec-8f45-2e83bffd630f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_978efeeb2a994f1c934c219c4a195c8f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
+   "volanta": "Chivilcoy · Seguridad"
   },
   "web:aac6f864-9661-40bc-8e13-c03b62c05fed": {
    "categoria": "",
@@ -11300,6 +11333,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b059500b63ffda72.mp4",
    "viral": false
   },
+  "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tiktok": {
+   "actualizado": "2026-11-02T18:20:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tiktok",
+   "creado": "2026-11-02T18:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-02T18:15:04.000Z",
+   "id": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola\n\nUna vecina de Chivilcoy hizo público un reclamo por hechos de inseguridad que, según sostuvo, se registran en la zona de Tomasso. En su publicación, advirtió sobre el robo de instalaciones eléctricas completas de maquinaria agrícola para sustraer cobre, provocando importantes daños.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola",
+   "urgente": false,
+   "vence": "2026-11-04T18:15:04.000Z",
+   "video_bytes": 532175,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ce67196207b0fb8.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x": {
+   "actualizado": "2026-11-02T18:20:35.000Z",
+   "buffer_id": "6ae8d47487c5ea7cde546b3e",
+   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x",
+   "creado": "2026-11-02T18:20:16.000Z",
+   "dueAt": "2026-11-02T18:22:47.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-02T18:15:04.000Z",
+   "id": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
+   "noticia": "nota:chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola\n\nUna vecina de Chivilcoy hizo público un reclamo por hechos de inseguridad que, según sostuvo, se registran en la zona de Tomasso.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola",
+   "urgente": false,
+   "vence": "2026-11-02T20:15:04.000Z",
+   "video_bytes": 532175,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ce67196207b0fb8.mp4",
+   "viral": false
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
    "actualizado": "2026-10-25T00:20:15.000Z",
    "buffer_id": "6add4695bd33ce99c3492b8f",
@@ -15343,18 +15432,19 @@
    "viral": false
   },
   "entrevistas:job00270|x": {
-   "actualizado": "2026-11-02T17:20:18.000Z",
+   "actualizado": "2026-11-02T18:20:35.000Z",
    "buffer_id": "6ae8c653948a9655f41aeefd",
    "clave": "entrevistas:job00270|x",
    "creado": "2026-11-02T17:20:15.000Z",
    "dueAt": "2026-11-02T17:22:19.000Z",
+   "enviado": "2026-11-02T17:22:40.539Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-02T17:20:15.000Z",
    "id": "entrevistas:job00270",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117306409419174264",
    "nota_url": "",
    "noticia": "titulo:decung-escuelas-mailen-mental-ruiz-salud",
    "origen": "entrevistas",
@@ -17020,34 +17110,6 @@
    "video_bytes": 69997,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_04_junin_aprehendieron-a-un-hombre-y-se.mp4",
    "viral": false
-  },
-  "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok": {
-   "actualizado": "2026-10-23T18:20:14.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/|tiktok",
-   "creado": "2026-10-23T00:20:14.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-23T00:00:55.000Z",
-   "id": "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62",
-   "origen": "policiales",
-   "plataforma": "tiktok",
-   "prioridad": 9,
-   "texto": "Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos Aires\n\nEl Servicio Meteorológico Nacional y Defensa Civil emitieron advertencias por precipitaciones intensas, ráfagas de hasta 90 kilómetros por hora y posible caída de granizo en distritos del centro y norte bonaerense durante este jueves.\n\nhttps://www.diariolacampaña.com.ar/n/25-de-mayo-rige-alerta-naranja-y-amarilla-por-tormentas-fuertes-07fc62\n\n#chivilcoy #diariolacampaña #radiodelcentro #25demayo #policiales",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Rige alerta naranja y amarilla por fuertes tormentas en la provincia de Buenos Aires",
-   "urgente": true,
-   "vence": "2026-10-23T18:00:55.000Z",
-   "video_bytes": 86547,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-22_2304_02_25-de-mayo_rige-alerta-naranja-y-amarilla.mp4",
-   "viral": true
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/|tiktok": {
    "actualizado": "2026-10-24T12:40:12.000Z",
@@ -19028,6 +19090,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:6541af24-4488-427f-95aa-ae535252bd65|x": {
+   "actualizado": "2026-11-02T18:20:35.000Z",
+   "buffer_id": "",
+   "clave": "web:6541af24-4488-427f-95aa-ae535252bd65|x",
+   "creado": "2026-11-02T18:20:16.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-02T18:17:44.148Z",
+   "id": "web:6541af24-4488-427f-95aa-ae535252bd65",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/material-de-prensa-octubre-2026-la-historia-de-servidos",
+   "noticia": "nota:material-de-prensa-octubre-2026-la-historia-de-servidos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "La historia de Servidos\n\nLa historia empezó con un comentario en internet tras un viaje no planeado. Domas, su fundador, trabaja como desarrollador web freelance desde 2013.\n\nhttps://www.diariolacampaña.com.ar/n/material-de-prensa-octubre-2026-la-historia-de-servidos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "La historia de Servidos",
+   "urgente": false,
+   "vence": "2026-11-02T22:17:44.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x": {
    "actualizado": "2026-10-28T14:00:23.000Z",
    "buffer_id": "6ae1ed31a2992d2fc00dd97d",
@@ -20546,6 +20635,31 @@
    "titulo": "Destacada actuación del Ciclismo chivilcoyano en el Campeonato Argentino de Mar del Plata",
    "urgente": false,
    "vence": "2026-10-29T14:22:20.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:a872c57c-897c-4bec-8f45-2e83bffd630f|x": {
+   "actualizado": "2026-11-02T18:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:a872c57c-897c-4bec-8f45-2e83bffd630f|x",
+   "creado": "2026-11-02T18:20:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-02T18:12:54.271Z",
+   "id": "web:a872c57c-897c-4bec-8f45-2e83bffd630f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
+   "noticia": "nota:chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola",
+   "urgente": false,
+   "vence": "2026-11-02T22:12:54.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -22383,56 +22497,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae131baed0a3f2cb40ee0e9",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html|x",
-   "cuando": "2026-10-27T23:20:26.000Z",
-   "dueAt": "2026-10-27T23:23:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae13b17b24fed5fb48fbe4a",
-   "clave": "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4|tiktok",
-   "cuando": "2026-10-28T00:00:28.000Z",
-   "dueAt": "2026-10-28T00:03:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae13b198bc396ba2f122df1",
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|tiktok",
-   "cuando": "2026-10-28T00:00:28.000Z",
-   "dueAt": "2026-10-28T00:23:40.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae13b1aed0a3f2cb411393b",
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk|tiktok",
-   "cuando": "2026-10-28T00:00:28.000Z",
-   "dueAt": "2026-10-28T00:43:14.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae13b1bb24fed5fb48fc291",
-   "clave": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|tiktok",
-   "cuando": "2026-10-28T00:00:28.000Z",
-   "dueAt": "2026-10-28T01:03:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae13b1ced0a3f2cb4113a5a",
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok",
-   "cuando": "2026-10-28T00:00:28.000Z",
-   "dueAt": "2026-10-28T01:23:25.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|x",
-   "cuando": "2026-10-28T00:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tiktok",
    "cuando": "2026-10-28T00:40:17.000Z",
@@ -26575,6 +26639,57 @@
    "cuando": "2026-11-02T17:20:19.000Z",
    "dueAt": "2026-11-02T17:22:19.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x",
+   "cuando": "2026-11-02T18:20:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tiktok",
+   "cuando": "2026-11-02T18:20:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:6541af24-4488-427f-95aa-ae535252bd65|x",
+   "cuando": "2026-11-02T18:20:35.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:a872c57c-897c-4bec-8f45-2e83bffd630f|x",
+   "cuando": "2026-11-02T18:20:35.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6541af24-4488-427f-95aa-ae535252bd65|x",
+   "cuando": "2026-11-02T18:20:35.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00270|x",
+   "cuando": "2026-11-02T18:20:35.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117306409419174264"
+  },
+  {
+   "buffer_id": "6ae8d47487c5ea7cde546b3e",
+   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x",
+   "cuando": "2026-11-02T18:20:36.000Z",
+   "dueAt": "2026-11-02T18:22:47.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -26612,7 +26727,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-02",
- "ultima_sync": "2026-11-02T17:20:18.000Z",
+ "ultima_sync": "2026-11-02T18:20:35.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -26724,6 +26839,7 @@
   "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml": "2026-10-31T21:40:15.000Z",
   "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26": "2026-10-31T21:00:19.000Z",
   "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs": "2026-10-31T23:40:14.000Z",
+  "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl": "2026-11-02T18:20:16.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -27318,6 +27434,7 @@
   "web:62679199-0cb1-44ba-8928-add87ea1fa3f": "2026-10-15T10:20:13.000Z",
   "web:63610a74-1ceb-4c17-9d20-a5b404821855": "2026-10-13T18:20:14.000Z",
   "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": "2026-10-26T10:20:14.000Z",
+  "web:6541af24-4488-427f-95aa-ae535252bd65": "2026-11-02T18:20:16.000Z",
   "web:65614571-f714-4991-a75b-bc27850d9de1": "2026-10-15T00:20:14.000Z",
   "web:66096b4b-4845-4ea3-a895-867ed95af957": "2026-10-14T10:20:15.000Z",
   "web:660ce08b-5eea-4d96-ac71-12f7add445dd": "2026-10-19T23:00:18.000Z",
@@ -27499,6 +27616,7 @@
   "web:a7506907-93aa-4f39-beaa-3504a79c1fe5": "2026-10-19T09:00:17.000Z",
   "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:a7875969-2bc4-498e-8b29-ec2539b13deb": "2026-10-22T13:20:15.000Z",
+  "web:a872c57c-897c-4bec-8f45-2e83bffd630f": "2026-11-02T18:20:16.000Z",
   "web:a88f249c-9e23-46be-8a40-bb31f049e2b7": "2026-10-23T16:20:15.000Z",
   "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e": "2026-10-18T12:20:16.000Z",
   "web:aac6f864-9661-40bc-8e13-c03b62c05fed": "2026-10-26T10:20:14.000Z",
