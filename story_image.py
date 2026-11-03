@@ -8,6 +8,7 @@ Funciones públicas:
   - compose_youtube_story(thumb_path, titulo, etiqueta) -> Path
 Ambas devuelven la ruta a un JPG en historias_preview/.
 """
+import re
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
@@ -1323,7 +1324,7 @@ def _recorte_activo() -> bool:
         return os.environ.get("CARRUSEL_RECORTE", "0").strip() == "1"
 
 
-def _entera(img, box_w: int, box_h: int) -> "Image.Image":
+def _entera(img, box_w: int, box_h: int, brillo: float = 0.55) -> "Image.Image":
     """La foto COMPLETA (sin recortar nada) en un cuadro de box_w x box_h: escalada para entrar
     (también agrandada si es chica), centrada, sobre una copia de sí misma desenfocada y oscurecida."""
     img = img.convert("RGB")
@@ -1333,7 +1334,7 @@ def _entera(img, box_w: int, box_h: int) -> "Image.Image":
     if (fw, fh) == (box_w, box_h):
         return fg
     bg = _cover(img, box_w, box_h).filter(ImageFilter.GaussianBlur(40))
-    bg = ImageEnhance.Brightness(bg).enhance(0.55)
+    bg = ImageEnhance.Brightness(bg).enhance(brillo)
     bg.paste(fg, ((box_w - fw) // 2, (box_h - fh) // 2))
     return bg
 
@@ -1343,6 +1344,45 @@ def _alto_foto(foto, tope: int) -> int:
     if foto is None:
         return tope
     return max(FOTO_MIN_H, min(tope, round(SLIDE_W * foto.height / foto.width)))
+
+
+# 03/11/2026 (modelos para el carrusel del bot): la forma de la foto decide la placa.
+#  · Vertical (alto/ancho desde VERTICAL_MIN, las 9:16): ENTERA contra el margen izquierdo, a todo el alto
+#    de la placa; título, texto y pie, juntos en una columna a la derecha.
+#  · Horizontal o cuadrada: de borde a borde, con su propio alto, y el texto debajo. Hasta FOTO_ANCHA_MAX
+#    no se corta nada (una 4:3 entra entera); solo una cuadrada pierde algo arriba y abajo.
+VERTICAL_MIN = 1.15
+FOTO_ANCHA_MAX = 860
+LAMINA_TEXTO_MIN = 30           # la letra más chica del texto de una lámina
+FOTO_LATERAL_W = 740            # más ancha que esto, la columna de texto queda muy angosta
+
+
+def _es_vertical(foto) -> bool:
+    return foto is not None and foto.height / foto.width >= VERTICAL_MIN
+
+
+def _foto_ancha(foto, tope: int = FOTO_ANCHA_MAX) -> "Image.Image":
+    """La foto horizontal o cuadrada de borde a borde, con su propio alto (hasta `tope`)."""
+    return _encuadrar(foto, SLIDE_W, min(tope, FOTO_ANCHA_MAX, round(SLIDE_W * foto.height / foto.width)))
+
+
+def _tope_lamina(canvas, volanta: str, titulo: str, texto: str, ancho: int) -> int:
+    """El alto máximo de la foto de una lámina para que el texto entre ENTERO debajo (con la letra más
+    chica): la lámina nunca corta el texto para agrandar la foto."""
+    draw = ImageDraw.Draw(canvas)
+    arriba = 10 + 52 + (60 if (volanta or "").strip() else 0)
+    alto_tit = 0
+    if (titulo or "").strip():
+        _f, lt, lht = _medir_texto(draw, [(w, (0, 0, 0)) for w in titulo.split()], ancho, 230,
+                                   lambda s_: _sans(s_, 700), max_size=44, min_size=44, salto=1.14,
+                                   max_lineas=3, partir=_partir_titular)
+        alto_tit = len(lt) * lht + round(lht * 0.25) + 34
+    renglones = _partir_palabras(draw, [(w, (0, 0, 0)) for w in (texto or "").split()],
+                                 _sans(LAMINA_TEXTO_MIN, 400), ancho)
+    alto_txt = len(renglones) * round(LAMINA_TEXTO_MIN * 1.38)
+    return SLIDE_H - 66 - 60 - arriba - alto_tit - alto_txt
+
+
 CARRUSEL_MARGEN = 60
 NARANJA_MARCA = (247, 127, 0)   # el naranja de la web (--naranja)
 
@@ -1470,19 +1510,110 @@ def _partir_palabras(draw, palabras: list, font, max_w: int) -> list:
     return lineas
 
 
+# Palabras que no conviene dejar al final de un renglón de título.
+_CONECTORES = {"a", "al", "de", "del", "e", "el", "en", "la", "las", "lo", "los", "o", "por", "que", "se",
+               "su", "sus", "u", "un", "una", "y", "con", "para", "sin", "tras", "·"}
+
+
+def _equilibrar(draw, seg: list, font, max_w: int) -> list:
+    """Parte un tramo de título en renglones de largo parejo, sin una palabra suelta en el último.
+    Prueba con los renglones justos; si así queda una palabra suelta, con uno más."""
+    n = len(seg)
+    sp = draw.textlength(" ", font=font)
+    anchos = [draw.textlength(w, font=font) for w, _c in seg]
+
+    def medida(i, j):
+        return sum(anchos[i:j]) + sp * (j - i - 1)
+
+    k0 = len(_partir_palabras(draw, seg, font, max_w))
+    mejor = None
+    for k in (k0, k0 + 1):
+        if k > n:
+            break
+        ideal = medida(0, n) / k
+        costo = {(0, 0): (0.0, None)}
+        for lineas in range(1, k + 1):
+            for j in range(lineas, n + 1):
+                for i in range(lineas - 1, j):
+                    previo = costo.get((i, lineas - 1))
+                    w = medida(i, j)
+                    if previo is None or (w > max_w and j - i > 1):
+                        continue
+                    c = previo[0] + (ideal - w) ** 2
+                    if j < n and seg[j - 1][0] != "·" and seg[j - 1][0].strip(",.").lower() in _CONECTORES:
+                        c += (max_w * 0.2) ** 2
+                    if (j, lineas) not in costo or c < costo[(j, lineas)][0]:
+                        costo[(j, lineas)] = (c, i)
+        if (n, k) not in costo:
+            continue
+        cortes, j = [], n
+        for lineas in range(k, 0, -1):
+            i = costo[(j, lineas)][1]
+            cortes.append(seg[i:j])
+            j = i
+        renglones = cortes[::-1]
+        suelta = len(renglones[-1]) == 1 and n > 1
+        if mejor is None or not suelta:
+            mejor = renglones
+        if not suelta:
+            break
+    return mejor or _partir_palabras(draw, seg, font, max_w)
+
+
+def _desparejo(draw, lineas: list, font) -> float:
+    """Cuánto difieren los largos de los renglones (0 = iguales). El renglón que termina en «:» no
+    cuenta: va solo a propósito."""
+    medidas = [draw.textlength(" ".join(w for w, _c in r), font=font) for r in lineas
+               if not r[-1][0].endswith(":")]
+    return (max(medidas) - min(medidas)) / max(medidas) if len(medidas) > 1 else 0.0
+
+
+def _partir_titular(draw, palabras: list, font, max_w: int) -> list:
+    """Los renglones de un TÍTULO (pedido del usuario, 3/11/2026): después de una frase que termina en
+    «:» se baja de renglón, y cada tramo se reparte en renglones parejos (`_equilibrar`)."""
+    tramos, actual = [], []
+    for w, c in palabras:
+        actual.append((w, c))
+        if w.endswith(":"):
+            tramos.append(actual)
+            actual = []
+    if actual:
+        tramos.append(actual)
+    lineas = []
+    for tramo in tramos:
+        lineas += _equilibrar(draw, tramo, font, max_w)
+    return lineas
+
+
 def _medir_texto(draw, palabras: list, max_w: int, max_h: int, fuente, *, max_size: int,
-                 min_size: int, salto: float, max_lineas: int = 0) -> tuple:
+                 min_size: int, salto: float, max_lineas: int = 0, partir=None) -> tuple:
     """(fuente, renglones, interlínea) con el cuerpo más grande que entra en max_w × max_h.
-    Si ni con el mínimo entra, corta con «…»."""
+    Si ni con el mínimo entra, corta con «…». `partir`: cómo se arman los renglones (los títulos,
+    `_partir_titular`)."""
+    titular = partir is _partir_titular
+    partir = partir or _partir_palabras
+    opciones = []
     for size in range(max_size, min_size - 1, -2):
         f = fuente(size)
-        lineas = _partir_palabras(draw, palabras, f, max_w)
+        lineas = partir(draw, palabras, f, max_w)
         lh = round(size * salto)
         if len(lineas) * lh <= max_h and (not max_lineas or len(lineas) <= max_lineas):
-            return f, lineas, lh
+            if not titular:
+                return f, lineas, lh
+            # Un título prefiere una letra algo más chica si con ella los renglones quedan parejos, sin
+            # un conector solo en un renglón («de», «y»), pero sin achicarse hasta dejar la placa vacía.
+            if any(not o[0] for o in opciones) and len(lineas) * lh < max_h * 0.55:
+                break
+            suelto = any(len(r) == 1 and r[0][0].lower() in _CONECTORES for r in lineas)
+            desparejo = _desparejo(draw, lineas, f)
+            if not suelto and desparejo <= 0.28:
+                return f, lineas, lh
+            opciones.append((suelto, desparejo, -size, f, lineas, lh))
+    if opciones:
+        return min(opciones, key=lambda o: o[:3])[3:]
     f = fuente(min_size)
     lh = round(min_size * salto)
-    lineas = _partir_palabras(draw, palabras, f, max_w)
+    lineas = partir(draw, palabras, f, max_w)
     tope = max(1, min(max_lineas or 99, max_h // lh))
     if len(lineas) > tope:
         lineas = lineas[:tope]
@@ -1668,8 +1799,13 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
     mayus = [(w, t["acento"]) for w in lead.split()] + [(w, t["texto"]) for w in resto.split()]
     _titulo = lambda s_: _sans(s_, 700)                                                  # noqa: E731
 
+    if _es_vertical(foto) and estilo in ("A", "B") and not _recorte_activo():
+        return _placa_lateral(foto, t, "", lead, resto, titular, bajada, site_url, idx, total)
+
     if estilo in ("A", "B"):
-        if _recorte_activo():
+        if foto is not None and not _recorte_activo():
+            foto_h = min(FOTO_ANCHA_MAX, round(SLIDE_W * foto.height / foto.width))
+        elif _recorte_activo():
             if estilo == "A":
                 alto = round(SLIDE_W * foto.height / foto.width) if foto is not None else FOTO_A_H[1]
                 foto_h = max(FOTO_A_H[0], min(FOTO_A_H[1], alto))
@@ -1678,7 +1814,7 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
         else:
             foto_h = _alto_foto(foto, FOTO_A_H[1] if estilo == "A" else FOTO_B_H)
         if foto is not None:
-            canvas.paste((_encuadrar if _recorte_activo() else _entera)(foto, SLIDE_W, foto_h), (0, 0))
+            canvas.paste(_encuadrar(foto, SLIDE_W, foto_h) if _recorte_activo() else _foto_ancha(foto), (0, 0))
         _cabecera_carrusel(canvas)
         draw = ImageDraw.Draw(canvas)
         pie_y = SLIDE_H - 66
@@ -1686,7 +1822,9 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
             draw.rectangle((0, foto_h, SLIDE_W, foto_h + 10), fill=t["acento"])
             y0 = foto_h + 10 + 52
             f, lineas, lh = _medir_texto(draw, mayus, ancho, pie_y - 60 - y0, _titulo,
-                                         max_size=92, min_size=50, salto=1.06)
+                                         max_size=92, min_size=50, salto=1.06, partir=_partir_titular)
+            # El título centrado en el espacio libre entre la foto y el pie.
+            y0 += max(0, (pie_y - 60 - y0 - len(lineas) * lh) // 2)
             _dibujar_renglones(draw, m, y0, lineas, f, lh)
         else:
             draw.rectangle((m, foto_h - 30, m + 330, foto_h), fill=t["acento"])
@@ -1701,7 +1839,7 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
             alto_tit = round(alto_libre * 0.55) if baj else alto_libre
             ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in (titular or "").split()], ancho,
                                        alto_tit, lambda s: _sans(s, 700), max_size=72 if baj else 100,
-                                       min_size=42, salto=1.14, max_lineas=5)
+                                       min_size=42, salto=1.14, max_lineas=5, partir=_partir_titular)
             base = _dibujar_renglones(draw, m, y, lt, ft, lht)
             if baj:
                 y_baj = base + round(lht * 0.25) + 34
@@ -1772,9 +1910,16 @@ def compose_lamina_carrusel(photo_path, volanta: str, titulo: str, texto: str, s
             logger.warning(f"No se pudo abrir la foto de la lámina: {e}")
     if foto is None:
         return _lamina_solo_texto(volanta, titulo, texto, site_url, idx, total, t)
-    foto_h = FOTO_LAMINA_H if foto is not None else 0
+    if _es_vertical(foto) and not _recorte_activo():
+        return _placa_lateral(foto, t, volanta, "", titulo, titulo, texto, site_url, idx, total)
+    if _recorte_activo():
+        foto_h = FOTO_LAMINA_H
+        canvas.paste(_encuadrar(foto, SLIDE_W, foto_h), (0, 0))
+    else:
+        ancha = _foto_ancha(foto, _tope_lamina(canvas, volanta, titulo, texto, ancho))
+        foto_h = ancha.height
+        canvas.paste(ancha, (0, 0))
     if foto is not None:
-        canvas.paste((_encuadrar if _recorte_activo() else _entera)(foto, SLIDE_W, foto_h), (0, 0))
         _cabecera_carrusel(canvas)
     draw = ImageDraw.Draw(canvas)
     if foto is not None:
@@ -1792,16 +1937,119 @@ def compose_lamina_carrusel(photo_path, volanta: str, titulo: str, texto: str, s
     titulo = (titulo or "").strip()
     if titulo:
         ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in titulo.split()], ancho, 230,
-                                   lambda s_: _sans(s_, 700), max_size=64, min_size=44, salto=1.14,
-                                   max_lineas=3)
+                                   lambda s_: _sans(s_, 700), max_size=64 if foto_h <= 650 else 44,
+                                   min_size=44, salto=1.14, max_lineas=3, partir=_partir_titular)
         y = _dibujar_renglones(draw, m, y, lt, ft, lht) + round(lht * 0.25) + 34
     alto = pie_y - 60 - y
     if alto >= 40 and (texto or "").strip():
         fx, lx, lhx = _medir_texto(draw, [(w, t["suave"]) for w in texto.split()], ancho, alto,
-                                   lambda s_: _sans(s_, 400), max_size=52, min_size=34, salto=1.38)
+                                   lambda s_: _sans(s_, 400), max_size=52, min_size=LAMINA_TEXTO_MIN, salto=1.38)
         _dibujar_renglones(draw, m, y, lx, fx, lhx)
     _pie_carrusel(canvas, draw, t, m, SLIDE_W - m, pie_y, idx, total, site_url)
     return _save(canvas, f"lamina_{_safe_stem(titulo or volanta, 'nota')}_{idx or 0:02d}")
+
+
+def _tope_por_palabra(draw, palabras: list, ancho: int, fuente, tope: int, minimo: int) -> int:
+    """El cuerpo más grande en el que la palabra más larga entra en la columna."""
+    for size in range(tope, minimo - 1, -2):
+        f = fuente(size)
+        if all(draw.textlength(w, font=f) <= ancho for w, _c in palabras):
+            return size
+    return minimo
+
+
+def _pie_columna(canvas, draw, t: dict, x0: int, x1: int, idx, total, site_url: str) -> int:
+    """El pie de la placa vertical, dentro de la columna de texto: arriba «Deslizá y seguí leyendo» (o,
+    en la última, el sitio) y abajo el número y la flecha. Devuelve la y donde empieza."""
+    y1 = SLIDE_H - 40
+    lado = 54
+    y_fila = y1 - lado // 2
+    derecha = x1
+    if idx and total and idx < total:
+        fl = _caja_flecha(lado, t["acento"], t.get("flecha", (255, 255, 255)))
+        canvas.paste(fl, (derecha - lado, y_fila - lado // 2), fl)
+        derecha -= lado + 12
+    if idx:
+        draw.text((derecha, y_fila), f"{idx:02d}", font=_sans(44, 700), fill=t["acento"], anchor="rm")
+    otra = bool(idx and total and idx < total)
+    renglones = ["Deslizá y seguí leyendo"] if otra else ["Seguí leyendo en", site_url] if site_url else []
+    color = t["acento"] if otra else t["suave"]
+    y = y1 - lado - 14
+    for texto in reversed(renglones):
+        size = 28
+        while size > 18 and draw.textlength(texto, font=_sans(size, 700 if otra else 600)) > x1 - x0:
+            size -= 1
+        f = _sans(size, 700 if otra else 600)
+        draw.text((x0, y), texto, font=f, fill=color, anchor="ls")
+        y -= size + 10
+    return y
+
+
+def _placa_lateral(foto, t: dict, volanta: str, lead: str, resto: str, titulo: str, texto: str,
+                   site_url: str, idx, total) -> Path:
+    """Placa de una foto VERTICAL: la foto entera contra el margen izquierdo, a todo el alto, y la columna
+    de la derecha con el título, el texto y el pie. `lead` + `resto` es el título (la portada lleva el
+    comienzo en color y `volanta` vacía; la lámina, al revés). Si la foto no llena el alto (una 3:4), los
+    bordes de arriba y abajo se rellenan con ella misma desenfocada, sin cortarla."""
+    ancho_f = min(FOTO_LATERAL_W, round(SLIDE_H * foto.width / foto.height))
+    canvas = Image.new("RGB", (SLIDE_W, SLIDE_H), t["fondo"])
+    cuadro = _entera(foto, ancho_f, SLIDE_H, brillo=0.9)
+    _grad_overlay(cuadro, 0, 240, (0, 0, 0), 170, 0, gamma=1.2)
+    _con_sombra(cuadro, _lockup_marca(350), CARRUSEL_MARGEN, 46)
+    canvas.paste(cuadro, (0, 0))
+    draw = ImageDraw.Draw(canvas)
+    draw.rectangle((ancho_f, 0, ancho_f + 9, SLIDE_H), fill=t["acento"])
+
+    x0, x1 = ancho_f + 9 + 28, SLIDE_W - 28
+    col = x1 - x0
+    iso_h = 76
+    iso = _iso(not t.get("iso_blanco"))
+    if iso:
+        iw = max(1, round(iso.width * iso_h / iso.height))
+        _paste_iso(canvas, x1 - iw, 42, iso_h, orange=not t.get("iso_blanco"))
+    y_min, y_max = 42 + iso_h + 40, _pie_columna(canvas, draw, t, x0, x1, idx, total, site_url) - 24
+
+    negrita = lambda s_: _sans(s_, 700)                                                  # noqa: E731
+    normal = lambda s_: _sans(s_, 400)                                                   # noqa: E731
+    vol = (volanta or "").strip().upper()
+    fv, lv, lhv = (None, [], 0)
+    if vol:
+        pv = [(w, t["acento"]) for w in vol.split()]
+        fv, lv, lhv = _medir_texto(draw, pv, col, 90, negrita, salto=1.25, max_lineas=2,
+                                   max_size=_tope_por_palabra(draw, pv, col, negrita, 28, 20), min_size=20)
+    alto_vol = (len(lv) * lhv + 22) if lv else 0
+    pt = ([(w, t["acento"]) for w in (lead or "").split()]
+          + [(w, t["texto"]) for w in (resto or "").split()])
+    baj = (texto or "").strip()
+    if lead and len(baj) > 200:
+        # La bajada de la portada puede ser un párrafo entero: la primera frase alcanza.
+        baj = re.split(r"(?<=[.!?])\s", baj)[0]
+    libre = y_max - y_min - alto_vol
+    # El título nunca se corta: si es muy largo le saca lugar al texto de abajo.
+    for parte in (0.36, 0.6, 1) if baj else (1,):
+        ft, lt, lht = _medir_texto(draw, pt, col, round(libre * parte), negrita, salto=1.14,
+                                   max_size=_tope_por_palabra(draw, pt, col, negrita, 58 if baj else 70, 30),
+                                   min_size=30, partir=_partir_titular)
+        if not lt[-1][-1][0].endswith("…"):
+            break
+    alto_tit = len(lt) * lht
+    fx, lx, lhx = (None, [], 0)
+    if baj and libre - alto_tit - 28 >= 80:
+        px = [(w, t["suave"]) for w in baj.split()]
+        # El texto siempre más chico que el título.
+        tope = max(26, min(42, ft.size - 6))
+        fx, lx, lhx = _medir_texto(draw, px, col, libre - alto_tit - 28, normal, salto=1.36,
+                                   max_size=_tope_por_palabra(draw, px, col, normal, tope, 26), min_size=26)
+    alto_txt = (len(lx) * lhx + 28) if lx else 0
+    y = y_min + max(0, (y_max - y_min - alto_vol - alto_tit - alto_txt) // 2)
+    if lv:
+        _dibujar_renglones(draw, x0, y, lv, fv, lhv)
+        y += alto_vol
+    _dibujar_renglones(draw, x0, y, lt, ft, lht)
+    y += alto_tit + 28
+    if lx:
+        _dibujar_renglones(draw, x0, y, lx, fx, lhx)
+    return _save(canvas, f"lateral_{_safe_stem(titulo or volanta, 'nota')}_{idx or 0:02d}")
 
 
 def _lamina_solo_texto(volanta: str, titulo: str, texto: str, site_url: str, idx, total, t: dict) -> Path:
@@ -1834,7 +2082,7 @@ def _lamina_solo_texto(volanta: str, titulo: str, texto: str, site_url: str, idx
     titulo = (titulo or "").strip()
     ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in titulo.split()], ancho, 330,
                                lambda s_: _sans(s_, 700), max_size=76, min_size=48, salto=1.12,
-                               max_lineas=4) if titulo else (None, [], 0)
+                               max_lineas=4, partir=_partir_titular) if titulo else (None, [], 0)
     resto = abajo - arriba - alto_vol - len(lt) * lht - 44
     fx, lx, lhx = _medir_texto(draw, [(w, t["suave"]) for w in (texto or "").split()], ancho, max(resto, 120),
                                lambda s_: _sans(s_, 400), max_size=50, min_size=34,
