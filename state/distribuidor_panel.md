@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 03/11/2026 09:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 4 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,9 +27,7 @@ Actualizado: 03/11/2026 09:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
-- TikTok · Reels del bot · Seguridad de Chivilcoy participó de la Semana de la Policía Federal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Reels del bot · Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -39,8 +37,6 @@ Actualizado: 03/11/2026 09:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T10:04 programado web:01bf9e9c-5d81-432e-9d5f-303e147f07d7|x 
-- 2026-11-03T10:20 enviado web:e1762bc6-192e-4d3f-8b37-22296e8b40d9|x 
 - 2026-11-03T10:20 programado web:102f794a-1b02-4e61-aa74-3d003a611178|x 
 - 2026-11-03T10:40 programado web:8ccde707-f548-4c61-83cf-fb2ee30a7c99|x 
 - 2026-11-03T11:00 programado web:53a73a04-7714-4da8-a6b3-30f272f523ee|x 
@@ -64,3 +60,5 @@ Actualizado: 03/11/2026 09:40 (hora AR) · ACTIVO
 - 2026-11-03T12:40 enviado web:53a73a04-7714-4da8-a6b3-30f272f523ee|x 
 - 2026-11-03T12:40 enviado web:8ccde707-f548-4c61-83cf-fb2ee30a7c99|x 
 - 2026-11-03T12:40 enviado web:b333b47e-b16a-4899-bd75-63c2b7086095|x 
+- 2026-11-03T13:00 programado bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tikto 
+- 2026-11-03T13:00 programado bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tikto 
