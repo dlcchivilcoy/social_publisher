@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 03/11/2026 07:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 7 | 6 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 8 | 5 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,13 +27,12 @@ Actualizado: 03/11/2026 07:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (7 esperando)
+## Cola propia (6 esperando)
 - X · Notas web · Chivilcoy: Romina Caballo lideró al Raleigh Fem en la 1ª Vuelta Ciclista Femenin — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Racing Club de Chivilcoy redondeó otra jornada histórica y jugará nuevamente las — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Partidazo en el Sandrín: Racing de Chivilcoy busca derribar al invicto Instituto — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Bragado Club el gran protagonista del fin de semana: tras la caída con Gimnasia, — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Mariano Cejas: “Nos preocupamos por lo nuestro y por hacer las cosas  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Cuenta regresiva apasionante: Así se define la fase regular del Torne — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -44,7 +43,6 @@ Actualizado: 03/11/2026 07:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T02:40 vencido policiales:https://semanariodejunin.com.ar/nota/76160/sinies espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-03T02:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/granizo-p espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-03T10:02 recibido web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x 
 - 2026-11-03T10:02 recibido web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x 
@@ -69,3 +67,4 @@ Actualizado: 03/11/2026 07:40 (hora AR) · ACTIVO
 - 2026-11-03T10:20 enviado web:e1762bc6-192e-4d3f-8b37-22296e8b40d9|x 
 - 2026-11-03T10:20 programado web:102f794a-1b02-4e61-aa74-3d003a611178|x 
 - 2026-11-03T10:40 programado web:8ccde707-f548-4c61-83cf-fb2ee30a7c99|x 
+- 2026-11-03T11:00 programado web:53a73a04-7714-4da8-a6b3-30f272f523ee|x 
