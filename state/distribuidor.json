@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 0
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-03T12:40:14.000Z"
+   "visto": "2026-11-03T13:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 21
+    "scheduled": 0,
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-03T12:40:14.000Z"
+   "visto": "2026-11-03T13:40:16.000Z"
   }
  },
  "contenidos": {
@@ -1314,27 +1314,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/nw8YFrIR984"
   },
-  "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4": {
-   "descripcion": "La Fuente de Hebe, ubicada en el centro de la Plaza 25 de Mayo, volvió a funcionar después de más de 20 años tras la inauguración de las obras de puesta en valor realizadas por la Municipalidad de Chivilcoy.\n\nLa intervención fue llevada adelante durante tres meses y medio por trabajadores de la Secretaría de Servicios Públicos y personal de distintas áreas municipales, quienes se encargaron de las tareas de restauración, arenado, reacondicionamiento y puesta a punto del sistema eléctrico.\n\nEl intendente Guillermo Britos destacó el compromiso de los empleados comunales y señaló que el proyecto se concretó con recursos propios, alcanzando un costo aproximado del 30% en comparación con presupuestos recibidos en años anteriores. Asimismo, felicitó al secretario de Servicios Públicos, Esteban Genaro, y al director de Espacios Verdes, Matías Muo, por la labor realizada para preservar el patrimonio histórico.\n\nPor su parte, Muo explicó que la estructura fue desarmada en su totalidad para devolverle su terminación original. Según detalló, en base a registros fotográficos y restos hallados, se aplicó cobre en polvo con laca para restituir el revestimiento que la escultura tenía al llegar a la ciudad, sumado a productos para asegurar su conservación a la intemperie.\n\nCon estas tareas concluidas, los vecinos ya pueden disfrutar nuevamente de la emblemática fuente en funcionamiento dentro de la plaza principal.",
-   "duracion_seg": 39.1,
-   "generado": "2026-10-22T13:05:47.000Z",
-   "id": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "La Fuente de Hebe volvió a funcionar después de más de 20 años",
-   "urgente": false,
-   "video_bytes": 12893075,
-   "video_mb": 12.3,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4f1871eacf1316a.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/ZDppaYnqJ04"
-  },
   "bot:video_matias-zucchi_mvjluzixklug_01.mp4": {
    "descripcion": "El atleta chivilcoyano Santiago Zalabardo obtuvo la medalla de plata en la disciplina de salto en alto, en el marco de la final provincial de los Juegos Bonaerenses.\n\nZalabardo se quedó con el segundo puesto de la competencia tras registrar una marca de 1,70 metros, sumando un importante logro para la delegación local en la definición del certamen bonaerense.\n\nLa prueba fue ganada por Juan Medina, representante de Campana, quien se llevó el primer lugar con un registro de 1,75 metros. En tanto, el tercer puesto quedó en manos de Emiliano Nadal, de Trenque Lauquen, quien alcanzó también una marca de 1,70 metros.",
    "duracion_seg": 114.5,
@@ -1460,27 +1439,6 @@
    "video_mb": 8.7,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c3ec38e679c1e655.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Lz5ErE_3xTw"
-  },
-  "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4": {
-   "descripcion": "Boca Juniors venció 80-72 a Racing de Chivilcoy en el Grilón Arena, en el marco de la fase regular de la Liga Nacional de Básquetbol. La visita destrabó un desarrollo parejo tras el descanso largo, gracias a un parcial decisivo de 21-12 en el tercer cuarto.\n\nLa jornada del 23 de octubre de 2026 representó un acontecimiento histórico para el club chivilcoyano: por primera vez, TyC Sports transmitió en vivo un cotejo de la institución como local, llevando la cita a todo el país desde el estadio albiceleste.\n\nEn lo deportivo, el elenco de la Ribera se adelantó 21-15 en el capítulo inicial. La respuesta de Racing llegó en el segundo período con mayor eficacia ofensiva —tramo en el que Mateo Chiarini llegó a situar al local al frente 40-39 con un triple—, cerrando el tramo 28-23 para marcharse al entretiempo apenas un punto abajo, 43-44.\n\nEl quiebre llegó en el tercer segmento, donde Boca ajustó su defensa y sacó provecho de sus ataques cerca del aro para ingresar a los diez minutos finales con una ventaja de 65-55. Si bien Racing presionó en el tramo final, el conjunto visitante manejó la brecha y aseguró el festejo.",
-   "duracion_seg": 29.4,
-   "generado": "2026-10-24T03:12:29.000Z",
-   "id": "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-boca-vencio-a-racing-de-chivilcoy-en-la-liga",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Boca venció a Racing de Chivilcoy en la Liga Nacional",
-   "urgente": false,
-   "video_bytes": 4657186,
-   "video_mb": 4.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77991029b30a0e72.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/bwwGz3vOOtk"
   },
   "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4": {
    "descripcion": "La delegación de Chivilcoy fue recibida en la ciudad tras concluir su participación en la Final Provincial de los Juegos Bonaerenses, desarrollada en Mar del Plata.\n\nLos representantes locales regresaron luego de competir en las distintas disciplinas del certamen bonaerense frente a delegaciones de toda la provincia.\n\nDe esta manera, los deportistas y participantes cerraron una nueva experiencia deportiva y cultural en el tradicional evento provincial.",
@@ -11173,19 +11131,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok": {
-   "actualizado": "2026-11-03T13:00:18.000Z",
+   "actualizado": "2026-11-03T13:40:16.000Z",
    "buffer_id": "6ae9daf12d879310e0cc1da4",
    "categoria": "",
    "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok",
    "creado": "2026-11-03T02:00:19.000Z",
    "dueAt": "2026-11-03T13:23:21.000Z",
+   "enviado": "2026-11-03T13:25:13.371Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T01:56:04.000Z",
    "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7703935289332419861",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -11238,19 +11197,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok": {
-   "actualizado": "2026-11-03T13:00:18.000Z",
+   "actualizado": "2026-11-03T13:40:16.000Z",
    "buffer_id": "6ae9daeec6fbbde82486c733",
    "categoria": "",
    "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok",
    "creado": "2026-11-03T12:00:20.000Z",
    "dueAt": "2026-11-03T13:03:21.000Z",
+   "enviado": "2026-11-03T13:06:37.220Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T11:42:08.000Z",
    "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7703930670162119957",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -11349,34 +11309,6 @@
    "vence": "2026-10-25T01:37:09.000Z",
    "video_bytes": 3585991,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|tiktok": {
-   "actualizado": "2026-10-24T13:20:18.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4|tiktok",
-   "creado": "2026-10-22T13:20:15.000Z",
-   "dueAt": "",
-   "error": "no entró entre las 7 más virales de la tanda 10 h",
-   "espera": "no entró entre las 7 más virales de la tanda 10 h",
-   "estado": "vencido",
-   "generado": "2026-10-22T13:05:47.000Z",
-   "id": "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "La Fuente de Hebe volvió a funcionar después de más de 20 años\n\nLa Municipalidad de Chivilcoy inauguró las obras de puesta en valor realizadas durante tres meses y medio en la Plaza 25 de Mayo por personal comunal. El intendente Guillermo Britos destacó el compromiso de los trabajadores y señaló que el proyecto se concretó con recursos propios, con un costo cercano al 30% respecto de presupuestos anteriores.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-la-fuente-de-hebe-volvio-a-funcionar-despues-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "La Fuente de Hebe volvió a funcionar después de más de 20 años",
-   "urgente": false,
-   "vence": "2026-10-24T13:05:47.000Z",
-   "video_bytes": 12893075,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c4f1871eacf1316a.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mvjluzixklug_01.mp4|tiktok": {
@@ -11578,45 +11510,6 @@
    "vence": "2026-10-25T23:34:19.000Z",
    "video_bytes": 9147019,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c3ec38e679c1e655.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|tiktok": {
-   "actualizado": "2026-10-24T13:20:18.000Z",
-   "buffer_id": "6adcabe50b5343d07083821f",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4|tiktok",
-   "creado": "2026-10-24T09:00:20.000Z",
-   "dueAt": "2026-10-24T13:03:29.000Z",
-   "enviado": "2026-10-24T13:06:24.670Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T03:12:29.000Z",
-   "id": "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7700219619839053076",
-   "metricas": {
-    "averageTimeWatched": 4.12,
-    "comments": 0,
-    "engagementRate": 1.94,
-    "reach": 0,
-    "reactions": 5,
-    "shares": 0,
-    "totalTimeWatched": 19.88,
-    "views": 258
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-boca-vencio-a-racing-de-chivilcoy-en-la-liga",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Boca venció a Racing de Chivilcoy en la Liga Nacional\n\nEl conjunto de la Ribera se impuso 80-72 en el Grilón Arena tras quebrar el desarrollo del juego en el tercer cuarto. La jornada marcó un hecho histórico para el club local, ya que TyC Sports transmitió por primera vez un partido de la institución desde su estadio.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-boca-vencio-a-racing-de-chivilcoy-en-la-liga\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Boca venció a Racing de Chivilcoy en la Liga Nacional",
-   "urgente": false,
-   "vence": "2026-10-26T03:12:29.000Z",
-   "video_bytes": 4657186,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77991029b30a0e72.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4|tiktok": {
@@ -17555,19 +17448,20 @@
    "viral": false
   },
   "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x": {
-   "actualizado": "2026-11-03T12:20:14.000Z",
+   "actualizado": "2026-11-03T13:40:16.000Z",
    "buffer_id": "6ae9d17ec4271f6e32ff5f9a",
    "clave": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x",
    "creado": "2026-11-03T10:02:22.000Z",
    "dueAt": "2026-11-03T13:37:21.000Z",
+   "enviado": "2026-11-03T13:37:31.391Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T10:02:07.714Z",
    "id": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec",
    "ig_hora": "2026-11-03T13:37:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117612135710617848",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-chivilcoy-romina-caballo-lidero-al-raleigh-fem-en-la-1",
    "noticia": "nota:ciclismo-chivilcoy-romina-caballo-lidero-al-raleigh-fem-en-la-1",
    "origen": "web",
@@ -19645,19 +19539,20 @@
    "viral": false
   },
   "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x": {
-   "actualizado": "2026-11-03T11:40:18.000Z",
+   "actualizado": "2026-11-03T13:40:16.000Z",
    "buffer_id": "6ae9c8223b7ecdee655c40f8",
    "clave": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x",
    "creado": "2026-11-03T10:02:22.000Z",
    "dueAt": "2026-11-03T12:52:18.000Z",
+   "enviado": "2026-11-03T12:52:31.337Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T10:01:54.071Z",
    "id": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0",
    "ig_hora": "2026-11-03T12:52:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117600810439737453",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-bragado-club-el-gran-protagonista-del-fin-de-semana-tras-la",
    "noticia": "nota:basquet-bragado-club-el-gran-protagonista-del-fin-de-semana-tras-la",
    "origen": "web",
@@ -20528,19 +20423,20 @@
    "viral": false
   },
   "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x": {
-   "actualizado": "2026-11-03T11:40:18.000Z",
+   "actualizado": "2026-11-03T13:40:16.000Z",
    "buffer_id": "6ae9c823f81926b932926e07",
    "clave": "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x",
    "creado": "2026-11-03T10:02:22.000Z",
    "dueAt": "2026-11-03T13:07:00.000Z",
+   "enviado": "2026-11-03T13:07:04.709Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T10:01:58.845Z",
    "id": "web:bc895e05-1264-4c69-9d17-5990747c5cfd",
    "ig_hora": "2026-11-03T13:07:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117604473954586636",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-partidazo-en-el-sandrin-racing-de-chivilcoy-busca-derribar-al",
    "noticia": "nota:basquet-partidazo-en-el-sandrin-racing-de-chivilcoy-busca-derribar-al",
    "origen": "web",
@@ -21747,19 +21643,20 @@
    "viral": false
   },
   "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x": {
-   "actualizado": "2026-11-03T12:00:33.000Z",
+   "actualizado": "2026-11-03T13:40:16.000Z",
    "buffer_id": "6ae9cce3f81926b93293ecda",
    "clave": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x",
    "creado": "2026-11-03T10:02:22.000Z",
    "dueAt": "2026-11-03T13:22:05.000Z",
+   "enviado": "2026-11-03T13:22:16.252Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T10:02:02.911Z",
    "id": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f",
    "ig_hora": "2026-11-03T13:22:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117608297293349072",
    "nota_url": "https://www.diariolacampaña.com.ar/n/rugby-racing-club-de-chivilcoy-redondeo-otra-jornada-historica-y",
    "noticia": "nota:rugby-racing-club-de-chivilcoy-redondeo-otra-jornada-historica-y",
    "origen": "web",
@@ -22167,54 +22064,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|tiktok",
-   "cuando": "2026-10-28T14:40:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|x",
-   "cuando": "2026-10-28T14:40:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tiktok",
-   "cuando": "2026-10-28T14:40:34.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:a03696d1-157a-48cb-abea-e9cba1380f98|x",
-   "cuando": "2026-10-28T14:40:34.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:125df7be-6590-4828-b258-27d7a0764f2d|x",
-   "cuando": "2026-10-28T14:40:34.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:9460231f-30bd-422d-89e0-f6db3cfd0675|x",
-   "cuando": "2026-10-28T14:40:34.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
   {
    "buffer_id": "6ae20963620f841dd3487645",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|x",
@@ -26370,6 +26219,42 @@
    "cuando": "2026-11-03T13:00:33.000Z",
    "dueAt": "2026-11-03T13:23:21.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok",
+   "cuando": "2026-11-03T13:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7703935289332419861"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok",
+   "cuando": "2026-11-03T13:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7703930670162119957"
+  },
+  {
+   "clave": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x",
+   "cuando": "2026-11-03T13:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117612135710617848"
+  },
+  {
+   "clave": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x",
+   "cuando": "2026-11-03T13:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117600810439737453"
+  },
+  {
+   "clave": "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x",
+   "cuando": "2026-11-03T13:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117604473954586636"
+  },
+  {
+   "clave": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x",
+   "cuando": "2026-11-03T13:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117608297293349072"
   }
  ],
  "tandas": {
@@ -26407,7 +26292,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-03",
- "ultima_sync": "2026-11-03T12:40:14.000Z",
+ "ultima_sync": "2026-11-03T13:40:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
