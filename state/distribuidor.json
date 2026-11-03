@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 3
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-03T02:20:15.000Z"
+   "visto": "2026-11-03T10:20:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
+    "scheduled": 5,
     "sent": 15
    },
    "pausado": false,
-   "visto": "2026-11-03T02:20:15.000Z"
+   "visto": "2026-11-03T10:20:13.000Z"
   }
  },
  "contenidos": {
@@ -16969,14 +16969,14 @@
    "viral": false
   },
   "web:102f794a-1b02-4e61-aa74-3d003a611178|x": {
-   "actualizado": "2026-11-03T10:02:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-03T10:20:14.000Z",
+   "buffer_id": "6ae9b55ede49dc57f011c787",
    "clave": "web:102f794a-1b02-4e61-aa74-3d003a611178|x",
    "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-03T11:37:28.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-03T10:01:27.552Z",
    "id": "web:102f794a-1b02-4e61-aa74-3d003a611178",
    "ig_hora": "2026-11-03T11:37:11.000Z",
@@ -21385,19 +21385,20 @@
    "viral": false
   },
   "web:e1762bc6-192e-4d3f-8b37-22296e8b40d9|x": {
-   "actualizado": "2026-11-03T10:04:04.000Z",
+   "actualizado": "2026-11-03T10:20:13.000Z",
    "buffer_id": "6ae9b194f5576ea189fd2093",
    "clave": "web:e1762bc6-192e-4d3f-8b37-22296e8b40d9|x",
    "creado": "2026-11-03T10:02:22.000Z",
    "dueAt": "2026-11-03T10:07:18.000Z",
+   "enviado": "2026-11-03T10:07:31.547Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T10:00:52.653Z",
    "id": "web:e1762bc6-192e-4d3f-8b37-22296e8b40d9",
    "ig_hora": "2026-11-03T10:07:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117559287480238187",
    "nota_url": "https://www.diariolacampaña.com.ar/n/presencia-en-zona-urbana-animales-inesperados-en-chivilcoy-cuando-la",
    "noticia": "nota:presencia-en-zona-urbana-animales-inesperados-en-chivilcoy-cuando-la",
    "origen": "web",
@@ -22194,18 +22195,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x",
-   "cuando": "2026-10-28T11:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115392572394795229"
-  },
-  {
-   "clave": "web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755|x",
-   "cuando": "2026-10-28T11:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115388671608160644"
-  },
   {
    "clave": "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x",
    "cuando": "2026-10-28T11:40:16.000Z",
@@ -26393,6 +26382,19 @@
    "cuando": "2026-11-03T10:04:07.000Z",
    "dueAt": "2026-11-03T11:22:39.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:e1762bc6-192e-4d3f-8b37-22296e8b40d9|x",
+   "cuando": "2026-11-03T10:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117559287480238187"
+  },
+  {
+   "buffer_id": "6ae9b55ede49dc57f011c787",
+   "clave": "web:102f794a-1b02-4e61-aa74-3d003a611178|x",
+   "cuando": "2026-11-03T10:20:14.000Z",
+   "dueAt": "2026-11-03T11:37:28.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -26430,7 +26432,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-03",
- "ultima_sync": "2026-11-03T02:20:15.000Z",
+ "ultima_sync": "2026-11-03T10:20:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
