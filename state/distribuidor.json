@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 5
+    "scheduled": 0,
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-03T22:00:20.000Z"
+   "visto": "2026-11-03T23:00:24.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 21
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-03T22:00:20.000Z"
+   "visto": "2026-11-03T23:00:24.000Z"
   }
  },
  "contenidos": {
@@ -117,27 +117,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c9754028c8404bb0.mp4",
    "youtube_url": "https://www.youtube.com/shorts/5dNDVTc-krM"
   },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d": {
-   "descripcion": "Personal policial aprehendió a una mujer de 41 años en un domicilio ubicado en Alem 729, en Chivilcoy, acusada de intentar sustraer distintos elementos. Según se informó, la mujer habría intentado llevarse planchas de PVC, una bordeadora y caños de plástico, propiedad de una vecina.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-24T17:14:36.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-una-mujer-acusada-de-tentativa",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "APREHENDIERON a una mujer acusada de tentativa de robo",
-   "urgente": false,
-   "video_bytes": 560425,
-   "video_mb": 0.5,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_412a3c1e2c721486.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/zkQdureq73c"
-  },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5": {
    "descripcion": "El Tribunal del Trabajo N.º 1 de Mercedes dispuso avanzar con la ejecución de una sentencia a favor de una exempleada del Instituto Médico del Oeste (IMO) y convertir en definitivo el embargo sobre el inmueble de la institución, según informó su abogado, Emmanuel Langone.",
    "duracion_seg": 30.0,
@@ -158,69 +137,6 @@
    "video_mb": 0.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d059bf0e0a536458.mp4",
    "youtube_url": "https://www.youtube.com/shorts/eelDs9A-t-Y"
-  },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u": {
-   "descripcion": "Un alumno de la Escuela de Educación Secundaria Técnica N.º 1 “Dr. Mariano Moreno” e integrante del Club de Ciencias “Cielos del Sur” competirá del 15 al 19 de noviembre en La Falda, Córdoba. La cooperadora organizará actividades para ayudar a financiar su viaje.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-24T17:40:43.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Vicente Fontana clasificó a la nacional de la Olimpíada de Matemática",
-   "urgente": false,
-   "video_bytes": 569788,
-   "video_mb": 0.5,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_eead609be41a8821.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/koJNaUCmfQM"
-  },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w": {
-   "descripcion": "Las familias de la zona de calle 88 y Río Juramento reiteraron su preocupación por los anegamientos que se producen tras las precipitaciones intensas. Aseguran que el agua permanece acumulada durante varios días después de las lluvias, lo que afecta la circulación y el acceso.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-24T17:50:20.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-vecinos-de-calle-88-y-rio-juramento-reclaman-obras",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Vecinos de calle 88 y Río Juramento reclaman obras contra anegamientos",
-   "urgente": false,
-   "video_bytes": 671424,
-   "video_mb": 0.6,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_618cae47f65a9dd0.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/rF8LgEd8Rm8"
-  },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth": {
-   "descripcion": "Monserrat y Muciachio lideran en Chivilcoy. Con el VW Maxi Rally, la dupla comanda la clasificación general tras la disputa de la PE4.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-24T18:29:34.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy",
-   "urgente": false,
-   "video_bytes": 555965,
-   "video_mb": 0.5,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b3452a9068856bed.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/Pl0nQg-6HXs"
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w": {
    "descripcion": "Suspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.",
@@ -2581,32 +2497,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_01_junin_aprehendieron-a-dos-personas-e.mp4",
    "volanta": "Operativo policial en Junín",
    "youtube_url": "https://youtube.com/shorts/OAaIqnhFVWs"
-  },
-  "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos": {
-   "categoria": "narcotrafico",
-   "descripcion": "Cuatro personas fueron detenidas tras una serie de procedimientos antidrogas realizados en los barrios La Celeste y Los Paraguayos de esta ciudad.",
-   "distancia_km": 91.2,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-24T22:01:57.000Z",
-   "id": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "radio_ok": true,
-   "texto_tiktok": "Un importante operativo policial contra la venta de estupefacientes al menudeo culminó con la detención de cuatro sospechosos en nuestra ciudad.\n\nLos procedimientos se llevaron a cabo de manera simultánea en los barrios La Celeste y Los Paraguayos, donde las fuerzas de seguridad concretaron las capturas.\n\nEntre los apresados se encuentra el sujeto conocido como El Paisa, quien era buscado por los investigadores en el marco de la causa.\n\nLa investigación continúa para determinar la dimensión de la red de comercialización de drogas en la zona.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Narcotrafico #Operativo #BuenosAires",
-   "tipo": "video",
-   "titulo": "Cayó El Paisa y tres sospechosos en allanamientos contra el narcomenudeo en Junín",
-   "urgente": false,
-   "video_bytes": 89307,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_01_junin_cay-el-paisa-y-tres-sospechoso.mp4",
-   "volanta": "Operativo antidrogas en Junín",
-   "youtube_url": "https://youtube.com/shorts/qKnAEzQKeio"
   },
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero": {
    "categoria": "robo",
@@ -6375,25 +6265,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
    "volanta": "Fútbol"
   },
-  "web:da88e1e4-510a-45e4-992a-55ed16bef1e5": {
-   "categoria": "",
-   "descripcion": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata La delegación de Chivilcoy fue recibida luego de su participación y competencia en la Final Provincial de los Juegos Bonaerenses, desarrollada en la ciudad de Mar del Plata.",
-   "generado": "2026-10-24T22:41:09.237Z",
-   "id": "web:da88e1e4-510a-45e4-992a-55ed16bef1e5",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b70872b1bd644e3b8e0a52e4fe08d93a~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:daae8efc-080c-4b85-8684-6b87ab41878c": {
    "categoria": "",
    "descripcion": "Siniestros viales: Fin de semana con múltiples vuelcos en las rutas 5 y 46 Tres accidentes de tránsito de consideración se registraron entre el jueves y el sábado en jurisdicción de Chivilcoy, Luján y Morse. Pese a la espectacularidad de los vuelcos e importantes daños materiales, no se lamentaron víctimas fatales. Siniestros viales de diversa magnitud movilizaron a las fuerzas de seguridad, bomberos y personal vial de la región durante el fin de semana. Los hechos se registraron en las rutas...",
@@ -7114,45 +6985,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c9754028c8404bb0.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tiktok": {
-   "actualizado": "2026-10-24T23:00:25.000Z",
-   "buffer_id": "6add1c678b3d437ddcd9c0d7",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tiktok",
-   "creado": "2026-10-24T17:20:15.000Z",
-   "dueAt": "2026-10-24T21:43:48.000Z",
-   "enviado": "2026-10-24T21:44:43.518Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T17:14:36.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7700353427767020821",
-   "metricas": {
-    "averageTimeWatched": 6.36,
-    "comments": 0,
-    "engagementRate": 0.95,
-    "reach": 194,
-    "reactions": 4,
-    "shares": 0,
-    "totalTimeWatched": 50,
-    "views": 420
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-una-mujer-acusada-de-tentativa",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "APREHENDIERON a una mujer acusada de tentativa de robo\n\nPersonal policial aprehendió a una mujer de 41 años en un domicilio ubicado en Alem 729, en Chivilcoy, acusada de intentar sustraer distintos elementos. Según se informó, la mujer habría intentado llevarse planchas de PVC, una bordeadora y caños de plástico, propiedad de una vecina.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-una-mujer-acusada-de-tentativa\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "APREHENDIERON a una mujer acusada de tentativa de robo",
-   "urgente": false,
-   "vence": "2026-10-26T17:14:36.000Z",
-   "video_bytes": 560425,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_412a3c1e2c721486.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|tiktok": {
    "actualizado": "2026-10-25T00:20:15.000Z",
    "buffer_id": "6add1c6a6887a2efc1d59f5c",
@@ -7190,123 +7022,6 @@
    "vence": "2026-10-26T17:32:04.000Z",
    "video_bytes": 648212,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d059bf0e0a536458.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tiktok": {
-   "actualizado": "2026-10-24T23:00:25.000Z",
-   "buffer_id": "6add1c696887a2efc1d59eaa",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tiktok",
-   "creado": "2026-10-24T18:00:17.000Z",
-   "dueAt": "2026-10-24T22:43:23.000Z",
-   "enviado": "2026-10-24T22:44:12.411Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T17:40:43.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7700368725207239943",
-   "metricas": {
-    "averageTimeWatched": 4.07,
-    "comments": 0,
-    "engagementRate": 0.72,
-    "reach": 52,
-    "reactions": 4,
-    "shares": 0,
-    "totalTimeWatched": 41.4,
-    "views": 553
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Vicente Fontana clasificó a la nacional de la Olimpíada de Matemática\n\nUn alumno de la Escuela de Educación Secundaria Técnica N.º 1 “Dr. Mariano Moreno” e integrante del Club de Ciencias “Cielos del Sur” competirá del 15 al 19 de noviembre en La Falda, Córdoba. La cooperadora organizará actividades para ayudar a financiar su viaje.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Vicente Fontana clasificó a la nacional de la Olimpíada de Matemática",
-   "urgente": false,
-   "vence": "2026-10-26T17:40:43.000Z",
-   "video_bytes": 569788,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_eead609be41a8821.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tiktok": {
-   "actualizado": "2026-10-24T23:00:25.000Z",
-   "buffer_id": "6add1c69bd33ce99c34047dd",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tiktok",
-   "creado": "2026-10-24T18:00:17.000Z",
-   "dueAt": "2026-10-24T22:23:18.000Z",
-   "enviado": "2026-10-24T22:25:12.958Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T17:50:20.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7700362732515626292",
-   "metricas": {
-    "averageTimeWatched": 5.94,
-    "comments": 0,
-    "engagementRate": 1.71,
-    "reach": 0,
-    "reactions": 11,
-    "shares": 1,
-    "totalTimeWatched": 78,
-    "views": 702
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-vecinos-de-calle-88-y-rio-juramento-reclaman-obras",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Vecinos de calle 88 y Río Juramento reclaman obras contra anegamientos\n\nLas familias de la zona de calle 88 y Río Juramento reiteraron su preocupación por los anegamientos que se producen tras las precipitaciones intensas. Aseguran que el agua permanece acumulada durante varios días después de las lluvias, lo que afecta la circulación y el acceso.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-vecinos-de-calle-88-y-rio-juramento-reclaman-obras\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Vecinos de calle 88 y Río Juramento reclaman obras contra anegamientos",
-   "urgente": false,
-   "vence": "2026-10-26T17:50:20.000Z",
-   "video_bytes": 671424,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_618cae47f65a9dd0.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tiktok": {
-   "actualizado": "2026-10-24T23:00:25.000Z",
-   "buffer_id": "6add1c683d5b27036ba19bf2",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tiktok",
-   "creado": "2026-10-24T18:40:13.000Z",
-   "dueAt": "2026-10-24T22:03:03.000Z",
-   "enviado": "2026-10-24T22:03:57.422Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T18:29:34.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7700358359815425301",
-   "metricas": {
-    "averageTimeWatched": 4.05,
-    "comments": 0,
-    "engagementRate": 0.78,
-    "reach": 0,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 19.97,
-    "views": 257
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy\n\nMonserrat y Muciachio lideran en Chivilcoy. Con el VW Maxi Rally, la dupla comanda la clasificación general tras la disputa de la PE4.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-26T18:29:34.000Z",
-   "video_bytes": 555965,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b3452a9068856bed.mp4",
    "viral": false
   },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tiktok": {
@@ -14160,19 +13875,20 @@
    "viral": false
   },
   "entrevistas:job00271|tiktok": {
-   "actualizado": "2026-11-03T21:00:21.000Z",
+   "actualizado": "2026-11-03T23:00:24.000Z",
    "buffer_id": "6aea4b6b6f495ad554194c73",
    "categoria": "",
    "clave": "entrevistas:job00271|tiktok",
    "creado": "2026-11-03T17:00:23.000Z",
    "dueAt": "2026-11-03T22:03:20.000Z",
+   "enviado": "2026-11-03T22:05:13.985Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T17:00:23.000Z",
    "id": "entrevistas:job00271",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7704069250230570258",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -14696,43 +14412,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_01_junin_aprehendieron-a-dos-personas-e.mp4",
    "viral": false
   },
-  "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x": {
-   "actualizado": "2026-10-24T23:00:25.000Z",
-   "buffer_id": "6add2f1f8b3d437ddcde1644",
-   "clave": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos|x",
-   "creado": "2026-10-24T22:20:14.000Z",
-   "dueAt": "2026-10-24T22:23:49.000Z",
-   "enviado": "2026-10-24T22:24:04.668Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T22:01:57.000Z",
-   "id": "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114120768850120890",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 1.04,
-    "impressions": 96,
-    "reactions": 1,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
-   "noticia": "nota:junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 8,
-   "texto": "Cayó El Paisa y tres sospechosos en allanamientos contra el narcomenudeo en Junín\n\nCuatro personas fueron detenidas tras una serie de procedimientos antidrogas realizados en los barrios La Celeste y Los Paraguayos de esta ciudad.\n\nhttps://www.diariolacampaña.com.ar/n/junin-cayo-el-paisa-y-tres-personas-fueron-detenidas-en-daeae1",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cayó El Paisa y tres sospechosos en allanamientos contra el narcomenudeo en Junín",
-   "urgente": false,
-   "vence": "2026-10-25T00:01:57.000Z",
-   "video_bytes": 89307,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_01_junin_cay-el-paisa-y-tres-sospechoso.mp4",
-   "viral": false
-  },
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero|x": {
    "actualizado": "2026-10-26T22:40:32.000Z",
    "buffer_id": "6adfd223c26d8b40cc7a5a35",
@@ -14984,18 +14663,19 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x": {
-   "actualizado": "2026-11-03T22:20:30.000Z",
+   "actualizado": "2026-11-03T23:00:24.000Z",
    "buffer_id": "6aea5e2fdaff4dfc5059ae83",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x",
    "creado": "2026-11-03T22:20:16.000Z",
    "dueAt": "2026-11-03T22:23:55.000Z",
+   "enviado": "2026-11-03T22:24:04.430Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T22:01:33.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117744646595993694",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-volco-una-camioneta-en-la-ruta-5-y-el-conductor-debio-7a75dc",
    "noticia": "nota:bragado-volco-una-camioneta-en-la-ruta-5-y-el-conductor-debio-7a75dc",
    "origen": "policiales",
@@ -20248,31 +19928,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:da88e1e4-510a-45e4-992a-55ed16bef1e5|x": {
-   "actualizado": "2026-10-24T23:00:21.000Z",
-   "buffer_id": "",
-   "clave": "web:da88e1e4-510a-45e4-992a-55ed16bef1e5|x",
-   "creado": "2026-10-24T23:00:21.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-24T22:41:09.237Z",
-   "id": "web:da88e1e4-510a-45e4-992a-55ed16bef1e5",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
-   "noticia": "nota:chivilcoy-deportes-recibieron-a-la-delegacion-local-tras-la-final",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Recibieron a la delegación local tras la Final Provincial en Mar del Plata",
-   "urgente": false,
-   "vence": "2026-10-25T02:41:09.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:daae8efc-080c-4b85-8684-6b87ab41878c|x": {
    "actualizado": "2026-10-26T12:06:06.000Z",
    "buffer_id": "",
@@ -21203,18 +20858,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae2338443a908ace7dd9e0f",
-   "clave": "entrevistas:job00257|x",
-   "cuando": "2026-10-28T17:40:20.000Z",
-   "dueAt": "2026-10-28T17:42:50.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00258",
-   "cuando": "2026-10-28T18:20:17.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00258|x",
    "cuando": "2026-10-28T18:20:18.000Z",
@@ -25391,6 +25034,18 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "entrevistas:job00271|tiktok",
+   "cuando": "2026-11-03T23:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7704069250230570258"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x",
+   "cuando": "2026-11-03T23:00:25.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117744646595993694"
   }
  ],
  "tandas": {
@@ -25428,7 +25083,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-03",
- "ultima_sync": "2026-11-03T22:00:20.000Z",
+ "ultima_sync": "2026-11-03T23:00:24.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

@@ -1,28 +1,28 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 21 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 5 enviadas + 1 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 22 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 26 · likes 0
 - X · Reels del bot: 58 con métricas · mediana vistas/impresiones 32 · likes 0
-- X · Reels policiales: 18 con métricas · mediana vistas/impresiones 52.5 · likes 0
+- X · Reels policiales: 17 con métricas · mediana vistas/impresiones 48 · likes 0
 - X · Notas web: 50 con métricas · mediana vistas/impresiones 22 · likes 0
 - TikTok · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 113 · likes 1
-- TikTok · Reels del bot: 52 con métricas · mediana vistas/impresiones 385 · likes 4
+- TikTok · Reels del bot: 48 con métricas · mediana vistas/impresiones 376.5 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
@@ -38,8 +38,6 @@ Actualizado: 03/11/2026 19:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T17:40 recibido entrevistas:job00272|tiktok 
-- 2026-11-03T17:40 programado entrevistas:job00272|x 
 - 2026-11-03T18:20 enviado entrevistas:job00272|x 
 - 2026-11-03T18:40 entrevista_aprobada entrevistas:job00274 
 - 2026-11-03T18:40 recibido entrevistas:job00274|x 
@@ -63,3 +61,5 @@ Actualizado: 03/11/2026 19:40 (hora AR) · ACTIVO
 - 2026-11-03T22:20 depurado web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-03T22:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31116/volc 
 - 2026-11-03T22:40 recibido policiales:https://diarioelsalado.com.ar/2026/11/un-choque-e 
+- 2026-11-03T23:00 enviado entrevistas:job00271|tiktok 
+- 2026-11-03T23:00 enviado policiales:https://www.bragadoinforma.com.ar/nota/31116/volc 
