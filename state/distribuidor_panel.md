@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 03/11/2026 17:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
+- TikTok · Recortes de entrevistas · Hernan Figueroa defiende el nombre Folklore Sunset — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Gustavo Ferraris: Alerta por Fusarium en trigo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Hugo Beccaglia: Qué es actuar en "Rico es ser pobre" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Marcelo Speranza: clima para las vacaciones de verano — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -40,10 +41,6 @@ Actualizado: 03/11/2026 17:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T12:40 enviado web:8ccde707-f548-4c61-83cf-fb2ee30a7c99|x 
-- 2026-11-03T12:40 enviado web:b333b47e-b16a-4899-bd75-63c2b7086095|x 
-- 2026-11-03T13:00 programado bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tikto 
-- 2026-11-03T13:00 programado bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tikto 
 - 2026-11-03T13:40 enviado bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tikto 
 - 2026-11-03T13:40 enviado bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tikto 
 - 2026-11-03T13:40 enviado web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x 
@@ -65,3 +62,7 @@ Actualizado: 03/11/2026 17:00 (hora AR) · ACTIVO
 - 2026-11-03T18:40 recibido entrevistas:job00274|tiktok 
 - 2026-11-03T18:40 programado entrevistas:job00274|x 
 - 2026-11-03T19:20 enviado entrevistas:job00274|x 
+- 2026-11-03T20:20 entrevista_aprobada entrevistas:job00273 
+- 2026-11-03T20:20 recibido entrevistas:job00273|x 
+- 2026-11-03T20:20 recibido entrevistas:job00273|tiktok 
+- 2026-11-03T20:20 programado entrevistas:job00273|x 
