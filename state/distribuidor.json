@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-03T17:20:21.000Z"
+   "visto": "2026-11-03T18:20:34.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-03T17:20:21.000Z"
+   "visto": "2026-11-03T18:20:34.000Z"
   }
  },
  "contenidos": {
@@ -7358,43 +7358,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d059bf0e0a536458.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|x": {
-   "actualizado": "2026-10-24T18:00:32.000Z",
-   "buffer_id": "6adced900b5343d0709633dd",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5|x",
-   "creado": "2026-10-24T17:40:14.000Z",
-   "dueAt": "2026-10-24T17:42:20.000Z",
-   "enviado": "2026-10-24T17:42:38.474Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T17:32:04.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114049943132397692",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 18,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
-   "noticia": "nota:chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Ordenan ejecutar una sentencia laboral y embargar definitivamente el edificio del IMO\n\nLa Justicia dispuso avanzar con la ejecución de una sentencia y efectivizar el embargo del inmueble, según informó el abogado Emmanuel Langone.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Ordenan ejecutar una sentencia laboral y embargar definitivamente el edificio del IMO",
-   "urgente": false,
-   "vence": "2026-10-24T19:32:04.000Z",
-   "video_bytes": 648212,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d059bf0e0a536458.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|tiktok": {
    "actualizado": "2026-10-24T23:00:25.000Z",
    "buffer_id": "6add1c696887a2efc1d59eaa",
@@ -14635,18 +14598,19 @@
    "viral": false
   },
   "entrevistas:job00272|x": {
-   "actualizado": "2026-11-03T17:40:15.000Z",
+   "actualizado": "2026-11-03T18:20:34.000Z",
    "buffer_id": "6aea1c8024384d4018531c17",
    "clave": "entrevistas:job00272|x",
    "creado": "2026-11-03T17:40:15.000Z",
    "dueAt": "2026-11-03T17:42:42.000Z",
+   "enviado": "2026-11-03T17:42:55.513Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T17:40:15.000Z",
    "id": "entrevistas:job00272",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117673893288677461",
    "nota_url": "",
    "noticia": "titulo:actuar-beccaglia-hugo-pobre-rico",
    "origen": "entrevistas",
@@ -21445,12 +21409,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|x",
-   "cuando": "2026-10-28T15:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115455518298800168"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|x",
    "cuando": "2026-10-28T15:20:24.000Z",
    "evento": "enviado",
@@ -25634,6 +25592,12 @@
    "cuando": "2026-11-03T17:40:16.000Z",
    "dueAt": "2026-11-03T17:42:42.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00272|x",
+   "cuando": "2026-11-03T18:20:35.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117673893288677461"
   }
  ],
  "tandas": {
@@ -25671,7 +25635,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-03",
- "ultima_sync": "2026-11-03T17:20:21.000Z",
+ "ultima_sync": "2026-11-03T18:20:34.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
