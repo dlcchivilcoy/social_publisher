@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-03T10:20:13.000Z"
+   "visto": "2026-11-03T11:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 5,
-    "sent": 15
+    "scheduled": 3,
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-03T10:20:13.000Z"
+   "visto": "2026-11-03T11:20:16.000Z"
   }
  },
  "contenidos": {
@@ -16912,19 +16912,20 @@
    "viral": false
   },
   "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42|x": {
-   "actualizado": "2026-11-03T10:04:04.000Z",
+   "actualizado": "2026-11-03T11:20:16.000Z",
    "buffer_id": "6ae9b196c4e7dc18825ee54b",
    "clave": "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42|x",
    "creado": "2026-11-03T10:02:22.000Z",
    "dueAt": "2026-11-03T10:52:08.000Z",
+   "enviado": "2026-11-03T10:52:16.183Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T10:01:06.320Z",
    "id": "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42",
    "ig_hora": "2026-11-03T10:52:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117570548058190328",
    "nota_url": "https://www.diariolacampaña.com.ar/n/magic-dance-chivilcoy-gran-despedida-de-ano-para-el-centro-municipal",
    "noticia": "nota:magic-dance-chivilcoy-gran-despedida-de-ano-para-el-centro-municipal",
    "origen": "web",
@@ -17204,19 +17205,20 @@
    "viral": false
   },
   "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e|x": {
-   "actualizado": "2026-11-03T10:04:04.000Z",
+   "actualizado": "2026-11-03T11:20:16.000Z",
    "buffer_id": "6ae9b196fe2f16b703bb79bb",
    "clave": "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e|x",
    "creado": "2026-11-03T10:02:22.000Z",
    "dueAt": "2026-11-03T11:07:28.000Z",
+   "enviado": "2026-11-03T11:07:31.634Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T10:01:11.073Z",
    "id": "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e",
    "ig_hora": "2026-11-03T11:07:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117574387813499386",
    "nota_url": "https://www.diariolacampaña.com.ar/n/museo-pompeo-boggio-chivilcoy-inaugura-este-martes-llega-huellas",
    "noticia": "nota:museo-pompeo-boggio-chivilcoy-inaugura-este-martes-llega-huellas",
    "origen": "web",
@@ -19927,19 +19929,20 @@
    "viral": false
   },
   "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf|x": {
-   "actualizado": "2026-11-03T10:04:04.000Z",
+   "actualizado": "2026-11-03T11:20:16.000Z",
    "buffer_id": "6ae9b195c4e7dc18825ee4f0",
    "clave": "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf|x",
    "creado": "2026-11-03T10:02:22.000Z",
    "dueAt": "2026-11-03T10:22:52.000Z",
+   "enviado": "2026-11-03T10:23:01.504Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T10:00:56.626Z",
    "id": "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf",
    "ig_hora": "2026-11-03T10:22:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117563188333908473",
    "nota_url": "https://www.diariolacampaña.com.ar/n/conmocion-en-chivilcoy-chivilcoy-averiguacion-de-causales-de-muerte",
    "noticia": "nota:conmocion-en-chivilcoy-chivilcoy-averiguacion-de-causales-de-muerte",
    "origen": "web",
@@ -20235,19 +20238,20 @@
    "viral": false
   },
   "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60|x": {
-   "actualizado": "2026-11-03T10:04:04.000Z",
+   "actualizado": "2026-11-03T11:20:16.000Z",
    "buffer_id": "6ae9b195c4e7dc18825ee51a",
    "clave": "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60|x",
    "creado": "2026-11-03T10:02:22.000Z",
    "dueAt": "2026-11-03T10:37:28.000Z",
+   "enviado": "2026-11-03T10:37:31.240Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T10:01:01.620Z",
    "id": "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60",
    "ig_hora": "2026-11-03T10:37:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117566835906244717",
    "nota_url": "https://www.diariolacampaña.com.ar/n/educacion-y-comunidad-chivilcoy-casa-pueblo-impulsa-talleres-de-salud",
    "noticia": "nota:educacion-y-comunidad-chivilcoy-casa-pueblo-impulsa-talleres-de-salud",
    "origen": "web",
@@ -20436,14 +20440,14 @@
    "viral": false
   },
   "web:b333b47e-b16a-4899-bd75-63c2b7086095|x": {
-   "actualizado": "2026-11-03T10:02:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-03T11:20:16.000Z",
+   "buffer_id": "6ae9c37047205d2c3994e893",
    "clave": "web:b333b47e-b16a-4899-bd75-63c2b7086095|x",
    "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-03T12:37:33.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-03T10:01:47.454Z",
    "id": "web:b333b47e-b16a-4899-bd75-63c2b7086095",
    "ig_hora": "2026-11-03T12:37:11.000Z",
@@ -22195,39 +22199,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae1df2063bb1a485a2ae11e",
-   "clave": "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0|x",
-   "cuando": "2026-10-28T11:40:17.000Z",
-   "dueAt": "2026-10-28T12:52:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae1df20d47ee8ef2fb48e6b",
-   "clave": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x",
-   "cuando": "2026-10-28T11:40:17.000Z",
-   "dueAt": "2026-10-28T13:07:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae1e883dee6d1a87ac35f35",
-   "clave": "web:fc28ba09-8297-457f-a09e-12190be789d3|x",
-   "cuando": "2026-10-28T12:20:19.000Z",
-   "dueAt": "2026-10-28T13:37:44.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:2fdbd396-83fc-451f-926b-d71cfd42c1be|x",
-   "cuando": "2026-10-28T12:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115422771438064037"
-  },
-  {
-   "clave": "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34|x",
-   "cuando": "2026-10-28T12:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115418932878197077"
-  },
   {
    "clave": "web:d32900c4-88d6-42ae-8c8e-361cf3839478|x",
    "cuando": "2026-10-28T12:40:17.000Z",
@@ -26397,6 +26368,37 @@
    "cuando": "2026-11-03T11:00:19.000Z",
    "dueAt": "2026-11-03T12:22:50.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42|x",
+   "cuando": "2026-11-03T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117570548058190328"
+  },
+  {
+   "clave": "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e|x",
+   "cuando": "2026-11-03T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117574387813499386"
+  },
+  {
+   "clave": "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf|x",
+   "cuando": "2026-11-03T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117563188333908473"
+  },
+  {
+   "clave": "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60|x",
+   "cuando": "2026-11-03T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117566835906244717"
+  },
+  {
+   "buffer_id": "6ae9c37047205d2c3994e893",
+   "clave": "web:b333b47e-b16a-4899-bd75-63c2b7086095|x",
+   "cuando": "2026-11-03T11:20:16.000Z",
+   "dueAt": "2026-11-03T12:37:33.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -26434,7 +26436,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-03",
- "ultima_sync": "2026-11-03T10:20:13.000Z",
+ "ultima_sync": "2026-11-03T11:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
