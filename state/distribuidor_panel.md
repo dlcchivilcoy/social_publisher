@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 3 | 0 | 3 | 0 |
-| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 8 |
+| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 3 | 0 |
+| Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,8 +28,8 @@ Actualizado: 02/11/2026 22:40 (hora AR) · ACTIVO
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
 ## Cola propia (3 esperando)
+- TikTok · Reels del bot · Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Cayó granizo en Chacabuco tras la medianoche y sigue la alerta por tormentas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Aprehendieron a dos personas en Junín tras distintos hechos delictivos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Conductor ebrio chocó contra un auto estacionado en avenida Respuela — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
@@ -40,11 +40,6 @@ Actualizado: 02/11/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T17:20 enviado entrevistas:job00269|x 
-- 2026-11-02T17:20 programado entrevistas:job00270|x 
-- 2026-11-02T18:20 recibido bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x 
-- 2026-11-02T18:20 recibido bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tikto 
-- 2026-11-02T18:20 recibido web:6541af24-4488-427f-95aa-ae535252bd65|x 
 - 2026-11-02T18:20 recibido web:a872c57c-897c-4bec-8f45-2e83bffd630f|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-02T18:20 depurado web:6541af24-4488-427f-95aa-ae535252bd65|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-02T18:20 enviado entrevistas:job00270|x 
@@ -65,3 +60,8 @@ Actualizado: 02/11/2026 22:40 (hora AR) · ACTIVO
 - 2026-11-03T00:40 vencido policiales:https://infociudad.com.ar/actualidad/intento-roba espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-03T01:20 vencido policiales:https://lobos24.com.ar/2026/11/02/tres-procedimie espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-03T01:40 vencido policiales:https://diarionucleo.com/ciudad/pergamino/291502- espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-03T02:00 recibido bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|x 
+- 2026-11-03T02:00 recibido bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tikto 
+- 2026-11-03T02:00 recibido web:a642e972-d928-4d92-8619-4b52387cb16a|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-03T02:00 programado bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|x 
+- 2026-11-03T02:00 programado policiales:https://junin24.com/policiales/esclarecieron-el-r 

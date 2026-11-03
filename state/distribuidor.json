@@ -1251,6 +1251,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ce67196207b0fb8.mp4",
    "youtube_url": "https://www.youtube.com/shorts/f1IMzY6aT6M"
   },
+  "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6": {
+   "descripcion": "Controles simultáneos para fortalecer la prevención y la seguridad. Los procedimientos estuvieron coordinados con la participación de distintas dependencias policiales y áreas de seguridad vial, con el objetivo de reforzar la prevención, controlar la circulación vehicular y fortalecer...",
+   "duracion_seg": 30.0,
+   "generado": "2026-11-03T01:56:04.000Z",
+   "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad",
+   "urgente": false,
+   "video_bytes": 2897062,
+   "video_mb": 2.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_322c84fff498fbab.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/W3CppXWEvCY"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -5808,6 +5829,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/final-provincial-chivilcoy-cerro-un-brillante-desempeno-en-los-juegos-1",
    "volanta": "Final Provincial"
+  },
+  "web:a642e972-d928-4d92-8619-4b52387cb16a": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad CHIVILCOY.– Controles simultáneos para fortalecer la prevención y la seguridad. Los procedimientos estuvieron coordinados con la participación de distintas dependencias policiales y áreas de seguridad vial, con el objetivo de reforzar la prevención, controlar la circulación vehicular y fortalecer la presencia preventiva en la vía pública. Los controles se llevaron adelante en los accesos por las avenidas...",
+   "generado": "2026-11-03T01:53:16.276Z",
+   "id": "web:a642e972-d928-4d92-8619-4b52387cb16a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_bb80adc5b0cc4441a81043f17b523fdb~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
+   "volanta": "Chivilcoy · Seguridad"
   },
   "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56": {
    "categoria": "",
@@ -10905,6 +10945,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ce67196207b0fb8.mp4",
    "viral": false
   },
+  "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok": {
+   "actualizado": "2026-11-03T02:00:19.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok",
+   "creado": "2026-11-03T02:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-03T01:56:04.000Z",
+   "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad\n\nControles simultáneos para fortalecer la prevención y la seguridad. Los procedimientos estuvieron coordinados con la participación de distintas dependencias policiales y áreas de seguridad vial, con el objetivo de reforzar la prevención, controlar la circulación vehicular y fortalecer...\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad",
+   "urgente": false,
+   "vence": "2026-11-05T01:56:04.000Z",
+   "video_bytes": 2897062,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_322c84fff498fbab.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|x": {
+   "actualizado": "2026-11-03T02:00:22.000Z",
+   "buffer_id": "6ae94037186a5afbce7a5185",
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|x",
+   "creado": "2026-11-03T02:00:19.000Z",
+   "dueAt": "2026-11-03T02:02:15.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-03T01:56:04.000Z",
+   "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
+   "noticia": "nota:chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad\n\nDistintas dependencias policiales y áreas de seguridad vial coordinaron procedimientos para reforzar la prevención y controlar la circulación vehicular.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad",
+   "urgente": false,
+   "vence": "2026-11-03T03:56:04.000Z",
+   "video_bytes": 2897062,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_322c84fff498fbab.mp4",
+   "viral": false
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
    "actualizado": "2026-10-25T00:20:15.000Z",
    "buffer_id": "6add4695bd33ce99c3492b8f",
@@ -15135,14 +15231,14 @@
    "viral": false
   },
   "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero|x": {
-   "actualizado": "2026-11-03T00:40:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-03T02:00:22.000Z",
+   "buffer_id": "6ae940386f053cdb90b7fe07",
    "clave": "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero|x",
    "creado": "2026-11-03T00:40:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-03T02:07:33.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-03T00:32:23.000Z",
    "id": "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero",
    "intentos": 0,
@@ -19558,6 +19654,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:a642e972-d928-4d92-8619-4b52387cb16a|x": {
+   "actualizado": "2026-11-03T02:00:19.000Z",
+   "buffer_id": "",
+   "clave": "web:a642e972-d928-4d92-8619-4b52387cb16a|x",
+   "creado": "2026-11-03T02:00:19.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-03T01:53:16.276Z",
+   "id": "web:a642e972-d928-4d92-8619-4b52387cb16a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
+   "noticia": "nota:chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad",
+   "urgente": false,
+   "vence": "2026-11-03T05:53:16.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x": {
    "actualizado": "2026-10-29T14:00:23.000Z",
    "buffer_id": "6ae3355344715b877827a3dd",
@@ -21404,44 +21525,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|x",
-   "cuando": "2026-10-28T09:00:20.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:d32900c4-88d6-42ae-8c8e-361cf3839478|x",
-   "cuando": "2026-10-28T10:02:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:a3d30d89-bce5-41df-b635-6f903026b394|x",
-   "cuando": "2026-10-28T10:02:35.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7|x",
-   "cuando": "2026-10-28T10:02:43.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960|x",
-   "cuando": "2026-10-28T10:02:52.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:79b75c3c-36c0-41d8-8c05-e6e55f19d12d|x",
    "cuando": "2026-10-28T10:02:56.000Z",
@@ -25600,6 +25683,44 @@
    "cuando": "2026-11-03T01:40:15.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|x",
+   "cuando": "2026-11-03T02:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok",
+   "cuando": "2026-11-03T02:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:a642e972-d928-4d92-8619-4b52387cb16a|x",
+   "cuando": "2026-11-03T02:00:22.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae94037186a5afbce7a5185",
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|x",
+   "cuando": "2026-11-03T02:00:24.000Z",
+   "dueAt": "2026-11-03T02:02:15.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae940386f053cdb90b7fe07",
+   "clave": "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero|x",
+   "cuando": "2026-11-03T02:00:24.000Z",
+   "dueAt": "2026-11-03T02:07:33.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -25750,6 +25871,7 @@
   "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26": "2026-10-31T21:00:19.000Z",
   "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs": "2026-10-31T23:40:14.000Z",
   "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl": "2026-11-02T18:20:16.000Z",
+  "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6": "2026-11-03T02:00:19.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -26525,6 +26647,7 @@
   "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
   "web:a604bb88-c1b1-4d8c-aeb4-73f24939ba20": "2026-10-26T12:06:06.000Z",
+  "web:a642e972-d928-4d92-8619-4b52387cb16a": "2026-11-03T02:00:19.000Z",
   "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a": "2026-10-19T10:20:14.000Z",
   "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130": "2026-10-18T20:20:13.000Z",
   "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56": "2026-10-29T10:20:14.000Z",
