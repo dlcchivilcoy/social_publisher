@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 18:40 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 19:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -14,7 +14,7 @@ Actualizado: 03/11/2026 18:40 (hora AR) · ACTIVO
 
 ## Canales
 - X: conectado · Buffer: 21 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 5 enviadas + 1 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -37,9 +37,6 @@ Actualizado: 03/11/2026 18:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T13:40 enviado web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x 
-- 2026-11-03T17:00 entrevista_aprobada entrevistas:job00271 
-- 2026-11-03T17:00 recibido entrevistas:job00271|x 
 - 2026-11-03T17:00 recibido entrevistas:job00271|tiktok 
 - 2026-11-03T17:00 programado entrevistas:job00271|x 
 - 2026-11-03T17:20 enviado entrevistas:job00271|x 
@@ -62,3 +59,6 @@ Actualizado: 03/11/2026 18:40 (hora AR) · ACTIVO
 - 2026-11-03T21:00 programado entrevistas:job00274|tiktok 
 - 2026-11-03T21:00 programado entrevistas:job00272|tiktok 
 - 2026-11-03T21:00 programado entrevistas:job00271|tiktok 
+- 2026-11-03T22:00 enviado entrevistas:job00272|tiktok 
+- 2026-11-03T22:00 enviado entrevistas:job00273|tiktok 
+- 2026-11-03T22:00 enviado entrevistas:job00274|tiktok 
