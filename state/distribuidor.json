@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl": {
-   "descripcion": "La Policía Comunal, junto con personal de la SubDDI Chivilcoy, realizó un allanamiento que permitió esclarecer dos hechos delictivos ocurridos durante la madrugada del 20 de octubre, con intervención de la Justicia de Mercedes. La investigación se inició tras un robo a una carnicería.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-22T22:20:46.000Z",
-   "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Imputaron a un menor tras allanamientos por robos en dos comercios",
-   "urgente": false,
-   "video_bytes": 995570,
-   "video_mb": 0.9,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6c2aa2b19c388ff2.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/TnqeizXiNas"
-  },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg": {
    "descripcion": "Matías Zucchi.",
    "duracion_seg": 30.0,
@@ -2368,6 +2347,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_05_9-de-julio_robo-en-la-terminal-de-mnibus-.mp4",
    "volanta": "Robo en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/nDNWk0FHbKk"
+  },
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/": {
+   "categoria": "accidente_vial",
+   "descripcion": "Dos vehículos colisionaron en la intersección de Albizzatti e Yrigoyen. Una Renault Kangoo terminó volcada sobre su lateral. Los conductores resultaron ilesos y solo se registraron daños materiales según informaron fuentes policiales.",
+   "distancia_km": 28.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-03T22:31:48.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/",
+   "localidad": "Alberti",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-una-camioneta-volco-tras-chocar-contra-un-auto-en-2c6a09",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Un violento choque entre dos vehículos terminó con el vuelco de una camioneta en la tarde de ayer en la ciudad de Alberti.\n\nEl siniestro vial ocurrió en la intersección de las calles Albizzatti e Yrigoyen.\n\nLos rodados involucrados fueron una Renault Suran guiada por Marcelo Petinari y una Renault Kangoo al mando de Juan Pablo Rondín, de 40 años y oriundo de 25 de Mayo.\n\nComo consecuencia del impacto, la Kangoo volcó y quedó sobre uno de sus laterales.\n\nPersonal de la Estación de Policía Comunal intervino en el lugar y constató que ambos conductores resultaron ilesos, registrándose únicamente daños materiales.\n\nLos vehículos permanecieron varias horas a la espera de pericias.\n\n📲 Más noticias de Alberti en www.diariolacampaña.com.ar\n\n#Alberti #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Una camioneta volcó tras un choque en la esquina de Albizzatti e Yrigoyen",
+   "urgente": false,
+   "video_bytes": 111328,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_03_alberti_una-camioneta-volc-tras-un-cho.mp4",
+   "volanta": "Choque y vuelco en Alberti",
+   "youtube_url": "https://youtube.com/shorts/cMtKVOE71Vg"
   },
   "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura": {
    "categoria": "otro_policial",
@@ -6994,34 +6999,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tiktok": {
-   "actualizado": "2026-10-24T22:40:14.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl|tiktok",
-   "creado": "2026-10-22T22:40:13.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-22T22:20:46.000Z",
-   "id": "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Imputaron a un menor tras allanamientos por robos en dos comercios\n\nLa Policía Comunal, junto con personal de la SubDDI Chivilcoy, realizó un allanamiento que permitió esclarecer dos hechos delictivos ocurridos durante la madrugada del 20 de octubre, con intervención de la Justicia de Mercedes. La investigación se inició tras un robo a una carnicería.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-imputaron-a-un-menor-tras-allanamientos-por\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Imputaron a un menor tras allanamientos por robos en dos comercios",
-   "urgente": false,
-   "vence": "2026-10-24T22:20:46.000Z",
-   "video_bytes": 995570,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_6c2aa2b19c388ff2.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|tiktok": {
    "actualizado": "2026-10-25T13:20:15.000Z",
    "buffer_id": "",
@@ -14441,6 +14418,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_05_9-de-julio_robo-en-la-terminal-de-mnibus-.mp4",
    "viral": false
   },
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x": {
+   "actualizado": "2026-11-03T22:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x",
+   "creado": "2026-11-03T22:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-03T22:31:48.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-una-camioneta-volco-tras-chocar-contra-un-auto-en-2c6a09",
+   "noticia": "nota:alberti-una-camioneta-volco-tras-chocar-contra-un-auto-en-2c6a09",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Una camioneta volcó tras un choque en la esquina de Albizzatti e Yrigoyen\n\nDos vehículos colisionaron en la intersección de Albizzatti e Yrigoyen. Una Renault Kangoo terminó volcada sobre su lateral.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-una-camioneta-volco-tras-chocar-contra-un-auto-en-2c6a09",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una camioneta volcó tras un choque en la esquina de Albizzatti e Yrigoyen",
+   "urgente": false,
+   "vence": "2026-11-04T00:31:48.000Z",
+   "video_bytes": 111328,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_03_alberti_una-camioneta-volc-tras-un-cho.mp4",
+   "viral": false
+  },
   "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura|x": {
    "actualizado": "2026-10-26T09:00:29.000Z",
    "buffer_id": "",
@@ -21199,14 +21204,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00257|tiktok",
-   "cuando": "2026-10-28T17:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
    "buffer_id": "6ae2338443a908ace7dd9e0f",
    "clave": "entrevistas:job00257|x",
    "cuando": "2026-10-28T17:40:20.000Z",
@@ -25386,6 +25383,14 @@
    "cuando": "2026-11-03T22:20:32.000Z",
    "dueAt": "2026-11-03T22:23:55.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x",
+   "cuando": "2026-11-03T22:40:34.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -25784,6 +25789,7 @@
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": "2026-10-24T00:20:16.000Z",
   "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/": "2026-10-22T01:00:18.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": "2026-10-16T13:00:18.000Z",
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/": "2026-11-03T22:40:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura": "2026-10-26T09:00:18.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron": "2026-10-26T23:20:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion": "2026-11-02T23:40:16.000Z",
