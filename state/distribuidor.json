@@ -17714,14 +17714,14 @@
    "viral": false
   },
   "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x": {
-   "actualizado": "2026-11-03T10:02:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-03T12:20:14.000Z",
+   "buffer_id": "6ae9d17ec4271f6e32ff5f9a",
    "clave": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x",
    "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-03T13:37:21.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-03T10:02:07.714Z",
    "id": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec",
    "ig_hora": "2026-11-03T13:37:11.000Z",
@@ -22324,12 +22324,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tiktok",
-   "cuando": "2026-10-28T14:00:25.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701704724193512705"
-  },
-  {
    "clave": "web:4a6aa618-39da-48c8-ac70-d58a4ad2479e|x",
    "cuando": "2026-10-28T14:00:25.000Z",
    "evento": "enviado",
@@ -26528,6 +26522,13 @@
    "clave": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x",
    "cuando": "2026-11-03T12:00:35.000Z",
    "dueAt": "2026-11-03T13:22:05.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae9d17ec4271f6e32ff5f9a",
+   "clave": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x",
+   "cuando": "2026-11-03T12:20:15.000Z",
+   "dueAt": "2026-11-03T13:37:21.000Z",
    "evento": "programado"
   }
  ],

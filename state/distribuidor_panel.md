@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 09:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 03/11/2026 09:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 8 | 1 | 0 | 0 | 1 |
+| Notas web | X | 15 | 5 | 9 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,9 +27,8 @@ Actualizado: 03/11/2026 09:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (2 esperando)
 - TikTok · Reels del bot · Seguridad de Chivilcoy participó de la Semana de la Policía Federal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Chivilcoy: Romina Caballo lideró al Raleigh Fem en la 1ª Vuelta Ciclista Femenin — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -40,7 +39,6 @@ Actualizado: 03/11/2026 09:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T10:03 recibido web:9ac331e3-58a9-43ce-9986-c29dbe470fdf|x 
 - 2026-11-03T10:04 recibido web:e1762bc6-192e-4d3f-8b37-22296e8b40d9|x 
 - 2026-11-03T10:04 programado web:e1762bc6-192e-4d3f-8b37-22296e8b40d9|x 
 - 2026-11-03T10:04 programado web:9ac331e3-58a9-43ce-9986-c29dbe470fdf|x 
@@ -65,3 +63,4 @@ Actualizado: 03/11/2026 09:00 (hora AR) · ACTIVO
 - 2026-11-03T12:00 recibido bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tikto 
 - 2026-11-03T12:00 programado bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x 
 - 2026-11-03T12:00 programado web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x 
+- 2026-11-03T12:20 programado web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x 
