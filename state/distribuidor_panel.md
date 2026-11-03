@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 17:20 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 17:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
@@ -13,12 +13,12 @@ Actualizado: 03/11/2026 17:20 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 20 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 21 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 26 · likes 0
-- X · Reels del bot: 59 con métricas · mediana vistas/impresiones 32 · likes 0
+- X · Reels del bot: 58 con métricas · mediana vistas/impresiones 32 · likes 0
 - X · Reels policiales: 18 con métricas · mediana vistas/impresiones 52.5 · likes 0
 - X · Notas web: 50 con métricas · mediana vistas/impresiones 22 · likes 0
 - TikTok · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 113 · likes 1
@@ -41,7 +41,6 @@ Actualizado: 03/11/2026 17:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T13:40 enviado bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tikto 
 - 2026-11-03T13:40 enviado bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tikto 
 - 2026-11-03T13:40 enviado web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x 
 - 2026-11-03T13:40 enviado web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x 
@@ -66,3 +65,4 @@ Actualizado: 03/11/2026 17:20 (hora AR) · ACTIVO
 - 2026-11-03T20:20 recibido entrevistas:job00273|x 
 - 2026-11-03T20:20 recibido entrevistas:job00273|tiktok 
 - 2026-11-03T20:20 programado entrevistas:job00273|x 
+- 2026-11-03T20:40 enviado entrevistas:job00273|x 
