@@ -43,19 +43,39 @@ def escribir_env(clave: str) -> None:
     ENV.write_bytes(("\n".join(lineas) + "\n").encode("utf-8"))
 
 
+def limpiar(texto: str) -> str:
+    """La clave sin espacios, saltos ni caracteres invisibles (el Ctrl+V de la consola o el BOM del Bloc de notas)."""
+    return "".join(c for c in texto if c.isprintable() and not c.isspace() and c != "﻿")
+
+
+def archivo_de_clave() -> Path | None:
+    """El txt «buffer api» del Escritorio, si el usuario dejó ahí la clave."""
+    for escritorio in (Path.home() / "Desktop", Path.home() / "OneDrive" / "Desktop", Path.home() / "OneDrive" / "Escritorio"):
+        for nombre in ("buffer api.txt", "buffer api.txt.txt", "buffer api"):
+            if (escritorio / nombre).is_file():
+                return escritorio / nombre
+    return None
+
+
 def main() -> int:
     if not ENV.exists():
         print("[ERROR] No encuentro el .env en", AQUI)
         return 1
-    clave = getpass.getpass("Pegá la API key de Buffer (no se ve al pegar) y tocá Enter: ").strip()
+    archivo = archivo_de_clave()
+    if archivo:
+        print(f"Encontré la clave en «{archivo.name}», en el Escritorio.")
+        input("Tocá Enter para cargarla (o cerrá esta ventana para no hacer nada): ")
+        clave = limpiar(archivo.read_text(encoding="utf-8", errors="ignore"))
+    else:
+        clave = limpiar(getpass.getpass("Pegá la API key de Buffer (no se ve al pegar) y tocá Enter: "))
     if not clave:
-        print("No se pegó nada. No cambié nada.")
+        print("No llegó ninguna clave. No cambié nada.")
         return 1
     try:
         print("Probando la clave contra Buffer...")
         print("  OK, la clave es de:", probar(clave))
-    except Exception as e:  # noqa: BLE001
-        print("[ERROR] Buffer rechazó la clave:", e)
+    except Exception as e:  # noqa: BLE001 — el motivo sin el texto del error: puede traer la clave
+        print(f"[ERROR] Buffer rechazó la clave ({getattr(e, 'code', type(e).__name__)}).")
         print("No cambié nada.")
         return 1
     escribir_env(clave)
