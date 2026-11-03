@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 02/11/2026 22:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 5 | 0 | 1 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 4 | 0 | 2 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -18,22 +18,20 @@ Actualizado: 02/11/2026 22:00 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 26 · likes 0
-- X · Reels del bot: 65 con métricas · mediana vistas/impresiones 32 · likes 0
-- X · Reels policiales: 18 con métricas · mediana vistas/impresiones 49 · likes 0
+- X · Reels del bot: 64 con métricas · mediana vistas/impresiones 31 · likes 0
+- X · Reels policiales: 17 con métricas · mediana vistas/impresiones 50 · likes 0
 - X · Notas web: 40 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 132 · likes 1
 - TikTok · Reels del bot: 60 con métricas · mediana vistas/impresiones 287.5 · likes 3
-- TikTok · Reels policiales: 1 con métricas · mediana vistas/impresiones 515 · likes 4 ⚠️muestra chica
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (4 esperando)
 - X · Reels policiales · Cayó granizo en Chacabuco tras la medianoche y sigue la alerta por tormentas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Derivaron a La Plata a la joven herida tras una persecución policial — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Aprehendieron a dos personas en Junín tras distintos hechos delictivos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Conductor ebrio chocó contra un auto estacionado en avenida Respuela — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Lobos: dos aprehendidos, cinco motos secuestradas y 21 actas viales — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -43,7 +41,6 @@ Actualizado: 02/11/2026 22:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T17:20 recibido entrevistas:job00270|x 
 - 2026-11-02T17:20 recibido entrevistas:job00270|tiktok 
 - 2026-11-02T17:20 enviado entrevistas:job00269|x 
 - 2026-11-02T17:20 programado entrevistas:job00270|x 
@@ -68,3 +65,4 @@ Actualizado: 02/11/2026 22:00 (hora AR) · ACTIVO
 - 2026-11-03T00:40 recibido policiales:https://semanariodejunin.com.ar/nota/76160/sinies 
 - 2026-11-03T00:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/granizo-p 
 - 2026-11-03T00:40 vencido policiales:https://infociudad.com.ar/actualidad/intento-roba espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-03T01:20 vencido policiales:https://lobos24.com.ar/2026/11/02/tres-procedimie espera su momento (se programa cerca de la hora en que sale en las otras redes)
