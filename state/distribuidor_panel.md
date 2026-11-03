@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 03/11/2026 08:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 5 | 4 | 0 | 0 | 0 |
+| Notas web | X | 15 | 5 | 7 | 3 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,11 +27,10 @@ Actualizado: 03/11/2026 08:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (4 esperando)
+- X · Notas web · Seguridad de Chivilcoy participó de la Semana de la Policía Federal — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Romina Caballo lideró al Raleigh Fem en la 1ª Vuelta Ciclista Femenin — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Racing Club de Chivilcoy redondeó otra jornada histórica y jugará nuevamente las — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Partidazo en el Sandrín: Racing de Chivilcoy busca derribar al invicto Instituto — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Bragado Club el gran protagonista del fin de semana: tras la caída con Gimnasia, — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -42,9 +41,6 @@ Actualizado: 03/11/2026 08:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T10:03 recibido web:b333b47e-b16a-4899-bd75-63c2b7086095|x 
-- 2026-11-03T10:03 recibido web:53a73a04-7714-4da8-a6b3-30f272f523ee|x 
-- 2026-11-03T10:03 recibido web:8ccde707-f548-4c61-83cf-fb2ee30a7c99|x 
 - 2026-11-03T10:03 recibido web:102f794a-1b02-4e61-aa74-3d003a611178|x 
 - 2026-11-03T10:03 recibido web:01bf9e9c-5d81-432e-9d5f-303e147f07d7|x 
 - 2026-11-03T10:03 recibido web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e|x 
@@ -67,3 +63,6 @@ Actualizado: 03/11/2026 08:20 (hora AR) · ACTIVO
 - 2026-11-03T11:20 enviado web:9ac331e3-58a9-43ce-9986-c29dbe470fdf|x 
 - 2026-11-03T11:20 enviado web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60|x 
 - 2026-11-03T11:20 programado web:b333b47e-b16a-4899-bd75-63c2b7086095|x 
+- 2026-11-03T11:40 recibido web:eaf28054-4d3b-40e6-97eb-693de73680a8|x 
+- 2026-11-03T11:40 programado web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x 
+- 2026-11-03T11:40 programado web:bc895e05-1264-4c69-9d17-5990747c5cfd|x 

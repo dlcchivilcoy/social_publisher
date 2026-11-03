@@ -7046,6 +7046,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/allanamiento-por-venta-de-drogas-bragado-quedo-a-disposicion-de-la",
    "volanta": ""
   },
+  "web:eaf28054-4d3b-40e6-97eb-693de73680a8": {
+   "categoria": "",
+   "descripcion": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal El secretario de Seguridad de la Municipalidad de Chivilcoy, Néstor Dabi, acompañado por Marcelo Loyola, participó de la ceremonia conmemorativa por la Semana de la Policía Federal Argentina, realizada en la ciudad de Mercedes. La actividad tuvo lugar en el salón Casa Anús y fue organizada por la División Unidad Operativa Federal Mercedes, a cargo de la comisaria Alicia Benítez, en el marco de las actividades de...",
+   "generado": "2026-11-03T11:39:57.519Z",
+   "id": "web:eaf28054-4d3b-40e6-97eb-693de73680a8",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_18348875c119419ab3b4ada69bbf8cae~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
+   "volanta": "Mercedes · Seguridad"
+  },
   "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f": {
    "categoria": "",
    "descripcion": "Racing Club de Chivilcoy redondeó otra jornada histórica y jugará nuevamente las finales en todas sus categorías en la Liga Social CHIVILCOY.– El conjunto albiceleste tuvo un fin de semana soñado: la Primera Masculina superó con autoridad a Betharram, la categoría Juveniles M17 venció a Malvinas Argentinas y el Rugby Femenino también sacó boleto para el partido decisivo. La gran cita será el próximo 15 de noviembre en Ministro Rivadavia. El campo de deportes de Racing Club de Chivilcoy fue...",
@@ -19706,14 +19725,14 @@
    "viral": false
   },
   "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x": {
-   "actualizado": "2026-11-03T10:02:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-03T11:40:18.000Z",
+   "buffer_id": "6ae9c8223b7ecdee655c40f8",
    "clave": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x",
    "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-03T12:52:18.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-03T10:01:54.071Z",
    "id": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0",
    "ig_hora": "2026-11-03T12:52:11.000Z",
@@ -20588,14 +20607,14 @@
    "viral": false
   },
   "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x": {
-   "actualizado": "2026-11-03T10:02:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-03T11:40:18.000Z",
+   "buffer_id": "6ae9c823f81926b932926e07",
    "clave": "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x",
    "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-03T13:07:00.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-03T10:01:58.845Z",
    "id": "web:bc895e05-1264-4c69-9d17-5990747c5cfd",
    "ig_hora": "2026-11-03T13:07:11.000Z",
@@ -21778,6 +21797,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:eaf28054-4d3b-40e6-97eb-693de73680a8|x": {
+   "actualizado": "2026-11-03T11:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:eaf28054-4d3b-40e6-97eb-693de73680a8|x",
+   "creado": "2026-11-03T11:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-03T11:39:57.519Z",
+   "id": "web:eaf28054-4d3b-40e6-97eb-693de73680a8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
+   "noticia": "nota:mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal\n\nEl secretario Néstor Dabi y Marcelo Loyola estuvieron en la ceremonia en Mercedes. El acto fue organizado por la División Unidad Operativa Federal a cargo de la comisaria Alicia Benítez.\n\nhttps://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal",
+   "urgente": false,
+   "vence": "2026-11-03T15:39:57.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x": {
    "actualizado": "2026-11-03T10:02:22.000Z",
    "buffer_id": "",
@@ -22199,26 +22246,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:d32900c4-88d6-42ae-8c8e-361cf3839478|x",
-   "cuando": "2026-10-28T12:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115415157971014088"
-  },
-  {
-   "buffer_id": "6ae1ed31a2992d2fc00dd97d",
-   "clave": "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b|x",
-   "cuando": "2026-10-28T12:40:17.000Z",
-   "dueAt": "2026-10-28T13:52:53.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae1f1e623102e8c6f81a73d",
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tiktok",
-   "cuando": "2026-10-28T13:00:25.000Z",
-   "dueAt": "2026-10-28T13:03:20.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae1f1e623102e8c6f81a970",
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tiktok",
@@ -26399,6 +26426,28 @@
    "cuando": "2026-11-03T11:20:16.000Z",
    "dueAt": "2026-11-03T12:37:33.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:eaf28054-4d3b-40e6-97eb-693de73680a8|x",
+   "cuando": "2026-11-03T11:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6ae9c8223b7ecdee655c40f8",
+   "clave": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x",
+   "cuando": "2026-11-03T11:40:19.000Z",
+   "dueAt": "2026-11-03T12:52:18.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae9c823f81926b932926e07",
+   "clave": "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x",
+   "cuando": "2026-11-03T11:40:19.000Z",
+   "dueAt": "2026-11-03T13:07:00.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -27505,6 +27554,7 @@
   "web:ea96db9d-ebd8-4901-99d2-e402feab16e7": "2026-10-25T14:40:14.000Z",
   "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f": "2026-11-02T10:03:22.000Z",
   "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b": "2026-10-22T18:00:18.000Z",
+  "web:eaf28054-4d3b-40e6-97eb-693de73680a8": "2026-11-03T11:40:14.000Z",
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f": "2026-11-03T10:02:22.000Z",
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
