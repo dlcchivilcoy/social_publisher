@@ -7322,43 +7322,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e4bed9aec22c41f.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x": {
-   "actualizado": "2026-10-23T23:40:25.000Z",
-   "buffer_id": "6adbe254e4be8a4d862b540a",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm|x",
-   "creado": "2026-10-23T22:40:17.000Z",
-   "dueAt": "2026-10-23T22:42:29.000Z",
-   "enviado": "2026-10-23T22:42:34.309Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-23T22:24:12.000Z",
-   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvlj76167vlm",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2113763035282108457",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 11.49,
-    "impressions": 87,
-    "reactions": 4,
-    "reposts": 5
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva\n\nLa ciudad logró seis preseas de oro en distintas disciplinas. Entre los ganadores estuvieron Magali Cortiana, Raúl Miguez y Josemir Montalbano.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-sumo-17-medallas-con-una-destacada",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Chivilcoy sumó 17 medallas con una destacada cosecha deportiva",
-   "urgente": false,
-   "vence": "2026-10-24T00:24:12.000Z",
-   "video_bytes": 867723,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2e4bed9aec22c41f.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|tiktok": {
    "actualizado": "2026-10-25T01:40:14.000Z",
    "buffer_id": "6add4696e4be8a4d86821ffd",
@@ -25904,7 +25867,6 @@
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-22 21",
    "2026-10-23 10",
    "2026-10-23 18",
    "2026-10-23 21",
@@ -25933,10 +25895,11 @@
    "2026-11-01 18",
    "2026-11-01 21",
    "2026-11-02 10",
-   "2026-11-02 18"
+   "2026-11-02 18",
+   "2026-11-02 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-02",
+ "ultima_limpieza_release": "2026-11-03",
  "ultima_sync": "2026-11-02T22:20:21.000Z",
  "version": 1,
  "vistos": {
