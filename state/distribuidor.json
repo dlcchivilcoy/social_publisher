@@ -2343,6 +2343,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00272.mp4",
    "youtube_url": "https://youtu.be/LOuWDwrYwVE"
   },
+  "entrevistas:job00274": {
+   "descripcion": "El especialista del INTA Pergamino, Gustavo Ferraris, analizó para Chivilcoy el riesgo de reaparición del Fusarium con el fenómeno de El Niño. Explicó el comportamiento de los cultivos tras años de sequía.",
+   "duracion_seg": null,
+   "entrevistado": "Gustavo Ferraris",
+   "generado": "2026-11-03T18:40:17.000Z",
+   "id": "entrevistas:job00274",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Gustavo Ferraris: Alerta por Fusarium en trigo",
+   "urgente": false,
+   "video_bytes": 6333060,
+   "video_mb": 6.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00274.mp4",
+   "youtube_url": "https://youtu.be/pJtK72M6-WI"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -5488,25 +5509,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gremiales-amarilla-gas-cierra-el-fraccionamiento-y",
    "volanta": "Chivilcoy · Gremiales"
-  },
-  "web:98e77637-c555-4989-b556-499e25484041": {
-   "categoria": "",
-   "descripcion": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy Monserrat y Muciachio lideran en Chivilcoy. Con el VW Maxi Rally, la dupla comanda la clasificación general tras la disputa de la PE4.",
-   "generado": "2026-10-24T18:26:35.903Z",
-   "id": "web:98e77637-c555-4989-b556-499e25484041",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0aef465acfb04ba89a34cf9d5cfe8cbd~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
-   "volanta": "Chivilcoy · Deportes"
   },
   "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7": {
    "categoria": "",
@@ -14626,6 +14628,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00272.mp4",
    "viral": false
   },
+  "entrevistas:job00274|tiktok": {
+   "actualizado": "2026-11-03T18:40:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00274|tiktok",
+   "creado": "2026-11-03T18:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-03T18:40:17.000Z",
+   "id": "entrevistas:job00274",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Gustavo Ferraris: Alerta por Fusarium en trigo\n\nEl especialista del INTA Pergamino, Gustavo Ferraris, analizó para Chivilcoy el riesgo de reaparición del Fusarium con el fenómeno de El Niño. Explicó el comportamiento de los cultivos tras años de sequía.\n\nhttps://youtu.be/pJtK72M6-WI\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gustavo Ferraris: Alerta por Fusarium en trigo",
+   "urgente": false,
+   "vence": "2026-11-05T18:40:17.000Z",
+   "video_bytes": 6333060,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00274.mp4",
+   "viral": false
+  },
+  "entrevistas:job00274|x": {
+   "actualizado": "2026-11-03T18:40:18.000Z",
+   "buffer_id": "6aea2a9381bf336f271e9d04",
+   "clave": "entrevistas:job00274|x",
+   "creado": "2026-11-03T18:40:17.000Z",
+   "dueAt": "2026-11-03T18:42:16.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-03T18:40:17.000Z",
+   "id": "entrevistas:job00274",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:alerta-ferraris-fusarium-gustavo-trigo",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Gustavo Ferraris: Alerta por Fusarium en trigo\n\nEl especialista del INTA Pergamino, Gustavo Ferraris, analizó para Chivilcoy el riesgo de reaparición del Fusarium con el fenómeno de El Niño. Explicó el comportamiento de los cultivos tras años de sequía.\n\nhttps://youtu.be/pJtK72M6-WI",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gustavo Ferraris: Alerta por Fusarium en trigo",
+   "urgente": false,
+   "vence": "2026-11-03T20:40:17.000Z",
+   "video_bytes": 6333060,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00274.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -19130,31 +19188,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:98e77637-c555-4989-b556-499e25484041|x": {
-   "actualizado": "2026-10-24T18:40:13.000Z",
-   "buffer_id": "",
-   "clave": "web:98e77637-c555-4989-b556-499e25484041|x",
-   "creado": "2026-10-24T18:40:13.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-24T18:26:35.903Z",
-   "id": "web:98e77637-c555-4989-b556-499e25484041",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
-   "noticia": "nota:chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-24T22:26:35.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7|x": {
    "actualizado": "2026-10-29T15:40:17.000Z",
    "buffer_id": "",
@@ -21408,33 +21441,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|x",
-   "cuando": "2026-10-28T15:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115457091208908997"
-  },
-  {
-   "clave": "entrevistas:job00255",
-   "cuando": "2026-10-28T16:40:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00255|x",
-   "cuando": "2026-10-28T16:40:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00255|tiktok",
-   "cuando": "2026-10-28T16:40:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "buffer_id": "6ae2257ac867e35d50ba1590",
    "clave": "entrevistas:job00255|x",
@@ -25598,6 +25604,34 @@
    "cuando": "2026-11-03T18:20:35.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117673893288677461"
+  },
+  {
+   "clave": "entrevistas:job00274",
+   "cuando": "2026-11-03T18:40:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00274|x",
+   "cuando": "2026-11-03T18:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00274|tiktok",
+   "cuando": "2026-11-03T18:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6aea2a9381bf336f271e9d04",
+   "clave": "entrevistas:job00274|x",
+   "cuando": "2026-11-03T18:40:19.000Z",
+   "dueAt": "2026-11-03T18:42:16.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -25891,6 +25925,7 @@
   "entrevistas:job00270": "2026-11-02T17:20:15.000Z",
   "entrevistas:job00271": "2026-11-03T17:00:23.000Z",
   "entrevistas:job00272": "2026-11-03T17:40:15.000Z",
+  "entrevistas:job00274": "2026-11-03T18:40:17.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
