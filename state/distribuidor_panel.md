@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 03/11/2026 13:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Recortes de entrevistas · Marcelo Speranza: clima para las vacaciones de verano — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -37,10 +38,6 @@ Actualizado: 03/11/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T11:20 enviado web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60|x 
-- 2026-11-03T11:20 programado web:b333b47e-b16a-4899-bd75-63c2b7086095|x 
-- 2026-11-03T11:40 recibido web:eaf28054-4d3b-40e6-97eb-693de73680a8|x 
-- 2026-11-03T11:40 programado web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x 
 - 2026-11-03T11:40 programado web:bc895e05-1264-4c69-9d17-5990747c5cfd|x 
 - 2026-11-03T12:00 reemplazada web:eaf28054-4d3b-40e6-97eb-693de73680a8|x reemplazada por el reel de la misma noticia (bot)
 - 2026-11-03T12:00 recibido bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x 
@@ -62,3 +59,7 @@ Actualizado: 03/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-03T13:40 enviado web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x 
 - 2026-11-03T13:40 enviado web:bc895e05-1264-4c69-9d17-5990747c5cfd|x 
 - 2026-11-03T13:40 enviado web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x 
+- 2026-11-03T17:00 entrevista_aprobada entrevistas:job00271 
+- 2026-11-03T17:00 recibido entrevistas:job00271|x 
+- 2026-11-03T17:00 recibido entrevistas:job00271|tiktok 
+- 2026-11-03T17:00 programado entrevistas:job00271|x 

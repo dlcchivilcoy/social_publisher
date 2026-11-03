@@ -2301,6 +2301,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00270.mp4",
    "youtube_url": "https://youtu.be/Sd-9SEolrIk"
   },
+  "entrevistas:job00271": {
+   "descripcion": "El meteorólogo Marcelo Speranza explicó en Chivilcoy por qué es imposible anticipar con meses de anticipación si lloverá en la costa durante el verano. Detalló el rol clave de la Oscilación Antártica en el pronóstico a largo plazo.",
+   "duracion_seg": null,
+   "entrevistado": "Marcelo Speranza",
+   "generado": "2026-11-03T17:00:23.000Z",
+   "id": "entrevistas:job00271",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Marcelo Speranza: clima para las vacaciones de verano",
+   "urgente": false,
+   "video_bytes": 24253486,
+   "video_mb": 23.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00271.mp4",
+   "youtube_url": "https://youtu.be/bz_2CTwlq1U"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -14602,6 +14623,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00270.mp4",
    "viral": false
   },
+  "entrevistas:job00271|tiktok": {
+   "actualizado": "2026-11-03T17:00:23.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00271|tiktok",
+   "creado": "2026-11-03T17:00:23.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-03T17:00:23.000Z",
+   "id": "entrevistas:job00271",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Marcelo Speranza: clima para las vacaciones de verano\n\nEl meteorólogo Marcelo Speranza explicó en Chivilcoy por qué es imposible anticipar con meses de anticipación si lloverá en la costa durante el verano. Detalló el rol clave de la Oscilación Antártica en el pronóstico a largo plazo.\n\nhttps://youtu.be/bz_2CTwlq1U\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marcelo Speranza: clima para las vacaciones de verano",
+   "urgente": false,
+   "vence": "2026-11-05T17:00:23.000Z",
+   "video_bytes": 24253486,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00271.mp4",
+   "viral": false
+  },
+  "entrevistas:job00271|x": {
+   "actualizado": "2026-11-03T17:00:33.000Z",
+   "buffer_id": "6aea133251b33df410652e7d",
+   "clave": "entrevistas:job00271|x",
+   "creado": "2026-11-03T17:00:23.000Z",
+   "dueAt": "2026-11-03T17:02:59.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-03T17:00:23.000Z",
+   "id": "entrevistas:job00271",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:clima-marcelo-speranza-vacaciones-verano",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Marcelo Speranza: clima para las vacaciones de verano\n\nEl meteorólogo Marcelo Speranza explicó en Chivilcoy por qué es imposible anticipar con meses de anticipación si lloverá en la costa durante el verano.\n\nhttps://youtu.be/bz_2CTwlq1U",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marcelo Speranza: clima para las vacaciones de verano",
+   "urgente": false,
+   "vence": "2026-11-03T19:00:23.000Z",
+   "video_bytes": 24253486,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00271.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -21514,35 +21591,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae20963620f841dd3487645",
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|x",
-   "cuando": "2026-10-28T14:40:36.000Z",
-   "dueAt": "2026-10-28T14:42:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae2096400f35d308c80bbd8",
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|x",
-   "cuando": "2026-10-28T14:40:36.000Z",
-   "dueAt": "2026-10-28T14:47:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae2096400f35d308c80bc2b",
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|x",
-   "cuando": "2026-10-28T14:40:36.000Z",
-   "dueAt": "2026-10-28T14:53:50.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|x",
-   "cuando": "2026-10-28T15:20:14.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "dura 186 s y X admite 140 s sin suscripción",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok",
    "cuando": "2026-10-28T15:20:16.000Z",
    "estado": "pendiente",
@@ -25704,6 +25752,34 @@
    "cuando": "2026-11-03T13:40:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117608297293349072"
+  },
+  {
+   "clave": "entrevistas:job00271",
+   "cuando": "2026-11-03T17:00:23.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00271|x",
+   "cuando": "2026-11-03T17:00:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00271|tiktok",
+   "cuando": "2026-11-03T17:00:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6aea133251b33df410652e7d",
+   "clave": "entrevistas:job00271|x",
+   "cuando": "2026-11-03T17:00:34.000Z",
+   "dueAt": "2026-11-03T17:02:59.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -25995,6 +26071,7 @@
   "entrevistas:job00268": "2026-10-30T18:20:15.000Z",
   "entrevistas:job00269": "2026-11-02T17:00:19.000Z",
   "entrevistas:job00270": "2026-11-02T17:20:15.000Z",
+  "entrevistas:job00271": "2026-11-03T17:00:23.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
