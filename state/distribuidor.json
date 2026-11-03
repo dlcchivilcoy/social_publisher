@@ -5450,25 +5450,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/accidentes-de-carrera-impactante-vuelco-en-el-rally-de-chivilcoy-el-1",
    "volanta": "Accidentes de carrera"
   },
-  "web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5": {
-   "categoria": "",
-   "descripcion": "Boca venció a Racing de Chivilcoy en la Liga Nacional Boca Juniors venció 80-72 a Racing de Chivilcoy en el Grilón Arena, por la fase regular de la Liga Nacional de Básquetbol. La visita se quedó con un encuentro equilibrado durante la primera mitad y encontró el quiebre después del descanso, cuando un parcial de 21-12 le permitió tomar el control del marcador. El encuentro del viernes 23 de octubre de 2026 marcó un hito para la institución chivilcoyana: por primera vez, TyC Sports televisó...",
-   "generado": "2026-10-24T03:10:27.946Z",
-   "id": "web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_00b1fe59ea504d178e8bdc26b676fbea~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-boca-vencio-a-racing-de-chivilcoy-en-la-liga",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Boca venció a Racing de Chivilcoy en la Liga Nacional",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-boca-vencio-a-racing-de-chivilcoy-en-la-liga",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7": {
    "categoria": "",
    "descripcion": "La UTN y el Centro Universitario organizan un desayuno de trabajo con empresas locales",
@@ -19024,31 +19005,6 @@
    "titulo": "Impactante vuelco en el Rally de Chivilcoy: el piloto mercedino Luis Zuffo debió ser trasladado al Hospital Austral",
    "urgente": false,
    "vence": "2026-10-26T16:01:51.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5|x": {
-   "actualizado": "2026-10-24T09:00:20.000Z",
-   "buffer_id": "",
-   "clave": "web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5|x",
-   "creado": "2026-10-24T09:00:20.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-24T03:10:27.946Z",
-   "id": "web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-boca-vencio-a-racing-de-chivilcoy-en-la-liga",
-   "noticia": "nota:chivilcoy-deportes-boca-vencio-a-racing-de-chivilcoy-en-la-liga",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Boca venció a Racing de Chivilcoy en la Liga Nacional",
-   "urgente": false,
-   "vence": "2026-10-24T07:10:27.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
