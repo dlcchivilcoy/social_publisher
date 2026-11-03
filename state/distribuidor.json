@@ -1293,27 +1293,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/nw8YFrIR984"
   },
-  "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4": {
-   "descripcion": "La atleta Juanita Fernández obtuvo la primera medalla de oro para Chivilcoy al imponerse en la prueba de 400 metros de atletismo.\n\nTras la competencia, la deportista manifestó su alegría por el resultado y explicó que venía preparándose intensamente todos los días junto a su entrenador, además de sobrellevar una lesión desde hace varios meses con el objetivo puesto en este certamen.\n\nRespecto al desarrollo de la carrera, relató que comenzó en el segundo lugar hasta que consiguió pasar al frente promediando el recorrido, tramo en el que sostuvo el ritmo para asegurar la victoria tras una previa que afrontó con tranquilidad.\n\nFernández dedicó este triunfo a su profesor, a su familia, a sus amigos y a su novio, destacando el apoyo constante de sus padres para coordinar los entrenamientos diarios con sus estudios, como así también el aliento brindado por sus compañeros durante la jornada.",
-   "duracion_seg": 87.4,
-   "generado": "2026-10-22T15:16:22.000Z",
-   "id": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-logro-la-primera-medalla-de-oro",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Juanita Fernández logró la primera medalla de oro para Chivilcoy",
-   "urgente": false,
-   "video_bytes": 17676558,
-   "video_mb": 16.9,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_835d57903e56a808.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/K46_MNDta5E"
-  },
   "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4": {
    "descripcion": "La dupla chivilcoyana de bochas intergeneracional, conformada por Jorge Ponte y Marcos Curioni, alcanzó la final del certamen tras una destacada actuación.\n\nEl binomio local logró acceder a la instancia decisiva de la competencia, donde buscará quedarse con el título en representación de Chivilcoy.\n\nEl encuentro definitorio está programado para disputarse a las 11:45 frente al representativo de Saavedra.",
    "duracion_seg": 88.9,
@@ -11186,34 +11165,6 @@
    "vence": "2026-10-25T01:37:09.000Z",
    "video_bytes": 3585991,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2d7d674c4db0069f.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|tiktok": {
-   "actualizado": "2026-10-24T15:20:14.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4|tiktok",
-   "creado": "2026-10-22T15:20:17.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-22T15:16:22.000Z",
-   "id": "bot:video_matias-zucchi_mvjogm7oezp2_01.mp4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-logro-la-primera-medalla-de-oro",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Juanita Fernández logró la primera medalla de oro para Chivilcoy\n\nTras imponerse en la prueba de 400 metros de atletismo, la deportista manifestó su alegría por el resultado obtenido luego de entrenar a diario y sobrellevar una lesión. Además, relató que pasó al frente a mitad de la carrera y dedicó el triunfo a su profesor, a su familia, a sus amigos y a su novio.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-juanita-fernandez-logro-la-primera-medalla-de-oro\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Juanita Fernández logró la primera medalla de oro para Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-24T15:16:22.000Z",
-   "video_bytes": 17676558,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_835d57903e56a808.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4|tiktok": {
