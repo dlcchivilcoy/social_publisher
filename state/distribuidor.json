@@ -14990,34 +14990,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_03_lujan_dos-detenidos-tras-amenazar-a-.mp4",
    "viral": false
   },
-  "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/|x": {
-   "actualizado": "2026-10-24T02:20:17.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/|x",
-   "creado": "2026-10-24T00:20:16.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-10-24T00:01:07.000Z",
-   "id": "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-arrestaron-a-dos-sospechosos-tras-amenazar-a-un-vecino-24ab95",
-   "noticia": "nota:lujan-arrestaron-a-dos-sospechosos-tras-amenazar-a-un-vecino-24ab95",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Dos detenidos tras amenazar a un vecino con una pistola en el barrio San Bernardo\n\nDos sospechosos fueron arrestados en Luján tras intimidar a un vecino con una pistola.\n\nhttps://www.diariolacampaña.com.ar/n/lujan-arrestaron-a-dos-sospechosos-tras-amenazar-a-un-vecino-24ab95",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Dos detenidos tras amenazar a un vecino con una pistola en el barrio San Bernardo",
-   "urgente": false,
-   "vence": "2026-10-24T02:01:07.000Z",
-   "video_bytes": 66968,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_03_lujan_dos-detenidos-tras-amenazar-a-.mp4",
-   "viral": false
-  },
   "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura|x": {
    "actualizado": "2026-10-26T09:00:29.000Z",
    "buffer_id": "",
@@ -15427,14 +15399,14 @@
    "viral": false
   },
   "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado|x": {
-   "actualizado": "2026-11-03T00:40:17.000Z",
+   "actualizado": "2026-11-03T02:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado|x",
    "creado": "2026-11-03T00:40:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-03T00:32:23.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado",
    "intentos": 0,
@@ -15845,14 +15817,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html|x": {
-   "actualizado": "2026-11-03T00:40:17.000Z",
+   "actualizado": "2026-11-03T02:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html|x",
    "creado": "2026-11-03T00:40:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-03T00:32:28.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html",
    "intentos": 0,
@@ -16147,34 +16119,6 @@
    "titulo": "Allanamiento en Junín por amenazas vecinales y secuestro de una pistola",
    "urgente": false,
    "vence": "2026-10-24T18:30:53.000Z",
-   "video_bytes": 76945,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_05_junin_allanamiento-en-jun-n-por-amen.mp4",
-   "viral": false
-  },
-  "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros|x": {
-   "actualizado": "2026-10-24T02:40:14.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros|x",
-   "creado": "2026-10-24T00:40:15.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-10-24T00:30:53.000Z",
-   "id": "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-allanaron-una-casa-por-amenazas-en-un-grupo-de-whatsapp-e-8efb69",
-   "noticia": "nota:junin-allanaron-una-casa-por-amenazas-en-un-grupo-de-whatsapp-e-8efb69",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Allanamiento en Junín por amenazas vecinales y secuestro de una pistola\n\nLa policía secuestró un arma de fuego y municiones en una vivienda del barrio Santa Clara tras una denuncia por intimidaciones en un grupo de WhatsApp.\n\nhttps://www.diariolacampaña.com.ar/n/junin-allanaron-una-casa-por-amenazas-en-un-grupo-de-whatsapp-e-8efb69",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Allanamiento en Junín por amenazas vecinales y secuestro de una pistola",
-   "urgente": false,
-   "vence": "2026-10-24T02:30:53.000Z",
    "video_bytes": 76945,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-23_2305_05_junin_allanamiento-en-jun-n-por-amen.mp4",
    "viral": false
@@ -21528,22 +21472,6 @@
  },
  "registro": [
   {
-   "clave": "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234|x",
-   "cuando": "2026-10-28T10:03:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755|x",
-   "cuando": "2026-10-28T10:03:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x",
    "cuando": "2026-10-28T10:03:20.000Z",
    "estado": "pendiente",
@@ -25719,6 +25647,18 @@
    "cuando": "2026-11-03T02:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117438562312327507"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado|x",
+   "cuando": "2026-11-03T02:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html|x",
+   "cuando": "2026-11-03T02:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
