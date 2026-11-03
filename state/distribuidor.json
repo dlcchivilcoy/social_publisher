@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-03T18:20:34.000Z"
+   "visto": "2026-11-03T19:20:43.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-03T18:20:34.000Z"
+   "visto": "2026-11-03T19:20:43.000Z"
   }
  },
  "contenidos": {
@@ -4883,25 +4883,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
    "volanta": "BRAGADO · Policiales"
   },
-  "web:6eaf6418-146a-46ea-add6-5506d89ee4b7": {
-   "categoria": "",
-   "descripcion": "La UTN abre la inscripción para su oferta académica 2027 en el CUCH La UTN Chivilcoy abre la inscripción para su oferta académica 2027, con tres nuevas propuestas en el CUCH. Las carreras que se ofrecen para el próximo ciclo lectivo son la Tecnicatura Universitaria en Mantenimiento Industrial, la Tecnicatura Universitaria en Higiene y Seguridad en el Trabajo y la Diplomatura en Aplicaciones Web. La UTN Extensión Áulica Chivilcoy, dependiente de la Facultad Regional San Nicolás, anunció la...",
-   "generado": "2026-10-24T19:17:58.815Z",
-   "id": "web:6eaf6418-146a-46ea-add6-5506d89ee4b7",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ab56765fce3443378f54c8e05e02ca53~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "La UTN abre la inscripción para su oferta académica 2027 en el CUCH",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
-   "volanta": "Chivilcoy · Educación"
-  },
   "web:6fa97049-5784-463a-a94e-a3d63da21b58": {
    "categoria": "",
    "descripcion": "“Murales de Identidad, Chivilcoy se Cuenta”: este martes se inaugurará un paseo artístico en las garitas de la avenida De Tomaso El proyecto recupera historias y memorias de los barrios a través de intervenciones artísticas realizadas por estudiantes de 14 escuelas secundarias públicas. El acto inaugural será el martes 27 de octubre, a las 14 horas, con punto de encuentro en el SUM Favaloro. Dos colectivos acompañarán el recorrido. En el marco de los festejos ampliados por el 172° aniversario...",
@@ -7132,43 +7113,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c9754028c8404bb0.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|x": {
-   "actualizado": "2026-10-24T19:20:24.000Z",
-   "buffer_id": "6adcf2420b5343d070976330",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9|x",
-   "creado": "2026-10-24T16:20:14.000Z",
-   "dueAt": "2026-10-24T18:02:19.000Z",
-   "enviado": "2026-10-24T18:03:04.673Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T16:05:55.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvml4c42bdc9",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114055086187917480",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 4.76,
-    "impressions": 21,
-    "reactions": 1,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
-   "noticia": "nota:chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Aprehendieron a dos menores por una tentativa de robo a una agencia\n\nLa Policía esclareció una tentativa de robo en una agencia de motocicletas tras dos allanamientos en Chivilcoy, según informó la Secretaría de Seguridad a cargo de Néstor Dabi.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Aprehendieron a dos menores por una tentativa de robo a una agencia",
-   "urgente": false,
-   "vence": "2026-10-24T18:05:55.000Z",
-   "video_bytes": 2298841,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c9754028c8404bb0.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|tiktok": {
    "actualizado": "2026-10-24T23:00:25.000Z",
    "buffer_id": "6add1c678b3d437ddcd9c0d7",
@@ -7208,43 +7152,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_412a3c1e2c721486.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|x": {
-   "actualizado": "2026-10-24T19:20:24.000Z",
-   "buffer_id": "6adcf6e1e4be8a4d8671923c",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d|x",
-   "creado": "2026-10-24T17:20:15.000Z",
-   "dueAt": "2026-10-24T18:22:11.000Z",
-   "enviado": "2026-10-24T18:22:19.465Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T17:14:36.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114059929774374985",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 2.63,
-    "impressions": 38,
-    "reactions": 1,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-una-mujer-acusada-de-tentativa",
-   "noticia": "nota:chivilcoy-policiales-aprehendieron-a-una-mujer-acusada-de-tentativa",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "APREHENDIERON a una mujer acusada de tentativa de robo\n\nPersonal policial aprehendió a una mujer de 41 años en un domicilio ubicado en Alem 729, en Chivilcoy, acusada de intentar sustraer distintos elementos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-una-mujer-acusada-de-tentativa",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "APREHENDIERON a una mujer acusada de tentativa de robo",
-   "urgente": false,
-   "vence": "2026-10-24T19:14:36.000Z",
-   "video_bytes": 560425,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_412a3c1e2c721486.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|tiktok": {
    "actualizado": "2026-10-24T21:40:15.000Z",
    "buffer_id": "6add1c668b3d437ddcd9bffa",
@@ -7280,43 +7187,6 @@
    "titulo": "Choque entre dos camionetas en Saavedra y avenida 3 de Febrero",
    "urgente": false,
    "vence": "2026-10-26T17:22:39.000Z",
-   "video_bytes": 694990,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b97a5a32e80046ff.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|x": {
-   "actualizado": "2026-10-24T19:20:24.000Z",
-   "buffer_id": "6add00448b3d437ddcd40945",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6|x",
-   "creado": "2026-10-24T17:40:14.000Z",
-   "dueAt": "2026-10-24T19:02:10.000Z",
-   "enviado": "2026-10-24T19:02:33.858Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T17:22:39.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114070056447484314",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 1.61,
-    "impressions": 62,
-    "reactions": 1,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
-   "noticia": "nota:chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Choque entre dos camionetas en Saavedra y avenida 3 de Febrero\n\nUna Renault Koleos y una Chevrolet Spin chocaron en Saavedra y avenida 3 de Febrero. El siniestro ocurrió durante la mañana de este sábado en una esquina céntrica de Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Choque entre dos camionetas en Saavedra y avenida 3 de Febrero",
-   "urgente": false,
-   "vence": "2026-10-24T19:22:39.000Z",
    "video_bytes": 694990,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b97a5a32e80046ff.mp4",
    "viral": false
@@ -7399,43 +7269,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_eead609be41a8821.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|x": {
-   "actualizado": "2026-10-24T19:20:24.000Z",
-   "buffer_id": "6adcf2430b5343d07097638c",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u|x",
-   "creado": "2026-10-24T18:00:17.000Z",
-   "dueAt": "2026-10-24T18:07:07.000Z",
-   "enviado": "2026-10-24T18:07:19.341Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T17:40:43.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114056154259103822",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 3.85,
-    "impressions": 52,
-    "reactions": 1,
-    "reposts": 1
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
-   "noticia": "nota:chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Vicente Fontana clasificó a la nacional de la Olimpíada de Matemática\n\nEl alumno competirá del 15 al 19 de noviembre en La Falda, Córdoba. La cooperadora organizará actividades para financiar su viaje.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-educacion-vicente-fontana-clasifico-a-la-nacional-de-la",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Vicente Fontana clasificó a la nacional de la Olimpíada de Matemática",
-   "urgente": false,
-   "vence": "2026-10-24T19:40:43.000Z",
-   "video_bytes": 569788,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_eead609be41a8821.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|tiktok": {
    "actualizado": "2026-10-24T23:00:25.000Z",
    "buffer_id": "6add1c69bd33ce99c34047dd",
@@ -7475,43 +7308,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_618cae47f65a9dd0.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x": {
-   "actualizado": "2026-10-24T19:20:24.000Z",
-   "buffer_id": "6adcf2440b5343d070976434",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w|x",
-   "creado": "2026-10-24T18:00:17.000Z",
-   "dueAt": "2026-10-24T18:12:19.000Z",
-   "enviado": "2026-10-24T18:12:34.396Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T17:50:20.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114057475687059838",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 27,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-vecinos-de-calle-88-y-rio-juramento-reclaman-obras",
-   "noticia": "nota:chivilcoy-sociedad-vecinos-de-calle-88-y-rio-juramento-reclaman-obras",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Vecinos de calle 88 y Río Juramento reclaman obras contra anegamientos\n\nLas familias reiteraron su preocupación por los anegamientos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-vecinos-de-calle-88-y-rio-juramento-reclaman-obras",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Vecinos de calle 88 y Río Juramento reclaman obras contra anegamientos",
-   "urgente": false,
-   "vence": "2026-10-24T19:50:20.000Z",
-   "video_bytes": 671424,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_618cae47f65a9dd0.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|tiktok": {
    "actualizado": "2026-10-24T23:00:25.000Z",
    "buffer_id": "6add1c683d5b27036ba19bf2",
@@ -7547,43 +7343,6 @@
    "titulo": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy",
    "urgente": false,
    "vence": "2026-10-26T18:29:34.000Z",
-   "video_bytes": 555965,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b3452a9068856bed.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|x": {
-   "actualizado": "2026-10-24T19:20:24.000Z",
-   "buffer_id": "6adcfb8f3d5b27036b9aed1e",
-   "clave": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth|x",
-   "creado": "2026-10-24T18:40:13.000Z",
-   "dueAt": "2026-10-24T18:42:11.000Z",
-   "enviado": "2026-10-24T18:42:21.501Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-24T18:29:34.000Z",
-   "id": "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114064971436814378",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 27,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
-   "noticia": "nota:chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy\n\nMonserrat y Muciachio lideran en Chivilcoy. Con el VW Maxi Rally, la dupla comanda la clasificación general tras la disputa de la PE4.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-monserrat-y-muciachio-lideran-la-general-del-rally",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Monserrat y Muciachio lideran la general del Rally de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-24T20:29:34.000Z",
    "video_bytes": 555965,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b3452a9068856bed.mp4",
    "viral": false
@@ -14657,18 +14416,19 @@
    "viral": false
   },
   "entrevistas:job00274|x": {
-   "actualizado": "2026-11-03T18:40:18.000Z",
+   "actualizado": "2026-11-03T19:20:43.000Z",
    "buffer_id": "6aea2a9381bf336f271e9d04",
    "clave": "entrevistas:job00274|x",
    "creado": "2026-11-03T18:40:17.000Z",
    "dueAt": "2026-11-03T18:42:16.000Z",
+   "enviado": "2026-11-03T18:42:36.230Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-03T18:40:17.000Z",
    "id": "entrevistas:job00274",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117688911790997772",
    "nota_url": "",
    "noticia": "titulo:alerta-ferraris-fusarium-gustavo-trigo",
    "origen": "entrevistas",
@@ -18158,33 +17918,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:6eaf6418-146a-46ea-add6-5506d89ee4b7|x": {
-   "actualizado": "2026-10-24T19:20:24.000Z",
-   "buffer_id": "",
-   "clave": "web:6eaf6418-146a-46ea-add6-5506d89ee4b7|x",
-   "creado": "2026-10-24T19:20:18.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-10-24T19:17:58.815Z",
-   "id": "web:6eaf6418-146a-46ea-add6-5506d89ee4b7",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
-   "noticia": "nota:chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "La UTN abre la inscripción para su oferta académica 2027 en el CUCH\n\nLa UTN Chivilcoy anunció tres nuevas propuestas en el CUCH. Se ofrecen dos tecnicaturas universitarias y una diplomatura.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-educacion-la-utn-abre-la-inscripcion-para-su-oferta",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "La UTN abre la inscripción para su oferta académica 2027 en el CUCH",
-   "urgente": false,
-   "vence": "2026-10-24T23:17:58.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:6fa97049-5784-463a-a94e-a3d63da21b58|x": {
    "actualizado": "2026-10-27T12:00:19.000Z",
    "buffer_id": "6ae07747e3a1beb2ea00c7ab",
@@ -21441,13 +21174,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae2257ac867e35d50ba1590",
-   "clave": "entrevistas:job00255|x",
-   "cuando": "2026-10-28T16:40:26.000Z",
-   "dueAt": "2026-10-28T16:42:54.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00256",
    "cuando": "2026-10-28T17:00:32.000Z",
@@ -25632,6 +25358,12 @@
    "cuando": "2026-11-03T18:40:19.000Z",
    "dueAt": "2026-11-03T18:42:16.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00274|x",
+   "cuando": "2026-11-03T19:20:43.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117688911790997772"
   }
  ],
  "tandas": {
@@ -25669,7 +25401,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-03",
- "ultima_sync": "2026-11-03T18:20:34.000Z",
+ "ultima_sync": "2026-11-03T19:20:43.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

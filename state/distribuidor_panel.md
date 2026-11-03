@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
@@ -18,7 +18,7 @@ Actualizado: 03/11/2026 16:00 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 26 · likes 0
-- X · Reels del bot: 65 con métricas · mediana vistas/impresiones 32 · likes 0
+- X · Reels del bot: 59 con métricas · mediana vistas/impresiones 32 · likes 0
 - X · Reels policiales: 18 con métricas · mediana vistas/impresiones 52.5 · likes 0
 - X · Notas web: 50 con métricas · mediana vistas/impresiones 22 · likes 0
 - TikTok · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 113 · likes 1
@@ -40,7 +40,6 @@ Actualizado: 03/11/2026 16:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T12:40 enviado web:53a73a04-7714-4da8-a6b3-30f272f523ee|x 
 - 2026-11-03T12:40 enviado web:8ccde707-f548-4c61-83cf-fb2ee30a7c99|x 
 - 2026-11-03T12:40 enviado web:b333b47e-b16a-4899-bd75-63c2b7086095|x 
 - 2026-11-03T13:00 programado bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tikto 
@@ -65,3 +64,4 @@ Actualizado: 03/11/2026 16:00 (hora AR) · ACTIVO
 - 2026-11-03T18:40 recibido entrevistas:job00274|x 
 - 2026-11-03T18:40 recibido entrevistas:job00274|tiktok 
 - 2026-11-03T18:40 programado entrevistas:job00274|x 
+- 2026-11-03T19:20 enviado entrevistas:job00274|x 
