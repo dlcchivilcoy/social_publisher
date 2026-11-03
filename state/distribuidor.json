@@ -3832,25 +3832,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/museo-pompeo-boggio-chivilcoy-inaugura-este-martes-llega-huellas",
    "volanta": "Museo ‘Pompeo Boggio’"
   },
-  "web:1e08419d-60ee-4c27-98d2-488e539b6952": {
-   "categoria": "",
-   "descripcion": "Aprehendieron a dos menores por una tentativa de robo a una agencia La Policía de Chivilcoy esclareció una tentativa de robo en una agencia de venta de motocicletas ubicada en avenida Soárez 368, tras realizar dos allanamientos en distintos domicilios de la ciudad. Según informó la Secretaría de Seguridad, a cargo de Néstor Dabi, la investigación se inició a partir de una denuncia radicada el 23 de octubre. A partir de las tareas investigativas, personal del Grupo Táctico Operativo (GTO), la...",
-   "generado": "2026-10-24T16:03:53.678Z",
-   "id": "web:1e08419d-60ee-4c27-98d2-488e539b6952",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0cc55c7b04cf4cb19e7a2a347cbbec94~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Aprehendieron a dos menores por una tentativa de robo a una agencia",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:1f7131d8-0343-4072-9cd4-8996b6088ee3": {
    "categoria": "",
    "descripcion": "El libro de Alicia Ríos profundiza el recorrido histórico de la institución denominada “Luz del Oeste Nº 55”, focalizándose “en el período comprendido entre 1877 y 1919” La investigadora y museóloga Alicia Ríos presentó detalles de su obra bibliográfica dedicada a reconstruir el accionar y la trayectoria de la logia masónica que funcionó en Chivilcoy. Tras una primera exposición realizada en el marco de las Jornadas Regionales por la Educación Pública desarrolladas en la Escuela Normal, la...",
@@ -16553,31 +16534,6 @@
    "titulo": "Chivilcoy: Inaugura este martes: Llega ‘Huellas Impresas’, una gran muestra colectiva de grabado",
    "urgente": false,
    "vence": "2026-11-03T14:01:11.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:1e08419d-60ee-4c27-98d2-488e539b6952|x": {
-   "actualizado": "2026-10-24T16:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:1e08419d-60ee-4c27-98d2-488e539b6952|x",
-   "creado": "2026-10-24T16:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-24T16:03:53.678Z",
-   "id": "web:1e08419d-60ee-4c27-98d2-488e539b6952",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
-   "noticia": "nota:chivilcoy-policiales-aprehendieron-a-dos-menores-por-una-tentativa-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Aprehendieron a dos menores por una tentativa de robo a una agencia",
-   "urgente": false,
-   "vence": "2026-10-24T20:03:53.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
