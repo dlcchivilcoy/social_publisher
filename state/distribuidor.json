@@ -2888,6 +2888,32 @@
    "volanta": "Investigación en Bragado",
    "youtube_url": "https://youtube.com/shorts/UivdyfZj1Gk"
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento": {
+   "categoria": "otro_policial",
+   "descripcion": "El Servicio Meteorológico Nacional decretó el nivel amarillo para esta tarde. Habrá precipitaciones, viento y un descenso de temperatura hacia el sábado.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-03T23:01:33.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-amarilla-por-tormentas-y-anuncian-0671a7",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "El Servicio Meteorológico Nacional emitió una alerta amarilla por tormentas para la tarde de este martes en Bragado.\n\nLa especialista Vanina Ferrero adelantó que el jueves registrará temperaturas agradables antes de la llegada de nuevas precipitaciones.\n\nPara el viernes se aguardan tormentas y ráfagas fuertes, mientras que el sábado continuará el mal tiempo matutino y la baja térmica.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Emiten alerta amarilla por tormentas y anticipan lluvias para el fin de semana",
+   "urgente": false,
+   "video_bytes": 88232,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_05_bragado_emiten-alerta-amarilla-por-tor.mp4",
+   "volanta": "Alerta meteorológica en Bragado",
+   "youtube_url": "https://youtube.com/shorts/ncuio5hBCiI"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html": {
    "categoria": "incendio",
    "descripcion": "Un Chevrolet Astra sufrió un principio de incendio en el sector del motor cuando circulaba por la ciudad. El conductor logró recibir ayuda y los bomberos controlaron la situación. No se registraron heridos.",
@@ -14895,6 +14921,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-31_2134_02_bragado_aprehendieron-a-un-hombre-de-5.mp4",
    "viral": false
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento|x": {
+   "actualizado": "2026-11-03T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento|x",
+   "creado": "2026-11-03T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-03T23:01:33.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-amarilla-por-tormentas-y-anuncian-0671a7",
+   "noticia": "nota:bragado-rige-una-alerta-amarilla-por-tormentas-y-anuncian-0671a7",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Emiten alerta amarilla por tormentas y anticipan lluvias para el fin de semana\n\nEl Servicio Meteorológico Nacional decretó el nivel amarillo para esta tarde. Habrá precipitaciones, viento y un descenso de temperatura hacia el sábado.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-amarilla-por-tormentas-y-anuncian-0671a7",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Emiten alerta amarilla por tormentas y anticipan lluvias para el fin de semana",
+   "urgente": false,
+   "vence": "2026-11-04T01:01:33.000Z",
+   "video_bytes": 88232,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_05_bragado_emiten-alerta-amarilla-por-tor.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html|x": {
    "actualizado": "2026-10-27T02:20:16.000Z",
    "buffer_id": "",
@@ -20859,14 +20913,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00258|x",
-   "cuando": "2026-10-28T18:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
    "clave": "entrevistas:job00258|tiktok",
    "cuando": "2026-10-28T18:20:18.000Z",
    "estado": "pendiente",
@@ -25046,6 +25092,14 @@
    "cuando": "2026-11-03T23:00:25.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117744646595993694"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento|x",
+   "cuando": "2026-11-03T23:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -25509,6 +25563,7 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26700-un-adolescente-resulto-con-lesiones-leves-tras-un-choque-entre-un-auto-y-una-moto": "2026-10-31T23:20:16.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26703-una-camioneta-se-incendio-durante-la-madrugada-en-la-via-publica": "2026-10-31T22:40:14.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26730-aprehendieron-a-un-hombre-acusado-de-cometer-dos-robos-utilizando-inhibidores-de-senal": "2026-10-31T22:20:15.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento": "2026-11-03T23:20:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": "2026-10-18T21:40:15.000Z",
