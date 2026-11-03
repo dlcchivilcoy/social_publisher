@@ -7047,11 +7047,11 @@
  },
  "cuota_visto": "2026-11-02T17:20:19.000Z",
  "metricas_buffer": {
-  "con_metricas": 54,
+  "con_metricas": 45,
   "disponible": true,
-  "enviados": 54,
+  "enviados": 45,
   "motivo": "",
-  "visto": "2026-11-02T10:00:18.000Z"
+  "visto": "2026-11-03T10:00:19.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -10449,14 +10449,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7703007564392336661",
    "metricas": {
-    "averageTimeWatched": 2.74,
+    "averageTimeWatched": 2.62,
     "comments": 0,
     "engagementRate": 0,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 6.93,
-    "views": 128
+    "totalTimeWatched": 8.8,
+    "views": 168
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/cultura-daniel-magni-presento-su-libro-remembranzas-junto-a-una",
    "origen": "bot",
@@ -10525,14 +10525,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702997167128071432",
    "metricas": {
-    "averageTimeWatched": 3.39,
+    "averageTimeWatched": 3.34,
     "comments": 0,
-    "engagementRate": 0.8,
+    "engagementRate": 0.67,
     "reach": 0,
     "reactions": 3,
     "shares": 0,
-    "totalTimeWatched": 22.12,
-    "views": 375
+    "totalTimeWatched": 27.1,
+    "views": 451
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-recuperaron-una-moto-robada-y",
    "origen": "bot",
@@ -10592,14 +10592,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702986961333570837",
    "metricas": {
-    "averageTimeWatched": 5.49,
+    "averageTimeWatched": 5.23,
     "comments": 0,
-    "engagementRate": 1.19,
+    "engagementRate": 1.06,
     "reach": 0,
     "reactions": 5,
     "shares": 0,
-    "totalTimeWatched": 39.68,
-    "views": 419
+    "totalTimeWatched": 43.15,
+    "views": 471
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
    "origen": "bot",
@@ -10633,7 +10633,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 53,
+    "impressions": 63,
     "reactions": 0,
     "reposts": 0
    },
@@ -10732,14 +10732,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702940681085504769",
    "metricas": {
-    "averageTimeWatched": 7.51,
+    "averageTimeWatched": 7.39,
     "comments": 0,
-    "engagementRate": 1.45,
-    "reach": 0,
-    "reactions": 5,
+    "engagementRate": 1.56,
+    "reach": 167,
+    "reactions": 6,
     "shares": 0,
-    "totalTimeWatched": 48.03,
-    "views": 346
+    "totalTimeWatched": 53.43,
+    "views": 385
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
    "origen": "bot",
@@ -10772,8 +10772,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 2,
-    "impressions": 50,
+    "engagementRate": 1.89,
+    "impressions": 53,
     "reactions": 0,
     "reposts": 0
    },
@@ -10808,14 +10808,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702992163100953876",
    "metricas": {
-    "averageTimeWatched": 3.04,
+    "averageTimeWatched": 3.15,
     "comments": 0,
-    "engagementRate": 0.75,
+    "engagementRate": 0.6,
     "reach": 0,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 7.43,
-    "views": 133
+    "totalTimeWatched": 9.8,
+    "views": 168
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-aprobaron-la-creacion-de-la-ventanilla",
    "origen": "bot",
@@ -10849,7 +10849,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 17,
+    "impressions": 18,
     "reactions": 0,
     "reposts": 0
    },
@@ -10883,6 +10883,16 @@
    "id": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7703682815937826069",
+   "metricas": {
+    "averageTimeWatched": 3.43,
+    "comments": 0,
+    "engagementRate": 1.02,
+    "reach": 0,
+    "reactions": 1,
+    "shares": 0,
+    "totalTimeWatched": 5.53,
+    "views": 98
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -10911,6 +10921,14 @@
    "id": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117321618313605498",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 13,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
    "noticia": "nota:chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
    "origen": "bot",
@@ -10968,6 +10986,14 @@
    "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117437193648013375",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
    "noticia": "nota:chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
    "origen": "bot",
@@ -12392,14 +12418,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7703198230078573830",
    "metricas": {
-    "averageTimeWatched": 7.9,
+    "averageTimeWatched": 7.25,
     "comments": 0,
-    "engagementRate": 0.94,
+    "engagementRate": 1.03,
     "reach": 0,
-    "reactions": 4,
-    "shares": 0,
-    "totalTimeWatched": 52.67,
-    "views": 426
+    "reactions": 5,
+    "shares": 1,
+    "totalTimeWatched": 71.6,
+    "views": 580
    },
    "nota_url": "",
    "origen": "bot",
@@ -12468,14 +12494,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7703204491524361473",
    "metricas": {
-    "averageTimeWatched": 6.27,
+    "averageTimeWatched": 6.45,
     "comments": 1,
-    "engagementRate": 0.39,
+    "engagementRate": 0.84,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 4,
     "shares": 0,
-    "totalTimeWatched": 30.72,
-    "views": 259
+    "totalTimeWatched": 73.05,
+    "views": 593
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
    "origen": "bot",
@@ -12532,14 +12558,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7703188734249848084",
    "metricas": {
-    "averageTimeWatched": 9.23,
+    "averageTimeWatched": 9.37,
     "comments": 1,
-    "engagementRate": 1.3,
+    "engagementRate": 1.11,
     "reach": 0,
-    "reactions": 8,
+    "reactions": 9,
     "shares": 0,
-    "totalTimeWatched": 105.12,
-    "views": 694
+    "totalTimeWatched": 146.07,
+    "views": 903
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender",
    "origen": "bot",
@@ -12684,14 +12710,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702817378664566034",
    "metricas": {
-    "averageTimeWatched": 4.48,
+    "averageTimeWatched": 4.4,
     "comments": 0,
-    "engagementRate": 2.21,
-    "reach": 0,
-    "reactions": 8,
+    "engagementRate": 2.73,
+    "reach": 213,
+    "reactions": 13,
     "shares": 2,
-    "totalTimeWatched": 34.68,
-    "views": 452
+    "totalTimeWatched": 39.45,
+    "views": 549
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
    "origen": "bot",
@@ -12750,14 +12776,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702961109988396296",
    "metricas": {
-    "averageTimeWatched": 3.82,
+    "averageTimeWatched": 3.73,
     "comments": 0,
     "engagementRate": 0,
-    "reach": 0,
+    "reach": 80,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 27.25,
-    "views": 365
+    "totalTimeWatched": 30.43,
+    "views": 410
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
    "origen": "bot",
@@ -12814,14 +12840,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7702956120104586514",
    "metricas": {
-    "averageTimeWatched": 7.81,
+    "averageTimeWatched": 7.73,
     "comments": 1,
-    "engagementRate": 2.67,
-    "reach": 0,
-    "reactions": 52,
+    "engagementRate": 2.59,
+    "reach": 250,
+    "reactions": 54,
     "shares": 4,
-    "totalTimeWatched": 334.58,
-    "views": 2132
+    "totalTimeWatched": 355.77,
+    "views": 2276
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
    "origen": "bot",
@@ -12855,7 +12881,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 25,
+    "impressions": 28,
     "reactions": 0,
     "reposts": 0
    },
@@ -12891,12 +12917,12 @@
    "metricas": {
     "averageTimeWatched": 5.66,
     "comments": 0,
-    "engagementRate": 2.03,
-    "reach": 0,
-    "reactions": 14,
+    "engagementRate": 2.13,
+    "reach": 141,
+    "reactions": 15,
     "shares": 1,
-    "totalTimeWatched": 77.77,
-    "views": 740
+    "totalTimeWatched": 79.23,
+    "views": 751
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
    "origen": "bot",
@@ -12964,14 +12990,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7703002464869551367",
    "metricas": {
-    "averageTimeWatched": 4.99,
+    "averageTimeWatched": 4.81,
     "comments": 0,
-    "engagementRate": 1.27,
+    "engagementRate": 1.67,
     "reach": 0,
-    "reactions": 2,
-    "shares": 1,
-    "totalTimeWatched": 21.2,
-    "views": 236
+    "reactions": 3,
+    "shares": 2,
+    "totalTimeWatched": 26.2,
+    "views": 299
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
    "origen": "bot",
@@ -13005,7 +13031,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 21,
+    "impressions": 23,
     "reactions": 0,
     "reposts": 0
    },
@@ -13040,14 +13066,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7703193190991629586",
    "metricas": {
-    "averageTimeWatched": 6.08,
+    "averageTimeWatched": 6.05,
     "comments": 0,
-    "engagementRate": 1.04,
+    "engagementRate": 0.87,
     "reach": 0,
-    "reactions": 4,
+    "reactions": 5,
     "shares": 1,
-    "totalTimeWatched": 52.97,
-    "views": 482
+    "totalTimeWatched": 76.38,
+    "views": 687
    },
    "nota_url": "",
    "origen": "bot",
@@ -13081,7 +13107,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 28,
+    "impressions": 35,
     "reactions": 0,
     "reposts": 0
    },
@@ -13116,14 +13142,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7703311600094104850",
    "metricas": {
-    "averageTimeWatched": 7.98,
-    "comments": 0,
-    "engagementRate": 1.77,
+    "averageTimeWatched": 7.93,
+    "comments": 1,
+    "engagementRate": 1.5,
     "reach": 0,
-    "reactions": 5,
-    "shares": 0,
-    "totalTimeWatched": 40.28,
-    "views": 282
+    "reactions": 12,
+    "shares": 1,
+    "totalTimeWatched": 137.1,
+    "views": 934
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-luis-molina-gano-los-21k-de-la-media",
    "origen": "bot",
@@ -13157,7 +13183,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 40,
+    "impressions": 66,
     "reactions": 0,
     "reposts": 0
    },
@@ -14787,6 +14813,16 @@
    "id": "entrevistas:job00269",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7703691462172609793",
+   "metricas": {
+    "averageTimeWatched": 2.9,
+    "comments": 0,
+    "engagementRate": 3.85,
+    "reach": 0,
+    "reactions": 1,
+    "shares": 0,
+    "totalTimeWatched": 0.52,
+    "views": 26
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -14815,6 +14851,14 @@
    "id": "entrevistas:job00269",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117302908538486839",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 21,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:daniel-emocional-lazo-muchiut-retratados",
    "origen": "entrevistas",
@@ -14845,6 +14889,16 @@
    "id": "entrevistas:job00270",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7703688035610676501",
+   "metricas": {
+    "averageTimeWatched": 4.5,
+    "comments": 0,
+    "engagementRate": 2.17,
+    "reach": 0,
+    "reactions": 1,
+    "shares": 0,
+    "totalTimeWatched": 2.92,
+    "views": 46
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -14873,6 +14927,14 @@
    "id": "entrevistas:job00270",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117306409419174264",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 18,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:decung-escuelas-mailen-mental-ruiz-salud",
    "origen": "entrevistas",
@@ -15171,6 +15233,14 @@
    "id": "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117438562312327507",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-dos-aprehendidos-por-un-robo-de-bicicleta-y-un-caso-de-b42224",
    "noticia": "nota:junin-dos-aprehendidos-por-un-robo-de-bicicleta-y-un-caso-de-b42224",
    "origen": "policiales",
@@ -15620,8 +15690,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 3.51,
-    "impressions": 57,
+    "engagementRate": 2.99,
+    "impressions": 67,
     "reactions": 0,
     "reposts": 0
    },
@@ -15658,7 +15728,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 50,
+    "impressions": 57,
     "reactions": 0,
     "reposts": 0
    },
@@ -16030,7 +16100,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 12,
+    "impressions": 43,
     "reactions": 0,
     "reposts": 0
    },
@@ -16398,6 +16468,14 @@
    "ig_hora": "2026-11-02T12:53:00.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117238737063100808",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 3.13,
+    "impressions": 64,
+    "reactions": 1,
+    "reposts": 1
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-luis-molina-brillo-en-chivilcoy-se-quedo-con-los-21k-de-la-1",
    "noticia": "nota:atletismo-luis-molina-brillo-en-chivilcoy-se-quedo-con-los-21k-de-la-1",
    "origen": "web",
@@ -17066,6 +17144,14 @@
    "ig_hora": "2026-11-02T12:38:00.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117235026840408269",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 3.7,
+    "impressions": 27,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-torneo-clausura-gimnasia-dio-el-golpe-ante-florencio",
    "noticia": "nota:futbol-chivilcoy-torneo-clausura-gimnasia-dio-el-golpe-ante-florencio",
    "origen": "web",
@@ -17096,6 +17182,14 @@
    "ig_hora": "2026-11-02T14:08:00.000Z",
    "intentos": 0,
    "link": "https://twitter.com/diarioyradio/status/2117257610692858296",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 24,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-un-final-vibrante-racing-de-chivilcoy-cayo-por-la-minima-ante",
    "noticia": "nota:basquet-un-final-vibrante-racing-de-chivilcoy-cayo-por-la-minima-ante",
    "origen": "web",
@@ -18714,6 +18808,14 @@
    "ig_hora": "2026-11-02T13:08:00.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117242581394374685",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 4,
+    "impressions": 25,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-chivilcoy-angelina-reyes-record-triunfo-en-los-21k-y-la-1",
    "noticia": "nota:atletismo-chivilcoy-angelina-reyes-record-triunfo-en-los-21k-y-la-1",
    "origen": "web",
@@ -18835,6 +18937,14 @@
    "ig_hora": "2026-11-02T12:08:00.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117227231843950593",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 18,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/pedido-de-publicacion-bonaerenses-somos-todos-no-necesitamos-que-nos",
    "noticia": "nota:pedido-de-publicacion-bonaerenses-somos-todos-no-necesitamos-que-nos",
    "origen": "web",
@@ -19192,6 +19302,14 @@
    "ig_hora": "2026-11-02T14:23:00.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117261456282472615",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 16,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-pura-contundencia-nicolena-somisa-mantiene-el",
    "noticia": "nota:basquet-chivilcoy-pura-contundencia-nicolena-somisa-mantiene-el",
    "origen": "web",
@@ -20169,6 +20287,14 @@
    "ig_hora": "2026-11-02T11:23:00.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117215961375723769",
+   "metricas": {
+    "clicks": 1,
+    "comments": 0,
+    "engagementRate": 12.5,
+    "impressions": 24,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/conflicto-en-salud-gremios-docentes-presentaron-un-reclamo-conjunto",
    "noticia": "nota:conflicto-en-salud-gremios-docentes-presentaron-un-reclamo-conjunto",
    "origen": "web",
@@ -20772,6 +20898,14 @@
    "ig_hora": "2026-11-02T13:23:00.000Z",
    "intentos": 0,
    "link": "https://twitter.com/diarioyradio/status/2117246287523229817",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 26,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-torneo-federal-a-los-cruces-de-la-cuarta-etapa-de-la-revalida",
    "noticia": "nota:futbol-torneo-federal-a-los-cruces-de-la-cuarta-etapa-de-la-revalida",
    "origen": "web",
@@ -21036,6 +21170,14 @@
    "ig_hora": "2026-11-02T11:53:00.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117223574905724970",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 14,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-la-politica-del-descreimiento-de-1985-a-hoy",
    "noticia": "nota:opinion-la-politica-del-descreimiento-de-1985-a-hoy",
    "origen": "web",
@@ -21154,6 +21296,14 @@
    "ig_hora": "2026-11-02T10:53:00.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2117208537260601851",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 22,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/reclamo-regional-chivilcoy-vecinos-impulsan-el-freno-de-los-aumentos",
    "noticia": "nota:reclamo-regional-chivilcoy-vecinos-impulsan-el-freno-de-los-aumentos",
    "origen": "web",
