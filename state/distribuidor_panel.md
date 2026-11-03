@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 02/11/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 02/11/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-02)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 3 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
 | Notas web | X | 15 | 10 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 14 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -40,8 +40,6 @@ Actualizado: 02/11/2026 23:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-02T18:20 recibido web:a872c57c-897c-4bec-8f45-2e83bffd630f|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-11-02T18:20 depurado web:6541af24-4488-427f-95aa-ae535252bd65|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-02T18:20 enviado entrevistas:job00270|x 
 - 2026-11-02T18:20 programado bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x 
 - 2026-11-02T19:40 enviado bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x 
@@ -65,3 +63,5 @@ Actualizado: 02/11/2026 23:00 (hora AR) · ACTIVO
 - 2026-11-03T02:00 recibido web:a642e972-d928-4d92-8619-4b52387cb16a|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-03T02:00 programado bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|x 
 - 2026-11-03T02:00 programado policiales:https://junin24.com/policiales/esclarecieron-el-r 
+- 2026-11-03T02:20 enviado bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|x 
+- 2026-11-03T02:20 enviado policiales:https://junin24.com/policiales/esclarecieron-el-r 
