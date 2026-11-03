@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,8 +8,8 @@ Actualizado: 03/11/2026 19:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 1 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -37,10 +37,6 @@ Actualizado: 03/11/2026 19:00 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T17:00 recibido entrevistas:job00271|tiktok 
-- 2026-11-03T17:00 programado entrevistas:job00271|x 
-- 2026-11-03T17:20 enviado entrevistas:job00271|x 
-- 2026-11-03T17:40 entrevista_aprobada entrevistas:job00272 
 - 2026-11-03T17:40 recibido entrevistas:job00272|x 
 - 2026-11-03T17:40 recibido entrevistas:job00272|tiktok 
 - 2026-11-03T17:40 programado entrevistas:job00272|x 
@@ -62,3 +58,7 @@ Actualizado: 03/11/2026 19:00 (hora AR) · ACTIVO
 - 2026-11-03T22:00 enviado entrevistas:job00272|tiktok 
 - 2026-11-03T22:00 enviado entrevistas:job00273|tiktok 
 - 2026-11-03T22:00 enviado entrevistas:job00274|tiktok 
+- 2026-11-03T22:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31116/volc 
+- 2026-11-03T22:20 recibido web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x 
+- 2026-11-03T22:20 depurado web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-03T22:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31116/volc 

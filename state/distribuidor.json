@@ -2811,6 +2811,32 @@
    "volanta": "Choque de motos en Bragado",
    "youtube_url": "https://youtube.com/shorts/5CEJsUBE4aE"
   },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Sebastián Reyes, de 45 años y oriundo de Temperley, protagonizó un vuelco con su Toyota Hilux en el kilómetro 256 de la Ruta Nacional 5. Fue derivado al Hospital Julio de Vedia para controles preventivos.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-03T22:01:33.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-volco-una-camioneta-en-la-ruta-5-y-el-conductor-debio-7a75dc",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un automovilista protagonizó un despiste y vuelco en la Ruta Nacional 5, a la altura del kilómetro 256, mientras se registraban precipitaciones en la zona.\n\nEl rodado involucrado fue una camioneta Toyota Hilux que se desplazaba en dirección ascendente hacia 9 de Julio, cuyo único ocupante fue identificado como Sebastián Reyes, de 45 años.\n\nEl conductor logró abandonar el habitáculo por sus propios medios tras el siniestro y posteriormente fue llevado en una ambulancia hacia el Hospital Zonal Julio de Vedia para recibir atención médica preventiva.\n\nEn el operativo desplegado en el sitio trabajaron agentes de la Policía Vial junto a efectivos del Destacamento Patricios y personal de la concesionaria Pentavía.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Volcó una camioneta en la Ruta 5 bajo la lluvia y el chofer fue hospitalizado",
+   "urgente": false,
+   "video_bytes": 152637,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_01_bragado_volc-una-camioneta-en-la-ruta-.mp4",
+   "volanta": "Siniestro vial en Bragado",
+   "youtube_url": "https://youtube.com/shorts/NZlPillJOaE"
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados": {
    "categoria": "robo",
    "descripcion": "Tras una persecución que llegó hasta la Ruta 29, la policía apresó a dos hombres acusados de asaltar la vivienda del productor Félix Pissinis. Secuestraron dinero, joyas y armas.",
@@ -5545,6 +5571,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-el-municipio-realizo-una-nueva-jornada-de-la-mesa",
    "volanta": "Chivilcoy · Sociedad"
+  },
+  "web:9e4086cb-884a-42ed-9f34-88efb0194b7a": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El Municipio realiza obras de mantenimiento en los accesos Servicios Públicos y Tránsito trabajan en conjunto en el mantenimiento y embellecimiento de los accesos de Chivilcoy. Las tareas incluyen pintura y protección de columnas de iluminación, reposición de estructuras dañadas, reparación de luminarias y demarcación de bulevares. Actualmente, los trabajos se concentran en la avenida De Tomaso y continuarán en otros accesos y avenidas de la ciudad. “Es un trabajo en conjunto para...",
+   "generado": "2026-11-03T22:14:33.171Z",
+   "id": "web:9e4086cb-884a-42ed-9f34-88efb0194b7a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_df923ad3f3b1418c9433dcb83e9e93c5~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio realiza obras de mantenimiento en los accesos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
+   "volanta": "Chivilcoy · Servicios"
   },
   "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e": {
    "categoria": "",
@@ -14933,6 +14978,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-31_2134_07_bragado_una-mujer-sufri-una-fractura-g.mp4",
    "viral": false
   },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x": {
+   "actualizado": "2026-11-03T22:20:30.000Z",
+   "buffer_id": "6aea5e2fdaff4dfc5059ae83",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x",
+   "creado": "2026-11-03T22:20:16.000Z",
+   "dueAt": "2026-11-03T22:23:55.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-03T22:01:33.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-volco-una-camioneta-en-la-ruta-5-y-el-conductor-debio-7a75dc",
+   "noticia": "nota:bragado-volco-una-camioneta-en-la-ruta-5-y-el-conductor-debio-7a75dc",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Volcó una camioneta en la Ruta 5 bajo la lluvia y el chofer fue hospitalizado\n\nUn hombre de 45 años volcó con su camioneta en el kilómetro 256. Fue trasladado al Hospital Julio de Vedia para controles preventivos.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-volco-una-camioneta-en-la-ruta-5-y-el-conductor-debio-7a75dc",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Volcó una camioneta en la Ruta 5 bajo la lluvia y el chofer fue hospitalizado",
+   "urgente": false,
+   "vence": "2026-11-04T00:01:33.000Z",
+   "video_bytes": 152637,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_01_bragado_volc-una-camioneta-en-la-ruta-.mp4",
+   "viral": false
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados|x": {
    "actualizado": "2026-10-25T23:00:18.000Z",
    "buffer_id": "6ade855a0b5343d070f595dc",
@@ -18953,6 +19026,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x": {
+   "actualizado": "2026-11-03T22:20:30.000Z",
+   "buffer_id": "",
+   "clave": "web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x",
+   "creado": "2026-11-03T22:20:16.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-03T22:14:33.171Z",
+   "id": "web:9e4086cb-884a-42ed-9f34-88efb0194b7a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
+   "noticia": "nota:chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: El Municipio realiza obras de mantenimiento en los accesos\n\nServicios Públicos y Tránsito trabajan en el mantenimiento y embellecimiento de los accesos de Chivilcoy. Las tareas se concentran en la avenida De Tomaso.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio realiza obras de mantenimiento en los accesos",
+   "urgente": false,
+   "vence": "2026-11-04T02:14:33.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x": {
    "actualizado": "2026-10-26T13:48:30.000Z",
    "buffer_id": "",
@@ -21098,34 +21198,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok",
-   "cuando": "2026-10-28T17:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "buffer_id": "6ae22ed94f060961b743e8fd",
-   "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|x",
-   "cuando": "2026-10-28T17:20:25.000Z",
-   "dueAt": "2026-10-28T17:22:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00257",
-   "cuando": "2026-10-28T17:40:19.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00257|x",
-   "cuando": "2026-10-28T17:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00257|tiktok",
    "cuando": "2026-10-28T17:40:19.000Z",
@@ -25285,6 +25357,35 @@
    "cuando": "2026-11-03T22:00:20.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7704058902010187029"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x",
+   "cuando": "2026-11-03T22:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x",
+   "cuando": "2026-11-03T22:20:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x",
+   "cuando": "2026-11-03T22:20:30.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "buffer_id": "6aea5e2fdaff4dfc5059ae83",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x",
+   "cuando": "2026-11-03T22:20:32.000Z",
+   "dueAt": "2026-11-03T22:23:55.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -25736,6 +25837,7 @@
   "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html": "2026-10-27T23:20:16.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31099/chocaron-dos-motos-una-mujer-sufrio-una-fractura-grave-y-un-adolescente-fue-aprehendido.html": "2026-11-01T00:20:15.000Z",
+  "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html": "2026-11-03T22:20:16.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26307-robo-de-una-toyota-hilux-cmo-fue-el-recorrido-y-la-fuga-de-los-delincuentes": "2026-10-14T13:20:22.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26316-choque-entre-un-auto-y-una-moto-en-el-barrio-el-complejo": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/14/26334-otro-vehculo-robado-durante-el-fin-de-semana": "2026-10-15T09:00:21.000Z",
@@ -26207,6 +26309,7 @@
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85": "2026-10-15T15:40:19.000Z",
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
   "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f": "2026-10-30T19:20:18.000Z",
+  "web:9e4086cb-884a-42ed-9f34-88efb0194b7a": "2026-11-03T22:20:16.000Z",
   "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a": "2026-10-22T14:20:16.000Z",
   "web:9f2f4ad4-ec7d-4e33-94b8-2d8c741a84d4": "2026-10-24T18:00:17.000Z",
   "web:9f367ea4-375b-4d70-99b9-15eec836b557": "2026-10-16T10:20:16.000Z",
