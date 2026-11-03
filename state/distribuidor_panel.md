@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 03/11/2026 20:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 0 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,8 +27,9 @@ Actualizado: 03/11/2026 20:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
 - X · Reels policiales · Emiten alerta amarilla por tormentas y anticipan lluvias para el fin de semana — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Aprehendieron a un hombre de 40 años por un robo a una mujer de 71 años — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Una camioneta volcó tras un choque en la esquina de Albizzatti e Yrigoyen — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
@@ -39,7 +40,6 @@ Actualizado: 03/11/2026 20:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T18:40 entrevista_aprobada entrevistas:job00274 
 - 2026-11-03T18:40 recibido entrevistas:job00274|x 
 - 2026-11-03T18:40 recibido entrevistas:job00274|tiktok 
 - 2026-11-03T18:40 programado entrevistas:job00274|x 
@@ -64,3 +64,4 @@ Actualizado: 03/11/2026 20:20 (hora AR) · ACTIVO
 - 2026-11-03T23:00 enviado entrevistas:job00271|tiktok 
 - 2026-11-03T23:00 enviado policiales:https://www.bragadoinforma.com.ar/nota/31116/volc 
 - 2026-11-03T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ 
+- 2026-11-03T23:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ 

@@ -2888,6 +2888,32 @@
    "volanta": "Investigación en Bragado",
    "youtube_url": "https://youtube.com/shorts/UivdyfZj1Gk"
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos": {
+   "categoria": "robo",
+   "descripcion": "Cayó un sospechoso de 40 años tras un hurto en una casa de la calle Alem al 1800, perpetrado el 03/11/2026. La policía recuperó el teléfono y la billetera.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-03T23:31:39.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-cayo-un-hombre-de-40-anos-tras-un-robo-a-una-vecina-de-f551f8",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Un operativo policial permitió arrestar a un sujeto de 40 años en Bragado, acusado de ingresar a robar a un domicilio.\n\nEl hecho ocurrió el 03/11/2026 en una finca situada en la calle Alem al 1800.\n\nLa víctima resultó ser una vecina de 71 años, a quien le sustrajeron pertenencias personales.\n\nLas autoridades lograron recuperar el teléfono celular y la billetera que le pertenecían a la damnificada.\n\nLa investigación continúa bajo la intervención judicial correspondiente.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Policiales #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Aprehendieron a un hombre de 40 años por un robo a una mujer de 71 años",
+   "urgente": false,
+   "video_bytes": 123642,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_07_bragado_aprehendieron-a-un-hombre-de-4.mp4",
+   "volanta": "Hurto esclarecido en Bragado",
+   "youtube_url": ""
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento": {
    "categoria": "otro_policial",
    "descripcion": "El Servicio Meteorológico Nacional decretó el nivel amarillo para esta tarde. Habrá precipitaciones, viento y un descenso de temperatura hacia el sábado.",
@@ -3535,25 +3561,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/comision-fiscalizadora-del-agua-los-resultados-de-los-analisis-de-la-1",
    "volanta": ""
-  },
-  "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151": {
-   "categoria": "",
-   "descripcion": "Una vecina denunció que le robaron la moto frente a su vivienda Una vecina de Chivilcoy denunció el robo de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda en la calle 86, entre Arenales y Miguel Calderón. Según relató Victoria, propietaria del rodado, el episodio ocurrió alrededor de las 2:45 de la madrugada, pocos minutos después de que ingresara a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de...",
-   "generado": "2026-10-24T23:36:26.249Z",
-   "id": "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7f0f9c751c1d4fa1b039d7b1d99cb6a3~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Una vecina denunció que le robaron la moto frente a su vivienda",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
-   "volanta": "Chivilcoy · Policiales"
   },
   "web:088386b2-2c10-423c-848f-4605d2b2e0e5": {
    "categoria": "",
@@ -14921,6 +14928,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-31_2134_02_bragado_aprehendieron-a-un-hombre-de-5.mp4",
    "viral": false
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos|x": {
+   "actualizado": "2026-11-03T23:40:19.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos|x",
+   "creado": "2026-11-03T23:40:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-03T23:31:39.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-cayo-un-hombre-de-40-anos-tras-un-robo-a-una-vecina-de-f551f8",
+   "noticia": "nota:bragado-cayo-un-hombre-de-40-anos-tras-un-robo-a-una-vecina-de-f551f8",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Aprehendieron a un hombre de 40 años por un robo a una mujer de 71 años\n\nCayó un sospechoso de 40 años tras un hurto en una casa de la calle Alem al 1800, perpetrado el 03/11/2026. La policía recuperó el teléfono y la billetera.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-cayo-un-hombre-de-40-anos-tras-un-robo-a-una-vecina-de-f551f8",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Aprehendieron a un hombre de 40 años por un robo a una mujer de 71 años",
+   "urgente": false,
+   "vence": "2026-11-04T01:31:39.000Z",
+   "video_bytes": 123642,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_07_bragado_aprehendieron-a-un-hombre-de-4.mp4",
+   "viral": false
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento|x": {
    "actualizado": "2026-11-03T23:20:14.000Z",
    "buffer_id": "",
@@ -15713,31 +15748,6 @@
    "titulo": "Comisión Fiscalizadora del Agua",
    "urgente": false,
    "vence": "2026-10-26T16:02:18.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151|x": {
-   "actualizado": "2026-10-24T23:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151|x",
-   "creado": "2026-10-24T23:40:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-24T23:36:26.249Z",
-   "id": "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
-   "noticia": "nota:chivilcoy-policiales-una-vecina-denuncio-que-le-robaron-la-moto",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Una vecina denunció que le robaron la moto frente a su vivienda",
-   "urgente": false,
-   "vence": "2026-10-25T03:36:26.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -20913,14 +20923,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00258|tiktok",
-   "cuando": "2026-10-28T18:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|x",
    "cuando": "2026-10-28T18:20:18.000Z",
    "evento": "enviado",
@@ -25100,6 +25102,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos|x",
+   "cuando": "2026-11-03T23:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -25563,6 +25573,7 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26700-un-adolescente-resulto-con-lesiones-leves-tras-un-choque-entre-un-auto-y-una-moto": "2026-10-31T23:20:16.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26703-una-camioneta-se-incendio-durante-la-madrugada-en-la-via-publica": "2026-10-31T22:40:14.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26730-aprehendieron-a-un-hombre-acusado-de-cometer-dos-robos-utilizando-inhibidores-de-senal": "2026-10-31T22:20:15.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos": "2026-11-03T23:40:19.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento": "2026-11-03T23:20:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
