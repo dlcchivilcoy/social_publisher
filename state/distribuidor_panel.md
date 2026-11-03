@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 03/11/2026 14:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- TikTok · Recortes de entrevistas · Hugo Beccaglia: Qué es actuar en "Rico es ser pobre" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Marcelo Speranza: clima para las vacaciones de verano — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -38,10 +39,6 @@ Actualizado: 03/11/2026 14:20 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T12:00 reemplazada web:eaf28054-4d3b-40e6-97eb-693de73680a8|x reemplazada por el reel de la misma noticia (bot)
-- 2026-11-03T12:00 recibido bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x 
-- 2026-11-03T12:00 recibido bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tikto 
-- 2026-11-03T12:00 programado bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x 
 - 2026-11-03T12:00 programado web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x 
 - 2026-11-03T12:20 programado web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x 
 - 2026-11-03T12:40 enviado bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x 
@@ -63,3 +60,7 @@ Actualizado: 03/11/2026 14:20 (hora AR) · ACTIVO
 - 2026-11-03T17:00 recibido entrevistas:job00271|tiktok 
 - 2026-11-03T17:00 programado entrevistas:job00271|x 
 - 2026-11-03T17:20 enviado entrevistas:job00271|x 
+- 2026-11-03T17:40 entrevista_aprobada entrevistas:job00272 
+- 2026-11-03T17:40 recibido entrevistas:job00272|x 
+- 2026-11-03T17:40 recibido entrevistas:job00272|tiktok 
+- 2026-11-03T17:40 programado entrevistas:job00272|x 

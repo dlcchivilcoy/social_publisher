@@ -2322,6 +2322,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00271.mp4",
    "youtube_url": "https://youtu.be/bz_2CTwlq1U"
   },
+  "entrevistas:job00272": {
+   "descripcion": "El director teatral Hugo Beccaglia presentó en Chivilcoy la comedia \"Rico es ser pobre\". Reflexionó sobre el desafío actoral de componer personajes y salirse del propio cuerpo arriba del escenario.",
+   "duracion_seg": null,
+   "entrevistado": "Adriana Irrazabal",
+   "generado": "2026-11-03T17:40:15.000Z",
+   "id": "entrevistas:job00272",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Hugo Beccaglia: Qué es actuar en \"Rico es ser pobre\"",
+   "urgente": false,
+   "video_bytes": 27362230,
+   "video_mb": 26.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00272.mp4",
+   "youtube_url": "https://youtu.be/LOuWDwrYwVE"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -6038,25 +6059,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-torneo-federal-a-suspendieron-el-choque-entre-boca-unidos-y-1",
    "volanta": "Fútbol"
   },
-  "web:c00bb224-879f-4991-ba6d-b57cef2f5104": {
-   "categoria": "",
-   "descripcion": "Choque entre dos camionetas en Saavedra y avenida 3 de Febrero Una Renault Koleos y una Chevrolet Spin chocaron en Saavedra y avenida 3 de Febrero. El siniestro ocurrió durante la mañana de este sábado en una esquina céntrica de Chivilcoy. Las conductoras resultaron ilesas y acordaron gestionar los daños materiales mediante sus compañías de seguros. Una colisión entre dos vehículos se registró este sábado en la intersección de calle Saavedra y avenida 3 de Febrero. El episodio dejó daños...",
-   "generado": "2026-10-24T17:19:37.851Z",
-   "id": "web:c00bb224-879f-4991-ba6d-b57cef2f5104",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ac907272b42f4854aad5c522753dc11a~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Choque entre dos camionetas en Saavedra y avenida 3 de Febrero",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
-   "volanta": "Chivilcoy · Accidente"
-  },
   "web:c47cb128-863f-4d78-97f6-739a46ed4cca": {
    "categoria": "",
    "descripcion": "Llevaron a cabo la capacitación virtual sobre Gestión Logística en el Comercio Internacional",
@@ -6474,25 +6476,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-juan-ignacio-felice-recibio-una-carta-documento",
    "volanta": "Chivilcoy · Política"
-  },
-  "web:df585fc0-4639-4338-88f4-51fc0c0eb03c": {
-   "categoria": "",
-   "descripcion": "Ordenan ejecutar una sentencia laboral y embargar definitivamente el edificio del IMO El Tribunal del Trabajo N.º 1 de Mercedes dispuso avanzar con la ejecución de una sentencia a favor de una exempleada del Instituto Médico del Oeste (IMO) y convertir en definitivo el embargo sobre el inmueble de la institución, según informó su abogado, Emmanuel Langone. La causa corresponde al despido de una extrabajadora de la clínica, cuya liquidación aprobada supera los $20,5 millones. La trabajadora se...",
-   "generado": "2026-10-24T17:29:40.225Z",
-   "id": "web:df585fc0-4639-4338-88f4-51fc0c0eb03c",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_f46e84239cc946bdabe913b24760d9e8~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Ordenan ejecutar una sentencia laboral y embargar definitivamente el edificio del IMO",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
-   "volanta": "Chivilcoy · Judiciales"
   },
   "web:e1762bc6-192e-4d3f-8b37-22296e8b40d9": {
    "categoria": "",
@@ -14661,6 +14644,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00271.mp4",
    "viral": false
   },
+  "entrevistas:job00272|tiktok": {
+   "actualizado": "2026-11-03T17:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00272|tiktok",
+   "creado": "2026-11-03T17:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-03T17:40:15.000Z",
+   "id": "entrevistas:job00272",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Hugo Beccaglia: Qué es actuar en \"Rico es ser pobre\"\n\nEl director teatral Hugo Beccaglia presentó en Chivilcoy la comedia \"Rico es ser pobre\". Reflexionó sobre el desafío actoral de componer personajes y salirse del propio cuerpo arriba del escenario.\n\nhttps://youtu.be/LOuWDwrYwVE\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Hugo Beccaglia: Qué es actuar en \"Rico es ser pobre\"",
+   "urgente": false,
+   "vence": "2026-11-05T17:40:15.000Z",
+   "video_bytes": 27362230,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00272.mp4",
+   "viral": false
+  },
+  "entrevistas:job00272|x": {
+   "actualizado": "2026-11-03T17:40:15.000Z",
+   "buffer_id": "6aea1c8024384d4018531c17",
+   "clave": "entrevistas:job00272|x",
+   "creado": "2026-11-03T17:40:15.000Z",
+   "dueAt": "2026-11-03T17:42:42.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-03T17:40:15.000Z",
+   "id": "entrevistas:job00272",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:actuar-beccaglia-hugo-pobre-rico",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Hugo Beccaglia: Qué es actuar en \"Rico es ser pobre\"\n\nEl director teatral Hugo Beccaglia presentó en Chivilcoy la comedia \"Rico es ser pobre\". Reflexionó sobre el desafío actoral de componer personajes y salirse del propio cuerpo arriba del escenario.\n\nhttps://youtu.be/LOuWDwrYwVE",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Hugo Beccaglia: Qué es actuar en \"Rico es ser pobre\"",
+   "urgente": false,
+   "vence": "2026-11-03T19:40:15.000Z",
+   "video_bytes": 27362230,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00272.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -20010,33 +20049,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c00bb224-879f-4991-ba6d-b57cef2f5104|x": {
-   "actualizado": "2026-10-24T17:20:30.000Z",
-   "buffer_id": "",
-   "clave": "web:c00bb224-879f-4991-ba6d-b57cef2f5104|x",
-   "creado": "2026-10-24T17:20:15.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-10-24T17:19:37.851Z",
-   "id": "web:c00bb224-879f-4991-ba6d-b57cef2f5104",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
-   "noticia": "nota:chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Choque entre dos camionetas en Saavedra y avenida 3 de Febrero\n\nEl siniestro ocurrió en una esquina de Chivilcoy este sábado. Las conductoras resultaron ilesas y acordaron gestionar los daños materiales con sus seguros.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-entre-dos-camionetas-en-saavedra-y-avenida",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Choque entre dos camionetas en Saavedra y avenida 3 de Febrero",
-   "urgente": false,
-   "vence": "2026-10-24T21:19:37.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c47cb128-863f-4d78-97f6-739a46ed4cca|x": {
    "actualizado": "2026-10-28T11:00:20.000Z",
    "buffer_id": "",
@@ -20678,31 +20690,6 @@
    "titulo": "Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gasto",
    "urgente": false,
    "vence": "2026-10-29T20:13:29.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:df585fc0-4639-4338-88f4-51fc0c0eb03c|x": {
-   "actualizado": "2026-10-24T17:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:df585fc0-4639-4338-88f4-51fc0c0eb03c|x",
-   "creado": "2026-10-24T17:40:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-24T17:29:40.225Z",
-   "id": "web:df585fc0-4639-4338-88f4-51fc0c0eb03c",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
-   "noticia": "nota:chivilcoy-judiciales-ordenan-ejecutar-una-sentencia-laboral-y",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Ordenan ejecutar una sentencia laboral y embargar definitivamente el edificio del IMO",
-   "urgente": false,
-   "vence": "2026-10-24T21:29:40.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -21547,32 +21534,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:556c12fe-a45e-4611-9e39-4ff603a2f030|x",
-   "cuando": "2026-10-28T15:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok",
-   "cuando": "2026-10-28T15:20:24.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "web:556c12fe-a45e-4611-9e39-4ff603a2f030|x",
-   "cuando": "2026-10-28T15:20:24.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|x",
-   "cuando": "2026-10-28T15:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115454117288067173"
-  },
   {
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7fvng7vnm|x",
    "cuando": "2026-10-28T15:20:24.000Z",
@@ -25735,6 +25696,34 @@
    "cuando": "2026-11-03T17:20:21.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117665311176511646"
+  },
+  {
+   "clave": "entrevistas:job00272",
+   "cuando": "2026-11-03T17:40:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00272|x",
+   "cuando": "2026-11-03T17:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00272|tiktok",
+   "cuando": "2026-11-03T17:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6aea1c8024384d4018531c17",
+   "clave": "entrevistas:job00272|x",
+   "cuando": "2026-11-03T17:40:16.000Z",
+   "dueAt": "2026-11-03T17:42:42.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -26027,6 +26016,7 @@
   "entrevistas:job00269": "2026-11-02T17:00:19.000Z",
   "entrevistas:job00270": "2026-11-02T17:20:15.000Z",
   "entrevistas:job00271": "2026-11-03T17:00:23.000Z",
+  "entrevistas:job00272": "2026-11-03T17:40:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
