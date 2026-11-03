@@ -2490,33 +2490,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00270.mp4",
    "youtube_url": "https://youtu.be/Sd-9SEolrIk"
   },
-  "nacionales:48bb4e9d6ed706f8": {
-   "categoria": "Política",
-   "categoria_nacional": "",
-   "descripcion": "El analista político evaluó el escenario electoral rumbo a 2027, la centralidad de Javier Milei frente a Axel Kicillof, el peso del conurbano y los desafíos económicos.",
-   "duracion_seg": 13.0,
-   "generado": "2026-10-24T01:15:48.000Z",
-   "hashtags": [
-    "Politica",
-    "Elecciones2027"
-   ],
-   "id": "nacionales:48bb4e9d6ed706f8",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e",
-   "origen": "nacionales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Cristian Buttié analizó las chances de Patricia Bullrich y el liderazgo de Milei",
-   "urgente": false,
-   "video_bytes": 72665,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_48bb4e9d6e_cristian-buttie-analizo-las-chances-de-patricia.mp4",
-   "volanta": "Candidaturas 2027",
-   "youtube_url": "https://youtube.com/shorts/Y_JqAmQNsy4"
-  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -14864,60 +14837,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00270.mp4",
    "viral": false
   },
-  "nacionales:48bb4e9d6ed706f8|tiktok": {
-   "actualizado": "2026-10-24T01:20:18.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "nacionales:48bb4e9d6ed706f8|tiktok",
-   "creado": "2026-10-24T01:20:18.000Z",
-   "dueAt": "",
-   "error": "a TikTok van solo el bot, los policiales y los virales (5 + 5 + 5 por día)",
-   "estado": "descartado",
-   "generado": "2026-10-24T01:15:48.000Z",
-   "id": "nacionales:48bb4e9d6ed706f8",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e",
-   "origen": "nacionales",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Cristian Buttié analizó las chances de Patricia Bullrich y el liderazgo de Milei\n\nEl analista político evaluó el escenario electoral rumbo a 2027, la centralidad de Javier Milei frente a Axel Kicillof, el peso del conurbano y los desafíos económicos.\n\nhttps://www.diariolacampaña.com.ar/n/cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e\n\n#chivilcoy #diariolacampaña #radiodelcentro #política #Politica",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cristian Buttié analizó las chances de Patricia Bullrich y el liderazgo de Milei",
-   "urgente": false,
-   "vence": "2026-10-24T19:15:48.000Z",
-   "video_bytes": 72665,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_48bb4e9d6e_cristian-buttie-analizo-las-chances-de-patricia.mp4",
-   "viral": false
-  },
-  "nacionales:48bb4e9d6ed706f8|x": {
-   "actualizado": "2026-10-24T01:20:18.000Z",
-   "buffer_id": "",
-   "clave": "nacionales:48bb4e9d6ed706f8|x",
-   "creado": "2026-10-24T01:20:18.000Z",
-   "dueAt": "",
-   "error": "entre semana X y TikTok no llevan nacionales (van el finde: sábado y domingo)",
-   "estado": "descartado",
-   "generado": "2026-10-24T01:15:48.000Z",
-   "id": "nacionales:48bb4e9d6ed706f8",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e",
-   "noticia": "nota:cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e",
-   "origen": "nacionales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Cristian Buttié analizó las chances de Patricia Bullrich y el liderazgo de Milei\n\nEl analista político evaluó el escenario electoral rumbo a 2027, la centralidad de Javier Milei frente a Axel Kicillof, el peso del conurbano y los desafíos económicos.\n\nhttps://www.diariolacampaña.com.ar/n/cristian-buttie-analizo-la-candidatura-de-patricia-bullrich-y-48bb4e",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cristian Buttié analizó las chances de Patricia Bullrich y el liderazgo de Milei",
-   "urgente": false,
-   "vence": "2026-10-24T03:15:48.000Z",
-   "video_bytes": 72665,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/nacional_48bb4e9d6e_cristian-buttie-analizo-las-chances-de-patricia.mp4",
-   "viral": false
-  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -15067,14 +14986,14 @@
    "viral": false
   },
   "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion|x": {
-   "actualizado": "2026-11-02T23:40:16.000Z",
+   "actualizado": "2026-11-03T01:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion|x",
    "creado": "2026-11-02T23:40:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-02T23:31:27.000Z",
    "id": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion",
    "intentos": 0,
@@ -21486,12 +21405,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas|x",
-   "cuando": "2026-10-28T02:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115244351886393729"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|x",
    "cuando": "2026-10-28T09:00:20.000Z",
    "evento": "vencido",
@@ -25679,6 +25592,12 @@
   {
    "clave": "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/|x",
    "cuando": "2026-11-03T01:20:16.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion|x",
+   "cuando": "2026-11-03T01:40:15.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
