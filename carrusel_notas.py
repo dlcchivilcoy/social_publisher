@@ -573,13 +573,15 @@ def _laminas_de_parrafos(cuerpo: list) -> list:
 
 
 def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, primer: str,
-                          site: str, escribir=None, tema: str = "claro", numerar: bool = True) -> list:
+                          site: str, escribir=None, tema: str = "claro", numerar: bool = True,
+                          fotos_extra=()) -> list:
     """Las placas del carrusel de UNA nota: la portada CON LA FOTO de la nota (la misma placa del carrusel
     de siempre) y las láminas que la explican, SOLO TEXTO (pedido del 18/10/2026: «la primera con imagen y
     las siguientes solo texto bien diseñado; no quiero carruseles sin fotos»). Sin foto de la nota no hay
     carrusel: ValueError, y la nota no sale en Instagram. `escribir(volanta, titular, texto)` →
     [{titulo, texto}] (Gemini). `numerar=False` (el reel): sin «01 / 04» ni «Deslizá y seguí leyendo»; abajo
-    va «Seguí leyendo en <sitio>»."""
+    va «Seguí leyendo en <sitio>». `fotos_extra` (corresponsales, 3/11/2026): más fotos del envío, una por
+    lámina en orden; las láminas que quedan sin foto van solo con texto."""
     if not note.get("image") or not Path(note["image"]).is_file():
         raise ValueError("la nota no tiene foto propia: sin foto no sale el carrusel")
     if escribir is None:
@@ -599,7 +601,8 @@ def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, 
             placa = compose_carrusel_slide(note["image"], volanta, titular, primer, site_url=site, idx=idx,
                                            total=total, tema=tema)
         else:
-            placa = compose_lamina_carrusel(None, volanta, l["titulo"], l["texto"], site, idx=idx, total=total,
+            foto = fotos_extra[i - 2] if i - 2 < len(fotos_extra) else None
+            placa = compose_lamina_carrusel(foto, volanta, l["titulo"], l["texto"], site, idx=idx, total=total,
                                             tema=tema)
         if carpeta is None:
             carpeta = placa.parent / "explicativo" / hashlib.sha1(note["key"].encode("utf-8")).hexdigest()[:12]

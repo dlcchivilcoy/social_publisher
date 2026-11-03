@@ -2058,6 +2058,69 @@ def _reel_declaracion(carpeta: Path, decl: dict, salida: Path, respaldo: str = "
     return Path(info["archivo"])
 
 
+# 3/11/2026 (pedido del usuario): lo que llega SOLO con fotos y con texto suficiente para una nota
+# periodística sale como las notas de la mañana: carrusel explicativo en Instagram (portada con la
+# foto + láminas que cuentan la nota), la foto con el link en Facebook y la nota web. Con audio
+# (declaración) o con video sigue siendo reel. Apagado: CORR_CARRUSEL=0.
+CORR_CARRUSEL_PALABRAS = 80
+
+
+def _formato_corresponsal(desc: str, audio=None, video=None) -> str:
+    """"carrusel" o "reel" según el material: fotos solas con al menos CORR_CARRUSEL_PALABRAS
+    palabras escritas por el vecino → carrusel; todo lo demás → reel."""
+    if (get("CORR_CARRUSEL") or "1").strip().lower() in ("0", "false", "no", "off"):
+        return "reel"
+    if audio or video:
+        return "reel"
+    try:
+        minimo = int(get("CORR_CARRUSEL_PALABRAS") or CORR_CARRUSEL_PALABRAS)
+    except ValueError:
+        minimo = CORR_CARRUSEL_PALABRAS
+    return "carrusel" if len((desc or "").split()) >= minimo else "reel"
+
+
+def _tema_carrusel(rows: list, fila: dict | None = None) -> str:
+    """El color del carrusel: el que sigue al último carrusel de corresponsal (blanco, grafito y
+    naranja intercalados, como los de la mañana). El de la revisión se respeta al publicar."""
+    from carrusel_notas import TEMAS_INTERCALADOS as temas
+    if fila and fila.get("tema_carrusel") in temas:
+        return fila["tema_carrusel"]
+    ultimo = next((r.get("tema_carrusel") for r in reversed(rows or []) if r.get("tema_carrusel")), "")
+    return temas[(temas.index(ultimo) + 1) % len(temas)] if ultimo in temas else temas[0]
+
+
+def _placas_carrusel_corr(fotos: list, clave: str, volanta: str, titular: str, texto: str,
+                          bajada: str, tema: str, laminas: list | None = None) -> list:
+    """Las placas del carrusel (las mismas de las notas de la mañana): portada con la primera foto y
+    las láminas que explican la nota; las demás fotos del envío van en las láminas. `laminas`: las
+    que ya escribió la IA en la revisión (sin ellas se le piden de nuevo)."""
+    from carrusel_notas import _carrusel_explicativo
+    cuerpo = [p.strip() for p in (texto or "").split("\n") if p.strip()]
+    nota = {"image": str(fotos[0]), "key": f"corresponsal:{clave}"}
+    escribir = (lambda *_a: laminas) if laminas else None
+    return _carrusel_explicativo(nota, volanta, titular, cuerpo, bajada or (cuerpo[0] if cuerpo else ""),
+                                 _site(), escribir=escribir, tema=tema,
+                                 fotos_extra=[str(f) for f in fotos[1:]])
+
+
+def _hoja_carrusel(placas: list, slug: str) -> str:
+    """Las placas en fila, en una imagen subida a Wix, para verlas en el mail de revisión. "" si falla."""
+    try:
+        from PIL import Image
+        w, h, m = 270, 338, 8
+        hoja = Image.new("RGB", (m + len(placas) * (w + m), h + 2 * m), (235, 235, 235))
+        for i, p in enumerate(placas):
+            hoja.paste(Image.open(p).convert("RGB").resize((w, h)), (m + i * (w + m), m))
+        WORK_DIR.mkdir(exist_ok=True)
+        destino = WORK_DIR / f"prev_{slug}_carrusel.jpg"
+        hoja.save(destino, quality=85)
+        return wix._subir_imagen_directo(wix._headers(), destino, f"revision-{slug}-carrusel"[:80],
+                                         "image/jpeg")[1]
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude armar la vista del carrusel para revisar ({e}); el mail va sin ella.")
+        return ""
+
+
 def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: bool,
                               video: Path | None = None) -> bool:
     """ETAPA 1 del CORRESPONSAL-FOTO: subcarpeta con contexto.txt (ORIGEN corresponsal) + foto,
@@ -2116,6 +2179,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         volanta, titular = _c["volanta"], _c["titular"]
         resumen, texto = _c["bajada"], _c["texto"]
     titular = _asegurar_titulo(titular, texto, resumen, volanta)
+    formato = "reel" if decl else _formato_corresponsal(desc, audio, video)
     if decl:
         # El reel de la declaración no lleva la portada de la especificación v1.0: lleva el nombre,
         # el cargo y las frases.
@@ -2133,12 +2197,12 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         # cajas que cambian): título y después hasta 3 tarjetas.
         n = len(fotos) - 1 if len(fotos) > 1 else NARRAR_VERTICAL
         tarjetas = (gemini.tarjetas_fotos(texto or desc, n, volanta, titular)
-                    if n > 0 and (texto or desc) else [])
+                    if n > 0 and (texto or desc) and formato == "reel" else [])
     title = f"{volanta} — {titular}" if volanta else titular
 
     if dry_run:
         logger.info(f"[dry-run] corresponsal-foto «{title}» ({bajada_reel or 'sin bajada'}): "
-                    f"nota web (borrador) + reel a redes. Tarjetas: {tarjetas}"
+                    f"nota web (borrador) + {formato} a redes. Tarjetas: {tarjetas}"
                     + (f" · DECLARACIÓN de {decl['nombre']} ({decl['cargo']}), frases {decl['frases']}, "
                        f"tramo {decl['tramo']}" if decl else ""))
         return True
@@ -2165,6 +2229,18 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         except Exception as e:  # noqa: BLE001
             logger.warning(f"No pude armar el reel de la declaración para revisar ({e}); el mail va "
                            f"sin ese botón.")
+    elif formato == "carrusel":
+        # Fotos solas con texto de nota: el carrusel de las notas de la mañana (3/11/2026). Las
+        # láminas se escriben una vez y quedan en el ledger para publicar lo mismo que se revisó.
+        reel_url, laminas, hoja_url = "", [], ""
+        tema_c = _tema_carrusel(rows, fila)
+        try:
+            laminas = gemini.laminas_explicativas(volanta, titular, texto) or []
+            placas = _placas_carrusel_corr(fotos, carpeta.name, volanta, titular, texto,
+                                           bajada_reel or resumen, tema_c, laminas)
+            hoja_url = _hoja_carrusel(placas, _slug(carpeta.name))
+        except Exception as e:  # noqa: BLE001
+            logger.warning(f"No pude armar el carrusel para revisar ({e}); se arma al publicar.")
     else:
         # Lo que llega por WhatsApp va con la especificación visual v1.0 (pedido 2026-10-02).
         reel_url = _reel_preview(fotos, _slug(carpeta.name), titular=titular,
@@ -2190,8 +2266,11 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     })
     if tema:
         fila["tema_4x5"] = tema
+    fila["formato"] = formato
+    if formato == "carrusel":
+        fila.update({"tema_carrusel": tema_c, "laminas": laminas, "carrusel_prev": hoja_url})
     _guardar_ledger(rows)
-    logger.info(f"Corresponsal-foto registrado como BORRADOR (draft_id={draft_id or '—'}).")
+    logger.info(f"Corresponsal-foto registrado como BORRADOR (draft_id={draft_id or '—'}, {formato}).")
 
     # Números habilitados (`CORRESPONSALES_DIRECTO`): se publica ya mismo, sin mail de revisión.
     # Pero NUNCA sin texto: sin lo que escribió el corresponsal la nota sale vacía («Envío de
@@ -2223,10 +2302,16 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
             f"{_hesc(ctx.get('lugar',''))} · {material}</p>"
             f"<p style='font-size:19px'><b>{_hesc(titular)}</b></p>" + extra_decl +
             f"<p style='white-space:pre-wrap'>{_hesc(texto or resumen)}</p>"
-            f"<p>Al aprobar se publica la <b>nota web</b> y se postea el <b>reel</b> de la foto a "
-            f"<b>Facebook/Instagram + YouTube Short + TikTok</b> (nota redactada por IA). Con los "
-            f"botones "
-            f"podés previsualizar el reel, corregir el texto o borrar el borrador:</p>"
+            + (f"<p>Al aprobar se publica la <b>nota web</b>, el <b>carrusel</b> en Instagram (como "
+               f"las notas de la mañana) y la foto con el link de la nota en <b>Facebook</b> (nota "
+               f"redactada por IA). Con los botones podés corregir el texto o borrar el borrador:</p>"
+               + (f"<p><img src='{_hesc(hoja_url)}' alt='Carrusel' style='width:100%;"
+                  f"border-radius:6px'></p>" if hoja_url else "")
+               if formato == "carrusel" else
+               f"<p>Al aprobar se publica la <b>nota web</b> y se postea el <b>reel</b> de la foto a "
+               f"<b>Facebook/Instagram + YouTube Short + TikTok</b> (nota redactada por IA). Con los "
+               f"botones "
+               f"podés previsualizar el reel, corregir el texto o borrar el borrador:</p>") +
             f"<div style='margin:18px 0'>{botones}</div>"
             f"<p style='color:#777;font-size:13px'>Si no ves los botones, aprobá moviendo la carpeta "
             f"«{_hesc(carpeta.name)}» a APROBADAS en Drive.</p></div>")
@@ -2284,37 +2369,55 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     yt_desc = meta["descripcion"]
     caption = _caption_ig(_solo_5_hashtags(yt_desc), titular)
 
+    # Fotos solas con texto de nota (3/11/2026): carrusel como las notas de la mañana, sin reel.
+    carrusel = fila.get("formato") == "carrusel" and not decl
+
     if dry_run:
-        logger.info(f"[dry-run] corresponsal-foto: nota web + reel a redes (IG/FB recortado a 5 hashtags), «{titular}».")
+        logger.info(f"[dry-run] corresponsal-foto: nota web + {'carrusel' if carrusel else 'reel'} a "
+                    f"redes (IG/FB recortado a 5 hashtags), «{titular}».")
         return
 
     plats = _platforms()
     estado = {"instagram": "omitido", "facebook": "omitido", "youtube": "omitido", "wix": "omitido"}
+    reel_url, reel_local, placas = "", None, []
+    if carrusel:
+        # Las láminas de la revisión, salvo que se haya corregido el texto.
+        sin_cambios = texto == fila.get("texto", "") and titular == fila.get("titulo", "")
+        try:
+            tema_c = _tema_carrusel(_leer_ledger(), fila)
+            placas = _placas_carrusel_corr(fotos, fila["file"], volanta, titular, texto,
+                                           bajada_reel or resumen, tema_c,
+                                           fila.get("laminas") if sin_cambios else None)
+            fila["tema_carrusel"] = tema_c
+        except Exception as e:  # noqa: BLE001
+            logger.error(f"No se pudo armar el carrusel del corresponsal ({e}); sale como reel.")
+            carrusel = False
     # 1) Reel branded (30s) SIN firma quemada ni overlay del diario (la firma va en el caption).
-    reel_url, reel_local = "", None
-    try:
-        from video import foto_a_reel, tema_usado
-        WORK_DIR.mkdir(exist_ok=True)
-        # El mismo bloque (blanco o grafito) que se vio en la revisión.
-        tema = _tema_4x5(_leer_ledger(), fila)
-        tema_usado(reset=True)
-        if decl:
-            # DECLARACIÓN (2026-10-10): audio + foto o video, con nombre, cargo y frases.
-            reel_local = _reel_declaracion(carpeta, decl, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
-                                           respaldo=titular, tema=tema)
-        else:
-            # Especificación visual v1.0 para lo que llega por WhatsApp (pedido 2026-10-02).
-            reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
-                                     overlay=False, titular=titular,
-                                     resumen=bajada_reel or resumen,
-                                     volanta=volanta, cuerpo=texto, estilo="corresponsal",
-                                     tarjetas=fila.get("tarjetas_fotos") or [], tema=tema)
-        if tema_usado():
-            fila["tema_4x5"] = tema_usado()
-        reel_url = upload_reel(reel_local)
-    except Exception as e:
-        logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")
-        return
+    if not carrusel:
+        try:
+            from video import foto_a_reel, tema_usado
+            WORK_DIR.mkdir(exist_ok=True)
+            # El mismo bloque (blanco o grafito) que se vio en la revisión.
+            tema = _tema_4x5(_leer_ledger(), fila)
+            tema_usado(reset=True)
+            if decl:
+                # DECLARACIÓN (2026-10-10): audio + foto o video, con nombre, cargo y frases.
+                reel_local = _reel_declaracion(carpeta, decl,
+                                               WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
+                                               respaldo=titular, tema=tema)
+            else:
+                # Especificación visual v1.0 para lo que llega por WhatsApp (pedido 2026-10-02).
+                reel_local = foto_a_reel(fotos, WORK_DIR / f"corr_{_slug(fila['file'])}.mp4",
+                                         overlay=False, titular=titular,
+                                         resumen=bajada_reel or resumen,
+                                         volanta=volanta, cuerpo=texto, estilo="corresponsal",
+                                         tarjetas=fila.get("tarjetas_fotos") or [], tema=tema)
+            if tema_usado():
+                fila["tema_4x5"] = tema_usado()
+            reel_url = upload_reel(reel_local)
+        except Exception as e:
+            logger.error(f"No se pudo armar el reel del corresponsal-foto: {e}")
+            return
     # 2) YouTube Short (opcional, gateado por YT_SHORTS_ENABLED). Misma descripción (firma + SEO).
     yt_info = {}
     if _yt_enabled() and reel_local:
@@ -2365,6 +2468,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
             logger.info(f"[wix] nota publicada: {post_url}")
         except Exception as e:
             estado["wix"] = f"falló: {e}"; logger.error(f"[wix] FALLÓ: {e}")
+    if carrusel:
+        _publicar_carrusel_corr(placas, fotos[0], caption, post_url, plats, estado, fila)
     # 3) Reel a Instagram y Facebook con el caption.
     if "instagram" in plats and reel_url:
         try:
@@ -2402,8 +2507,10 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
                "ig_media_id": fila.get("ig_media_id", ""), "fb_video_id": fila.get("fb_video_id", ""),
                "ig_historia_id": fila.get("ig_historia_id", ""),
                "fb_historia_id": fila.get("fb_historia_id", "")})
-    if fila.get("tema_4x5"):
-        f2["tema_4x5"] = fila["tema_4x5"]
+    for k in ("tema_4x5", "tema_carrusel", "fb_post_id"):
+        if fila.get(k):
+            f2[k] = fila[k]
+    f2["formato"] = "carrusel" if carrusel else "reel"
     if yt_info:
         f2.update({"yt_video_id": yt_info.get("id", ""),
                    "yt_url": yt_info.get("short_url") or yt_info.get("url", "")})
@@ -2422,11 +2529,61 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
         links["web"] = post_url
     if estado.get("instagram") == "ok" and fila.get("ig_media_id"):
         links["instagram"] = instagram.permalink(fila["ig_media_id"])
-    if estado.get("facebook") == "ok" and fila.get("fb_video_id"):
-        links["facebook"] = facebook.permalink(fila["fb_video_id"])
+    if estado.get("facebook") == "ok" and (fila.get("fb_video_id") or fila.get("fb_post_id")):
+        links["facebook"] = facebook.permalink(fila.get("fb_video_id") or fila["fb_post_id"])
     if estado.get("youtube") == "ok":
         links["youtube"] = yt_info.get("short_url") or yt_info.get("watch_url") or yt_info.get("url", "")
     _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales, links)
+
+
+def _publicar_carrusel_corr(placas: list, foto: Path, caption: str, post_url: str, plats,
+                            estado: dict, fila: dict) -> None:
+    """El corresponsal en formato carrusel (3/11/2026), como las notas de la mañana: el carrusel
+    explicativo en Instagram, la FOTO con el link de la nota en Facebook (Facebook no lee la foto
+    de una nota recién publicada; ver fb-preview) y la portada como historia en las dos."""
+    if "instagram" in plats:
+        try:
+            res = instagram.publish_carousel(caption, placas)
+            fila["ig_media_id"] = (res or {}).get("id", "") if isinstance(res, dict) else ""
+            estado["instagram"] = "ok"
+            logger.info(f"[instagram] carrusel OK ({len(placas)} placas)")
+        except Exception as e:  # noqa: BLE001
+            estado["instagram"] = f"falló: {e}"; logger.error(f"[instagram] carrusel FALLÓ: {e}")
+    if "facebook" in plats:
+        try:
+            from PIL import Image, ImageOps
+            jpg = WORK_DIR / f"fb_{_slug(fila['file'])}.jpg"
+            img = ImageOps.exif_transpose(Image.open(foto)).convert("RGB")
+            img.thumbnail((2048, 2048))
+            img.save(jpg, quality=90)
+            res = facebook.publish(_caption_fb(caption, post_url), jpg)
+            fila["fb_post_id"] = (res or {}).get("id", "") if isinstance(res, dict) else ""
+            estado["facebook"] = "ok"
+            logger.info("[facebook] foto + link OK")
+        except Exception as e:  # noqa: BLE001
+            estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] foto FALLÓ: {e}")
+    if not _historias_on() or not placas:
+        return
+    try:
+        from story_image import compose_carrusel_story
+        historia = compose_carrusel_story(placas[0], "", 1, _site())
+    except Exception as e:  # noqa: BLE001
+        logger.error(f"[historias] no pude armar la historia del carrusel: {e}")
+        return
+    for red, clave, publicar in (("instagram", "ig_historia", instagram.publish_story),
+                                 ("facebook", "fb_historia", facebook.publish_story)):
+        if red not in plats:
+            continue
+        if fila.get(f"{clave}_id"):
+            estado[clave] = "ok"
+            continue
+        try:
+            res = publicar(historia)
+            fila[f"{clave}_id"] = (res or {}).get("id", "") if isinstance(res, dict) else ""
+            estado[clave] = "ok"
+            logger.info(f"[{red}] historia de la portada OK")
+        except Exception as e:  # noqa: BLE001
+            estado[clave] = f"falló: {e}"; logger.error(f"[{red}] historia FALLÓ: {e}")
 
 
 def run_placa(folder: str = "", uploader: str = "", dry_run: bool = False) -> None:
