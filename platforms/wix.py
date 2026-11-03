@@ -584,6 +584,32 @@ def url_de_nota(titulo: str, buscar: int = 100) -> str:
     return ""
 
 
+def _es_intertitulo(nodo: dict) -> bool:
+    """Un párrafo corto sin punto final («Lo que viene», «Datos clave»): hace de intertítulo."""
+    t = "".join((s.get("textData") or {}).get("text", "") for s in nodo.get("nodes") or []).strip()
+    return 0 < len(t) <= 70 and t[-1] not in ".!?…»\"”:;,"
+
+
+def _intercalar(cabeza: list, medios: list, parrafos: list) -> list:
+    """Las fotos y los videos REPARTIDOS a lo largo de la nota, no todos juntos arriba (pedido del editor,
+    03/11/2026). `cabeza` (la portada) va primero; cada uno de `medios` va en su lugar parejo entre los
+    párrafos, nunca antes del primero ni justo debajo de un intertítulo (en ese caso, antes de él)."""
+    if not medios or len(parrafos) < 2:
+        return list(cabeza) + list(medios) + list(parrafos)
+    n = len(parrafos)
+    despues_de = {}                                   # índice del párrafo → medios que van después
+    for k, m in enumerate(medios):
+        i = max(1, min(n - 1, round((k + 1) * n / (len(medios) + 1))))
+        while i > 1 and _es_intertitulo(parrafos[i - 1]):
+            i -= 1
+        despues_de.setdefault(i, []).append(m)
+    salida = list(cabeza)
+    for i, p in enumerate(parrafos, 1):
+        salida.append(p)
+        salida += despues_de.get(i, [])
+    return salida
+
+
 def crear_borrador_galeria(title: str, body: str, image_paths, video_urls=None,
                            page: int = 0, description: str = "", seccion: str = "") -> dict:
     """Crea un borrador con VARIAS fotos (galería) + VARIOS videos nativos COMPLETOS +
@@ -606,19 +632,19 @@ def crear_borrador_galeria(title: str, body: str, image_paths, video_urls=None,
 
     nodes = []
     # Galería: una imagen por nodo (la 1ª también es portada).
-    for i, fid in enumerate(file_ids):
-        nodes.append({
-            "type": "IMAGE", "id": f"img{i}", "nodes": [],
-            "imageData": {
-                "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER", "textWrap": True},
-                "image": {"src": {"id": fid}},
-            },
-        })
+    imagenes = [{
+        "type": "IMAGE", "id": f"img{i}", "nodes": [],
+        "imageData": {
+            "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER", "textWrap": True},
+            "image": {"src": {"id": fid}},
+        },
+    } for i, fid in enumerate(file_ids)]
     # Videos nativos completos (cada uno desde una URL pública ya hosteada).
+    videos = []
     for j, vurl in enumerate(video_urls or []):
         try:
             video_id = _importar_video(headers, vurl, title)
-            nodes.append({
+            videos.append({
                 "type": "VIDEO", "id": f"video{j}", "nodes": [],
                 "videoData": {
                     "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER"},
@@ -628,11 +654,12 @@ def crear_borrador_galeria(title: str, body: str, image_paths, video_urls=None,
         except Exception as e:
             logger.error(f"No se pudo embeber el video {j} en Wix: {e} (la nota sigue sin ese video).")
 
-    for i, para in enumerate(p for p in body.split("\n") if p.strip()):
-        nodes.append({
-            "type": "PARAGRAPH", "id": f"p{i}",
-            "nodes": [{"type": "TEXT", "id": "", "textData": {"text": para, "decorations": []}}],
-        })
+    parrafos = [{
+        "type": "PARAGRAPH", "id": f"p{i}",
+        "nodes": [{"type": "TEXT", "id": "", "textData": {"text": para, "decorations": []}}],
+    } for i, para in enumerate(p for p in body.split("\n") if p.strip())]
+    # La portada arriba; los videos y las demás fotos, repartidos a lo largo del texto.
+    nodes = _intercalar(imagenes[:1], videos + imagenes[1:], parrafos)
 
     descripcion = _meta_descripcion(description, body)
     draft_payload = {
