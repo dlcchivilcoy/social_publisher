@@ -1306,6 +1306,43 @@ HORIZONTAL_MIN = 1.2            # ancho/alto desde el que una foto cuenta como h
 FOTO_A_H = (760, 840)           # estilo A: la foto a lo ancho, con el alto entre estos dos
 FOTO_B_H = 720                  # estilo B: foto más baja (se recorta arriba/abajo cuidando las caras)
 FOTO_LAMINA_H = 420             # la foto de una lámina con texto largo (carrusel explicativo)
+# 03/11/2026 («no recortes las imágenes de los carruseles de la mañana y los policiales»): la foto va
+# ENTERA, nunca recortada (`_entera`). A todo el ancho con su propio alto; si es más alta que el tope del
+# estilo (A: FOTO_A_H[1], B: FOTO_B_H), se achica entera y los costados se rellenan con ella misma
+# desenfocada; si es muy apaisada (menos de FOTO_MIN_H de alto), lo mismo arriba y abajo.
+# CARRUSEL_RECORTE=1 vuelve al recorte a sangre de antes.
+FOTO_MIN_H = 480
+
+
+def _recorte_activo() -> bool:
+    import os
+    try:
+        from utils.config import get as _get
+        return (_get("CARRUSEL_RECORTE") or "0").strip() == "1"
+    except Exception:  # noqa: BLE001
+        return os.environ.get("CARRUSEL_RECORTE", "0").strip() == "1"
+
+
+def _entera(img, box_w: int, box_h: int) -> "Image.Image":
+    """La foto COMPLETA (sin recortar nada) en un cuadro de box_w x box_h: escalada para entrar
+    (también agrandada si es chica), centrada, sobre una copia de sí misma desenfocada y oscurecida."""
+    img = img.convert("RGB")
+    esc = min(box_w / img.width, box_h / img.height)
+    fw, fh = max(1, round(img.width * esc)), max(1, round(img.height * esc))
+    fg = img.resize((fw, fh), Image.LANCZOS)
+    if (fw, fh) == (box_w, box_h):
+        return fg
+    bg = _cover(img, box_w, box_h).filter(ImageFilter.GaussianBlur(40))
+    bg = ImageEnhance.Brightness(bg).enhance(0.55)
+    bg.paste(fg, ((box_w - fw) // 2, (box_h - fh) // 2))
+    return bg
+
+
+def _alto_foto(foto, tope: int) -> int:
+    """El alto del cuadro de la foto a todo el ancho: el suyo propio, entre FOTO_MIN_H y `tope`."""
+    if foto is None:
+        return tope
+    return max(FOTO_MIN_H, min(tope, round(SLIDE_W * foto.height / foto.width)))
 CARRUSEL_MARGEN = 60
 NARANJA_MARCA = (247, 127, 0)   # el naranja de la web (--naranja)
 
@@ -1632,14 +1669,16 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
     _titulo = lambda s_: _sans(s_, 700)                                                  # noqa: E731
 
     if estilo in ("A", "B"):
-        if estilo == "A":
-            # La foto ENTERA a lo ancho siempre que se pueda (una 16:9 entra sin cortar nada).
-            alto = round(SLIDE_W * foto.height / foto.width) if foto is not None else FOTO_A_H[1]
-            foto_h = max(FOTO_A_H[0], min(FOTO_A_H[1], alto))
+        if _recorte_activo():
+            if estilo == "A":
+                alto = round(SLIDE_W * foto.height / foto.width) if foto is not None else FOTO_A_H[1]
+                foto_h = max(FOTO_A_H[0], min(FOTO_A_H[1], alto))
+            else:
+                foto_h = FOTO_B_H
         else:
-            foto_h = FOTO_B_H
+            foto_h = _alto_foto(foto, FOTO_A_H[1] if estilo == "A" else FOTO_B_H)
         if foto is not None:
-            canvas.paste(_encuadrar(foto, SLIDE_W, foto_h), (0, 0))
+            canvas.paste((_encuadrar if _recorte_activo() else _entera)(foto, SLIDE_W, foto_h), (0, 0))
         _cabecera_carrusel(canvas)
         draw = ImageDraw.Draw(canvas)
         pie_y = SLIDE_H - 66
@@ -1735,7 +1774,7 @@ def compose_lamina_carrusel(photo_path, volanta: str, titulo: str, texto: str, s
         return _lamina_solo_texto(volanta, titulo, texto, site_url, idx, total, t)
     foto_h = FOTO_LAMINA_H if foto is not None else 0
     if foto is not None:
-        canvas.paste(_encuadrar(foto, SLIDE_W, foto_h), (0, 0))
+        canvas.paste((_encuadrar if _recorte_activo() else _entera)(foto, SLIDE_W, foto_h), (0, 0))
         _cabecera_carrusel(canvas)
     draw = ImageDraw.Draw(canvas)
     if foto is not None:
