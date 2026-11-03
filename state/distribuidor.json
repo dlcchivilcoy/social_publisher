@@ -1272,6 +1272,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_322c84fff498fbab.mp4",
    "youtube_url": "https://www.youtube.com/shorts/W3CppXWEvCY"
   },
+  "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi": {
+   "descripcion": "El secretario de Seguridad de la Municipalidad de Chivilcoy, Néstor Dabi, acompañado por Marcelo Loyola, participó de la ceremonia conmemorativa por la Semana de la Policía Federal Argentina, realizada en la ciudad de Mercedes. La actividad tuvo lugar en el salón Casa Anús...",
+   "duracion_seg": 30.0,
+   "generado": "2026-11-03T11:42:08.000Z",
+   "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal",
+   "urgente": false,
+   "video_bytes": 777200,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8632907b48553b3c.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/7Ex0u_gYL04"
+  },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": {
    "descripcion": "Una vecina denunció la sustracción de su motocicleta Honda Wave, modelo 2026 y de color gris nardo, que se encontraba estacionada frente a su vivienda ubicada en la calle 86, entre Arenales y Miguel Calderón.\n\nSegún relató Victoria, la propietaria damnificada, el hecho ocurrió cerca de las 2:45 de la madrugada, pocos minutos después de haber ingresado a su domicilio. La secuencia del hecho habría quedado registrada por cámaras de seguridad de la zona.\n\nDe acuerdo con su testimonio, al menos dos personas llegaron a bordo de otra moto, aparentemente una Gilera parcialmente desarmada con frente azul. Uno de ellos descendió, manipuló el sistema de seguridad de la Honda Wave para destrabarla y se alejó llevándola a tiro con el acompañante. La dueña salió minutos después al oír ruidos y constató el faltante.\n\nTras iniciar la búsqueda y difundir lo sucedido, la víctima afirmó que pudo identificar perfiles en redes sociales presuntamente vinculados, donde uno de los señalados habría publicado historias en Instagram exhibiendo el rodado sustraído, imágenes que luego fueron eliminadas.\n\nLa damnificada aportará las filmaciones y publicaciones para que se incorporen a la investigación. Hasta el momento no se informó oficialmente sobre la recuperación del vehículo ni personas aprehendidas.",
    "duracion_seg": 77.5,
@@ -11292,6 +11313,62 @@
    "vence": "2026-11-03T03:56:04.000Z",
    "video_bytes": 2897062,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_322c84fff498fbab.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok": {
+   "actualizado": "2026-11-03T12:00:20.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok",
+   "creado": "2026-11-03T12:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-03T11:42:08.000Z",
+   "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal\n\nEl secretario de Seguridad de la Municipalidad de Chivilcoy, Néstor Dabi, acompañado por Marcelo Loyola, participó de la ceremonia conmemorativa por la Semana de la Policía Federal Argentina, realizada en la ciudad de Mercedes. La actividad tuvo lugar en el salón Casa Anús...\n\nhttps://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal",
+   "urgente": false,
+   "vence": "2026-11-05T11:42:08.000Z",
+   "video_bytes": 777200,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8632907b48553b3c.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x": {
+   "actualizado": "2026-11-03T12:00:33.000Z",
+   "buffer_id": "6ae9cce2e9a91b5943cf6224",
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x",
+   "creado": "2026-11-03T12:00:20.000Z",
+   "dueAt": "2026-11-03T12:02:00.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-03T11:42:08.000Z",
+   "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
+   "noticia": "nota:mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal\n\nhttps://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal",
+   "urgente": false,
+   "vence": "2026-11-03T13:42:08.000Z",
+   "video_bytes": 777200,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8632907b48553b3c.mp4",
    "viral": false
   },
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4|tiktok": {
@@ -21798,14 +21875,14 @@
    "viral": false
   },
   "web:eaf28054-4d3b-40e6-97eb-693de73680a8|x": {
-   "actualizado": "2026-11-03T11:40:14.000Z",
+   "actualizado": "2026-11-03T12:00:20.000Z",
    "buffer_id": "",
    "clave": "web:eaf28054-4d3b-40e6-97eb-693de73680a8|x",
    "creado": "2026-11-03T11:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "reemplazada por el reel de la misma noticia (bot)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-03T11:39:57.519Z",
    "id": "web:eaf28054-4d3b-40e6-97eb-693de73680a8",
    "intentos": 0,
@@ -21826,14 +21903,14 @@
    "viral": false
   },
   "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x": {
-   "actualizado": "2026-11-03T10:02:22.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-03T12:00:33.000Z",
+   "buffer_id": "6ae9cce3f81926b93293ecda",
    "clave": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x",
    "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-03T13:22:05.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-03T10:02:02.911Z",
    "id": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f",
    "ig_hora": "2026-11-03T13:22:11.000Z",
@@ -22246,38 +22323,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae1f1e623102e8c6f81a970",
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tiktok",
-   "cuando": "2026-10-28T13:00:25.000Z",
-   "dueAt": "2026-10-28T13:23:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae1f1e88f09daaaac16b9a2",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|tiktok",
-   "cuando": "2026-10-28T13:00:25.000Z",
-   "dueAt": "2026-10-28T13:43:18.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok",
-   "cuando": "2026-10-28T13:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|tiktok",
-   "cuando": "2026-10-28T14:00:25.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701713944599317780"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tiktok",
-   "cuando": "2026-10-28T14:00:25.000Z",
-   "evento": "error_publicacion",
-   "motivo": "An unknown error has occurred. Please retry the post again, and get in touch if this persists."
-  },
   {
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|tiktok",
    "cuando": "2026-10-28T14:00:25.000Z",
@@ -26448,6 +26493,42 @@
    "cuando": "2026-11-03T11:40:19.000Z",
    "dueAt": "2026-11-03T13:07:00.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:eaf28054-4d3b-40e6-97eb-693de73680a8|x",
+   "cuando": "2026-11-03T12:00:20.000Z",
+   "evento": "reemplazada",
+   "motivo": "reemplazada por el reel de la misma noticia (bot)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x",
+   "cuando": "2026-11-03T12:00:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok",
+   "cuando": "2026-11-03T12:00:33.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "buffer_id": "6ae9cce2e9a91b5943cf6224",
+   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x",
+   "cuando": "2026-11-03T12:00:35.000Z",
+   "dueAt": "2026-11-03T12:02:00.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6ae9cce3f81926b93293ecda",
+   "clave": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x",
+   "cuando": "2026-11-03T12:00:35.000Z",
+   "dueAt": "2026-11-03T13:22:05.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -26599,6 +26680,7 @@
   "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs": "2026-10-31T23:40:14.000Z",
   "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl": "2026-11-02T18:20:16.000Z",
   "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6": "2026-11-03T02:00:19.000Z",
+  "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi": "2026-11-03T12:00:20.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",

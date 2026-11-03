@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 08:40 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 09:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 7 | 3 | 0 | 0 | 0 |
+| Notas web | X | 15 | 5 | 8 | 1 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,10 +27,9 @@ Actualizado: 03/11/2026 08:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
-- X · Notas web · Seguridad de Chivilcoy participó de la Semana de la Policía Federal — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (3 esperando)
+- TikTok · Reels del bot · Seguridad de Chivilcoy participó de la Semana de la Policía Federal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Chivilcoy: Romina Caballo lideró al Raleigh Fem en la 1ª Vuelta Ciclista Femenin — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Racing Club de Chivilcoy redondeó otra jornada histórica y jugará nuevamente las — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
@@ -41,11 +40,6 @@ Actualizado: 03/11/2026 08:40 (hora AR) · ACTIVO
 - TikTok · Una vecina denunció que le robaron la moto frente a su vivienda — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 
 ## Últimos movimientos
-- 2026-11-03T10:03 recibido web:102f794a-1b02-4e61-aa74-3d003a611178|x 
-- 2026-11-03T10:03 recibido web:01bf9e9c-5d81-432e-9d5f-303e147f07d7|x 
-- 2026-11-03T10:03 recibido web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e|x 
-- 2026-11-03T10:03 recibido web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42|x 
-- 2026-11-03T10:03 recibido web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60|x 
 - 2026-11-03T10:03 recibido web:9ac331e3-58a9-43ce-9986-c29dbe470fdf|x 
 - 2026-11-03T10:04 recibido web:e1762bc6-192e-4d3f-8b37-22296e8b40d9|x 
 - 2026-11-03T10:04 programado web:e1762bc6-192e-4d3f-8b37-22296e8b40d9|x 
@@ -66,3 +60,8 @@ Actualizado: 03/11/2026 08:40 (hora AR) · ACTIVO
 - 2026-11-03T11:40 recibido web:eaf28054-4d3b-40e6-97eb-693de73680a8|x 
 - 2026-11-03T11:40 programado web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x 
 - 2026-11-03T11:40 programado web:bc895e05-1264-4c69-9d17-5990747c5cfd|x 
+- 2026-11-03T12:00 reemplazada web:eaf28054-4d3b-40e6-97eb-693de73680a8|x reemplazada por el reel de la misma noticia (bot)
+- 2026-11-03T12:00 recibido bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x 
+- 2026-11-03T12:00 recibido bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tikto 
+- 2026-11-03T12:00 programado bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x 
+- 2026-11-03T12:00 programado web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x 
