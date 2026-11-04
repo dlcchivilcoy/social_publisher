@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 03/11/2026 22:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -22,24 +22,19 @@ Actualizado: 03/11/2026 22:20 (hora AR) · ACTIVO
 - X · Reels policiales: 16 con métricas · mediana vistas/impresiones 45.5 · likes 0
 - X · Notas web: 50 con métricas · mediana vistas/impresiones 22 · likes 0
 - TikTok · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 113 · likes 1
-- TikTok · Reels del bot: 47 con métricas · mediana vistas/impresiones 368 · likes 4
+- TikTok · Reels del bot: 46 con métricas · mediana vistas/impresiones 335.5 · likes 3.5
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (2 esperando)
 - X · Reels policiales · Aprehendieron a un empleado de un corralón tras un millonario robo en Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Ruta 5: interceptan a dos sospechosos tras robar una rueda de auxilio — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Aprehendieron a un hombre de 40 años por un robo a una mujer de 71 años — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
-- TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
-- TikTok · Capacitaron a las fuerzas de seguridad para fortalecer el vínculo con  — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
-- TikTok · Aprehendieron a dos menores por una tentativa de robo a una agencia — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-03T20:20 entrevista_aprobada entrevistas:job00273 
 - 2026-11-03T20:20 recibido entrevistas:job00273|x 
 - 2026-11-03T20:20 recibido entrevistas:job00273|tiktok 
 - 2026-11-03T20:20 programado entrevistas:job00273|x 
@@ -64,3 +59,4 @@ Actualizado: 03/11/2026 22:20 (hora AR) · ACTIVO
 - 2026-11-04T00:40 recibido policiales:https://junin24.com/policiales/la-ddi-junin-escla 
 - 2026-11-04T00:40 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-choque-e espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-04T01:20 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-04T01:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
