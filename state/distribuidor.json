@@ -4087,25 +4087,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-torneo-federal-a-boca-unidos-pedira-la-continuidad-del-partido",
    "volanta": "Fútbol"
   },
-  "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9": {
-   "categoria": "",
-   "descripcion": "Los ganadores de la octava fecha del Rally de Chivilcoy Ellos son los ganadores de la octava fecha de la temporada: - Clase MR: Sebastián Monserrat / Claudio Muciachio - Clase N4: José Catera / Jorge Ramírez - Clase JR: Jorge Villarino / Sebastián Urriza - Clase A: Emmanuel Bracco / Mariano Pissaco - Clase N7: Luis Sciutto / Matías Bregant - Clase N3: Roberto Amichetti / Alejo Amichetti - Clase RC5: Sebastián Antico / Sebastián Olari - Clase N1: Mauricio Bondanza / Gastón Bondanza...",
-   "generado": "2026-10-25T20:11:40.002Z",
-   "id": "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e84e1bec02c2468a9960f949f358a935~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-los-ganadores-de-la-octava-fecha-del-rally-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Los ganadores de la octava fecha del Rally de Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-los-ganadores-de-la-octava-fecha-del-rally-de",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:306a1afa-6396-4897-94c5-e852fbb14fdd": {
    "categoria": "",
    "descripcion": "Chivilcoy hizo podio en Santa Fe: brillante actuación del Círculo de Atletas en la Copa Nacional de Clubes U20 El fin de semana pasado, la ciudad de Santa Fe fue el epicentro del atletismo nacional al albergar la Copa Nacional de Clubes U20. Hasta allí viajó una delegación de jóvenes talentos pertenecientes al Círculo de Atletas de Chivilcoy, bajo la atenta conducción técnica del profesor Emir Sosa. El resultado no pudo ser mejor: medallas, podios individuales y un histórico tercer puesto en...",
@@ -16772,31 +16753,6 @@
    "titulo": "Torneo Federal ‘A’: Boca Unidos pedirá la continuidad del partido frente a Gimnasia de Chivilcoy",
    "urgente": false,
    "vence": "2026-10-28T14:02:44.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9|x": {
-   "actualizado": "2026-10-25T20:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9|x",
-   "creado": "2026-10-25T20:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-25T20:11:40.002Z",
-   "id": "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-los-ganadores-de-la-octava-fecha-del-rally-de",
-   "noticia": "nota:chivilcoy-deportes-los-ganadores-de-la-octava-fecha-del-rally-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Los ganadores de la octava fecha del Rally de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-26T00:11:40.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
