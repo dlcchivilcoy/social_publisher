@@ -6682,25 +6682,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-dos-policias-sufrieron-lesiones-leves-en-un",
    "volanta": "Chivilcoy · Accidente"
   },
-  "web:ea96db9d-ebd8-4901-99d2-e402feab16e7": {
-   "categoria": "",
-   "descripcion": "Investigan el faltante de herramientas y agroquímicos en un campo La denuncia fue radicada este sábado. Según informó la Policía Rural, el perjuicio económico todavía debe determinarse y no se estableció una relación directa con un hecho anterior en un establecimiento vecino. La Policía Rural inició actuaciones por la sustracción de herramientas de mano y agroquímicos del interior de un galpón en un establecimiento de la familia Colombo, ubicado en la zona rural de Ayarza. De acuerdo con las...",
-   "generado": "2026-10-25T14:23:39.145Z",
-   "id": "web:ea96db9d-ebd8-4901-99d2-e402feab16e7",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_2d4e2f7326d34ad49acb11ecfa15dfb4~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Investigan el faltante de herramientas y agroquímicos en un campo",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
-   "volanta": "Ayarza · Policiales"
-  },
   "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f": {
    "categoria": "",
    "descripcion": "Bragado: Quedó a disposición de la Justicia el hombre acusado de comercializar drogas y resistirse violentamente a la policía",
@@ -20922,31 +20903,6 @@
    "titulo": "Dos policías sufrieron lesiones leves en un choque en cadena",
    "urgente": false,
    "vence": "2026-10-27T16:39:44.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:ea96db9d-ebd8-4901-99d2-e402feab16e7|x": {
-   "actualizado": "2026-10-25T14:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:ea96db9d-ebd8-4901-99d2-e402feab16e7|x",
-   "creado": "2026-10-25T14:40:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-25T14:23:39.145Z",
-   "id": "web:ea96db9d-ebd8-4901-99d2-e402feab16e7",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
-   "noticia": "nota:ayarza-policiales-investigan-el-faltante-de-herramientas-y",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Investigan el faltante de herramientas y agroquímicos en un campo",
-   "urgente": false,
-   "vence": "2026-10-25T18:23:39.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
