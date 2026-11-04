@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 03/11/2026 23:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 5 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,16 +27,12 @@ Actualizado: 03/11/2026 23:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
-- X · Reels policiales · Aprehendieron a un empleado de un corralón tras un millonario robo en Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Ruta 5: interceptan a dos sospechosos tras robar una rueda de auxilio — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-03T20:20 programado entrevistas:job00273|x 
-- 2026-11-03T20:40 enviado entrevistas:job00273|x 
 - 2026-11-03T21:00 programado entrevistas:job00273|tiktok 
 - 2026-11-03T21:00 programado entrevistas:job00274|tiktok 
 - 2026-11-03T21:00 programado entrevistas:job00272|tiktok 
@@ -60,3 +56,5 @@ Actualizado: 03/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-04T01:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-04T02:00 recibido web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x 
 - 2026-11-04T02:00 depurado web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-04T02:40 vencido policiales:https://junin24.com/policiales/la-ddi-junin-escla espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-04T02:40 vencido policiales:https://www.latrochadigital.com.ar/2026/11/03/rut espera su momento (se programa cerca de la hora en que sale en las otras redes)
