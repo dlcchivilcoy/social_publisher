@@ -3252,6 +3252,32 @@
    "volanta": "Operativo policial en Junín",
    "youtube_url": "https://youtube.com/shorts/lB0TtqyIwoc"
   },
+  "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados": {
+   "categoria": "accidente_vial",
+   "descripcion": "Un camión y un auto protagonizaron un violento choque en la Ruta Provincial 30, a la altura del kilómetro 485. Los dos conductores terminaron hospitalizados.",
+   "distancia_km": 0.0,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-04T22:01:39.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-dos-heridos-tras-un-choque-y-vuelco-de-un-camion-en-b47fcc",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Un camión Volkswagen 13180 y un automóvil Fiat Cronos protagonizaron un fuerte choque este martes cerca de las 22 en la Ruta Provincial 30, a la altura del kilómetro 485, en Chivilcoy.\n\nTras la colisión frente al puente ferroviario, el transporte de carga volcó sobre uno de sus laterales y quedó apoyado parcialmente sobre el auto contra el guardarraíl.\n\nLos conductores de ambos rodados, identificados como Leanddo Duarte de 48 años y Matías Gularte de 22, salieron por sus propios medios y fueron trasladados conscientes al Hospital Municipal por el SAME.\n\nTrabajaron en el lugar tres dotaciones de bomberos, policías viales y personal de la Comisaría Primera, mientras la ruta permaneció totalmente cortada para realizar las pericias judiciales.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos heridos tras un choque entre un camión y un auto en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 77851,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_04_junin_dos-heridos-tras-un-choque-ent.mp4",
+   "volanta": "Siniestro vial en Chivilcoy",
+   "youtube_url": "https://youtube.com/shorts/f1IfIHMy8es"
+  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/": {
    "categoria": "robo",
    "descripcion": "Victoria denunció que delincuentes se llevaron su motocicleta de la calle 86. Minutos después, descubrió que los sospechosos presumían el rodado en historias de Instagram.",
@@ -15479,6 +15505,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_04_junin_aprehendieron-a-un-hombre-y-se.mp4",
    "viral": false
   },
+  "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados|x": {
+   "actualizado": "2026-11-04T22:20:16.000Z",
+   "buffer_id": "6aebafa0196569598524af9c",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados|x",
+   "creado": "2026-11-04T22:20:15.000Z",
+   "dueAt": "2026-11-04T22:23:03.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-04T22:01:39.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-dos-heridos-tras-un-choque-y-vuelco-de-un-camion-en-b47fcc",
+   "noticia": "nota:chivilcoy-dos-heridos-tras-un-choque-y-vuelco-de-un-camion-en-b47fcc",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Dos heridos tras un choque entre un camión y un auto en Chivilcoy\n\nUn camión y un auto protagonizaron un violento choque en la Ruta Provincial 30, a la altura del kilómetro 485. Los dos conductores terminaron hospitalizados.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-dos-heridos-tras-un-choque-y-vuelco-de-un-camion-en-b47fcc",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos heridos tras un choque entre un camión y un auto en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-05T00:01:39.000Z",
+   "video_bytes": 77851,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_04_junin_dos-heridos-tras-un-choque-ent.mp4",
+   "viral": false
+  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/|x": {
    "actualizado": "2026-10-26T09:00:29.000Z",
    "buffer_id": "",
@@ -21488,21 +21542,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae35179958f4a52750a73c6",
-   "clave": "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x",
-   "cuando": "2026-10-29T14:00:25.000Z",
-   "dueAt": "2026-10-29T14:22:56.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x",
-   "cuando": "2026-10-29T14:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tiktok",
    "cuando": "2026-10-29T14:20:20.000Z",
    "estado": "pendiente",
@@ -25678,6 +25717,21 @@
    "cuando": "2026-11-04T21:40:17.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados|x",
+   "cuando": "2026-11-04T22:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6aebafa0196569598524af9c",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados|x",
+   "cuando": "2026-11-04T22:20:17.000Z",
+   "dueAt": "2026-11-04T22:23:03.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -26219,6 +26273,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos": "2026-10-16T16:00:18.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros": "2026-10-24T00:40:15.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": "2026-10-29T23:40:14.000Z",
+  "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados": "2026-11-04T22:20:15.000Z",
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": "2026-10-23T00:20:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": "2026-10-12T12:20:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": "2026-10-13T12:40:15.000Z",
