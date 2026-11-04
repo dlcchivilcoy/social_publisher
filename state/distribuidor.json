@@ -3460,6 +3460,32 @@
    "volanta": "Operativo en Suipacha",
    "youtube_url": "https://youtube.com/shorts/ihQb4_K0dCU"
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/": {
+   "categoria": "narcotrafico",
+   "descripcion": "Dos hombres fueron imputados por infracción a la Ley de Estupefacientes durante un control vehicular realizado por la policía vial en la Ruta Nacional N° 5.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-04T23:31:58.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-dos-imputados-por-infraccion-a-la-ley-de-cf6faf",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "La policía vial interceptó dos vehículos durante la mañana de ayer en la Ruta Nacional N° 5.\n\nEl operativo estuvo encabezado por el jefe del Destacamento, Oficial Inspector Maximiliano Sateriano.\n\nComo resultado, dos hombres mayores de edad quedaron imputados por infringir la ley de estupefacientes.\n\nAmbos sospechosos recuperaron la libertad por disposición de la fiscalía interviniente tras cumplir los trámites legales.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Narcotrafico #Operativo #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos imputados por narcotráfico en la Ruta 5",
+   "urgente": false,
+   "video_bytes": 119714,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_07_9-de-julio_dos-imputados-por-narcotr-fico.mp4",
+   "volanta": "Operativo en 9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/r3rUpQ-sQ1A"
+  },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": {
    "categoria": "",
    "descripcion": "Luis Molina brilló en Chivilcoy: se quedó con los 21K de la Maratón \"Eduardo Poliaroni\" CHIVILCOY.– El atleta olímpico hizo su debut en la ciudad con una gran victoria en la media maratón local. Tras un intenso mano a mano frente al corredor de Saladillo, el representante nacional impuso su ritmo para subirse a lo más alto del podio. En una jornada deportiva cargada de adrenalina y exigencia física, el destacado atleta olímpico Luis Molina se consagró como el flamante ganador de la prueba...",
@@ -15735,6 +15761,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_08_9-de-julio_ruta-5-interceptan-a-dos-sospe.mp4",
    "viral": false
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/|x": {
+   "actualizado": "2026-11-04T23:40:17.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/|x",
+   "creado": "2026-11-04T23:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-04T23:31:58.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-dos-imputados-por-infraccion-a-la-ley-de-cf6faf",
+   "noticia": "nota:9-de-julio-dos-imputados-por-infraccion-a-la-ley-de-cf6faf",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Dos imputados por narcotráfico en la Ruta 5\n\nDos hombres fueron imputados por infracción a la Ley de Estupefacientes durante un control vehicular realizado por la policía vial en la Ruta Nacional N° 5.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-dos-imputados-por-infraccion-a-la-ley-de-cf6faf",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos imputados por narcotráfico en la Ruta 5",
+   "urgente": false,
+   "vence": "2026-11-05T01:31:58.000Z",
+   "video_bytes": 119714,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_07_9-de-julio_dos-imputados-por-narcotr-fico.mp4",
+   "viral": false
+  },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be|x": {
    "actualizado": "2026-11-02T13:20:16.000Z",
    "buffer_id": "6ae876a3339e85e6016a8d44",
@@ -21530,14 +21584,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|x",
-   "cuando": "2026-10-29T14:40:26.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "dura 168 s y X admite 140 s sin suscripción",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|tiktok",
    "cuando": "2026-10-29T14:40:29.000Z",
    "estado": "pendiente",
@@ -25709,6 +25755,14 @@
    "cuando": "2026-11-04T22:40:23.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2118106845965324292"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/|x",
+   "cuando": "2026-11-04T23:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -26268,6 +26322,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/31/allanamientos-en-la-ciudad-con-secuestro-de-ropa-y-calzado-deportivo/": "2026-10-31T23:40:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/": "2026-11-04T00:40:13.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/": "2026-11-04T23:40:17.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
