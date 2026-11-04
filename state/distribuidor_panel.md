@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 04/11/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 04/11/2026 12:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-04)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 04/11/2026 12:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 5 |
+| Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,7 +18,7 @@ Actualizado: 04/11/2026 12:00 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 25 · likes 0
-- X · Reels del bot: 55 con métricas · mediana vistas/impresiones 32 · likes 0
+- X · Reels del bot: 54 con métricas · mediana vistas/impresiones 31 · likes 0
 - X · Reels policiales: 17 con métricas · mediana vistas/impresiones 43 · likes 0
 - X · Notas web: 64 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 113 · likes 1
@@ -34,8 +34,6 @@ Actualizado: 04/11/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-04T12:20 enviado web:872a2063-6765-4479-9b88-9ec7435019ea|x 
-- 2026-11-04T12:20 enviado web:938b6ba4-fafa-439f-9eaa-7e8d85ab3288|x 
 - 2026-11-04T12:20 enviado web:ba6d8630-806d-4312-84ba-717760fde847|x 
 - 2026-11-04T12:20 enviado web:e5d82418-e9e9-4497-b66c-6688ca5684d6|x 
 - 2026-11-04T12:20 programado web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297|x 
@@ -59,3 +57,5 @@ Actualizado: 04/11/2026 12:00 (hora AR) · ACTIVO
 - 2026-11-04T15:00 depurado web:fc88e805-cd8e-4eaf-afdb-62cab8e762ea|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-04T15:00 enviado bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x 
 - 2026-11-04T15:00 enviado web:306a1afa-6396-4897-94c5-e852fbb14fdd|x 
+- 2026-11-04T15:40 recibido web:bcc71360-9f79-4290-9d68-9770c7fb87ac|x 
+- 2026-11-04T15:40 depurado web:bcc71360-9f79-4290-9d68-9770c7fb87ac|x de la web, a X solo van las notas del diario de la mañana
