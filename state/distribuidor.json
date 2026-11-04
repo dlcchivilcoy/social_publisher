@@ -2477,6 +2477,32 @@
    "volanta": "Operativo policial en Junín",
    "youtube_url": "https://youtube.com/shorts/OAaIqnhFVWs"
   },
+  "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia": {
+   "categoria": "robo",
+   "descripcion": "La DDI Junín esclareció un millonario robo en un corralón de Chacabuco tras un allanamiento de urgencia. Un empleado del comercio fue aprehendido y se investiga su participación en hechos cometidos con inhibidores de señal.",
+   "distancia_km": 50.1,
+   "duracion_seg": 66.3,
+   "generado": "2026-11-04T00:32:31.000Z",
+   "id": "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-empleado-tras-un-millonario-robo-en-5a1cb5",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "La DDI Junín logró esclarecer un millonario robo ocurrido en un corralón de la vecina localidad de Chacabuco.\n\nEl operativo se concretó mediante un allanamiento de urgencia donde las autoridades aprehendieron a un empleado del comercio.\n\nLa investigación apunta a que los ilícitos se habrían cometido utilizando dispositivos inhibidores de señal para vulnerar la seguridad.\n\nLas diligencias continúan a cargo de la fiscalía interviniente para determinar si existen más implicados en el hecho.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #Robo #Chacabuco #BuenosAires",
+   "tipo": "video",
+   "titulo": "Aprehendieron a un empleado de un corralón tras un millonario robo en Chacabuco",
+   "urgente": false,
+   "video_bytes": 2824439,
+   "video_mb": 2.7,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_10_junin_aprehendieron-a-un-empleado-de.mp4",
+   "volanta": "Robo en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/J3z-4A9RtDI"
+  },
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero": {
    "categoria": "robo",
    "descripcion": "Las fuerzas de seguridad concretaron múltiples operativos en distintos sectores urbanos. Recuperaron un rodado sustraído, apresaron a un individuo con cuentas pendientes y detuvieron a otro por atacar a los efectivos.",
@@ -3438,6 +3464,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-31_2134_06_9-de-julio_allanaron-dos-viviendas-y-secu.mp4",
    "volanta": "Operativo en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/NHsHYaQOMq8"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/": {
+   "categoria": "operativo_policial",
+   "descripcion": "Dos hombres oriundos de Lomas de Zamora fueron detenidos tras un operativo cerrojo en la Ruta Nacional 5. La policía les secuestró un inhibidor de alarmas, el auto en el que circulaban y recuperaron el elemento sustraído a una camioneta.",
+   "distancia_km": 33.5,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-04T00:32:18.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/",
+   "localidad": "Suipacha",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/suipacha-detuvieron-a-dos-hombres-en-la-ruta-5-tras-robar-una-0e8ed9",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Un operativo cerrojo coordinado entre distintas dependencias permitió interceptar a dos sospechosos sobre la Ruta Nacional 5.\n\nLa alerta inicial fue realizada por una vecina mediante una aplicación municipal, lo que activó el seguimiento del Centro de Monitoreo.\n\nEfectivos de la Policía Comunal y de la vecina localidad de Mercedes lograron reducir a los implicados que intentaban escapar.\n\nEn poder de los sospechosos secuestraron un inhibidor de alarmas, el rodado y el elemento robado.\n\n📲 Más noticias de Suipacha en www.diariolacampaña.com.ar\n\n#Suipacha #OperativoPolicial #Detenidos #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Ruta 5: interceptan a dos sospechosos tras robar una rueda de auxilio",
+   "urgente": false,
+   "video_bytes": 106861,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_08_9-de-julio_ruta-5-interceptan-a-dos-sospe.mp4",
+   "volanta": "Operativo en Suipacha",
+   "youtube_url": "https://youtube.com/shorts/ihQb4_K0dCU"
   },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": {
    "categoria": "",
@@ -14016,14 +14068,14 @@
    "viral": false
   },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x": {
-   "actualizado": "2026-11-03T22:40:14.000Z",
+   "actualizado": "2026-11-04T00:40:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x",
    "creado": "2026-11-03T22:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-03T22:31:48.000Z",
    "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/",
    "intentos": 0,
@@ -14291,6 +14343,34 @@
    "vence": "2026-11-03T02:32:23.000Z",
    "video_bytes": 95644,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_01_junin_aprehendieron-a-dos-personas-e.mp4",
+   "viral": false
+  },
+  "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia|x": {
+   "actualizado": "2026-11-04T00:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia|x",
+   "creado": "2026-11-04T00:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-04T00:32:31.000Z",
+   "id": "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-empleado-tras-un-millonario-robo-en-5a1cb5",
+   "noticia": "nota:chacabuco-detuvieron-a-un-empleado-tras-un-millonario-robo-en-5a1cb5",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Aprehendieron a un empleado de un corralón tras un millonario robo en Chacabuco\n\nLa DDI Junín esclareció el hecho tras un allanamiento de urgencia. Se investiga la participación del sospechoso en hechos cometidos con inhibidores de señal.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-empleado-tras-un-millonario-robo-en-5a1cb5",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Aprehendieron a un empleado de un corralón tras un millonario robo en Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-04T02:32:31.000Z",
+   "video_bytes": 2824439,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_10_junin_aprehendieron-a-un-empleado-de.mp4",
    "viral": false
   },
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero|x": {
@@ -15443,6 +15523,34 @@
    "vence": "2026-11-01T01:30:55.000Z",
    "video_bytes": 84537,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-31_2134_06_9-de-julio_allanaron-dos-viviendas-y-secu.mp4",
+   "viral": false
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/|x": {
+   "actualizado": "2026-11-04T00:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/|x",
+   "creado": "2026-11-04T00:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-04T00:32:18.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/suipacha-detuvieron-a-dos-hombres-en-la-ruta-5-tras-robar-una-0e8ed9",
+   "noticia": "nota:suipacha-detuvieron-a-dos-hombres-en-la-ruta-5-tras-robar-una-0e8ed9",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Ruta 5: interceptan a dos sospechosos tras robar una rueda de auxilio\n\nDos hombres fueron detenidos tras un operativo cerrojo en la Ruta Nacional 5. La policía les secuestró un inhibidor, el auto y recuperó el elemento sustraído.\n\nhttps://www.diariolacampaña.com.ar/n/suipacha-detuvieron-a-dos-hombres-en-la-ruta-5-tras-robar-una-0e8ed9",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ruta 5: interceptan a dos sospechosos tras robar una rueda de auxilio",
+   "urgente": false,
+   "vence": "2026-11-04T02:32:18.000Z",
+   "video_bytes": 106861,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_08_9-de-julio_ruta-5-interceptan-a-dos-sospe.mp4",
    "viral": false
   },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be|x": {
@@ -20734,24 +20842,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|x",
-   "cuando": "2026-10-28T18:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115494589779910999"
-  },
-  {
-   "clave": "entrevistas:job00256|x",
-   "cuando": "2026-10-28T18:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115490751790330278"
-  },
-  {
-   "clave": "entrevistas:job00257|x",
-   "cuando": "2026-10-28T18:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115499633224851937"
-  },
-  {
    "buffer_id": "6ae23ce35ab5a911b3697bcd",
    "clave": "entrevistas:job00258|x",
    "cuando": "2026-10-28T18:20:19.000Z",
@@ -24921,6 +25011,28 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/|x",
+   "cuando": "2026-11-04T00:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia|x",
+   "cuando": "2026-11-04T00:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x",
+   "cuando": "2026-11-04T00:40:17.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
@@ -25333,6 +25445,7 @@
   "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero": "2026-11-03T00:40:17.000Z",
   "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos": "2026-10-24T22:20:14.000Z",
   "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad": "2026-10-21T23:40:15.000Z",
+  "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia": "2026-11-04T00:40:13.000Z",
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero": "2026-10-26T22:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada": "2026-10-16T02:00:19.000Z",
@@ -25470,6 +25583,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/": "2026-10-30T23:40:18.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/31/allanamientos-en-la-ciudad-con-secuestro-de-ropa-y-calzado-deportivo/": "2026-10-31T23:40:14.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/": "2026-11-04T00:40:13.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",

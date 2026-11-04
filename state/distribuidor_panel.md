@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 03/11/2026 21:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 1 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,10 +27,11 @@ Actualizado: 03/11/2026 21:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
 - X · Reels policiales · Emiten alerta amarilla por tormentas y anticipan lluvias para el fin de semana — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Aprehendieron a un empleado de un corralón tras un millonario robo en Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Ruta 5: interceptan a dos sospechosos tras robar una rueda de auxilio — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Aprehendieron a un hombre de 40 años por un robo a una mujer de 71 años — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Una camioneta volcó tras un choque en la esquina de Albizzatti e Yrigoyen — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Un camión cerealero volcó en la Ruta 5 y dos ocupantes resultaron iles — TikTok has detected a large number of posts published through the API for this channel. Wait 24 hours before trying to publish again.
@@ -39,9 +40,6 @@ Actualizado: 03/11/2026 21:20 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-03T18:40 recibido entrevistas:job00274|x 
-- 2026-11-03T18:40 recibido entrevistas:job00274|tiktok 
-- 2026-11-03T18:40 programado entrevistas:job00274|x 
 - 2026-11-03T19:20 enviado entrevistas:job00274|x 
 - 2026-11-03T20:20 entrevista_aprobada entrevistas:job00273 
 - 2026-11-03T20:20 recibido entrevistas:job00273|x 
@@ -64,3 +62,6 @@ Actualizado: 03/11/2026 21:20 (hora AR) · ACTIVO
 - 2026-11-03T23:00 enviado policiales:https://www.bragadoinforma.com.ar/nota/31116/volc 
 - 2026-11-03T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ 
 - 2026-11-03T23:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ 
+- 2026-11-04T00:40 recibido policiales:https://www.latrochadigital.com.ar/2026/11/03/rut 
+- 2026-11-04T00:40 recibido policiales:https://junin24.com/policiales/la-ddi-junin-escla 
+- 2026-11-04T00:40 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-choque-e espera su momento (se programa cerca de la hora en que sale en las otras redes)
