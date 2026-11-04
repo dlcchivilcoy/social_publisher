@@ -4258,25 +4258,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
    "volanta": "Ruta 30 · Accidente"
   },
-  "web:3e3abc09-6c21-4ab2-88f6-118e63835441": {
-   "categoria": "",
-   "descripcion": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha El encuentro entre Boca Unidos y Gimnasia y Esgrima de Chivilcoy, correspondiente a la ida de los octavos de final de la Reválida del Torneo Federal A, fue suspendido este domingo en el complejo Leoncio Benítez, en Corrientes. El episodio ocurrió a los 40 minutos de la primera etapa, con el marcador 0 a 0, cuando una bomba de estruendo cayó desde la tribuna ubicada detrás de uno de los arcos. Las explosiones afectaron a...",
-   "generado": "2026-10-25T20:45:28.703Z",
-   "id": "web:3e3abc09-6c21-4ab2-88f6-118e63835441",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a724d1005daa4db4bfb824835150c5c3~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
-   "volanta": "Corrientes · Deportes"
-  },
   "web:3fae7597-04b8-4378-8e2d-22c4f444cefd": {
    "categoria": "",
    "descripcion": "Chivilcoy: Récord de participantes en los torneos intercolegiales locales CHIVILCOY.– El pasado sábado 31/10 por la tarde, se jugaron 2 torneos intercolegiales locales por equipos, en simultáneo, uno de alumnos de escuelas primarias y otro de escuelas secundarias. Los certámenes se desarrollaron al aire libre, sobre la acera a la altura de Avda Soarez N° 114, en cercanías al local comercial auspiciante, hecho también novedoso para el tipo de evento, como una forma más de promocionar el...",
@@ -7289,43 +7270,6 @@
    "titulo": "Los ganadores de la octava fecha del Rally de Chivilcoy",
    "urgente": false,
    "vence": "2026-10-27T20:13:48.000Z",
-   "video_bytes": 2402189,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_46f9369917738213.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x": {
-   "actualizado": "2026-10-25T20:40:15.000Z",
-   "buffer_id": "6ade64890b5343d070edcb0e",
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2|x",
-   "creado": "2026-10-25T20:20:14.000Z",
-   "dueAt": "2026-10-25T20:22:54.000Z",
-   "enviado": "2026-10-25T20:23:06.869Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-25T20:13:48.000Z",
-   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvo9dhpfeww2",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114452715426197609",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 35,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-los-ganadores-de-la-octava-fecha-del-rally-de",
-   "noticia": "nota:chivilcoy-deportes-los-ganadores-de-la-octava-fecha-del-rally-de",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Los ganadores de la octava fecha del Rally de Chivilcoy\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-los-ganadores-de-la-octava-fecha-del-rally-de",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Los ganadores de la octava fecha del Rally de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-25T22:13:48.000Z",
    "video_bytes": 2402189,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_46f9369917738213.mp4",
    "viral": false
@@ -11972,15 +11916,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok": {
-   "actualizado": "2026-11-04T14:00:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-04T21:00:16.000Z",
+   "buffer_id": "6aeb9ce566cdd5eb2856a535",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok",
    "creado": "2026-11-04T14:00:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-04T21:03:32.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-04T13:53:54.000Z",
    "id": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4",
    "intentos": 0,
@@ -14081,15 +14025,15 @@
    "viral": false
   },
   "entrevistas:job00275|tiktok": {
-   "actualizado": "2026-11-04T17:00:23.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-04T21:00:16.000Z",
+   "buffer_id": "6aeb9cf1f0e1705c28e70e23",
    "categoria": "",
    "clave": "entrevistas:job00275|tiktok",
    "creado": "2026-11-04T17:00:23.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-04T22:23:55.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-04T17:00:23.000Z",
    "id": "entrevistas:job00275",
    "intentos": 0,
@@ -14138,15 +14082,15 @@
    "viral": false
   },
   "entrevistas:job00276|tiktok": {
-   "actualizado": "2026-11-04T17:20:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-04T21:00:16.000Z",
+   "buffer_id": "6aeb9ceff0e1705c28e70b85",
    "categoria": "",
    "clave": "entrevistas:job00276|tiktok",
    "creado": "2026-11-04T17:20:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-04T22:03:41.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-04T17:20:18.000Z",
    "id": "entrevistas:job00276",
    "intentos": 0,
@@ -14195,15 +14139,15 @@
    "viral": false
   },
   "entrevistas:job00277|tiktok": {
-   "actualizado": "2026-11-04T18:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-04T21:00:16.000Z",
+   "buffer_id": "6aeb9cedf0e1705c28e707fd",
    "categoria": "",
    "clave": "entrevistas:job00277|tiktok",
    "creado": "2026-11-04T18:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-04T21:43:25.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-04T18:20:14.000Z",
    "id": "entrevistas:job00277",
    "intentos": 0,
@@ -14252,15 +14196,15 @@
    "viral": false
   },
   "entrevistas:job00278|tiktok": {
-   "actualizado": "2026-11-04T18:40:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-04T21:00:16.000Z",
+   "buffer_id": "6aeb9ce9f0e1705c28e6fdf8",
    "categoria": "",
    "clave": "entrevistas:job00278|tiktok",
    "creado": "2026-11-04T18:40:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-04T21:23:04.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-04T18:40:16.000Z",
    "id": "entrevistas:job00278",
    "intentos": 0,
@@ -17006,31 +16950,6 @@
    "titulo": "Chivilcoy: Un camión volcó sobre un puente tras chocar con un auto",
    "urgente": false,
    "vence": "2026-11-04T05:54:22.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:3e3abc09-6c21-4ab2-88f6-118e63835441|x": {
-   "actualizado": "2026-10-25T21:00:16.000Z",
-   "buffer_id": "",
-   "clave": "web:3e3abc09-6c21-4ab2-88f6-118e63835441|x",
-   "creado": "2026-10-25T21:00:16.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-25T20:45:28.703Z",
-   "id": "web:3e3abc09-6c21-4ab2-88f6-118e63835441",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
-   "noticia": "nota:corrientes-deportes-suspendieron-boca-unidos-ante-gimnasia-tras-una",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha",
-   "urgente": false,
-   "vence": "2026-10-26T00:45:28.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -21513,41 +21432,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae343703843f63a4858a62a",
-   "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok",
-   "cuando": "2026-10-29T13:00:35.000Z",
-   "dueAt": "2026-10-29T13:43:50.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae34372017e28c83c5eb075",
-   "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok",
-   "cuando": "2026-10-29T13:00:35.000Z",
-   "dueAt": "2026-10-29T14:03:09.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae34373650dab96a372d6f5",
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tiktok",
-   "cuando": "2026-10-29T13:00:35.000Z",
-   "dueAt": "2026-10-29T14:23:39.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x",
-   "cuando": "2026-10-29T14:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|tiktok",
-   "cuando": "2026-10-29T14:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702075758998506759"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok",
    "cuando": "2026-10-29T14:00:24.000Z",
    "evento": "enviado",
@@ -25699,11 +25583,45 @@
    "cuando": "2026-11-04T20:00:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2118051349791141944"
+  },
+  {
+   "buffer_id": "6aeb9ce566cdd5eb2856a535",
+   "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok",
+   "cuando": "2026-11-04T21:00:33.000Z",
+   "dueAt": "2026-11-04T21:03:32.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aeb9ce9f0e1705c28e6fdf8",
+   "clave": "entrevistas:job00278|tiktok",
+   "cuando": "2026-11-04T21:00:33.000Z",
+   "dueAt": "2026-11-04T21:23:04.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aeb9cedf0e1705c28e707fd",
+   "clave": "entrevistas:job00277|tiktok",
+   "cuando": "2026-11-04T21:00:33.000Z",
+   "dueAt": "2026-11-04T21:43:25.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aeb9ceff0e1705c28e70b85",
+   "clave": "entrevistas:job00276|tiktok",
+   "cuando": "2026-11-04T21:00:33.000Z",
+   "dueAt": "2026-11-04T22:03:41.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aeb9cf1f0e1705c28e70e23",
+   "clave": "entrevistas:job00275|tiktok",
+   "cuando": "2026-11-04T21:00:33.000Z",
+   "dueAt": "2026-11-04T22:23:55.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-24 18",
    "2026-10-24 21",
    "2026-10-26 10",
    "2026-10-26 18",
@@ -25732,7 +25650,8 @@
    "2026-11-03 10",
    "2026-11-03 18",
    "2026-11-03 21",
-   "2026-11-04 10"
+   "2026-11-04 10",
+   "2026-11-04 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-04",
