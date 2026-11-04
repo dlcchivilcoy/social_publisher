@@ -3101,32 +3101,6 @@
    "volanta": "Principio de incendio en Junín",
    "youtube_url": "https://youtube.com/shorts/0Rq2zQbhUMQ"
   },
-  "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en": {
-   "categoria": "operativo_policial",
-   "descripcion": "Durante operativos nocturnos del Grupo de Apoyo Departamental en Chacabuco, cuatro hombres mayores de edad fueron aprehendidos tras intervenir en riñas callejeras. Además, incautaron cuatro motocicletas por maniobras imprudentes y ruidos molestos.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-24T23:02:08.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en-68a21c",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Cuatro hombres mayores de edad terminaron aprehendidos durante operativos nocturnos realizados por efectivos del Grupo de Apoyo Departamental en la ciudad de Chacabuco.\n\nLos procedimientos se llevaron a cabo durante la madrugada del sábado 24 de octubre de 2026 en el corredor nocturno local, en el marco de intervenciones por riñas.\n\nEn el mismo operativo, personal policial secuestró cuatro motocicletas cuyos conductores realizaban maniobras imprudentes y generaban ruidos molestos.\n\nLas acciones apuntaron a disuadir conductas que alteraban la tranquilidad vecinal y ponían en riesgo la seguridad en el tránsito.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Operativo #Policia #BuenosAires",
-   "tipo": "video",
-   "titulo": "Cuatro aprehendidos y cuatro motos secuestradas en controles nocturnos",
-   "urgente": false,
-   "video_bytes": 86395,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_04_chacabuco_cuatro-aprehendidos-y-cuatro-m.mp4",
-   "volanta": "Operativo policial en Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/cEZMRtHfdWA"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se": {
    "categoria": "otro_policial",
    "descripcion": "Un operativo policial permitió esclarecer en menos de 12 horas un robo cometido en una ferretería de Junín. Recuperaron la caja registradora y una termofusora. Hay un mayor de 18 años y un menor de 17 aprehendidos.",
@@ -14885,14 +14859,14 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento|x": {
-   "actualizado": "2026-11-03T23:20:14.000Z",
+   "actualizado": "2026-11-04T01:20:16.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento|x",
    "creado": "2026-11-03T23:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-03T23:01:33.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento",
    "intentos": 0,
@@ -15087,34 +15061,6 @@
    "vence": "2026-10-31T02:02:02.000Z",
    "video_bytes": 90769,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_01_chacabuco_controlaron-un-principio-de-in.mp4",
-   "viral": false
-  },
-  "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en|x": {
-   "actualizado": "2026-10-25T01:20:14.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en|x",
-   "creado": "2026-10-24T23:20:14.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-10-24T23:02:08.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en-68a21c",
-   "noticia": "nota:chacabuco-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en-68a21c",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Cuatro aprehendidos y cuatro motos secuestradas en controles nocturnos\n\nDurante operativos nocturnos del Grupo de Apoyo Departamental en Chacabuco, cuatro hombres mayores de edad fueron aprehendidos tras intervenir en riñas callejeras.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en-68a21c",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cuatro aprehendidos y cuatro motos secuestradas en controles nocturnos",
-   "urgente": false,
-   "vence": "2026-10-25T01:02:08.000Z",
-   "video_bytes": 86395,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-24_2134_04_chacabuco_cuatro-aprehendidos-y-cuatro-m.mp4",
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se|x": {
@@ -20842,13 +20788,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae23ce35ab5a911b3697bcd",
-   "clave": "entrevistas:job00258|x",
-   "cuando": "2026-10-28T18:20:19.000Z",
-   "dueAt": "2026-10-28T18:22:34.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00259",
    "cuando": "2026-10-28T18:40:15.000Z",
    "evento": "entrevista_aprobada"
@@ -25031,6 +24970,12 @@
   {
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x",
    "cuando": "2026-11-04T00:40:17.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento|x",
+   "cuando": "2026-11-04T01:20:16.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
