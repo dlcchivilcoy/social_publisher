@@ -1566,6 +1566,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_db63d483dffcd838.mp4",
    "youtube_url": "https://www.youtube.com/shorts/lx3d9xq6R7M"
   },
+  "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4": {
+   "descripcion": "Un siniestro vial se produjo alrededor de las 10:40 en la intersección de la avenida Villarino y la calle Lamadrid.\n\nEl hecho involucró a un automóvil y a una motocicleta que colisionaron en dicha esquina de la ciudad por causas que no fueron precisadas.\n\nPor el momento no trascendieron mayores precisiones sobre las circunstancias del impacto ni el estado de los conductores de ambos rodados.",
+   "duracion_seg": 15.3,
+   "generado": "2026-11-04T13:53:54.000Z",
+   "id": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Colisionaron un auto y una moto en avenida Villarino y Lamadrid",
+   "urgente": false,
+   "video_bytes": 3948527,
+   "video_mb": 3.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8f0ef3d3d7a57c3c.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/-zRGypO827w"
+  },
   "entrevistas:job00248": {
    "descripcion": "En Chivilcoy, la médica reumatóloga Ana Maria Berón explicó por qué los analgésicos no curan la fibromialgia al no existir daño en el tejido. También remarcó la constante formación médica ante patologías reumatológicas muy frecuentes pero poco conocidas.",
    "duracion_seg": null,
@@ -5425,6 +5446,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/plan-autovia-ruta-5-si-o-si-los-concejos-deliberantes-de-la-ruta-5",
    "volanta": ""
+  },
+  "web:975edcef-ec1f-4523-a752-70f08fd5d109": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Colisionaron un auto y una moto en avenida Villarino y Lamadrid Un siniestro vial se produjo a las 10:40 en la intersección de la avenida Villarino y la calle Lamadrid, en la ciudad de Chivilcoy. Por causas que no fueron precisadas, el hecho involucró a un automóvil y a una motocicleta.",
+   "generado": "2026-11-04T13:52:24.225Z",
+   "id": "web:975edcef-ec1f-4523-a752-70f08fd5d109",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_37675cdf509d4c0899b3379cd4ec90c3~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Colisionaron un auto y una moto en avenida Villarino y Lamadrid",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en",
+   "volanta": "Chivilcoy · Accidente"
   },
   "web:987bd392-013a-42fa-93e2-03b50c823a35": {
    "categoria": "",
@@ -12087,6 +12127,62 @@
    "vence": "2026-11-04T05:31:46.000Z",
    "video_bytes": 3978214,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_db63d483dffcd838.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok": {
+   "actualizado": "2026-11-04T14:00:20.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok",
+   "creado": "2026-11-04T14:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-04T13:53:54.000Z",
+   "id": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Colisionaron un auto y una moto en avenida Villarino y Lamadrid\n\nUn siniestro vial se produjo alrededor de las 10:40 en la intersección de la avenida Villarino y la calle Lamadrid. El hecho involucró a un automóvil y a una motocicleta que colisionaron en dicha esquina de la ciudad por causas que no fueron precisadas. Por el momento no trascendieron mayores precisiones sobre las circunstancias del impacto ni el estado de los conductores de ambos rodados.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Colisionaron un auto y una moto en avenida Villarino y Lamadrid",
+   "urgente": false,
+   "vence": "2026-11-06T13:53:54.000Z",
+   "video_bytes": 3948527,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8f0ef3d3d7a57c3c.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x": {
+   "actualizado": "2026-11-04T14:00:28.000Z",
+   "buffer_id": "6aeb3a7fbf0b72949667a823",
+   "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x",
+   "creado": "2026-11-04T14:00:20.000Z",
+   "dueAt": "2026-11-04T14:02:29.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-04T13:53:54.000Z",
+   "id": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en",
+   "noticia": "nota:chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Colisionaron un auto y una moto en avenida Villarino y Lamadrid\n\nEl hecho ocurrió alrededor de las 10:40 por causas que no fueron precisadas. Por el momento no trascendieron detalles sobre el estado de los conductores de ambos rodados.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Colisionaron un auto y una moto en avenida Villarino y Lamadrid",
+   "urgente": false,
+   "vence": "2026-11-04T15:53:54.000Z",
+   "video_bytes": 3948527,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8f0ef3d3d7a57c3c.mp4",
    "viral": false
   },
   "entrevistas:job00248|tiktok": {
@@ -18897,6 +18993,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:975edcef-ec1f-4523-a752-70f08fd5d109|x": {
+   "actualizado": "2026-11-04T14:00:20.000Z",
+   "buffer_id": "",
+   "clave": "web:975edcef-ec1f-4523-a752-70f08fd5d109|x",
+   "creado": "2026-11-04T14:00:20.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-04T13:52:24.225Z",
+   "id": "web:975edcef-ec1f-4523-a752-70f08fd5d109",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en",
+   "noticia": "nota:chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Colisionaron un auto y una moto en avenida Villarino y Lamadrid",
+   "urgente": false,
+   "vence": "2026-11-04T17:52:24.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:987bd392-013a-42fa-93e2-03b50c823a35|x": {
    "actualizado": "2026-11-02T15:40:26.000Z",
    "buffer_id": "6ae8896b3911b6a45d4e53cc",
@@ -21388,35 +21509,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x",
-   "cuando": "2026-10-29T10:03:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ae319e968ebd3a1d7752cf9",
-   "clave": "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x",
-   "cuando": "2026-10-29T10:03:23.000Z",
-   "dueAt": "2026-10-29T10:22:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae319e91b10eea3de284a5d",
-   "clave": "web:66bad44b-4ffb-4fe4-a2d7-800fe271a723|x",
-   "cuando": "2026-10-29T10:03:23.000Z",
-   "dueAt": "2026-10-29T10:37:27.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae319eabdb1fae7ce366166",
-   "clave": "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x",
-   "cuando": "2026-10-29T10:03:23.000Z",
-   "dueAt": "2026-10-29T11:07:27.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae319eaa667c7b474ae405d",
    "clave": "web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x",
@@ -25575,6 +25667,37 @@
    "cuando": "2026-11-04T13:40:19.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2117974585417040326"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x",
+   "cuando": "2026-11-04T14:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok",
+   "cuando": "2026-11-04T14:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:975edcef-ec1f-4523-a752-70f08fd5d109|x",
+   "cuando": "2026-11-04T14:00:28.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6aeb3a7fbf0b72949667a823",
+   "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x",
+   "cuando": "2026-11-04T14:00:32.000Z",
+   "dueAt": "2026-11-04T14:02:29.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -25799,6 +25922,7 @@
   "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4": "2026-11-01T13:20:14.000Z",
   "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4": "2026-11-04T09:00:19.000Z",
   "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4": "2026-11-04T09:00:19.000Z",
+  "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4": "2026-11-04T14:00:20.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -26493,6 +26617,7 @@
   "web:9669ccd2-5db3-4ca4-ab19-f026cc09a1ef": "2026-10-16T10:20:16.000Z",
   "web:96fc984a-5682-4bad-8148-1f36bdb208c1": "2026-10-23T13:20:15.000Z",
   "web:975c6fd2-4e78-4b7d-b793-7760379b7320": "2026-10-16T10:20:16.000Z",
+  "web:975edcef-ec1f-4523-a752-70f08fd5d109": "2026-11-04T14:00:20.000Z",
   "web:976bae39-fdab-4787-9e26-8828e58badc1": "2026-10-22T10:02:31.000Z",
   "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
   "web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5": "2026-10-19T15:20:16.000Z",
