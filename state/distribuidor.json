@@ -5588,6 +5588,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
    "volanta": "Chivilcoy · Servicios"
   },
+  "web:9e795c0b-5665-45d1-8325-8af58d45b889": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El Municipio recuperó la tenencia de la nave industrial En cumplimiento de una medida cautelar dictada por el Juzgado en lo Contencioso Administrativo N.º 1 de Mercedes, la oficial de justicia del Juzgado de Paz Letrado de Chivilcoy hizo entrega formal este lunes de la tenencia del inmueble municipal que se encontraba en poder de la firma Perchet SAU (vinculada a la operatoria de la ex-Bicontinentar / Paquetá). El procedimiento se llevó a cabo con la intervención de la fuerza...",
+   "generado": "2026-11-04T21:39:15.508Z",
+   "id": "web:9e795c0b-5665-45d1-8325-8af58d45b889",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_15afb8f1faa24c0aa3c90934ebcaa334~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio recuperó la tenencia de la nave industrial",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
+   "volanta": "Chivilcoy · Política"
+  },
   "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e": {
    "categoria": "",
    "descripcion": "Esclarecieron el hurto de una moto e identificaron a dos menores La Secretaría de Seguridad, a cargo de Néstor Dabi, informó que personal policial, junto a efectivos de la SubDDI Chivilcoy, logró esclarecer el hurto de una motocicleta ocurrido en la vía pública y avanzar en la identificación de los presuntos autores, dos menores de 17 años. La investigación se inició a partir de una denuncia radicada el 24 de octubre, luego de que sustrajeran una motocicleta Honda Wave 110 cc, color gris...",
@@ -19135,6 +19154,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:9e795c0b-5665-45d1-8325-8af58d45b889|x": {
+   "actualizado": "2026-11-04T21:40:17.000Z",
+   "buffer_id": "",
+   "clave": "web:9e795c0b-5665-45d1-8325-8af58d45b889|x",
+   "creado": "2026-11-04T21:40:12.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-04T21:39:15.508Z",
+   "id": "web:9e795c0b-5665-45d1-8325-8af58d45b889",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
+   "noticia": "nota:chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: El Municipio recuperó la tenencia de la nave industrial\n\nLa Justicia entregó formalmente el inmueble que estaba en poder de la firma Perchet SAU. El procedimiento se cumplió por una medida cautelar y con la intervención de la fuerza pública.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio recuperó la tenencia de la nave industrial",
+   "urgente": false,
+   "vence": "2026-11-05T01:39:15.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x": {
    "actualizado": "2026-10-26T13:48:30.000Z",
    "buffer_id": "",
@@ -21478,18 +21524,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x",
-   "cuando": "2026-10-29T14:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115792646270550330"
-  },
-  {
-   "clave": "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56|x",
-   "cuando": "2026-10-29T14:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115796357826941041"
-  },
   {
    "buffer_id": "6ae35179958f4a52750a73c6",
    "clave": "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x",
@@ -25667,6 +25701,20 @@
    "cuando": "2026-11-04T21:20:19.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7704424947262868754"
+  },
+  {
+   "clave": "web:9e795c0b-5665-45d1-8325-8af58d45b889|x",
+   "cuando": "2026-11-04T21:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:9e795c0b-5665-45d1-8325-8af58d45b889|x",
+   "cuando": "2026-11-04T21:40:17.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -26613,6 +26661,7 @@
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
   "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f": "2026-10-30T19:20:18.000Z",
   "web:9e4086cb-884a-42ed-9f34-88efb0194b7a": "2026-11-03T22:20:16.000Z",
+  "web:9e795c0b-5665-45d1-8325-8af58d45b889": "2026-11-04T21:40:12.000Z",
   "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a": "2026-10-22T14:20:16.000Z",
   "web:9f2f4ad4-ec7d-4e33-94b8-2d8c741a84d4": "2026-10-24T18:00:17.000Z",
   "web:9f367ea4-375b-4d70-99b9-15eec836b557": "2026-10-16T10:20:16.000Z",
