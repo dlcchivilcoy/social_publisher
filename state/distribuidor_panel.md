@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 04/11/2026 11:00 (hora AR) · ACTIVO
+Actualizado: 04/11/2026 11:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-04)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 04/11/2026 11:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 1 | 0 | 0 | 0 | 3 |
+| Notas web | X | 15 | 10 | 1 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -34,8 +34,6 @@ Actualizado: 04/11/2026 11:00 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-04T11:00 enviado web:e734229c-79c5-449c-91b5-fec63de9a1ad|x 
-- 2026-11-04T11:00 programado web:938b6ba4-fafa-439f-9eaa-7e8d85ab3288|x 
 - 2026-11-04T11:20 programado web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x 
 - 2026-11-04T11:40 programado web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d|x 
 - 2026-11-04T11:40 programado web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a|x 
@@ -59,3 +57,5 @@ Actualizado: 04/11/2026 11:00 (hora AR) · ACTIVO
 - 2026-11-04T14:00 recibido bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok 
 - 2026-11-04T14:00 recibido web:975edcef-ec1f-4523-a752-70f08fd5d109|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-04T14:00 programado bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x 
+- 2026-11-04T14:20 recibido web:b9614f68-7894-4d54-ab85-71bd96e07340|x 
+- 2026-11-04T14:20 depurado web:b9614f68-7894-4d54-ab85-71bd96e07340|x de la web, a X solo van las notas del diario de la mañana
