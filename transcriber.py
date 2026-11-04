@@ -2062,12 +2062,14 @@ def _reel_declaracion(carpeta: Path, decl: dict, salida: Path, respaldo: str = "
 # periodística sale como las notas de la mañana: carrusel explicativo en Instagram (portada con la
 # foto + láminas que cuentan la nota), la foto con el link en Facebook y la nota web. Con audio
 # (declaración) o con video sigue siendo reel. Apagado: CORR_CARRUSEL=0.
-CORR_CARRUSEL_PALABRAS = 80
+# 4/11/2026 (pedido del usuario): también con UNA sola foto y aunque el vecino escriba poco: se mide la
+# nota ya redactada, no lo que mandó. Por debajo del mínimo no hay con qué armar láminas sin inventar.
+CORR_CARRUSEL_PALABRAS = 20
 
 
-def _formato_corresponsal(desc: str, audio=None, video=None) -> str:
-    """"carrusel" o "reel" según el material: fotos solas con al menos CORR_CARRUSEL_PALABRAS
-    palabras escritas por el vecino → carrusel; todo lo demás → reel."""
+def _formato_corresponsal(texto: str, audio=None, video=None) -> str:
+    """"carrusel" o "reel" según el material: fotos solas (una o varias) con una nota de al menos
+    CORR_CARRUSEL_PALABRAS palabras → carrusel; todo lo demás → reel."""
     if (get("CORR_CARRUSEL") or "1").strip().lower() in ("0", "false", "no", "off"):
         return "reel"
     if audio or video:
@@ -2076,7 +2078,7 @@ def _formato_corresponsal(desc: str, audio=None, video=None) -> str:
         minimo = int(get("CORR_CARRUSEL_PALABRAS") or CORR_CARRUSEL_PALABRAS)
     except ValueError:
         minimo = CORR_CARRUSEL_PALABRAS
-    return "carrusel" if len((desc or "").split()) >= minimo else "reel"
+    return "carrusel" if len((texto or "").split()) >= minimo else "reel"
 
 
 def _tema_carrusel(rows: list, fila: dict | None = None) -> str:
@@ -2092,15 +2094,24 @@ def _tema_carrusel(rows: list, fila: dict | None = None) -> str:
 def _placas_carrusel_corr(fotos: list, clave: str, volanta: str, titular: str, texto: str,
                           bajada: str, tema: str, laminas: list | None = None) -> list:
     """Las placas del carrusel (las mismas de las notas de la mañana): portada con la primera foto y
-    las láminas que explican la nota; las demás fotos del envío van en las láminas. `laminas`: las
-    que ya escribió la IA en la revisión (sin ellas se le piden de nuevo)."""
-    from carrusel_notas import _carrusel_explicativo
+    las láminas que explican la nota; las demás fotos del envío van en las láminas y, con una sola
+    foto, las láminas son de texto, como a la mañana. `laminas`: las que ya escribió la IA en la
+    revisión (sin ellas se le piden de nuevo). Sin lámina no hay carrusel: ValueError."""
+    from carrusel_notas import _carrusel_explicativo, _laminas_de_oraciones, _laminas_de_parrafos
+    from utils import gemini
     cuerpo = [p.strip() for p in (texto or "").split("\n") if p.strip()]
     nota = {"image": str(fotos[0]), "key": f"corresponsal:{clave}"}
-    escribir = (lambda *_a: laminas) if laminas else None
-    return _carrusel_explicativo(nota, volanta, titular, cuerpo, bajada or (cuerpo[0] if cuerpo else ""),
-                                 _site(), escribir=escribir, tema=tema,
-                                 fotos_extra=[str(f) for f in fotos[1:]])
+
+    def escribir(v, t, c):
+        return (laminas or gemini.laminas_explicativas(v, t, c, minimo=2)
+                or _laminas_de_parrafos(cuerpo) or _laminas_de_oraciones(cuerpo))
+
+    placas = _carrusel_explicativo(nota, volanta, titular, cuerpo, bajada or (cuerpo[0] if cuerpo else ""),
+                                   _site(), escribir=escribir, tema=tema,
+                                   fotos_extra=[str(f) for f in fotos[1:]])
+    if len(placas) < 2:
+        raise ValueError("la nota no alcanza para una lámina además de la portada")
+    return placas
 
 
 def _hoja_carrusel(placas: list, slug: str) -> str:
@@ -2179,7 +2190,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         volanta, titular = _c["volanta"], _c["titular"]
         resumen, texto = _c["bajada"], _c["texto"]
     titular = _asegurar_titulo(titular, texto, resumen, volanta)
-    formato = "reel" if decl else _formato_corresponsal(desc, audio, video)
+    formato = "reel" if decl else _formato_corresponsal(texto or desc, audio, video)
     if decl:
         # El reel de la declaración no lleva la portada de la especificación v1.0: lleva el nombre,
         # el cargo y las frases.
@@ -2235,7 +2246,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         reel_url, laminas, hoja_url = "", [], ""
         tema_c = _tema_carrusel(rows, fila)
         try:
-            laminas = gemini.laminas_explicativas(volanta, titular, texto) or []
+            laminas = gemini.laminas_explicativas(volanta, titular, texto, minimo=2) or []
             placas = _placas_carrusel_corr(fotos, carpeta.name, volanta, titular, texto,
                                            bajada_reel or resumen, tema_c, laminas)
             hoja_url = _hoja_carrusel(placas, _slug(carpeta.name))

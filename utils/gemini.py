@@ -1817,16 +1817,22 @@ _LAMINAS_SCHEMA = {
 
 
 def laminas_explicativas(volanta: str, titular: str, cuerpo: str, api_key: str = "", model: str = "",
-                         key_pool=None) -> list:
+                         key_pool=None, minimo: int = 3) -> list:
     """[{titulo, texto}] (4 a 6) para el carrusel explicativo de una nota. Ante cualquier error devuelve
-    [] (el que llama arma las láminas con los párrafos de la nota): nunca frena la publicación."""
+    [] (el que llama arma las láminas con los párrafos de la nota): nunca frena la publicación.
+    `minimo` (corresponsales, 4/11/2026): con menos de 3, una nota de menos de 100 palabras sale con 2 o 3
+    láminas hechas con sus propias frases, en lugar de quedarse sin ninguna o de estirarla inventando."""
     base = " ".join((cuerpo or "").split()).strip()
     if len(base) < 120:
         return []
     try:
         key = (api_key or "").strip() or _clave_por_defecto()
         model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
-        texto = (f"{_LAMINAS_PROMPT}\n\nVOLANTA: {(volanta or '').strip()}\nTITULAR: {(titular or '').strip()}"
+        corta = (" ESTA NOTA ES CORTA y manda sobre lo anterior: hacé solo 2 o 3 láminas. El texto de cada una son "
+                 "frases de la nota tal cual, aunque tenga menos de 18 palabras: sin sumar adjetivos, detalles, "
+                 "motivos ni explicaciones, y sin repetir una frase en dos láminas."
+                 if minimo < 3 and len(base.split()) < 100 else "")
+        texto = (f"{_LAMINAS_PROMPT}{corta}\n\nVOLANTA: {(volanta or '').strip()}\nTITULAR: {(titular or '').strip()}"
                  f"\n\nNOTA:\n{base[:9000]}")
         datos = _post_json([{"text": texto}], key, model, _LAMINAS_SCHEMA,
                            key_pool=key_pool or _gemini_keys(key), razonamiento="low")
@@ -1836,7 +1842,7 @@ def laminas_explicativas(volanta: str, titular: str, cuerpo: str, api_key: str =
             x = " ".join(str(l.get("texto") or "").split()).strip()
             if t and len(x) >= 15:
                 salida.append({"titulo": t[:60], "texto": x[:320]})
-        return salida[:9] if len(salida) >= 3 else []
+        return salida[:9] if len(salida) >= minimo else []
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude escribir las láminas del carrusel ({e}); van los párrafos de la nota.")
         return []

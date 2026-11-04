@@ -572,6 +572,21 @@ def _laminas_de_parrafos(cuerpo: list) -> list:
     return salida
 
 
+def _laminas_de_oraciones(cuerpo: list, palabras: int = 35) -> list:
+    """Último respaldo (corresponsales, 4/11/2026): una nota tan corta que no da ni un párrafo aparte se
+    parte por oraciones, para que el carrusel tenga al menos una lámina además de la portada."""
+    bloques, actual = [], ""
+    for oracion in re.split(r"(?<=[.!?])\s+", " ".join(cuerpo or []).strip()):
+        if actual and len(f"{actual} {oracion}".split()) > palabras:
+            bloques.append(actual)
+            actual = oracion
+        else:
+            actual = f"{actual} {oracion}".strip()
+    if actual:
+        bloques.append(actual)
+    return [{"titulo": "", "texto": _resumen_caption(b, 300)} for b in bloques[:5]]
+
+
 def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, primer: str,
                           site: str, escribir=None, tema: str = "claro", numerar: bool = True,
                           fotos_extra=()) -> list:
