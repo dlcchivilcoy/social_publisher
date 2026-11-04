@@ -18200,14 +18200,14 @@
    "viral": false
   },
   "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x": {
-   "actualizado": "2026-11-04T10:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-04T11:20:16.000Z",
+   "buffer_id": "6aeb14f0108e302037fba5d0",
    "clave": "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x",
    "creado": "2026-11-04T10:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-04T12:37:19.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-04T10:02:59.828Z",
    "id": "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3",
    "ig_hora": "2026-11-04T12:37:22.000Z",
@@ -21507,12 +21507,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00258|tiktok",
-   "cuando": "2026-10-29T00:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701878983033457928"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|x",
    "cuando": "2026-10-29T01:00:24.000Z",
@@ -25707,6 +25701,13 @@
    "clave": "web:938b6ba4-fafa-439f-9eaa-7e8d85ab3288|x",
    "cuando": "2026-11-04T11:00:26.000Z",
    "dueAt": "2026-11-04T11:52:06.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aeb14f0108e302037fba5d0",
+   "clave": "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x",
+   "cuando": "2026-11-04T11:20:16.000Z",
+   "dueAt": "2026-11-04T12:37:19.000Z",
    "evento": "programado"
   }
  ],
