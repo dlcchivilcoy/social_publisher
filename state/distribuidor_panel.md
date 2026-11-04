@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 04/11/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 04/11/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-04)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,18 +7,18 @@ Actualizado: 04/11/2026 10:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 1 |
-| Reels del bot | TikTok | 20 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 6 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 10 | 1 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 16 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 15 enviadas + 1 programadas de 100 por día
+- TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 25 · likes 0
-- X · Reels del bot: 58 con métricas · mediana vistas/impresiones 31 · likes 0
+- X · Reels del bot: 57 con métricas · mediana vistas/impresiones 30 · likes 0
 - X · Reels policiales: 17 con métricas · mediana vistas/impresiones 43 · likes 0
 - X · Notas web: 64 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 113 · likes 1
@@ -33,13 +33,6 @@ Actualizado: 04/11/2026 10:20 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-04T10:20 recibido web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d|x 
-- 2026-11-04T10:20 recibido web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x 
-- 2026-11-04T10:20 recibido web:938b6ba4-fafa-439f-9eaa-7e8d85ab3288|x 
-- 2026-11-04T10:21 recibido web:872a2063-6765-4479-9b88-9ec7435019ea|x 
-- 2026-11-04T10:21 recibido web:e5d82418-e9e9-4497-b66c-6688ca5684d6|x 
-- 2026-11-04T10:21 recibido web:ba6d8630-806d-4312-84ba-717760fde847|x 
-- 2026-11-04T10:21 recibido web:e734229c-79c5-449c-91b5-fec63de9a1ad|x 
 - 2026-11-04T10:21 programado web:e734229c-79c5-449c-91b5-fec63de9a1ad|x 
 - 2026-11-04T10:21 programado web:ba6d8630-806d-4312-84ba-717760fde847|x 
 - 2026-11-04T10:21 programado web:e5d82418-e9e9-4497-b66c-6688ca5684d6|x 
@@ -58,3 +51,10 @@ Actualizado: 04/11/2026 10:20 (hora AR) · ACTIVO
 - 2026-11-04T12:40 programado web:306a1afa-6396-4897-94c5-e852fbb14fdd|x 
 - 2026-11-04T13:00 programado bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok 
 - 2026-11-04T13:00 programado bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok 
+- 2026-11-04T13:40 enviado bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok 
+- 2026-11-04T13:40 enviado bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok 
+- 2026-11-04T13:40 enviado web:3fae7597-04b8-4378-8e2d-22c4f444cefd|x 
+- 2026-11-04T13:40 enviado web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d|x 
+- 2026-11-04T13:40 enviado web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x 
+- 2026-11-04T13:40 enviado web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a|x 
+- 2026-11-04T13:40 enviado web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297|x 

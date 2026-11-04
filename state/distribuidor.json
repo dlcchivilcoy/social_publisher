@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 0
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-04T12:20:15.000Z"
+   "visto": "2026-11-04T13:40:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,35 +25,14 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 16
+    "scheduled": 1,
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-11-04T12:20:15.000Z"
+   "visto": "2026-11-04T13:40:18.000Z"
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg": {
-   "descripcion": "Matías Zucchi.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-23T13:00:49.000Z",
-   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad",
-   "urgente": false,
-   "video_bytes": 461279,
-   "video_mb": 0.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d10b826d1157389.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/V-MblkXI8lw"
-  },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w": {
    "descripcion": "Suspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.",
    "duracion_seg": 30.0,
@@ -6264,25 +6243,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/literatura-remembranzas-de-daniel-magni-llega-a-la-zona-norte-de-la",
    "volanta": "Literatura"
   },
-  "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f": {
-   "categoria": "",
-   "descripcion": "Suspenden la competencia de Rally por las lluvias Suspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.",
-   "generado": "2026-10-25T13:04:40.145Z",
-   "id": "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_afac0180924040d6868ac98ea639d159~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Suspenden la competencia de Rally por las lluvias",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:d455c1c4-5f25-4847-bf67-277dd0e30dd7": {
    "categoria": "",
    "descripcion": "Cuatro allanamientos por drogas en Chivilcoy: secuestraron cocaína, marihuana y detuvieron a tres hombres",
@@ -7059,34 +7019,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|tiktok": {
-   "actualizado": "2026-10-25T13:20:15.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg|tiktok",
-   "creado": "2026-10-23T13:20:15.000Z",
-   "dueAt": "",
-   "error": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
-   "espera": "en pausa: TikTok pidió esperar 24 h (salieron 14 en las 24 h previas)",
-   "estado": "vencido",
-   "generado": "2026-10-23T13:00:49.000Z",
-   "id": "bot:corresponsal_2026-10-23_matias-zucchi_mvkz1qkwnbkg",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad\n\nMatías Zucchi.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-identificaron-a-un-hombre-involucrado-en-el-hecho\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Identificaron a un hombre involucrado en el hecho ocurrido en la ciudad",
-   "urgente": false,
-   "vence": "2026-10-25T13:00:49.000Z",
-   "video_bytes": 461279,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d10b826d1157389.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|tiktok": {
    "actualizado": "2026-10-27T13:20:17.000Z",
    "buffer_id": "",
@@ -7111,43 +7043,6 @@
    "titulo": "Suspenden la competencia de Rally por las lluvias",
    "urgente": false,
    "vence": "2026-10-27T13:06:49.000Z",
-   "video_bytes": 585998,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_565e09c07db5dba7.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x": {
-   "actualizado": "2026-10-25T13:40:14.000Z",
-   "buffer_id": "6ade02103d5b27036bd3c55a",
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w|x",
-   "creado": "2026-10-25T13:20:14.000Z",
-   "dueAt": "2026-10-25T13:22:03.000Z",
-   "enviado": "2026-10-25T13:22:19.278Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-25T13:06:49.000Z",
-   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114346819249393739",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 37,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
-   "noticia": "nota:chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Suspenden la competencia de Rally por las lluvias\n\nSuspenden la competencia de Rally en Chivilcoy debido a la última lluvia, que empeoró el estado de los caminos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Suspenden la competencia de Rally por las lluvias",
-   "urgente": false,
-   "vence": "2026-10-25T15:06:49.000Z",
    "video_bytes": 585998,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_565e09c07db5dba7.mp4",
    "viral": false
@@ -12085,19 +11980,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok": {
-   "actualizado": "2026-11-04T13:00:22.000Z",
+   "actualizado": "2026-11-04T13:40:18.000Z",
    "buffer_id": "6aeb2c6b8795c4722671c56c",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok",
    "creado": "2026-11-04T09:00:19.000Z",
    "dueAt": "2026-11-04T13:23:42.000Z",
+   "enviado": "2026-11-04T13:25:28.398Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-04T03:12:07.000Z",
    "id": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7704306456471817492",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-una-madre-denuncio-presunto-abuso",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12140,19 +12036,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok": {
-   "actualizado": "2026-11-04T13:00:22.000Z",
+   "actualizado": "2026-11-04T13:40:18.000Z",
    "buffer_id": "6aeb2c69bab9ceb7a0a9b3f6",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok",
    "creado": "2026-11-04T09:00:19.000Z",
    "dueAt": "2026-11-04T13:03:44.000Z",
+   "enviado": "2026-11-04T13:07:56.400Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-04T03:31:46.000Z",
    "id": "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7704302107079249160",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-una-madre-denuncio-un-presunto-abuso",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -17046,19 +16943,20 @@
    "viral": false
   },
   "web:3fae7597-04b8-4378-8e2d-22c4f444cefd|x": {
-   "actualizado": "2026-11-04T12:00:20.000Z",
+   "actualizado": "2026-11-04T13:40:18.000Z",
    "buffer_id": "6aeb1e55400b4e9be06ccb84",
    "clave": "web:3fae7597-04b8-4378-8e2d-22c4f444cefd|x",
    "creado": "2026-11-04T10:20:13.000Z",
    "dueAt": "2026-11-04T13:22:41.000Z",
+   "enviado": "2026-11-04T13:22:46.227Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-04T10:03:13.439Z",
    "id": "web:3fae7597-04b8-4378-8e2d-22c4f444cefd",
    "ig_hora": "2026-11-04T13:22:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117970810686075194",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ajedrez-chivilcoy-record-de-participantes-en-los-torneos",
    "noticia": "nota:ajedrez-chivilcoy-record-de-participantes-en-los-torneos",
    "origen": "web",
@@ -18171,19 +18069,20 @@
    "viral": false
   },
   "web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d|x": {
-   "actualizado": "2026-11-04T11:40:22.000Z",
+   "actualizado": "2026-11-04T13:40:18.000Z",
    "buffer_id": "6aeb19a6907431873574d4f6",
    "clave": "web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d|x",
    "creado": "2026-11-04T10:20:13.000Z",
    "dueAt": "2026-11-04T12:52:59.000Z",
+   "enviado": "2026-11-04T12:53:02.639Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-04T10:03:04.748Z",
    "id": "web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d",
    "ig_hora": "2026-11-04T12:52:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117963329528324590",
    "nota_url": "https://www.diariolacampaña.com.ar/n/semillero-rojo-esperando-que-la-tercera-sea-la-vencida-el-club",
    "noticia": "nota:semillero-rojo-esperando-que-la-tercera-sea-la-vencida-el-club",
    "origen": "web",
@@ -18200,19 +18099,20 @@
    "viral": false
   },
   "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x": {
-   "actualizado": "2026-11-04T11:20:16.000Z",
+   "actualizado": "2026-11-04T13:40:18.000Z",
    "buffer_id": "6aeb14f0108e302037fba5d0",
    "clave": "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x",
    "creado": "2026-11-04T10:20:13.000Z",
    "dueAt": "2026-11-04T12:37:19.000Z",
+   "enviado": "2026-11-04T12:37:31.241Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-04T10:02:59.828Z",
    "id": "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3",
    "ig_hora": "2026-11-04T12:37:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117959423263916212",
    "nota_url": "https://www.diariolacampaña.com.ar/n/primera-nacional-tristan-suarez-el-equipo-dirigido-por-jose-maria",
    "noticia": "nota:primera-nacional-tristan-suarez-el-equipo-dirigido-por-jose-maria",
    "origen": "web",
@@ -19830,19 +19730,20 @@
    "viral": false
   },
   "web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a|x": {
-   "actualizado": "2026-11-04T11:40:22.000Z",
+   "actualizado": "2026-11-04T13:40:18.000Z",
    "buffer_id": "6aeb19a69b828eded3a964ee",
    "clave": "web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a|x",
    "creado": "2026-11-04T10:20:13.000Z",
    "dueAt": "2026-11-04T13:07:09.000Z",
+   "enviado": "2026-11-04T13:07:16.308Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-04T10:03:08.807Z",
    "id": "web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a",
    "ig_hora": "2026-11-04T13:07:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117966910042116147",
    "nota_url": "https://www.diariolacampaña.com.ar/n/tres-dias-de-juego-desde-mini-a-primera-una-nueva-y-exitosa-edicion",
    "noticia": "nota:tres-dias-de-juego-desde-mini-a-primera-una-nueva-y-exitosa-edicion",
    "origen": "web",
@@ -20265,31 +20166,6 @@
    "titulo": "“Remembranzas” de Daniel Magni llega a la zona norte de la ciudad y librerías locales",
    "urgente": false,
    "vence": "2026-10-28T14:02:27.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f|x": {
-   "actualizado": "2026-10-25T13:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f|x",
-   "creado": "2026-10-25T13:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-25T13:04:40.145Z",
-   "id": "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
-   "noticia": "nota:chivilcoy-deportes-suspenden-la-competencia-de-rally-por-las-lluvias",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Suspenden la competencia de Rally por las lluvias",
-   "urgente": false,
-   "vence": "2026-10-25T17:04:40.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -21405,19 +21281,20 @@
    "viral": false
   },
   "web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297|x": {
-   "actualizado": "2026-11-04T12:20:16.000Z",
+   "actualizado": "2026-11-04T13:40:18.000Z",
    "buffer_id": "6aeb2300787ed748d0d0a631",
    "clave": "web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297|x",
    "creado": "2026-11-04T10:20:13.000Z",
    "dueAt": "2026-11-04T13:37:43.000Z",
+   "enviado": "2026-11-04T13:37:46.109Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-04T10:03:18.213Z",
    "id": "web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297",
    "ig_hora": "2026-11-04T13:37:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2117974585417040326",
    "nota_url": "https://www.diariolacampaña.com.ar/n/daniela-banchero-la-deportista-chivilcoyana-en-lo-mas-alto-del",
    "noticia": "nota:daniela-banchero-la-deportista-chivilcoyana-en-lo-mas-alto-del",
    "origen": "web",
@@ -21511,62 +21388,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:d8bbde96-e323-4c02-93f7-b2e09a555019|x",
-   "cuando": "2026-10-29T10:02:38.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a|x",
-   "cuando": "2026-10-29T10:02:43.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b078718b-3db7-4e2d-a7e7-5e989121b045|x",
-   "cuando": "2026-10-29T10:02:46.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:0cd5c457-7502-4d59-8051-9927ae917ce7|x",
-   "cuando": "2026-10-29T10:02:58.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec|x",
-   "cuando": "2026-10-29T10:03:09.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:66bad44b-4ffb-4fe4-a2d7-800fe271a723|x",
-   "cuando": "2026-10-29T10:03:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5|x",
-   "cuando": "2026-10-29T10:03:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x",
    "cuando": "2026-10-29T10:03:20.000Z",
@@ -25712,6 +25533,48 @@
    "cuando": "2026-11-04T13:00:27.000Z",
    "dueAt": "2026-11-04T13:23:42.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok",
+   "cuando": "2026-11-04T13:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7704306456471817492"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok",
+   "cuando": "2026-11-04T13:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7704302107079249160"
+  },
+  {
+   "clave": "web:3fae7597-04b8-4378-8e2d-22c4f444cefd|x",
+   "cuando": "2026-11-04T13:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117970810686075194"
+  },
+  {
+   "clave": "web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d|x",
+   "cuando": "2026-11-04T13:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117963329528324590"
+  },
+  {
+   "clave": "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x",
+   "cuando": "2026-11-04T13:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117959423263916212"
+  },
+  {
+   "clave": "web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a|x",
+   "cuando": "2026-11-04T13:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117966910042116147"
+  },
+  {
+   "clave": "web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297|x",
+   "cuando": "2026-11-04T13:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2117974585417040326"
   }
  ],
  "tandas": {
@@ -25749,7 +25612,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-04",
- "ultima_sync": "2026-11-04T12:20:15.000Z",
+ "ultima_sync": "2026-11-04T13:40:18.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
