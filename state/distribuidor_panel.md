@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 04/11/2026 07:21 (hora AR) · ACTIVO
+Actualizado: 04/11/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-04)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 04/11/2026 07:21 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 4 | 7 | 0 | 0 | 2 |
+| Notas web | X | 15 | 1 | 4 | 6 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 22 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 17 enviadas + 1 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 25 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 04/11/2026 07:21 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (8 esperando)
 - TikTok · Reels del bot · Una madre denunció un presunto abuso contra su beba — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una madre denunció presunto abuso contra su beba de nueve meses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Chivilcoy hizo podio en Santa Fe: brillante actuación del Círculo de Atletas en  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -36,14 +36,11 @@ Actualizado: 04/11/2026 07:21 (hora AR) · ACTIVO
 - X · Notas web · Desde Mini a Primera: Una nueva y exitosa edición del Torneo Baptiste De Martela — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Esperando que la tercera sea la vencida: El Club Independiente festeja los 30 añ — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Tristan Suárez, el equipo dirigido por José María ‘Pancho’ Martínez, jugará por  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Rumbo al Plan Estratégico de Infraestructura: Chivilcoy será sede del Encuentro  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-04T02:00 depurado web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-04T02:40 vencido policiales:https://junin24.com/policiales/la-ddi-junin-escla espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-04T02:40 vencido policiales:https://www.latrochadigital.com.ar/2026/11/03/rut espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-04T09:00 recibido bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|x 
 - 2026-11-04T09:00 recibido bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok 
@@ -67,3 +64,5 @@ Actualizado: 04/11/2026 07:21 (hora AR) · ACTIVO
 - 2026-11-04T10:21 programado web:ba6d8630-806d-4312-84ba-717760fde847|x 
 - 2026-11-04T10:21 programado web:e5d82418-e9e9-4497-b66c-6688ca5684d6|x 
 - 2026-11-04T10:21 programado web:872a2063-6765-4479-9b88-9ec7435019ea|x 
+- 2026-11-04T11:00 enviado web:e734229c-79c5-449c-91b5-fec63de9a1ad|x 
+- 2026-11-04T11:00 programado web:938b6ba4-fafa-439f-9eaa-7e8d85ab3288|x 
