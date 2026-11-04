@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 04/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 04/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-04)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 8 |
+| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 17 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 3 enviadas + 4 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 25 · likes 0
@@ -33,13 +33,6 @@ Actualizado: 04/11/2026 19:20 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-04T17:20 enviado entrevistas:job00275|x 
-- 2026-11-04T17:20 programado entrevistas:job00276|x 
-- 2026-11-04T18:20 entrevista_aprobada entrevistas:job00277 
-- 2026-11-04T18:20 recibido entrevistas:job00277|x 
-- 2026-11-04T18:20 recibido entrevistas:job00277|tiktok 
-- 2026-11-04T18:20 programado entrevistas:job00277|x 
-- 2026-11-04T18:40 entrevista_aprobada entrevistas:job00278 
 - 2026-11-04T18:40 recibido entrevistas:job00278|x 
 - 2026-11-04T18:40 recibido entrevistas:job00278|tiktok 
 - 2026-11-04T18:40 enviado entrevistas:job00276|x 
@@ -58,3 +51,10 @@ Actualizado: 04/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-04T21:40 depurado web:9e795c0b-5665-45d1-8325-8af58d45b889|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-04T22:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-4 
 - 2026-11-04T22:20 programado policiales:https://www.junindigital.com/policiales/2026-11-4 
+- 2026-11-04T22:40 recibido web:520b9327-4abb-4720-aa44-9684331b9ca6|x 
+- 2026-11-04T22:40 depurado web:520b9327-4abb-4720-aa44-9684331b9ca6|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-04T22:40 enviado entrevistas:job00275|tiktok 
+- 2026-11-04T22:40 enviado entrevistas:job00276|tiktok 
+- 2026-11-04T22:40 enviado entrevistas:job00277|tiktok 
+- 2026-11-04T22:40 enviado entrevistas:job00278|tiktok 
+- 2026-11-04T22:40 enviado policiales:https://www.junindigital.com/policiales/2026-11-4 
