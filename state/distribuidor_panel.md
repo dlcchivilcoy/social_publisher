@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 04/11/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 04/11/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-04)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 2 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -13,7 +13,7 @@ Actualizado: 04/11/2026 15:20 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 17 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 18 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,7 +27,8 @@ Actualizado: 04/11/2026 15:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (5 esperando)
+- TikTok · Recortes de entrevistas · Mariana Avelino: auge musical en el Conservatorio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Romina Serrano y la regla ABCDE para lunares — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Benjamín Luque Cuenca: modelaje en Argentina vs Europa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Coty Alonso: El 90% de comerciantes siente abandono en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -37,12 +38,6 @@ Actualizado: 04/11/2026 15:20 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-04T14:00 recibido bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x 
-- 2026-11-04T14:00 recibido bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok 
-- 2026-11-04T14:00 recibido web:975edcef-ec1f-4523-a752-70f08fd5d109|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-11-04T14:00 programado bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x 
-- 2026-11-04T14:20 recibido web:b9614f68-7894-4d54-ab85-71bd96e07340|x 
-- 2026-11-04T14:20 depurado web:b9614f68-7894-4d54-ab85-71bd96e07340|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-04T15:00 recibido web:fc88e805-cd8e-4eaf-afdb-62cab8e762ea|x 
 - 2026-11-04T15:00 depurado web:fc88e805-cd8e-4eaf-afdb-62cab8e762ea|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-04T15:00 enviado bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x 
@@ -62,3 +57,9 @@ Actualizado: 04/11/2026 15:20 (hora AR) · ACTIVO
 - 2026-11-04T18:20 recibido entrevistas:job00277|x 
 - 2026-11-04T18:20 recibido entrevistas:job00277|tiktok 
 - 2026-11-04T18:20 programado entrevistas:job00277|x 
+- 2026-11-04T18:40 entrevista_aprobada entrevistas:job00278 
+- 2026-11-04T18:40 recibido entrevistas:job00278|x 
+- 2026-11-04T18:40 recibido entrevistas:job00278|tiktok 
+- 2026-11-04T18:40 enviado entrevistas:job00276|x 
+- 2026-11-04T18:40 enviado entrevistas:job00277|x 
+- 2026-11-04T18:40 programado entrevistas:job00278|x 
