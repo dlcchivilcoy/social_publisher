@@ -4139,6 +4139,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/accidentes-de-carrera-impactante-vuelco-en-el-rally-de-chivilcoy-el",
    "volanta": "Accidentes de carrera"
   },
+  "web:3db074fa-b73d-41dc-9567-5ce1c3d65907": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Un camión volcó sobre un puente tras chocar con un auto Un choque entre un auto y un camión se produjo en la Ruta 30, donde el vehículo de mayor porte terminó volcando sobre el puente. El siniestro ocurrió en inmediaciones de los silos de Andreoli, y requirió la intervención de los Bomberos Voluntarios de Chivilcoy, personal del SAME, Policía Vial y Tránsito. Alrededor de las 22:00 del martes 3 de noviembre, los Bomberos Voluntarios acudieron a la Ruta Provincial 30 tras el alerta...",
+   "generado": "2026-11-04T01:54:22.665Z",
+   "id": "web:3db074fa-b73d-41dc-9567-5ce1c3d65907",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3d1b97114c3c4f45ada584f2a7d89d69~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Un camión volcó sobre un puente tras chocar con un auto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
+   "volanta": "Ruta 30 · Accidente"
+  },
   "web:3e3abc09-6c21-4ab2-88f6-118e63835441": {
    "categoria": "",
    "descripcion": "Suspendieron Boca Unidos ante Gimnasia tras una explosión en la cancha El encuentro entre Boca Unidos y Gimnasia y Esgrima de Chivilcoy, correspondiente a la ida de los octavos de final de la Reválida del Torneo Federal A, fue suspendido este domingo en el complejo Leoncio Benítez, en Corrientes. El episodio ocurrió a los 40 minutos de la primera etapa, con el marcador 0 a 0, cuando una bomba de estruendo cayó desde la tribuna ubicada detrás de uno de los arcos. Las explosiones afectaron a...",
@@ -16404,6 +16423,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x": {
+   "actualizado": "2026-11-04T02:00:22.000Z",
+   "buffer_id": "",
+   "clave": "web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x",
+   "creado": "2026-11-04T02:00:20.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-04T01:54:22.665Z",
+   "id": "web:3db074fa-b73d-41dc-9567-5ce1c3d65907",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
+   "noticia": "nota:ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Un camión volcó sobre un puente tras chocar con un auto\n\nEl siniestro vial ocurrió en la Ruta 30, cerca de los silos de Andreoli. Intervinieron Bomberos Voluntarios, personal del SAME, Policía Vial y Tránsito.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Un camión volcó sobre un puente tras chocar con un auto",
+   "urgente": false,
+   "vence": "2026-11-04T05:54:22.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:3e3abc09-6c21-4ab2-88f6-118e63835441|x": {
    "actualizado": "2026-10-25T21:00:16.000Z",
    "buffer_id": "",
@@ -20528,22 +20574,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|x",
-   "cuando": "2026-10-28T18:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p|tiktok",
-   "cuando": "2026-10-28T18:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "entrevistas:job00259|x",
    "cuando": "2026-10-28T18:40:27.000Z",
@@ -24720,6 +24750,20 @@
    "cuando": "2026-11-04T01:40:14.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x",
+   "cuando": "2026-11-04T02:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x",
+   "cuando": "2026-11-04T02:00:22.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -25420,6 +25464,7 @@
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e": "2026-10-14T15:20:13.000Z",
   "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980": "2026-10-21T10:20:15.000Z",
+  "web:3db074fa-b73d-41dc-9567-5ce1c3d65907": "2026-11-04T02:00:20.000Z",
   "web:3dd3a1b9-2f51-45db-ab2d-dc2110006bfc": "2026-10-13T12:20:17.000Z",
   "web:3e3abc09-6c21-4ab2-88f6-118e63835441": "2026-10-25T21:00:16.000Z",
   "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1": "2026-10-20T10:20:14.000Z",

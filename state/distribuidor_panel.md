@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 03/11/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 03/11/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-03)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 03/11/2026 22:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
-| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -35,8 +35,6 @@ Actualizado: 03/11/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-03T20:20 recibido entrevistas:job00273|x 
-- 2026-11-03T20:20 recibido entrevistas:job00273|tiktok 
 - 2026-11-03T20:20 programado entrevistas:job00273|x 
 - 2026-11-03T20:40 enviado entrevistas:job00273|x 
 - 2026-11-03T21:00 programado entrevistas:job00273|tiktok 
@@ -60,3 +58,5 @@ Actualizado: 03/11/2026 22:40 (hora AR) · ACTIVO
 - 2026-11-04T00:40 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-choque-e espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-04T01:20 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-04T01:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-04T02:00 recibido web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x 
+- 2026-11-04T02:00 depurado web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x de la web, a X solo van las notas del diario de la mañana
