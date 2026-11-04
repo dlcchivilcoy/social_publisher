@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 04/11/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 04/11/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-04)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 04/11/2026 14:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Recortes de entrevistas · Benjamín Luque Cuenca: modelaje en Argentina vs Europa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Coty Alonso: El 90% de comerciantes siente abandono en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Colisionaron un auto y una moto en avenida Villarino y Lamadrid — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -35,11 +36,6 @@ Actualizado: 04/11/2026 14:00 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-04T13:00 programado bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok 
-- 2026-11-04T13:00 programado bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok 
-- 2026-11-04T13:40 enviado bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok 
-- 2026-11-04T13:40 enviado bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok 
-- 2026-11-04T13:40 enviado web:3fae7597-04b8-4378-8e2d-22c4f444cefd|x 
 - 2026-11-04T13:40 enviado web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d|x 
 - 2026-11-04T13:40 enviado web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x 
 - 2026-11-04T13:40 enviado web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a|x 
@@ -60,3 +56,8 @@ Actualizado: 04/11/2026 14:00 (hora AR) · ACTIVO
 - 2026-11-04T17:00 recibido entrevistas:job00275|x 
 - 2026-11-04T17:00 recibido entrevistas:job00275|tiktok 
 - 2026-11-04T17:00 programado entrevistas:job00275|x 
+- 2026-11-04T17:20 entrevista_aprobada entrevistas:job00276 
+- 2026-11-04T17:20 recibido entrevistas:job00276|x 
+- 2026-11-04T17:20 recibido entrevistas:job00276|tiktok 
+- 2026-11-04T17:20 enviado entrevistas:job00275|x 
+- 2026-11-04T17:20 programado entrevistas:job00276|x 
