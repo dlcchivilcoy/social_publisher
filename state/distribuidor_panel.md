@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 04/11/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 04/11/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-04)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 04/11/2026 09:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 5 | 1 | 0 | 0 | 2 |
+| Notas web | X | 15 | 5 | 6 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,14 @@ Actualizado: 04/11/2026 09:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (2 esperando)
 - TikTok · Reels del bot · Una madre denunció un presunto abuso contra su beba — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una madre denunció presunto abuso contra su beba de nueve meses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Notas web · Chivilcoy hizo podio en Santa Fe: brillante actuación del Círculo de Atletas en  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-04T10:20 recibido web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297|x 
 - 2026-11-04T10:20 recibido web:3fae7597-04b8-4378-8e2d-22c4f444cefd|x 
 - 2026-11-04T10:20 recibido web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a|x 
 - 2026-11-04T10:20 recibido web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d|x 
@@ -61,3 +59,4 @@ Actualizado: 04/11/2026 09:20 (hora AR) · ACTIVO
 - 2026-11-04T12:20 enviado web:ba6d8630-806d-4312-84ba-717760fde847|x 
 - 2026-11-04T12:20 enviado web:e5d82418-e9e9-4497-b66c-6688ca5684d6|x 
 - 2026-11-04T12:20 programado web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297|x 
+- 2026-11-04T12:40 programado web:306a1afa-6396-4897-94c5-e852fbb14fdd|x 
