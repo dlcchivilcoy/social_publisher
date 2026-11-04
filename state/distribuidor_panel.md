@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 04/11/2026 06:40 (hora AR) · ACTIVO
+Actualizado: 04/11/2026 07:21 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-04)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 04/11/2026 06:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 0 | 4 | 7 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -17,39 +17,31 @@ Actualizado: 04/11/2026 06:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 26 · likes 0
-- X · Reels del bot: 57 con métricas · mediana vistas/impresiones 32 · likes 0
-- X · Reels policiales: 16 con métricas · mediana vistas/impresiones 45.5 · likes 0
-- X · Notas web: 50 con métricas · mediana vistas/impresiones 22 · likes 0
-- TikTok · Recortes de entrevistas: 23 con métricas · mediana vistas/impresiones 113 · likes 1
-- TikTok · Reels del bot: 46 con métricas · mediana vistas/impresiones 335.5 · likes 3.5
+- X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 25 · likes 0
+- X · Reels del bot: 58 con métricas · mediana vistas/impresiones 31 · likes 0
+- X · Reels policiales: 17 con métricas · mediana vistas/impresiones 43 · likes 0
+- X · Notas web: 64 con métricas · mediana vistas/impresiones 20 · likes 0
+- TikTok · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 113 · likes 1
+- TikTok · Reels del bot: 48 con métricas · mediana vistas/impresiones 334.5 · likes 3
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (9 esperando)
 - TikTok · Reels del bot · Una madre denunció un presunto abuso contra su beba — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Una madre denunció presunto abuso contra su beba de nueve meses — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Notas web · Chivilcoy hizo podio en Santa Fe: brillante actuación del Círculo de Atletas en  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · La deportista chivilcoyana en lo más alto del ranking nacional: "El pádel es mi  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Récord de participantes en los torneos intercolegiales locales — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Desde Mini a Primera: Una nueva y exitosa edición del Torneo Baptiste De Martela — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Esperando que la tercera sea la vencida: El Club Independiente festeja los 30 añ — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Tristan Suárez, el equipo dirigido por José María ‘Pancho’ Martínez, jugará por  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Rumbo al Plan Estratégico de Infraestructura: Chivilcoy será sede del Encuentro  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-03T22:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31116/volc 
-- 2026-11-03T22:20 recibido web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x 
-- 2026-11-03T22:20 depurado web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-03T22:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31116/volc 
-- 2026-11-03T22:40 recibido policiales:https://diarioelsalado.com.ar/2026/11/un-choque-e 
-- 2026-11-03T23:00 enviado entrevistas:job00271|tiktok 
-- 2026-11-03T23:00 enviado policiales:https://www.bragadoinforma.com.ar/nota/31116/volc 
-- 2026-11-03T23:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ 
-- 2026-11-03T23:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ 
-- 2026-11-04T00:40 recibido policiales:https://www.latrochadigital.com.ar/2026/11/03/rut 
-- 2026-11-04T00:40 recibido policiales:https://junin24.com/policiales/la-ddi-junin-escla 
-- 2026-11-04T00:40 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-choque-e espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-04T01:20 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-04T01:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-04T02:00 recibido web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x 
 - 2026-11-04T02:00 depurado web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-04T02:40 vencido policiales:https://junin24.com/policiales/la-ddi-junin-escla espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-04T02:40 vencido policiales:https://www.latrochadigital.com.ar/2026/11/03/rut espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -60,3 +52,18 @@ Actualizado: 04/11/2026 06:40 (hora AR) · ACTIVO
 - 2026-11-04T09:00 recibido web:04a24de3-2093-4b59-8e4e-5da6fa217039|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-04T09:00 recibido web:191fa87d-084e-4d11-bc6e-011231dad2c0|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-04T09:00 vencido bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|x no hubo lugar antes de su vencimiento
+- 2026-11-04T10:20 recibido web:306a1afa-6396-4897-94c5-e852fbb14fdd|x 
+- 2026-11-04T10:20 recibido web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297|x 
+- 2026-11-04T10:20 recibido web:3fae7597-04b8-4378-8e2d-22c4f444cefd|x 
+- 2026-11-04T10:20 recibido web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a|x 
+- 2026-11-04T10:20 recibido web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d|x 
+- 2026-11-04T10:20 recibido web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x 
+- 2026-11-04T10:20 recibido web:938b6ba4-fafa-439f-9eaa-7e8d85ab3288|x 
+- 2026-11-04T10:21 recibido web:872a2063-6765-4479-9b88-9ec7435019ea|x 
+- 2026-11-04T10:21 recibido web:e5d82418-e9e9-4497-b66c-6688ca5684d6|x 
+- 2026-11-04T10:21 recibido web:ba6d8630-806d-4312-84ba-717760fde847|x 
+- 2026-11-04T10:21 recibido web:e734229c-79c5-449c-91b5-fec63de9a1ad|x 
+- 2026-11-04T10:21 programado web:e734229c-79c5-449c-91b5-fec63de9a1ad|x 
+- 2026-11-04T10:21 programado web:ba6d8630-806d-4312-84ba-717760fde847|x 
+- 2026-11-04T10:21 programado web:e5d82418-e9e9-4497-b66c-6688ca5684d6|x 
+- 2026-11-04T10:21 programado web:872a2063-6765-4479-9b88-9ec7435019ea|x 
