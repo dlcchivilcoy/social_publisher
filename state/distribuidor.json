@@ -12085,15 +12085,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok": {
-   "actualizado": "2026-11-04T09:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-04T13:00:22.000Z",
+   "buffer_id": "6aeb2c6b8795c4722671c56c",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok",
    "creado": "2026-11-04T09:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-04T13:23:42.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-04T03:12:07.000Z",
    "id": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4",
    "intentos": 0,
@@ -12140,15 +12140,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok": {
-   "actualizado": "2026-11-04T09:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-04T13:00:22.000Z",
+   "buffer_id": "6aeb2c69bab9ceb7a0a9b3f6",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok",
    "creado": "2026-11-04T09:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-04T13:03:44.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-04T03:31:46.000Z",
    "id": "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4",
    "intentos": 0,
@@ -21512,18 +21512,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00257|tiktok",
-   "cuando": "2026-10-29T01:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7701883958681799957"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc|x",
-   "cuando": "2026-10-29T01:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115611523653497290"
-  },
-  {
    "clave": "web:d8bbde96-e323-4c02-93f7-b2e09a555019|x",
    "cuando": "2026-10-29T10:02:38.000Z",
    "estado": "pendiente",
@@ -25710,11 +25698,24 @@
    "cuando": "2026-11-04T12:40:17.000Z",
    "dueAt": "2026-11-04T13:52:53.000Z",
    "evento": "programado"
+  },
+  {
+   "buffer_id": "6aeb2c69bab9ceb7a0a9b3f6",
+   "clave": "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok",
+   "cuando": "2026-11-04T13:00:27.000Z",
+   "dueAt": "2026-11-04T13:03:44.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aeb2c6b8795c4722671c56c",
+   "clave": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok",
+   "cuando": "2026-11-04T13:00:27.000Z",
+   "dueAt": "2026-11-04T13:23:42.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-24 10",
    "2026-10-24 18",
    "2026-10-24 21",
    "2026-10-26 10",
@@ -25743,7 +25744,8 @@
    "2026-11-02 21",
    "2026-11-03 10",
    "2026-11-03 18",
-   "2026-11-03 21"
+   "2026-11-03 21",
+   "2026-11-04 10"
   ]
  },
  "ultima_limpieza_release": "2026-11-04",
