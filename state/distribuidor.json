@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 2
+    "scheduled": 4,
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-11-04T20:00:17.000Z"
+   "visto": "2026-11-04T21:20:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 18
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-11-04T20:00:17.000Z"
+   "visto": "2026-11-04T21:20:19.000Z"
   }
  },
  "contenidos": {
@@ -6006,6 +6006,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tres-dias-de-juego-desde-mini-a-primera-una-nueva-y-exitosa-edicion",
    "volanta": "Tres días de juego"
   },
+  "web:baaf099e-c142-4489-acde-1d17b8a7b862": {
+   "categoria": "",
+   "descripcion": "Aprehendieron a un motociclista y recuperaron un rodado robado en Bragado Personal policial de Chivilcoy, junto a efectivos de la Sub DDI local, aprehendió a un hombre de 29 años que circulaba en una motocicleta Honda Wave de 110 cc, durante un procedimiento realizado en la intersección de las calles Pintos y Villarino. Al verificar los datos del rodado, se constató que registraba un pedido de secuestro activo desde el 10 de julio de 2026, en el marco de una causa por hurto denunciada por...",
+   "generado": "2026-11-04T21:05:03.478Z",
+   "id": "web:baaf099e-c142-4489-acde-1d17b8a7b862",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_807fe7eaa1e04241acebdc975c35e6ee~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-motociclista-y-recuperaron-un",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Aprehendieron a un motociclista y recuperaron un rodado robado en Bragado",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-aprehendieron-a-un-motociclista-y-recuperaron-un",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:bc895e05-1264-4c69-9d17-5990747c5cfd": {
    "categoria": "",
    "descripcion": "Partidazo en el Sandrín: Racing de Chivilcoy busca derribar al invicto Instituto en la Liga de Desarrollo La Liga de Desarrollo no da tregua y este martes 3 de noviembre promete un cruce de alto vuelo en la ciudad de Córdoba. A partir de las 17:00 horas, el Estadio Ángel Sandrín será el escenario donde se enfrentarán el líder absoluto e invicto del certamen, Instituto de Córdoba, y un entonado Racing Club de Chivilcoy, que llega en alza tras dar el golpe en la capital provincial. ¿Cómo llegan...",
@@ -11916,19 +11935,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok": {
-   "actualizado": "2026-11-04T21:00:16.000Z",
+   "actualizado": "2026-11-04T21:20:19.000Z",
    "buffer_id": "6aeb9ce566cdd5eb2856a535",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok",
    "creado": "2026-11-04T14:00:20.000Z",
    "dueAt": "2026-11-04T21:03:32.000Z",
+   "enviado": "2026-11-04T21:05:28.945Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-04T13:53:54.000Z",
    "id": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7704424947262868754",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-colisionaron-un-auto-y-una-moto-en",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -19773,6 +19793,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:baaf099e-c142-4489-acde-1d17b8a7b862|x": {
+   "actualizado": "2026-11-04T21:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:baaf099e-c142-4489-acde-1d17b8a7b862|x",
+   "creado": "2026-11-04T21:20:13.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-04T21:05:03.478Z",
+   "id": "web:baaf099e-c142-4489-acde-1d17b8a7b862",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-motociclista-y-recuperaron-un",
+   "noticia": "nota:chivilcoy-policiales-aprehendieron-a-un-motociclista-y-recuperaron-un",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Aprehendieron a un motociclista y recuperaron un rodado robado en Bragado\n\nEfectivos policiales demoraron en Chivilcoy a un hombre de 29 años. Circulaba en una moto que registraba pedido de secuestro activo por hurto.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-aprehendieron-a-un-motociclista-y-recuperaron-un",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Aprehendieron a un motociclista y recuperaron un rodado robado en Bragado",
+   "urgente": false,
+   "vence": "2026-11-05T01:05:03.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x": {
    "actualizado": "2026-11-03T13:40:16.000Z",
    "buffer_id": "6ae9c823f81926b932926e07",
@@ -21431,24 +21478,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4|tiktok",
-   "cuando": "2026-10-29T14:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702085151139892501"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvstco4fog1j_01.mp4|tiktok",
-   "cuando": "2026-10-29T14:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702079923812371719"
-  },
-  {
-   "clave": "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85|x",
-   "cuando": "2026-10-29T14:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115803908350103744"
-  },
   {
    "clave": "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3|x",
    "cuando": "2026-10-29T14:00:24.000Z",
@@ -25618,6 +25647,26 @@
    "cuando": "2026-11-04T21:00:33.000Z",
    "dueAt": "2026-11-04T22:23:55.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:baaf099e-c142-4489-acde-1d17b8a7b862|x",
+   "cuando": "2026-11-04T21:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:baaf099e-c142-4489-acde-1d17b8a7b862|x",
+   "cuando": "2026-11-04T21:20:19.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok",
+   "cuando": "2026-11-04T21:20:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7704424947262868754"
   }
  ],
  "tandas": {
@@ -25655,7 +25704,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-04",
- "ultima_sync": "2026-11-04T20:00:17.000Z",
+ "ultima_sync": "2026-11-04T21:20:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -26631,6 +26680,7 @@
   "web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a": "2026-11-04T10:20:13.000Z",
   "web:ba878935-3e6f-4357-a078-3447ed612c35": "2026-10-13T21:20:15.000Z",
   "web:ba897d31-ac41-4f84-8f0c-c7ed0f8e504d": "2026-10-21T00:40:14.000Z",
+  "web:baaf099e-c142-4489-acde-1d17b8a7b862": "2026-11-04T21:20:13.000Z",
   "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b": "2026-10-15T00:00:18.000Z",
   "web:baeb5d08-b026-4158-a946-6ff35dd140c1": "2026-10-13T15:20:18.000Z",
   "web:bc895e05-1264-4c69-9d17-5990747c5cfd": "2026-11-03T10:02:22.000Z",
