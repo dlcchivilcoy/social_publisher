@@ -7455,43 +7455,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec9c16d63a47d613.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|x": {
-   "actualizado": "2026-10-26T02:20:16.000Z",
-   "buffer_id": "6adeb44ebd33ce99c3a1925a",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|x",
-   "creado": "2026-10-26T02:00:18.000Z",
-   "dueAt": "2026-10-26T02:07:46.000Z",
-   "enviado": "2026-10-26T02:08:06.035Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-26T01:57:29.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114539533903577390",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 43,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-politica-lula-derroto-a-flavio-bolsonaro-y-gobernara-por-un",
-   "noticia": "nota:brasil-politica-lula-derroto-a-flavio-bolsonaro-y-gobernara-por-un",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Lula derrotó a Flávio Bolsonaro y gobernará por un cuarto mandato\n\nEl dirigente del PT se impuso en el balotaje ante el senador del PL. El resultado le permitirá continuar al frente del gobierno.\n\nhttps://www.diariolacampaña.com.ar/n/brasil-politica-lula-derroto-a-flavio-bolsonaro-y-gobernara-por-un",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Lula derrotó a Flávio Bolsonaro y gobernará por un cuarto mandato",
-   "urgente": false,
-   "vence": "2026-10-26T03:57:29.000Z",
-   "video_bytes": 751144,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec9c16d63a47d613.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok": {
    "actualizado": "2026-10-28T13:40:15.000Z",
    "buffer_id": "",
@@ -10268,43 +10231,6 @@
    "titulo": "Un auto se despistó y chocó contra un poste en el Rally",
    "urgente": false,
    "vence": "2026-10-28T01:47:27.000Z",
-   "video_bytes": 1937473,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4e782f56d62d017c.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|x": {
-   "actualizado": "2026-10-26T02:20:16.000Z",
-   "buffer_id": "6adeb44d8b3d437ddc3c65c5",
-   "clave": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4|x",
-   "creado": "2026-10-26T02:00:18.000Z",
-   "dueAt": "2026-10-26T02:02:27.000Z",
-   "enviado": "2026-10-26T02:02:34.734Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-26T01:47:27.000Z",
-   "id": "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114538144431222933",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 3.82,
-    "impressions": 157,
-    "reactions": 4,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:auto-choco-despisto-poste-rally",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Un auto se despistó y chocó contra un poste en el Rally\n\nOcurrió en el Campeonato Regional disputado en Chivilcoy con lluvia. Un usuario que comentó el video aseguró que el vehículo pudo volver a marchar y seguir en competencia.\n\nhttps://www.youtube.com/shorts/eTRLFzZcQ5o",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Un auto se despistó y chocó contra un poste en el Rally",
-   "urgente": false,
-   "vence": "2026-10-26T03:47:27.000Z",
    "video_bytes": 1937473,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4e782f56d62d017c.mp4",
    "viral": false
@@ -15170,14 +15096,14 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo|x": {
-   "actualizado": "2026-11-05T00:40:13.000Z",
+   "actualizado": "2026-11-05T02:40:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo|x",
    "creado": "2026-11-05T00:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-05T00:31:46.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo",
    "intentos": 0,
@@ -15505,14 +15431,14 @@
    "viral": false
   },
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html|x": {
-   "actualizado": "2026-11-05T00:40:13.000Z",
+   "actualizado": "2026-11-05T02:40:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html|x",
    "creado": "2026-11-05T00:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-05T00:31:46.000Z",
    "id": "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html",
    "intentos": 0,
@@ -15803,14 +15729,14 @@
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/|x": {
-   "actualizado": "2026-11-05T00:40:13.000Z",
+   "actualizado": "2026-11-05T02:40:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/|x",
    "creado": "2026-11-05T00:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-05T00:31:44.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/",
    "intentos": 0,
@@ -15859,14 +15785,14 @@
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/|x": {
-   "actualizado": "2026-11-05T00:40:13.000Z",
+   "actualizado": "2026-11-05T02:40:18.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/|x",
    "creado": "2026-11-05T00:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-05T00:31:46.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/",
    "intentos": 0,
@@ -21656,30 +21582,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tiktok",
-   "cuando": "2026-10-29T15:20:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702095378472045832"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|x",
-   "cuando": "2026-10-29T15:20:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115813044387250213"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x",
-   "cuando": "2026-10-29T15:20:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115816572518285645"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok",
-   "cuando": "2026-10-29T15:20:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702090975904255252"
-  },
-  {
    "clave": "web:fa24c212-927b-4b43-b2d4-535b06d40feb|x",
    "cuando": "2026-10-29T15:20:20.000Z",
    "evento": "enviado",
@@ -25834,6 +25736,30 @@
   {
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/|x",
    "cuando": "2026-11-05T01:40:16.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo|x",
+   "cuando": "2026-11-05T02:40:18.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html|x",
+   "cuando": "2026-11-05T02:40:18.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/|x",
+   "cuando": "2026-11-05T02:40:18.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/|x",
+   "cuando": "2026-11-05T02:40:18.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
