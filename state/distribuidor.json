@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-05T10:40:15.000Z"
+   "visto": "2026-11-05T12:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 18
+    "scheduled": 3,
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-11-05T10:40:15.000Z"
+   "visto": "2026-11-05T12:00:20.000Z"
   }
  },
  "contenidos": {
@@ -6354,6 +6354,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-30-bomberos-chivilcoy-bomberos-controlaron-el-incendio-de-una",
    "volanta": "Ruta 30 · Bomberos"
+  },
+  "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Un auto quedó destruido por un incendio en el camino a Henry Bell CHIVILCOY.– Un automóvil quedó completamente destruido por un incendio registrado este jueves 5 de noviembre en el camino que conduce hacia Henry Bell. Según informó Federico Díaz, a cargo del operativo de Bomberos Voluntarios, la salida se registró alrededor de las 5:20. El fuego se desató durante la madrugada, a unos cuatro kilómetros del desvío de la Ruta 5, a la altura de la fábrica Las Tres Niñas. En el vehículo...",
+   "generado": "2026-11-05T11:41:09.258Z",
+   "id": "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8b05e4cce3ae4e72bef62d7f3e773ec8~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Un auto quedó destruido por un incendio en el camino a Henry Bell",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
+   "volanta": "Chivilcoy · Bomberos"
   },
   "web:be3f2357-0b41-4b5c-a76e-7242f7a153df": {
    "categoria": "",
@@ -16239,14 +16258,14 @@
    "viral": false
   },
   "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8|x": {
-   "actualizado": "2026-11-05T10:02:30.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-05T12:00:21.000Z",
+   "buffer_id": "6aec6fd68e858b1f0efb5483",
    "clave": "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8|x",
    "creado": "2026-11-05T10:02:30.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-05T13:22:19.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-05T10:02:10.738Z",
    "id": "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8",
    "ig_hora": "2026-11-05T13:22:15.000Z",
@@ -17963,19 +17982,20 @@
    "viral": false
   },
   "web:5b212ff6-9006-4b2b-ae18-48b4e0798b82|x": {
-   "actualizado": "2026-11-05T10:04:04.000Z",
+   "actualizado": "2026-11-05T12:00:20.000Z",
    "buffer_id": "6aec5495287b085e661d2ebd",
    "clave": "web:5b212ff6-9006-4b2b-ae18-48b4e0798b82|x",
    "creado": "2026-11-05T10:02:30.000Z",
    "dueAt": "2026-11-05T10:52:25.000Z",
+   "enviado": "2026-11-05T10:52:31.265Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T10:01:14.175Z",
    "id": "web:5b212ff6-9006-4b2b-ae18-48b4e0798b82",
    "ig_hora": "2026-11-05T10:52:15.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118295386741711138",
    "nota_url": "https://www.diariolacampaña.com.ar/n/aprobado-por-mayoria-chivilcoy-la-ventanilla-unica-digital-que",
    "noticia": "nota:aprobado-por-mayoria-chivilcoy-la-ventanilla-unica-digital-que",
    "origen": "web",
@@ -19030,19 +19050,20 @@
    "viral": false
   },
   "web:86ad29b1-82b6-4e00-868b-4e29af5b4496|x": {
-   "actualizado": "2026-11-05T10:20:14.000Z",
+   "actualizado": "2026-11-05T12:00:20.000Z",
    "buffer_id": "6aec585e6d2f01d30a23c7c2",
    "clave": "web:86ad29b1-82b6-4e00-868b-4e29af5b4496|x",
    "creado": "2026-11-05T10:02:30.000Z",
    "dueAt": "2026-11-05T11:37:40.000Z",
+   "enviado": "2026-11-05T11:37:46.277Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T10:01:29.904Z",
    "id": "web:86ad29b1-82b6-4e00-868b-4e29af5b4496",
    "ig_hora": "2026-11-05T11:37:15.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118306774625271880",
    "nota_url": "https://www.diariolacampaña.com.ar/n/yo-me-pari-chivilcoy-cristina-bracco-presenta-su-primer-libro-una",
    "noticia": "nota:yo-me-pari-chivilcoy-cristina-bracco-presenta-su-primer-libro-una",
    "origen": "web",
@@ -19614,19 +19635,20 @@
    "viral": false
   },
   "web:96d8a1d2-9950-4aad-8e5a-ac9eec980838|x": {
-   "actualizado": "2026-11-05T10:04:04.000Z",
+   "actualizado": "2026-11-05T12:00:20.000Z",
    "buffer_id": "6aec5495e6ba64b5a33c35f4",
    "clave": "web:96d8a1d2-9950-4aad-8e5a-ac9eec980838|x",
    "creado": "2026-11-05T10:02:30.000Z",
    "dueAt": "2026-11-05T11:22:03.000Z",
+   "enviado": "2026-11-05T11:22:16.262Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T10:01:25.496Z",
    "id": "web:96d8a1d2-9950-4aad-8e5a-ac9eec980838",
    "ig_hora": "2026-11-05T11:22:15.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118302873566027990",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cierre-de-ciclo-chivilcoy-el-centro-vasco-beti-aurrera-invita-a",
    "noticia": "nota:cierre-de-ciclo-chivilcoy-el-centro-vasco-beti-aurrera-invita-a",
    "origen": "web",
@@ -20670,6 +20692,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf|x": {
+   "actualizado": "2026-11-05T12:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf|x",
+   "creado": "2026-11-05T12:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-05T11:41:09.258Z",
+   "id": "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
+   "noticia": "nota:chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Un auto quedó destruido por un incendio en el camino a Henry Bell\n\nEl hecho ocurrió a cuatro kilómetros de la Ruta 5, cerca de Las Tres Niñas. La salida fue a las 5:20, informó Federico Díaz, a cargo del operativo de Bomberos Voluntarios.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Un auto quedó destruido por un incendio en el camino a Henry Bell",
+   "urgente": false,
+   "vence": "2026-11-05T15:41:09.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:be3f2357-0b41-4b5c-a76e-7242f7a153df|x": {
    "actualizado": "2026-10-31T20:40:14.000Z",
    "buffer_id": "",
@@ -21044,19 +21094,20 @@
    "viral": false
   },
   "web:d4089f06-53a3-4eae-adeb-d9043a2f641d|x": {
-   "actualizado": "2026-11-05T10:40:15.000Z",
+   "actualizado": "2026-11-05T12:00:20.000Z",
    "buffer_id": "6aec5d0f7a8d6fb41a6d6cd1",
    "clave": "web:d4089f06-53a3-4eae-adeb-d9043a2f641d|x",
    "creado": "2026-11-05T10:02:30.000Z",
    "dueAt": "2026-11-05T11:52:16.000Z",
+   "enviado": "2026-11-05T11:52:31.348Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T10:01:39.553Z",
    "id": "web:d4089f06-53a3-4eae-adeb-d9043a2f641d",
    "ig_hora": "2026-11-05T11:52:15.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118310486617870466",
    "nota_url": "https://www.diariolacampaña.com.ar/n/exposicion-colectiva-el-arte-impreso-celebro-su-fiesta-inauguro",
    "noticia": "nota:exposicion-colectiva-el-arte-impreso-celebro-su-fiesta-inauguro",
    "origen": "web",
@@ -22316,47 +22367,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00263",
-   "cuando": "2026-10-29T18:20:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00263|x",
-   "cuando": "2026-10-29T18:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00263|tiktok",
-   "cuando": "2026-10-29T18:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6ae38e69b3aaeefe23225ae5",
-   "clave": "entrevistas:job00263|x",
-   "cuando": "2026-10-29T18:20:25.000Z",
-   "dueAt": "2026-10-29T18:22:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00264",
-   "cuando": "2026-10-29T19:00:17.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00264|x",
-   "cuando": "2026-10-29T19:00:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00264|tiktok",
    "cuando": "2026-10-29T19:00:27.000Z",
@@ -26506,6 +26516,45 @@
    "cuando": "2026-11-05T11:40:15.000Z",
    "dueAt": "2026-11-05T13:07:37.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf|x",
+   "cuando": "2026-11-05T12:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:5b212ff6-9006-4b2b-ae18-48b4e0798b82|x",
+   "cuando": "2026-11-05T12:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118295386741711138"
+  },
+  {
+   "clave": "web:86ad29b1-82b6-4e00-868b-4e29af5b4496|x",
+   "cuando": "2026-11-05T12:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118306774625271880"
+  },
+  {
+   "clave": "web:96d8a1d2-9950-4aad-8e5a-ac9eec980838|x",
+   "cuando": "2026-11-05T12:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118302873566027990"
+  },
+  {
+   "clave": "web:d4089f06-53a3-4eae-adeb-d9043a2f641d|x",
+   "cuando": "2026-11-05T12:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118310486617870466"
+  },
+  {
+   "buffer_id": "6aec6fd68e858b1f0efb5483",
+   "clave": "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8|x",
+   "cuando": "2026-11-05T12:00:23.000Z",
+   "dueAt": "2026-11-05T13:22:19.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -26543,7 +26592,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-05",
- "ultima_sync": "2026-11-05T10:40:15.000Z",
+ "ultima_sync": "2026-11-05T12:00:20.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -27547,6 +27596,7 @@
   "web:bcc71360-9f79-4290-9d68-9770c7fb87ac": "2026-11-04T15:40:14.000Z",
   "web:bd8f6986-90c3-4806-a958-f0b1ef7a9181": "2026-10-13T10:20:16.000Z",
   "web:bd988c02-81d9-4c0e-8e79-839c83bb9a1c": "2026-10-16T01:00:17.000Z",
+  "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf": "2026-11-05T12:00:18.000Z",
   "web:bdea4ddc-3076-41e7-9bcd-0eb6014e727a": "2026-10-18T16:40:14.000Z",
   "web:be16b20b-29a0-45de-ae35-dec56c678655": "2026-10-18T23:00:17.000Z",
   "web:be3f2357-0b41-4b5c-a76e-7242f7a153df": "2026-10-31T20:40:14.000Z",
