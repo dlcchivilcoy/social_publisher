@@ -5498,25 +5498,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
    "volanta": "Chivilcoy · Política"
   },
-  "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e": {
-   "categoria": "",
-   "descripcion": "Esclarecieron el hurto de una moto e identificaron a dos menores La Secretaría de Seguridad, a cargo de Néstor Dabi, informó que personal policial, junto a efectivos de la SubDDI Chivilcoy, logró esclarecer el hurto de una motocicleta ocurrido en la vía pública y avanzar en la identificación de los presuntos autores, dos menores de 17 años. La investigación se inició a partir de una denuncia radicada el 24 de octubre, luego de que sustrajeran una motocicleta Honda Wave 110 cc, color gris...",
-   "generado": "2026-10-26T13:22:04.940Z",
-   "id": "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8188fa3974134088a41d7682356b22aa~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Esclarecieron el hurto de una moto e identificaron a dos menores",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:a03696d1-157a-48cb-abea-e9cba1380f98": {
    "categoria": "",
    "descripcion": "Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso Las garitas de colectivos de la avenida De Tomaso se transformaron en espacios de arte, memoria e identidad, a través de un proyecto que reunió a estudiantes, docentes, artistas y vecinos de la comunidad. En el marco del programa “Murales de Identidad, Chivilcoy se cuenta”, se realizó la presentación oficial de las intervenciones artísticas en las garitas de colectivos del corredor de la avenida De Tomaso. La...",
@@ -18783,31 +18764,6 @@
    "titulo": "Chivilcoy: El Municipio recuperó la tenencia de la nave industrial",
    "urgente": false,
    "vence": "2026-11-05T01:39:15.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x": {
-   "actualizado": "2026-10-26T13:48:30.000Z",
-   "buffer_id": "",
-   "clave": "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e|x",
-   "creado": "2026-10-26T13:48:30.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-26T13:22:04.940Z",
-   "id": "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
-   "noticia": "nota:chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Esclarecieron el hurto de una moto e identificaron a dos menores",
-   "urgente": false,
-   "vence": "2026-10-26T17:22:04.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
