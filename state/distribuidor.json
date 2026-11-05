@@ -2581,6 +2581,32 @@
    "volanta": "Siniestro vial en Junín",
    "youtube_url": "https://youtube.com/shorts/EVFAcnPgdJk"
   },
+  "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada": {
+   "categoria": "otro_policial",
+   "descripcion": "Una mujer de 35 años fue aprehendida en Junín tras ser interceptada por la policía a bordo de un Volkswagen Gol Trend que tenía la numeración borrada y patentes apócrifas.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-05T22:02:26.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-secuestraron-un-gol-trend-con-patentes-apocrifas-y-fb8b5f",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Personal policial interceptó a una mujer de 35 años durante un operativo de control en la ciudad de Junín.\n\nLos efectivos constataron que el Volkswagen Gol Trend en el que circulaba presentaba cuños falsos, numeración borrada y patentes apócrifas.\n\nLa conductora quedó aprehendida imputada por los delitos de encubrimiento y adulteración tras el procedimiento realizado por la DDI Junín.\n\nLa investigación continúa para determinar el origen del vehículo secuestrado y si existen más implicados en la maniobra.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Junín: secuestraron un auto con patentes falsas y numeración borrada",
+   "urgente": false,
+   "video_bytes": 93049,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_02_junin_jun-n-secuestraron-un-auto-con.mp4",
+   "volanta": "Operativo en Junín",
+   "youtube_url": "https://youtube.com/shorts/SiRjH7ma-S0"
+  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html": {
    "categoria": "robo",
    "descripcion": "Ladrones ingresaron a una firma comercial en avenida Vaccarezza y Belgrano. Forzaron una caja de seguridad y escaparon con efectivo y papeles. La policía investiga si entraron por los techos.",
@@ -3863,25 +3889,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
    "volanta": "Ruta 51 · Accidente"
-  },
-  "web:23544596-7ffd-4da0-9940-5700227a63bf": {
-   "categoria": "",
-   "descripcion": "Recuperaron una moto sustraída y demoraron a un hombre La Secretaría de Seguridad de Chivilcoy, a cargo de Néstor Dabi, informó que personal policial trasladó a un hombre de 29 años, identificado como Brian Mitrovich, quien circulaba en una motocicleta marca Gilera Smash 110 cc que registraba un pedido de secuestro activo. El procedimiento se llevó a cabo en la calle Ceferino Namuncurá al 519, de Chivilcoy. Al verificar los datos del rodado, los efectivos constataron que poseía un pedido de...",
-   "generado": "2026-10-26T22:07:35.210Z",
-   "id": "web:23544596-7ffd-4da0-9940-5700227a63bf",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ea6f046c8d2f4737a99405e4075411f5~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-sustraida-y-demoraron-a-un",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Recuperaron una moto sustraída y demoraron a un hombre",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-recuperaron-una-moto-sustraida-y-demoraron-a-un",
-   "volanta": "Chivilcoy · Policiales"
   },
   "web:235c69cb-f4d0-4bac-832b-a776588dd3e9": {
    "categoria": "",
@@ -14113,6 +14120,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_08_junin_conductor-ebrio-choc-contra-un.mp4",
    "viral": false
   },
+  "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada|x": {
+   "actualizado": "2026-11-05T22:20:13.000Z",
+   "buffer_id": "6aed011eaa25a700b8db23e8",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada|x",
+   "creado": "2026-11-05T22:20:13.000Z",
+   "dueAt": "2026-11-05T22:23:08.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-05T22:02:26.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-secuestraron-un-gol-trend-con-patentes-apocrifas-y-fb8b5f",
+   "noticia": "nota:junin-secuestraron-un-gol-trend-con-patentes-apocrifas-y-fb8b5f",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Junín: secuestraron un auto con patentes falsas y numeración borrada\n\nUna mujer de 35 años fue aprehendida en Junín tras ser interceptada por la policía a bordo de un Volkswagen Gol Trend que tenía la numeración borrada y patentes apócrifas.\n\nhttps://www.diariolacampaña.com.ar/n/junin-secuestraron-un-gol-trend-con-patentes-apocrifas-y-fb8b5f",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Junín: secuestraron un auto con patentes falsas y numeración borrada",
+   "urgente": false,
+   "vence": "2026-11-06T00:02:26.000Z",
+   "video_bytes": 93049,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_02_junin_jun-n-secuestraron-un-auto-con.mp4",
+   "viral": false
+  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html|x": {
    "actualizado": "2026-10-28T00:40:18.000Z",
    "buffer_id": "6ae131baed0a3f2cb40ee0e9",
@@ -15767,31 +15802,6 @@
    "titulo": "Una camioneta quedó destruida por un incendio en la ruta",
    "urgente": false,
    "vence": "2026-10-31T17:49:41.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:23544596-7ffd-4da0-9940-5700227a63bf|x": {
-   "actualizado": "2026-10-26T22:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:23544596-7ffd-4da0-9940-5700227a63bf|x",
-   "creado": "2026-10-26T22:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-26T22:07:35.210Z",
-   "id": "web:23544596-7ffd-4da0-9940-5700227a63bf",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperaron-una-moto-sustraida-y-demoraron-a-un",
-   "noticia": "nota:chivilcoy-policiales-recuperaron-una-moto-sustraida-y-demoraron-a-un",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Recuperaron una moto sustraída y demoraron a un hombre",
-   "urgente": false,
-   "vence": "2026-10-27T02:07:35.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -20614,22 +20624,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok",
-   "cuando": "2026-10-30T02:00:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:118a5f02-a016-4997-b53a-36c088349592|x",
-   "cuando": "2026-10-30T02:00:28.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x",
    "cuando": "2026-10-30T02:00:28.000Z",
    "evento": "enviado",
@@ -24782,6 +24776,21 @@
    "cuando": "2026-11-05T21:20:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7704796132786081045"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada|x",
+   "cuando": "2026-11-05T22:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6aed011eaa25a700b8db23e8",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada|x",
+   "cuando": "2026-11-05T22:20:14.000Z",
+   "dueAt": "2026-11-05T22:23:08.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -25236,6 +25245,7 @@
   "policiales:https://semanariodejunin.com.ar/nota/75593/la-matanza-estudiante-de-17-anos-baleo-a-otro-de-18-en-el-bano-de-una-escuela": "2026-10-15T14:00:19.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos": "2026-10-17T09:00:19.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado": "2026-11-03T00:40:17.000Z",
+  "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada": "2026-11-05T22:20:13.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html": "2026-10-15T14:00:19.000Z",
