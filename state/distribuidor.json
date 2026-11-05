@@ -20577,14 +20577,14 @@
    "viral": false
   },
   "web:baed3e4a-9c01-444d-9517-955f540623a8|x": {
-   "actualizado": "2026-11-05T10:02:30.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-05T11:20:15.000Z",
+   "buffer_id": "6aec66708ed5e05aeda30ffe",
    "clave": "web:baed3e4a-9c01-444d-9517-955f540623a8|x",
    "creado": "2026-11-05T10:02:30.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-05T12:37:33.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-05T10:01:57.438Z",
    "id": "web:baed3e4a-9c01-444d-9517-955f540623a8",
    "ig_hora": "2026-11-05T12:37:15.000Z",
@@ -22316,14 +22316,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00262|x",
-   "cuando": "2026-10-29T18:00:34.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00262|tiktok",
    "cuando": "2026-10-29T18:00:34.000Z",
@@ -26507,6 +26499,13 @@
    "clave": "web:7fcb1162-b823-4d08-a5e8-854ed71d5230|x",
    "cuando": "2026-11-05T11:00:23.000Z",
    "dueAt": "2026-11-05T12:22:11.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aec66708ed5e05aeda30ffe",
+   "clave": "web:baed3e4a-9c01-444d-9517-955f540623a8|x",
+   "cuando": "2026-11-05T11:20:16.000Z",
+   "dueAt": "2026-11-05T12:37:33.000Z",
    "evento": "programado"
   }
  ],
