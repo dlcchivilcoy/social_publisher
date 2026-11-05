@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 09:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 05/11/2026 09:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 6 | 5 | 2 | 0 | 0 | 2 |
+| Notas web | X | 15 | 6 | 6 | 1 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,15 +27,13 @@ Actualizado: 05/11/2026 09:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - X · Notas web · Chivilcoy: Un auto quedó destruido por un incendio en el camino a Henry Bell — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Un menor de 17 años fue aprehendido acusado de intentar sustraer pert — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-05T10:03 recibido web:5b212ff6-9006-4b2b-ae18-48b4e0798b82|x 
 - 2026-11-05T10:03 recibido web:93908f78-67cb-4a45-a902-712d32f96cb3|x 
 - 2026-11-05T10:03 recibido web:969326c4-49d1-4610-b2d3-40abe436dfc7|x 
 - 2026-11-05T10:04 recibido web:0d0f2a09-0416-445a-82b7-74eed589d782|x 
@@ -60,3 +58,4 @@ Actualizado: 05/11/2026 09:00 (hora AR) · ACTIVO
 - 2026-11-05T12:00 enviado web:96d8a1d2-9950-4aad-8e5a-ac9eec980838|x 
 - 2026-11-05T12:00 enviado web:d4089f06-53a3-4eae-adeb-d9043a2f641d|x 
 - 2026-11-05T12:00 programado web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8|x 
+- 2026-11-05T12:20 programado web:4a4fb364-85cb-463d-9fb5-721f301a1a4d|x 
