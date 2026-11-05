@@ -2133,6 +2133,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00278.mp4",
    "youtube_url": "https://youtu.be/2D2FSIAmkkw"
   },
+  "entrevistas:job00279": {
+   "descripcion": "En Chivilcoy, Fabian Casco, organizador de La Pampa Rock, contó cómo protegen y entregan en adopción responsable a galgos rescatados durante el festival.",
+   "duracion_seg": null,
+   "entrevistado": "Fabian Casco",
+   "generado": "2026-11-05T16:40:15.000Z",
+   "id": "entrevistas:job00279",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Fabian Casco: galgos rescatados en La Pampa Rock",
+   "urgente": false,
+   "video_bytes": 22247420,
+   "video_mb": 21.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00279.mp4",
+   "youtube_url": "https://youtu.be/O6hhx9bQoZ0"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -6458,25 +6479,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-la-politica-del-descreimiento-de-1985-a-hoy",
    "volanta": "Opinión"
-  },
-  "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d": {
-   "categoria": "",
-   "descripcion": "Principio de incendio en un Renault 12 en calle 9 de Julio Una dotación de Bomberos Voluntarios de Chivilcoy intervino ante un principio de incendio registrado en un automóvil Renault 12, dominio VGV 320, propiedad de Nicolás Centurión. El hecho ocurrió en la calle 9 de Julio, a la altura del 142. Al arribar al lugar, los servidores públicos constataron que el fuego se había originado en el sector del motor y que el propietario ya había logrado sofocarlo mediante el uso de extintores. La...",
-   "generado": "2026-10-26T16:25:31.086Z",
-   "id": "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5ff1e48a92b54cdd9b798a4ef3f8d161~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Principio de incendio en un Renault 12 en calle 9 de Julio",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
-   "volanta": "Chivilcoy · Incidentes"
   },
   "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72": {
    "categoria": "",
@@ -13549,6 +13551,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00278.mp4",
    "viral": false
   },
+  "entrevistas:job00279|tiktok": {
+   "actualizado": "2026-11-05T16:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00279|tiktok",
+   "creado": "2026-11-05T16:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-05T16:40:15.000Z",
+   "id": "entrevistas:job00279",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Fabian Casco: galgos rescatados en La Pampa Rock\n\nEn Chivilcoy, Fabian Casco, organizador de La Pampa Rock, contó cómo protegen y entregan en adopción responsable a galgos rescatados durante el festival.\n\nhttps://youtu.be/O6hhx9bQoZ0\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fabian Casco: galgos rescatados en La Pampa Rock",
+   "urgente": false,
+   "vence": "2026-11-07T16:40:15.000Z",
+   "video_bytes": 22247420,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00279.mp4",
+   "viral": false
+  },
+  "entrevistas:job00279|x": {
+   "actualizado": "2026-11-05T16:40:16.000Z",
+   "buffer_id": "6aecb1719b4d9c55763416b1",
+   "clave": "entrevistas:job00279|x",
+   "creado": "2026-11-05T16:40:15.000Z",
+   "dueAt": "2026-11-05T16:42:34.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-05T16:40:15.000Z",
+   "id": "entrevistas:job00279",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:casco-fabian-galgos-pampa-rescatados-rock",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Fabian Casco: galgos rescatados en La Pampa Rock\n\nEn Chivilcoy, Fabian Casco, organizador de La Pampa Rock, contó cómo protegen y entregan en adopción responsable a galgos rescatados durante el festival.\n\nhttps://youtu.be/O6hhx9bQoZ0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fabian Casco: galgos rescatados en La Pampa Rock",
+   "urgente": false,
+   "vence": "2026-11-05T18:40:15.000Z",
+   "video_bytes": 22247420,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00279.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -20142,31 +20200,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d|x": {
-   "actualizado": "2026-10-26T16:40:17.000Z",
-   "buffer_id": "",
-   "clave": "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d|x",
-   "creado": "2026-10-26T16:40:17.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-26T16:25:31.086Z",
-   "id": "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
-   "noticia": "nota:chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Principio de incendio en un Renault 12 en calle 9 de Julio",
-   "urgente": false,
-   "vence": "2026-10-26T20:25:31.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72|x": {
    "actualizado": "2026-10-28T10:20:37.000Z",
    "buffer_id": "6ae1c868979a56d9e57bfd21",
@@ -20511,33 +20544,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00264|tiktok",
-   "cuando": "2026-10-29T21:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702198313533132052"
-  },
-  {
-   "clave": "entrevistas:job00263|tiktok",
-   "cuando": "2026-10-29T22:20:22.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702203599878671637"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x",
-   "cuando": "2026-10-29T22:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6ae3cb4f2782e7f331bc4dec",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x",
-   "cuando": "2026-10-29T22:40:15.000Z",
-   "dueAt": "2026-10-29T22:43:29.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin|x",
    "cuando": "2026-10-29T23:40:24.000Z",
@@ -24691,6 +24697,34 @@
    "cuando": "2026-11-05T16:20:32.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00279",
+   "cuando": "2026-11-05T16:40:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00279|x",
+   "cuando": "2026-11-05T16:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00279|tiktok",
+   "cuando": "2026-11-05T16:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6aecb1719b4d9c55763416b1",
+   "clave": "entrevistas:job00279|x",
+   "cuando": "2026-11-05T16:40:17.000Z",
+   "dueAt": "2026-11-05T16:42:34.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -24993,6 +25027,7 @@
   "entrevistas:job00276": "2026-11-04T17:20:18.000Z",
   "entrevistas:job00277": "2026-11-04T18:20:14.000Z",
   "entrevistas:job00278": "2026-11-04T18:40:16.000Z",
+  "entrevistas:job00279": "2026-11-05T16:40:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",

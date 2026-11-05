@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,16 +27,13 @@ Actualizado: 05/11/2026 13:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Recortes de entrevistas · Fabian Casco: galgos rescatados en La Pampa Rock — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-05T10:40 enviado web:969326c4-49d1-4610-b2d3-40abe436dfc7|x 
-- 2026-11-05T10:40 programado web:d4089f06-53a3-4eae-adeb-d9043a2f641d|x 
-- 2026-11-05T10:40 programado web:0d0f2a09-0416-445a-82b7-74eed589d782|x 
-- 2026-11-05T11:00 depurado web:18542f99-eee2-4a32-b4a1-6ef1af84ede2|x no está en el carrusel del diario de hoy
 - 2026-11-05T11:00 depurado web:0d0f2a09-0416-445a-82b7-74eed589d782|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-05T11:00 programado web:7fcb1162-b823-4d08-a5e8-854ed71d5230|x 
 - 2026-11-05T11:20 programado web:baed3e4a-9c01-444d-9517-955f540623a8|x 
@@ -58,3 +55,7 @@ Actualizado: 05/11/2026 13:20 (hora AR) · ACTIVO
 - 2026-11-05T14:20 enviado web:4a4fb364-85cb-463d-9fb5-721f301a1a4d|x 
 - 2026-11-05T16:20 recibido web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed|x 
 - 2026-11-05T16:20 depurado web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-05T16:40 entrevista_aprobada entrevistas:job00279 
+- 2026-11-05T16:40 recibido entrevistas:job00279|x 
+- 2026-11-05T16:40 recibido entrevistas:job00279|tiktok 
+- 2026-11-05T16:40 programado entrevistas:job00279|x 
