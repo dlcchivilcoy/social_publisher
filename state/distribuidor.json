@@ -180,27 +180,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_46f9369917738213.mp4",
    "youtube_url": "https://www.youtube.com/shorts/bWtp3Wl1nLk"
   },
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj": {
-   "descripcion": "Luiz Inácio Lula da Silva, del Partido de los Trabajadores (PT), ganó este domingo 25 de octubre el balotaje presidencial de Brasil ante el senador Flávio Bolsonaro, del Partido Liberal (PL). El resultado le permitirá ejercer un cuarto mandato y continuar al frente del gobierno junto al",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-26T01:57:29.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-politica-lula-derroto-a-flavio-bolsonaro-y-gobernara-por-un",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Lula derrotó a Flávio Bolsonaro y gobernará por un cuarto mandato",
-   "urgente": false,
-   "video_bytes": 751144,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec9c16d63a47d613.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/Mkf4CT6-vKA"
-  },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl": {
    "descripcion": "La Secretaría de Seguridad, a cargo de Néstor Dabi, informó que personal policial, junto a efectivos de la SubDDI Chivilcoy, logró esclarecer el hurto de una motocicleta ocurrido en la vía pública y avanzar en la identificación de los presuntos autores, dos menores de 17 años.",
    "duracion_seg": 30.0,
@@ -7051,45 +7030,6 @@
    "vence": "2026-10-27T20:13:48.000Z",
    "video_bytes": 2402189,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_46f9369917738213.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|tiktok": {
-   "actualizado": "2026-10-26T13:20:17.000Z",
-   "buffer_id": "6adf4ee875610ee6069f1ecb",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj|tiktok",
-   "creado": "2026-10-26T02:00:18.000Z",
-   "dueAt": "2026-10-26T13:03:02.000Z",
-   "enviado": "2026-10-26T13:09:58.774Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-26T01:57:29.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7700962619070352647",
-   "metricas": {
-    "averageTimeWatched": 3.81,
-    "comments": 1,
-    "engagementRate": 5.73,
-    "reach": 494,
-    "reactions": 28,
-    "shares": 0,
-    "totalTimeWatched": 37.05,
-    "views": 506
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/brasil-politica-lula-derroto-a-flavio-bolsonaro-y-gobernara-por-un",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Lula derrotó a Flávio Bolsonaro y gobernará por un cuarto mandato\n\nLuiz Inácio Lula da Silva, del Partido de los Trabajadores (PT), ganó este domingo 25 de octubre el balotaje presidencial de Brasil ante el senador Flávio Bolsonaro, del Partido Liberal (PL).\n\nhttps://www.diariolacampaña.com.ar/n/brasil-politica-lula-derroto-a-flavio-bolsonaro-y-gobernara-por-un\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Lula derrotó a Flávio Bolsonaro y gobernará por un cuarto mandato",
-   "urgente": false,
-   "vence": "2026-10-28T01:57:29.000Z",
-   "video_bytes": 751144,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ec9c16d63a47d613.mp4",
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok": {
