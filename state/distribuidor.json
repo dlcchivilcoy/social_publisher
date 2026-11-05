@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-05T17:00:20.000Z"
+   "visto": "2026-11-05T18:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-05T17:00:20.000Z"
+   "visto": "2026-11-05T18:20:15.000Z"
   }
  },
  "contenidos": {
@@ -2195,6 +2195,27 @@
    "video_mb": 29.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00281.mp4",
    "youtube_url": "https://youtu.be/oidpvkyoKAs"
+  },
+  "entrevistas:job00282": {
+   "descripcion": "El actor e influencer Iván Elizalde compartió en Chivilcoy los emotivos mensajes que recibe de pacientes oncológicos gracias a sus videos. Destacó el cariño y el agradecimiento de la gente en la calle.",
+   "duracion_seg": null,
+   "entrevistado": "Iván Elizalde",
+   "generado": "2026-11-05T18:20:15.000Z",
+   "id": "entrevistas:job00282",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Iván Elizalde en Chivilcoy: el valor de hacer reír",
+   "urgente": false,
+   "video_bytes": 22278786,
+   "video_mb": 21.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00282.mp4",
+   "youtube_url": "https://youtu.be/cDAX4zuDsXc"
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
@@ -7010,43 +7031,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7290bb06ab0d838c.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x": {
-   "actualizado": "2026-10-26T18:20:15.000Z",
-   "buffer_id": "6adf872efd915805681eb270",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|x",
-   "creado": "2026-10-26T16:40:17.000Z",
-   "dueAt": "2026-10-26T17:02:44.000Z",
-   "enviado": "2026-10-26T17:07:27.018Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-26T16:27:37.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114765862779392223",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 1.05,
-    "impressions": 95,
-    "reactions": 1,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
-   "noticia": "nota:chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Principio de incendio en un Renault 12 en calle 9 de Julio\n\nBomberos Voluntarios de Chivilcoy intervinieron por el siniestro en el vehículo de Nicolás Centurión. Ocurrió a la altura del 142.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Principio de incendio en un Renault 12 en calle 9 de Julio",
-   "urgente": false,
-   "vence": "2026-10-26T18:27:37.000Z",
-   "video_bytes": 529591,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7290bb06ab0d838c.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|tiktok": {
    "actualizado": "2026-10-28T14:00:23.000Z",
    "buffer_id": "6ae1f1e88f09daaaac16b9a2",
@@ -11315,43 +11299,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00249.mp4",
    "viral": false
   },
-  "entrevistas:job00249|x": {
-   "actualizado": "2026-10-26T18:20:15.000Z",
-   "buffer_id": "6adf872f79c317817cfe982f",
-   "clave": "entrevistas:job00249|x",
-   "creado": "2026-10-26T17:00:18.000Z",
-   "dueAt": "2026-10-26T17:08:20.000Z",
-   "enviado": "2026-10-26T17:08:40.307Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-26T17:00:18.000Z",
-   "id": "entrevistas:job00249",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114766170146439335",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 26,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:biaus-caminos-municipio-sabe-sanguineti",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Biaus Sanguineti: el Municipio no sabe los km de caminos\n\nEl economista Ramón Biaus Sanguineti advirtió en Chivilcoy que la comuna no precisa la cantidad real de kilómetros de caminos rurales a mantener.\n\nhttps://youtu.be/dGj7ND9Lx2I",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Biaus Sanguineti: el Municipio no sabe los km de caminos",
-   "urgente": false,
-   "vence": "2026-10-26T19:00:18.000Z",
-   "video_bytes": 30576920,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00249.mp4",
-   "viral": false
-  },
   "entrevistas:job00250|tiktok": {
    "actualizado": "2026-10-26T22:40:32.000Z",
    "buffer_id": "6adfbf66ca308c8a23254421",
@@ -11387,43 +11334,6 @@
    "titulo": "Lorena D'Amico: bienestar real más allá del 90-60-90",
    "urgente": false,
    "vence": "2026-10-28T17:40:14.000Z",
-   "video_bytes": 29440033,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00250.mp4",
-   "viral": false
-  },
-  "entrevistas:job00250|x": {
-   "actualizado": "2026-10-26T18:20:15.000Z",
-   "buffer_id": "6adf90895ca6f486414671ab",
-   "clave": "entrevistas:job00250|x",
-   "creado": "2026-10-26T17:40:14.000Z",
-   "dueAt": "2026-10-26T17:42:29.000Z",
-   "enviado": "2026-10-26T17:42:40.029Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-26T17:40:14.000Z",
-   "id": "entrevistas:job00250",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2114774725373083985",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 33,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:alla-amico-bienestar-lorena-real",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Lorena D'Amico: bienestar real más allá del 90-60-90\n\nLorena D'Amico, responsable de Benessere 360 en Chivilcoy, explica por qué los cambios físicos comienzan desde el bienestar interior.\n\nhttps://youtu.be/CYYoo7wurUU",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Lorena D'Amico: bienestar real más allá del 90-60-90",
-   "urgente": false,
-   "vence": "2026-10-26T19:40:14.000Z",
    "video_bytes": 29440033,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00250.mp4",
    "viral": false
@@ -13642,18 +13552,19 @@
    "viral": false
   },
   "entrevistas:job00280|x": {
-   "actualizado": "2026-11-05T17:00:22.000Z",
+   "actualizado": "2026-11-05T18:20:15.000Z",
    "buffer_id": "6aecb62760a369bcd77cb05c",
    "clave": "entrevistas:job00280|x",
    "creado": "2026-11-05T17:00:20.000Z",
    "dueAt": "2026-11-05T17:02:16.000Z",
+   "enviado": "2026-11-05T17:09:00.990Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T17:00:20.000Z",
    "id": "entrevistas:job00280",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118390135578402953",
    "nota_url": "",
    "noticia": "titulo:achique-bancos-bozzo-chivilcoy-marcelo-personal",
    "origen": "entrevistas",
@@ -13698,18 +13609,19 @@
    "viral": false
   },
   "entrevistas:job00281|x": {
-   "actualizado": "2026-11-05T17:40:24.000Z",
+   "actualizado": "2026-11-05T18:20:15.000Z",
    "buffer_id": "6aecbf89d7d39142cf519580",
    "clave": "entrevistas:job00281|x",
    "creado": "2026-11-05T17:40:13.000Z",
    "dueAt": "2026-11-05T17:42:59.000Z",
+   "enviado": "2026-11-05T17:43:22.333Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T17:40:13.000Z",
    "id": "entrevistas:job00281",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118398781360070937",
    "nota_url": "",
    "noticia": "titulo:arte-bustos-humanos-lorena-vuelve",
    "origen": "entrevistas",
@@ -13723,6 +13635,62 @@
    "vence": "2026-11-05T19:40:13.000Z",
    "video_bytes": 31051461,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00281.mp4",
+   "viral": false
+  },
+  "entrevistas:job00282|tiktok": {
+   "actualizado": "2026-11-05T18:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00282|tiktok",
+   "creado": "2026-11-05T18:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-05T18:20:15.000Z",
+   "id": "entrevistas:job00282",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Iván Elizalde en Chivilcoy: el valor de hacer reír\n\nEl actor e influencer Iván Elizalde compartió en Chivilcoy los emotivos mensajes que recibe de pacientes oncológicos gracias a sus videos. Destacó el cariño y el agradecimiento de la gente en la calle.\n\nhttps://youtu.be/cDAX4zuDsXc\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Iván Elizalde en Chivilcoy: el valor de hacer reír",
+   "urgente": false,
+   "vence": "2026-11-07T18:20:15.000Z",
+   "video_bytes": 22278786,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00282.mp4",
+   "viral": false
+  },
+  "entrevistas:job00282|x": {
+   "actualizado": "2026-11-05T18:20:16.000Z",
+   "buffer_id": "6aecc8e17c2c23ac24c8d512",
+   "clave": "entrevistas:job00282|x",
+   "creado": "2026-11-05T18:20:15.000Z",
+   "dueAt": "2026-11-05T18:22:48.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-05T18:20:15.000Z",
+   "id": "entrevistas:job00282",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:chivilcoy-elizalde-hacer-ivan-reir-valor",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Iván Elizalde en Chivilcoy: el valor de hacer reír\n\nEl actor e influencer Iván Elizalde compartió en Chivilcoy los emotivos mensajes que recibe de pacientes oncológicos gracias a sus videos. Destacó el cariño y el agradecimiento de la gente en la calle.\n\nhttps://youtu.be/cDAX4zuDsXc",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Iván Elizalde en Chivilcoy: el valor de hacer reír",
+   "urgente": false,
+   "vence": "2026-11-05T20:20:15.000Z",
+   "video_bytes": 22278786,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00282.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
@@ -20663,51 +20631,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae3e2c84b8768bfb2ce8ae0",
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x",
-   "cuando": "2026-10-30T00:20:25.000Z",
-   "dueAt": "2026-10-30T00:22:14.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae3e2c856e01b97637990ce",
-   "clave": "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia|x",
-   "cuando": "2026-10-30T00:20:25.000Z",
-   "dueAt": "2026-10-30T00:27:39.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|x",
-   "cuando": "2026-10-30T00:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tiktok",
-   "cuando": "2026-10-30T00:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:41b50fea-05eb-4988-89d9-dc639e73ba72|x",
-   "cuando": "2026-10-30T00:40:19.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ae3e774a83a7fb63c870c0e",
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|x",
-   "cuando": "2026-10-30T00:40:20.000Z",
-   "dueAt": "2026-10-30T00:42:07.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ae3e7744b8768bfb2cf925f",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin|x",
    "cuando": "2026-10-30T00:40:20.000Z",
@@ -24838,6 +24761,46 @@
    "cuando": "2026-11-05T17:40:25.000Z",
    "dueAt": "2026-11-05T17:42:59.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00282",
+   "cuando": "2026-11-05T18:20:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00282|x",
+   "cuando": "2026-11-05T18:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00282|tiktok",
+   "cuando": "2026-11-05T18:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00280|x",
+   "cuando": "2026-11-05T18:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118390135578402953"
+  },
+  {
+   "clave": "entrevistas:job00281|x",
+   "cuando": "2026-11-05T18:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118398781360070937"
+  },
+  {
+   "buffer_id": "6aecc8e17c2c23ac24c8d512",
+   "clave": "entrevistas:job00282|x",
+   "cuando": "2026-11-05T18:20:17.000Z",
+   "dueAt": "2026-11-05T18:22:48.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -24875,7 +24838,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-05",
- "ultima_sync": "2026-11-05T17:00:20.000Z",
+ "ultima_sync": "2026-11-05T18:20:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -25143,6 +25106,7 @@
   "entrevistas:job00279": "2026-11-05T16:40:15.000Z",
   "entrevistas:job00280": "2026-11-05T17:00:20.000Z",
   "entrevistas:job00281": "2026-11-05T17:40:13.000Z",
+  "entrevistas:job00282": "2026-11-05T18:20:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
