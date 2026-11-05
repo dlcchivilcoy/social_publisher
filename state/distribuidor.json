@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-05T13:20:15.000Z"
+   "visto": "2026-11-05T14:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 19
+    "scheduled": 0,
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-11-05T13:20:15.000Z"
+   "visto": "2026-11-05T14:20:15.000Z"
   }
  },
  "contenidos": {
@@ -6143,25 +6143,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cultura-y-recreacion-chivilcoy-se-prepara-para-la-primera-edicion-de",
    "volanta": "Cultura y recreación"
-  },
-  "web:d8e94a2d-145b-4ca4-a85b-0994863d6185": {
-   "categoria": "",
-   "descripcion": "Aprehendieron a un joven tras esclarecer un robo en una vivienda La Secretaría de Seguridad de Chivilcoy, a cargo de Néstor Dabi, informó que se logró esclarecer un robo ocurrido en una vivienda de la localidad de Gorostiaga, donde fueron sustraídos diversos elementos. El hecho se registró en una propiedad ubicada en la calle Las Palmeras, sin numeración, perteneciente a Joaquín Sánchez, con domicilio en Buenos Aires. Según se informó, el autor ingresó a la vivienda previo provocar daños en...",
-   "generado": "2026-10-26T14:05:43.230Z",
-   "id": "web:d8e94a2d-145b-4ca4-a85b-0994863d6185",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0a8e524a70884ae1a8c8c443dc871a69~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Aprehendieron a un joven tras esclarecer un robo en una vivienda",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un",
-   "volanta": "Gorostiaga · Policiales"
   },
   "web:d90365e7-57ab-4bdc-90e5-fbd2e5210400": {
    "categoria": "",
@@ -15584,19 +15565,20 @@
    "viral": false
   },
   "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8|x": {
-   "actualizado": "2026-11-05T12:00:21.000Z",
+   "actualizado": "2026-11-05T14:20:15.000Z",
    "buffer_id": "6aec6fd68e858b1f0efb5483",
    "clave": "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8|x",
    "creado": "2026-11-05T10:02:30.000Z",
    "dueAt": "2026-11-05T13:22:19.000Z",
+   "enviado": "2026-11-05T13:22:31.216Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T10:02:10.738Z",
    "id": "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8",
    "ig_hora": "2026-11-05T13:22:15.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118333135880421656",
    "nota_url": "https://www.diariolacampaña.com.ar/n/rally-chivilcoy-matias-bregant-y-sus-sensaciones-tras-consagrarse",
    "noticia": "nota:rally-chivilcoy-matias-bregant-y-sus-sensaciones-tras-consagrarse",
    "origen": "web",
@@ -16668,19 +16650,20 @@
    "viral": false
   },
   "web:4a4fb364-85cb-463d-9fb5-721f301a1a4d|x": {
-   "actualizado": "2026-11-05T12:20:14.000Z",
+   "actualizado": "2026-11-05T14:20:15.000Z",
    "buffer_id": "6aec747e8c78f6a77fa6951d",
    "clave": "web:4a4fb364-85cb-463d-9fb5-721f301a1a4d|x",
    "creado": "2026-11-05T10:02:30.000Z",
    "dueAt": "2026-11-05T13:37:40.000Z",
+   "enviado": "2026-11-05T13:37:46.319Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T10:02:14.846Z",
    "id": "web:4a4fb364-85cb-463d-9fb5-721f301a1a4d",
    "ig_hora": "2026-11-05T13:37:15.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118336973840490935",
    "nota_url": "https://www.diariolacampaña.com.ar/n/gto-chivilcoy-un-menor-de-17-anos-fue-aprehendido-acusado-de-intentar",
    "noticia": "nota:gto-chivilcoy-un-menor-de-17-anos-fue-aprehendido-acusado-de-intentar",
    "origen": "web",
@@ -19824,31 +19807,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:d8e94a2d-145b-4ca4-a85b-0994863d6185|x": {
-   "actualizado": "2026-10-26T14:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:d8e94a2d-145b-4ca4-a85b-0994863d6185|x",
-   "creado": "2026-10-26T14:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-26T14:05:43.230Z",
-   "id": "web:d8e94a2d-145b-4ca4-a85b-0994863d6185",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un",
-   "noticia": "nota:gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Aprehendieron a un joven tras esclarecer un robo en una vivienda",
-   "urgente": false,
-   "vence": "2026-10-26T18:05:43.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:d90365e7-57ab-4bdc-90e5-fbd2e5210400|x": {
    "actualizado": "2026-10-29T11:00:19.000Z",
    "buffer_id": "6ae319eaa667c7b474ae405d",
@@ -20902,20 +20860,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:e5615e3b-7d1f-407b-b876-c42670585cb1|x",
-   "cuando": "2026-10-29T20:20:16.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, enviado)",
-   "origen": "web"
-  },
-  {
-   "clave": "entrevistas:job00264|x",
-   "cuando": "2026-10-29T20:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115882496390816228"
-  },
   {
    "buffer_id": "6ae3b3e48d19aa0a5be34091",
    "clave": "entrevistas:job00264|tiktok",
@@ -25084,6 +25028,18 @@
    "cuando": "2026-11-05T13:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2118321875021398346"
+  },
+  {
+   "clave": "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8|x",
+   "cuando": "2026-11-05T14:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118333135880421656"
+  },
+  {
+   "clave": "web:4a4fb364-85cb-463d-9fb5-721f301a1a4d|x",
+   "cuando": "2026-11-05T14:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118336973840490935"
   }
  ],
  "tandas": {
@@ -25121,7 +25077,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-05",
- "ultima_sync": "2026-11-05T13:20:15.000Z",
+ "ultima_sync": "2026-11-05T14:20:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
