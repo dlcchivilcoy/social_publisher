@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@ Actualizado: 05/11/2026 16:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 28 con métricas · mediana vistas/impresiones 26 · likes 0
+- X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 26 · likes 0
 - X · Reels del bot: 44 con métricas · mediana vistas/impresiones 29 · likes 0
 - X · Reels policiales: 16 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 77 con métricas · mediana vistas/impresiones 20 · likes 0
@@ -38,8 +38,6 @@ Actualizado: 05/11/2026 16:00 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-05T16:20 recibido web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed|x 
-- 2026-11-05T16:20 depurado web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-05T16:40 entrevista_aprobada entrevistas:job00279 
 - 2026-11-05T16:40 recibido entrevistas:job00279|x 
 - 2026-11-05T16:40 recibido entrevistas:job00279|tiktok 
@@ -63,3 +61,5 @@ Actualizado: 05/11/2026 16:00 (hora AR) · ACTIVO
 - 2026-11-05T19:00 recibido entrevistas:job00283|x 
 - 2026-11-05T19:00 recibido entrevistas:job00283|tiktok 
 - 2026-11-05T19:00 programado entrevistas:job00283|x 
+- 2026-11-05T19:20 enviado entrevistas:job00282|x 
+- 2026-11-05T19:20 enviado entrevistas:job00283|x 
