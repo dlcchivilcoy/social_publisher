@@ -15831,14 +15831,14 @@
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/|x": {
-   "actualizado": "2026-11-04T23:40:17.000Z",
+   "actualizado": "2026-11-05T01:40:16.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/|x",
    "creado": "2026-11-04T23:40:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-04T23:31:58.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/",
    "intentos": 0,
@@ -21656,13 +21656,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae35ae525e7fa4a8db0f2fb",
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x",
-   "cuando": "2026-10-29T14:40:37.000Z",
-   "dueAt": "2026-10-29T14:42:21.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvs7ozg865iq|tiktok",
    "cuando": "2026-10-29T15:20:20.000Z",
    "evento": "enviado",
@@ -25837,6 +25830,12 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/|x",
+   "cuando": "2026-11-05T01:40:16.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {

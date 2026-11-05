@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 04/11/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 04/11/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-04)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 04/11/2026 22:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 1 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 5 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 1 | 0 |
 | Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,18 +27,16 @@ Actualizado: 04/11/2026 22:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (4 esperando)
 - X · Reels policiales · Futbolistas estafados por más de dos millones de dólares en EE.UU. — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Imputaron a un empleado por un millonario robo en un corralón de Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Bragado: choque entre un auto y una moto dejó un joven herido — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Choque entre un camión y una retroexcavadora en la Ruta 5 — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Dos imputados por narcotráfico en la Ruta 5 — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-04T20:00 enviado entrevistas:job00278|x 
 - 2026-11-04T21:00 programado bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok 
 - 2026-11-04T21:00 programado entrevistas:job00278|tiktok 
 - 2026-11-04T21:00 programado entrevistas:job00277|tiktok 
@@ -63,3 +61,4 @@ Actualizado: 04/11/2026 22:20 (hora AR) · ACTIVO
 - 2026-11-05T00:40 recibido policiales:https://www.diariojunin.com/noticias/103054_estaf 
 - 2026-11-05T00:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/ 
 - 2026-11-05T00:40 recibido policiales:https://www.latrochadigital.com.ar/2026/11/04/rut 
+- 2026-11-05T01:40 vencido policiales:https://www.latrochadigital.com.ar/2026/11/04/ope espera su momento (se programa cerca de la hora en que sale en las otras redes)
