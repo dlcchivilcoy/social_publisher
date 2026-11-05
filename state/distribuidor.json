@@ -2940,6 +2940,32 @@
    "volanta": "Alerta meteorológica en Bragado",
    "youtube_url": "https://youtube.com/shorts/ncuio5hBCiI"
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo": {
+   "categoria": "accidente_vial",
+   "descripcion": "Un joven de 21 años debió ser internado en el hospital tras protagonizar un violento choque contra un automóvil en la intersección de calle Las Rosas y el Acceso Elizondo.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-05T00:31:46.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-motociclista-de-21-anos-sufrio-una-fractura-tras-919d53",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un violento choque entre un auto y una moto ocurrió en la intersección de calle Las Rosas y el Acceso Elizondo.\n\nEl impacto involucró a un Ford Fiesta guiado por Marta Ester Gallego, de 79 años, y a una motocicleta Honda CG manejada por Nicolás Penín, de 21.\n\nA raíz del fuerte impacto, el muchacho sufrió heridas graves y requirió un urgente traslado hacia el nosocomio municipal.\n\nLos facultativos médicos determinaron que el conductor del rodado menor padecía una quebradura severa en su extremidad inferior izquierda.\n\nEfectivos de la policía científica trabajaron en la escena bajo las directivas de la Unidad Funcional de Instrucción número 6 de Mercedes.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Bragado: choque entre un auto y una moto dejó un joven herido",
+   "urgente": false,
+   "video_bytes": 90399,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_06_bragado_bragado-choque-entre-un-auto-y.mp4",
+   "volanta": "Accidente en Bragado",
+   "youtube_url": "https://youtube.com/shorts/9CElmNcMf90"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html": {
    "categoria": "incendio",
    "descripcion": "Un Chevrolet Astra sufrió un principio de incendio en el sector del motor cuando circulaba por la ciudad. El conductor logró recibir ayuda y los bomberos controlaron la situación. No se registraron heridos.",
@@ -3199,6 +3225,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_01_chacabuco_cay-en-un-hotel-c-ntrico-el-la.mp4",
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/LFU40SymsTU"
+  },
+  "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": {
+   "categoria": "estafa",
+   "descripcion": "Siete futbolistas, entre ellos el juninense Ezequiel Cerutti, denunciaron una millonaria defraudación en inversiones de propiedades en Estados Unidos.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-05T00:31:46.000Z",
+   "id": "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-juninense-ezequiel-cerutti-y-otros-futbolistas-sufrieron-una-d30130",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Un grupo de futbolistas profesionales fue víctima de una millonaria estafa con propiedades en el exterior.\n\nEntre los afectados se encuentra el delantero Ezequiel Cerutti, con raíces en la ciudad de Junín.\n\nLa causa judicial tramita en La Plata y el perjuicio total supera los dos millones de dólares.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Estafa #Alerta #BuenosAires",
+   "tipo": "video",
+   "titulo": "Futbolistas estafados por más de dos millones de dólares en EE.UU.",
+   "urgente": false,
+   "video_bytes": 91260,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_05_junin_futbolistas-estafados-por-m-s-.mp4",
+   "volanta": "Estafa inmobiliaria en Junín",
+   "youtube_url": "https://youtube.com/shorts/ySZDYoHEPGs"
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": {
    "categoria": "abuso_sexual",
@@ -3460,6 +3512,32 @@
    "volanta": "Operativo en Suipacha",
    "youtube_url": "https://youtube.com/shorts/ihQb4_K0dCU"
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/": {
+   "categoria": "robo",
+   "descripcion": "Un trabajador de 28 años fue detenido sospechado de encubrir el asalto a un comercio de materiales. Los ladrones usaron soplete para abrir la caja fuerte tras romper una abertura.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-05T00:31:44.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-imputaron-a-un-empleado-de-28-anos-por-un-millonario-3eca52",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Un empleado de 28 años fue detenido en Chacabuco tras ser vinculado con un millonario robo en un corralón de materiales.\n\nEl episodio ocurrió el 29 de octubre en un comercio situado sobre la avenida Miguel Gil al 23, donde los ladrones destrozaron una ventana para entrar.\n\nLos delincuentes utilizaron un equipo autógeno y una soldadora para forzar la caja fuerte y llevarse una gran cantidad de dinero en efectivo.\n\nLa pesquisa estuvo a cargo del Grupo Operativo Chacabuco de la DDI Junín, que logró identificar al sospechoso mediante el análisis de filmaciones.\n\nDurante un operativo de allanamiento, los efectivos policiales incautaron un teléfono celular y la suma de 1.200.000 pesos.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Imputaron a un empleado por un millonario robo en un corralón de Chacabuco",
+   "urgente": false,
+   "video_bytes": 87351,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_09_9-de-julio_imputaron-a-un-empleado-por-un.mp4",
+   "volanta": "Robo millonario en Chacabuco",
+   "youtube_url": ""
+  },
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/": {
    "categoria": "narcotrafico",
    "descripcion": "Dos hombres fueron imputados por infracción a la Ley de Estupefacientes durante un control vehicular realizado por la policía vial en la Ruta Nacional N° 5.",
@@ -3485,6 +3563,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_07_9-de-julio_dos-imputados-por-narcotr-fico.mp4",
    "volanta": "Operativo en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/r3rUpQ-sQ1A"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/": {
+   "categoria": "otro_policial",
+   "descripcion": "Un camión y una retroexcavadora protagonizaron un violento choque en la Ruta Nacional 5, a la altura de Gowland. Ocurrió durante una intensa lluvia. Ambos conductores terminaron ilesos.",
+   "distancia_km": 66.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-05T00:31:46.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gowland-un-camion-choco-contra-una-retroexcavadora-en-la-ruta-5-2083a1",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un impresionante choque por alcance se produjo sobre la autopista de la Ruta Nacional 5, a aproximadamente mil metros de la localidad de Gowland.\n\nEl episodio tuvo lugar durante la tarde del martes, en momentos en que se registraba una intensa lluvia en la zona.\n\nUn camión de una empresa de Chivilcoy impactó de lleno contra la parte trasera de una retroexcavadora, provocando daños materiales significativos en la cabina.\n\nA pesar de que el chofer del transporte quedó atrapado entre el volante y el asiento, ambos conductores salieron ilesos.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #SiniestroVial #Ruta5 #Gowland #BuenosAires",
+   "tipo": "video",
+   "titulo": "Choque entre un camión y una retroexcavadora en la Ruta 5",
+   "urgente": false,
+   "video_bytes": 122260,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_08_9-de-julio_choque-entre-un-cami-n-y-una-r.mp4",
+   "volanta": "Siniestro vial en Gowland",
+   "youtube_url": "https://youtube.com/shorts/Qijm6NEDkSw"
   },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": {
    "categoria": "",
@@ -5993,25 +6097,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/final-provincial-chivilcoy-cerro-un-brillante-desempeno-en-los-juegos",
    "volanta": "Final Provincial"
-  },
-  "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72": {
-   "categoria": "",
-   "descripcion": "Cerró la primera temporada de la obra teatral Habladurías La obra teatral «Habladurías», escrita y protagonizada por Memi Mesplet junto a Sebastian Bravo, cerró su primera temporada de presentaciones en CasaVieja San Luis. La propuesta, que previamente había sido presentada en el festival de improvisación de Pergamino antes de llegar a la ciudad, ofreció un formato innovador donde los diálogos y las acciones fueron cambiando de función a función a partir de pautas de improvisación. Cada una...",
-   "generado": "2026-10-26T00:37:54.107Z",
-   "id": "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_dafccc203fad48f583a75feabc877dd2~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Cerró la primera temporada de la obra teatral Habladurías",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
-   "volanta": "Chivilcoy · Cultura"
   },
   "web:b9614f68-7894-4d54-ab85-71bd96e07340": {
    "categoria": "",
@@ -15147,6 +15232,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_05_bragado_emiten-alerta-amarilla-por-tor.mp4",
    "viral": false
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo|x": {
+   "actualizado": "2026-11-05T00:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo|x",
+   "creado": "2026-11-05T00:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-05T00:31:46.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-motociclista-de-21-anos-sufrio-una-fractura-tras-919d53",
+   "noticia": "nota:bragado-un-motociclista-de-21-anos-sufrio-una-fractura-tras-919d53",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Bragado: choque entre un auto y una moto dejó un joven herido\n\nUn joven de 21 años debió ser internado en el hospital tras protagonizar un violento choque contra un automóvil en la intersección de calle Las Rosas y el Acceso Elizondo.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-un-motociclista-de-21-anos-sufrio-una-fractura-tras-919d53",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bragado: choque entre un auto y una moto dejó un joven herido",
+   "urgente": false,
+   "vence": "2026-11-05T02:31:46.000Z",
+   "video_bytes": 90399,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_06_bragado_bragado-choque-entre-un-auto-y.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html|x": {
    "actualizado": "2026-10-27T02:20:16.000Z",
    "buffer_id": "",
@@ -15452,6 +15565,34 @@
    "vence": "2026-11-02T00:01:21.000Z",
    "video_bytes": 77111,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_01_chacabuco_cay-en-un-hotel-c-ntrico-el-la.mp4",
+   "viral": false
+  },
+  "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html|x": {
+   "actualizado": "2026-11-05T00:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html|x",
+   "creado": "2026-11-05T00:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-05T00:31:46.000Z",
+   "id": "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/el-juninense-ezequiel-cerutti-y-otros-futbolistas-sufrieron-una-d30130",
+   "noticia": "nota:el-juninense-ezequiel-cerutti-y-otros-futbolistas-sufrieron-una-d30130",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Futbolistas estafados por más de dos millones de dólares en EE.UU.\n\nSiete futbolistas, entre ellos el juninense Ezequiel Cerutti, denunciaron una millonaria defraudación en inversiones de propiedades en Estados Unidos.\n\nhttps://www.diariolacampaña.com.ar/n/el-juninense-ezequiel-cerutti-y-otros-futbolistas-sufrieron-una-d30130",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Futbolistas estafados por más de dos millones de dólares en EE.UU.",
+   "urgente": false,
+   "vence": "2026-11-05T02:31:46.000Z",
+   "video_bytes": 91260,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_05_junin_futbolistas-estafados-por-m-s-.mp4",
    "viral": false
   },
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin|x": {
@@ -15761,6 +15902,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_08_9-de-julio_ruta-5-interceptan-a-dos-sospe.mp4",
    "viral": false
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/|x": {
+   "actualizado": "2026-11-05T00:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/|x",
+   "creado": "2026-11-05T00:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-05T00:31:44.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-imputaron-a-un-empleado-de-28-anos-por-un-millonario-3eca52",
+   "noticia": "nota:chacabuco-imputaron-a-un-empleado-de-28-anos-por-un-millonario-3eca52",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Imputaron a un empleado por un millonario robo en un corralón de Chacabuco\n\nUn trabajador de 28 años fue detenido sospechado de encubrir el asalto a un comercio de materiales. Los ladrones usaron soplete para abrir la caja fuerte tras romper una abertura.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-imputaron-a-un-empleado-de-28-anos-por-un-millonario-3eca52",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Imputaron a un empleado por un millonario robo en un corralón de Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-05T02:31:44.000Z",
+   "video_bytes": 87351,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_09_9-de-julio_imputaron-a-un-empleado-por-un.mp4",
+   "viral": false
+  },
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/|x": {
    "actualizado": "2026-11-04T23:40:17.000Z",
    "buffer_id": "",
@@ -15787,6 +15956,34 @@
    "vence": "2026-11-05T01:31:58.000Z",
    "video_bytes": 119714,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_07_9-de-julio_dos-imputados-por-narcotr-fico.mp4",
+   "viral": false
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/|x": {
+   "actualizado": "2026-11-05T00:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/|x",
+   "creado": "2026-11-05T00:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-05T00:31:46.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gowland-un-camion-choco-contra-una-retroexcavadora-en-la-ruta-5-2083a1",
+   "noticia": "nota:gowland-un-camion-choco-contra-una-retroexcavadora-en-la-ruta-5-2083a1",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Choque entre un camión y una retroexcavadora en la Ruta 5\n\nUn camión y una retroexcavadora protagonizaron un violento choque en la Ruta Nacional 5, a la altura de Gowland. Ocurrió durante una intensa lluvia. Ambos conductores terminaron ilesos.\n\nhttps://www.diariolacampaña.com.ar/n/gowland-un-camion-choco-contra-una-retroexcavadora-en-la-ruta-5-2083a1",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque entre un camión y una retroexcavadora en la Ruta 5",
+   "urgente": false,
+   "vence": "2026-11-05T02:31:46.000Z",
+   "video_bytes": 122260,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_08_9-de-julio_choque-entre-un-cami-n-y-una-r.mp4",
    "viral": false
   },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be|x": {
@@ -19786,31 +19983,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72|x": {
-   "actualizado": "2026-10-26T00:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72|x",
-   "creado": "2026-10-26T00:40:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-26T00:37:54.107Z",
-   "id": "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
-   "noticia": "nota:chivilcoy-cultura-cerro-la-primera-temporada-de-la-obra-teatral",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Cerró la primera temporada de la obra teatral Habladurías",
-   "urgente": false,
-   "vence": "2026-10-26T04:37:54.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:b9614f68-7894-4d54-ab85-71bd96e07340|x": {
    "actualizado": "2026-11-04T14:20:15.000Z",
    "buffer_id": "",
@@ -21583,36 +21755,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|tiktok",
-   "cuando": "2026-10-29T14:40:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:714face4-6e7c-4d56-be14-b048fd1cefb1|x",
-   "cuando": "2026-10-29T14:40:36.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:76e7c276-9244-4833-b1f9-9ae148587bd5|x",
-   "cuando": "2026-10-29T14:40:36.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:714face4-6e7c-4d56-be14-b048fd1cefb1|x",
-   "cuando": "2026-10-29T14:40:36.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "buffer_id": "6ae35ae525e7fa4a8db0f2fb",
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|x",
@@ -25763,6 +25905,38 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/|x",
+   "cuando": "2026-11-05T00:40:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html|x",
+   "cuando": "2026-11-05T00:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo|x",
+   "cuando": "2026-11-05T00:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/|x",
+   "cuando": "2026-11-05T00:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -26236,6 +26410,7 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26730-aprehendieron-a-un-hombre-acusado-de-cometer-dos-robos-utilizando-inhibidores-de-senal": "2026-10-31T22:20:15.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos": "2026-11-03T23:40:19.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento": "2026-11-03T23:20:14.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": "2026-10-18T21:40:15.000Z",
@@ -26293,6 +26468,7 @@
   "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html": "2026-10-17T01:20:16.000Z",
   "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html": "2026-10-17T01:20:16.000Z",
+  "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/": "2026-10-15T14:00:19.000Z",
   "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente": "2026-10-14T18:00:18.000Z",
@@ -26322,7 +26498,9 @@
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/31/allanamientos-en-la-ciudad-con-secuestro-de-ropa-y-calzado-deportivo/": "2026-10-31T23:40:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/": "2026-11-04T00:40:13.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/": "2026-11-04T23:40:17.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
