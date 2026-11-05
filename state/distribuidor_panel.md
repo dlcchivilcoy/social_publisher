@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -13,7 +13,7 @@ Actualizado: 05/11/2026 13:40 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 17 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 18 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,18 +27,14 @@ Actualizado: 05/11/2026 13:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- TikTok · Recortes de entrevistas · Marcelo Bozzo: achique de personal en bancos de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Fabian Casco: galgos rescatados en La Pampa Rock — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-05T11:00 depurado web:0d0f2a09-0416-445a-82b7-74eed589d782|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-05T11:00 programado web:7fcb1162-b823-4d08-a5e8-854ed71d5230|x 
-- 2026-11-05T11:20 programado web:baed3e4a-9c01-444d-9517-955f540623a8|x 
-- 2026-11-05T11:40 programado web:5b92851b-96ea-4e38-9225-346618040e09|x 
-- 2026-11-05T11:40 programado web:26b25411-f69f-490e-8bb8-4a36156faf79|x 
 - 2026-11-05T12:00 recibido web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf|x 
 - 2026-11-05T12:00 enviado web:5b212ff6-9006-4b2b-ae18-48b4e0798b82|x 
 - 2026-11-05T12:00 enviado web:86ad29b1-82b6-4e00-868b-4e29af5b4496|x 
@@ -59,3 +55,8 @@ Actualizado: 05/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-05T16:40 recibido entrevistas:job00279|x 
 - 2026-11-05T16:40 recibido entrevistas:job00279|tiktok 
 - 2026-11-05T16:40 programado entrevistas:job00279|x 
+- 2026-11-05T17:00 entrevista_aprobada entrevistas:job00280 
+- 2026-11-05T17:00 recibido entrevistas:job00280|x 
+- 2026-11-05T17:00 recibido entrevistas:job00280|tiktok 
+- 2026-11-05T17:00 enviado entrevistas:job00279|x 
+- 2026-11-05T17:00 programado entrevistas:job00280|x 
