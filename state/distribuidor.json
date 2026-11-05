@@ -4578,6 +4578,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/coronel-mom-dos-menores-fueron-imputados-tras-recibir-uno-de-ellos",
    "volanta": "Coronel Mom"
   },
+  "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Britos y Katopodis encabezaron el Encuentro Regional de Infraestructura En el marco del 7.º Encuentro Regional de Infraestructura realizado en Chivilcoy, el intendente municipal, Guillermo Britos, y el ministro de Infraestructura y Servicios Públicos de la Provincia de Buenos Aires, Gabriel Katopodis, encabezaron una jornada de trabajo con intendentes y referentes productivos de la región. El encuentro estuvo marcado por el anuncio de acciones judiciales contra los nuevos peajes en...",
+   "generado": "2026-11-05T16:03:26.167Z",
+   "id": "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2c22f431561f42c89b8a396385214225~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-britos-y-katopodis-encabezaron-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Britos y Katopodis encabezaron el Encuentro Regional de Infraestructura",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-chivilcoy-britos-y-katopodis-encabezaron-el",
+   "volanta": "Chivilcoy · Política"
+  },
   "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677": {
    "categoria": "",
    "descripcion": "Detuvieron a un hombre acusado de vender estupefacientes al menudeo En horas de la mañana del miércoles 28 de octubre de 2026, personal policial de la SUBDELEGACION DEPARTAMENTAL de Investigaciones del TRAFICO de DROGAS ILICITAS CHIVILCOY, a cargo del comisario DONATO RAFAEL PITETTI, llevó a cabo procedimientos en conjunto con la EPC BRAGADO, el GAD NUEVE de Julio y la DIRECCIÓN GENERAL de SEGURIDAD, a cargo de MARCELO GUEVARA. La causa se inició el 26 de mayo de 2026 a partir de información...",
@@ -16958,6 +16977,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed|x": {
+   "actualizado": "2026-11-05T16:20:32.000Z",
+   "buffer_id": "",
+   "clave": "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed|x",
+   "creado": "2026-11-05T16:20:20.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-05T16:03:26.167Z",
+   "id": "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-britos-y-katopodis-encabezaron-el",
+   "noticia": "nota:chivilcoy-politica-chivilcoy-britos-y-katopodis-encabezaron-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Britos y Katopodis encabezaron el Encuentro Regional de Infraestructura\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-britos-y-katopodis-encabezaron-el",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Britos y Katopodis encabezaron el Encuentro Regional de Infraestructura",
+   "urgente": false,
+   "vence": "2026-11-05T20:03:26.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677|x": {
    "actualizado": "2026-10-30T15:00:19.000Z",
    "buffer_id": "",
@@ -20465,20 +20511,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae3b3e48d19aa0a5be34091",
-   "clave": "entrevistas:job00264|tiktok",
-   "cuando": "2026-10-29T21:00:20.000Z",
-   "dueAt": "2026-10-29T21:03:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae3b3e4f3a9d5311bceb392",
-   "clave": "entrevistas:job00263|tiktok",
-   "cuando": "2026-10-29T21:00:20.000Z",
-   "dueAt": "2026-10-29T21:23:34.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00264|tiktok",
    "cuando": "2026-10-29T21:20:17.000Z",
@@ -24645,6 +24677,20 @@
    "cuando": "2026-11-05T14:20:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2118336973840490935"
+  },
+  {
+   "clave": "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed|x",
+   "cuando": "2026-11-05T16:20:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed|x",
+   "cuando": "2026-11-05T16:20:32.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -25455,6 +25501,7 @@
   "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d": "2026-10-22T10:02:31.000Z",
   "web:6adb3465-c4e1-4c1f-a175-109ba016efbd": "2026-10-30T10:01:54.000Z",
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": "2026-10-14T10:20:15.000Z",
+  "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed": "2026-11-05T16:20:20.000Z",
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b": "2026-10-16T10:20:16.000Z",
   "web:6c509d7f-52e1-4541-aa96-22083404a169": "2026-10-26T10:20:14.000Z",
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": "2026-10-15T13:20:17.000Z",
