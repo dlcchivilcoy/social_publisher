@@ -1461,6 +1461,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8f0ef3d3d7a57c3c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/-zRGypO827w"
   },
+  "bot:video_matias-zucchi_mw4587m6w644_01.mp4": {
+   "descripcion": "Familiares, allegados y vecinos se concentraron el 5 de noviembre en la Plaza 9 de Julio de Chivilcoy, tras la presentación de una denuncia judicial por un presunto caso de abuso sexual contra una bebé de nueve meses.\n\nLa convocatoria, difundida previamente a través de las redes sociales, fijó el punto de encuentro a las 17. Desde ese espacio público, los manifestantes avanzaron de forma pacífica por las calles de la ciudad con destino a la Comisaría Primera.\n\nDurante la movilización, los participantes solicitaron que la Justicia agilice las pericias correspondientes, adopte las medidas necesarias para garantizar la debida protección de la niña y avance en el esclarecimiento de lo sucedido.\n\nAsimismo, quienes impulsaron la marcha convocaron a toda la comunidad a sumarse y acompañar el reclamo en defensa de los derechos de niños y niñas.",
+   "duracion_seg": 85.0,
+   "generado": "2026-11-05T23:03:02.000Z",
+   "id": "bot:video_matias-zucchi_mw4587m6w644_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
+   "urgente": false,
+   "video_bytes": 26341614,
+   "video_mb": 25.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_284dee9e05bca4b4.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/99UPVO06NsY"
+  },
   "entrevistas:job00252": {
    "descripcion": "En Chivilcoy, el músico Pablo Torres destacó el valor de los semilleros y la educación pública en la formación artística. Presentó el concierto de Los Duendes de Cage a beneficio del Conservatorio.",
    "duracion_seg": null,
@@ -3095,6 +3116,32 @@
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/LFU40SymsTU"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co": {
+   "categoria": "robo",
+   "descripcion": "Un empleado de 28 años que había sido arrestado por el millonario asalto al corralón Cabalieri recuperó la libertad por orden de la Justicia, pese al pedido fiscal para que continuara detenido.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-05T23:01:22.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-liberaron-al-empleado-detenido-por-el-millonario-robo-02b150",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "La Justicia dispuso la liberación del único detenido por el millonario robo al corralón Cabalieri de Chacabuco.\n\nEl sospechoso, un empleado de 28 años, había sido arrestado durante un allanamiento donde secuestraron 1.200.000 pesos y un celular.\n\nPese al pedido de la Fiscalía para que siguiera preso, la jueza de Garantías resolvió otorgarle la libertad mientras avanza la causa.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Liberaron al único detenido por el millonario robo al corralón Cabalieri",
+   "urgente": false,
+   "video_bytes": 84256,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_04_chacabuco_liberaron-al-nico-detenido-por.mp4",
+   "volanta": "Robo al corralón Cabalieri en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/Rqmvd3BJjh4"
+  },
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": {
    "categoria": "estafa",
    "descripcion": "Siete futbolistas, entre ellos el juninense Ezequiel Cerutti, denunciaron una millonaria defraudación en inversiones de propiedades en Estados Unidos.",
@@ -4641,6 +4688,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gremiales-realizaron-una-volanteada-para-pedir-justicia-por",
    "volanta": "Chivilcoy · Gremiales"
+  },
+  "web:71906e74-9a3f-42e4-a88d-7341f49d98b3": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé Familiares, allegados y vecinos se concentraron este jueves 5 de noviembre en la Plaza 9 de Julio de Chivilcoy, tras la presentación de una denuncia judicial por un presunto abuso sexual contra una bebé de nueve meses. La convocatoria, difundida a través de redes sociales a partir de las 17, reunió a los manifestantes en la plaza para luego marchar por las calles de la ciudad con destino a la Comisaría...",
+   "generado": "2026-11-05T23:01:33.872Z",
+   "id": "web:71906e74-9a3f-42e4-a88d-7341f49d98b3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0b7afdc0840444ef9b84112f594b80a7~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
+   "volanta": "Chivilcoy · Judiciales"
   },
   "web:76e7c276-9244-4833-b1f9-9ae148587bd5": {
    "categoria": "",
@@ -11049,6 +11115,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8f0ef3d3d7a57c3c.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok": {
+   "actualizado": "2026-11-05T23:20:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok",
+   "creado": "2026-11-05T23:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-05T23:03:02.000Z",
+   "id": "bot:video_matias-zucchi_mw4587m6w644_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé\n\nFamiliares y vecinos se movilizaron en Chivilcoy tras una denuncia judicial por el presunto abuso sexual de una bebé de nueve meses. Los manifestantes marcharon hacia la Comisaría Primera para reclamar que la Justicia agilice las pericias y garantice la protección de la niña.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
+   "urgente": false,
+   "vence": "2026-11-07T23:03:02.000Z",
+   "video_bytes": 26341614,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_284dee9e05bca4b4.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mw4587m6w644_01.mp4|x": {
+   "actualizado": "2026-11-05T23:20:21.000Z",
+   "buffer_id": "6aed0f3686fe9b83795b950c",
+   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|x",
+   "creado": "2026-11-05T23:20:13.000Z",
+   "dueAt": "2026-11-05T23:22:48.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-05T23:03:02.000Z",
+   "id": "bot:video_matias-zucchi_mw4587m6w644_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
+   "noticia": "nota:chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé\n\nFamiliares y vecinos se movilizaron en Chivilcoy tras denunciarse el presunto abuso sexual de una bebé de nueve meses. Reclamaron medidas de protección y celeridad judicial.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
+   "urgente": false,
+   "vence": "2026-11-06T01:03:02.000Z",
+   "video_bytes": 26341614,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_284dee9e05bca4b4.mp4",
+   "viral": false
+  },
   "entrevistas:job00252|tiktok": {
    "actualizado": "2026-10-27T23:20:25.000Z",
    "buffer_id": "6ae110e9e2341add8c5b082b",
@@ -14202,14 +14324,14 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x": {
-   "actualizado": "2026-11-05T22:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-05T23:20:21.000Z",
+   "buffer_id": "6aed0f36f3498efda757a8cc",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x",
    "creado": "2026-11-05T22:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-05T23:28:32.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-05T22:31:03.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja",
    "intentos": 0,
@@ -14534,6 +14656,34 @@
    "vence": "2026-11-02T00:01:21.000Z",
    "video_bytes": 77111,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_01_chacabuco_cay-en-un-hotel-c-ntrico-el-la.mp4",
+   "viral": false
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co|x": {
+   "actualizado": "2026-11-05T23:20:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co|x",
+   "creado": "2026-11-05T23:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-05T23:01:22.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-liberaron-al-empleado-detenido-por-el-millonario-robo-02b150",
+   "noticia": "nota:chacabuco-liberaron-al-empleado-detenido-por-el-millonario-robo-02b150",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Liberaron al único detenido por el millonario robo al corralón Cabalieri\n\nUn empleado de 28 años recuperó la libertad por orden de la Justicia. La decisión se tomó pese al pedido de la fiscalía para que continuara detenido.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-liberaron-al-empleado-detenido-por-el-millonario-robo-02b150",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Liberaron al único detenido por el millonario robo al corralón Cabalieri",
+   "urgente": false,
+   "vence": "2026-11-06T01:01:22.000Z",
+   "video_bytes": 84256,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_04_chacabuco_liberaron-al-nico-detenido-por.mp4",
    "viral": false
   },
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html|x": {
@@ -16904,6 +17054,31 @@
    "titulo": "Realizaron una volanteada para pedir justicia por el femicidio de Nancy",
    "urgente": false,
    "vence": "2026-10-29T18:35:02.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:71906e74-9a3f-42e4-a88d-7341f49d98b3|x": {
+   "actualizado": "2026-11-05T23:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:71906e74-9a3f-42e4-a88d-7341f49d98b3|x",
+   "creado": "2026-11-05T23:20:13.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-05T23:01:33.872Z",
+   "id": "web:71906e74-9a3f-42e4-a88d-7341f49d98b3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
+   "noticia": "nota:chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
+   "urgente": false,
+   "vence": "2026-11-06T03:01:33.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -20300,52 +20475,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x",
-   "cuando": "2026-10-30T10:02:10.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:606007a3-f032-422b-ace3-ee59408ba8de|x",
-   "cuando": "2026-10-30T10:02:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x",
-   "cuando": "2026-10-30T10:02:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x",
-   "cuando": "2026-10-30T10:02:37.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ae46b3eceb12661efdc7770",
-   "clave": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x",
-   "cuando": "2026-10-30T10:02:39.000Z",
-   "dueAt": "2026-10-30T10:06:53.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae46b3eceb12661efdc77b1",
-   "clave": "web:606007a3-f032-422b-ace3-ee59408ba8de|x",
-   "cuando": "2026-10-30T10:02:39.000Z",
-   "dueAt": "2026-10-30T10:36:14.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae46b3f38b96b6f5ba13276",
    "clave": "web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x",
@@ -24463,6 +24592,52 @@
    "cuando": "2026-11-05T22:40:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2118469228827230532"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|x",
+   "cuando": "2026-11-05T23:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok",
+   "cuando": "2026-11-05T23:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co|x",
+   "cuando": "2026-11-05T23:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:71906e74-9a3f-42e4-a88d-7341f49d98b3|x",
+   "cuando": "2026-11-05T23:20:21.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6aed0f3686fe9b83795b950c",
+   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|x",
+   "cuando": "2026-11-05T23:20:22.000Z",
+   "dueAt": "2026-11-05T23:22:48.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aed0f36f3498efda757a8cc",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x",
+   "cuando": "2026-11-05T23:20:22.000Z",
+   "dueAt": "2026-11-05T23:28:32.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -24688,6 +24863,7 @@
   "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4": "2026-11-04T09:00:19.000Z",
   "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4": "2026-11-04T09:00:19.000Z",
   "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4": "2026-11-04T14:00:20.000Z",
+  "bot:video_matias-zucchi_mw4587m6w644_01.mp4": "2026-11-05T23:20:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -24994,6 +25170,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac": "2026-10-28T23:20:14.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo": "2026-10-29T23:40:14.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific": "2026-11-01T22:20:15.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co": "2026-11-05T23:20:13.000Z",
   "policiales:https://www.diarioel9dejulio.com.ar/noticia/203542": "2026-10-12T00:40:12.000Z",
   "policiales:https://www.diariojunin.com/noticias/102788_cinco-heridos-tras-choque-en-ruta-7-entre-general-rodrguez-y-lujn.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102790_robo-de-ms-de-un-centenar-de-placas-de-bronce.html": "2026-10-12T15:40:18.000Z",
@@ -25300,6 +25477,7 @@
   "web:70c111e7-3198-400b-89de-c2aca69f11ce": "2026-10-13T10:20:16.000Z",
   "web:714face4-6e7c-4d56-be14-b048fd1cefb1": "2026-10-29T14:40:15.000Z",
   "web:7174cbf3-b91d-4264-a98d-a3105b1cf237": "2026-10-26T12:06:06.000Z",
+  "web:71906e74-9a3f-42e4-a88d-7341f49d98b3": "2026-11-05T23:20:13.000Z",
   "web:71e9044f-15d8-4fa8-891c-2f86d98234cd": "2026-10-11T21:58:03.000Z",
   "web:725569a0-fb4a-45ea-b7ed-10abf912cf30": "2026-10-16T10:20:16.000Z",
   "web:72b2df2f-7788-41ce-b9b7-34e7ee9bd793": "2026-10-19T13:20:16.000Z",
