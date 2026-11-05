@@ -16810,14 +16810,14 @@
    "viral": false
   },
   "web:26b25411-f69f-490e-8bb8-4a36156faf79|x": {
-   "actualizado": "2026-11-05T10:02:30.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-05T11:40:14.000Z",
+   "buffer_id": "6aec6b1e8e858b1f0ef9acb3",
    "clave": "web:26b25411-f69f-490e-8bb8-4a36156faf79|x",
    "creado": "2026-11-05T10:02:30.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-05T13:07:37.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-05T10:02:06.592Z",
    "id": "web:26b25411-f69f-490e-8bb8-4a36156faf79",
    "ig_hora": "2026-11-05T13:07:15.000Z",
@@ -17992,14 +17992,14 @@
    "viral": false
   },
   "web:5b92851b-96ea-4e38-9225-346618040e09|x": {
-   "actualizado": "2026-11-05T10:02:30.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-05T11:40:14.000Z",
+   "buffer_id": "6aec6b1ef5b4b5564cb4f857",
    "clave": "web:5b92851b-96ea-4e38-9225-346618040e09|x",
    "creado": "2026-11-05T10:02:30.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-05T12:52:13.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-05T10:02:01.865Z",
    "id": "web:5b92851b-96ea-4e38-9225-346618040e09",
    "ig_hora": "2026-11-05T12:52:15.000Z",
@@ -22317,21 +22317,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00262|tiktok",
-   "cuando": "2026-10-29T18:00:34.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6ae389c349b3849a24c9f93c",
-   "clave": "entrevistas:job00262|x",
-   "cuando": "2026-10-29T18:00:35.000Z",
-   "dueAt": "2026-10-29T18:02:05.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00263",
    "cuando": "2026-10-29T18:20:15.000Z",
    "evento": "entrevista_aprobada"
@@ -26506,6 +26491,20 @@
    "clave": "web:baed3e4a-9c01-444d-9517-955f540623a8|x",
    "cuando": "2026-11-05T11:20:16.000Z",
    "dueAt": "2026-11-05T12:37:33.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aec6b1ef5b4b5564cb4f857",
+   "clave": "web:5b92851b-96ea-4e38-9225-346618040e09|x",
+   "cuando": "2026-11-05T11:40:15.000Z",
+   "dueAt": "2026-11-05T12:52:13.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aec6b1e8e858b1f0ef9acb3",
+   "clave": "web:26b25411-f69f-490e-8bb8-4a36156faf79|x",
+   "cuando": "2026-11-05T11:40:15.000Z",
+   "dueAt": "2026-11-05T13:07:37.000Z",
    "evento": "programado"
   }
  ],
