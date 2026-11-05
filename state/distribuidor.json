@@ -2175,6 +2175,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00280.mp4",
    "youtube_url": "https://youtu.be/UnOeKscVahU"
   },
+  "entrevistas:job00281": {
+   "descripcion": "Maria Lorena Bustos, inspectora de Educación Artística en Chivilcoy, reflexiona sobre cómo el arte frena el ritmo digital y rescata los lazos humanos a través del trabajo colectivo. Mirá la entrevista completa para conocer los proyectos escolares en la ciudad.",
+   "duracion_seg": null,
+   "entrevistado": "Maria Lorena Bustos",
+   "generado": "2026-11-05T17:40:13.000Z",
+   "id": "entrevistas:job00281",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Lorena Bustos: el arte nos vuelve más humanos",
+   "urgente": false,
+   "video_bytes": 31051461,
+   "video_mb": 29.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00281.mp4",
+   "youtube_url": "https://youtu.be/oidpvkyoKAs"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -13648,6 +13669,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00280.mp4",
    "viral": false
   },
+  "entrevistas:job00281|tiktok": {
+   "actualizado": "2026-11-05T17:40:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00281|tiktok",
+   "creado": "2026-11-05T17:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-05T17:40:13.000Z",
+   "id": "entrevistas:job00281",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Lorena Bustos: el arte nos vuelve más humanos\n\nMaria Lorena Bustos, inspectora de Educación Artística en Chivilcoy, reflexiona sobre cómo el arte frena el ritmo digital y rescata los lazos humanos a través del trabajo colectivo. Mirá la entrevista completa para conocer los proyectos escolares en la ciudad.\n\nhttps://youtu.be/oidpvkyoKAs\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Lorena Bustos: el arte nos vuelve más humanos",
+   "urgente": false,
+   "vence": "2026-11-07T17:40:13.000Z",
+   "video_bytes": 31051461,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00281.mp4",
+   "viral": false
+  },
+  "entrevistas:job00281|x": {
+   "actualizado": "2026-11-05T17:40:24.000Z",
+   "buffer_id": "6aecbf89d7d39142cf519580",
+   "clave": "entrevistas:job00281|x",
+   "creado": "2026-11-05T17:40:13.000Z",
+   "dueAt": "2026-11-05T17:42:59.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-05T17:40:13.000Z",
+   "id": "entrevistas:job00281",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:arte-bustos-humanos-lorena-vuelve",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Lorena Bustos: el arte nos vuelve más humanos\n\nMaria Lorena Bustos, inspectora de Educación Artística en Chivilcoy, reflexiona sobre cómo el arte frena el ritmo digital y rescata los lazos humanos a través del trabajo colectivo.\n\nhttps://youtu.be/oidpvkyoKAs",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Lorena Bustos: el arte nos vuelve más humanos",
+   "urgente": false,
+   "vence": "2026-11-05T19:40:13.000Z",
+   "video_bytes": 31051461,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00281.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -20586,35 +20663,6 @@
  },
  "registro": [
   {
-   "clave": "web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x",
-   "cuando": "2026-10-30T00:00:21.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "buffer_id": "6ae3de164b8768bfb2cd0264",
-   "clave": "entrevistas:job00262|tiktok",
-   "cuando": "2026-10-30T00:00:22.000Z",
-   "dueAt": "2026-10-30T00:03:21.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x",
-   "cuando": "2026-10-30T00:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|tiktok",
-   "cuando": "2026-10-30T00:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "buffer_id": "6ae3e2c84b8768bfb2ce8ae0",
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|x",
    "cuando": "2026-10-30T00:20:25.000Z",
@@ -24762,6 +24810,34 @@
    "cuando": "2026-11-05T17:00:24.000Z",
    "dueAt": "2026-11-05T17:02:16.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00281",
+   "cuando": "2026-11-05T17:40:13.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00281|x",
+   "cuando": "2026-11-05T17:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00281|tiktok",
+   "cuando": "2026-11-05T17:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6aecbf89d7d39142cf519580",
+   "clave": "entrevistas:job00281|x",
+   "cuando": "2026-11-05T17:40:25.000Z",
+   "dueAt": "2026-11-05T17:42:59.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -25066,6 +25142,7 @@
   "entrevistas:job00278": "2026-11-04T18:40:16.000Z",
   "entrevistas:job00279": "2026-11-05T16:40:15.000Z",
   "entrevistas:job00280": "2026-11-05T17:00:20.000Z",
+  "entrevistas:job00281": "2026-11-05T17:40:13.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
