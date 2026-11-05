@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -17,7 +17,7 @@ Actualizado: 05/11/2026 14:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 26 · likes 0
+- X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 26 · likes 0
 - X · Reels del bot: 45 con métricas · mediana vistas/impresiones 29 · likes 0
 - X · Reels policiales: 16 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 77 con métricas · mediana vistas/impresiones 20 · likes 0
