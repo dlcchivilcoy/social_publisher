@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 4,
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-05T19:20:16.000Z"
+   "visto": "2026-11-05T21:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-05T19:20:16.000Z"
+   "visto": "2026-11-05T21:20:15.000Z"
   }
  },
  "contenidos": {
@@ -13679,19 +13679,20 @@
    "viral": false
   },
   "entrevistas:job00283|tiktok": {
-   "actualizado": "2026-11-05T21:00:17.000Z",
+   "actualizado": "2026-11-05T21:20:15.000Z",
    "buffer_id": "6aecee6594067731a41f69ce",
    "categoria": "",
    "clave": "entrevistas:job00283|tiktok",
    "creado": "2026-11-05T19:00:18.000Z",
    "dueAt": "2026-11-05T21:03:51.000Z",
+   "enviado": "2026-11-05T21:05:45.528Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T19:00:18.000Z",
    "id": "entrevistas:job00283",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7704796132786081045",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -20673,14 +20674,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x",
-   "cuando": "2026-10-30T02:00:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok",
    "cuando": "2026-10-30T02:00:27.000Z",
    "estado": "pendiente",
@@ -24843,6 +24836,12 @@
    "cuando": "2026-11-05T21:00:27.000Z",
    "dueAt": "2026-11-05T22:23:01.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00283|tiktok",
+   "cuando": "2026-11-05T21:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7704796132786081045"
   }
  ],
  "tandas": {
@@ -24880,7 +24879,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-05",
- "ultima_sync": "2026-11-05T19:20:16.000Z",
+ "ultima_sync": "2026-11-05T21:20:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

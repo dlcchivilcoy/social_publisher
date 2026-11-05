@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 18:00 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 18:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 5 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 1 | 4 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -14,7 +14,7 @@ Actualizado: 05/11/2026 18:00 (hora AR) · ACTIVO
 
 ## Canales
 - X: conectado · Buffer: 18 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 1 enviadas + 4 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -33,7 +33,6 @@ Actualizado: 05/11/2026 18:00 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-05T17:00 recibido entrevistas:job00280|x 
 - 2026-11-05T17:00 recibido entrevistas:job00280|tiktok 
 - 2026-11-05T17:00 enviado entrevistas:job00279|x 
 - 2026-11-05T17:00 programado entrevistas:job00280|x 
@@ -58,3 +57,4 @@ Actualizado: 05/11/2026 18:00 (hora AR) · ACTIVO
 - 2026-11-05T21:00 programado entrevistas:job00281|tiktok 
 - 2026-11-05T21:00 programado entrevistas:job00280|tiktok 
 - 2026-11-05T21:00 programado entrevistas:job00279|tiktok 
+- 2026-11-05T21:20 enviado entrevistas:job00283|tiktok 
