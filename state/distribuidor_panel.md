@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 1 | 4 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 4 |
+| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 18 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 1 enviadas + 4 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -27,20 +27,13 @@ Actualizado: 05/11/2026 19:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Reels policiales · Detuvieron a una pareja tras asaltar una agencia de quiniela en Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-05T17:00 programado entrevistas:job00280|x 
-- 2026-11-05T17:40 entrevista_aprobada entrevistas:job00281 
-- 2026-11-05T17:40 recibido entrevistas:job00281|x 
-- 2026-11-05T17:40 recibido entrevistas:job00281|tiktok 
-- 2026-11-05T17:40 programado entrevistas:job00281|x 
-- 2026-11-05T18:20 entrevista_aprobada entrevistas:job00282 
-- 2026-11-05T18:20 recibido entrevistas:job00282|x 
-- 2026-11-05T18:20 recibido entrevistas:job00282|tiktok 
 - 2026-11-05T18:20 enviado entrevistas:job00280|x 
 - 2026-11-05T18:20 enviado entrevistas:job00281|x 
 - 2026-11-05T18:20 programado entrevistas:job00282|x 
@@ -58,3 +51,11 @@ Actualizado: 05/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-05T21:20 enviado entrevistas:job00283|tiktok 
 - 2026-11-05T22:20 recibido policiales:https://semanariodejunin.com.ar/nota/76304/ddi-ju 
 - 2026-11-05T22:20 programado policiales:https://semanariodejunin.com.ar/nota/76304/ddi-ju 
+- 2026-11-05T22:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/ 
+- 2026-11-05T22:40 recibido web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac|x 
+- 2026-11-05T22:40 depurado web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-05T22:40 enviado entrevistas:job00279|tiktok 
+- 2026-11-05T22:40 enviado entrevistas:job00280|tiktok 
+- 2026-11-05T22:40 enviado entrevistas:job00281|tiktok 
+- 2026-11-05T22:40 enviado entrevistas:job00282|tiktok 
+- 2026-11-05T22:40 enviado policiales:https://semanariodejunin.com.ar/nota/76304/ddi-ju 

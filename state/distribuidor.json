@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 4,
-    "sent": 1
+    "scheduled": 0,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-05T21:20:15.000Z"
+   "visto": "2026-11-05T22:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-05T21:20:15.000Z"
+   "visto": "2026-11-05T22:40:16.000Z"
   }
  },
  "contenidos": {
@@ -2919,6 +2919,32 @@
    "volanta": "Accidente en Bragado",
    "youtube_url": "https://youtube.com/shorts/9CElmNcMf90"
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja": {
+   "categoria": "robo",
+   "descripcion": "Un hombre y una mujer fueron arrestados este 05/11/2026 en la plaza Eva Perón tras robar más de 100.000 pesos en un local de Tucumán e Yrigoyen.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-05T22:31:03.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-una-pareja-tras-asaltar-una-agencia-de-9cccff",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Una pareja fue detenida este jueves 05/11/2026 tras asaltar una agencia de quiniela ubicada en Tucumán e Hipólito Yrigoyen, frente a la Escuela Industrial.\n\nLos sospechosos ingresaron simulando ser clientes y se apoderaron de más de 100.000 pesos bajo amenazas a la empleada.\n\nTras el aviso a los efectivos y el análisis de las cámaras de seguridad, ambos fueron localizados y arrestados en la plaza Eva Perón.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Policiales #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron a una pareja tras asaltar una agencia de quiniela en Bragado",
+   "urgente": false,
+   "video_bytes": 90354,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_03_bragado_detuvieron-a-una-pareja-tras-a.mp4",
+   "volanta": "Robo en Bragado",
+   "youtube_url": "https://youtube.com/shorts/F7pIierwbuw"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html": {
    "categoria": "incendio",
    "descripcion": "Un Chevrolet Astra sufrió un principio de incendio en el sector del motor cuando circulaba por la ciudad. El conductor logró recibir ayuda y los bomberos controlaron la situación. No se registraron heridos.",
@@ -3529,25 +3555,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/destacados-profesionales-realizaron-las-vii-jornada-de-infectologia",
    "volanta": "Destacados profesionales"
   },
-  "web:024c510b-0090-4885-a004-6612c092f38b": {
-   "categoria": "",
-   "descripcion": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos La Policía de Chivilcoy llevó adelante cuatro allanamientos en distintos domicilios de la ciudad, en el marco de una investigación por infracción a la Ley de Drogas iniciada en junio de este año. Como resultado de los procedimientos, se secuestraron estupefacientes, dinero en efectivo, balanzas de precisión, elementos utilizados para el fraccionamiento de sustancias y teléfonos celulares. Además, tres hombres mayores...",
-   "generado": "2026-10-26T22:31:01.687Z",
-   "id": "web:024c510b-0090-4885-a004-6612c092f38b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_4c3eac8464854a52b572c89fbde2519c~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:04a24de3-2093-4b59-8e4e-5da6fa217039": {
    "categoria": "",
    "descripcion": "Chivilcoy: Una madre denunció un presunto abuso contra su beba Una madre de Chivilcoy denunció un presunto abuso contra su hija de nueve meses y solicitó que se amplíen las medidas de protección judicial. La mujer relató que llevó a la beba a la guardia del hospital un domingo por la tarde, tras advertir síntomas que le causaron preocupación. Según explicó, la niña quedó internada en observación y desde el centro de salud le indicaron que radicara la denuncia correspondiente. La Fiscalía le...",
@@ -4156,6 +4163,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
    "volanta": "Coronel Mom · Policiales"
   },
+  "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Un incendio provocó daños totales en una vivienda de Coronel Suárez CHIVILCOY.– Un incendio dejó daños totales en una vivienda de Coronel Suárez al 573. El fuego se desató alrededor de las 19 de este jueves en Chivilcoy. Intervinieron dos dotaciones de Bomberos Voluntarios a cargo del jefe Hector Alagia. Una vivienda ubicada en Coronel Suárez 573, en Chivilcoy, sufrió daños totales tras un incendio registrado alrededor de las 19 de este jueves 5 de noviembre. Dos dotaciones de...",
+   "generado": "2026-11-05T22:23:56.946Z",
+   "id": "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b346aeba99e44aa680252b8aac52ecea~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-un-incendio-provoco-danos-totales-en-una",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Un incendio provocó daños totales en una vivienda de Coronel Suárez",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-bomberos-chivilcoy-un-incendio-provoco-danos-totales-en-una",
+   "volanta": "Chivilcoy · Bomberos"
+  },
   "web:3db074fa-b73d-41dc-9567-5ce1c3d65907": {
    "categoria": "",
    "descripcion": "Chivilcoy: Un camión volcó sobre un puente tras chocar con un auto Un choque entre un auto y un camión se produjo en la Ruta 30, donde el vehículo de mayor porte terminó volcando sobre el puente. El siniestro ocurrió en inmediaciones de los silos de Andreoli, y requirió la intervención de los Bomberos Voluntarios de Chivilcoy, personal del SAME, Policía Vial y Tránsito. Alrededor de las 22:00 del martes 3 de noviembre, los Bomberos Voluntarios acudieron a la Ruta Provincial 30 tras el alerta...",
@@ -4630,25 +4656,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/encuentro-en-chivilcoy-atiadim-fue-sede-del-primer-encuentro-zonal-de",
    "volanta": "Encuentro en Chivilcoy"
-  },
-  "web:67070b71-0e27-4e84-903f-83a20dacbf1a": {
-   "categoria": "",
-   "descripcion": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo Diez distritos bonaerenses compartieron en Alberti propuestas para el desarrollo productivo. La jornada reunió a funcionarios provinciales, referentes empresariales, responsables de parques industriales y representantes académicos. La organización estuvo a cargo del MDF Chivilcoy, con la participación del Dr. Luciano Dellepiane, junto a la Municipalidad de Alberti. Representantes de diez distritos bonaerenses...",
-   "generado": "2026-10-26T22:20:34.483Z",
-   "id": "web:67070b71-0e27-4e84-903f-83a20dacbf1a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0171182e964b45f599195bf259348c2a~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
-   "volanta": "Alberti · Producción"
   },
   "web:6adb3465-c4e1-4c1f-a175-109ba016efbd": {
    "categoria": "",
@@ -13398,19 +13405,20 @@
    "viral": false
   },
   "entrevistas:job00279|tiktok": {
-   "actualizado": "2026-11-05T21:00:17.000Z",
+   "actualizado": "2026-11-05T22:40:16.000Z",
    "buffer_id": "6aecee6b19bea0313feae338",
    "categoria": "",
    "clave": "entrevistas:job00279|tiktok",
    "creado": "2026-11-05T16:40:15.000Z",
    "dueAt": "2026-11-05T22:23:01.000Z",
+   "enviado": "2026-11-05T22:24:58.370Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T16:40:15.000Z",
    "id": "entrevistas:job00279",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7704816578402995476",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -13455,19 +13463,20 @@
    "viral": false
   },
   "entrevistas:job00280|tiktok": {
-   "actualizado": "2026-11-05T21:00:17.000Z",
+   "actualizado": "2026-11-05T22:40:16.000Z",
    "buffer_id": "6aecee6acf99e575e90bf4c2",
    "categoria": "",
    "clave": "entrevistas:job00280|tiktok",
    "creado": "2026-11-05T17:00:20.000Z",
    "dueAt": "2026-11-05T22:03:14.000Z",
+   "enviado": "2026-11-05T22:04:58.139Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T17:00:20.000Z",
    "id": "entrevistas:job00280",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7704811356750466310",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -13512,19 +13521,20 @@
    "viral": false
   },
   "entrevistas:job00281|tiktok": {
-   "actualizado": "2026-11-05T21:00:17.000Z",
+   "actualizado": "2026-11-05T22:40:16.000Z",
    "buffer_id": "6aecee68cf99e575e90bf369",
    "categoria": "",
    "clave": "entrevistas:job00281|tiktok",
    "creado": "2026-11-05T17:40:13.000Z",
    "dueAt": "2026-11-05T21:43:32.000Z",
+   "enviado": "2026-11-05T21:45:28.634Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T17:40:13.000Z",
    "id": "entrevistas:job00281",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7704806362747850004",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -13569,19 +13579,20 @@
    "viral": false
   },
   "entrevistas:job00282|tiktok": {
-   "actualizado": "2026-11-05T21:00:17.000Z",
+   "actualizado": "2026-11-05T22:40:16.000Z",
    "buffer_id": "6aecee6794067731a41f6e44",
    "categoria": "",
    "clave": "entrevistas:job00282|tiktok",
    "creado": "2026-11-05T18:20:15.000Z",
    "dueAt": "2026-11-05T21:23:38.000Z",
+   "enviado": "2026-11-05T21:25:28.643Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T18:20:15.000Z",
    "id": "entrevistas:job00282",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7704801238361083154",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -14121,18 +14132,19 @@
    "viral": false
   },
   "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada|x": {
-   "actualizado": "2026-11-05T22:20:13.000Z",
+   "actualizado": "2026-11-05T22:40:16.000Z",
    "buffer_id": "6aed011eaa25a700b8db23e8",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada|x",
    "creado": "2026-11-05T22:20:13.000Z",
    "dueAt": "2026-11-05T22:23:08.000Z",
+   "enviado": "2026-11-05T22:23:18.265Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T22:02:26.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118469228827230532",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-secuestraron-un-gol-trend-con-patentes-apocrifas-y-fb8b5f",
    "noticia": "nota:junin-secuestraron-un-gol-trend-con-patentes-apocrifas-y-fb8b5f",
    "origen": "policiales",
@@ -14527,6 +14539,34 @@
    "vence": "2026-11-05T02:31:46.000Z",
    "video_bytes": 90399,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_06_bragado_bragado-choque-entre-un-auto-y.mp4",
+   "viral": false
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x": {
+   "actualizado": "2026-11-05T22:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x",
+   "creado": "2026-11-05T22:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-05T22:31:03.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-una-pareja-tras-asaltar-una-agencia-de-9cccff",
+   "noticia": "nota:bragado-detuvieron-a-una-pareja-tras-asaltar-una-agencia-de-9cccff",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Detuvieron a una pareja tras asaltar una agencia de quiniela en Bragado\n\nUn hombre y una mujer fueron arrestados este 05/11/2026 en la plaza Eva Perón tras robar más de 100.000 pesos en un local de Tucumán e Yrigoyen.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-una-pareja-tras-asaltar-una-agencia-de-9cccff",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a una pareja tras asaltar una agencia de quiniela en Bragado",
+   "urgente": false,
+   "vence": "2026-11-06T00:31:03.000Z",
+   "video_bytes": 90354,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_03_bragado_detuvieron-a-una-pareja-tras-a.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html|x": {
@@ -15271,31 +15311,6 @@
    "titulo": "Realizaron las VII Jornada de Infectología en Chivilcoy con eje en la prevención y el abordaje de enfermedades infecciosas",
    "urgente": false,
    "vence": "2026-11-03T14:01:18.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:024c510b-0090-4885-a004-6612c092f38b|x": {
-   "actualizado": "2026-10-26T22:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:024c510b-0090-4885-a004-6612c092f38b|x",
-   "creado": "2026-10-26T22:40:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-26T22:31:01.687Z",
-   "id": "web:024c510b-0090-4885-a004-6612c092f38b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
-   "noticia": "nota:chivilcoy-policiales-secuestraron-drogas-y-aprehendieron-a-tres",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Secuestraron drogas y aprehendieron a tres hombres tras cuatro allanamientos",
-   "urgente": false,
-   "vence": "2026-10-27T02:31:01.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16270,6 +16285,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac|x": {
+   "actualizado": "2026-11-05T22:40:16.000Z",
+   "buffer_id": "",
+   "clave": "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac|x",
+   "creado": "2026-11-05T22:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-05T22:23:56.946Z",
+   "id": "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-un-incendio-provoco-danos-totales-en-una",
+   "noticia": "nota:chivilcoy-bomberos-chivilcoy-un-incendio-provoco-danos-totales-en-una",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Un incendio provocó daños totales en una vivienda de Coronel Suárez\n\nDos dotaciones de Bomberos Voluntarios a cargo de Hector Alagia intervinieron en el lugar del siniestro. El fuego se desató este jueves alrededor de las 19.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-un-incendio-provoco-danos-totales-en-una",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Un incendio provocó daños totales en una vivienda de Coronel Suárez",
+   "urgente": false,
+   "vence": "2026-11-06T02:23:56.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x": {
    "actualizado": "2026-11-04T02:00:22.000Z",
    "buffer_id": "",
@@ -17047,31 +17089,6 @@
    "titulo": "ATIADIM fue sede del primer encuentro zonal de instituciones de discapacidad",
    "urgente": false,
    "vence": "2026-10-29T14:01:24.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:67070b71-0e27-4e84-903f-83a20dacbf1a|x": {
-   "actualizado": "2026-10-26T22:40:15.000Z",
-   "buffer_id": "",
-   "clave": "web:67070b71-0e27-4e84-903f-83a20dacbf1a|x",
-   "creado": "2026-10-26T22:40:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-26T22:20:34.483Z",
-   "id": "web:67070b71-0e27-4e84-903f-83a20dacbf1a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
-   "noticia": "nota:alberti-produccion-diez-distritos-bonaerenses-compartieron-propuestas",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Diez distritos bonaerenses compartieron propuestas para el desarrollo productivo",
-   "urgente": false,
-   "vence": "2026-10-27T02:20:34.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -20623,63 +20640,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x",
-   "cuando": "2026-10-30T02:00:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115977627450130527"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x",
-   "cuando": "2026-10-30T02:00:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115979134077690026"
-  },
-  {
-   "buffer_id": "6ae3fa3d6385db216a1c76d2",
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x",
-   "cuando": "2026-10-30T02:00:29.000Z",
-   "dueAt": "2026-10-30T02:02:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x",
-   "cuando": "2026-10-30T09:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2115987825971572746"
-  },
-  {
-   "clave": "web:8eedc4c8-7ed9-4248-9de7-468717547999|x",
-   "cuando": "2026-10-30T10:01:58.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:415bcffd-26ca-41bb-807f-0d3961339b5c|x",
-   "cuando": "2026-10-30T10:02:00.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, enviado)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x",
-   "cuando": "2026-10-30T10:02:03.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:8fd9d678-2717-4972-af3c-fcb225b55159|x",
-   "cuando": "2026-10-30T10:02:07.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x",
    "cuando": "2026-10-30T10:02:10.000Z",
@@ -24791,6 +24751,58 @@
    "cuando": "2026-11-05T22:20:14.000Z",
    "dueAt": "2026-11-05T22:23:08.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x",
+   "cuando": "2026-11-05T22:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac|x",
+   "cuando": "2026-11-05T22:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac|x",
+   "cuando": "2026-11-05T22:40:16.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00279|tiktok",
+   "cuando": "2026-11-05T22:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7704816578402995476"
+  },
+  {
+   "clave": "entrevistas:job00280|tiktok",
+   "cuando": "2026-11-05T22:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7704811356750466310"
+  },
+  {
+   "clave": "entrevistas:job00281|tiktok",
+   "cuando": "2026-11-05T22:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7704806362747850004"
+  },
+  {
+   "clave": "entrevistas:job00282|tiktok",
+   "cuando": "2026-11-05T22:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7704801238361083154"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada|x",
+   "cuando": "2026-11-05T22:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118469228827230532"
   }
  ],
  "tandas": {
@@ -24828,7 +24840,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-05",
- "ultima_sync": "2026-11-05T21:20:15.000Z",
+ "ultima_sync": "2026-11-05T22:40:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -25271,6 +25283,7 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos": "2026-11-03T23:40:19.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento": "2026-11-03T23:20:14.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo": "2026-11-05T00:40:13.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja": "2026-11-05T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": "2026-10-18T21:40:15.000Z",
@@ -25515,6 +25528,7 @@
   "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44": "2026-10-22T00:40:17.000Z",
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
+  "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac": "2026-11-05T22:40:14.000Z",
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e": "2026-10-14T15:20:13.000Z",
   "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980": "2026-10-21T10:20:15.000Z",
   "web:3db074fa-b73d-41dc-9567-5ce1c3d65907": "2026-11-04T02:00:20.000Z",
