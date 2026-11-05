@@ -201,27 +201,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_136ffd3afd644ec2.mp4",
    "youtube_url": "https://www.youtube.com/shorts/xXH7I_PiGaM"
   },
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq": {
-   "descripcion": "Una dotación de Bomberos Voluntarios de Chivilcoy intervino ante un principio de incendio registrado en un automóvil Renault 12, dominio VGV 320, propiedad de Nicolás Centurión. El hecho ocurrió en la calle 9 de Julio, a la altura del 142. Al arribar al lugar, constataron que el fuego...",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-26T16:27:37.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Principio de incendio en un Renault 12 en calle 9 de Julio",
-   "urgente": false,
-   "video_bytes": 529591,
-   "video_mb": 0.5,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7290bb06ab0d838c.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/aoWpCs0EWCU"
-  },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum": {
    "descripcion": "La Secretaría de Seguridad de Chivilcoy, a cargo de Néstor Dabi, informó que personal policial trasladó a un hombre de 29 años, identificado como Brian Mitrovich, quien circulaba en una motocicleta marca Gilera Smash 110 cc que registraba un pedido de secuestro activo.",
    "duracion_seg": 30.0,
@@ -7011,45 +6990,6 @@
    "vence": "2026-10-28T14:07:32.000Z",
    "video_bytes": 625009,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_136ffd3afd644ec2.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tiktok": {
-   "actualizado": "2026-10-26T21:20:19.000Z",
-   "buffer_id": "6adfbf64465475d287755669",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq|tiktok",
-   "creado": "2026-10-26T16:40:17.000Z",
-   "dueAt": "2026-10-26T21:03:33.000Z",
-   "enviado": "2026-10-26T21:04:50.506Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-26T16:27:37.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7701085163316546822",
-   "metricas": {
-    "averageTimeWatched": 3.47,
-    "comments": 0,
-    "engagementRate": 1.17,
-    "reach": 233,
-    "reactions": 3,
-    "shares": 0,
-    "totalTimeWatched": 16.9,
-    "views": 257
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Principio de incendio en un Renault 12 en calle 9 de Julio\n\nUna dotación de Bomberos Voluntarios de Chivilcoy intervino ante un principio de incendio registrado en un automóvil Renault 12, dominio VGV 320, propiedad de Nicolás Centurión. El hecho ocurrió en la calle 9 de Julio, a la altura del 142. Al arribar al lugar, constataron que el fuego...\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-incidentes-principio-de-incendio-en-un-renault-12-en-calle\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Principio de incendio en un Renault 12 en calle 9 de Julio",
-   "urgente": false,
-   "vence": "2026-10-28T16:27:37.000Z",
-   "video_bytes": 529591,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7290bb06ab0d838c.mp4",
    "viral": false
   },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpt07w2xnum|tiktok": {
