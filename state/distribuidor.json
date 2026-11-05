@@ -5946,25 +5946,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/conflicto-en-salud-gremios-docentes-presentaron-un-reclamo-conjunto",
    "volanta": "Conflicto en salud"
   },
-  "web:ce55311f-7f8e-46c0-8f9a-27108c261a21": {
-   "categoria": "",
-   "descripcion": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta Una vecina de Chivilcoy hizo pública una denuncia por un tocamiento sin su consentimiento mientras se trasladaba en bicicleta por la intersección de Emilio Mitre y Necochea. De acuerdo con su relato, un hombre que circulaba en una motocicleta negra se acercó, frenó a su lado, la tocó y continuó su marcha. La mujer situó el episodio alrededor de las 8 de la mañana y remarcó que ocurrió a plena luz del día. “Yo iba...",
-   "generado": "2026-10-26T15:00:45.979Z",
-   "id": "web:ce55311f-7f8e-46c0-8f9a-27108c261a21",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_d6eba4a429e4444da33f2dd1f4b8983d~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
-   "volanta": "Chivilcoy · Policiales"
-  },
   "web:d32900c4-88d6-42ae-8c8e-361cf3839478": {
    "categoria": "",
    "descripcion": "“Remembranzas” de Daniel Magni llega a la zona norte de la ciudad y librerías locales Tras la cálida repercusión obtenida en su presentación oficial el pasado sábado 3 de octubre en las instalaciones del Museo Municipal de Artes Plásticas \"Pompeo Boggio\" —donde estuvo acompañada por los escritores Lucas Damián Cortiana y Gustavo Caggiano—, la propuesta literaria \"Remembranzas\" suma una nueva fecha para su recorrido cultural. En el marco del marco promocional del libro, también se concretó un...",
@@ -19342,31 +19323,6 @@
    "titulo": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA en Chivilcoy",
    "urgente": false,
    "vence": "2026-11-02T14:01:37.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:ce55311f-7f8e-46c0-8f9a-27108c261a21|x": {
-   "actualizado": "2026-10-26T15:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:ce55311f-7f8e-46c0-8f9a-27108c261a21|x",
-   "creado": "2026-10-26T15:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-26T15:00:45.979Z",
-   "id": "web:ce55311f-7f8e-46c0-8f9a-27108c261a21",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
-   "noticia": "nota:chivilcoy-policiales-una-mujer-denuncio-que-un-motociclista-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Una mujer denunció que un motociclista la manoseó mientras andaba en bicicleta",
-   "urgente": false,
-   "vence": "2026-10-26T19:00:45.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
