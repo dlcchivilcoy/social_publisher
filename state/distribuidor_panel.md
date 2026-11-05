@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
