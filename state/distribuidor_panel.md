@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 06/11/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-06)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 2 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 1 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 25 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 26 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,8 +27,9 @@ Actualizado: 06/11/2026 15:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (5 esperando)
 - TikTok · Reels del bot · Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Ezequiel Caselles: Pagan $2.200 la hora extra municipal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Victoria Ocampo: La expectativa de vida trans sigue siendo 35 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Fiorella Molina: del clonazepam al cannabis medicinal en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Natalia Fracchia: Los corsos deben ser gratuitos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -37,13 +38,6 @@ Actualizado: 06/11/2026 15:00 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T15:20 depurado web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-06T15:20 enviado web:292c8e3c-5713-4e83-b415-a536e66b9e64|x 
-- 2026-11-06T16:20 recibido web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x 
-- 2026-11-06T16:20 depurado web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-06T16:40 entrevista_aprobada entrevistas:job00284 
-- 2026-11-06T16:40 recibido entrevistas:job00284|x 
-- 2026-11-06T16:40 recibido entrevistas:job00284|tiktok 
 - 2026-11-06T16:40 programado entrevistas:job00284|x 
 - 2026-11-06T17:00 recibido web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x 
 - 2026-11-06T17:00 depurado web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x de la web, a X solo van las notas del diario de la mañana
@@ -62,3 +56,10 @@ Actualizado: 06/11/2026 15:00 (hora AR) · ACTIVO
 - 2026-11-06T18:00 recibido bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tikto 
 - 2026-11-06T18:00 recibido web:616edca2-10fd-421a-b351-8a958b1e4519|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-06T18:00 programado bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x 
+- 2026-11-06T18:20 entrevista_aprobada entrevistas:job00287 
+- 2026-11-06T18:20 recibido entrevistas:job00287|x 
+- 2026-11-06T18:20 recibido entrevistas:job00287|tiktok 
+- 2026-11-06T18:20 enviado bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x 
+- 2026-11-06T18:20 enviado entrevistas:job00285|x 
+- 2026-11-06T18:20 enviado entrevistas:job00286|x 
+- 2026-11-06T18:20 programado entrevistas:job00287|x 

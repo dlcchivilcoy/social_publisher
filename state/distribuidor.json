@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-06T17:00:28.000Z"
+   "visto": "2026-11-06T18:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 25
+    "sent": 26
    },
    "pausado": false,
-   "visto": "2026-11-06T17:00:28.000Z"
+   "visto": "2026-11-06T18:20:15.000Z"
   }
  },
  "contenidos": {
@@ -2090,6 +2090,27 @@
    "video_mb": 10.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00286.mp4",
    "youtube_url": "https://youtu.be/pkUBnpUS-r8"
+  },
+  "entrevistas:job00287": {
+   "descripcion": "El concejal de Fuerza Patria en Chivilcoy, Ezequiel Caselles, denunció los salarios de miseria que perciben los trabajadores municipales y exigió revisar el presupuesto.",
+   "duracion_seg": null,
+   "entrevistado": "Ezequiel Caselles",
+   "generado": "2026-11-06T18:20:14.000Z",
+   "id": "entrevistas:job00287",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Ezequiel Caselles: Pagan $2.200 la hora extra municipal",
+   "urgente": false,
+   "video_bytes": 29700111,
+   "video_mb": 28.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00287.mp4",
+   "youtube_url": "https://youtu.be/t1JtU3KwZQw"
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
@@ -8912,18 +8933,19 @@
    "viral": false
   },
   "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x": {
-   "actualizado": "2026-11-06T18:00:24.000Z",
+   "actualizado": "2026-11-06T18:20:15.000Z",
    "buffer_id": "6aee15b9229bf05daffec3f7",
    "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x",
    "creado": "2026-11-06T18:00:18.000Z",
    "dueAt": "2026-11-06T18:02:37.000Z",
+   "enviado": "2026-11-06T18:07:25.477Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T17:52:07.000Z",
    "id": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118767222189338754",
    "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
    "noticia": "nota:seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
    "origen": "bot",
@@ -13231,18 +13253,19 @@
    "viral": false
   },
   "entrevistas:job00285|x": {
-   "actualizado": "2026-11-06T17:20:16.000Z",
+   "actualizado": "2026-11-06T18:20:15.000Z",
    "buffer_id": "6aee0c51d6bbae6fa136aeff",
    "clave": "entrevistas:job00285|x",
    "creado": "2026-11-06T17:20:14.000Z",
    "dueAt": "2026-11-06T17:22:44.000Z",
+   "enviado": "2026-11-06T17:23:02.141Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T17:20:14.000Z",
    "id": "entrevistas:job00285",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118756051352691059",
    "nota_url": "",
    "noticia": "titulo:cannabis-chivilcoy-clonazepam-fiorella-medicinal-molina",
    "origen": "entrevistas",
@@ -13287,18 +13310,19 @@
    "viral": false
   },
   "entrevistas:job00286|x": {
-   "actualizado": "2026-11-06T17:40:22.000Z",
+   "actualizado": "2026-11-06T18:20:15.000Z",
    "buffer_id": "6aee1107229bf05daffd263c",
    "clave": "entrevistas:job00286|x",
    "creado": "2026-11-06T17:40:14.000Z",
    "dueAt": "2026-11-06T17:42:19.000Z",
+   "enviado": "2026-11-06T17:42:35.965Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T17:40:14.000Z",
    "id": "entrevistas:job00286",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118760974928777285",
    "nota_url": "",
    "noticia": "titulo:anos-expectativa-ocampo-siendo-sigue-trans-victoria-vida",
    "origen": "entrevistas",
@@ -13312,6 +13336,62 @@
    "vence": "2026-11-06T19:40:14.000Z",
    "video_bytes": 10476969,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00286.mp4",
+   "viral": false
+  },
+  "entrevistas:job00287|tiktok": {
+   "actualizado": "2026-11-06T18:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00287|tiktok",
+   "creado": "2026-11-06T18:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-06T18:20:14.000Z",
+   "id": "entrevistas:job00287",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Ezequiel Caselles: Pagan $2.200 la hora extra municipal\n\nEl concejal de Fuerza Patria en Chivilcoy, Ezequiel Caselles, denunció los salarios de miseria que perciben los trabajadores municipales y exigió revisar el presupuesto.\n\nhttps://youtu.be/t1JtU3KwZQw\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ezequiel Caselles: Pagan $2.200 la hora extra municipal",
+   "urgente": false,
+   "vence": "2026-11-08T18:20:14.000Z",
+   "video_bytes": 29700111,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00287.mp4",
+   "viral": false
+  },
+  "entrevistas:job00287|x": {
+   "actualizado": "2026-11-06T18:20:15.000Z",
+   "buffer_id": "6aee1a60004e4879a708fae6",
+   "clave": "entrevistas:job00287|x",
+   "creado": "2026-11-06T18:20:14.000Z",
+   "dueAt": "2026-11-06T18:22:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-06T18:20:14.000Z",
+   "id": "entrevistas:job00287",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:caselles-extra-ezequiel-hora-municipal-pagan",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Ezequiel Caselles: Pagan $2.200 la hora extra municipal\n\nEl concejal de Fuerza Patria en Chivilcoy, Ezequiel Caselles, denunció los salarios de miseria que perciben los trabajadores municipales y exigió revisar el presupuesto.\n\nhttps://youtu.be/t1JtU3KwZQw",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ezequiel Caselles: Pagan $2.200 la hora extra municipal",
+   "urgente": false,
+   "vence": "2026-11-06T20:20:14.000Z",
+   "video_bytes": 29700111,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00287.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
@@ -20388,52 +20468,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html|x",
-   "cuando": "2026-10-31T02:20:21.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/policiales-robo-conflicto-de-ex-pareja.html|x",
-   "cuando": "2026-10-31T02:20:21.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d|x",
-   "cuando": "2026-10-31T02:20:21.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/|x",
-   "cuando": "2026-10-31T02:20:21.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54|x",
-   "cuando": "2026-10-31T02:20:21.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|x",
-   "cuando": "2026-10-31T02:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok",
-   "cuando": "2026-10-31T02:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|x",
    "cuando": "2026-10-31T02:40:29.000Z",
    "estado": "pendiente",
@@ -24558,6 +24592,52 @@
    "cuando": "2026-11-06T18:00:25.000Z",
    "dueAt": "2026-11-06T18:02:37.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00287",
+   "cuando": "2026-11-06T18:20:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00287|x",
+   "cuando": "2026-11-06T18:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00287|tiktok",
+   "cuando": "2026-11-06T18:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x",
+   "cuando": "2026-11-06T18:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118767222189338754"
+  },
+  {
+   "clave": "entrevistas:job00285|x",
+   "cuando": "2026-11-06T18:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118756051352691059"
+  },
+  {
+   "clave": "entrevistas:job00286|x",
+   "cuando": "2026-11-06T18:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118760974928777285"
+  },
+  {
+   "buffer_id": "6aee1a60004e4879a708fae6",
+   "clave": "entrevistas:job00287|x",
+   "cuando": "2026-11-06T18:20:16.000Z",
+   "dueAt": "2026-11-06T18:22:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -24595,7 +24675,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-06",
- "ultima_sync": "2026-11-06T17:00:28.000Z",
+ "ultima_sync": "2026-11-06T18:20:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -24872,6 +24952,7 @@
   "entrevistas:job00284": "2026-11-06T16:40:14.000Z",
   "entrevistas:job00285": "2026-11-06T17:20:14.000Z",
   "entrevistas:job00286": "2026-11-06T17:40:14.000Z",
+  "entrevistas:job00287": "2026-11-06T18:20:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
