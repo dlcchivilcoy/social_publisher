@@ -17,7 +17,7 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-06T01:00:19.000Z"
+   "visto": "2026-11-06T02:00:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 20
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-06T01:00:19.000Z"
+   "visto": "2026-11-06T02:00:19.000Z"
   }
  },
  "contenidos": {
@@ -10941,18 +10941,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x": {
-   "actualizado": "2026-11-06T01:40:15.000Z",
+   "actualizado": "2026-11-06T02:00:19.000Z",
    "buffer_id": "6aed300007f945cca933d34c",
    "clave": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x",
    "creado": "2026-11-06T01:40:13.000Z",
    "dueAt": "2026-11-06T01:42:10.000Z",
+   "enviado": "2026-11-06T01:42:29.360Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T01:24:26.000Z",
    "id": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118519354459390307",
    "nota_url": "",
    "noticia": "titulo:bancario-celebracion-eventos-tomaso",
    "origen": "bot",
@@ -14112,18 +14113,19 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x": {
-   "actualizado": "2026-11-06T01:40:15.000Z",
+   "actualizado": "2026-11-06T02:00:19.000Z",
    "buffer_id": "6aed30017b7e47e8f4fe6b04",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x",
    "creado": "2026-11-06T00:40:13.000Z",
    "dueAt": "2026-11-06T01:47:08.000Z",
+   "enviado": "2026-11-06T01:47:18.285Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T00:31:24.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118520566944530705",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-un-joven-de-18-anos-acusado-de-robar-500-44af1a",
    "noticia": "nota:bragado-detuvieron-a-un-joven-de-18-anos-acusado-de-robar-500-44af1a",
    "origen": "policiales",
@@ -20243,18 +20245,6 @@
  },
  "registro": [
   {
-   "clave": "web:8eedc4c8-7ed9-4248-9de7-468717547999|x",
-   "cuando": "2026-10-30T13:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116136036082262109"
-  },
-  {
-   "clave": "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x",
-   "cuando": "2026-10-30T13:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116139745788969212"
-  },
-  {
    "buffer_id": "6ae494eb3dc61ec0c20102be",
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|tiktok",
    "cuando": "2026-10-30T13:00:33.000Z",
@@ -24410,6 +24400,18 @@
    "cuando": "2026-11-06T01:40:17.000Z",
    "dueAt": "2026-11-06T01:47:08.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x",
+   "cuando": "2026-11-06T02:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118519354459390307"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x",
+   "cuando": "2026-11-06T02:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118520566944530705"
   }
  ],
  "tandas": {
@@ -24447,7 +24449,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-06",
- "ultima_sync": "2026-11-06T01:00:19.000Z",
+ "ultima_sync": "2026-11-06T02:00:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

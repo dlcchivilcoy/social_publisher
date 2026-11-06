@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 1 | 1 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 3 | 0 | 1 | 0 | 2 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 20 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 22 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -35,8 +35,6 @@ Actualizado: 05/11/2026 22:40 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-05T22:40 depurado web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-05T22:40 enviado entrevistas:job00279|tiktok 
 - 2026-11-05T22:40 enviado entrevistas:job00280|tiktok 
 - 2026-11-05T22:40 enviado entrevistas:job00281|tiktok 
 - 2026-11-05T22:40 enviado entrevistas:job00282|tiktok 
@@ -60,3 +58,5 @@ Actualizado: 05/11/2026 22:40 (hora AR) · ACTIVO
 - 2026-11-06T01:40 vencido policiales:https://noticiasgilenses.com.ar/violento-robo-en- espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-06T01:40 programado bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x 
 - 2026-11-06T01:40 programado policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/ 
+- 2026-11-06T02:00 enviado bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x 
+- 2026-11-06T02:00 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/ 
