@@ -1297,6 +1297,9 @@ def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: s
 #     derecha. Número de la placa y flecha abajo a la derecha (invitan a deslizar).
 # compose_note_slide (arriba) queda para los posteos sueltos de Facebook de nacionales.
 # ---------------------------------------------------------------------------
+# 6/11/2026: la cuenta de agro (policiales-bsas, agro/carrusel.py) usa estas mismas placas con su marca:
+# cambia el nombre de acá y, solo mientras dibuja, _lockup_marca e _iso.
+NOMBRE_MARCA = "DIARIO LA CAMPAÑA"
 FONTS_DIR = Path(__file__).parent / "fonts"
 _vfont_cache: dict = {}
 
@@ -1777,8 +1780,9 @@ def _zona_caja(caras: list, alto_caja: int, y_min: int, y_max: int) -> tuple:
 
 def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str = "",
                            site_url: str = "", idx: int | None = None, total: int | None = None,
-                           *, tema: str = "claro", estilo: str | None = None) -> Path:
-    """Placa 4:5 del carrusel, estilo portal (ver el bloque de arriba). `estilo`: "A", "B" o
+                           *, tema: str = "claro", estilo: str | None = None, leyenda: str = "") -> Path:
+    """Placa 4:5 del carrusel, estilo portal (ver el bloque de arriba). `leyenda`: el crédito de la foto,
+    chico, sobre ella («Imagen generada con IA», «Foto: INTA»). `estilo`: "A", "B" o
     "C"; sin estilo, "A" si hay foto (de cualquier forma) y "C" si no hay (el que alterna es el
     que llama, con estilos_carrusel)."""
     t = TEMAS_CARRUSEL.get(tema, TEMAS_CARRUSEL["claro"])
@@ -1800,7 +1804,7 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
     _titulo = lambda s_: _sans(s_, 700)                                                  # noqa: E731
 
     if _es_vertical(foto) and estilo in ("A", "B") and not _recorte_activo():
-        return _placa_lateral(foto, t, "", lead, resto, titular, bajada, site_url, idx, total)
+        return _placa_lateral(foto, t, "", lead, resto, titular, bajada, site_url, idx, total, leyenda)
 
     if estilo in ("A", "B"):
         if foto is not None and not _recorte_activo():
@@ -1815,6 +1819,7 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
             foto_h = _alto_foto(foto, FOTO_A_H[1] if estilo == "A" else FOTO_B_H)
         if foto is not None:
             canvas.paste(_encuadrar(foto, SLIDE_W, foto_h) if _recorte_activo() else _foto_ancha(foto), (0, 0))
+            _leyenda_foto(canvas, leyenda, SLIDE_W, foto_h)
         _cabecera_carrusel(canvas)
         draw = ImageDraw.Draw(canvas)
         pie_y = SLIDE_H - 66
@@ -1985,8 +1990,21 @@ def _pie_columna(canvas, draw, t: dict, x0: int, x1: int, idx, total, site_url: 
     return y
 
 
+def _leyenda_foto(canvas, texto: str, x1: int, y1: int) -> None:
+    """El crédito de la foto, chico y sobre una píldora oscura, en el rincón (x1, y1) de abajo a la derecha."""
+    if not texto:
+        return
+    f = _sans(22, 500)
+    w = ImageDraw.Draw(canvas).textlength(texto, font=f)
+    caja = Image.new("RGBA", (round(w) + 28, 38), (0, 0, 0, 0))
+    d = ImageDraw.Draw(caja)
+    d.rounded_rectangle((0, 0, caja.width - 1, 37), radius=19, fill=(0, 0, 0, 150))
+    d.text((14, 19), texto, font=f, fill=(240, 240, 240, 255), anchor="lm")
+    canvas.paste(caja, (x1 - 24 - caja.width, y1 - 16 - caja.height), caja)
+
+
 def _placa_lateral(foto, t: dict, volanta: str, lead: str, resto: str, titulo: str, texto: str,
-                   site_url: str, idx, total) -> Path:
+                   site_url: str, idx, total, leyenda: str = "") -> Path:
     """Placa de una foto VERTICAL: la foto entera contra el margen izquierdo, a todo el alto, y la columna
     de la derecha con el título, el texto y el pie. `lead` + `resto` es el título (la portada lleva el
     comienzo en color y `volanta` vacía; la lámina, al revés). Si la foto no llena el alto (una 3:4), los
@@ -1997,6 +2015,7 @@ def _placa_lateral(foto, t: dict, volanta: str, lead: str, resto: str, titulo: s
     _grad_overlay(cuadro, 0, 240, (0, 0, 0), 170, 0, gamma=1.2)
     _con_sombra(cuadro, _lockup_marca(350), CARRUSEL_MARGEN, 46)
     canvas.paste(cuadro, (0, 0))
+    _leyenda_foto(canvas, leyenda, ancho_f, SLIDE_H)
     draw = ImageDraw.Draw(canvas)
     draw.rectangle((ancho_f, 0, ancho_f + 9, SLIDE_H), fill=t["acento"])
 
@@ -2070,7 +2089,7 @@ def _lamina_solo_texto(volanta: str, titulo: str, texto: str, site_url: str, idx
         draw.text((W - 40, H - 150), f"{idx:02d}", font=_sans(520, 800), fill=tenue, anchor="rs")
     # Cabecera: isotipo + DIARIO LA CAMPAÑA a la izquierda, «02 / 06» a la derecha.
     x = _paste_iso(canvas, m, 70, 50, orange=not t.get("iso_blanco")) + 16
-    draw.text((x, 95), "DIARIO LA CAMPAÑA", font=_sans(24, 700), fill=t["texto"], anchor="lm")
+    draw.text((x, 95), NOMBRE_MARCA, font=_sans(24, 700), fill=t["texto"], anchor="lm")
     if idx and total:
         draw.text((W - m, 95), f"{idx:02d} / {total:02d}", font=_sans(32, 700), fill=t["acento"],
                   anchor="rm")
