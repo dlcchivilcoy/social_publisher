@@ -747,6 +747,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77ecef32ab069460.mp4",
    "youtube_url": "https://www.youtube.com/shorts/UOHKY5HUjYI"
   },
+  "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh": {
+   "descripcion": "Néstor Dabi afirmó que la convocatoria de policías locales para un operativo en Luján recae sobre personal que se encuentra de franco. El secretario de Seguridad aseguró que la medida no altera el normal desenvolvimiento de las tareas de prevención en Chivilcoy.",
+   "duracion_seg": 29.3,
+   "generado": "2026-11-06T17:52:07.000Z",
+   "id": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 1080965,
+   "video_mb": 1.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_adc2bff2a025cb9a.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/w5hDrWpQnJw"
+  },
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4": {
    "descripcion": "Una vecina hizo pública una denuncia a través de sus redes sociales luego de sufrir un tocamiento sin su consentimiento mientras circulaba en bicicleta por la intersección de Emilio Mitre y Necochea.\n\nDe acuerdo con su testimonio, el hecho ocurrió alrededor de las 8 de la mañana. En ese momento, un hombre que se desplazaba a bordo de una motocicleta negra frenó a su lado, la tocó y continuó su marcha a plena luz del día.\n\nSegún la descripción que brindó la damnificada, el motociclista no llevaba casco, vestía una capucha gris junto a una campera inflable de color negro, y el rodado no tenía la patente colocada. Con el fin de alertar a quienes transitan por la zona, la mujer difundió una grabación de una cámara de seguridad donde se observa el paso del sospechoso.\n\nAsimismo, en publicaciones posteriores compartió mensajes de terceros sobre episodios de similares características ocurridos previamente en la ciudad. Sin embargo, los elementos aportados hasta el momento no permiten identificar al autor ni establecer una relación directa entre los distintos relatos.",
    "duracion_seg": 27.3,
@@ -4370,6 +4391,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/educacion-y-ciencia-la-falta-de-actualizacion-salarial-arrastra-a",
    "volanta": "Educación y Ciencia"
   },
+  "web:616edca2-10fd-421a-b351-8a958b1e4519": {
+   "categoria": "",
+   "descripcion": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy El secretario de Seguridad, Néstor Dabi, confirmó en diálogo con Diario La Campaña y Radio del Centro que efectivos policiales de Chivilcoy fueron convocados para participar de un operativo en Luján. Al respecto, el funcionario explicó que la medida no resiente la cobertura en el distrito. «Los que están de servicio están de servicio, los que están de franco son convocados para ese operativo», detalló Dabi sobre el...",
+   "generado": "2026-11-06T17:50:11.501Z",
+   "id": "web:616edca2-10fd-421a-b351-8a958b1e4519",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1572b84210f847e6aa0e96bea81550cc~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
+   "volanta": "Seguridad local"
+  },
   "web:6541af24-4488-427f-95aa-ae535252bd65": {
    "categoria": "",
    "descripcion": "Un viaje que nadie había planeado, un país que te enamora y una pregunta simple: ¿por qué es tan difícil encontrar a alguien de confianza para arreglar algo en casa? ¿Y por qué le cuesta tanto a un buen profesional de oficio conseguir trabajo constante? Hay historias que empiezan con un plan de negocios. La de Servidos empezó con un comentario en internet. Domas, el fundador de Servidos, trabaja como desarrollador web freelance desde 2013, cuando estudiaba economía y negocios en el Reino...",
@@ -6917,43 +6957,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88b03b44347318c1.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x": {
-   "actualizado": "2026-10-27T17:41:27.000Z",
-   "buffer_id": "6ae0d3ffd7e117a25cbf0fe8",
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|x",
-   "creado": "2026-10-27T16:40:16.000Z",
-   "dueAt": "2026-10-27T16:42:30.000Z",
-   "enviado": "2026-10-27T16:42:35.280Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-27T16:29:40.000Z",
-   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2115121993867546633",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 27,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
-   "noticia": "nota:chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Comienza una nueva edición del festival Chivilcoy Teatrero\n\nLa 11.ª edición del festival inicia con un tour teatral por la plaza 25 de Mayo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Comienza una nueva edición del festival Chivilcoy Teatrero",
-   "urgente": false,
-   "vence": "2026-10-27T18:29:40.000Z",
-   "video_bytes": 3845007,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88b03b44347318c1.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a|tiktok": {
    "actualizado": "2026-10-27T21:20:15.000Z",
    "buffer_id": "6ae110e64e914b3cee29a19b",
@@ -8880,6 +8883,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77ecef32ab069460.mp4",
    "viral": false
   },
+  "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tiktok": {
+   "actualizado": "2026-11-06T18:00:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tiktok",
+   "creado": "2026-11-06T18:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-06T17:52:07.000Z",
+   "id": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy\n\nNéstor Dabi afirmó que la convocatoria de policías locales para un operativo en Luján recae sobre personal que se encuentra de franco. El secretario de Seguridad aseguró que la medida no altera el normal desenvolvimiento de las tareas de prevención en Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-08T17:52:07.000Z",
+   "video_bytes": 1080965,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_adc2bff2a025cb9a.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x": {
+   "actualizado": "2026-11-06T18:00:24.000Z",
+   "buffer_id": "6aee15b9229bf05daffec3f7",
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x",
+   "creado": "2026-11-06T18:00:18.000Z",
+   "dueAt": "2026-11-06T18:02:37.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-06T17:52:07.000Z",
+   "id": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
+   "noticia": "nota:seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy\n\nNéstor Dabi afirmó que el operativo usa policías de franco. El funcionario aseguró que esto no altera las tareas de prevención.\n\nhttps://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-06T19:52:07.000Z",
+   "video_bytes": 1080965,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_adc2bff2a025cb9a.mp4",
+   "viral": false
+  },
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok": {
    "actualizado": "2026-10-28T15:20:24.000Z",
    "buffer_id": "",
@@ -10726,43 +10785,6 @@
    "titulo": "Pablo Torres: la cultura es la memoria de los pueblos",
    "urgente": false,
    "vence": "2026-10-29T17:20:17.000Z",
-   "video_bytes": 32855327,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
-   "viral": false
-  },
-  "entrevistas:job00252|x": {
-   "actualizado": "2026-10-27T17:41:27.000Z",
-   "buffer_id": "6ae0dd524490ad849033e11e",
-   "clave": "entrevistas:job00252|x",
-   "creado": "2026-10-27T17:20:17.000Z",
-   "dueAt": "2026-10-27T17:22:05.000Z",
-   "enviado": "2026-10-27T17:22:57.054Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-27T17:20:17.000Z",
-   "id": "entrevistas:job00252",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2115132151314157597",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 29,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:cultura-memoria-pablo-pueblos-torres",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Pablo Torres: la cultura es la memoria de los pueblos\n\nEn Chivilcoy, el músico Pablo Torres destacó el valor de los semilleros y la educación pública en la formación artística. Presentó el concierto de Los Duendes de Cage a beneficio del Conservatorio.\n\nhttps://youtu.be/Hi8zJv8Rc-4",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Pablo Torres: la cultura es la memoria de los pueblos",
-   "urgente": false,
-   "vence": "2026-10-27T19:20:17.000Z",
    "video_bytes": 32855327,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
    "viral": false
@@ -16504,6 +16526,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:616edca2-10fd-421a-b351-8a958b1e4519|x": {
+   "actualizado": "2026-11-06T18:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:616edca2-10fd-421a-b351-8a958b1e4519|x",
+   "creado": "2026-11-06T18:00:18.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-06T17:50:11.501Z",
+   "id": "web:616edca2-10fd-421a-b351-8a958b1e4519",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
+   "noticia": "nota:seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-06T21:50:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:6541af24-4488-427f-95aa-ae535252bd65|x": {
    "actualizado": "2026-11-02T18:20:35.000Z",
    "buffer_id": "",
@@ -20340,32 +20387,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|x",
-   "cuando": "2026-10-31T00:20:31.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116314945621029090"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x",
-   "cuando": "2026-10-31T01:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tiktok",
-   "cuando": "2026-10-31T01:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702620964760210689"
-  },
-  {
-   "clave": "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54|x",
-   "cuando": "2026-10-31T02:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html|x",
    "cuando": "2026-10-31T02:20:21.000Z",
@@ -24506,6 +24527,37 @@
    "cuando": "2026-11-06T17:40:23.000Z",
    "dueAt": "2026-11-06T17:42:19.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x",
+   "cuando": "2026-11-06T18:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tiktok",
+   "cuando": "2026-11-06T18:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:616edca2-10fd-421a-b351-8a958b1e4519|x",
+   "cuando": "2026-11-06T18:00:24.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6aee15b9229bf05daffec3f7",
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x",
+   "cuando": "2026-11-06T18:00:25.000Z",
+   "dueAt": "2026-11-06T18:02:37.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -24659,6 +24711,7 @@
   "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6": "2026-11-03T02:00:19.000Z",
   "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi": "2026-11-03T12:00:20.000Z",
   "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v": "2026-11-06T09:00:16.000Z",
+  "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh": "2026-11-06T18:00:18.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -25318,6 +25371,7 @@
   "web:603008ee-aaa2-4035-94d1-a082d4cfaa32": "2026-10-22T10:02:31.000Z",
   "web:606007a3-f032-422b-ace3-ee59408ba8de": "2026-10-30T10:01:54.000Z",
   "web:6092c4f7-b53e-4964-a892-2470dfeed127": "2026-10-14T10:20:15.000Z",
+  "web:616edca2-10fd-421a-b351-8a958b1e4519": "2026-11-06T18:00:18.000Z",
   "web:61fa0efb-5787-4c59-bce8-a86006933cfa": "2026-10-17T13:20:16.000Z",
   "web:62679199-0cb1-44ba-8928-add87ea1fa3f": "2026-10-15T10:20:13.000Z",
   "web:63610a74-1ceb-4c17-9d20-a5b404821855": "2026-10-13T18:20:14.000Z",
