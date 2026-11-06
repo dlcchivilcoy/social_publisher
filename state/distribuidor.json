@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 5,
-    "sent": 3
+    "scheduled": 1,
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-11-06T21:20:15.000Z"
+   "visto": "2026-11-06T22:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 26
    },
    "pausado": false,
-   "visto": "2026-11-06T21:20:15.000Z"
+   "visto": "2026-11-06T22:40:15.000Z"
   }
  },
  "contenidos": {
@@ -158,27 +158,6 @@
    "video_mb": 0.7,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e492fc5ebab29c9c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/etCliIg9WA0"
-  },
-  "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti": {
-   "descripcion": "La 11.ª edición del festival inicia con un tour teatral por la plaza 25 de Mayo. La programación incluirá espectáculos en salas independientes, escuelas y localidades de campaña, con entrada libre y gratuita. Chivilcoy se prepara para vivir una nueva edición del Chivilcoy Teatrero.",
-   "duracion_seg": 32.0,
-   "generado": "2026-10-27T16:29:40.000Z",
-   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Comienza una nueva edición del festival Chivilcoy Teatrero",
-   "urgente": false,
-   "video_bytes": 3845007,
-   "video_mb": 3.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88b03b44347318c1.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/YtMunqKpLbI"
   },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef": {
    "descripcion": "La firma Amarilla Gas cerrará el área de envasado en su planta de Chivilcoy y desvinculará a nueve operarios con el pago total de indemnizaciones. El delegado regional Fernando Antonelli confirmó que continuarán operativas la distribución y la comercialización, aunque el gremio sostiene una medida de fuerza.",
@@ -1356,48 +1335,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
    "youtube_url": "https://youtu.be/Hi8zJv8Rc-4"
   },
-  "entrevistas:job00253": {
-   "descripcion": "Vale Vassallo, integrante de la Comisión de Mujeres de CECOINSE en Chivilcoy, relató cómo su diagnóstico de cáncer de mama la impulsó a crear un grupo de contención entre pares. Explicó el valor de compartir vivencias con quienes atravesaron la misma situación.",
-   "duracion_seg": null,
-   "entrevistado": "Carla Palomequez",
-   "generado": "2026-10-27T18:00:20.000Z",
-   "id": "entrevistas:job00253",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Vale Vassallo creó un grupo de apoyo oncológico en Chivilcoy",
-   "urgente": false,
-   "video_bytes": 32616873,
-   "video_mb": 31.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00253.mp4",
-   "youtube_url": "https://youtu.be/0-zQetn8oMw"
-  },
-  "entrevistas:job00254": {
-   "descripcion": "En Chivilcoy, el médico veterinario del INTA Joaquin Moja advirtió sobre la resistencia a los acaricidas que diezmó colmenas en EE.UU. y el uso de productos ilegales en Argentina.",
-   "duracion_seg": null,
-   "entrevistado": "Joaquin Moja",
-   "generado": "2026-10-27T18:20:15.000Z",
-   "id": "entrevistas:job00254",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Joaquin Moja: Alerta apícola por resistencia en varroa",
-   "urgente": false,
-   "video_bytes": 19782029,
-   "video_mb": 18.9,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00254.mp4",
-   "youtube_url": "https://youtu.be/t4r4Q8Jg-OM"
-  },
   "entrevistas:job00255": {
    "descripcion": "El director de la UNLu Sede Chivilcoy, Jorge Guelffi, relató cómo impulsaron la adaptación de carros especiales para que chicos con discapacidad puedan participar de las carreras. Una iniciativa comunitaria que busca garantizar la inclusión en el deporte local.",
    "duracion_seg": null,
@@ -2475,6 +2412,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_02_junin_jun-n-secuestraron-un-auto-con.mp4",
    "volanta": "Operativo en Junín",
    "youtube_url": "https://youtube.com/shorts/SiRjH7ma-S0"
+  },
+  "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre": {
+   "categoria": "otro_policial",
+   "descripcion": "Una beba ingresó al Hospital Municipal de Chivilcoy con lesiones en sus partes íntimas. La madre la trasladó tras advertir el cuadro y denunció formalmente al padre biológico del ataque. La Justicia investiga el caso.",
+   "distancia_km": 0.0,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-06T22:31:50.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-internaron-a-una-beba-con-signos-de-abuso-y-la-madre-356146",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Una beba quedó internada en el Hospital Municipal de Chivilcoy tras ser llevada por su madre con graves lesiones en sus partes íntimas.\n\nAnte esta situación, la mujer realizó una denuncia directa contra el padre biológico de la menor.\n\nLa Justicia ya tomó intervención en el hecho para esclarecer lo sucedido.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #AbusoInfantil #Investigacion #BuenosAires",
+   "tipo": "video",
+   "titulo": "Beba internada por abuso y denuncia contra el padre en Chivilcoy",
+   "urgente": true,
+   "video_bytes": 77251,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_04_junin_beba-internada-por-abuso-y-den.mp4",
+   "volanta": "Chivilcoy en Junín",
+   "youtube_url": "https://youtube.com/shorts/dnZ57_CYQVI"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html": {
    "categoria": "robo",
@@ -6946,45 +6909,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e492fc5ebab29c9c.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tiktok": {
-   "actualizado": "2026-10-27T22:20:15.000Z",
-   "buffer_id": "6ae110e72f35d654faed57b7",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti|tiktok",
-   "creado": "2026-10-27T16:40:16.000Z",
-   "dueAt": "2026-10-27T21:23:45.000Z",
-   "enviado": "2026-10-27T21:24:27.462Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-27T16:29:40.000Z",
-   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqw75yr26ti",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7701461464195878165",
-   "metricas": {
-    "averageTimeWatched": 2.35,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 25,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 3.55,
-    "views": 84
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Comienza una nueva edición del festival Chivilcoy Teatrero\n\nLa 11.ª edición del festival inicia con un tour teatral por la plaza 25 de Mayo. La programación incluirá espectáculos en salas independientes, escuelas y localidades de campaña, con entrada libre y gratuita. Chivilcoy se prepara para vivir una nueva edición del Chivilcoy Teatrero.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Comienza una nueva edición del festival Chivilcoy Teatrero",
-   "urgente": false,
-   "vence": "2026-10-29T16:29:40.000Z",
-   "video_bytes": 3845007,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88b03b44347318c1.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef|tiktok": {
    "actualizado": "2026-10-28T14:00:23.000Z",
    "buffer_id": "6ae1f1e623102e8c6f81a970",
@@ -10743,84 +10667,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
    "viral": false
   },
-  "entrevistas:job00253|tiktok": {
-   "actualizado": "2026-10-27T22:20:15.000Z",
-   "buffer_id": "6ae110e8b017df23970aafd4",
-   "categoria": "",
-   "clave": "entrevistas:job00253|tiktok",
-   "creado": "2026-10-27T18:00:20.000Z",
-   "dueAt": "2026-10-27T22:03:48.000Z",
-   "enviado": "2026-10-27T22:04:43.991Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-27T18:00:20.000Z",
-   "id": "entrevistas:job00253",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7701471821144542472",
-   "metricas": {
-    "averageTimeWatched": 3.59,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 91,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 6.22,
-    "views": 98
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Vale Vassallo creó un grupo de apoyo oncológico en Chivilcoy\n\nVale Vassallo, integrante de la Comisión de Mujeres de CECOINSE en Chivilcoy, relató cómo su diagnóstico de cáncer de mama la impulsó a crear un grupo de contención entre pares. Explicó el valor de compartir vivencias con quienes atravesaron la misma situación.\n\nhttps://youtu.be/0-zQetn8oMw\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Vale Vassallo creó un grupo de apoyo oncológico en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-29T18:00:20.000Z",
-   "video_bytes": 32616873,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00253.mp4",
-   "viral": false
-  },
-  "entrevistas:job00254|tiktok": {
-   "actualizado": "2026-10-27T22:20:15.000Z",
-   "buffer_id": "6ae110e84e914b3cee29a2ad",
-   "categoria": "",
-   "clave": "entrevistas:job00254|tiktok",
-   "creado": "2026-10-27T18:20:15.000Z",
-   "dueAt": "2026-10-27T21:43:43.000Z",
-   "enviado": "2026-10-27T21:45:28.261Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-27T18:20:15.000Z",
-   "id": "entrevistas:job00254",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7701466615967190292",
-   "metricas": {
-    "averageTimeWatched": 4.71,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 83,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 8.63,
-    "views": 91
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Joaquin Moja: Alerta apícola por resistencia en varroa\n\nEn Chivilcoy, el médico veterinario del INTA Joaquin Moja advirtió sobre la resistencia a los acaricidas que diezmó colmenas en EE.UU. y el uso de productos ilegales en Argentina.\n\nhttps://youtu.be/t4r4Q8Jg-OM\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Joaquin Moja: Alerta apícola por resistencia en varroa",
-   "urgente": false,
-   "vence": "2026-10-29T18:20:15.000Z",
-   "video_bytes": 19782029,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00254.mp4",
-   "viral": false
-  },
   "entrevistas:job00255|tiktok": {
    "actualizado": "2026-10-29T01:40:18.000Z",
    "buffer_id": "6ae28c987d94db46db249930",
@@ -13083,19 +12929,20 @@
    "viral": false
   },
   "entrevistas:job00285|tiktok": {
-   "actualizado": "2026-11-06T21:00:17.000Z",
+   "actualizado": "2026-11-06T22:40:15.000Z",
    "buffer_id": "6aee3fe99214322f68afbd42",
    "categoria": "",
    "clave": "entrevistas:job00285|tiktok",
    "creado": "2026-11-06T17:20:14.000Z",
    "dueAt": "2026-11-06T22:23:02.000Z",
+   "enviado": "2026-11-06T22:24:58.165Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T17:20:14.000Z",
    "id": "entrevistas:job00285",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7705187637836926226",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -13140,19 +12987,20 @@
    "viral": false
   },
   "entrevistas:job00286|tiktok": {
-   "actualizado": "2026-11-06T21:00:17.000Z",
+   "actualizado": "2026-11-06T22:40:15.000Z",
    "buffer_id": "6aee3fe8004e4879a715584f",
    "categoria": "",
    "clave": "entrevistas:job00286|tiktok",
    "creado": "2026-11-06T17:40:14.000Z",
    "dueAt": "2026-11-06T22:03:11.000Z",
+   "enviado": "2026-11-06T22:04:58.293Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T17:40:14.000Z",
    "id": "entrevistas:job00286",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7705181689768693044",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -13197,19 +13045,20 @@
    "viral": false
   },
   "entrevistas:job00287|tiktok": {
-   "actualizado": "2026-11-06T21:00:17.000Z",
+   "actualizado": "2026-11-06T22:40:15.000Z",
    "buffer_id": "6aee3fe69214322f68afbb19",
    "categoria": "",
    "clave": "entrevistas:job00287|tiktok",
    "creado": "2026-11-06T18:20:14.000Z",
    "dueAt": "2026-11-06T21:43:59.000Z",
+   "enviado": "2026-11-06T21:44:44.481Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T18:20:14.000Z",
    "id": "entrevistas:job00287",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7705177502532078855",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -13254,19 +13103,20 @@
    "viral": false
   },
   "entrevistas:job00288|tiktok": {
-   "actualizado": "2026-11-06T21:00:17.000Z",
+   "actualizado": "2026-11-06T22:40:15.000Z",
    "buffer_id": "6aee3fe5a7751de7c9a9768c",
    "categoria": "",
    "clave": "entrevistas:job00288|tiktok",
    "creado": "2026-11-06T19:00:17.000Z",
    "dueAt": "2026-11-06T21:23:29.000Z",
+   "enviado": "2026-11-06T21:25:14.239Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T19:00:17.000Z",
    "id": "entrevistas:job00288",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7705172232972061973",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -13737,6 +13587,34 @@
    "video_bytes": 93049,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_02_junin_jun-n-secuestraron-un-auto-con.mp4",
    "viral": false
+  },
+  "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x": {
+   "actualizado": "2026-11-06T22:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x",
+   "creado": "2026-11-06T22:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-06T22:31:50.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-internaron-a-una-beba-con-signos-de-abuso-y-la-madre-356146",
+   "noticia": "nota:chivilcoy-internaron-a-una-beba-con-signos-de-abuso-y-la-madre-356146",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Beba internada por abuso y denuncia contra el padre en Chivilcoy\n\nLa madre de la menor la trasladó a un centro de salud tras advertir las lesiones y denunció al padre biológico. La Justicia investiga el hecho.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-internaron-a-una-beba-con-signos-de-abuso-y-la-madre-356146",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Beba internada por abuso y denuncia contra el padre en Chivilcoy",
+   "urgente": true,
+   "vence": "2026-11-07T00:31:50.000Z",
+   "video_bytes": 77251,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_04_junin_beba-internada-por-abuso-y-den.mp4",
+   "viral": true
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html|x": {
    "actualizado": "2026-10-28T00:40:18.000Z",
@@ -14501,18 +14379,19 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347689-un-joven-fue-aprehendido-con-cocaina-durante-un-op|x": {
-   "actualizado": "2026-11-06T22:20:13.000Z",
+   "actualizado": "2026-11-06T22:40:15.000Z",
    "buffer_id": "6aee529e004e4879a71b3a4d",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347689-un-joven-fue-aprehendido-con-cocaina-durante-un-op|x",
    "creado": "2026-11-06T22:20:13.000Z",
    "dueAt": "2026-11-06T22:23:54.000Z",
+   "enviado": "2026-11-06T22:24:03.835Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T22:01:25.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347689-un-joven-fue-aprehendido-con-cocaina-durante-un-op",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118831807764300093",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-aprehendieron-a-un-joven-con-cocaina-y-un-arma-blanca-en-120fa7",
    "noticia": "nota:junin-aprehendieron-a-un-joven-con-cocaina-y-un-arma-blanca-en-120fa7",
    "origen": "policiales",
@@ -20387,43 +20266,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae5f477ab019b9087078023",
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|x",
-   "cuando": "2026-10-31T14:00:23.000Z",
-   "dueAt": "2026-10-31T14:02:03.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti|tiktok",
-   "cuando": "2026-10-31T14:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4|tiktok",
-   "cuando": "2026-10-31T14:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|tiktok",
-   "cuando": "2026-10-31T14:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|tiktok",
-   "cuando": "2026-10-31T14:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|x",
-   "cuando": "2026-10-31T14:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116531790382788783"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok",
    "cuando": "2026-10-31T15:40:14.000Z",
    "evento": "vencido",
@@ -24550,6 +24392,44 @@
    "cuando": "2026-11-06T22:20:14.000Z",
    "dueAt": "2026-11-06T22:23:54.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x",
+   "cuando": "2026-11-06T22:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "entrevistas:job00285|tiktok",
+   "cuando": "2026-11-06T22:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7705187637836926226"
+  },
+  {
+   "clave": "entrevistas:job00286|tiktok",
+   "cuando": "2026-11-06T22:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7705181689768693044"
+  },
+  {
+   "clave": "entrevistas:job00287|tiktok",
+   "cuando": "2026-11-06T22:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7705177502532078855"
+  },
+  {
+   "clave": "entrevistas:job00288|tiktok",
+   "cuando": "2026-11-06T22:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7705172232972061973"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347689-un-joven-fue-aprehendido-con-cocaina-durante-un-op|x",
+   "cuando": "2026-11-06T22:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118831807764300093"
   }
  ],
  "tandas": {
@@ -24587,7 +24467,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-06",
- "ultima_sync": "2026-11-06T21:20:15.000Z",
+ "ultima_sync": "2026-11-06T22:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -25015,6 +24895,7 @@
   "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos": "2026-10-17T09:00:19.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado": "2026-11-03T00:40:17.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada": "2026-11-05T22:20:13.000Z",
+  "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre": "2026-11-06T22:40:13.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html": "2026-10-15T14:00:19.000Z",
