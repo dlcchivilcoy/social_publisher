@@ -2049,6 +2049,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00285.mp4",
    "youtube_url": "https://youtu.be/i1yy4g1M9CM"
   },
+  "entrevistas:job00286": {
+   "descripcion": "En Chivilcoy, la referenta de ATTTA Victoria Ocampo alertó sobre la falta de acceso a la salud, educación y trabajo que reduce la expectativa de vida del colectivo travesti trans.",
+   "duracion_seg": null,
+   "entrevistado": "Victoria Ocampo",
+   "generado": "2026-11-06T17:40:14.000Z",
+   "id": "entrevistas:job00286",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Victoria Ocampo: La expectativa de vida trans sigue siendo 35 años",
+   "urgente": false,
+   "video_bytes": 10476969,
+   "video_mb": 10.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00286.mp4",
+   "youtube_url": "https://youtu.be/pkUBnpUS-r8"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -5564,6 +5585,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/moquehua-puntero-chivilcoy-mariano-cejas-nos-preocupamos-por-lo",
    "volanta": "Moquehuá puntero"
+  },
+  "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Britos anunció un bono de 100 mil pesos para empleados municipales En el marco de los festejos por el Día del Empleado Municipal, el intendente de Chivilcoy, Guillermo Britos, encabezó un encuentro y brindis junto al personal de las distintas áreas. Durante su discurso, confirmó el pago de un bono extraordinario de $100.000 destinado a los 1.200 trabajadores que perciben los salarios más bajos. El beneficio estará dirigido exclusivamente a aquellos empleados que hayan cobrado el...",
+   "generado": "2026-11-06T17:39:15.933Z",
+   "id": "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_dcf1e9ad99b548ab8484f0223d63c2cd~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-chivilcoy-britos-anuncio-un-bono-de-100-mil-pesos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Britos anunció un bono de 100 mil pesos para empleados municipales",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gremiales-chivilcoy-britos-anuncio-un-bono-de-100-mil-pesos",
+   "volanta": "Chivilcoy · Gremiales"
   },
   "web:b925d902-abaf-4747-b015-c7ca603f167c": {
    "categoria": "",
@@ -13196,6 +13236,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00285.mp4",
    "viral": false
   },
+  "entrevistas:job00286|tiktok": {
+   "actualizado": "2026-11-06T17:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00286|tiktok",
+   "creado": "2026-11-06T17:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-06T17:40:14.000Z",
+   "id": "entrevistas:job00286",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Victoria Ocampo: La expectativa de vida trans sigue siendo 35 años\n\nEn Chivilcoy, la referenta de ATTTA Victoria Ocampo alertó sobre la falta de acceso a la salud, educación y trabajo que reduce la expectativa de vida del colectivo travesti trans.\n\nhttps://youtu.be/pkUBnpUS-r8\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Victoria Ocampo: La expectativa de vida trans sigue siendo 35 años",
+   "urgente": false,
+   "vence": "2026-11-08T17:40:14.000Z",
+   "video_bytes": 10476969,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00286.mp4",
+   "viral": false
+  },
+  "entrevistas:job00286|x": {
+   "actualizado": "2026-11-06T17:40:22.000Z",
+   "buffer_id": "6aee1107229bf05daffd263c",
+   "clave": "entrevistas:job00286|x",
+   "creado": "2026-11-06T17:40:14.000Z",
+   "dueAt": "2026-11-06T17:42:19.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-06T17:40:14.000Z",
+   "id": "entrevistas:job00286",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:anos-expectativa-ocampo-siendo-sigue-trans-victoria-vida",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Victoria Ocampo: La expectativa de vida trans sigue siendo 35 años\n\nEn Chivilcoy, la referenta de ATTTA Victoria Ocampo alertó sobre la falta de acceso a la salud, educación y trabajo que reduce la expectativa de vida del colectivo travesti trans.\n\nhttps://youtu.be/pkUBnpUS-r8",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Victoria Ocampo: La expectativa de vida trans sigue siendo 35 años",
+   "urgente": false,
+   "vence": "2026-11-06T19:40:14.000Z",
+   "video_bytes": 10476969,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00286.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -18468,6 +18564,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455|x": {
+   "actualizado": "2026-11-06T17:40:22.000Z",
+   "buffer_id": "",
+   "clave": "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455|x",
+   "creado": "2026-11-06T17:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-06T17:39:15.933Z",
+   "id": "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-chivilcoy-britos-anuncio-un-bono-de-100-mil-pesos",
+   "noticia": "nota:chivilcoy-gremiales-chivilcoy-britos-anuncio-un-bono-de-100-mil-pesos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Britos anunció un bono de 100 mil pesos para empleados municipales\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-chivilcoy-britos-anuncio-un-bono-de-100-mil-pesos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Britos anunció un bono de 100 mil pesos para empleados municipales",
+   "urgente": false,
+   "vence": "2026-11-06T21:39:15.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b925d902-abaf-4747-b015-c7ca603f167c|x": {
    "actualizado": "2026-11-06T13:00:16.000Z",
    "buffer_id": "6aedbca164d4343f608ac5e5",
@@ -20217,51 +20340,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae52f95ceb491e585c98ff2",
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tiktok",
-   "cuando": "2026-10-31T00:00:21.000Z",
-   "dueAt": "2026-10-31T00:23:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d|x",
-   "cuando": "2026-10-31T00:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/policiales-robo-conflicto-de-ex-pareja.html|x",
-   "cuando": "2026-10-31T00:20:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/|x",
-   "cuando": "2026-10-31T00:20:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html|x",
-   "cuando": "2026-10-31T00:20:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|tiktok",
-   "cuando": "2026-10-31T00:20:31.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702615797167869205"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|x",
    "cuando": "2026-10-31T00:20:31.000Z",
@@ -24386,6 +24464,48 @@
    "cuando": "2026-11-06T17:20:17.000Z",
    "dueAt": "2026-11-06T17:22:44.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00286",
+   "cuando": "2026-11-06T17:40:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00286|x",
+   "cuando": "2026-11-06T17:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00286|tiktok",
+   "cuando": "2026-11-06T17:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455|x",
+   "cuando": "2026-11-06T17:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455|x",
+   "cuando": "2026-11-06T17:40:22.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "buffer_id": "6aee1107229bf05daffd263c",
+   "clave": "entrevistas:job00286|x",
+   "cuando": "2026-11-06T17:40:23.000Z",
+   "dueAt": "2026-11-06T17:42:19.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -24698,6 +24818,7 @@
   "entrevistas:job00283": "2026-11-05T19:00:18.000Z",
   "entrevistas:job00284": "2026-11-06T16:40:14.000Z",
   "entrevistas:job00285": "2026-11-06T17:20:14.000Z",
+  "entrevistas:job00286": "2026-11-06T17:40:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
@@ -25437,6 +25558,7 @@
   "web:b4dddc38-6caa-416d-8010-6276dec99036": "2026-10-26T10:20:14.000Z",
   "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69": "2026-10-27T10:03:31.000Z",
   "web:b560e67f-5921-48d3-b7cd-51da35bc1db3": "2026-10-14T10:20:15.000Z",
+  "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455": "2026-11-06T17:40:14.000Z",
   "web:b5dadd63-ede0-47a4-b1d8-467d9a87f16f": "2026-10-19T10:20:14.000Z",
   "web:b6d79f8b-20cb-429f-95dc-adf0d9340584": "2026-10-26T10:20:14.000Z",
   "web:b6fb5d90-4508-431b-b874-06c3716a8faf": "2026-10-15T00:40:14.000Z",
