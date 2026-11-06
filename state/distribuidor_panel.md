@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 05/11/2026 23:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 3 | 0 | 1 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 3 | 0 | 0 | 0 | 3 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,13 @@ Actualizado: 05/11/2026 23:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - TikTok · Reels del bot · Celebración del Día del Bancario en Tomaso Eventos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Aprehendieron a un joven de 18 años tras esclarecer un hurto domiciliario — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-05T22:40 enviado entrevistas:job00280|tiktok 
 - 2026-11-05T22:40 enviado entrevistas:job00281|tiktok 
 - 2026-11-05T22:40 enviado entrevistas:job00282|tiktok 
 - 2026-11-05T22:40 enviado policiales:https://semanariodejunin.com.ar/nota/76304/ddi-ju 
@@ -60,3 +58,4 @@ Actualizado: 05/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-06T01:40 programado policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/ 
 - 2026-11-06T02:00 enviado bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x 
 - 2026-11-06T02:00 enviado policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/ 
+- 2026-11-06T02:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
