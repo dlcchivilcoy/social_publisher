@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 11:20 (hora AR) · ACTIVO
+Actualizado: 06/11/2026 11:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-06)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 06/11/2026 11:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 14 | 1 | 1 | 0 | 0 | 1 |
+| Notas web | X | 15 | 14 | 1 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,14 +27,12 @@ Actualizado: 06/11/2026 11:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- X · Notas web · Chivilcoy: Clausuraron una chatarrería y secuestraron cables de cobre — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T11:20 programado web:7043907f-96fa-4ca7-b7a2-aec9499785ad|x 
 - 2026-11-06T11:40 enviado web:3965ee13-9730-4798-8e40-1c97199ed3e6|x 
 - 2026-11-06T11:40 enviado web:840c7bf2-2055-47ae-b89c-be1e455da963|x 
 - 2026-11-06T11:40 enviado web:c1ca0123-3aeb-47a8-9a4f-e8e40a17be0f|x 
@@ -59,3 +57,4 @@ Actualizado: 06/11/2026 11:20 (hora AR) · ACTIVO
 - 2026-11-06T14:00 enviado web:a072a57b-8515-4490-a15a-e1036cfa7355|x 
 - 2026-11-06T14:00 enviado web:fc96942b-6c78-4670-b75b-1a17d5b07537|x 
 - 2026-11-06T14:00 programado web:292c8e3c-5713-4e83-b415-a536e66b9e64|x 
+- 2026-11-06T14:40 depurado web:808568c6-1ce9-4338-b277-3a4776233812|x no está en el carrusel del diario de hoy
