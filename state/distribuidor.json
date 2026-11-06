@@ -1440,6 +1440,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_284dee9e05bca4b4.mp4",
    "youtube_url": "https://www.youtube.com/shorts/99UPVO06NsY"
   },
+  "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4": {
+   "descripcion": "Se llevó a cabo la celebración por el Día del Bancario en las instalaciones de Tomaso Eventos.\n\nEl encuentro reunió a trabajadores del sector para compartir una jornada conmemorativa en el mencionado espacio de nuestra ciudad.\n\nLa actividad formó parte de los festejos programados en el marco de la fecha que homenajea a los empleados bancarios.",
+   "duracion_seg": 44.9,
+   "generado": "2026-11-06T01:24:26.000Z",
+   "id": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Celebración del Día del Bancario en Tomaso Eventos",
+   "urgente": false,
+   "video_bytes": 13492719,
+   "video_mb": 12.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a69bece4fafc1951.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/zq-_BSXQ_1o"
+  },
   "entrevistas:job00252": {
    "descripcion": "En Chivilcoy, el músico Pablo Torres destacó el valor de los semilleros y la educación pública en la formación artística. Presentó el concierto de Los Duendes de Cage a beneficio del Conservatorio.",
    "duracion_seg": null,
@@ -3021,32 +3042,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_01_chacabuco_controlaron-un-principio-de-in.mp4",
    "volanta": "Principio de incendio en Junín",
    "youtube_url": "https://youtube.com/shorts/0Rq2zQbhUMQ"
-  },
-  "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se": {
-   "categoria": "otro_policial",
-   "descripcion": "Un operativo policial permitió esclarecer en menos de 12 horas un robo cometido en una ferretería de Junín. Recuperaron la caja registradora y una termofusora. Hay un mayor de 18 años y un menor de 17 aprehendidos.",
-   "distancia_km": 91.2,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-26T23:32:02.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-dos-detenidos-y-recuperan-lo-robado-tras-un-asalto-a-una-0a59b6",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Personal policial detuvo a un joven de 18 años y a un adolescente de 17 tras un allanamiento en Junín.\n\nEl procedimiento permitió esclarecer en menos de 12 horas el robo a una ferretería local.\n\nLos delincuentes habían ingresado tras romper una ventana y rejas para sustraer una caja registradora y una termofusora.\n\nLa investigación incluyó análisis de cámaras del COM.\n\nLa totalidad de los elementos robados fue recuperada junto a prendas de vestir utilizadas en el hecho.\n\nInterviene la Fiscalía Nº 12 de Responsabilidad Penal Juvenil del Departamento Judicial Junín.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Dos jóvenes detenidos y allanamiento positivo tras un robo en Junín",
-   "urgente": false,
-   "video_bytes": 94045,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_05_junin_dos-j-venes-detenidos-y-allana.mp4",
-   "volanta": "Robo en ferretería en Junín",
-   "youtube_url": "https://youtube.com/shorts/g3MKzV7ofdc"
   },
   "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac": {
    "categoria": "robo",
@@ -10917,6 +10912,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_284dee9e05bca4b4.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|tiktok": {
+   "actualizado": "2026-11-06T01:40:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|tiktok",
+   "creado": "2026-11-06T01:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-06T01:24:26.000Z",
+   "id": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Celebración del Día del Bancario en Tomaso Eventos\n\nSe llevó a cabo la celebración por el Día del Bancario en las instalaciones de Tomaso Eventos. El encuentro reunió a trabajadores del sector para compartir una jornada conmemorativa en el mencionado espacio de nuestra ciudad. La actividad formó parte de los festejos programados en el marco de la fecha que homenajea a los empleados bancarios.\n\nhttps://www.youtube.com/shorts/zq-_BSXQ_1o\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Celebración del Día del Bancario en Tomaso Eventos",
+   "urgente": false,
+   "vence": "2026-11-08T01:24:26.000Z",
+   "video_bytes": 13492719,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a69bece4fafc1951.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x": {
+   "actualizado": "2026-11-06T01:40:15.000Z",
+   "buffer_id": "6aed300007f945cca933d34c",
+   "clave": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x",
+   "creado": "2026-11-06T01:40:13.000Z",
+   "dueAt": "2026-11-06T01:42:10.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-06T01:24:26.000Z",
+   "id": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:bancario-celebracion-eventos-tomaso",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Celebración del Día del Bancario en Tomaso Eventos\n\nEl encuentro reunió a trabajadores del sector para compartir una jornada conmemorativa en nuestra ciudad. La actividad formó parte de los festejos programados que homenajean a los empleados bancarios.\n\nhttps://www.youtube.com/shorts/zq-_BSXQ_1o",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Celebración del Día del Bancario en Tomaso Eventos",
+   "urgente": false,
+   "vence": "2026-11-06T03:24:26.000Z",
+   "video_bytes": 13492719,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a69bece4fafc1951.mp4",
+   "viral": false
+  },
   "entrevistas:job00252|tiktok": {
    "actualizado": "2026-10-27T23:20:25.000Z",
    "buffer_id": "6ae110e9e2341add8c5b082b",
@@ -13595,14 +13646,14 @@
    "viral": false
   },
   "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/|x": {
-   "actualizado": "2026-11-05T23:40:18.000Z",
+   "actualizado": "2026-11-06T01:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/|x",
    "creado": "2026-11-05T23:40:18.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-05T23:31:52.000Z",
    "id": "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/",
    "intentos": 0,
@@ -14061,14 +14112,14 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x": {
-   "actualizado": "2026-11-06T00:40:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-06T01:40:15.000Z",
+   "buffer_id": "6aed30017b7e47e8f4fe6b04",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x",
    "creado": "2026-11-06T00:40:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-06T01:47:08.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-06T00:31:24.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77",
    "intentos": 0,
@@ -14320,34 +14371,6 @@
    "vence": "2026-10-31T02:02:02.000Z",
    "video_bytes": 90769,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_01_chacabuco_controlaron-un-principio-de-in.mp4",
-   "viral": false
-  },
-  "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se|x": {
-   "actualizado": "2026-10-27T01:40:15.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se|x",
-   "creado": "2026-10-26T23:40:20.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-10-26T23:32:02.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-dos-detenidos-y-recuperan-lo-robado-tras-un-asalto-a-una-0a59b6",
-   "noticia": "nota:junin-dos-detenidos-y-recuperan-lo-robado-tras-un-asalto-a-una-0a59b6",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Dos jóvenes detenidos y allanamiento positivo tras un robo en Junín\n\nUn operativo policial permitió esclarecer en menos de 12 horas un robo cometido en una ferretería de Junín. Recuperaron la caja registradora y una termofusora.\n\nhttps://www.diariolacampaña.com.ar/n/junin-dos-detenidos-y-recuperan-lo-robado-tras-un-asalto-a-una-0a59b6",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Dos jóvenes detenidos y allanamiento positivo tras un robo en Junín",
-   "urgente": false,
-   "vence": "2026-10-27T01:32:02.000Z",
-   "video_bytes": 94045,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-26_2135_05_junin_dos-j-venes-detenidos-y-allana.mp4",
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac|x": {
@@ -20220,36 +20243,6 @@
  },
  "registro": [
   {
-   "clave": "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x",
-   "cuando": "2026-10-30T11:00:17.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:8fd9d678-2717-4972-af3c-fcb225b55159|x",
-   "cuando": "2026-10-30T11:00:17.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x",
-   "cuando": "2026-10-30T11:00:21.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
-  },
-  {
-   "clave": "web:606007a3-f032-422b-ace3-ee59408ba8de|x",
-   "cuando": "2026-10-30T11:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116116970105954617"
-  },
-  {
-   "clave": "web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x",
-   "cuando": "2026-10-30T11:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116128485911466397"
-  },
-  {
    "clave": "web:8eedc4c8-7ed9-4248-9de7-468717547999|x",
    "cuando": "2026-10-30T13:00:20.000Z",
    "evento": "enviado",
@@ -24381,6 +24374,42 @@
    "cuando": "2026-11-06T01:20:13.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x",
+   "cuando": "2026-11-06T01:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|tiktok",
+   "cuando": "2026-11-06T01:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/|x",
+   "cuando": "2026-11-06T01:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "buffer_id": "6aed300007f945cca933d34c",
+   "clave": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x",
+   "cuando": "2026-11-06T01:40:17.000Z",
+   "dueAt": "2026-11-06T01:42:10.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aed30017b7e47e8f4fe6b04",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x",
+   "cuando": "2026-11-06T01:40:17.000Z",
+   "dueAt": "2026-11-06T01:47:08.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -24607,6 +24636,7 @@
   "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4": "2026-11-04T09:00:19.000Z",
   "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4": "2026-11-04T14:00:20.000Z",
   "bot:video_matias-zucchi_mw4587m6w644_01.mp4": "2026-11-05T23:20:13.000Z",
+  "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4": "2026-11-06T01:40:13.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
