@@ -38596,5 +38596,83 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-11-05T22:24:24",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v",
+    "uploader": "",
+    "fecha_recibido": "2026-11-05T23:40:23",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Rescate en altura",
+    "titulo": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján",
+    "resumen": "Personal de Bomberos Voluntarios y del SAME rescataron a dos jóvenes que cayeron sobre un techo en la Universidad Nacional de Luján. El oficial Esteban Genaro detalló que trabajaron dos dotaciones para inmovilizar y trasladar a los heridos al hospital.",
+    "texto": "Bomberos Voluntarios y personal de emergencias llevaron adelante un operativo de rescate para auxiliar a dos jóvenes que cayeron en las instalaciones de la Universidad Nacional de Luján. El hecho se originó tras un llamado que alertó sobre personas accidentadas en el sector edilicio.\n\nEl oficial de bomberos Esteban Genaro explicó las tareas realizadas en el establecimiento educativo: «Fuimos convocados por un rescate en altura en la Universidad de Luján», señaló sobre la intervención inicial que demandó un despliegue técnico ante la complejidad del lugar.\n\nGenaro detalló que «el trabajo que se hizo fue inmovilizar conjuntamente con personal del SAME» para poder descender a los afectados. Según precisó el bombero, se trató del rescate de dos jóvenes de sexo masculino, actuando dos dotaciones de bomberos junto a efectivos policiales y dos unidades médicas.\n\nDe acuerdo con lo informado, los jóvenes se encontraban en el sector superior y cayeron hacia otro techo ubicado a unos cinco metros de altura. Tras ser estabilizados e inmovilizados mediante maniobras de altura, ambos fueron derivados al Hospital Municipal para su evaluación médica.",
+    "bajada_reel": "",
+    "escrito": "Bomberos rescatan a dos jóvenes que cayeron de un techo en la Universidad Nacional de Luján\nUn operativo de rescate coordinado por los Bomberos Voluntarios y personal de emergencias permitió auxiliar a dos jóvenes que sufrieron una caída desde la parte superior de un edificio de la Universidad Nacional de Luján.\nSegún detalló el oficial de bomberos Esteban Genaro, el alerta ingresó a través del sistema de emergencias 911. Los dos jóvenes, por razones que aún se intentan establecer, se encontraban en el sector superior del establecimiento y cayeron hacia otro techo situado a unos cinco metros de altura.\nAnte la complejidad del acceso directo al lugar, se activó en primer lugar una dotación de rescate a cargo del tercer oficial Emmanuel Artola, y posteriormente se convocó a la brigada de rescate en altura.\nGracias a un trabajo técnico y seguro —que incluyó el uso de camillas especiales y un dispositivo C— los rescatistas lograron evacuar a ambos involucrados.\nLa primera víctima fue asistida en el lugar por personal del SAME, quienes le suministraron oxígeno y colocaron una vía intravenosa debido a que presentaba múltiples escoriaciones y un cuadro de leve inconsciencia.\n Mientras que, la segunda víctima también fue extraída exitosamente del sector superior mediante las técnicas de altura implementadas.\n Ambos jóvenes fueron trasladados conscientes por precaución al hospital municipal para su atención médica integral.",
+    "tarjetas_fotos": [],
+    "draft_id": "c111ebae-74fb-4af9-b579-9f53a3522b71",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-11-06-matias-zucchi-mw.mp4",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-06T02:35:52.532Z — wa:5492346417636",
+    "decl": {
+      "audio": "audio_matias-zucchi_mw4d4fxd917v_01.ogg",
+      "visual": "foto_matias-zucchi_mw4d4fxd917v_02.jpg",
+      "es_foto": true,
+      "nombre": "Esteban Genaro",
+      "cargo": "Oficial de bomberos",
+      "frases": [
+        {
+          "desde": 1.8,
+          "texto": "Convocatoria por rescate en altura"
+        },
+        {
+          "desde": 12.9,
+          "texto": "Intervención de brigada de altura"
+        },
+        {
+          "desde": 20.4,
+          "texto": "Trabajo conjunto con el SAME"
+        },
+        {
+          "desde": 34.7,
+          "texto": "Rescate de dos personas"
+        },
+        {
+          "desde": 45.1,
+          "texto": "Despliegue de bomberos y médicos"
+        }
+      ],
+      "tramo": {
+        "desde": 0,
+        "hasta": 48.6
+      },
+      "transcripcion": "Fuimos convocados por un rescate en altura en la Universidad de Luján. En primer término concurrió una dotación con la unidad de rescate. Al llegar al lugar se pidió a la brigada de rescate en altura. El trabajo que se hizo fue inmovilizar conjuntamente con personal del SAME que estaba en el lugar a una de las personas a hacer el rescate y la llevaron rápidamente al hospital municipal y luego se hizo el rescate de la segunda persona, estamos hablando de dos jóvenes, de exceso masculino, trabajamos dos dotaciones a cargo mío, personal policial y personal del SAME con dos unidades.",
+      "asr": "groq"
+    },
+    "tema_4x5": "grafito",
+    "formato": "reel",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-11-05T23:44:35",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "vía Buffer (distribuidor)",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
+    "ig_media_id": "18078151904572300",
+    "fb_video_id": "2140612063204241",
+    "ig_historia_id": "18119217008019679",
+    "fb_historia_id": "1146029841277263",
+    "yt_video_id": "UOHKY5HUjYI",
+    "yt_url": "https://www.youtube.com/shorts/UOHKY5HUjYI"
   }
 ]
