@@ -222,27 +222,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55d077578cb8c258.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Au9SS5G7WVk"
   },
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p": {
-   "descripcion": "Personal de la Sub-DDI Chivilcoy, conjuntamente con efectivos del Gabinete Técnico Operativo de Chivilcoy, interceptó en la intersección de la calle Bartolomé Benites y De los Inmigrantes a un masculino que circulaba en un motovehículo sin dominio colocado. Se trataba de una Honda",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-26T23:58:14.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperan-una-moto-robada-y-demoran-a-un-menor",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Recuperan una moto robada y demoran a un menor",
-   "urgente": false,
-   "video_bytes": 2148931,
-   "video_mb": 2.0,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_eb311d96f895574f.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/PyAuwQOQ9YI"
-  },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6": {
    "descripcion": "Este fin de semana se corrió en Sierra de los Padres el Campeonato Argentino de Gravel de la FACiMo. Daniela Ghio obtuvo el tercer puesto con medalla de bronce en un circuito épico por la lluvia.",
    "duracion_seg": 30.0,
@@ -6966,34 +6945,6 @@
    "vence": "2026-10-28T22:09:40.000Z",
    "video_bytes": 805759,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55d077578cb8c258.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x": {
-   "actualizado": "2026-10-27T02:00:20.000Z",
-   "buffer_id": "",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p|x",
-   "creado": "2026-10-27T00:00:21.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-10-26T23:58:14.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperan-una-moto-robada-y-demoran-a-un-menor",
-   "noticia": "nota:chivilcoy-policiales-recuperan-una-moto-robada-y-demoran-a-un-menor",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Recuperan una moto robada y demoran a un menor\n\nPersonal policial interceptó a un masculino que circulaba en un motovehículo sin dominio colocado.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-recuperan-una-moto-robada-y-demoran-a-un-menor",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Recuperan una moto robada y demoran a un menor",
-   "urgente": false,
-   "vence": "2026-10-27T01:58:14.000Z",
-   "video_bytes": 2148931,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_eb311d96f895574f.mp4",
    "viral": false
   },
   "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6|tiktok": {
