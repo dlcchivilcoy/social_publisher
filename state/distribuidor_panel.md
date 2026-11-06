@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 06/11/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-06)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,16 +27,13 @@ Actualizado: 06/11/2026 13:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Recortes de entrevistas · Natalia Fracchia: Los corsos deben ser gratuitos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T11:40 enviado web:f798f446-3206-44e9-8d07-a7a03032fed7|x 
-- 2026-11-06T11:40 programado web:b925d902-abaf-4747-b015-c7ca603f167c|x 
-- 2026-11-06T11:40 programado web:a072a57b-8515-4490-a15a-e1036cfa7355|x 
-- 2026-11-06T12:00 programado web:fc96942b-6c78-4670-b75b-1a17d5b07537|x 
 - 2026-11-06T12:20 programado web:69435ce6-31c0-4174-9050-72995e3d7874|x 
 - 2026-11-06T13:00 enviado web:0c795818-6600-44be-a68c-acb6a2eedf65|x 
 - 2026-11-06T13:00 enviado web:7043907f-96fa-4ca7-b7a2-aec9499785ad|x 
@@ -58,3 +55,7 @@ Actualizado: 06/11/2026 13:20 (hora AR) · ACTIVO
 - 2026-11-06T15:20 enviado web:292c8e3c-5713-4e83-b415-a536e66b9e64|x 
 - 2026-11-06T16:20 recibido web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x 
 - 2026-11-06T16:20 depurado web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-06T16:40 entrevista_aprobada entrevistas:job00284 
+- 2026-11-06T16:40 recibido entrevistas:job00284|x 
+- 2026-11-06T16:40 recibido entrevistas:job00284|tiktok 
+- 2026-11-06T16:40 programado entrevistas:job00284|x 

@@ -2007,6 +2007,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00283.mp4",
    "youtube_url": "https://youtu.be/GwZu6xt4rJI"
   },
+  "entrevistas:job00284": {
+   "descripcion": "Natalia Fracchia, referente de la murga Colgados de la Rama en Chivilcoy, defendió la gratuidad de los corsos barriales para que sean una fiesta popular accesible a todas las familias.",
+   "duracion_seg": null,
+   "entrevistado": "Natalia Fracchia",
+   "generado": "2026-11-06T16:40:14.000Z",
+   "id": "entrevistas:job00284",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Natalia Fracchia: Los corsos deben ser gratuitos",
+   "urgente": false,
+   "video_bytes": 32352734,
+   "video_mb": 30.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00284.mp4",
+   "youtube_url": "https://youtu.be/m1IlGh8g_54"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -6035,25 +6056,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/presencia-en-zona-urbana-animales-inesperados-en-chivilcoy-cuando-la",
    "volanta": "Presencia en zona urbana"
-  },
-  "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b": {
-   "categoria": "",
-   "descripcion": "Comienza una nueva edición del festival Chivilcoy Teatrero La 11.ª edición del festival inicia con un tour teatral por la plaza 25 de Mayo. La programación incluirá espectáculos en salas independientes, escuelas y localidades de campaña, con entrada libre y gratuita. Chivilcoy se prepara para vivir una nueva edición del Chivilcoy Teatrero, el festival que desde hace 11 años reúne a los elencos independientes de la ciudad y promueve el acceso a las expresiones artísticas. Este año, la...",
-   "generado": "2026-10-27T16:27:01.265Z",
-   "id": "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_80f5021b9143497e975ce84bfe2c2a41~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Comienza una nueva edición del festival Chivilcoy Teatrero",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
-   "volanta": "Chivilcoy · Cultura"
   },
   "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc": {
    "categoria": "",
@@ -13078,6 +13080,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00283.mp4",
    "viral": false
   },
+  "entrevistas:job00284|tiktok": {
+   "actualizado": "2026-11-06T16:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00284|tiktok",
+   "creado": "2026-11-06T16:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-06T16:40:14.000Z",
+   "id": "entrevistas:job00284",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Natalia Fracchia: Los corsos deben ser gratuitos\n\nNatalia Fracchia, referente de la murga Colgados de la Rama en Chivilcoy, defendió la gratuidad de los corsos barriales para que sean una fiesta popular accesible a todas las familias.\n\nhttps://youtu.be/m1IlGh8g_54\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Natalia Fracchia: Los corsos deben ser gratuitos",
+   "urgente": false,
+   "vence": "2026-11-08T16:40:14.000Z",
+   "video_bytes": 32352734,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00284.mp4",
+   "viral": false
+  },
+  "entrevistas:job00284|x": {
+   "actualizado": "2026-11-06T16:40:14.000Z",
+   "buffer_id": "6aee02ef9214322f689a396b",
+   "clave": "entrevistas:job00284|x",
+   "creado": "2026-11-06T16:40:14.000Z",
+   "dueAt": "2026-11-06T16:42:17.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-06T16:40:14.000Z",
+   "id": "entrevistas:job00284",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:corsos-deben-fracchia-gratuitos-natalia",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Natalia Fracchia: Los corsos deben ser gratuitos\n\nNatalia Fracchia, referente de la murga Colgados de la Rama en Chivilcoy, defendió la gratuidad de los corsos barriales para que sean una fiesta popular accesible a todas las familias.\n\nhttps://youtu.be/m1IlGh8g_54",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Natalia Fracchia: Los corsos deben ser gratuitos",
+   "urgente": false,
+   "vence": "2026-11-06T18:40:14.000Z",
+   "video_bytes": 32352734,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00284.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -19225,31 +19283,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b|x": {
-   "actualizado": "2026-10-27T16:40:16.000Z",
-   "buffer_id": "",
-   "clave": "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b|x",
-   "creado": "2026-10-27T16:40:16.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-27T16:27:01.265Z",
-   "id": "web:e495d236-15a0-4c4d-a8da-d801c0f13c7b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
-   "noticia": "nota:chivilcoy-cultura-comienza-una-nueva-edicion-del-festival-chivilcoy",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Comienza una nueva edición del festival Chivilcoy Teatrero",
-   "urgente": false,
-   "vence": "2026-10-27T20:27:01.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc|x": {
    "actualizado": "2026-10-30T23:40:18.000Z",
    "buffer_id": "",
@@ -20097,35 +20130,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tiktok",
-   "cuando": "2026-10-30T23:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:f841cb1f-56ef-4ba9-b9a2-c0d6d39880a6|x",
-   "cuando": "2026-10-30T23:00:23.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ae521871891472093a0e362",
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|x",
-   "cuando": "2026-10-30T23:00:24.000Z",
-   "dueAt": "2026-10-30T23:02:16.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|x",
-   "cuando": "2026-10-30T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116304828573856144"
-  },
   {
    "clave": "entrevistas:job00265|tiktok",
    "cuando": "2026-10-30T23:20:14.000Z",
@@ -24271,6 +24275,34 @@
    "cuando": "2026-11-06T16:20:23.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00284",
+   "cuando": "2026-11-06T16:40:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00284|x",
+   "cuando": "2026-11-06T16:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00284|tiktok",
+   "cuando": "2026-11-06T16:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6aee02ef9214322f689a396b",
+   "clave": "entrevistas:job00284|x",
+   "cuando": "2026-11-06T16:40:16.000Z",
+   "dueAt": "2026-11-06T16:42:17.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -24581,6 +24613,7 @@
   "entrevistas:job00281": "2026-11-05T17:40:13.000Z",
   "entrevistas:job00282": "2026-11-05T18:20:15.000Z",
   "entrevistas:job00283": "2026-11-05T19:00:18.000Z",
+  "entrevistas:job00284": "2026-11-06T16:40:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
