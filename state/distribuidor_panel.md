@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 06/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-06)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 06/11/2026 19:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 5 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -33,8 +33,6 @@ Actualizado: 06/11/2026 19:00 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T17:40 programado entrevistas:job00286|x 
-- 2026-11-06T18:00 recibido bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x 
 - 2026-11-06T18:00 recibido bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tikto 
 - 2026-11-06T18:00 recibido web:616edca2-10fd-421a-b351-8a958b1e4519|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-06T18:00 programado bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x 
@@ -58,3 +56,5 @@ Actualizado: 06/11/2026 19:00 (hora AR) · ACTIVO
 - 2026-11-06T21:00 programado entrevistas:job00285|tiktok 
 - 2026-11-06T21:00 programado entrevistas:job00284|tiktok 
 - 2026-11-06T21:20 enviado bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tikto 
+- 2026-11-06T22:20 recibido policiales:https://www.diariodemocracia.com/policiales/34768 
+- 2026-11-06T22:20 programado policiales:https://www.diariodemocracia.com/policiales/34768 
