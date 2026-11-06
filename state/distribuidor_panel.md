@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 07:04 (hora AR) · ACTIVO
+Actualizado: 06/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-06)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 06/11/2026 07:04 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 6 | 8 | 0 | 0 | 1 |
+| Notas web | X | 15 | 1 | 6 | 7 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 22 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 20 enviadas + 4 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 06/11/2026 07:04 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (9 esperando)
 - TikTok · Reels del bot · Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Laboulaye se convierte en el epicentro de la Etapa 16 del AJPP Damas Silver 700  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Ameghino presentó el Gran Premio Coronación del Campeonato Regional d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -36,15 +36,12 @@ Actualizado: 06/11/2026 07:04 (hora AR) · ACTIVO
 - X · Notas web · Villarino hizo historia y espera en la final de la fase regular mientras se enci — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Fecha 12 del Clausura con un choque que puede definir al ganador de l — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · "Leve Espanto" despide el año con dos nuevas funciones en CEM Espacio de Arte — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Estrena la obra “Rico es ser pobre” en el teatro La Cueva: una comedi — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Celebración del Día del Bancario en Tomaso Eventos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T02:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-06T09:00 recibido bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|x 
 - 2026-11-06T09:00 recibido bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|tikto 
 - 2026-11-06T09:00 recibido web:c111ebae-74fb-4af9-b579-9f53a3522b71|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-06T09:00 vencido bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|x no hubo lugar antes de su vencimiento
@@ -68,3 +65,5 @@ Actualizado: 06/11/2026 07:04 (hora AR) · ACTIVO
 - 2026-11-06T10:04 programado web:f798f446-3206-44e9-8d07-a7a03032fed7|x 
 - 2026-11-06T10:04 programado web:840c7bf2-2055-47ae-b89c-be1e455da963|x 
 - 2026-11-06T10:04 programado web:3965ee13-9730-4798-8e40-1c97199ed3e6|x 
+- 2026-11-06T10:20 enviado web:88924ce4-1995-4f4b-89aa-ccea3f791d0e|x 
+- 2026-11-06T10:20 programado web:ea8aaf01-2797-47ff-a625-b439567a99be|x 
