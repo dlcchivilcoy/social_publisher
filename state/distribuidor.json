@@ -6029,25 +6029,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
    "volanta": "Chivilcoy · Producción"
   },
-  "web:c6773443-ef8a-493a-b392-a16cd01f5057": {
-   "categoria": "",
-   "descripcion": "Esclarecen robos, recuperan elementos sustraídos y detienen a sospechosos La Secretaría de Seguridad informó sobre tres procedimientos recientes en la ciudad y la localidad de Gorostiaga, con aprehensiones, recupero de objetos sustraídos y el secuestro de un vehículo. La Secretaría de Seguridad de la Municipalidad de Chivilcoy, a cargo de Néstor Dabi, dio a conocer los resultados de una serie de operativos e investigaciones llevados a cabo por personal policial y dependencias...",
-   "generado": "2026-10-27T10:01:50.344Z",
-   "id": "web:c6773443-ef8a-493a-b392-a16cd01f5057",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c54935dc22cf4559a9612f7f6cd2238b~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/operativos-policiales-esclarecen-robos-recuperan-elementos-sustraidos",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Esclarecen robos, recuperan elementos sustraídos y detienen a sospechosos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/operativos-policiales-esclarecen-robos-recuperan-elementos-sustraidos",
-   "volanta": "Operativos policiales"
-  },
   "web:c78cf34b-a7dd-4d5d-a862-56c5b50b3972": {
    "categoria": "",
    "descripcion": "Daniel Magni presentó su libro Remembranzas junto a una muestra sobre Borges El escritor Daniel Magni llevó a cabo una nueva presentación de su obra literaria en las instalaciones del Centro Cultural Borges, ubicado en la intersección de Humberto Primo y Pasaje Fournier, en la zona de la terminal de ómnibus. La actividad incluyó además una muestra temática a cargo de Jorge G. Lorenzo. Durante el encuentro, Magni realizó una lectura de dos relatos que integran su publicación: \"realicé la...",
@@ -19592,44 +19573,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c6773443-ef8a-493a-b392-a16cd01f5057|x": {
-   "actualizado": "2026-10-27T10:40:19.000Z",
-   "buffer_id": "6ae07746227c7f64b78aa878",
-   "clave": "web:c6773443-ef8a-493a-b392-a16cd01f5057|x",
-   "creado": "2026-10-27T10:03:31.000Z",
-   "dueAt": "2026-10-27T10:23:40.000Z",
-   "enviado": "2026-10-27T10:23:46.493Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-27T10:01:50.344Z",
-   "id": "web:c6773443-ef8a-493a-b392-a16cd01f5057",
-   "ig_hora": "2026-10-27T10:23:19.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2115026661875876030",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 22,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/operativos-policiales-esclarecen-robos-recuperan-elementos-sustraidos",
-   "noticia": "nota:operativos-policiales-esclarecen-robos-recuperan-elementos-sustraidos",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Esclarecen robos, recuperan elementos sustraídos y detienen a sospechosos\n\nLa Secretaría de Seguridad informó sobre tres procedimientos con aprehensiones, recupero de objetos sustraídos y el secuestro de un vehículo. Hubo operativos policiales.\n\nhttps://www.diariolacampaña.com.ar/n/operativos-policiales-esclarecen-robos-recuperan-elementos-sustraidos",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Esclarecen robos, recuperan elementos sustraídos y detienen a sospechosos",
-   "urgente": false,
-   "vence": "2026-10-27T14:01:50.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c78cf34b-a7dd-4d5d-a862-56c5b50b3972|x": {
    "actualizado": "2026-10-31T02:40:16.000Z",
    "buffer_id": "",
@@ -20085,14 +20028,14 @@
    "viral": false
   },
   "web:df5bc5d5-81e6-4f5c-b398-bc0a2cfc2589|x": {
-   "actualizado": "2026-11-06T10:02:35.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-06T11:00:19.000Z",
+   "buffer_id": "6aedb34475db0573c8d30a6e",
    "clave": "web:df5bc5d5-81e6-4f5c-b398-bc0a2cfc2589|x",
    "creado": "2026-11-06T10:02:35.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-06T12:22:31.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-06T10:01:37.854Z",
    "id": "web:df5bc5d5-81e6-4f5c-b398-bc0a2cfc2589",
    "ig_hora": "2026-11-06T12:22:21.000Z",
@@ -21097,13 +21040,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae4c870a351214acf998c07",
-   "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|x",
-   "cuando": "2026-10-30T16:40:16.000Z",
-   "dueAt": "2026-10-30T16:42:57.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00266",
    "cuando": "2026-10-30T17:00:21.000Z",
@@ -25280,6 +25216,13 @@
    "clave": "web:0c795818-6600-44be-a68c-acb6a2eedf65|x",
    "cuando": "2026-11-06T10:40:14.000Z",
    "dueAt": "2026-11-06T11:52:37.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aedb34475db0573c8d30a6e",
+   "clave": "web:df5bc5d5-81e6-4f5c-b398-bc0a2cfc2589|x",
+   "cuando": "2026-11-06T11:00:21.000Z",
+   "dueAt": "2026-11-06T12:22:31.000Z",
    "evento": "programado"
   }
  ],
