@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 5
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-05T23:40:34.000Z"
+   "visto": "2026-11-06T01:00:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-05T23:40:34.000Z"
+   "visto": "2026-11-06T01:00:19.000Z"
   }
  },
  "contenidos": {
@@ -11082,19 +11082,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok": {
-   "actualizado": "2026-11-06T00:00:16.000Z",
+   "actualizado": "2026-11-06T01:00:19.000Z",
    "buffer_id": "6aed189286fe9b83795e91f8",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok",
    "creado": "2026-11-05T23:20:13.000Z",
    "dueAt": "2026-11-06T00:03:59.000Z",
+   "enviado": "2026-11-06T00:07:45.741Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-05T23:03:02.000Z",
    "id": "bot:video_matias-zucchi_mw4587m6w644_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7704842494281780488",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -20478,13 +20479,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae47410c56bf7afb3abc441",
-   "clave": "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x",
-   "cuando": "2026-10-30T10:40:16.000Z",
-   "dueAt": "2026-10-30T12:06:37.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0|x",
    "cuando": "2026-10-30T11:00:17.000Z",
    "evento": "depurado",
@@ -24640,6 +24634,12 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok",
+   "cuando": "2026-11-06T01:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7704842494281780488"
   }
  ],
  "tandas": {
@@ -24677,7 +24677,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-06",
- "ultima_sync": "2026-11-05T23:40:34.000Z",
+ "ultima_sync": "2026-11-06T01:00:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
