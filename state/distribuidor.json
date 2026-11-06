@@ -3462,25 +3462,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/atletismo-chivilcoy-angelina-reyes-record-triunfo-en-los-21k-y-la",
    "volanta": "Atletismo"
   },
-  "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d": {
-   "categoria": "",
-   "descripcion": "Choque en cadena involucró a un patrullero en calle Maipú Un choque en cadena se registró alrededor de las 5 de la madrugada en la calle Maipú, entre Alsina y Guido. Dos efectivos policiales que viajaban en el patrullero involucrado sufrieron escoriaciones que no revisten gravedad. De acuerdo con los datos aportados desde el lugar, el móvil policial chocó contra una Renault Kangoo. Como parte de la secuencia, la Kangoo impactó contra un automóvil que se encontraba adelante y este último...",
-   "generado": "2026-10-27T14:16:18.599Z",
-   "id": "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ab0c7ea665ce4e2eb8aa3059cbfa59bd~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Choque en cadena involucró a un patrullero en calle Maipú",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
-   "volanta": "Chivilcoy · Accidente"
-  },
   "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8": {
    "categoria": "",
    "descripcion": "Chivilcoy: Matías Bregant y sus sensaciones tras consagrarse campeón como navegante en la Clase N7 El navegante chivilcoyano Matías Bregant celebró la obtención del campeonato en la clase N7 del rally regional, un logro alcanzado junto al piloto Luis Sciutto tras la actividad automovilística disputada recientemente en los caminos de Chivilcoy. La consagración coronó una campaña caracterizada por la regularidad y el trabajo conjunto, iniciada a principios de año y consolidada en una definición...",
@@ -15007,31 +14988,6 @@
    "titulo": "Chivilcoy: Angelina Reyes: récord, triunfo en los 21K y la mirada puesta en Chile",
    "urgente": false,
    "vence": "2026-11-02T14:02:38.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d|x": {
-   "actualizado": "2026-10-27T14:20:14.000Z",
-   "buffer_id": "",
-   "clave": "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d|x",
-   "creado": "2026-10-27T14:20:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-27T14:16:18.599Z",
-   "id": "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
-   "noticia": "nota:chivilcoy-accidente-choque-en-cadena-involucro-a-un-patrullero-en",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Choque en cadena involucró a un patrullero en calle Maipú",
-   "urgente": false,
-   "vence": "2026-10-27T18:16:18.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
