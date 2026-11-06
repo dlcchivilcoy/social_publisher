@@ -852,6 +852,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8632907b48553b3c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/7Ex0u_gYL04"
   },
+  "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v": {
+   "descripcion": "Personal de Bomberos Voluntarios y del SAME rescataron a dos jóvenes que cayeron sobre un techo en la Universidad Nacional de Luján. El oficial Esteban Genaro detalló que trabajaron dos dotaciones para inmovilizar y trasladar a los heridos al hospital.",
+   "duracion_seg": 55.0,
+   "generado": "2026-11-06T02:44:37.000Z",
+   "id": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján",
+   "urgente": false,
+   "video_bytes": 2014329,
+   "video_mb": 1.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77ecef32ab069460.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/UOHKY5HUjYI"
+  },
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4": {
    "descripcion": "Una vecina hizo pública una denuncia a través de sus redes sociales luego de sufrir un tocamiento sin su consentimiento mientras circulaba en bicicleta por la intersección de Emilio Mitre y Necochea.\n\nDe acuerdo con su testimonio, el hecho ocurrió alrededor de las 8 de la mañana. En ese momento, un hombre que se desplazaba a bordo de una motocicleta negra frenó a su lado, la tocó y continuó su marcha a plena luz del día.\n\nSegún la descripción que brindó la damnificada, el motociclista no llevaba casco, vestía una capucha gris junto a una campera inflable de color negro, y el rodado no tenía la patente colocada. Con el fin de alertar a quienes transitan por la zona, la mujer difundió una grabación de una cámara de seguridad donde se observa el paso del sospechoso.\n\nAsimismo, en publicaciones posteriores compartió mensajes de terceros sobre episodios de similares características ocurridos previamente en la ciudad. Sin embargo, los elementos aportados hasta el momento no permiten identificar al autor ni establecer una relación directa entre los distintos relatos.",
    "duracion_seg": 27.3,
@@ -5780,6 +5801,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
    "volanta": "Chivilcoy · Sociedad"
   },
+  "web:c111ebae-74fb-4af9-b579-9f53a3522b71": {
+   "categoria": "",
+   "descripcion": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján Bomberos Voluntarios y personal de emergencias llevaron adelante un operativo de rescate para auxiliar a dos jóvenes que cayeron en las instalaciones de la Universidad Nacional de Luján. El hecho se originó tras un llamado que alertó sobre personas accidentadas en el sector edilicio. El oficial de bomberos Esteban Genaro explicó las tareas realizadas en el establecimiento educativo: «Fuimos convocados por un...",
+   "generado": "2026-11-06T02:42:11.548Z",
+   "id": "web:c111ebae-74fb-4af9-b579-9f53a3522b71",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5c56b81f157b4bde8eb2836198f68bae~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
+   "volanta": "Rescate en altura"
+  },
   "web:c47cb128-863f-4d78-97f6-739a46ed4cca": {
    "categoria": "",
    "descripcion": "Llevaron a cabo la capacitación virtual sobre Gestión Logística en el Comercio Internacional",
@@ -9020,6 +9060,61 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8632907b48553b3c.mp4",
    "viral": false
   },
+  "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|tiktok": {
+   "actualizado": "2026-11-06T09:00:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|tiktok",
+   "creado": "2026-11-06T09:00:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-06T02:44:37.000Z",
+   "id": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján\n\nPersonal de Bomberos Voluntarios y del SAME rescataron a dos jóvenes que cayeron sobre un techo en la Universidad Nacional de Luján. El oficial Esteban Genaro detalló que trabajaron dos dotaciones para inmovilizar y trasladar a los heridos al hospital.\n\nhttps://www.diariolacampaña.com.ar/n/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján",
+   "urgente": false,
+   "vence": "2026-11-08T02:44:37.000Z",
+   "video_bytes": 2014329,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77ecef32ab069460.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|x": {
+   "actualizado": "2026-11-06T09:00:25.000Z",
+   "buffer_id": "",
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|x",
+   "creado": "2026-11-06T09:00:16.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-06T02:44:37.000Z",
+   "id": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
+   "noticia": "nota:rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján\n\nBomberos y SAME rescataron a dos jóvenes tras caer sobre un techo. Esteban Genaro detalló que dos dotaciones trabajaron para trasladarlos al hospital.\n\nhttps://www.diariolacampaña.com.ar/n/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján",
+   "urgente": false,
+   "vence": "2026-11-06T04:44:37.000Z",
+   "video_bytes": 2014329,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_77ecef32ab069460.mp4",
+   "viral": false
+  },
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4|tiktok": {
    "actualizado": "2026-10-28T15:20:24.000Z",
    "buffer_id": "",
@@ -9083,33 +9178,6 @@
    "titulo": "Convocan a compartir imágenes de la Luna en Chivilcoy",
    "urgente": false,
    "vence": "2026-10-29T02:52:24.000Z",
-   "video_bytes": 807842,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_29e2c70e49d56f16.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|x": {
-   "actualizado": "2026-10-27T09:00:24.000Z",
-   "buffer_id": "",
-   "clave": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4|x",
-   "creado": "2026-10-27T09:00:19.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-10-27T02:52:24.000Z",
-   "id": "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "",
-   "noticia": "titulo:chivilcoy-compartir-convocan-imagenes-luna",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Convocan a compartir imágenes de la Luna en Chivilcoy\n\nDiario La Campaña y Radio del Centro invitan a la comunidad a subir videos del cielo nocturno a Instagram y etiquetar sus cuentas. La propuesta busca reunir tomas captadas por vecinos del distrito.\n\nhttps://www.youtube.com/shorts/IE5CawyPl3c",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Convocan a compartir imágenes de la Luna en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-27T04:52:24.000Z",
    "video_bytes": 807842,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_29e2c70e49d56f16.mp4",
    "viral": false
@@ -18690,6 +18758,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:c111ebae-74fb-4af9-b579-9f53a3522b71|x": {
+   "actualizado": "2026-11-06T09:00:16.000Z",
+   "buffer_id": "",
+   "clave": "web:c111ebae-74fb-4af9-b579-9f53a3522b71|x",
+   "creado": "2026-11-06T09:00:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-06T02:42:11.548Z",
+   "id": "web:c111ebae-74fb-4af9-b579-9f53a3522b71",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
+   "noticia": "nota:rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján",
+   "urgente": false,
+   "vence": "2026-11-06T06:42:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:c47cb128-863f-4d78-97f6-739a46ed4cca|x": {
    "actualizado": "2026-10-28T11:00:20.000Z",
    "buffer_id": "",
@@ -20087,34 +20180,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae494ed6516a7746a2bbd0d",
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|tiktok",
-   "cuando": "2026-10-30T13:00:33.000Z",
-   "dueAt": "2026-10-30T13:23:15.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae494ee4233ff6805bf2c95",
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvu8935nq6nv|tiktok",
-   "cuando": "2026-10-30T13:00:33.000Z",
-   "dueAt": "2026-10-30T13:43:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae494efabdb62a0e37e9583",
-   "clave": "entrevistas:job00261|tiktok",
-   "cuando": "2026-10-30T13:00:33.000Z",
-   "dueAt": "2026-10-30T14:03:35.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae494f1f522e615d3a50358",
-   "clave": "entrevistas:job00260|tiktok",
-   "cuando": "2026-10-30T13:00:33.000Z",
-   "dueAt": "2026-10-30T14:23:30.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|x",
    "cuando": "2026-10-30T14:00:21.000Z",
@@ -24254,6 +24319,36 @@
    "cuando": "2026-11-06T02:40:17.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|x",
+   "cuando": "2026-11-06T09:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|tiktok",
+   "cuando": "2026-11-06T09:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:c111ebae-74fb-4af9-b579-9f53a3522b71|x",
+   "cuando": "2026-11-06T09:00:25.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|x",
+   "cuando": "2026-11-06T09:00:25.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -24406,6 +24501,7 @@
   "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl": "2026-11-02T18:20:16.000Z",
   "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6": "2026-11-03T02:00:19.000Z",
   "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi": "2026-11-03T12:00:20.000Z",
+  "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v": "2026-11-06T09:00:16.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -25319,6 +25415,7 @@
   "web:bfd610a6-2963-4140-98d0-d45bf948298c": "2026-10-26T12:06:06.000Z",
   "web:c00bb224-879f-4991-ba6d-b57cef2f5104": "2026-10-24T17:20:15.000Z",
   "web:c07869bb-4b38-46ca-ad18-588d0b35d614": "2026-10-16T15:40:14.000Z",
+  "web:c111ebae-74fb-4af9-b579-9f53a3522b71": "2026-11-06T09:00:16.000Z",
   "web:c47cb128-863f-4d78-97f6-739a46ed4cca": "2026-10-28T10:02:28.000Z",
   "web:c4a5c4d8-6c34-494d-8c50-85f771cba512": "2026-10-19T19:20:15.000Z",
   "web:c4b20f0a-3f30-4116-b4ce-8379fe5c9765": "2026-10-19T10:20:14.000Z",
