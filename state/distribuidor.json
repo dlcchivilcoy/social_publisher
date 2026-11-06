@@ -2856,6 +2856,58 @@
    "volanta": "Accidente en Bragado",
    "youtube_url": "https://youtube.com/shorts/9CElmNcMf90"
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77": {
+   "categoria": "operativo_policial",
+   "descripcion": "Un sospechoso de 18 años fue arrestado este miércoles 05/11/2026 en Bragado, acusado de sustraer medio millón de pesos y lesionar a una vecina de 77 años en una finca de calle Catamarca.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-06T00:31:24.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-un-joven-de-18-anos-acusado-de-robar-500-44af1a",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Un joven de 18 años resultó arrestado este miércoles 05/11/2026 en Bragado, luego de una pesquisa por un robo millonario.\n\nEl episodio tuvo lugar en un domicilio de la calle Catamarca, donde una jubilada de 77 años cayó al suelo y sufrió lesiones durante un forcejeo.\n\nLos investigadores comprobaron que faltaban 500.000 pesos del interior del inmueble tras la visita del sospechoso junto a otro familiar.\n\nLa captura se concretó mediante un operativo en la vía pública y el imputado deberá declarar este viernes ante la Justicia en Mercedes.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Policiales #Inseguridad #Detenido #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron a un joven de 18 años por robar 500 mil pesos a una mujer de 77",
+   "urgente": false,
+   "video_bytes": 83666,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_10_bragado_detuvieron-a-un-joven-de-18-a-.mp4",
+   "volanta": "Bragado",
+   "youtube_url": "https://youtube.com/shorts/PUnZ-d4h9ig"
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos": {
+   "categoria": "robo",
+   "descripcion": "Un joven de 18 años fue detenido en Bragado tras una investigación por el hurto de un teléfono celular cometido en una vivienda de la calle Rivadavia al 398. La policía recuperó el aparato y el sospechoso recuperó la libertad por orden judicial.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-06T00:31:25.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-recuperaron-un-celular-robado-y-aprehendieron-a-un-225524",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Un joven de 18 años fue arrestado en Bragado luego de una investigación por el robo de un teléfono celular en una vivienda.\n\nEl hecho se había producido el pasado 21 de octubre en un domicilio situado en la calle Rivadavia al 398.\n\nPersonal policial analizó registros de cámaras de seguridad y reunió diversos testimonios para dar con el presunto autor del ilícito.\n\nEl operativo de captura se concretó este miércoles en el cruce de Hermanos Islas y 12 de Octubre, donde además se recuperó el aparato sustraído.\n\nTras cumplimentar los recaudos legales de rigor, el magistrado interviniente ordenó que el sospechoso recupere la libertad.\n\nEn el expediente judicial interviene la Unidad Funcional de Instrucción N° 4 del Departamento Judicial de Mercedes.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Aprehendieron a un joven de 18 años tras esclarecer un hurto domiciliario",
+   "urgente": false,
+   "video_bytes": 107560,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_09_bragado_aprehendieron-a-un-joven-de-18.mp4",
+   "volanta": "Bragado",
+   "youtube_url": "https://youtube.com/shorts/7q-zoi4n0No"
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja": {
    "categoria": "robo",
    "descripcion": "Un hombre y una mujer fueron arrestados este 05/11/2026 en la plaza Eva Perón tras robar más de 100.000 pesos en un local de Tucumán e Yrigoyen.",
@@ -5037,25 +5089,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/fortalecer-la-autonomia-chivilcoy-promueven-la-inclusion-laboral-de",
    "volanta": "Fortalecer la autonomía"
-  },
-  "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4": {
-   "categoria": "",
-   "descripcion": "Daniela Ghio logró medalla de bronce en el Argentino de Gravel",
-   "generado": "2026-10-27T00:32:47.916Z",
-   "id": "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_d80484201bd243048e5fe0ff281c3e91~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Sierra de los Padres · Deportes",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
-   "volanta": ""
   },
   "web:898dd9bc-8d37-4255-aaf1-59fb965090e9": {
    "categoria": "",
@@ -14285,6 +14318,62 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_06_bragado_bragado-choque-entre-un-auto-y.mp4",
    "viral": false
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x": {
+   "actualizado": "2026-11-06T00:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x",
+   "creado": "2026-11-06T00:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-06T00:31:24.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-un-joven-de-18-anos-acusado-de-robar-500-44af1a",
+   "noticia": "nota:bragado-detuvieron-a-un-joven-de-18-anos-acusado-de-robar-500-44af1a",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Detuvieron a un joven de 18 años por robar 500 mil pesos a una mujer de 77\n\nEl hecho ocurrió en una finca de calle Catamarca en Bragado. El acusado también lesionó a la vecina.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-un-joven-de-18-anos-acusado-de-robar-500-44af1a",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un joven de 18 años por robar 500 mil pesos a una mujer de 77",
+   "urgente": false,
+   "vence": "2026-11-06T02:31:24.000Z",
+   "video_bytes": 83666,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_10_bragado_detuvieron-a-un-joven-de-18-a-.mp4",
+   "viral": false
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos|x": {
+   "actualizado": "2026-11-06T00:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos|x",
+   "creado": "2026-11-06T00:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-06T00:31:25.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-recuperaron-un-celular-robado-y-aprehendieron-a-un-225524",
+   "noticia": "nota:bragado-recuperaron-un-celular-robado-y-aprehendieron-a-un-225524",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Aprehendieron a un joven de 18 años tras esclarecer un hurto domiciliario\n\nLa policía recuperó en Bragado un celular sustraído de una vivienda. El sospechoso fue liberado por orden judicial.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-recuperaron-un-celular-robado-y-aprehendieron-a-un-225524",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Aprehendieron a un joven de 18 años tras esclarecer un hurto domiciliario",
+   "urgente": false,
+   "vence": "2026-11-06T02:31:25.000Z",
+   "video_bytes": 107560,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_09_bragado_aprehendieron-a-un-joven-de-18.mp4",
+   "viral": false
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x": {
    "actualizado": "2026-11-05T23:40:34.000Z",
    "buffer_id": "6aed0f36f3498efda757a8cc",
@@ -17602,31 +17691,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4|x": {
-   "actualizado": "2026-10-27T00:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4|x",
-   "creado": "2026-10-27T00:40:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-27T00:32:47.916Z",
-   "id": "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
-   "noticia": "nota:sierra-de-los-padres-deportes-daniela-ghio-logro-medalla-de-bronce-en",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Sierra de los Padres · Deportes",
-   "urgente": false,
-   "vence": "2026-10-27T04:32:47.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:898dd9bc-8d37-4255-aaf1-59fb965090e9|x": {
    "actualizado": "2026-10-30T14:40:19.000Z",
    "buffer_id": "",
@@ -20413,20 +20477,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae46f8d38b96b6f5ba2f210",
-   "clave": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x",
-   "cuando": "2026-10-30T10:21:01.000Z",
-   "dueAt": "2026-10-30T11:36:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae47410609b6f28735ebaf0",
-   "clave": "web:8eedc4c8-7ed9-4248-9de7-468717547999|x",
-   "cuando": "2026-10-30T10:40:16.000Z",
-   "dueAt": "2026-10-30T11:51:52.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae47410c56bf7afb3abc441",
    "clave": "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa|x",
@@ -24574,6 +24624,22 @@
    "cuando": "2026-11-06T00:00:18.000Z",
    "dueAt": "2026-11-06T00:03:59.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x",
+   "cuando": "2026-11-06T00:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos|x",
+   "cuando": "2026-11-06T00:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -25056,6 +25122,8 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos": "2026-11-03T23:40:19.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento": "2026-11-03T23:20:14.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo": "2026-11-05T00:40:13.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77": "2026-11-06T00:40:13.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos": "2026-11-06T00:40:13.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja": "2026-11-05T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
