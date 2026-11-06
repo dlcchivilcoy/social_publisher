@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-06T15:20:17.000Z"
+   "visto": "2026-11-06T17:00:28.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 25
    },
    "pausado": false,
-   "visto": "2026-11-06T15:20:17.000Z"
+   "visto": "2026-11-06T17:00:28.000Z"
   }
  },
  "contenidos": {
@@ -5373,6 +5373,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ateneo-jorge-luis-borges-gustavo-caggiano-detallo-las-proximas",
    "volanta": ""
   },
+  "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: DEPORTIVO COLÓN recibe a Belgrano de San Nicolás por el Prefederal CHIVILCOY.– Por la fecha 9 del Prefederal, COLÓN, que ya está ascendido gracias a la final ganada en JUNIN ante San MARTIN, jugará esta noche ante Belgrano de San Nicolás desde las 21 en el Oscar y Alfredo Barca. Como antecedente, el León viene de hacer un partidazo contra Somisa sin la suerte de salir victorioso, pero sí le ganó a Argentino de Pergamino en la ruta y a Porteño de Chacabuco con mucha solidez de...",
+   "generado": "2026-11-06T16:44:32.118Z",
+   "id": "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_22f8cb4727964dd687decc756570ad34~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: DEPORTIVO COLÓN recibe a Belgrano de San Nicolás por el Prefederal",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:a642e972-d928-4d92-8619-4b52387cb16a": {
    "categoria": "",
    "descripcion": "Chivilcoy: Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad CHIVILCOY.– Controles simultáneos para fortalecer la prevención y la seguridad. Los procedimientos estuvieron coordinados con la participación de distintas dependencias policiales y áreas de seguridad vial, con el objetivo de reforzar la prevención, controlar la circulación vehicular y fortalecer la presencia preventiva en la vía pública. Los controles se llevaron adelante en los accesos por las avenidas...",
@@ -6794,43 +6813,6 @@
    "titulo": "Presentaron una nueva edición de la Expo Hecho en Chivilcoy",
    "urgente": false,
    "vence": "2026-10-29T16:16:18.000Z",
-   "video_bytes": 778548,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e492fc5ebab29c9c.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|x": {
-   "actualizado": "2026-10-27T16:40:30.000Z",
-   "buffer_id": "6ae0cf46b256432e54172c0d",
-   "clave": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1|x",
-   "creado": "2026-10-27T16:20:15.000Z",
-   "dueAt": "2026-10-27T16:22:38.000Z",
-   "enviado": "2026-10-27T16:22:50.502Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-27T16:16:18.000Z",
-   "id": "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2115117024556830785",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 17,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
-   "noticia": "nota:chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Presentaron una nueva edición de la Expo Hecho en Chivilcoy\n\nEl evento reunirá a comercios, industrias y productores locales en el Espacio Vallerga. Ofrecerá shows musicales, propuestas artísticas y una carpa cultural con 22 artistas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Presentaron una nueva edición de la Expo Hecho en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-27T18:16:18.000Z",
    "video_bytes": 778548,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e492fc5ebab29c9c.mp4",
    "viral": false
@@ -13109,18 +13091,19 @@
    "viral": false
   },
   "entrevistas:job00284|x": {
-   "actualizado": "2026-11-06T16:40:14.000Z",
+   "actualizado": "2026-11-06T17:00:28.000Z",
    "buffer_id": "6aee02ef9214322f689a396b",
    "clave": "entrevistas:job00284|x",
    "creado": "2026-11-06T16:40:14.000Z",
    "dueAt": "2026-11-06T16:42:17.000Z",
+   "enviado": "2026-11-06T16:42:39.998Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-06T16:40:14.000Z",
    "id": "entrevistas:job00284",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2118745892198953305",
    "nota_url": "",
    "noticia": "titulo:corsos-deben-fracchia-gratuitos-natalia",
    "origen": "entrevistas",
@@ -18126,6 +18109,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x": {
+   "actualizado": "2026-11-06T17:00:28.000Z",
+   "buffer_id": "",
+   "clave": "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x",
+   "creado": "2026-11-06T17:00:18.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-06T16:44:32.118Z",
+   "id": "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: DEPORTIVO COLÓN recibe a Belgrano de San Nicolás por el Prefederal\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: DEPORTIVO COLÓN recibe a Belgrano de San Nicolás por el Prefederal",
+   "urgente": false,
+   "vence": "2026-11-06T20:44:32.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:a642e972-d928-4d92-8619-4b52387cb16a|x": {
    "actualizado": "2026-11-03T02:00:19.000Z",
    "buffer_id": "",
@@ -20130,28 +20140,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00265|tiktok",
-   "cuando": "2026-10-30T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702590119995542785"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|x",
-   "cuando": "2026-10-30T23:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvvldft40mvd_01.mp4|tiktok",
-   "cuando": "2026-10-30T23:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x",
    "cuando": "2026-10-30T23:40:30.000Z",
@@ -24303,6 +24291,26 @@
    "cuando": "2026-11-06T16:40:16.000Z",
    "dueAt": "2026-11-06T16:42:17.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x",
+   "cuando": "2026-11-06T17:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x",
+   "cuando": "2026-11-06T17:00:28.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00284|x",
+   "cuando": "2026-11-06T17:00:30.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2118745892198953305"
   }
  ],
  "tandas": {
@@ -24340,7 +24348,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-06",
- "ultima_sync": "2026-11-06T15:20:17.000Z",
+ "ultima_sync": "2026-11-06T17:00:28.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -25314,6 +25322,7 @@
   "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b": "2026-10-20T10:20:14.000Z",
   "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
+  "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4": "2026-11-06T17:00:18.000Z",
   "web:a604bb88-c1b1-4d8c-aeb4-73f24939ba20": "2026-10-26T12:06:06.000Z",
   "web:a642e972-d928-4d92-8619-4b52387cb16a": "2026-11-03T02:00:19.000Z",
   "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a": "2026-10-19T10:20:14.000Z",

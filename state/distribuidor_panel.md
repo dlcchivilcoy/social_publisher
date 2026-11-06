@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 06/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-06)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,7 +18,7 @@ Actualizado: 06/11/2026 13:40 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 32 con métricas · mediana vistas/impresiones 27 · likes 0
-- X · Reels del bot: 41 con métricas · mediana vistas/impresiones 28 · likes 0
+- X · Reels del bot: 40 con métricas · mediana vistas/impresiones 28.5 · likes 0
 - X · Reels policiales: 17 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 80 con métricas · mediana vistas/impresiones 18.5 · likes 0
 - TikTok · Recortes de entrevistas: 32 con métricas · mediana vistas/impresiones 130.5 · likes 1
@@ -34,9 +34,6 @@ Actualizado: 06/11/2026 13:40 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T12:20 programado web:69435ce6-31c0-4174-9050-72995e3d7874|x 
-- 2026-11-06T13:00 enviado web:0c795818-6600-44be-a68c-acb6a2eedf65|x 
-- 2026-11-06T13:00 enviado web:7043907f-96fa-4ca7-b7a2-aec9499785ad|x 
 - 2026-11-06T13:00 enviado web:b925d902-abaf-4747-b015-c7ca603f167c|x 
 - 2026-11-06T13:00 enviado web:df5bc5d5-81e6-4f5c-b398-bc0a2cfc2589|x 
 - 2026-11-06T13:00 programado bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|tikto 
@@ -59,3 +56,6 @@ Actualizado: 06/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-06T16:40 recibido entrevistas:job00284|x 
 - 2026-11-06T16:40 recibido entrevistas:job00284|tiktok 
 - 2026-11-06T16:40 programado entrevistas:job00284|x 
+- 2026-11-06T17:00 recibido web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x 
+- 2026-11-06T17:00 depurado web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-06T17:00 enviado entrevistas:job00284|x 
