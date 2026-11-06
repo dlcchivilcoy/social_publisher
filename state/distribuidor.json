@@ -5751,25 +5751,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/herramientas-y-conocimientos-llevaron-a-cabo-la-capacitacion-virtual",
    "volanta": ""
   },
-  "web:c636a949-65bd-4d05-988f-93cbad23a411": {
-   "categoria": "",
-   "descripcion": "Presentaron una nueva edición de la Expo Hecho en Chivilcoy La Expo se realizará este sábado 31 de octubre y domingo 1 de noviembre en el Espacio Vallerga, con la participación de comercios, industrias, pymes y productores locales. Habrá espectáculos musicales, propuestas artísticas y una carpa cultural con 22 artistas de la ciudad. La entrada tendrá un valor de $3.000. La Municipalidad de Chivilcoy anunció una nueva edición de la Expo Hecho en Chivilcoy, una iniciativa destinada a...",
-   "generado": "2026-10-27T16:14:07.453Z",
-   "id": "web:c636a949-65bd-4d05-988f-93cbad23a411",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_bb16ee2a8fad4778a721a476a90755c4~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Presentaron una nueva edición de la Expo Hecho en Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
-   "volanta": "Chivilcoy · Producción"
-  },
   "web:c78cf34b-a7dd-4d5d-a862-56c5b50b3972": {
    "categoria": "",
    "descripcion": "Daniel Magni presentó su libro Remembranzas junto a una muestra sobre Borges El escritor Daniel Magni llevó a cabo una nueva presentación de su obra literaria en las instalaciones del Centro Cultural Borges, ubicado en la intersección de Humberto Primo y Pasaje Fournier, en la zona de la terminal de ómnibus. La actividad incluyó además una muestra temática a cargo de Jorge G. Lorenzo. Durante el encuentro, Magni realizó una lectura de dos relatos que integran su publicación: \"realicé la...",
@@ -6301,6 +6282,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rugby-racing-club-de-chivilcoy-redondeo-otra-jornada-historica-y",
    "volanta": "Rugby"
+  },
+  "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f": {
+   "categoria": "",
+   "descripcion": "Restringen el transporte de cargas por la visita del papa León XIV VISITA del papa León XIV: reordenamiento del transporte de cargas. No podrán circular: Del 7 al 11 de noviembre en los accesos a CABA y Luján, y del 8 al 11 de noviembre en los accesos a Córdoba Capital, de 6 a 22 horas y en ambos sentidos, por los tramos de rutas nacionales afectados por las disposiciones ANSV 370, 381 y 382, los vehículos de carga de más de 3.500 kg (categorías N2 y N3) ni los acoplados y semirremolques de...",
+   "generado": "2026-11-06T16:17:12.768Z",
+   "id": "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a9dafb6d42384332a25b7b261d4689bc~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/transito-seguridad-vial-restringen-el-transporte-de-cargas-por-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Restringen el transporte de cargas por la visita del papa León XIV",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/transito-seguridad-vial-restringen-el-transporte-de-cargas-por-la",
+   "volanta": "Tránsito · Seguridad vial"
   },
   "web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e": {
    "categoria": "",
@@ -18730,31 +18730,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c636a949-65bd-4d05-988f-93cbad23a411|x": {
-   "actualizado": "2026-10-27T16:20:15.000Z",
-   "buffer_id": "",
-   "clave": "web:c636a949-65bd-4d05-988f-93cbad23a411|x",
-   "creado": "2026-10-27T16:20:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-27T16:14:07.453Z",
-   "id": "web:c636a949-65bd-4d05-988f-93cbad23a411",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
-   "noticia": "nota:chivilcoy-produccion-presentaron-una-nueva-edicion-de-la-expo-hecho",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Presentaron una nueva edición de la Expo Hecho en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-27T20:14:07.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c78cf34b-a7dd-4d5d-a862-56c5b50b3972|x": {
    "actualizado": "2026-10-31T02:40:16.000Z",
    "buffer_id": "",
@@ -19653,6 +19628,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x": {
+   "actualizado": "2026-11-06T16:20:23.000Z",
+   "buffer_id": "",
+   "clave": "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x",
+   "creado": "2026-11-06T16:20:16.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-06T16:17:12.768Z",
+   "id": "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/transito-seguridad-vial-restringen-el-transporte-de-cargas-por-la",
+   "noticia": "nota:transito-seguridad-vial-restringen-el-transporte-de-cargas-por-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Restringen el transporte de cargas por la visita del papa León XIV\n\nProhíben circular a vehículos de carga de más de 3.500 kg en accesos a CABA, Luján y Córdoba en determinados días y horarios. Rige según disposiciones de la ANSV.\n\nhttps://www.diariolacampaña.com.ar/n/transito-seguridad-vial-restringen-el-transporte-de-cargas-por-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Restringen el transporte de cargas por la visita del papa León XIV",
+   "urgente": false,
+   "vence": "2026-11-06T20:17:12.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x": {
    "actualizado": "2026-11-02T12:20:13.000Z",
    "buffer_id": "6ae8688fbc7258b27b4068af",
@@ -20095,20 +20097,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00268|tiktok",
-   "cuando": "2026-10-30T22:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702574638898924821"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|x",
-   "cuando": "2026-10-30T23:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tiktok",
    "cuando": "2026-10-30T23:00:22.000Z",
@@ -24269,6 +24257,20 @@
    "cuando": "2026-11-06T15:20:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2118706332010160507"
+  },
+  {
+   "clave": "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x",
+   "cuando": "2026-11-06T16:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x",
+   "cuando": "2026-11-06T16:20:23.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -25476,6 +25478,7 @@
   "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9": "2026-10-23T22:40:17.000Z",
   "web:eca084c4-f470-4290-a9ab-e8a57e117475": "2026-10-26T12:06:06.000Z",
   "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b": "2026-10-16T15:40:14.000Z",
+  "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f": "2026-11-06T16:20:16.000Z",
   "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630": "2026-10-18T22:40:12.000Z",
   "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": "2026-10-15T16:20:19.000Z",
   "web:ef08f847-d9e6-4534-8776-17ff73df6820": "2026-10-16T18:40:13.000Z",
