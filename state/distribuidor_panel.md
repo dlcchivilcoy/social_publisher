@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 15:40 (hora AR) · ACTIVO
+Actualizado: 06/11/2026 16:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-06)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -17,8 +17,8 @@ Actualizado: 06/11/2026 15:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 26 · likes 0
-- X · Reels del bot: 39 con métricas · mediana vistas/impresiones 29 · likes 0
+- X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 26 · likes 0
+- X · Reels del bot: 38 con métricas · mediana vistas/impresiones 28.5 · likes 0
 - X · Reels policiales: 17 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 80 con métricas · mediana vistas/impresiones 18.5 · likes 0
 - TikTok · Recortes de entrevistas: 32 con métricas · mediana vistas/impresiones 130.5 · likes 1
@@ -27,8 +27,9 @@ Actualizado: 06/11/2026 15:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (6 esperando)
 - TikTok · Reels del bot · Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Patricia Gallo: IA y profesiones humanas en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Ezequiel Caselles: Pagan $2.200 la hora extra municipal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Victoria Ocampo: La expectativa de vida trans sigue siendo 35 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Fiorella Molina: del clonazepam al cannabis medicinal en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -38,10 +39,6 @@ Actualizado: 06/11/2026 15:40 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T16:40 programado entrevistas:job00284|x 
-- 2026-11-06T17:00 recibido web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x 
-- 2026-11-06T17:00 depurado web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-06T17:00 enviado entrevistas:job00284|x 
 - 2026-11-06T17:20 entrevista_aprobada entrevistas:job00285 
 - 2026-11-06T17:20 recibido entrevistas:job00285|x 
 - 2026-11-06T17:20 recibido entrevistas:job00285|tiktok 
@@ -63,3 +60,7 @@ Actualizado: 06/11/2026 15:40 (hora AR) · ACTIVO
 - 2026-11-06T18:20 enviado entrevistas:job00285|x 
 - 2026-11-06T18:20 enviado entrevistas:job00286|x 
 - 2026-11-06T18:20 programado entrevistas:job00287|x 
+- 2026-11-06T19:00 entrevista_aprobada entrevistas:job00288 
+- 2026-11-06T19:00 recibido entrevistas:job00288|x 
+- 2026-11-06T19:00 recibido entrevistas:job00288|tiktok 
+- 2026-11-06T19:00 programado entrevistas:job00288|x 
