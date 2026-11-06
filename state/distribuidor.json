@@ -1314,27 +1314,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a69bece4fafc1951.mp4",
    "youtube_url": "https://www.youtube.com/shorts/zq-_BSXQ_1o"
   },
-  "entrevistas:job00252": {
-   "descripcion": "En Chivilcoy, el músico Pablo Torres destacó el valor de los semilleros y la educación pública en la formación artística. Presentó el concierto de Los Duendes de Cage a beneficio del Conservatorio.",
-   "duracion_seg": null,
-   "entrevistado": "Pablo Torres",
-   "generado": "2026-10-27T17:20:17.000Z",
-   "id": "entrevistas:job00252",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Pablo Torres: la cultura es la memoria de los pueblos",
-   "urgente": false,
-   "video_bytes": 32855327,
-   "video_mb": 31.3,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
-   "youtube_url": "https://youtu.be/Hi8zJv8Rc-4"
-  },
   "entrevistas:job00255": {
    "descripcion": "El director de la UNLu Sede Chivilcoy, Jorge Guelffi, relató cómo impulsaron la adaptación de carros especiales para que chicos con discapacidad puedan participar de las carreras. Una iniciativa comunitaria que busca garantizar la inclusión en el deporte local.",
    "duracion_seg": null,
@@ -2828,6 +2807,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_03_bragado_detuvieron-a-una-pareja-tras-a.mp4",
    "volanta": "Robo en Bragado",
    "youtube_url": "https://youtube.com/shorts/F7pIierwbuw"
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado": {
+   "categoria": "operativo_policial",
+   "descripcion": "Un hombre de 29 años fue demorado en Chivilcoy al descubrirse que manejaba una moto buscada por la justicia a raíz de un ilícito denunciado en Bragado.",
+   "distancia_km": 0.0,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-06T23:31:55.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-interceptaron-a-un-motociclista-de-29-anos-con-un-61ca68",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Un hombre de 29 años resultó aprehendido en la esquina de Pintos y Villarino, en la vecina localidad de Chivilcoy.\n\nPersonal policial y agentes de la Sub DDI interceptaron al sospechoso mientras manejaba una Honda Wave de 110 cc.\n\nTras consultar los registros, los uniformados constataron que el rodado contaba con un pedido de secuestro vigente desde el 10 de julio de 2026 por una denuncia radicada en Bragado por Juan Carlos Baiocco.\n\nLa motocicleta quedó incautada y el conductor fue notificado de la formación de una causa por disposición de la Ayudantía Fiscal de Chivilcoy, con intervención de la Unidad Funcional de Instrucción y Juicio N.º 6 de Mercedes.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #OperativoPolicial #Inseguridad #Chivilcoy #BuenosAires",
+   "tipo": "video",
+   "titulo": "Aprehenden a un motociclista de 29 años por circular con un rodado robado",
+   "urgente": false,
+   "video_bytes": 99315,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_08_bragado_aprehenden-a-un-motociclista-d.mp4",
+   "volanta": "Operativo policial en Chivilcoy",
+   "youtube_url": "https://youtube.com/shorts/eRAogXOBHP0"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/policiales-robo-conflicto-de-ex-pareja.html": {
    "categoria": "robo",
@@ -10628,45 +10633,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a69bece4fafc1951.mp4",
    "viral": false
   },
-  "entrevistas:job00252|tiktok": {
-   "actualizado": "2026-10-27T23:20:25.000Z",
-   "buffer_id": "6ae110e9e2341add8c5b082b",
-   "categoria": "",
-   "clave": "entrevistas:job00252|tiktok",
-   "creado": "2026-10-27T17:20:17.000Z",
-   "dueAt": "2026-10-27T22:23:30.000Z",
-   "enviado": "2026-10-27T22:25:13.906Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-27T17:20:17.000Z",
-   "id": "entrevistas:job00252",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7701476164224765190",
-   "metricas": {
-    "averageTimeWatched": 2.58,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 91,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 4.42,
-    "views": 96
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Pablo Torres: la cultura es la memoria de los pueblos\n\nEn Chivilcoy, el músico Pablo Torres destacó el valor de los semilleros y la educación pública en la formación artística. Presentó el concierto de Los Duendes de Cage a beneficio del Conservatorio.\n\nhttps://youtu.be/Hi8zJv8Rc-4\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Pablo Torres: la cultura es la memoria de los pueblos",
-   "urgente": false,
-   "vence": "2026-10-29T17:20:17.000Z",
-   "video_bytes": 32855327,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00252.mp4",
-   "viral": false
-  },
   "entrevistas:job00255|tiktok": {
    "actualizado": "2026-10-29T01:40:18.000Z",
    "buffer_id": "6ae28c987d94db46db249930",
@@ -14097,6 +14063,34 @@
    "vence": "2026-11-06T00:31:03.000Z",
    "video_bytes": 90354,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_03_bragado_detuvieron-a-una-pareja-tras-a.mp4",
+   "viral": false
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado|x": {
+   "actualizado": "2026-11-06T23:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado|x",
+   "creado": "2026-11-06T23:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-06T23:31:55.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-interceptaron-a-un-motociclista-de-29-anos-con-un-61ca68",
+   "noticia": "nota:chivilcoy-interceptaron-a-un-motociclista-de-29-anos-con-un-61ca68",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Aprehenden a un motociclista de 29 años por circular con un rodado robado\n\nUn hombre de 29 años fue demorado en Chivilcoy al descubrirse que manejaba una moto buscada por la justicia a raíz de un ilícito denunciado en Bragado.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-interceptaron-a-un-motociclista-de-29-anos-con-un-61ca68",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Aprehenden a un motociclista de 29 años por circular con un rodado robado",
+   "urgente": false,
+   "vence": "2026-11-07T01:31:55.000Z",
+   "video_bytes": 99315,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_08_bragado_aprehenden-a-un-motociclista-d.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/10/policiales-robo-conflicto-de-ex-pareja.html|x": {
@@ -20266,12 +20260,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok",
-   "cuando": "2026-10-31T15:40:14.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|tiktok",
    "cuando": "2026-10-31T16:20:21.000Z",
    "evento": "vencido",
@@ -24430,6 +24418,14 @@
    "cuando": "2026-11-06T22:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2118831807764300093"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado|x",
+   "cuando": "2026-11-06T23:40:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -24924,6 +24920,7 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77": "2026-11-06T00:40:13.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos": "2026-11-06T00:40:13.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja": "2026-11-05T22:40:14.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado": "2026-11-06T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": "2026-10-18T21:40:15.000Z",
