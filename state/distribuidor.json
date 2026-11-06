@@ -11142,15 +11142,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok": {
-   "actualizado": "2026-11-05T23:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-06T00:00:16.000Z",
+   "buffer_id": "6aed189286fe9b83795e91f8",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok",
    "creado": "2026-11-05T23:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-06T00:03:59.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-05T23:03:02.000Z",
    "id": "bot:video_matias-zucchi_mw4587m6w644_01.mp4",
    "intentos": 0,
@@ -20532,12 +20532,6 @@
  },
  "registro": [
   {
-   "clave": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x",
-   "cuando": "2026-10-30T10:21:01.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116109615003758980"
-  },
-  {
    "buffer_id": "6ae46f8d38b96b6f5ba2f210",
    "clave": "web:2dd35939-7165-409c-b92f-1aa5b8b67a94|x",
    "cuando": "2026-10-30T10:21:01.000Z",
@@ -24691,11 +24685,17 @@
    "cuando": "2026-11-05T23:40:34.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2118485712806748565"
+  },
+  {
+   "buffer_id": "6aed189286fe9b83795e91f8",
+   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok",
+   "cuando": "2026-11-06T00:00:18.000Z",
+   "dueAt": "2026-11-06T00:03:59.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-26 21",
    "2026-10-27 10",
    "2026-10-27 18",
    "2026-10-27 21",
@@ -24724,10 +24724,11 @@
    "2026-11-04 18",
    "2026-11-04 21",
    "2026-11-05 10",
-   "2026-11-05 18"
+   "2026-11-05 18",
+   "2026-11-05 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-05",
+ "ultima_limpieza_release": "2026-11-06",
  "ultima_sync": "2026-11-05T23:40:34.000Z",
  "version": 1,
  "vistos": {
