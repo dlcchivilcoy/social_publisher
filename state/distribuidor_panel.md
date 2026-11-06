@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 06/11/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-06)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 06/11/2026 12:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 14 | 1 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 24 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 25 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -33,9 +33,6 @@ Actualizado: 06/11/2026 12:00 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T11:40 enviado web:3965ee13-9730-4798-8e40-1c97199ed3e6|x 
-- 2026-11-06T11:40 enviado web:840c7bf2-2055-47ae-b89c-be1e455da963|x 
-- 2026-11-06T11:40 enviado web:c1ca0123-3aeb-47a8-9a4f-e8e40a17be0f|x 
 - 2026-11-06T11:40 enviado web:d896f31f-27f4-4bfd-a371-8106455d4c26|x 
 - 2026-11-06T11:40 enviado web:ea8aaf01-2797-47ff-a625-b439567a99be|x 
 - 2026-11-06T11:40 enviado web:f798f446-3206-44e9-8d07-a7a03032fed7|x 
@@ -58,3 +55,6 @@ Actualizado: 06/11/2026 12:00 (hora AR) · ACTIVO
 - 2026-11-06T14:00 enviado web:fc96942b-6c78-4670-b75b-1a17d5b07537|x 
 - 2026-11-06T14:00 programado web:292c8e3c-5713-4e83-b415-a536e66b9e64|x 
 - 2026-11-06T14:40 depurado web:808568c6-1ce9-4338-b277-3a4776233812|x no está en el carrusel del diario de hoy
+- 2026-11-06T15:20 recibido web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5|x 
+- 2026-11-06T15:20 depurado web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-06T15:20 enviado web:292c8e3c-5713-4e83-b415-a536e66b9e64|x 
