@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0": {
-   "descripcion": "La denuncia fue radicada este sábado. Según informó la Policía Rural, el perjuicio económico todavía debe determinarse y no se estableció una relación directa con un hecho anterior en un establecimiento vecino. La Policía Rural inició actuaciones por la sustracción de herramientas",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-25T14:26:51.000Z",
-   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Investigan el faltante de herramientas y agroquímicos en un campo",
-   "urgente": false,
-   "video_bytes": 705990,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b4519b9a5026c7cd.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/V8kE5TcIoGE"
-  },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l": {
    "descripcion": "El Centro Criollo celebrará sus Bodas de Oro con homenajes, música, danzas y un espectáculo de Circo Criollo. Las actividades comenzarán este lunes 26 de octubre en su sede de avenida De Tomaso 2309. El Centro Criollo “El Bozal” cumplirá este lunes medio siglo de trayectoria.",
    "duracion_seg": 30.0,
@@ -6628,34 +6607,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tiktok": {
-   "actualizado": "2026-10-27T14:40:16.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0|tiktok",
-   "creado": "2026-10-25T14:40:14.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-25T14:26:51.000Z",
-   "id": "bot:corresponsal_2026-10-25_matias-zucchi_mvnwzrjs4un0",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Investigan el faltante de herramientas y agroquímicos en un campo\n\nLa Policía Rural inició actuaciones por la sustracción de herramientas tras una denuncia radicada este sábado. Según informó la fuerza, el perjuicio económico aún debe determinarse y no se estableció una relación directa con un hecho anterior.\n\nhttps://www.diariolacampaña.com.ar/n/ayarza-policiales-investigan-el-faltante-de-herramientas-y\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Investigan el faltante de herramientas y agroquímicos en un campo",
-   "urgente": false,
-   "vence": "2026-10-27T14:26:51.000Z",
-   "video_bytes": 705990,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b4519b9a5026c7cd.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnz0pq2428l|tiktok": {
    "actualizado": "2026-10-27T15:40:15.000Z",
    "buffer_id": "",
