@@ -4,7 +4,7 @@ Por qué (informe de Google Noticias del 30/10/2026): en la búsqueda «Chivilco
 aparecen La Razón (26), De Chivilcoy (17) y Hoy Chivilcoy (9), y La Campaña 0, aunque Google ya tiene
 guardadas más de 90 notas del diario de octubre. Esos medios dicen «Chivilcoy» en el título y en la
 primera línea; las nuestras casi nunca. El caso típico es la volanta: «Chivilcoy · Gremiales — Amarilla
-Gas cierra…» parece decirlo, pero la web separa la volanta corta (≤ 25 caracteres, diario_web
+Gas cierra…» parece decirlo, pero la web separa la volanta (≤ 50 caracteres desde el 5/11/2026, diario_web
 src/lib/wix.js `normalizar`) y el título que ve Google (h1, NewsArticle.headline) es solo «Amarilla
 Gas cierra…».
 
@@ -27,7 +27,7 @@ logger = get_logger("chivilcoy_web")
 
 PREFIJO_TITULO = "Chivilcoy: "
 DATA = "CHIVILCOY.– "
-VOLANTA_MAX = 25                    # igual que diario_web/src/lib/wix.js (normalizar)
+VOLANTA_MAX = 50                    # igual que diario_web/src/lib/wix.js (normalizar)
 SECCIONES_LOCALES = ("locales", "policiales", "campo", "deportes")
 # Ciudades de la zona: si el título o el arranque nombran una y la nota no dice «Chivilcoy», es de otra
 # ciudad (una nota de la región) y no se le pone «Chivilcoy». Las localidades del partido (Moquehuá,
@@ -50,10 +50,13 @@ def activo() -> bool:
 
 def _partir(title: str) -> tuple:
     """(volanta, titular, resto) EXACTAMENTE como los separa la web (diario_web normalizar): la primera
-    parte es volanta solo si tiene ≤ 25 caracteres; si no, la primera parte es el TÍTULO que ve Google
-    (h1) y lo que sigue queda de bajada («Acuerdo en el Ministerio de Trabajo — Amarilla Gas cierra…»)."""
+    parte es volanta solo si tiene ≤ VOLANTA_MAX caracteres y lo que sigue no viene cortado con «…» (o si
+    tiene ≤ 25: esas son volanta siempre); si no, la primera parte es el TÍTULO que ve Google (h1) y lo que
+    sigue queda de bajada."""
     partes = [p.strip() for p in (title or "").strip().split(" — ")]
-    volanta = partes.pop(0) if len(partes) > 1 and len(partes[0]) <= VOLANTA_MAX else ""
+    es_volanta = len(partes) > 1 and (len(partes[0]) <= 25 or (len(partes[0]) <= VOLANTA_MAX
+                                                               and not partes[1].endswith("…")))
+    volanta = partes.pop(0) if es_volanta else ""
     return volanta, partes[0], partes[1:]
 
 
@@ -120,6 +123,9 @@ def deshacer(title: str, texto: str) -> tuple:
     volanta, titular, resto = _partir(title)
     if titular.startswith(PREFIJO_TITULO):
         titular = titular[len(PREFIJO_TITULO):]
+    # Notas de antes del 5/11/2026: con volanta de más de 25 caracteres, la marca cayó en ella.
+    if volanta.startswith(PREFIJO_TITULO):
+        volanta = volanta[len(PREFIJO_TITULO):]
     lineas = (texto or "").split("\n")
     for i, linea in enumerate(lineas):
         limpia = linea.strip()

@@ -37,6 +37,7 @@ from urllib.parse import urlparse
 
 import requests
 
+from utils.chivilcoy_web import _partir as partir_titulo
 from utils.logger import get_logger
 
 from . import config, estado
@@ -186,10 +187,8 @@ def notas_web() -> list[dict]:
         if not link:
             continue
         cats = p.get("categoryIds") or []
-        partes = [t.strip() for t in (p.get("title") or "").split(" — ")]
-        volanta = partes.pop(0) if len(partes) > 1 and len(partes[0]) <= 25 else ""
-        titulo = partes[0] if partes else (p.get("title") or "")
-        bajada = " — ".join(partes[1:]) or (p.get("excerpt") or "")
+        volanta, titulo, resto = partir_titulo(p.get("title") or "")
+        bajada = " — ".join(resto) or (p.get("excerpt") or "")
         nacional = bool({config.WEB_CAT_NACIONALES_AUTO, config.WEB_CAT_NACIONALES} & set(cats))
         if nacional and config.X_SIN_NOTAS_NACIONALES:
             continue                                   # las nacionales van a X como reel (buzón)

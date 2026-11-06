@@ -80,13 +80,13 @@ def _suscriptores() -> list[tuple[str, bool]]:
 # ── Titulares del día (Wix) ───────────────────────────────────────────────────
 def _titulo_limpio(raw: str, max_len: int = 110) -> str:
     """El título de Wix viene como "VOLANTA — título — bajada" todo junto (igual
-    que en la web). Devuelve solo el titular: si el primer tramo es corto (≤25,
+    que en la web). Devuelve solo el titular: si el primer tramo es corto (≤50,
     es la volanta) toma el segundo; si no, el primero (lo demás suele ser bajada).
     Recorta prolijo si se pasa de max_len."""
     partes = [p.strip() for p in re.split(r"\s+[—–-]\s+", (raw or "").strip()) if p.strip()]
     if not partes:
         titulo = (raw or "").strip()
-    elif len(partes) >= 2 and len(partes[0]) <= 25:
+    elif len(partes) >= 2 and len(partes[0]) <= 50 and not partes[1].endswith("…"):
         titulo = partes[1]
     else:
         titulo = partes[0]
