@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 05/11/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 05/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-05)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 05/11/2026 22:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 0 | 4 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 2 | 0 | 3 | 0 | 1 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -18,26 +18,24 @@ Actualizado: 05/11/2026 22:00 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 26 · likes 0
-- X · Reels del bot: 41 con métricas · mediana vistas/impresiones 29 · likes 0
-- X · Reels policiales: 15 con métricas · mediana vistas/impresiones 40 · likes 0
+- X · Reels del bot: 40 con métricas · mediana vistas/impresiones 29 · likes 0
+- X · Reels policiales: 14 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 77 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 137 · likes 1
-- TikTok · Reels del bot: 45 con métricas · mediana vistas/impresiones 385 · likes 4
+- TikTok · Reels del bot: 42 con métricas · mediana vistas/impresiones 376.5 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (3 esperando)
 - X · Reels policiales · Detuvieron a un joven de 18 años por robar 500 mil pesos a una mujer de 77 — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Violento asalto a Marcelo Daniel Tradatti en Solís y hallan su camioneta — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Liberaron al único detenido por el millonario robo al corralón Cabalieri — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Aprehendieron a un joven de 18 años tras esclarecer un hurto domiciliario — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-05T21:00 programado entrevistas:job00279|tiktok 
 - 2026-11-05T21:20 enviado entrevistas:job00283|tiktok 
 - 2026-11-05T22:20 recibido policiales:https://semanariodejunin.com.ar/nota/76304/ddi-ju 
 - 2026-11-05T22:20 programado policiales:https://semanariodejunin.com.ar/nota/76304/ddi-ju 
@@ -62,3 +60,4 @@ Actualizado: 05/11/2026 22:00 (hora AR) · ACTIVO
 - 2026-11-06T00:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/ 
 - 2026-11-06T00:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/ 
 - 2026-11-06T01:00 enviado bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok 
+- 2026-11-06T01:20 vencido policiales:https://www.diariodemocracia.com/policiales/34762 espera su momento (se programa cerca de la hora en que sale en las otras redes)
