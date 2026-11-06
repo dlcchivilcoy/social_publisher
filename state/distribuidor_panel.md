@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 18:00 (hora AR) · ACTIVO
+Actualizado: 06/11/2026 18:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-06)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 06/11/2026 18:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 5 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 26 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 3 enviadas + 5 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -22,7 +22,7 @@ Actualizado: 06/11/2026 18:00 (hora AR) · ACTIVO
 - X · Reels policiales: 17 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 80 con métricas · mediana vistas/impresiones 18.5 · likes 0
 - TikTok · Recortes de entrevistas: 32 con métricas · mediana vistas/impresiones 130.5 · likes 1
-- TikTok · Reels del bot: 43 con métricas · mediana vistas/impresiones 368 · likes 4
+- TikTok · Reels del bot: 42 con métricas · mediana vistas/impresiones 376.5 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
@@ -33,7 +33,6 @@ Actualizado: 06/11/2026 18:00 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T17:40 depurado web:b5a7a825-0c09-4093-a2f9-5ca4caccb455|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-06T17:40 programado entrevistas:job00286|x 
 - 2026-11-06T18:00 recibido bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x 
 - 2026-11-06T18:00 recibido bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tikto 
@@ -58,3 +57,4 @@ Actualizado: 06/11/2026 18:00 (hora AR) · ACTIVO
 - 2026-11-06T21:00 programado entrevistas:job00286|tiktok 
 - 2026-11-06T21:00 programado entrevistas:job00285|tiktok 
 - 2026-11-06T21:00 programado entrevistas:job00284|tiktok 
+- 2026-11-06T21:20 enviado bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tikto 
