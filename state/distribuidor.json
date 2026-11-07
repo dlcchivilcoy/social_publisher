@@ -3605,6 +3605,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-chivilcoy-romina-caballo-lidero-al-raleigh-fem-en-la-1",
    "volanta": "Ciclismo"
   },
+  "web:2ed06d62-fca6-443a-8902-833840201be4": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Argentino recibió a Roque Pérez por el torneo de básquetbol formativo Por la fecha 13 del torneo de básquetbol de inferiores de la Asociación Básquetbol Chivilcoy, Argentino recibió al Club Atlético Roque Pérez. Compartimos imágenes de las categorías Mini y U13.",
+   "generado": "2026-11-07T16:23:17.823Z",
+   "id": "web:2ed06d62-fca6-443a-8902-833840201be4",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_9d5a41f0b7834536a7344234cddf77f4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-argentino-recibio-a-roque-perez-por-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Argentino recibió a Roque Pérez por el torneo de básquetbol formativo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-argentino-recibio-a-roque-perez-por-el",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:306a1afa-6396-4897-94c5-e852fbb14fdd": {
    "categoria": "",
    "descripcion": "Chivilcoy hizo podio en Santa Fe: brillante actuación del Círculo de Atletas en la Copa Nacional de Clubes U20 El fin de semana pasado, la ciudad de Santa Fe fue el epicentro del atletismo nacional al albergar la Copa Nacional de Clubes U20. Hasta allí viajó una delegación de jóvenes talentos pertenecientes al Círculo de Atletas de Chivilcoy, bajo la atenta conducción técnica del profesor Emir Sosa. El resultado no pudo ser mejor: medallas, podios individuales y un histórico tercer puesto en...",
@@ -14437,6 +14456,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:2ed06d62-fca6-443a-8902-833840201be4|x": {
+   "actualizado": "2026-11-07T16:40:21.000Z",
+   "buffer_id": "",
+   "clave": "web:2ed06d62-fca6-443a-8902-833840201be4|x",
+   "creado": "2026-11-07T16:40:12.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-07T16:23:17.823Z",
+   "id": "web:2ed06d62-fca6-443a-8902-833840201be4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-argentino-recibio-a-roque-perez-por-el",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-argentino-recibio-a-roque-perez-por-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Argentino recibió a Roque Pérez por el torneo de básquetbol formativo\n\nPor la fecha 13 del torneo de básquetbol de inferiores de la Asociación Básquetbol Chivilcoy, Argentino recibió al Club Atlético Roque Pérez.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-argentino-recibio-a-roque-perez-por-el",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Argentino recibió a Roque Pérez por el torneo de básquetbol formativo",
+   "urgente": false,
+   "vence": "2026-11-07T20:23:17.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:306a1afa-6396-4897-94c5-e852fbb14fdd|x": {
    "actualizado": "2026-11-04T15:00:22.000Z",
    "buffer_id": "6aeb27b10133c52cb400a6a6",
@@ -18602,22 +18648,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok",
-   "cuando": "2026-10-31T20:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:be3f2357-0b41-4b5c-a76e-7242f7a153df|x",
-   "cuando": "2026-10-31T20:40:23.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
    "buffer_id": "6ae6523837c1acd2a0ccbba2",
    "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x",
    "cuando": "2026-10-31T20:40:24.000Z",
@@ -22762,6 +22792,20 @@
    "cuando": "2026-11-07T09:00:25.000Z",
    "evento": "vencido",
    "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "web:2ed06d62-fca6-443a-8902-833840201be4|x",
+   "cuando": "2026-11-07T16:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:2ed06d62-fca6-443a-8902-833840201be4|x",
+   "cuando": "2026-11-07T16:40:21.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -23476,6 +23520,7 @@
   "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec": "2026-11-03T10:02:22.000Z",
   "web:2e67d217-7a79-4046-8927-8123258e800c": "2026-10-19T00:00:21.000Z",
   "web:2e89e9c4-767d-4596-9b02-2002f8c153f6": "2026-10-16T16:20:15.000Z",
+  "web:2ed06d62-fca6-443a-8902-833840201be4": "2026-11-07T16:40:12.000Z",
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
   "web:2fdbd396-83fc-451f-926b-d71cfd42c1be": "2026-10-28T10:20:19.000Z",
   "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9": "2026-10-25T20:20:14.000Z",

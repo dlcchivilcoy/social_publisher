@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 07/11/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 07/11/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-07)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 07/11/2026 13:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 07/11/2026 13:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-06T21:00 programado entrevistas:job00287|tiktok 
-- 2026-11-06T21:00 programado entrevistas:job00286|tiktok 
 - 2026-11-06T21:00 programado entrevistas:job00285|tiktok 
 - 2026-11-06T21:00 programado entrevistas:job00284|tiktok 
 - 2026-11-06T21:20 enviado bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tikto 
@@ -58,3 +56,5 @@ Actualizado: 07/11/2026 13:20 (hora AR) · ACTIVO
 - 2026-11-07T02:40 vencido policiales:https://www.latrochadigital.com.ar/2026/11/06/vie espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-07T09:00 recibido web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x 
 - 2026-11-07T09:00 vencido web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x no hubo lugar antes de su vencimiento
+- 2026-11-07T16:40 recibido web:2ed06d62-fca6-443a-8902-833840201be4|x 
+- 2026-11-07T16:40 depurado web:2ed06d62-fca6-443a-8902-833840201be4|x de la web, a X solo van las notas del diario de la mañana
