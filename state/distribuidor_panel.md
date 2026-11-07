@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 07/11/2026 17:20 (hora AR) · ACTIVO
+Actualizado: 07/11/2026 17:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-07)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 07/11/2026 17:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 2 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -34,8 +34,6 @@ Actualizado: 07/11/2026 17:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-06T22:40 recibido policiales:https://semanariodejunin.com.ar/nota/76336/chivil 
-- 2026-11-06T22:40 enviado entrevistas:job00285|tiktok 
 - 2026-11-06T22:40 enviado entrevistas:job00286|tiktok 
 - 2026-11-06T22:40 enviado entrevistas:job00287|tiktok 
 - 2026-11-06T22:40 enviado entrevistas:job00288|tiktok 
@@ -59,3 +57,5 @@ Actualizado: 07/11/2026 17:20 (hora AR) · ACTIVO
 - 2026-11-07T18:40 recibido web:cd19d51a-2d12-4c2f-a5a7-6e89ce9ab386|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-07T18:40 programado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x 
 - 2026-11-07T19:00 enviado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x 
+- 2026-11-07T20:40 recibido web:2e964f84-db65-4365-a793-01e8f49b70ed|x 
+- 2026-11-07T20:40 depurado web:2e964f84-db65-4365-a793-01e8f49b70ed|x de la web, a X solo van las notas del diario de la mañana

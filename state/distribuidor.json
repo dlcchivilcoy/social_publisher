@@ -3605,6 +3605,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-chivilcoy-romina-caballo-lidero-al-raleigh-fem-en-la-1",
    "volanta": "Ciclismo"
   },
+  "web:2e964f84-db65-4365-a793-01e8f49b70ed": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: DEPORTIVO COLÓN cayó en casa ante BELGRANO de SAN NICOLAS CHIVILCOY.– DEPORTIVO COLÓN no logró el triunfo en casa ante BELGRANO de SAN NICOLAS (fue 59-70), que contó con la jerarquía de NOE GRUNALE para sacar algo de luz y, ante la poca efectividad del LEÓN, el equipo de SAN NICOLAS la mantuvo. COLÓN, ya ascendido al FEDERAL 2027, seguramente aprovecha estos partidos para darle rodaje de primer nivel a sus jugadores y a modo de evaluación para lo que viene. El LEÓN intentó por...",
+   "generado": "2026-11-07T20:29:21.987Z",
+   "id": "web:2e964f84-db65-4365-a793-01e8f49b70ed",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5bcd614969584f1f91bacb91ca788be6~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-cayo-en-casa-ante",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: DEPORTIVO COLÓN cayó en casa ante BELGRANO de SAN NICOLAS",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-deportivo-colon-cayo-en-casa-ante",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:2ed06d62-fca6-443a-8902-833840201be4": {
    "categoria": "",
    "descripcion": "Chivilcoy: Argentino recibió a Roque Pérez por el torneo de básquetbol formativo Por la fecha 13 del torneo de básquetbol de inferiores de la Asociación Básquetbol Chivilcoy, Argentino recibió al Club Atlético Roque Pérez. Compartimos imágenes de las categorías Mini y U13.",
@@ -14171,6 +14190,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:2e964f84-db65-4365-a793-01e8f49b70ed|x": {
+   "actualizado": "2026-11-07T20:40:22.000Z",
+   "buffer_id": "",
+   "clave": "web:2e964f84-db65-4365-a793-01e8f49b70ed|x",
+   "creado": "2026-11-07T20:40:13.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-07T20:29:21.987Z",
+   "id": "web:2e964f84-db65-4365-a793-01e8f49b70ed",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-cayo-en-casa-ante",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-deportivo-colon-cayo-en-casa-ante",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: DEPORTIVO COLÓN cayó en casa ante BELGRANO de SAN NICOLAS\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-cayo-en-casa-ante",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: DEPORTIVO COLÓN cayó en casa ante BELGRANO de SAN NICOLAS",
+   "urgente": false,
+   "vence": "2026-11-08T00:29:21.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:2ed06d62-fca6-443a-8902-833840201be4|x": {
    "actualizado": "2026-11-07T16:40:21.000Z",
    "buffer_id": "",
@@ -18338,22 +18384,6 @@
  },
  "registro": [
   {
-   "clave": "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38|x",
-   "cuando": "2026-10-31T21:00:31.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c|x",
-   "cuando": "2026-10-31T21:00:31.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x",
    "cuando": "2026-10-31T21:00:31.000Z",
    "evento": "enviado",
@@ -22494,6 +22524,20 @@
    "cuando": "2026-11-07T19:00:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2119138404340269367"
+  },
+  {
+   "clave": "web:2e964f84-db65-4365-a793-01e8f49b70ed|x",
+   "cuando": "2026-11-07T20:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:2e964f84-db65-4365-a793-01e8f49b70ed|x",
+   "cuando": "2026-11-07T20:40:22.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -23209,6 +23253,7 @@
   "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec": "2026-11-03T10:02:22.000Z",
   "web:2e67d217-7a79-4046-8927-8123258e800c": "2026-10-19T00:00:21.000Z",
   "web:2e89e9c4-767d-4596-9b02-2002f8c153f6": "2026-10-16T16:20:15.000Z",
+  "web:2e964f84-db65-4365-a793-01e8f49b70ed": "2026-11-07T20:40:13.000Z",
   "web:2ed06d62-fca6-443a-8902-833840201be4": "2026-11-07T16:40:12.000Z",
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
   "web:2fdbd396-83fc-451f-926b-d71cfd42c1be": "2026-10-28T10:20:19.000Z",
