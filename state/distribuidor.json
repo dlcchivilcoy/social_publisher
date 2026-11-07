@@ -13683,14 +13683,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x": {
-   "actualizado": "2026-11-07T00:40:13.000Z",
+   "actualizado": "2026-11-07T02:40:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x",
    "creado": "2026-11-07T00:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-07T00:31:01.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html",
    "intentos": 0,
@@ -14317,14 +14317,14 @@
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x": {
-   "actualizado": "2026-11-07T00:40:13.000Z",
+   "actualizado": "2026-11-07T02:40:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x",
    "creado": "2026-11-07T00:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-07T00:30:59.000Z",
    "id": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/",
    "intentos": 0,
@@ -19818,22 +19818,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|tiktok",
-   "cuando": "2026-10-31T20:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:e5999468-a4ca-4894-bd6f-4cc43da3cca5|x",
-   "cuando": "2026-10-31T20:20:14.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|tiktok",
    "cuando": "2026-10-31T20:20:14.000Z",
    "evento": "vencido",
@@ -23980,6 +23964,18 @@
   {
    "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/|x",
    "cuando": "2026-11-07T02:20:13.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x",
+   "cuando": "2026-11-07T02:40:13.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x",
+   "cuando": "2026-11-07T02:40:13.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
