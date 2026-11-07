@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 07/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 07/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-07)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,8 +8,8 @@ Actualizado: 07/11/2026 19:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 4 |
+| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,7 +18,7 @@ Actualizado: 07/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 25 · likes 0
-- X · Reels del bot: 32 con métricas · mediana vistas/impresiones 29.5 · likes 0
+- X · Reels del bot: 31 con métricas · mediana vistas/impresiones 30 · likes 0
 - X · Reels policiales: 16 con métricas · mediana vistas/impresiones 41.5 · likes 0
 - X · Notas web: 79 con métricas · mediana vistas/impresiones 17 · likes 0
 - TikTok · Recortes de entrevistas: 33 con métricas · mediana vistas/impresiones 141 · likes 1
@@ -27,16 +27,13 @@ Actualizado: 07/11/2026 19:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Reels policiales · Sufrió un robo en su vivienda de Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-07T00:20 recibido policiales:https://www.latrochadigital.com.ar/2026/11/06/dos 
-- 2026-11-07T00:40 recibido policiales:https://www.latrochadigital.com.ar/2026/11/06/vie 
-- 2026-11-07T00:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/choque-un 
-- 2026-11-07T00:40 vencido policiales:https://semanariodejunin.com.ar/nota/76336/chivil espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-07T01:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-07T02:20 vencido policiales:https://www.latrochadigital.com.ar/2026/11/06/dos espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-07T02:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/choque-un espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -58,3 +55,7 @@ Actualizado: 07/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-07T21:20 enviado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok 
 - 2026-11-07T22:20 recibido policiales:https://www.diariodemocracia.com/policiales/34773 
 - 2026-11-07T22:20 programado policiales:https://www.diariodemocracia.com/policiales/34773 
+- 2026-11-07T22:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/le-robaro 
+- 2026-11-07T22:40 recibido web:547df2b0-7a1a-4b57-923f-b7947b7b5134|x 
+- 2026-11-07T22:40 depurado web:547df2b0-7a1a-4b57-923f-b7947b7b5134|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-07T22:40 enviado policiales:https://www.diariodemocracia.com/policiales/34773 
