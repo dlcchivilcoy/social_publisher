@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 06/11/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-06)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
@@ -13,8 +13,8 @@ Actualizado: 06/11/2026 20:40 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 26 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 7 enviadas + 1 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 24 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 26 · likes 0
@@ -35,7 +35,6 @@ Actualizado: 06/11/2026 20:40 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T18:20 enviado entrevistas:job00285|x 
 - 2026-11-06T18:20 enviado entrevistas:job00286|x 
 - 2026-11-06T18:20 programado entrevistas:job00287|x 
 - 2026-11-06T19:00 entrevista_aprobada entrevistas:job00288 
@@ -60,3 +59,4 @@ Actualizado: 06/11/2026 20:40 (hora AR) · ACTIVO
 - 2026-11-06T22:40 enviado entrevistas:job00288|tiktok 
 - 2026-11-06T22:40 enviado policiales:https://www.diariodemocracia.com/policiales/34768 
 - 2026-11-06T23:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/ 
+- 2026-11-07T00:00 enviado entrevistas:job00284|tiktok 
