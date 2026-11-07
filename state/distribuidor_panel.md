@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 06/11/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 07/11/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-11-06)
+## Hoy (2026-11-07)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 5 | 0 |
-| Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 7 |
+| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 06/11/2026 23:40 (hora AR) · ACTIVO
 - TikTok · Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizacio — An unknown error has occurred. Please retry the post again, and get in touch if this persists.
 
 ## Últimos movimientos
-- 2026-11-06T21:00 programado bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tikto 
-- 2026-11-06T21:00 programado entrevistas:job00288|tiktok 
 - 2026-11-06T21:00 programado entrevistas:job00287|tiktok 
 - 2026-11-06T21:00 programado entrevistas:job00286|tiktok 
 - 2026-11-06T21:00 programado entrevistas:job00285|tiktok 
@@ -58,3 +56,5 @@ Actualizado: 06/11/2026 23:40 (hora AR) · ACTIVO
 - 2026-11-07T02:20 vencido policiales:https://www.latrochadigital.com.ar/2026/11/06/dos espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-07T02:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/choque-un espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-07T02:40 vencido policiales:https://www.latrochadigital.com.ar/2026/11/06/vie espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-07T09:00 recibido web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x 
+- 2026-11-07T09:00 vencido web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x no hubo lugar antes de su vencimiento

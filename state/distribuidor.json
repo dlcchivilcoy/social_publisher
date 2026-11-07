@@ -5973,6 +5973,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/handball-simon-dominguez-vuelve-a-vestir-la-albiceleste-representara",
    "volanta": "Handball"
   },
+  "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Racing venció a Quilmes por el Torneo Clausura de básquet CHIVILCOY.– Se completó la fecha 12 del Torneo Clausura de Primera División. En un partido muy parejo, emotivo y de mucha intensidad, donde fue un tiempo para cada equipo. Primer tiempo: Quilmes 34 - Racing 28. Y el segundo tiempo fue para la Academia: Quilmes 42 - Racing 50. De esta manera, la visita se queda con un importantísimo triunfo para seguir en el segundo puesto en la recta final del torneo por 78 a 76. Fotos de...",
+   "generado": "2026-11-07T03:13:03.953Z",
+   "id": "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7e080d317fca4c839570bbea5c64177c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-vencio-a-quilmes-por-el-torneo",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Racing venció a Quilmes por el Torneo Clausura de básquet",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-racing-vencio-a-quilmes-por-el-torneo",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c": {
    "categoria": "",
    "descripcion": "Juan Ignacio Felice recibió una carta documento del Municipio y cuestionó el gasto El concejal de La Libertad Avanza de Chivilcoy, Juan Ignacio Felice, informó que el 28 de octubre recibió en su domicilio una carta documento enviada por la Municipalidad, en el marco de la controversia por sus declaraciones sobre una supuesta condonación de deuda a la empresa Perchet, vinculada a Bicontinentar. Mediante un video en el que exhibió la notificación, el edil señaló que el documento lleva la firma...",
@@ -6718,34 +6737,6 @@
    "titulo": "Se incendió una camioneta en la prolongación de la avenida Avellaneda",
    "urgente": false,
    "vence": "2026-10-30T00:48:38.000Z",
-   "video_bytes": 483067,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c1e53feef8e75d70.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|x": {
-   "actualizado": "2026-10-28T09:00:20.000Z",
-   "buffer_id": "",
-   "clave": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz|x",
-   "creado": "2026-10-28T01:00:19.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-10-28T00:48:38.000Z",
-   "id": "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-se-incendio-una-camioneta-en-la-prolongacion-de-la",
-   "noticia": "nota:chivilcoy-bomberos-se-incendio-una-camioneta-en-la-prolongacion-de-la",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Se incendió una camioneta en la prolongación de la avenida Avellaneda\n\nSirena de Bomberos en Chivilcoy: se reporta el incendio de una camioneta en la prolongación de la avenida Avellaneda, llegando al puente. NOTICIA en desarrollo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-se-incendio-una-camioneta-en-la-prolongacion-de-la",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Se incendió una camioneta en la prolongación de la avenida Avellaneda",
-   "urgente": false,
-   "vence": "2026-10-28T02:48:38.000Z",
    "video_bytes": 483067,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_c1e53feef8e75d70.mp4",
    "viral": false
@@ -18875,6 +18866,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x": {
+   "actualizado": "2026-11-07T09:00:25.000Z",
+   "buffer_id": "",
+   "clave": "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x",
+   "creado": "2026-11-07T09:00:16.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-07T03:13:03.953Z",
+   "id": "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-vencio-a-quilmes-por-el-torneo",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-racing-vencio-a-quilmes-por-el-torneo",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Racing venció a Quilmes por el Torneo Clausura de básquet\n\nCHIVILCOY.– Se completó la fecha 12 del Torneo Clausura de Primera División. En un partido muy parejo, emotivo y de mucha intensidad, donde fue un tiempo para cada equipo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-vencio-a-quilmes-por-el-torneo",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Racing venció a Quilmes por el Torneo Clausura de básquet",
+   "urgente": false,
+   "vence": "2026-11-07T07:13:03.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c|x": {
    "actualizado": "2026-10-29T16:20:27.000Z",
    "buffer_id": "",
@@ -19817,20 +19835,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|tiktok",
-   "cuando": "2026-10-31T20:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x",
-   "cuando": "2026-10-31T20:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok",
    "cuando": "2026-10-31T20:40:23.000Z",
@@ -23978,6 +23982,20 @@
    "cuando": "2026-11-07T02:40:13.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x",
+   "cuando": "2026-11-07T09:00:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x",
+   "cuando": "2026-11-07T09:00:25.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -24019,6 +24037,7 @@
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
+  "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
   "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
@@ -24132,6 +24151,7 @@
   "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi": "2026-11-03T12:00:20.000Z",
   "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v": "2026-11-06T09:00:16.000Z",
   "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh": "2026-11-06T18:00:18.000Z",
+  "bot:corresponsal_2026-11-07_matias-zucchi_mw5temp2tz8d": "2026-11-07T09:00:16.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -24635,6 +24655,7 @@
   "web:18e92eb6-bc8a-4f82-8473-f134932a7f19": "2026-10-11T21:58:03.000Z",
   "web:191fa87d-084e-4d11-bc6e-011231dad2c0": "2026-11-04T09:00:19.000Z",
   "web:19b7f589-bef3-43be-ac76-ad9f9de1dfa2": "2026-10-16T19:20:14.000Z",
+  "web:19bb7dd9-ab7d-4edc-839e-67454eb77d4c": "2026-11-07T09:00:16.000Z",
   "web:1a3f2450-d820-426b-a2f8-b91f8e338629": "2026-10-18T12:40:15.000Z",
   "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c": "2026-10-31T21:40:15.000Z",
   "web:1a4bedbf-db77-4d7a-80df-2e887b1625b0": "2026-10-15T10:20:13.000Z",
@@ -25149,6 +25170,7 @@
   "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6": "2026-10-15T00:40:14.000Z",
   "web:dca831fd-6866-464f-a367-e6b85d1a5640": "2026-10-15T23:40:15.000Z",
   "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e": "2026-10-15T18:20:17.000Z",
+  "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24": "2026-11-07T09:00:16.000Z",
   "web:dd7f1568-1a2a-4716-94cc-9e7125c22801": "2026-10-16T10:20:16.000Z",
   "web:dd86062e-10d5-470e-a60e-27533841a020": "2026-10-23T10:20:15.000Z",
   "web:dd87b7aa-3504-4ee1-855b-97c17f044d34": "2026-10-18T18:20:15.000Z",
