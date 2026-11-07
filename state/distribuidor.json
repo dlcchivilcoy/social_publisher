@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl": {
-   "descripcion": "La Secretaría de Seguridad, a cargo de Néstor Dabi, informó que personal policial, junto a efectivos de la SubDDI Chivilcoy, logró esclarecer el hurto de una motocicleta ocurrido en la vía pública y avanzar en la identificación de los presuntos autores, dos menores de 17 años.",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-26T13:23:58.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Esclarecieron el hurto de una moto e identificaron a dos menores",
-   "urgente": false,
-   "video_bytes": 873840,
-   "video_mb": 0.8,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88e85627d3ffff39.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/SGXScOK5PdE"
-  },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl": {
    "descripcion": "La Secretaría de Seguridad de Chivilcoy, a cargo de Néstor Dabi, informó que se logró esclarecer un robo ocurrido en una vivienda de la localidad de Gorostiaga, donde fueron sustraídos diversos elementos. El hecho se registró en una propiedad ubicada en la calle Las Palmeras...",
    "duracion_seg": 30.0,
@@ -6369,34 +6348,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok": {
-   "actualizado": "2026-10-28T13:40:15.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl|tiktok",
-   "creado": "2026-10-26T13:48:30.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-26T13:23:58.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Esclarecieron el hurto de una moto e identificaron a dos menores\n\nLa Secretaría de Seguridad, a cargo de Néstor Dabi, informó que personal policial, junto a efectivos de la SubDDI Chivilcoy, logró esclarecer el hurto de una motocicleta ocurrido en la vía pública y avanzar en la identificación de los presuntos autores, dos menores de 17 años.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-esclarecieron-el-hurto-de-una-moto-e\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Esclarecieron el hurto de una moto e identificaron a dos menores",
-   "urgente": false,
-   "vence": "2026-10-28T13:23:58.000Z",
-   "video_bytes": 873840,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_88e85627d3ffff39.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|tiktok": {
    "actualizado": "2026-10-28T14:20:17.000Z",
    "buffer_id": "",
