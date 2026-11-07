@@ -3380,6 +3380,32 @@
    "volanta": "Siniestro vial en Gowland",
    "youtube_url": "https://youtube.com/shorts/Qijm6NEDkSw"
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/": {
+   "categoria": "otro_policial",
+   "descripcion": "Teo Camilo Posse, de 19 años, está internado en terapia intensiva con traumatismo de cráneo y asistencia respiratoria tras precipitarse cinco metros desde una cubierta en la sede universitaria.",
+   "distancia_km": 0.0,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-07T00:01:46.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/",
+   "localidad": "Luján",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-un-joven-de-19-anos-esta-grave-tras-caer-desde-el-c79126",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Teo Camilo Posse, de 19 años, permanece internado en el área de terapia intensiva bajo asistencia respiratoria mecánica tras sufrir graves lesiones.\n\nEl episodio ocurrió en las instalaciones de la Universidad Nacional de Luján situadas en Chivilcoy, donde ambos involucrados se precipitaron desde unos cinco metros de altura.\n\nUn complejo operativo que incluyó al personal policial, los bomberos voluntarios y el SAME permitió rescatar a los heridos mediante técnicas de descenso en altura.\n\nEl paciente presenta traumatismo de cráneo con posible fractura y contusión pulmonar, aguardando los resultados de nuevos estudios médicos.\n\n📲 Más noticias de Luján en www.diariolacampaña.com.ar\n\n#Lujan #Chivilcoy #Siniestro #BuenosAires",
+   "tipo": "video",
+   "titulo": "Un joven de 19 años en terapia intensiva tras caer del techo de la UNLu en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 86009,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_09_9-de-julio_un-joven-de-19-a-os-en-terapia.mp4",
+   "volanta": "Luján",
+   "youtube_url": "https://youtube.com/shorts/_k8ed3SxCe4"
+  },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": {
    "categoria": "",
    "descripcion": "Luis Molina brilló en Chivilcoy: se quedó con los 21K de la Maratón \"Eduardo Poliaroni\" CHIVILCOY.– El atleta olímpico hizo su debut en la ciudad con una gran victoria en la media maratón local. Tras un intenso mano a mano frente al corredor de Saladillo, el representante nacional impuso su ritmo para subirse a lo más alto del podio. En una jornada deportiva cargada de adrenalina y exigencia física, el destacado atleta olímpico Luis Molina se consagró como el flamante ganador de la prueba...",
@@ -14737,6 +14763,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_08_9-de-julio_choque-entre-un-cami-n-y-una-r.mp4",
    "viral": false
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/|x": {
+   "actualizado": "2026-11-07T00:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/|x",
+   "creado": "2026-11-07T00:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-07T00:01:46.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-un-joven-de-19-anos-esta-grave-tras-caer-desde-el-c79126",
+   "noticia": "nota:chivilcoy-un-joven-de-19-anos-esta-grave-tras-caer-desde-el-c79126",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Un joven de 19 años en terapia intensiva tras caer del techo de la UNLu en Chivilcoy\n\nTeo Camilo Posse está internado con traumatismo de cráneo y asistencia respiratoria. El hecho ocurrió tras precipitarse cinco metros desde una cubierta en la sede.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-un-joven-de-19-anos-esta-grave-tras-caer-desde-el-c79126",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Un joven de 19 años en terapia intensiva tras caer del techo de la UNLu en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-07T02:01:46.000Z",
+   "video_bytes": 86009,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_09_9-de-julio_un-joven-de-19-a-os-en-terapia.mp4",
+   "viral": false
+  },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be|x": {
    "actualizado": "2026-11-02T13:20:16.000Z",
    "buffer_id": "6ae876a3339e85e6016a8d44",
@@ -20261,14 +20315,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|x",
-   "cuando": "2026-10-31T16:40:18.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "dura 162 s y X admite 140 s sin suscripción",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok",
    "cuando": "2026-10-31T16:40:20.000Z",
    "estado": "pendiente",
@@ -24427,6 +24473,14 @@
    "cuando": "2026-11-07T00:00:18.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7705192871305039112"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/|x",
+   "cuando": "2026-11-07T00:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -25014,6 +25068,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/millonario-robo-en-un-corralon-de-chacabuco-un-empleado-imputado/": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/": "2026-11-04T23:40:17.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/": "2026-11-05T00:40:13.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/": "2026-11-07T00:20:16.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
