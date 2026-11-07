@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 07/11/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 07/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-07)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 07/11/2026 19:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -33,8 +33,6 @@ Actualizado: 07/11/2026 19:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-06T23:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/ 
-- 2026-11-07T00:00 enviado entrevistas:job00284|tiktok 
 - 2026-11-07T00:20 recibido policiales:https://www.latrochadigital.com.ar/2026/11/06/dos 
 - 2026-11-07T00:40 recibido policiales:https://www.latrochadigital.com.ar/2026/11/06/vie 
 - 2026-11-07T00:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/choque-un 
@@ -58,3 +56,5 @@ Actualizado: 07/11/2026 19:00 (hora AR) · ACTIVO
 - 2026-11-07T21:00 depurado web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-07T21:00 programado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok 
 - 2026-11-07T21:20 enviado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok 
+- 2026-11-07T22:20 recibido policiales:https://www.diariodemocracia.com/policiales/34773 
+- 2026-11-07T22:20 programado policiales:https://www.diariodemocracia.com/policiales/34773 
