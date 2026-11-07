@@ -13870,14 +13870,14 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado|x": {
-   "actualizado": "2026-11-06T23:40:13.000Z",
+   "actualizado": "2026-11-07T01:40:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado|x",
    "creado": "2026-11-06T23:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-06T23:31:55.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado",
    "intentos": 0,
@@ -20098,12 +20098,6 @@
  },
  "registro": [
   {
-   "clave": "web:ea13235b-dbb9-482c-b517-2865e5df2d34|x",
-   "cuando": "2026-10-31T16:40:26.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|x",
    "cuando": "2026-10-31T20:20:13.000Z",
    "estado": "pendiente",
@@ -24262,6 +24256,12 @@
   {
    "clave": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x",
    "cuando": "2026-11-07T00:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado|x",
+   "cuando": "2026-11-07T01:40:13.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
