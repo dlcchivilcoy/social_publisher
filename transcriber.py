@@ -144,13 +144,73 @@ IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 AUDIO_EXTS = {".ogg", ".opus", ".mp3", ".m4a", ".aac", ".wav", ".amr"}
 
 
-def _audio_de(carpeta: Path) -> Path | None:
-    """El audio de una carpeta de corresponsal (el primero por nombre), o None."""
+# VARIOS AUDIOS (07/11/2026, pedido del usuario: «que el bot acepte más de un audio y pueda unificarlos para
+# la creación de reel»): el webhook ya los guardaba numerados en el orden en que llegaron (audio_…_01,
+# audio_…_02); acá se unen en uno solo, con una pausa corta entre uno y otro. El unido vive en WORK_DIR (no
+# en la carpeta de Drive) y se rearma igual en la etapa 2, que puede correr en otra máquina.
+AUDIO_UNIDO = "decl_audio_unido_"
+PAUSA_ENTRE_AUDIOS = 0.5
+
+
+def _audios_de(carpeta: Path) -> list:
+    """Los audios de una carpeta de corresponsal, por nombre (= en el orden en que llegaron)."""
     try:
-        return next((p for p in sorted(carpeta.iterdir())
-                     if p.is_file() and p.suffix.lower() in AUDIO_EXTS), None)
+        return [p for p in sorted(carpeta.iterdir()) if p.is_file() and p.suffix.lower() in AUDIO_EXTS]
     except Exception:  # noqa: BLE001
+        return []
+
+
+def _unir_audios(audios: list, salida: Path) -> Path:
+    """Un solo audio (AAC mono 44,1 kHz) con todos, en orden y con PAUSA_ENTRE_AUDIOS entre uno y otro."""
+    import subprocess
+    from video import _ffmpeg
+    salida.parent.mkdir(parents=True, exist_ok=True)
+    partes, etiquetas = [], ""
+    for i in range(len(audios)):
+        pausa = f",apad=pad_dur={PAUSA_ENTRE_AUDIOS}" if i < len(audios) - 1 else ""
+        partes.append(f"[{i}:a]aresample=44100,aformat=sample_fmts=fltp:channel_layouts=mono{pausa}[a{i}]")
+        etiquetas += f"[a{i}]"
+    filtro = ";".join(partes) + f";{etiquetas}concat=n={len(audios)}:v=0:a=1[out]"
+    cmd = [_ffmpeg(), "-y", "-loglevel", "error"]
+    for a in audios:
+        cmd += ["-i", str(a)]
+    cmd += ["-filter_complex", filtro, "-map", "[out]", "-c:a", "aac", "-b:a", "96k", str(salida)]
+    r = subprocess.run(cmd, capture_output=True, text=True, errors="replace")
+    if r.returncode != 0 or not salida.is_file() or salida.stat().st_size == 0:
+        raise RuntimeError(f"ffmpeg no pudo unir los audios: {(r.stderr or '').strip()[-300:]}")
+    return salida
+
+
+def _audio_de(carpeta: Path) -> Path | None:
+    """El audio de una carpeta de corresponsal, o None. Si mandó varios, uno solo con todos (_unir_audios);
+    si eso falla, el primero, como antes."""
+    audios = _audios_de(carpeta)
+    if len(audios) <= 1:
+        return audios[0] if audios else None
+    try:
+        unido = _unir_audios(audios, WORK_DIR / f"{AUDIO_UNIDO}{_slug(carpeta.name)}.m4a")
+        logger.info(f"Declaración con {len(audios)} audios: los uno en uno solo ({unido.name}).")
+        return unido
+    except Exception as e:  # noqa: BLE001
+        logger.error(f"No pude unir los {len(audios)} audios de '{carpeta.name}' ({e}): uso solo el primero.")
+        return audios[0]
+
+
+def _audio_decl(carpeta: Path | None, decl: dict) -> Path | None:
+    """El archivo del audio de una declaración ya procesada: el de la carpeta o, si eran varios, el unido
+    (lo rearma si esta máquina no lo tiene). None si no está."""
+    nombre = (decl or {}).get("audio", "")
+    if not carpeta or not nombre:
         return None
+    if (carpeta / nombre).is_file():
+        return carpeta / nombre
+    if nombre.startswith(AUDIO_UNIDO):
+        unido = WORK_DIR / nombre
+        if unido.is_file():
+            return unido
+        rearmado = _audio_de(carpeta)
+        return rearmado if rearmado and rearmado.name == nombre else None
+    return None
 
 
 def _find_folder(name: str, base: Path | None = None) -> Path | None:
@@ -2050,7 +2110,10 @@ def _reel_declaracion(carpeta: Path, decl: dict, salida: Path, respaldo: str = "
     """El reel de una declaración (`declaracion.reel`) con el audio y la foto o el video de la carpeta."""
     import declaracion
     WORK_DIR.mkdir(exist_ok=True)
-    info = declaracion.reel(carpeta / decl["audio"], carpeta / decl["visual"], salida,
+    audio = _audio_decl(carpeta, decl)
+    if audio is None:
+        raise FileNotFoundError(f"no encontré el audio de la declaración ({decl.get('audio')})")
+    info = declaracion.reel(audio, carpeta / decl["visual"], salida,
                             nombre=decl.get("nombre", ""), cargo=decl.get("cargo", ""),
                             frases=decl.get("frases"), tramo=decl.get("tramo"),
                             es_foto=decl.get("es_foto", True), respaldo=respaldo,
@@ -2345,7 +2408,7 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
     fotos = [p for p in sorted(carpeta.iterdir())
              if p.is_file() and p.suffix.lower() in IMG_EXTS] if carpeta else []
     decl = fila.get("decl") or None
-    if decl and carpeta and not (carpeta / decl.get("audio", "")).is_file():
+    if decl and carpeta and _audio_decl(carpeta, decl) is None:
         logger.error(f"No encontré el audio de la declaración '{fila['file']}': va como foto.")
         decl = None
     if decl and not fotos and carpeta and (carpeta / decl.get("visual", "")).is_file():
