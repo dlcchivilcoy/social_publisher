@@ -2886,6 +2886,32 @@
    "volanta": "Siniestro vial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/TLZh9rg71nw"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": {
+   "categoria": "accidente_vial",
+   "descripcion": "Una motociclista de 36 años debió ser trasladada en ambulancia al hospital tras colisionar contra un automóvil en la intersección del acceso Hipólito Yrigoyen y la calle Carlos Gardel.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-07T00:31:01.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-36-anos-herida-tras-un-choque-entre-moto-daf543",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Una motociclista de 36 años resultó herida este mediodía tras protagonizar un choque contra un automóvil en la ciudad de Chacabuco.\n\nEl siniestro vial ocurrió en la intersección del acceso Hipólito Yrigoyen y la calle Carlos Gardel, donde colisionaron una moto Yamaha YBR y un Fiat Palio.\n\nEl rodado menor era conducido por una mujer de apellido Márquez, de 36 años, quien sufrió una lesión en una pierna y fue trasladada en ambulancia al hospital local.\n\nEn tanto, el automóvil era guiado por una mujer de apellido Bustos, de 70 años.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Una mujer herida tras un choque entre un auto y una moto en Chacabuco",
+   "urgente": false,
+   "video_bytes": 132572,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_05_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
+   "volanta": "Choque en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/PH5I_eW6H98"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": {
    "categoria": "alerta_meteorologica",
    "descripcion": "Una fuerte tormenta con caída de granizo sorprendió a los vecinos de Chacabuco minutos después de la medianoche. El fenómeno marca el inicio de una semana inestable y rige un alerta oficial.",
@@ -3406,6 +3432,32 @@
    "volanta": "Luján",
    "youtube_url": "https://youtube.com/shorts/_k8ed3SxCe4"
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/": {
+   "categoria": "alerta_meteorologica",
+   "descripcion": "El Servicio Meteorológico Nacional anunció un aviso por precipitaciones intensas, ráfagas y posible caída de granizo. Se esperan acumulados de hasta 40 milímetros.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-07T00:30:59.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-rige-un-alerta-amarilla-por-tormentas-fuertes-para-1e32dc",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "El Servicio Meteorológico Nacional emitió un alerta amarilla por tormentas fuertes para este viernes en la región.\n\nSe prevén lluvias intensas, ráfagas de viento, actividad eléctrica y ocasional caída de granizo.\n\nLos acumulados estimados rondarán entre los 20 y 40 milímetros, con una temperatura máxima de 24 grados.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #AlertaMeteorologica #Tormentas #ServicioMeteorologico #BuenosAires",
+   "tipo": "video",
+   "titulo": "Rige un alerta amarilla por tormentas fuertes para este viernes en 9 de Julio",
+   "urgente": false,
+   "video_bytes": 79132,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_10_9-de-julio_rige-un-alerta-amarilla-por-to.mp4",
+   "volanta": "Alerta meteorológica en 9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/yQ5ufvJAirU"
+  },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": {
    "categoria": "",
    "descripcion": "Luis Molina brilló en Chivilcoy: se quedó con los 21K de la Maratón \"Eduardo Poliaroni\" CHIVILCOY.– El atleta olímpico hizo su debut en la ciudad con una gran victoria en la media maratón local. Tras un intenso mano a mano frente al corredor de Saladillo, el representante nacional impuso su ritmo para subirse a lo más alto del podio. En una jornada deportiva cargada de adrenalina y exigencia física, el destacado atleta olímpico Luis Molina se consagró como el flamante ganador de la prueba...",
@@ -3595,25 +3647,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/una-semana-de-festejos-chivilcoy-medio-siglo-de-tradicion-y-arraigo",
    "volanta": "Una semana de festejos"
-  },
-  "web:10530670-a72a-4de8-bc7f-13a21143d576": {
-   "categoria": "",
-   "descripcion": "Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cien por ciento La empresa Amarilla Gas resolvió cerrar el sector de fraccionamiento y envasado de su planta ubicada sobre la Ruta Nacional 5 en Chivilcoy, situación que derivó en una audiencia en la delegación regional del Ministerio de Trabajo encabezada por su delegado, Fernando Antonelli. Tras el encuentro con representantes de la firma y dirigentes gremiales, el funcionario explicó el alcance de la medida...",
-   "generado": "2026-10-28T00:25:47.914Z",
-   "id": "web:10530670-a72a-4de8-bc7f-13a21143d576",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_135cc1c7bfe6444eab288981a78972d5~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/conflicto-laboral-antonelli-amarilla-gas-cierra-el-fraccionado-y",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cien por ciento",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/conflicto-laboral-antonelli-amarilla-gas-cierra-el-fraccionado-y",
-   "volanta": "Conflicto laboral"
   },
   "web:118a5f02-a016-4997-b53a-36c088349592": {
    "categoria": "",
@@ -13582,14 +13615,14 @@
    "viral": false
   },
   "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x": {
-   "actualizado": "2026-11-06T22:40:13.000Z",
+   "actualizado": "2026-11-07T00:40:14.000Z",
    "buffer_id": "",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x",
    "creado": "2026-11-06T22:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-06T22:31:50.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre",
    "intentos": 0,
@@ -14183,6 +14216,34 @@
    "vence": "2026-10-30T00:31:42.000Z",
    "video_bytes": 105194,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_02_chacabuco_una-mujer-de-31-a-os-fue-hospi.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x": {
+   "actualizado": "2026-11-07T00:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x",
+   "creado": "2026-11-07T00:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-07T00:31:01.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-36-anos-herida-tras-un-choque-entre-moto-daf543",
+   "noticia": "nota:chacabuco-una-mujer-de-36-anos-herida-tras-un-choque-entre-moto-daf543",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Una mujer herida tras un choque entre un auto y una moto en Chacabuco\n\nUna motociclista de 36 años debió ser trasladada en ambulancia al hospital tras colisionar contra un automóvil en la intersección del acceso Hipólito Yrigoyen y la calle Carlos Gardel.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-36-anos-herida-tras-un-choque-entre-moto-daf543",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una mujer herida tras un choque entre un auto y una moto en Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-07T02:31:01.000Z",
+   "video_bytes": 132572,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_05_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html|x": {
@@ -14791,6 +14852,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_09_9-de-julio_un-joven-de-19-a-os-en-terapia.mp4",
    "viral": false
   },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x": {
+   "actualizado": "2026-11-07T00:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x",
+   "creado": "2026-11-07T00:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-07T00:30:59.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-rige-un-alerta-amarilla-por-tormentas-fuertes-para-1e32dc",
+   "noticia": "nota:9-de-julio-rige-un-alerta-amarilla-por-tormentas-fuertes-para-1e32dc",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Rige un alerta amarilla por tormentas fuertes para este viernes en 9 de Julio\n\nEl Servicio Meteorológico Nacional anunció un aviso por precipitaciones intensas, ráfagas y posible caída de granizo. Se esperan acumulados de hasta 40 milímetros.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-rige-un-alerta-amarilla-por-tormentas-fuertes-para-1e32dc",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Rige un alerta amarilla por tormentas fuertes para este viernes en 9 de Julio",
+   "urgente": false,
+   "vence": "2026-11-07T02:30:59.000Z",
+   "video_bytes": 79132,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_10_9-de-julio_rige-un-alerta-amarilla-por-to.mp4",
+   "viral": false
+  },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be|x": {
    "actualizado": "2026-11-02T13:20:16.000Z",
    "buffer_id": "6ae876a3339e85e6016a8d44",
@@ -15113,31 +15202,6 @@
    "titulo": "Chivilcoy: Medio siglo de tradición y arraigo: El Círculo Criollo El Bozal celebró sus 50 años de historia",
    "urgente": false,
    "vence": "2026-11-03T14:01:27.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:10530670-a72a-4de8-bc7f-13a21143d576|x": {
-   "actualizado": "2026-10-28T00:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:10530670-a72a-4de8-bc7f-13a21143d576|x",
-   "creado": "2026-10-28T00:40:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-28T00:25:47.914Z",
-   "id": "web:10530670-a72a-4de8-bc7f-13a21143d576",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/conflicto-laboral-antonelli-amarilla-gas-cierra-el-fraccionado-y",
-   "noticia": "nota:conflicto-laboral-antonelli-amarilla-gas-cierra-el-fraccionado-y",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Antonelli: Amarilla Gas cierra el fraccionado y garantiza indemnizaciones al cien por ciento",
-   "urgente": false,
-   "vence": "2026-10-28T04:25:47.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -20315,28 +20379,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok",
-   "cuando": "2026-10-31T16:40:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:ea13235b-dbb9-482c-b517-2865e5df2d34|x",
-   "cuando": "2026-10-31T16:40:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok",
-   "cuando": "2026-10-31T16:40:26.000Z",
-   "evento": "vencido",
-   "motivo": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima"
-  },
-  {
    "clave": "web:ea13235b-dbb9-482c-b517-2865e5df2d34|x",
    "cuando": "2026-10-31T16:40:26.000Z",
    "evento": "depurado",
@@ -24481,6 +24523,28 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x",
+   "cuando": "2026-11-07T00:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x",
+   "cuando": "2026-11-07T00:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x",
+   "cuando": "2026-11-07T00:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
@@ -25001,6 +25065,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html": "2026-10-21T01:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html": "2026-10-17T16:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html": "2026-10-16T02:00:19.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": "2026-11-01T22:40:15.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
@@ -25069,6 +25134,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/": "2026-11-04T23:40:17.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/": "2026-11-07T00:20:16.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
