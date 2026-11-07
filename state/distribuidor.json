@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl": {
-   "descripcion": "La Secretaría de Seguridad de Chivilcoy, a cargo de Néstor Dabi, informó que se logró esclarecer un robo ocurrido en una vivienda de la localidad de Gorostiaga, donde fueron sustraídos diversos elementos. El hecho se registró en una propiedad ubicada en la calle Las Palmeras...",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-26T14:07:32.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Aprehendieron a un joven tras esclarecer un robo en una vivienda",
-   "urgente": false,
-   "video_bytes": 625009,
-   "video_mb": 0.6,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_136ffd3afd644ec2.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/xXH7I_PiGaM"
-  },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1": {
    "descripcion": "Se realizó la VII Jornada de Infectología en Chivilcoy con eje en la prevención y el abordaje de enfermedades infecciosas. La actividad reunió a profesionales de distintas disciplinas para compartir experiencias, actualizar conocimientos y abordar problemáticas de salud.",
    "duracion_seg": 30.0,
@@ -3419,25 +3398,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/atletismo-luis-molina-brillo-en-chivilcoy-se-quedo-con-los-21k-de-la",
    "volanta": "Atletismo"
   },
-  "web:125df7be-6590-4828-b258-27d7a0764f2d": {
-   "categoria": "",
-   "descripcion": "El CUCH y la UTN convocan a un encuentro con empresas locales El Centro Universitario de Chivilcoy (CUCH) y la UTN Aula Chivilcoy realizarán un “Desayuno con Empresas”, un espacio de diálogo destinado a fortalecer el vínculo entre la universidad y el sector productivo de la ciudad. El encuentro se llevará a cabo el viernes 30 de octubre, a las 10 horas, en el Centro Universitario Chivilcoy, y contará con la presencia del decano de la Facultad Regional San Nicolás de la UTN, Ing. Tomás Avetta,...",
-   "generado": "2026-10-28T14:26:46.492Z",
-   "id": "web:125df7be-6590-4828-b258-27d7a0764f2d",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_2aac0e6b59eb431dab157dfa90ad95f0~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-el-cuch-y-la-utn-convocan-a-un-encuentro-con",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "El CUCH y la UTN convocan a un encuentro con empresas locales",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-el-cuch-y-la-utn-convocan-a-un-encuentro-con",
-   "volanta": "Chivilcoy · Educación"
-  },
   "web:18542f99-eee2-4a32-b4a1-6ef1af84ede2": {
    "categoria": "",
    "descripcion": "María Molina detalló las campañas solidarias de la ONG Corazón Carmesí en Chivilcoy",
@@ -4787,25 +4747,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-el-municipio-entrego-nuevas-licencias-a-egresados-de-la",
    "volanta": ""
   },
-  "web:9460231f-30bd-422d-89e0-f6db3cfd0675": {
-   "categoria": "",
-   "descripcion": "Se realizó la séptima Jornada de Infectología en Chivilcoy Se realizó la VII Jornada de Infectología en Chivilcoy con eje en la prevención y el abordaje de enfermedades infecciosas. La actividad reunió a profesionales de distintas disciplinas para compartir experiencias, actualizar conocimientos y abordar problemáticas como la tuberculosis, la sífilis, el uso responsable de antibióticos y la prevención y el control de infecciones. Se llevó a cabo en Chivilcoy la VII Jornada de Infectología,...",
-   "generado": "2026-10-28T14:20:18.962Z",
-   "id": "web:9460231f-30bd-422d-89e0-f6db3cfd0675",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5c8849497d6749e7b270d465d13d92a1~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-se-realizo-la-septima-jornada-de-infectologia-en",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Se realizó la séptima Jornada de Infectología en Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-se-realizo-la-septima-jornada-de-infectologia-en",
-   "volanta": "Chivilcoy · Salud"
-  },
   "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880": {
    "categoria": "",
    "descripcion": "Los Concejos Deliberantes de la Ruta 5 comienzan a respaldar la iniciativa para finalizar el tramo Mercedes-Suipacha",
@@ -4995,25 +4936,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
    "volanta": "Chivilcoy · Política"
-  },
-  "web:a03696d1-157a-48cb-abea-e9cba1380f98": {
-   "categoria": "",
-   "descripcion": "Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso Las garitas de colectivos de la avenida De Tomaso se transformaron en espacios de arte, memoria e identidad, a través de un proyecto que reunió a estudiantes, docentes, artistas y vecinos de la comunidad. En el marco del programa “Murales de Identidad, Chivilcoy se cuenta”, se realizó la presentación oficial de las intervenciones artísticas en las garitas de colectivos del corredor de la avenida De Tomaso. La...",
-   "generado": "2026-10-28T14:35:07.886Z",
-   "id": "web:a03696d1-157a-48cb-abea-e9cba1380f98",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_d92e78e01783410992a4763f6e7fc64c~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-presentaron-las-intervenciones-artisticas-en-las",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-presentaron-las-intervenciones-artisticas-en-las",
-   "volanta": "Chivilcoy · Cultura"
   },
   "web:a072a57b-8515-4490-a15a-e1036cfa7355": {
    "categoria": "",
@@ -6209,34 +6131,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|tiktok": {
-   "actualizado": "2026-10-28T14:20:17.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl|tiktok",
-   "creado": "2026-10-26T14:20:14.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-26T14:07:32.000Z",
-   "id": "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Aprehendieron a un joven tras esclarecer un robo en una vivienda\n\nLa Secretaría de Seguridad de Chivilcoy, a cargo de Néstor Dabi, informó que se logró esclarecer un robo ocurrido en una vivienda de la localidad de Gorostiaga, donde fueron sustraídos diversos elementos. El hecho se registró en una propiedad ubicada en la calle Las Palmeras...\n\nhttps://www.diariolacampaña.com.ar/n/gorostiaga-policiales-aprehendieron-a-un-joven-tras-esclarecer-un\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Aprehendieron a un joven tras esclarecer un robo en una vivienda",
-   "urgente": false,
-   "vence": "2026-10-28T14:07:32.000Z",
-   "video_bytes": 625009,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_136ffd3afd644ec2.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1|tiktok": {
    "actualizado": "2026-10-30T14:40:19.000Z",
    "buffer_id": "",
@@ -14351,31 +14245,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:125df7be-6590-4828-b258-27d7a0764f2d|x": {
-   "actualizado": "2026-10-28T14:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:125df7be-6590-4828-b258-27d7a0764f2d|x",
-   "creado": "2026-10-28T14:40:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-28T14:26:46.492Z",
-   "id": "web:125df7be-6590-4828-b258-27d7a0764f2d",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-el-cuch-y-la-utn-convocan-a-un-encuentro-con",
-   "noticia": "nota:chivilcoy-educacion-el-cuch-y-la-utn-convocan-a-un-encuentro-con",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El CUCH y la UTN convocan a un encuentro con empresas locales",
-   "urgente": false,
-   "vence": "2026-10-28T18:26:46.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:18542f99-eee2-4a32-b4a1-6ef1af84ede2|x": {
    "actualizado": "2026-11-05T11:00:16.000Z",
    "buffer_id": "",
@@ -16671,31 +16540,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:9460231f-30bd-422d-89e0-f6db3cfd0675|x": {
-   "actualizado": "2026-10-28T14:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:9460231f-30bd-422d-89e0-f6db3cfd0675|x",
-   "creado": "2026-10-28T14:40:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-28T14:20:18.962Z",
-   "id": "web:9460231f-30bd-422d-89e0-f6db3cfd0675",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-se-realizo-la-septima-jornada-de-infectologia-en",
-   "noticia": "nota:chivilcoy-salud-se-realizo-la-septima-jornada-de-infectologia-en",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Se realizó la séptima Jornada de Infectología en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-28T18:20:18.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880|x": {
    "actualizado": "2026-11-02T11:00:22.000Z",
    "buffer_id": "",
@@ -17001,31 +16845,6 @@
    "titulo": "Chivilcoy: El Municipio recuperó la tenencia de la nave industrial",
    "urgente": false,
    "vence": "2026-11-05T01:39:15.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:a03696d1-157a-48cb-abea-e9cba1380f98|x": {
-   "actualizado": "2026-10-28T14:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:a03696d1-157a-48cb-abea-e9cba1380f98|x",
-   "creado": "2026-10-28T14:40:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-28T14:35:07.886Z",
-   "id": "web:a03696d1-157a-48cb-abea-e9cba1380f98",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-presentaron-las-intervenciones-artisticas-en-las",
-   "noticia": "nota:chivilcoy-cultura-presentaron-las-intervenciones-artisticas-en-las",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Presentaron las intervenciones artísticas en las garitas de la avenida De Tomaso",
-   "urgente": false,
-   "vence": "2026-10-28T18:35:07.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
