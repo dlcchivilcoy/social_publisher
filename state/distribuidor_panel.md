@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 07/11/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 07/11/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-07)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,9 +7,9 @@ Actualizado: 07/11/2026 17:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 3 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,12 @@ Actualizado: 07/11/2026 17:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- TikTok · Reels del bot · Alicia Rios presentó su investigación sobre la masonería en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-06T22:40 enviado entrevistas:job00286|tiktok 
-- 2026-11-06T22:40 enviado entrevistas:job00287|tiktok 
-- 2026-11-06T22:40 enviado entrevistas:job00288|tiktok 
 - 2026-11-06T22:40 enviado policiales:https://www.diariodemocracia.com/policiales/34768 
 - 2026-11-06T23:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/ 
 - 2026-11-07T00:00 enviado entrevistas:job00284|tiktok 
@@ -59,3 +55,6 @@ Actualizado: 07/11/2026 17:40 (hora AR) · ACTIVO
 - 2026-11-07T19:00 enviado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x 
 - 2026-11-07T20:40 recibido web:2e964f84-db65-4365-a793-01e8f49b70ed|x 
 - 2026-11-07T20:40 depurado web:2e964f84-db65-4365-a793-01e8f49b70ed|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-07T21:00 recibido web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x 
+- 2026-11-07T21:00 depurado web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-07T21:00 programado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok 

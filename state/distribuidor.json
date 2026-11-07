@@ -5847,6 +5847,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
    "volanta": "Mercedes · Seguridad"
   },
+  "web:eafd3864-774e-4c8f-af94-8eabecbba4fa": {
+   "categoria": "",
+   "descripcion": "Argentino de Chivilcoy venció de visitante a su homónimo de Junín Por el Torneo Femenino de la Asociación Juninense de Básquet, las chicas de Argentino se hicieron fuertes de visitante y vencieron a su homónimo de Junín por un holgado tanteador de 60 a 45. Las goleadoras de Chivilcoy fueron Agustina Curioni, con 20 puntos, y Angie Puntieri, con 13 puntos.",
+   "generado": "2026-11-07T20:44:04.385Z",
+   "id": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0cb9fc4628ca4a7a8edef74851eac082~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Argentino de Chivilcoy venció de visitante a su homónimo de Junín",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
+   "volanta": "Junín · Deportes"
+  },
   "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f": {
    "categoria": "",
    "descripcion": "Racing Club de Chivilcoy redondeó otra jornada histórica y jugará nuevamente las finales en todas sus categorías en la Liga Social CHIVILCOY.– El conjunto albiceleste tuvo un fin de semana soñado: la Primera Masculina superó con autoridad a Betharram, la categoría Juveniles M17 venció a Malvinas Argentinas y el Rugby Femenino también sacó boleto para el partido decisivo. La gran cita será el próximo 15 de noviembre en Ministro Rivadavia. El campo de deportes de Racing Club de Chivilcoy fue...",
@@ -9355,15 +9374,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok": {
-   "actualizado": "2026-11-07T18:40:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-07T21:00:20.000Z",
+   "buffer_id": "6aef9165562f2e6de97e8290",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok",
    "creado": "2026-11-07T18:40:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-07T21:03:13.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-07T18:31:23.000Z",
    "id": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4",
    "intentos": 0,
@@ -17961,6 +17980,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x": {
+   "actualizado": "2026-11-07T21:00:20.000Z",
+   "buffer_id": "",
+   "clave": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x",
+   "creado": "2026-11-07T21:00:17.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-07T20:44:04.385Z",
+   "id": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
+   "noticia": "nota:junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Argentino de Chivilcoy venció de visitante a su homónimo de Junín\n\nPor el torneo de la Asociación Juninense de Básquet, el equipo femenino se impuso 60 a 45. Agustina Curioni aportó 20 puntos y Angie Puntieri anotó 13.\n\nhttps://www.diariolacampaña.com.ar/n/junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Argentino de Chivilcoy venció de visitante a su homónimo de Junín",
+   "urgente": false,
+   "vence": "2026-11-08T00:44:04.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x": {
    "actualizado": "2026-11-03T13:40:16.000Z",
    "buffer_id": "6ae9cce3f81926b93293ecda",
@@ -18383,26 +18429,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|x",
-   "cuando": "2026-10-31T21:00:31.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116631959036121530"
-  },
-  {
-   "buffer_id": "6ae656f11ee172cd6dc1ff25",
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|x",
-   "cuando": "2026-10-31T21:00:37.000Z",
-   "dueAt": "2026-10-31T21:02:51.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae656f237c1acd2a0cdeb4c",
-   "clave": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|x",
-   "cuando": "2026-10-31T21:00:37.000Z",
-   "dueAt": "2026-10-31T21:08:09.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae656f21ee172cd6dc1ffbf",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x",
@@ -22538,11 +22564,31 @@
    "cuando": "2026-11-07T20:40:22.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x",
+   "cuando": "2026-11-07T21:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x",
+   "cuando": "2026-11-07T21:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "buffer_id": "6aef9165562f2e6de97e8290",
+   "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok",
+   "cuando": "2026-11-07T21:00:21.000Z",
+   "dueAt": "2026-11-07T21:03:13.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-28 18",
    "2026-10-28 21",
    "2026-10-29 10",
    "2026-10-29 18",
@@ -22571,7 +22617,8 @@
    "2026-11-06 10",
    "2026-11-06 18",
    "2026-11-06 21",
-   "2026-11-07 10"
+   "2026-11-07 10",
+   "2026-11-07 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-07",
@@ -23760,6 +23807,7 @@
   "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f": "2026-11-02T10:03:22.000Z",
   "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b": "2026-10-22T18:00:18.000Z",
   "web:eaf28054-4d3b-40e6-97eb-693de73680a8": "2026-11-03T11:40:14.000Z",
+  "web:eafd3864-774e-4c8f-af94-8eabecbba4fa": "2026-11-07T21:00:17.000Z",
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
   "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f": "2026-11-03T10:02:22.000Z",
   "web:ebb4960b-25a9-442a-859e-8eb60ad25986": "2026-10-14T12:40:20.000Z",
