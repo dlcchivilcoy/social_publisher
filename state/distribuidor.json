@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 0
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-07T19:00:15.000Z"
+   "visto": "2026-11-07T21:20:12.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 3
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-07T19:00:15.000Z"
+   "visto": "2026-11-07T21:20:12.000Z"
   }
  },
  "contenidos": {
@@ -9374,19 +9374,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok": {
-   "actualizado": "2026-11-07T21:00:20.000Z",
+   "actualizado": "2026-11-07T21:20:12.000Z",
    "buffer_id": "6aef9165562f2e6de97e8290",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok",
    "creado": "2026-11-07T18:40:16.000Z",
    "dueAt": "2026-11-07T21:03:13.000Z",
+   "enviado": "2026-11-07T21:03:58.351Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-07T18:31:23.000Z",
    "id": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7705538045658893586",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -18430,13 +18431,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae656f21ee172cd6dc1ffbf",
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x",
-   "cuando": "2026-10-31T21:00:37.000Z",
-   "dueAt": "2026-10-31T21:13:09.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ae656f31ee172cd6dc200b5",
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tiktok",
    "cuando": "2026-10-31T21:00:37.000Z",
@@ -22585,6 +22579,12 @@
    "cuando": "2026-11-07T21:00:21.000Z",
    "dueAt": "2026-11-07T21:03:13.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok",
+   "cuando": "2026-11-07T21:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7705538045658893586"
   }
  ],
  "tandas": {
@@ -22622,7 +22622,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-07",
- "ultima_sync": "2026-11-07T19:00:15.000Z",
+ "ultima_sync": "2026-11-07T21:20:12.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
