@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 07/11/2026 15:40 (hora AR) · ACTIVO
+Actualizado: 07/11/2026 16:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-07)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 24 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 3 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 25 · likes 0
@@ -34,7 +34,6 @@ Actualizado: 07/11/2026 15:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-06T22:20 programado policiales:https://www.diariodemocracia.com/policiales/34768 
 - 2026-11-06T22:40 recibido policiales:https://semanariodejunin.com.ar/nota/76336/chivil 
 - 2026-11-06T22:40 enviado entrevistas:job00285|tiktok 
 - 2026-11-06T22:40 enviado entrevistas:job00286|tiktok 
@@ -59,3 +58,4 @@ Actualizado: 07/11/2026 15:40 (hora AR) · ACTIVO
 - 2026-11-07T18:40 recibido bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok 
 - 2026-11-07T18:40 recibido web:cd19d51a-2d12-4c2f-a5a7-6e89ce9ab386|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-07T18:40 programado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x 
+- 2026-11-07T19:00 enviado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x 

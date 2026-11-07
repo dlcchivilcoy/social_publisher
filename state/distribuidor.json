@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 8
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-07T00:00:16.000Z"
+   "visto": "2026-11-07T19:00:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 24
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-11-07T00:00:16.000Z"
+   "visto": "2026-11-07T19:00:15.000Z"
   }
  },
  "contenidos": {
@@ -9401,18 +9401,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x": {
-   "actualizado": "2026-11-07T18:40:23.000Z",
+   "actualizado": "2026-11-07T19:00:15.000Z",
    "buffer_id": "6aef709851492b796ef3fa41",
    "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x",
    "creado": "2026-11-07T18:40:16.000Z",
    "dueAt": "2026-11-07T18:42:02.000Z",
+   "enviado": "2026-11-07T18:42:22.146Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-07T18:31:23.000Z",
    "id": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119138404340269367",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la",
    "noticia": "nota:chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la",
    "origen": "bot",
@@ -18448,14 +18449,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|tiktok",
-   "cuando": "2026-10-31T21:00:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38|x",
    "cuando": "2026-10-31T21:00:31.000Z",
    "estado": "descartado",
@@ -22606,6 +22599,12 @@
    "cuando": "2026-11-07T18:40:24.000Z",
    "dueAt": "2026-11-07T18:42:02.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x",
+   "cuando": "2026-11-07T19:00:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119138404340269367"
   }
  ],
  "tandas": {
@@ -22643,7 +22642,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-07",
- "ultima_sync": "2026-11-07T00:00:16.000Z",
+ "ultima_sync": "2026-11-07T19:00:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
