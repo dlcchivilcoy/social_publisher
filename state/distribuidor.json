@@ -558,6 +558,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_adc2bff2a025cb9a.mp4",
    "youtube_url": "https://www.youtube.com/shorts/w5hDrWpQnJw"
   },
+  "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2": {
+   "descripcion": "Once Tigres superó 2 a 1 a Huracán en el inicio de la fecha 12 del Torneo Clausura de la Liga Chivilcoyana. Tras el cotejo, el jugador Benjamín Moscoloni remarcó la importancia del resultado y el esfuerzo realizado por el plantel.",
+   "duracion_seg": 15.4,
+   "generado": "2026-11-07T23:35:06.000Z",
+   "id": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Moscoloni tras la victoria de Once Tigres: «Bien importante ganar»",
+   "urgente": false,
+   "video_bytes": 630904,
+   "video_mb": 0.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/jbMchsApiJk"
+  },
   "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4": {
    "descripcion": "La sede de ATIADIM en Chivilcoy fue el escenario del primer encuentro zonal de instituciones de la discapacidad, una propuesta que convocó a diversos centros de día, hogares y entidades de la región.\n\nLa jornada se impulsó en el marco de la semana de la educación física a nivel provincial y tuvo como eje principal el desarrollo de actividades grupales e integradoras entre los concurrentes.\n\nEl objetivo central estuvo enfocado en propiciar el trabajo en conjunto y afianzar lazos con personas e instituciones con las que habitualmente no se comparte la labor cotidiana.\n\nAsimismo, los referentes destacaron la relevancia de retomar estas instancias presenciales tras varios años de interrupción. De esta manera, el espacio permitió no solo desplegar iniciativas recreativas y físicas, sino también propiciar el intercambio de experiencias, problemáticas e ideas entre los diferentes equipos técnicos.",
    "duracion_seg": 186.5,
@@ -2556,6 +2577,32 @@
    "volanta": "Siniestro vial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/TLZh9rg71nw"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Una vecina alertó a los efectivos de seguridad luego de descubrir que su descendiente había ingresado elementos de dudosa procedencia al domicilio familiar ubicado en Chacabuco.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-07T23:31:19.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-llamo-a-la-policia-tras-el-accionar-939af9",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un llamado al servicio de emergencias encendió las alertas en un domicilio de Chacabuco en las últimas horas.\n\nUna vecina se comunicó con las autoridades policiales para reportar la situación protagonizada por su propio hijo en la vivienda.\n\nEl operativo se desencadenó luego de que la mujer descubriera diversos elementos extraños que el joven había llevado al lugar.\n\nLas actuaciones continúan a cargo de la dependencia local para esclarecer el origen de los objetos secuestrados.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Denunció a su propio hijo tras hallar objetos sospechosos en su vivienda",
+   "urgente": false,
+   "video_bytes": 86354,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-07_2134_07_chacabuco_denunci-a-su-propio-hijo-tras-.mp4",
+   "volanta": "Operativo policial en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/kW31PNyttho"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": {
    "categoria": "accidente_vial",
    "descripcion": "Una motociclista de 36 años debió ser trasladada en ambulancia al hospital tras colisionar contra un automóvil en la intersección del acceso Hipólito Yrigoyen y la calle Carlos Gardel.",
@@ -2659,6 +2706,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-07_2134_03_chacabuco_sufri-un-robo-en-su-vivienda-d.mp4",
    "volanta": "Robo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/3TwDSU3J-Xs"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Una serie de episodios alteraron la tranquilidad nocturna en la ciudad, incluyendo una persecución policial, un siniestro vial y diversos altercados callejeros.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-07T23:31:17.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-persecucion-incidentes-callejeros-y-un-choque-durante-b41009",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Una intensa madrugada se vivió en la ciudad con múltiples operativos policiales.\n\nLa secuencia incluyó una persecución, incidentes callejeros y un siniestro vial.\n\nLas autoridades investigan los hechos para esclarecer lo sucedido.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Persecución, incidentes y un choque en la madrugada de Chacabuco",
+   "urgente": false,
+   "video_bytes": 103626,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-07_2134_09_chacabuco_persecuci-n-incidentes-y-un-ch.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/o8ymkbw74-s"
   },
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": {
    "categoria": "incendio",
@@ -2919,32 +2992,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_04_junin_dos-heridos-tras-un-choque-ent.mp4",
    "volanta": "Siniestro vial en Chivilcoy",
    "youtube_url": "https://youtube.com/shorts/f1IfIHMy8es"
-  },
-  "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/": {
-   "categoria": "accidente_vial",
-   "descripcion": "Dos jóvenes de 22 y 24 años terminaron hospitalizadas tras chocar en moto contra una camioneta Toyota Hilux en la avenida Garmendia. Ambas recibieron el alta médica.",
-   "distancia_km": 99.4,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-28T22:31:27.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/",
-   "localidad": "9 de Julio",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-dos-jovenes-hospitalizadas-tras-chocar-en-moto-1759b2",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Una moto y una camioneta protagonizaron un violento choque en la tarde del martes sobre la avenida Garmendia, entre las calles Hipólito Yrigoyen y Santa Fe.\n\nA bordo del rodado menor circulaban dos jóvenes identificadas como Sofía J., de 22 años, y Abril P., de 24, quienes debieron ser trasladadas en una ambulancia de la empresa Clysa.\n\nEl impacto se produjo contra una camioneta Toyota Hilux blanca por motivos que aún se investigan, interviniendo personal de la Policía Comunal en el lugar del hecho.\n\nEn el Hospital Interzonal General de Agudos \"Dr.\n\nJulio de Vedia\", la conductora no presentó lesiones mientras que su acompañante quedó en observación hasta recibir el alta.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #SiniestroVial #Transito #BuenosAires",
-   "tipo": "video",
-   "titulo": "Choque entre camioneta y moto: dos jóvenes al hospital",
-   "urgente": false,
-   "video_bytes": 112344,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_07_9-de-julio_choque-entre-camioneta-y-moto-.mp4",
-   "volanta": "Siniestro vial en 9 de Julio",
-   "youtube_url": "https://youtube.com/shorts/XvYQhOLgDIs"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/": {
    "categoria": "narcotrafico",
@@ -4262,6 +4309,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-chivilcoy-britos-y-katopodis-encabezaron-el",
    "volanta": "Chivilcoy · Política"
+  },
+  "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf": {
+   "categoria": "",
+   "descripcion": "Moscoloni tras la victoria de Once Tigres: «Bien importante ganar» En el marco de la duodécima fecha del Torneo Clausura de Primera División de la Liga Chivilcoyana de Fútbol, Once Tigres venció 2 a 1 a Huracán en el estadio «Jorge Ramón Leva». El conjunto local abrió el marcador mediante Enzo Stronatti, mientras que Matías Spano anotó la igualdad transitoria para el visitante. Finalmente, un remate de Valentín Acuña selló el triunfo definitivo para Once Tigres, que sumó su tercera victoria...",
+   "generado": "2026-11-07T23:32:44.065Z",
+   "id": "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_a0be78e2b63f4a919d00b0198d6a99e5~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Moscoloni tras la victoria de Once Tigres: «Bien importante ganar»",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
+   "volanta": "Liga Chivilcoyana"
   },
   "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677": {
    "categoria": "",
@@ -5858,6 +5924,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/allanamiento-por-venta-de-drogas-bragado-quedo-a-disposicion-de-la",
    "volanta": ""
+  },
+  "web:eacc8d49-8717-44c4-bd52-91080cbfae81": {
+   "categoria": "",
+   "descripcion": "Douglas Haig venció 1 a 0 a Gimnasia en Pergamino En el marco del partido de ida por los cuartos de final, Douglas Haig superó por 1 a 0 a Gimnasia de Chivilcoy en la ciudad de Pergamino. El único tanto del encuentro fue convertido por Martín Schlotthauer de cabeza, tras un centro al área enviado por Pereira.",
+   "generado": "2026-11-07T23:39:17.529Z",
+   "id": "web:eacc8d49-8717-44c4-bd52-91080cbfae81",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_183ba53dcc8f4f8cb0aa82c64ee598a0~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Douglas Haig venció 1 a 0 a Gimnasia en Pergamino",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
+   "volanta": "Pergamino · Deportes"
   },
   "web:eaf28054-4d3b-40e6-97eb-693de73680a8": {
    "categoria": "",
@@ -7776,6 +7861,62 @@
    "vence": "2026-11-06T19:52:07.000Z",
    "video_bytes": 1080965,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_adc2bff2a025cb9a.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tiktok": {
+   "actualizado": "2026-11-07T23:40:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tiktok",
+   "creado": "2026-11-07T23:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-07T23:35:06.000Z",
+   "id": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Moscoloni tras la victoria de Once Tigres: «Bien importante ganar»\n\nOnce Tigres superó 2 a 1 a Huracán en el inicio de la fecha 12 del Torneo Clausura de la Liga Chivilcoyana. Tras el cotejo, el jugador Benjamín Moscoloni remarcó la importancia del resultado y el esfuerzo realizado por el plantel.\n\nhttps://www.diariolacampaña.com.ar/n/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Moscoloni tras la victoria de Once Tigres: «Bien importante ganar»",
+   "urgente": false,
+   "vence": "2026-11-09T23:35:06.000Z",
+   "video_bytes": 630904,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
+   "viral": false
+  },
+  "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|x": {
+   "actualizado": "2026-11-07T23:40:24.000Z",
+   "buffer_id": "6aefb6e9d6bbae6fa1b8b1fa",
+   "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|x",
+   "creado": "2026-11-07T23:40:13.000Z",
+   "dueAt": "2026-11-07T23:42:44.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-07T23:35:06.000Z",
+   "id": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
+   "noticia": "nota:liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Moscoloni tras la victoria de Once Tigres: «Bien importante ganar»\n\nOnce Tigres superó 2 a 1 a Huracán en el inicio de la fecha 12 del Torneo Clausura de la Liga Chivilcoyana.\n\nhttps://www.diariolacampaña.com.ar/n/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Moscoloni tras la victoria de Once Tigres: «Bien importante ganar»",
+   "urgente": false,
+   "vence": "2026-11-08T01:35:06.000Z",
+   "video_bytes": 630904,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4|tiktok": {
@@ -12715,6 +12856,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_02_chacabuco_una-mujer-de-31-a-os-fue-hospi.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x": {
+   "actualizado": "2026-11-07T23:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x",
+   "creado": "2026-11-07T23:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-07T23:31:19.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-llamo-a-la-policia-tras-el-accionar-939af9",
+   "noticia": "nota:chacabuco-una-vecina-llamo-a-la-policia-tras-el-accionar-939af9",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Denunció a su propio hijo tras hallar objetos sospechosos en su vivienda\n\nUna vecina alertó a los efectivos de seguridad luego de descubrir que su descendiente había ingresado elementos de dudosa procedencia al domicilio familiar ubicado en Chacabuco.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-una-vecina-llamo-a-la-policia-tras-el-accionar-939af9",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Denunció a su propio hijo tras hallar objetos sospechosos en su vivienda",
+   "urgente": false,
+   "vence": "2026-11-08T01:31:19.000Z",
+   "video_bytes": 86354,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-07_2134_07_chacabuco_denunci-a-su-propio-hijo-tras-.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x": {
    "actualizado": "2026-11-07T02:40:13.000Z",
    "buffer_id": "",
@@ -12800,14 +12969,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html|x": {
-   "actualizado": "2026-11-07T22:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-07T23:40:24.000Z",
+   "buffer_id": "6aefb6ea562f2e6de9890f5e",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html|x",
    "creado": "2026-11-07T22:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-07T23:48:47.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-07T22:31:37.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html",
    "intentos": 0,
@@ -12825,6 +12994,34 @@
    "vence": "2026-11-08T00:31:37.000Z",
    "video_bytes": 78987,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-07_2134_03_chacabuco_sufri-un-robo-en-su-vivienda-d.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html|x": {
+   "actualizado": "2026-11-07T23:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html|x",
+   "creado": "2026-11-07T23:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-07T23:31:17.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-persecucion-incidentes-callejeros-y-un-choque-durante-b41009",
+   "noticia": "nota:chacabuco-persecucion-incidentes-callejeros-y-un-choque-durante-b41009",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Persecución, incidentes y un choque en la madrugada de Chacabuco\n\nUna serie de episodios alteraron la tranquilidad nocturna en la ciudad, incluyendo una persecución policial, un siniestro vial y diversos altercados callejeros.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-persecucion-incidentes-callejeros-y-un-choque-durante-b41009",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Persecución, incidentes y un choque en la madrugada de Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-08T01:31:17.000Z",
+   "video_bytes": 103626,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-07_2134_09_chacabuco_persecuci-n-incidentes-y-un-ch.mp4",
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d|x": {
@@ -13151,43 +13348,6 @@
    "vence": "2026-11-05T00:01:39.000Z",
    "video_bytes": 77851,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_04_junin_dos-heridos-tras-un-choque-ent.mp4",
-   "viral": false
-  },
-  "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/|x": {
-   "actualizado": "2026-10-28T23:40:14.000Z",
-   "buffer_id": "6ae279cf59e06155634602dc",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/|x",
-   "creado": "2026-10-28T22:40:14.000Z",
-   "dueAt": "2026-10-28T22:43:45.000Z",
-   "enviado": "2026-10-28T22:43:48.293Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-28T22:31:27.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2115575284850188647",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 2.5,
-    "impressions": 40,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-dos-jovenes-hospitalizadas-tras-chocar-en-moto-1759b2",
-   "noticia": "nota:9-de-julio-dos-jovenes-hospitalizadas-tras-chocar-en-moto-1759b2",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Choque entre camioneta y moto: dos jóvenes al hospital\n\nDos jóvenes de 22 y 24 años terminaron hospitalizadas tras chocar en moto contra una camioneta Toyota Hilux en la avenida Garmendia. Ambas recibieron el alta médica.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-dos-jovenes-hospitalizadas-tras-chocar-en-moto-1759b2",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Choque entre camioneta y moto: dos jóvenes al hospital",
-   "urgente": false,
-   "vence": "2026-10-29T00:31:27.000Z",
-   "video_bytes": 112344,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_07_9-de-julio_choque-entre-camioneta-y-moto-.mp4",
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x": {
@@ -15245,6 +15405,31 @@
    "titulo": "Chivilcoy: Britos y Katopodis encabezaron el Encuentro Regional de Infraestructura",
    "urgente": false,
    "vence": "2026-11-05T20:03:26.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf|x": {
+   "actualizado": "2026-11-07T23:40:13.000Z",
+   "buffer_id": "",
+   "clave": "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf|x",
+   "creado": "2026-11-07T23:40:13.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-07T23:32:44.065Z",
+   "id": "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
+   "noticia": "nota:liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Moscoloni tras la victoria de Once Tigres: «Bien importante ganar»",
+   "urgente": false,
+   "vence": "2026-11-08T03:32:44.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17967,6 +18152,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:eacc8d49-8717-44c4-bd52-91080cbfae81|x": {
+   "actualizado": "2026-11-07T23:40:24.000Z",
+   "buffer_id": "",
+   "clave": "web:eacc8d49-8717-44c4-bd52-91080cbfae81|x",
+   "creado": "2026-11-07T23:40:13.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-07T23:39:17.529Z",
+   "id": "web:eacc8d49-8717-44c4-bd52-91080cbfae81",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
+   "noticia": "nota:pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Douglas Haig venció 1 a 0 a Gimnasia en Pergamino\n\nPor la ida de cuartos de final, Martín Schlotthauer convirtió de cabeza tras un centro de Pereira para el triunfo del conjunto local ante Gimnasia de Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Douglas Haig venció 1 a 0 a Gimnasia en Pergamino",
+   "urgente": false,
+   "vence": "2026-11-08T03:39:17.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:eaf28054-4d3b-40e6-97eb-693de73680a8|x": {
    "actualizado": "2026-11-03T12:00:20.000Z",
    "buffer_id": "",
@@ -18444,63 +18656,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok",
-   "cuando": "2026-10-31T21:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:436624c4-dead-4338-b58f-541ff1196bfe|x",
-   "cuando": "2026-10-31T21:20:20.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, programado)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ae65b9537c1acd2a0cf6693",
-   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x",
-   "cuando": "2026-10-31T21:20:21.000Z",
-   "dueAt": "2026-10-31T21:22:02.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|tiktok",
-   "cuando": "2026-10-31T21:40:15.000Z",
-   "evento": "baja"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwtwncehaml|x",
-   "cuando": "2026-10-31T21:40:15.000Z",
-   "evento": "baja"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|tiktok",
-   "cuando": "2026-10-31T21:40:15.000Z",
-   "evento": "baja"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvwv5r5js633_01.mp4|x",
-   "cuando": "2026-10-31T21:40:15.000Z",
-   "evento": "baja"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26730-aprehendieron-a-un-hombre-acusado-de-cometer-dos-robos-utilizando-inhibidores-de-senal|x",
-   "cuando": "2026-10-31T22:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tiktok",
-   "cuando": "2026-10-31T22:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702940681085504769"
-  },
   {
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x",
    "cuando": "2026-10-31T22:20:24.000Z",
@@ -22599,6 +22754,74 @@
    "cuando": "2026-11-07T22:40:23.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2119194129888403469"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|x",
+   "cuando": "2026-11-07T23:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tiktok",
+   "cuando": "2026-11-07T23:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html|x",
+   "cuando": "2026-11-07T23:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x",
+   "cuando": "2026-11-07T23:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:eacc8d49-8717-44c4-bd52-91080cbfae81|x",
+   "cuando": "2026-11-07T23:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf|x",
+   "cuando": "2026-11-07T23:40:24.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:eacc8d49-8717-44c4-bd52-91080cbfae81|x",
+   "cuando": "2026-11-07T23:40:24.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "buffer_id": "6aefb6e9d6bbae6fa1b8b1fa",
+   "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|x",
+   "cuando": "2026-11-07T23:40:26.000Z",
+   "dueAt": "2026-11-07T23:42:44.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6aefb6ea562f2e6de9890f5e",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html|x",
+   "cuando": "2026-11-07T23:40:26.000Z",
+   "dueAt": "2026-11-07T23:48:47.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22755,6 +22978,7 @@
   "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v": "2026-11-06T09:00:16.000Z",
   "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh": "2026-11-06T18:00:18.000Z",
   "bot:corresponsal_2026-11-07_matias-zucchi_mw5temp2tz8d": "2026-11-07T09:00:16.000Z",
+  "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2": "2026-11-07T23:40:13.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mv57p6heeqyq_01.mp4": "2026-10-12T12:20:13.000Z",
   "bot:video_matias-zucchi_mv8vrb0warsk_01.mp4": "2026-10-15T02:00:18.000Z",
@@ -23122,10 +23346,12 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/vecina-acosada-en-la-noche-de-chacabuco.html": "2026-10-21T01:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html": "2026-10-17T16:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html": "2026-10-16T02:00:19.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": "2026-11-01T22:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven": "2026-10-12T21:40:15.000Z",
@@ -23452,6 +23678,7 @@
   "web:6adb3465-c4e1-4c1f-a175-109ba016efbd": "2026-10-30T10:01:54.000Z",
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": "2026-10-14T10:20:15.000Z",
   "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed": "2026-11-05T16:20:20.000Z",
+  "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf": "2026-11-07T23:40:13.000Z",
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b": "2026-10-16T10:20:16.000Z",
   "web:6c509d7f-52e1-4541-aa96-22083404a169": "2026-10-26T10:20:14.000Z",
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": "2026-10-15T13:20:17.000Z",
@@ -23823,6 +24050,7 @@
   "web:ea96db9d-ebd8-4901-99d2-e402feab16e7": "2026-10-25T14:40:14.000Z",
   "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f": "2026-11-02T10:03:22.000Z",
   "web:eac3c4d9-9f84-4bd4-a7c2-3d74d25cb19b": "2026-10-22T18:00:18.000Z",
+  "web:eacc8d49-8717-44c4-bd52-91080cbfae81": "2026-11-07T23:40:13.000Z",
   "web:eaf28054-4d3b-40e6-97eb-693de73680a8": "2026-11-03T11:40:14.000Z",
   "web:eafd3864-774e-4c8f-af94-8eabecbba4fa": "2026-11-07T21:00:17.000Z",
   "web:eb28d2e9-187b-45cf-9369-d13890bc9998": "2026-10-14T10:20:15.000Z",
