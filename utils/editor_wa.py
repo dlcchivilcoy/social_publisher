@@ -216,8 +216,12 @@ def avisar_revision(*, nombre: str, tipo: str, titulo: str, resumen: str = "", q
         return ""
 
 
+def _ultimos10(numero: str) -> str:
+    return re.sub(r"\D", "", numero or "")[-10:]
+
+
 def freno(*, nombre: str, tipo: str, titulo: str, quien: str = "", reel_url: str = "", draft_id: str = "",
-          minutos: int = MINUTOS_FRENO) -> bool:
+          minutos: int = MINUTOS_FRENO, celular: str = "") -> bool:
     """Publicación directa con freno: avisa «se publica en 10 minutos» y NO espera acá (una corrida que
     espera tranca la fila de videos de GitHub y puede hacer cancelar otra). El reloj vive en Supabase:
     `corresponsales_frenos_vencidos()` corre cada minuto y llama al link de aprobar de lo que venció; «Publicar
@@ -231,6 +235,10 @@ def freno(*, nombre: str, tipo: str, titulo: str, quien: str = "", reel_url: str
         editor = numero_editor()
         aprobar, corregir = _links(nombre, tipo, draft_id)
         if not editor or not aprobar:
+            return False
+        if celular and len(_ultimos10(celular)) == 10 and _ultimos10(celular) == _ultimos10(editor):
+            # Lo mandó el propio editor (pedido 07/11/2026): sale directo, sin avisarse a sí mismo.
+            logger.info("[editor] lo mandó el editor: se publica directo, sin freno.")
             return False
         id_ = secrets.token_hex(4)
         hasta = datetime.now(timezone.utc) + timedelta(minutes=minutos)

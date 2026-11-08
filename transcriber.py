@@ -1128,7 +1128,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # el reloj de Supabase (o él, con «Publicar ya»); si lo frena, le llegan los botones de revisión.
         from utils import editor_wa
         if editor_wa.freno(nombre=video.name, tipo="video", titulo=titulo, quien=ctx.get("nombre", ""),
-                           reel_url=reel_url, draft_id=draft_id):
+                           reel_url=reel_url, draft_id=draft_id, celular=ctx.get("celular", "")):
             fila["publicacion_directa"] = True
             _guardar_ledger(rows)
             logger.info("Avisado al editor: se publica en 10 minutos, salvo que lo frene.")
@@ -2528,7 +2528,8 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         # Supabase (o el editor, con «Publicar ya»); si lo frena, le llegan los botones de revisión.
         from utils import editor_wa
         if not dry_run and editor_wa.freno(nombre=carpeta.name, tipo="carpeta", titulo=titular,
-                                           quien=ctx.get("nombre", ""), reel_url=reel_url, draft_id=draft_id):
+                                           quien=ctx.get("nombre", ""), reel_url=reel_url, draft_id=draft_id,
+                                           celular=ctx.get("celular", "")):
             fila["publicacion_directa"] = True
             _guardar_ledger(rows)
             logger.info("=== Corresponsal-foto (etapa 1): avisado al editor, se publica en 10 minutos ===")
