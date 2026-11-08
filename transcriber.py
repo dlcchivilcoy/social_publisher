@@ -238,6 +238,86 @@ def _nombres_juntos(hablantes: list) -> str:
     return nombres[0] if len(nombres) == 1 else ", ".join(nombres[:-1]) + " y " + nombres[-1]
 
 
+# CARRUSEL CRUZADO (07/11/2026, pedido del usuario: «si envían material cruzado, por ejemplo un video y
+# varias fotos, armar un carrusel cruzado, donde primero vaya el video y le continúen las imágenes»). En
+# INSTAGRAM el feed lleva un carrusel: el video (4:5, hasta 60 s) y después las fotos (4:5). Facebook no deja
+# mezclar video y fotos en un posteo por API: ahí, en las historias, en YouTube y en TikTok sigue el reel.
+# CORR_CARRUSEL_MIXTO=0 lo apaga. Si el carrusel falla, sale el reel como siempre.
+CARRUSEL_MIXTO_MAX_SEG = 60
+CARRUSEL_MIXTO_ANCHO, CARRUSEL_MIXTO_ALTO = 1080, 1350
+
+
+def _carrusel_mixto_on() -> bool:
+    return (get("CORR_CARRUSEL_MIXTO") or "1").strip() != "0"
+
+
+def _material_mixto(video: Path | None) -> tuple:
+    """([videos], [fotos]) de la carpeta de un corresponsal que mandó video Y fotos, en el orden en que
+    llegaron; ([], []) si no es ese caso."""
+    if not video or not _carrusel_mixto_on():
+        return [], []
+    _txt, fotos = _recolectar_adjuntos(video)
+    if not fotos:
+        return [], []
+    videos = sorted((p for p in video.parent.iterdir() if p.is_file() and p.suffix.lower() in VIDEO_EXTS),
+                    key=lambda p: p.name)
+    return videos, fotos
+
+
+def _foto_4x5(src: Path, salida: Path) -> Path:
+    """La foto ENTERA en 1080x1350, sobre ella misma difuminada (sin recortar a nadie)."""
+    from PIL import Image, ImageEnhance, ImageFilter, ImageOps
+    W, H = CARRUSEL_MIXTO_ANCHO, CARRUSEL_MIXTO_ALTO
+    img = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
+    fondo = ImageOps.fit(img, (W, H), method=3).resize((W // 4, H // 4)).filter(ImageFilter.GaussianBlur(10))
+    fondo = ImageEnhance.Brightness(fondo.resize((W, H), 3)).enhance(0.55)
+    frente = ImageOps.contain(img, (W, H), method=3)
+    fondo.paste(frente, ((W - frente.width) // 2, (H - frente.height) // 2))
+    salida.parent.mkdir(parents=True, exist_ok=True)
+    fondo.save(salida, "JPEG", quality=90)
+    return salida
+
+
+def _video_4x5(videos: list, salida: Path) -> Path:
+    """El video (o los clips, uno detrás del otro) ENTERO en 1080x1350, sobre sí mismo difuminado, con su
+    sonido y hasta CARRUSEL_MIXTO_MAX_SEG: lo que Instagram acepta en un carrusel."""
+    import subprocess
+    from video import _calidad, _ffmpeg, _sin_giro, concat_videos
+    salida.parent.mkdir(parents=True, exist_ok=True)
+    src = videos[0]
+    if len(videos) > 1:
+        src = concat_videos(videos, salida.with_name(salida.stem + "_unidos.mp4"))
+    W, H = CARRUSEL_MIXTO_ANCHO, CARRUSEL_MIXTO_ALTO
+    filtro = (f"[0:v]{_sin_giro()},split[a][b];"
+              f"[a]scale={W // 4}:{H // 4}:force_original_aspect_ratio=increase,crop={W // 4}:{H // 4},"
+              f"boxblur=8:2,scale={W}:{H},eq=brightness=-0.18[f];"
+              f"[b]scale={W}:{H}:force_original_aspect_ratio=decrease,setsar=1[v];"
+              f"[f][v]overlay=(W-w)/2:(H-h)/2,fps=30,format=yuv420p[out]")
+    cmd = [_ffmpeg(), "-y", "-loglevel", "error", "-i", str(src), "-t", str(CARRUSEL_MIXTO_MAX_SEG),
+           "-filter_complex", filtro, "-map", "[out]", "-map", "0:a?", "-c:v", "libx264", "-preset", "veryfast",
+           *_calidad(), "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-movflags", "+faststart", str(salida)]
+    r = subprocess.run(cmd, capture_output=True, text=True, errors="replace")
+    if r.returncode != 0 or not salida.is_file():
+        raise RuntimeError(f"ffmpeg no armó el video del carrusel: {(r.stderr or '').strip()[-300:]}")
+    return salida
+
+
+def _publicar_carrusel_mixto(video: Path | None, caption: str) -> dict | None:
+    """El carrusel cruzado en Instagram (video primero, después las fotos), o None si no corresponde.
+    Si algo falla, levanta la excepción: el que llama publica el reel."""
+    videos, fotos = _material_mixto(video)
+    if not videos:
+        return None
+    clave = _slug(video.parent.name)
+    v = _video_4x5(videos, WORK_DIR / f"carr_mixto_{clave}.mp4")
+    url = upload_reel(v)
+    placas = [_foto_4x5(f, WORK_DIR / f"carr_mixto_{clave}_{i:02d}.jpg")
+              for i, f in enumerate(fotos[:instagram.MAX_CAROUSEL - 1])]
+    res = instagram.publish_carousel(caption, placas, video_url=url)
+    logger.info(f"[instagram] carrusel cruzado OK: video + {len(placas)} foto(s) (id={(res or {}).get('id', '')})")
+    return res
+
+
 def _audio_decl(carpeta: Path | None, decl: dict) -> Path | None:
     """El archivo del audio de una declaración ya procesada: el de la carpeta o, si eran varios, el unido
     (lo rearma si esta máquina no lo tiene). None si no está."""
@@ -1051,6 +1131,11 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             logger.error(f"La publicación directa falló ({e}); va el mail de revisión.")
             directo = False
 
+    # Video + fotos de un corresponsal: avisar que en Instagram sale el carrusel cruzado.
+    _v_mix, _f_mix = _material_mixto(video) if es_corresponsal else ([], [])
+    aviso_mixto = (f"<p>📸 En <b>Instagram</b> sale como <b>carrusel</b>: primero el video y después "
+                   f"{'la foto' if len(_f_mix) == 1 else f'las {min(len(_f_mix), 9)} fotos'}. En Facebook, "
+                   f"YouTube, TikTok y las historias sale el reel.</p>") if _v_mix else ""
     if directo:
         pass
     elif hay and not corr_sin_web:
@@ -1066,7 +1151,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                  f"<p style='color:#888;font-size:13px'>{_hesc(volanta)} · enviado por {_hesc(remitente)}</p>"
                  f"<p style='font-size:19px'><b>{_hesc(titulo)}</b></p>"
                  f"<p>{_hesc(resumen)}</p>"
-                 f"<p>Está como <b>borrador en Wix</b> con foto + video. Revisalo y:</p>")
+                 f"<p>Está como <b>borrador en Wix</b> con foto + video. Revisalo y:</p>" + aviso_mixto)
         _enviar_aviso(f"Nota por revisar: {titulo}", cuerpo,
                       html=_html_aviso(intro, video.name, reel_url, draft_id, hay=True))
     elif corr_sin_web:
@@ -1083,7 +1168,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                  f"<p style='font-size:19px'><b>{_hesc(titulo)}</b></p>"
                  f"<p style='white-space:pre-wrap'>{_hesc(texto)}</p>"
                  f"<p>No pude desgrabar el video, así que uso la descripción del vecino. Al aprobar "
-                 f"sale a <b>Facebook, Instagram y YouTube</b> con ese texto (<b>sin nota web</b>):</p>")
+                 f"sale a <b>Facebook, Instagram y YouTube</b> con ese texto (<b>sin nota web</b>):</p>" + aviso_mixto)
         _enviar_aviso(f"Corresponsal por revisar (sin desgrabar): {titulo}", cuerpo,
                       html=_html_aviso(intro, video.name, reel_url, draft_id, hay=True))
     else:
@@ -1967,14 +2052,27 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     # 1) Instagram (reel remoto). Guardamos el media_id para las métricas del ranking.
     ig_media_id = fb_video_id = ""
     if "instagram" in plats and reel_url:
-        try:
-            res_ig = instagram.publish_reel(reel_url, caption)
-            ig_media_id = (res_ig or {}).get("id", "")
-            estado_canales["instagram"] = "ok"
-            logger.info(f"[instagram] reel OK (id={ig_media_id})")
-        except Exception as e:
-            estado_canales["instagram"] = f"falló: {e}"
-            logger.error(f"[instagram] reel FALLÓ: {e}")
+        res_ig = None
+        if es_corr:
+            # Video + fotos: carrusel cruzado (07/11/2026). Si falla, el reel de siempre.
+            try:
+                res_ig = _publicar_carrusel_mixto(_find_video(file), caption)
+                if res_ig:
+                    ig_media_id = (res_ig or {}).get("id", "")
+                    estado_canales["instagram"] = "ok"
+                    fila["ig_formato"] = "carrusel_mixto"
+            except Exception as e:  # noqa: BLE001
+                res_ig = None
+                logger.error(f"[instagram] el carrusel cruzado falló ({e}); publico el reel.")
+        if not res_ig:
+            try:
+                res_ig = instagram.publish_reel(reel_url, caption)
+                ig_media_id = (res_ig or {}).get("id", "")
+                estado_canales["instagram"] = "ok"
+                logger.info(f"[instagram] reel OK (id={ig_media_id})")
+            except Exception as e:
+                estado_canales["instagram"] = f"falló: {e}"
+                logger.error(f"[instagram] reel FALLÓ: {e}")
 
     # 3) YouTube Shorts (mismo archivo vertical) — solo si hay noticia (necesita SEO).
     yt_info = {}

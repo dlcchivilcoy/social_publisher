@@ -538,21 +538,27 @@ def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos:
     raise ultimo
 
 
-def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True) -> dict:
+def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
+                     video_url: str = "") -> dict:
     """Publica un CARRUSEL (varias imágenes en un solo posteo) en Instagram.
 
     Flujo: por cada imagen se crea un contenedor hijo (is_carousel_item=true);
     luego un contenedor padre media_type=CAROUSEL con todos los hijos; se publica.
     IG exige entre 2 y 10 imágenes (si llega 1, cae a publish() simple; si llegan
     más de 10, toma las primeras 10). Todas las imágenes deben tener la MISMA
-    proporción (el compositor las genera 1080x1350)."""
+    proporción (el compositor las genera 1080x1350).
+
+    `video_url` (07/11/2026, carrusel cruzado de corresponsales): un .mp4 público de hasta 60 s,
+    que va PRIMERO, antes de las imágenes."""
     user_id = get("INSTAGRAM_USER_ID")
     token = get("INSTAGRAM_ACCESS_TOKEN")
     if not user_id or not token:
         raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
 
-    paths = list(image_paths)[:MAX_CAROUSEL]
-    if len(paths) < 2:
+    paths = list(image_paths)[:MAX_CAROUSEL - bool(video_url)]
+    if video_url and not paths:
+        raise ValueError("un carrusel con video necesita al menos una imagen")
+    if len(paths) < 2 and not video_url:
         return publish(caption, paths[0], colab=colab)
 
     caption = _acotar(caption)
@@ -560,6 +566,10 @@ def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True) 
     temps: list[Path] = []
     try:
         child_ids: list[str] = []
+        if video_url:
+            child_ids.append(_contenedor_video_listo(
+                user_id, token, {"media_type": "VIDEO", "video_url": video_url, "is_carousel_item": "true"},
+                video_url, "video del carrusel"))
         for p in paths:
             jpeg = _as_jpeg(p)
             if jpeg != p:
@@ -575,7 +585,10 @@ def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True) 
             parent_data["location_id"] = _location()
         carousel_id, colaborador = _crear_con_colab(
             user_id, token, parent_data, colaborador, lambda d: _crear_contenedor(user_id, token, d))
-        _wait_container_ready(carousel_id, token)
+        if video_url:
+            _wait_container_ready_long(carousel_id, token)
+        else:
+            _wait_container_ready(carousel_id, token)
 
         media_id = _publicar_contenedor(user_id, token, carousel_id, "publicar carrusel",
                                         caption=caption)
