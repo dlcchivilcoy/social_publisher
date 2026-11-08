@@ -1125,27 +1125,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00263.mp4",
    "youtube_url": "https://youtu.be/KxLwJsOkOS0"
   },
-  "entrevistas:job00264": {
-   "descripcion": "Lucas Bettoli, referente de la UTN en Chivilcoy, reflexiona sobre la articulación académica con el sector productivo y el verdadero valor agregado de un título universitario. Mirá el análisis completo en la nota.",
-   "duracion_seg": null,
-   "entrevistado": "Lucas Bettoli",
-   "generado": "2026-10-29T19:00:17.000Z",
-   "id": "entrevistas:job00264",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Lucas Bettoli: el rol de la universidad frente a las empresas",
-   "urgente": false,
-   "video_bytes": 18091646,
-   "video_mb": 17.3,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00264.mp4",
-   "youtube_url": "https://youtu.be/ZsWzInbxJhw"
-  },
   "entrevistas:job00265": {
    "descripcion": "La contratista rural chivilcoyana Jeni Simone explicó que, sin créditos que se licúen con la inflación, es indispensable calcular costos reales para asegurar la rentabilidad.",
    "duracion_seg": null,
@@ -8850,45 +8829,6 @@
    "vence": "2026-10-31T18:20:14.000Z",
    "video_bytes": 22593470,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00263.mp4",
-   "viral": false
-  },
-  "entrevistas:job00264|tiktok": {
-   "actualizado": "2026-10-29T21:20:17.000Z",
-   "buffer_id": "6ae3b3e48d19aa0a5be34091",
-   "categoria": "",
-   "clave": "entrevistas:job00264|tiktok",
-   "creado": "2026-10-29T19:00:17.000Z",
-   "dueAt": "2026-10-29T21:03:06.000Z",
-   "enviado": "2026-10-29T21:04:58.680Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-29T19:00:17.000Z",
-   "id": "entrevistas:job00264",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7702198313533132052",
-   "metricas": {
-    "averageTimeWatched": 1.95,
-    "comments": 0,
-    "engagementRate": 0.97,
-    "reach": 34,
-    "reactions": 1,
-    "shares": 0,
-    "totalTimeWatched": 3.7,
-    "views": 103
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Lucas Bettoli: el rol de la universidad frente a las empresas\n\nLucas Bettoli, referente de la UTN en Chivilcoy, reflexiona sobre la articulación académica con el sector productivo y el verdadero valor agregado de un título universitario. Mirá el análisis completo en la nota.\n\nhttps://youtu.be/ZsWzInbxJhw\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Lucas Bettoli: el rol de la universidad frente a las empresas",
-   "urgente": false,
-   "vence": "2026-10-31T19:00:17.000Z",
-   "video_bytes": 18091646,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00264.mp4",
    "viral": false
   },
   "entrevistas:job00265|tiktok": {
