@@ -6075,11 +6075,11 @@
  },
  "cuota_visto": "2026-11-02T17:20:19.000Z",
  "metricas_buffer": {
-  "con_metricas": 81,
+  "con_metricas": 65,
   "disponible": true,
-  "enviados": 81,
+  "enviados": 65,
   "motivo": "",
-  "visto": "2026-11-07T10:40:14.000Z"
+  "visto": "2026-11-08T10:40:14.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -7543,14 +7543,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705044073983380744",
    "metricas": {
-    "averageTimeWatched": 9.18,
+    "averageTimeWatched": 12.75,
     "comments": 0,
-    "engagementRate": 2.84,
+    "engagementRate": 2.43,
     "reach": 0,
-    "reactions": 5,
+    "reactions": 13,
     "shares": 0,
-    "totalTimeWatched": 27.22,
-    "views": 176
+    "totalTimeWatched": 123.25,
+    "views": 535
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
    "origen": "bot",
@@ -7609,14 +7609,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705166298375834881",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 5.06,
     "comments": 0,
     "engagementRate": 0,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 9.95,
+    "views": 109
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
    "origen": "bot",
@@ -7650,7 +7650,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 23,
     "reactions": 0,
     "reposts": 0
    },
@@ -7684,6 +7684,16 @@
    "id": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705589578115091732",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -7712,6 +7722,14 @@
    "id": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2119214012168581317",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
    "noticia": "nota:liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
    "origen": "bot",
@@ -9143,14 +9161,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7704842494281780488",
    "metricas": {
-    "averageTimeWatched": 15.27,
+    "averageTimeWatched": 14.03,
     "comments": 0,
-    "engagementRate": 3.53,
+    "engagementRate": 3.59,
     "reach": 0,
-    "reactions": 11,
+    "reactions": 15,
     "shares": 0,
-    "totalTimeWatched": 83.5,
-    "views": 312
+    "totalTimeWatched": 100.33,
+    "views": 418
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
    "origen": "bot",
@@ -9184,7 +9202,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 22,
+    "impressions": 30,
     "reactions": 0,
     "reposts": 0
    },
@@ -9219,14 +9237,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705048494825884946",
    "metricas": {
-    "averageTimeWatched": 7.63,
+    "averageTimeWatched": 7.03,
     "comments": 0,
-    "engagementRate": 0.48,
+    "engagementRate": 0.46,
     "reach": 0,
-    "reactions": 1,
+    "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 27.83,
-    "views": 208
+    "totalTimeWatched": 56.93,
+    "views": 431
    },
    "nota_url": "",
    "origen": "bot",
@@ -9259,8 +9277,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 2.78,
-    "impressions": 36,
+    "engagementRate": 2.7,
+    "impressions": 37,
     "reactions": 0,
     "reposts": 0
    },
@@ -9294,6 +9312,16 @@
    "id": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705538045658893586",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -9322,6 +9350,14 @@
    "id": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2119138404340269367",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la",
    "noticia": "nota:chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la",
    "origen": "bot",
@@ -9352,6 +9388,16 @@
    "id": "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705584497810590984",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -9380,6 +9426,14 @@
    "id": "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2119219070918660463",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
    "noticia": "nota:pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
    "origen": "bot",
@@ -10855,14 +10909,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7704816578402995476",
    "metricas": {
-    "averageTimeWatched": 4.39,
+    "averageTimeWatched": 4.17,
     "comments": 0,
-    "engagementRate": 2.45,
-    "reach": 0,
-    "reactions": 4,
+    "engagementRate": 2.59,
+    "reach": 65,
+    "reactions": 5,
     "shares": 0,
-    "totalTimeWatched": 13.03,
-    "views": 163
+    "totalTimeWatched": 14.53,
+    "views": 193
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -10896,7 +10950,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 11,
+    "impressions": 12,
     "reactions": 0,
     "reposts": 0
    },
@@ -10931,14 +10985,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7704811356750466310",
    "metricas": {
-    "averageTimeWatched": 1.9,
+    "averageTimeWatched": 1.82,
     "comments": 0,
     "engagementRate": 0,
-    "reach": 0,
+    "reach": 17,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 3.48,
-    "views": 105
+    "totalTimeWatched": 3.68,
+    "views": 116
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -10972,7 +11026,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 24,
+    "impressions": 25,
     "reactions": 0,
     "reposts": 0
    },
@@ -11007,14 +11061,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7704806362747850004",
    "metricas": {
-    "averageTimeWatched": 3.02,
+    "averageTimeWatched": 2.82,
     "comments": 0,
-    "engagementRate": 1,
-    "reach": 0,
+    "engagementRate": 0.93,
+    "reach": 31,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 5.47,
-    "views": 100
+    "totalTimeWatched": 5.68,
+    "views": 108
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -11048,7 +11102,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 52,
+    "impressions": 64,
     "reactions": 0,
     "reposts": 0
    },
@@ -11083,14 +11137,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7704801238361083154",
    "metricas": {
-    "averageTimeWatched": 7.22,
+    "averageTimeWatched": 7.74,
     "comments": 0,
-    "engagementRate": 2.31,
-    "reach": 0,
-    "reactions": 3,
+    "engagementRate": 2.79,
+    "reach": 38,
+    "reactions": 6,
     "shares": 1,
-    "totalTimeWatched": 21.42,
-    "views": 173
+    "totalTimeWatched": 34.45,
+    "views": 251
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -11124,7 +11178,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 18,
+    "impressions": 19,
     "reactions": 0,
     "reposts": 0
    },
@@ -11159,14 +11213,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7704796132786081045",
    "metricas": {
-    "averageTimeWatched": 5.05,
+    "averageTimeWatched": 4.98,
     "comments": 0,
-    "engagementRate": 0.97,
-    "reach": 0,
+    "engagementRate": 0.92,
+    "reach": 73,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 9.52,
-    "views": 103
+    "totalTimeWatched": 10.12,
+    "views": 109
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -11200,7 +11254,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 23,
+    "impressions": 24,
     "reactions": 0,
     "reposts": 0
    },
@@ -11235,14 +11289,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705192871305039112",
    "metricas": {
-    "averageTimeWatched": 0,
-    "comments": 0,
-    "engagementRate": 0,
+    "averageTimeWatched": 8.99,
+    "comments": 1,
+    "engagementRate": 1.89,
     "reach": 0,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "reactions": 6,
+    "shares": 1,
+    "totalTimeWatched": 65.6,
+    "views": 423
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -11276,7 +11330,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 28,
+    "impressions": 44,
     "reactions": 0,
     "reposts": 0
    },
@@ -11311,14 +11365,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705187637836926226",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 4.22,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.05,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 14.33,
+    "views": 190
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -11352,7 +11406,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 5,
+    "impressions": 19,
     "reactions": 0,
     "reposts": 0
    },
@@ -11387,14 +11441,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705181689768693044",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 6.8,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.43,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 5,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 41.95,
+    "views": 350
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -11428,7 +11482,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 15,
+    "impressions": 76,
     "reactions": 0,
     "reposts": 0
    },
@@ -11463,14 +11517,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705177502532078855",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 6.1,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.27,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 9.35,
+    "views": 79
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -11504,7 +11558,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -11539,14 +11593,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7705172232972061973",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 2.11,
     "comments": 0,
     "engagementRate": 0,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 3.7,
+    "views": 101
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -11580,7 +11634,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },
@@ -12314,8 +12368,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 2.27,
-    "impressions": 44,
+    "engagementRate": 1.85,
+    "impressions": 54,
     "reactions": 0,
     "reposts": 0
    },
@@ -12380,7 +12434,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 30,
+    "impressions": 35,
     "reactions": 0,
     "reposts": 0
    },
@@ -12618,6 +12672,14 @@
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2119215589872881901",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-investigan-un-robo-cometido-en-una-vivienda-de-la-fd5bc0",
    "noticia": "nota:chacabuco-investigan-un-robo-cometido-en-una-vivienda-de-la-fd5bc0",
    "origen": "policiales",
@@ -12647,6 +12709,14 @@
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2119220302714450372",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-persecucion-incidentes-callejeros-y-un-choque-durante-b41009",
    "noticia": "nota:chacabuco-persecucion-incidentes-callejeros-y-un-choque-durante-b41009",
    "origen": "policiales",
@@ -12810,7 +12880,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 36,
     "reactions": 0,
     "reposts": 0
    },
@@ -12843,6 +12913,14 @@
    "id": "policiales:https://www.diariodemocracia.com/policiales/347738-causa-por-usurpacion-en-calle-paso-aprehendieron-a",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2119194129888403469",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-aprehendieron-a-un-joven-de-25-anos-en-el-marco-de-una-b82d08",
    "noticia": "nota:junin-aprehendieron-a-un-joven-de-25-anos-en-el-marco-de-una-b82d08",
    "origen": "policiales",
@@ -13357,7 +13435,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 9,
+    "impressions": 10,
     "reactions": 0,
     "reposts": 0
    },
@@ -13433,7 +13511,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 10,
+    "impressions": 11,
     "reactions": 0,
     "reposts": 0
    },
@@ -13756,7 +13834,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 17,
+    "impressions": 19,
     "reactions": 0,
     "reposts": 0
    },
@@ -13792,8 +13870,8 @@
    "metricas": {
     "clicks": 1,
     "comments": 0,
-    "engagementRate": 7.69,
-    "impressions": 13,
+    "engagementRate": 2.86,
+    "impressions": 35,
     "reactions": 0,
     "reposts": 0
    },
@@ -14168,7 +14246,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 7,
+    "impressions": 11,
     "reactions": 0,
     "reposts": 0
    },
@@ -14398,7 +14476,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 22,
+    "impressions": 25,
     "reactions": 0,
     "reposts": 0
    },
@@ -14706,7 +14784,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 11,
+    "impressions": 12,
     "reactions": 0,
     "reposts": 0
    },
@@ -14744,7 +14822,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 13,
+    "impressions": 14,
     "reactions": 0,
     "reposts": 0
    },
@@ -14910,7 +14988,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 18,
+    "impressions": 25,
     "reactions": 0,
     "reposts": 0
    },
@@ -15063,7 +15141,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 7,
+    "impressions": 10,
     "reactions": 0,
     "reposts": 0
    },
@@ -15319,8 +15397,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 42,
+    "engagementRate": 1.96,
+    "impressions": 51,
     "reactions": 0,
     "reposts": 0
    },
@@ -15424,7 +15502,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 22,
+    "impressions": 26,
     "reactions": 0,
     "reposts": 0
    },
@@ -15525,7 +15603,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 13,
+    "impressions": 14,
     "reactions": 0,
     "reposts": 0
    },
@@ -15600,8 +15678,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 8.33,
-    "impressions": 12,
+    "engagementRate": 4,
+    "impressions": 25,
     "reactions": 0,
     "reposts": 0
    },
@@ -16005,7 +16083,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 11,
+    "impressions": 12,
     "reactions": 0,
     "reposts": 0
    },
@@ -16247,8 +16325,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 9.09,
-    "impressions": 11,
+    "engagementRate": 6.25,
+    "impressions": 16,
     "reactions": 0,
     "reposts": 1
    },
@@ -16532,7 +16610,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 10,
+    "impressions": 18,
     "reactions": 0,
     "reposts": 0
    },
@@ -16881,7 +16959,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 21,
+    "impressions": 26,
     "reactions": 0,
     "reposts": 0
    },
@@ -17125,8 +17203,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 9,
+    "engagementRate": 5.88,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -17359,8 +17437,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 16.67,
-    "impressions": 12,
+    "engagementRate": 7.69,
+    "impressions": 26,
     "reactions": 0,
     "reposts": 0
    },
@@ -17690,7 +17768,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 6,
+    "impressions": 15,
     "reactions": 0,
     "reposts": 0
    },
@@ -18016,8 +18094,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 9.09,
-    "impressions": 11,
+    "engagementRate": 7.14,
+    "impressions": 14,
     "reactions": 0,
     "reposts": 1
    },
@@ -18182,7 +18260,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 11,
+    "impressions": 19,
     "reactions": 0,
     "reposts": 0
    },
