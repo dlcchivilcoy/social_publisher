@@ -2174,7 +2174,7 @@ def bloque_tarjeta_png(volanta: str, texto: str, plan: dict, salida) -> Path:
 
 def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int,
                  grafica: bool, tema: str, alto: int = CORR_ALTO_APAISADO,
-                 foco=None, entera: bool = False) -> dict:
+                 foco=None, entera: bool = False, sin_recorte: bool = False) -> dict:
     """El cuadro 4:5 estilo bloque (ver `BLOQUE_TEMAS`) sobre el `plan` base de `_plan_corr`.
 
     La imagen entra ENTERA a todo el ancho desde y=0. Si con ella entera el texto no entra ni
@@ -2187,9 +2187,16 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
     la descripción de la app (`BANDA_SEGURO`); el bloque igual llega hasta el pie.
 
     `entera` (una FOTO vertical o cuadrada en 9:16, 2026-10-17): la imagen va ENTERA, achicada y
-    centrada en el espacio de arriba del bloque, sobre sí misma desenfocada; no se recorta."""
+    centrada en el espacio de arriba del bloque, sobre sí misma desenfocada; no se recorta.
+
+    `sin_recorte` (un VIDEO apaisado, 2026-11-08: «que se respete el tamaño y la placa se acomode,
+    porque me lo recortás y se pierde información»): nada de recortar costados ni abajo. El video
+    va entero a todo el ancho y el texto baja la letra hasta su mínimo; si ni así entra (una casi
+    cuadrada), el video se ACHICA entero, centrado sobre sí mismo desenfocado."""
     tema = tema if tema in BLOQUE_TEMAS else tema_siguiente("")
     _TEMA_USADO[0] = tema
+    if sin_recorte and not entera and not grafica and alto < 1920:
+        return _plan_bloque_sin_recorte(plan, volanta, titular, f, w, h, tema, alto, foco)
     am = natural = max(2, round(1080 * h / w) // 2 * 2)
     pad_a, pad_b = BLOQUE_PAD
     fin = alto
@@ -2247,6 +2254,50 @@ def _plan_bloque(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int
     return plan
 
 
+def _plan_bloque_sin_recorte(plan: dict, volanta: str, titular: str, f: dict, w: int, h: int,
+                             tema: str, alto: int, foco=None) -> dict:
+    """El 4:5 estilo bloque de un VIDEO apaisado sin perder nada del cuadro (ver `_plan_bloque`):
+    la imagen entera a todo el ancho; si el texto no entra ni con la letra mínima, la imagen se
+    achica a su proporción y queda centrada, con los costados del propio video desenfocado."""
+    pad_a, pad_b = BLOQUE_PAD
+    fijo = BLOQUE_LINEA + pad_a + BLOQUE_ISOLOGO + BLOQUE_GAP_LOGO + pad_b
+    natural = max(2, round(1080 * h / w) // 2 * 2)
+    txt = _texto_bloque(volanta, titular, f, tema, 0, alto - natural - fijo,
+                        piso=BLOQUE_TITULAR_PREFIERE)
+    if txt["alto"] > alto - natural - fijo or _cortado(txt):
+        txt = _texto_bloque(volanta, titular, f, tema, 0, alto - natural - fijo)
+    hm = min(natural, alto - fijo - txt["alto"]) // 2 * 2
+    hm = max(hm, round(natural * 0.5) // 2 * 2)          # un titular desmedido no la borra
+    wm = 1080 if hm >= natural else max(2, round(hm * w / h) // 2 * 2)
+    media = ((1080 - wm) // 2, 0, wm, hm)
+    if wm < 1080:
+        plan["fondo_borroso"] = True
+    extra = max(0, alto - hm - fijo - BLOQUE_TEXTO_TIPICO)
+    y_logo = hm + BLOQUE_LINEA + pad_a + round(extra * 0.38)
+    y_txt = y_logo + BLOQUE_ISOLOGO + BLOQUE_GAP_LOGO + round(min(extra * 0.12, 40))
+    sobra = y_txt + txt["alto"] - (alto - pad_b)
+    if sobra > 0:
+        y_logo = max(hm + BLOQUE_LINEA + pad_a, y_logo - sobra)
+        y_txt = y_logo + BLOQUE_ISOLOGO + BLOQUE_GAP_LOGO
+    txt["bloques"] = [b[:2] + (b[2] + y_txt,) + b[3:] for b in txt["bloques"]]
+    t = BLOQUE_TEMAS[tema]
+    cajas = [(0, hm, 1080, hm + BLOQUE_LINEA, t["linea"]),
+             (0, hm + BLOQUE_LINEA, 1080, alto, t["fondo"])]
+    plan.update(media=media, cover=False, lienzo=(1080, alto),
+                cajas=cajas, bloques=txt["bloques"], titulo=txt["titulo"],
+                volanta=txt["volanta"], sombra_arriba=False, halo=[], logo=None,
+                logo_bloque=(tema, BLOQUE_X, y_logo),
+                texto=(BLOQUE_X, y_txt, BLOQUE_X + BLOQUE_ANCHO, y_txt + txt["alto"]),
+                bloque=dict(tema=tema, zona=(y_txt, alto - pad_b)), foco=foco)
+    return plan
+
+
+def video_entero() -> bool:
+    """¿Los VIDEOS de WhatsApp van sin recortes? (2026-11-08). `REEL_VIDEO_ENTERO=0` vuelve a
+    recortar costados para que la imagen ocupe más."""
+    return (_cfg("REEL_VIDEO_ENTERO", "1") or "1").strip().lower() not in ("0", "no", "off")
+
+
 def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: bool, caras,
                alto: int = 0, tema: str = "", objetos=None, foto: bool = False) -> dict:
     """Un cuadro de un reel de lo que llega por WhatsApp (ver `CORR_NARANJA`), foto o video.
@@ -2297,7 +2348,8 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
         if _bloque_on():
             # También dentro de un reel 9:16 (un pase con alguna vertical): estilo bloque, el de
             # policiales, en vez de la imagen flotando entre dos franjas grafito (2026-10-17).
-            return _plan_bloque(plan, volanta, titular, f, w, h, grafica, tema, lienzo, foco)
+            return _plan_bloque(plan, volanta, titular, f, w, h, grafica, tema, lienzo, foco,
+                                sin_recorte=not foto and video_entero())
         am = round(1080 * h / w) // 2 * 2
         alto_t = _tarjeta_corr(volanta, titular, f, 0)["rect"][3]
         if lienzo >= 1920:
@@ -4227,7 +4279,7 @@ def to_vertical_reel(src, salida, *, audio: bool = True, max_seconds: float | No
         if forma_de(cont_w, cont_h, grafica) == "pantalla" or (espec and not grafica):
             caras = _caras_de_video(src, recorte, salida.parent)
         plan = plan_placa(volanta, titular, resumen, cont_w, cont_h, grafica=grafica,
-                          caras=caras, estilo=estilo, tema=tema)
+                          caras=caras, estilo=estilo, tema=tema, foto=es_foto)
         png = placa_png(plan, salida.parent / f"placa_{salida.stem}.png")
         if png:
             _x, y_media, ancho_foto, alto_foto = plan["media"]

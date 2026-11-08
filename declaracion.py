@@ -226,10 +226,13 @@ def bloque_4x5(nombre: str, cargo: str, frases: list, f: dict, tema: str, y: int
                 y_espectro=y_espectro, y_progreso=y_progreso, fin=yy, alto=yy - y)
 
 
-def plan(w: int, h: int, nombre: str, cargo: str, frases: list, caras=None, tema: str = "") -> dict:
+def plan(w: int, h: int, nombre: str, cargo: str, frases: list, caras=None, tema: str = "",
+         entera: bool = False) -> dict:
     """Dónde va cada cosa para una imagen de w x h. `lienzo`, `media` (x, y, ancho, alto, cover),
     `bloque` y si hay que sombrear detrás del texto (cuando va encima de la imagen). Con material
-    horizontal y el estilo bloque prendido, además `tema` y `cajas` (la línea y el bloque)."""
+    horizontal y el estilo bloque prendido, además `tema` y `cajas` (la línea y el bloque).
+    `entera` (un VIDEO, 2026-11-08): si el bloque le quita alto, la imagen se achica entera y
+    centrada sobre su fondo difuminado en vez de recortarse arriba y abajo."""
     f = V._fuentes_placa()
     w, h = max(1, int(w)), max(1, int(h))
     if V._bloque_on() and w / h < AR_4X5:
@@ -267,7 +270,11 @@ def plan(w: int, h: int, nombre: str, cargo: str, frases: list, caras=None, tema
                        hm + V.BLOQUE_LINEA + pad_a + round(extra * 0.38))
         cajas = [(0, hm, 1080, hm + V.BLOQUE_LINEA, V.BLOQUE_TEMAS[tema]["linea"]),
                  (0, hm + V.BLOQUE_LINEA, 1080, H, V.BLOQUE_TEMAS[tema]["fondo"])]
-        return dict(lienzo=(1080, H), media=(0, 0, 1080, hm, hm < am), bloque=b, encima=False,
+        media = (0, 0, 1080, hm, hm < am)
+        if entera and hm < am:
+            wi = max(2, round(hm * w / h) // 2 * 2)
+            media = ((1080 - wi) // 2, 0, wi, hm, False)
+        return dict(lienzo=(1080, H), media=media, bloque=b, encima=False,
                     fuentes=f, tema=tema, cajas=cajas)
     prueba = bloque(nombre, cargo, frases, f, 0)
     if w / h >= AR_4X5:
@@ -488,7 +495,7 @@ def armar(audio, visual, salida, *, nombre: str, cargo: str = "", frases=None, t
         img = _foto_rgb(V.frame_at(visual, min(1.0, max(0.0, float(V.duration_seconds(visual) or 0) / 3)),
                                    work / f"_cuadro_{clave}.jpg"))
     caras = V._caras_de_foto(img) if w / h < AR_4X5 else None
-    p = plan(w, h, nombre, cargo, lista, caras, tema=tema)
+    p = plan(w, h, nombre, cargo, lista, caras, tema=tema, entera=not es_foto and V.video_entero())
     W, H = p["lienzo"]
     x, y, mw, mh, cover = p["media"]
     fondo = _fondo(img, (W, H), work / f"_fondo_{clave}.jpg")
