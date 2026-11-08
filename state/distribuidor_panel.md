@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 08/11/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 08/11/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-08)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 6 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 7 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 25 · likes 0
@@ -34,7 +34,6 @@ Actualizado: 08/11/2026 14:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-07T23:40 recibido bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tikto 
 - 2026-11-07T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/noche0711 
 - 2026-11-07T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/calle0711 
 - 2026-11-07T23:40 recibido web:eacc8d49-8717-44c4-bd52-91080cbfae81|x 
@@ -59,3 +58,4 @@ Actualizado: 08/11/2026 14:20 (hora AR) · ACTIVO
 - 2026-11-08T17:20 recibido bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok 
 - 2026-11-08T17:20 recibido web:e8070380-cce0-41f4-8a78-b0a02378bc68|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-08T17:20 programado bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x 
+- 2026-11-08T17:40 enviado bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x 

@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 3
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-08T01:20:14.000Z"
+   "visto": "2026-11-08T17:40:12.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 6
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-11-08T01:20:14.000Z"
+   "visto": "2026-11-08T17:40:12.000Z"
   }
  },
  "contenidos": {
@@ -8652,18 +8652,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x": {
-   "actualizado": "2026-11-08T17:20:19.000Z",
+   "actualizado": "2026-11-08T17:40:12.000Z",
    "buffer_id": "6af0af54229bf05dafc517ec",
    "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x",
    "creado": "2026-11-08T17:20:17.000Z",
    "dueAt": "2026-11-08T17:22:01.000Z",
+   "enviado": "2026-11-08T17:22:24.256Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-08T17:02:18.000Z",
    "id": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119480668258259348",
    "nota_url": "https://www.diariolacampaña.com.ar/n/emilio-ayarza-sociedad-chivilcoy-emilio-ayarza-celebro-su-118",
    "noticia": "nota:emilio-ayarza-sociedad-chivilcoy-emilio-ayarza-celebro-su-118",
    "origen": "bot",
@@ -16907,13 +16908,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae6811937c1acd2a0da3c22",
-   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok",
-   "cuando": "2026-11-01T00:00:26.000Z",
-   "dueAt": "2026-11-01T01:03:42.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ae6811aab019b9087306dfe",
    "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok",
    "cuando": "2026-11-01T00:00:26.000Z",
@@ -21069,6 +21063,12 @@
    "cuando": "2026-11-08T17:20:20.000Z",
    "dueAt": "2026-11-08T17:22:01.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x",
+   "cuando": "2026-11-08T17:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119480668258259348"
   }
  ],
  "tandas": {
@@ -21106,7 +21106,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-08",
- "ultima_sync": "2026-11-08T01:20:14.000Z",
+ "ultima_sync": "2026-11-08T17:40:12.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
