@@ -2487,6 +2487,32 @@
    "volanta": "Temporal en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/asAllAqBwV0"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html": {
+   "categoria": "incendio",
+   "descripcion": "Un automóvil sufrió pérdidas materiales totales tras incendiarse mientras circulaba por la traza que conecta ambas localidades. Intervinieron los bomberos voluntarios para controlar las llamas.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-08T23:31:34.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-auto-se-prendio-fuego-por-completo-en-la-autopista-8bfd53",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un automóvil se incendió por completo mientras circulaba este lunes por la autopista que une Chacabuco con Junín.\n\nEl fuego se desató de manera imprevisa en plena traza y causó pérdidas totales en la unidad.\n\nDotaciones de bomberos voluntarios acudieron rápidamente al lugar para combatir las llamas y realizar tareas de enfriamiento.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Incendio #Autopista #SiniestroVial #BuenosAires",
+   "tipo": "video",
+   "titulo": "Incendio total de un vehículo en la autopista Chacabuco-Junín",
+   "urgente": false,
+   "video_bytes": 72042,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_08_chacabuco_incendio-total-de-un-veh-culo-.mp4",
+   "volanta": "Autopista Chacabuco-Junín",
+   "youtube_url": "https://youtube.com/shorts/tXQD9oukij4"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": {
    "categoria": "alerta_meteorologica",
    "descripcion": "El Servicio Meteorológico Nacional emitió una alerta amarilla por tormentas prevista para la tarde del martes en Chacabuco y varios distritos de la región.",
@@ -11776,6 +11802,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_10_chacabuco_cay-granizo-en-chacabuco-tras-.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html|x": {
+   "actualizado": "2026-11-08T23:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html|x",
+   "creado": "2026-11-08T23:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-08T23:31:34.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-un-auto-se-prendio-fuego-por-completo-en-la-autopista-8bfd53",
+   "noticia": "nota:chacabuco-un-auto-se-prendio-fuego-por-completo-en-la-autopista-8bfd53",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Incendio total de un vehículo en la autopista Chacabuco-Junín\n\nUn automóvil sufrió pérdidas materiales totales tras prenderse fuego mientras circulaba.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-un-auto-se-prendio-fuego-por-completo-en-la-autopista-8bfd53",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Incendio total de un vehículo en la autopista Chacabuco-Junín",
+   "urgente": false,
+   "vence": "2026-11-09T01:31:34.000Z",
+   "video_bytes": 72042,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_08_chacabuco_incendio-total-de-un-veh-culo-.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html|x": {
    "actualizado": "2026-11-02T00:40:15.000Z",
    "buffer_id": "",
@@ -16905,13 +16959,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae737eaab019b90875cf7bf",
-   "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok",
-   "cuando": "2026-11-01T13:00:27.000Z",
-   "dueAt": "2026-11-01T13:43:02.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ae737ebcf3a3112f3fa3cbf",
    "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok",
    "cuando": "2026-11-01T13:00:27.000Z",
@@ -21080,6 +21127,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html|x",
+   "cuando": "2026-11-08T23:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -21612,6 +21667,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html": "2026-11-08T23:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": "2026-11-01T22:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
