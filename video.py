@@ -2298,6 +2298,12 @@ def video_entero() -> bool:
     return (_cfg("REEL_VIDEO_ENTERO", "1") or "1").strip().lower() not in ("0", "no", "off")
 
 
+def foto_entera() -> bool:
+    """¿Las FOTOS de WhatsApp van sin recortes? (2026-11-08, «sí, también fotos»).
+    `REEL_FOTO_ENTERA=0` vuelve a recortar costados para que la foto ocupe más."""
+    return (_cfg("REEL_FOTO_ENTERA", "1") or "1").strip().lower() not in ("0", "no", "off")
+
+
 def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: bool, caras,
                alto: int = 0, tema: str = "", objetos=None, foto: bool = False) -> dict:
     """Un cuadro de un reel de lo que llega por WhatsApp (ver `CORR_NARANJA`), foto o video.
@@ -2348,8 +2354,14 @@ def _plan_corr(volanta: str, titular: str, f: dict, w: int, h: int, grafica: boo
         if _bloque_on():
             # También dentro de un reel 9:16 (un pase con alguna vertical): estilo bloque, el de
             # policiales, en vez de la imagen flotando entre dos franjas grafito (2026-10-17).
+            sin = foto_entera() if foto else video_entero()
+            if sin and lienzo >= 1920 and not grafica:
+                # Una horizontal en un pase de fotos con alguna vertical (2026-11-08): ENTERA,
+                # como las verticales (antes perdía hasta un 43 % de los costados).
+                return _plan_bloque(plan, volanta, titular, f, w, h, grafica, tema, 1920, foco,
+                                    entera=True)
             return _plan_bloque(plan, volanta, titular, f, w, h, grafica, tema, lienzo, foco,
-                                sin_recorte=not foto and video_entero())
+                                sin_recorte=sin)
         am = round(1080 * h / w) // 2 * 2
         alto_t = _tarjeta_corr(volanta, titular, f, 0)["rect"][3]
         if lienzo >= 1920:

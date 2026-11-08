@@ -495,7 +495,7 @@ def armar(audio, visual, salida, *, nombre: str, cargo: str = "", frases=None, t
         img = _foto_rgb(V.frame_at(visual, min(1.0, max(0.0, float(V.duration_seconds(visual) or 0) / 3)),
                                    work / f"_cuadro_{clave}.jpg"))
     caras = V._caras_de_foto(img) if w / h < AR_4X5 else None
-    p = plan(w, h, nombre, cargo, lista, caras, tema=tema, entera=not es_foto and V.video_entero())
+    p = plan(w, h, nombre, cargo, lista, caras, tema=tema, entera=V.foto_entera() if es_foto else V.video_entero())
     W, H = p["lienzo"]
     x, y, mw, mh, cover = p["media"]
     fondo = _fondo(img, (W, H), work / f"_fondo_{clave}.jpg")
