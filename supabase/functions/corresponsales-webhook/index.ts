@@ -53,6 +53,32 @@ const PREGUNTA_HABLA =
   "🎙️ ¿*Quién habla* en el audio? Decime su *nombre y cargo* en un solo mensaje (por ejemplo: " +
   "_Néstor Dabi, secretario de Seguridad municipal_).";
 
+// VARIOS AUDIOS (2026-11-07, pedido del usuario): se pregunta quién habla en CADA uno, en el orden en
+// que llegaron (el mismo en que se numeran en Drive: audio_…_01, _02…). Las respuestas se guardan una
+// por renglón en `habla` y van al contexto.txt como «HABLA: Audio 1: …» + «Audio 2: …»; el reel cambia
+// el nombre y el cargo cuando cambia la persona.
+const ORDINALES = ["primer", "segundo", "tercer", "cuarto", "quinto", "sexto", "séptimo", "octavo", "noveno", "décimo"];
+
+function cuantosAudios(s: Record<string, unknown> | null): number {
+  return s ? parseMedia(s.media_id).filter((m) => m.tipo === "audio").length : 0;
+}
+
+function lineasHabla(s: Record<string, unknown> | null): string[] {
+  return String(s?.habla ?? "").split("\n").map((x) => x.trim()).filter(Boolean);
+}
+
+function preguntaHabla(n: number, k: number): string {
+  if (n <= 1) return PREGUNTA_HABLA;
+  const cual = k < ORDINALES.length ? `el *${ORDINALES[k]} audio*` : `el *audio ${k + 1}*`;
+  if (k === 0) {
+    return `🎙️ Mandaste *${n} audios*. Vamos de a uno, en el orden en que los mandaste.\n\n` +
+      `¿*Quién habla* en ${cual}? Decime su *nombre y cargo* en un solo mensaje (por ejemplo: ` +
+      "_Néstor Dabi, secretario de Seguridad municipal_).";
+  }
+  return `🎙️ ¿Y quién habla en ${cual}? Decime su *nombre y cargo*. Si es la misma persona que en ` +
+    "el anterior, escribí *igual*.";
+}
+
 // ── Utilidades ────────────────────────────────────────────────────────────────
 function normalizar(s: string): string {
   // NFD + saca diacríticos combinantes (U+0300–U+036F) → "Pérez" ≈ "perez", "sí" → "si".
@@ -288,7 +314,10 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
   // El contexto.txt va PRIMERO; el video ÚLTIMO (el disparador del desgrabador se fija en el
   // video, así arranca recién cuando ya están los dos archivos).
   const enc = new TextEncoder();
-  const habla = String(s.habla ?? "").trim();
+  const lineas = lineasHabla(s);
+  const habla = lineas.length > 1
+    ? lineas.map((x, k) => `Audio ${k + 1}: ${x}`).join("\n")
+    : String(s.habla ?? "").trim();
   await subirArchivo(token, carpeta, "contexto.txt", "text/plain; charset=UTF-8",
     enc.encode(contexto + (habla ? `HABLA: ${habla}\n` : "")));
   // Bajar y subir CADA archivo, numerado (01, 02, …) para preservar el orden en el reel. Fotos → el
@@ -348,14 +377,15 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
     const total = await addMediaAtomic(waId, mediaId, tipoM, perfil);
     // Declaración: se estaba esperando la foto o el video de quien habla → con esto sigue.
     if (sesion && String(sesion.paso) === "foto" && tipoM !== "audio") {
-      await upsertSesion({ wa_id: waId, paso: "habla" });
-      await enviarTexto(waId, PREGUNTA_HABLA);
+      await upsertSesion({ wa_id: waId, paso: "habla", habla: "" });
+      await enviarTexto(waId, preguntaHabla(cuantosAudios(sesion), 0));
       return;
     }
     if (total <= 1 && tipoM === "audio") {
       await enviarTexto(waId,
         "¡Gracias por sumarte al *Programa de Corresponsales «Chivilcoy en Acción»* del Diario La " +
-        "Campaña - Radio del Centro! 📣\n\n🎙️ Recibí tu *audio*. Mandá también *una foto o un video* " +
+        "Campaña - Radio del Centro! 📣\n\n🎙️ Recibí tu *audio*. Si tenés más de uno, mandalos en el " +
+        "orden en que querés que salgan. Mandá también *una foto o un video* " +
         "de quien habla (o del lugar) y después contame en *un solo mensaje* de qué se trata: qué pasó, " +
         "cuándo y dónde.\n\n(Si te arrepentís, escribí *cancelar*.)");
     } else if (total <= 1) {
@@ -412,15 +442,32 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
       await upsertSesion({ wa_id: waId, paso: "foto", descripcion: texto.trim() });
       await enviarTexto(waId, PIDE_FOTO);
     } else if (conAudio) {
-      await upsertSesion({ wa_id: waId, paso: "habla", descripcion: texto.trim() });
-      await enviarTexto(waId, PREGUNTA_HABLA);
+      await upsertSesion({ wa_id: waId, paso: "habla", habla: "", descripcion: texto.trim() });
+      await enviarTexto(waId, preguntaHabla(cuantosAudios(sesion), 0));
     } else {
       await upsertSesion({ wa_id: waId, paso: "datos", descripcion: texto.trim() });
       await enviarTexto(waId, PIDE_NOMBRE);
     }
   } else if (paso === "habla") {
-    // Declaración: quién habla en el audio (nombre y cargo) → va al contexto.txt como HABLA.
-    await upsertSesion({ wa_id: waId, paso: "datos", habla: texto.trim().slice(0, 200) });
+    // Declaración: quién habla en el audio (nombre y cargo) → va al contexto.txt como HABLA. Con
+    // varios audios, uno por uno; «igual» = la misma persona que en el anterior.
+    const n = cuantosAudios(sesion);
+    const lineas = lineasHabla(sesion);
+    let t = texto.trim().replace(/\s*\n\s*/g, " ").slice(0, 200);
+    if (n > 1 && /^(igual|la misma|el mismo|misma|mismo|idem|ídem)\b/.test(normalizar(t))) {
+      if (!lineas.length) {
+        await enviarTexto(waId, preguntaHabla(n, 0));
+        return;
+      }
+      t = lineas[lineas.length - 1];
+    }
+    lineas.push(t);
+    if (lineas.length < n) {
+      await upsertSesion({ wa_id: waId, paso: "habla", habla: lineas.join("\n") });
+      await enviarTexto(waId, preguntaHabla(n, lineas.length));
+      return;
+    }
+    await upsertSesion({ wa_id: waId, paso: "datos", habla: lineas.join("\n") });
     await enviarTexto(waId, PIDE_NOMBRE);
   } else if (paso === "datos") {
     // Un nombre no tiene renglones ni pasa de 7 palabras: si llega un texto así, es MÁS relato

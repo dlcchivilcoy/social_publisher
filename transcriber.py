@@ -196,6 +196,48 @@ def _audio_de(carpeta: Path) -> Path | None:
         return audios[0]
 
 
+def _textos_habla(habla: str) -> list:
+    """Quién habla en cada audio, en orden, si el webhook preguntó uno por uno («Audio 1: …» en cada
+    renglón del HABLA del contexto.txt). [] si es la respuesta de siempre, para un solo audio."""
+    vistos = {}
+    for linea in (habla or "").splitlines():
+        m = re.match(r"\s*Audio\s+(\d+)\s*:\s*(.+?)\s*$", linea, re.IGNORECASE)
+        if m:
+            vistos[int(m.group(1))] = m.group(2)
+    return [vistos[k] for k in sorted(vistos)]
+
+
+def _nombre_y_cargo(texto: str) -> tuple:
+    """«Néstor Dabi, secretario de Seguridad» → («Néstor Dabi», «secretario de Seguridad»)."""
+    partes = re.split(r"\s*(?:,|\s[-–—]\s)\s*", " ".join((texto or "").split()), maxsplit=1)
+    return partes[0].strip(" .-"), (partes[1].strip(" .") if len(partes) > 1 else "")
+
+
+def _hablantes(carpeta: Path, habla: str) -> list:
+    """[{desde, nombre, cargo, texto}]: quién habla en cada audio y en qué segundo del audio unido
+    empieza. [] si no hay uno por audio (entonces la declaración es de una sola persona, como antes)."""
+    textos, audios = _textos_habla(habla), _audios_de(carpeta)
+    if len(textos) < 2 or len(textos) != len(audios):
+        return []
+    salida, t = [], 0.0
+    for texto, a in zip(textos, audios):
+        nombre, cargo = _nombre_y_cargo(texto)
+        salida.append({"desde": round(t, 2), "nombre": nombre, "cargo": cargo, "texto": texto})
+        t += float(duration_seconds(a) or 0) + PAUSA_ENTRE_AUDIOS
+    return salida
+
+
+def _habla_para_ia(hablantes: list) -> str:
+    return ("\n".join(f"Audio {i + 1} (empieza en el segundo {h['desde']:.0f}): {h['texto']}"
+                      for i, h in enumerate(hablantes))
+            + "\nSon audios de personas distintas, uno detrás del otro: atribuí cada dicho a quien lo dice.")
+
+
+def _nombres_juntos(hablantes: list) -> str:
+    nombres = list(dict.fromkeys(h["nombre"] for h in hablantes if h.get("nombre")))
+    return nombres[0] if len(nombres) == 1 else ", ".join(nombres[:-1]) + " y " + nombres[-1]
+
+
 def _audio_decl(carpeta: Path | None, decl: dict) -> Path | None:
     """El archivo del audio de una declaración ya procesada: el de la carpeta o, si eran varios, el unido
     (lo rearma si esta máquina no lo tiene). None si no está."""
@@ -2117,7 +2159,8 @@ def _reel_declaracion(carpeta: Path, decl: dict, salida: Path, respaldo: str = "
                             nombre=decl.get("nombre", ""), cargo=decl.get("cargo", ""),
                             frases=decl.get("frases"), tramo=decl.get("tramo"),
                             es_foto=decl.get("es_foto", True), respaldo=respaldo,
-                            work_dir=WORK_DIR / f"decl_{_slug(carpeta.name)}", tema=tema)
+                            work_dir=WORK_DIR / f"decl_{_slug(carpeta.name)}", tema=tema,
+                            hablantes=decl.get("hablantes"))
     return Path(info["archivo"])
 
 
@@ -2225,7 +2268,17 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     # reales con «UnboundLocalError: desc» — justo por el camino BUENO, el que no falla.
     desc = (ctx.get("descripcion") or "").strip()
     from utils import gemini
-    decl = _declaracion_ia(audio, video, fotos, desc, ctx) if audio else None
+    # Varios audios con quién habla en cada uno (07/11/2026): la IA sabe de quién es cada tramo y el
+    # reel cambia el nombre y el cargo cuando cambia la persona.
+    hablantes = _hablantes(carpeta, ctx.get("habla", "")) if audio else []
+    ctx_ia = dict(ctx, habla=_habla_para_ia(hablantes)) if hablantes else ctx
+    decl = _declaracion_ia(audio, video, fotos, desc, ctx_ia) if audio else None
+    if decl and hablantes:
+        decl["hablantes"] = hablantes
+        if len({(h["nombre"], h["cargo"]) for h in hablantes}) > 1:
+            decl["nombre"], decl["cargo"] = _nombres_juntos(hablantes), ""
+        logger.info("Declaración de varias personas: "
+                    + " · ".join(f"{h['desde']:.0f}s {h['nombre']}" for h in hablantes))
     if video and not decl:
         return False
     if decl:
