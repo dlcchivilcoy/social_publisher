@@ -126,6 +126,95 @@ async function upsertSesion(row: Record<string, unknown>): Promise<void> {
   });
 }
 
+// ── EDITOR (2026-11-07): aprobar por WhatsApp ─────────────────────────────────
+// El desgrabador (utils/editor_wa.py) le manda al editor cada envío con botones cuyo id es
+// «ap|co|de|fr|ya:<id>». Acá se atienden: Publicar llama al MISMO link firmado del botón del mail
+// (guardado en `corresponsales_aprobaciones.url_aprobar`), así que no hace falta ninguna clave nueva.
+// El número del editor vive en `corresponsales_config` (clave `editor_wa`), no en el código: el
+// repositorio es público.
+async function numeroEditor(): Promise<string> {
+  const r = await fetch(`${SB_URL}/rest/v1/corresponsales_config?clave=eq.editor_wa&select=valor`,
+    { headers: sbHeaders() });
+  const rows = r.ok ? await r.json() : [];
+  return Array.isArray(rows) && rows.length ? String(rows[0].valor || "").replace(/\D/g, "") : "";
+}
+
+function mismoNumero(a: string, b: string): boolean {
+  const x = String(a || "").replace(/\D/g, "").slice(-10), y = String(b || "").replace(/\D/g, "").slice(-10);
+  return x.length === 10 && x === y;
+}
+
+async function leerAprobacion(id: string): Promise<Record<string, unknown> | null> {
+  const r = await fetch(`${SB_URL}/rest/v1/corresponsales_aprobaciones?id=eq.${encodeURIComponent(id)}&select=*`,
+    { headers: sbHeaders() });
+  const rows = r.ok ? await r.json() : [];
+  return Array.isArray(rows) && rows.length ? rows[0] : null;
+}
+
+// Cambia el estado SOLO si está en uno de `desde` (dos toques seguidos no hacen dos cosas).
+async function cambiarAprobacion(id: string, desde: string[], estado: string): Promise<boolean> {
+  const r = await fetch(
+    `${SB_URL}/rest/v1/corresponsales_aprobaciones?id=eq.${encodeURIComponent(id)}&estado=in.(${desde.join(",")})`,
+    { method: "PATCH", headers: sbHeaders({ Prefer: "return=representation" }),
+      body: JSON.stringify({ estado, actualizado: new Date().toISOString() }) });
+  const rows = r.ok ? await r.json() : [];
+  return Array.isArray(rows) && rows.length > 0;
+}
+
+const YA_RESUELTO: Record<string, string> = {
+  publicar: "🚀 Ese envío ya está en camino de publicarse.",
+  publicada: "✅ Ese envío ya se publicó.",
+  descartada: "🗑️ Ese envío ya estaba descartado.",
+  frenada: "✋ Ese envío ya estaba frenado: te llega para revisarlo.",
+  esperando: "⏱️ Ese envío se publica solo en unos minutos.",
+  pendiente: "Ese envío sigue esperando tu respuesta.",
+};
+
+async function atenderEditor(waId: string, accion: string, id: string): Promise<void> {
+  const fila = await leerAprobacion(id);
+  if (!fila) {
+    await enviarTexto(waId, "No encuentro ese envío. Fijate en el mail de revisión.");
+    return;
+  }
+  const titulo = String(fila.titulo || "el envío");
+  const yaResuelto = () => enviarTexto(waId, YA_RESUELTO[String(fila.estado)] || "Ese envío ya no está pendiente.");
+  // Publicar (de revisión) y Publicar ya (del freno): el mismo link firmado del botón del mail.
+  const publicar = async (desde: string) => {
+    if (!(await cambiarAprobacion(id, [desde], "publicar"))) return await yaResuelto();
+    let ok = false;
+    try {
+      const r = await fetch(String(fila.url_aprobar || ""), { redirect: "follow" });
+      ok = r.ok;
+    } catch (e) {
+      console.error("aprobar:", e);
+    }
+    if (!ok) {
+      await cambiarAprobacion(id, ["publicar"], desde);
+      await enviarTexto(waId, "😕 No pude mandarlo a publicar. Probá de nuevo en un par de minutos, o con el botón del mail.");
+      return;
+    }
+    await enviarTexto(waId, `🚀 Publicando «${titulo}». Te aviso cuando salga.`);
+  };
+  if (accion === "ap") {
+    await publicar("pendiente");
+  } else if (accion === "ya") {
+    await publicar("esperando");
+  } else if (accion === "fr") {
+    // Frenar: pasa a revisión y ahí mismo le llegan los botones (el reloj solo publica lo «esperando»).
+    if (!(await cambiarAprobacion(id, ["esperando"], "pendiente"))) return await yaResuelto();
+    await enviarBotones(waId, `✋ Frenado. «${titulo}» no se publica hasta que decidas.`,
+      [[`ap:${id}`, "✅ Publicar"], [`co:${id}`, "✏️ Corregir"], [`de:${id}`, "🗑️ Descartar"]]);
+  } else if (accion === "co") {
+    const url = String(fila.url_corregir || "");
+    await enviarTexto(waId, url
+      ? `✏️ Corregí el texto acá:\n${url}\n\nCuando termines, tocá *Publicar* en el mensaje del envío.`
+      : "Este envío no tiene nota para corregir: tocá *Publicar* o *Descartar*.");
+  } else if (accion === "de") {
+    if (!(await cambiarAprobacion(id, ["pendiente"], "descartada"))) return await yaResuelto();
+    await enviarTexto(waId, `🗑️ Listo, «${titulo}» no se publica. El borrador queda en Wix por si cambiás de idea.`);
+  }
+}
+
 async function deleteSesion(waId: string): Promise<void> {
   await fetch(`${SB_URL}/rest/v1/corresponsales_sesiones?wa_id=eq.${encodeURIComponent(waId)}`, {
     method: "DELETE",
@@ -210,9 +299,22 @@ function normalizarAr(numero: string): string {
   return n;
 }
 
-async function enviarTexto(to: string, body: string): Promise<void> {
+// Un mensaje con botones de respuesta (hasta 3, títulos de hasta 20 letras). Va gratis porque es la
+// respuesta a un toque del editor: la ventana de 24 h está abierta.
+async function enviarBotones(to: string, body: string, botones: Array<[string, string]>): Promise<void> {
+  await enviarTexto(to, body, {
+    type: "interactive",
+    interactive: {
+      type: "button", body: { text: body.slice(0, 1000) },
+      action: { buttons: botones.map(([id, title]) => ({ type: "reply", reply: { id, title } })) },
+    },
+  });
+}
+
+async function enviarTexto(to: string, body: string, otro: Record<string, unknown> | null = null): Promise<void> {
   to = normalizarAr(to);
-  const payload = JSON.stringify({ messaging_product: "whatsapp", to, type: "text", text: { body } });
+  const payload = JSON.stringify(otro ? { messaging_product: "whatsapp", to, ...otro }
+    : { messaging_product: "whatsapp", to, type: "text", text: { body } });
   // Reintenta ante fallos transitorios de la Graph API (ej. 131005 intermitente) con backoff.
   for (let intento = 1; intento <= 3; intento++) {
     const r = await fetch(`${GRAPH}/${WA_PHONE_ID}/messages`, {
@@ -353,6 +455,26 @@ async function manejarMensaje(msg: Record<string, any>, perfil: string): Promise
   const esMedia = tipo === "video" || tipo === "image" || tipo === "audio" ||
     (tipo === "document" && /^(video|image|audio)\//.test(String(msg.document?.mime_type || "")));
   const sesion = await getSesion(waId);
+
+  // EDITOR (2026-11-07): los botones de aprobar llegan como respuesta interactiva (mensaje libre) o como
+  // botón de plantilla. Solo los atiende si vienen del número del editor. Un texto del editor sin envío
+  // en curso le contesta corto (y de paso abre la ventana de 24 h: los avisos salen gratis).
+  const boton = String(msg.interactive?.button_reply?.id ?? msg.button?.payload ?? "");
+  const acc = /^(ap|co|de|fr|ya):([0-9a-f]{8})$/.exec(boton);
+  if (acc || (!esMedia && !sesion)) {
+    const editor = await numeroEditor();
+    if (editor && mismoNumero(waId, editor)) {
+      if (acc) {
+        await atenderEditor(waId, acc[1], acc[2]);
+      } else {
+        await enviarTexto(waId,
+          "Hola 👋 Acá te llegan los envíos de los corresponsales para aprobar. Mientras me hayas escrito en " +
+          "las últimas 24 horas, los avisos salen sin costo.");
+      }
+      return;
+    }
+    if (acc) return; // un botón de editor desde otro número: no se atiende
+  }
 
   // "cancelar" en cualquier momento.
   if (sesion && normalizar(texto) === "cancelar") {

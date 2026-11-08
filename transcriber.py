@@ -1120,9 +1120,20 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     # borrar de la web.
     directo = (not dry_run and es_corresponsal and (hay or corr_sin_web)
                and _publica_directo((ctx or {}).get("celular", "")))
+    en_freno = False
     if directo:
         logger.info(f"Publicación DIRECTA, sin revisión: el número {ctx.get('celular')} está "
                     f"habilitado.")
+        # Con freno (07/11/2026): al editor le llega «se publica en 10 minutos» por WhatsApp y lo publica
+        # el reloj de Supabase (o él, con «Publicar ya»); si lo frena, le llegan los botones de revisión.
+        from utils import editor_wa
+        if editor_wa.freno(nombre=video.name, tipo="video", titulo=titulo, quien=ctx.get("nombre", ""),
+                           reel_url=reel_url, draft_id=draft_id):
+            fila["publicacion_directa"] = True
+            _guardar_ledger(rows)
+            logger.info("Avisado al editor: se publica en 10 minutos, salvo que lo frene.")
+            en_freno = True
+    if directo and not en_freno:
         try:
             fila["publicacion_directa"] = True
             _guardar_ledger(rows)
@@ -1154,6 +1165,10 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                  f"<p>Está como <b>borrador en Wix</b> con foto + video. Revisalo y:</p>" + aviso_mixto)
         _enviar_aviso(f"Nota por revisar: {titulo}", cuerpo,
                       html=_html_aviso(intro, video.name, reel_url, draft_id, hay=True))
+        if es_corresponsal and not dry_run:
+            from utils import editor_wa
+            editor_wa.avisar_revision(nombre=video.name, tipo="video", titulo=titulo, resumen=resumen,
+                                      quien=(ctx or {}).get("nombre", ""), reel_url=reel_url, draft_id=draft_id)
     elif corr_sin_web:
         cuerpo = (
             f"Llegó un video de corresponsal que NO pude desgrabar; uso la DESCRIPCIÓN que cargó el "
@@ -1171,6 +1186,10 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                  f"sale a <b>Facebook, Instagram y YouTube</b> con ese texto (<b>sin nota web</b>):</p>" + aviso_mixto)
         _enviar_aviso(f"Corresponsal por revisar (sin desgrabar): {titulo}", cuerpo,
                       html=_html_aviso(intro, video.name, reel_url, draft_id, hay=True))
+        if not dry_run:
+            from utils import editor_wa
+            editor_wa.avisar_revision(nombre=video.name, tipo="video", titulo=titulo, resumen=texto,
+                                      quien=(ctx or {}).get("nombre", ""), reel_url=reel_url, draft_id=draft_id)
     else:
         cuerpo = (
             f"Llegó un video pero NO pude desgrabarlo: «{video.name}»\n"
@@ -2505,6 +2524,15 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     elif _publica_directo(ctx.get("celular", "")):
         logger.info(f"Publicación DIRECTA, sin revisión: el número {ctx.get('celular')} está "
                     f"habilitado.")
+        # Con freno (07/11/2026): «se publica en 10 minutos» por WhatsApp y lo publica el reloj de
+        # Supabase (o el editor, con «Publicar ya»); si lo frena, le llegan los botones de revisión.
+        from utils import editor_wa
+        if not dry_run and editor_wa.freno(nombre=carpeta.name, tipo="carpeta", titulo=titular,
+                                           quien=ctx.get("nombre", ""), reel_url=reel_url, draft_id=draft_id):
+            fila["publicacion_directa"] = True
+            _guardar_ledger(rows)
+            logger.info("=== Corresponsal-foto (etapa 1): avisado al editor, se publica en 10 minutos ===")
+            return True
         try:
             fila["publicacion_directa"] = True
             _guardar_ledger(rows)
@@ -2543,6 +2571,10 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     _enviar_aviso(f"{que} por revisar: {titular}",
                   f"{que} para revisar: «{title}».\nPara publicarla, mové la carpeta "
                   f"«{carpeta.name}» a APROBADAS.", html=html)
+    if not dry_run:
+        from utils import editor_wa
+        editor_wa.avisar_revision(nombre=carpeta.name, tipo="carpeta", titulo=titular, resumen=resumen or texto,
+                                  quien=ctx.get("nombre", ""), reel_url=reel_url, draft_id=draft_id)
     logger.info("=== Corresponsal-foto (etapa 1): fin ===")
     return True
 
@@ -2747,6 +2779,8 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
                   f"Se publicó la foto de corresponsal «{titular}»: web={estado['wix']}, "
                   f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}, "
                   f"TikTok={estado.get('tiktok', 'omitido')}{_historias_txt(estado)}.")
+    from utils import editor_wa
+    editor_wa.confirmar_publicado(fila.get("file", ""), post_url)
     # Aviso al corresponsal por WhatsApp con los LINKS de cada red donde salió ok (SOLO-GRATIS).
     canales = [_WA_CANALES[k] for k in _WA_ORDEN if estado.get(k) == "ok"]
     links = {}
@@ -3354,3 +3388,5 @@ def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> No
               f"- Web (Wix): {estado.get('wix')}" + (f" ({post_url})" if post_url else "") + "\n")
     _enviar_aviso(("Publicado directo: " if fila.get("publicacion_directa")
                    else "Estado de publicación: ") + titulo, cuerpo, html=html)
+    from utils import editor_wa
+    editor_wa.confirmar_publicado(fila.get("file", ""), post_url)
