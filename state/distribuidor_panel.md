@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 08/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 08/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-08)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 08/11/2026 19:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -21,19 +21,19 @@ Actualizado: 08/11/2026 19:20 (hora AR) · ACTIVO
 - X · Reels del bot: 29 con métricas · mediana vistas/impresiones 29 · likes 0
 - X · Reels policiales: 17 con métricas · mediana vistas/impresiones 36 · likes 0
 - X · Notas web: 67 con métricas · mediana vistas/impresiones 19 · likes 0
-- TikTok · Recortes de entrevistas: 28 con métricas · mediana vistas/impresiones 161.5 · likes 1.5
+- TikTok · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 162 · likes 2
 - TikTok · Reels del bot: 34 con métricas · mediana vistas/impresiones 414 · likes 4.5
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Reels policiales · Motociclista ebrio chocó contra un auto frente al teatro Constantino — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-08T00:00 programado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|x 
 - 2026-11-08T00:00 programado policiales:https://www.chacabuquero.com.ar/2026/11/noche0711 
 - 2026-11-08T00:00 programado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|tiktok 
 - 2026-11-08T00:00 programado bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tikto 
@@ -58,3 +58,4 @@ Actualizado: 08/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-08T22:00 enviado bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok 
 - 2026-11-08T22:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-8 
 - 2026-11-08T22:20 programado policiales:https://www.junindigital.com/policiales/2026-11-8 
+- 2026-11-08T22:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/31139/moto 
