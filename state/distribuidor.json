@@ -4525,25 +4525,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-pura-contundencia-nicolena-somisa-mantiene-el",
    "volanta": "Básquet"
   },
-  "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7": {
-   "categoria": "",
-   "descripcion": "Habilitaron un nuevo espacio sustentable en el Paseo Guernica",
-   "generado": "2026-10-29T15:26:00.160Z",
-   "id": "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ec019ae13abf4ef0bd82100c955287b2~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy · Medio ambiente",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
-   "volanta": ""
-  },
   "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf": {
    "categoria": "",
    "descripcion": "Chivilcoy: \"Averiguación de causales de muerte\": Investigan la muerte de dos hombres en distintos hechos ocurridos este fin de semana CHIVILCOY.– La ciudad se encuentra conmocionada tras el trágico hallazgo de dos hombres sin vida en diferentes domicilios, en hechos ocurridos durante este último fin de semana. Ambos casos son investigados por la Justicia local bajo la intervención de la UFI N° 6 del Departamento Judicial de Mercedes. El primero de los episodios se conoció el domingo 1 de...",
@@ -15125,31 +15106,6 @@
    "titulo": "Chivilcoy: Pura contundencia nicoleña: Somisa mantiene el invicto y Belgrano aseguró su pasaje a la Liga Federal 2027",
    "urgente": false,
    "vence": "2026-11-02T15:23:00.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7|x": {
-   "actualizado": "2026-10-29T15:40:17.000Z",
-   "buffer_id": "",
-   "clave": "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7|x",
-   "creado": "2026-10-29T15:40:17.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-29T15:26:00.160Z",
-   "id": "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
-   "noticia": "nota:chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy · Medio ambiente",
-   "urgente": false,
-   "vence": "2026-10-29T19:26:00.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
