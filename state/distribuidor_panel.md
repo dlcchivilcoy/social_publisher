@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 07/11/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 07/11/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-07)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 07/11/2026 22:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 3 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 3 | 0 | 0 | 0 | 1 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,14 +27,12 @@ Actualizado: 07/11/2026 22:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- X · Reels policiales · Denunció a su propio hijo tras hallar objetos sospechosos en su vivienda — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-07T22:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/le-robaro 
 - 2026-11-07T22:40 recibido web:547df2b0-7a1a-4b57-923f-b7947b7b5134|x 
 - 2026-11-07T22:40 depurado web:547df2b0-7a1a-4b57-923f-b7947b7b5134|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-07T22:40 enviado policiales:https://www.diariodemocracia.com/policiales/34773 
@@ -59,3 +57,4 @@ Actualizado: 07/11/2026 22:20 (hora AR) · ACTIVO
 - 2026-11-08T01:20 enviado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|tiktok 
 - 2026-11-08T01:20 enviado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|x 
 - 2026-11-08T01:20 enviado policiales:https://www.chacabuquero.com.ar/2026/11/noche0711 
+- 2026-11-08T01:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/calle0711 espera su momento (se programa cerca de la hora en que sale en las otras redes)

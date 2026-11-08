@@ -2738,32 +2738,6 @@
    "volanta": "Principio de incendio en Junín",
    "youtube_url": "https://youtube.com/shorts/0Rq2zQbhUMQ"
   },
-  "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac": {
-   "categoria": "robo",
-   "descripcion": "Cayó un sospechoso de 41 años acusado de sustraer los techos solares de tres Peugeot 207 en distintos puntos de Chacabuco entre enero y octubre de 2026. La investigación de la DDI Junín incluyó allanamientos en Lomas de Zamora.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-28T23:01:58.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-41-anos-en-lomas-de-zamora-a80bb5",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "radio_ok": true,
-   "texto_tiktok": "La DDI Junín detuvo a un hombre de 41 años en Lomas de Zamora tras acusarlo de robar techos solares de tres vehículos Peugeot 207 en Chacabuco.\n\nLos hechos ocurrieron entre enero y octubre de 2026 en diferentes calles de la ciudad.\n\nLa investigación estuvo a cargo del Grupo Operativo Chacabuco, que analizó cámaras de seguridad y cruces telefónicos para dar con el sospechoso y localizar el auto utilizado en los robos.\n\nDurante el allanamiento en una vivienda de la calle Pereyra Lucena, la policía secuestró un Fiat Cronos gris oscuro y un teléfono celular Samsung A55 negro.\n\nEn la causa intervienen la Unidad Funcional de Instrucción y Juicio N.º 11 de Chacabuco y el Tribunal en lo Criminal N.º 1 de Junín, a la espera de la declaración indagatoria.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #Detenido #Chacabuco #BuenosAires",
-   "tipo": "video",
-   "titulo": "Detuvieron en Lomas de Zamora a un hombre de 41 años por robar techos solares",
-   "urgente": false,
-   "video_bytes": 82849,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_01_chacabuco_detuvieron-en-lomas-de-zamora-.mp4",
-   "volanta": "Robos en Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/H8IfT6pogVk"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo": {
    "categoria": "robo",
    "descripcion": "Tres procedimientos policiales culminaron con la detención de un acusado de robar aberturas, la captura de un hombre requerido por la justicia y el secuestro de un arma de fuego sin numeración visible en la ciudad.",
@@ -12799,14 +12773,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x": {
-   "actualizado": "2026-11-07T23:40:13.000Z",
+   "actualizado": "2026-11-08T01:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x",
    "creado": "2026-11-07T23:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-07T23:31:19.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html",
    "intentos": 0,
@@ -12994,34 +12968,6 @@
    "vence": "2026-10-31T02:02:02.000Z",
    "video_bytes": 90769,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_01_chacabuco_controlaron-un-principio-de-in.mp4",
-   "viral": false
-  },
-  "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac|x": {
-   "actualizado": "2026-10-29T01:20:15.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac|x",
-   "creado": "2026-10-28T23:20:14.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-10-28T23:01:58.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-41-anos-en-lomas-de-zamora-a80bb5",
-   "noticia": "nota:chacabuco-detuvieron-a-un-hombre-de-41-anos-en-lomas-de-zamora-a80bb5",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Detuvieron en Lomas de Zamora a un hombre de 41 años por robar techos solares\n\nCayó un sospechoso de 41 años acusado de sustraer los techos solares de tres Peugeot 207 en distintos puntos de Chacabuco entre enero y octubre de 2026.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-41-anos-en-lomas-de-zamora-a80bb5",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Detuvieron en Lomas de Zamora a un hombre de 41 años por robar techos solares",
-   "urgente": false,
-   "vence": "2026-10-29T01:01:58.000Z",
-   "video_bytes": 82849,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-28_2134_01_chacabuco_detuvieron-en-lomas-de-zamora-.mp4",
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x": {
@@ -18576,13 +18522,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae67c6521c807e9d590138b",
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|x",
-   "cuando": "2026-10-31T23:40:22.000Z",
-   "dueAt": "2026-10-31T23:42:40.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ae67c65ab019b90872f5fbd",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26703-una-camioneta-se-incendio-durante-la-madrugada-en-la-via-publica|x",
    "cuando": "2026-10-31T23:40:22.000Z",
@@ -22736,6 +22675,12 @@
    "cuando": "2026-11-08T01:20:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2119220302714450372"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x",
+   "cuando": "2026-11-08T01:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
