@@ -1020,6 +1020,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ed4d2e1fc9dd5c92.mp4",
    "youtube_url": "https://www.youtube.com/shorts/pVRX4YqNGug"
   },
+  "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4": {
+   "descripcion": "En el salón de La Ronda Cultural, Cristina Bracco presentó el sábado 7 de noviembre su libro titulado “Yo me parí”. Se trata de una obra autobiográfica que comenzó a imaginar en su juventud y que logró concretar tras diversos intentos a lo largo del tiempo.\n\nEl libro narra una historia personal atravesada por la discapacidad, la perseverancia y la determinación de contar en primera persona su propio recorrido, al cual definió como una vida “sobre ruedas”. Durante el encuentro, la autora compartió detalles del proceso creativo, recordando los primeros borradores iniciados cuando tenía alrededor de 18 años y las etapas superadas hasta alcanzar la edición definitiva.\n\nEn la presentación, Bracco agradeció el apoyo recibido durante el trabajo de elaboración y edición por parte de Daniel Casas Salicone, Samuel Barragán y Graciela Arbizúa. Asimismo, valoró la presencia del público y la colaboración de quienes hicieron posible la organización de la actividad.\n\nLa jornada se completó con la lectura de fragmentos de los distintos capítulos del texto y la participación musical de Gabriel Sosa, quien interpretó canciones de su autoría alusivas a la ocasión.",
+   "duracion_seg": 65.0,
+   "generado": "2026-11-08T20:33:38.000Z",
+   "id": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Cristina Bracco presentó su libro Yo me parí",
+   "urgente": false,
+   "video_bytes": 5000598,
+   "video_mb": 4.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_313f89456d0f028f.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/j-llG4Yk7Pg"
+  },
   "entrevistas:job00260": {
    "descripcion": "En Chivilcoy, el docente e investigador Mauricio De Marzi denunció los insólitos controles burocráticos para montos mínimos que obligan a los científicos a financiar proyectos de su propio bolsillo. Explicó cómo la inflación y las trabas administrativas asfixian la investigación universitaria.",
    "duracion_seg": null,
@@ -4716,6 +4737,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/educacion-y-comunidad-chivilcoy-casa-pueblo-impulsa-talleres-de-salud",
    "volanta": "Educación y Comunidad"
+  },
+  "web:aa54283b-118c-4bae-8790-73ed73c0006c": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Cristina Bracco presentó su libro Yo me parí CHIVILCOY.– En el salón de La Ronda Cultural, Cristina Bracco presentó este sábado su libro “Yo me parí”, una obra que comenzó a idear en su juventud y que, tras varios intentos, logró plasmar en papel. La publicación narra una historia personal atravesada por la discapacidad, la perseverancia y el deseo de relatar su propia experiencia, la cual definió como una vida “sobre ruedas”. Durante el encuentro, la autora relató cómo nació la...",
+   "generado": "2026-11-08T20:32:55.884Z",
+   "id": "web:aa54283b-118c-4bae-8790-73ed73c0006c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_37bd4645bbad4976b6605cfe05909227~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Cristina Bracco presentó su libro Yo me parí",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
+   "volanta": "Chivilcoy · Cultura"
   },
   "web:b333b47e-b16a-4899-bd75-63c2b7086095": {
    "categoria": "",
@@ -8599,6 +8639,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ed4d2e1fc9dd5c92.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok": {
+   "actualizado": "2026-11-08T20:40:12.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok",
+   "creado": "2026-11-08T20:40:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-08T20:33:38.000Z",
+   "id": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Cristina Bracco presentó su libro Yo me parí\n\nLa obra autobiográfica narra una historia personal atravesada por la discapacidad, la perseverancia y la determinación de contar en primera persona un recorrido que la autora definió como una vida sobre ruedas. Durante la presentación, se compartieron detalles del proceso creativo iniciado en su juventud y la jornada incluyó lecturas junto a una participación musical.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cristina Bracco presentó su libro Yo me parí",
+   "urgente": false,
+   "vence": "2026-11-10T20:33:38.000Z",
+   "video_bytes": 5000598,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_313f89456d0f028f.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x": {
+   "actualizado": "2026-11-08T20:40:15.000Z",
+   "buffer_id": "6af0de30229bf05dafd3d472",
+   "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x",
+   "creado": "2026-11-08T20:40:12.000Z",
+   "dueAt": "2026-11-08T20:42:30.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-08T20:33:38.000Z",
+   "id": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
+   "noticia": "nota:chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Cristina Bracco presentó su libro Yo me parí\n\nSe trata de una obra autobiográfica que narra una historia personal atravesada por la discapacidad y la perseverancia. En el encuentro, la autora compartió detalles del proceso creativo de su trabajo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Cristina Bracco presentó su libro Yo me parí",
+   "urgente": false,
+   "vence": "2026-11-08T22:33:38.000Z",
+   "video_bytes": 5000598,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_313f89456d0f028f.mp4",
+   "viral": false
+  },
   "entrevistas:job00260|tiktok": {
    "actualizado": "2026-10-30T15:00:24.000Z",
    "buffer_id": "6ae494f1f522e615d3a50358",
@@ -8790,43 +8886,6 @@
    "titulo": "Lucas Bettoli: el rol de la universidad frente a las empresas",
    "urgente": false,
    "vence": "2026-10-31T19:00:17.000Z",
-   "video_bytes": 18091646,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00264.mp4",
-   "viral": false
-  },
-  "entrevistas:job00264|x": {
-   "actualizado": "2026-10-29T20:20:16.000Z",
-   "buffer_id": "6ae397cda929d1f77543b55c",
-   "clave": "entrevistas:job00264|x",
-   "creado": "2026-10-29T19:00:17.000Z",
-   "dueAt": "2026-10-29T19:02:24.000Z",
-   "enviado": "2026-10-29T19:04:33.216Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-29T19:00:17.000Z",
-   "id": "entrevistas:job00264",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2115882496390816228",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 28,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:bettoli-empresas-frente-lucas-universidad",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Lucas Bettoli: el rol de la universidad frente a las empresas\n\nLucas Bettoli, referente de la UTN en Chivilcoy, reflexiona sobre la articulación académica con el sector productivo y el verdadero valor agregado de un título universitario.\n\nhttps://youtu.be/ZsWzInbxJhw",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Lucas Bettoli: el rol de la universidad frente a las empresas",
-   "urgente": false,
-   "vence": "2026-10-29T21:00:17.000Z",
    "video_bytes": 18091646,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00264.mp4",
    "viral": false
@@ -15167,6 +15226,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:aa54283b-118c-4bae-8790-73ed73c0006c|x": {
+   "actualizado": "2026-11-08T20:40:12.000Z",
+   "buffer_id": "",
+   "clave": "web:aa54283b-118c-4bae-8790-73ed73c0006c|x",
+   "creado": "2026-11-08T20:40:12.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-08T20:32:55.884Z",
+   "id": "web:aa54283b-118c-4bae-8790-73ed73c0006c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
+   "noticia": "nota:chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Cristina Bracco presentó su libro Yo me parí",
+   "urgente": false,
+   "vence": "2026-11-09T00:32:55.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b333b47e-b16a-4899-bd75-63c2b7086095|x": {
    "actualizado": "2026-11-03T12:40:14.000Z",
    "buffer_id": "6ae9c37047205d2c3994e893",
@@ -16653,33 +16737,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae6811aab019b9087306dfe",
-   "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok",
-   "cuando": "2026-11-01T00:00:26.000Z",
-   "dueAt": "2026-11-01T01:23:20.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31099/chocaron-dos-motos-una-mujer-sufrio-una-fractura-grave-y-un-adolescente-fue-aprehendido.html|x",
-   "cuando": "2026-11-01T00:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|tiktok",
-   "cuando": "2026-11-01T00:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "no entró entre las 5 más virales de la tanda 21 h"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|tiktok",
-   "cuando": "2026-11-01T00:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702986961333570837"
-  },
   {
    "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tiktok",
    "cuando": "2026-11-01T00:40:16.000Z",
@@ -20815,6 +20872,37 @@
    "cuando": "2026-11-08T17:40:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2119480668258259348"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x",
+   "cuando": "2026-11-08T20:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok",
+   "cuando": "2026-11-08T20:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:aa54283b-118c-4bae-8790-73ed73c0006c|x",
+   "cuando": "2026-11-08T20:40:15.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6af0de30229bf05dafd3d472",
+   "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x",
+   "cuando": "2026-11-08T20:40:16.000Z",
+   "dueAt": "2026-11-08T20:42:30.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21050,6 +21138,7 @@
   "bot:video_matias-zucchi_mw6qhfehknag_01.mp4": "2026-11-07T18:40:16.000Z",
   "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4": "2026-11-08T00:00:16.000Z",
   "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4": "2026-11-08T17:20:17.000Z",
+  "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4": "2026-11-08T20:40:12.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -21867,6 +21956,7 @@
   "web:a88f249c-9e23-46be-8a40-bb31f049e2b7": "2026-10-23T16:20:15.000Z",
   "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60": "2026-11-03T10:02:22.000Z",
   "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e": "2026-10-18T12:20:16.000Z",
+  "web:aa54283b-118c-4bae-8790-73ed73c0006c": "2026-11-08T20:40:12.000Z",
   "web:aac6f864-9661-40bc-8e13-c03b62c05fed": "2026-10-26T10:20:14.000Z",
   "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd": "2026-10-28T17:20:18.000Z",
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": "2026-10-16T00:00:21.000Z",
