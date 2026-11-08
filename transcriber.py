@@ -766,6 +766,40 @@ def _scan_transcribe_video(uploader: str = "", dry_run: bool = False) -> None:
     logger.info(f"=== Scan diario: fin ({nuevos} video(s) procesado(s)) ===")
 
 
+def _solo_texto_on() -> bool:
+    """¿Los videos de WhatsApp se arman solo con lo escrito, sin desgrabar? (2026-11-08).
+    `CORR_SOLO_TEXTO=0` vuelve a desgrabar el audio."""
+    return (get("CORR_SOLO_TEXTO") or "1").strip().lower() not in ("0", "no", "off")
+
+
+def _nota_desde_texto(video: Path, escrito: str, lugar: str = "") -> dict:
+    """La nota de un video de corresponsal SIN escuchar el audio: la redacción corrige lo que
+    escribió el corresponsal (como en las fotos, `gemini.nota_desde_foto`) con un cuadro del video
+    como apoyo visual. Si Gemini falla, va lo escrito tal cual: nunca se cae a la desgrabación."""
+    cuadro = None
+    try:
+        from video import duration_seconds, frame_at
+        d = float(duration_seconds(video) or 0)
+        cuadro = frame_at(video, min(2.0, d / 3) if d else 0.5, WORK_DIR / f"cuadro_texto_{_slug(video.stem)}.jpg")
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude sacar un cuadro del video para la redacción ({e}); va sin imagen.")
+    try:
+        from utils import gemini
+        nota = gemini.nota_desde_foto(escrito, cuadro, lugar=lugar)
+        logger.info("Video de corresponsal: nota armada SOLO con lo escrito (sin desgrabar el audio).")
+    except Exception as e:  # noqa: BLE001
+        logger.error(f"Gemini no pudo redactar desde lo escrito ({e}); uso el texto del corresponsal crudo.")
+        primera = escrito.strip().split("\n")[0].strip()
+        nota = {"volanta": "", "titulo": primera[:80] or "Envío de un corresponsal",
+                "texto": escrito.strip(), "resumen": escrito.strip()[:280]}
+    nota["hay_noticia"] = True
+    nota.setdefault("segmentos", [])
+    nota.setdefault("zocalo", "")
+    for k in ("volanta", "titulo", "texto", "resumen"):
+        nota[k] = nota.get(k) or ""
+    return nota
+
+
 def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = False) -> None:
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PROCESO REAL"
     logger.info(f"=== Desgrabar video [{modo}] — file='{file}' uploader='{uploader}' ===")
@@ -827,11 +861,19 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
             logger.error(f"No pude unir el grupo de videos ({e}); proceso solo «{video.name}».")
             video_media = video
     extra_text, imgs = _recolectar_adjuntos(video)
+    adjuntos_txt = extra_text
 
     # Contexto del corresponsal (lo deja el bot de WhatsApp en contexto.txt). Si existe,
     # se firma el reel y se suman Lugar/Descripción al contexto que recibe Gemini.
     ctx = _leer_contexto(video.parent)
     es_corresponsal = bool(ctx and "corresponsal" in (ctx.get("origen", "").lower()))
+    # SIN DESGRABAR (pedido 2026-11-08: «no me hagas desgrabación de audio a texto con el video
+    # porque transcribís mal los nombres y apellidos, nombres propios o siglas; guiate por el texto
+    # que se te envía»): lo que llega por WhatsApp se arma SOLO con lo escrito, como las fotos. La
+    # IA ve del video una imagen (y, para ubicar las tarjetas en el tiempo, el video MUDO).
+    escrito_corr = "\n\n".join(t for t in (adjuntos_txt.strip(),
+                                           ((ctx or {}).get("descripcion") or "").strip()) if t)
+    solo_texto = bool(es_corresponsal and escrito_corr and _solo_texto_on())
     if ctx:
         partes = []
         if ctx.get("lugar"):
@@ -847,8 +889,11 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
     try:
         # Lo que ESCRIBIÓ quien mandó el video es la base de la nota; la desgrabación, el
         # contexto (pedido del usuario 2026-09-26).
-        nota = transcribe_to_nota(video_media, extra_text=extra_text, image_paths=imgs,
-                                  escrito_base=True)
+        if solo_texto:
+            nota = _nota_desde_texto(video_media, escrito_corr, (ctx or {}).get("lugar", ""))
+        else:
+            nota = transcribe_to_nota(video_media, extra_text=extra_text, image_paths=imgs,
+                                      escrito_base=True)
     except Exception as e:
         logger.error(f"No se pudo desgrabar «{video.name}» (Gemini falló tras reintentos): {e}")
         if not dry_run:
@@ -970,7 +1015,8 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                           fuentes=(f"TÍTULO: {titulo}\nVOLANTA: {volanta}\nNOTA:\n{texto}\n\n"
                                    f"LO QUE ESCRIBIÓ EL CORRESPONSAL:\n{extra_text}"),
                           work_dir=WORK_DIR / f"montaje_{slug}",
-                          tema=_tema_4x5(rows, fila), titulo=(volanta, titulo))
+                          tema=_tema_4x5(rows, fila), titulo=(volanta, titulo),
+                          sin_audio=solo_texto)
             if base:
                 # Con el bloque (2026-10-18), el isologo ya va en el bloque de cada tramo.
                 reel = to_vertical_reel(base, reel_path, compuesto=True, estilo="corresponsal",
@@ -995,7 +1041,7 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
                         tarjetas = _g.tarjetas_video(
                             video_media, d, volanta, titulo,
                             f"{texto}\n\nLO QUE ESCRIBIÓ EL CORRESPONSAL:\n{extra_text}",
-                            narrar=vertical)
+                            narrar=vertical, sin_audio=solo_texto)
                 except Exception as e:  # noqa: BLE001
                     logger.warning(f"No pude pedir las tarjetas del video ({e}).")
             # Lo apaisado sale 4:5 con el bloque blanco o el grafito, alternados (2026-10-12).

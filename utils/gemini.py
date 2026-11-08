@@ -1043,6 +1043,29 @@ def _groq_model() -> str:
     return get("GROQ_ASR_MODEL") or "whisper-large-v3-turbo"
 
 
+SIN_AUDIO_NOTA = ("\n\nIMPORTANTE: el video va SIN SONIDO a propósito. Usalo solo para ver QUÉ se "
+                  "muestra y CUÁNDO. Los nombres, apellidos, nombres propios, siglas, cifras y "
+                  "datos salen ÚNICAMENTE del texto escrito de arriba, copiados con su grafía exacta; "
+                  "no agregues ninguno que no esté escrito ahí.")
+
+
+def copia_sin_audio(video) -> Path:
+    """Una copia MUDA del video (mismo cuadro, sin re-codificar) para mostrársela a Gemini sin que
+    escuche nada (pedido 2026-11-08: «transcribís mal los nombres… guiate por el texto»). Si
+    ffmpeg falla, levanta la excepción: el que llama decide (nunca se manda el original con audio)."""
+    import subprocess
+    import tempfile
+    from video import _ffmpeg  # import perezoso: evita el import circular
+    src = Path(video)
+    out = Path(tempfile.gettempdir()) / f"mudo_{src.stem}_{int(time.time() * 1000)}{src.suffix or '.mp4'}"
+    r = subprocess.run([_ffmpeg(), "-hide_banner", "-loglevel", "error", "-y", "-i", str(src),
+                        "-map", "0:v:0", "-an", "-c:v", "copy", str(out)],
+                       capture_output=True, text=True)
+    if r.returncode != 0 or not out.exists() or out.stat().st_size == 0:
+        raise RuntimeError(f"no pude sacarle el audio al video: {(r.stderr or '')[-200:]}")
+    return out
+
+
 def _extraer_audio(media_local_path):
     """Extrae el audio de un video/audio local a un mp3 chico (mono 16 kHz) para mandarlo a Groq
     por debajo de su límite de tamaño. Devuelve la ruta temporal o None si falla."""
@@ -2230,7 +2253,7 @@ _MONTAJE_SCHEMA = {
 
 
 def plan_montaje(videos: list, cuadros: list, fuentes: str, max_seg: float = 55.0,
-                 api_key: str = "", model: str = "") -> dict:
+                 api_key: str = "", model: str = "", sin_audio: bool = False) -> dict:
     """El PLAN de montaje de varios videos de un mismo hecho (ver `_MONTAJE_PROMPT`).
 
     `videos` = [(ruta, duración en s)], `cuadros` = [(ruta del cuadro inicial, del final)] de cada
@@ -2242,10 +2265,11 @@ def plan_montaje(videos: list, cuadros: list, fuentes: str, max_seg: float = 55.
         raise ValueError("Falta GEMINI_API_KEY")
     model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
     parts = [{"text": _MONTAJE_PROMPT.replace("{MAX}", f"{max_seg:.0f}")
-              + f"\n\nFUENTES:\n{fuentes.strip()}"}]
+              + f"\n\nFUENTES:\n{fuentes.strip()}" + (SIN_AUDIO_NOTA if sin_audio else "")}]
     for i, ((ruta, dur), (ini, fin)) in enumerate(zip(videos, cuadros), start=1):
         ruta = Path(ruta)
-        f = _subir_archivo(ruta, _mime(ruta), key)
+        subir = copia_sin_audio(ruta) if sin_audio else ruta
+        f = _subir_archivo(subir, _mime(subir), key)
         f = _esperar_activo(f["name"], key)
         parts += [{"text": f"\nVIDEO {i} («{ruta.name}», {dur:.1f} s):"},
                   {"file_data": {"mime_type": f.get("mimeType") or _mime(ruta),
@@ -2318,7 +2342,8 @@ _TARJETAS_SCHEMA = {
 
 
 def tarjetas_video(video, dur: float, volanta: str, titulo: str, fuentes: str,
-                   api_key: str = "", model: str = "", narrar: bool = False) -> list:
+                   api_key: str = "", model: str = "", narrar: bool = False,
+                   sin_audio: bool = False) -> list:
     """Las tarjetas que se suman a la del título a lo largo de un video solo: [{desde, volanta,
     texto, lugar}] tal como las propone Gemini (las valida `video.tarjetas_validas`). Si Gemini
     dijo dónde va la del título, va primero como {desde: 0, titulo: True, lugar, texto: ""}
@@ -2327,12 +2352,13 @@ def tarjetas_video(video, dur: float, volanta: str, titulo: str, fuentes: str,
     try:
         key = (api_key or "").strip() or _clave_por_defecto()
         model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
-        video = Path(video)
+        video = copia_sin_audio(video) if sin_audio else Path(video)
         f = _esperar_activo(_subir_archivo(video, _mime(video), key)["name"], key)
         prompt = (_TARJETAS_PROMPT.replace("{DUR}", f"{dur:.0f}")
                   .replace("{VOLANTA}", volanta or "").replace("{TITULO}", titulo or "")
                   + (_TARJETAS_NARRAR if narrar else "")
-                  + f"\n\nNOTA:\n{fuentes.strip()}")
+                  + f"\n\nNOTA:\n{fuentes.strip()}"
+                  + (SIN_AUDIO_NOTA if sin_audio else ""))
         parts = [{"text": prompt},
                  {"file_data": {"mime_type": f.get("mimeType") or _mime(video),
                                 "file_uri": f["uri"]}}]

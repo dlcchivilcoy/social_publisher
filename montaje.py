@@ -442,10 +442,11 @@ def autoprueba(tmp: Path) -> bool:
 
 # ── Entrada ─────────────────────────────────────────────────────────────────────────
 def montar(videos: list, salida: Path, *, fuentes: str, work_dir: Path, tema: str = "",
-           titulo: tuple = ("", "")) -> Path | None:
+           titulo: tuple = ("", ""), sin_audio: bool = False) -> Path | None:
     """Arma el montaje de `videos` (varios, del mismo envío) en `salida` (1080x1920, hasta 55 s,
     con marca, etiquetas y tarjetas; sin isologo ni placa de cierre). None si no se pudo: el
-    que llama usa el armado de siempre."""
+    que llama usa el armado de siempre. `sin_audio`: Gemini los mira MUDOS y los textos salen solo
+    de lo escrito (el montaje en sí conserva el sonido)."""
     videos = [Path(v) for v in videos]
     if len(videos) < 2:
         return None
@@ -459,7 +460,8 @@ def montar(videos: list, salida: Path, *, fuentes: str, work_dir: Path, tema: st
         cuadros = [(_cuadro(v, 0.3, work_dir / f"_ini_{i}.jpg"),
                     _cuadro(v, max(0.0, d - 0.5), work_dir / f"_fin_{i}.jpg"))
                    for i, (v, d) in enumerate(zip(videos, durs))]
-        raw = gemini.plan_montaje(list(zip(videos, durs)), cuadros, fuentes, MAX_SEG)
+        raw = gemini.plan_montaje(list(zip(videos, durs)), cuadros, fuentes, MAX_SEG,
+                                  sin_audio=sin_audio)
         plan = validar(raw, durs)
         if not plan:
             raise RuntimeError("el plan de montaje no trajo tramos usables")
