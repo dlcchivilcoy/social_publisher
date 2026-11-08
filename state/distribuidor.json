@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-08T17:40:12.000Z"
+   "visto": "2026-11-08T21:00:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 7
    },
    "pausado": false,
-   "visto": "2026-11-08T17:40:12.000Z"
+   "visto": "2026-11-08T21:00:17.000Z"
   }
  },
  "contenidos": {
@@ -8583,15 +8583,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok": {
-   "actualizado": "2026-11-08T17:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-08T21:00:18.000Z",
+   "buffer_id": "6af0e2ed004e4879a7de8dd6",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok",
    "creado": "2026-11-08T17:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-08T21:23:35.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-08T17:02:18.000Z",
    "id": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4",
    "intentos": 0,
@@ -8640,15 +8640,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok": {
-   "actualizado": "2026-11-08T20:40:12.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-08T21:00:18.000Z",
+   "buffer_id": "6af0e2e8004e4879a7de85a0",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok",
    "creado": "2026-11-08T20:40:12.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-08T21:03:33.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-08T20:33:38.000Z",
    "id": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4",
    "intentos": 0,
@@ -8668,18 +8668,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x": {
-   "actualizado": "2026-11-08T20:40:15.000Z",
+   "actualizado": "2026-11-08T21:00:17.000Z",
    "buffer_id": "6af0de30229bf05dafd3d472",
    "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x",
    "creado": "2026-11-08T20:40:12.000Z",
    "dueAt": "2026-11-08T20:42:30.000Z",
+   "enviado": "2026-11-08T20:42:46.097Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-08T20:33:38.000Z",
    "id": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119531091639853427",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
    "noticia": "nota:chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
    "origen": "bot",
@@ -16738,24 +16739,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tiktok",
-   "cuando": "2026-11-01T00:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702992163100953876"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|x",
-   "cuando": "2026-11-01T00:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116677295721087144"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26703-una-camioneta-se-incendio-durante-la-madrugada-en-la-via-publica|x",
-   "cuando": "2026-11-01T00:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116678870338306066"
-  },
-  {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26700-un-adolescente-resulto-con-lesiones-leves-tras-un-choque-entre-un-auto-y-una-moto|x",
    "cuando": "2026-11-01T01:20:14.000Z",
    "evento": "vencido",
@@ -20903,11 +20886,30 @@
    "cuando": "2026-11-08T20:40:16.000Z",
    "dueAt": "2026-11-08T20:42:30.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x",
+   "cuando": "2026-11-08T21:00:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119531091639853427"
+  },
+  {
+   "buffer_id": "6af0e2e8004e4879a7de85a0",
+   "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok",
+   "cuando": "2026-11-08T21:00:30.000Z",
+   "dueAt": "2026-11-08T21:03:33.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af0e2ed004e4879a7de8dd6",
+   "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok",
+   "cuando": "2026-11-08T21:00:30.000Z",
+   "dueAt": "2026-11-08T21:23:35.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-29 18",
    "2026-10-29 21",
    "2026-10-30 10",
    "2026-10-30 18",
@@ -20936,11 +20938,12 @@
    "2026-11-07 10",
    "2026-11-07 18",
    "2026-11-07 21",
-   "2026-11-08 10"
+   "2026-11-08 10",
+   "2026-11-08 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-08",
- "ultima_sync": "2026-11-08T17:40:12.000Z",
+ "ultima_sync": "2026-11-08T21:00:17.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
