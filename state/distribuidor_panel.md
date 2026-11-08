@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 07/11/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 07/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-07)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 2 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 1 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 3 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 3 | 0 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 4 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 6 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 3 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 25 · likes 0
@@ -34,10 +34,6 @@ Actualizado: 07/11/2026 22:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-07T21:00 programado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok 
-- 2026-11-07T21:20 enviado bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok 
-- 2026-11-07T22:20 recibido policiales:https://www.diariodemocracia.com/policiales/34773 
-- 2026-11-07T22:20 programado policiales:https://www.diariodemocracia.com/policiales/34773 
 - 2026-11-07T22:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/le-robaro 
 - 2026-11-07T22:40 recibido web:547df2b0-7a1a-4b57-923f-b7947b7b5134|x 
 - 2026-11-07T22:40 depurado web:547df2b0-7a1a-4b57-923f-b7947b7b5134|x de la web, a X solo van las notas del diario de la mañana
@@ -59,3 +55,7 @@ Actualizado: 07/11/2026 22:00 (hora AR) · ACTIVO
 - 2026-11-08T00:00 programado policiales:https://www.chacabuquero.com.ar/2026/11/noche0711 
 - 2026-11-08T00:00 programado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|tiktok 
 - 2026-11-08T00:00 programado bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tikto 
+- 2026-11-08T01:20 enviado bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tikto 
+- 2026-11-08T01:20 enviado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|tiktok 
+- 2026-11-08T01:20 enviado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|x 
+- 2026-11-08T01:20 enviado policiales:https://www.chacabuquero.com.ar/2026/11/noche0711 
