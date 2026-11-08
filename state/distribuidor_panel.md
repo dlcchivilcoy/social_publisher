@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 08/11/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 08/11/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-08)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 08/11/2026 20:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 1 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,14 +27,14 @@ Actualizado: 08/11/2026 20:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
 - TikTok · Reels del bot · Independiente venció a Villarino por el Torneo Clausura — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Estafa virtual de $11,7 millones llegó a presos alojados en una cárcel de Junín — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-08T01:20 enviado policiales:https://www.chacabuquero.com.ar/2026/11/noche0711 
 - 2026-11-08T01:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/calle0711 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-08T17:20 recibido bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x 
 - 2026-11-08T17:20 recibido bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok 
@@ -59,3 +59,4 @@ Actualizado: 08/11/2026 20:00 (hora AR) · ACTIVO
 - 2026-11-08T23:00 enviado policiales:https://www.junindigital.com/policiales/2026-11-8 
 - 2026-11-08T23:00 programado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x 
 - 2026-11-08T23:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31139/moto 
+- 2026-11-08T23:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-8 

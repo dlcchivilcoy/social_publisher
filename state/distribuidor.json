@@ -2799,6 +2799,32 @@
    "volanta": "Siniestro vial en Chivilcoy",
    "youtube_url": "https://youtube.com/shorts/f1IfIHMy8es"
   },
+  "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin": {
+   "categoria": "estafa",
+   "descripcion": "Una investigación por un fraude informático mediante WhatsApp a una mujer de Buenos Aires reveló que parte del dinero fue recibido por dos reclusos en una unidad penal de Junín. La pesquisa derivó en dos procedimientos en Pergamino.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-08T23:01:25.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/estafa-virtual-de-11-7-millones-con-ramificaciones-en-la-carcel-5a0105",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Una defraudación informática por 11,7 millones de pesos concretada mediante el hackeo de WhatsApp a una damnificada de Buenos Aires derivó en una pesquisa que conectó a la maniobra con la cárcel de Junín.\n\nLa investigación se originó tras una presentación judicial de la Nación y quedó a cargo del fiscal Nelson Mastorchio junto al Departamento de Cibercrimen de Pergamino.\n\nLos rastreos informáticos condujeron a dos procedimientos ejecutados este sábado en territorio pergaminense, donde incautaron dispositivos tecnológicos para peritar.\n\nLa causa se encuentra caratulada en forma provisoria como defraudación informática mientras avanzan las diligencias.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #EstafaVirtual #Cibercrimen #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Estafa virtual de $11,7 millones llegó a presos alojados en una cárcel de Junín",
+   "urgente": false,
+   "video_bytes": 86165,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_05_junin_estafa-virtual-de-11-7-millone.mp4",
+   "volanta": "Operativo en Pergamino y Junín",
+   "youtube_url": "https://youtube.com/shorts/dg25T0_FchA"
+  },
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos": {
    "categoria": "operativo_policial",
    "descripcion": "Una menor de 16 años fue golpeada por un grupo de unas diez personas al salir de un colegio. Terminó internada en el Hospital Piñeyro y la DDI allanó un domicilio donde aprehendieron a una adolescente.",
@@ -12158,6 +12184,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_04_junin_dos-heridos-tras-un-choque-ent.mp4",
    "viral": false
   },
+  "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x": {
+   "actualizado": "2026-11-08T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x",
+   "creado": "2026-11-08T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-08T23:01:25.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/estafa-virtual-de-11-7-millones-con-ramificaciones-en-la-carcel-5a0105",
+   "noticia": "nota:estafa-virtual-de-11-7-millones-con-ramificaciones-en-la-carcel-5a0105",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Estafa virtual de $11,7 millones llegó a presos alojados en una cárcel de Junín\n\nhttps://www.diariolacampaña.com.ar/n/estafa-virtual-de-11-7-millones-con-ramificaciones-en-la-carcel-5a0105",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Estafa virtual de $11,7 millones llegó a presos alojados en una cárcel de Junín",
+   "urgente": false,
+   "vence": "2026-11-09T01:01:25.000Z",
+   "video_bytes": 86165,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_05_junin_estafa-virtual-de-11-7-millone.mp4",
+   "viral": false
+  },
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos|x": {
    "actualizado": "2026-11-08T23:00:22.000Z",
    "buffer_id": "6af0f59ed6bbae6fa1158637",
@@ -16851,13 +16905,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae737e9cf3a3112f3fa3b7c",
-   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok",
-   "cuando": "2026-11-01T13:00:27.000Z",
-   "dueAt": "2026-11-01T13:23:34.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ae737eaab019b90875cf7bf",
    "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok",
    "cuando": "2026-11-01T13:00:27.000Z",
@@ -21025,6 +21072,14 @@
    "cuando": "2026-11-08T23:00:24.000Z",
    "dueAt": "2026-11-08T23:08:36.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x",
+   "cuando": "2026-11-08T23:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -21606,6 +21661,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros": "2026-10-24T00:40:15.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": "2026-10-29T23:40:14.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados": "2026-11-04T22:20:15.000Z",
+  "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin": "2026-11-08T23:20:14.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos": "2026-11-08T22:20:12.000Z",
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": "2026-10-23T00:20:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": "2026-10-12T12:20:13.000Z",
