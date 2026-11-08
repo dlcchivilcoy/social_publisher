@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 08/11/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 08/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-08)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 08/11/2026 19:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -33,8 +33,6 @@ Actualizado: 08/11/2026 19:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-08T00:00 enviado bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|x 
-- 2026-11-08T00:00 enviado policiales:https://www.chacabuquero.com.ar/2026/11/le-robaro 
 - 2026-11-08T00:00 programado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|x 
 - 2026-11-08T00:00 programado policiales:https://www.chacabuquero.com.ar/2026/11/noche0711 
 - 2026-11-08T00:00 programado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|tiktok 
@@ -58,3 +56,5 @@ Actualizado: 08/11/2026 19:00 (hora AR) · ACTIVO
 - 2026-11-08T21:00 programado bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok 
 - 2026-11-08T22:00 enviado bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok 
 - 2026-11-08T22:00 enviado bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok 
+- 2026-11-08T22:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-8 
+- 2026-11-08T22:20 programado policiales:https://www.junindigital.com/policiales/2026-11-8 

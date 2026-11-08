@@ -2773,6 +2773,32 @@
    "volanta": "Siniestro vial en Chivilcoy",
    "youtube_url": "https://youtube.com/shorts/f1IfIHMy8es"
   },
+  "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos": {
+   "categoria": "operativo_policial",
+   "descripcion": "Una menor de 16 años fue golpeada por un grupo de unas diez personas al salir de un colegio. Terminó internada en el Hospital Piñeyro y la DDI allanó un domicilio donde aprehendieron a una adolescente.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-08T22:03:10.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-brutal-ataque-en-patota-a-una-alumna-de-16-anos-a-la-38f6c6",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Una adolescente de 16 años fue interceptada y golpeada por una patota de unas diez personas al retirarse de un establecimiento educativo en Junín.\n\nLa víctima sufrió lesiones leves y debió ser trasladada al Hospital Piñeyro para su atención y observación.\n\nPersonal de la DDI realizó un allanamiento donde fue aprehendida una joven de 15 años acusada de participar en la agresión filmada con celulares.\n\nLa causa quedó a cargo de la Fiscalía del Fuero de Responsabilidad Penal Juvenil N.º 12.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #ViolenciaEscolar #PolicialesJunin #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Atacaron en patota a una alumna de 16 años a la salida de una escuela en Junín",
+   "urgente": false,
+   "video_bytes": 79496,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_01_junin_atacaron-en-patota-a-una-alumn.mp4",
+   "volanta": "Violencia escolar en Junín",
+   "youtube_url": "https://youtube.com/shorts/3Pfza3n2_8Y"
+  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/": {
    "categoria": "narcotrafico",
    "descripcion": "Un hombre fue capturado en su vivienda de Bragado en el marco de una causa por venta de estupefacientes al menudeo. Durante el procedimiento atacó a los uniformados, se zafó de los precintos y quiso desarmar a un efectivo antes de ser reducido.",
@@ -12042,6 +12068,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_04_junin_dos-heridos-tras-un-choque-ent.mp4",
    "viral": false
   },
+  "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos|x": {
+   "actualizado": "2026-11-08T22:20:14.000Z",
+   "buffer_id": "6af0f59ed6bbae6fa1158637",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos|x",
+   "creado": "2026-11-08T22:20:12.000Z",
+   "dueAt": "2026-11-08T22:23:03.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-08T22:03:10.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-brutal-ataque-en-patota-a-una-alumna-de-16-anos-a-la-38f6c6",
+   "noticia": "nota:junin-brutal-ataque-en-patota-a-una-alumna-de-16-anos-a-la-38f6c6",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Atacaron en patota a una alumna de 16 años a la salida de una escuela en Junín\n\nUna menor fue golpeada por diez personas y terminó internada en el Hospital Piñeyro. La DDI allanó una casa y aprehendió a una adolescente.\n\nhttps://www.diariolacampaña.com.ar/n/junin-brutal-ataque-en-patota-a-una-alumna-de-16-anos-a-la-38f6c6",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Atacaron en patota a una alumna de 16 años a la salida de una escuela en Junín",
+   "urgente": false,
+   "vence": "2026-11-09T00:03:10.000Z",
+   "video_bytes": 79496,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_01_junin_atacaron-en-patota-a-una-alumn.mp4",
+   "viral": false
+  },
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x": {
    "actualizado": "2026-10-31T01:40:15.000Z",
    "buffer_id": "",
@@ -16681,18 +16735,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok",
-   "cuando": "2026-11-01T02:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7703007564392336661"
-  },
-  {
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvvrry9cfb7p|tiktok",
-   "cuando": "2026-11-01T02:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7702997167128071432"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok",
    "cuando": "2026-11-01T02:00:24.000Z",
    "evento": "enviado",
@@ -20848,6 +20890,21 @@
    "cuando": "2026-11-08T22:00:20.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7705909231014202632"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos|x",
+   "cuando": "2026-11-08T22:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6af0f59ed6bbae6fa1158637",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos|x",
+   "cuando": "2026-11-08T22:20:15.000Z",
+   "dueAt": "2026-11-08T22:23:03.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21427,6 +21484,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros": "2026-10-24T00:40:15.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": "2026-10-29T23:40:14.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados": "2026-11-04T22:20:15.000Z",
+  "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos": "2026-11-08T22:20:12.000Z",
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": "2026-10-23T00:20:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/12/ruta-5-se-incendio-un-neumatico-de-un-camion-en-transito/": "2026-10-12T12:20:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": "2026-10-13T12:40:15.000Z",
