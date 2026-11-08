@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-08T22:00:20.000Z"
+   "visto": "2026-11-08T23:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 7
    },
    "pausado": false,
-   "visto": "2026-11-08T22:00:20.000Z"
+   "visto": "2026-11-08T23:00:22.000Z"
   }
  },
  "contenidos": {
@@ -1040,6 +1040,27 @@
    "video_mb": 4.8,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_313f89456d0f028f.mp4",
    "youtube_url": "https://www.youtube.com/shorts/j-llG4Yk7Pg"
+  },
+  "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4": {
+   "descripcion": "Independiente superó 3 a 0 a Villarino en el estadio Raúl Orlando Lungarzo, en un encuentro correspondiente a la fecha 12 del Torneo Clausura de la Liga Chivilcoyana de Fútbol.\n\nEl conjunto local resolvió las acciones durante la primera parte. Con dos apariciones en el inicio del partido, sacó una rápida ventaja que logró estirar antes de irse al descanso. Ya en el complemento, el marcador no se modificó y se consolidó el triunfo definitivo.\n\nAmbos planteles llegaron a este compromiso con el boleto asegurado a la siguiente instancia, por lo que la victoria le permitió al Rojo sumar unidades clave para mejorar su posicionamiento de cara a los futuros cruces del certamen local.",
+   "duracion_seg": 64.3,
+   "generado": "2026-11-08T22:59:15.000Z",
+   "id": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Independiente venció a Villarino por el Torneo Clausura",
+   "urgente": false,
+   "video_bytes": 7768175,
+   "video_mb": 7.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0d3816d81ae17842.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/wxX-jReYLp8"
   },
   "entrevistas:job00260": {
    "descripcion": "En Chivilcoy, el docente e investigador Mauricio De Marzi denunció los insólitos controles burocráticos para montos mínimos que obligan a los científicos a financiar proyectos de su propio bolsillo. Explicó cómo la inflación y las trabas administrativas asfixian la investigación universitaria.",
@@ -4652,6 +4673,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
    "volanta": "Chivilcoy · Política"
+  },
+  "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Independiente venció a Villarino por el Torneo Clausura Por la fecha 12 del Torneo Clausura de la Liga Chivilcoyana de Fútbol, Independiente derrotó 3-0 a Villarino en un encuentro disputado el domingo 8 de noviembre en el estadio Raúl Orlando Lungarzo. El conjunto local resolvió el partido durante la primera etapa. Sacó ventaja rápidamente con dos tantos en el arranque y amplió la diferencia cerca del descanso, mientras que en el complemento el resultado no sufrió modificaciones....",
+   "generado": "2026-11-08T22:58:43.753Z",
+   "id": "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8be139425e8748adb1db05db3c90fcec~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Independiente venció a Villarino por el Torneo Clausura",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
+   "volanta": "Chivilcoy · Deportes"
   },
   "web:a072a57b-8515-4490-a15a-e1036cfa7355": {
    "categoria": "",
@@ -8708,6 +8748,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_313f89456d0f028f.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok": {
+   "actualizado": "2026-11-08T23:00:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok",
+   "creado": "2026-11-08T23:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-08T22:59:15.000Z",
+   "id": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Independiente venció a Villarino por el Torneo Clausura\n\nCon un 3 a 0 resuelto en la primera parte en el estadio Raúl Orlando Lungarzo, el local sumó unidades clave por la fecha 12 de la Liga Chivilcoyana de Fútbol. El triunfo le permitió al Rojo mejorar su posicionamiento de cara a los futuros cruces del certamen.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Independiente venció a Villarino por el Torneo Clausura",
+   "urgente": false,
+   "vence": "2026-11-10T22:59:15.000Z",
+   "video_bytes": 7768175,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0d3816d81ae17842.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x": {
+   "actualizado": "2026-11-08T23:00:22.000Z",
+   "buffer_id": "6af0ff089214322f687fdc25",
+   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x",
+   "creado": "2026-11-08T23:00:17.000Z",
+   "dueAt": "2026-11-08T23:02:23.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-08T22:59:15.000Z",
+   "id": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Independiente venció a Villarino por el Torneo Clausura\n\nEl local ganó 3 a 0 en la fecha 12 de la Liga Chivilcoyana tras resolver el juego en la primera parte. La victoria le permite sumar puntos para mejorar su posición de cara a los futuros cruces.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Independiente venció a Villarino por el Torneo Clausura",
+   "urgente": false,
+   "vence": "2026-11-09T00:59:15.000Z",
+   "video_bytes": 7768175,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0d3816d81ae17842.mp4",
+   "viral": false
+  },
   "entrevistas:job00260|tiktok": {
    "actualizado": "2026-10-30T15:00:24.000Z",
    "buffer_id": "6ae494f1f522e615d3a50358",
@@ -11162,14 +11258,14 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x": {
-   "actualizado": "2026-11-08T22:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-08T23:00:22.000Z",
+   "buffer_id": "6af0ff08562f2e6de9e8b4fc",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x",
    "creado": "2026-11-08T22:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-08T23:08:36.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-08T22:32:15.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html",
    "intentos": 0,
@@ -12063,18 +12159,19 @@
    "viral": false
   },
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos|x": {
-   "actualizado": "2026-11-08T22:20:14.000Z",
+   "actualizado": "2026-11-08T23:00:22.000Z",
    "buffer_id": "6af0f59ed6bbae6fa1158637",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos|x",
    "creado": "2026-11-08T22:20:12.000Z",
    "dueAt": "2026-11-08T22:23:03.000Z",
+   "enviado": "2026-11-08T22:23:18.199Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-08T22:03:10.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119556392096878918",
    "nota_url": "https://www.diariolacampaña.com.ar/n/junin-brutal-ataque-en-patota-a-una-alumna-de-16-anos-a-la-38f6c6",
    "noticia": "nota:junin-brutal-ataque-en-patota-a-una-alumna-de-16-anos-a-la-38f6c6",
    "origen": "policiales",
@@ -15064,6 +15161,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8|x": {
+   "actualizado": "2026-11-08T23:00:17.000Z",
+   "buffer_id": "",
+   "clave": "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8|x",
+   "creado": "2026-11-08T23:00:17.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-08T22:58:43.753Z",
+   "id": "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Independiente venció a Villarino por el Torneo Clausura",
+   "urgente": false,
+   "vence": "2026-11-09T02:58:43.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:a072a57b-8515-4490-a15a-e1036cfa7355|x": {
    "actualizado": "2026-11-06T14:00:26.000Z",
    "buffer_id": "6aedbca105414bc10aeb49fc",
@@ -16728,48 +16850,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31099/chocaron-dos-motos-una-mujer-sufrio-una-fractura-grave-y-un-adolescente-fue-aprehendido.html|x",
-   "cuando": "2026-11-01T02:20:13.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x",
-   "cuando": "2026-11-01T12:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok",
-   "cuando": "2026-11-01T12:20:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "buffer_id": "6ae72e9137c1acd2a002d841",
-   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x",
-   "cuando": "2026-11-01T12:20:33.000Z",
-   "dueAt": "2026-11-01T12:22:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x",
-   "cuando": "2026-11-01T12:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116868627752161638"
-  },
-  {
-   "buffer_id": "6ae737e821c807e9d5bc3f36",
-   "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok",
-   "cuando": "2026-11-01T13:00:27.000Z",
-   "dueAt": "2026-11-01T13:03:13.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae737e9cf3a3112f3fa3b7c",
    "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok",
@@ -20901,6 +20981,50 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x",
+   "cuando": "2026-11-08T23:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok",
+   "cuando": "2026-11-08T23:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8|x",
+   "cuando": "2026-11-08T23:00:22.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos|x",
+   "cuando": "2026-11-08T23:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119556392096878918"
+  },
+  {
+   "buffer_id": "6af0ff089214322f687fdc25",
+   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x",
+   "cuando": "2026-11-08T23:00:24.000Z",
+   "dueAt": "2026-11-08T23:02:23.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af0ff08562f2e6de9e8b4fc",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x",
+   "cuando": "2026-11-08T23:00:24.000Z",
+   "dueAt": "2026-11-08T23:08:36.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20938,7 +21062,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-08",
- "ultima_sync": "2026-11-08T22:00:20.000Z",
+ "ultima_sync": "2026-11-08T23:00:22.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21137,6 +21261,7 @@
   "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4": "2026-11-08T00:00:16.000Z",
   "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4": "2026-11-08T17:20:17.000Z",
   "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4": "2026-11-08T20:40:12.000Z",
+  "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4": "2026-11-08T23:00:17.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -21929,6 +22054,7 @@
   "web:9f367ea4-375b-4d70-99b9-15eec836b557": "2026-10-16T10:20:16.000Z",
   "web:9f779d0b-1649-4d51-99d8-ba550d5285a5": "2026-10-16T12:20:15.000Z",
   "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e": "2026-10-26T13:48:30.000Z",
+  "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8": "2026-11-08T23:00:17.000Z",
   "web:a03696d1-157a-48cb-abea-e9cba1380f98": "2026-10-28T14:40:14.000Z",
   "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",
   "web:a072a57b-8515-4490-a15a-e1036cfa7355": "2026-11-06T10:02:35.000Z",

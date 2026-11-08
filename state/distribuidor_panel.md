@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 08/11/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 08/11/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-08)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 2 |
+| Reels del bot | X | 10 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 2 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,18 +28,12 @@ Actualizado: 08/11/2026 19:40 (hora AR) · ACTIVO
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
 ## Cola propia (1 esperando)
-- X · Reels policiales · Motociclista ebrio chocó contra un auto frente al teatro Constantino — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Reels del bot · Independiente venció a Villarino por el Torneo Clausura — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-08T00:00 programado policiales:https://www.chacabuquero.com.ar/2026/11/noche0711 
-- 2026-11-08T00:00 programado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|tiktok 
-- 2026-11-08T00:00 programado bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tikto 
-- 2026-11-08T01:20 enviado bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tikto 
-- 2026-11-08T01:20 enviado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|tiktok 
-- 2026-11-08T01:20 enviado bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|x 
 - 2026-11-08T01:20 enviado policiales:https://www.chacabuquero.com.ar/2026/11/noche0711 
 - 2026-11-08T01:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/calle0711 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-08T17:20 recibido bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x 
@@ -59,3 +53,9 @@ Actualizado: 08/11/2026 19:40 (hora AR) · ACTIVO
 - 2026-11-08T22:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-8 
 - 2026-11-08T22:20 programado policiales:https://www.junindigital.com/policiales/2026-11-8 
 - 2026-11-08T22:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/31139/moto 
+- 2026-11-08T23:00 recibido bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x 
+- 2026-11-08T23:00 recibido bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok 
+- 2026-11-08T23:00 recibido web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-08T23:00 enviado policiales:https://www.junindigital.com/policiales/2026-11-8 
+- 2026-11-08T23:00 programado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x 
+- 2026-11-08T23:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31139/moto 
