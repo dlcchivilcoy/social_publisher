@@ -1566,6 +1566,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00292.mp4",
    "youtube_url": "https://youtu.be/37z79Yk-z3E"
   },
+  "entrevistas:job00293": {
+   "descripcion": "Mariano Calandrino, dirigente del Auto Club Chivilcoy, detalló cómo la fecha del Rally Regional impulsa el comercio y multiplica por 13 cada peso que ingresa a la ciudad.",
+   "duracion_seg": null,
+   "entrevistado": "Mariano Calandrino",
+   "generado": "2026-11-09T21:00:19.000Z",
+   "id": "entrevistas:job00293",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Mariano Calandrino: El impacto económico del rally",
+   "urgente": false,
+   "video_bytes": 25599550,
+   "video_mb": 24.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00293.mp4",
+   "youtube_url": "https://youtu.be/_JXxY--Yj6A"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -10086,15 +10107,15 @@
    "viral": false
   },
   "entrevistas:job00289|tiktok": {
-   "actualizado": "2026-11-09T16:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T21:00:19.000Z",
+   "buffer_id": "6af2346b21c8282e5bf18061",
    "categoria": "",
    "clave": "entrevistas:job00289|tiktok",
    "creado": "2026-11-09T16:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T22:23:05.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-09T16:40:15.000Z",
    "id": "entrevistas:job00289",
    "intentos": 0,
@@ -10143,15 +10164,15 @@
    "viral": false
   },
   "entrevistas:job00290|tiktok": {
-   "actualizado": "2026-11-09T17:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T21:00:19.000Z",
+   "buffer_id": "6af2346aba863ca7a14986e2",
    "categoria": "",
    "clave": "entrevistas:job00290|tiktok",
    "creado": "2026-11-09T17:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T22:03:18.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-09T17:20:13.000Z",
    "id": "entrevistas:job00290",
    "intentos": 0,
@@ -10200,15 +10221,15 @@
    "viral": false
   },
   "entrevistas:job00291|tiktok": {
-   "actualizado": "2026-11-09T18:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T21:00:19.000Z",
+   "buffer_id": "6af2346973b2b0fbabda46a5",
    "categoria": "",
    "clave": "entrevistas:job00291|tiktok",
    "creado": "2026-11-09T18:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T21:43:22.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-09T18:00:21.000Z",
    "id": "entrevistas:job00291",
    "intentos": 0,
@@ -10257,15 +10278,15 @@
    "viral": false
   },
   "entrevistas:job00292|tiktok": {
-   "actualizado": "2026-11-09T18:40:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T21:00:19.000Z",
+   "buffer_id": "6af23468740f5b7fb9ae0523",
    "categoria": "",
    "clave": "entrevistas:job00292|tiktok",
    "creado": "2026-11-09T18:40:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T21:23:54.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-09T18:40:17.000Z",
    "id": "entrevistas:job00292",
    "intentos": 0,
@@ -10311,6 +10332,62 @@
    "vence": "2026-11-09T20:40:17.000Z",
    "video_bytes": 23100965,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00292.mp4",
+   "viral": false
+  },
+  "entrevistas:job00293|tiktok": {
+   "actualizado": "2026-11-09T21:00:19.000Z",
+   "buffer_id": "6af2346773b2b0fbabda43eb",
+   "categoria": "",
+   "clave": "entrevistas:job00293|tiktok",
+   "creado": "2026-11-09T21:00:19.000Z",
+   "dueAt": "2026-11-09T21:03:18.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-09T21:00:19.000Z",
+   "id": "entrevistas:job00293",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Mariano Calandrino: El impacto económico del rally\n\nMariano Calandrino, dirigente del Auto Club Chivilcoy, detalló cómo la fecha del Rally Regional impulsa el comercio y multiplica por 13 cada peso que ingresa a la ciudad.\n\nhttps://youtu.be/_JXxY--Yj6A\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Mariano Calandrino: El impacto económico del rally",
+   "urgente": false,
+   "vence": "2026-11-11T21:00:19.000Z",
+   "video_bytes": 25599550,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00293.mp4",
+   "viral": false
+  },
+  "entrevistas:job00293|x": {
+   "actualizado": "2026-11-09T21:00:19.000Z",
+   "buffer_id": "6af2346618d54f7e0dd02f1b",
+   "clave": "entrevistas:job00293|x",
+   "creado": "2026-11-09T21:00:19.000Z",
+   "dueAt": "2026-11-09T21:02:29.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-09T21:00:19.000Z",
+   "id": "entrevistas:job00293",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:calandrino-economico-impacto-mariano-rally",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Mariano Calandrino: El impacto económico del rally\n\nMariano Calandrino, dirigente del Auto Club Chivilcoy, detalló cómo la fecha del Rally Regional impulsa el comercio y multiplica por 13 cada peso que ingresa a la ciudad.\n\nhttps://youtu.be/_JXxY--Yj6A",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Mariano Calandrino: El impacto económico del rally",
+   "urgente": false,
+   "vence": "2026-11-09T23:00:19.000Z",
+   "video_bytes": 25599550,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00293.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
@@ -16436,72 +16513,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00269|tiktok",
-   "cuando": "2026-11-02T22:20:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7703691462172609793"
-  },
-  {
-   "clave": "entrevistas:job00270|tiktok",
-   "cuando": "2026-11-02T22:20:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7703688035610676501"
-  },
-  {
-   "clave": "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/|x",
-   "cuando": "2026-11-02T22:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/|x",
-   "cuando": "2026-11-02T23:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion|x",
-   "cuando": "2026-11-02T23:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero|x",
-   "cuando": "2026-11-03T00:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado|x",
-   "cuando": "2026-11-03T00:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html|x",
-   "cuando": "2026-11-03T00:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/|x",
-   "cuando": "2026-11-03T00:40:21.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
    "clave": "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/|x",
    "cuando": "2026-11-03T01:20:16.000Z",
    "evento": "vencido",
@@ -20606,11 +20617,73 @@
    "cuando": "2026-11-09T19:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2119863315010621703"
+  },
+  {
+   "clave": "entrevistas:job00293",
+   "cuando": "2026-11-09T21:00:19.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00293|x",
+   "cuando": "2026-11-09T21:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00293|tiktok",
+   "cuando": "2026-11-09T21:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af2346618d54f7e0dd02f1b",
+   "clave": "entrevistas:job00293|x",
+   "cuando": "2026-11-09T21:00:27.000Z",
+   "dueAt": "2026-11-09T21:02:29.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af2346773b2b0fbabda43eb",
+   "clave": "entrevistas:job00293|tiktok",
+   "cuando": "2026-11-09T21:00:27.000Z",
+   "dueAt": "2026-11-09T21:03:18.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af23468740f5b7fb9ae0523",
+   "clave": "entrevistas:job00292|tiktok",
+   "cuando": "2026-11-09T21:00:27.000Z",
+   "dueAt": "2026-11-09T21:23:54.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af2346973b2b0fbabda46a5",
+   "clave": "entrevistas:job00291|tiktok",
+   "cuando": "2026-11-09T21:00:27.000Z",
+   "dueAt": "2026-11-09T21:43:22.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af2346aba863ca7a14986e2",
+   "clave": "entrevistas:job00290|tiktok",
+   "cuando": "2026-11-09T21:00:27.000Z",
+   "dueAt": "2026-11-09T22:03:18.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af2346b21c8282e5bf18061",
+   "clave": "entrevistas:job00289|tiktok",
+   "cuando": "2026-11-09T21:00:27.000Z",
+   "dueAt": "2026-11-09T22:23:05.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-30 18",
    "2026-10-30 21",
    "2026-10-31 10",
    "2026-10-31 18",
@@ -20639,7 +20712,8 @@
    "2026-11-08 10",
    "2026-11-08 18",
    "2026-11-08 21",
-   "2026-11-09 10"
+   "2026-11-09 10",
+   "2026-11-09 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-09",
@@ -20935,6 +21009,7 @@
   "entrevistas:job00290": "2026-11-09T17:20:13.000Z",
   "entrevistas:job00291": "2026-11-09T18:00:21.000Z",
   "entrevistas:job00292": "2026-11-09T18:40:17.000Z",
+  "entrevistas:job00293": "2026-11-09T21:00:19.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
