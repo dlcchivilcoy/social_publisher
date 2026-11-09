@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-09T10:20:55.000Z"
+   "visto": "2026-11-09T11:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 5,
-    "sent": 8
+    "scheduled": 3,
+    "sent": 14
    },
    "pausado": false,
-   "visto": "2026-11-09T10:20:55.000Z"
+   "visto": "2026-11-09T11:40:15.000Z"
   }
  },
  "contenidos": {
@@ -13246,14 +13246,14 @@
    "viral": false
   },
   "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x": {
-   "actualizado": "2026-11-09T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T11:40:15.000Z",
+   "buffer_id": "6af1b11f03b6251bb37b5830",
    "clave": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x",
    "creado": "2026-11-09T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T12:52:21.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-09T10:02:58.782Z",
    "id": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15",
    "ig_hora": "2026-11-09T12:52:26.000Z",
@@ -13922,19 +13922,20 @@
    "viral": false
   },
   "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x": {
-   "actualizado": "2026-11-09T10:03:17.000Z",
+   "actualizado": "2026-11-09T11:40:15.000Z",
    "buffer_id": "6af19a67f370063e08d5c5d6",
    "clave": "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x",
    "creado": "2026-11-09T10:02:37.000Z",
    "dueAt": "2026-11-09T11:07:11.000Z",
+   "enviado": "2026-11-09T11:07:16.161Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:02:17.791Z",
    "id": "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d",
    "ig_hora": "2026-11-09T11:07:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119748650146369667",
    "nota_url": "https://www.diariolacampaña.com.ar/n/actor-e-influencer-chivilcoy-un-artista-presencial-y-virtual-ivan",
    "noticia": "nota:actor-e-influencer-chivilcoy-un-artista-presencial-y-virtual-ivan",
    "origen": "web",
@@ -14591,19 +14592,20 @@
    "viral": false
   },
   "web:87f82441-faec-422a-8856-fdfb0a63cf9e|x": {
-   "actualizado": "2026-11-09T10:03:17.000Z",
+   "actualizado": "2026-11-09T11:40:15.000Z",
    "buffer_id": "6af19a67ea98fdea6acdc48c",
    "clave": "web:87f82441-faec-422a-8856-fdfb0a63cf9e|x",
    "creado": "2026-11-09T10:02:37.000Z",
    "dueAt": "2026-11-09T11:22:31.000Z",
+   "enviado": "2026-11-09T11:22:46.056Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:02:21.801Z",
    "id": "web:87f82441-faec-422a-8856-fdfb0a63cf9e",
    "ig_hora": "2026-11-09T11:22:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119752550450713062",
    "nota_url": "https://www.diariolacampaña.com.ar/n/asociacion-bancaria-chivilcoy-chivilcoy-marcelo-bozzo-analizo-la",
    "noticia": "nota:asociacion-bancaria-chivilcoy-chivilcoy-marcelo-bozzo-analizo-la",
    "origen": "web",
@@ -14712,19 +14714,20 @@
    "viral": false
   },
   "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c|x": {
-   "actualizado": "2026-11-09T10:03:17.000Z",
+   "actualizado": "2026-11-09T11:40:15.000Z",
    "buffer_id": "6af19a660ed1890679a8285c",
    "clave": "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c|x",
    "creado": "2026-11-09T10:02:37.000Z",
    "dueAt": "2026-11-09T10:37:28.000Z",
+   "enviado": "2026-11-09T10:37:31.206Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:02:04.294Z",
    "id": "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c",
    "ig_hora": "2026-11-09T10:37:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119741163347259591",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -14816,14 +14819,14 @@
    "viral": false
   },
   "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x": {
-   "actualizado": "2026-11-09T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T11:40:15.000Z",
+   "buffer_id": "6af1b12091e5a427b1aa86f2",
    "clave": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x",
    "creado": "2026-11-09T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T13:07:12.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-09T10:03:02.951Z",
    "id": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577",
    "ig_hora": "2026-11-09T13:07:26.000Z",
@@ -15605,19 +15608,20 @@
    "viral": false
   },
   "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6|x": {
-   "actualizado": "2026-11-09T10:03:17.000Z",
+   "actualizado": "2026-11-09T11:40:15.000Z",
    "buffer_id": "6af19a66c2f2264e30f820ec",
    "clave": "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6|x",
    "creado": "2026-11-09T10:02:37.000Z",
    "dueAt": "2026-11-09T10:22:59.000Z",
+   "enviado": "2026-11-09T10:23:03.090Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:01:58.455Z",
    "id": "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6",
    "ig_hora": "2026-11-09T10:22:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119737522167169407",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -16029,19 +16033,20 @@
    "viral": false
   },
   "web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6|x": {
-   "actualizado": "2026-11-09T10:03:17.000Z",
+   "actualizado": "2026-11-09T11:40:15.000Z",
    "buffer_id": "6af19a66c2f2264e30f82115",
    "clave": "web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6|x",
    "creado": "2026-11-09T10:02:37.000Z",
    "dueAt": "2026-11-09T10:52:12.000Z",
+   "enviado": "2026-11-09T10:52:16.100Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:02:12.221Z",
    "id": "web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6",
    "ig_hora": "2026-11-09T10:52:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119744875176263757",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -16349,19 +16354,20 @@
    "viral": false
   },
   "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x": {
-   "actualizado": "2026-11-09T10:20:55.000Z",
+   "actualizado": "2026-11-09T11:40:15.000Z",
    "buffer_id": "6af19e87ea98fdea6acf7be0",
    "clave": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x",
    "creado": "2026-11-09T10:02:37.000Z",
    "dueAt": "2026-11-09T11:37:24.000Z",
+   "enviado": "2026-11-09T11:37:31.364Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:02:34.373Z",
    "id": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a",
    "ig_hora": "2026-11-09T11:37:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119756263709905009",
    "nota_url": "https://www.diariolacampaña.com.ar/n/dignidad-y-fetap-presentes-chivilcoy-realizaron-el-32-encuentro",
    "noticia": "nota:dignidad-y-fetap-presentes-chivilcoy-realizaron-el-32-encuentro",
    "origen": "web",
@@ -17153,58 +17159,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f|x",
-   "cuando": "2026-11-02T11:00:22.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x",
-   "cuando": "2026-11-02T11:00:23.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
-  },
-  {
-   "clave": "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x",
-   "cuando": "2026-11-02T11:00:25.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117208537260601851"
-  },
-  {
-   "buffer_id": "6ae871f597ae21595d5343a2",
-   "clave": "web:2c6f475b-bc10-4a41-b949-4390268a7b97|x",
-   "cuando": "2026-11-02T11:20:21.000Z",
-   "dueAt": "2026-11-02T12:38:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae876a3339e85e6016a8d44",
-   "clave": "web:00e5dd74-44ac-4950-93b6-b45c439734be|x",
-   "cuando": "2026-11-02T11:40:20.000Z",
-   "dueAt": "2026-11-02T12:53:39.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae876a4146ca029aa15d21a",
-   "clave": "web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x",
-   "cuando": "2026-11-02T11:40:20.000Z",
-   "dueAt": "2026-11-02T13:08:52.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae87b576e3fc295002306f0",
-   "clave": "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x",
-   "cuando": "2026-11-02T12:00:24.000Z",
-   "dueAt": "2026-11-02T13:23:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x",
-   "cuando": "2026-11-02T12:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117227231843950593"
-  },
   {
    "clave": "web:cb5bd56e-c625-4389-948e-845e3cd94779|x",
    "cuando": "2026-11-02T12:20:14.000Z",
@@ -21329,6 +21283,56 @@
    "cuando": "2026-11-09T11:20:15.000Z",
    "dueAt": "2026-11-09T12:37:40.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x",
+   "cuando": "2026-11-09T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119748650146369667"
+  },
+  {
+   "clave": "web:87f82441-faec-422a-8856-fdfb0a63cf9e|x",
+   "cuando": "2026-11-09T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119752550450713062"
+  },
+  {
+   "clave": "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c|x",
+   "cuando": "2026-11-09T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119741163347259591"
+  },
+  {
+   "clave": "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6|x",
+   "cuando": "2026-11-09T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119737522167169407"
+  },
+  {
+   "clave": "web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6|x",
+   "cuando": "2026-11-09T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119744875176263757"
+  },
+  {
+   "clave": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x",
+   "cuando": "2026-11-09T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119756263709905009"
+  },
+  {
+   "buffer_id": "6af1b11f03b6251bb37b5830",
+   "clave": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x",
+   "cuando": "2026-11-09T11:40:16.000Z",
+   "dueAt": "2026-11-09T12:52:21.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af1b12091e5a427b1aa86f2",
+   "clave": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x",
+   "cuando": "2026-11-09T11:40:16.000Z",
+   "dueAt": "2026-11-09T13:07:12.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21366,7 +21370,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-09",
- "ultima_sync": "2026-11-09T10:20:55.000Z",
+ "ultima_sync": "2026-11-09T11:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
