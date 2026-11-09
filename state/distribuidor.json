@@ -1737,6 +1737,32 @@
    "volanta": "Operativos policiales en Lobos",
    "youtube_url": "https://youtube.com/shorts/4kFHFmyvdec"
   },
+  "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/": {
+   "categoria": "accidente_vial",
+   "descripcion": "Un motociclista de 24 años falleció este domingo 8 de noviembre tras un violento impacto en la zona urbana de Lobos. El parte policial incluyó otros delitos.",
+   "distancia_km": 89.8,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-09T22:34:24.000Z",
+   "id": "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/",
+   "localidad": "Lobos",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-un-joven-de-24-anos-murio-en-un-tragico-choque-de-moto-el-83d585",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Un joven de 24 años falleció tras un siniestro vial ocurrido este domingo 8 de noviembre en Lobos.\n\nLa víctima, identificada como Mariano Martínez, conducía una moto Yamaha MT03 azul cuando ocurrió el trágico hecho cerca de las 22.05 en el cruce de la avenida Hipólito Yrigoyen y las calles 234 y 240.\n\nEl servicio de emergencias SAME trasladó de urgencia al herido hacia el Hospital de Lobos, aunque ingresó sin vida.\n\nLa causa quedó a cargo de la UFIJ N° 1 de Saladillo, que investiga las circunstancias del trágico suceso.\n\n📲 Más noticias de Lobos en www.diariolacampaña.com.ar\n\n#Lobos #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Murió un joven de 24 años en un choque de moto en Lobos",
+   "urgente": false,
+   "video_bytes": 109685,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_02_lobos_muri-un-joven-de-24-a-os-en-un.mp4",
+   "volanta": "Siniestro vial en Lobos",
+   "youtube_url": "https://youtube.com/shorts/E_zRcu9B53I"
+  },
   "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/": {
    "categoria": "robo",
    "descripcion": "Marcelo Daniel Tradatti fue sorprendido por delincuentes mientras dormía en su vivienda de la zona rural. Lo ataron y le robaron dinero, objetos y una camioneta Volkswagen Amarok, hallada abandonada el 05/11/2026.",
@@ -10442,6 +10468,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_04_lobos_lobos-dos-aprehendidos-cinco-m.mp4",
    "viral": false
   },
+  "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/|x": {
+   "actualizado": "2026-11-09T22:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/|x",
+   "creado": "2026-11-09T22:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T22:34:24.000Z",
+   "id": "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-un-joven-de-24-anos-murio-en-un-tragico-choque-de-moto-el-83d585",
+   "noticia": "nota:lobos-un-joven-de-24-anos-murio-en-un-tragico-choque-de-moto-el-83d585",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Murió un joven de 24 años en un choque de moto en Lobos\n\nUn motociclista de 24 años falleció este domingo 8 de noviembre tras un violento impacto en la zona urbana de Lobos. El parte policial incluyó otros delitos.\n\nhttps://www.diariolacampaña.com.ar/n/lobos-un-joven-de-24-anos-murio-en-un-tragico-choque-de-moto-el-83d585",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Murió un joven de 24 años en un choque de moto en Lobos",
+   "urgente": false,
+   "vence": "2026-11-10T00:34:24.000Z",
+   "video_bytes": 109685,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_02_lobos_muri-un-joven-de-24-a-os-en-un.mp4",
+   "viral": true
+  },
   "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/|x": {
    "actualizado": "2026-11-06T01:40:15.000Z",
    "buffer_id": "",
@@ -16332,12 +16386,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|x",
-   "cuando": "2026-11-03T02:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117437193648013375"
-  },
-  {
    "clave": "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero|x",
    "cuando": "2026-11-03T02:20:15.000Z",
    "evento": "enviado",
@@ -20494,6 +20542,14 @@
    "cuando": "2026-11-09T22:20:28.000Z",
    "dueAt": "2026-11-09T22:23:33.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/|x",
+   "cuando": "2026-11-09T22:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -20961,6 +21017,7 @@
   "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana": "2026-10-15T02:00:18.000Z",
   "policiales:https://lobos24.com.ar/2026/10/16/persecucion-en-ruta-205-secuestraron-cocaina-tras-interceptar-un-vehiculo-con-cuatro-ocupantes-de-lobos/": "2026-10-16T19:00:17.000Z",
   "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/": "2026-11-02T23:20:15.000Z",
+  "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/": "2026-11-09T22:40:14.000Z",
   "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/": "2026-11-05T23:40:18.000Z",
   "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/": "2026-10-15T19:20:15.000Z",
   "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/": "2026-10-17T19:00:17.000Z",
