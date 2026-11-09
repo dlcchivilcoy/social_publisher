@@ -3565,25 +3565,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-racing-de-chivilcoy-vencio-a-regatas-de-corrientes",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe": {
-   "categoria": "",
-   "descripcion": "Fernando Cabani advirtió sobre el impacto de las apuestas online en Chivilcoy El concejal Fernando Cabani visitó los estudios de Radio del Centro durante el programa La Mañana del Centro, donde abordó la problemática del avance de las apuestas virtuales en los jóvenes y analizó las iniciativas legislativas orientadas a regular esta actividad en el territorio bonaerense. Durante la charla, el edil se refirió a las repercusiones tras la visita de los diputados provinciales Facundo Tignanelli y...",
-   "generado": "2026-10-30T10:00:49.086Z",
-   "id": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5cf4a5badcc24e2d941ecbdff95d6ff6~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Fernando Cabani advirtió sobre el impacto de las apuestas online en Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
-   "volanta": "PROBLEMÁTICA EN JÓVENES"
-  },
   "web:3965ee13-9730-4798-8e40-1c97199ed3e6": {
    "categoria": "",
    "descripcion": "Chivilcoy: Cierres de cátedras: Mariana Avelino detalló la intensa agenda de conciertos El Conservatorio de Música Alberto Williams de Chivilcoy atraviesa un tramo del año caracterizado por un intenso movimiento artístico, pedagógico e institucional. La proliferación de presentaciones, muestras de cátedra y actividades abiertas a la comunidad da cuenta de la labor cotidiana que docentes y estudiantes llevan adelante en sus aulas y en diversos escenarios de la ciudad. Para brindar precisiones...",
@@ -13366,44 +13347,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x": {
-   "actualizado": "2026-10-30T10:21:00.000Z",
-   "buffer_id": "6ae46b3eceb12661efdc7770",
-   "clave": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x",
-   "creado": "2026-10-30T10:01:54.000Z",
-   "dueAt": "2026-10-30T10:06:53.000Z",
-   "enviado": "2026-10-30T10:07:02.582Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-30T10:00:49.086Z",
-   "id": "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe",
-   "ig_hora": "2026-10-30T10:06:41.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2116109615003758980",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 17,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
-   "noticia": "nota:problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Fernando Cabani advirtió sobre el impacto de las apuestas online en Chivilcoy\n\nEl concejal Fernando Cabani abordó el avance de las apuestas virtuales en los jóvenes y analizó proyectos para regular la actividad en territorio bonaerense.\n\nhttps://www.diariolacampaña.com.ar/n/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Fernando Cabani advirtió sobre el impacto de las apuestas online en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-30T14:00:49.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:3965ee13-9730-4798-8e40-1c97199ed3e6|x": {
    "actualizado": "2026-11-06T11:40:16.000Z",
    "buffer_id": "6aeda617c1e74b84e5e0863f",
@@ -13868,14 +13811,14 @@
    "viral": false
   },
   "web:5de0a567-504a-4513-8e76-0f10b16b1c52|x": {
-   "actualizado": "2026-11-09T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T10:40:13.000Z",
+   "buffer_id": "6af1a30e68cee50bcba0c39e",
    "clave": "web:5de0a567-504a-4513-8e76-0f10b16b1c52|x",
    "creado": "2026-11-09T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T11:52:20.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-09T10:02:38.389Z",
    "id": "web:5de0a567-504a-4513-8e76-0f10b16b1c52",
    "ig_hora": "2026-11-09T11:52:26.000Z",
@@ -14054,14 +13997,14 @@
    "viral": false
   },
   "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x": {
-   "actualizado": "2026-11-09T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T10:40:13.000Z",
+   "buffer_id": "6af1a30e72554a06de3d04a1",
    "clave": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x",
    "creado": "2026-11-09T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T12:07:32.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-09T10:02:46.013Z",
    "id": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52",
    "ig_hora": "2026-11-09T12:07:26.000Z",
@@ -17270,19 +17213,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae8688fbc7258b27b4068db",
-   "clave": "web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x",
-   "cuando": "2026-11-02T10:40:15.000Z",
-   "dueAt": "2026-11-02T12:08:00.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880|x",
-   "cuando": "2026-11-02T11:00:22.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
   {
    "clave": "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e|x",
    "cuando": "2026-11-02T11:00:22.000Z",
@@ -21443,6 +21373,20 @@
    "clave": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x",
    "cuando": "2026-11-09T10:20:56.000Z",
    "dueAt": "2026-11-09T11:37:24.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af1a30e68cee50bcba0c39e",
+   "clave": "web:5de0a567-504a-4513-8e76-0f10b16b1c52|x",
+   "cuando": "2026-11-09T10:40:14.000Z",
+   "dueAt": "2026-11-09T11:52:20.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af1a30e72554a06de3d04a1",
+   "clave": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x",
+   "cuando": "2026-11-09T10:40:14.000Z",
+   "dueAt": "2026-11-09T12:07:32.000Z",
    "evento": "programado"
   }
  ],
