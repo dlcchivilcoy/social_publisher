@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-09T17:00:20.000Z"
+   "visto": "2026-11-09T18:00:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-09T17:00:20.000Z"
+   "visto": "2026-11-09T18:00:23.000Z"
   }
  },
  "contenidos": {
@@ -1523,6 +1523,27 @@
    "video_mb": 22.5,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00290.mp4",
    "youtube_url": "https://youtu.be/viu_2FWWwhA"
+  },
+  "entrevistas:job00291": {
+   "descripcion": "La docente Rocio Ares explicó en Chivilcoy que necesitan cubrir un millón y medio de pesos para que Vicente Fontana compita en la final de las Olimpiadas de Matemática. Para costear la estadía y el viaje, lanzaron un bono solidario a través del alias ciencia.chivilcoy.",
+   "duracion_seg": null,
+   "entrevistado": "Rocio Ares",
+   "generado": "2026-11-09T18:00:21.000Z",
+   "id": "entrevistas:job00291",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Rocio Ares: bono para viajar a la Olimpiada Nacional",
+   "urgente": false,
+   "video_bytes": 29764948,
+   "video_mb": 28.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00291.mp4",
+   "youtube_url": "https://youtu.be/REh-Q_bfnAo"
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
@@ -10259,18 +10280,19 @@
    "viral": false
   },
   "entrevistas:job00290|x": {
-   "actualizado": "2026-11-09T17:20:20.000Z",
+   "actualizado": "2026-11-09T18:00:23.000Z",
    "buffer_id": "6af200d5fa4f406f7bb8ac27",
    "clave": "entrevistas:job00290|x",
    "creado": "2026-11-09T17:20:13.000Z",
    "dueAt": "2026-11-09T17:22:16.000Z",
+   "enviado": "2026-11-09T17:22:46.441Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T17:20:13.000Z",
    "id": "entrevistas:job00290",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119843149115744622",
    "nota_url": "",
    "noticia": "titulo:chivilcoy-critico-felice-gestion-ignacio-juan",
    "origen": "entrevistas",
@@ -10284,6 +10306,62 @@
    "vence": "2026-11-09T19:20:13.000Z",
    "video_bytes": 23601125,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00290.mp4",
+   "viral": false
+  },
+  "entrevistas:job00291|tiktok": {
+   "actualizado": "2026-11-09T18:00:21.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00291|tiktok",
+   "creado": "2026-11-09T18:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-09T18:00:21.000Z",
+   "id": "entrevistas:job00291",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Rocio Ares: bono para viajar a la Olimpiada Nacional\n\nLa docente Rocio Ares explicó en Chivilcoy que necesitan cubrir un millón y medio de pesos para que Vicente Fontana compita en la final de las Olimpiadas de Matemática. Para costear la estadía y el viaje, lanzaron un bono solidario a través del alias ciencia.chivilcoy.\n\nhttps://youtu.be/REh-Q_bfnAo\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Rocio Ares: bono para viajar a la Olimpiada Nacional",
+   "urgente": false,
+   "vence": "2026-11-11T18:00:21.000Z",
+   "video_bytes": 29764948,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00291.mp4",
+   "viral": false
+  },
+  "entrevistas:job00291|x": {
+   "actualizado": "2026-11-09T18:00:24.000Z",
+   "buffer_id": "6af20a394af3cc032bb5f7de",
+   "clave": "entrevistas:job00291|x",
+   "creado": "2026-11-09T18:00:21.000Z",
+   "dueAt": "2026-11-09T18:02:06.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-09T18:00:21.000Z",
+   "id": "entrevistas:job00291",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:ares-bono-nacional-olimpiada-rocio-viajar",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Rocio Ares: bono para viajar a la Olimpiada Nacional\n\nLa docente Rocio Ares explicó que precisan cubrir un millón y medio de pesos para que Vicente Fontana viaje a la final de Matemática. Por eso, lanzaron un bono solidario con el alias ciencia.chivilcoy.\n\nhttps://youtu.be/REh-Q_bfnAo",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Rocio Ares: bono para viajar a la Olimpiada Nacional",
+   "urgente": false,
+   "vence": "2026-11-09T20:00:21.000Z",
+   "video_bytes": 29764948,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00291.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
@@ -16434,42 +16512,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tiktok",
-   "cuando": "2026-11-02T18:20:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:6541af24-4488-427f-95aa-ae535252bd65|x",
-   "cuando": "2026-11-02T18:20:35.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:a872c57c-897c-4bec-8f45-2e83bffd630f|x",
-   "cuando": "2026-11-02T18:20:35.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6541af24-4488-427f-95aa-ae535252bd65|x",
-   "cuando": "2026-11-02T18:20:35.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "entrevistas:job00270|x",
-   "cuando": "2026-11-02T18:20:35.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117306409419174264"
-  },
-  {
    "buffer_id": "6ae8d47487c5ea7cde546b3e",
    "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x",
    "cuando": "2026-11-02T18:20:36.000Z",
@@ -20606,6 +20648,40 @@
    "cuando": "2026-11-09T17:20:22.000Z",
    "dueAt": "2026-11-09T17:22:16.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00291",
+   "cuando": "2026-11-09T18:00:21.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00291|x",
+   "cuando": "2026-11-09T18:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00291|tiktok",
+   "cuando": "2026-11-09T18:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00290|x",
+   "cuando": "2026-11-09T18:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119843149115744622"
+  },
+  {
+   "buffer_id": "6af20a394af3cc032bb5f7de",
+   "clave": "entrevistas:job00291|x",
+   "cuando": "2026-11-09T18:00:25.000Z",
+   "dueAt": "2026-11-09T18:02:06.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20643,7 +20719,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-09",
- "ultima_sync": "2026-11-09T17:00:20.000Z",
+ "ultima_sync": "2026-11-09T18:00:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -20933,6 +21009,7 @@
   "entrevistas:job00288": "2026-11-06T19:00:17.000Z",
   "entrevistas:job00289": "2026-11-09T16:40:15.000Z",
   "entrevistas:job00290": "2026-11-09T17:20:13.000Z",
+  "entrevistas:job00291": "2026-11-09T18:00:21.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
