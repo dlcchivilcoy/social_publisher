@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 09/11/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 09/11/2026 07:03 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-09)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 09/11/2026 07:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 0 |
+| Notas web | X | 15 | 0 | 6 | 1 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,25 +27,13 @@ Actualizado: 09/11/2026 07:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Notas web · Chivilcoy: Realizaron el 32° Encuentro Regional de Talleres Protegidos en Lomas  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-08T23:00 enviado policiales:https://www.junindigital.com/policiales/2026-11-8 
-- 2026-11-08T23:00 programado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x 
-- 2026-11-08T23:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31139/moto 
-- 2026-11-08T23:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-8 
-- 2026-11-08T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/incendio- 
-- 2026-11-09T00:00 recibido bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x 
-- 2026-11-09T00:00 recibido bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok 
-- 2026-11-09T00:00 recibido web:da7a71c1-fb14-4868-ba84-3e52bf96430a|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-11-09T00:00 enviado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x 
-- 2026-11-09T00:00 enviado policiales:https://www.bragadoinforma.com.ar/nota/31139/moto 
-- 2026-11-09T00:00 programado bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x 
-- 2026-11-09T00:00 programado policiales:https://www.junindigital.com/policiales/2026-11-8 
-- 2026-11-09T00:00 programado bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok 
 - 2026-11-09T00:00 programado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok 
 - 2026-11-09T00:20 recibido policiales:https://semanariodejunin.com.ar/nota/76374/un-mot 
 - 2026-11-09T01:00 recibido web:31292745-1874-4666-bb1a-583ba97f9032|x 
@@ -58,3 +46,16 @@ Actualizado: 09/11/2026 07:00 (hora AR) · ACTIVO
 - 2026-11-09T02:20 vencido policiales:https://semanariodejunin.com.ar/nota/76374/un-mot espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-09T09:00 recibido web:a4af8e93-1494-4e38-bc38-5764b271088c|x 
 - 2026-11-09T09:00 vencido web:a4af8e93-1494-4e38-bc38-5764b271088c|x no hubo lugar antes de su vencimiento
+- 2026-11-09T10:02 recibido web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x 
+- 2026-11-09T10:02 recibido web:87f82441-faec-422a-8856-fdfb0a63cf9e|x 
+- 2026-11-09T10:02 recibido web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x 
+- 2026-11-09T10:03 recibido web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6|x 
+- 2026-11-09T10:03 recibido web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c|x 
+- 2026-11-09T10:03 recibido web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6|x 
+- 2026-11-09T10:03 recibido web:6e187d9a-8633-4631-9f81-02dcf59a7bbb|x 
+- 2026-11-09T10:03 programado web:6e187d9a-8633-4631-9f81-02dcf59a7bbb|x 
+- 2026-11-09T10:03 programado web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6|x 
+- 2026-11-09T10:03 programado web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c|x 
+- 2026-11-09T10:03 programado web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6|x 
+- 2026-11-09T10:03 programado web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x 
+- 2026-11-09T10:03 programado web:87f82441-faec-422a-8856-fdfb0a63cf9e|x 
