@@ -5524,25 +5524,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/informacion-y-asesoramiento-chivilcoy-la-defensoria-del-pueblo-inicia",
    "volanta": "Información y asesoramiento"
   },
-  "web:f841cb1f-56ef-4ba9-b9a2-c0d6d39880a6": {
-   "categoria": "",
-   "descripcion": "Oscar Potetti afirmó que la reactivación del tramo Mercedes-Suipacha es una falsa alarma El ingeniero civil Oscar Potetti se refirió a las versiones sobre una posible reactivación de las obras en la Ruta Nacional Nº 5, puntualmente en el tramo de 20 kilómetros pendiente entre Mercedes y Suipacha. Al respecto, consideró que los movimientos observados en la zona no implican el reinicio de ese sector. Potetti calificó la expectativa generada como \"una falsa alarma\" y explicó la situación de los...",
-   "generado": "2026-10-30T22:50:03.746Z",
-   "id": "web:f841cb1f-56ef-4ba9-b9a2-c0d6d39880a6",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_3d0489d54d024feaba786014f987824f~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Oscar Potetti afirmó que la reactivación del tramo Mercedes-Suipacha es una falsa alarma",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
-   "volanta": "Ruta Nacional 5"
-  },
   "web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297": {
    "categoria": "",
    "descripcion": "La deportista chivilcoyana en lo más alto del ranking nacional: \"El pádel es mi pasión y me emociona estar a este nivel\" La destacada deportista reflexionó sobre su reciente consagración y el alto nivel de la competencia actual, hizo un repaso por su trayectoria y agradeció el respaldo fundamental de su compañera, su equipo y sus sponsors. El fin de semana dejó una alegría inmensa para el deporte. Daniela Banchero volvió a escalar hasta lo más alto del podio, un logro que, según sus propias...",
@@ -16251,31 +16232,6 @@
    "titulo": "Chivilcoy: La Defensoría del Pueblo inicia recorridas barriales atender cuestiones vinculadas a pensiones, servicios públicos, sobreendeudamiento y salud",
    "urgente": false,
    "vence": "2026-11-06T14:01:08.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:f841cb1f-56ef-4ba9-b9a2-c0d6d39880a6|x": {
-   "actualizado": "2026-10-30T23:00:20.000Z",
-   "buffer_id": "",
-   "clave": "web:f841cb1f-56ef-4ba9-b9a2-c0d6d39880a6|x",
-   "creado": "2026-10-30T23:00:20.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-30T22:50:03.746Z",
-   "id": "web:f841cb1f-56ef-4ba9-b9a2-c0d6d39880a6",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
-   "noticia": "nota:ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Oscar Potetti afirmó que la reactivación del tramo Mercedes-Suipacha es una falsa alarma",
-   "urgente": false,
-   "vence": "2026-10-31T02:50:03.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
