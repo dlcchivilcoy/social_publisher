@@ -4471,25 +4471,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/conmocion-en-chivilcoy-chivilcoy-averiguacion-de-causales-de-muerte",
    "volanta": "Conmoción en Chivilcoy"
   },
-  "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f": {
-   "categoria": "",
-   "descripcion": "El Municipio realizó una nueva jornada de la Mesa de Prevención en Comunidad La Municipalidad de Chivilcoy llevó adelante una nueva salida de la Mesa de Prevención en Comunidad, una propuesta que reúne a distintas áreas municipales e instituciones con el objetivo de acercar información, recursos y herramientas de prevención a los vecinos. En esta segunda jornada, la actividad se desarrolló en la intersección de avenida De Tomaso y calle Moquehuá, un punto estratégico elegido por su cercanía...",
-   "generado": "2026-10-30T19:04:24.740Z",
-   "id": "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_723cbd9b9185436fa47cc98f357d0574~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-municipio-realizo-una-nueva-jornada-de-la-mesa",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "El Municipio realizó una nueva jornada de la Mesa de Prevención en Comunidad",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-el-municipio-realizo-una-nueva-jornada-de-la-mesa",
-   "volanta": "Chivilcoy · Sociedad"
-  },
   "web:9da65e87-8b1a-426a-922a-94936fe79688": {
    "categoria": "",
    "descripcion": "Chivilcoy: Clausura de Primera: Moquehuá conservó la punta e invicto tras igualar con Gimnasia y la definición por el 1 de la fase regular se prolonga hasta la última fecha CHIVILCOY.– Social Moquehuá sostuvo el liderazgo tras un caliente empate ante Gimnasia y Esgrima. Independiente goleó con autoridad, Cerámica y San Lorenzo dieron pasos clave en la tabla, mientras que Once Tigres mete presión en la zona alta. La fecha se completará con el clásico entre Florencio Varela ante Colón. La Fecha...",
@@ -14594,31 +14575,6 @@
    "titulo": "Chivilcoy: \"Averiguación de causales de muerte\": Investigan la muerte de dos hombres en distintos hechos ocurridos este fin de semana",
    "urgente": false,
    "vence": "2026-11-03T14:00:56.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f|x": {
-   "actualizado": "2026-10-30T19:20:18.000Z",
-   "buffer_id": "",
-   "clave": "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f|x",
-   "creado": "2026-10-30T19:20:18.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-30T19:04:24.740Z",
-   "id": "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-el-municipio-realizo-una-nueva-jornada-de-la-mesa",
-   "noticia": "nota:chivilcoy-sociedad-el-municipio-realizo-una-nueva-jornada-de-la-mesa",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "El Municipio realizó una nueva jornada de la Mesa de Prevención en Comunidad",
-   "urgente": false,
-   "vence": "2026-10-30T23:04:24.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
