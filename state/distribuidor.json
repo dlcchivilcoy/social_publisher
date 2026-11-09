@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-08T23:00:22.000Z"
+   "visto": "2026-11-09T00:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 7
    },
    "pausado": false,
-   "visto": "2026-11-08T23:00:22.000Z"
+   "visto": "2026-11-09T00:00:22.000Z"
   }
  },
  "contenidos": {
@@ -1061,6 +1061,27 @@
    "video_mb": 7.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0d3816d81ae17842.mp4",
    "youtube_url": "https://www.youtube.com/shorts/wxX-jReYLp8"
+  },
+  "bot:video_matias-zucchi_mw8h185acy8l_01.mp4": {
+   "descripcion": "Social Moquehuá y Gimnasia y Esgrima empataron 1 a 1 en el estadio Walter Biondo, en el marco de la fecha 12 del Torneo Clausura 2026 de la Liga Chivilcoyana de Fútbol.\n\nEl encuentro, disputado el domingo 8 de noviembre, reunió a los dos equipos que llegaban en lo más alto de la tabla de posiciones. Tras una primera mitad sin goles, las emociones llegaron durante el complemento.\n\nEl conjunto visitante logró quebrar el cero a los 20 minutos de la segunda etapa, luego de un tiro libre ejecutado por Salinardi, la intervención de Cejas y el remate de Valentín Fernández que terminó en la apertura del marcador. Más tarde, el local reaccionó y alcanzó la paridad definitiva mediante una jugada de pelota parada ejecutada por Aaron Sosa.\n\nCon esta igualdad y la repartición de unidades en Moquehuá, la definición por el primer lugar de la fase regular del certamen continúa abierta.",
+   "duracion_seg": 45.3,
+   "generado": "2026-11-08T23:44:01.000Z",
+   "id": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Social Moquehuá y Gimnasia y Esgrima empataron uno a uno",
+   "urgente": false,
+   "video_bytes": 7308270,
+   "video_mb": 7.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d8a3834b9be48b72.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/TGl9aLUTXYY"
   },
   "entrevistas:job00260": {
    "descripcion": "En Chivilcoy, el docente e investigador Mauricio De Marzi denunció los insólitos controles burocráticos para montos mínimos que obligan a los científicos a financiar proyectos de su propio bolsillo. Explicó cómo la inflación y las trabas administrativas asfixian la investigación universitaria.",
@@ -2383,32 +2404,6 @@
    "volanta": "Robos y violencia en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/qR9XZlPIs2g"
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html": {
-   "categoria": "accidente_vial",
-   "descripcion": "Una motociclista de 31 años terminó internada en el hospital municipal luego de impactar contra la parte trasera de un automóvil en la tarde de este martes.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-29T22:31:42.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-31-anos-fue-hospitalizada-tras-chocar-en-660ce7",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 5,
-   "radio_ok": true,
-   "texto_tiktok": "Una motociclista de 31 años fue hospitalizada esta tarde tras protagonizar un choque en la ciudad de Chacabuco.\n\nEl episodio se registró sobre la calle Deán Funes, entre San Juan y Alvear, cuando la conductora embistió la parte trasera de un auto que frenó de manera imprevista.\n\nTras el impacto, personal del SAME acudió al lugar y decidió su traslado en ambulancia al centro de salud debido a una lesión en una pierna.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #AccidenteDeTransito #BuenosAires",
-   "tipo": "video",
-   "titulo": "Una mujer de 31 años fue hospitalizada tras chocar en moto contra un auto",
-   "urgente": false,
-   "video_bytes": 105194,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_02_chacabuco_una-mujer-de-31-a-os-fue-hospi.mp4",
-   "volanta": "Siniestro vial en Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/TLZh9rg71nw"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": {
    "categoria": "otro_policial",
    "descripcion": "Una vecina alertó a los efectivos de seguridad luego de descubrir que su descendiente había ingresado elementos de dudosa procedencia al domicilio familiar ubicado en Chacabuco.",
@@ -3604,25 +3599,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/problematica-en-jovenes-fernando-cabani-advirtio-sobre-el-impacto-de",
    "volanta": "PROBLEMÁTICA EN JÓVENES"
-  },
-  "web:37a8cc6e-d0f6-44df-bd80-5ee911112801": {
-   "categoria": "",
-   "descripcion": "Un menor sufrió una descarga eléctrica en un predio rural Un adolescente resultó herido tras recibir una descarga eléctrica en un predio rural de Coronel Mom, en un episodio investigado como un intento de robo de cables en el que habrían participado dos menores de edad. Según la información difundida sobre la investigación, la descarga se produjo mientras los jóvenes manipulaban conexiones y tableros eléctricos. El adolescente lesionado quedó bajo atención médica, a la espera de su evolución....",
-   "generado": "2026-10-29T23:58:56.316Z",
-   "id": "web:37a8cc6e-d0f6-44df-bd80-5ee911112801",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_29fcbb196e474e94aff09764c69cf81b~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Un menor sufrió una descarga eléctrica en un predio rural",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
-   "volanta": "Coronel Mom · Policiales"
   },
   "web:3965ee13-9730-4798-8e40-1c97199ed3e6": {
    "categoria": "",
@@ -5276,6 +5252,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-la-undecima-fecha-tendra-un-arranque-y-cierre-con-partidos",
    "volanta": "Fútbol"
+  },
+  "web:da7a71c1-fb14-4868-ba84-3e52bf96430a": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Social Moquehuá y Gimnasia y Esgrima empataron uno a uno Social Moquehuá y Gimnasia y Esgrima igualaron 1 a 1 en el estadio Walter Biondo, en el marco de la fecha 12 del Torneo Clausura 2026 de la Liga Chivilcoyana de Fútbol. El encuentro se disputó el domingo 8 de noviembre y reunió a los dos equipos que llegaban al frente de la tabla de posiciones. Tras un primer tiempo sin goles, el visitante abrió el marcador en el complemento tras un tiro libre de Salinardi que derivó en la...",
+   "generado": "2026-11-08T23:41:47.234Z",
+   "id": "web:da7a71c1-fb14-4868-ba84-3e52bf96430a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7d4de76750934765944eb616db25d109~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Social Moquehuá y Gimnasia y Esgrima empataron uno a uno",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
+   "volanta": "Moquehuá · Deportes"
   },
   "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24": {
    "categoria": "",
@@ -8801,15 +8796,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok": {
-   "actualizado": "2026-11-08T23:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T00:00:24.000Z",
+   "buffer_id": "6af10d1ed6bbae6fa11bfabe",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok",
    "creado": "2026-11-08T23:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T00:23:35.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-08T22:59:15.000Z",
    "id": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4",
    "intentos": 0,
@@ -8829,18 +8824,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x": {
-   "actualizado": "2026-11-08T23:00:22.000Z",
+   "actualizado": "2026-11-09T00:00:22.000Z",
    "buffer_id": "6af0ff089214322f687fdc25",
    "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x",
    "creado": "2026-11-08T23:00:17.000Z",
    "dueAt": "2026-11-08T23:02:23.000Z",
+   "enviado": "2026-11-08T23:02:45.800Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-08T22:59:15.000Z",
    "id": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119566322489078001",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
    "noticia": "nota:chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
    "origen": "bot",
@@ -8854,6 +8850,62 @@
    "vence": "2026-11-09T00:59:15.000Z",
    "video_bytes": 7768175,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0d3816d81ae17842.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok": {
+   "actualizado": "2026-11-09T00:00:24.000Z",
+   "buffer_id": "6af10d1c51492b796e6be8f3",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok",
+   "creado": "2026-11-09T00:00:16.000Z",
+   "dueAt": "2026-11-09T00:03:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-08T23:44:01.000Z",
+   "id": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Social Moquehuá y Gimnasia y Esgrima empataron uno a uno\n\nPor la fecha 12 del Torneo Clausura de la Liga Chivilcoyana de Fútbol, Valentín Fernández abrió el marcador para el visitante y Aaron Sosa selló la paridad definitiva para el local en el complemento. Con esta igualdad entre los líderes de la tabla, la definición por el primer puesto de la fase regular continúa abierta.\n\nhttps://www.diariolacampaña.com.ar/n/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Social Moquehuá y Gimnasia y Esgrima empataron uno a uno",
+   "urgente": false,
+   "vence": "2026-11-10T23:44:01.000Z",
+   "video_bytes": 7308270,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d8a3834b9be48b72.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x": {
+   "actualizado": "2026-11-09T00:00:24.000Z",
+   "buffer_id": "6af10d1ad6bbae6fa11bf858",
+   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x",
+   "creado": "2026-11-09T00:00:16.000Z",
+   "dueAt": "2026-11-09T00:02:04.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-08T23:44:01.000Z",
+   "id": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
+   "noticia": "nota:moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Social Moquehuá y Gimnasia y Esgrima empataron uno a uno\n\nLos líderes del certamen igualaron en el estadio Walter Biondo tras un complemento con goles. Con este resultado, la definición por el primer lugar de la fase regular continúa abierta.\n\nhttps://www.diariolacampaña.com.ar/n/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Social Moquehuá y Gimnasia y Esgrima empataron uno a uno",
+   "urgente": false,
+   "vence": "2026-11-09T01:44:01.000Z",
+   "video_bytes": 7308270,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d8a3834b9be48b72.mp4",
    "viral": false
   },
   "entrevistas:job00260|tiktok": {
@@ -11310,18 +11362,19 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x": {
-   "actualizado": "2026-11-08T23:00:22.000Z",
+   "actualizado": "2026-11-09T00:00:22.000Z",
    "buffer_id": "6af0ff08562f2e6de9e8b4fc",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x",
    "creado": "2026-11-08T22:40:14.000Z",
    "dueAt": "2026-11-08T23:08:36.000Z",
+   "enviado": "2026-11-08T23:08:49.113Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-08T22:32:15.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119567846346719391",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-motociclista-alcoholizado-choco-contra-un-auto-af9ecc",
    "noticia": "nota:bragado-motociclista-alcoholizado-choco-contra-un-auto-af9ecc",
    "origen": "policiales",
@@ -11679,43 +11732,6 @@
    "vence": "2026-10-31T02:02:03.000Z",
    "video_bytes": 74902,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_02_chacabuco_robo-de-cables-conflicto-de-ex.mp4",
-   "viral": false
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x": {
-   "actualizado": "2026-10-29T23:40:34.000Z",
-   "buffer_id": "6ae3cb4f2782e7f331bc4dec",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html|x",
-   "creado": "2026-10-29T22:40:14.000Z",
-   "dueAt": "2026-10-29T22:43:29.000Z",
-   "enviado": "2026-10-29T22:43:33.228Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-29T22:31:42.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2115937609469907195",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 35,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-31-anos-fue-hospitalizada-tras-chocar-en-660ce7",
-   "noticia": "nota:chacabuco-una-mujer-de-31-anos-fue-hospitalizada-tras-chocar-en-660ce7",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 5,
-   "texto": "Una mujer de 31 años fue hospitalizada tras chocar en moto contra un auto\n\nUna motociclista de 31 años terminó internada en el hospital municipal luego de impactar contra la parte trasera de un automóvil en la tarde de este martes.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-31-anos-fue-hospitalizada-tras-chocar-en-660ce7",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Una mujer de 31 años fue hospitalizada tras chocar en moto contra un auto",
-   "urgente": false,
-   "vence": "2026-10-30T00:31:42.000Z",
-   "video_bytes": 105194,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_02_chacabuco_una-mujer-de-31-a-os-fue-hospi.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x": {
@@ -12239,14 +12255,14 @@
    "viral": false
   },
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x": {
-   "actualizado": "2026-11-08T23:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T00:00:24.000Z",
+   "buffer_id": "6af10d1b562f2e6de9ecc20d",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x",
    "creado": "2026-11-08T23:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T00:07:08.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-08T23:01:25.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin",
    "intentos": 0,
@@ -13387,33 +13403,6 @@
    "titulo": "Fernando Cabani advirtió sobre el impacto de las apuestas online en Chivilcoy",
    "urgente": false,
    "vence": "2026-10-30T14:00:49.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x": {
-   "actualizado": "2026-10-30T00:00:21.000Z",
-   "buffer_id": "",
-   "clave": "web:37a8cc6e-d0f6-44df-bd80-5ee911112801|x",
-   "creado": "2026-10-30T00:00:18.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-10-29T23:58:56.316Z",
-   "id": "web:37a8cc6e-d0f6-44df-bd80-5ee911112801",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
-   "noticia": "nota:coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Un menor sufrió una descarga eléctrica en un predio rural\n\nUn adolescente resultó herido en Coronel Mom al recibir una descarga. Ocurrió en un predio rural en un hecho investigado como intento de robo de cables.\n\nhttps://www.diariolacampaña.com.ar/n/coronel-mom-policiales-un-menor-sufrio-una-descarga-electrica-en-un",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Un menor sufrió una descarga eléctrica en un predio rural",
-   "urgente": false,
-   "vence": "2026-10-30T03:58:56.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16182,6 +16171,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:da7a71c1-fb14-4868-ba84-3e52bf96430a|x": {
+   "actualizado": "2026-11-09T00:00:16.000Z",
+   "buffer_id": "",
+   "clave": "web:da7a71c1-fb14-4868-ba84-3e52bf96430a|x",
+   "creado": "2026-11-09T00:00:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-08T23:41:47.234Z",
+   "id": "web:da7a71c1-fb14-4868-ba84-3e52bf96430a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
+   "noticia": "nota:moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Social Moquehuá y Gimnasia y Esgrima empataron uno a uno",
+   "urgente": false,
+   "vence": "2026-11-09T03:41:47.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x": {
    "actualizado": "2026-11-07T09:00:25.000Z",
    "buffer_id": "",
@@ -16958,68 +16972,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae737ebcf3a3112f3fa3cbf",
-   "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok",
-   "cuando": "2026-11-01T13:00:27.000Z",
-   "dueAt": "2026-11-01T14:03:21.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|x",
-   "cuando": "2026-11-01T13:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok",
-   "cuando": "2026-11-01T13:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:52c96f09-7e84-4dea-9e97-24ab64aa6215|x",
-   "cuando": "2026-11-01T13:20:19.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ae73c9437c1acd2a0070959",
-   "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|x",
-   "cuando": "2026-11-01T13:20:21.000Z",
-   "dueAt": "2026-11-01T13:22:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvv18s29qzvi_01.mp4|tiktok",
-   "cuando": "2026-11-01T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7703198230078573830"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvv359tb9ekp_01.mp4|tiktok",
-   "cuando": "2026-11-01T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7703188734249848084"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|tiktok",
-   "cuando": "2026-11-01T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7703193190991629586"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|x",
-   "cuando": "2026-11-01T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2116883570153201918"
-  },
   {
    "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok",
    "cuando": "2026-11-01T15:00:19.000Z",
@@ -21135,11 +21087,74 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x",
+   "cuando": "2026-11-09T00:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok",
+   "cuando": "2026-11-09T00:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:da7a71c1-fb14-4868-ba84-3e52bf96430a|x",
+   "cuando": "2026-11-09T00:00:22.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x",
+   "cuando": "2026-11-09T00:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119566322489078001"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x",
+   "cuando": "2026-11-09T00:00:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119567846346719391"
+  },
+  {
+   "buffer_id": "6af10d1ad6bbae6fa11bf858",
+   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x",
+   "cuando": "2026-11-09T00:00:30.000Z",
+   "dueAt": "2026-11-09T00:02:04.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af10d1b562f2e6de9ecc20d",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x",
+   "cuando": "2026-11-09T00:00:30.000Z",
+   "dueAt": "2026-11-09T00:07:08.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af10d1c51492b796e6be8f3",
+   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok",
+   "cuando": "2026-11-09T00:00:30.000Z",
+   "dueAt": "2026-11-09T00:03:24.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af10d1ed6bbae6fa11bfabe",
+   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok",
+   "cuando": "2026-11-09T00:00:30.000Z",
+   "dueAt": "2026-11-09T00:23:35.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-29 21",
    "2026-10-30 10",
    "2026-10-30 18",
    "2026-10-30 21",
@@ -21168,11 +21183,12 @@
    "2026-11-07 18",
    "2026-11-07 21",
    "2026-11-08 10",
-   "2026-11-08 18"
+   "2026-11-08 18",
+   "2026-11-08 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-08",
- "ultima_sync": "2026-11-08T23:00:22.000Z",
+ "ultima_limpieza_release": "2026-11-09",
+ "ultima_sync": "2026-11-09T00:00:22.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21372,6 +21388,7 @@
   "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4": "2026-11-08T17:20:17.000Z",
   "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4": "2026-11-08T20:40:12.000Z",
   "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4": "2026-11-08T23:00:17.000Z",
+  "bot:video_matias-zucchi_mw8h185acy8l_01.mp4": "2026-11-09T00:00:16.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -22321,6 +22338,7 @@
   "web:d93ebaa3-7e7f-4b7c-b96d-975976da4252": "2026-10-12T10:20:17.000Z",
   "web:d9d5c19d-7cdc-4599-9431-674725b57a40": "2026-10-17T15:40:15.000Z",
   "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa": "2026-10-30T10:20:13.000Z",
+  "web:da7a71c1-fb14-4868-ba84-3e52bf96430a": "2026-11-09T00:00:16.000Z",
   "web:da812ee7-10e6-4f68-a954-bbcfc675078c": "2026-10-16T12:40:14.000Z",
   "web:da88e1e4-510a-45e4-992a-55ed16bef1e5": "2026-10-24T23:00:21.000Z",
   "web:daae8efc-080c-4b85-8684-6b87ab41878c": "2026-10-26T12:06:06.000Z",
