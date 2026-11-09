@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 4
+    "scheduled": 0,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-09T22:20:27.000Z"
+   "visto": "2026-11-09T23:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 25
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-09T22:20:27.000Z"
+   "visto": "2026-11-09T23:40:16.000Z"
   }
  },
  "contenidos": {
@@ -2469,6 +2469,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-07_2134_09_chacabuco_persecuci-n-incidentes-y-un-ch.mp4",
    "volanta": "Chacabuco",
    "youtube_url": "https://youtube.com/shorts/o8ymkbw74-s"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html": {
+   "categoria": "accidente_vial",
+   "descripcion": "Una madrugada agitada dejó un choque de vehículos, un llamado de auxilio por acoso mediante botón antipánico y múltiples vehículos retenidos en controles de tránsito.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-09T23:30:57.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-choque-acoso-con-boton-antipanico-y-multiples-83143b",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "La madrugada dejó varios hechos en Chacabuco que movilizaron a la Policía y al área de Tránsito municipal.\n\nUn automóvil Chevrolet Corsa colisionó contra una camioneta Toyota Hilux estacionada sobre la calle Almirante Brown, entre Gutiérrez y Casasco, generando únicamente daños materiales.\n\nPor otro lado, una vecina de 37 años activó un botón antipánico para pedir auxilio policial debido a que su expareja la acosaba desde el exterior de su vivienda, aunque el agresor huyó antes de la llegada del patrullero.\n\nEn paralelo, la Subsecretaría de Tránsito desplegó operativos en el Acceso Juan XXIII y Roca, además de controles dinámicos, que derivaron en la retención de varias motocicletas y licencias por diversas infracciones, incluyendo un test de alcoholemia positivo.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #Policiales #ControlDeTransito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Choque, operativos viales y pedido de auxilio por acoso en la madrugada de Chacabuco",
+   "urgente": false,
+   "video_bytes": 75649,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_07_chacabuco_choque-operativos-viales-y-ped.mp4",
+   "volanta": "Choques, operativos y acoso en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/AZvYq3Sp9CM"
   },
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": {
    "categoria": "incendio",
@@ -9829,19 +9855,20 @@
    "viral": false
   },
   "entrevistas:job00289|tiktok": {
-   "actualizado": "2026-11-09T21:00:19.000Z",
+   "actualizado": "2026-11-09T23:40:16.000Z",
    "buffer_id": "6af2346b21c8282e5bf18061",
    "categoria": "",
    "clave": "entrevistas:job00289|tiktok",
    "creado": "2026-11-09T16:40:15.000Z",
    "dueAt": "2026-11-09T22:23:05.000Z",
+   "enviado": "2026-11-09T22:24:58.497Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T16:40:15.000Z",
    "id": "entrevistas:job00289",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7706300878315113729",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -11271,6 +11298,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-07_2134_09_chacabuco_persecuci-n-incidentes-y-un-ch.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html|x": {
+   "actualizado": "2026-11-09T23:40:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html|x",
+   "creado": "2026-11-09T23:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T23:30:57.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-choque-acoso-con-boton-antipanico-y-multiples-83143b",
+   "noticia": "nota:chacabuco-choque-acoso-con-boton-antipanico-y-multiples-83143b",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Choque, operativos viales y pedido de auxilio por acoso en la madrugada de Chacabuco\n\nUna madrugada agitada dejó un choque de vehículos, un llamado de auxilio por acoso mediante botón antipánico y múltiples vehículos retenidos en controles de tránsito.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-choque-acoso-con-boton-antipanico-y-multiples-83143b",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque, operativos viales y pedido de auxilio por acoso en la madrugada de Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-10T01:30:57.000Z",
+   "video_bytes": 75649,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_07_chacabuco_choque-operativos-viales-y-ped.mp4",
+   "viral": false
+  },
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d|x": {
    "actualizado": "2026-10-31T02:20:21.000Z",
    "buffer_id": "",
@@ -11578,18 +11633,19 @@
    "viral": false
   },
   "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/|x": {
-   "actualizado": "2026-11-09T22:20:27.000Z",
+   "actualizado": "2026-11-09T23:40:16.000Z",
    "buffer_id": "6af2472ca33c4e0efe056744",
    "clave": "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/|x",
    "creado": "2026-11-09T22:20:15.000Z",
    "dueAt": "2026-11-09T22:23:33.000Z",
+   "enviado": "2026-11-09T22:23:48.146Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T22:01:37.000Z",
    "id": "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119918905481199721",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mechita-buscan-a-un-joven-de-27-anos-y-hay-dos-detenidos-por-un-1a1417",
    "noticia": "nota:mechita-buscan-a-un-joven-de-27-anos-y-hay-dos-detenidos-por-un-1a1417",
    "origen": "policiales",
@@ -16299,26 +16355,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado|x",
-   "cuando": "2026-11-03T02:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html|x",
-   "cuando": "2026-11-03T02:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x",
-   "cuando": "2026-11-03T10:02:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x",
    "cuando": "2026-11-03T10:02:36.000Z",
    "estado": "pendiente",
@@ -20465,6 +20501,26 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html|x",
+   "cuando": "2026-11-09T23:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "entrevistas:job00289|tiktok",
+   "cuando": "2026-11-09T23:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7706300878315113729"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/|x",
+   "cuando": "2026-11-09T23:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119918905481199721"
   }
  ],
  "tandas": {
@@ -20502,7 +20558,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-09",
- "ultima_sync": "2026-11-09T22:20:27.000Z",
+ "ultima_sync": "2026-11-09T23:40:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21010,6 +21066,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": "2026-11-01T22:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html": "2026-11-09T23:40:15.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346436-conmocion-en-roberts-por-la-muerte-de-un-joven": "2026-10-12T21:40:15.000Z",

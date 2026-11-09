@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 09/11/2026 20:20 (hora AR) · ACTIVO
+Actualizado: 09/11/2026 20:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-09)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 25 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 4 enviadas + 1 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 20 con métricas · mediana vistas/impresiones 27.5 · likes 0
@@ -27,17 +27,15 @@ Actualizado: 09/11/2026 20:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
 - X · Reels policiales · Murió un joven de 24 años en un choque de moto en Lobos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Secuestraron una camioneta y frenaron una fiesta clandestina con 90 personas en  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Choque, operativos viales y pedido de auxilio por acoso en la madrugada de Chaca — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-09T18:00 programado entrevistas:job00291|x 
-- 2026-11-09T18:40 entrevista_aprobada entrevistas:job00292 
-- 2026-11-09T18:40 recibido entrevistas:job00292|x 
 - 2026-11-09T18:40 recibido entrevistas:job00292|tiktok 
 - 2026-11-09T18:40 programado entrevistas:job00292|x 
 - 2026-11-09T19:20 enviado entrevistas:job00291|x 
@@ -60,3 +58,6 @@ Actualizado: 09/11/2026 20:20 (hora AR) · ACTIVO
 - 2026-11-09T22:20 programado policiales:https://www.lamanana.com.ar/buscan-a-joven-que-ha 
 - 2026-11-09T22:40 recibido policiales:https://lobos24.com.ar/2026/11/09/policiales-roba 
 - 2026-11-09T23:20 recibido policiales:https://laopinionline.ar/articulo/salto-secuestra 
+- 2026-11-09T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/policiale 
+- 2026-11-09T23:40 enviado entrevistas:job00289|tiktok 
+- 2026-11-09T23:40 enviado policiales:https://www.lamanana.com.ar/buscan-a-joven-que-ha 
