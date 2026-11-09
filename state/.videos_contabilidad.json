@@ -39800,5 +39800,62 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-11-08T20:43:59",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-11-09_matias-zucchi_mw8jupazp4cg",
+    "uploader": "",
+    "fecha_recibido": "2026-11-08T21:57:51",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Chivilcoy · Deportes",
+    "titulo": "Racing de Chivilcoy venció a Regatas de Corrientes en la Liga de Desarrollo",
+    "resumen": "Racing de Chivilcoy consiguió una importante victoria en la Liga de Desarrollo al vencer a Regatas de Corrientes por 93 a 83, en un encuentro en el que el conjunto local volvió a demostrar su potencial y se quedó con un valioso resultado. Tomás Delía fue la figura.",
+    "texto": "Racing de Chivilcoy consiguió una importante victoria en la Liga de Desarrollo al vencer a Regatas de Corrientes por 93 a 83, en un encuentro en el que el conjunto local volvió a demostrar su potencial y se quedó con un valioso resultado. Tomás Delía fue la figura.",
+    "bajada_reel": "El conjunto local ganó 93 a 83 con Tomás Delía como principal figura del partido.",
+    "escrito": "Racing de Chivilcoy consiguió una importante victoria en la Liga de Desarrollo al vencer a Regatas de Corrientes por 93 a 83, en un encuentro en el que el conjunto local volvió a demostrar su potencial y se quedó con un valioso resultado. Tomás Delía fue la figura.",
+    "tarjetas_fotos": [],
+    "draft_id": "31292745-1874-4666-bb1a-583ba97f9032",
+    "reel_url": "",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-09T00:55:19.817Z — wa:5492346417636",
+    "decl": null,
+    "formato": "carrusel",
+    "tema_carrusel": "naranja",
+    "laminas": [
+      {
+        "titulo": "Victoria de Racing en básquet",
+        "texto": "Racing de Chivilcoy consiguió una importante victoria en la Liga de Desarrollo al vencer a Regatas de Corrientes por 93 a 83."
+      },
+      {
+        "titulo": "Valioso resultado local",
+        "texto": "Fue en un encuentro en el que el conjunto local volvió a demostrar su potencial y se quedó con un valioso resultado."
+      },
+      {
+        "titulo": "La figura de la cancha",
+        "texto": "Tomás Delía fue la figura."
+      }
+    ],
+    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_8c1599baefd94570b31dfccca0237a7b~mv2.jpg",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-11-08T21:59:17",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "ok",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-racing-de-chivilcoy-vencio-a-regatas-de-corrientes",
+    "ig_media_id": "18055957808810442",
+    "fb_video_id": "",
+    "ig_historia_id": "17898833127681377",
+    "fb_historia_id": "29153790990940455",
+    "fb_post_id": "1456376377985890_2085405412401084"
   }
 ]
