@@ -3230,25 +3230,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/una-semana-de-festejos-chivilcoy-medio-siglo-de-tradicion-y-arraigo",
    "volanta": "Una semana de festejos"
   },
-  "web:118a5f02-a016-4997-b53a-36c088349592": {
-   "categoria": "",
-   "descripcion": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos El Tribunal de Disciplina Deportiva del Interior confirmó la sanción al conjunto correntino por los incidentes del pasado 25 de octubre. El \"Lobo\" se mete por segundo año consecutivo entre los ocho mejores de la Reválida en busca del ascenso. La incertidumbre llegó a su fin y la alegría se desató en el campamento de Gimnasia y Esgrima. El Tribunal de Disciplina Deportiva del Interior emitió el Boletín Oficial N.º 88/26, en el...",
-   "generado": "2026-10-30T01:51:45.391Z",
-   "id": "web:118a5f02-a016-4997-b53a-36c088349592",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_2f1c058830bc4e57a54079b062cae271~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:1220ed02-91e7-42b8-b751-204f3ecd4e28": {
    "categoria": "",
    "descripcion": "Luis Molina brilló en Chivilcoy: se quedó con los 21K de la Maratón \"Eduardo Poliaroni\" CHIVILCOY.– El atleta olímpico hizo su debut en la ciudad con una gran victoria en la media maratón local. Tras un intenso mano a mano frente al corredor de Saladillo, el representante nacional impuso su ritmo para subirse a lo más alto del podio. En una jornada deportiva cargada de adrenalina y exigencia física, el destacado atleta olímpico Luis Molina se consagró como el flamante ganador de la prueba...",
@@ -12644,31 +12625,6 @@
    "titulo": "Chivilcoy: Medio siglo de tradición y arraigo: El Círculo Criollo El Bozal celebró sus 50 años de historia",
    "urgente": false,
    "vence": "2026-11-03T14:01:27.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:118a5f02-a016-4997-b53a-36c088349592|x": {
-   "actualizado": "2026-10-30T02:00:19.000Z",
-   "buffer_id": "",
-   "clave": "web:118a5f02-a016-4997-b53a-36c088349592|x",
-   "creado": "2026-10-30T02:00:19.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-30T01:51:45.391Z",
-   "id": "web:118a5f02-a016-4997-b53a-36c088349592",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
-   "noticia": "nota:chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos",
-   "urgente": false,
-   "vence": "2026-10-30T05:51:45.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
