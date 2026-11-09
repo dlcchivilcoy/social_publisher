@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-09T12:40:17.000Z"
+   "visto": "2026-11-09T14:00:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 4,
-    "sent": 17
+    "scheduled": 0,
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-09T12:40:17.000Z"
+   "visto": "2026-11-09T14:00:18.000Z"
   }
  },
  "contenidos": {
@@ -12665,19 +12665,20 @@
    "viral": false
   },
   "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814|x": {
-   "actualizado": "2026-11-09T12:20:14.000Z",
+   "actualizado": "2026-11-09T14:00:18.000Z",
    "buffer_id": "6af1ba7f9c89efdcd5b9da93",
    "clave": "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814|x",
    "creado": "2026-11-09T10:20:14.000Z",
    "dueAt": "2026-11-09T13:37:50.000Z",
+   "enviado": "2026-11-09T13:38:01.926Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:03:12.423Z",
    "id": "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814",
    "ig_hora": "2026-11-09T13:37:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119786590872432962",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-chivilcoy-campeon-sub-23-gran-actuacion-de-maximo-sala-en-el",
    "noticia": "nota:ciclismo-chivilcoy-campeon-sub-23-gran-actuacion-de-maximo-sala-en-el",
    "origen": "web",
@@ -12757,19 +12758,20 @@
    "viral": false
   },
   "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x": {
-   "actualizado": "2026-11-09T12:40:18.000Z",
+   "actualizado": "2026-11-09T14:00:18.000Z",
    "buffer_id": "6af1bf3279df38f6f58939de",
    "clave": "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x",
    "creado": "2026-11-09T10:20:14.000Z",
    "dueAt": "2026-11-09T13:52:21.000Z",
+   "enviado": "2026-11-09T13:52:31.305Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:03:16.691Z",
    "id": "web:160a1c97-6c1f-4723-8b48-a54f7405c098",
    "ig_hora": "2026-11-09T13:52:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119790237203226828",
    "nota_url": "https://www.diariolacampaña.com.ar/n/handball-gran-cosecha-de-independiente-en-25-de-mayo-por-la-superliga",
    "noticia": "nota:handball-gran-cosecha-de-independiente-en-25-de-mayo-por-la-superliga",
    "origen": "web",
@@ -13170,19 +13172,20 @@
    "viral": false
   },
   "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x": {
-   "actualizado": "2026-11-09T11:40:15.000Z",
+   "actualizado": "2026-11-09T14:00:18.000Z",
    "buffer_id": "6af1b11f03b6251bb37b5830",
    "clave": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x",
    "creado": "2026-11-09T10:20:14.000Z",
    "dueAt": "2026-11-09T12:52:21.000Z",
+   "enviado": "2026-11-09T12:52:31.326Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:02:58.782Z",
    "id": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15",
    "ig_hora": "2026-11-09T12:52:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119775137947893988",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-federal-a-douglas-haig-gano-por-la-minima-y-viajara-con",
    "noticia": "nota:futbol-federal-a-douglas-haig-gano-por-la-minima-y-viajara-con",
    "origen": "web",
@@ -14640,19 +14643,20 @@
    "viral": false
   },
   "web:8d454526-fe37-4a5c-a733-afb21a24349b|x": {
-   "actualizado": "2026-11-09T12:00:21.000Z",
+   "actualizado": "2026-11-09T14:00:18.000Z",
    "buffer_id": "6af1b5d72c4acc7aad277c54",
    "clave": "web:8d454526-fe37-4a5c-a733-afb21a24349b|x",
    "creado": "2026-11-09T10:20:14.000Z",
    "dueAt": "2026-11-09T13:22:18.000Z",
+   "enviado": "2026-11-09T13:22:31.057Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:03:07.910Z",
    "id": "web:8d454526-fe37-4a5c-a733-afb21a24349b",
    "ig_hora": "2026-11-09T13:22:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119782686529073393",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-clasificados-a-cuartos-del-torneo-prefederal-somisa-goleo-y",
    "noticia": "nota:basquet-clasificados-a-cuartos-del-torneo-prefederal-somisa-goleo-y",
    "origen": "web",
@@ -14669,19 +14673,20 @@
    "viral": false
   },
   "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x": {
-   "actualizado": "2026-11-09T11:40:15.000Z",
+   "actualizado": "2026-11-09T14:00:18.000Z",
    "buffer_id": "6af1b12091e5a427b1aa86f2",
    "clave": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x",
    "creado": "2026-11-09T10:20:14.000Z",
    "dueAt": "2026-11-09T13:07:12.000Z",
+   "enviado": "2026-11-09T13:07:16.223Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:03:02.951Z",
    "id": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577",
    "ig_hora": "2026-11-09T13:07:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119778849328099752",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-la-fase-regular-del-clausura-en-su-etapa-de",
    "noticia": "nota:basquet-chivilcoy-la-fase-regular-del-clausura-en-su-etapa-de",
    "origen": "web",
@@ -16934,35 +16939,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x",
-   "cuando": "2026-11-02T13:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117242581394374685"
-  },
-  {
-   "clave": "web:2cd145f9-d647-4204-81bc-4c12d0944591|x",
-   "cuando": "2026-11-02T14:20:25.000Z",
-   "evento": "enviado",
-   "link": "https://twitter.com/diarioyradio/status/2117257610692858296"
-  },
-  {
-   "clave": "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x",
-   "cuando": "2026-11-02T14:20:25.000Z",
-   "evento": "enviado",
-   "link": "https://twitter.com/diarioyradio/status/2117246287523229817"
-  },
-  {
-   "clave": "web:987bd392-013a-42fa-93e2-03b50c823a35|x",
-   "cuando": "2026-11-02T15:40:26.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117261456282472615"
-  },
-  {
-   "clave": "entrevistas:job00269",
-   "cuando": "2026-11-02T17:00:19.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00269|x",
    "cuando": "2026-11-02T17:00:19.000Z",
@@ -21109,6 +21085,36 @@
    "cuando": "2026-11-09T12:40:19.000Z",
    "dueAt": "2026-11-09T13:52:21.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814|x",
+   "cuando": "2026-11-09T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119786590872432962"
+  },
+  {
+   "clave": "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x",
+   "cuando": "2026-11-09T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119790237203226828"
+  },
+  {
+   "clave": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x",
+   "cuando": "2026-11-09T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119775137947893988"
+  },
+  {
+   "clave": "web:8d454526-fe37-4a5c-a733-afb21a24349b|x",
+   "cuando": "2026-11-09T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119782686529073393"
+  },
+  {
+   "clave": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x",
+   "cuando": "2026-11-09T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119778849328099752"
   }
  ],
  "tandas": {
@@ -21146,7 +21152,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-09",
- "ultima_sync": "2026-11-09T12:40:17.000Z",
+ "ultima_sync": "2026-11-09T14:00:18.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

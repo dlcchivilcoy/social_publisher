@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 09/11/2026 10:40 (hora AR) · ACTIVO
+Actualizado: 09/11/2026 11:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-09)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 09/11/2026 10:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 5 | 0 | 0 | 1 | 0 |
+| Notas web | X | 15 | 15 | 0 | 0 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 17 enviadas + 4 programadas de 100 por día
+- X: conectado · Buffer: 22 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -33,11 +33,6 @@ Actualizado: 09/11/2026 10:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-09T10:20 recibido web:8d454526-fe37-4a5c-a733-afb21a24349b|x 
-- 2026-11-09T10:20 recibido web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x 
-- 2026-11-09T10:20 recibido web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x 
-- 2026-11-09T10:20 recibido web:9da65e87-8b1a-426a-922a-94936fe79688|x 
-- 2026-11-09T10:20 recibido web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x 
 - 2026-11-09T10:20 recibido web:5de0a567-504a-4513-8e76-0f10b16b1c52|x 
 - 2026-11-09T10:20 enviado web:6e187d9a-8633-4631-9f81-02dcf59a7bbb|x 
 - 2026-11-09T10:20 programado web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x 
@@ -58,3 +53,8 @@ Actualizado: 09/11/2026 10:40 (hora AR) · ACTIVO
 - 2026-11-09T12:40 enviado web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x 
 - 2026-11-09T12:40 enviado web:9da65e87-8b1a-426a-922a-94936fe79688|x 
 - 2026-11-09T12:40 programado web:160a1c97-6c1f-4723-8b48-a54f7405c098|x 
+- 2026-11-09T14:00 enviado web:0ee18e61-d4a2-470e-b13a-cc50e25e5814|x 
+- 2026-11-09T14:00 enviado web:160a1c97-6c1f-4723-8b48-a54f7405c098|x 
+- 2026-11-09T14:00 enviado web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x 
+- 2026-11-09T14:00 enviado web:8d454526-fe37-4a5c-a733-afb21a24349b|x 
+- 2026-11-09T14:00 enviado web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x 
