@@ -4629,6 +4629,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-prefederal-la-fecha-9-se-disputa-con-la-atencion",
    "volanta": "Básquet"
   },
+  "web:a4af8e93-1494-4e38-bc38-5764b271088c": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Racing cayó ante Regatas en el Grilon Arena por la Liga Nacional CHIVILCOY.– Racing cayó ante Regatas en el Grilon Arena y volverá a jugar de local el 17 de noviembre. El equipo de Chivilcoy perdió por 80 a 68 frente al conjunto correntino por la Liga Nacional de Básquet. Su próximo compromiso en casa será ante Lanús. Racing de Chivilcoy no pudo hacerse fuerte como local y cayó por 80 a 68 frente a Regatas Corrientes en el Grilon Arena. El conjunto visitante se quedó con el...",
+   "generado": "2026-11-09T02:49:14.577Z",
+   "id": "web:a4af8e93-1494-4e38-bc38-5764b271088c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2a125a328261496a97620b29e4021f94~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-cayo-ante-regatas-en-el-grilon",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Racing cayó ante Regatas en el Grilon Arena por la Liga Nacional",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-racing-cayo-ante-regatas-en-el-grilon",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4": {
    "categoria": "",
    "descripcion": "Chivilcoy: DEPORTIVO COLÓN recibe a Belgrano de San Nicolás por el Prefederal CHIVILCOY.– Por la fecha 9 del Prefederal, COLÓN, que ya está ascendido gracias a la final ganada en JUNIN ante San MARTIN, jugará esta noche ante Belgrano de San Nicolás desde las 21 en el Oscar y Alfredo Barca. Como antecedente, el León viene de hacer un partidazo contra Somisa sin la suerte de salir victorioso, pero sí le ganó a Argentino de Pergamino en la ruta y a Porteño de Chacabuco con mucha solidez de...",
@@ -5933,43 +5952,6 @@
    "titulo": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos",
    "urgente": false,
    "vence": "2026-11-01T01:54:39.000Z",
-   "video_bytes": 774012,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5a90ebb65d014673.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x": {
-   "actualizado": "2026-10-30T09:00:19.000Z",
-   "buffer_id": "6ae3fa3d6385db216a1c76d2",
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va|x",
-   "creado": "2026-10-30T02:00:19.000Z",
-   "dueAt": "2026-10-30T02:02:59.000Z",
-   "enviado": "2026-10-30T02:03:05.799Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-30T01:54:39.000Z",
-   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvubc79tl6va",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2115987825971572746",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 57,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
-   "noticia": "nota:chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos\n\nEl Tribunal de Disciplina Deportiva del Interior confirmó la sanción al conjunto correntino por los incidentes del pasado 25 de octubre.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-gimnasia-avanzo-a-cuartos-de-final-tras-el-fallo",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Gimnasia avanzó a cuartos de final tras el fallo contra Boca Unidos",
-   "urgente": false,
-   "vence": "2026-10-30T03:54:39.000Z",
    "video_bytes": 774012,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5a90ebb65d014673.mp4",
    "viral": false
@@ -14933,6 +14915,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:a4af8e93-1494-4e38-bc38-5764b271088c|x": {
+   "actualizado": "2026-11-09T09:00:24.000Z",
+   "buffer_id": "",
+   "clave": "web:a4af8e93-1494-4e38-bc38-5764b271088c|x",
+   "creado": "2026-11-09T09:00:17.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-09T02:49:14.577Z",
+   "id": "web:a4af8e93-1494-4e38-bc38-5764b271088c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-cayo-ante-regatas-en-el-grilon",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-racing-cayo-ante-regatas-en-el-grilon",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Racing cayó ante Regatas en el Grilon Arena por la Liga Nacional\n\nEl equipo local perdió por 80 a 68 frente al conjunto correntino por la Liga Nacional de Básquet. Su próximo compromiso en casa será ante Lanús.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-cayo-ante-regatas-en-el-grilon",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Racing cayó ante Regatas en el Grilon Arena por la Liga Nacional",
+   "urgente": false,
+   "vence": "2026-11-09T06:49:14.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x": {
    "actualizado": "2026-11-06T17:00:28.000Z",
    "buffer_id": "",
@@ -16584,20 +16593,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://junin24.com/locales/solo-danos-materiales-como-consecuencia-de-un-principio-de-incendio-en-una-cocina|x",
-   "cuando": "2026-11-02T00:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html|x",
-   "cuando": "2026-11-02T00:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
   {
    "clave": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x",
    "cuando": "2026-11-02T01:20:13.000Z",
@@ -20757,6 +20752,20 @@
    "cuando": "2026-11-09T02:20:14.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:a4af8e93-1494-4e38-bc38-5764b271088c|x",
+   "cuando": "2026-11-09T09:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:a4af8e93-1494-4e38-bc38-5764b271088c|x",
+   "cuando": "2026-11-09T09:00:24.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -21805,6 +21814,7 @@
   "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b": "2026-10-20T10:20:14.000Z",
   "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
   "web:a4aaef63-2f2e-48a4-98a8-f9f432c767df": "2026-10-14T16:20:15.000Z",
+  "web:a4af8e93-1494-4e38-bc38-5764b271088c": "2026-11-09T09:00:17.000Z",
   "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4": "2026-11-06T17:00:18.000Z",
   "web:a604bb88-c1b1-4d8c-aeb4-73f24939ba20": "2026-10-26T12:06:06.000Z",
   "web:a642e972-d928-4d92-8619-4b52387cb16a": "2026-11-03T02:00:19.000Z",

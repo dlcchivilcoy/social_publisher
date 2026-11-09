@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 08/11/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 09/11/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-11-08)
+## Hoy (2026-11-09)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 3 | 0 | 0 | 0 | 2 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 5 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,7 +18,7 @@ Actualizado: 08/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 24 con métricas · mediana vistas/impresiones 26.5 · likes 0
-- X · Reels del bot: 26 con métricas · mediana vistas/impresiones 29 · likes 0
+- X · Reels del bot: 25 con métricas · mediana vistas/impresiones 28 · likes 0
 - X · Reels policiales: 13 con métricas · mediana vistas/impresiones 36 · likes 0
 - X · Notas web: 67 con métricas · mediana vistas/impresiones 19 · likes 0
 - TikTok · Recortes de entrevistas: 26 con métricas · mediana vistas/impresiones 161.5 · likes 1.5
@@ -33,8 +33,6 @@ Actualizado: 08/11/2026 23:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-08T23:00 recibido bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok 
-- 2026-11-08T23:00 recibido web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-08T23:00 enviado policiales:https://www.junindigital.com/policiales/2026-11-8 
 - 2026-11-08T23:00 programado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x 
 - 2026-11-08T23:00 programado policiales:https://www.bragadoinforma.com.ar/nota/31139/moto 
@@ -58,3 +56,5 @@ Actualizado: 08/11/2026 23:40 (hora AR) · ACTIVO
 - 2026-11-09T01:20 enviado policiales:https://www.junindigital.com/policiales/2026-11-8 
 - 2026-11-09T01:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/incendio- espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-09T02:20 vencido policiales:https://semanariodejunin.com.ar/nota/76374/un-mot espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-09T09:00 recibido web:a4af8e93-1494-4e38-bc38-5764b271088c|x 
+- 2026-11-09T09:00 vencido web:a4af8e93-1494-4e38-bc38-5764b271088c|x no hubo lugar antes de su vencimiento
