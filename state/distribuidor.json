@@ -2014,6 +2014,32 @@
    "volanta": "Chivilcoy en Junín",
    "youtube_url": "https://youtube.com/shorts/dnZ57_CYQVI"
   },
+  "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin": {
+   "categoria": "otro_policial",
+   "descripcion": "Un motociclista que realizaba maniobras imprudentes perdió el control del rodado e impactó contra un vehículo estacionado. Ocurrió por la noche sobre la avenida San Martín. No se registraron personas heridas.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-09T00:01:18.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-motociclista-choco-contra-una-camioneta-estacionada-tras-89beab",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Un motociclista que circulaba haciendo willy por la avenida San Martín perdió el control de su rodado y terminó chocando contra una camioneta estacionada a pocos metros de la calle Paso.\n\nEl episodio ocurrió durante la noche y quedó registrado por las cámaras de seguridad de la zona, según se informó oficialmente.\n\nAfortunadamente, a pesar de la violencia del impacto y la maniobra imprudente, no se registraron personas lesionadas tras el siniestro.\n\nEl hecho vuelve a poner en foco la problemática de las picadas y las acrobacias peligrosas en la vía pública en distintos puntos de la ciudad.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #SiniestroVial #SeguridadVial #BuenosAires",
+   "tipo": "video",
+   "titulo": "Choque y caída en avenida San Martín por hacer willy con la moto",
+   "urgente": false,
+   "video_bytes": 70871,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_09_junin_choque-y-ca-da-en-avenida-san-.mp4",
+   "volanta": "Siniestro vial en Junín",
+   "youtube_url": "https://youtube.com/shorts/eVy9xkB3UWo"
+  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html": {
    "categoria": "incendio",
    "descripcion": "Un hombre de 68 años y su hijo de 36 salvaron su vida tras incendiarse el Alfa Romeo en el que viajaban desde 25 de Mayo hacia Bragado. Ocurrió en el kilómetro 44 de la Ruta Provincial 46.",
@@ -11268,6 +11294,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_04_junin_beba-internada-por-abuso-y-den.mp4",
    "viral": true
   },
+  "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x": {
+   "actualizado": "2026-11-09T00:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x",
+   "creado": "2026-11-09T00:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T00:01:18.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-motociclista-choco-contra-una-camioneta-estacionada-tras-89beab",
+   "noticia": "nota:junin-motociclista-choco-contra-una-camioneta-estacionada-tras-89beab",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Choque y caída en avenida San Martín por hacer willy con la moto\n\nUn motociclista que realizaba maniobras imprudentes impactó contra un vehículo estacionado. Ocurrió por la noche y no hubo heridos.\n\nhttps://www.diariolacampaña.com.ar/n/junin-motociclista-choco-contra-una-camioneta-estacionada-tras-89beab",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque y caída en avenida San Martín por hacer willy con la moto",
+   "urgente": false,
+   "vence": "2026-11-09T02:01:18.000Z",
+   "video_bytes": 70871,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_09_junin_choque-y-ca-da-en-avenida-san-.mp4",
+   "viral": false
+  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html|x": {
    "actualizado": "2026-10-31T02:20:21.000Z",
    "buffer_id": "",
@@ -16973,12 +17027,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok",
-   "cuando": "2026-11-01T15:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7703204491524361473"
-  },
-  {
    "buffer_id": "6ae7a8641120555c2a37da1d",
    "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok",
    "cuando": "2026-11-01T21:00:20.000Z",
@@ -21151,6 +21199,14 @@
    "cuando": "2026-11-09T00:00:30.000Z",
    "dueAt": "2026-11-09T00:23:35.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x",
+   "cuando": "2026-11-09T00:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -21626,6 +21682,7 @@
   "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado": "2026-11-03T00:40:17.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada": "2026-11-05T22:20:13.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre": "2026-11-06T22:40:13.000Z",
+  "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin": "2026-11-09T00:20:14.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30984/robaron-una-camioneta-durante-la-fiesta-del-caballo.html": "2026-10-12T09:00:23.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/30986/despisto-y-volco-un-auto-en-la-ruta-provincial-46-a-la-altura-de-la-bajada-a-warnes.html": "2026-10-12T15:40:18.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html": "2026-10-15T14:00:19.000Z",

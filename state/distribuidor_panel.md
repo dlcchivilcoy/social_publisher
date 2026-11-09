@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 08/11/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 08/11/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-08)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 08/11/2026 21:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 2 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 1 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 2 | 1 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,14 +27,14 @@ Actualizado: 08/11/2026 21:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
 - X · Reels policiales · Incendio total de un vehículo en la autopista Chacabuco-Junín — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Choque y caída en avenida San Martín por hacer willy con la moto — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-08T21:00 enviado bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x 
 - 2026-11-08T21:00 programado bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok 
 - 2026-11-08T21:00 programado bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok 
 - 2026-11-08T22:00 enviado bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok 
@@ -59,3 +59,4 @@ Actualizado: 08/11/2026 21:00 (hora AR) · ACTIVO
 - 2026-11-09T00:00 programado policiales:https://www.junindigital.com/policiales/2026-11-8 
 - 2026-11-09T00:00 programado bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok 
 - 2026-11-09T00:00 programado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok 
+- 2026-11-09T00:20 recibido policiales:https://semanariodejunin.com.ar/nota/76374/un-mot 
