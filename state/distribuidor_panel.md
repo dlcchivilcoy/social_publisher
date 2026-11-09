@@ -1,27 +1,27 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 08/11/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 08/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-08)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 2 | 2 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 1 | 2 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 3 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 7 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 4 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 24 con métricas · mediana vistas/impresiones 26.5 · likes 0
-- X · Reels del bot: 29 con métricas · mediana vistas/impresiones 29 · likes 0
-- X · Reels policiales: 16 con métricas · mediana vistas/impresiones 36.5 · likes 0
+- X · Reels del bot: 27 con métricas · mediana vistas/impresiones 29 · likes 0
+- X · Reels policiales: 14 con métricas · mediana vistas/impresiones 36.5 · likes 0
 - X · Notas web: 67 con métricas · mediana vistas/impresiones 19 · likes 0
-- TikTok · Recortes de entrevistas: 27 con métricas · mediana vistas/impresiones 162 · likes 2
+- TikTok · Recortes de entrevistas: 26 con métricas · mediana vistas/impresiones 161.5 · likes 1.5
 - TikTok · Reels del bot: 34 con métricas · mediana vistas/impresiones 414 · likes 4.5
 
 ## Cuota de la API de Buffer
@@ -35,10 +35,6 @@ Actualizado: 08/11/2026 22:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-08T22:00 enviado bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok 
-- 2026-11-08T22:00 enviado bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok 
-- 2026-11-08T22:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-8 
-- 2026-11-08T22:20 programado policiales:https://www.junindigital.com/policiales/2026-11-8 
 - 2026-11-08T22:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/31139/moto 
 - 2026-11-08T23:00 recibido bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x 
 - 2026-11-08T23:00 recibido bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok 
@@ -60,3 +56,7 @@ Actualizado: 08/11/2026 22:00 (hora AR) · ACTIVO
 - 2026-11-09T00:20 recibido policiales:https://semanariodejunin.com.ar/nota/76374/un-mot 
 - 2026-11-09T01:00 recibido web:31292745-1874-4666-bb1a-583ba97f9032|x 
 - 2026-11-09T01:00 depurado web:31292745-1874-4666-bb1a-583ba97f9032|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-09T01:20 enviado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok 
+- 2026-11-09T01:20 enviado bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok 
+- 2026-11-09T01:20 enviado bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x 
+- 2026-11-09T01:20 enviado policiales:https://www.junindigital.com/policiales/2026-11-8 
