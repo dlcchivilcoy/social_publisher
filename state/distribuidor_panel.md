@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 08/11/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 08/11/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-08)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 08/11/2026 21:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 3 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 2 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 2 | 1 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -35,8 +35,6 @@ Actualizado: 08/11/2026 21:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-08T21:00 programado bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok 
-- 2026-11-08T21:00 programado bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok 
 - 2026-11-08T22:00 enviado bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok 
 - 2026-11-08T22:00 enviado bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok 
 - 2026-11-08T22:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-8 
@@ -60,3 +58,5 @@ Actualizado: 08/11/2026 21:40 (hora AR) · ACTIVO
 - 2026-11-09T00:00 programado bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok 
 - 2026-11-09T00:00 programado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok 
 - 2026-11-09T00:20 recibido policiales:https://semanariodejunin.com.ar/nota/76374/un-mot 
+- 2026-11-09T01:00 recibido web:31292745-1874-4666-bb1a-583ba97f9032|x 
+- 2026-11-09T01:00 depurado web:31292745-1874-4666-bb1a-583ba97f9032|x de la web, a X solo van las notas del diario de la mañana

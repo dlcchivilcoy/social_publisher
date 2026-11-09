@@ -3607,6 +3607,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/atletismo-chivilcoy-hizo-podio-en-santa-fe-brillante-actuacion-del",
    "volanta": "Atletismo"
   },
+  "web:31292745-1874-4666-bb1a-583ba97f9032": {
+   "categoria": "",
+   "descripcion": "Racing de Chivilcoy venció a Regatas de Corrientes en la Liga de Desarrollo Racing de Chivilcoy consiguió una importante victoria en la Liga de Desarrollo al vencer a Regatas de Corrientes por 93 a 83, en un encuentro en el que el conjunto local volvió a demostrar su potencial y se quedó con un valioso resultado. Tomás Delía fue la figura.",
+   "generado": "2026-11-09T00:58:01.228Z",
+   "id": "web:31292745-1874-4666-bb1a-583ba97f9032",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7b3f400f4ce44b1c9c12516e3066eb65~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-racing-de-chivilcoy-vencio-a-regatas-de-corrientes",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Racing de Chivilcoy venció a Regatas de Corrientes en la Liga de Desarrollo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-racing-de-chivilcoy-vencio-a-regatas-de-corrientes",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe": {
    "categoria": "",
    "descripcion": "Fernando Cabani advirtió sobre el impacto de las apuestas online en Chivilcoy El concejal Fernando Cabani visitó los estudios de Radio del Centro durante el programa La Mañana del Centro, donde abordó la problemática del avance de las apuestas virtuales en los jóvenes y analizó las iniciativas legislativas orientadas a regular esta actividad en el territorio bonaerense. Durante la charla, el edil se refirió a las repercusiones tras la visita de los diputados provinciales Facundo Tignanelli y...",
@@ -3720,25 +3739,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-a-cuartos-de-final-gimnasia-de-chivilcoy-avanzo-en-el-federal",
    "volanta": "Fútbol"
-  },
-  "web:41b50fea-05eb-4988-89d9-dc639e73ba72": {
-   "categoria": "",
-   "descripcion": "Chivilcoy Teatrero abrió una nueva edición con un recorrido histórico En la tarde del jueves quedó inaugurada una nueva edición de Chivilcoy Teatrero, con una propuesta innovadora que combinó teatro, historia e identidad local en un escenario emblemático: la Plaza 25 de Mayo. La apertura se realizó a través de un tour teatral protagonizado por 18 artistas pertenecientes a distintos elencos de la ciudad, quienes dieron vida a personajes y episodios significativos de la historia chivilcoyana. A...",
-   "generado": "2026-10-30T00:26:50.397Z",
-   "id": "web:41b50fea-05eb-4988-89d9-dc639e73ba72",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_730875f108e44b33b39067d27e41e99c~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-teatrero-abrio-una-nueva-edicion-con-un",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy Teatrero abrió una nueva edición con un recorrido histórico",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-chivilcoy-teatrero-abrio-una-nueva-edicion-con-un",
-   "volanta": "Chivilcoy · Cultura"
   },
   "web:436624c4-dead-4338-b58f-541ff1196bfe": {
    "categoria": "",
@@ -13423,6 +13423,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:31292745-1874-4666-bb1a-583ba97f9032|x": {
+   "actualizado": "2026-11-09T01:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:31292745-1874-4666-bb1a-583ba97f9032|x",
+   "creado": "2026-11-09T01:00:19.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-09T00:58:01.228Z",
+   "id": "web:31292745-1874-4666-bb1a-583ba97f9032",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-racing-de-chivilcoy-vencio-a-regatas-de-corrientes",
+   "noticia": "nota:chivilcoy-deportes-racing-de-chivilcoy-vencio-a-regatas-de-corrientes",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Racing de Chivilcoy venció a Regatas de Corrientes en la Liga de Desarrollo\n\nEl resultado final fue de 93 a 83. El conjunto local demostró su potencial y Tomás Delía fue la figura del encuentro.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-racing-de-chivilcoy-vencio-a-regatas-de-corrientes",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Racing de Chivilcoy venció a Regatas de Corrientes en la Liga de Desarrollo",
+   "urgente": false,
+   "vence": "2026-11-09T04:58:01.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe|x": {
    "actualizado": "2026-10-30T10:21:00.000Z",
    "buffer_id": "6ae46b3eceb12661efdc7770",
@@ -13612,31 +13639,6 @@
    "titulo": "¡A cuartos de final!: Gimnasia de Chivilcoy avanzó en el Federal A tras el fallo contra Boca Unidos",
    "urgente": false,
    "vence": "2026-10-30T14:01:42.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:41b50fea-05eb-4988-89d9-dc639e73ba72|x": {
-   "actualizado": "2026-10-30T00:40:16.000Z",
-   "buffer_id": "",
-   "clave": "web:41b50fea-05eb-4988-89d9-dc639e73ba72|x",
-   "creado": "2026-10-30T00:40:16.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-30T00:26:50.397Z",
-   "id": "web:41b50fea-05eb-4988-89d9-dc639e73ba72",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-teatrero-abrio-una-nueva-edicion-con-un",
-   "noticia": "nota:chivilcoy-cultura-chivilcoy-teatrero-abrio-una-nueva-edicion-con-un",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy Teatrero abrió una nueva edición con un recorrido histórico",
-   "urgente": false,
-   "vence": "2026-10-30T04:26:50.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17026,19 +17028,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae7a8641120555c2a37da1d",
-   "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok",
-   "cuando": "2026-11-01T21:00:20.000Z",
-   "dueAt": "2026-11-01T21:03:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok",
-   "cuando": "2026-11-01T21:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7703311600094104850"
-  },
   {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x",
    "cuando": "2026-11-01T22:20:15.000Z",
@@ -21207,6 +21196,20 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "web:31292745-1874-4666-bb1a-583ba97f9032|x",
+   "cuando": "2026-11-09T01:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:31292745-1874-4666-bb1a-583ba97f9032|x",
+   "cuando": "2026-11-09T01:00:21.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21945,6 +21948,7 @@
   "web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe": "2026-10-19T10:20:14.000Z",
   "web:306a1afa-6396-4897-94c5-e852fbb14fdd": "2026-11-04T10:20:13.000Z",
   "web:30ade280-246e-4cd6-9721-15ac2e67f188": "2026-10-26T12:06:06.000Z",
+  "web:31292745-1874-4666-bb1a-583ba97f9032": "2026-11-09T01:00:19.000Z",
   "web:317c620f-6da5-4b5a-b6b9-577556143229": "2026-10-19T17:20:14.000Z",
   "web:31a6f540-e9dd-415d-9833-6137456f0a06": "2026-10-18T22:40:12.000Z",
   "web:31d2bd5c-cfb1-4907-a48e-1a8e6fbe2b4f": "2026-10-13T10:20:16.000Z",
