@@ -1482,6 +1482,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00288.mp4",
    "youtube_url": "https://youtu.be/tH52lKs3baU"
   },
+  "entrevistas:job00289": {
+   "descripcion": "El cura párroco Ricardo Rodriguez destacó la participación de vecinos de Chivilcoy en la misa papal. Un diácono y una joven de la comunidad tendrán roles protagónicos durante la celebración.",
+   "duracion_seg": null,
+   "entrevistado": "Ricardo Rodriguez",
+   "generado": "2026-11-09T16:40:15.000Z",
+   "id": "entrevistas:job00289",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Ricardo Rodriguez: Chivilcoyanos cerca del Papa",
+   "urgente": false,
+   "video_bytes": 23449290,
+   "video_mb": 22.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00289.mp4",
+   "youtube_url": "https://youtu.be/tJWLV8lPKP0"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -8457,43 +8478,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00265.mp4",
    "viral": false
   },
-  "entrevistas:job00265|x": {
-   "actualizado": "2026-10-30T16:40:15.000Z",
-   "buffer_id": "6ae4c3bfcd8290b9b9fd1403",
-   "clave": "entrevistas:job00265|x",
-   "creado": "2026-10-30T16:20:14.000Z",
-   "dueAt": "2026-10-30T16:22:26.000Z",
-   "enviado": "2026-10-30T16:22:36.352Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-30T16:20:14.000Z",
-   "id": "entrevistas:job00265",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2116204128800035266",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 24,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:contratista-jeni-negativas-rural-simone-tasas",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Jeni Simone: el contratista rural y el fin de las tasas negativas\n\nLa contratista rural chivilcoyana Jeni Simone explicó que, sin créditos que se licúen con la inflación, es indispensable calcular costos reales para asegurar la rentabilidad.\n\nhttps://youtu.be/Myl7AtK_nVg",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Jeni Simone: el contratista rural y el fin de las tasas negativas",
-   "urgente": false,
-   "vence": "2026-10-30T18:20:14.000Z",
-   "video_bytes": 16622588,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00265.mp4",
-   "viral": false
-  },
   "entrevistas:job00266|tiktok": {
    "actualizado": "2026-10-30T22:20:13.000Z",
    "buffer_id": "6ae5056a406ab8a018811b4e",
@@ -10240,6 +10224,62 @@
    "vence": "2026-11-06T21:00:17.000Z",
    "video_bytes": 28317983,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00288.mp4",
+   "viral": false
+  },
+  "entrevistas:job00289|tiktok": {
+   "actualizado": "2026-11-09T16:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00289|tiktok",
+   "creado": "2026-11-09T16:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-09T16:40:15.000Z",
+   "id": "entrevistas:job00289",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Ricardo Rodriguez: Chivilcoyanos cerca del Papa\n\nEl cura párroco Ricardo Rodriguez destacó la participación de vecinos de Chivilcoy en la misa papal. Un diácono y una joven de la comunidad tendrán roles protagónicos durante la celebración.\n\nhttps://youtu.be/tJWLV8lPKP0\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ricardo Rodriguez: Chivilcoyanos cerca del Papa",
+   "urgente": false,
+   "vence": "2026-11-11T16:40:15.000Z",
+   "video_bytes": 23449290,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00289.mp4",
+   "viral": false
+  },
+  "entrevistas:job00289|x": {
+   "actualizado": "2026-11-09T16:40:16.000Z",
+   "buffer_id": "6af1f771704ab85a6bd54162",
+   "clave": "entrevistas:job00289|x",
+   "creado": "2026-11-09T16:40:15.000Z",
+   "dueAt": "2026-11-09T16:42:39.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-09T16:40:15.000Z",
+   "id": "entrevistas:job00289",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:cerca-chivilcoyanos-papa-ricardo-rodriguez",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Ricardo Rodriguez: Chivilcoyanos cerca del Papa\n\nEl cura párroco Ricardo Rodriguez destacó la participación de vecinos de Chivilcoy en la misa papal. Un diácono y una joven de la comunidad tendrán roles protagónicos durante la celebración.\n\nhttps://youtu.be/tJWLV8lPKP0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ricardo Rodriguez: Chivilcoyanos cerca del Papa",
+   "urgente": false,
+   "vence": "2026-11-09T18:40:15.000Z",
+   "video_bytes": 23449290,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00289.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
@@ -16390,34 +16430,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00269|x",
-   "cuando": "2026-11-02T17:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00269|tiktok",
-   "cuando": "2026-11-02T17:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6ae8c1ab16eeb393286b2767",
-   "clave": "entrevistas:job00269|x",
-   "cuando": "2026-11-02T17:00:30.000Z",
-   "dueAt": "2026-11-02T17:02:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00270",
-   "cuando": "2026-11-02T17:20:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
    "clave": "entrevistas:job00270|x",
    "cuando": "2026-11-02T17:20:18.000Z",
    "estado": "pendiente",
@@ -20565,6 +20577,34 @@
    "cuando": "2026-11-09T14:00:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2119778849328099752"
+  },
+  {
+   "clave": "entrevistas:job00289",
+   "cuando": "2026-11-09T16:40:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00289|x",
+   "cuando": "2026-11-09T16:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00289|tiktok",
+   "cuando": "2026-11-09T16:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af1f771704ab85a6bd54162",
+   "clave": "entrevistas:job00289|x",
+   "cuando": "2026-11-09T16:40:17.000Z",
+   "dueAt": "2026-11-09T16:42:39.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20890,6 +20930,7 @@
   "entrevistas:job00286": "2026-11-06T17:40:14.000Z",
   "entrevistas:job00287": "2026-11-06T18:20:14.000Z",
   "entrevistas:job00288": "2026-11-06T19:00:17.000Z",
+  "entrevistas:job00289": "2026-11-09T16:40:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
