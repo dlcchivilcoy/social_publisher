@@ -957,27 +957,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d8a3834b9be48b72.mp4",
    "youtube_url": "https://www.youtube.com/shorts/TGl9aLUTXYY"
   },
-  "entrevistas:job00265": {
-   "descripcion": "La contratista rural chivilcoyana Jeni Simone explicó que, sin créditos que se licúen con la inflación, es indispensable calcular costos reales para asegurar la rentabilidad.",
-   "duracion_seg": null,
-   "entrevistado": "Jeni Simone",
-   "generado": "2026-10-30T16:20:14.000Z",
-   "id": "entrevistas:job00265",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Jeni Simone: el contratista rural y el fin de las tasas negativas",
-   "urgente": false,
-   "video_bytes": 16622588,
-   "video_mb": 15.9,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00265.mp4",
-   "youtube_url": "https://youtu.be/Myl7AtK_nVg"
-  },
   "entrevistas:job00269": {
    "descripcion": "En Chivilcoy, el fotógrafo Daniel Muchiut reflexiona sobre el vínculo humano detrás de su obra documental y cómo transforma su vida. Asegura que el arte es un acto de amor profundo por el otro.",
    "duracion_seg": null,
@@ -1710,6 +1689,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_10_junin_aprehendieron-a-un-empleado-de.mp4",
    "volanta": "Robo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/J3z-4A9RtDI"
+  },
+  "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina": {
+   "categoria": "operativo_policial",
+   "descripcion": "Durante el fin de semana largo, agentes municipales y policiales interceptaron una Ford EcoSport tras una persecución y cortaron una reunión no autorizada con hasta noventa asistentes.",
+   "distancia_km": 70.7,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-09T23:02:56.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina",
+   "localidad": "Salto",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salto-secuestraron-una-camioneta-tras-una-fuga-y-desarticularon-22f18d",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "El área de fiscalización urbana llevó adelante diversos procedimientos preventivos durante el fin de semana en diferentes puntos de la región.\n\nEntre los casos más destacados, un rodado fue retenido tras múltiples infracciones y amenazas al personal.\n\nAdemás, desbarataron una celebración ilegal e inspeccionaron localidades vecinas.\n\n📲 Más noticias de Salto en www.diariolacampaña.com.ar\n\n#Salto #OperativoPolicial #SeguridadVial #BuenosAires",
+   "tipo": "video",
+   "titulo": "Secuestraron una camioneta y frenaron una fiesta clandestina con 90 personas en Salto",
+   "urgente": false,
+   "video_bytes": 110448,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_04_pergamino_secuestraron-una-camioneta-y-f.mp4",
+   "volanta": "Operativos viales en Salto",
+   "youtube_url": "https://youtube.com/shorts/5JA3kA8haWo"
   },
   "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/": {
    "categoria": "otro_policial",
@@ -5767,43 +5772,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_512e278f4010448a.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|x": {
-   "actualizado": "2026-10-30T23:20:14.000Z",
-   "buffer_id": "6ae521871891472093a0e362",
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|x",
-   "creado": "2026-10-30T23:00:20.000Z",
-   "dueAt": "2026-10-30T23:02:16.000Z",
-   "enviado": "2026-10-30T23:02:45.068Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-30T22:52:24.000Z",
-   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2116304828573856144",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 3.13,
-    "impressions": 32,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
-   "noticia": "nota:ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Oscar Potetti afirmó que la reactivación del tramo Mercedes-Suipacha es una falsa alarma\n\nEl ingeniero Oscar Potetti sostuvo que las obras en la Ruta 5 solo abarcan la travesía de Mercedes. Además, pidió fondos para terminar el tramo hasta Suipacha.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Oscar Potetti afirmó que la reactivación del tramo Mercedes-Suipacha es una falsa alarma",
-   "urgente": false,
-   "vence": "2026-10-31T00:52:24.000Z",
-   "video_bytes": 2037136,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_512e278f4010448a.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok": {
    "actualizado": "2026-11-01T02:00:24.000Z",
    "buffer_id": "6ae6811aab019b9087306dfe",
@@ -8340,45 +8308,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d8a3834b9be48b72.mp4",
    "viral": false
   },
-  "entrevistas:job00265|tiktok": {
-   "actualizado": "2026-10-30T23:20:14.000Z",
-   "buffer_id": "6ae5056bb84259308b9f4980",
-   "categoria": "",
-   "clave": "entrevistas:job00265|tiktok",
-   "creado": "2026-10-30T16:20:14.000Z",
-   "dueAt": "2026-10-30T22:23:26.000Z",
-   "enviado": "2026-10-30T22:33:14.188Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-30T16:20:14.000Z",
-   "id": "entrevistas:job00265",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7702590119995542785",
-   "metricas": {
-    "averageTimeWatched": 4.06,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 31,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 10.33,
-    "views": 137
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Jeni Simone: el contratista rural y el fin de las tasas negativas\n\nLa contratista rural chivilcoyana Jeni Simone explicó que, sin créditos que se licúen con la inflación, es indispensable calcular costos reales para asegurar la rentabilidad.\n\nhttps://youtu.be/Myl7AtK_nVg\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Jeni Simone: el contratista rural y el fin de las tasas negativas",
-   "urgente": false,
-   "vence": "2026-11-01T16:20:14.000Z",
-   "video_bytes": 16622588,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00265.mp4",
-   "viral": false
-  },
   "entrevistas:job00269|tiktok": {
    "actualizado": "2026-11-02T22:20:21.000Z",
    "buffer_id": "6ae8f9e9b665951ec2fb9b31",
@@ -10419,6 +10348,34 @@
    "vence": "2026-11-04T02:32:31.000Z",
    "video_bytes": 2824439,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_10_junin_aprehendieron-a-un-empleado-de.mp4",
+   "viral": false
+  },
+  "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina|x": {
+   "actualizado": "2026-11-09T23:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina|x",
+   "creado": "2026-11-09T23:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T23:02:56.000Z",
+   "id": "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/salto-secuestraron-una-camioneta-tras-una-fuga-y-desarticularon-22f18d",
+   "noticia": "nota:salto-secuestraron-una-camioneta-tras-una-fuga-y-desarticularon-22f18d",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Secuestraron una camioneta y frenaron una fiesta clandestina con 90 personas en Salto\n\nAgentes municipales y policiales interceptaron una Ford EcoSport tras una persecución y cortaron una reunión no autorizada con hasta noventa asistentes.\n\nhttps://www.diariolacampaña.com.ar/n/salto-secuestraron-una-camioneta-tras-una-fuga-y-desarticularon-22f18d",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Secuestraron una camioneta y frenaron una fiesta clandestina con 90 personas en Salto",
+   "urgente": false,
+   "vence": "2026-11-10T01:02:56.000Z",
+   "video_bytes": 110448,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_04_pergamino_secuestraron-una-camioneta-y-f.mp4",
    "viral": false
   },
   "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/|x": {
@@ -16342,12 +16299,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero|x",
-   "cuando": "2026-11-03T02:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117438562312327507"
-  },
-  {
    "clave": "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado|x",
    "cuando": "2026-11-03T02:40:15.000Z",
    "evento": "vencido",
@@ -20506,6 +20457,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina|x",
+   "cuando": "2026-11-09T23:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -20968,6 +20927,7 @@
   "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba": "2026-10-22T00:20:17.000Z",
   "policiales:https://laopinionline.ar/articulo/la-policia-rural-se-desplego-en-operativos-de-controles-vehiculares-con-cinco-aprehendidos": "2026-10-14T02:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/salto-agredieron-a-inspectores-de-transito-y-secuestraron-vehiculos-durante-controles-viales": "2026-10-13T15:20:18.000Z",
+  "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina": "2026-11-09T23:20:16.000Z",
   "policiales:https://laopinionline.ar/articulo/san-nicolas-alerta-amarilla-por-tormentas-preven-lluvias-intensas-y-fuertes-rafagas-de-viento": "2026-10-15T18:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/san-pedro-incendio-en-papel-prensa-bomberos-trabajaron-durante-dos-horas-y-media-para-controlar-el-fuego": "2026-10-16T00:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/un-adolescente-denunciado-por-violencia-de-genero-ataco-con-un-hierro-una-camioneta-de-la-patrulla-urbana": "2026-10-15T02:00:18.000Z",
