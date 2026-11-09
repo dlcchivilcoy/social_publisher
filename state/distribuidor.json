@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-09T11:40:15.000Z"
+   "visto": "2026-11-09T12:40:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 3,
-    "sent": 14
+    "scheduled": 4,
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-11-09T11:40:15.000Z"
+   "visto": "2026-11-09T12:40:17.000Z"
   }
  },
  "contenidos": {
@@ -12795,14 +12795,14 @@
    "viral": false
   },
   "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x": {
-   "actualizado": "2026-11-09T10:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T12:40:18.000Z",
+   "buffer_id": "6af1bf3279df38f6f58939de",
    "clave": "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x",
    "creado": "2026-11-09T10:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T13:52:21.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-09T10:03:16.691Z",
    "id": "web:160a1c97-6c1f-4723-8b48-a54f7405c098",
    "ig_hora": "2026-11-09T13:52:26.000Z",
@@ -13765,19 +13765,20 @@
    "viral": false
   },
   "web:5de0a567-504a-4513-8e76-0f10b16b1c52|x": {
-   "actualizado": "2026-11-09T10:40:13.000Z",
+   "actualizado": "2026-11-09T12:40:17.000Z",
    "buffer_id": "6af1a30e68cee50bcba0c39e",
    "clave": "web:5de0a567-504a-4513-8e76-0f10b16b1c52|x",
    "creado": "2026-11-09T10:20:14.000Z",
    "dueAt": "2026-11-09T11:52:20.000Z",
+   "enviado": "2026-11-09T11:52:31.264Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:02:38.389Z",
    "id": "web:5de0a567-504a-4513-8e76-0f10b16b1c52",
    "ig_hora": "2026-11-09T11:52:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119760038029901863",
    "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-no-pude-contener-la-emocion",
    "noticia": "nota:opinion-no-pude-contener-la-emocion",
    "origen": "web",
@@ -13914,19 +13915,20 @@
    "viral": false
   },
   "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x": {
-   "actualizado": "2026-11-09T10:40:13.000Z",
+   "actualizado": "2026-11-09T12:40:17.000Z",
    "buffer_id": "6af1a30e72554a06de3d04a1",
    "clave": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x",
    "creado": "2026-11-09T10:20:14.000Z",
    "dueAt": "2026-11-09T12:07:32.000Z",
+   "enviado": "2026-11-09T12:07:46.196Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:02:46.013Z",
    "id": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52",
    "ig_hora": "2026-11-09T12:07:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119763875461517395",
    "nota_url": "https://www.diariolacampaña.com.ar/n/reflexion-la-visita-del-papa-leon-xiv",
    "noticia": "nota:reflexion-la-visita-del-papa-leon-xiv",
    "origen": "web",
@@ -15116,19 +15118,20 @@
    "viral": false
   },
   "web:9da65e87-8b1a-426a-922a-94936fe79688|x": {
-   "actualizado": "2026-11-09T11:20:14.000Z",
+   "actualizado": "2026-11-09T12:40:17.000Z",
    "buffer_id": "6af1ac6f9541fd37f93f02a0",
    "clave": "web:9da65e87-8b1a-426a-922a-94936fe79688|x",
    "creado": "2026-11-09T10:20:14.000Z",
    "dueAt": "2026-11-09T12:37:40.000Z",
+   "enviado": "2026-11-09T12:37:46.192Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:02:54.269Z",
    "id": "web:9da65e87-8b1a-426a-922a-94936fe79688",
    "ig_hora": "2026-11-09T12:37:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119771425477156996",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-clausura-de-primera-moquehua-conservo-la-punta-e",
    "noticia": "nota:futbol-chivilcoy-clausura-de-primera-moquehua-conservo-la-punta-e",
    "origen": "web",
@@ -17045,32 +17048,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae884afd3d929aa69ccd31e",
-   "clave": "web:2cd145f9-d647-4204-81bc-4c12d0944591|x",
-   "cuando": "2026-11-02T12:40:15.000Z",
-   "dueAt": "2026-11-02T14:08:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae8896b3911b6a45d4e53cc",
-   "clave": "web:987bd392-013a-42fa-93e2-03b50c823a35|x",
-   "cuando": "2026-11-02T13:00:29.000Z",
-   "dueAt": "2026-11-02T14:23:51.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:00e5dd74-44ac-4950-93b6-b45c439734be|x",
-   "cuando": "2026-11-02T13:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117238737063100808"
-  },
-  {
-   "clave": "web:2c6f475b-bc10-4a41-b949-4390268a7b97|x",
-   "cuando": "2026-11-02T13:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117235026840408269"
-  },
   {
    "clave": "web:816a3792-59b4-4a7e-af9a-a442a4ba3443|x",
    "cuando": "2026-11-02T13:20:16.000Z",
@@ -21221,6 +21198,31 @@
    "cuando": "2026-11-09T12:20:15.000Z",
    "dueAt": "2026-11-09T13:37:50.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:5de0a567-504a-4513-8e76-0f10b16b1c52|x",
+   "cuando": "2026-11-09T12:40:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119760038029901863"
+  },
+  {
+   "clave": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x",
+   "cuando": "2026-11-09T12:40:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119763875461517395"
+  },
+  {
+   "clave": "web:9da65e87-8b1a-426a-922a-94936fe79688|x",
+   "cuando": "2026-11-09T12:40:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119771425477156996"
+  },
+  {
+   "buffer_id": "6af1bf3279df38f6f58939de",
+   "clave": "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x",
+   "cuando": "2026-11-09T12:40:19.000Z",
+   "dueAt": "2026-11-09T13:52:21.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21258,7 +21260,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-09",
- "ultima_sync": "2026-11-09T11:40:15.000Z",
+ "ultima_sync": "2026-11-09T12:40:17.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
