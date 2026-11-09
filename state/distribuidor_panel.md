@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 08/11/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 08/11/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-08)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 08/11/2026 22:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 3 | 0 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 3 | 0 | 1 | 0 | 1 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,13 @@ Actualizado: 08/11/2026 22:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
-- X · Reels policiales · Incendio total de un vehículo en la autopista Chacabuco-Junín — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (1 esperando)
 - X · Reels policiales · Choque y caída en avenida San Martín por hacer willy con la moto — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-08T22:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/31139/moto 
 - 2026-11-08T23:00 recibido bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x 
 - 2026-11-08T23:00 recibido bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok 
 - 2026-11-08T23:00 recibido web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8|x la misma noticia ya sale en X (Reels del bot, pendiente)
@@ -60,3 +58,4 @@ Actualizado: 08/11/2026 22:20 (hora AR) · ACTIVO
 - 2026-11-09T01:20 enviado bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok 
 - 2026-11-09T01:20 enviado bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x 
 - 2026-11-09T01:20 enviado policiales:https://www.junindigital.com/policiales/2026-11-8 
+- 2026-11-09T01:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/incendio- espera su momento (se programa cerca de la hora en que sale en las otras redes)

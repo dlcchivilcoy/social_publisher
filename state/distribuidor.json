@@ -11634,14 +11634,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html|x": {
-   "actualizado": "2026-11-08T23:40:14.000Z",
+   "actualizado": "2026-11-09T01:40:14.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html|x",
    "creado": "2026-11-08T23:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-08T23:31:34.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html",
    "intentos": 0,
@@ -16729,14 +16729,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x",
-   "cuando": "2026-11-01T23:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea|x",
    "cuando": "2026-11-01T23:40:15.000Z",
    "estado": "pendiente",
@@ -20905,6 +20897,12 @@
    "cuando": "2026-11-09T01:20:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2119582564402823449"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html|x",
+   "cuando": "2026-11-09T01:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
