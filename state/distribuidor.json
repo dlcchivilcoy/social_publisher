@@ -2591,32 +2591,6 @@
    "volanta": "Principio de incendio en Junín",
    "youtube_url": "https://youtube.com/shorts/0Rq2zQbhUMQ"
   },
-  "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo": {
-   "categoria": "robo",
-   "descripcion": "Tres procedimientos policiales culminaron con la detención de un acusado de robar aberturas, la captura de un hombre requerido por la justicia y el secuestro de un arma de fuego sin numeración visible en la ciudad.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-29T23:31:53.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-sospechoso-de-robos-a-un-profugo-y-1b082d",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "radio_ok": true,
-   "texto_tiktok": "Una serie de operativos policiales simultáneos permitieron esclarecer distintos hechos delictivos en la ciudad.\n\nEn primer lugar, arrestaron a un individuo acusado de sustraer aberturas y materiales de dos obras en construcción.\n\nAdemás, interceptaron a un transeúnte que tenía un pedido de captura vigente por una causa de protección animal.\n\nPor último, un allanamiento culminó con el secuestro de un revólver sin numeración visible y la aprehensión del morador.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Robo #Inseguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Cayó un sospechoso por robos, atraparon a un prófugo y hallaron un arma",
-   "urgente": false,
-   "video_bytes": 81931,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_01_chacabuco_cay-un-sospechoso-por-robos-at.mp4",
-   "volanta": "Operativos policiales en Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/VhID-hG78T0"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific": {
    "categoria": "robo",
    "descripcion": "Un sospechoso de 36 años, oriundo de Lobos, fue arrestado en un hotel de Chacabuco tras robar una bicicleta Venzo de un medio local. La Policía recuperó el rodado.",
@@ -5920,43 +5894,6 @@
    "titulo": "El Municipio entregó el aporte mensual a 31 entidades deportivas",
    "urgente": false,
    "vence": "2026-11-01T01:19:21.000Z",
-   "video_bytes": 661424,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5dfb6909fceac284.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x": {
-   "actualizado": "2026-10-30T02:00:28.000Z",
-   "buffer_id": "6ae3f0d84b8768bfb2d24511",
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj|x",
-   "creado": "2026-10-30T01:20:15.000Z",
-   "dueAt": "2026-10-30T01:22:27.000Z",
-   "enviado": "2026-10-30T01:22:34.228Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-30T01:19:21.000Z",
-   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvua3jscgnsj",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2115977627450130527",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 29,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
-   "noticia": "nota:chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "El Municipio entregó el aporte mensual a 31 entidades deportivas\n\nSe otorgó el aporte económico de octubre a 31 instituciones y entidades de Chivilcoy. El acto en el Club San Lorenzo fue encabezado por el secretario de Gobierno, Ezequiel Pinotti.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-el-municipio-entrego-el-aporte-mensual-a-31",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El Municipio entregó el aporte mensual a 31 entidades deportivas",
-   "urgente": false,
-   "vence": "2026-10-30T03:19:21.000Z",
    "video_bytes": 661424,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5dfb6909fceac284.mp4",
    "viral": false
@@ -11037,14 +10974,14 @@
    "viral": true
   },
   "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x": {
-   "actualizado": "2026-11-09T00:20:14.000Z",
+   "actualizado": "2026-11-09T02:20:14.000Z",
    "buffer_id": "",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x",
    "creado": "2026-11-09T00:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-09T00:01:18.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin",
    "intentos": 0,
@@ -11770,43 +11707,6 @@
    "vence": "2026-10-31T02:02:02.000Z",
    "video_bytes": 90769,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_01_chacabuco_controlaron-un-principio-de-in.mp4",
-   "viral": false
-  },
-  "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x": {
-   "actualizado": "2026-10-30T02:00:28.000Z",
-   "buffer_id": "6ae3f0d9a83a7fb63c89b742",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo|x",
-   "creado": "2026-10-29T23:40:14.000Z",
-   "dueAt": "2026-10-30T01:28:29.000Z",
-   "enviado": "2026-10-30T01:28:33.515Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-29T23:31:53.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2115979134077690026",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 37,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-sospechoso-de-robos-a-un-profugo-y-1b082d",
-   "noticia": "nota:chacabuco-detuvieron-a-un-sospechoso-de-robos-a-un-profugo-y-1b082d",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Cayó un sospechoso por robos, atraparon a un prófugo y hallaron un arma\n\nTres procedimientos policiales terminaron con dos detenciones y el secuestro de un arma sin numeración visible en la ciudad.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-sospechoso-de-robos-a-un-profugo-y-1b082d",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cayó un sospechoso por robos, atraparon a un prófugo y hallaron un arma",
-   "urgente": false,
-   "vence": "2026-10-30T01:31:53.000Z",
-   "video_bytes": 81931,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-29_2132_01_chacabuco_cay-un-sospechoso-por-robos-at.mp4",
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x": {
@@ -16685,14 +16585,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea|x",
-   "cuando": "2026-11-01T23:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://junin24.com/locales/solo-danos-materiales-como-consecuencia-de-un-principio-de-incendio-en-una-cocina|x",
    "cuando": "2026-11-02T00:20:16.000Z",
    "estado": "pendiente",
@@ -20857,6 +20749,12 @@
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html|x",
    "cuando": "2026-11-09T01:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x",
+   "cuando": "2026-11-09T02:20:14.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
