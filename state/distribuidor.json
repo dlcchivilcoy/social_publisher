@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 4
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-09T01:20:16.000Z"
+   "visto": "2026-11-09T10:20:55.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 7
+    "scheduled": 5,
+    "sent": 8
    },
    "pausado": false,
-   "visto": "2026-11-09T01:20:16.000Z"
+   "visto": "2026-11-09T10:20:55.000Z"
   }
  },
  "contenidos": {
@@ -3185,6 +3185,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-jornada-negra-en-las-rutas-de-la-region-tres-graves",
    "volanta": ""
   },
+  "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Campeón Sub-23: Gran Actuación de Máximo Sala en el Campeonato Argentino de Pista en Rafaela El juvenil pedalista chivilcoyano brilló en el flamante velódromo \"El Invencible\", donde se consagró Campeón Argentino Sub-23 en Persecución Individual y cosechó múltiples medallas enfrentando a los mejores especialistas del país. Del 4 al 8 de noviembre de 2026, la ciudad de Rafaela, Santa Fe, fue sede del Campeonato Argentino de Pista Élite, Sub-23, Damas Élite y Ciclismo Adaptado. El...",
+   "generado": "2026-11-09T10:03:12.423Z",
+   "id": "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_16ba8b07373b44008c6f8ba622c8466c~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-chivilcoy-campeon-sub-23-gran-actuacion-de-maximo-sala-en-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Campeón Sub-23: Gran Actuación de Máximo Sala en el Campeonato Argentino de Pista en Rafaela",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-chivilcoy-campeon-sub-23-gran-actuacion-de-maximo-sala-en-el",
+   "volanta": "Ciclismo"
+  },
   "web:102f794a-1b02-4e61-aa74-3d003a611178": {
    "categoria": "",
    "descripcion": "Chivilcoy: Medio siglo de tradición y arraigo: El Círculo Criollo El Bozal celebró sus 50 años de historia La emblemática institución chivilcoyana vivió una semana a puro sentimiento y festejo para conmemorar su cincuentenario. Hubo misa, muestras culturales, espectáculos musicales y una gran cena aniversario que coronó medio siglo de defensa de la identidad criolla. El Círculo Criollo “El Bozal” concluyó días atrás una semana histórica en el marco de las celebraciones por su 50° Aniversario....",
@@ -3222,6 +3241,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/atletismo-luis-molina-brillo-en-chivilcoy-se-quedo-con-los-21k-de-la",
    "volanta": "Atletismo"
+  },
+  "web:160a1c97-6c1f-4723-8b48-a54f7405c098": {
+   "categoria": "",
+   "descripcion": "Gran cosecha de Independiente en 25 de Mayo por la Superliga de As.Am.Bal El Club Atlético Independiente viajó con todas sus divisiones hasta la vecina ciudad para disputar la quinta fecha del certamen regional. En una jornada sumamente disputada y con duelos directos por la parte alta de la tabla, el \"Rojo\" cosechó seis victorias, cinco caídas y un empate. Por la senda del protagonismo La escuela de handball del Club Atlético Independiente de Chivilcoy tuvo este fin de semana una intensa y...",
+   "generado": "2026-11-09T10:03:16.691Z",
+   "id": "web:160a1c97-6c1f-4723-8b48-a54f7405c098",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_bc956b7e986b46cdab2b7ca477112039~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/handball-gran-cosecha-de-independiente-en-25-de-mayo-por-la-superliga",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Gran cosecha de Independiente en 25 de Mayo por la Superliga de As.Am.Bal",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/handball-gran-cosecha-de-independiente-en-25-de-mayo-por-la-superliga",
+   "volanta": "Handball"
   },
   "web:18542f99-eee2-4a32-b4a1-6ef1af84ede2": {
    "categoria": "",
@@ -3469,6 +3507,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-argentino-recibio-a-roque-perez-por-el",
    "volanta": "Chivilcoy · Deportes"
+  },
+  "web:2f44ced7-23f0-4b6f-888d-c95d56334b15": {
+   "categoria": "",
+   "descripcion": "Federal A: Douglas Haig ganó por la mínima y viajará con ventaja a Chivilcoy CHIVILCOY.– Con gol de Martín Schlottahuer en el cierre del primer tiempo, el “Rojinegro” venció 1 a 0 a Gimnasia por la ida de los cuartos de final de la Reválida. El equipo de Hernán Medina mereció ampliar la diferencia. Un empate en la revancha le alcanzará para meterse en semifinales. En la tarde de este sábado, Douglas Haig recibió a Gimnasia de Chivilcoy por el partido de ida de los cuartos de final de la...",
+   "generado": "2026-11-09T10:02:58.782Z",
+   "id": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_087feb9ed0e74782a972fab6cfb1f3bc~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-federal-a-douglas-haig-gano-por-la-minima-y-viajara-con",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Federal A: Douglas Haig ganó por la mínima y viajará con ventaja a Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-federal-a-douglas-haig-gano-por-la-minima-y-viajara-con",
+   "volanta": "Fútbol"
   },
   "web:306a1afa-6396-4897-94c5-e852fbb14fdd": {
    "categoria": "",
@@ -3812,6 +3869,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-colon-continua-sumando-triunfos-para-estirar-su-record",
    "volanta": "Básquet"
   },
+  "web:5de0a567-504a-4513-8e76-0f10b16b1c52": {
+   "categoria": "",
+   "descripcion": "No pude contener la emoción... Al escribir esta memoria, no pude contener la emoción porque hay fechas que pertenecen a la historia, pero también a la memoria de quienes tuvimos el privilegio de vivirlas. El 30 de octubre de 1983 es una de ellas. Hace 43 años, Raúl Alfonsín ganaba las elecciones presidenciales y los argentinos comenzábamos a recuperar algo que la dictadura nos había arrebatado: la posibilidad de decidir nuestro propio destino. Yo fui parte activa de aquella gesta. Viví la...",
+   "generado": "2026-11-09T10:02:38.389Z",
+   "id": "web:5de0a567-504a-4513-8e76-0f10b16b1c52",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e8d3a8a5d0814fefa3a43ac9202127d2~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-no-pude-contener-la-emocion",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "No pude contener la emoción...",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-no-pude-contener-la-emocion",
+   "volanta": "Opinión"
+  },
   "web:606007a3-f032-422b-ace3-ee59408ba8de": {
    "categoria": "",
    "descripcion": "“La falta de actualización salarial arrastra a muchos docentes universitarios a percibir ingresos por debajo de la línea de la canasta básica”, sostiene De Marzi El docente e investigador Mauricio De Marzi visitó los estudios de Radio del Centro durante la emisión del programa “La Mañana del Centro”, donde brindó un pormenorizado análisis sobre la compleja situación que atraviesan las casas de altos estudios y el sistema científico nacional. En su exposición, remarcó la falta de recuperación...",
@@ -3906,6 +3982,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/padel-nacional-laboulaye-se-convierte-en-el-epicentro-de-la-etapa-16",
    "volanta": "Padel Nacional"
+  },
+  "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52": {
+   "categoria": "",
+   "descripcion": "LA VISITA DEL PAPA LEÓN XIV La histórica y memorable visita a la República Argentina, de su Santidad, el Sumo Pontífice León XIV, después de haber transcurrido, 39 años, desde abril de 1987, de la presencia en nuestro país, del Papa Juan Pablo II, nos invita, de manera particularmente profunda, a reflexionar acerca de este trascendental acontecimiento y, su real y concreta influencia y gravitación en nuestras propias vidas. Qué la visita del Papa, nos aproxime otra vez a Dios y a Jesús, la...",
+   "generado": "2026-11-09T10:02:46.013Z",
+   "id": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ededa0fb2e0547d7a1991be4e4bee0d2~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/reflexion-la-visita-del-papa-leon-xiv",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "LA VISITA DEL PAPA LEÓN XIV",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reflexion-la-visita-del-papa-leon-xiv",
+   "volanta": "Reflexión"
   },
   "web:6adb3465-c4e1-4c1f-a175-109ba016efbd": {
    "categoria": "",
@@ -4363,6 +4458,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ateneo-cultural-chivilcoy-literatura-y-fotografia-en-una-calida",
    "volanta": "Ateneo Cultural"
   },
+  "web:8d454526-fe37-4a5c-a733-afb21a24349b": {
+   "categoria": "",
+   "descripcion": "Clasificados a cuartos del Torneo Prefederal: Somisa goleó y Belgrano ganó un triunfazo en Chivilcoy CHIVILCOY.– La novena fecha del Grupo D dejó definiciones clave. Somisa mantuvo su invicto con una contundente victoria ante Argentino de Pergamino, mientras que Belgrano superó a Colón a domicilio. Porteño de Chacabuco festejó ante Gimnasia y selló su paternidad en el torneo ante los pergaminenses. La novena jornada del Torneo Prefederal de Básquetbol (Zona D) dejó un saldo de alto impacto...",
+   "generado": "2026-11-09T10:03:07.910Z",
+   "id": "web:8d454526-fe37-4a5c-a733-afb21a24349b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5e8ff5472bdc4f8d8c25c2519591dbf7~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-clasificados-a-cuartos-del-torneo-prefederal-somisa-goleo-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Clasificados a cuartos del Torneo Prefederal: Somisa goleó y Belgrano ganó un triunfazo en Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-clasificados-a-cuartos-del-torneo-prefederal-somisa-goleo-y",
+   "volanta": "Básquet"
+  },
   "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7": {
    "categoria": "",
    "descripcion": "La UTN y el Centro Universitario organizan un desayuno de trabajo con empresas locales",
@@ -4381,6 +4495,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/vinculo-academico-y-productivo-la-utn-y-el-centro-universitario",
    "volanta": ""
+  },
+  "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: La fase regular del Clausura en su etapa de definiciones: Racing ganó con lo justo en Mercedes y se viene una Fecha 13 que puede ser determinante La Primera División de la Asociación Básquetbol Chivilcoy completó su 12ª jornada con un triunfo clave de Racing Club ante Quilmes en un partidazo. La agenda de la semana promete emociones fuertes, con la lucha por el cuarto puesto y el clásico entre el escolta y el puntero invicto Colón como plato fuerte. CIERRE DE LA FECHA 12: RACING...",
+   "generado": "2026-11-09T10:03:02.951Z",
+   "id": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_fa3ebc8a15094c5aaa6d23461cd2ec12~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-la-fase-regular-del-clausura-en-su-etapa-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: La fase regular del Clausura en su etapa de definiciones: Racing ganó con lo justo en Mercedes y se viene una Fecha 13 que puede ser determinante",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-la-fase-regular-del-clausura-en-su-etapa-de",
+   "volanta": "Básquet"
   },
   "web:8eedc4c8-7ed9-4248-9de7-468717547999": {
    "categoria": "",
@@ -4609,6 +4742,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-el-municipio-realizo-una-nueva-jornada-de-la-mesa",
    "volanta": "Chivilcoy · Sociedad"
+  },
+  "web:9da65e87-8b1a-426a-922a-94936fe79688": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Clausura de Primera: Moquehuá conservó la punta e invicto tras igualar con Gimnasia y la definición por el 1 de la fase regular se prolonga hasta la última fecha CHIVILCOY.– Social Moquehuá sostuvo el liderazgo tras un caliente empate ante Gimnasia y Esgrima. Independiente goleó con autoridad, Cerámica y San Lorenzo dieron pasos clave en la tabla, mientras que Once Tigres mete presión en la zona alta. La fecha se completará con el clásico entre Florencio Varela ante Colón. La Fecha...",
+   "generado": "2026-11-09T10:02:54.269Z",
+   "id": "web:9da65e87-8b1a-426a-922a-94936fe79688",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_22b68189cbbd4c4a93f78f64dab4dbd4~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-clausura-de-primera-moquehua-conservo-la-punta-e",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Clausura de Primera: Moquehuá conservó la punta e invicto tras igualar con Gimnasia y la definición por el 1 de la fase regular se prolonga hasta la última fecha",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-chivilcoy-clausura-de-primera-moquehua-conservo-la-punta-e",
+   "volanta": "Fútbol"
   },
   "web:9e4086cb-884a-42ed-9f34-88efb0194b7a": {
    "categoria": "",
@@ -12587,6 +12739,35 @@
    "video_url": "",
    "viral": false
   },
+  "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814|x": {
+   "actualizado": "2026-11-09T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814|x",
+   "creado": "2026-11-09T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T10:03:12.423Z",
+   "id": "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814",
+   "ig_hora": "2026-11-09T13:37:26.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-chivilcoy-campeon-sub-23-gran-actuacion-de-maximo-sala-en-el",
+   "noticia": "nota:ciclismo-chivilcoy-campeon-sub-23-gran-actuacion-de-maximo-sala-en-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Campeón Sub-23: Gran Actuación de Máximo Sala en el Campeonato Argentino de Pista en Rafaela\n\nEl pedalista brilló en el velódromo El Invencible. Ganó en Persecución Individual y sumó múltiples medallas.\n\nhttps://www.diariolacampaña.com.ar/n/ciclismo-chivilcoy-campeon-sub-23-gran-actuacion-de-maximo-sala-en-el",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Campeón Sub-23: Gran Actuación de Máximo Sala en el Campeonato Argentino de Pista en Rafaela",
+   "urgente": false,
+   "vence": "2026-11-09T14:37:26.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:102f794a-1b02-4e61-aa74-3d003a611178|x": {
    "actualizado": "2026-11-03T12:40:14.000Z",
    "buffer_id": "6ae9b55ede49dc57f011c787",
@@ -12646,6 +12827,35 @@
    "titulo": "Luis Molina brilló en Chivilcoy: se quedó con los 21K de la Maratón \"Eduardo Poliaroni\"",
    "urgente": false,
    "vence": "2026-11-02T14:02:33.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x": {
+   "actualizado": "2026-11-09T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x",
+   "creado": "2026-11-09T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T10:03:16.691Z",
+   "id": "web:160a1c97-6c1f-4723-8b48-a54f7405c098",
+   "ig_hora": "2026-11-09T13:52:26.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/handball-gran-cosecha-de-independiente-en-25-de-mayo-por-la-superliga",
+   "noticia": "nota:handball-gran-cosecha-de-independiente-en-25-de-mayo-por-la-superliga",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Gran cosecha de Independiente en 25 de Mayo por la Superliga de As.Am.Bal\n\nEl Club Atlético Independiente disputó la quinta fecha del certamen regional. Cosechó seis victorias, cinco caídas y un empate.\n\nhttps://www.diariolacampaña.com.ar/n/handball-gran-cosecha-de-independiente-en-25-de-mayo-por-la-superliga",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Gran cosecha de Independiente en 25 de Mayo por la Superliga de As.Am.Bal",
+   "urgente": false,
+   "vence": "2026-11-09T14:52:26.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -13058,6 +13268,35 @@
    "titulo": "Chivilcoy: Argentino recibió a Roque Pérez por el torneo de básquetbol formativo",
    "urgente": false,
    "vence": "2026-11-07T20:23:17.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x": {
+   "actualizado": "2026-11-09T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x",
+   "creado": "2026-11-09T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T10:02:58.782Z",
+   "id": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15",
+   "ig_hora": "2026-11-09T12:52:26.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-federal-a-douglas-haig-gano-por-la-minima-y-viajara-con",
+   "noticia": "nota:futbol-federal-a-douglas-haig-gano-por-la-minima-y-viajara-con",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Federal A: Douglas Haig ganó por la mínima y viajará con ventaja a Chivilcoy\n\nCon gol de Martín Schlottahuer, el Rojinegro venció 1 a 0 a Gimnasia por la ida de cuartos de la Reválida. Un empate en la revancha le alcanzará para meterse en semifinales.\n\nhttps://www.diariolacampaña.com.ar/n/futbol-federal-a-douglas-haig-gano-por-la-minima-y-viajara-con",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Federal A: Douglas Haig ganó por la mínima y viajará con ventaja a Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-09T14:02:58.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -13628,6 +13867,35 @@
    "video_url": "",
    "viral": false
   },
+  "web:5de0a567-504a-4513-8e76-0f10b16b1c52|x": {
+   "actualizado": "2026-11-09T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:5de0a567-504a-4513-8e76-0f10b16b1c52|x",
+   "creado": "2026-11-09T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T10:02:38.389Z",
+   "id": "web:5de0a567-504a-4513-8e76-0f10b16b1c52",
+   "ig_hora": "2026-11-09T11:52:26.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-no-pude-contener-la-emocion",
+   "noticia": "nota:opinion-no-pude-contener-la-emocion",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "No pude contener la emoción...\n\nAl escribir esta memoria, no pude contener la emoción porque hay fechas que pertenecen a la historia, pero también a la memoria de quienes tuvimos el privilegio de vivirlas. El 30 de octubre de 1983 es una de ellas.\n\nhttps://www.diariolacampaña.com.ar/n/opinion-no-pude-contener-la-emocion",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "No pude contener la emoción...",
+   "urgente": false,
+   "vence": "2026-11-09T14:02:38.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:606007a3-f032-422b-ace3-ee59408ba8de|x": {
    "actualizado": "2026-10-30T11:40:17.000Z",
    "buffer_id": "6ae46b3eceb12661efdc77b1",
@@ -13785,6 +14053,35 @@
    "video_url": "",
    "viral": false
   },
+  "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x": {
+   "actualizado": "2026-11-09T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x",
+   "creado": "2026-11-09T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T10:02:46.013Z",
+   "id": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52",
+   "ig_hora": "2026-11-09T12:07:26.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/reflexion-la-visita-del-papa-leon-xiv",
+   "noticia": "nota:reflexion-la-visita-del-papa-leon-xiv",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "LA VISITA DEL PAPA LEÓN XIV\n\nLa visita a la Argentina del Sumo Pontífice, tras 39 años de la llegada de Juan Pablo II, invita a reflexionar sobre este hecho y su influencia en nuestras vidas.\n\nhttps://www.diariolacampaña.com.ar/n/reflexion-la-visita-del-papa-leon-xiv",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "LA VISITA DEL PAPA LEÓN XIV",
+   "urgente": false,
+   "vence": "2026-11-09T14:02:46.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:6adb3465-c4e1-4c1f-a175-109ba016efbd|x": {
    "actualizado": "2026-10-30T11:40:17.000Z",
    "buffer_id": "6ae46b3f38b96b6f5ba13276",
@@ -13901,19 +14198,20 @@
    "viral": false
   },
   "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb|x": {
-   "actualizado": "2026-11-09T10:03:17.000Z",
+   "actualizado": "2026-11-09T10:20:55.000Z",
    "buffer_id": "6af19a66f309feb7ee03b688",
    "clave": "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb|x",
    "creado": "2026-11-09T10:02:37.000Z",
    "dueAt": "2026-11-09T10:07:57.000Z",
+   "enviado": "2026-11-09T10:08:01.930Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-09T10:01:50.304Z",
    "id": "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb",
    "ig_hora": "2026-11-09T10:07:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2119733742595965065",
    "nota_url": "https://www.diariolacampaña.com.ar/n/internado-en-uti-chivilcoy-caida-desde-un-techo-en-la-unlu-un-joven",
    "noticia": "nota:internado-en-uti-chivilcoy-caida-desde-un-techo-en-la-unlu-un-joven",
    "origen": "web",
@@ -14565,6 +14863,35 @@
    "video_url": "",
    "viral": false
   },
+  "web:8d454526-fe37-4a5c-a733-afb21a24349b|x": {
+   "actualizado": "2026-11-09T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:8d454526-fe37-4a5c-a733-afb21a24349b|x",
+   "creado": "2026-11-09T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T10:03:07.910Z",
+   "id": "web:8d454526-fe37-4a5c-a733-afb21a24349b",
+   "ig_hora": "2026-11-09T13:22:26.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-clasificados-a-cuartos-del-torneo-prefederal-somisa-goleo-y",
+   "noticia": "nota:basquet-clasificados-a-cuartos-del-torneo-prefederal-somisa-goleo-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Clasificados a cuartos del Torneo Prefederal: Somisa goleó y Belgrano ganó un triunfazo en Chivilcoy\n\nLa novena fecha del Grupo D dejó definiciones clave. Somisa mantuvo su invicto y Belgrano superó a Colón a domicilio.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-clasificados-a-cuartos-del-torneo-prefederal-somisa-goleo-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Clasificados a cuartos del Torneo Prefederal: Somisa goleó y Belgrano ganó un triunfazo en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-09T14:22:26.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7|x": {
    "actualizado": "2026-10-30T11:00:17.000Z",
    "buffer_id": "",
@@ -14589,6 +14916,35 @@
    "titulo": "Vínculo académico y productivo",
    "urgente": false,
    "vence": "2026-10-30T14:02:06.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x": {
+   "actualizado": "2026-11-09T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x",
+   "creado": "2026-11-09T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T10:03:02.951Z",
+   "id": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577",
+   "ig_hora": "2026-11-09T13:07:26.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-la-fase-regular-del-clausura-en-su-etapa-de",
+   "noticia": "nota:basquet-chivilcoy-la-fase-regular-del-clausura-en-su-etapa-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: La fase regular del Clausura en su etapa de definiciones: Racing ganó con lo justo en Mercedes y se viene una Fecha 13 que puede ser determinante\n\nRacing Club logró un triunfo clave ante Quilmes.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-chivilcoy-la-fase-regular-del-clausura-en-su-etapa-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: La fase regular del Clausura en su etapa de definiciones: Racing ganó con lo justo en Mercedes y se viene una Fecha 13 que puede ser determinante",
+   "urgente": false,
+   "vence": "2026-11-09T14:07:26.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -14999,6 +15355,35 @@
    "titulo": "El Municipio realizó una nueva jornada de la Mesa de Prevención en Comunidad",
    "urgente": false,
    "vence": "2026-10-30T23:04:24.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:9da65e87-8b1a-426a-922a-94936fe79688|x": {
+   "actualizado": "2026-11-09T10:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:9da65e87-8b1a-426a-922a-94936fe79688|x",
+   "creado": "2026-11-09T10:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-09T10:02:54.269Z",
+   "id": "web:9da65e87-8b1a-426a-922a-94936fe79688",
+   "ig_hora": "2026-11-09T12:37:26.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-clausura-de-primera-moquehua-conservo-la-punta-e",
+   "noticia": "nota:futbol-chivilcoy-clausura-de-primera-moquehua-conservo-la-punta-e",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Clausura de Primera: Moquehuá conservó la punta e invicto tras igualar con Gimnasia y la definición por el 1 de la fase regular se prolonga hasta la última fecha\n\nIndependiente goleó y Once Tigres mete presión en la zona alta.\n\nhttps://www.diariolacampaña.com.ar/n/futbol-chivilcoy-clausura-de-primera-moquehua-conservo-la-punta-e",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Clausura de Primera: Moquehuá conservó la punta e invicto tras igualar con Gimnasia y la definición por el 1 de la fase regular se prolonga hasta la última fecha",
+   "urgente": false,
+   "vence": "2026-11-09T14:02:54.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16081,14 +16466,14 @@
    "viral": false
   },
   "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x": {
-   "actualizado": "2026-11-09T10:02:37.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-09T10:20:55.000Z",
+   "buffer_id": "6af19e87ea98fdea6acf7be0",
    "clave": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x",
    "creado": "2026-11-09T10:02:37.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-09T11:37:24.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-09T10:02:34.373Z",
    "id": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a",
    "ig_hora": "2026-11-09T11:37:26.000Z",
@@ -16885,82 +17270,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:cb5bd56e-c625-4389-948e-845e3cd94779|x",
-   "cuando": "2026-11-02T10:04:12.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x",
-   "cuando": "2026-11-02T10:04:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x",
-   "cuando": "2026-11-02T10:04:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880|x",
-   "cuando": "2026-11-02T10:04:33.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f|x",
-   "cuando": "2026-11-02T10:04:39.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e|x",
-   "cuando": "2026-11-02T10:04:42.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6ae8603bb0da614b553ea704",
-   "clave": "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x",
-   "cuando": "2026-11-02T10:04:43.000Z",
-   "dueAt": "2026-11-02T10:53:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae8603bbc7258b27b3dcfb6",
-   "clave": "web:cb5bd56e-c625-4389-948e-845e3cd94779|x",
-   "cuando": "2026-11-02T10:04:43.000Z",
-   "dueAt": "2026-11-02T11:23:07.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae863e04a24ce7f363585bf",
-   "clave": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x",
-   "cuando": "2026-11-02T10:20:16.000Z",
-   "dueAt": "2026-11-02T11:38:37.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae8688fbc7258b27b4068af",
-   "clave": "web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e|x",
-   "cuando": "2026-11-02T10:40:15.000Z",
-   "dueAt": "2026-11-02T11:53:20.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae8688fbc7258b27b4068db",
    "clave": "web:85c7c574-2535-4b4c-9aa4-cab46d956ea6|x",
@@ -21058,6 +21367,83 @@
    "cuando": "2026-11-09T10:03:19.000Z",
    "dueAt": "2026-11-09T11:22:31.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x",
+   "cuando": "2026-11-09T10:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814|x",
+   "cuando": "2026-11-09T10:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:8d454526-fe37-4a5c-a733-afb21a24349b|x",
+   "cuando": "2026-11-09T10:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x",
+   "cuando": "2026-11-09T10:20:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x",
+   "cuando": "2026-11-09T10:20:34.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:9da65e87-8b1a-426a-922a-94936fe79688|x",
+   "cuando": "2026-11-09T10:20:40.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x",
+   "cuando": "2026-11-09T10:20:46.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:5de0a567-504a-4513-8e76-0f10b16b1c52|x",
+   "cuando": "2026-11-09T10:20:55.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb|x",
+   "cuando": "2026-11-09T10:20:55.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2119733742595965065"
+  },
+  {
+   "buffer_id": "6af19e87ea98fdea6acf7be0",
+   "clave": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x",
+   "cuando": "2026-11-09T10:20:56.000Z",
+   "dueAt": "2026-11-09T11:37:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21095,7 +21481,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-09",
- "ultima_sync": "2026-11-09T01:20:16.000Z",
+ "ultima_sync": "2026-11-09T10:20:55.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21708,6 +22094,7 @@
   "web:0d0eb08c-8644-4f3c-8fdc-a207f484f10b": "2026-10-13T10:20:16.000Z",
   "web:0d0f2a09-0416-445a-82b7-74eed589d782": "2026-11-05T10:02:30.000Z",
   "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb": "2026-10-22T15:20:17.000Z",
+  "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814": "2026-11-09T10:20:14.000Z",
   "web:102f794a-1b02-4e61-aa74-3d003a611178": "2026-11-03T10:02:22.000Z",
   "web:10530670-a72a-4de8-bc7f-13a21143d576": "2026-10-28T00:40:14.000Z",
   "web:10f6a8f2-3563-41d8-9e3a-5ec303674d36": "2026-10-15T10:20:13.000Z",
@@ -21724,6 +22111,7 @@
   "web:14ff4f27-c7c1-4d3f-a46e-1f89751db76a": "2026-10-16T10:20:16.000Z",
   "web:1577e055-5def-4f13-aaba-45b5fbac35da": "2026-10-19T01:20:15.000Z",
   "web:15858ae6-1837-4436-b8ed-3a098530f992": "2026-10-15T10:20:13.000Z",
+  "web:160a1c97-6c1f-4723-8b48-a54f7405c098": "2026-11-09T10:20:14.000Z",
   "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b": "2026-10-17T23:40:13.000Z",
   "web:1666fae3-dd89-410f-b67f-9206fc69affb": "2026-10-23T10:02:47.000Z",
   "web:176d2a19-01bb-4043-bc46-282b3dd6307c": "2026-10-14T10:20:15.000Z",
@@ -21791,6 +22179,7 @@
   "web:2e964f84-db65-4365-a793-01e8f49b70ed": "2026-11-07T20:40:13.000Z",
   "web:2ed06d62-fca6-443a-8902-833840201be4": "2026-11-07T16:40:12.000Z",
   "web:2f28167a-6caf-4b85-81ac-e53b3248f984": "2026-10-13T10:20:16.000Z",
+  "web:2f44ced7-23f0-4b6f-888d-c95d56334b15": "2026-11-09T10:20:14.000Z",
   "web:2fdbd396-83fc-451f-926b-d71cfd42c1be": "2026-10-28T10:20:19.000Z",
   "web:2febdd99-e1e5-4904-bfba-653f0ac7fbf9": "2026-10-25T20:20:14.000Z",
   "web:2ff77845-8eea-4d9e-a7f9-f60a3e9b6ffe": "2026-10-19T10:20:14.000Z",
@@ -21896,6 +22285,7 @@
   "web:5bed14ed-a1b5-489b-a283-67d7d832c78c": "2026-10-27T10:20:16.000Z",
   "web:5c389835-1655-4415-b7ad-23045aa7c3ca": "2026-10-19T13:20:16.000Z",
   "web:5ca863ea-d5c6-45ae-b613-ee86268b66cc": "2026-10-27T10:03:31.000Z",
+  "web:5de0a567-504a-4513-8e76-0f10b16b1c52": "2026-11-09T10:20:14.000Z",
   "web:5e1b7468-652a-43da-baf9-771cda1103ff": "2026-10-18T15:20:15.000Z",
   "web:5f9a71f8-7d26-4245-a6dc-a29f9ed0c078": "2026-10-13T10:20:16.000Z",
   "web:5ff7d766-f2bf-4f76-bc18-cffae04bb39e": "2026-10-13T12:20:17.000Z",
@@ -21921,6 +22311,7 @@
   "web:69435ce6-31c0-4174-9050-72995e3d7874": "2026-11-06T10:02:35.000Z",
   "web:6a095240-50d7-424b-8a14-3d4713bb5b8a": "2026-10-15T12:20:15.000Z",
   "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7": "2026-10-18T15:40:18.000Z",
+  "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52": "2026-11-09T10:20:14.000Z",
   "web:6ab0651a-5f39-461f-9277-fae18ec231f6": "2026-10-13T18:20:14.000Z",
   "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d": "2026-10-22T10:02:31.000Z",
   "web:6adb3465-c4e1-4c1f-a175-109ba016efbd": "2026-10-30T10:01:54.000Z",
@@ -22032,11 +22423,13 @@
   "web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5": "2026-10-24T09:00:20.000Z",
   "web:8ccde707-f548-4c61-83cf-fb2ee30a7c99": "2026-11-03T10:02:22.000Z",
   "web:8cce8498-4e2f-4d5e-83a5-fd52e918c870": "2026-10-15T10:20:13.000Z",
+  "web:8d454526-fe37-4a5c-a733-afb21a24349b": "2026-11-09T10:20:14.000Z",
   "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7": "2026-10-30T10:20:13.000Z",
   "web:8d5f9e45-c3ff-4b47-a721-0097362139bf": "2026-10-19T15:20:16.000Z",
   "web:8dbd82e2-99d2-4f0c-87e7-c0fa738be755": "2026-10-28T10:02:28.000Z",
   "web:8e62f5c1-e3d0-4ff3-88be-8e0468aeb2a3": "2026-10-18T23:00:17.000Z",
   "web:8e6687d4-3abe-4379-8e0d-a883d98d2dfd": "2026-10-12T15:20:17.000Z",
+  "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577": "2026-11-09T10:20:14.000Z",
   "web:8eedc4c8-7ed9-4248-9de7-468717547999": "2026-10-30T10:01:54.000Z",
   "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960": "2026-10-28T10:02:28.000Z",
   "web:8fd9d678-2717-4972-af3c-fcb225b55159": "2026-10-30T10:01:54.000Z",
@@ -22089,6 +22482,7 @@
   "web:9cb13f8f-7629-4775-bc59-668a4e784c85": "2026-10-15T15:40:19.000Z",
   "web:9d5761a0-0ffa-453b-b8aa-8c5e18f7a02e": "2026-10-14T12:20:17.000Z",
   "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f": "2026-10-30T19:20:18.000Z",
+  "web:9da65e87-8b1a-426a-922a-94936fe79688": "2026-11-09T10:20:14.000Z",
   "web:9e4086cb-884a-42ed-9f34-88efb0194b7a": "2026-11-03T22:20:16.000Z",
   "web:9e795c0b-5665-45d1-8325-8af58d45b889": "2026-11-04T21:40:12.000Z",
   "web:9f2b4077-e3d9-4b49-908e-00825ce5bf7a": "2026-10-22T14:20:16.000Z",

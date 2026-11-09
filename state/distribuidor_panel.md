@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 09/11/2026 07:03 (hora AR) · ACTIVO
+Actualizado: 09/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-09)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 09/11/2026 07:03 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 6 | 1 | 0 | 1 | 0 |
+| Notas web | X | 15 | 1 | 6 | 8 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 7 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 4 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 8 enviadas + 5 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 24 con métricas · mediana vistas/impresiones 26.5 · likes 0
@@ -27,23 +27,20 @@ Actualizado: 09/11/2026 07:03 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- X · Notas web · Chivilcoy: Realizaron el 32° Encuentro Regional de Talleres Protegidos en Lomas  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (8 esperando)
+- X · Notas web · Gran cosecha de Independiente en 25 de Mayo por la Superliga de As.Am.Bal — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Campeón Sub-23: Gran Actuación de Máximo Sala en el Campeonato Argent — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Clasificados a cuartos del Torneo Prefederal: Somisa goleó y Belgrano ganó un tr — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: La fase regular del Clausura en su etapa de definiciones: Racing ganó — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Federal A: Douglas Haig ganó por la mínima y viajará con ventaja a Chivilcoy — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Clausura de Primera: Moquehuá conservó la punta e invicto tras iguala — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · LA VISITA DEL PAPA LEÓN XIV — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · No pude contener la emoción... — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-09T00:00 programado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok 
-- 2026-11-09T00:20 recibido policiales:https://semanariodejunin.com.ar/nota/76374/un-mot 
-- 2026-11-09T01:00 recibido web:31292745-1874-4666-bb1a-583ba97f9032|x 
-- 2026-11-09T01:00 depurado web:31292745-1874-4666-bb1a-583ba97f9032|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-09T01:20 enviado bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok 
-- 2026-11-09T01:20 enviado bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok 
-- 2026-11-09T01:20 enviado bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x 
-- 2026-11-09T01:20 enviado policiales:https://www.junindigital.com/policiales/2026-11-8 
-- 2026-11-09T01:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/incendio- espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-09T02:20 vencido policiales:https://semanariodejunin.com.ar/nota/76374/un-mot espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-09T09:00 recibido web:a4af8e93-1494-4e38-bc38-5764b271088c|x 
 - 2026-11-09T09:00 vencido web:a4af8e93-1494-4e38-bc38-5764b271088c|x no hubo lugar antes de su vencimiento
 - 2026-11-09T10:02 recibido web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x 
@@ -59,3 +56,13 @@ Actualizado: 09/11/2026 07:03 (hora AR) · ACTIVO
 - 2026-11-09T10:03 programado web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6|x 
 - 2026-11-09T10:03 programado web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x 
 - 2026-11-09T10:03 programado web:87f82441-faec-422a-8856-fdfb0a63cf9e|x 
+- 2026-11-09T10:20 recibido web:160a1c97-6c1f-4723-8b48-a54f7405c098|x 
+- 2026-11-09T10:20 recibido web:0ee18e61-d4a2-470e-b13a-cc50e25e5814|x 
+- 2026-11-09T10:20 recibido web:8d454526-fe37-4a5c-a733-afb21a24349b|x 
+- 2026-11-09T10:20 recibido web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x 
+- 2026-11-09T10:20 recibido web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x 
+- 2026-11-09T10:20 recibido web:9da65e87-8b1a-426a-922a-94936fe79688|x 
+- 2026-11-09T10:20 recibido web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x 
+- 2026-11-09T10:20 recibido web:5de0a567-504a-4513-8e76-0f10b16b1c52|x 
+- 2026-11-09T10:20 enviado web:6e187d9a-8633-4631-9f81-02dcf59a7bbb|x 
+- 2026-11-09T10:20 programado web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x 
