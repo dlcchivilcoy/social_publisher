@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 09/11/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 09/11/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-09)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,17 +27,14 @@ Actualizado: 09/11/2026 14:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- TikTok · Recortes de entrevistas · Juan Ignacio Felice criticó la gestión en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Ricardo Rodriguez: Chivilcoyanos cerca del Papa — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-09T11:20 programado web:9da65e87-8b1a-426a-922a-94936fe79688|x 
-- 2026-11-09T11:40 enviado web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x 
-- 2026-11-09T11:40 enviado web:87f82441-faec-422a-8856-fdfb0a63cf9e|x 
-- 2026-11-09T11:40 enviado web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c|x 
 - 2026-11-09T11:40 enviado web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6|x 
 - 2026-11-09T11:40 enviado web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6|x 
 - 2026-11-09T11:40 enviado web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x 
@@ -59,3 +56,7 @@ Actualizado: 09/11/2026 14:00 (hora AR) · ACTIVO
 - 2026-11-09T16:40 recibido entrevistas:job00289|tiktok 
 - 2026-11-09T16:40 programado entrevistas:job00289|x 
 - 2026-11-09T17:00 enviado entrevistas:job00289|x 
+- 2026-11-09T17:20 entrevista_aprobada entrevistas:job00290 
+- 2026-11-09T17:20 recibido entrevistas:job00290|x 
+- 2026-11-09T17:20 recibido entrevistas:job00290|tiktok 
+- 2026-11-09T17:20 programado entrevistas:job00290|x 

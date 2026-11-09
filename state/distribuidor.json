@@ -1503,6 +1503,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00289.mp4",
    "youtube_url": "https://youtu.be/tJWLV8lPKP0"
   },
+  "entrevistas:job00290": {
+   "descripcion": "El concejal de La Libertad Avanza, Juan Ignacio Felice, cuestionó al Ejecutivo de Chivilcoy por improvisar respuestas ante los reclamos opositores y las obras públicas demoradas. Mirá su análisis completo.",
+   "duracion_seg": null,
+   "entrevistado": "Juan Ignacio Felice",
+   "generado": "2026-11-09T17:20:13.000Z",
+   "id": "entrevistas:job00290",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Juan Ignacio Felice criticó la gestión en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 23601125,
+   "video_mb": 22.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00290.mp4",
+   "youtube_url": "https://youtu.be/viu_2FWWwhA"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -10283,6 +10304,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00289.mp4",
    "viral": false
   },
+  "entrevistas:job00290|tiktok": {
+   "actualizado": "2026-11-09T17:20:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00290|tiktok",
+   "creado": "2026-11-09T17:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-09T17:20:13.000Z",
+   "id": "entrevistas:job00290",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Juan Ignacio Felice criticó la gestión en Chivilcoy\n\nEl concejal de La Libertad Avanza, Juan Ignacio Felice, cuestionó al Ejecutivo de Chivilcoy por improvisar respuestas ante los reclamos opositores y las obras públicas demoradas. Mirá su análisis completo.\n\nhttps://youtu.be/viu_2FWWwhA\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Juan Ignacio Felice criticó la gestión en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-11T17:20:13.000Z",
+   "video_bytes": 23601125,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00290.mp4",
+   "viral": false
+  },
+  "entrevistas:job00290|x": {
+   "actualizado": "2026-11-09T17:20:20.000Z",
+   "buffer_id": "6af200d5fa4f406f7bb8ac27",
+   "clave": "entrevistas:job00290|x",
+   "creado": "2026-11-09T17:20:13.000Z",
+   "dueAt": "2026-11-09T17:22:16.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-09T17:20:13.000Z",
+   "id": "entrevistas:job00290",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:chivilcoy-critico-felice-gestion-ignacio-juan",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Juan Ignacio Felice criticó la gestión en Chivilcoy\n\nEl concejal de La Libertad Avanza cuestionó al Ejecutivo local por improvisar respuestas ante reclamos y obras demoradas.\n\nhttps://youtu.be/viu_2FWWwhA",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Juan Ignacio Felice criticó la gestión en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-09T19:20:13.000Z",
+   "video_bytes": 23601125,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00290.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -16431,35 +16508,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00270|tiktok",
-   "cuando": "2026-11-02T17:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00269|x",
-   "cuando": "2026-11-02T17:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117302908538486839"
-  },
-  {
-   "buffer_id": "6ae8c653948a9655f41aeefd",
-   "clave": "entrevistas:job00270|x",
-   "cuando": "2026-11-02T17:20:19.000Z",
-   "dueAt": "2026-11-02T17:22:19.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x",
-   "cuando": "2026-11-02T18:20:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tiktok",
    "cuando": "2026-11-02T18:20:28.000Z",
    "estado": "pendiente",
@@ -20604,6 +20652,34 @@
    "cuando": "2026-11-09T17:00:22.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2119833114675397050"
+  },
+  {
+   "clave": "entrevistas:job00290",
+   "cuando": "2026-11-09T17:20:13.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00290|x",
+   "cuando": "2026-11-09T17:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00290|tiktok",
+   "cuando": "2026-11-09T17:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af200d5fa4f406f7bb8ac27",
+   "clave": "entrevistas:job00290|x",
+   "cuando": "2026-11-09T17:20:22.000Z",
+   "dueAt": "2026-11-09T17:22:16.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20930,6 +21006,7 @@
   "entrevistas:job00287": "2026-11-06T18:20:14.000Z",
   "entrevistas:job00288": "2026-11-06T19:00:17.000Z",
   "entrevistas:job00289": "2026-11-09T16:40:15.000Z",
+  "entrevistas:job00290": "2026-11-09T17:20:13.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
