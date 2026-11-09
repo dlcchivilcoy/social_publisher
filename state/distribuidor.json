@@ -1545,6 +1545,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00291.mp4",
    "youtube_url": "https://youtu.be/REh-Q_bfnAo"
   },
+  "entrevistas:job00292": {
+   "descripcion": "La fotógrafa de Chivilcoy Alicia Galante explicó el valor sanador que tiene agarrar la cámara y el orgullo que siente ante cada convocatoria para exponer sus obras. Mirá la entrevista completa en nuestro canal.",
+   "duracion_seg": null,
+   "entrevistado": "Alicia Galante",
+   "generado": "2026-11-09T18:40:17.000Z",
+   "id": "entrevistas:job00292",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Alicia Galante: «La fotografía es mi terapia y mi pasión»",
+   "urgente": false,
+   "video_bytes": 23100965,
+   "video_mb": 22.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00292.mp4",
+   "youtube_url": "https://youtu.be/37z79Yk-z3E"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -8561,43 +8582,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00267.mp4",
    "viral": false
   },
-  "entrevistas:job00267|x": {
-   "actualizado": "2026-10-30T18:40:17.000Z",
-   "buffer_id": "6ae4d682260ad0ee5bbe3ec3",
-   "clave": "entrevistas:job00267|x",
-   "creado": "2026-10-30T17:40:14.000Z",
-   "dueAt": "2026-10-30T17:42:09.000Z",
-   "enviado": "2026-10-30T17:42:32.794Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-30T17:40:14.000Z",
-   "id": "entrevistas:job00267",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2116224246523330573",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 25,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:agua-camila-llega-martinez-potable-sabe",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Camila Martinez: no se sabe hasta dónde llega la red de agua potable\n\nLa coordinadora de CAZMA explicó que, al no tener el plano exacto de la red, debieron armar su propia cartografía casa por casa para relevar los domicilios.\n\nhttps://youtu.be/VZgmohTNX7s",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Camila Martinez: no se sabe hasta dónde llega la red de agua potable",
-   "urgente": false,
-   "vence": "2026-10-30T19:40:14.000Z",
-   "video_bytes": 19008094,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00267.mp4",
-   "viral": false
-  },
   "entrevistas:job00268|tiktok": {
    "actualizado": "2026-10-30T22:20:13.000Z",
    "buffer_id": "6ae5056818914720939932c5",
@@ -8633,43 +8617,6 @@
    "titulo": "Lucas Cáceres: El grabado busca renacer en Chivilcoy",
    "urgente": false,
    "vence": "2026-11-01T18:20:15.000Z",
-   "video_bytes": 35701365,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00268.mp4",
-   "viral": false
-  },
-  "entrevistas:job00268|x": {
-   "actualizado": "2026-10-30T18:40:17.000Z",
-   "buffer_id": "6ae4dfe9a351214acfa157aa",
-   "clave": "entrevistas:job00268|x",
-   "creado": "2026-10-30T18:20:15.000Z",
-   "dueAt": "2026-10-30T18:22:39.000Z",
-   "enviado": "2026-10-30T18:23:05.169Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-30T18:20:15.000Z",
-   "id": "entrevistas:job00268",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2116234448173731944",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 25,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:busca-caceres-chivilcoy-grabado-lucas-renacer",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Lucas Cáceres: El grabado busca renacer en Chivilcoy\n\nEl grabador Lucas Cáceres expresó su deseo de revitalizar y poner en valor el arte del grabado en Chivilcoy a través de la muestra colectiva Huellas Impresas.\n\nhttps://youtu.be/4_mPNPe7_gg",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Lucas Cáceres: El grabado busca renacer en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-10-30T20:20:15.000Z",
    "video_bytes": 35701365,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00268.mp4",
    "viral": false
@@ -10362,6 +10309,62 @@
    "vence": "2026-11-09T20:00:21.000Z",
    "video_bytes": 29764948,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00291.mp4",
+   "viral": false
+  },
+  "entrevistas:job00292|tiktok": {
+   "actualizado": "2026-11-09T18:40:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00292|tiktok",
+   "creado": "2026-11-09T18:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-09T18:40:17.000Z",
+   "id": "entrevistas:job00292",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Alicia Galante: «La fotografía es mi terapia y mi pasión»\n\nLa fotógrafa de Chivilcoy Alicia Galante explicó el valor sanador que tiene agarrar la cámara y el orgullo que siente ante cada convocatoria para exponer sus obras. Mirá la entrevista completa en nuestro canal.\n\nhttps://youtu.be/37z79Yk-z3E\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alicia Galante: «La fotografía es mi terapia y mi pasión»",
+   "urgente": false,
+   "vence": "2026-11-11T18:40:17.000Z",
+   "video_bytes": 23100965,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00292.mp4",
+   "viral": false
+  },
+  "entrevistas:job00292|x": {
+   "actualizado": "2026-11-09T18:40:28.000Z",
+   "buffer_id": "6af2139d29f60b1cda27dab2",
+   "clave": "entrevistas:job00292|x",
+   "creado": "2026-11-09T18:40:17.000Z",
+   "dueAt": "2026-11-09T18:42:36.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-09T18:40:17.000Z",
+   "id": "entrevistas:job00292",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:alicia-fotografia-galante-pasion-terapia",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Alicia Galante: «La fotografía es mi terapia y mi pasión»\n\nLa fotógrafa de Chivilcoy Alicia Galante explicó el valor sanador que tiene agarrar la cámara y el orgullo que siente ante cada convocatoria para exponer sus obras.\n\nhttps://youtu.be/37z79Yk-z3E",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alicia Galante: «La fotografía es mi terapia y mi pasión»",
+   "urgente": false,
+   "vence": "2026-11-09T20:40:17.000Z",
+   "video_bytes": 23100965,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00292.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
@@ -16512,33 +16515,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6ae8d47487c5ea7cde546b3e",
-   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x",
-   "cuando": "2026-11-02T18:20:36.000Z",
-   "dueAt": "2026-11-02T18:22:47.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|x",
-   "cuando": "2026-11-02T19:40:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117321618313605498"
-  },
-  {
-   "buffer_id": "6ae8f9e625a58c431d04f275",
-   "clave": "bot:corresponsal_2026-11-02_matias-zucchi_mvzkpct7nvpl|tiktok",
-   "cuando": "2026-11-02T21:00:25.000Z",
-   "dueAt": "2026-11-02T21:03:35.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae8f9e774d7e03ec0569a7e",
-   "clave": "entrevistas:job00270|tiktok",
-   "cuando": "2026-11-02T21:00:25.000Z",
-   "dueAt": "2026-11-02T21:23:50.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6ae8f9e9b665951ec2fb9b31",
    "clave": "entrevistas:job00269|tiktok",
    "cuando": "2026-11-02T21:00:25.000Z",
@@ -20682,6 +20658,34 @@
    "cuando": "2026-11-09T18:00:25.000Z",
    "dueAt": "2026-11-09T18:02:06.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00292",
+   "cuando": "2026-11-09T18:40:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00292|x",
+   "cuando": "2026-11-09T18:40:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00292|tiktok",
+   "cuando": "2026-11-09T18:40:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af2139d29f60b1cda27dab2",
+   "clave": "entrevistas:job00292|x",
+   "cuando": "2026-11-09T18:40:29.000Z",
+   "dueAt": "2026-11-09T18:42:36.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21010,6 +21014,7 @@
   "entrevistas:job00289": "2026-11-09T16:40:15.000Z",
   "entrevistas:job00290": "2026-11-09T17:20:13.000Z",
   "entrevistas:job00291": "2026-11-09T18:00:21.000Z",
+  "entrevistas:job00292": "2026-11-09T18:40:17.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
