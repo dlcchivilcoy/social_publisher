@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 09/11/2026 08:00 (hora AR) · ACTIVO
+Actualizado: 09/11/2026 08:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-09)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 09/11/2026 08:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 8 | 6 | 0 | 1 | 0 |
+| Notas web | X | 15 | 1 | 9 | 5 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,19 +27,17 @@ Actualizado: 09/11/2026 08:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (5 esperando)
 - X · Notas web · Gran cosecha de Independiente en 25 de Mayo por la Superliga de As.Am.Bal — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Campeón Sub-23: Gran Actuación de Máximo Sala en el Campeonato Argent — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Clasificados a cuartos del Torneo Prefederal: Somisa goleó y Belgrano ganó un tr — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: La fase regular del Clausura en su etapa de definiciones: Racing ganó — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Federal A: Douglas Haig ganó por la mínima y viajará con ventaja a Chivilcoy — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Clausura de Primera: Moquehuá conservó la punta e invicto tras iguala — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-09T10:02 recibido web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x 
 - 2026-11-09T10:02 recibido web:87f82441-faec-422a-8856-fdfb0a63cf9e|x 
 - 2026-11-09T10:02 recibido web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x 
 - 2026-11-09T10:03 recibido web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6|x 
@@ -64,3 +62,4 @@ Actualizado: 09/11/2026 08:00 (hora AR) · ACTIVO
 - 2026-11-09T10:20 programado web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x 
 - 2026-11-09T10:40 programado web:5de0a567-504a-4513-8e76-0f10b16b1c52|x 
 - 2026-11-09T10:40 programado web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x 
+- 2026-11-09T11:20 programado web:9da65e87-8b1a-426a-922a-94936fe79688|x 
