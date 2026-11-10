@@ -19,12 +19,25 @@
     "desde": "2026-11-10T10:50:00-03:00",
     "baja": null,
     "orientacion": "vertical",
-    "estado": "pendiente",
+    "estado": "publicado",
     "creado": "2026-11-10T10:48-03:00",
     "intentos": 0,
-    "resultado": {},
-    "salidas": [],
-    "ultima_salida": "",
-    "ultimo_error": ""
+    "resultado": {
+      "fb_historia": "1475328961398558",
+      "ig_historia": "18014204208003812"
+    },
+    "salidas": [
+      {
+        "momento": "2026-11-10T10:56-03:00",
+        "ids": {
+          "fb_historia": "1475328961398558",
+          "ig_historia": "18014204208003812"
+        },
+        "fallas": []
+      }
+    ],
+    "ultima_salida": "2026-11-10T10:56-03:00",
+    "ultimo_error": "",
+    "publicado_en": "2026-11-10T10:56-03:00"
   }
 ]
