@@ -537,27 +537,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
    "youtube_url": "https://www.youtube.com/shorts/aJrxzIQKw1Q"
   },
-  "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4": {
-   "descripcion": "Comenzó a disputarse el Torneo Sudamericano de Handball Baptiste De Martelaer, certamen deportivo que reúne a diversas delegaciones en las instalaciones del Club Atlético Independiente.\n\nLa primera jornada de la competencia culminó con el cruce de Primera División entre el equipo anfitrión y Embaixada de Brasil. La actividad se desarrolla de manera simultánea tanto en el playón de la institución como en el microestadio Grilon Arena.\n\nEl certamen cuenta con la participación de jugadoras y jugadores que abarcan desde la categoría Mini hasta Primera División, congregando a una gran cantidad de deportistas durante las diferentes fechas del calendario.\n\nLa acción continuará durante la jornada del sábado 31 de octubre a partir de las 9, mientras que el acto de inauguración oficial del evento deportivo está programado para las 21.15.",
-   "duracion_seg": 38.2,
-   "generado": "2026-10-31T02:56:17.000Z",
-   "id": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer",
-   "urgente": false,
-   "video_bytes": 8171597,
-   "video_mb": 7.8,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1a4a651c49b46480.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/bsigZ60JKsk"
-  },
   "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4": {
    "descripcion": "El Servicio de Oncología del Hospital Municipal participará de la Media Maratón Eduardo Pollaroli, programada para el domingo 1 de noviembre a partir de las 8, con el objetivo de fomentar la actividad física y concientizar sobre los controles médicos preventivos.\n\nJavier Azcola, integrante del área hospitalaria, explicó que aprovecharon la convocatoria del Círculo de Atletas para impulsar la difusión en el marco de las fechas dedicadas a la lucha contra el cáncer de mama y de próstata. En ese sentido, remarcó la necesidad de realizarse estudios a tiempo, tales como mamografías y chequeos prostáticos, para favorecer diagnósticos tempranos y tratamientos oportunos.\n\nEl equipo del servicio, integrado por oncólogas, psicólogas, enfermeras y secretarias, promueve el ejercicio regular tanto para la salud general como para quienes transitan una patología oncológica. Por esta razón, pacientes del área formarán parte de la caminata y de las distintas distancias de la competencia.\n\nLa jornada contará con el acompañamiento de profesionales del sector y la participación del propio Azcola en la prueba de los 21 kilómetros.",
    "duracion_seg": 162.3,
@@ -3141,6 +3120,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/museo-pompeo-boggio-chivilcoy-inaugura-este-martes-llega-huellas",
    "volanta": "Museo ‘Pompeo Boggio’"
   },
+  "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec": {
+   "categoria": "",
+   "descripcion": "Dañaron la vidriera de una pollería en 22 de Octubre y Chacabuco La pollería Pollos Mom, ubicada en la esquina de avenida 22 de Octubre y Chacabuco, sufrió la rotura de su vidriera. Los daños fueron advertidos durante la mañana del lunes, alrededor de las 7:30, cuando una empleada llegó para iniciar la jornada laboral y levantó la cortina del establecimiento. Según relató la trabajadora, por las características de la rotura se presume que el vidrio habría recibido el impacto de una piedra u...",
+   "generado": "2026-11-10T13:08:01.079Z",
+   "id": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c306f9fb05a04d0db26c18a49f53d082~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-danaron-la-vidriera-de-una-polleria-en-22-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Dañaron la vidriera de una pollería en 22 de Octubre y Chacabuco",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-danaron-la-vidriera-de-una-polleria-en-22-de",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:1d419c9d-f015-4088-8655-0aa75738fd73": {
    "categoria": "",
    "descripcion": "Chivilcoy: Ricardo Rodriguez destacó la llegada del Papa y el mensaje que invita a trabajar sobre “realidades que hacen puntualmente a la dignidad de la persona” La visita a la Argentina del Sumo Pontífice León XIV ha generado una profunda expectativa y una movilización de grandes magnitudes a lo largo de todo el territorio nacional, repercutiendo fuertemente en el ámbito eclesial de Chivilcoy. En diálogo con el programa radial “La Mañana del Centro”, el cura párroco de San Pedro, Ricardo...",
@@ -3862,6 +3860,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/liga-chivilcoyana-moscoloni-tras-la-victoria-de-once-tigres-bien",
    "volanta": "Liga Chivilcoyana"
+  },
+  "web:6c408fc2-8757-49c7-81fb-32d1d39afb67": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Destrozaron los vidrios de una parada de colectivos en Sarmiento y Brandsen Una garita de colectivos ubicada en la esquina de avenida Sarmiento y Brandsen, en Chivilcoy, fue vandalizada durante la madrugada del lunes. Los daños quedaron al descubierto a primera hora, cuando vecinos y usuarios del transporte público encontraron los paneles de vidrio destruidos. Los fragmentos quedaron esparcidos sobre la vereda y parte de la calzada, lo que generó un riesgo para quienes circulaban...",
+   "generado": "2026-11-10T13:14:06.931Z",
+   "id": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5ece577c45774a17bc7f6332d2c44435~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Destrozaron los vidrios de una parada de colectivos en Sarmiento y Brandsen",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
+   "volanta": "Chivilcoy · Sociedad"
   },
   "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb": {
    "categoria": "",
@@ -6848,45 +6865,6 @@
    "vence": "2026-11-01T14:53:31.000Z",
    "video_bytes": 8983884,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|tiktok": {
-   "actualizado": "2026-10-31T13:20:15.000Z",
-   "buffer_id": "6ae5e669a114574349a6fe93",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4|tiktok",
-   "creado": "2026-10-31T09:00:16.000Z",
-   "dueAt": "2026-10-31T13:03:16.000Z",
-   "enviado": "2026-10-31T13:07:33.601Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-31T02:56:17.000Z",
-   "id": "bot:video_matias-zucchi_mvvsxaoqghzp_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7702817378664566034",
-   "metricas": {
-    "averageTimeWatched": 4.4,
-    "comments": 0,
-    "engagementRate": 2.73,
-    "reach": 213,
-    "reactions": 13,
-    "shares": 2,
-    "totalTimeWatched": 39.45,
-    "views": 549
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer\n\nEl certamen reúne a diversas delegaciones en el Club Atlético Independiente y se desarrolla en el playón de la institución y en el microestadio Grilon Arena. La competencia cuenta con la participación de jugadoras y jugadores desde la categoría Mini hasta Primera División.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer",
-   "urgente": false,
-   "vence": "2026-11-02T02:56:17.000Z",
-   "video_bytes": 8171597,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1a4a651c49b46480.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok": {
@@ -12234,6 +12212,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x": {
+   "actualizado": "2026-11-10T13:20:23.000Z",
+   "buffer_id": "6af31a17efda8cf29ac63f23",
+   "clave": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x",
+   "creado": "2026-11-10T13:20:13.000Z",
+   "dueAt": "2026-11-10T13:52:42.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-10T13:08:01.079Z",
+   "id": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-danaron-la-vidriera-de-una-polleria-en-22-de",
+   "noticia": "nota:chivilcoy-policiales-danaron-la-vidriera-de-una-polleria-en-22-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Dañaron la vidriera de una pollería en 22 de Octubre y Chacabuco\n\nUna empleada advirtió los daños al levantar la cortina del local.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-danaron-la-vidriera-de-una-polleria-en-22-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Dañaron la vidriera de una pollería en 22 de Octubre y Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-10T17:08:01.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:1d419c9d-f015-4088-8655-0aa75738fd73|x": {
    "actualizado": "2026-11-10T11:40:13.000Z",
    "buffer_id": "6af2ec2201446117738cc391",
@@ -13442,6 +13448,34 @@
    "titulo": "Moscoloni tras la victoria de Once Tigres: «Bien importante ganar»",
    "urgente": false,
    "vence": "2026-11-08T03:32:44.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x": {
+   "actualizado": "2026-11-10T13:20:23.000Z",
+   "buffer_id": "6af31a18ab69ec4b27ebe767",
+   "clave": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x",
+   "creado": "2026-11-10T13:20:13.000Z",
+   "dueAt": "2026-11-10T14:07:47.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-10T13:14:06.931Z",
+   "id": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
+   "noticia": "nota:chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Destrozaron los vidrios de una parada de colectivos en Sarmiento y Brandsen\n\nVecinos y usuarios hallaron los paneles destruidos durante la madrugada. Los fragmentos quedaron sobre la vereda y la calzada, generando riesgo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Destrozaron los vidrios de una parada de colectivos en Sarmiento y Brandsen",
+   "urgente": false,
+   "vence": "2026-11-10T17:14:06.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16555,32 +16589,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:8ccde707-f548-4c61-83cf-fb2ee30a7c99|x",
-   "cuando": "2026-11-03T12:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117585843451797930"
-  },
-  {
-   "clave": "web:b333b47e-b16a-4899-bd75-63c2b7086095|x",
-   "cuando": "2026-11-03T12:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117597098447134967"
-  },
-  {
-   "buffer_id": "6ae9daeec6fbbde82486c733",
-   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok",
-   "cuando": "2026-11-03T13:00:33.000Z",
-   "dueAt": "2026-11-03T13:03:21.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae9daf12d879310e0cc1da4",
-   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok",
-   "cuando": "2026-11-03T13:00:33.000Z",
-   "dueAt": "2026-11-03T13:23:21.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok",
    "cuando": "2026-11-03T13:40:16.000Z",
@@ -20717,6 +20725,36 @@
    "cuando": "2026-11-10T12:40:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120133813233647763"
+  },
+  {
+   "clave": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x",
+   "cuando": "2026-11-10T13:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x",
+   "cuando": "2026-11-10T13:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6af31a17efda8cf29ac63f23",
+   "clave": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x",
+   "cuando": "2026-11-10T13:20:24.000Z",
+   "dueAt": "2026-11-10T13:52:42.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af31a18ab69ec4b27ebe767",
+   "clave": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x",
+   "cuando": "2026-11-10T13:20:24.000Z",
+   "dueAt": "2026-11-10T14:07:47.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21412,6 +21450,7 @@
   "web:1abafabb-ff53-4fcd-911c-6a4465fed747": "2026-10-18T16:20:14.000Z",
   "web:1aebaa22-868e-46df-ae05-8c08cc674c03": "2026-10-17T10:20:15.000Z",
   "web:1c71e481-4fa9-41df-8f32-fdda04fa980d": "2026-10-15T12:40:15.000Z",
+  "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec": "2026-11-10T13:20:13.000Z",
   "web:1d419c9d-f015-4088-8655-0aa75738fd73": "2026-11-10T10:02:42.000Z",
   "web:1deb9aa6-a333-4510-9fa6-def9de7621af": "2026-10-23T10:02:47.000Z",
   "web:1df540af-0585-4bf5-9430-5b0234724aff": "2026-10-23T10:02:47.000Z",
@@ -21607,6 +21646,7 @@
   "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed": "2026-11-05T16:20:20.000Z",
   "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf": "2026-11-07T23:40:13.000Z",
   "web:6c2dee19-96b1-4489-897a-ad0acfed084b": "2026-10-16T10:20:16.000Z",
+  "web:6c408fc2-8757-49c7-81fb-32d1d39afb67": "2026-11-10T13:20:13.000Z",
   "web:6c509d7f-52e1-4541-aa96-22083404a169": "2026-10-26T10:20:14.000Z",
   "web:6cf44ede-55b3-4029-a9ac-00ac0dd310cf": "2026-10-15T13:20:17.000Z",
   "web:6d391a75-2ded-485e-8f76-7f5d9ab59bf7": "2026-10-15T18:40:15.000Z",
