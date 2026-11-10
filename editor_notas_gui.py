@@ -621,7 +621,7 @@ class EditorNotas:
         ttk.Label(r6, text="Texto del posteo:", width=15).pack(side="left")
         self.aviso_texto_var = tk.StringVar()
         ttk.Entry(r6, textvariable=self.aviso_texto_var).pack(side="left", fill="x", expand=True)
-        # Etiquetas de la historia de Instagram (2026-11-10), en el MISMO renglón: un renglón más le
+        # Cuentas a etiquetar en Instagram —publicación, carrusel, reel e historia— (2026-11-10), en el MISMO renglón: un renglón más le
         # comía el alto a la lista y tapaba «Editar» y «Borrar» (ver el gotcha del pack).
         ttk.Label(r6, text="  Etiquetar en IG:").pack(side="left")
         self.aviso_etiquetas_var = tk.StringVar()
@@ -1255,12 +1255,14 @@ class EditorNotas:
         else:
             lineas.append("Redes: no")
         if etiquetas:
-            if "instagram" in redes and "historia" in formatos:
-                lineas.append("Etiqueta en la historia de Instagram: " +
-                              ", ".join("@" + u for u in etiquetas))
+            # Desde el 10/11/2026 van en TODO lo de Instagram: publicación, carrusel, reel e
+            # historia. Facebook no deja etiquetar por la API.
+            if "instagram" in redes:
+                lineas.append("Etiqueta en Instagram: " + ", ".join("@" + u for u in etiquetas) +
+                              " (en Facebook no se puede)")
             else:
-                lineas.append("Etiquetas: se escribieron, pero solo van en la HISTORIA de "
-                              "Instagram (no está tildada): no se usan.")
+                lineas.append("Etiquetas: se escribieron, pero solo van en Instagram "
+                              "(no está tildado): no se usan.")
 
         if redes and not texto:
             if not messagebox.askyesno("Sin texto",

@@ -303,7 +303,7 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
     texto = trabajo.get("texto") or ""
     destinos = trabajo.get("destinos") or []
     formatos = _formatos_de(trabajo)
-    etiquetas = limpiar_etiquetas(trabajo.get("etiquetas"))   # solo historias de Instagram
+    etiquetas = limpiar_etiquetas(trabajo.get("etiquetas"))   # cuentas a etiquetar en Instagram
     ids: dict = {}
     fallas: list[str] = []
 
@@ -394,16 +394,20 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
         if feed_ig:
             if tipo == "video":
                 _intentar(ids, fallas, "ig_feed", "Instagram (video)",
-                          lambda: instagram.publish_reel(url_video(), texto, colab=False))
+                          lambda: instagram.publish_reel(url_video(), texto, colab=False,
+                                                       etiquetas=etiquetas))
             elif carrusel:
                 _intentar(ids, fallas, "ig_feed", "Instagram (carrusel)",
-                          lambda: instagram.publish_carousel(texto, carrusel, colab=False))
+                          lambda: instagram.publish_carousel(texto, carrusel, colab=False,
+                                                           etiquetas=etiquetas))
             else:
                 _intentar(ids, fallas, "ig_feed", "Instagram (publicación)",
-                          lambda: instagram.publish(texto, piezas[0], colab=False))
+                          lambda: instagram.publish(texto, piezas[0], colab=False,
+                                                  etiquetas=etiquetas))
         if "reel" in formatos and video:
             _intentar(ids, fallas, "ig_reel", "Instagram (reel)",
-                      lambda: instagram.publish_reel(url_video(), texto, colab=False))
+                      lambda: instagram.publish_reel(url_video(), texto, colab=False,
+                                                       etiquetas=etiquetas))
         if "historia" in formatos:
             if video:
                 _intentar(ids, fallas, "ig_historia", "Instagram (historia)",

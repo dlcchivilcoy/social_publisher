@@ -433,8 +433,14 @@ def _crear_con_colab(user_id: str, token: str, data: dict, colaborador: str, cre
         return crear(data), ""
 
 
-def publish(body: str, image_path: Path, colab: bool = True) -> dict:
-    """`colab=False`: nunca invita a @diarioyradioagro (las publicidades, por ejemplo)."""
+def publish(body: str, image_path: Path, colab: bool = True, etiquetas=None) -> dict:
+    """`colab=False`: nunca invita a @diarioyradioagro (las publicidades, por ejemplo).
+    `etiquetas`: cuentas a etiquetar en la foto (si falla con ellas, sale sin)."""
+    return _sin_etiquetas_si_falla(lambda et: _publish(body, image_path, colab, et), etiquetas,
+                                   "publicación")
+
+
+def _publish(body: str, image_path: Path, colab: bool = True, etiquetas=None) -> dict:
     user_id = get("INSTAGRAM_USER_ID")
     token = get("INSTAGRAM_ACCESS_TOKEN")
     if not user_id or not token:
@@ -453,11 +459,11 @@ def publish(body: str, image_path: Path, colab: bool = True) -> dict:
         creation_id = None
         for intento in range(3):
             try:
+                datos = {"image_url": _url_imagen(jpeg_path, intento), "caption": caption}
+                if etiquetas:
+                    datos["user_tags"] = _user_tags(etiquetas, con_posicion=True)
                 creation_id = _crear_contenedor(
-                    user_id, token,
-                    _con_colab({"image_url": _url_imagen(jpeg_path, intento), "caption": caption},
-                               colaborador),
-                    intentos=1,
+                    user_id, token, _con_colab(datos, colaborador), intentos=1,
                 )
                 # Paso 1.5: esperar a que Instagram procese la imagen (evita 2207027)
                 _wait_container_ready(creation_id, token)
@@ -496,7 +502,8 @@ MAX_CAROUSEL = 10  # Instagram permite hasta 10 imágenes por carrusel
 _HIJO_ESPERAS = (15, 45, 90)
 
 
-def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos: int = 4) -> str:
+def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos: int = 4,
+                         etiquetas=None) -> str:
     """Crea un contenedor HIJO del carrusel, resiliente al fallo transitorio de descarga
     de la imagen por parte de Instagram (2207003 timeout / 2207052 "Only photo or video…").
 
@@ -520,11 +527,10 @@ def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos:
                     logger.warning(f"Respaldo GitHub no disponible ({gh_err}); sigo con ImgBB.")
             if not image_url:
                 image_url = upload_to_imgbb(jpeg_path)  # URL fresca en cada intento
-            cid = _crear_contenedor(
-                user_id, token,
-                {"image_url": image_url, "is_carousel_item": "true"},
-                intentos=1,
-            )
+            datos = {"image_url": image_url, "is_carousel_item": "true"}
+            if etiquetas:
+                datos["user_tags"] = _user_tags(etiquetas, con_posicion=True)
+            cid = _crear_contenedor(user_id, token, datos, intentos=1)
             _wait_container_ready(cid, token)
             return cid
         except Exception as e:
@@ -539,7 +545,15 @@ def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos:
 
 
 def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
-                     video_url: str = "") -> dict:
+                     video_url: str = "", etiquetas=None) -> dict:
+    """Carrusel de Instagram (ver `_publish_carousel`). `etiquetas`: cuentas a etiquetar; van en
+    las fotos, de a 5 por lámina desde la primera (si falla con ellas, sale sin)."""
+    return _sin_etiquetas_si_falla(
+        lambda et: _publish_carousel(caption, image_paths, colab, video_url, et), etiquetas, "carrusel")
+
+
+def _publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
+                      video_url: str = "", etiquetas=None) -> dict:
     """Publica un CARRUSEL (varias imágenes en un solo posteo) en Instagram.
 
     Flujo: por cada imagen se crea un contenedor hijo (is_carousel_item=true);
@@ -559,7 +573,8 @@ def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
     if video_url and not paths:
         raise ValueError("un carrusel con video necesita al menos una imagen")
     if len(paths) < 2 and not video_url:
-        return publish(caption, paths[0], colab=colab)
+        return _publish(caption, paths[0], colab=colab, etiquetas=etiquetas)
+    cuentas = list(etiquetas or [])
 
     caption = _acotar(caption)
     colaborador = _colaborador(caption, colab, user_id)
@@ -570,11 +585,12 @@ def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
             child_ids.append(_contenedor_video_listo(
                 user_id, token, {"media_type": "VIDEO", "video_url": video_url, "is_carousel_item": "true"},
                 video_url, "video del carrusel"))
-        for p in paths:
+        for i, p in enumerate(paths):
             jpeg = _as_jpeg(p)
             if jpeg != p:
                 temps.append(jpeg)
-            child_ids.append(_crear_hijo_carousel(user_id, token, jpeg))
+            lote = cuentas[i * MAX_ETIQUETAS_LAMINA:(i + 1) * MAX_ETIQUETAS_LAMINA]
+            child_ids.append(_crear_hijo_carousel(user_id, token, jpeg, etiquetas=lote or None))
 
         parent_data = {
             "media_type": "CAROUSEL",
@@ -600,12 +616,21 @@ def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
                 t.unlink()
 
 
-def _user_tags(etiquetas) -> str:
-    """El campo `user_tags` de una historia: [{"username": …}] en JSON (en las historias la
-    posición x/y es opcional). Admitido por la API en historias de foto y de video desde el
-    9/7/2025; el sticker de mención sigue sin poderse."""
+def _user_tags(etiquetas, *, con_posicion: bool = False) -> str:
+    """El campo `user_tags`: [{"username": …}] en JSON. En historias y reels va solo el usuario
+    (historias admitidas por la API desde el 9/7/2025; el sticker de mención sigue sin poderse).
+    En las FOTOS del feed y del carrusel Instagram exige además x/y (0 a 1 desde arriba a la
+    izquierda): se reparten en una columna al centro para que no se encimen al tocar la foto."""
     import json
-    return json.dumps([{"username": str(u).lstrip("@")} for u in (etiquetas or []) if u])
+    cuentas = [str(u).lstrip("@") for u in (etiquetas or []) if u]
+    if not con_posicion:
+        return json.dumps([{"username": u} for u in cuentas])
+    n = len(cuentas)
+    return json.dumps([{"username": u, "x": 0.5, "y": round(0.5 if n == 1 else 0.3 + 0.4 * i / (n - 1), 3)}
+                       for i, u in enumerate(cuentas)])
+
+
+MAX_ETIQUETAS_LAMINA = 5   # Instagram: hasta 5 cuentas por lámina del carrusel (20 en total)
 
 
 def _sin_etiquetas_si_falla(hacer, etiquetas, que: str) -> dict:
@@ -727,7 +752,16 @@ def _contenedor_video_listo(user_id: str, token: str, data: dict, video_url: str
     raise ultimo  # pragma: no cover — el for siempre sale por return o raise
 
 
-def publish_reel(video_url: str, caption: str, cover_url: str = "", colab: bool = True) -> dict:
+def publish_reel(video_url: str, caption: str, cover_url: str = "", colab: bool = True,
+                 etiquetas=None) -> dict:
+    """Reel de Instagram (ver `_publish_reel`). `etiquetas`: cuentas a etiquetar (solo el usuario,
+    los reels no llevan posición); si falla con ellas, sale sin."""
+    return _sin_etiquetas_si_falla(
+        lambda et: _publish_reel(video_url, caption, cover_url, colab, et), etiquetas, "reel")
+
+
+def _publish_reel(video_url: str, caption: str, cover_url: str = "", colab: bool = True,
+                  etiquetas=None) -> dict:
     """Publica un REEL (video vertical) en Instagram a partir de una URL pública del .mp4.
 
     Flujo: crear contenedor media_type=REELS con video_url → esperar a que IG
@@ -749,6 +783,8 @@ def publish_reel(video_url: str, caption: str, cover_url: str = "", colab: bool 
     }
     if cover_url:
         reel_data["cover_url"] = cover_url
+    if etiquetas:
+        reel_data["user_tags"] = _user_tags(etiquetas)
     if _location():
         reel_data["location_id"] = _location()
     colaborador = _colaborador(reel_data["caption"], colab, user_id)
