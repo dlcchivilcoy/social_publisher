@@ -5031,6 +5031,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la",
    "volanta": "Chivilcoy · Cultura"
   },
+  "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Firmaron el convenio para reiniciar las obras en el polideportivo de la avenida 84 CHIVILCOY.– Comienza una nueva fase de trabajos que permitirá prontamente habilitar el uso de las instalaciones del Polideportivo de la avenida 84. Se firmó el convenio para reiniciar las obras en dicho espacio. En una conferencia de prensa encabezada por el intendente Guillermo Britos, junto al secretario de Obras Públicas, Eduardo Alonso, y el director de Deportes, Ignacio Fedato, el Municipio...",
+   "generado": "2026-11-10T14:54:09.077Z",
+   "id": "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8acf6998ce89428fb8e5ec61e393ba0b~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-obras-publicas-chivilcoy-firmaron-el-convenio-para",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Firmaron el convenio para reiniciar las obras en el polideportivo de la avenida 84",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-obras-publicas-chivilcoy-firmaron-el-convenio-para",
+   "volanta": "Chivilcoy · Obras públicas"
+  },
   "web:d4089f06-53a3-4eae-adeb-d9043a2f641d": {
    "categoria": "",
    "descripcion": "El arte impreso celebró su fiesta: inauguró \"Huellas Impresas\" en el Museo Pompeo Boggio La 1ª Exposición Colectiva de Grabado reúne obras de 36 artistas entre referentes bonaerenses y talentos locales. Una propuesta organizada por Nativa Arte Impreso que recorre la historia y el presente de la disciplina gráfica. El Museo de Artes Plásticas Pompeo Boggio se vistió de gala este martes para recibir la inauguración de \"Huellas Impresas\", la primera Exposición Colectiva de Grabado que propone un...",
@@ -15441,6 +15460,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x": {
+   "actualizado": "2026-11-10T15:00:23.000Z",
+   "buffer_id": "",
+   "clave": "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x",
+   "creado": "2026-11-10T15:00:21.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-10T14:54:09.077Z",
+   "id": "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-obras-publicas-chivilcoy-firmaron-el-convenio-para",
+   "noticia": "nota:chivilcoy-obras-publicas-chivilcoy-firmaron-el-convenio-para",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Firmaron el convenio para reiniciar las obras en el polideportivo de la avenida 84\n\nComienza una nueva fase de trabajos para habilitar las instalaciones del Polideportivo. El Municipio encabezó el anuncio en conferencia de prensa.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-obras-publicas-chivilcoy-firmaron-el-convenio-para",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Firmaron el convenio para reiniciar las obras en el polideportivo de la avenida 84",
+   "urgente": false,
+   "vence": "2026-11-10T18:54:09.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:d4089f06-53a3-4eae-adeb-d9043a2f641d|x": {
    "actualizado": "2026-11-05T12:00:20.000Z",
    "buffer_id": "6aec5d0f7a8d6fb41a6d6cd1",
@@ -16412,19 +16458,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00272",
-   "cuando": "2026-11-03T17:40:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00272|x",
-   "cuando": "2026-11-03T17:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00272|tiktok",
    "cuando": "2026-11-03T17:40:15.000Z",
@@ -20579,6 +20612,20 @@
    "cuando": "2026-11-10T14:40:18.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120156336247750952"
+  },
+  {
+   "clave": "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x",
+   "cuando": "2026-11-10T15:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x",
+   "cuando": "2026-11-10T15:00:23.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21781,6 +21828,7 @@
   "web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be": "2026-10-22T10:02:31.000Z",
   "web:d02ad89e-79f9-411b-86f5-added49bc1ff": "2026-10-23T02:00:16.000Z",
   "web:d1046b33-6e86-4507-ae0d-c47db70dbb2a": "2026-10-11T21:58:03.000Z",
+  "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9": "2026-11-10T15:00:21.000Z",
   "web:d243e208-dd8e-46a7-9465-8665ba05218a": "2026-10-26T12:06:06.000Z",
   "web:d32900c4-88d6-42ae-8c8e-361cf3839478": "2026-10-28T10:02:28.000Z",
   "web:d35101a5-0683-4dc9-8422-7280ee9bf814": "2026-10-11T21:58:03.000Z",
