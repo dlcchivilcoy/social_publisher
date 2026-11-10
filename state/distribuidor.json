@@ -4881,25 +4881,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
    "volanta": "Chivilcoy · Bomberos"
   },
-  "web:be3f2357-0b41-4b5c-a76e-7242f7a153df": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Cientos de niños festejan Halloween en la plaza principal Cientos de niños se congregaron en la plaza principal de Chivilcoy para celebrar los festejos de Halloween.",
-   "generado": "2026-10-31T20:35:36.201Z",
-   "id": "web:be3f2357-0b41-4b5c-a76e-7242f7a153df",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_67186964fa7f45348757559bee38deb3~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Cientos de niños festejan Halloween en la plaza principal",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
-   "volanta": "Chivilcoy · Sociedad"
-  },
   "web:c111ebae-74fb-4af9-b579-9f53a3522b71": {
    "categoria": "",
    "descripcion": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján Bomberos Voluntarios y personal de emergencias llevaron adelante un operativo de rescate para auxiliar a dos jóvenes que cayeron en las instalaciones de la Universidad Nacional de Luján. El hecho se originó tras un llamado que alertó sobre personas accidentadas en el sector edilicio. El oficial de bomberos Esteban Genaro explicó las tareas realizadas en el establecimiento educativo: «Fuimos convocados por un...",
@@ -15331,31 +15312,6 @@
    "titulo": "Chivilcoy: Un auto quedó destruido por un incendio en el camino a Henry Bell",
    "urgente": false,
    "vence": "2026-11-05T15:41:09.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:be3f2357-0b41-4b5c-a76e-7242f7a153df|x": {
-   "actualizado": "2026-10-31T20:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:be3f2357-0b41-4b5c-a76e-7242f7a153df|x",
-   "creado": "2026-10-31T20:40:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-31T20:35:36.201Z",
-   "id": "web:be3f2357-0b41-4b5c-a76e-7242f7a153df",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
-   "noticia": "nota:chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Cientos de niños festejan Halloween en la plaza principal",
-   "urgente": false,
-   "vence": "2026-11-01T00:35:36.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
