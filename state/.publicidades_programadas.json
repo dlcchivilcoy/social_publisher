@@ -56,11 +56,27 @@
     "formatos": [
       "historia"
     ],
-    "agenda": null,
+    "agenda": {
+      "dias": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "horas": [
+        "08:00"
+      ]
+    },
     "desde": "2026-11-11T08:00:00-03:00",
-    "baja": "2026-11-17T08:00:00-03:00",
+    "baja": "2026-11-17T12:00:00-03:00",
     "orientacion": "vertical",
-    "etiquetas": [],
+    "etiquetas": [
+      "denisesantiasoprano",
+      "pianoclementediez"
+    ],
     "estado": "pendiente",
     "creado": "2026-11-10T12:15-03:00",
     "intentos": 0,
