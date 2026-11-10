@@ -3464,25 +3464,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gto-chivilcoy-un-menor-de-17-anos-fue-aprehendido-acusado-de-intentar",
    "volanta": "GTO"
   },
-  "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer CHIVILCOY.– Con el partido de Primera División entre Independiente y Embaixada de Brasil culminó la primera jornada del Torneo Sudamericano de Handball Baptiste De Martelaer, certamen que se desarrolla tanto en el playón como en el Grilon Arena del Club Atlético Independiente. El torneo reúne a jugadoras y jugadores desde la categoría Mini hasta Primera División. La actividad continuará durante la jornada del sábado a...",
-   "generado": "2026-10-31T02:54:23.930Z",
-   "id": "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0dc2b44b39f84ad3a04d626d6f9a33ab~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5": {
    "categoria": "",
    "descripcion": "Chivilcoy: La demanda espontánea se atiende en los CAPS para descomprimir guardias Al cumplirse un mes de la implementación del sistema de atención de demanda espontánea en los Centros de Atención Primaria de la Salud (CAPS), el secretario de Salud, José Luis Neme, y la directora del Hospital Municipal, Patricia Mangino, realizaron un balance de la iniciativa y explicaron cómo funciona esta modalidad, destinada a mejorar la organización de la atención sanitaria en Chivilcoy. La propuesta...",
@@ -12513,31 +12494,6 @@
    "titulo": "Chivilcoy: Un menor de 17 años fue aprehendido acusado de intentar sustraer pertenencias del interior de una camioneta Volkswagen Amarok",
    "urgente": false,
    "vence": "2026-11-05T14:37:15.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b|x": {
-   "actualizado": "2026-10-31T09:00:16.000Z",
-   "buffer_id": "",
-   "clave": "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b|x",
-   "creado": "2026-10-31T09:00:16.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-31T02:54:23.930Z",
-   "id": "web:4aed41f5-eff4-40c9-88aa-99df16b5b94b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-comenzo-el-torneo-sudamericano-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Comenzó el Torneo Sudamericano de Handball Baptiste De Martelaer",
-   "urgente": false,
-   "vence": "2026-10-31T06:54:23.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
