@@ -117,27 +117,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1a4b111298956258.mp4",
    "youtube_url": "https://www.youtube.com/shorts/bSfKxFaYrqc"
   },
-  "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8": {
-   "descripcion": "El ingeniero civil Oscar Potetti sostuvo que los movimientos en la Ruta 5 corresponden únicamente a la travesía de Mercedes y no a los 20 kilómetros hasta Suipacha. Asimismo, pidió que los fondos disponibles se destinen a finalizar la obra completa entre ambas localidades.",
-   "duracion_seg": 52.8,
-   "generado": "2026-10-30T22:52:24.000Z",
-   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Oscar Potetti afirmó que la reactivación del tramo Mercedes-Suipacha es una falsa alarma",
-   "urgente": false,
-   "video_bytes": 2037136,
-   "video_mb": 1.9,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_512e278f4010448a.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/oYLf_8er2qk"
-  },
   "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz": {
    "descripcion": "Daniel Magni realizó una presentación informal de su libro Remembranzas en el Centro Cultural Borges de la terminal de ómnibus. En la misma jornada, Jorge G. Lorenzo expuso una muestra fotográfica inédita sobre Jorge Luis Borges.",
    "duracion_seg": 58.9,
@@ -2734,32 +2713,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_01_25-de-mayo_buscan-a-un-joven-de-27-a-os-p.mp4",
    "volanta": "Búsqueda e investigación en Mechita",
    "youtube_url": "https://youtube.com/shorts/l7N9nYNZuio"
-  },
-  "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/": {
-   "categoria": "narcotrafico",
-   "descripcion": "Un hombre fue capturado en su vivienda de Bragado en el marco de una causa por venta de estupefacientes al menudeo. Durante el procedimiento atacó a los uniformados, se zafó de los precintos y quiso desarmar a un efectivo antes de ser reducido.",
-   "distancia_km": 49.3,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-30T23:31:41.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/",
-   "localidad": "Bragado",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-por-narcotrafico-a-un-hombre-que-intento-0af3f7",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "radio_ok": true,
-   "texto_tiktok": "La investigación por venta de drogas en un lavadero sumó un nuevo arresto tras una serie de allanamientos.\n\nEl procedimiento se llevó a cabo este miércoles en una finca situada en la calle Troilo al 2000.\n\nEl implicado se soltó de las atenciones e intentó quitarle el arma reglamentaria a un policía antes de ser reducido.\n\nIntervinieron efectivos de la división de drogas ilícitas, la policía local, el GAD y personal municipal.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Narcotrafico #Operativo #BuenosAires",
-   "tipo": "video",
-   "titulo": "Bragado: cayó un sospechoso por drogas que intentó robarle el arma a un policía",
-   "urgente": false,
-   "video_bytes": 93928,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_07_9-de-julio_bragado-cay-un-sospechoso-por-.mp4",
-   "volanta": "Operativo antidrogas en Bragado",
-   "youtube_url": "https://youtube.com/shorts/96LUxcpJYhM"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/": {
    "categoria": "homicidio",
@@ -5717,45 +5670,6 @@
    "vence": "2026-11-01T00:00:57.000Z",
    "video_bytes": 1393978,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1a4b111298956258.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tiktok": {
-   "actualizado": "2026-10-31T01:40:15.000Z",
-   "buffer_id": "6ae52f95ceb491e585c98ff2",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8|tiktok",
-   "creado": "2026-10-30T23:00:20.000Z",
-   "dueAt": "2026-10-31T00:23:06.000Z",
-   "enviado": "2026-10-31T00:24:57.888Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-30T22:52:24.000Z",
-   "id": "bot:corresponsal_2026-10-30_matias-zucchi_mvvk2encp2b8",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7702620964760210689",
-   "metricas": {
-    "averageTimeWatched": 4.65,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 0,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 9.37,
-    "views": 98
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Oscar Potetti afirmó que la reactivación del tramo Mercedes-Suipacha es una falsa alarma\n\nEl ingeniero civil Oscar Potetti sostuvo que los movimientos en la Ruta 5 corresponden únicamente a la travesía de Mercedes y no a los 20 kilómetros hasta Suipacha. Asimismo, pidió que los fondos disponibles se destinen a finalizar la obra completa entre ambas localidades.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-nacional-5-oscar-potetti-afirmo-que-la-reactivacion-del-tramo\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Oscar Potetti afirmó que la reactivación del tramo Mercedes-Suipacha es una falsa alarma",
-   "urgente": false,
-   "vence": "2026-11-01T22:52:24.000Z",
-   "video_bytes": 2037136,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_512e278f4010448a.mp4",
    "viral": false
   },
   "bot:corresponsal_2026-10-31_daniel-magni-2346-667351_mvvofi8z2xnz|tiktok": {
@@ -11183,14 +11097,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html|x": {
-   "actualizado": "2026-11-09T23:40:15.000Z",
+   "actualizado": "2026-11-10T01:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html|x",
    "creado": "2026-11-09T23:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-09T23:30:57.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html",
    "intentos": 0,
@@ -11544,34 +11458,6 @@
    "video_bytes": 103663,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_01_25-de-mayo_buscan-a-un-joven-de-27-a-os-p.mp4",
    "viral": true
-  },
-  "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x": {
-   "actualizado": "2026-10-31T01:40:15.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/|x",
-   "creado": "2026-10-30T23:40:18.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-10-30T23:31:41.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-por-narcotrafico-a-un-hombre-que-intento-0af3f7",
-   "noticia": "nota:bragado-detuvieron-por-narcotrafico-a-un-hombre-que-intento-0af3f7",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 8,
-   "texto": "Bragado: cayó un sospechoso por drogas que intentó robarle el arma a un policía\n\nUn hombre fue capturado en su vivienda por venta de estupefacientes. Durante el procedimiento atacó a los agentes y quiso desarmar a uno de ellos.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-detuvieron-por-narcotrafico-a-un-hombre-que-intento-0af3f7",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Bragado: cayó un sospechoso por drogas que intentó robarle el arma a un policía",
-   "urgente": false,
-   "vence": "2026-10-31T01:31:41.000Z",
-   "video_bytes": 93928,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-30_2134_07_9-de-julio_bragado-cay-un-sospechoso-por-.mp4",
-   "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/dos-allanamientos-por-una-causa-de-homicidio-en-grado-de-tentativa/|x": {
    "actualizado": "2026-10-31T02:20:21.000Z",
@@ -16214,14 +16100,6 @@
  },
  "registro": [
   {
-   "clave": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x",
-   "cuando": "2026-11-03T10:02:50.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:b333b47e-b16a-4899-bd75-63c2b7086095|x",
    "cuando": "2026-11-03T10:03:00.000Z",
    "estado": "pendiente",
@@ -20374,6 +20252,12 @@
   {
    "clave": "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina|x",
    "cuando": "2026-11-10T01:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html|x",
+   "cuando": "2026-11-10T01:40:15.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
