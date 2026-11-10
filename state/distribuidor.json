@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 4
+    "scheduled": 0,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-10T22:20:23.000Z"
+   "visto": "2026-11-10T23:20:24.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-10T22:20:23.000Z"
+   "visto": "2026-11-10T23:20:24.000Z"
   }
  },
  "contenidos": {
@@ -326,27 +326,6 @@
    "video_mb": 8.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
    "youtube_url": "https://www.youtube.com/shorts/aJrxzIQKw1Q"
-  },
-  "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4": {
-   "descripcion": "El Servicio de Oncología del Hospital Municipal participará de la Media Maratón Eduardo Pollaroli, programada para el domingo 1 de noviembre a partir de las 8, con el objetivo de fomentar la actividad física y concientizar sobre los controles médicos preventivos.\n\nJavier Azcola, integrante del área hospitalaria, explicó que aprovecharon la convocatoria del Círculo de Atletas para impulsar la difusión en el marco de las fechas dedicadas a la lucha contra el cáncer de mama y de próstata. En ese sentido, remarcó la necesidad de realizarse estudios a tiempo, tales como mamografías y chequeos prostáticos, para favorecer diagnósticos tempranos y tratamientos oportunos.\n\nEl equipo del servicio, integrado por oncólogas, psicólogas, enfermeras y secretarias, promueve el ejercicio regular tanto para la salud general como para quienes transitan una patología oncológica. Por esta razón, pacientes del área formarán parte de la caminata y de las distintas distancias de la competencia.\n\nLa jornada contará con el acompañamiento de profesionales del sector y la participación del propio Azcola en la prueba de los 21 kilómetros.",
-   "duracion_seg": 162.3,
-   "generado": "2026-10-31T16:38:46.000Z",
-   "id": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Oncología del Hospital Municipal promueve la prevención y la actividad física",
-   "urgente": false,
-   "video_bytes": 22824196,
-   "video_mb": 21.8,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/LsKqqaxZmvA"
   },
   "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4": {
    "descripcion": "Se está llevando a cabo en Chivilcoy el Súper Torneo Intercolegial de Ajedrez 2026, con una destacada convocatoria de más de 150 alumnos que representan a diversas instituciones educativas de la ciudad.\n\nEntre los colegios participantes se encuentran la Escuela 65, la Secundaria 10 y la Técnica N° 1, cuyos estudiantes compiten frente al tablero por llevarse la copa, en un marco caracterizado por la concentración, la estrategia y el compañerismo.\n\nEl certamen tiene lugar en avenida Sóarez 114 a partir de las 14 horas. La propuesta cuenta con inscripción gratuita, no posee límite de edad e incluye la entrega de trofeos, medallas y sorteos entre los asistentes.\n\nDesde la organización informaron que aquellos interesados en sumarse todavía pueden registrarse comunicándose por WhatsApp al 2346-522136, donde se les asignará un lugar en el equipo correspondiente a su establecimiento escolar.",
@@ -1870,32 +1849,6 @@
    "volanta": "Bragado",
    "youtube_url": "https://youtube.com/shorts/KLZJZRb0BiY"
   },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26730-aprehendieron-a-un-hombre-acusado-de-cometer-dos-robos-utilizando-inhibidores-de-senal": {
-   "categoria": "robo",
-   "descripcion": "Cayó un sospechoso de 54 años tras un allanamiento en la calle Necochea al 1400. Le secuestraron prendas de vestir y lo investigan por sustraer un millón y medio de pesos de una camioneta en la calle Lavalle.",
-   "distancia_km": 49.3,
-   "duracion_seg": 13.0,
-   "generado": "2026-10-31T22:01:10.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26730-aprehendieron-a-un-hombre-acusado-de-cometer-dos-robos-utilizando-inhibidores-de-senal",
-   "localidad": "Bragado",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-un-hombre-de-54-anos-acusado-de-robar-con-ae74cd",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Un hombre de 54 años fue aprehendido en Bragado tras un allanamiento en una vivienda de la calle Necochea al 1400.\n\nLa investigación se originó luego de que le sustrajeran un millón quinientos mil pesos a una mujer que dejó su camioneta estacionada sobre la calle Lavalle, entre Francia y Benito de Miguel.\n\nLos investigadores vincularon al sospechoso con otro hecho similar registrado el pasado 24 de octubre mediante el análisis de cámaras de seguridad.\n\nEfectivos de la DDI secuestraron prendas de vestir que habrían sido utilizadas durante los ilícitos por disposición de la UFIJ N.º 1.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Robo #Inseguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Aprehendieron a un hombre de 54 años por robos con inhibidores de señal",
-   "urgente": false,
-   "video_bytes": 79613,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-31_2134_02_bragado_aprehendieron-a-un-hombre-de-5.mp4",
-   "volanta": "Investigación en Bragado",
-   "youtube_url": "https://youtube.com/shorts/UivdyfZj1Gk"
-  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos": {
    "categoria": "robo",
    "descripcion": "Cayó un sospechoso de 40 años tras un hurto en una casa de la calle Alem al 1800, perpetrado el 03/11/2026. La policía recuperó el teléfono y la billetera.",
@@ -2701,6 +2654,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_10_9-de-julio_rige-un-alerta-amarilla-por-to.mp4",
    "volanta": "Alerta meteorológica en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/yQ5ufvJAirU"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/": {
+   "categoria": "otro_policial",
+   "descripcion": "Hallaron un cuerpo sin extremidades inferiores en el canal República de Italia, en inmediaciones de Larrea, partido de Alberti. Investigan un posible homicidio vinculado al robo de herramientas. Hay dos personas demoradas.",
+   "distancia_km": 39.8,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-10T23:01:10.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/",
+   "localidad": "Mechita",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mechita-y-alberti-hallaron-un-cadaver-desmembrado-en-un-canal-y-43d578",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 10,
+   "radio_ok": true,
+   "texto_tiktok": "Un macabro hallazgo conmocionó a la localidad de Mechita y a la región tras el descubrimiento de un cadáver desmembrado en las aguas del canal República de Italia, cerca del puente Larrea, en el partido de Alberti.\n\nEl procedimiento se llevó a cabo este lunes pasadas las 14 y contó con la participación de dotaciones de Bomberos Voluntarios de Mechita, Bragado y Alberti, logrando ubicar los restos a unos 10 kilómetros de donde habrían sido arrojados.\n\nLa principal hipótesis de los investigadores apunta a un homicidio vinculado con el robo de herramientas en una vivienda usurpada del barrio Colonia de Mechita, y la víctima sería un joven de 27 años buscado desde el sábado.\n\nActualmente, la Fiscalía interviniente y la Policía Científica trabajan en la identificación fehaciente del cuerpo mediante la autopsia, mientras que dos personas permanecen demoradas a disposición de la Justicia.\n\n📲 Más noticias de Mechita en www.diariolacampaña.com.ar\n\n#Mechita #Homicidio #Alberti #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Encontraron un cadáver desmembrado en un canal y hay dos demorados",
+   "urgente": false,
+   "video_bytes": 107717,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_08_9-de-julio_encontraron-un-cad-ver-desmemb.mp4",
+   "volanta": "Hallazgo en Alberti y Mechita",
+   "youtube_url": "https://youtube.com/shorts/16xStU92504"
   },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": {
    "categoria": "",
@@ -6314,45 +6293,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_efc7bfd7733ad969.mp4",
    "viral": false
   },
-  "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok": {
-   "actualizado": "2026-10-31T23:20:24.000Z",
-   "buffer_id": "6ae656f51ee172cd6dc20253",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|tiktok",
-   "creado": "2026-10-31T16:40:18.000Z",
-   "dueAt": "2026-10-31T22:23:07.000Z",
-   "enviado": "2026-10-31T22:24:58.624Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-31T16:38:46.000Z",
-   "id": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7702961109988396296",
-   "metricas": {
-    "averageTimeWatched": 3.73,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 80,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 30.43,
-    "views": 410
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Oncología del Hospital Municipal promueve la prevención y la actividad física\n\nEl Servicio de Oncología participará el domingo 1 de noviembre en la Media Maratón Eduardo Pollaroli para concientizar sobre los controles médicos preventivos. Javier Azcola, integrante del área, remarcó la necesidad de realizarse chequeos a tiempo para favorecer diagnósticos tempranos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Oncología del Hospital Municipal promueve la prevención y la actividad física",
-   "urgente": false,
-   "vence": "2026-11-02T16:38:46.000Z",
-   "video_bytes": 22824196,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok": {
    "actualizado": "2026-11-01T02:00:24.000Z",
    "buffer_id": "6ae6811937c1acd2a0da3c22",
@@ -9259,19 +9199,20 @@
    "viral": false
   },
   "entrevistas:job00294|tiktok": {
-   "actualizado": "2026-11-10T21:00:18.000Z",
+   "actualizado": "2026-11-10T23:20:24.000Z",
    "buffer_id": "6af385e82b686bd66cf7b133",
    "categoria": "",
    "clave": "entrevistas:job00294|tiktok",
    "creado": "2026-11-10T17:00:19.000Z",
    "dueAt": "2026-11-10T22:23:50.000Z",
+   "enviado": "2026-11-10T22:25:43.631Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T17:00:19.000Z",
    "id": "entrevistas:job00294",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7706672089830329618",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9604,18 +9545,19 @@
    "viral": true
   },
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/|x": {
-   "actualizado": "2026-11-10T22:20:24.000Z",
+   "actualizado": "2026-11-10T23:20:24.000Z",
    "buffer_id": "6af398a840d53aa0ae17bedb",
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/|x",
    "creado": "2026-11-10T22:20:14.000Z",
    "dueAt": "2026-11-10T22:23:45.000Z",
+   "enviado": "2026-11-10T22:23:49.213Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T22:02:52.000Z",
    "id": "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120281297822052795",
    "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-una-camara-complica-a-los-acusados-por-el-crimen-de-bceaa0",
    "noticia": "nota:alberti-una-camara-complica-a-los-acusados-por-el-crimen-de-bceaa0",
    "origen": "policiales",
@@ -10234,43 +10176,6 @@
    "vence": "2026-11-01T00:31:18.000Z",
    "video_bytes": 77067,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-31_2134_04_bragado_una-camioneta-se-prendi-fuego-.mp4",
-   "viral": false
-  },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26730-aprehendieron-a-un-hombre-acusado-de-cometer-dos-robos-utilizando-inhibidores-de-senal|x": {
-   "actualizado": "2026-10-31T23:20:24.000Z",
-   "buffer_id": "6ae669a8f0984eef33343d45",
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26730-aprehendieron-a-un-hombre-acusado-de-cometer-dos-robos-utilizando-inhibidores-de-senal|x",
-   "creado": "2026-10-31T22:20:15.000Z",
-   "dueAt": "2026-10-31T22:23:16.000Z",
-   "enviado": "2026-10-31T22:23:33.150Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-31T22:01:10.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26730-aprehendieron-a-un-hombre-acusado-de-cometer-dos-robos-utilizando-inhibidores-de-senal",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2116657351704854980",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 57,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-un-hombre-de-54-anos-acusado-de-robar-con-ae74cd",
-   "noticia": "nota:bragado-detuvieron-a-un-hombre-de-54-anos-acusado-de-robar-con-ae74cd",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Aprehendieron a un hombre de 54 años por robos con inhibidores de señal\n\nCayó un sospechoso de 54 años tras un allanamiento en la calle Necochea al 1400.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-un-hombre-de-54-anos-acusado-de-robar-con-ae74cd",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Aprehendieron a un hombre de 54 años por robos con inhibidores de señal",
-   "urgente": false,
-   "vence": "2026-11-01T00:01:10.000Z",
-   "video_bytes": 79613,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-10-31_2134_02_bragado_aprehendieron-a-un-hombre-de-5.mp4",
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos|x": {
@@ -11239,6 +11144,34 @@
    "video_bytes": 79132,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_10_9-de-julio_rige-un-alerta-amarilla-por-to.mp4",
    "viral": false
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/|x": {
+   "actualizado": "2026-11-10T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/|x",
+   "creado": "2026-11-10T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-10T23:01:10.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mechita-y-alberti-hallaron-un-cadaver-desmembrado-en-un-canal-y-43d578",
+   "noticia": "nota:mechita-y-alberti-hallaron-un-cadaver-desmembrado-en-un-canal-y-43d578",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 10,
+   "texto": "Encontraron un cadáver desmembrado en un canal y hay dos demorados\n\nHallaron un cuerpo sin extremidades inferiores en el canal República de Italia, en inmediaciones de Larrea, partido de Alberti.\n\nhttps://www.diariolacampaña.com.ar/n/mechita-y-alberti-hallaron-un-cadaver-desmembrado-en-un-canal-y-43d578",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Encontraron un cadáver desmembrado en un canal y hay dos demorados",
+   "urgente": false,
+   "vence": "2026-11-11T01:01:10.000Z",
+   "video_bytes": 107717,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_08_9-de-julio_encontraron-un-cad-ver-desmemb.mp4",
+   "viral": true
   },
   "web:00e5dd74-44ac-4950-93b6-b45c439734be|x": {
    "actualizado": "2026-11-02T13:20:16.000Z",
@@ -16109,30 +16042,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok",
-   "cuando": "2026-11-04T09:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|x",
-   "cuando": "2026-11-04T09:00:28.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok",
-   "cuando": "2026-11-04T09:00:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:04a24de3-2093-4b59-8e4e-5da6fa217039|x",
    "cuando": "2026-11-04T09:00:31.000Z",
    "estado": "descartado",
@@ -20274,6 +20183,26 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/|x",
+   "cuando": "2026-11-10T23:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "entrevistas:job00294|tiktok",
+   "cuando": "2026-11-10T23:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7706672089830329618"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/|x",
+   "cuando": "2026-11-10T23:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120281297822052795"
   }
  ],
  "tandas": {
@@ -20311,7 +20240,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-10",
- "ultima_sync": "2026-11-10T22:20:23.000Z",
+ "ultima_sync": "2026-11-10T23:20:24.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -20897,6 +20826,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/": "2026-11-07T00:20:16.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/": "2026-11-07T00:40:13.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/": "2026-11-10T23:20:14.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
