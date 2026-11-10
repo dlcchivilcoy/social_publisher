@@ -1,0 +1,30 @@
+[
+  {
+    "id": "35bba8aa7b73",
+    "nombre": "Reel Edu",
+    "tipo": "video",
+    "urls": [
+      "https://diarioweb.vercel.app/avisos/reel-edu.mp4"
+    ],
+    "texto": "",
+    "cuando": "2026-11-10T10:50:00-03:00",
+    "destinos": [
+      "facebook",
+      "instagram"
+    ],
+    "formatos": [
+      "historia"
+    ],
+    "agenda": null,
+    "desde": "2026-11-10T10:50:00-03:00",
+    "baja": null,
+    "orientacion": "vertical",
+    "estado": "pendiente",
+    "creado": "2026-11-10T10:48-03:00",
+    "intentos": 0,
+    "resultado": {},
+    "salidas": [],
+    "ultima_salida": "",
+    "ultimo_error": ""
+  }
+]
