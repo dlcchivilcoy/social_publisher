@@ -39,5 +39,34 @@
     "ultima_salida": "2026-11-10T10:56-03:00",
     "ultimo_error": "",
     "publicado_en": "2026-11-10T10:56-03:00"
+  },
+  {
+    "id": "6b4ac8a6970c",
+    "nombre": "gala lirica",
+    "tipo": "foto",
+    "urls": [
+      "https://diarioweb.vercel.app/avisos/gala-lirica.jpeg"
+    ],
+    "texto": "",
+    "cuando": "2026-11-11T08:00:00-03:00",
+    "destinos": [
+      "facebook",
+      "instagram"
+    ],
+    "formatos": [
+      "historia"
+    ],
+    "agenda": null,
+    "desde": "2026-11-11T08:00:00-03:00",
+    "baja": "2026-11-17T08:00:00-03:00",
+    "orientacion": "vertical",
+    "etiquetas": [],
+    "estado": "pendiente",
+    "creado": "2026-11-10T12:15-03:00",
+    "intentos": 0,
+    "resultado": {},
+    "salidas": [],
+    "ultima_salida": "",
+    "ultimo_error": ""
   }
 ]
