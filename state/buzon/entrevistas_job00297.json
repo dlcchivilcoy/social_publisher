@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00297",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-11-10T18:37:35.000Z",
+ "titulo": "Rosario Alfaro y su método para escribir thrillers",
+ "descripcion": "En Chivilcoy, la escritora Rosario Alfaro presentó su novela 'La vigilia de los ciegos' y reveló cómo planifica sus historias como una escena de crimen.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00297.mp4",
+ "duracion_seg": null,
+ "espera_youtube_publico": {
+  "short": "b6y9nt9XhB8",
+  "largo": "MD57ke6LgN8"
+ },
+ "youtube_url": "https://youtube.com/shorts/b6y9nt9XhB8",
+ "prioridad": 7,
+ "entrevistado": "Rosario Alfaro",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
