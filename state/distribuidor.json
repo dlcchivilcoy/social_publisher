@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-10T11:40:13.000Z"
+   "visto": "2026-11-10T12:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 3,
-    "sent": 18
+    "scheduled": 4,
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-11-10T11:40:13.000Z"
+   "visto": "2026-11-10T12:40:13.000Z"
   }
  },
  "contenidos": {
@@ -13131,19 +13131,20 @@
    "viral": false
   },
   "web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3|x": {
-   "actualizado": "2026-11-10T11:00:22.000Z",
+   "actualizado": "2026-11-10T12:40:13.000Z",
    "buffer_id": "6af2f948e6a19650c9852c43",
    "clave": "web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T12:22:20.000Z",
+   "enviado": "2026-11-10T12:22:31.184Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:01:54.895Z",
    "id": "web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3",
    "ig_hora": "2026-11-10T12:22:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120129975403663450",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-el-torneo-clausura-de-primera-en-la-previa-de-una",
    "noticia": "nota:futbol-chivilcoy-el-torneo-clausura-de-primera-en-la-previa-de-una",
    "origen": "web",
@@ -14981,19 +14982,20 @@
    "viral": false
   },
   "web:b8f99c2d-7f06-4d78-a4ac-7cd0d76d7fab|x": {
-   "actualizado": "2026-11-10T10:40:16.000Z",
+   "actualizado": "2026-11-10T12:40:13.000Z",
    "buffer_id": "6af2f4909d7b7e63872d9ad5",
    "clave": "web:b8f99c2d-7f06-4d78-a4ac-7cd0d76d7fab|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T11:52:37.000Z",
+   "enviado": "2026-11-10T11:52:46.316Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:01:44.077Z",
    "id": "web:b8f99c2d-7f06-4d78-a4ac-7cd0d76d7fab",
    "ig_hora": "2026-11-10T11:52:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120122489078477112",
    "nota_url": "https://www.diariolacampaña.com.ar/n/acuerdos-para-el-futuro-la-juventud-radical-recorrio-carlos-casares-y",
    "noticia": "nota:acuerdos-para-el-futuro-la-juventud-radical-recorrio-carlos-casares-y",
    "origen": "web",
@@ -15939,19 +15941,20 @@
    "viral": false
   },
   "web:e570a0c3-9d95-48dd-984f-3bf24b18af2c|x": {
-   "actualizado": "2026-11-10T11:20:15.000Z",
+   "actualizado": "2026-11-10T12:40:13.000Z",
    "buffer_id": "6af2fdefa8111f9d3dea76cc",
    "clave": "web:e570a0c3-9d95-48dd-984f-3bf24b18af2c|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T12:37:39.000Z",
+   "enviado": "2026-11-10T12:37:46.162Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:01:58.966Z",
    "id": "web:e570a0c3-9d95-48dd-984f-3bf24b18af2c",
    "ig_hora": "2026-11-10T12:37:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120133813233647763",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-ganaron-por-la-minima-y-sacaron-luz-de-ventaja-se",
    "noticia": "nota:futbol-chivilcoy-ganaron-por-la-minima-y-sacaron-luz-de-ventaja-se",
    "origen": "web",
@@ -16552,24 +16555,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:01bf9e9c-5d81-432e-9d5f-303e147f07d7|x",
-   "cuando": "2026-11-03T12:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117578223064175039"
-  },
-  {
-   "clave": "web:102f794a-1b02-4e61-aa74-3d003a611178|x",
-   "cuando": "2026-11-03T12:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117581935547490671"
-  },
-  {
-   "clave": "web:53a73a04-7714-4da8-a6b3-30f272f523ee|x",
-   "cuando": "2026-11-03T12:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117593388639821972"
-  },
   {
    "clave": "web:8ccde707-f548-4c61-83cf-fb2ee30a7c99|x",
    "cuando": "2026-11-03T12:40:14.000Z",
@@ -20714,6 +20699,24 @@
    "cuando": "2026-11-10T12:20:17.000Z",
    "dueAt": "2026-11-10T13:37:16.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3|x",
+   "cuando": "2026-11-10T12:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120129975403663450"
+  },
+  {
+   "clave": "web:b8f99c2d-7f06-4d78-a4ac-7cd0d76d7fab|x",
+   "cuando": "2026-11-10T12:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120122489078477112"
+  },
+  {
+   "clave": "web:e570a0c3-9d95-48dd-984f-3bf24b18af2c|x",
+   "cuando": "2026-11-10T12:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120133813233647763"
   }
  ],
  "tandas": {
@@ -20751,7 +20754,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-10",
- "ultima_sync": "2026-11-10T11:40:13.000Z",
+ "ultima_sync": "2026-11-10T12:40:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
