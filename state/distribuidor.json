@@ -1335,6 +1335,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00296.mp4",
    "youtube_url": "https://youtu.be/eTvpj-jwcjM"
   },
+  "entrevistas:job00297": {
+   "descripcion": "En Chivilcoy, la escritora Rosario Alfaro presentó su novela 'La vigilia de los ciegos' y reveló cómo planifica sus historias como una escena de crimen.",
+   "duracion_seg": null,
+   "entrevistado": "Rosario Alfaro",
+   "generado": "2026-11-10T18:40:15.000Z",
+   "id": "entrevistas:job00297",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Rosario Alfaro y su método para escribir thrillers",
+   "urgente": false,
+   "video_bytes": 25595186,
+   "video_mb": 24.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00297.mp4",
+   "youtube_url": "https://youtu.be/MD57ke6LgN8"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -9889,6 +9910,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00296.mp4",
    "viral": false
   },
+  "entrevistas:job00297|tiktok": {
+   "actualizado": "2026-11-10T18:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00297|tiktok",
+   "creado": "2026-11-10T18:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-10T18:40:15.000Z",
+   "id": "entrevistas:job00297",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Rosario Alfaro y su método para escribir thrillers\n\nEn Chivilcoy, la escritora Rosario Alfaro presentó su novela 'La vigilia de los ciegos' y reveló cómo planifica sus historias como una escena de crimen.\n\nhttps://youtu.be/MD57ke6LgN8\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Rosario Alfaro y su método para escribir thrillers",
+   "urgente": false,
+   "vence": "2026-11-12T18:40:15.000Z",
+   "video_bytes": 25595186,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00297.mp4",
+   "viral": false
+  },
+  "entrevistas:job00297|x": {
+   "actualizado": "2026-11-10T18:40:16.000Z",
+   "buffer_id": "6af3651142d1993c828c844c",
+   "clave": "entrevistas:job00297|x",
+   "creado": "2026-11-10T18:40:15.000Z",
+   "dueAt": "2026-11-10T18:42:18.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-10T18:40:15.000Z",
+   "id": "entrevistas:job00297",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:alfaro-escribir-metodo-rosario-thrillers",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Rosario Alfaro y su método para escribir thrillers\n\nEn Chivilcoy, la escritora Rosario Alfaro presentó su novela 'La vigilia de los ciegos' y reveló cómo planifica sus historias como una escena de crimen.\n\nhttps://youtu.be/MD57ke6LgN8",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Rosario Alfaro y su método para escribir thrillers",
+   "urgente": false,
+   "vence": "2026-11-10T20:40:15.000Z",
+   "video_bytes": 25595186,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00297.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -16520,31 +16597,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6aea4b6b6f495ad554194c73",
-   "clave": "entrevistas:job00271|tiktok",
-   "cuando": "2026-11-03T21:00:28.000Z",
-   "dueAt": "2026-11-03T22:03:20.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00272|tiktok",
-   "cuando": "2026-11-03T22:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7704064085511441684"
-  },
-  {
-   "clave": "entrevistas:job00273|tiktok",
-   "cuando": "2026-11-03T22:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7704053894992727316"
-  },
-  {
-   "clave": "entrevistas:job00274|tiktok",
-   "cuando": "2026-11-03T22:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7704058902010187029"
-  },
-  {
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x",
    "cuando": "2026-11-03T22:20:25.000Z",
    "estado": "pendiente",
@@ -20687,6 +20739,34 @@
    "cuando": "2026-11-10T18:20:27.000Z",
    "dueAt": "2026-11-10T18:22:57.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00297",
+   "cuando": "2026-11-10T18:40:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00297|x",
+   "cuando": "2026-11-10T18:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00297|tiktok",
+   "cuando": "2026-11-10T18:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af3651142d1993c828c844c",
+   "clave": "entrevistas:job00297|x",
+   "cuando": "2026-11-10T18:40:17.000Z",
+   "dueAt": "2026-11-10T18:42:18.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21020,6 +21100,7 @@
   "entrevistas:job00294": "2026-11-10T17:00:19.000Z",
   "entrevistas:job00295": "2026-11-10T17:40:15.000Z",
   "entrevistas:job00296": "2026-11-10T18:20:16.000Z",
+  "entrevistas:job00297": "2026-11-10T18:40:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
