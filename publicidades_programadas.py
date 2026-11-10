@@ -31,6 +31,7 @@ lo único que puede tocar el repositorio de la web.
 from __future__ import annotations
 
 import json
+import re
 import smtplib
 import ssl
 import subprocess
@@ -152,13 +153,35 @@ def guardar(trabajos: list[dict]) -> None:
                     encoding="utf-8")
 
 
+MAX_ETIQUETAS = 20         # el tope de Instagram por publicación
+_USUARIO_IG = re.compile(r"^[A-Za-z0-9._]{1,30}$")
+
+
+def limpiar_etiquetas(etiquetas) -> list[str]:
+    """Las cuentas a etiquetar en Instagram, de lo que se escriba: «@uno, @dos» o «uno dos», o una
+    lista. Saca el @ y el link de perfil, descarta lo que no puede ser un usuario y repetidos.
+    (2026-11-10: la API etiqueta en historias desde julio de 2025; el sticker de mención no.)"""
+    if not etiquetas:
+        return []
+    if isinstance(etiquetas, str):
+        etiquetas = re.split(r"[\s,;]+", etiquetas)
+    salida = []
+    for e in etiquetas:
+        e = re.sub(r"^(https?://)?(www\.)?instagram\.com/", "", str(e).strip(), flags=re.I)
+        e = e.strip("/").lstrip("@").strip()
+        if _USUARIO_IG.match(e) and e.lower() not in (x.lower() for x in salida):
+            salida.append(e)
+    return salida[:MAX_ETIQUETAS]
+
+
 def agregar(nombre: str, tipo: str, texto: str = "", *,
             urls: list[str] | None = None, url: str = "",
             cuando: str = "", destinos: list[str] | None = None,
             baja: str | None = None, desde: str | None = None,
             orientacion: str = "", formatos: list[str] | None = None,
-            agenda: dict | None = None) -> dict:
-    """Mete una campaña en la cola. Las fechas van en ISO con huso.
+            agenda: dict | None = None, etiquetas=None) -> dict:
+    """Mete una campaña en la cola. Las fechas van en ISO con huso. `etiquetas`: las cuentas de
+    Instagram a etiquetar (ver `limpiar_etiquetas`).
 
     `urls` son las piezas ya subidas a la web (hasta 10 fotos, o UN video). `formatos`
     dice cómo sale: «feed» (publicación o carrusel), «reel», «historia» — se pueden
@@ -204,6 +227,7 @@ def agregar(nombre: str, tipo: str, texto: str = "", *,
         "desde": desde,                  # solo para las repetidas
         "baja": baja,
         "orientacion": orientacion,      # horizontal / vertical / cuadrada
+        "etiquetas": limpiar_etiquetas(etiquetas),   # cuentas de Instagram (sin @)
         "estado": "activa" if agenda else "pendiente",
         "creado": ahora().isoformat(timespec="minutes"),
         "intentos": 0,
@@ -279,6 +303,7 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
     texto = trabajo.get("texto") or ""
     destinos = trabajo.get("destinos") or []
     formatos = _formatos_de(trabajo)
+    etiquetas = limpiar_etiquetas(trabajo.get("etiquetas"))   # solo historias de Instagram
     ids: dict = {}
     fallas: list[str] = []
 
@@ -382,10 +407,11 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
         if "historia" in formatos:
             if video:
                 _intentar(ids, fallas, "ig_historia", "Instagram (historia)",
-                          lambda: instagram.publish_video_story(url_video_historia()))
+                          lambda: instagram.publish_video_story(url_video_historia(),
+                                                                etiquetas=etiquetas))
             else:
                 _intentar(ids, fallas, "ig_historia", "Instagram (historia)",
-                          lambda: instagram.publish_story(foto_historia()))
+                          lambda: instagram.publish_story(foto_historia(), etiquetas=etiquetas))
 
     return ids, fallas
 
@@ -636,7 +662,7 @@ def horarios_del_reloj(trabajos: list[dict], hoy: datetime, desde_nube: bool = F
                 # que esta corrida falló, así que el reintento va un rato después.
                 cuando = hoy + timedelta(minutes=REINTENTO_MIN) if desde_nube else hoy
             filas.append((id_, cuando, "alta"))
-        if baja and baja > hoy and estado in ("pendiente", "publicado"):
+        if baja and baja > hoy and estado in ("pendiente", "publicado", "activa"):
             filas.append((id_, baja, "baja"))
     return filas
 

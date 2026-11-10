@@ -581,7 +581,7 @@ def programar(nombre: str, archivos, forma: str = "", link: str = "",
               desde: str | None = None, hasta: str | None = None,
               en_web: bool = True, redes: list[str] | None = None,
               texto: str = "", formatos: list[str] | None = None,
-              agenda: dict | None = None) -> dict:
+              agenda: dict | None = None, etiquetas=None) -> dict:
     """Carga una campaña. Los tres destinos son INDEPENDIENTES entre sí.
 
     - `en_web`: entra al espacio de anunciantes, con sus fechas. Acepta cualquier
@@ -669,6 +669,7 @@ def programar(nombre: str, archivos, forma: str = "", link: str = "",
             baja=hasta,
             cuando="" if agenda else (desde or pp.ahora().isoformat(timespec="minutes")),
             orientacion=medida["orientacion"],
+            etiquetas=etiquetas,
         )
         pp.publicar_cola()
     return salida

@@ -600,10 +600,46 @@ def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
                 t.unlink()
 
 
-def publish_story(image_path: Path) -> dict:
+def _user_tags(etiquetas) -> str:
+    """El campo `user_tags` de una historia: [{"username": …}] en JSON (en las historias la
+    posición x/y es opcional). Admitido por la API en historias de foto y de video desde el
+    9/7/2025; el sticker de mención sigue sin poderse."""
+    import json
+    return json.dumps([{"username": str(u).lstrip("@")} for u in (etiquetas or []) if u])
+
+
+def _sin_etiquetas_si_falla(hacer, etiquetas, que: str) -> dict:
+    """Publica con las etiquetas; si falla, una vez más SIN ellas (una cuenta mal escrita o que
+    no existe no puede dejar al anunciante sin su historia). El resultado avisa cuál salió."""
+    if not etiquetas:
+        return hacer(None)
+    try:
+        res = hacer(etiquetas)
+        res["etiquetas"] = list(etiquetas)
+        return res
+    except Exception as e:  # noqa: BLE001
+        # Solo si el error es de las etiquetas (parámetro inválido, usuario que no existe). Con
+        # cualquier otro no se reintenta: Instagram a veces da error habiendo publicado, y una
+        # segunda vuelta duplicaría la historia del anunciante.
+        if not re.search(r"user_?tag|username|usuario|invalid param|\b100\b", str(e), re.I):
+            raise
+        logger.warning(f"Instagram: la {que} con etiquetas {etiquetas} falló ({e}); la publico sin etiquetar.")
+        res = hacer(None)
+        res["etiquetas"] = []
+        res["etiquetas_error"] = str(e)[:200]
+        return res
+
+
+def publish_story(image_path: Path, etiquetas=None) -> dict:
+    """Publica la imagen como HISTORIA (story) de Instagram. `etiquetas`: cuentas a etiquetar."""
+    return _sin_etiquetas_si_falla(lambda et: _publish_story(image_path, et), etiquetas, "historia")
+
+
+def _publish_story(image_path: Path, etiquetas=None) -> dict:
     """Publica la imagen como HISTORIA (story) de Instagram.
 
-    Las historias por API no llevan caption ni stickers: solo la imagen.
+    Las historias por API no llevan caption ni stickers: solo la imagen (y, si vienen, las
+    cuentas etiquetadas en `user_tags`).
     Requiere una URL pública (ImgBB) y el permiso instagram_content_publish.
     """
     user_id = get("INSTAGRAM_USER_ID")
@@ -624,11 +660,10 @@ def publish_story(image_path: Path) -> dict:
                 # anterior (2207003) o la rechazó (2207052), reintentar la MISMA URL
                 # no sirve; volver a subir a ImgBB da una URL nueva que sí baja.
                 image_url = _url_imagen(jpeg_path, intento)
-                creation_id = _crear_contenedor(
-                    user_id, token,
-                    {"media_type": "STORIES", "image_url": image_url},
-                    intentos=1,
-                )
+                datos = {"media_type": "STORIES", "image_url": image_url}
+                if etiquetas:
+                    datos["user_tags"] = _user_tags(etiquetas)
+                creation_id = _crear_contenedor(user_id, token, datos, intentos=1)
                 # Esperar a que Instagram procese la imagen antes de publicar (evita 2207027)
                 _wait_container_ready(creation_id, token)
                 # esperas cortas: el bucle de afuera ya reintenta con imagen nueva
@@ -727,16 +762,23 @@ def publish_reel(video_url: str, caption: str, cover_url: str = "", colab: bool 
     return {"success": True, "id": media_id, "colab": _aceptar_colab(media_id, colaborador)}
 
 
-def publish_video_story(video_url: str) -> dict:
-    """Publica un VIDEO como HISTORIA de Instagram (media_type=STORIES + video_url)."""
+def publish_video_story(video_url: str, etiquetas=None) -> dict:
+    """Publica un VIDEO como HISTORIA de Instagram (media_type=STORIES + video_url).
+    `etiquetas`: cuentas a etiquetar (si falla con ellas, sale sin)."""
+    return _sin_etiquetas_si_falla(lambda et: _publish_video_story(video_url, et), etiquetas,
+                                   "historia de video")
+
+
+def _publish_video_story(video_url: str, etiquetas=None) -> dict:
     user_id = get("INSTAGRAM_USER_ID")
     token = get("INSTAGRAM_ACCESS_TOKEN")
     if not user_id or not token:
         raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
 
-    creation_id = _contenedor_video_listo(
-        user_id, token, {"media_type": "STORIES", "video_url": video_url},
-        video_url, "historia de video")
+    datos = {"media_type": "STORIES", "video_url": video_url}
+    if etiquetas:
+        datos["user_tags"] = _user_tags(etiquetas)
+    creation_id = _contenedor_video_listo(user_id, token, datos, video_url, "historia de video")
 
     media_id = _publicar_contenedor(user_id, token, creation_id, "publicar historia de video",
                                     historia=True, timeout=60, esperas=(15, 45))

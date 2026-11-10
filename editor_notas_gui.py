@@ -621,6 +621,11 @@ class EditorNotas:
         ttk.Label(r6, text="Texto del posteo:", width=15).pack(side="left")
         self.aviso_texto_var = tk.StringVar()
         ttk.Entry(r6, textvariable=self.aviso_texto_var).pack(side="left", fill="x", expand=True)
+        # Etiquetas de la historia de Instagram (2026-11-10), en el MISMO renglón: un renglón más le
+        # comía el alto a la lista y tapaba «Editar» y «Borrar» (ver el gotcha del pack).
+        ttk.Label(r6, text="  Etiquetar en IG:").pack(side="left")
+        self.aviso_etiquetas_var = tk.StringVar()
+        ttk.Entry(r6, textvariable=self.aviso_etiquetas_var, width=28).pack(side="left")
 
         ttk.Label(alta, foreground="#777", wraplength=700, justify="left",
                   text="Fechas con el botón 📅 o a mano en dd/mm/aaaa. «Sale el» vacío = entra ya; "
@@ -1213,6 +1218,7 @@ class EditorNotas:
             return
         texto = self.aviso_texto_var.get().strip()
         forma = self.aviso_forma_var.get() or "ancha"
+        etiquetas = pp.limpiar_etiquetas(self.aviso_etiquetas_var.get())
 
         # ── el resumen, para que se lea antes de que salga ──
         lineas = ["Anunciante: " + nombre]
@@ -1248,6 +1254,13 @@ class EditorNotas:
                 " → " + avisos_piezas.como_sale(tipo, formatos, len(archivos)))
         else:
             lineas.append("Redes: no")
+        if etiquetas:
+            if "instagram" in redes and "historia" in formatos:
+                lineas.append("Etiqueta en la historia de Instagram: " +
+                              ", ".join("@" + u for u in etiquetas))
+            else:
+                lineas.append("Etiquetas: se escribieron, pero solo van en la HISTORIA de "
+                              "Instagram (no está tildada): no se usan.")
 
         if redes and not texto:
             if not messagebox.askyesno("Sin texto",
@@ -1261,7 +1274,8 @@ class EditorNotas:
             lambda: avisos_web.programar(nombre, archivos, forma=forma, link=link,
                                          desde=desde, hasta=hasta, en_web=en_web,
                                          redes=redes, texto=texto,
-                                         formatos=formatos, agenda=agenda),
+                                         formatos=formatos, agenda=agenda,
+                                         etiquetas=etiquetas),
             self._aviso_agregado_ok, busy="Cargando la campaña…")
 
     def _aviso_agregado_ok(self, res):
