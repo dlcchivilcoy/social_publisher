@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 10/11/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 10/11/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-10)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 10/11/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 6 | 7 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 7 | 6 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,20 +27,18 @@ Actualizado: 10/11/2026 07:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (7 esperando)
+## Cola propia (6 esperando)
 - X · Notas web · Chivilcoy: Éxito y superación en el torneo regional con alrededor de 200 partici — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Máximo Cataldi revalidó su título y se consagró tricampeón en las can — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Liga de Desarrollo: Racing pisó fuerte en el Grilon Arena mientras In — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Racha negativa: Racing sufrió su quinta caída consecutiva al perder d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Ganaron por la mínima y sacaron luz de ventaja: se jugaron los partid — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: El Torneo Clausura de Primera en la previa de una fecha 13° que deter — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · La Juventud Radical recorrió Carlos Casares y le reclamó a Kicillof por la Ruta  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-10T00:40 vencido policiales:https://lobos24.com.ar/2026/11/09/policiales-roba espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-10T01:20 vencido policiales:https://laopinionline.ar/articulo/salto-secuestra espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-10T01:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/policiale espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-10T10:02 recibido web:03ae8b4c-08d8-488d-9203-4b4212346184|x 
@@ -65,3 +63,4 @@ Actualizado: 10/11/2026 07:20 (hora AR) · ACTIVO
 - 2026-11-10T10:04 programado web:222c5924-1b87-456d-96b4-f20fcdee84f5|x 
 - 2026-11-10T10:20 enviado web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8|x 
 - 2026-11-10T10:20 programado web:69d9ed72-3877-4424-8f92-4ab6f352a5ed|x 
+- 2026-11-10T10:40 programado web:b8f99c2d-7f06-4d78-a4ac-7cd0d76d7fab|x 
