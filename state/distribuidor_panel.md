@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 10/11/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 10/11/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-10)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 2 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 3 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 10/11/2026 16:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (5 esperando)
+- TikTok · Recortes de entrevistas · Guillermo Ruffo: Accidente al fumigar maquinaria — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Rosario Alfaro y su método para escribir thrillers — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Chivilcoy: Por qué retiraron luces en Plaza Francia | Esteban Genaro — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Oscar Potetti: "¿Cómo empiezan una obra sin presupuesto?" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -37,10 +38,6 @@ Actualizado: 10/11/2026 16:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-10T14:40 depurado web:07f6b77f-a719-48eb-ab59-425617675b7f|x no está en el carrusel del diario de hoy
-- 2026-11-10T14:40 enviado web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x 
-- 2026-11-10T14:40 enviado web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x 
-- 2026-11-10T15:00 recibido web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x 
 - 2026-11-10T15:00 depurado web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-10T17:00 entrevista_aprobada entrevistas:job00294 
 - 2026-11-10T17:00 recibido entrevistas:job00294|x 
@@ -62,3 +59,7 @@ Actualizado: 10/11/2026 16:00 (hora AR) · ACTIVO
 - 2026-11-10T18:40 recibido entrevistas:job00297|x 
 - 2026-11-10T18:40 recibido entrevistas:job00297|tiktok 
 - 2026-11-10T18:40 programado entrevistas:job00297|x 
+- 2026-11-10T19:20 entrevista_aprobada entrevistas:job00298 
+- 2026-11-10T19:20 recibido entrevistas:job00298|x 
+- 2026-11-10T19:20 recibido entrevistas:job00298|tiktok 
+- 2026-11-10T19:20 programado entrevistas:job00298|x 

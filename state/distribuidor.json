@@ -1356,6 +1356,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00297.mp4",
    "youtube_url": "https://youtu.be/MD57ke6LgN8"
   },
+  "entrevistas:job00298": {
+   "descripcion": "En diálogo con Radio del Centro, Guillermo Ruffo, coordinador de Protección Vegetal de SENASA, reveló que un apuro por fumigar maquinaria importada provocó un principio de incendio en la terminal. Remarcó que los controles fitosanitarios no son un mero trámite burocrático.",
+   "duracion_seg": null,
+   "entrevistado": "Guillermo Ruffo",
+   "generado": "2026-11-10T19:20:16.000Z",
+   "id": "entrevistas:job00298",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Guillermo Ruffo: Accidente al fumigar maquinaria",
+   "urgente": false,
+   "video_bytes": 17185432,
+   "video_mb": 16.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00298.mp4",
+   "youtube_url": "https://youtu.be/Mb-MuXDMZ6E"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -9966,6 +9987,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00297.mp4",
    "viral": false
   },
+  "entrevistas:job00298|tiktok": {
+   "actualizado": "2026-11-10T19:20:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00298|tiktok",
+   "creado": "2026-11-10T19:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-10T19:20:16.000Z",
+   "id": "entrevistas:job00298",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Guillermo Ruffo: Accidente al fumigar maquinaria\n\nEn diálogo con Radio del Centro, Guillermo Ruffo, coordinador de Protección Vegetal de SENASA, reveló que un apuro por fumigar maquinaria importada provocó un principio de incendio en la terminal. Remarcó que los controles fitosanitarios no son un mero trámite burocrático.\n\nhttps://youtu.be/Mb-MuXDMZ6E\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Guillermo Ruffo: Accidente al fumigar maquinaria",
+   "urgente": false,
+   "vence": "2026-11-12T19:20:16.000Z",
+   "video_bytes": 17185432,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00298.mp4",
+   "viral": false
+  },
+  "entrevistas:job00298|x": {
+   "actualizado": "2026-11-10T19:20:23.000Z",
+   "buffer_id": "6af36e78736c651a4307e6ad",
+   "clave": "entrevistas:job00298|x",
+   "creado": "2026-11-10T19:20:16.000Z",
+   "dueAt": "2026-11-10T19:22:17.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-10T19:20:16.000Z",
+   "id": "entrevistas:job00298",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:accidente-fumigar-guillermo-maquinaria-ruffo",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Guillermo Ruffo: Accidente al fumigar maquinaria\n\nGuillermo Ruffo, del SENASA, reveló que apurar la fumigación de maquinaria importada causó un principio de incendio. Remarcó que los controles no son un simple trámite burocrático.\n\nhttps://youtu.be/Mb-MuXDMZ6E",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Guillermo Ruffo: Accidente al fumigar maquinaria",
+   "urgente": false,
+   "vence": "2026-11-10T21:20:16.000Z",
+   "video_bytes": 17185432,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00298.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -16597,35 +16674,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x",
-   "cuando": "2026-11-03T22:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x",
-   "cuando": "2026-11-03T22:20:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x",
-   "cuando": "2026-11-03T22:20:30.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "buffer_id": "6aea5e2fdaff4dfc5059ae83",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x",
-   "cuando": "2026-11-03T22:20:32.000Z",
-   "dueAt": "2026-11-03T22:23:55.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x",
    "cuando": "2026-11-03T22:40:34.000Z",
    "estado": "pendiente",
@@ -20767,6 +20815,34 @@
    "cuando": "2026-11-10T18:40:17.000Z",
    "dueAt": "2026-11-10T18:42:18.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00298",
+   "cuando": "2026-11-10T19:20:17.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00298|x",
+   "cuando": "2026-11-10T19:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00298|tiktok",
+   "cuando": "2026-11-10T19:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af36e78736c651a4307e6ad",
+   "clave": "entrevistas:job00298|x",
+   "cuando": "2026-11-10T19:20:24.000Z",
+   "dueAt": "2026-11-10T19:22:17.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21101,6 +21177,7 @@
   "entrevistas:job00295": "2026-11-10T17:40:15.000Z",
   "entrevistas:job00296": "2026-11-10T18:20:16.000Z",
   "entrevistas:job00297": "2026-11-10T18:40:15.000Z",
+  "entrevistas:job00298": "2026-11-10T19:20:16.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
