@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-10T13:40:17.000Z"
+   "visto": "2026-11-10T14:40:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,35 +25,14 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 2,
-    "sent": 19
+    "scheduled": 0,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-10T13:40:17.000Z"
+   "visto": "2026-11-10T14:40:18.000Z"
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b": {
-   "descripcion": "Una vecina de Chivilcoy hizo público un episodio que, según su testimonio, ocurrió sobre avenida Villarino, en un sector de semáforos que identificó como “la esquina del Mami”, entre las 20:30 y las 21 horas. A través de una publicación en redes sociales, Maca Scarpellino relató",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-29T14:25:34.000Z",
-   "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-una-vecina-relato-un-episodio-de-exhibicionismo",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Una vecina relató un episodio de exhibicionismo en avenida Villarino",
-   "urgente": false,
-   "video_bytes": 1568675,
-   "video_mb": 1.5,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_269f1429ca8d2a05.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/ZgGmutFOBcU"
-  },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2": {
    "descripcion": "Chivilcoy consolida políticas de sustentabilidad, economía circular y educación ecológica. La coordinadora de Medio Ambiente de la Municipalidad de Chivilcoy, Camila Martínez, destacó el trabajo conjunto con las instituciones educativas y convocó a la comunidad a incorporar hábitos",
    "duracion_seg": 30.0,
@@ -347,27 +326,6 @@
    "video_mb": 0.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
    "youtube_url": "https://www.youtube.com/shorts/jbMchsApiJk"
-  },
-  "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4": {
-   "descripcion": "En el marco de una jornada de duelo nacional con paro docente, se llevó a cabo una volanteada en Chivilcoy con el objetivo de visibilizar el femicidio de Nancy, una trabajadora de la educación que fue asesinada cuando se dirigía a cumplir funciones en una escuela.\n\nDurante la actividad, los manifestantes recordaron que la víctima había desaparecido el 7 de octubre y que su cuerpo fue hallado sin vida 21 días después. En ese contexto, señalaron que la docente, al incorporarse como suplente en el establecimiento, había denunciado deficiencias de infraestructura, el deterioro general del edificio y las condiciones desfavorables que enfrentaba para acceder al lugar.\n\nA lo largo de la jornada, quienes participaron de la movilización hicieron público su acompañamiento a la provincia de Corrientes y a los familiares de la víctima. Asimismo, manifestaron su respaldo al sindicato SUTECO, entidad gremial que intervino y denunció públicamente las problemáticas que atraviesa dicho territorio.\n\nLa convocatoria concluyó con un enérgico pedido de justicia para esclarecer el hecho y determinar las responsabilidades del caso.",
-   "duracion_seg": 168.0,
-   "generado": "2026-10-29T14:36:08.000Z",
-   "id": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-realizaron-una-volanteada-para-pedir-justicia-por",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Realizaron una volanteada para pedir justicia por el femicidio de Nancy",
-   "urgente": false,
-   "video_bytes": 18145206,
-   "video_mb": 17.3,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b1783a24a40712c8.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/YHOhOqnwtAc"
   },
   "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4": {
    "descripcion": "El concejal de La Libertad Avanza, Juan Ignacio Felice, informó que el 28 de octubre recibió en su domicilio una carta documento enviada por la Municipalidad, en el marco de la controversia por sus declaraciones sobre una presunta condonación de deuda a la empresa Perchet, vinculada a Bicontinentar.\n\nSegún detalló el edil, la notificación lleva la firma de la directora de Legales, Carmen La Ruina, y le atribuye haber afectado la honorabilidad de funcionarios municipales.\n\nFelice cuestionó que el reclamo haya sido canalizado a través del Municipio y no por parte de quienes pudieran sentirse agraviados a título personal. En ese sentido, sostuvo que una persona jurídica no puede invocar daño al honor y pidió al intendente Guillermo Britos que, si considera lesionada su reputación, le envíe una intimación a su nombre y costeándola de manera particular.\n\nAsimismo, el concejal afirmó que la carta documento tuvo un costo cercano a los $24.000 y objetó el uso de fondos públicos para financiar lo que definió como una disputa entre personas políticamente expuestas. Por este motivo, adelantó que no responderá la intimación oficial.\n\nEl conflicto se originó en las críticas de Felice sobre deudas y penalidades en el predio fabril, planteo que Britos había rechazado al asegurar que la comuna reclama judicialmente dichos cobros.",
@@ -5659,34 +5617,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|tiktok": {
-   "actualizado": "2026-10-31T14:40:15.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b|tiktok",
-   "creado": "2026-10-29T14:40:15.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-29T14:25:34.000Z",
-   "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-una-vecina-relato-un-episodio-de-exhibicionismo",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Una vecina relató un episodio de exhibicionismo en avenida Villarino\n\nA través de una publicación en redes sociales, una vecina de Chivilcoy llamada Maca Scarpellino relató un hecho que, según su testimonio, ocurrió entre las 20:30 y las 21 horas sobre un sector de semáforos que identificó como la esquina del Mami.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-una-vecina-relato-un-episodio-de-exhibicionismo\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Una vecina relató un episodio de exhibicionismo en avenida Villarino",
-   "urgente": false,
-   "vence": "2026-10-31T14:25:34.000Z",
-   "video_bytes": 1568675,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_269f1429ca8d2a05.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok": {
    "actualizado": "2026-10-31T15:40:14.000Z",
    "buffer_id": "",
@@ -5856,43 +5786,6 @@
    "titulo": "Una camioneta quedó destruida por un incendio en la ruta",
    "urgente": false,
    "vence": "2026-11-02T13:52:35.000Z",
-   "video_bytes": 491660,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_aa034a95cf0de993.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|x": {
-   "actualizado": "2026-10-31T14:40:15.000Z",
-   "buffer_id": "6ae5f477ab019b9087078023",
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4|x",
-   "creado": "2026-10-31T14:00:18.000Z",
-   "dueAt": "2026-10-31T14:02:03.000Z",
-   "enviado": "2026-10-31T14:04:37.021Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-31T13:52:35.000Z",
-   "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwgfwc6dtg4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2116531790382788783",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 63,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
-   "noticia": "nota:ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Una camioneta quedó destruida por un incendio en la ruta\n\nUna Ford EcoSport blanca se incendió a la altura del kilómetro 160 de la Ruta Provincial 51. Su conductor logró salir ileso.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Una camioneta quedó destruida por un incendio en la ruta",
-   "urgente": false,
-   "vence": "2026-10-31T15:52:35.000Z",
    "video_bytes": 491660,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_aa034a95cf0de993.mp4",
    "viral": false
@@ -6557,34 +6450,6 @@
    "vence": "2026-11-08T01:35:06.000Z",
    "video_bytes": 630904,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|tiktok": {
-   "actualizado": "2026-10-31T14:40:15.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4|tiktok",
-   "creado": "2026-10-29T14:40:15.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-29T14:36:08.000Z",
-   "id": "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-realizaron-una-volanteada-para-pedir-justicia-por",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Realizaron una volanteada para pedir justicia por el femicidio de Nancy\n\nEn el marco de un paro docente y duelo nacional, se desarrolló una volanteada en Chivilcoy para visibilizar el crimen de la trabajadora de la educación y exigir justicia. Los manifestantes respaldaron a la familia, a la provincia de Corrientes y al sindicato SUTECO, que denunció las problemáticas del territorio.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-realizaron-una-volanteada-para-pedir-justicia-por\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Realizaron una volanteada para pedir justicia por el femicidio de Nancy",
-   "urgente": false,
-   "vence": "2026-10-31T14:36:08.000Z",
-   "video_bytes": 18145206,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b1783a24a40712c8.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mvtqggky9fnr_01.mp4|tiktok": {
@@ -11713,14 +11578,14 @@
    "viral": false
   },
   "web:07f6b77f-a719-48eb-ab59-425617675b7f|x": {
-   "actualizado": "2026-11-10T14:00:21.000Z",
+   "actualizado": "2026-11-10T14:40:18.000Z",
    "buffer_id": "",
    "clave": "web:07f6b77f-a719-48eb-ab59-425617675b7f|x",
    "creado": "2026-11-10T14:00:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-10T13:54:25.557Z",
    "id": "web:07f6b77f-a719-48eb-ab59-425617675b7f",
    "intentos": 0,
@@ -12163,18 +12028,19 @@
    "viral": false
   },
   "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x": {
-   "actualizado": "2026-11-10T13:20:23.000Z",
+   "actualizado": "2026-11-10T14:40:18.000Z",
    "buffer_id": "6af31a17efda8cf29ac63f23",
    "clave": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x",
    "creado": "2026-11-10T13:20:13.000Z",
    "dueAt": "2026-11-10T13:52:42.000Z",
+   "enviado": "2026-11-10T13:52:46.116Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T13:08:01.079Z",
    "id": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120152687136178408",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-danaron-la-vidriera-de-una-polleria-en-22-de",
    "noticia": "nota:chivilcoy-policiales-danaron-la-vidriera-de-una-polleria-en-22-de",
    "origen": "web",
@@ -12633,18 +12499,19 @@
    "viral": false
   },
   "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x": {
-   "actualizado": "2026-11-10T14:00:29.000Z",
+   "actualizado": "2026-11-10T14:40:18.000Z",
    "buffer_id": "6af3237d3fb3e0f9eadc3852",
    "clave": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x",
    "creado": "2026-11-10T13:40:15.000Z",
    "dueAt": "2026-11-10T14:07:10.000Z",
+   "enviado": "2026-11-10T14:07:16.080Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T13:22:13.661Z",
    "id": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120156336247750952",
    "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras",
    "noticia": "nota:alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras",
    "origen": "web",
@@ -16545,27 +16412,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00271|tiktok",
-   "cuando": "2026-11-03T17:00:33.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6aea133251b33df410652e7d",
-   "clave": "entrevistas:job00271|x",
-   "cuando": "2026-11-03T17:00:34.000Z",
-   "dueAt": "2026-11-03T17:02:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00271|x",
-   "cuando": "2026-11-03T17:20:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117665311176511646"
-  },
   {
    "clave": "entrevistas:job00272",
    "cuando": "2026-11-03T17:40:15.000Z",
@@ -20715,6 +20561,24 @@
    "cuando": "2026-11-10T14:00:30.000Z",
    "dueAt": "2026-11-10T14:07:10.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:07f6b77f-a719-48eb-ab59-425617675b7f|x",
+   "cuando": "2026-11-10T14:40:18.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x",
+   "cuando": "2026-11-10T14:40:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120152687136178408"
+  },
+  {
+   "clave": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x",
+   "cuando": "2026-11-10T14:40:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120156336247750952"
   }
  ],
  "tandas": {
@@ -20752,7 +20616,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-10",
- "ultima_sync": "2026-11-10T13:40:17.000Z",
+ "ultima_sync": "2026-11-10T14:40:18.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
