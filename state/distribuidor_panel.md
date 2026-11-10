@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 10/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 10/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-10)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 10/11/2026 19:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,13 +27,13 @@ Actualizado: 10/11/2026 19:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Reels policiales · Hallan un cuerpo en el Canal Cafiero en el marco de la búsqueda de un joven — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-10T18:20 recibido entrevistas:job00296|tiktok 
 - 2026-11-10T18:20 enviado entrevistas:job00295|x 
 - 2026-11-10T18:20 programado entrevistas:job00296|x 
 - 2026-11-10T18:40 entrevista_aprobada entrevistas:job00297 
@@ -58,3 +58,4 @@ Actualizado: 10/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-10T22:20 enviado entrevistas:job00296|tiktok 
 - 2026-11-10T22:20 enviado entrevistas:job00297|tiktok 
 - 2026-11-10T22:20 programado policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-m 
+- 2026-11-10T22:40 recibido policiales:https://casaresonline.com.ar/alberti-encontraron- 

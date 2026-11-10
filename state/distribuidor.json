@@ -1298,6 +1298,32 @@
    "volanta": "Robo en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/nDNWk0FHbKk"
   },
+  "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
+   "categoria": "otro_policial",
+   "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
+   "distancia_km": 28.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-10T22:31:20.000Z",
+   "id": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/",
+   "localidad": "Alberti",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-hallaron-un-cuerpo-en-el-canal-cafiero-e-investigan-un-6daa39",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Hallaron un cadáver en el curso de agua durante un operativo de búsqueda en el partido de Alberti.\n\nLas sospechas apuntan a que se trataría de Ezequiel Eduardo Caraballo, de 27 años, buscado desde el sábado.\n\nDos hombres se encuentran demorados a disposición de la Justicia mientras avanzan las pericias forenses.\n\n📲 Más noticias de Alberti en www.diariolacampaña.com.ar\n\n#Alberti #Homicidio #Investigacion #BuenosAires",
+   "tipo": "video",
+   "titulo": "Hallan un cuerpo en el Canal Cafiero en el marco de la búsqueda de un joven",
+   "urgente": false,
+   "video_bytes": 115621,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_03_carlos-casares_hallan-un-cuerpo-en-el-canal-c.mp4",
+   "volanta": "Hallazgo en Alberti",
+   "youtube_url": "https://youtube.com/shorts/FkC0lxwFle0"
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/": {
    "categoria": "homicidio",
    "descripcion": "Una filmación comprometería a los dos detenidos por el homicidio de Ezequiel Caraballo, hallado sin vida en el canal Cafiero. Ambos prefirieron no declarar ante la Justicia.",
@@ -9549,6 +9575,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_05_9-de-julio_robo-en-la-terminal-de-mnibus-.mp4",
    "viral": false
   },
+  "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
+   "actualizado": "2026-11-10T22:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x",
+   "creado": "2026-11-10T22:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-10T22:31:20.000Z",
+   "id": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-hallaron-un-cuerpo-en-el-canal-cafiero-e-investigan-un-6daa39",
+   "noticia": "nota:alberti-hallaron-un-cuerpo-en-el-canal-cafiero-e-investigan-un-6daa39",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Hallan un cuerpo en el Canal Cafiero en el marco de la búsqueda de un joven\n\nInvestigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-hallaron-un-cuerpo-en-el-canal-cafiero-e-investigan-un-6daa39",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Hallan un cuerpo en el Canal Cafiero en el marco de la búsqueda de un joven",
+   "urgente": false,
+   "vence": "2026-11-11T00:31:20.000Z",
+   "video_bytes": 115621,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_03_carlos-casares_hallan-un-cuerpo-en-el-canal-c.mp4",
+   "viral": true
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/|x": {
    "actualizado": "2026-11-10T22:20:24.000Z",
    "buffer_id": "6af398a840d53aa0ae17bedb",
@@ -16055,14 +16109,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|x",
-   "cuando": "2026-11-04T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok",
    "cuando": "2026-11-04T09:00:28.000Z",
    "estado": "pendiente",
@@ -20220,6 +20266,14 @@
    "cuando": "2026-11-10T22:20:24.000Z",
    "dueAt": "2026-11-10T22:23:45.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x",
+   "cuando": "2026-11-10T22:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -20650,6 +20704,7 @@
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/": "2026-10-22T01:40:20.000Z",
   "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/": "2026-10-15T02:00:18.000Z",
+  "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": "2026-11-10T22:40:14.000Z",
   "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/": "2026-10-14T22:20:16.000Z",
   "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen": "2026-10-15T02:00:18.000Z",
   "policiales:https://chacabucoenred.com/estado-de-salud-de-los-heridos-en-el-choque-de-motos": "2026-10-13T23:00:20.000Z",
