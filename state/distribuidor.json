@@ -3346,25 +3346,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ajedrez-chivilcoy-record-de-participantes-en-los-torneos",
    "volanta": "Ajedrez"
   },
-  "web:464e2e48-a775-44fb-ba64-8d4a372bbadb": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Aprobaron la creación de la Ventanilla Única Digital para habilitaciones El bloque de Fuerza Patria logró la aprobación por mayoría del proyecto de ordenanza que crea el Sistema de Ventanilla Única Digital de Habilitaciones, una iniciativa impulsada por la concejala Eugenia Blotta para reducir la burocracia, simplificar los trámites y facilitar la apertura de comercios y emprendimientos en Chivilcoy. La propuesta obtuvo 11 votos afirmativos y 6 negativos, correspondientes a...",
-   "generado": "2026-10-31T23:23:47.374Z",
-   "id": "web:464e2e48-a775-44fb-ba64-8d4a372bbadb",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5888118fd7c7485e931388ffe1f98ae2~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-aprobaron-la-creacion-de-la-ventanilla",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Aprobaron la creación de la Ventanilla Única Digital para habilitaciones",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-chivilcoy-aprobaron-la-creacion-de-la-ventanilla",
-   "volanta": "Chivilcoy · Política"
-  },
   "web:4a4fb364-85cb-463d-9fb5-721f301a1a4d": {
    "categoria": "",
    "descripcion": "Chivilcoy: Un menor de 17 años fue aprehendido acusado de intentar sustraer pertenencias del interior de una camioneta Volkswagen Amarok CHIVILCOY.– El hecho ocurrió en inmediaciones de Alejandro Bancora y avenida La Razón, donde el adolescente habría intentado ingresar al habitáculo del vehículo, propiedad de un hombre de 35 años. Tras el procedimiento, el personal policial logró localizarlo y aprehenderlo en la intersección de calle Portugal y avenida Calixto Calderón. Intervino la UFI N.º...",
@@ -12317,31 +12298,6 @@
    "titulo": "Chivilcoy: Récord de participantes en los torneos intercolegiales locales",
    "urgente": false,
    "vence": "2026-11-04T14:22:22.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:464e2e48-a775-44fb-ba64-8d4a372bbadb|x": {
-   "actualizado": "2026-10-31T23:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:464e2e48-a775-44fb-ba64-8d4a372bbadb|x",
-   "creado": "2026-10-31T23:40:14.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-31T23:23:47.374Z",
-   "id": "web:464e2e48-a775-44fb-ba64-8d4a372bbadb",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-aprobaron-la-creacion-de-la-ventanilla",
-   "noticia": "nota:chivilcoy-politica-chivilcoy-aprobaron-la-creacion-de-la-ventanilla",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Aprobaron la creación de la Ventanilla Única Digital para habilitaciones",
-   "urgente": false,
-   "vence": "2026-11-01T03:23:47.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
