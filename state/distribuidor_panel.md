@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 10/11/2026 08:40 (hora AR) · ACTIVO
+Actualizado: 10/11/2026 09:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-10)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 10/11/2026 08:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 6 | 5 | 2 | 0 | 0 | 1 |
+| Notas web | X | 15 | 6 | 6 | 1 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,15 +27,13 @@ Actualizado: 10/11/2026 08:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - X · Notas web · Chivilcoy: Éxito y superación en el torneo regional con alrededor de 200 partici — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Máximo Cataldi revalidó su título y se consagró tricampeón en las can — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-10T10:03 recibido web:222c5924-1b87-456d-96b4-f20fcdee84f5|x 
 - 2026-11-10T10:03 recibido web:1d419c9d-f015-4088-8655-0aa75738fd73|x 
 - 2026-11-10T10:03 recibido web:ddb372e9-f75f-433a-ad8d-44035f486a1c|x 
 - 2026-11-10T10:03 recibido web:d84d3ec0-05cf-43ec-a248-9969295317ed|x 
@@ -60,3 +58,4 @@ Actualizado: 10/11/2026 08:40 (hora AR) · ACTIVO
 - 2026-11-10T11:40 enviado web:ddb372e9-f75f-433a-ad8d-44035f486a1c|x 
 - 2026-11-10T11:40 programado web:87b34ef6-682f-453d-9a41-c5e57e182a44|x 
 - 2026-11-10T11:40 programado web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x 
+- 2026-11-10T12:00 programado web:589aada5-2294-49ca-8ee9-5c71fc761177|x 
