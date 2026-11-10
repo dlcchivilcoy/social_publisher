@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 10/11/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 10/11/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-10)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -13,7 +13,7 @@ Actualizado: 10/11/2026 15:00 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 21 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 20 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,7 +27,8 @@ Actualizado: 10/11/2026 15:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Recortes de entrevistas · Chivilcoy: Por qué retiraron luces en Plaza Francia | Esteban Genaro — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Oscar Potetti: "¿Cómo empiezan una obra sin presupuesto?" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Femenia (CAME): Turismo con más gente y menos gasto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -35,11 +36,6 @@ Actualizado: 10/11/2026 15:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-10T13:20 programado web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x 
-- 2026-11-10T13:40 recibido web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x 
-- 2026-11-10T13:40 enviado web:03ae8b4c-08d8-488d-9203-4b4212346184|x 
-- 2026-11-10T13:40 enviado web:589aada5-2294-49ca-8ee9-5c71fc761177|x 
-- 2026-11-10T13:40 enviado web:87b34ef6-682f-453d-9a41-c5e57e182a44|x 
 - 2026-11-10T13:40 enviado web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x 
 - 2026-11-10T14:00 recibido web:07f6b77f-a719-48eb-ab59-425617675b7f|x 
 - 2026-11-10T14:00 depurado web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x no está en el carrusel del diario de hoy (sacado de Buffer)
@@ -60,3 +56,8 @@ Actualizado: 10/11/2026 15:00 (hora AR) · ACTIVO
 - 2026-11-10T17:40 recibido entrevistas:job00295|x 
 - 2026-11-10T17:40 recibido entrevistas:job00295|tiktok 
 - 2026-11-10T17:40 programado entrevistas:job00295|x 
+- 2026-11-10T18:20 entrevista_aprobada entrevistas:job00296 
+- 2026-11-10T18:20 recibido entrevistas:job00296|x 
+- 2026-11-10T18:20 recibido entrevistas:job00296|tiktok 
+- 2026-11-10T18:20 enviado entrevistas:job00295|x 
+- 2026-11-10T18:20 programado entrevistas:job00296|x 
