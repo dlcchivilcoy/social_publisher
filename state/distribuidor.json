@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-10T12:40:13.000Z"
+   "visto": "2026-11-10T13:40:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 4,
-    "sent": 17
+    "scheduled": 2,
+    "sent": 19
    },
    "pausado": false,
-   "visto": "2026-11-10T12:40:13.000Z"
+   "visto": "2026-11-10T13:40:17.000Z"
   }
  },
  "contenidos": {
@@ -3404,6 +3404,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/conservatorio-de-musica-chivilcoy-cierres-de-catedras-mariana-avelino",
    "volanta": "Conservatorio de Música"
+  },
+  "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f": {
+   "categoria": "",
+   "descripcion": "Investigan el homicidio de Ezequiel Carballo tras hallar su cuerpo en un canal La búsqueda de Ezequiel Carballo, el joven de 27 años desaparecido en Mechita, culminó este lunes 9 de noviembre con el hallazgo de su cuerpo en el canal República de Italia, conocido como Canal Cafiero, cerca de Larrea, en el partido de Alberti. Tras confirmarse su identidad, la causa, que inicialmente se tramitaba como averiguación de paradero, pasó a investigarse como homicidio. El joven era buscado desde el...",
+   "generado": "2026-11-10T13:22:13.661Z",
+   "id": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_703ef73e37ea4a268921f03ca46f4327~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Investigan el homicidio de Ezequiel Carballo tras hallar su cuerpo en un canal",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras",
+   "volanta": "Alberti · Policiales"
   },
   "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac": {
    "categoria": "",
@@ -11737,19 +11756,20 @@
    "viral": false
   },
   "web:03ae8b4c-08d8-488d-9203-4b4212346184|x": {
-   "actualizado": "2026-11-10T12:20:17.000Z",
+   "actualizado": "2026-11-10T13:40:17.000Z",
    "buffer_id": "6af30c01f23c8c39a0e8cbf1",
    "clave": "web:03ae8b4c-08d8-488d-9203-4b4212346184|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T13:37:16.000Z",
+   "enviado": "2026-11-10T13:37:31.035Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:02:17.078Z",
    "id": "web:03ae8b4c-08d8-488d-9203-4b4212346184",
    "ig_hora": "2026-11-10T13:37:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120148849343815848",
    "nota_url": "https://www.diariolacampaña.com.ar/n/taekwondo-chivilcoy-exito-y-superacion-en-el-torneo-regional-con",
    "noticia": "nota:taekwondo-chivilcoy-exito-y-superacion-en-el-torneo-regional-con",
    "origen": "web",
@@ -12707,6 +12727,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x": {
+   "actualizado": "2026-11-10T13:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x",
+   "creado": "2026-11-10T13:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-11-10T13:22:13.661Z",
+   "id": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras",
+   "noticia": "nota:alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Investigan el homicidio de Ezequiel Carballo tras hallar su cuerpo en un canal\n\nEl joven de 27 años desaparecido en Mechita fue encontrado sin vida en el canal República de Italia, cerca de Larrea. La causa pasó a investigarse como homicidio.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Investigan el homicidio de Ezequiel Carballo tras hallar su cuerpo en un canal",
+   "urgente": false,
+   "vence": "2026-11-10T17:22:13.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac|x": {
    "actualizado": "2026-11-05T22:40:16.000Z",
    "buffer_id": "",
@@ -13032,19 +13080,20 @@
    "viral": false
   },
   "web:589aada5-2294-49ca-8ee9-5c71fc761177|x": {
-   "actualizado": "2026-11-10T12:00:19.000Z",
+   "actualizado": "2026-11-10T13:40:17.000Z",
    "buffer_id": "6af307538b228afcc9607777",
    "clave": "web:589aada5-2294-49ca-8ee9-5c71fc761177|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T13:22:57.000Z",
+   "enviado": "2026-11-10T13:23:02.047Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:02:12.010Z",
    "id": "web:589aada5-2294-49ca-8ee9-5c71fc761177",
    "ig_hora": "2026-11-10T13:22:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120145204548129241",
    "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-chivilcoy-maximo-cataldi-revalido-su-titulo-y-se-consagro",
    "noticia": "nota:tenis-chivilcoy-maximo-cataldi-revalido-su-titulo-y-se-consagro",
    "origen": "web",
@@ -13939,19 +13988,20 @@
    "viral": false
   },
   "web:87b34ef6-682f-453d-9a41-c5e57e182a44|x": {
-   "actualizado": "2026-11-10T11:40:13.000Z",
+   "actualizado": "2026-11-10T13:40:17.000Z",
    "buffer_id": "6af3029dcbbac94e1ea340b8",
    "clave": "web:87b34ef6-682f-453d-9a41-c5e57e182a44|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T12:52:56.000Z",
+   "enviado": "2026-11-10T12:53:02.477Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:02:03.555Z",
    "id": "web:87b34ef6-682f-453d-9a41-c5e57e182a44",
    "ig_hora": "2026-11-10T12:52:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120137656617021672",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-racha-negativa-racing-sufrio-su-quinta-caida",
    "noticia": "nota:basquet-chivilcoy-racha-negativa-racing-sufrio-su-quinta-caida",
    "origen": "web",
@@ -15433,19 +15483,20 @@
    "viral": false
   },
   "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x": {
-   "actualizado": "2026-11-10T11:40:13.000Z",
+   "actualizado": "2026-11-10T13:40:17.000Z",
    "buffer_id": "6af3029e5799f4c24ff1bed7",
    "clave": "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T13:07:55.000Z",
+   "enviado": "2026-11-10T13:08:01.791Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:02:07.616Z",
    "id": "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155",
    "ig_hora": "2026-11-10T13:07:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120141428412088483",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
    "noticia": "nota:basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
    "origen": "web",
@@ -16589,36 +16640,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok",
-   "cuando": "2026-11-03T13:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7703935289332419861"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok",
-   "cuando": "2026-11-03T13:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7703930670162119957"
-  },
-  {
-   "clave": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x",
-   "cuando": "2026-11-03T13:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117612135710617848"
-  },
-  {
-   "clave": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x",
-   "cuando": "2026-11-03T13:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117600810439737453"
-  },
-  {
-   "clave": "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x",
-   "cuando": "2026-11-03T13:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117604473954586636"
-  },
   {
    "clave": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x",
    "cuando": "2026-11-03T13:40:16.000Z",
@@ -20755,6 +20776,38 @@
    "cuando": "2026-11-10T13:20:24.000Z",
    "dueAt": "2026-11-10T14:07:47.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x",
+   "cuando": "2026-11-10T13:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:03ae8b4c-08d8-488d-9203-4b4212346184|x",
+   "cuando": "2026-11-10T13:40:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120148849343815848"
+  },
+  {
+   "clave": "web:589aada5-2294-49ca-8ee9-5c71fc761177|x",
+   "cuando": "2026-11-10T13:40:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120145204548129241"
+  },
+  {
+   "clave": "web:87b34ef6-682f-453d-9a41-c5e57e182a44|x",
+   "cuando": "2026-11-10T13:40:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120137656617021672"
+  },
+  {
+   "clave": "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x",
+   "cuando": "2026-11-10T13:40:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120141428412088483"
   }
  ],
  "tandas": {
@@ -20792,7 +20845,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-10",
- "ultima_sync": "2026-11-10T12:40:13.000Z",
+ "ultima_sync": "2026-11-10T13:40:17.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21537,6 +21590,7 @@
   "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade": "2026-10-20T21:20:16.000Z",
   "web:3b4702f7-b93a-423a-b4f6-0e9f4af7f44a": "2026-10-19T13:00:18.000Z",
   "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd": "2026-10-26T10:20:14.000Z",
+  "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f": "2026-11-10T13:40:15.000Z",
   "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44": "2026-10-22T00:40:17.000Z",
   "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
   "web:3c2a6643-aa10-4795-b07c-a3b6fc94e392": "2026-10-11T21:57:00.000Z",
