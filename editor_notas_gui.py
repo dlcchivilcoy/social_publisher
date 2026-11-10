@@ -1219,6 +1219,31 @@ class EditorNotas:
         texto = self.aviso_texto_var.get().strip()
         forma = self.aviso_forma_var.get() or "ancha"
         etiquetas = pp.limpiar_etiquetas(self.aviso_etiquetas_var.get())
+        if etiquetas and "instagram" in redes:
+            # Instagram rechaza el posteo entero si UNA cuenta es privada o está mal escrita
+            # (10/11/2026): se revisa acá, que todavía se puede corregir.
+            from platforms import instagram
+            self.set_status("Revisando las cuentas en Instagram…")
+            self.root.config(cursor="watch")
+            self.root.update_idletasks()
+            try:
+                buenas = instagram.etiquetas_validas(etiquetas)
+            except Exception:                                    # noqa: BLE001
+                buenas = etiquetas
+            finally:
+                self.root.config(cursor="")
+                self.set_status("")
+            malas = [u for u in etiquetas if u not in buenas]
+            if malas:
+                if not messagebox.askyesno(
+                        "Cuentas que no se pueden etiquetar",
+                        "Instagram no deja etiquetar a: " + ", ".join("@" + u for u in malas) +
+                        ".\n\nPasa cuando la cuenta es PRIVADA o el nombre está mal escrito "
+                        "(fijate en Instagram cómo figura exactamente).\n\n"
+                        + ("¿Sigo etiquetando solo a " + ", ".join("@" + u for u in buenas) + "?"
+                           if buenas else "¿Sigo sin etiquetar a nadie?")):
+                    return
+                etiquetas = buenas
 
         # ── el resumen, para que se lea antes de que salga ──
         lineas = ["Anunciante: " + nombre]

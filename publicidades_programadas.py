@@ -293,6 +293,26 @@ def _intentar(ids: dict, fallas: list[str], clave: str, etiqueta: str, hacer) ->
         logger.error(f"{etiqueta} falló: {e}")
 
 
+def _historia_ig_video(instagram, video: Path, url_entera, taller: Path, etiquetas) -> dict:
+    """Historia de video en Instagram. Hasta 60 s va entera; más larga, en tramos seguidos (como
+    hace la app), cada uno con las etiquetas. Instagram por la API no toma más de 60 s (10/11/2026).
+    Devuelve el id del primer tramo; si alguno se cae, falla con lo que sí salió."""
+    import avisos_piezas
+    from utils.video_host import upload_reel
+    tramos = avisos_piezas.tramos_historia(video, taller / "tramos")
+    if len(tramos) == 1:
+        return instagram.publish_video_story(url_entera(), etiquetas=etiquetas)
+    ids = []
+    for i, tramo in enumerate(tramos, 1):
+        try:
+            ids.append(_id(instagram.publish_video_story(upload_reel(tramo), etiquetas=etiquetas)))
+        except Exception as e:                                   # noqa: BLE001
+            raise RuntimeError(f"tramo {i} de {len(tramos)} falló ({e}); "
+                               f"salieron {len(ids)}: {ids}") from e
+    logger.info(f"Historia de Instagram en {len(tramos)} tramos: {ids}")
+    return {"id": ids[0], "tramos": ids}
+
+
 def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
     """Publica una campaña en todos sus destinos y formatos. Devuelve (ids, fallas)."""
     import avisos_piezas
@@ -411,8 +431,8 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
         if "historia" in formatos:
             if video:
                 _intentar(ids, fallas, "ig_historia", "Instagram (historia)",
-                          lambda: instagram.publish_video_story(url_video_historia(),
-                                                                etiquetas=etiquetas))
+                          lambda: _historia_ig_video(instagram, video_historia(), url_video_historia,
+                                                     taller, etiquetas))
             else:
                 _intentar(ids, fallas, "ig_historia", "Instagram (historia)",
                           lambda: instagram.publish_story(foto_historia(), etiquetas=etiquetas))

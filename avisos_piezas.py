@@ -196,6 +196,43 @@ def video_para_historia(video, salida) -> Path:
     return salida
 
 
+MAX_HISTORIA_IG_S = 60      # Instagram, por la API, no toma historias de video de más de 60 s
+
+
+def tramos_historia(video, carpeta, max_s: float = MAX_HISTORIA_IG_S - 1) -> list[Path]:
+    """El video de la historia en tramos PAREJOS de hasta ~59 s, para Instagram (10/11/2026: un
+    aviso de 69 s quedó en ERROR 2207082 cuatro veces; Facebook lo tomó entero). Partido parejo
+    (69 s → 2 de 34,5) para que el último tramo nunca quede de 2 segundos, que Instagram rechaza
+    (pide al menos 3). Si ya entra, devuelve [video] tal cual."""
+    import math
+    import subprocess
+    from video import _ffmpeg, duration_seconds, has_audio
+    video, carpeta = Path(video), Path(carpeta)
+    dur = duration_seconds(video)
+    if not dur or dur <= max_s + 0.5:
+        return [video]
+    n = math.ceil(dur / max_s)
+    largo = dur / n
+    carpeta.mkdir(parents=True, exist_ok=True)
+    tramos = []
+    for i in range(n):
+        salida = carpeta / f"historia_{i + 1}.mp4"
+        # Se re-codifica para cortar justo (con -c copy el corte cae en el cuadro clave y
+        # un tramo podría pasarse de 60 s).
+        cmd = [_ffmpeg(), "-hide_banner", "-loglevel", "error", "-y", "-ss", f"{i * largo:.3f}",
+               "-i", str(video), "-t", f"{largo:.3f}", "-map", "0:v:0"]
+        if has_audio(video):
+            cmd += ["-map", "0:a:0", "-c:a", "aac", "-b:a", "128k"]
+        cmd += ["-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p",
+                "-movflags", "+faststart", str(salida)]
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+        if r.returncode != 0 or not salida.exists() or salida.stat().st_size == 0:
+            raise RuntimeError(f"no pude partir la historia: {(r.stderr or '')[-300:]}")
+        tramos.append(salida)
+    logger.info(f"Historia de {dur:.0f} s partida en {n} tramos de {largo:.1f} s para Instagram")
+    return tramos
+
+
 def como_sale(tipo: str, formatos: list[str], cuantas: int) -> str:
     """Una línea en castellano de lo que va a salir, para mostrar en el editor antes
     de guardar. Que el usuario lea lo que va a pasar es más barato que deshacerlo."""

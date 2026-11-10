@@ -633,26 +633,93 @@ def _user_tags(etiquetas, *, con_posicion: bool = False) -> str:
 MAX_ETIQUETAS_LAMINA = 5   # Instagram: hasta 5 cuentas por lámina del carrusel (20 en total)
 
 
+_ERROR_ETIQUETA = r"user_?tag|username|usuario|invalid param|invalid user|\b100\b|\b110\b|2207018"
+
+
+def etiquetas_validas(etiquetas) -> list[str]:
+    """Las cuentas que Instagram SÍ deja etiquetar. Instagram rechaza el posteo entero si UNA es
+    privada o está mal escrita, sin decir cuál (10/11/2026: de 4 cuentas pedidas, 3 privadas). Se
+    prueba cada una armando un borrador de historia con una imagen en blanco, que NUNCA se publica
+    (Instagram lo descarta solo a las 24 h). Si la prueba falla por otra cosa, la cuenta se queda."""
+    import json
+    cuentas = [str(u).lstrip("@") for u in (etiquetas or []) if u]
+    user_id, token = get("INSTAGRAM_USER_ID"), get("INSTAGRAM_ACCESS_TOKEN")
+    if not cuentas or not user_id or not token:
+        return cuentas
+    # La imagen de prueba: la foto de perfil de la propia cuenta, que ya vive en el CDN de
+    # Instagram (en la PC del Editor no hay dónde subir una: ImgBB murió y no hay GITHUB_TOKEN).
+    url = ""
+    try:
+        url = requests.get(f"https://graph.facebook.com/v21.0/{user_id}", timeout=30, params={
+            "fields": "profile_picture_url", "access_token": token}).json().get("profile_picture_url", "")
+    except Exception:  # noqa: BLE001
+        pass
+    if not url:
+        blanco = Path(tempfile.gettempdir()) / "prueba_etiquetas.jpg"
+        Image.new("RGB", (1080, 1920), "white").save(blanco, "JPEG", quality=70)
+        try:
+            url = _url_imagen(blanco, 1)
+        except Exception as e:  # noqa: BLE001 — sin imagen no se puede probar: quedan todas
+            logger.warning(f"No pude probar las etiquetas ({e}).")
+            return cuentas
+    buenas = []
+    for u in cuentas:
+        try:
+            r = requests.post(f"https://graph.facebook.com/v21.0/{user_id}/media", timeout=60, data={
+                "media_type": "STORIES", "image_url": url, "access_token": token,
+                "user_tags": json.dumps([{"username": u}])})
+            j = r.json()
+        except Exception:  # noqa: BLE001
+            buenas.append(u)
+            continue
+        err = j.get("error") or {}
+        if "id" in j or not re.search(_ERROR_ETIQUETA, json.dumps(err, ensure_ascii=False), re.I):
+            buenas.append(u)
+        else:
+            logger.warning(f"Instagram no deja etiquetar a @{u}: "
+                           f"{err.get('error_user_title') or err.get('message')}")
+    return buenas
+
+
 def _sin_etiquetas_si_falla(hacer, etiquetas, que: str) -> dict:
-    """Publica con las etiquetas; si falla, una vez más SIN ellas (una cuenta mal escrita o que
-    no existe no puede dejar al anunciante sin su historia). El resultado avisa cuál salió."""
+    """Publica con las etiquetas; si Instagram las rechaza, vuelve a probar SOLO con las cuentas
+    que sí se pueden etiquetar (ver `etiquetas_validas`), y si no queda ninguna, sin etiquetas:
+    una cuenta privada o mal escrita no puede dejar al anunciante sin su posteo ni a las otras
+    cuentas sin su etiqueta. El resultado avisa con cuáles salió y cuáles se cayeron."""
     if not etiquetas:
         return hacer(None)
+    etiquetas = list(etiquetas)
+    primero = None
     try:
         res = hacer(etiquetas)
-        res["etiquetas"] = list(etiquetas)
+        res["etiquetas"] = etiquetas
         return res
     except Exception as e:  # noqa: BLE001
         # Solo si el error es de las etiquetas (parámetro inválido, usuario que no existe). Con
         # cualquier otro no se reintenta: Instagram a veces da error habiendo publicado, y una
         # segunda vuelta duplicaría la historia del anunciante.
-        if not re.search(r"user_?tag|username|usuario|invalid param|\b100\b", str(e), re.I):
+        if not re.search(_ERROR_ETIQUETA, str(e), re.I):
             raise
-        logger.warning(f"Instagram: la {que} con etiquetas {etiquetas} falló ({e}); la publico sin etiquetar.")
+        primero = e
+    buenas = etiquetas_validas(etiquetas) if len(etiquetas) > 1 else []
+    buenas = [u for u in buenas if u in etiquetas]
+    rechazadas = [u for u in etiquetas if u not in buenas]
+    logger.warning(f"Instagram: la {que} con etiquetas {etiquetas} falló ({primero}); "
+                   f"sale con {buenas or 'ninguna'}.")
+    res = None
+    if buenas:
+        try:
+            res = hacer(buenas)
+        except Exception as e:  # noqa: BLE001
+            if not re.search(_ERROR_ETIQUETA, str(e), re.I):
+                raise
+            rechazadas, buenas = etiquetas, []
+    if res is None:
         res = hacer(None)
-        res["etiquetas"] = []
-        res["etiquetas_error"] = str(e)[:200]
-        return res
+    res["etiquetas"] = buenas
+    res["etiquetas_rechazadas"] = rechazadas
+    res["etiquetas_error"] = str(primero)[:200]
+    return res
 
 
 def publish_story(image_path: Path, etiquetas=None) -> dict:
