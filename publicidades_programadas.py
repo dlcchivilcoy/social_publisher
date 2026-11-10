@@ -534,6 +534,8 @@ def correr(dry: bool = False) -> dict:
     trabajos = leer()
     if not trabajos:
         logger.info("No hay publicidades programadas.")
+        if not dry:
+            sincronizar_reloj([], desde_nube=True, inicio=ahora())
         return {"publicadas": 0, "bajas": 0, "errores": 0}
 
     hoy = ahora()
@@ -551,6 +553,9 @@ def correr(dry: bool = False) -> dict:
 
     if not dry:
         guardar(trabajos)
+        # La nube deja anotados los horarios que siguen (la próxima salida de una agenda, el
+        # reintento de una que falló, la baja) y da por hecho lo que acaba de procesar.
+        sincronizar_reloj(trabajos, desde_nube=True, inicio=hoy)
     if avisos:
         _avisar("Publicidades programadas", "\n\n".join(avisos))
 
@@ -585,6 +590,114 @@ def _avisar(asunto: str, cuerpo: str) -> bool:
         return False
 
 
+# ── el RELOJ en Supabase (2026-11-10) ─────────────────────────────────────────
+# El */15 nativo de GitHub sonaba cada 3-4 h. Ahora cada horario de la cola se anota en la tabla
+# `publicidades_disparos` y el pg_cron de Supabase (ver supabase/migrations/0007) despierta UNA
+# corrida cuando llega alguno, llamando a /api/aprobar-video?action=publicidades. Lo anota el editor
+# al subir la cola y la nube al terminar cada corrida. Todo best-effort: si Supabase no contesta, el
+# */15 nativo sigue de respaldo.
+DIAS_ADELANTE = 8          # cuántos días de una agenda que se repite se anotan por adelantado
+REINTENTO_MIN = 10         # una única que falló vuelve a intentarse a los 10 minutos
+
+
+def _proximos_slots(agenda: dict, desde: datetime, hasta: datetime) -> list[datetime]:
+    """Los horarios de la agenda entre `desde` (exclusive) y `hasta` (inclusive)."""
+    salida = []
+    dia = desde.replace(hour=0, minute=0, second=0, microsecond=0)
+    while dia <= hasta:
+        if dia.weekday() in agenda["dias"]:
+            for h in agenda["horas"]:
+                slot = dia.replace(hour=int(h[:2]), minute=int(h[3:5]))
+                if desde < slot <= hasta:
+                    salida.append(slot)
+        dia += timedelta(days=1)
+    return salida
+
+
+def horarios_del_reloj(trabajos: list[dict], hoy: datetime, desde_nube: bool = False) -> list[tuple]:
+    """[(trabajo_id, cuando, motivo)] que el reloj tiene que despertar."""
+    filas = []
+    for t in trabajos:
+        id_, estado = str(t.get("id") or ""), t.get("estado")
+        if not id_ or estado in ("bajado", "vencido", "error"):
+            continue
+        baja = _fecha(t.get("baja"))
+        agenda = _agenda_valida(t.get("agenda"))
+        if agenda:
+            desde = max(hoy, _fecha(t.get("desde")) or hoy) - timedelta(minutes=1)
+            hasta = hoy + timedelta(days=DIAS_ADELANTE)
+            if baja:
+                hasta = min(hasta, baja - timedelta(minutes=1))
+            filas += [(id_, s, "agenda") for s in _proximos_slots(agenda, desde, hasta)]
+        elif estado == "pendiente":
+            cuando = _fecha(t.get("cuando")) or hoy
+            if cuando <= hoy:
+                # Ya debería haber salido: desde el editor («entra ya»), enseguida; desde la nube es
+                # que esta corrida falló, así que el reintento va un rato después.
+                cuando = hoy + timedelta(minutes=REINTENTO_MIN) if desde_nube else hoy
+            filas.append((id_, cuando, "alta"))
+        if baja and baja > hoy and estado in ("pendiente", "publicado"):
+            filas.append((id_, baja, "baja"))
+    return filas
+
+
+def _url_del_reloj() -> str:
+    from urllib.parse import quote
+    webapp, tok = (get("APPROVE_WEBAPP_URL") or "").strip(), (get("WEBAPP_TOKEN") or "").strip()
+    if not webapp:
+        return ""
+    return f"{webapp}?action=publicidades" + (f"&token={quote(tok)}" if tok else "")
+
+
+def sincronizar_reloj(trabajos: list[dict] | None = None, *, desde_nube: bool = False,
+                      inicio: datetime | None = None) -> bool:
+    """Deja en Supabase los horarios que vienen. `desde_nube`: lo llama la corrida al terminar, y
+    además da por HECHO todo lo que vencía hasta `inicio` (lo acaba de procesar). Nunca levanta."""
+    try:
+        url_sb = (get("SUPABASE_URL") or "").rstrip("/")
+        key = (get("SUPABASE_SERVICE_KEY") or "").strip()
+        llamar = _url_del_reloj()
+        if not url_sb or not key or not llamar:
+            logger.warning("Reloj de publicidades: faltan SUPABASE_URL/SUPABASE_SERVICE_KEY o "
+                           "APPROVE_WEBAPP_URL; queda solo el reloj de respaldo de GitHub.")
+            return False
+        base = url_sb + "/rest/v1"
+        h = {"apikey": key, "Authorization": f"Bearer {key}", "Content-Type": "application/json"}
+        hoy = ahora()
+        trabajos = leer() if trabajos is None else trabajos
+        r = requests.post(f"{base}/corresponsales_config",
+                          headers=dict(h, Prefer="resolution=merge-duplicates,return=minimal"),
+                          json={"clave": "publicidades_url", "valor": llamar}, timeout=20)
+        r.raise_for_status()
+        if desde_nube:
+            r = requests.patch(f"{base}/publicidades_disparos", headers=dict(h, Prefer="return=minimal"),
+                               params={"hecho_en": "is.null",
+                                       "cuando": f"lte.{(inicio or hoy).isoformat()}"},
+                               json={"hecho_en": hoy.isoformat()}, timeout=20)
+            r.raise_for_status()
+        # Lo que viene y todavía no se disparó se rehace entero desde la cola: así una campaña
+        # cancelada o cambiada de hora no deja horarios viejos.
+        r = requests.delete(f"{base}/publicidades_disparos", headers=dict(h, Prefer="return=minimal"),
+                            params={"hecho_en": "is.null", "disparado_en": "is.null",
+                                    "cuando": f"gt.{hoy.isoformat()}"}, timeout=20)
+        r.raise_for_status()
+        filas = [{"trabajo_id": i, "cuando": c.isoformat(), "motivo": m}
+                 for i, c, m in horarios_del_reloj(trabajos, hoy, desde_nube)]
+        if filas:
+            r = requests.post(f"{base}/publicidades_disparos",
+                              headers=dict(h, Prefer="resolution=ignore-duplicates,return=minimal"),
+                              json=filas, timeout=20)
+            r.raise_for_status()
+        proximo = min((f["cuando"] for f in filas), default="")
+        logger.info(f"Reloj de publicidades: {len(filas)} horario(s) anotado(s)"
+                    + (f"; el próximo {proximo[:16].replace('T', ' ')}" if proximo else "") + ".")
+        return True
+    except Exception as e:                                       # noqa: BLE001
+        logger.warning(f"Reloj de publicidades: no pude anotar los horarios en Supabase ({e}); "
+                       f"queda el reloj de respaldo de GitHub.")
+        return False
+
+
 # ── git (lo usa el editor de escritorio para que la nube vea la cola) ─────────
 def publicar_cola() -> None:
     """Commitea y pushea la cola. Solo desde la PC: en la nube lo hace el workflow."""
@@ -611,3 +724,6 @@ def publicar_cola() -> None:
             git("push")
         else:
             raise
+    # Recién con la cola ya en GitHub se anotan los horarios: si el reloj despertara antes, la
+    # corrida leería la cola vieja.
+    sincronizar_reloj()
