@@ -2873,6 +2873,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-una-madre-denuncio-un-presunto-abuso",
    "volanta": "Chivilcoy · Policiales"
   },
+  "web:07f6b77f-a719-48eb-ab59-425617675b7f": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Refuerzan las medidas de prevención contra el dengue y la vacunación CHIVILCOY.– Dengue: refuerzan las recomendaciones de prevención y destacan la importancia de la vacunación. El secretario de Salud, José Luis Neme, y la directora del Hospital Municipal, Patricia Mangino, brindaron precisiones sobre los síntomas, las medidas para evitar la proliferación del mosquito y la importancia de la vacunación. Hay disponibilidad de dosis para su aplicación en el CAPS San José. Con la...",
+   "generado": "2026-11-10T13:54:25.557Z",
+   "id": "web:07f6b77f-a719-48eb-ab59-425617675b7f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_02da1795e8bd4326b5633fe01e712fbe~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-refuerzan-las-medidas-de-prevencion-contra",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Refuerzan las medidas de prevención contra el dengue y la vacunación",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-chivilcoy-refuerzan-las-medidas-de-prevencion-contra",
+   "volanta": "Chivilcoy · Salud"
+  },
   "web:088386b2-2c10-423c-848f-4605d2b2e0e5": {
    "categoria": "",
    "descripcion": "Chivilcoy: Angelina Reyes: récord, triunfo en los 21K y la mirada puesta en Chile En una jornada marcada por la lluvia y la exigencia física, la atleta oriunda de Trenque Lauquen, Angelina Reyes, se adjudicó la victoria en los 21 kilómetros de Chivilcoy, logrando además batir el récord del circuito. La atleta de Trenque Lauquen se consagró en la categoría femenina tras una exigente competencia. Sin embargo, la verdadera carrera de Reyes se juega en el día a día: entre el trabajo, el hogar,...",
@@ -3157,25 +3176,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/visita-de-leon-xiv-chivilcoy-ricardo-rodriguez-destaco-la-llegada-del",
    "volanta": "Visita de León XIV"
-  },
-  "web:2001b7d6-2e52-49f0-b4f5-8b548c3ef7f9": {
-   "categoria": "",
-   "descripcion": "Una camioneta quedó destruida por un incendio en la ruta Una Ford EcoSport blanca fue destruida por un incendio registrado el viernes 30 de octubre, alrededor de las 20:30, a la altura del kilómetro 160 de la Ruta Provincial 51. El vehículo era conducido por Isidro Martínez Mareco, de 43 años y oriundo de Rosario, quien logró salir antes de que las llamas consumieran la unidad y no sufrió lesiones. La camioneta quedó sobre la banquina, donde el fuego provocó daños totales. Para atender la...",
-   "generado": "2026-10-31T13:49:41.542Z",
-   "id": "web:2001b7d6-2e52-49f0-b4f5-8b548c3ef7f9",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_80f68654cc224b86a4ec57a30785e5cd~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Una camioneta quedó destruida por un incendio en la ruta",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
-   "volanta": "Ruta 51 · Accidente"
   },
   "web:222c5924-1b87-456d-96b4-f20fcdee84f5": {
    "categoria": "",
@@ -11810,6 +11810,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:07f6b77f-a719-48eb-ab59-425617675b7f|x": {
+   "actualizado": "2026-11-10T14:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:07f6b77f-a719-48eb-ab59-425617675b7f|x",
+   "creado": "2026-11-10T14:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-11-10T13:54:25.557Z",
+   "id": "web:07f6b77f-a719-48eb-ab59-425617675b7f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-refuerzan-las-medidas-de-prevencion-contra",
+   "noticia": "nota:chivilcoy-salud-chivilcoy-refuerzan-las-medidas-de-prevencion-contra",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Refuerzan las medidas de prevención contra el dengue y la vacunación\n\nAutoridades de Salud informaron sobre síntomas y prevención del dengue. Señalaron que hay dosis de vacunas disponibles en el CAPS San José.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-refuerzan-las-medidas-de-prevencion-contra",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Refuerzan las medidas de prevención contra el dengue y la vacunación",
+   "urgente": false,
+   "vence": "2026-11-10T17:54:25.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:088386b2-2c10-423c-848f-4605d2b2e0e5|x": {
    "actualizado": "2026-11-02T10:03:22.000Z",
    "buffer_id": "",
@@ -12290,31 +12318,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:2001b7d6-2e52-49f0-b4f5-8b548c3ef7f9|x": {
-   "actualizado": "2026-10-31T14:00:18.000Z",
-   "buffer_id": "",
-   "clave": "web:2001b7d6-2e52-49f0-b4f5-8b548c3ef7f9|x",
-   "creado": "2026-10-31T14:00:18.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-31T13:49:41.542Z",
-   "id": "web:2001b7d6-2e52-49f0-b4f5-8b548c3ef7f9",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
-   "noticia": "nota:ruta-51-accidente-una-camioneta-quedo-destruida-por-un-incendio-en-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Una camioneta quedó destruida por un incendio en la ruta",
-   "urgente": false,
-   "vence": "2026-10-31T17:49:41.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:222c5924-1b87-456d-96b4-f20fcdee84f5|x": {
    "actualizado": "2026-11-10T11:00:21.000Z",
    "buffer_id": "6af2ec2227db27ce062bbcae",
@@ -12728,14 +12731,14 @@
    "viral": false
   },
   "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x": {
-   "actualizado": "2026-11-10T13:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-10T14:00:29.000Z",
+   "buffer_id": "6af3237d3fb3e0f9eadc3852",
    "clave": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x",
    "creado": "2026-11-10T13:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-10T14:07:10.000Z",
    "error": "",
-   "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-10T13:22:13.661Z",
    "id": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f",
    "intentos": 0,
@@ -13502,14 +13505,14 @@
    "viral": false
   },
   "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x": {
-   "actualizado": "2026-11-10T13:20:23.000Z",
+   "actualizado": "2026-11-10T14:00:28.000Z",
    "buffer_id": "6af31a18ab69ec4b27ebe767",
    "clave": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x",
    "creado": "2026-11-10T13:20:13.000Z",
    "dueAt": "2026-11-10T14:07:47.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-10T13:14:06.931Z",
    "id": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67",
    "intentos": 0,
@@ -16640,25 +16643,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x",
-   "cuando": "2026-11-03T13:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117608297293349072"
-  },
-  {
-   "clave": "entrevistas:job00271",
-   "cuando": "2026-11-03T17:00:23.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00271|x",
-   "cuando": "2026-11-03T17:00:33.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00271|tiktok",
    "cuando": "2026-11-03T17:00:33.000Z",
@@ -20808,6 +20792,27 @@
    "cuando": "2026-11-10T13:40:18.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120141428412088483"
+  },
+  {
+   "clave": "web:07f6b77f-a719-48eb-ab59-425617675b7f|x",
+   "cuando": "2026-11-10T14:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x",
+   "cuando": "2026-11-10T14:00:29.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "buffer_id": "6af3237d3fb3e0f9eadc3852",
+   "clave": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x",
+   "cuando": "2026-11-10T14:00:30.000Z",
+   "dueAt": "2026-11-10T14:07:10.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21453,6 +21458,7 @@
   "web:071fe0d7-07fd-406f-9b34-979c80fb37a2": "2026-10-19T16:00:16.000Z",
   "web:074bc093-e566-4d4d-8d42-0dcd34171beb": "2026-10-17T00:20:12.000Z",
   "web:07ef819a-940d-48e5-aee9-922cce690ab8": "2026-10-23T19:00:17.000Z",
+  "web:07f6b77f-a719-48eb-ab59-425617675b7f": "2026-11-10T14:00:21.000Z",
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:0880263e-20bb-4331-801a-a2781c0ec918": "2026-10-13T10:20:16.000Z",
   "web:088386b2-2c10-423c-848f-4605d2b2e0e5": "2026-11-02T10:03:22.000Z",
