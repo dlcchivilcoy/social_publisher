@@ -3,7 +3,10 @@ name: Publicador Diario
 # El disparo a horario lo hace cron-job.org (disparador externo confiable, en hora de
 # Argentina) llamando a la API de workflow_dispatch. NO se usa el scheduler nativo de
 # GitHub (schedule:) para el grueso porque no es confiable y chocaba con cron-job.org.
-# EXCEPCION: las publicidades programadas usan schedule nativo (ver abajo). El posteo del
+# Las publicidades programadas las dispara cron-job.org CADA 5 MINUTOS con
+# args=--publicidades-programadas (2026-11-10: el */15 nativo de abajo sonaba cada 3-4 h y una
+# historia agendada a las 10:50 no salio). El nativo queda de respaldo: los dos caen en el grupo
+# `publicador-publicidades`, asi que nunca corren a la vez ni duplican. El posteo del
 # MURO tapa+farmacias de las 00:00 tambien lo usaba; se RETIRO el 2026-10-04 (ahora salen
 # 4 publicaciones separadas a las 08:00 con --tapa-farmacias, disparadas por cron-job.org).
 # Tambien se puede correr a mano desde la pestana Actions -> Run workflow.
@@ -147,7 +150,7 @@ jobs:
           echo "ERROR: no hay ffmpeg (ni imageio-ffmpeg ni apt)."; exit 1
 
       - name: Instalar rclone
-        if: ${{ github.event.schedule != '*/15 * * * *' }}
+        if: ${{ github.event.schedule != '*/15 * * * *' && !contains(github.event.inputs.args, 'publicidades') }}
         run: |
           sudo -v
           # Reintentar: a veces el install.sh flaquea y rclone no queda en PATH (exit 127).
@@ -212,7 +215,7 @@ jobs:
           fi
 
       - name: Bajar la carpeta del dia desde Google Drive
-        if: ${{ github.event.schedule != '*/15 * * * *' }}
+        if: ${{ github.event.schedule != '*/15 * * * *' && !contains(github.event.inputs.args, 'publicidades') }}
         env:
           # Por env (NO inline) para no romper si el nombre del video trae espacios/comillas.
           ARGS: ${{ github.event.inputs.args }}
@@ -229,7 +232,7 @@ jobs:
           fi
 
       - name: Bajar videos de actualidad desde Google Drive (desgrabador)
-        if: ${{ github.event.schedule != '*/15 * * * *' && !contains(github.event.inputs.args, 'reels-listos') }}
+        if: ${{ github.event.schedule != '*/15 * * * *' && !contains(github.event.inputs.args, 'publicidades') && !contains(github.event.inputs.args, 'reels-listos') }}
         run: |
           mkdir -p videos
           # La carpeta "videos notas actualidad" puede estar dentro de Diario o en la raiz del Drive.
@@ -241,7 +244,7 @@ jobs:
           rclone copy "gdrive:notas para web" notas_web 2>/dev/null || true
 
       - name: Bajar videos de la RADIO desde Google Drive (radiodelcentro)
-        if: ${{ github.event.schedule != '*/15 * * * *' }}
+        if: ${{ github.event.schedule != '*/15 * * * *' && !contains(github.event.inputs.args, 'publicidades') }}
         env:
           ARGS: ${{ github.event.inputs.args }}
         run: |
@@ -257,7 +260,7 @@ jobs:
           fi
 
       - name: Bajar transcripciones de la PC de la radio (para --yt-desgrabar)
-        if: ${{ github.event.schedule != '*/15 * * * *' }}
+        if: ${{ github.event.schedule != '*/15 * * * *' && !contains(github.event.inputs.args, 'publicidades') }}
         env:
           ARGS: ${{ github.event.inputs.args }}
         run: |
