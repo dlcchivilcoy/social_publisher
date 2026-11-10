@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-10T14:40:18.000Z"
+   "visto": "2026-11-10T17:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-10T14:40:18.000Z"
+   "visto": "2026-11-10T17:20:16.000Z"
   }
  },
  "contenidos": {
@@ -4970,6 +4970,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/conflicto-en-salud-gremios-docentes-presentaron-un-reclamo-conjunto",
    "volanta": "Conflicto en salud"
   },
+  "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52": {
+   "categoria": "",
+   "descripcion": "Bragado Club venció con claridad a Argentino por el Torneo Clausura Por la fecha 13 del Torneo Clausura de Primera División, Bragado Club recibió a Argentino. Fue un nuevo triunfo del local de principio a fin por 71 a 46. Lo ganó de principio a fin y sigue con la ilusión de clasificar en la cuarta posición, que hoy está disputándosela con San Lorenzo. Fotos de los destacados del juego.",
+   "generado": "2026-11-10T17:04:09.907Z",
+   "id": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b730dd44fb094134ad0d988299e38db9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-deportes-bragado-club-vencio-con-claridad-a-argentino-por-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Bragado Club venció con claridad a Argentino por el Torneo Clausura",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bragado-deportes-bragado-club-vencio-con-claridad-a-argentino-por-el",
+   "volanta": "Bragado · Deportes"
+  },
   "web:cd19d51a-2d12-4c2f-a5a7-6e89ce9ab386": {
    "categoria": "",
    "descripcion": "Alicia Rios presentó su investigación sobre la masonería en Chivilcoy La museóloga Alicia Rios presentó en la Sociedad Francesa su libro «Masonería Augusta Logia Luz del Oeste N55 Chivilcoy», una investigación iniciada a partir de la práctica museológica. El encuentro contó con una importante convocatoria en el auditorio de la calle Moreno y se acompañó con una muestra alusiva de fotografía junto a documentos en la planta baja. El trabajo sitúa a la masonería en Chivilcoy desde la instalación...",
@@ -9687,18 +9706,19 @@
    "viral": false
   },
   "entrevistas:job00294|x": {
-   "actualizado": "2026-11-10T17:00:19.000Z",
+   "actualizado": "2026-11-10T17:20:16.000Z",
    "buffer_id": "6af34da4a0d7326462d3977b",
    "clave": "entrevistas:job00294|x",
    "creado": "2026-11-10T17:00:19.000Z",
    "dueAt": "2026-11-10T17:02:31.000Z",
+   "enviado": "2026-11-10T17:09:32.099Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T17:00:19.000Z",
    "id": "entrevistas:job00294",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120202205437337918",
    "nota_url": "",
    "noticia": "titulo:came-femenia-gasto-gente-menos-turismo",
    "origen": "entrevistas",
@@ -15321,6 +15341,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52|x": {
+   "actualizado": "2026-11-10T17:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52|x",
+   "creado": "2026-11-10T17:20:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-10T17:04:09.907Z",
+   "id": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-deportes-bragado-club-vencio-con-claridad-a-argentino-por-el",
+   "noticia": "nota:bragado-deportes-bragado-club-vencio-con-claridad-a-argentino-por-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Bragado Club venció con claridad a Argentino por el Torneo Clausura\n\nEl local ganó 71 a 46 por la fecha 13 de Primera División. Mantiene la ilusión de clasificar en la cuarta posición, lugar que disputa con San Lorenzo.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-deportes-bragado-club-vencio-con-claridad-a-argentino-por-el",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Bragado Club venció con claridad a Argentino por el Torneo Clausura",
+   "urgente": false,
+   "vence": "2026-11-10T21:04:09.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:cd19d51a-2d12-4c2f-a5a7-6e89ce9ab386|x": {
    "actualizado": "2026-11-07T18:40:16.000Z",
    "buffer_id": "",
@@ -16317,29 +16364,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00274|x",
-   "cuando": "2026-11-03T18:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00274|tiktok",
-   "cuando": "2026-11-03T18:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6aea2a9381bf336f271e9d04",
-   "clave": "entrevistas:job00274|x",
-   "cuando": "2026-11-03T18:40:19.000Z",
-   "dueAt": "2026-11-03T18:42:16.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00274|x",
    "cuando": "2026-11-03T19:20:43.000Z",
@@ -20487,6 +20511,26 @@
    "cuando": "2026-11-10T17:00:21.000Z",
    "dueAt": "2026-11-10T17:02:31.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52|x",
+   "cuando": "2026-11-10T17:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52|x",
+   "cuando": "2026-11-10T17:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00294|x",
+   "cuando": "2026-11-10T17:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120202205437337918"
   }
  ],
  "tandas": {
@@ -20524,7 +20568,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-10",
- "ultima_sync": "2026-11-10T14:40:18.000Z",
+ "ultima_sync": "2026-11-10T17:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21675,6 +21719,7 @@
   "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4": "2026-10-18T22:20:14.000Z",
   "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af": "2026-10-17T17:00:15.000Z",
   "web:cb5bd56e-c625-4389-948e-845e3cd94779": "2026-11-02T10:03:22.000Z",
+  "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52": "2026-11-10T17:20:14.000Z",
   "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
   "web:ccce7a0b-db66-488d-8412-6628b516975f": "2026-10-17T23:20:15.000Z",
   "web:cd19d51a-2d12-4c2f-a5a7-6e89ce9ab386": "2026-11-07T18:40:16.000Z",
