@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 5
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-09T23:40:16.000Z"
+   "visto": "2026-11-10T10:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 23
+    "scheduled": 1,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-09T23:40:16.000Z"
+   "visto": "2026-11-10T10:20:16.000Z"
   }
  },
  "contenidos": {
@@ -13187,14 +13187,14 @@
    "viral": false
   },
   "web:69d9ed72-3877-4424-8f92-4ab6f352a5ed|x": {
-   "actualizado": "2026-11-10T10:02:42.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-10T10:20:17.000Z",
+   "buffer_id": "6af2efe17bf84372feb9c7f4",
    "clave": "web:69d9ed72-3877-4424-8f92-4ab6f352a5ed|x",
    "creado": "2026-11-10T10:02:42.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-10T11:37:05.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-10T10:01:35.965Z",
    "id": "web:69d9ed72-3877-4424-8f92-4ab6f352a5ed",
    "ig_hora": "2026-11-10T11:37:26.000Z",
@@ -14365,19 +14365,20 @@
    "viral": false
   },
   "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8|x": {
-   "actualizado": "2026-11-10T10:04:16.000Z",
+   "actualizado": "2026-11-10T10:20:16.000Z",
    "buffer_id": "6af2ec2189e9c23c9bd7ce9e",
    "clave": "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T10:07:39.000Z",
+   "enviado": "2026-11-10T10:07:46.458Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:00:54.359Z",
    "id": "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8",
    "ig_hora": "2026-11-10T10:07:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120096065495986650",
    "nota_url": "https://www.diariolacampaña.com.ar/n/la-libertad-avanza-chivilcoy-juan-ignacio-felice-afirmo-el",
    "noticia": "nota:la-libertad-avanza-chivilcoy-juan-ignacio-felice-afirmo-el",
    "origen": "web",
@@ -16328,18 +16329,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42|x",
-   "cuando": "2026-11-03T11:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117570548058190328"
-  },
-  {
-   "clave": "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e|x",
-   "cuando": "2026-11-03T11:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117574387813499386"
-  },
   {
    "clave": "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf|x",
    "cuando": "2026-11-03T11:20:16.000Z",
@@ -20494,6 +20483,19 @@
    "cuando": "2026-11-10T10:04:19.000Z",
    "dueAt": "2026-11-10T11:22:17.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8|x",
+   "cuando": "2026-11-10T10:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120096065495986650"
+  },
+  {
+   "buffer_id": "6af2efe17bf84372feb9c7f4",
+   "clave": "web:69d9ed72-3877-4424-8f92-4ab6f352a5ed|x",
+   "cuando": "2026-11-10T10:20:17.000Z",
+   "dueAt": "2026-11-10T11:37:05.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20531,7 +20533,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-10",
- "ultima_sync": "2026-11-09T23:40:16.000Z",
+ "ultima_sync": "2026-11-10T10:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
