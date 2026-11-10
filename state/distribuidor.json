@@ -1293,6 +1293,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00294.mp4",
    "youtube_url": "https://youtu.be/ASAQ10tBewA"
   },
+  "entrevistas:job00295": {
+   "descripcion": "En Chivilcoy, el ingeniero civil Oscar Potetti cuestionó la falta de cronograma y fondos claros para las obras de la Autovía en la Ruta 5. Reclamó certezas sobre los plazos y la partida asignada para la travesía de Mercedes.",
+   "duracion_seg": null,
+   "entrevistado": "Oscar Potetti",
+   "generado": "2026-11-10T17:40:15.000Z",
+   "id": "entrevistas:job00295",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Oscar Potetti: \"¿Cómo empiezan una obra sin presupuesto?\"",
+   "urgente": false,
+   "video_bytes": 27072740,
+   "video_mb": 25.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00295.mp4",
+   "youtube_url": "https://youtu.be/3evhdmt97fE"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -9734,6 +9755,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00294.mp4",
    "viral": false
   },
+  "entrevistas:job00295|tiktok": {
+   "actualizado": "2026-11-10T17:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00295|tiktok",
+   "creado": "2026-11-10T17:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-10T17:40:15.000Z",
+   "id": "entrevistas:job00295",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Oscar Potetti: \"¿Cómo empiezan una obra sin presupuesto?\"\n\nEn Chivilcoy, el ingeniero civil Oscar Potetti cuestionó la falta de cronograma y fondos claros para las obras de la Autovía en la Ruta 5. Reclamó certezas sobre los plazos y la partida asignada para la travesía de Mercedes.\n\nhttps://youtu.be/3evhdmt97fE\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Oscar Potetti: \"¿Cómo empiezan una obra sin presupuesto?\"",
+   "urgente": false,
+   "vence": "2026-11-12T17:40:15.000Z",
+   "video_bytes": 27072740,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00295.mp4",
+   "viral": false
+  },
+  "entrevistas:job00295|x": {
+   "actualizado": "2026-11-10T17:40:23.000Z",
+   "buffer_id": "6af357080649793ed2fb735c",
+   "clave": "entrevistas:job00295|x",
+   "creado": "2026-11-10T17:40:15.000Z",
+   "dueAt": "2026-11-10T17:42:54.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-10T17:40:15.000Z",
+   "id": "entrevistas:job00295",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:empiezan-obra-oscar-potetti-presupuesto",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Oscar Potetti: \"¿Cómo empiezan una obra sin presupuesto?\"\n\nEl ingeniero Oscar Potetti cuestionó en Chivilcoy la falta de cronograma y fondos claros para las obras de la Ruta 5. Reclamó certezas sobre los plazos y la partida asignada.\n\nhttps://youtu.be/3evhdmt97fE",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Oscar Potetti: \"¿Cómo empiezan una obra sin presupuesto?\"",
+   "urgente": false,
+   "vence": "2026-11-10T19:40:15.000Z",
+   "video_bytes": 27072740,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00295.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -16365,33 +16442,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00274|x",
-   "cuando": "2026-11-03T19:20:43.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117688911790997772"
-  },
-  {
-   "clave": "entrevistas:job00273",
-   "cuando": "2026-11-03T20:20:22.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00273|x",
-   "cuando": "2026-11-03T20:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00273|tiktok",
-   "cuando": "2026-11-03T20:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
    "buffer_id": "6aea42075a7c19a37cd28506",
    "clave": "entrevistas:job00273|x",
    "cuando": "2026-11-03T20:20:23.000Z",
@@ -20531,6 +20581,34 @@
    "cuando": "2026-11-10T17:20:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120202205437337918"
+  },
+  {
+   "clave": "entrevistas:job00295",
+   "cuando": "2026-11-10T17:40:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00295|x",
+   "cuando": "2026-11-10T17:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00295|tiktok",
+   "cuando": "2026-11-10T17:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af357080649793ed2fb735c",
+   "clave": "entrevistas:job00295|x",
+   "cuando": "2026-11-10T17:40:24.000Z",
+   "dueAt": "2026-11-10T17:42:54.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20862,6 +20940,7 @@
   "entrevistas:job00292": "2026-11-09T18:40:17.000Z",
   "entrevistas:job00293": "2026-11-09T21:00:19.000Z",
   "entrevistas:job00294": "2026-11-10T17:00:19.000Z",
+  "entrevistas:job00295": "2026-11-10T17:40:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
