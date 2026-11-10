@@ -5232,25 +5232,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/presencia-en-zona-urbana-animales-inesperados-en-chivilcoy-cuando-la",
    "volanta": "Presencia en zona urbana"
   },
-  "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc": {
-   "categoria": "",
-   "descripcion": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto En el marco de una investigación por comercialización de estupefacientes al menudeo, personal policial detuvo en Bragado a Jonatan Diz. La causa se había iniciado el 26 de mayo a partir de información que señalaba la presunta venta de drogas en un lavadero de automóviles. El procedimiento estuvo a cargo de la Subdelegación Departamental de Investigaciones del Tráfico de Drogas Ilícitas Chivilcoy, conducida por el...",
-   "generado": "2026-10-30T23:20:33Z",
-   "id": "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8815dc0f213243888499f256afb156e0~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
-   "volanta": "Bragado · Policiales"
-  },
   "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a": {
    "categoria": "",
    "descripcion": "Torneo Federal A: los cruces de la cuarta etapa de la reválida; Gimnasia tendrá como rival a Douglas Haig de Pergamino Este domingo quedaron definidos los cruces de la Cuarta Etapa por el segundo ascenso. En los octavos de final: Gimnasia dejó en el camino a Boca Unidos de Corrientes, mientras que, Douglas Haig de Pergamino que eliminó a Villa Mitre de Bahía Blanca. A continuación, toda la información: Fase Campeonato: Primer Ascenso: SAN MARTÍN (Formosa) Fase Reválida: en busca del Segundo...",
@@ -15706,31 +15687,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc|x": {
-   "actualizado": "2026-10-30T23:40:18.000Z",
-   "buffer_id": "",
-   "clave": "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc|x",
-   "creado": "2026-10-30T23:40:18.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-30T23:20:33Z",
-   "id": "web:e54d9265-71d9-4648-b23f-4daf8e41d1fc",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
-   "noticia": "nota:bragado-policiales-detuvieron-a-un-hombre-acusado-de-vender-drogas",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "DETUVIERON a un hombre acusado de vender drogas tras resistirse al arresto",
-   "urgente": false,
-   "vence": "2026-10-31T03:20:33.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:e56a91c0-523a-41b5-aa2a-c50bb88fa51a|x": {
    "actualizado": "2026-11-02T14:20:24.000Z",
    "buffer_id": "6ae87b576e3fc295002306f0",
@@ -20525,7 +20481,6 @@
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-30 21",
    "2026-10-31 10",
    "2026-10-31 18",
    "2026-10-31 21",
@@ -20554,10 +20509,11 @@
    "2026-11-08 18",
    "2026-11-08 21",
    "2026-11-09 10",
-   "2026-11-09 18"
+   "2026-11-09 18",
+   "2026-11-09 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-09",
+ "ultima_limpieza_release": "2026-11-10",
  "ultima_sync": "2026-11-09T23:40:16.000Z",
  "version": 1,
  "vistos": {
