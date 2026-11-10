@@ -140,6 +140,62 @@ def fotos_a_video(fotos, salida, *, seg_por_foto: float = SEG_POR_FOTO) -> Path:
     return salida
 
 
+# ── HISTORIAS: la pieza ENTERA en 9:16 (2026-11-10) ───────────────────────────────
+# Facebook e Instagram estiran lo que no es 9:16 hasta llenar la pantalla y le cortan los bordes:
+# un video 4:5 del anunciante salió con los costados comidos («se extendió a los marcos y salió
+# cortado»). Acá se encaja ENTERO en 1080x1920, centrado, sobre una versión borrosa y oscurecida de
+# sí mismo (el mismo criterio que `normalizar_carrusel`). Sin branding: la pieza es del anunciante.
+HISTORIA = (1080, 1920)
+TOLERANCIA_9X16 = 0.015     # una pieza que ya es 9:16 (±1,5 %) va como vino
+
+
+def _ya_es_9x16(ancho: int, alto: int) -> bool:
+    return bool(ancho and alto) and abs(ancho / alto - HISTORIA[0] / HISTORIA[1]) <= TOLERANCIA_9X16
+
+
+def foto_para_historia(foto, salida) -> Path:
+    """La foto entera en 1080x1920 (o la misma, si ya es 9:16)."""
+    from PIL import Image, ImageOps
+    from story_image import _fit_blur
+    foto, salida = Path(foto), Path(salida)
+    with Image.open(foto) as im:
+        im = ImageOps.exif_transpose(im).convert("RGB")
+        if _ya_es_9x16(*im.size):
+            return foto
+        _fit_blur(im, *HISTORIA).save(salida, "JPEG", quality=92)
+    logger.info(f"Historia: «{foto.name}» encajada entera en 9:16 → {salida.name}")
+    return salida
+
+
+def video_para_historia(video, salida) -> Path:
+    """El video entero en 1080x1920, con su sonido (o el mismo, si ya es 9:16)."""
+    import subprocess
+    from video import _dimensiones, _ffmpeg, _sin_giro, has_audio
+    video, salida = Path(video), Path(salida)
+    w, h = _dimensiones(video)
+    if _ya_es_9x16(w, h):
+        return video
+    W, H = HISTORIA
+    fc = (f"[0:v]{_sin_giro()},split=2[a][b];"
+          f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+          f"scale={W // 8}:{H // 8},boxblur=luma_radius=6:luma_power=2,scale={W}:{H},"
+          f"colorchannelmixer=rr=0.55:gg=0.55:bb=0.55,setsar=1[fondo];"
+          f"[b]scale={W}:{H}:force_original_aspect_ratio=decrease,"
+          f"scale=trunc(iw/2)*2:trunc(ih/2)*2,setsar=1[pieza];"
+          f"[fondo][pieza]overlay=(W-w)/2:(H-h)/2,format=yuv420p[v]")
+    cmd = [_ffmpeg(), "-hide_banner", "-loglevel", "error", "-y", "-i", str(video),
+           "-filter_complex", fc, "-map", "[v]"]
+    if has_audio(video):
+        cmd += ["-map", "0:a:0", "-c:a", "aac", "-b:a", "128k"]
+    cmd += ["-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-movflags", "+faststart",
+            str(salida)]
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+    if r.returncode != 0 or not salida.exists() or salida.stat().st_size == 0:
+        raise RuntimeError(f"no pude encajar el video en 9:16: {(r.stderr or '')[-300:]}")
+    logger.info(f"Historia: video {w}x{h} encajado entero en 9:16 → {salida.name}")
+    return salida
+
+
 def como_sale(tipo: str, formatos: list[str], cuantas: int) -> str:
     """Una línea en castellano de lo que va a salir, para mostrar en el editor antes
     de guardar. Que el usuario lea lo que va a pasar es más barato que deshacerlo."""

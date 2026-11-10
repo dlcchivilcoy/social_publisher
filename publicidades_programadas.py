@@ -308,6 +308,35 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
             cache_url["u"] = upload_reel(video)
         return cache_url["u"]
 
+    # La HISTORIA lleva la pieza ENTERA en 9:16 (2026-11-10: un video 4:5 salió con los costados
+    # cortados, porque Facebook e Instagram estiran lo que no es 9:16). Se arma una sola vez para
+    # las dos redes; si no se puede encajar, va la pieza como vino (mejor eso que no salir).
+    historia: dict = {}
+
+    def video_historia() -> Path:
+        if "v" not in historia:
+            try:
+                historia["v"] = avisos_piezas.video_para_historia(video, taller / "historia.mp4")
+            except Exception as e:                               # noqa: BLE001
+                logger.warning(f"No pude encajar el video en 9:16 ({e}); la historia va como vino.")
+                historia["v"] = video
+        return historia["v"]
+
+    def url_video_historia() -> str:
+        if "u" not in historia:
+            v = video_historia()
+            historia["u"] = url_video() if v == video else upload_reel(v)
+        return historia["u"]
+
+    def foto_historia() -> Path:
+        if "f" not in historia:
+            try:
+                historia["f"] = avisos_piezas.foto_para_historia(piezas[0], taller / "historia.jpg")
+            except Exception as e:                               # noqa: BLE001
+                logger.warning(f"No pude encajar la foto en 9:16 ({e}); la historia va como vino.")
+                historia["f"] = piezas[0]
+        return historia["f"]
+
     if "facebook" in destinos:
         if "feed" in formatos:
             if tipo == "video":
@@ -328,10 +357,10 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
         if "historia" in formatos:
             if video:
                 _intentar(ids, fallas, "fb_historia", "Facebook (historia)",
-                          lambda: facebook.publish_video_story(video))
+                          lambda: facebook.publish_video_story(video_historia()))
             else:
                 _intentar(ids, fallas, "fb_historia", "Facebook (historia)",
-                          lambda: facebook.publish_story(piezas[0]))
+                          lambda: facebook.publish_story(foto_historia()))
 
     if "instagram" in destinos:
         # En Instagram un video del feed ES un reel: son el mismo posteo. Si pidieron
@@ -353,10 +382,10 @@ def _publicar(trabajo: dict) -> tuple[dict, list[str]]:
         if "historia" in formatos:
             if video:
                 _intentar(ids, fallas, "ig_historia", "Instagram (historia)",
-                          lambda: instagram.publish_video_story(url_video()))
+                          lambda: instagram.publish_video_story(url_video_historia()))
             else:
                 _intentar(ids, fallas, "ig_historia", "Instagram (historia)",
-                          lambda: instagram.publish_story(piezas[0]))
+                          lambda: instagram.publish_story(foto_historia()))
 
     return ids, fallas
 
