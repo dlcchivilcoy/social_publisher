@@ -306,27 +306,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
    "youtube_url": "https://www.youtube.com/shorts/jbMchsApiJk"
   },
-  "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4": {
-   "descripcion": "En el marco de la jornada de paro nacional docente, se llevó adelante una volanteada en Chivilcoy en reclamo de justicia y visibilización por la situación de Nancy Godoy.\n\nLa medida formó parte de las acciones gremiales y comunitarias desarrolladas a nivel local para acompañar el cese de actividades y difundir el pedido vinculado al caso de la docente.",
-   "duracion_seg": 80.5,
-   "generado": "2026-10-29T16:22:09.000Z",
-   "id": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Paro nacional docente y volanteada por Nancy Godoy",
-   "urgente": false,
-   "video_bytes": 17923907,
-   "video_mb": 17.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f43eda94a61a0369.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/jMlt7gQlwqo"
-  },
   "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4": {
    "descripcion": "El coordinador de Deportes, Emilio Carabelli, y el presidente del Círculo de Atletas, Juan Borgogna, presentaron los detalles organizativos de la Media Maratón «Eduardo Pollaroli».\n\nDesde el área deportiva municipal destacaron el trabajo conjunto con el Círculo, los clubes y las diversas entidades participantes. En esta oportunidad, la competencia contará con la articulación del área de oncología para difundir pautas de prevención y detección temprana, promoviendo la actividad física en relación directa con la salud y los controles médicos.\n\nPor su parte, se informó que las inscripciones siguen disponibles en el sitio web de Finishtime, tanto para la prueba principal como para la caminata, con cupos que contemplan remeras oficiales. La largada del evento está pautada de manera puntual para el domingo a las 8 de la mañana.\n\nEl operativo contará con el acompañamiento de Tránsito, Defensa Civil, el servicio de ambulancias, el Hospital municipal y la Cruz Roja, además del respaldo de la comisión organizadora, las familias y los medios de prensa locales.",
    "duracion_seg": 130.7,
@@ -1292,6 +1271,27 @@
    "video_mb": 24.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00293.mp4",
    "youtube_url": "https://youtu.be/_JXxY--Yj6A"
+  },
+  "entrevistas:job00294": {
+   "descripcion": "En diálogo con Radio del Centro, Salvador Femenia, vocero de CAME, analizó el comportamiento de los fines de semana largos marcados por viajes cortos y un presupuesto ajustado.",
+   "duracion_seg": null,
+   "entrevistado": "Salvador Femenia",
+   "generado": "2026-11-10T17:00:19.000Z",
+   "id": "entrevistas:job00294",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Femenia (CAME): Turismo con más gente y menos gasto",
+   "urgente": false,
+   "video_bytes": 21201776,
+   "video_mb": 20.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00294.mp4",
+   "youtube_url": "https://youtu.be/ASAQ10tBewA"
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
@@ -5293,25 +5293,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/emilio-ayarza-sociedad-chivilcoy-emilio-ayarza-celebro-su-118",
    "volanta": "Emilio Ayarza · Sociedad"
   },
-  "web:ea13235b-dbb9-482c-b517-2865e5df2d34": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Oncología del Hospital Municipal promueve la prevención y la actividad física CHIVILCOY.– En la antesala de la Media Maratón Eduardo Pollaroli, que se correrá a partir de las 8, Javier Azcola, integrante del Servicio de Oncología del Hospital Municipal, destacó la relevancia de sumarse al evento deportivo para concientizar sobre la salud. Azcola explicó que aprovecharon el espacio brindado por el Círculo de Atletas para impulsar la campaña en el marco de las fechas de lucha contra...",
-   "generado": "2026-10-31T16:37:40.033Z",
-   "id": "web:ea13235b-dbb9-482c-b517-2865e5df2d34",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b93064487fcc48c5b5589dfef8525b36~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Oncología del Hospital Municipal promueve la prevención y la actividad física",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
-   "volanta": "Chivilcoy · Salud"
-  },
   "web:ea8aaf01-2797-47ff-a625-b439567a99be": {
    "categoria": "",
    "descripcion": "Chivilcoy: Estrena la obra “Rico es ser pobre” en el teatro La Cueva: una comedia con tintes reflexivos Una nueva producción teatral independiente subirá a las tablas chivilcoyanas durante los próximos fines de semana. Se trata de ‘Rico es ser pobre’, una pieza escrita y dirigida por Hugo Beccaglia, quien además asume uno de los roles protagónicos junto a Adriana Irrazabal. La propuesta tendrá su esperado estreno en la sala del teatro La Cueva, sumando un texto propio a la nutrida cartelera...",
@@ -6401,34 +6382,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
    "viral": false
   },
-  "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok": {
-   "actualizado": "2026-10-31T16:40:26.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4|tiktok",
-   "creado": "2026-10-29T16:40:15.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-29T16:22:09.000Z",
-   "id": "bot:video_matias-zucchi_mvtqxhkuuza1_01.mp4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Paro nacional docente y volanteada por Nancy Godoy\n\nEn el marco de la jornada de paro nacional docente, se llevó adelante una volanteada en Chivilcoy en reclamo de justicia y visibilización por la situación de Nancy Godoy. La medida formó parte de las acciones gremiales y comunitarias desarrolladas a nivel local para acompañar el cese de actividades y difundir el pedido vinculado al caso de la docente.\n\nhttps://www.youtube.com/shorts/jMlt7gQlwqo\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Paro nacional docente y volanteada por Nancy Godoy",
-   "urgente": false,
-   "vence": "2026-10-31T16:22:09.000Z",
-   "video_bytes": 17923907,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_f43eda94a61a0369.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mvtz71lc4d46_01.mp4|tiktok": {
    "actualizado": "2026-10-31T20:20:14.000Z",
    "buffer_id": "",
@@ -6609,31 +6562,6 @@
    "titulo": "Oncología del Hospital Municipal promueve la prevención y la actividad física",
    "urgente": false,
    "vence": "2026-11-02T16:38:46.000Z",
-   "video_bytes": 22824196,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|x": {
-   "actualizado": "2026-10-31T16:40:18.000Z",
-   "buffer_id": "",
-   "clave": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4|x",
-   "creado": "2026-10-31T16:40:18.000Z",
-   "dueAt": "",
-   "error": "dura 162 s y X admite 140 s sin suscripción",
-   "estado": "descartado",
-   "generado": "2026-10-31T16:38:46.000Z",
-   "id": "bot:video_matias-zucchi_mvwm7s2vy1m8_01.mp4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
-   "noticia": "nota:chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Oncología del Hospital Municipal promueve la prevención y la actividad física",
-   "urgente": false,
-   "vence": "2026-10-31T18:38:46.000Z",
    "video_bytes": 22824196,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
    "viral": false
@@ -9728,6 +9656,62 @@
    "vence": "2026-11-09T23:00:19.000Z",
    "video_bytes": 25599550,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00293.mp4",
+   "viral": false
+  },
+  "entrevistas:job00294|tiktok": {
+   "actualizado": "2026-11-10T17:00:19.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00294|tiktok",
+   "creado": "2026-11-10T17:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-10T17:00:19.000Z",
+   "id": "entrevistas:job00294",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Femenia (CAME): Turismo con más gente y menos gasto\n\nEn diálogo con Radio del Centro, Salvador Femenia, vocero de CAME, analizó el comportamiento de los fines de semana largos marcados por viajes cortos y un presupuesto ajustado.\n\nhttps://youtu.be/ASAQ10tBewA\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Femenia (CAME): Turismo con más gente y menos gasto",
+   "urgente": false,
+   "vence": "2026-11-12T17:00:19.000Z",
+   "video_bytes": 21201776,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00294.mp4",
+   "viral": false
+  },
+  "entrevistas:job00294|x": {
+   "actualizado": "2026-11-10T17:00:19.000Z",
+   "buffer_id": "6af34da4a0d7326462d3977b",
+   "clave": "entrevistas:job00294|x",
+   "creado": "2026-11-10T17:00:19.000Z",
+   "dueAt": "2026-11-10T17:02:31.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-10T17:00:19.000Z",
+   "id": "entrevistas:job00294",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:came-femenia-gasto-gente-menos-turismo",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Femenia (CAME): Turismo con más gente y menos gasto\n\nEn diálogo con Radio del Centro, Salvador Femenia, vocero de CAME, analizó el comportamiento de los fines de semana largos marcados por viajes cortos y un presupuesto ajustado.\n\nhttps://youtu.be/ASAQ10tBewA",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Femenia (CAME): Turismo con más gente y menos gasto",
+   "urgente": false,
+   "vence": "2026-11-10T19:00:19.000Z",
+   "video_bytes": 21201776,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00294.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
@@ -15901,33 +15885,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:ea13235b-dbb9-482c-b517-2865e5df2d34|x": {
-   "actualizado": "2026-10-31T16:40:26.000Z",
-   "buffer_id": "",
-   "clave": "web:ea13235b-dbb9-482c-b517-2865e5df2d34|x",
-   "creado": "2026-10-31T16:40:18.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-10-31T16:37:40.033Z",
-   "id": "web:ea13235b-dbb9-482c-b517-2865e5df2d34",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
-   "noticia": "nota:chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Oncología del Hospital Municipal promueve la prevención y la actividad física\n\nJavier Azcola destacó sumarse al evento deportivo para concientizar sobre la salud. El servicio aprovechó el espacio del Círculo de Atletas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-oncologia-del-hospital-municipal-promueve",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Oncología del Hospital Municipal promueve la prevención y la actividad física",
-   "urgente": false,
-   "vence": "2026-10-31T20:37:40.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:ea8aaf01-2797-47ff-a625-b439567a99be|x": {
    "actualizado": "2026-11-06T11:40:16.000Z",
    "buffer_id": "6aeda9e086fe9b83798bf58a",
@@ -16360,32 +16317,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00272|tiktok",
-   "cuando": "2026-11-03T17:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6aea1c8024384d4018531c17",
-   "clave": "entrevistas:job00272|x",
-   "cuando": "2026-11-03T17:40:16.000Z",
-   "dueAt": "2026-11-03T17:42:42.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00272|x",
-   "cuando": "2026-11-03T18:20:35.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117673893288677461"
-  },
-  {
-   "clave": "entrevistas:job00274",
-   "cuando": "2026-11-03T18:40:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00274|x",
    "cuando": "2026-11-03T18:40:18.000Z",
@@ -20528,6 +20459,34 @@
    "cuando": "2026-11-10T15:00:23.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00294",
+   "cuando": "2026-11-10T17:00:19.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00294|x",
+   "cuando": "2026-11-10T17:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00294|tiktok",
+   "cuando": "2026-11-10T17:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af34da4a0d7326462d3977b",
+   "clave": "entrevistas:job00294|x",
+   "cuando": "2026-11-10T17:00:21.000Z",
+   "dueAt": "2026-11-10T17:02:31.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20858,6 +20817,7 @@
   "entrevistas:job00291": "2026-11-09T18:00:21.000Z",
   "entrevistas:job00292": "2026-11-09T18:40:17.000Z",
   "entrevistas:job00293": "2026-11-09T21:00:19.000Z",
+  "entrevistas:job00294": "2026-11-10T17:00:19.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",

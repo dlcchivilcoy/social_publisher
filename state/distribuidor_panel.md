@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 10/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 10/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-10)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,16 +27,13 @@ Actualizado: 10/11/2026 13:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Recortes de entrevistas · Femenia (CAME): Turismo con más gente y menos gasto — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-10T11:40 enviado web:ddb372e9-f75f-433a-ad8d-44035f486a1c|x 
-- 2026-11-10T11:40 programado web:87b34ef6-682f-453d-9a41-c5e57e182a44|x 
-- 2026-11-10T11:40 programado web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x 
-- 2026-11-10T12:00 programado web:589aada5-2294-49ca-8ee9-5c71fc761177|x 
 - 2026-11-10T12:20 programado web:03ae8b4c-08d8-488d-9203-4b4212346184|x 
 - 2026-11-10T12:40 enviado web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3|x 
 - 2026-11-10T12:40 enviado web:b8f99c2d-7f06-4d78-a4ac-7cd0d76d7fab|x 
@@ -58,3 +55,7 @@ Actualizado: 10/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-10T14:40 enviado web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x 
 - 2026-11-10T15:00 recibido web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x 
 - 2026-11-10T15:00 depurado web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-10T17:00 entrevista_aprobada entrevistas:job00294 
+- 2026-11-10T17:00 recibido entrevistas:job00294|x 
+- 2026-11-10T17:00 recibido entrevistas:job00294|tiktok 
+- 2026-11-10T17:00 programado entrevistas:job00294|x 
