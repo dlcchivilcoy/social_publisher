@@ -3038,25 +3038,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-una-madre-denuncio-presunto-abuso",
    "volanta": "Chivilcoy · Policiales"
   },
-  "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c": {
-   "categoria": "",
-   "descripcion": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy El próximo 31 de octubre, a partir de las 14, se llevará a cabo el Torneo Intercolegial de Ajedrez 2026 de Chivilcoy en la Biblioteca Popular Dr. A. Novaro, ubicada en Av. Sóarez 114. El evento es organizado por la Escuela de Ajedrez Chivilcoy y Kassy al Kosto, con el apoyo de la Jefatura Distrital de Educación de Chivilcoy y la coordinación del profesor Juan Dallura. La propuesta está destinada a todas las edades y niveles. La...",
-   "generado": "2026-10-31T20:42:18.446Z",
-   "id": "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_808b557c3b1847b392e3203ad3049c7c~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e": {
    "categoria": "",
    "descripcion": "Chivilcoy: Inaugura este martes: Llega ‘Huellas Impresas’, una gran muestra colectiva de grabado La ciudad de Chivilcoy se prepara para recibir una destacada e inédita propuesta cultural en el ámbito de las artes plásticas. Se trata de ‘Huellas Impresas’, una gran muestra colectiva de grabado que reunirá las obras de 36 creadores tanto de la escena local como provenientes de Buenos Aires. La inauguración oficial está programada para el martes 3 de noviembre a las 17 horas en las salas del...",
@@ -4006,25 +3987,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/educacion-y-comunidad-lorena-bustos-detallo-la-intervencion-artistica",
    "volanta": "Educación y Comunidad"
-  },
-  "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38": {
-   "categoria": "",
-   "descripcion": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30 Una dotación de Bomberos Voluntarios intervino este domingo pasadas las 16 horas en un incendio forestal registrado sobre la banquina de la Ruta Provincial 30, a unos kilómetros del parque La Martija, en cercanías a la propiedad de Hugo Vita. El bombero voluntario Emmanuel Artola, quien estuvo a cargo de las tareas, explicó que al arribar al sector hallaron fuego en ramas y monte. «Rápidamente desplegamos de línea de...",
-   "generado": "2026-10-31T20:54:24.041Z",
-   "id": "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a1eb8e3d3eff46818b4122d402ae5515~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
-   "volanta": "Incendio forestal"
   },
   "web:85c7c574-2535-4b4c-9aa4-cab46d956ea6": {
    "categoria": "",
@@ -9675,15 +9637,15 @@
    "viral": false
   },
   "entrevistas:job00294|tiktok": {
-   "actualizado": "2026-11-10T17:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-10T21:00:18.000Z",
+   "buffer_id": "6af385e82b686bd66cf7b133",
    "categoria": "",
    "clave": "entrevistas:job00294|tiktok",
    "creado": "2026-11-10T17:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-10T22:23:50.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-10T17:00:19.000Z",
    "id": "entrevistas:job00294",
    "intentos": 0,
@@ -9732,15 +9694,15 @@
    "viral": false
   },
   "entrevistas:job00295|tiktok": {
-   "actualizado": "2026-11-10T17:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-10T21:00:18.000Z",
+   "buffer_id": "6af385e74cc2b37f6a10a1aa",
    "categoria": "",
    "clave": "entrevistas:job00295|tiktok",
    "creado": "2026-11-10T17:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-10T22:03:58.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-10T17:40:15.000Z",
    "id": "entrevistas:job00295",
    "intentos": 0,
@@ -9789,15 +9751,15 @@
    "viral": false
   },
   "entrevistas:job00296|tiktok": {
-   "actualizado": "2026-11-10T18:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-10T21:00:18.000Z",
+   "buffer_id": "6af385e64cc2b37f6a10a094",
    "categoria": "",
    "clave": "entrevistas:job00296|tiktok",
    "creado": "2026-11-10T18:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-10T21:43:58.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-10T18:20:16.000Z",
    "id": "entrevistas:job00296",
    "intentos": 0,
@@ -9846,15 +9808,15 @@
    "viral": false
   },
   "entrevistas:job00297|tiktok": {
-   "actualizado": "2026-11-10T18:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-10T21:00:18.000Z",
+   "buffer_id": "6af385e591300263f77f9455",
    "categoria": "",
    "clave": "entrevistas:job00297|tiktok",
    "creado": "2026-11-10T18:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-10T21:23:34.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-10T18:40:15.000Z",
    "id": "entrevistas:job00297",
    "intentos": 0,
@@ -9903,15 +9865,15 @@
    "viral": false
   },
   "entrevistas:job00298|tiktok": {
-   "actualizado": "2026-11-10T19:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-10T21:00:18.000Z",
+   "buffer_id": "6af385e42b686bd66cf7ab70",
    "categoria": "",
    "clave": "entrevistas:job00298|tiktok",
    "creado": "2026-11-10T19:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-10T21:03:38.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-10T19:20:16.000Z",
    "id": "entrevistas:job00298",
    "intentos": 0,
@@ -12114,31 +12076,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c|x": {
-   "actualizado": "2026-10-31T21:00:19.000Z",
-   "buffer_id": "",
-   "clave": "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c|x",
-   "creado": "2026-10-31T21:00:19.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-31T20:42:18.446Z",
-   "id": "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
-   "noticia": "nota:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Se realizará el Torneo Intercolegial de Ajedrez 2026 en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-11-01T00:42:18.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e|x": {
    "actualizado": "2026-11-03T11:20:16.000Z",
    "buffer_id": "6ae9b196fe2f16b703bb79bb",
@@ -13766,31 +13703,6 @@
    "titulo": "Lorena Bustos detalló la intervención artística de garitas y murales en Chivilcoy",
    "urgente": false,
    "vence": "2026-11-06T14:01:12.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38|x": {
-   "actualizado": "2026-10-31T21:00:19.000Z",
-   "buffer_id": "",
-   "clave": "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38|x",
-   "creado": "2026-10-31T21:00:19.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-10-31T20:54:24.041Z",
-   "id": "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
-   "noticia": "nota:incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
-   "urgente": false,
-   "vence": "2026-11-01T00:54:24.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16539,44 +16451,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento|x",
-   "cuando": "2026-11-03T23:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos|x",
-   "cuando": "2026-11-03T23:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/|x",
-   "cuando": "2026-11-04T00:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia|x",
-   "cuando": "2026-11-04T00:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x",
-   "cuando": "2026-11-04T00:40:17.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
   {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26781-alertan-por-tormentas-en-bragado-y-anticipan-un-viernes-con-lluvias-y-viento|x",
    "cuando": "2026-11-04T01:20:16.000Z",
@@ -20707,11 +20581,45 @@
    "cuando": "2026-11-10T19:40:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120235736632897644"
+  },
+  {
+   "buffer_id": "6af385e42b686bd66cf7ab70",
+   "clave": "entrevistas:job00298|tiktok",
+   "cuando": "2026-11-10T21:00:24.000Z",
+   "dueAt": "2026-11-10T21:03:38.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af385e591300263f77f9455",
+   "clave": "entrevistas:job00297|tiktok",
+   "cuando": "2026-11-10T21:00:24.000Z",
+   "dueAt": "2026-11-10T21:23:34.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af385e64cc2b37f6a10a094",
+   "clave": "entrevistas:job00296|tiktok",
+   "cuando": "2026-11-10T21:00:24.000Z",
+   "dueAt": "2026-11-10T21:43:58.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af385e74cc2b37f6a10a1aa",
+   "clave": "entrevistas:job00295|tiktok",
+   "cuando": "2026-11-10T21:00:24.000Z",
+   "dueAt": "2026-11-10T22:03:58.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af385e82b686bd66cf7b133",
+   "clave": "entrevistas:job00294|tiktok",
+   "cuando": "2026-11-10T21:00:24.000Z",
+   "dueAt": "2026-11-10T22:23:50.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-31 18",
    "2026-10-31 21",
    "2026-11-01 10",
    "2026-11-01 18",
@@ -20740,7 +20648,8 @@
    "2026-11-09 10",
    "2026-11-09 18",
    "2026-11-09 21",
-   "2026-11-10 10"
+   "2026-11-10 10",
+   "2026-11-10 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-10",
