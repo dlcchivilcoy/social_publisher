@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-10T10:20:16.000Z"
+   "visto": "2026-11-10T11:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 21
+    "scheduled": 3,
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-10T10:20:16.000Z"
+   "visto": "2026-11-10T11:40:13.000Z"
   }
  },
  "contenidos": {
@@ -12235,19 +12235,20 @@
    "viral": false
   },
   "web:1d419c9d-f015-4088-8655-0aa75738fd73|x": {
-   "actualizado": "2026-11-10T10:04:16.000Z",
+   "actualizado": "2026-11-10T11:40:13.000Z",
    "buffer_id": "6af2ec2201446117738cc391",
    "clave": "web:1d419c9d-f015-4088-8655-0aa75738fd73|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T11:07:37.000Z",
+   "enviado": "2026-11-10T11:07:46.099Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:01:24.232Z",
    "id": "web:1d419c9d-f015-4088-8655-0aa75738fd73",
    "ig_hora": "2026-11-10T11:07:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120111163543294411",
    "nota_url": "https://www.diariolacampaña.com.ar/n/visita-de-leon-xiv-chivilcoy-ricardo-rodriguez-destaco-la-llegada-del",
    "noticia": "nota:visita-de-leon-xiv-chivilcoy-ricardo-rodriguez-destaco-la-llegada-del",
    "origen": "web",
@@ -13325,19 +13326,20 @@
    "viral": false
   },
   "web:69d9ed72-3877-4424-8f92-4ab6f352a5ed|x": {
-   "actualizado": "2026-11-10T10:20:17.000Z",
+   "actualizado": "2026-11-10T11:40:13.000Z",
    "buffer_id": "6af2efe17bf84372feb9c7f4",
    "clave": "web:69d9ed72-3877-4424-8f92-4ab6f352a5ed|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T11:37:05.000Z",
+   "enviado": "2026-11-10T11:37:16.209Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:01:35.965Z",
    "id": "web:69d9ed72-3877-4424-8f92-4ab6f352a5ed",
    "ig_hora": "2026-11-10T11:37:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120118587805377015",
    "nota_url": "https://www.diariolacampaña.com.ar/n/118-aniversario-chivilcoy-el-municipio-celebro-un-ano-mas-de-emilio",
    "noticia": "nota:118-aniversario-chivilcoy-el-municipio-celebro-un-ano-mas-de-emilio",
    "origen": "web",
@@ -13902,14 +13904,14 @@
    "viral": false
   },
   "web:87b34ef6-682f-453d-9a41-c5e57e182a44|x": {
-   "actualizado": "2026-11-10T10:02:42.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-10T11:40:13.000Z",
+   "buffer_id": "6af3029dcbbac94e1ea340b8",
    "clave": "web:87b34ef6-682f-453d-9a41-c5e57e182a44|x",
    "creado": "2026-11-10T10:02:42.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-10T12:52:56.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-10T10:02:03.555Z",
    "id": "web:87b34ef6-682f-453d-9a41-c5e57e182a44",
    "ig_hora": "2026-11-10T12:52:26.000Z",
@@ -14838,19 +14840,20 @@
    "viral": false
   },
   "web:aa775535-c5f2-4a64-95ca-135757291376|x": {
-   "actualizado": "2026-11-10T10:04:16.000Z",
+   "actualizado": "2026-11-10T11:40:13.000Z",
    "buffer_id": "6af2ec21eea2cc573bb49928",
    "clave": "web:aa775535-c5f2-4a64-95ca-135757291376|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T10:22:12.000Z",
+   "enviado": "2026-11-10T10:22:16.625Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:01:03.880Z",
    "id": "web:aa775535-c5f2-4a64-95ca-135757291376",
    "ig_hora": "2026-11-10T10:22:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120099715031138565",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -15394,14 +15397,14 @@
    "viral": false
   },
   "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x": {
-   "actualizado": "2026-11-10T10:02:42.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-10T11:40:13.000Z",
+   "buffer_id": "6af3029e5799f4c24ff1bed7",
    "clave": "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x",
    "creado": "2026-11-10T10:02:42.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-10T13:07:55.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-10T10:02:07.616Z",
    "id": "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155",
    "ig_hora": "2026-11-10T13:07:26.000Z",
@@ -15618,19 +15621,20 @@
    "viral": false
   },
   "web:d84d3ec0-05cf-43ec-a248-9969295317ed|x": {
-   "actualizado": "2026-11-10T10:04:16.000Z",
+   "actualizado": "2026-11-10T11:40:13.000Z",
    "buffer_id": "6af2ec2127db27ce062bbc2b",
    "clave": "web:d84d3ec0-05cf-43ec-a248-9969295317ed|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T10:37:01.000Z",
+   "enviado": "2026-11-10T10:37:16.327Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:01:08.695Z",
    "id": "web:d84d3ec0-05cf-43ec-a248-9969295317ed",
    "ig_hora": "2026-11-10T10:37:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120103488776483086",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -15783,19 +15787,20 @@
    "viral": false
   },
   "web:ddb372e9-f75f-433a-ad8d-44035f486a1c|x": {
-   "actualizado": "2026-11-10T10:04:16.000Z",
+   "actualizado": "2026-11-10T11:40:13.000Z",
    "buffer_id": "6af2ec225202fa03473df588",
    "clave": "web:ddb372e9-f75f-433a-ad8d-44035f486a1c|x",
    "creado": "2026-11-10T10:02:42.000Z",
    "dueAt": "2026-11-10T10:52:17.000Z",
+   "enviado": "2026-11-10T10:52:31.043Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T10:01:12.995Z",
    "id": "web:ddb372e9-f75f-433a-ad8d-44035f486a1c",
    "ig_hora": "2026-11-10T10:52:26.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120107325616721993",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -16547,56 +16552,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6ae9c8223b7ecdee655c40f8",
-   "clave": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x",
-   "cuando": "2026-11-03T11:40:19.000Z",
-   "dueAt": "2026-11-03T12:52:18.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae9c823f81926b932926e07",
-   "clave": "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x",
-   "cuando": "2026-11-03T11:40:19.000Z",
-   "dueAt": "2026-11-03T13:07:00.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:eaf28054-4d3b-40e6-97eb-693de73680a8|x",
-   "cuando": "2026-11-03T12:00:20.000Z",
-   "evento": "reemplazada",
-   "motivo": "reemplazada por el reel de la misma noticia (bot)"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x",
-   "cuando": "2026-11-03T12:00:33.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok",
-   "cuando": "2026-11-03T12:00:33.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "buffer_id": "6ae9cce2e9a91b5943cf6224",
-   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|x",
-   "cuando": "2026-11-03T12:00:35.000Z",
-   "dueAt": "2026-11-03T12:02:00.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6ae9cce3f81926b93293ecda",
-   "clave": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x",
-   "cuando": "2026-11-03T12:00:35.000Z",
-   "dueAt": "2026-11-03T13:22:05.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6ae9d17ec4271f6e32ff5f9a",
    "clave": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x",
@@ -20714,6 +20669,50 @@
    "cuando": "2026-11-10T11:20:15.000Z",
    "dueAt": "2026-11-10T12:37:39.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:1d419c9d-f015-4088-8655-0aa75738fd73|x",
+   "cuando": "2026-11-10T11:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120111163543294411"
+  },
+  {
+   "clave": "web:69d9ed72-3877-4424-8f92-4ab6f352a5ed|x",
+   "cuando": "2026-11-10T11:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120118587805377015"
+  },
+  {
+   "clave": "web:aa775535-c5f2-4a64-95ca-135757291376|x",
+   "cuando": "2026-11-10T11:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120099715031138565"
+  },
+  {
+   "clave": "web:d84d3ec0-05cf-43ec-a248-9969295317ed|x",
+   "cuando": "2026-11-10T11:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120103488776483086"
+  },
+  {
+   "clave": "web:ddb372e9-f75f-433a-ad8d-44035f486a1c|x",
+   "cuando": "2026-11-10T11:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120107325616721993"
+  },
+  {
+   "buffer_id": "6af3029dcbbac94e1ea340b8",
+   "clave": "web:87b34ef6-682f-453d-9a41-c5e57e182a44|x",
+   "cuando": "2026-11-10T11:40:14.000Z",
+   "dueAt": "2026-11-10T12:52:56.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af3029e5799f4c24ff1bed7",
+   "clave": "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x",
+   "cuando": "2026-11-10T11:40:14.000Z",
+   "dueAt": "2026-11-10T13:07:55.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20751,7 +20750,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-10",
- "ultima_sync": "2026-11-10T10:20:16.000Z",
+ "ultima_sync": "2026-11-10T11:40:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
