@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2": {
-   "descripcion": "Chivilcoy consolida políticas de sustentabilidad, economía circular y educación ecológica. La coordinadora de Medio Ambiente de la Municipalidad de Chivilcoy, Camila Martínez, destacó el trabajo conjunto con las instituciones educativas y convocó a la comunidad a incorporar hábitos",
-   "duracion_seg": 30.0,
-   "generado": "2026-10-29T15:27:59.000Z",
-   "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Habilitaron un nuevo espacio sustentable en el Paseo Guernica",
-   "urgente": false,
-   "video_bytes": 855785,
-   "video_mb": 0.8,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_758f7c67115ec0d1.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/oi03fKdNyXw"
-  },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9": {
    "descripcion": "Un adolescente resultó herido tras recibir una descarga eléctrica en un predio rural de Coronel Mom, en un episodio investigado como un intento de robo de cables en el que habrían participado dos menores de edad. La descarga se produjo mientras manipulaban conexiones eléctricas.",
    "duracion_seg": 30.0,
@@ -5636,34 +5615,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok": {
-   "actualizado": "2026-10-31T15:40:14.000Z",
-   "buffer_id": "",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2|tiktok",
-   "creado": "2026-10-29T15:40:17.000Z",
-   "dueAt": "",
-   "error": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "vencido",
-   "generado": "2026-10-29T15:27:59.000Z",
-   "id": "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Habilitaron un nuevo espacio sustentable en el Paseo Guernica\n\nChivilcoy consolida sus políticas de sustentabilidad, economía circular y educación ecológica. En este marco, la coordinadora de Medio Ambiente de la Municipalidad, Camila Martínez, destacó el trabajo conjunto con instituciones educativas y convocó a la comunidad a incorporar nuevos hábitos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-habilitaron-un-nuevo-espacio-sustentable-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Habilitaron un nuevo espacio sustentable en el Paseo Guernica",
-   "urgente": false,
-   "vence": "2026-10-31T15:27:59.000Z",
-   "video_bytes": 855785,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_758f7c67115ec0d1.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-29_matias-zucchi_mvu7atotqdf9|tiktok": {
    "actualizado": "2026-11-01T00:20:15.000Z",
    "buffer_id": "",
