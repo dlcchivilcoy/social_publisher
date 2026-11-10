@@ -84,5 +84,37 @@
     "salidas": [],
     "ultima_salida": "",
     "ultimo_error": ""
+  },
+  {
+    "id": "a534c5c5e3bd",
+    "nombre": "Reel Claudia",
+    "tipo": "video",
+    "urls": [
+      "https://diarioweb.vercel.app/avisos/reel-claudia.mp4"
+    ],
+    "texto": "",
+    "cuando": "2026-11-10T12:30:00-03:00",
+    "destinos": [
+      "facebook",
+      "instagram"
+    ],
+    "formatos": [
+      "historia"
+    ],
+    "agenda": null,
+    "desde": "2026-11-10T12:30:00-03:00",
+    "baja": null,
+    "orientacion": "vertical",
+    "etiquetas": [
+      "matiaszucchi",
+      "claudiac.roger"
+    ],
+    "estado": "pendiente",
+    "creado": "2026-11-10T12:26-03:00",
+    "intentos": 0,
+    "resultado": {},
+    "salidas": [],
+    "ultima_salida": "",
+    "ultimo_error": ""
   }
 ]
