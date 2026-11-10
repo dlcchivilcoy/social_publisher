@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 4,
-    "sent": 1
+    "scheduled": 1,
+    "sent": 4
    },
    "pausado": false,
-   "visto": "2026-11-10T21:20:14.000Z"
+   "visto": "2026-11-10T22:20:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-10T21:20:14.000Z"
+   "visto": "2026-11-10T22:20:23.000Z"
   }
  },
  "contenidos": {
@@ -116,27 +116,6 @@
    "video_mb": 0.5,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_aa034a95cf0de993.mp4",
    "youtube_url": "https://www.youtube.com/shorts/b1iNFrtr4qE"
-  },
-  "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26": {
-   "descripcion": "Bomberos Voluntarios sofocaron un incendio de ramas y monte registrado este domingo en la banquina de la Ruta 30. El bombero Emmanuel Artola confirmó que el siniestro no causó pérdidas mayores y que lograron evitar su propagación a campos linderos.",
-   "duracion_seg": 60.0,
-   "generado": "2026-10-31T20:55:57.000Z",
-   "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
-   "urgente": false,
-   "video_bytes": 3277408,
-   "video_mb": 3.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55f594186713cb25.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/WJXamdVGLck"
   },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs": {
    "descripcion": "El bloque de Fuerza Patria logró la aprobación por mayoría del proyecto de ordenanza que crea el Sistema de Ventanilla Única Digital de Habilitaciones, una iniciativa impulsada por la concejala Eugenia Blotta para reducir la burocracia, simplificar los trámites y facilitar la apertura de comercios.",
@@ -368,27 +347,6 @@
    "video_mb": 21.8,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
    "youtube_url": "https://www.youtube.com/shorts/LsKqqaxZmvA"
-  },
-  "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4": {
-   "descripcion": "Cientos de niños se congregaron en la plaza principal de Chivilcoy para celebrar los festejos de Halloween.\n\nLa jornada convocó a una multitud de chicos en el centro de la ciudad para compartir la tradicional celebración.",
-   "duracion_seg": 27.5,
-   "generado": "2026-10-31T20:36:50.000Z",
-   "id": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Cientos de niños festejan Halloween en la plaza principal",
-   "urgente": false,
-   "video_bytes": 10651560,
-   "video_mb": 10.2,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b9f995cf7502a2db.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/G-25f68CK44"
   },
   "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4": {
    "descripcion": "Se está llevando a cabo en Chivilcoy el Súper Torneo Intercolegial de Ajedrez 2026, con una destacada convocatoria de más de 150 alumnos que representan a diversas instituciones educativas de la ciudad.\n\nEntre los colegios participantes se encuentran la Escuela 65, la Secundaria 10 y la Técnica N° 1, cuyos estudiantes compiten frente al tablero por llevarse la copa, en un marco caracterizado por la concentración, la estrategia y el compañerismo.\n\nEl certamen tiene lugar en avenida Sóarez 114 a partir de las 14 horas. La propuesta cuenta con inscripción gratuita, no posee límite de edad e incluye la entrega de trofeos, medallas y sorteos entre los asistentes.\n\nDesde la organización informaron que aquellos interesados en sumarse todavía pueden registrarse comunicándose por WhatsApp al 2346-522136, donde se les asignará un lugar en el equipo correspondiente a su establecimiento escolar.",
@@ -1339,6 +1297,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_05_9-de-julio_robo-en-la-terminal-de-mnibus-.mp4",
    "volanta": "Robo en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/nDNWk0FHbKk"
+  },
+  "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/": {
+   "categoria": "homicidio",
+   "descripcion": "Una filmación comprometería a los dos detenidos por el homicidio de Ezequiel Caraballo, hallado sin vida en el canal Cafiero. Ambos prefirieron no declarar ante la Justicia.",
+   "distancia_km": 28.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-10T22:02:52.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/",
+   "localidad": "Alberti",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-una-camara-complica-a-los-acusados-por-el-crimen-de-bceaa0",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "La causa por el crimen de Ezequiel Caraballo sumó pruebas clave tras el análisis de las cámaras de seguridad de la zona.\n\nEn las imágenes se observa a los dos imputados transportando un bulto sospechoso hacia el cauce de agua.\n\nLos arrestados optaron por guardar silencio y la fiscalía pidió formalmente que sigan detenidos.\n\n📲 Más noticias de Alberti en www.diariolacampaña.com.ar\n\n#Alberti #Homicidio #Policiales #Justicia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Crimen de Mechita: filmaron a los sospechosos con un bulto hacia el canal Cafiero",
+   "urgente": true,
+   "video_bytes": 94952,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_01_alberti_crimen-de-mechita-filmaron-a-l.mp4",
+   "volanta": "Crimen en Alberti",
+   "youtube_url": "https://youtube.com/shorts/gwe9Nc-xNVM"
   },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/": {
    "categoria": "accidente_vial",
@@ -5665,82 +5649,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_aa034a95cf0de993.mp4",
    "viral": false
   },
-  "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tiktok": {
-   "actualizado": "2026-10-31T22:20:24.000Z",
-   "buffer_id": "6ae656f31ee172cd6dc200b5",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|tiktok",
-   "creado": "2026-10-31T21:00:19.000Z",
-   "dueAt": "2026-10-31T21:03:57.000Z",
-   "enviado": "2026-10-31T21:05:44.696Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-31T20:55:57.000Z",
-   "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7702940681085504769",
-   "metricas": {
-    "averageTimeWatched": 7.39,
-    "comments": 0,
-    "engagementRate": 1.56,
-    "reach": 167,
-    "reactions": 6,
-    "shares": 0,
-    "totalTimeWatched": 53.43,
-    "views": 385
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30\n\nBomberos Voluntarios sofocaron un incendio de ramas y monte registrado este domingo en la banquina de la Ruta 30. El bombero Emmanuel Artola confirmó que el siniestro no causó pérdidas mayores y que lograron evitar su propagación a campos linderos.\n\nhttps://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
-   "urgente": false,
-   "vence": "2026-11-02T20:55:57.000Z",
-   "video_bytes": 3277408,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55f594186713cb25.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x": {
-   "actualizado": "2026-10-31T22:20:24.000Z",
-   "buffer_id": "6ae656f21ee172cd6dc1ffbf",
-   "clave": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26|x",
-   "creado": "2026-10-31T21:00:19.000Z",
-   "dueAt": "2026-10-31T21:13:09.000Z",
-   "enviado": "2026-10-31T21:13:22.043Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-31T20:55:57.000Z",
-   "id": "bot:corresponsal_2026-10-31_matias-zucchi_mvwvgtctjr26",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2116639689000063407",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 1.89,
-    "impressions": 53,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
-   "noticia": "nota:incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30\n\nBomberos Voluntarios sofocaron un incendio de ramas y monte registrado este domingo en la banquina de la Ruta 30.\n\nhttps://www.diariolacampaña.com.ar/n/incendio-forestal-artola-bomberos-controlaron-un-incendio-de-ramas-y",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Artola: bomberos controlaron un incendio de ramas y monte sobre la Ruta 30",
-   "urgente": false,
-   "vence": "2026-10-31T22:55:57.000Z",
-   "video_bytes": 3277408,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_55f594186713cb25.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-10-31_matias-zucchi_mvx0wthnexbs|tiktok": {
    "actualizado": "2026-11-01T00:40:15.000Z",
    "buffer_id": "6ae681181ee172cd6dcd860c",
@@ -6419,45 +6327,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4467414eb2c915b5.mp4",
    "viral": false
   },
-  "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok": {
-   "actualizado": "2026-10-31T22:20:24.000Z",
-   "buffer_id": "6ae656f41ee172cd6dc201e4",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4|tiktok",
-   "creado": "2026-10-31T20:40:14.000Z",
-   "dueAt": "2026-10-31T22:03:51.000Z",
-   "enviado": "2026-10-31T22:04:43.562Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-31T20:36:50.000Z",
-   "id": "bot:video_matias-zucchi_mvwuu4pyr3xh_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7702956120104586514",
-   "metricas": {
-    "averageTimeWatched": 7.73,
-    "comments": 1,
-    "engagementRate": 2.59,
-    "reach": 250,
-    "reactions": 54,
-    "shares": 4,
-    "totalTimeWatched": 355.77,
-    "views": 2276
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Cientos de niños festejan Halloween en la plaza principal\n\nCientos de niños se congregaron en la plaza principal de Chivilcoy para celebrar los festejos de Halloween. La jornada convocó a una multitud de chicos en el centro de la ciudad para compartir la tradicional celebración.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-cientos-de-ninos-festejan-halloween-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cientos de niños festejan Halloween en la plaza principal",
-   "urgente": false,
-   "vence": "2026-11-02T20:36:50.000Z",
-   "video_bytes": 10651560,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b9f995cf7502a2db.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|tiktok": {
    "actualizado": "2026-11-01T02:00:24.000Z",
    "buffer_id": "6ae6811937c1acd2a0da3c22",
@@ -6493,43 +6362,6 @@
    "titulo": "Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026",
    "urgente": false,
    "vence": "2026-11-02T21:03:41.000Z",
-   "video_bytes": 6433164,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_053fb6430d6dce0f.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x": {
-   "actualizado": "2026-10-31T22:20:24.000Z",
-   "buffer_id": "6ae65b9537c1acd2a0cf6693",
-   "clave": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4|x",
-   "creado": "2026-10-31T21:20:16.000Z",
-   "dueAt": "2026-10-31T21:22:02.000Z",
-   "enviado": "2026-10-31T21:22:20.503Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-31T21:03:41.000Z",
-   "id": "bot:video_matias-zucchi_mvwvvnzfgqs8_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2116641947553038668",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 23,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026\n\nMás de 150 alumnos representan a diversas instituciones educativas en Chivilcoy. La propuesta cuenta con inscripción gratuita e incluye la entrega de trofeos, medallas y sorteos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-se-desarrolla-el-super-torneo",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Se desarrolla el Súper Torneo Intercolegial de Ajedrez 2026",
-   "urgente": false,
-   "vence": "2026-10-31T23:03:41.000Z",
    "video_bytes": 6433164,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_053fb6430d6dce0f.mp4",
    "viral": false
@@ -9458,19 +9290,20 @@
    "viral": false
   },
   "entrevistas:job00295|tiktok": {
-   "actualizado": "2026-11-10T21:00:18.000Z",
+   "actualizado": "2026-11-10T22:20:23.000Z",
    "buffer_id": "6af385e74cc2b37f6a10a1aa",
    "categoria": "",
    "clave": "entrevistas:job00295|tiktok",
    "creado": "2026-11-10T17:40:15.000Z",
    "dueAt": "2026-11-10T22:03:58.000Z",
+   "enviado": "2026-11-10T22:05:45.126Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T17:40:15.000Z",
    "id": "entrevistas:job00295",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7706667027389336853",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9515,19 +9348,20 @@
    "viral": false
   },
   "entrevistas:job00296|tiktok": {
-   "actualizado": "2026-11-10T21:00:18.000Z",
+   "actualizado": "2026-11-10T22:20:23.000Z",
    "buffer_id": "6af385e64cc2b37f6a10a094",
    "categoria": "",
    "clave": "entrevistas:job00296|tiktok",
    "creado": "2026-11-10T18:20:16.000Z",
    "dueAt": "2026-11-10T21:43:58.000Z",
+   "enviado": "2026-11-10T21:45:44.518Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T18:20:16.000Z",
    "id": "entrevistas:job00296",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7706661866835021063",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9572,19 +9406,20 @@
    "viral": false
   },
   "entrevistas:job00297|tiktok": {
-   "actualizado": "2026-11-10T21:00:18.000Z",
+   "actualizado": "2026-11-10T22:20:23.000Z",
    "buffer_id": "6af385e591300263f77f9455",
    "categoria": "",
    "clave": "entrevistas:job00297|tiktok",
    "creado": "2026-11-10T18:40:15.000Z",
    "dueAt": "2026-11-10T21:23:34.000Z",
+   "enviado": "2026-11-10T21:25:28.428Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-10T18:40:15.000Z",
    "id": "entrevistas:job00297",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7706656618171174162",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9713,6 +9548,34 @@
    "video_bytes": 89284,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_05_9-de-julio_robo-en-la-terminal-de-mnibus-.mp4",
    "viral": false
+  },
+  "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/|x": {
+   "actualizado": "2026-11-10T22:20:24.000Z",
+   "buffer_id": "6af398a840d53aa0ae17bedb",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/|x",
+   "creado": "2026-11-10T22:20:14.000Z",
+   "dueAt": "2026-11-10T22:23:45.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-10T22:02:52.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-una-camara-complica-a-los-acusados-por-el-crimen-de-bceaa0",
+   "noticia": "nota:alberti-una-camara-complica-a-los-acusados-por-el-crimen-de-bceaa0",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Crimen de Mechita: filmaron a los sospechosos con un bulto hacia el canal Cafiero\n\nUna filmación comprometería a los dos detenidos por el homicidio de Ezequiel Caraballo, hallado sin vida en el canal Cafiero.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-una-camara-complica-a-los-acusados-por-el-crimen-de-bceaa0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Crimen de Mechita: filmaron a los sospechosos con un bulto hacia el canal Cafiero",
+   "urgente": true,
+   "vence": "2026-11-11T00:02:52.000Z",
+   "video_bytes": 94952,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_01_alberti_crimen-de-mechita-filmaron-a-l.mp4",
+   "viral": true
   },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x": {
    "actualizado": "2026-11-04T00:40:17.000Z",
@@ -16192,38 +16055,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos|x",
-   "cuando": "2026-11-04T01:40:14.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x",
-   "cuando": "2026-11-04T02:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x",
-   "cuando": "2026-11-04T02:00:22.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia|x",
-   "cuando": "2026-11-04T02:40:14.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/|x",
-   "cuando": "2026-11-04T02:40:14.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|x",
    "cuando": "2026-11-04T09:00:21.000Z",
    "estado": "pendiente",
@@ -20356,6 +20187,39 @@
    "cuando": "2026-11-10T21:20:14.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7706651432401030406"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/|x",
+   "cuando": "2026-11-10T22:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "entrevistas:job00295|tiktok",
+   "cuando": "2026-11-10T22:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7706667027389336853"
+  },
+  {
+   "clave": "entrevistas:job00296|tiktok",
+   "cuando": "2026-11-10T22:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7706661866835021063"
+  },
+  {
+   "clave": "entrevistas:job00297|tiktok",
+   "cuando": "2026-11-10T22:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7706656618171174162"
+  },
+  {
+   "buffer_id": "6af398a840d53aa0ae17bedb",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/|x",
+   "cuando": "2026-11-10T22:20:24.000Z",
+   "dueAt": "2026-11-10T22:23:45.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20393,14 +20257,13 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-10",
- "ultima_sync": "2026-11-10T21:20:14.000Z",
+ "ultima_sync": "2026-11-10T22:20:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-11_matias-zucchi_mv4da9hdfa03": "2026-10-11T22:20:13.000Z",
   "bot:corresponsal_2026-10-12_matias-zucchi_mv5dn026opic": "2026-10-12T15:20:17.000Z",
   "bot:corresponsal_2026-10-13_matias-zucchi_mv6mspa1w5jz": "2026-10-13T12:20:17.000Z",
   "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1": "2026-10-13T23:20:14.000Z",
@@ -20794,6 +20657,7 @@
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": "2026-10-24T00:20:16.000Z",
   "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/": "2026-10-22T01:00:18.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": "2026-10-16T13:00:18.000Z",
+  "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/": "2026-11-10T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/": "2026-11-03T22:40:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura": "2026-10-26T09:00:18.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron": "2026-10-26T23:20:14.000Z",
@@ -21391,7 +21255,6 @@
   "web:975c6fd2-4e78-4b7d-b793-7760379b7320": "2026-10-16T10:20:16.000Z",
   "web:975edcef-ec1f-4523-a752-70f08fd5d109": "2026-11-04T14:00:20.000Z",
   "web:976bae39-fdab-4787-9e26-8828e58badc1": "2026-10-22T10:02:31.000Z",
-  "web:97ba4aaf-5415-49c5-b1e4-62844c322155": "2026-10-11T22:20:13.000Z",
   "web:9857afc6-ddb9-4b26-b5c7-cfa0a6d2c4b5": "2026-10-19T15:20:16.000Z",
   "web:987bd392-013a-42fa-93e2-03b50c823a35": "2026-11-02T10:03:22.000Z",
   "web:98a9875b-509c-4991-a320-f773a9713053": "2026-10-27T18:40:16.000Z",
