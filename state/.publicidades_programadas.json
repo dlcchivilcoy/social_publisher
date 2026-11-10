@@ -109,12 +109,25 @@
       "matiaszucchi",
       "claudiac.roger"
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "creado": "2026-11-10T12:26-03:00",
-    "intentos": 0,
-    "resultado": {},
-    "salidas": [],
+    "intentos": 1,
+    "resultado": {
+      "fb_historia": "991127210123420"
+    },
+    "salidas": [
+      {
+        "momento": "2026-11-10T12:30-03:00",
+        "ids": {
+          "fb_historia": "991127210123420"
+        },
+        "fallas": [
+          "Instagram (historia): Instagram: el medio quedó en estado ERROR al procesar el video — Error: Media upload has failed with error code 2207082"
+        ]
+      }
+    ],
     "ultima_salida": "",
-    "ultimo_error": ""
+    "ultimo_error": "Instagram (historia): Instagram: el medio quedó en estado ERROR al procesar el video — Error: Media upload has failed with error code 2207082",
+    "publicado_en": "2026-11-10T12:30-03:00"
   }
 ]
