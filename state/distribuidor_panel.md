@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 09/11/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 09/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-09)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 09/11/2026 22:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 1 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 2 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,13 @@ Actualizado: 09/11/2026 22:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
-- X · Reels policiales · Secuestraron una camioneta y frenaron una fiesta clandestina con 90 personas en  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (1 esperando)
 - X · Reels policiales · Choque, operativos viales y pedido de auxilio por acoso en la madrugada de Chaca — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-09T18:40 programado entrevistas:job00292|x 
 - 2026-11-09T19:20 enviado entrevistas:job00291|x 
 - 2026-11-09T19:20 enviado entrevistas:job00292|x 
 - 2026-11-09T21:00 entrevista_aprobada entrevistas:job00293 
@@ -60,3 +58,4 @@ Actualizado: 09/11/2026 22:00 (hora AR) · ACTIVO
 - 2026-11-09T23:40 enviado entrevistas:job00289|tiktok 
 - 2026-11-09T23:40 enviado policiales:https://www.lamanana.com.ar/buscan-a-joven-que-ha 
 - 2026-11-10T00:40 vencido policiales:https://lobos24.com.ar/2026/11/09/policiales-roba espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-10T01:20 vencido policiales:https://laopinionline.ar/articulo/salto-secuestra espera su momento (se programa cerca de la hora en que sale en las otras redes)

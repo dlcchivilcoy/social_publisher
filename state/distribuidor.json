@@ -10262,14 +10262,14 @@
    "viral": false
   },
   "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina|x": {
-   "actualizado": "2026-11-09T23:20:16.000Z",
+   "actualizado": "2026-11-10T01:20:14.000Z",
    "buffer_id": "",
    "clave": "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina|x",
    "creado": "2026-11-09T23:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-09T23:02:56.000Z",
    "id": "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina",
    "intentos": 0,
@@ -16214,14 +16214,6 @@
  },
  "registro": [
   {
-   "clave": "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x",
-   "cuando": "2026-11-03T10:02:46.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x",
    "cuando": "2026-11-03T10:02:50.000Z",
    "estado": "pendiente",
@@ -20376,6 +20368,12 @@
   {
    "clave": "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/|x",
    "cuando": "2026-11-10T00:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina|x",
+   "cuando": "2026-11-10T01:20:14.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
