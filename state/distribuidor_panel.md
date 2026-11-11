@@ -1,28 +1,28 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 10/11/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 10/11/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-10)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 1 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 2 | 0 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 21 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 25 con métricas · mediana vistas/impresiones 25 · likes 0
-- X · Reels del bot: 17 con métricas · mediana vistas/impresiones 31 · likes 0
-- X · Reels policiales: 16 con métricas · mediana vistas/impresiones 41.5 · likes 0
+- X · Reels del bot: 16 con métricas · mediana vistas/impresiones 31 · likes 0
+- X · Reels policiales: 15 con métricas · mediana vistas/impresiones 40 · likes 0
 - X · Notas web: 81 con métricas · mediana vistas/impresiones 18 · likes 0
 - TikTok · Recortes de entrevistas: 25 con métricas · mediana vistas/impresiones 147 · likes 1
-- TikTok · Reels del bot: 27 con métricas · mediana vistas/impresiones 448 · likes 4
+- TikTok · Reels del bot: 25 con métricas · mediana vistas/impresiones 448 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
@@ -34,9 +34,6 @@ Actualizado: 10/11/2026 21:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-10T19:20 programado entrevistas:job00298|x 
-- 2026-11-10T19:40 enviado entrevistas:job00296|x 
-- 2026-11-10T19:40 enviado entrevistas:job00297|x 
 - 2026-11-10T19:40 enviado entrevistas:job00298|x 
 - 2026-11-10T21:00 programado entrevistas:job00298|tiktok 
 - 2026-11-10T21:00 programado entrevistas:job00297|tiktok 
@@ -59,3 +56,6 @@ Actualizado: 10/11/2026 21:20 (hora AR) · ACTIVO
 - 2026-11-11T00:00 programado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x 
 - 2026-11-11T00:00 programado policiales:https://casaresonline.com.ar/alberti-encontraron- 
 - 2026-11-11T00:00 programado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok 
+- 2026-11-11T00:40 enviado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok 
+- 2026-11-11T00:40 enviado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x 
+- 2026-11-11T00:40 enviado policiales:https://casaresonline.com.ar/alberti-encontraron- 
