@@ -2040,9 +2040,11 @@ def _placa_lateral(foto, t: dict, volanta: str, lead: str, resto: str, titulo: s
     pt = ([(w, t["acento"]) for w in (lead or "").split()]
           + [(w, t["texto"]) for w in (resto or "").split()])
     baj = (texto or "").strip()
-    if lead and len(baj) > 200:
-        # La bajada de la portada puede ser un párrafo entero: la primera frase alcanza.
-        baj = re.split(r"(?<=[.!?])\s", baj)[0]
+    if lead:
+        # PORTADA vertical: SOLO el título (pedido del usuario, 11/11/2026: «las placas que salgan verticales
+        # llevan solo el título en la portada; desde la segunda arranca el texto descriptivo»). La columna es
+        # angosta y la bajada achicaba el título. Lo que decía la bajada lo cuentan las láminas.
+        baj = ""
     libre = y_max - y_min - alto_vol
     # El título nunca se corta: si es muy largo le saca lugar al texto de abajo.
     for parte in (0.36, 0.6, 1) if baj else (1,):
