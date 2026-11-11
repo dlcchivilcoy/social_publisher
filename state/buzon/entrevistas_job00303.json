@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00303",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-11-11T19:19:31.000Z",
+ "titulo": "Juan Bayona: \"En la impro brilla el grupo\"",
+ "descripcion": "El actor Juan Bayona, integrante de Impro y Aparte, destacó en Chivilcoy el valor del trabajo colectivo en el teatro de improvisación previo a su show en El Portal del Tango.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00303.mp4",
+ "duracion_seg": null,
+ "espera_youtube_publico": {
+  "short": "vf4taPzmCBM",
+  "largo": "_q5zPr2PYYg"
+ },
+ "youtube_url": "https://youtube.com/shorts/vf4taPzmCBM",
+ "prioridad": 7,
+ "entrevistado": "Juan Bayona",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
