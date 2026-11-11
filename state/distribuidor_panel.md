@@ -1,13 +1,13 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 11:00 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 11:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 13 | 1 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,14 +27,13 @@ Actualizado: 11/11/2026 11:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Reels del bot · Investigan el homicidio de Ezequiel Carballo tras hallar su cuerpo en un canal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T11:20 enviado web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8|x 
-- 2026-11-11T11:20 enviado web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f|x 
 - 2026-11-11T11:20 programado web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x 
 - 2026-11-11T11:40 programado web:449ee4f0-a73f-443a-ba52-32ad213567fa|x 
 - 2026-11-11T11:40 programado web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4|x 
@@ -58,3 +57,5 @@ Actualizado: 11/11/2026 11:00 (hora AR) · ACTIVO
 - 2026-11-11T14:00 recibido web:dcf40e93-0805-42f1-9ed0-237091519937|x 
 - 2026-11-11T14:00 depurado web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-11T14:00 programado web:dcf40e93-0805-42f1-9ed0-237091519937|x 
+- 2026-11-11T14:20 recibido bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4|x la misma noticia ya sale en X (Notas web, enviado)
+- 2026-11-11T14:20 recibido bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4|tiktok 
