@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 11/11/2026 15:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
+- TikTok · Recortes de entrevistas · Ricardo Watson: el film sobre Malvinas en el Festival Raices — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Ariel Ivaldi: sábados del 2027 ocupados y turnos de fábrica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Lorena Aicardo: claves secretas y gritos en karate — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Investigan el homicidio de Ezequiel Carballo tras hallar su cuerpo en un canal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -36,10 +37,6 @@ Actualizado: 11/11/2026 15:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T13:20 recibido web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e|x 
-- 2026-11-11T13:20 programado web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e|x 
-- 2026-11-11T13:40 depurado web:feb532fd-5a81-4f28-a01c-a36a3f475fa7|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-11T13:40 enviado web:449ee4f0-a73f-443a-ba52-32ad213567fa|x 
 - 2026-11-11T13:40 enviado web:51d406e0-8d07-4bc1-b1c2-9567feb03776|x 
 - 2026-11-11T13:40 enviado web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4|x 
 - 2026-11-11T13:40 enviado web:f0f64009-e880-45a2-9552-b15ed75817f2|x 
@@ -61,3 +58,7 @@ Actualizado: 11/11/2026 15:00 (hora AR) · ACTIVO
 - 2026-11-11T17:20 recibido entrevistas:job00300|tiktok 
 - 2026-11-11T17:20 enviado entrevistas:job00299|x 
 - 2026-11-11T17:20 programado entrevistas:job00300|x 
+- 2026-11-11T18:20 entrevista_aprobada entrevistas:job00301 
+- 2026-11-11T18:20 recibido entrevistas:job00301|x 
+- 2026-11-11T18:20 recibido entrevistas:job00301|tiktok 
+- 2026-11-11T18:20 programado entrevistas:job00301|x 

@@ -1125,6 +1125,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00300.mp4",
    "youtube_url": "https://youtu.be/4Zw7_YeLazI"
   },
+  "entrevistas:job00301": {
+   "descripcion": "Ricardo Watson, organizador del Festival Internacional de Cine Raices en Chivilcoy, reflexionó sobre una película que retrata el conflicto de Malvinas desde una mirada incómoda para el espectador argentino.",
+   "duracion_seg": null,
+   "entrevistado": "Jorge Russo",
+   "generado": "2026-11-11T18:20:17.000Z",
+   "id": "entrevistas:job00301",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Ricardo Watson: el film sobre Malvinas en el Festival Raices",
+   "urgente": false,
+   "video_bytes": 39052456,
+   "video_mb": 37.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00301.mp4",
+   "youtube_url": "https://youtu.be/ICQs274511c"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
    "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
@@ -9423,6 +9444,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00300.mp4",
    "viral": false
   },
+  "entrevistas:job00301|tiktok": {
+   "actualizado": "2026-11-11T18:20:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00301|tiktok",
+   "creado": "2026-11-11T18:20:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-11T18:20:17.000Z",
+   "id": "entrevistas:job00301",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Ricardo Watson: el film sobre Malvinas en el Festival Raices\n\nRicardo Watson, organizador del Festival Internacional de Cine Raices en Chivilcoy, reflexionó sobre una película que retrata el conflicto de Malvinas desde una mirada incómoda para el espectador argentino.\n\nhttps://youtu.be/ICQs274511c\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ricardo Watson: el film sobre Malvinas en el Festival Raices",
+   "urgente": false,
+   "vence": "2026-11-13T18:20:17.000Z",
+   "video_bytes": 39052456,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00301.mp4",
+   "viral": false
+  },
+  "entrevistas:job00301|x": {
+   "actualizado": "2026-11-11T18:20:21.000Z",
+   "buffer_id": "6af4b1e6ff6dbdf184e13068",
+   "clave": "entrevistas:job00301|x",
+   "creado": "2026-11-11T18:20:17.000Z",
+   "dueAt": "2026-11-11T18:22:07.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-11T18:20:17.000Z",
+   "id": "entrevistas:job00301",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:festival-film-malvinas-raices-ricardo-watson",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Ricardo Watson: el film sobre Malvinas en el Festival Raices\n\nEl organizador del Festival Internacional de Cine Raices en Chivilcoy analizó una película sobre el conflicto de Malvinas.\n\nhttps://youtu.be/ICQs274511c",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ricardo Watson: el film sobre Malvinas en el Festival Raices",
+   "urgente": false,
+   "vence": "2026-11-11T20:20:17.000Z",
+   "video_bytes": 39052456,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00301.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
    "actualizado": "2026-11-02T01:20:13.000Z",
    "buffer_id": "",
@@ -16495,34 +16572,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6aeb9ce9f0e1705c28e6fdf8",
-   "clave": "entrevistas:job00278|tiktok",
-   "cuando": "2026-11-04T21:00:33.000Z",
-   "dueAt": "2026-11-04T21:23:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aeb9cedf0e1705c28e707fd",
-   "clave": "entrevistas:job00277|tiktok",
-   "cuando": "2026-11-04T21:00:33.000Z",
-   "dueAt": "2026-11-04T21:43:25.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aeb9ceff0e1705c28e70b85",
-   "clave": "entrevistas:job00276|tiktok",
-   "cuando": "2026-11-04T21:00:33.000Z",
-   "dueAt": "2026-11-04T22:03:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aeb9cf1f0e1705c28e70e23",
-   "clave": "entrevistas:job00275|tiktok",
-   "cuando": "2026-11-04T21:00:33.000Z",
-   "dueAt": "2026-11-04T22:23:55.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "web:baaf099e-c142-4489-acde-1d17b8a7b862|x",
    "cuando": "2026-11-04T21:20:19.000Z",
    "estado": "pendiente",
@@ -20660,6 +20709,34 @@
    "cuando": "2026-11-11T17:20:24.000Z",
    "dueAt": "2026-11-11T17:22:06.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00301",
+   "cuando": "2026-11-11T18:20:17.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00301|x",
+   "cuando": "2026-11-11T18:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00301|tiktok",
+   "cuando": "2026-11-11T18:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af4b1e6ff6dbdf184e13068",
+   "clave": "entrevistas:job00301|x",
+   "cuando": "2026-11-11T18:20:22.000Z",
+   "dueAt": "2026-11-11T18:22:07.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20897,7 +20974,6 @@
   "bot:video_matias-zucchi_mw8h185acy8l_01.mp4": "2026-11-09T00:00:16.000Z",
   "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4": "2026-11-11T00:00:21.000Z",
   "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4": "2026-11-11T14:20:16.000Z",
-  "entrevistas:job00191": "2026-10-12T18:20:14.000Z",
   "entrevistas:job00192": "2026-10-13T17:00:22.000Z",
   "entrevistas:job00193": "2026-10-13T17:20:14.000Z",
   "entrevistas:job00194": "2026-10-13T17:40:16.000Z",
@@ -20993,6 +21069,7 @@
   "entrevistas:job00298": "2026-11-10T19:20:16.000Z",
   "entrevistas:job00299": "2026-11-11T17:00:21.000Z",
   "entrevistas:job00300": "2026-11-11T17:20:14.000Z",
+  "entrevistas:job00301": "2026-11-11T18:20:17.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
@@ -21114,7 +21191,6 @@
   "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad": "2026-10-21T23:40:15.000Z",
   "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia": "2026-11-04T00:40:13.000Z",
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero": "2026-10-26T22:20:14.000Z",
-  "policiales:https://laopinionline.ar/articulo/a-un-sujeto-lo-aprehendieron-con-una-bateria-robada-a-la-noche-y-salio-en-libertad-y-volvio-a-quedar-involucrado-en-una-situacion-delictiva": "2026-10-12T18:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/aprehendieron-a-un-sujeto-en-el-barrio-jose-hernandez-por-circular-en-una-moto-robada": "2026-10-16T02:00:19.000Z",
   "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista": "2026-10-15T19:20:15.000Z",
   "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia": "2026-10-29T23:40:14.000Z",
@@ -21137,7 +21213,6 @@
   "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/": "2026-11-05T23:40:18.000Z",
   "policiales:https://noticiasmercedes.com/gowland-encontro-a-dos-uniformados-dentro-de-su-propiedad-y-uno-se-nego-a-identificarse/": "2026-10-15T19:20:15.000Z",
   "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/": "2026-10-17T19:00:17.000Z",
-  "policiales:https://quepasaenbolivar.com.ar/momentos-de-tension-por-un-joven-que-se-atrinchero-en-una-vivienda-de-bolivar/": "2026-10-12T18:20:14.000Z",
   "policiales:https://quepasaenbolivar.com.ar/un-vecino-de-bolivar-alerto-por-un-intento-de-estafa-desde-un-whatsapp-con-caracteristica-local/": "2026-10-13T23:00:20.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75516/se-desprendio-la-rueda-de-un-camion-impacto-contra-un-auto-y-no-hubo-heridos": "2026-10-12T21:40:15.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/75530/investigan-presunta-estafa-de-40-000-dolares-con-paquetes-turisticos-dos-detenidos": "2026-10-13T23:00:20.000Z",
@@ -21589,7 +21664,6 @@
   "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64": "2026-10-19T09:00:17.000Z",
   "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234": "2026-10-28T10:02:28.000Z",
   "web:7d76dbbf-a9bf-4b80-afba-21c5970e1197": "2026-10-21T10:20:15.000Z",
-  "web:7d86f0ff-f2cb-4dd0-9560-293e6c4c9f90": "2026-10-12T18:20:14.000Z",
   "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3": "2026-10-29T10:20:14.000Z",
   "web:7e9c35e8-7db6-4f24-871e-773dbc78f560": "2026-10-18T00:20:13.000Z",
   "web:7ea4b6f8-cbd1-4c4b-aa08-a486f4f32929": "2026-10-15T10:20:13.000Z",
@@ -21731,7 +21805,6 @@
   "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56": "2026-10-29T10:20:14.000Z",
   "web:a71527cf-9969-4a41-b023-0cbb15aa0c08": "2026-10-17T21:40:12.000Z",
   "web:a7506907-93aa-4f39-beaa-3504a79c1fe5": "2026-10-19T09:00:17.000Z",
-  "web:a75fc86b-708b-47e8-81d7-5e6ef80af77b": "2026-10-12T18:20:14.000Z",
   "web:a7875969-2bc4-498e-8b29-ec2539b13deb": "2026-10-22T13:20:15.000Z",
   "web:a872c57c-897c-4bec-8f45-2e83bffd630f": "2026-11-02T18:20:16.000Z",
   "web:a88f249c-9e23-46be-8a40-bb31f049e2b7": "2026-10-23T16:20:15.000Z",
@@ -21839,7 +21912,6 @@
   "web:ce515f56-0397-44d3-b63d-c656faf40928": "2026-10-19T20:20:15.000Z",
   "web:ce55311f-7f8e-46c0-8f9a-27108c261a21": "2026-10-26T15:20:14.000Z",
   "web:ce9c9291-5b63-4246-99f4-6095ce88b357": "2026-10-13T23:20:14.000Z",
-  "web:ceec6742-f491-45cb-b224-31d1a7caf1da": "2026-10-12T18:20:14.000Z",
   "web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be": "2026-10-22T10:02:31.000Z",
   "web:d02ad89e-79f9-411b-86f5-added49bc1ff": "2026-10-23T02:00:16.000Z",
   "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9": "2026-11-10T15:00:21.000Z",
