@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-11T14:40:15.000Z"
+   "visto": "2026-11-11T17:20:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-11T14:40:15.000Z"
+   "visto": "2026-11-11T17:20:23.000Z"
   }
  },
  "contenidos": {
@@ -1103,6 +1103,27 @@
    "video_mb": 27.3,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00299.mp4",
    "youtube_url": "https://youtu.be/2Z51rN7S49g"
+  },
+  "entrevistas:job00300": {
+   "descripcion": "El cantante chivilcoyano Ariel Ivaldi contó que ya tiene reservadas todas las fechas de los sábados para el 2027. Explicó además cómo coordina su pasión artística con los turnos y compañeros de su trabajo en la fábrica en Chivilcoy.",
+   "duracion_seg": null,
+   "entrevistado": "Ariel Ivaldi",
+   "generado": "2026-11-11T17:20:14.000Z",
+   "id": "entrevistas:job00300",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Ariel Ivaldi: sábados del 2027 ocupados y turnos de fábrica",
+   "urgente": false,
+   "video_bytes": 32480742,
+   "video_mb": 31.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00300.mp4",
+   "youtube_url": "https://youtu.be/4Zw7_YeLazI"
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
    "categoria": "robo",
@@ -9318,18 +9339,19 @@
    "viral": false
   },
   "entrevistas:job00299|x": {
-   "actualizado": "2026-11-11T17:00:31.000Z",
+   "actualizado": "2026-11-11T17:20:23.000Z",
    "buffer_id": "6af49f30aa9908a25ec40898",
    "clave": "entrevistas:job00299|x",
    "creado": "2026-11-11T17:00:21.000Z",
    "dueAt": "2026-11-11T17:02:10.000Z",
+   "enviado": "2026-11-11T17:11:30.177Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T17:00:21.000Z",
    "id": "entrevistas:job00299",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120565088260145566",
    "nota_url": "",
    "noticia": "titulo:aicardo-claves-gritos-karate-lorena-secretas",
    "origen": "entrevistas",
@@ -9343,6 +9365,62 @@
    "vence": "2026-11-11T19:00:21.000Z",
    "video_bytes": 28618944,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00299.mp4",
+   "viral": false
+  },
+  "entrevistas:job00300|tiktok": {
+   "actualizado": "2026-11-11T17:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00300|tiktok",
+   "creado": "2026-11-11T17:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-11T17:20:14.000Z",
+   "id": "entrevistas:job00300",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Ariel Ivaldi: sábados del 2027 ocupados y turnos de fábrica\n\nEl cantante chivilcoyano Ariel Ivaldi contó que ya tiene reservadas todas las fechas de los sábados para el 2027. Explicó además cómo coordina su pasión artística con los turnos y compañeros de su trabajo en la fábrica en Chivilcoy.\n\nhttps://youtu.be/4Zw7_YeLazI\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ariel Ivaldi: sábados del 2027 ocupados y turnos de fábrica",
+   "urgente": false,
+   "vence": "2026-11-13T17:20:14.000Z",
+   "video_bytes": 32480742,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00300.mp4",
+   "viral": false
+  },
+  "entrevistas:job00300|x": {
+   "actualizado": "2026-11-11T17:20:23.000Z",
+   "buffer_id": "6af4a3d794165f8d075c0a5c",
+   "clave": "entrevistas:job00300|x",
+   "creado": "2026-11-11T17:20:14.000Z",
+   "dueAt": "2026-11-11T17:22:06.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-11T17:20:14.000Z",
+   "id": "entrevistas:job00300",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:2027-ariel-fabrica-ivaldi-ocupados-sabados-turnos",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Ariel Ivaldi: sábados del 2027 ocupados y turnos de fábrica\n\nEl cantante chivilcoyano Ariel Ivaldi contó que ya tiene reservadas todas las fechas de los sábados para el 2027.\n\nhttps://youtu.be/4Zw7_YeLazI",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Ariel Ivaldi: sábados del 2027 ocupados y turnos de fábrica",
+   "urgente": false,
+   "vence": "2026-11-11T19:20:14.000Z",
+   "video_bytes": 32480742,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00300.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
@@ -16417,38 +16495,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00276|x",
-   "cuando": "2026-11-04T18:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118031276296835457"
-  },
-  {
-   "clave": "entrevistas:job00277|x",
-   "cuando": "2026-11-04T18:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118046378114863300"
-  },
-  {
-   "buffer_id": "6aeb7c117631b8ab98bf94fd",
-   "clave": "entrevistas:job00278|x",
-   "cuando": "2026-11-04T18:40:17.000Z",
-   "dueAt": "2026-11-04T18:42:30.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00278|x",
-   "cuando": "2026-11-04T20:00:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118051349791141944"
-  },
-  {
-   "buffer_id": "6aeb9ce566cdd5eb2856a535",
-   "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok",
-   "cuando": "2026-11-04T21:00:33.000Z",
-   "dueAt": "2026-11-04T21:03:32.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6aeb9ce9f0e1705c28e6fdf8",
    "clave": "entrevistas:job00278|tiktok",
    "cuando": "2026-11-04T21:00:33.000Z",
@@ -20580,6 +20626,40 @@
    "cuando": "2026-11-11T17:00:32.000Z",
    "dueAt": "2026-11-11T17:02:10.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00300",
+   "cuando": "2026-11-11T17:20:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00300|x",
+   "cuando": "2026-11-11T17:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00300|tiktok",
+   "cuando": "2026-11-11T17:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00299|x",
+   "cuando": "2026-11-11T17:20:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120565088260145566"
+  },
+  {
+   "buffer_id": "6af4a3d794165f8d075c0a5c",
+   "clave": "entrevistas:job00300|x",
+   "cuando": "2026-11-11T17:20:24.000Z",
+   "dueAt": "2026-11-11T17:22:06.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20617,7 +20697,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-11",
- "ultima_sync": "2026-11-11T14:40:15.000Z",
+ "ultima_sync": "2026-11-11T17:20:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -20817,7 +20897,6 @@
   "bot:video_matias-zucchi_mw8h185acy8l_01.mp4": "2026-11-09T00:00:16.000Z",
   "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4": "2026-11-11T00:00:21.000Z",
   "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4": "2026-11-11T14:20:16.000Z",
-  "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
   "entrevistas:job00191": "2026-10-12T18:20:14.000Z",
   "entrevistas:job00192": "2026-10-13T17:00:22.000Z",
@@ -20914,6 +20993,7 @@
   "entrevistas:job00297": "2026-11-10T18:40:15.000Z",
   "entrevistas:job00298": "2026-11-10T19:20:16.000Z",
   "entrevistas:job00299": "2026-11-11T17:00:21.000Z",
+  "entrevistas:job00300": "2026-11-11T17:20:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
