@@ -621,6 +621,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d8a3834b9be48b72.mp4",
    "youtube_url": "https://www.youtube.com/shorts/TGl9aLUTXYY"
   },
+  "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4": {
+   "descripcion": "El lunes 9 de noviembre se llevó a cabo un encuentro de básquet formativo de la categoría mosquitos en el estadio Oscar y Alfredo Barca, bajo la organización del Club Deportivo Colón.\n\nLa jornada deportiva contó además con la participación de las delegaciones de Gimnasia y Esgrima y de Racing Club, reuniendo a una gran cantidad de niños de entre 4 y 7 años ante un importante marco de público que acompañó la actividad desde las tribunas.\n\nPor el club anfitrión, Deportivo Colón, los profesores a cargo fueron Silvio Propato, Nicolás Marchesini, Erbel De Pietro, Andrés Ventieri y Rodrigo Padilla.\n\nEn Racing Club estuvieron presentes los profesores Juan Luis Serra, Josefina Pollaroli y Tobías Vito, acompañados por los monitores Juan I. Senra e Iñaki Arthur.\n\nPor parte de Gimnasia y Esgrima, el equipo técnico estuvo integrado por María Cecilia Ramírez, Marcos Mambelli, Tomás Costanzo y Valentina Nadales, junto al monitor Mateo Caprifoglio.",
+   "duracion_seg": 31.0,
+   "generado": "2026-11-10T23:51:11.000Z",
+   "id": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA",
+   "urgente": false,
+   "video_bytes": 7459516,
+   "video_mb": 7.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae55cc289cff439.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/6dJpouSONNc"
+  },
   "entrevistas:job00269": {
    "descripcion": "En Chivilcoy, el fotógrafo Daniel Muchiut reflexiona sobre el vínculo humano detrás de su obra documental y cómo transforma su vida. Asegura que el arte es un acto de amor profundo por el otro.",
    "duracion_seg": null,
@@ -4505,6 +4526,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tras-recuperar-la-nave-chivilcoy-el-municipio-continuara-las-acciones",
    "volanta": "Tras recuperar la nave"
   },
+  "web:ad88cc96-5c59-46c7-ae00-26c4333f393e": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA CHIVILCOY.– HERMOSO encuentro de MOSQUITOS en el estadio OSCAR y ALFREDO BARCA el lunes 9/11, organizado por el CLUB DEPORTIVO COLON, donde también participaron GIMNASIA y ESGRIMA y RACING CLUB. El evento contó con una gran cantidad de niños de entre 4 y 7 años y con un importante marco de público. Los profesores y monitores encargados de esta categoría fueron: COLON: - SILVIO PROPATO - NICOLAS...",
+   "generado": "2026-11-10T23:49:53.203Z",
+   "id": "web:ad88cc96-5c59-46c7-ae00-26c4333f393e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e33d7d05c2fe469d8b396f2b34ae29ee~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:b333b47e-b16a-4899-bd75-63c2b7086095": {
    "categoria": "",
    "descripcion": "Chivilcoy: Mariano Cejas: “Nos preocupamos por lo nuestro y por hacer las cosas bien para llegar lo más alto posible” CHIVILCOY.– El equipo derrotó 6-0 a Ciclón en una jornada destacada. Mariano Cejas, una de las figuras del encuentro, remarcó la fortaleza del grupo y la importancia de sumar de a tres en una cancha difícil. Moquehuá continúa a paso firme en el certamen local. Tras venirse de un categórico triunfo por 5-0 frente a Pellegrini, el conjunto volvió a dar una exhibición ofensiva al...",
@@ -7279,6 +7319,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_d8a3834b9be48b72.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok": {
+   "actualizado": "2026-11-11T00:00:33.000Z",
+   "buffer_id": "6af3b023850477b0c27cefad",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok",
+   "creado": "2026-11-11T00:00:21.000Z",
+   "dueAt": "2026-11-11T00:03:59.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-10T23:51:11.000Z",
+   "id": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA\n\nBajo la organización del Club Deportivo Colón, se realizó una jornada de básquet formativo que reunió a niños de entre 4 y 7 años junto a las delegaciones de Gimnasia y Esgrima y Racing Club. El evento deportivo convocó a una gran cantidad de público que acompañó la actividad desde las tribunas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA",
+   "urgente": false,
+   "vence": "2026-11-12T23:51:11.000Z",
+   "video_bytes": 7459516,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae55cc289cff439.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x": {
+   "actualizado": "2026-11-11T00:00:33.000Z",
+   "buffer_id": "6af3b0220b1f930b454e2b84",
+   "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x",
+   "creado": "2026-11-11T00:00:21.000Z",
+   "dueAt": "2026-11-11T00:02:20.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-10T23:51:11.000Z",
+   "id": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA",
+   "urgente": false,
+   "vence": "2026-11-11T01:51:11.000Z",
+   "video_bytes": 7459516,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae55cc289cff439.mp4",
+   "viral": false
+  },
   "entrevistas:job00269|tiktok": {
    "actualizado": "2026-11-02T22:20:21.000Z",
    "buffer_id": "6ae8f9e9b665951ec2fb9b31",
@@ -9498,14 +9594,14 @@
    "viral": false
   },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
-   "actualizado": "2026-11-10T22:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-11T00:00:33.000Z",
+   "buffer_id": "6af3b0230b1f930b454e2bda",
    "clave": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x",
    "creado": "2026-11-10T22:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-11T00:07:45.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-10T22:31:20.000Z",
    "id": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/",
    "intentos": 0,
@@ -14342,6 +14438,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:ad88cc96-5c59-46c7-ae00-26c4333f393e|x": {
+   "actualizado": "2026-11-11T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:ad88cc96-5c59-46c7-ae00-26c4333f393e|x",
+   "creado": "2026-11-11T00:00:21.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-10T23:49:53.203Z",
+   "id": "web:ad88cc96-5c59-46c7-ae00-26c4333f393e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA",
+   "urgente": false,
+   "vence": "2026-11-11T03:49:53.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b333b47e-b16a-4899-bd75-63c2b7086095|x": {
    "actualizado": "2026-11-03T12:40:14.000Z",
    "buffer_id": "6ae9c37047205d2c3994e893",
@@ -15997,52 +16118,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:04a24de3-2093-4b59-8e4e-5da6fa217039|x",
-   "cuando": "2026-11-04T09:00:31.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:191fa87d-084e-4d11-bc6e-011231dad2c0|x",
-   "cuando": "2026-11-04T09:00:31.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|x",
-   "cuando": "2026-11-04T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:306a1afa-6396-4897-94c5-e852fbb14fdd|x",
-   "cuando": "2026-11-04T10:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297|x",
-   "cuando": "2026-11-04T10:20:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:3fae7597-04b8-4378-8e2d-22c4f444cefd|x",
-   "cuando": "2026-11-04T10:20:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a|x",
    "cuando": "2026-11-04T10:20:32.000Z",
@@ -20159,11 +20234,55 @@
    "cuando": "2026-11-10T23:20:24.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120281297822052795"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x",
+   "cuando": "2026-11-11T00:00:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok",
+   "cuando": "2026-11-11T00:00:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:ad88cc96-5c59-46c7-ae00-26c4333f393e|x",
+   "cuando": "2026-11-11T00:00:32.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6af3b0220b1f930b454e2b84",
+   "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x",
+   "cuando": "2026-11-11T00:00:35.000Z",
+   "dueAt": "2026-11-11T00:02:20.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af3b0230b1f930b454e2bda",
+   "clave": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x",
+   "cuando": "2026-11-11T00:00:35.000Z",
+   "dueAt": "2026-11-11T00:07:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af3b023850477b0c27cefad",
+   "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok",
+   "cuando": "2026-11-11T00:00:35.000Z",
+   "dueAt": "2026-11-11T00:03:59.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-10-31 21",
    "2026-11-01 10",
    "2026-11-01 18",
    "2026-11-01 21",
@@ -20192,10 +20311,11 @@
    "2026-11-09 18",
    "2026-11-09 21",
    "2026-11-10 10",
-   "2026-11-10 18"
+   "2026-11-10 18",
+   "2026-11-10 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-10",
+ "ultima_limpieza_release": "2026-11-11",
  "ultima_sync": "2026-11-10T23:20:24.000Z",
  "version": 1,
  "vistos": {
@@ -20396,6 +20516,7 @@
   "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4": "2026-11-08T20:40:12.000Z",
   "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4": "2026-11-08T23:00:17.000Z",
   "bot:video_matias-zucchi_mw8h185acy8l_01.mp4": "2026-11-09T00:00:16.000Z",
+  "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4": "2026-11-11T00:00:21.000Z",
   "entrevistas:job00188": "2026-10-12T17:00:17.000Z",
   "entrevistas:job00189": "2026-10-12T17:20:13.000Z",
   "entrevistas:job00190": "2026-10-12T18:00:16.000Z",
@@ -21259,6 +21380,7 @@
   "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd": "2026-10-28T17:20:18.000Z",
   "web:aba1e540-5f12-4c06-8fcc-7b8d35ab1d87": "2026-10-16T00:00:21.000Z",
   "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938": "2026-10-26T10:20:14.000Z",
+  "web:ad88cc96-5c59-46c7-ae00-26c4333f393e": "2026-11-11T00:00:21.000Z",
   "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
   "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801": "2026-10-16T16:00:18.000Z",
   "web:b078718b-3db7-4e2d-a7e7-5e989121b045": "2026-10-29T10:02:34.000Z",

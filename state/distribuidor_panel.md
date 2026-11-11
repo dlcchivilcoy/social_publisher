@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 10/11/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 10/11/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-10)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 5 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 1 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,20 +27,13 @@ Actualizado: 10/11/2026 20:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - X · Reels policiales · Encontraron un cadáver desmembrado en un canal y hay dos demorados — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Hallan un cuerpo en el Canal Cafiero en el marco de la búsqueda de un joven — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-10T18:40 recibido entrevistas:job00297|x 
-- 2026-11-10T18:40 recibido entrevistas:job00297|tiktok 
-- 2026-11-10T18:40 programado entrevistas:job00297|x 
-- 2026-11-10T19:20 entrevista_aprobada entrevistas:job00298 
-- 2026-11-10T19:20 recibido entrevistas:job00298|x 
-- 2026-11-10T19:20 recibido entrevistas:job00298|tiktok 
 - 2026-11-10T19:20 programado entrevistas:job00298|x 
 - 2026-11-10T19:40 enviado entrevistas:job00296|x 
 - 2026-11-10T19:40 enviado entrevistas:job00297|x 
@@ -60,3 +53,9 @@ Actualizado: 10/11/2026 20:40 (hora AR) · ACTIVO
 - 2026-11-10T23:20 recibido policiales:https://www.latrochadigital.com.ar/2026/11/10/mec 
 - 2026-11-10T23:20 enviado entrevistas:job00294|tiktok 
 - 2026-11-10T23:20 enviado policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-m 
+- 2026-11-11T00:00 recibido bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x 
+- 2026-11-11T00:00 recibido bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok 
+- 2026-11-11T00:00 recibido web:ad88cc96-5c59-46c7-ae00-26c4333f393e|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-11T00:00 programado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x 
+- 2026-11-11T00:00 programado policiales:https://casaresonline.com.ar/alberti-encontraron- 
+- 2026-11-11T00:00 programado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok 
