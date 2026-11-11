@@ -12375,14 +12375,14 @@
    "viral": false
   },
   "web:51d406e0-8d07-4bc1-b1c2-9567feb03776|x": {
-   "actualizado": "2026-11-11T10:02:35.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-11T12:00:18.000Z",
+   "buffer_id": "6af458d32c0a5da5340732fe",
    "clave": "web:51d406e0-8d07-4bc1-b1c2-9567feb03776|x",
    "creado": "2026-11-11T10:02:35.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-11T13:22:15.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-11T10:02:01.263Z",
    "id": "web:51d406e0-8d07-4bc1-b1c2-9567feb03776",
    "ig_hora": "2026-11-11T13:22:22.000Z",
@@ -16382,12 +16382,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297|x",
-   "cuando": "2026-11-04T13:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117974585417040326"
-  },
   {
    "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x",
    "cuando": "2026-11-04T14:00:27.000Z",
@@ -20550,6 +20544,13 @@
    "clave": "web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4|x",
    "cuando": "2026-11-11T11:40:15.000Z",
    "dueAt": "2026-11-11T13:07:16.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af458d32c0a5da5340732fe",
+   "clave": "web:51d406e0-8d07-4bc1-b1c2-9567feb03776|x",
+   "cuando": "2026-11-11T12:00:19.000Z",
+   "dueAt": "2026-11-11T13:22:15.000Z",
    "evento": "programado"
   }
  ],

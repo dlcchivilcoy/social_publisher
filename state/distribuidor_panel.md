@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 08:40 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 09:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 11/11/2026 08:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 4 | 7 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 4 | 8 | 1 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,15 +27,13 @@ Actualizado: 11/11/2026 08:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - X · Notas web · Comienza una nueva fase de trabajos que permitirá prontamente habilitar el uso d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Destacado Subcampeonato para Francisco Britos En el AJPP 4.000 de Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T10:02 recibido web:449ee4f0-a73f-443a-ba52-32ad213567fa|x 
 - 2026-11-11T10:02 recibido web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x 
 - 2026-11-11T10:03 recibido web:ecbd39ca-e8d6-4701-920e-b903cf03fc41|x 
 - 2026-11-11T10:03 recibido web:21db22f9-b141-462c-b83c-6c1174b09194|x 
@@ -60,3 +58,4 @@ Actualizado: 11/11/2026 08:40 (hora AR) · ACTIVO
 - 2026-11-11T11:20 programado web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x 
 - 2026-11-11T11:40 programado web:449ee4f0-a73f-443a-ba52-32ad213567fa|x 
 - 2026-11-11T11:40 programado web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4|x 
+- 2026-11-11T12:00 programado web:51d406e0-8d07-4bc1-b1c2-9567feb03776|x 
