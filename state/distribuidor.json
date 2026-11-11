@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-11T10:20:17.000Z"
+   "visto": "2026-11-11T11:20:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 23
+    "scheduled": 3,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-11T10:20:17.000Z"
+   "visto": "2026-11-11T11:20:17.000Z"
   }
  },
  "contenidos": {
@@ -11052,14 +11052,14 @@
    "viral": false
   },
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x": {
-   "actualizado": "2026-11-11T10:02:35.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-11T11:20:18.000Z",
+   "buffer_id": "6af44f72ac862eacabfb5cd3",
    "clave": "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x",
    "creado": "2026-11-11T10:02:35.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-11T12:37:43.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-11T10:01:48.873Z",
    "id": "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0",
    "ig_hora": "2026-11-11T12:37:22.000Z",
@@ -13580,19 +13580,20 @@
    "viral": false
   },
   "web:8bcf2503-f895-462b-af3a-dffcba6750bb|x": {
-   "actualizado": "2026-11-11T10:03:39.000Z",
+   "actualizado": "2026-11-11T11:20:17.000Z",
    "buffer_id": "6af43d7c2e62829420e11f05",
    "clave": "web:8bcf2503-f895-462b-af3a-dffcba6750bb|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T10:52:48.000Z",
+   "enviado": "2026-11-11T10:53:01.748Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:01:05.536Z",
    "id": "web:8bcf2503-f895-462b-af3a-dffcba6750bb",
    "ig_hora": "2026-11-11T10:52:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120469842197111210",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -14041,19 +14042,20 @@
    "viral": false
   },
   "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8|x": {
-   "actualizado": "2026-11-11T10:03:39.000Z",
+   "actualizado": "2026-11-11T11:20:17.000Z",
    "buffer_id": "6af43d7bdb6e84f20becac2f",
    "clave": "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T10:37:30.000Z",
+   "enviado": "2026-11-11T10:37:31.129Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:01:01.558Z",
    "id": "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8",
    "ig_hora": "2026-11-11T10:37:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120465938755527039",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -14581,19 +14583,20 @@
    "viral": false
   },
   "web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f|x": {
-   "actualizado": "2026-11-11T10:03:39.000Z",
+   "actualizado": "2026-11-11T11:20:17.000Z",
    "buffer_id": "6af43d7c658ef0788e2261cc",
    "clave": "web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T10:22:30.000Z",
+   "enviado": "2026-11-11T10:22:31.107Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:00:57.364Z",
    "id": "web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f",
    "ig_hora": "2026-11-11T10:22:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120462164116803910",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -16379,30 +16382,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mw1itb3ejlvq_01.mp4|tiktok",
-   "cuando": "2026-11-04T13:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7704306456471817492"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw1jepn6evpw_01.mp4|tiktok",
-   "cuando": "2026-11-04T13:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7704302107079249160"
-  },
-  {
-   "clave": "web:3fae7597-04b8-4378-8e2d-22c4f444cefd|x",
-   "cuando": "2026-11-04T13:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117970810686075194"
-  },
-  {
-   "clave": "web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d|x",
-   "cuando": "2026-11-04T13:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2117963329528324590"
-  },
   {
    "clave": "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x",
    "cuando": "2026-11-04T13:40:19.000Z",
@@ -20545,6 +20524,31 @@
    "cuando": "2026-11-11T11:00:21.000Z",
    "dueAt": "2026-11-11T12:22:58.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:8bcf2503-f895-462b-af3a-dffcba6750bb|x",
+   "cuando": "2026-11-11T11:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120469842197111210"
+  },
+  {
+   "clave": "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8|x",
+   "cuando": "2026-11-11T11:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120465938755527039"
+  },
+  {
+   "clave": "web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f|x",
+   "cuando": "2026-11-11T11:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120462164116803910"
+  },
+  {
+   "buffer_id": "6af44f72ac862eacabfb5cd3",
+   "clave": "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x",
+   "cuando": "2026-11-11T11:20:18.000Z",
+   "dueAt": "2026-11-11T12:37:43.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20582,7 +20586,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-11",
- "ultima_sync": "2026-11-11T10:20:17.000Z",
+ "ultima_sync": "2026-11-11T11:20:17.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
