@@ -40562,5 +40562,66 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-11-11T11:01:09",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-11-11_matias-zucchi_mwc9xi2r7b10",
+    "uploader": "",
+    "fecha_recibido": "2026-11-11T12:31:00",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Chivilcoy · Accidente",
+    "titulo": "Un adolescente quedó en terapia intensiva tras golpearse en Plaza España",
+    "resumen": "Un adolescente de 17 años quedó en terapia intensiva tras golpearse contra un árbol en Plaza España. Sufrió lesiones en la cabeza y fue trasladado al Hospital Municipal de Chivilcoy. La Policía Comunal inició actuaciones para establecer cómo ocurrió el hecho.",
+    "texto": "Un adolescente de 17 años quedó en terapia intensiva tras golpearse contra un árbol en Plaza España. Sufrió lesiones en la cabeza y fue trasladado al Hospital Municipal de Chivilcoy. La Policía Comunal inició actuaciones para establecer cómo ocurrió el hecho.\n\nEl adolescente de 17 años quedó internado en terapia intensiva luego de sufrir un golpe en la cabeza durante las primeras horas del miércoles 11 de noviembre en Plaza España. Según la información preliminar, se habría golpeado contra un árbol mientras jugaba a la pelota, aunque las circunstancias del episodio todavía no fueron esclarecidas.\n\nEl secretario de Salud municipal, José Luis Neme, confirmó que el joven ingresó al Hospital Municipal. Allí fue atendido inicialmente en el área de Cirugía y luego quedó internado en la unidad de cuidados intensivos, donde el equipo médico sigue su evolución.\n\nPor su parte, el jefe de la Policía Comunal, comisario Gastón Perotti, informó que se iniciaron actuaciones bajo la carátula de «lesiones culposas o accidente».",
+    "bajada_reel": "El joven sufrió lesiones en la cabeza e intervino la Policía Comunal para esclarecer el hecho.",
+    "escrito": "Un adolescente de 17 años quedó en terapia intensiva tras golpearse contra un árbol en Plaza España\nSufrió lesiones en la cabeza y fue trasladado al Hospital Municipal de Chivilcoy. La Policía Comunal inició actuaciones para establecer cómo ocurrió el hecho.\nUn adolescente de 17 años quedó internado en terapia intensiva luego de sufrir un golpe en la cabeza durante las primeras horas del miércoles 11 de noviembre en Plaza España. Según la información preliminar, se habría golpeado contra un árbol mientras jugaba a la pelota, aunque las circunstancias del episodio todavía no fueron esclarecidas.\nEl secretario de Salud municipal, José Luis Neme, confirmó que el joven ingresó al Hospital Municipal. Allí fue atendido inicialmente en el área de Cirugía y luego quedó internado en la unidad de cuidados intensivos, donde el equipo médico sigue su evolución.\nPor su parte, el jefe de la Policía Comunal, comisario Gastón Perotti, informó que se iniciaron actuaciones bajo la carátula de «lesiones culposas o accidente».",
+    "tarjetas_fotos": [],
+    "draft_id": "4b476f07-db25-4822-9855-43803cb938df",
+    "reel_url": "",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-11T15:28:40.019Z — wa:5492346417636",
+    "decl": null,
+    "formato": "carrusel",
+    "tema_carrusel": "grafito",
+    "laminas": [
+      {
+        "titulo": "Grave accidente en Plaza España",
+        "texto": "Un joven de 17 años terminó internado en terapia intensiva con lesiones en la cabeza, tras golpearse contra un árbol mientras jugaba a la pelota en Plaza España."
+      },
+      {
+        "titulo": "Atención médica en el Hospital",
+        "texto": "El hecho ocurrió en las primeras horas del miércoles 11 de noviembre. El secretario de Salud, José Luis Neme, confirmó su ingreso al Hospital Municipal de Chivilcoy, donde permanece monitoreado."
+      },
+      {
+        "titulo": "Internado en cuidados intensivos",
+        "texto": "El adolescente fue asistido inicialmente en el sector de Cirugía del hospital local. Debido a la gravedad del traumatismo, el equipo médico resolvió derivarlo a la unidad de cuidados intensivos para seguir su evolución."
+      },
+      {
+        "titulo": "Investigan las causas del hecho",
+        "texto": "Las circunstancias exactas del episodio todavía no fueron esclarecidas. El jefe de la Policía Comunal, comisario Gastón Perotti, confirmó que iniciaron actuaciones bajo la carátula de lesiones culposas o accidente."
+      }
+    ],
+    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_47c0c73731b24c3c9c33cc91522afc31~mv2.jpg",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-11-11T12:33:01",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "ok",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-un-adolescente-quedo-en-terapia",
+    "ig_media_id": "18091869080252531",
+    "fb_video_id": "",
+    "ig_historia_id": "18130281386486827",
+    "fb_historia_id": "2051734412205339",
+    "fb_post_id": "1456376377985890_2088354322106193"
   }
 ]
