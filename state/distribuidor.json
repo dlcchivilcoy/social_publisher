@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-11T11:20:17.000Z"
+   "visto": "2026-11-11T12:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 3,
-    "sent": 21
+    "scheduled": 1,
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-11T11:20:17.000Z"
+   "visto": "2026-11-11T12:40:15.000Z"
   }
  },
  "contenidos": {
@@ -6149,43 +6149,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ccae16edd05cec4b.mp4",
    "viral": false
   },
-  "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x": {
-   "actualizado": "2026-11-01T12:40:15.000Z",
-   "buffer_id": "6ae72e9137c1acd2a002d841",
-   "clave": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4|x",
-   "creado": "2026-11-01T12:20:13.000Z",
-   "dueAt": "2026-11-01T12:22:54.000Z",
-   "enviado": "2026-11-01T12:23:05.250Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-01T12:09:30.000Z",
-   "id": "bot:video_matias-zucchi_mvxs8hwnschf_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2116868627752161638",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 35,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:edicion-eduardo-maraton-marcha-media-pollaroli-puso",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Se puso en marcha la 21.ª edición de la Media Maratón Eduardo Pollaroli\n\nEste domingo 1 de noviembre, desde las 8, se puso en marcha la 21.ª edición de la tradicional Media Maratón Eduardo Pollaroli en Chivilcoy.\n\nhttps://www.youtube.com/shorts/4tPKrk233oQ",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Se puso en marcha la 21.ª edición de la Media Maratón Eduardo Pollaroli",
-   "urgente": false,
-   "vence": "2026-11-01T14:09:30.000Z",
-   "video_bytes": 4298262,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_ccae16edd05cec4b.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok": {
    "actualizado": "2026-11-01T21:20:16.000Z",
    "buffer_id": "6ae7a8641120555c2a37da1d",
@@ -11052,19 +11015,20 @@
    "viral": false
   },
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x": {
-   "actualizado": "2026-11-11T11:20:18.000Z",
+   "actualizado": "2026-11-11T12:40:15.000Z",
    "buffer_id": "6af44f72ac862eacabfb5cd3",
    "clave": "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T12:37:43.000Z",
+   "enviado": "2026-11-11T12:37:46.101Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:01:48.873Z",
    "id": "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0",
    "ig_hora": "2026-11-11T12:37:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120496200868565404",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-amateur-chivilcoy-el-olimpo-se-quedo-con-la-fase-regular-y-ya",
    "noticia": "nota:futbol-amateur-chivilcoy-el-olimpo-se-quedo-con-la-fase-regular-y-ya",
    "origen": "web",
@@ -11182,19 +11146,20 @@
    "viral": false
   },
   "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067|x": {
-   "actualizado": "2026-11-11T10:03:39.000Z",
+   "actualizado": "2026-11-11T12:40:15.000Z",
    "buffer_id": "6af43d7cdb6e84f20becac6f",
    "clave": "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T11:22:39.000Z",
+   "enviado": "2026-11-11T11:22:46.205Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:01:28.670Z",
    "id": "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067",
    "ig_hora": "2026-11-11T11:22:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120477326718726261",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mercado-bonaerense-chivilcoy-exitosa-convocatoria-en-plaza-espana",
    "noticia": "nota:mercado-bonaerense-chivilcoy-exitosa-convocatoria-en-plaza-espana",
    "origen": "web",
@@ -11711,19 +11676,20 @@
    "viral": false
   },
   "web:21db22f9-b141-462c-b83c-6c1174b09194|x": {
-   "actualizado": "2026-11-11T10:40:16.000Z",
+   "actualizado": "2026-11-11T12:40:15.000Z",
    "buffer_id": "6af44611db6e84f20befed0c",
    "clave": "web:21db22f9-b141-462c-b83c-6c1174b09194|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T11:52:08.000Z",
+   "enviado": "2026-11-11T11:52:16.179Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:01:36.404Z",
    "id": "web:21db22f9-b141-462c-b83c-6c1174b09194",
    "ig_hora": "2026-11-11T11:52:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120484750502535523",
    "nota_url": "https://www.diariolacampaña.com.ar/n/salud-mental-chivilcoy-la-caminata-como-estrategia-clinica-para",
    "noticia": "nota:salud-mental-chivilcoy-la-caminata-como-estrategia-clinica-para",
    "origen": "web",
@@ -13975,19 +13941,20 @@
    "viral": false
   },
   "web:9869ea43-5e12-4498-bdb2-3cb48381f45a|x": {
-   "actualizado": "2026-11-11T10:20:17.000Z",
+   "actualizado": "2026-11-11T12:40:15.000Z",
    "buffer_id": "6af441612e62829420e2b3bb",
    "clave": "web:9869ea43-5e12-4498-bdb2-3cb48381f45a|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T11:37:36.000Z",
+   "enviado": "2026-11-11T11:37:46.203Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:01:32.643Z",
    "id": "web:9869ea43-5e12-4498-bdb2-3cb48381f45a",
    "ig_hora": "2026-11-11T11:37:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120481101499994579",
    "nota_url": "https://www.diariolacampaña.com.ar/n/diversidad-e-inclusion-laboral-victoria-ocampo-analizo-los-derechos",
    "noticia": "nota:diversidad-e-inclusion-laboral-victoria-ocampo-analizo-los-derechos",
    "origen": "web",
@@ -16079,19 +16046,20 @@
    "viral": false
   },
   "web:ecbd39ca-e8d6-4701-920e-b903cf03fc41|x": {
-   "actualizado": "2026-11-11T11:00:21.000Z",
+   "actualizado": "2026-11-11T12:40:15.000Z",
    "buffer_id": "6af44ac5b4e855103896e20e",
    "clave": "web:ecbd39ca-e8d6-4701-920e-b903cf03fc41|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T12:22:58.000Z",
+   "enviado": "2026-11-11T12:23:04.095Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:01:44.849Z",
    "id": "web:ecbd39ca-e8d6-4701-920e-b903cf03fc41",
    "ig_hora": "2026-11-11T12:22:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120492501169541419",
    "nota_url": "https://www.diariolacampaña.com.ar/n/semillero-rojo-independiente-festejo-los-30-anos-de-su-escuelita-de",
    "noticia": "nota:semillero-rojo-independiente-festejo-los-30-anos-de-su-escuelita-de",
    "origen": "web",
@@ -16382,43 +16350,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|tiktok",
-   "cuando": "2026-11-04T14:00:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:975edcef-ec1f-4523-a752-70f08fd5d109|x",
-   "cuando": "2026-11-04T14:00:28.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6aeb3a7fbf0b72949667a823",
-   "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x",
-   "cuando": "2026-11-04T14:00:32.000Z",
-   "dueAt": "2026-11-04T14:02:29.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:b9614f68-7894-4d54-ab85-71bd96e07340|x",
-   "cuando": "2026-11-04T14:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b9614f68-7894-4d54-ab85-71bd96e07340|x",
-   "cuando": "2026-11-04T14:20:15.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "web:fc88e805-cd8e-4eaf-afdb-62cab8e762ea|x",
    "cuando": "2026-11-04T15:00:22.000Z",
@@ -20551,6 +20482,36 @@
    "cuando": "2026-11-11T12:20:14.000Z",
    "dueAt": "2026-11-11T13:37:48.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x",
+   "cuando": "2026-11-11T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120496200868565404"
+  },
+  {
+   "clave": "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067|x",
+   "cuando": "2026-11-11T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120477326718726261"
+  },
+  {
+   "clave": "web:21db22f9-b141-462c-b83c-6c1174b09194|x",
+   "cuando": "2026-11-11T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120484750502535523"
+  },
+  {
+   "clave": "web:9869ea43-5e12-4498-bdb2-3cb48381f45a|x",
+   "cuando": "2026-11-11T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120481101499994579"
+  },
+  {
+   "clave": "web:ecbd39ca-e8d6-4701-920e-b903cf03fc41|x",
+   "cuando": "2026-11-11T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120492501169541419"
   }
  ],
  "tandas": {
@@ -20588,7 +20549,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-11",
- "ultima_sync": "2026-11-11T11:20:17.000Z",
+ "ultima_sync": "2026-11-11T12:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
