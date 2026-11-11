@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00303-r1",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-11-11T19:47:54.000Z",
+ "titulo": "Juan Bayona: por qué la improvisación teatral genera miedo",
+ "descripcion": "El actor Juan Bayona, integrante de Impro y Aparte, reflexiona en Chivilcoy sobre los prejuicios y el temor inicial que suele despertar la improvisación teatral. Anticipó los detalles del próximo show del grupo en El Portal del Tango.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00303_r1.mp4",
+ "duracion_seg": 22.9,
+ "espera_youtube_publico": {
+  "short": "EW9y7-7ZIW0",
+  "largo": "_q5zPr2PYYg"
+ },
+ "youtube_url": "https://youtube.com/shorts/EW9y7-7ZIW0",
+ "prioridad": 7,
+ "entrevistado": "Juan Bayona",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
