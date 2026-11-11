@@ -545,7 +545,7 @@ def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos:
 
 
 def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
-                     video_url: str = "", etiquetas=None) -> dict:
+                     video_url="", etiquetas=None) -> dict:
     """Carrusel de Instagram (ver `_publish_carousel`). `etiquetas`: cuentas a etiquetar; van en
     las fotos, de a 5 por lámina desde la primera (si falla con ellas, sale sin)."""
     return _sin_etiquetas_si_falla(
@@ -553,7 +553,7 @@ def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
 
 
 def _publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
-                      video_url: str = "", etiquetas=None) -> dict:
+                      video_url="", etiquetas=None) -> dict:
     """Publica un CARRUSEL (varias imágenes en un solo posteo) en Instagram.
 
     Flujo: por cada imagen se crea un contenedor hijo (is_carousel_item=true);
@@ -563,16 +563,19 @@ def _publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
     proporción (el compositor las genera 1080x1350).
 
     `video_url` (07/11/2026, carrusel cruzado de corresponsales): un .mp4 público de hasta 60 s,
-    que va PRIMERO, antes de las imágenes."""
+    que va PRIMERO, antes de las imágenes. Desde el 10/11/2026 también una LISTA de URLs: varios videos, uno
+    por lámina y en ese orden, antes de las imágenes."""
     user_id = get("INSTAGRAM_USER_ID")
     token = get("INSTAGRAM_ACCESS_TOKEN")
     if not user_id or not token:
         raise ValueError("INSTAGRAM_USER_ID o INSTAGRAM_ACCESS_TOKEN no configurados en .env")
 
-    paths = list(image_paths)[:MAX_CAROUSEL - bool(video_url)]
-    if video_url and not paths:
+    videos = [video_url] if isinstance(video_url, str) else list(video_url or [])
+    videos = [v for v in videos if v][:MAX_CAROUSEL - 1]
+    paths = list(image_paths)[:MAX_CAROUSEL - len(videos)]
+    if videos and not paths:
         raise ValueError("un carrusel con video necesita al menos una imagen")
-    if len(paths) < 2 and not video_url:
+    if len(paths) < 2 and not videos:
         return _publish(caption, paths[0], colab=colab, etiquetas=etiquetas)
     cuentas = list(etiquetas or [])
 
@@ -581,10 +584,10 @@ def _publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
     temps: list[Path] = []
     try:
         child_ids: list[str] = []
-        if video_url:
+        for v in videos:
             child_ids.append(_contenedor_video_listo(
-                user_id, token, {"media_type": "VIDEO", "video_url": video_url, "is_carousel_item": "true"},
-                video_url, "video del carrusel"))
+                user_id, token, {"media_type": "VIDEO", "video_url": v, "is_carousel_item": "true"},
+                v, "video del carrusel"))
         for i, p in enumerate(paths):
             jpeg = _as_jpeg(p)
             if jpeg != p:
@@ -601,7 +604,7 @@ def _publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
             parent_data["location_id"] = _location()
         carousel_id, colaborador = _crear_con_colab(
             user_id, token, parent_data, colaborador, lambda d: _crear_contenedor(user_id, token, d))
-        if video_url:
+        if videos:
             _wait_container_ready_long(carousel_id, token)
         else:
             _wait_container_ready(carousel_id, token)

@@ -302,19 +302,191 @@ def _video_4x5(videos: list, salida: Path) -> Path:
     return salida
 
 
-def _publicar_carrusel_mixto(video: Path | None, caption: str) -> dict | None:
-    """El carrusel cruzado en Instagram (video primero, después las fotos), o None si no corresponde.
-    Si algo falla, levanta la excepción: el que llama publica el reel."""
+# 10/11/2026 (pedidos del usuario: «utilizá la generación de placas con texto para explicar bien la nota; que se
+# aproveche hasta 10 placas deslizables, primero los videos y al final las imágenes»; «el video lo estás subiendo
+# sin placa y necesito que vayan con placas»; «mandé varios videos más que no tomó»; «las fotos cuadradas deberían
+# tener la placa debajo y no al costado»). CADA video va en SU lámina (antes se unían en uno solo y se cortaba al
+# minuto: de 6 videos salía el primer minuto) y todo lleva la placa del carrusel de la mañana. La forma manda
+# (pedido del usuario: «cuando el video es 9:16 vertical la placa de texto va a la derecha; horizontal o cuadrado,
+# abajo»): lo vertical va a la izquierda con el texto a la DERECHA (`story_image._placa_lateral`); lo horizontal o
+# cuadrado, arriba con el texto ABAJO. Siempre entero, sobre sí mismo difuminado:
+#   1. el primer video con la portada (volanta + titular + bajada),
+#   2. los demás videos y después las fotos, cada uno con una lámina que explica la nota (Gemini),
+#   3. si sobran láminas, van solo con texto entre los videos y las fotos.
+# Hasta 10 en total, primero los videos. Si la nota no alcanza para las placas, va como antes (sin texto).
+CARRUSEL_MIXTO_TOPE_VERTICAL = 16 / 9  # lo más alto que se le deja a la imagen de prueba (alto/ancho)
+
+
+def _medios_mixto(videos: list, fotos: list, tope: int = 10) -> list:
+    """[(ruta, es_video)] en el orden del carrusel: los videos primero, las fotos después, hasta `tope`."""
+    return ([(v, True) for v in videos] + [(f, False) for f in fotos])[:tope]
+
+
+def _aspecto_placa(w: int, h: int) -> tuple:
+    """El tamaño de la imagen de prueba con que se arma la placa: la forma del material, así la placa decide como
+    con una foto (vertical → texto a la derecha; horizontal o cuadrado → texto abajo)."""
+    if not w or not h:
+        return 1080, 810
+    return (1080, max(300, round(1080 * min(h / w, CARRUSEL_MIXTO_TOPE_VERTICAL))))
+
+
+def _hueco_placa(componer, w: int, h: int, salida_png: Path) -> tuple:
+    """Arma la placa dos veces, con una imagen blanca y con una negra de la misma forma, y saca el HUECO donde va
+    la imagen: (png RGBA de la placa con el hueco transparente, (x, y, ancho, alto) del hueco). Lo que la placa
+    dibuja encima de la foto (logos, sombras) queda en el png con su transparencia."""
+    import numpy as np
+    from PIL import Image
+    tmp = salida_png.parent
+    tmp.mkdir(parents=True, exist_ok=True)
+    capas = []
+    for nombre, color in (("blanco", 255), ("negro", 0)):
+        prueba = tmp / f"{salida_png.stem}_prueba_{nombre}.jpg"
+        Image.new("RGB", (w, h), (color,) * 3).save(prueba, quality=95)
+        capas.append(np.asarray(Image.open(componer(prueba)).convert("RGB"), dtype=np.float32))
+        prueba.unlink(missing_ok=True)
+    blanco, negro = capas
+    dif = np.clip((blanco - negro).mean(axis=2), 0, 255)
+    alfa = 1.0 - dif / 255.0                           # 0 = hueco (se ve la imagen), 1 = placa
+    color = np.where(alfa[..., None] > 0.004, negro / np.maximum(alfa[..., None], 0.004), 0)
+    rgba = np.dstack([np.clip(color, 0, 255), alfa * 255]).astype(np.uint8)
+    Image.fromarray(rgba, "RGBA").save(salida_png)
+    ys, xs = np.where(dif > 8)
+    if not len(xs):
+        raise ValueError("la placa no dejó lugar para la imagen")
+    x0, y0, x1, y1 = int(xs.min()), int(ys.min()), int(xs.max()) + 1, int(ys.max()) + 1
+    return salida_png, (x0, y0, x1 - x0, y1 - y0)
+
+
+def _foto_en_placa(foto: Path, placa_png: Path, caja: tuple, salida: Path) -> Path:
+    """La foto ENTERA en el hueco, sobre ella misma difuminada, y la placa encima."""
+    from PIL import Image, ImageFilter, ImageOps
+    x, y, w, h = caja
+    img = ImageOps.exif_transpose(Image.open(foto)).convert("RGB")
+    fondo = ImageOps.fit(img, (w, h), method=3).filter(ImageFilter.GaussianBlur(24))
+    frente = ImageOps.contain(img, (w, h), method=3)
+    fondo.paste(frente, ((w - frente.width) // 2, (h - frente.height) // 2))
+    placa = Image.open(placa_png).convert("RGBA")
+    lienzo = Image.new("RGBA", placa.size, (0, 0, 0, 255))
+    lienzo.paste(fondo, (x, y))
+    lienzo.alpha_composite(placa)
+    salida.parent.mkdir(parents=True, exist_ok=True)
+    lienzo.convert("RGB").save(salida, "JPEG", quality=92)
+    return salida
+
+
+def _video_en_placa(video_src: Path, placa_png: Path, caja: tuple, salida: Path) -> Path:
+    """El video ENTERO en el hueco de la placa (sobre sí mismo difuminado), con su sonido y hasta
+    CARRUSEL_MIXTO_MAX_SEG (lo que Instagram acepta en un carrusel)."""
+    import subprocess
+    from video import _calidad, _ffmpeg, _sin_giro
+    x, y, w, h = caja
+    w, h = w - w % 2, h - h % 2
+    filtro = (f"[0:v]{_sin_giro()},split[a][b];"
+              f"[a]scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},boxblur=20:2[f];"
+              f"[b]scale={w}:{h}:force_original_aspect_ratio=decrease,setsar=1[v];"
+              f"[f][v]overlay=(W-w)/2:(H-h)/2[m];"
+              f"[m]pad={CARRUSEL_MIXTO_ANCHO}:{CARRUSEL_MIXTO_ALTO}:{x}:{y}:black[p];"
+              f"[p][1:v]overlay=0:0:shortest=1,fps=30,format=yuv420p[out]")
+    salida.parent.mkdir(parents=True, exist_ok=True)
+    cmd = [_ffmpeg(), "-y", "-loglevel", "error", "-i", str(video_src), "-loop", "1", "-i", str(placa_png),
+           "-t", str(CARRUSEL_MIXTO_MAX_SEG), "-filter_complex", filtro, "-map", "[out]", "-map", "0:a?",
+           "-c:v", "libx264", "-preset", "veryfast", *_calidad(), "-c:a", "aac", "-b:a", "128k", "-ar", "44100",
+           "-shortest", "-movflags", "+faststart", str(salida)]
+    r = subprocess.run(cmd, capture_output=True, text=True, errors="replace")
+    if r.returncode != 0 or not salida.is_file():
+        raise RuntimeError(f"ffmpeg no armó el video con placa: {(r.stderr or '').strip()[-300:]}")
+    return salida
+
+
+def _laminas_mixto(volanta: str, titulo: str, texto: str, cuantas: int) -> list:
+    """Hasta `cuantas` láminas [{titulo, texto}] que explican la nota: las de Gemini, que sabe cuántas imágenes
+    hay (sin las que cuentan lo que falta); solo si Gemini no contesta, los párrafos de la nota. No se rellena
+    con frases sueltas de lo que escribió el vecino (salían en MAYÚSCULAS y cortadas, prueba del 10/11/2026):
+    las imágenes que sobran llevan la volanta y el titular."""
+    from carrusel_notas import _laminas_de_oraciones, _laminas_de_parrafos
+    from utils import gemini
+    cuerpo = [p.strip() for p in (texto or "").split("\n") if p.strip()]
+    laminas = _sin_faltantes(gemini.laminas_explicativas(volanta, titulo, texto, minimo=2, cuantas=cuantas))
+    if not laminas:
+        laminas = _laminas_de_parrafos(cuerpo) or _laminas_de_oraciones(cuerpo)
+    return laminas[:cuantas]
+
+
+def _placas_mixto(medios: list, clave: str, volanta: str, titulo: str, texto: str, resumen: str,
+                  tema: str) -> list:
+    """[(archivo, es_video)] del carrusel, cada uno con su placa: portada en el primero, una lámina en cada uno
+    de los demás y las láminas que sobran, solo texto, entre los videos y las fotos. Hasta 10."""
+    from story_image import compose_carrusel_slide, compose_lamina_carrusel
+    from video import _dimensiones
+    tope = instagram.MAX_CAROUSEL
+    laminas = _laminas_mixto(volanta, titulo, texto, min(tope - 1, max(2, len(medios) - 1)))
+    n_texto = max(0, min(len(laminas) - (len(medios) - 1), tope - len(medios)))
+    videos = [m for m in medios if m[1]]
+    fotos = [m for m in medios if not m[1]]
+    orden = videos + [(None, False)] * n_texto + fotos      # None = lámina solo texto
+    total = len(orden)
+    sitio = _site()
+    carpeta = WORK_DIR / f"carr_mixto_{clave}"
+    carpeta.mkdir(parents=True, exist_ok=True)
+    salida = []
+    for i, (ruta, es_video) in enumerate(orden):
+        idx = i + 1
+        lam = laminas[i - 1] if 0 < i <= len(laminas) else None
+        if i == 0:
+            componer = lambda p: compose_carrusel_slide(p, volanta, titulo, resumen, site_url=sitio,  # noqa: E731
+                                                        idx=idx, total=total, tema=tema, estilo="A")
+        elif lam:
+            componer = lambda p, l=lam: compose_lamina_carrusel(p, volanta, l["titulo"], l["texto"],  # noqa: E731
+                                                                sitio, idx=idx, total=total, tema=tema)
+        else:   # más imágenes que láminas: la volanta y el titular, como la portada
+            componer = lambda p: compose_carrusel_slide(p, volanta, titulo, "", site_url=sitio,  # noqa: E731
+                                                        idx=idx, total=total, tema=tema, estilo="A")
+        if ruta is None:
+            destino = carpeta / f"{idx:02d}.jpg"
+            import shutil
+            shutil.copy(compose_lamina_carrusel(None, volanta, lam["titulo"], lam["texto"], sitio, idx=idx,
+                                                total=total, tema=tema), destino)
+            salida.append((destino, False))
+            continue
+        if es_video:
+            w, h = _dimensiones(ruta)
+        else:
+            from PIL import Image, ImageOps
+            with Image.open(ruta) as im:
+                w, h = ImageOps.exif_transpose(im).size
+        aw, ah = _aspecto_placa(w, h)
+        png, caja = _hueco_placa(componer, aw, ah, carpeta / f"{idx:02d}_placa.png")
+        if es_video:
+            salida.append((_video_en_placa(ruta, png, caja, carpeta / f"mixto_{clave}_{idx:02d}.mp4"), True))
+        else:
+            salida.append((_foto_en_placa(ruta, png, caja, carpeta / f"{idx:02d}.jpg"), False))
+    return salida
+
+
+def _publicar_carrusel_mixto(video: Path | None, caption: str, volanta: str = "", titulo: str = "",
+                             texto: str = "", resumen: str = "", tema: str = "claro") -> dict | None:
+    """El carrusel cruzado en Instagram: cada video y cada foto con su placa (ver arriba), o None si no
+    corresponde. Si algo falla, levanta la excepción: el que llama publica el reel."""
     videos, fotos = _material_mixto(video)
     if not videos:
         return None
     clave = _slug(video.parent.name)
-    v = _video_4x5(videos, WORK_DIR / f"carr_mixto_{clave}.mp4")
-    url = upload_reel(v)
-    placas = [_foto_4x5(f, WORK_DIR / f"carr_mixto_{clave}_{i:02d}.jpg")
-              for i, f in enumerate(fotos[:instagram.MAX_CAROUSEL - 1])]
-    res = instagram.publish_carousel(caption, placas, video_url=url)
-    logger.info(f"[instagram] carrusel cruzado OK: video + {len(placas)} foto(s) (id={(res or {}).get('id', '')})")
+    medios = _medios_mixto(videos, fotos, instagram.MAX_CAROUSEL)
+    placas = []
+    if titulo and texto:
+        try:
+            placas = _placas_mixto(medios, clave, volanta, titulo, texto, resumen, tema)
+        except Exception as e:  # noqa: BLE001
+            logger.warning(f"[instagram] carrusel cruzado: no pude armar las placas ({e}); va sin texto.")
+    if not placas:
+        placas = [(_video_4x5([r], WORK_DIR / f"carr_mixto_{clave}_v{i:02d}.mp4"), True) if v
+                  else (_foto_4x5(r, WORK_DIR / f"carr_mixto_{clave}_{i:02d}.jpg"), False)
+                  for i, (r, v) in enumerate(medios)]
+    urls = [upload_reel(p) for p, v in placas if v]
+    imagenes = [p for p, v in placas if not v]
+    res = instagram.publish_carousel(caption, imagenes, video_url=urls)
+    logger.info(f"[instagram] carrusel cruzado OK: {len(urls)} video(s) + {len(imagenes)} placa(s) "
+                f"(id={(res or {}).get('id', '')})")
     return res
 
 
@@ -1190,8 +1362,9 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
 
     # Video + fotos de un corresponsal: avisar que en Instagram sale el carrusel cruzado.
     _v_mix, _f_mix = _material_mixto(video) if es_corresponsal else ([], [])
-    aviso_mixto = (f"<p>📸 En <b>Instagram</b> sale como <b>carrusel</b>: primero el video y después "
-                   f"{'la foto' if len(_f_mix) == 1 else f'las {min(len(_f_mix), 9)} fotos'}. En Facebook, "
+    aviso_mixto = (f"<p>📸 En <b>Instagram</b> sale como <b>carrusel</b> de hasta 10: primero "
+                   f"{'el video' if len(_v_mix) == 1 else f'los {len(_v_mix)} videos'} y después las placas que "
+                   f"explican la nota con {'la foto' if len(_f_mix) == 1 else 'las fotos'}. En Facebook, "
                    f"YouTube, TikTok y las historias sale el reel.</p>") if _v_mix else ""
     if directo:
         pass
@@ -2121,11 +2294,14 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
         if es_corr:
             # Video + fotos: carrusel cruzado (07/11/2026). Si falla, el reel de siempre.
             try:
-                res_ig = _publicar_carrusel_mixto(_find_video(file), caption)
+                tema_c = _tema_carrusel(rows, fila)
+                res_ig = _publicar_carrusel_mixto(_find_video(file), caption, volanta, titulo, texto,
+                                                  fila.get("bajada_reel") or resumen, tema_c)
                 if res_ig:
                     ig_media_id = (res_ig or {}).get("id", "")
                     estado_canales["instagram"] = "ok"
                     fila["ig_formato"] = "carrusel_mixto"
+                    fila["tema_carrusel"] = tema_c
             except Exception as e:  # noqa: BLE001
                 res_ig = None
                 logger.error(f"[instagram] el carrusel cruzado falló ({e}); publico el reel.")
@@ -2360,6 +2536,19 @@ def _tema_carrusel(rows: list, fila: dict | None = None) -> str:
     return temas[(temas.index(ultimo) + 1) % len(temas)] if ultimo in temas else temas[0]
 
 
+# Una lámina que cuenta lo que la nota NO dice («Los datos no informados del evento», prueba del 10/11/2026) no
+# explica nada: se saca. Si eran todas así, quedan las de los párrafos.
+# Solo lo que habla de la NOTA o de los datos que faltan: «la policía no informó la identidad» es noticia y queda.
+_LAMINA_FALTANTE = re.compile(
+    r"\b(datos|detalles|informaci[oó]n)\s+(no|sin)\s+(informad|especificad|precisad|detallad|difundid|disponible)"
+    r"|\b(la|esta|dicha)\s+(informaci[oó]n|nota|publicaci[oó]n|texto|fuente)\b[^.]{0,80}?\bno\s+"
+    r"(especific|detall|precis|inclu|mencion|inform|aport)", re.I)
+
+
+def _sin_faltantes(laminas: list | None) -> list:
+    return [l for l in (laminas or []) if not _LAMINA_FALTANTE.search(f"{l.get('titulo', '')} {l.get('texto', '')}")]
+
+
 def _placas_carrusel_corr(fotos: list, clave: str, volanta: str, titular: str, texto: str,
                           bajada: str, tema: str, laminas: list | None = None) -> list:
     """Las placas del carrusel (las mismas de las notas de la mañana): portada con la primera foto y
@@ -2372,7 +2561,7 @@ def _placas_carrusel_corr(fotos: list, clave: str, volanta: str, titular: str, t
     nota = {"image": str(fotos[0]), "key": f"corresponsal:{clave}"}
 
     def escribir(v, t, c):
-        return (laminas or gemini.laminas_explicativas(v, t, c, minimo=2)
+        return (_sin_faltantes(laminas or gemini.laminas_explicativas(v, t, c, minimo=2))
                 or _laminas_de_parrafos(cuerpo) or _laminas_de_oraciones(cuerpo))
 
     placas = _carrusel_explicativo(nota, volanta, titular, cuerpo, bajada or (cuerpo[0] if cuerpo else ""),

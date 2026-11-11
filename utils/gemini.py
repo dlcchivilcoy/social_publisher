@@ -1840,11 +1840,13 @@ _LAMINAS_SCHEMA = {
 
 
 def laminas_explicativas(volanta: str, titular: str, cuerpo: str, api_key: str = "", model: str = "",
-                         key_pool=None, minimo: int = 3) -> list:
+                         key_pool=None, minimo: int = 3, cuantas: int = 0) -> list:
     """[{titulo, texto}] (4 a 6) para el carrusel explicativo de una nota. Ante cualquier error devuelve
     [] (el que llama arma las láminas con los párrafos de la nota): nunca frena la publicación.
     `minimo` (corresponsales, 4/11/2026): con menos de 3, una nota de menos de 100 palabras sale con 2 o 3
-    láminas hechas con sus propias frases, en lugar de quedarse sin ninguna o de estirarla inventando."""
+    láminas hechas con sus propias frases, en lugar de quedarse sin ninguna o de estirarla inventando.
+    `cuantas` (carrusel mixto, 10/11/2026): cuántas imágenes hay para acompañar; si la nota da, hasta esa
+    cantidad, sin inventar."""
     base = " ".join((cuerpo or "").split()).strip()
     if len(base) < 120:
         return []
@@ -1855,6 +1857,12 @@ def laminas_explicativas(volanta: str, titular: str, cuerpo: str, api_key: str =
                  "frases de la nota tal cual, aunque tenga menos de 18 palabras: sin sumar adjetivos, detalles, "
                  "motivos ni explicaciones, y sin repetir una frase en dos láminas."
                  if minimo < 3 and len(base.split()) < 100 else "")
+        if cuantas and not corta:
+            corta = (f" Esta vez hay {cuantas} videos o fotos para acompañar las láminas: si la nota trae datos "
+                     f"suficientes, hacé hasta {cuantas} (por ejemplo una por grupo de personas o por dato), cada "
+                     f"una con información distinta; si no alcanza, hacé menos. Nunca repitas, nunca inventes y "
+                     f"escribí los nombres en minúscula con mayúscula inicial aunque la nota los traiga en "
+                     f"MAYÚSCULAS.")
         texto = (f"{_LAMINAS_PROMPT}{corta}\n\nVOLANTA: {(volanta or '').strip()}\nTITULAR: {(titular or '').strip()}"
                  f"\n\nNOTA:\n{base[:9000]}")
         datos = _post_json([{"text": texto}], key, model, _LAMINAS_SCHEMA,
