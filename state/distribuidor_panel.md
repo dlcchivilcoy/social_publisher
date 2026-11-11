@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 16:40 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 17:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 2 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 5 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 6 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 11/11/2026 16:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (7 esperando)
+- TikTok · Recortes de entrevistas · Juan Bayona: por qué la improvisación teatral genera miedo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Juan Bayona: "En la impro brilla el grupo" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Eduardo Parysow: 1 de cada 8 personas tendrá diabetes en Argentina — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Ricardo Watson: el film sobre Malvinas en el Festival Raices — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -39,12 +40,6 @@ Actualizado: 11/11/2026 16:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T15:40 recibido web:4b476f07-db25-4822-9855-43803cb938df|x 
-- 2026-11-11T15:40 depurado web:4b476f07-db25-4822-9855-43803cb938df|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-11T17:00 entrevista_aprobada entrevistas:job00299 
-- 2026-11-11T17:00 recibido entrevistas:job00299|x 
-- 2026-11-11T17:00 recibido entrevistas:job00299|tiktok 
-- 2026-11-11T17:00 programado entrevistas:job00299|x 
 - 2026-11-11T17:20 entrevista_aprobada entrevistas:job00300 
 - 2026-11-11T17:20 recibido entrevistas:job00300|x 
 - 2026-11-11T17:20 recibido entrevistas:job00300|tiktok 
@@ -64,3 +59,9 @@ Actualizado: 11/11/2026 16:40 (hora AR) · ACTIVO
 - 2026-11-11T19:20 recibido entrevistas:job00303|x 
 - 2026-11-11T19:20 recibido entrevistas:job00303|tiktok 
 - 2026-11-11T19:20 programado entrevistas:job00303|x 
+- 2026-11-11T20:00 entrevista_aprobada entrevistas:job00303-r1 
+- 2026-11-11T20:00 recibido entrevistas:job00303-r1|x 
+- 2026-11-11T20:00 recibido entrevistas:job00303-r1|tiktok 
+- 2026-11-11T20:00 enviado entrevistas:job00302|x 
+- 2026-11-11T20:00 enviado entrevistas:job00303|x 
+- 2026-11-11T20:00 programado entrevistas:job00303-r1|x 
