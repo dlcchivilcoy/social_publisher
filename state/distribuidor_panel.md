@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 11/11/2026 20:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 3 | 3 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,14 +27,14 @@ Actualizado: 11/11/2026 20:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- X · Reels policiales · Detuvieron a un joven de 21 años tras una persecución y hallaron una moto robada — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Desplegaron 35 policías de 25 de Mayo en Luján por la visita de un Papa — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T19:20 entrevista_aprobada entrevistas:job00303 
 - 2026-11-11T19:20 recibido entrevistas:job00303|x 
 - 2026-11-11T19:20 recibido entrevistas:job00303|tiktok 
 - 2026-11-11T19:20 programado entrevistas:job00303|x 
@@ -59,3 +59,4 @@ Actualizado: 11/11/2026 20:00 (hora AR) · ACTIVO
 - 2026-11-11T22:20 enviado entrevistas:job00303|tiktok 
 - 2026-11-11T22:20 programado policiales:https://semanariodejunin.com.ar/nota/76483/crimen 
 - 2026-11-11T22:40 recibido policiales:https://www.lamanana.com.ar/unos-35-efectivos-pol 
+- 2026-11-11T23:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-1 

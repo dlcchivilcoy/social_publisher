@@ -2228,6 +2228,32 @@
    "volanta": "Estafa inmobiliaria en Junín",
    "youtube_url": "https://youtube.com/shorts/ySZDYoHEPGs"
   },
+  "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor": {
+   "categoria": "robo",
+   "descripcion": "Dos procedimientos policiales en Junín culminaron con un joven de 21 años aprehendido tras una persecución y el secuestro de un auto y una moto con pedido de captura.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-11T23:01:20.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-persecucion-tras-evadir-un-control-en-la-ruta-188-y-587130",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Dos operativos de prevención en Junín terminaron con la aprehensión de un joven de 21 años y el secuestro de dos vehículos.\n\nEl primer caso comenzó en el kilómetro 152 de la Ruta Nacional 188, cuando un automovilista evadió un control de Gendarmería Nacional.\n\nLa persecución finalizó en la intersección de Suipacha y Chaco tras un impacto leve con el móvil oficial, quedando el conductor a disposición de la UFI N.º 1.\n\nEn un hecho aparte sobre la calle General Paz, interceptaron a un adolescente que manejaba una moto Gilera Smash con pedido de secuestro por hurto.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron a un joven de 21 años tras una persecución y hallaron una moto robada",
+   "urgente": false,
+   "video_bytes": 84834,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_04_junin_detuvieron-a-un-joven-de-21-a-.mp4",
+   "volanta": "Operativos viales en Junín",
+   "youtube_url": "https://youtube.com/shorts/uhUA2zIyFqE"
+  },
   "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados": {
    "categoria": "accidente_vial",
    "descripcion": "Un camión y un auto protagonizaron un violento choque en la Ruta Provincial 30, a la altura del kilómetro 485. Los dos conductores terminaron hospitalizados.",
@@ -10934,6 +10960,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_05_junin_futbolistas-estafados-por-m-s-.mp4",
    "viral": false
   },
+  "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor|x": {
+   "actualizado": "2026-11-11T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor|x",
+   "creado": "2026-11-11T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-11T23:01:20.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-persecucion-tras-evadir-un-control-en-la-ruta-188-y-587130",
+   "noticia": "nota:junin-persecucion-tras-evadir-un-control-en-la-ruta-188-y-587130",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Detuvieron a un joven de 21 años tras una persecución y hallaron una moto robada\n\nDos procedimientos policiales en Junín culminaron con un joven de 21 años aprehendido tras una persecución y el secuestro de un auto y una moto con pedido de captura.\n\nhttps://www.diariolacampaña.com.ar/n/junin-persecucion-tras-evadir-un-control-en-la-ruta-188-y-587130",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un joven de 21 años tras una persecución y hallaron una moto robada",
+   "urgente": false,
+   "vence": "2026-11-12T01:01:20.000Z",
+   "video_bytes": 84834,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_04_junin_detuvieron-a-un-joven-de-21-a-.mp4",
+   "viral": false
+  },
   "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados|x": {
    "actualizado": "2026-11-04T22:40:23.000Z",
    "buffer_id": "6aebafa0196569598524af9c",
@@ -16797,14 +16851,6 @@
  },
  "registro": [
   {
-   "clave": "web:86ad29b1-82b6-4e00-868b-4e29af5b4496|x",
-   "cuando": "2026-11-05T10:03:11.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:96d8a1d2-9950-4aad-8e5a-ac9eec980838|x",
    "cuando": "2026-11-05T10:03:17.000Z",
    "estado": "pendiente",
@@ -20953,6 +20999,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor|x",
+   "cuando": "2026-11-11T23:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -21539,6 +21593,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-10-16-9-45-0-investigan-como-presunto-femicidio-el-choque-fatal-en-la-ruta-5-en-el-que-murio-una-mujer-de-37-anos": "2026-10-16T16:00:18.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros": "2026-10-24T00:40:15.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": "2026-10-29T23:40:14.000Z",
+  "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor": "2026-11-11T23:20:14.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados": "2026-11-04T22:20:15.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin": "2026-11-08T23:20:14.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos": "2026-11-08T22:20:12.000Z",
