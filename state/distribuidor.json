@@ -2124,32 +2124,6 @@
    "volanta": "Choques, operativos y acoso en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/AZvYq3Sp9CM"
   },
-  "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific": {
-   "categoria": "robo",
-   "descripcion": "Un sospechoso de 36 años, oriundo de Lobos, fue arrestado en un hotel de Chacabuco tras robar una bicicleta Venzo de un medio local. La Policía recuperó el rodado.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-01T22:01:21.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-36-anos-y-recuperaron-una-3ba5d0",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Un sujeto de 36 años fue arrestado en un hospedaje céntrico de Chacabuco tras robar una bicicleta.\n\nEl rodado sustraído pertenece a un trabajador del diario ubicado sobre la calle Rivadavia al 400.\n\nLos efectivos policiales analizaron las cámaras de seguridad públicas y privadas para dar con el sospechoso.\n\nLa causa quedó en manos de la UFI N° 1 del Departamento Judicial Junín.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Detenido #Seguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Cayó en un hotel céntrico el ladrón que se llevó una bicicleta en Chacabuco",
-   "urgente": false,
-   "video_bytes": 77111,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_01_chacabuco_cay-en-un-hotel-c-ntrico-el-la.mp4",
-   "volanta": "Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/LFU40SymsTU"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co": {
    "categoria": "robo",
    "descripcion": "Un empleado de 28 años que había sido arrestado por el millonario asalto al corralón Cabalieri recuperó la libertad por orden de la Justicia, pese al pedido fiscal para que continuara detenido.",
@@ -2357,6 +2331,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_01_25-de-mayo_buscan-a-un-joven-de-27-a-os-p.mp4",
    "volanta": "Búsqueda e investigación en Mechita",
    "youtube_url": "https://youtube.com/shorts/l7N9nYNZuio"
+  },
+  "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/": {
+   "categoria": "operativo_policial",
+   "descripcion": "Treinta y cinco agentes de la Jefatura Departamental de 25 de Mayo participaron del dispositivo de seguridad armado por la llegada del Papa León XIV a la Basílica de Luján. El municipio local colaboró con la logística y el traslado.",
+   "distancia_km": 90.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-11T22:31:56.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/",
+   "localidad": "Luján",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-desplegaron-35-policias-de-25-de-mayo-por-la-visita-del-320da7",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Un total de treinta y cinco efectivos llegaron desde el distrito vecino para custodiar la zona durante el evento papal.\n\nLa intendencia local se hizo cargo de la logística y el traslado del personal policial en casi su totalidad.\n\nEl dispositivo de seguridad finalizó este miércoles pasadas las 18:00 horas con el regreso de los agentes a su dependencia.\n\n📲 Más noticias de Luján en www.diariolacampaña.com.ar\n\n#Lujan #Operativo #Policia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Desplegaron 35 policías de 25 de Mayo en Luján por la visita de un Papa",
+   "urgente": false,
+   "video_bytes": 89318,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_03_25-de-mayo_desplegaron-35-polic-as-de-25-.mp4",
+   "volanta": "Operativo policial en Luján",
+   "youtube_url": "https://youtube.com/shorts/lNK-FvKc--c"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/": {
    "categoria": "operativo_policial",
@@ -10804,43 +10804,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_07_chacabuco_choque-operativos-viales-y-ped.mp4",
    "viral": false
   },
-  "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x": {
-   "actualizado": "2026-11-01T22:40:15.000Z",
-   "buffer_id": "6ae7bb2048ce42a6b42cf164",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific|x",
-   "creado": "2026-11-01T22:20:15.000Z",
-   "dueAt": "2026-11-01T22:23:12.000Z",
-   "enviado": "2026-11-01T22:23:18.210Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-01T22:01:21.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117019677050208388",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 43,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-36-anos-y-recuperaron-una-3ba5d0",
-   "noticia": "nota:chacabuco-detuvieron-a-un-hombre-de-36-anos-y-recuperaron-una-3ba5d0",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Cayó en un hotel céntrico el ladrón que se llevó una bicicleta en Chacabuco\n\nUn sospechoso de 36 años, oriundo de Lobos, fue arrestado en un hotel de Chacabuco tras robar una bicicleta Venzo de un medio local. La Policía recuperó el rodado.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-36-anos-y-recuperaron-una-3ba5d0",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cayó en un hotel céntrico el ladrón que se llevó una bicicleta en Chacabuco",
-   "urgente": false,
-   "vence": "2026-11-02T00:01:21.000Z",
-   "video_bytes": 77111,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_01_chacabuco_cay-en-un-hotel-c-ntrico-el-la.mp4",
-   "viral": false
-  },
   "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co|x": {
    "actualizado": "2026-11-06T01:20:13.000Z",
    "buffer_id": "",
@@ -11118,6 +11081,34 @@
    "video_bytes": 103663,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_01_25-de-mayo_buscan-a-un-joven-de-27-a-os-p.mp4",
    "viral": true
+  },
+  "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/|x": {
+   "actualizado": "2026-11-11T22:40:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/|x",
+   "creado": "2026-11-11T22:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-11T22:31:56.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-desplegaron-35-policias-de-25-de-mayo-por-la-visita-del-320da7",
+   "noticia": "nota:lujan-desplegaron-35-policias-de-25-de-mayo-por-la-visita-del-320da7",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Desplegaron 35 policías de 25 de Mayo en Luján por la visita de un Papa\n\nEfectivos de la Jefatura Departamental formaron parte del operativo de seguridad por la llegada del Sumo Pontífice. El municipio colaboró con el traslado y la logística.\n\nhttps://www.diariolacampaña.com.ar/n/lujan-desplegaron-35-policias-de-25-de-mayo-por-la-visita-del-320da7",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Desplegaron 35 policías de 25 de Mayo en Luján por la visita de un Papa",
+   "urgente": false,
+   "vence": "2026-11-12T00:31:56.000Z",
+   "video_bytes": 89318,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_03_25-de-mayo_desplegaron-35-polic-as-de-25-.mp4",
+   "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/03/ruta-5-fuerte-operativo-y-dos-detenidos/|x": {
    "actualizado": "2026-11-04T02:40:14.000Z",
@@ -16806,14 +16797,6 @@
  },
  "registro": [
   {
-   "clave": "web:d4089f06-53a3-4eae-adeb-d9043a2f641d|x",
-   "cuando": "2026-11-05T10:03:08.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:86ad29b1-82b6-4e00-868b-4e29af5b4496|x",
    "cuando": "2026-11-05T10:03:11.000Z",
    "estado": "pendiente",
@@ -20962,6 +20945,14 @@
    "cuando": "2026-11-11T22:20:20.000Z",
    "dueAt": "2026-11-11T22:23:14.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/|x",
+   "cuando": "2026-11-11T22:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -21553,6 +21544,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos": "2026-11-08T22:20:12.000Z",
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": "2026-10-23T00:20:14.000Z",
   "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/": "2026-11-09T22:20:15.000Z",
+  "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/": "2026-11-11T22:40:16.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/13/persecucion-desde-chivilcoy-hasta-chacabuco-por-una-moto-robada/": "2026-10-13T12:40:15.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/14/muerte-y-sospechas-tras-el-choque-fatal-en-ruta-5/": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/": "2026-10-16T02:00:19.000Z",
