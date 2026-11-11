@@ -1839,6 +1839,39 @@ _LAMINAS_SCHEMA = {
 }
 
 
+_ES_PLACA_SCHEMA = {"type": "object", "properties": {"es_placa": {"type": "boolean"}},
+                    "required": ["es_placa"]}
+_ES_PLACA_PROMPT = (
+    "Mirá la imagen y decí si es una PLACA ya armada o una FOTO.\n"
+    "• es_placa = true SOLO si es una pieza gráfica DISEÑADA donde el texto es el protagonista: una "
+    "placa de noticia, un flyer, un afiche, un banner, una invitación, un comunicado o una captura de "
+    "pantalla con un titular.\n"
+    "• es_placa = false si es una FOTO de algo real (personas, un lugar, un choque, un partido), aunque "
+    "tenga carteles, un logo chico, una marca de agua, la fecha de una cámara de seguridad o algo de "
+    "texto encima.\n"
+    "Ante la duda, false.")
+
+
+def es_placa_armada(foto_path, api_key: str = "", model: str = "", key_pool=None) -> bool:
+    """¿La foto que mandó el vecino YA ES una placa armada (flyer, afiche, placa de noticia)?
+
+    Pedido del usuario (11/11/2026): si la primera foto del carrusel es una placa, la portada va con la
+    imagen sola, sin nuestra placa de texto al lado. Los píxeles no alcanzan para separar una cosa de
+    la otra (un vidrio roto o una foto oscura dan como «gráfica»), por eso se lo pregunta a Gemini.
+    Nunca lanza: ante cualquier error, False (la portada sale como siempre)."""
+    try:
+        key = (api_key or "").strip() or _clave_por_defecto()
+        if not key or not foto_path or not Path(foto_path).is_file():
+            return False
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+        raw = _post_json([{"text": _ES_PLACA_PROMPT}, _img_part(Path(foto_path))], key, model,
+                         _ES_PLACA_SCHEMA, key_pool=key_pool or _gemini_keys(key), razonamiento="low")
+        return bool(raw.get("es_placa"))
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude ver si la foto es una placa armada ({e}); la portada va como siempre.")
+        return False
+
+
 def laminas_explicativas(volanta: str, titular: str, cuerpo: str, api_key: str = "", model: str = "",
                          key_pool=None, minimo: int = 3, cuantas: int = 0) -> list:
     """[{titulo, texto}] (4 a 6) para el carrusel explicativo de una nota. Ante cualquier error devuelve

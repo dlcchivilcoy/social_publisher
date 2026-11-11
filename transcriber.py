@@ -2564,9 +2564,15 @@ def _placas_carrusel_corr(fotos: list, clave: str, volanta: str, titular: str, t
         return (_sin_faltantes(laminas or gemini.laminas_explicativas(v, t, c, minimo=2))
                 or _laminas_de_parrafos(cuerpo) or _laminas_de_oraciones(cuerpo))
 
+    # Si la primera foto YA ES una placa armada (un flyer, una placa de noticia), la portada va con la
+    # imagen sola, sin nuestro texto al lado (pedido del usuario 11/11/2026). CORR_PORTADA_PLACA=0 lo apaga.
+    sola = ((get("CORR_PORTADA_PLACA") or "1").strip().lower() not in ("0", "no", "false", "off")
+            and gemini.es_placa_armada(fotos[0]))
+    if sola:
+        logger.info("La primera foto ya es una placa armada: la portada del carrusel va sin texto.")
     placas = _carrusel_explicativo(nota, volanta, titular, cuerpo, bajada or (cuerpo[0] if cuerpo else ""),
                                    _site(), escribir=escribir, tema=tema,
-                                   fotos_extra=[str(f) for f in fotos[1:]])
+                                   fotos_extra=[str(f) for f in fotos[1:]], portada_sola=sola)
     if len(placas) < 2:
         raise ValueError("la nota no alcanza para una lámina además de la portada")
     return placas

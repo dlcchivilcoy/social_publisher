@@ -30,7 +30,7 @@ from file_scanner import _normalize, _page_number, _pair_in_folder, find_todays_
 from platforms import facebook, instagram, wix
 from publisher import (_hashtags, _load_ledger, _prepare_image, _resumen,
                        _save_ledger)
-from story_image import (compose_carrusel_slide, compose_carrusel_story, compose_lamina_carrusel,
+from story_image import (compose_carrusel_slide, compose_carrusel_story, compose_lamina_carrusel, compose_tapa_slide,
                          estilos_carrusel)
 from utils.branding import linea_canal_yt, sitio_web
 from utils.config import get
@@ -589,14 +589,15 @@ def _laminas_de_oraciones(cuerpo: list, palabras: int = 35) -> list:
 
 def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, primer: str,
                           site: str, escribir=None, tema: str = "claro", numerar: bool = True,
-                          fotos_extra=()) -> list:
+                          fotos_extra=(), portada_sola: bool = False) -> list:
     """Las placas del carrusel de UNA nota: la portada CON LA FOTO de la nota (la misma placa del carrusel
     de siempre) y las láminas que la explican, SOLO TEXTO (pedido del 18/10/2026: «la primera con imagen y
     las siguientes solo texto bien diseñado; no quiero carruseles sin fotos»). Sin foto de la nota no hay
     carrusel: ValueError, y la nota no sale en Instagram. `escribir(volanta, titular, texto)` →
     [{titulo, texto}] (Gemini). `numerar=False` (el reel): sin «01 / 04» ni «Deslizá y seguí leyendo»; abajo
     va «Seguí leyendo en <sitio>». `fotos_extra` (corresponsales, 3/11/2026): más fotos del envío, una por
-    lámina en orden; las láminas que quedan sin foto van solo con texto."""
+    lámina en orden; las láminas que quedan sin foto van solo con texto. `portada_sola` (11/11/2026): la foto
+    del vecino YA ES una placa armada (flyer, afiche): la portada es esa imagen entera, sin nuestro texto."""
     if not note.get("image") or not Path(note["image"]).is_file():
         raise ValueError("la nota no tiene foto propia: sin foto no sale el carrusel")
     if escribir is None:
@@ -612,7 +613,9 @@ def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, 
     propias, carpeta = [], None
     for i, l in enumerate([None] + laminas, 1):
         idx = i if numerar else None
-        if l is None:
+        if l is None and portada_sola:
+            placa = compose_tapa_slide(note["image"])
+        elif l is None:
             placa = compose_carrusel_slide(note["image"], volanta, titular, primer, site_url=site, idx=idx,
                                            total=total, tema=tema)
         else:
