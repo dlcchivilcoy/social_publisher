@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 07:03 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 11/11/2026 07:03 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 5 | 8 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 5 | 7 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 25 con métricas · mediana vistas/impresiones 25 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 11/11/2026 07:03 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (8 esperando)
+## Cola propia (7 esperando)
 - X · Notas web · Comienza una nueva fase de trabajos que permitirá prontamente habilitar el uso d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Destacado Subcampeonato para Francisco Britos En el AJPP 4.000 de Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Clausura de la Asociación de Chivilcoy: Bragado Club goleó a Argentino y  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -35,14 +35,11 @@ Actualizado: 11/11/2026 07:03 (hora AR) · ACTIVO
 - X · Notas web · Chivilcoy: El Olimpo se quedó con la fase regular y ya avisa en la liguilla: Así — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Independiente festejó los 30 años de su Escuelita de Fútbol Infantil con un emot — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: La caminata como estrategia clínica para trascender los límites del c — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Victoria Ocampo analizó los derechos del colectivo LGBT y el cupo laboral Trans  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T00:00 programado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x 
-- 2026-11-11T00:00 programado policiales:https://casaresonline.com.ar/alberti-encontraron- 
 - 2026-11-11T00:00 programado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok 
 - 2026-11-11T00:40 enviado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok 
 - 2026-11-11T00:40 enviado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x 
@@ -66,3 +63,5 @@ Actualizado: 11/11/2026 07:03 (hora AR) · ACTIVO
 - 2026-11-11T10:03 programado web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f|x 
 - 2026-11-11T10:03 programado web:8bcf2503-f895-462b-af3a-dffcba6750bb|x 
 - 2026-11-11T10:03 programado web:068e6bfd-d4fc-4da5-b74a-c047d3f42067|x 
+- 2026-11-11T10:20 enviado web:9c2673f5-3976-4a53-b1e8-0746d539c8b0|x 
+- 2026-11-11T10:20 programado web:9869ea43-5e12-4498-bdb2-3cb48381f45a|x 
