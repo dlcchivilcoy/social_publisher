@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 11/11/2026 07:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 6 | 6 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 7 | 5 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -17,29 +17,27 @@ Actualizado: 11/11/2026 07:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 25 con métricas · mediana vistas/impresiones 25 · likes 0
-- X · Reels del bot: 16 con métricas · mediana vistas/impresiones 31 · likes 0
-- X · Reels policiales: 15 con métricas · mediana vistas/impresiones 40 · likes 0
-- X · Notas web: 81 con métricas · mediana vistas/impresiones 18 · likes 0
-- TikTok · Recortes de entrevistas: 25 con métricas · mediana vistas/impresiones 147 · likes 1
-- TikTok · Reels del bot: 22 con métricas · mediana vistas/impresiones 490 · likes 5
+- X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 24.5 · likes 0
+- X · Reels del bot: 17 con métricas · mediana vistas/impresiones 31 · likes 0
+- X · Reels policiales: 17 con métricas · mediana vistas/impresiones 43 · likes 0
+- X · Notas web: 96 con métricas · mediana vistas/impresiones 18 · likes 0
+- TikTok · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 146 · likes 1
+- TikTok · Reels del bot: 23 con métricas · mediana vistas/impresiones 448 · likes 5
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (5 esperando)
 - X · Notas web · Comienza una nueva fase de trabajos que permitirá prontamente habilitar el uso d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Destacado Subcampeonato para Francisco Britos En el AJPP 4.000 de Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Clausura de la Asociación de Chivilcoy: Bragado Club goleó a Argentino y  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: El básquet femenino de Argentino vive un gran momento: punteras invic — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: El Olimpo se quedó con la fase regular y ya avisa en la liguilla: Así — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Independiente festejó los 30 años de su Escuelita de Fútbol Infantil con un emot — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T00:40 enviado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok 
 - 2026-11-11T00:40 enviado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x 
 - 2026-11-11T00:40 enviado policiales:https://casaresonline.com.ar/alberti-encontraron- 
 - 2026-11-11T01:20 vencido policiales:https://www.latrochadigital.com.ar/2026/11/10/mec espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -64,3 +62,4 @@ Actualizado: 11/11/2026 07:40 (hora AR) · ACTIVO
 - 2026-11-11T10:20 enviado web:9c2673f5-3976-4a53-b1e8-0746d539c8b0|x 
 - 2026-11-11T10:20 programado web:9869ea43-5e12-4498-bdb2-3cb48381f45a|x 
 - 2026-11-11T10:40 programado web:21db22f9-b141-462c-b83c-6c1174b09194|x 
+- 2026-11-11T11:00 programado web:ecbd39ca-e8d6-4701-920e-b903cf03fc41|x 
