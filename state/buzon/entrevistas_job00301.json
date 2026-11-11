@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00301",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-11-11T18:01:00.000Z",
+ "titulo": "Ricardo Watson: el film sobre Malvinas en el Festival Raices",
+ "descripcion": "Ricardo Watson, organizador del Festival Internacional de Cine Raices en Chivilcoy, reflexionó sobre una película que retrata el conflicto de Malvinas desde una mirada incómoda para el espectador argentino.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00301.mp4",
+ "duracion_seg": null,
+ "espera_youtube_publico": {
+  "short": "xFvx6KSUBew",
+  "largo": "ICQs274511c"
+ },
+ "youtube_url": "https://youtube.com/shorts/xFvx6KSUBew",
+ "prioridad": 7,
+ "entrevistado": "Jorge Russo",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
