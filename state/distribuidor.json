@@ -5511,6 +5511,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/automovilismo-chivilcoy-ameghino-presento-el-gran-premio-coronacion",
    "volanta": "Automovilismo"
+  },
+  "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7": {
+   "categoria": "",
+   "descripcion": "Gimnasia venció a Sportivo 25 de Mayo por el Torneo Clausura Por la decimotercera fecha del Torneo Clausura de Primera División, Sportivo 25 de Mayo recibió a Gimnasia. Fue triunfo de la visita por 75 a 60, ganando el juego de principio a fin, y sigue en la tercera posición de la tabla a falta de una fecha para terminar la fase regular. Mañana se completa la fecha, donde Racing recibirá al puntero e invicto Colón. Fotos de los destacados del partido.",
+   "generado": "2026-11-11T12:51:18.464Z",
+   "id": "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_540099009b8047fa91013d2ccf7157a4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-deportes-gimnasia-vencio-a-sportivo-25-de-mayo-por-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Gimnasia venció a Sportivo 25 de Mayo por el Torneo Clausura",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/25-de-mayo-deportes-gimnasia-vencio-a-sportivo-25-de-mayo-por-el",
+   "volanta": "25 de Mayo · Deportes"
   }
  },
  "cuota": {
@@ -16347,23 +16366,37 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
+  },
+  "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7|x": {
+   "actualizado": "2026-11-11T13:00:23.000Z",
+   "buffer_id": "6af466e8803e026988149249",
+   "clave": "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7|x",
+   "creado": "2026-11-11T13:00:20.000Z",
+   "dueAt": "2026-11-11T13:52:22.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-11T12:51:18.464Z",
+   "id": "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-deportes-gimnasia-vencio-a-sportivo-25-de-mayo-por-el",
+   "noticia": "nota:25-de-mayo-deportes-gimnasia-vencio-a-sportivo-25-de-mayo-por-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Gimnasia venció a Sportivo 25 de Mayo por el Torneo Clausura\n\nEl equipo visitante ganó por 75 a 60 en la decimotercera fecha. Con este resultado, se mantiene en la tercera posición a falta de una jornada para terminar la fase regular.\n\nhttps://www.diariolacampaña.com.ar/n/25-de-mayo-deportes-gimnasia-vencio-a-sportivo-25-de-mayo-por-el",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Gimnasia venció a Sportivo 25 de Mayo por el Torneo Clausura",
+   "urgente": false,
+   "vence": "2026-11-11T16:51:18.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   }
  },
  "registro": [
-  {
-   "clave": "web:fc88e805-cd8e-4eaf-afdb-62cab8e762ea|x",
-   "cuando": "2026-11-04T15:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:fc88e805-cd8e-4eaf-afdb-62cab8e762ea|x",
-   "cuando": "2026-11-04T15:00:22.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "bot:video_matias-zucchi_mw26abtnyx2d_01.mp4|x",
    "cuando": "2026-11-04T15:00:23.000Z",
@@ -20512,11 +20545,25 @@
    "cuando": "2026-11-11T12:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120492501169541419"
+  },
+  {
+   "clave": "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7|x",
+   "cuando": "2026-11-11T13:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6af466e8803e026988149249",
+   "clave": "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7|x",
+   "cuando": "2026-11-11T13:00:24.000Z",
+   "dueAt": "2026-11-11T13:52:22.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-01 10",
    "2026-11-01 18",
    "2026-11-01 21",
    "2026-11-02 10",
@@ -20545,7 +20592,8 @@
    "2026-11-09 21",
    "2026-11-10 10",
    "2026-11-10 18",
-   "2026-11-10 21"
+   "2026-11-10 21",
+   "2026-11-11 10"
   ]
  },
  "ultima_limpieza_release": "2026-11-11",
@@ -21826,6 +21874,7 @@
   "web:fc96942b-6c78-4670-b75b-1a17d5b07537": "2026-11-06T10:02:35.000Z",
   "web:fcc38531-e614-4892-a005-314730e4df18": "2026-10-19T09:00:17.000Z",
   "web:fe8f1548-d224-494b-8549-4bd21362e5b3": "2026-10-20T12:20:18.000Z",
+  "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7": "2026-11-11T13:00:20.000Z",
   "web:ff2853a5-e6da-4760-9b15-060f61d644a1": "2026-10-22T10:02:31.000Z",
   "web:ff3c7f3c-fc54-48ee-b7db-8d5655be4ef3": "2026-10-19T02:00:17.000Z",
   "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b": "2026-10-29T10:20:14.000Z",
