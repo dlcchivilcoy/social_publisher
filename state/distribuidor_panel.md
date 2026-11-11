@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 10/11/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 10/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-10)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 10/11/2026 22:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 1 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,14 +27,12 @@ Actualizado: 10/11/2026 22:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- X · Reels policiales · Encontraron un cadáver desmembrado en un canal y hay dos demorados — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-10T19:40 enviado entrevistas:job00298|x 
 - 2026-11-10T21:00 programado entrevistas:job00298|tiktok 
 - 2026-11-10T21:00 programado entrevistas:job00297|tiktok 
 - 2026-11-10T21:00 programado entrevistas:job00296|tiktok 
@@ -59,3 +57,4 @@ Actualizado: 10/11/2026 22:00 (hora AR) · ACTIVO
 - 2026-11-11T00:40 enviado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok 
 - 2026-11-11T00:40 enviado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x 
 - 2026-11-11T00:40 enviado policiales:https://casaresonline.com.ar/alberti-encontraron- 
+- 2026-11-11T01:20 vencido policiales:https://www.latrochadigital.com.ar/2026/11/10/mec espera su momento (se programa cerca de la hora en que sale en las otras redes)
