@@ -80,9 +80,21 @@
     "estado": "pendiente",
     "creado": "2026-11-10T12:15-03:00",
     "intentos": 0,
-    "resultado": {},
-    "salidas": [],
-    "ultima_salida": "",
+    "resultado": {
+      "fb_historia": "2079748676315691",
+      "ig_historia": "18100021553394416"
+    },
+    "salidas": [
+      {
+        "momento": "2026-11-11T08:00-03:00",
+        "ids": {
+          "fb_historia": "2079748676315691",
+          "ig_historia": "18100021553394416"
+        },
+        "fallas": []
+      }
+    ],
+    "ultima_salida": "2026-11-11T08:00-03:00",
     "ultimo_error": ""
   },
   {
