@@ -159,27 +159,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
    "youtube_url": "https://www.youtube.com/shorts/jbMchsApiJk"
   },
-  "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4": {
-   "descripcion": "Representantes de los gremios docentes FEB, SUTEBA y UDOCBA presentaron de manera conjunta una nota con firmas en la sede local de IOMA, con el objetivo de exigir el cumplimiento de las prestaciones de la obra social en Chivilcoy y reclamar por la situación que atraviesan los afiliados.\n\nDurante la presentación, Cristina Bergerot, Emiliano Pellegrino y Fabiana Scandizzo señalaron que los afiliados sufren problemas vinculados a cobros indebidos por parte de prestadores médicos y de la caja radiográfica. En ese sentido, remarcaron que a cada trabajador se le realiza el descuento mensual correspondiente.\n\nLos dirigentes sostuvieron que la falencia se concentra en los prestadores locales, a diferencia de lo que ocurre en distritos como Junín o La Plata, situación que en ocasiones obliga a los docentes a trasladarse a otras ciudades para recibir atención.\n\nAsimismo, sumaron al reclamo la demora en la efectivización de los reintegros. Explicaron que transcurren varios meses hasta que se concretan los pagos y advirtieron que, al momento de percibirse, los montos quedan totalmente desactualizados, por lo que quedaron a la espera de una respuesta por parte del organismo provincial.",
-   "duracion_seg": 187.6,
-   "generado": "2026-10-30T14:22:57.000Z",
-   "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA",
-   "urgente": false,
-   "video_bytes": 34247235,
-   "video_mb": 32.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_39892404b3b558e4.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/7FaMS1GTlHE"
-  },
   "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4": {
    "descripcion": "El atleta olímpico Luis Molina se impuso en los 21 kilómetros de la vigésimo primera edición de la Media Maratón Eduardo Pollaroli, desarrollada este domingo 1 de noviembre en Chivilcoy.\n\nLa tradicional competencia, organizada por el Círculo de Atletas de Chivilcoy, inició a las 8 y convocó a deportistas de toda la zona. El certamen contó con las pruebas competitivas de 21K y 10K, ambas certificadas por la Confederación Argentina de Atletismo, junto con un recorrido participativo de 5 kilómetros.\n\nEn la distancia de los 10K, la victoria en la categoría masculina quedó en manos de Elías Martínez, oriundo de 9 de Julio, mientras que Rocío Dugo, representante de Chacabuco, se adjudicó la prueba entre las mujeres.\n\nPor su parte, en los 5K, Ignacio Muñoz, de Bragado, cruzó la meta en el primer lugar de la rama de varones y Sofía Ramírez encabezó la clasificación femenina. Con estas marcas y el triunfo destacado de Molina en el trazado principal, la ciudad volvió a ser escenario central para el atletismo regional.",
    "duracion_seg": 44.1,
@@ -6006,45 +5985,6 @@
    "vence": "2026-11-08T01:35:06.000Z",
    "video_bytes": 630904,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok": {
-   "actualizado": "2026-11-01T15:00:19.000Z",
-   "buffer_id": "6ae737ebcf3a3112f3fa3cbf",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4|tiktok",
-   "creado": "2026-10-30T14:40:14.000Z",
-   "dueAt": "2026-11-01T14:03:21.000Z",
-   "enviado": "2026-11-01T14:08:46.490Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-10-30T14:22:57.000Z",
-   "id": "bot:video_matias-zucchi_mvv1wka4v1mr_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7703204491524361473",
-   "metricas": {
-    "averageTimeWatched": 6.34,
-    "comments": 1,
-    "engagementRate": 0.81,
-    "reach": 284,
-    "reactions": 4,
-    "shares": 0,
-    "totalTimeWatched": 75.45,
-    "views": 620
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA\n\nRepresentantes de FEB, SUTEBA y UDOCBA exigieron el cumplimiento de las prestaciones de la obra social en Chivilcoy mediante una nota con firmas. Los dirigentes señalaron cobros indebidos de prestadores locales y demoras en los reintegros.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-gremios-docentes-presentaron-un-reclamo-conjunto\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Gremios docentes presentaron un reclamo conjunto ante la sede de IOMA",
-   "urgente": false,
-   "vence": "2026-11-01T14:22:57.000Z",
-   "video_bytes": 34247235,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_39892404b3b558e4.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mvxuadazuqcf_01.mp4|tiktok": {
