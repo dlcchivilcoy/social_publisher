@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 11/11/2026 10:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 9 | 6 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 13 | 1 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 23 enviadas + 1 programadas de 100 por día
+- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -33,11 +33,6 @@ Actualizado: 11/11/2026 10:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T10:03 programado web:9c2673f5-3976-4a53-b1e8-0746d539c8b0|x 
-- 2026-11-11T10:03 programado web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f|x 
-- 2026-11-11T10:03 programado web:8bcf2503-f895-462b-af3a-dffcba6750bb|x 
-- 2026-11-11T10:03 programado web:068e6bfd-d4fc-4da5-b74a-c047d3f42067|x 
-- 2026-11-11T10:20 enviado web:9c2673f5-3976-4a53-b1e8-0746d539c8b0|x 
 - 2026-11-11T10:20 programado web:9869ea43-5e12-4498-bdb2-3cb48381f45a|x 
 - 2026-11-11T10:40 programado web:21db22f9-b141-462c-b83c-6c1174b09194|x 
 - 2026-11-11T11:00 programado web:ecbd39ca-e8d6-4701-920e-b903cf03fc41|x 
@@ -58,3 +53,8 @@ Actualizado: 11/11/2026 10:20 (hora AR) · ACTIVO
 - 2026-11-11T13:00 programado web:feb532fd-5a81-4f28-a01c-a36a3f475fa7|x 
 - 2026-11-11T13:20 recibido web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e|x 
 - 2026-11-11T13:20 programado web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e|x 
+- 2026-11-11T13:40 depurado web:feb532fd-5a81-4f28-a01c-a36a3f475fa7|x no está en el carrusel del diario de hoy (sacado de Buffer)
+- 2026-11-11T13:40 enviado web:449ee4f0-a73f-443a-ba52-32ad213567fa|x 
+- 2026-11-11T13:40 enviado web:51d406e0-8d07-4bc1-b1c2-9567feb03776|x 
+- 2026-11-11T13:40 enviado web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4|x 
+- 2026-11-11T13:40 enviado web:f0f64009-e880-45a2-9552-b15ed75817f2|x 

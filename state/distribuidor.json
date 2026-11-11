@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-11T12:40:15.000Z"
+   "visto": "2026-11-11T13:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
+    "scheduled": 0,
     "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-11T12:40:15.000Z"
+   "visto": "2026-11-11T13:40:15.000Z"
   }
  },
  "contenidos": {
@@ -12266,19 +12266,20 @@
    "viral": false
   },
   "web:449ee4f0-a73f-443a-ba52-32ad213567fa|x": {
-   "actualizado": "2026-11-11T11:40:14.000Z",
+   "actualizado": "2026-11-11T13:40:15.000Z",
    "buffer_id": "6af4541ea197a2c4d579f10d",
    "clave": "web:449ee4f0-a73f-443a-ba52-32ad213567fa|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T12:52:47.000Z",
+   "enviado": "2026-11-11T12:53:01.864Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:01:52.898Z",
    "id": "web:449ee4f0-a73f-443a-ba52-32ad213567fa",
    "ig_hora": "2026-11-11T12:52:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120500041408262635",
    "nota_url": "https://www.diariolacampaña.com.ar/n/primera-division-y-formativas-chivilcoy-el-basquet-femenino-de",
    "noticia": "nota:primera-division-y-formativas-chivilcoy-el-basquet-femenino-de",
    "origen": "web",
@@ -12360,19 +12361,20 @@
    "viral": false
   },
   "web:51d406e0-8d07-4bc1-b1c2-9567feb03776|x": {
-   "actualizado": "2026-11-11T12:00:18.000Z",
+   "actualizado": "2026-11-11T13:40:15.000Z",
    "buffer_id": "6af458d32c0a5da5340732fe",
    "clave": "web:51d406e0-8d07-4bc1-b1c2-9567feb03776|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T13:22:15.000Z",
+   "enviado": "2026-11-11T13:22:16.200Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:02:01.263Z",
    "id": "web:51d406e0-8d07-4bc1-b1c2-9567feb03776",
    "ig_hora": "2026-11-11T13:22:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120507399974834631",
    "nota_url": "https://www.diariolacampaña.com.ar/n/padel-destacado-subcampeonato-para-francisco-britos-en-el-ajpp-4-000",
    "noticia": "nota:padel-destacado-subcampeonato-para-francisco-britos-en-el-ajpp-4-000",
    "origen": "web",
@@ -14247,19 +14249,20 @@
    "viral": false
   },
   "web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4|x": {
-   "actualizado": "2026-11-11T11:40:14.000Z",
+   "actualizado": "2026-11-11T13:40:15.000Z",
    "buffer_id": "6af4541f9494b43fade73643",
    "clave": "web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T13:07:16.000Z",
+   "enviado": "2026-11-11T13:08:07.839Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:01:57.486Z",
    "id": "web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4",
    "ig_hora": "2026-11-11T13:07:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120503841296625813",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-torneo-clausura-de-la-asociacion-de-chivilcoy-bragado-club",
    "noticia": "nota:basquet-torneo-clausura-de-la-asociacion-de-chivilcoy-bragado-club",
    "origen": "web",
@@ -16163,19 +16166,20 @@
    "viral": false
   },
   "web:f0f64009-e880-45a2-9552-b15ed75817f2|x": {
-   "actualizado": "2026-11-11T12:20:13.000Z",
+   "actualizado": "2026-11-11T13:40:15.000Z",
    "buffer_id": "6af45d7d24197454719a66d7",
    "clave": "web:f0f64009-e880-45a2-9552-b15ed75817f2|x",
    "creado": "2026-11-11T10:02:35.000Z",
    "dueAt": "2026-11-11T13:37:48.000Z",
+   "enviado": "2026-11-11T13:38:04.157Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-11T10:02:08.776Z",
    "id": "web:f0f64009-e880-45a2-9552-b15ed75817f2",
    "ig_hora": "2026-11-11T13:37:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120511375663362257",
    "nota_url": "https://www.diariolacampaña.com.ar/n/polideportivo-av-84-comienza-una-nueva-fase-de-trabajos-que-permitira",
    "noticia": "nota:polideportivo-av-84-comienza-una-nueva-fase-de-trabajos-que-permitira",
    "origen": "web",
@@ -16371,14 +16375,14 @@
    "viral": false
   },
   "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7|x": {
-   "actualizado": "2026-11-11T13:00:23.000Z",
+   "actualizado": "2026-11-11T13:40:15.000Z",
    "buffer_id": "6af466e8803e026988149249",
    "clave": "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7|x",
    "creado": "2026-11-11T13:00:20.000Z",
    "dueAt": "2026-11-11T13:52:22.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-11T12:51:18.464Z",
    "id": "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7",
    "intentos": 0,
@@ -16400,41 +16404,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:bcc71360-9f79-4290-9d68-9770c7fb87ac|x",
-   "cuando": "2026-11-04T15:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:bcc71360-9f79-4290-9d68-9770c7fb87ac|x",
-   "cuando": "2026-11-04T15:40:19.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "entrevistas:job00275",
-   "cuando": "2026-11-04T17:00:24.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00275|x",
-   "cuando": "2026-11-04T17:00:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00275|tiktok",
-   "cuando": "2026-11-04T17:00:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "buffer_id": "6aeb64aeb60af5ca1677648c",
    "clave": "entrevistas:job00275|x",
@@ -20566,6 +20535,36 @@
    "cuando": "2026-11-11T13:20:21.000Z",
    "dueAt": "2026-11-11T14:07:31.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7|x",
+   "cuando": "2026-11-11T13:40:15.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "clave": "web:449ee4f0-a73f-443a-ba52-32ad213567fa|x",
+   "cuando": "2026-11-11T13:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120500041408262635"
+  },
+  {
+   "clave": "web:51d406e0-8d07-4bc1-b1c2-9567feb03776|x",
+   "cuando": "2026-11-11T13:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120507399974834631"
+  },
+  {
+   "clave": "web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4|x",
+   "cuando": "2026-11-11T13:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120503841296625813"
+  },
+  {
+   "clave": "web:f0f64009-e880-45a2-9552-b15ed75817f2|x",
+   "cuando": "2026-11-11T13:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120511375663362257"
   }
  ],
  "tandas": {
@@ -20603,7 +20602,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-11",
- "ultima_sync": "2026-11-11T12:40:15.000Z",
+ "ultima_sync": "2026-11-11T13:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
