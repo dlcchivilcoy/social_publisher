@@ -40338,5 +40338,62 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-11-10T20:51:09",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-11-11_matias-zucchi_mwc46k7f2arb",
+    "uploader": "",
+    "fecha_recibido": "2026-11-11T09:51:09",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "25 de Mayo · Deportes",
+    "titulo": "Gimnasia venció a Sportivo 25 de Mayo por el Torneo Clausura",
+    "resumen": "Por la decimotercera fecha del Torneo Clausura de Primera División, Sportivo 25 de Mayo recibió a Gimnasia. Fue triunfo de la visita por 75 a 60, ganando el juego de principio a fin, y sigue en la tercera posición de la tabla a falta de una fecha para terminar la fase regular.",
+    "texto": "Por la decimotercera fecha del Torneo Clausura de Primera División, Sportivo 25 de Mayo recibió a Gimnasia.\n\nFue triunfo de la visita por 75 a 60, ganando el juego de principio a fin, y sigue en la tercera posición de la tabla a falta de una fecha para terminar la fase regular. Mañana se completa la fecha, donde Racing recibirá al puntero e invicto Colón.\n\nFotos de los destacados del partido.",
+    "bajada_reel": "El Lobo se impuso por 75 a 60 y se mantiene en la tercera posición.",
+    "escrito": "POR LA DECIMA TERCERA FECHA DEL TORNEO CLAUSURA DE PRIMERA DIVISION SPORTIVO 25 DE MAYO RECIBIO A GIMNASIA.\nFUE TRIUNFO DE LA VISITA POR 75 A 60 GANANDO EL JUEGO DE PRINCIPIO A FIN Y SIGUE EN LA TERCERA POSICION DE LA TABLA A FALTA DE UNA FECHA DE TERMINAR LA FASE REGULAR. MAÑANA SE COMPLETA LA FECHA DONDE RACING RECIBIRA AL PUNTERO E INVICTO COLON.\nFOTOS DE LOS DESTACADOS DEL PARTIDO.",
+    "tarjetas_fotos": [],
+    "draft_id": "feb532fd-5a81-4f28-a01c-a36a3f475fa7",
+    "reel_url": "",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-11T12:47:44.959Z — wa:5492346417636",
+    "decl": null,
+    "formato": "carrusel",
+    "tema_carrusel": "grafito",
+    "laminas": [
+      {
+        "titulo": "Victoria de Gimnasia de visitante",
+        "texto": "Por la decimotercera fecha del Torneo Clausura de Primera División, Sportivo 25 de Mayo recibió a Gimnasia. Fue triunfo de la visita por 75 a 60, ganando el juego de principio a fin."
+      },
+      {
+        "titulo": "Tercera posición en la tabla",
+        "texto": "Sigue en la tercera posición de la tabla a falta de una fecha para terminar la fase regular."
+      },
+      {
+        "titulo": "Cómo se completa la fecha",
+        "texto": "Mañana se completa la fecha, donde Racing recibirá al puntero e invicto Colón."
+      }
+    ],
+    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_08ddcb000f264983a68140a50e5dc470~mv2.jpg",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-11-11T09:52:52",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "ok",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/25-de-mayo-deportes-gimnasia-vencio-a-sportivo-25-de-mayo-por-el",
+    "ig_media_id": "18115710338166326",
+    "fb_video_id": "",
+    "ig_historia_id": "18137312269580785",
+    "fb_historia_id": "1437876137920048",
+    "fb_post_id": "1456376377985890_2088204592121166"
   }
 ]
