@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 11/11/2026 16:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (6 esperando)
+- TikTok · Recortes de entrevistas · Juan Bayona: "En la impro brilla el grupo" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Eduardo Parysow: 1 de cada 8 personas tendrá diabetes en Argentina — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Ricardo Watson: el film sobre Malvinas en el Festival Raices — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Ariel Ivaldi: sábados del 2027 ocupados y turnos de fábrica — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -38,10 +39,6 @@ Actualizado: 11/11/2026 16:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T14:00 programado web:dcf40e93-0805-42f1-9ed0-237091519937|x 
-- 2026-11-11T14:20 recibido bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4|x la misma noticia ya sale en X (Notas web, enviado)
-- 2026-11-11T14:20 recibido bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4|tiktok 
-- 2026-11-11T14:40 enviado web:dcf40e93-0805-42f1-9ed0-237091519937|x 
 - 2026-11-11T15:40 recibido web:4b476f07-db25-4822-9855-43803cb938df|x 
 - 2026-11-11T15:40 depurado web:4b476f07-db25-4822-9855-43803cb938df|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-11T17:00 entrevista_aprobada entrevistas:job00299 
@@ -63,3 +60,7 @@ Actualizado: 11/11/2026 16:00 (hora AR) · ACTIVO
 - 2026-11-11T18:40 enviado entrevistas:job00300|x 
 - 2026-11-11T18:40 enviado entrevistas:job00301|x 
 - 2026-11-11T18:40 programado entrevistas:job00302|x 
+- 2026-11-11T19:20 entrevista_aprobada entrevistas:job00303 
+- 2026-11-11T19:20 recibido entrevistas:job00303|x 
+- 2026-11-11T19:20 recibido entrevistas:job00303|tiktok 
+- 2026-11-11T19:20 programado entrevistas:job00303|x 
