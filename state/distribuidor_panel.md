@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 11/11/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 5 | 7 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 6 | 6 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,20 +27,18 @@ Actualizado: 11/11/2026 07:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (7 esperando)
+## Cola propia (6 esperando)
 - X · Notas web · Comienza una nueva fase de trabajos que permitirá prontamente habilitar el uso d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Destacado Subcampeonato para Francisco Britos En el AJPP 4.000 de Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Clausura de la Asociación de Chivilcoy: Bragado Club goleó a Argentino y  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: El básquet femenino de Argentino vive un gran momento: punteras invic — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: El Olimpo se quedó con la fase regular y ya avisa en la liguilla: Así — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Independiente festejó los 30 años de su Escuelita de Fútbol Infantil con un emot — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: La caminata como estrategia clínica para trascender los límites del c — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T00:00 programado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok 
 - 2026-11-11T00:40 enviado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok 
 - 2026-11-11T00:40 enviado bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x 
 - 2026-11-11T00:40 enviado policiales:https://casaresonline.com.ar/alberti-encontraron- 
@@ -65,3 +63,4 @@ Actualizado: 11/11/2026 07:20 (hora AR) · ACTIVO
 - 2026-11-11T10:03 programado web:068e6bfd-d4fc-4da5-b74a-c047d3f42067|x 
 - 2026-11-11T10:20 enviado web:9c2673f5-3976-4a53-b1e8-0746d539c8b0|x 
 - 2026-11-11T10:20 programado web:9869ea43-5e12-4498-bdb2-3cb48381f45a|x 
+- 2026-11-11T10:40 programado web:21db22f9-b141-462c-b83c-6c1174b09194|x 
