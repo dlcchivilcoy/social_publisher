@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 07:04 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 12/11/2026 07:04 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 6 | 9 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 6 | 8 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 20 enviadas + 5 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 24.5 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 12/11/2026 07:04 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (9 esperando)
 - X · Notas web · Chivilcoy brilló en el Parque Olímpico y cerró el año a puro podio en patín artí — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · El chivilcoyano Simón Domínguez y un gran comienzo con la Selección Argentina Ju — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Ciclista Juninense, con el chivilcoyano Alejo Barrales como estandarte, busca re — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -36,15 +36,12 @@ Actualizado: 12/11/2026 07:04 (hora AR) · ACTIVO
 - X · Notas web · Chivilcoy: Torneo Federal ‘A’: se definen los semifinalistas por el segundo asce — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Alicia Ríos presentó el libro sobre la historia de la Logia ‘Luz del  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · ‘Una vida sobre ruedas’: Cristina Bracco presentó su libro “Yo me parí” — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: El Lumière Quinteto regresa a la Sociedad Francesa con invitados de l — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T00:40 enviado policiales:https://www.lamanana.com.ar/unos-35-efectivos-pol 
-- 2026-11-12T01:20 vencido policiales:https://www.junindigital.com/policiales/2026-11-1 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-12T02:00 recibido web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x 
 - 2026-11-12T02:00 depurado web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-12T10:02 recibido web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x 
@@ -68,3 +65,5 @@ Actualizado: 12/11/2026 07:04 (hora AR) · ACTIVO
 - 2026-11-12T10:04 programado web:715ed60b-7e27-4f93-b061-3e96c07992e4|x 
 - 2026-11-12T10:04 programado web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b|x 
 - 2026-11-12T10:04 programado web:a64ce084-265d-420e-aab2-c9ecfce66084|x 
+- 2026-11-12T10:20 enviado web:a1327fb9-b591-4f76-841c-f71a579fcd51|x 
+- 2026-11-12T10:20 programado web:38185935-c480-4780-9b62-2a630fd62c5f|x 

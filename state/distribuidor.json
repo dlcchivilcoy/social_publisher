@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 7
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-12T00:40:17.000Z"
+   "visto": "2026-11-12T10:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 23
+    "scheduled": 5,
+    "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-12T00:40:17.000Z"
+   "visto": "2026-11-12T10:20:14.000Z"
   }
  },
  "contenidos": {
@@ -12711,14 +12711,14 @@
    "viral": false
   },
   "web:38185935-c480-4780-9b62-2a630fd62c5f|x": {
-   "actualizado": "2026-11-12T10:02:44.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-12T10:20:14.000Z",
+   "buffer_id": "6af592de49bcfed3aa760229",
    "clave": "web:38185935-c480-4780-9b62-2a630fd62c5f|x",
    "creado": "2026-11-12T10:02:44.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-12T11:37:07.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-12T10:01:20.107Z",
    "id": "web:38185935-c480-4780-9b62-2a630fd62c5f",
    "ig_hora": "2026-11-12T11:37:32.000Z",
@@ -15180,19 +15180,20 @@
    "viral": false
   },
   "web:a1327fb9-b591-4f76-841c-f71a579fcd51|x": {
-   "actualizado": "2026-11-12T10:04:04.000Z",
+   "actualizado": "2026-11-12T10:20:14.000Z",
    "buffer_id": "6af58f15100f73160cc4dbf3",
    "clave": "web:a1327fb9-b591-4f76-841c-f71a579fcd51|x",
    "creado": "2026-11-12T10:02:44.000Z",
    "dueAt": "2026-11-12T10:07:10.000Z",
+   "enviado": "2026-11-12T10:07:16.083Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T10:00:52.754Z",
    "id": "web:a1327fb9-b591-4f76-841c-f71a579fcd51",
    "ig_hora": "2026-11-12T10:07:32.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120820714118713534",
    "nota_url": "https://www.diariolacampaña.com.ar/n/caidas-golpes-y-dudas-chivilcoy-dos-jovenes-permanecen-internados-en",
    "noticia": "nota:caidas-golpes-y-dudas-chivilcoy-dos-jovenes-permanecen-internados-en",
    "origen": "web",
@@ -17439,20 +17440,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed|x",
-   "cuando": "2026-11-05T16:20:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed|x",
-   "cuando": "2026-11-05T16:20:32.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "entrevistas:job00279",
    "cuando": "2026-11-05T16:40:16.000Z",
@@ -21615,6 +21602,19 @@
    "cuando": "2026-11-12T10:04:07.000Z",
    "dueAt": "2026-11-12T11:22:03.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:a1327fb9-b591-4f76-841c-f71a579fcd51|x",
+   "cuando": "2026-11-12T10:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120820714118713534"
+  },
+  {
+   "buffer_id": "6af592de49bcfed3aa760229",
+   "clave": "web:38185935-c480-4780-9b62-2a630fd62c5f|x",
+   "cuando": "2026-11-12T10:20:14.000Z",
+   "dueAt": "2026-11-12T11:37:07.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21652,7 +21652,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-12",
- "ultima_sync": "2026-11-12T00:40:17.000Z",
+ "ultima_sync": "2026-11-12T10:20:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
