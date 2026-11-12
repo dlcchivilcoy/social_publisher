@@ -1209,32 +1209,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00303_r1.mp4",
    "youtube_url": "https://youtu.be/_q5zPr2PYYg"
   },
-  "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": {
-   "categoria": "robo",
-   "descripcion": "Solicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.",
-   "distancia_km": 99.4,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-01T23:01:18.000Z",
-   "id": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus",
-   "localidad": "9 de Julio",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-piden-colaboracion-para-identificar-a-los-autores-de-9ca5b0",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 5,
-   "radio_ok": true,
-   "texto_tiktok": "Se solicita colaboración a la comunidad para identificar a los responsables de un robo cometido en las instalaciones de la Terminal de Ómnibus de 9 de Julio.\n\nDesde el medio local difundieron el pedido para dar con los autores del ilícito que es materia de investigación.\n\nCualquier información útil puede ser aportada a las autoridades policiales para esclarecer lo sucedido en el predio.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Robo #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Robo en la Terminal de Ómnibus de 9 de Julio",
-   "urgente": false,
-   "video_bytes": 89284,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_05_9-de-julio_robo-en-la-terminal-de-mnibus-.mp4",
-   "volanta": "Robo en 9 de Julio",
-   "youtube_url": "https://youtube.com/shorts/nDNWk0FHbKk"
-  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -9806,34 +9780,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00303.mp4",
    "viral": false
   },
-  "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x": {
-   "actualizado": "2026-11-02T01:20:13.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus|x",
-   "creado": "2026-11-01T23:20:16.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-01T23:01:18.000Z",
-   "id": "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-piden-colaboracion-para-identificar-a-los-autores-de-9ca5b0",
-   "noticia": "nota:9-de-julio-piden-colaboracion-para-identificar-a-los-autores-de-9ca5b0",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 5,
-   "texto": "Robo en la Terminal de Ómnibus de 9 de Julio\n\nSolicitan colaboración a la comunidad para identificar a los responsables de un ilícito registrado en la Terminal de Ómnibus de la ciudad. Investigan las circunstancias del hecho.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-piden-colaboracion-para-identificar-a-los-autores-de-9ca5b0",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Robo en la Terminal de Ómnibus de 9 de Julio",
-   "urgente": false,
-   "vence": "2026-11-02T01:01:18.000Z",
-   "video_bytes": 89284,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_05_9-de-julio_robo-en-la-terminal-de-mnibus-.mp4",
-   "viral": false
-  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
    "actualizado": "2026-11-11T00:40:17.000Z",
    "buffer_id": "6af3b0230b1f930b454e2bda",
@@ -11008,14 +10954,14 @@
    "viral": false
   },
   "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor|x": {
-   "actualizado": "2026-11-11T23:20:14.000Z",
+   "actualizado": "2026-11-12T01:20:17.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor|x",
    "creado": "2026-11-11T23:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-11T23:01:20.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor",
    "intentos": 0,
@@ -16924,12 +16870,6 @@
  },
  "registro": [
   {
-   "clave": "web:93908f78-67cb-4a45-a902-712d32f96cb3|x",
-   "cuando": "2026-11-05T10:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118291676863103009"
-  },
-  {
    "clave": "web:969326c4-49d1-4610-b2d3-40abe436dfc7|x",
    "cuando": "2026-11-05T10:40:15.000Z",
    "evento": "enviado",
@@ -21071,6 +21011,12 @@
    "cuando": "2026-11-12T00:40:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120674761051115652"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor|x",
+   "cuando": "2026-11-12T01:20:17.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
@@ -21620,8 +21566,6 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html": "2026-11-09T23:40:15.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e": "2026-10-15T18:00:21.000Z",
-  "policiales:https://www.diariodemocracia.com/policiales/346438-aprehendieron-a-un-hombre-de-70-anos-tras-agredir": "2026-10-13T01:00:18.000Z",
-  "policiales:https://www.diariodemocracia.com/policiales/346440-un-incendio-afecto-un-galpon-de-la-empresa-amerisu": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346451-una-adolescente-de-15-anos-sufrio-una-fractura-de": "2026-10-13T15:20:18.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346476-recuperaron-en-junin-una-moto-robada-en-lincoln-do": "2026-10-13T19:00:18.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346484-un-automovil-fue-consumido-por-las-llamas-en-la-vi": "2026-10-13T23:00:20.000Z",
@@ -21643,13 +21587,11 @@
   "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co": "2026-11-05T23:20:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347689-un-joven-fue-aprehendido-con-cocaina-durante-un-op": "2026-11-06T22:20:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347738-causa-por-usurpacion-en-calle-paso-aprehendieron-a": "2026-11-07T22:20:13.000Z",
-  "policiales:https://www.diariojunin.com/noticias/102795_amenaz-a-su-expareja-y-termin-aprehendido.html": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.diariojunin.com/noticias/102816_detuvieron-a-quotpap-quot-to-de-quotpequeo-j-quot.html": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html": "2026-10-17T01:20:16.000Z",
   "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html": "2026-10-17T01:20:16.000Z",
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.diarionoticiaspehuajo.com/2026-10-15/homicidio-de-hugo-juarez-la-ddi-confirmo-que-el-detenido-tiene-27-anos-y-que-existiria-un-conflicto-por-posibles-deudas-43216/": "2026-10-15T14:00:19.000Z",
-  "policiales:https://www.distritointerior.com.ar/hoy/218791/el-cpr-general-pinto-logro-la-recuperacion-de-todo-el-ganado-que-habian-sustraido-en-un-campo-cercano-a-germania": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.distritointerior.com.ar/hoy/218838/general-villegas-moto-y-camion-protagonizaron-un-grave-accidente": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido": "2026-10-17T01:20:16.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-13-12-20-0-violenta-pelea-en-junin-cuatro-aprehendidos-y-secuestro-de-armas-blancas-un-hacha-y-canos": "2026-10-13T19:00:18.000Z",
@@ -21688,7 +21630,6 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/": "2026-11-10T23:20:14.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
-  "policiales:https://www.noticiaslasflores.com.ar/policiales/tragedia-laboral-en-la-region-murio-electrocutado-un-operario-de-la-cooperativa-electrica-de-bolivar/": "2026-10-13T01:00:18.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/un-trabajador-murio-aplastado-por-toneladas-de-maiz-dentro-de-un-silo/": "2026-10-14T18:00:18.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/13/22488-el-agua-complica-la-siembra-en-daireaux-la-napa-esta-en-situacion-de-inundacion": "2026-10-14T02:20:13.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica": "2026-10-16T00:00:21.000Z",

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 11/11/2026 22:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 2 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 1 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,13 @@ Actualizado: 11/11/2026 22:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - TikTok · Reels del bot · Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Detuvieron a un joven de 21 años tras una persecución y hallaron una moto robada — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T21:00 programado entrevistas:job00303-r1|tiktok 
 - 2026-11-11T21:00 programado entrevistas:job00303|tiktok 
 - 2026-11-11T21:00 programado entrevistas:job00302|tiktok 
 - 2026-11-11T21:00 programado entrevistas:job00301|tiktok 
@@ -60,3 +58,4 @@ Actualizado: 11/11/2026 22:00 (hora AR) · ACTIVO
 - 2026-11-12T00:20 programado policiales:https://www.lamanana.com.ar/unos-35-efectivos-pol 
 - 2026-11-12T00:40 enviado bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x 
 - 2026-11-12T00:40 enviado policiales:https://www.lamanana.com.ar/unos-35-efectivos-pol 
+- 2026-11-12T01:20 vencido policiales:https://www.junindigital.com/policiales/2026-11-1 espera su momento (se programa cerca de la hora en que sale en las otras redes)
