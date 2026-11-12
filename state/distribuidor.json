@@ -5094,6 +5094,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dia-del-empleado-municipal-chivilcoy-anuncio-de-un-bono-de-100-000",
    "volanta": "Día del Empleado Municipal"
   },
+  "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Guillermo Britos recibió a Leonardo Nardini con eje en la gestión En una jornada marcada por el intercambio de experiencias de gestión y definiciones políticas de cara al escenario electoral de 2027, el intendente de Chivilcoy, Guillermo Britos, recibió en su distrito a su par de Malvinas Argentinas, Leonardo Nardini. Durante el encuentro, ambos jefes comunales coincidieron en la necesidad de priorizar el diálogo interjurisdiccional por encima de las pertenencias partidarias. A...",
+   "generado": "2026-11-12T21:49:29.486Z",
+   "id": "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0b9ba4a9173b4dbfa1f22dda1f7806c2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-guillermo-britos-recibio-a-leonardo",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Guillermo Britos recibió a Leonardo Nardini con eje en la gestión",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-chivilcoy-guillermo-britos-recibio-a-leonardo",
+   "volanta": "Chivilcoy · Política"
+  },
   "web:c8022409-4d8f-45ba-a34f-1011272f6310": {
    "categoria": "",
    "descripcion": "Chivilcoy: Alicia Ríos presentó el libro sobre la historia de la Logia ‘Luz del Oeste N° 55’ Con un salón colmado en el auditorio “Oscar Lachavanne”, la museóloga Alicia Iris Ríos lanzó su obra sobre el pasado masónico en Chivilcoy. Durante el acto, que combinó el rigor histórico con intervenciones musicales y reflexiones sobre la prensa local, la autora destacó el valor documental rescatado y la profunda impronta de la institución en el desarrollo civil de la ciudad. En la noche del pasado...",
@@ -16150,6 +16169,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b|x": {
+   "actualizado": "2026-11-12T22:00:23.000Z",
+   "buffer_id": "",
+   "clave": "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b|x",
+   "creado": "2026-11-12T22:00:19.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-12T21:49:29.486Z",
+   "id": "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-guillermo-britos-recibio-a-leonardo",
+   "noticia": "nota:chivilcoy-politica-chivilcoy-guillermo-britos-recibio-a-leonardo",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Guillermo Britos recibió a Leonardo Nardini con eje en la gestión\n\nAmbos jefes comunales coincidieron en priorizar el diálogo interjurisdiccional por encima de las pertenencias partidarias, de cara al escenario electoral de 2027.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-guillermo-britos-recibio-a-leonardo",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Guillermo Britos recibió a Leonardo Nardini con eje en la gestión",
+   "urgente": false,
+   "vence": "2026-11-13T01:49:29.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:c8022409-4d8f-45ba-a34f-1011272f6310|x": {
    "actualizado": "2026-11-12T12:40:16.000Z",
    "buffer_id": "6af5978ddcbfadbe0a70283e",
@@ -17268,22 +17314,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|x",
-   "cuando": "2026-11-06T09:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|tiktok",
-   "cuando": "2026-11-06T09:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:c111ebae-74fb-4af9-b579-9f53a3522b71|x",
    "cuando": "2026-11-06T09:00:25.000Z",
@@ -21430,6 +21460,20 @@
    "cuando": "2026-11-12T21:40:18.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b|x",
+   "cuando": "2026-11-12T22:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b|x",
+   "cuando": "2026-11-12T22:00:23.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22558,6 +22602,7 @@
   "web:c5296d2f-83a9-4c62-8aac-248e918bda5e": "2026-10-22T10:02:31.000Z",
   "web:c546061b-2a6f-44e9-b39f-577c4f187d8e": "2026-10-16T10:20:16.000Z",
   "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab": "2026-10-15T21:40:16.000Z",
+  "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b": "2026-11-12T22:00:19.000Z",
   "web:c636a949-65bd-4d05-988f-93cbad23a411": "2026-10-27T16:20:15.000Z",
   "web:c6470534-4523-4411-a14d-e8390249bc0c": "2026-10-14T10:20:15.000Z",
   "web:c6663899-669a-41de-b04f-299805304e87": "2026-10-18T18:40:13.000Z",
