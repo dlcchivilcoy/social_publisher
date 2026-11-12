@@ -5018,6 +5018,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
    "volanta": "Rescate en altura"
   },
+  "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: APS realizará una jornada de capacitación y prevención sobre diabetes CHIVILCOY.– En el marco del Día Mundial de la Diabetes, que se conmemora cada 14 de noviembre, la Dirección de Atención Primaria de la Salud (APS) llevará adelante una jornada de capacitación y concientización destinada a profesionales de la salud, estudiantes, pacientes y familiares. La actividad tendrá lugar en el Centro Universitario, este viernes 13, a partir de las 9 horas, y estará orientada a brindar...",
+   "generado": "2026-11-12T21:39:17.445Z",
+   "id": "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_85863648a0094f44b999d33dbf1f7788~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: APS realizará una jornada de capacitación y prevención sobre diabetes",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
+   "volanta": "Chivilcoy · Salud"
+  },
   "web:c1ca0123-3aeb-47a8-9a4f-e8e40a17be0f": {
    "categoria": "",
    "descripcion": "Chivilcoy: Sin personas heridas: Jueves marcado por dos voraces incendios en una vivienda y un automóvil CHIVILCOY.– En una jornada de intensa actividad para los servidores públicos locales, la ciudad fue escenario de dos incendios generalizados que requirieron el despliegue de dotaciones de Bomberos Voluntarios para extinguir las llamas y controlar los riesgos. Alrededor de las 19:00 horas del jueves, un voraz incendio tomó por completo una vivienda ubicada en la calle Coronel Suárez N° 573....",
@@ -15990,6 +16009,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149|x": {
+   "actualizado": "2026-11-12T21:40:18.000Z",
+   "buffer_id": "",
+   "clave": "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149|x",
+   "creado": "2026-11-12T21:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-12T21:39:17.445Z",
+   "id": "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
+   "noticia": "nota:chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: APS realizará una jornada de capacitación y prevención sobre diabetes\n\nLa Dirección de Atención Primaria de la Salud hará una actividad en el Centro Universitario para profesionales, pacientes y familiares.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: APS realizará una jornada de capacitación y prevención sobre diabetes",
+   "urgente": false,
+   "vence": "2026-11-13T01:39:17.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:c1ca0123-3aeb-47a8-9a4f-e8e40a17be0f|x": {
    "actualizado": "2026-11-06T11:40:16.000Z",
    "buffer_id": "6aeda615dbada656be0a267b",
@@ -17222,18 +17268,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x",
-   "cuando": "2026-11-06T02:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118520566944530705"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos|x",
-   "cuando": "2026-11-06T02:40:17.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
   {
    "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|x",
    "cuando": "2026-11-06T09:00:24.000Z",
@@ -21382,6 +21416,20 @@
    "cuando": "2026-11-12T21:20:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7707393702511070470"
+  },
+  {
+   "clave": "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149|x",
+   "cuando": "2026-11-12T21:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149|x",
+   "cuando": "2026-11-12T21:40:18.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22147,7 +22195,6 @@
   "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd": "2026-10-26T10:20:14.000Z",
   "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f": "2026-11-10T13:40:15.000Z",
   "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44": "2026-10-22T00:40:17.000Z",
-  "web:3bfe6f30-04e4-4a6c-9f8e-8193c6fc2627": "2026-10-13T21:40:13.000Z",
   "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac": "2026-11-05T22:40:14.000Z",
   "web:3c941a97-4eab-4a35-8a8c-3e11c91cf65e": "2026-10-14T15:20:13.000Z",
   "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980": "2026-10-21T10:20:15.000Z",
@@ -22498,6 +22545,7 @@
   "web:c00bb224-879f-4991-ba6d-b57cef2f5104": "2026-10-24T17:20:15.000Z",
   "web:c07869bb-4b38-46ca-ad18-588d0b35d614": "2026-10-16T15:40:14.000Z",
   "web:c111ebae-74fb-4af9-b579-9f53a3522b71": "2026-11-06T09:00:16.000Z",
+  "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149": "2026-11-12T21:40:14.000Z",
   "web:c1ca0123-3aeb-47a8-9a4f-e8e40a17be0f": "2026-11-06T10:02:35.000Z",
   "web:c47cb128-863f-4d78-97f6-739a46ed4cca": "2026-10-28T10:02:28.000Z",
   "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155": "2026-11-10T10:02:42.000Z",
