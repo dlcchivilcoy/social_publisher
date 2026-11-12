@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 10:40 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 11:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 12/11/2026 10:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 14 | 1 | 3 | 0 | 0 | 0 |
+| Notas web | X | 15 | 14 | 1 | 2 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,14 @@ Actualizado: 12/11/2026 10:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (2 esperando)
 - X · Notas web · Chivilcoy: Racing le quitó el invicto a Deportivo Colón por el Torneo Clausura — cupo diario de Notas web en X completo (15)
 - X · Notas web · El grupo Simec acordó comprar la siderúrgica Acerbrag — cupo diario de Notas web en X completo (15)
-- X · Notas web · Chivilcoy: Un motociclista fue hospitalizado tras chocar con una camioneta — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T10:40 programado web:c8022409-4d8f-45ba-a34f-1011272f6310|x 
 - 2026-11-12T11:20 enviado web:01420ed6-06ac-426a-b80b-a6cc421e4e5e|x 
 - 2026-11-12T11:20 enviado web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b|x 
 - 2026-11-12T11:20 enviado web:69c39de9-a005-4224-84c8-d634ead4dc59|x 
@@ -61,3 +59,4 @@ Actualizado: 12/11/2026 10:40 (hora AR) · ACTIVO
 - 2026-11-12T13:40 enviado web:2c8c4ee8-0fd4-4a9f-ab59-ace34d375557|x 
 - 2026-11-12T13:40 enviado web:814123f9-8cc0-4123-a5ec-ff7775c42341|x 
 - 2026-11-12T13:40 enviado web:b8356399-c1a9-4319-bdf3-d449371f55e1|x 
+- 2026-11-12T14:00 depurado web:b034af07-ddaf-426e-8207-d2724c540524|x no está en el carrusel del diario de hoy
