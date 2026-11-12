@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 12/11/2026 09:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 10 | 5 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,14 +27,12 @@ Actualizado: 12/11/2026 09:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- TikTok · Reels del bot · Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T10:04 programado web:a1327fb9-b591-4f76-841c-f71a579fcd51|x 
 - 2026-11-12T10:04 programado web:01420ed6-06ac-426a-b80b-a6cc421e4e5e|x 
 - 2026-11-12T10:04 programado web:69c39de9-a005-4224-84c8-d634ead4dc59|x 
 - 2026-11-12T10:04 programado web:715ed60b-7e27-4f93-b061-3e96c07992e4|x 
@@ -59,3 +57,4 @@ Actualizado: 12/11/2026 09:40 (hora AR) · ACTIVO
 - 2026-11-12T12:40 enviado web:a64ce084-265d-420e-aab2-c9ecfce66084|x 
 - 2026-11-12T12:40 enviado web:c8022409-4d8f-45ba-a34f-1011272f6310|x 
 - 2026-11-12T12:40 programado web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x 
+- 2026-11-12T13:00 programado bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok 
