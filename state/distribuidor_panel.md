@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 4 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 1 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -28,18 +28,13 @@ Actualizado: 11/11/2026 21:00 (hora AR) · ACTIVO
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
 ## Cola propia (2 esperando)
+- TikTok · Reels del bot · Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Reels policiales · Detuvieron a un joven de 21 años tras una persecución y hallaron una moto robada — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Desplegaron 35 policías de 25 de Mayo en Luján por la visita de un Papa — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T20:00 recibido entrevistas:job00303-r1|x 
-- 2026-11-11T20:00 recibido entrevistas:job00303-r1|tiktok 
-- 2026-11-11T20:00 enviado entrevistas:job00302|x 
-- 2026-11-11T20:00 enviado entrevistas:job00303|x 
-- 2026-11-11T20:00 programado entrevistas:job00303-r1|x 
 - 2026-11-11T21:00 enviado entrevistas:job00303-r1|x 
 - 2026-11-11T21:00 programado bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4|tiktok 
 - 2026-11-11T21:00 programado entrevistas:job00303-r1|tiktok 
@@ -60,3 +55,8 @@ Actualizado: 11/11/2026 21:00 (hora AR) · ACTIVO
 - 2026-11-11T23:40 enviado entrevistas:job00300|tiktok 
 - 2026-11-11T23:40 enviado entrevistas:job00301|tiktok 
 - 2026-11-11T23:40 enviado policiales:https://semanariodejunin.com.ar/nota/76483/crimen 
+- 2026-11-12T00:20 recibido bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x 
+- 2026-11-12T00:20 recibido bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok 
+- 2026-11-12T00:20 recibido web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-12T00:20 programado bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x 
+- 2026-11-12T00:20 programado policiales:https://www.lamanana.com.ar/unos-35-efectivos-pol 

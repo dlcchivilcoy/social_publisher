@@ -432,6 +432,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2ea8a6e8f421079c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/LGdGMzFNhNE"
   },
+  "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4": {
+   "descripcion": "El diácono Matías De La Pérgula y la joven Clara Sosa Barrionuevo tuvieron una destacada participación en la misa que el papa León XIV presidió el miércoles 11 de noviembre en la Plaza Belgrano, frente a la Basílica Nacional de Luján.\n\nLa celebración, organizada con la intervención de la Arquidiócesis de Mercedes-Luján en el marco de la visita papal al país, congregó a fieles de diversas comunidades y contó con una amplia presencia de delegaciones chivilcoyanas que viajaron en colectivo desde la madrugada.\n\nEn la liturgia, De La Pérgula, formado inicialmente en la parroquia San Pedro Apóstol de Chivilcoy, estuvo a cargo de la proclamación del Santo Evangelio a pocos metros del pontífice y lo asistió en distintos tramos de la ceremonia. Por su parte, Sosa Barrionuevo, exalumna del Colegio Misericordia, intervino en la oración de los fieles con una petición por la Iglesia.\n\nLa presencia de la comunidad local en los actos de la visita papal incluyó también al diácono chivilcoyano Esteban Costanzo, quien había participado en la proclamación del Evangelio durante la celebración realizada previamente en la Ciudad de Buenos Aires.",
+   "duracion_seg": 56.1,
+   "generado": "2026-11-12T00:06:11.000Z",
+   "id": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján",
+   "urgente": false,
+   "video_bytes": 4090968,
+   "video_mb": 3.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ce8775c5d5cec87.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/ETRKOfbAMVo"
+  },
   "entrevistas:job00269": {
    "descripcion": "En Chivilcoy, el fotógrafo Daniel Muchiut reflexiona sobre el vínculo humano detrás de su obra documental y cómo transforma su vida. Asegura que el arte es un acto de amor profundo por el otro.",
    "duracion_seg": null,
@@ -3344,6 +3365,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-un-adolescente-quedo-en-terapia",
    "volanta": "Chivilcoy · Accidente"
+  },
+  "web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3": {
+   "categoria": "",
+   "descripcion": "Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján El diácono Matías De La Pérgula y la joven Clara Sosa Barrionuevo participaron de la misa que el papa León XIV presidió el miércoles 11 de noviembre en la Plaza Belgrano, frente a la Basílica Nacional de Luján. Ambos chivilcoyanos intervinieron en distintos momentos de la ceremonia, que reunió a fieles de numerosas comunidades religiosas y fue transmitida en vivo. La celebración, realizada en el marco de la visita...",
+   "generado": "2026-11-12T00:04:07.878Z",
+   "id": "web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c642ead3dceb45e09670a17951e62c68~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
+   "volanta": "Luján · Religión"
   },
   "web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5": {
    "categoria": "",
@@ -7105,6 +7145,62 @@
    "vence": "2026-11-11T16:01:11.000Z",
    "video_bytes": 2786742,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2ea8a6e8f421079c.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok": {
+   "actualizado": "2026-11-12T00:20:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok",
+   "creado": "2026-11-12T00:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-12T00:06:11.000Z",
+   "id": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján\n\nEl diácono Matías De La Pérgula y la joven Clara Sosa Barrionuevo participaron en la misa que el papa León XIV presidió frente a la Basílica Nacional de Luján. De La Pérgula proclamó el Santo Evangelio y asistió al pontífice, mientras que Sosa Barrionuevo intervino en la oración de los fieles.\n\nhttps://www.diariolacampaña.com.ar/n/lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján",
+   "urgente": false,
+   "vence": "2026-11-14T00:06:11.000Z",
+   "video_bytes": 4090968,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ce8775c5d5cec87.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x": {
+   "actualizado": "2026-11-12T00:20:22.000Z",
+   "buffer_id": "6af506473d8c751bfd0353db",
+   "clave": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x",
+   "creado": "2026-11-12T00:20:13.000Z",
+   "dueAt": "2026-11-12T00:22:11.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-12T00:06:11.000Z",
+   "id": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
+   "noticia": "nota:lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján\n\nhttps://www.diariolacampaña.com.ar/n/lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján",
+   "urgente": false,
+   "vence": "2026-11-12T02:06:11.000Z",
+   "video_bytes": 4090968,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5ce8775c5d5cec87.mp4",
    "viral": false
   },
   "entrevistas:job00269|tiktok": {
@@ -11141,14 +11237,14 @@
    "viral": true
   },
   "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/|x": {
-   "actualizado": "2026-11-11T22:40:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-12T00:20:22.000Z",
+   "buffer_id": "6af5064877f44b653605d7f2",
    "clave": "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/|x",
    "creado": "2026-11-11T22:40:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-12T00:27:10.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-11T22:31:56.000Z",
    "id": "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/",
    "intentos": 0,
@@ -12725,6 +12821,31 @@
    "titulo": "Chivilcoy: Un adolescente quedó en terapia intensiva tras golpearse en Plaza España",
    "urgente": false,
    "vence": "2026-11-11T19:31:09.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3|x": {
+   "actualizado": "2026-11-12T00:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3|x",
+   "creado": "2026-11-12T00:20:13.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-12T00:04:07.878Z",
+   "id": "web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
+   "noticia": "nota:lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoyanos tuvieron una destacada participación en la misa del papa en Luján",
+   "urgente": false,
+   "vence": "2026-11-12T04:04:07.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16855,43 +16976,6 @@
  },
  "registro": [
   {
-   "clave": "web:969326c4-49d1-4610-b2d3-40abe436dfc7|x",
-   "cuando": "2026-11-05T10:03:54.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:0d0f2a09-0416-445a-82b7-74eed589d782|x",
-   "cuando": "2026-11-05T10:04:04.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6aec5494d33a536cdc0a596b",
-   "clave": "web:969326c4-49d1-4610-b2d3-40abe436dfc7|x",
-   "cuando": "2026-11-05T10:04:06.000Z",
-   "dueAt": "2026-11-05T10:22:37.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aec54954041304c76856b35",
-   "clave": "web:93908f78-67cb-4a45-a902-712d32f96cb3|x",
-   "cuando": "2026-11-05T10:04:06.000Z",
-   "dueAt": "2026-11-05T10:37:39.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aec5495287b085e661d2ebd",
-   "clave": "web:5b212ff6-9006-4b2b-ae18-48b4e0798b82|x",
-   "cuando": "2026-11-05T10:04:06.000Z",
-   "dueAt": "2026-11-05T10:52:25.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6aec5495e6ba64b5a33c35f4",
    "clave": "web:96d8a1d2-9950-4aad-8e5a-ac9eec980838|x",
    "cuando": "2026-11-05T10:04:06.000Z",
@@ -21003,6 +21087,44 @@
    "cuando": "2026-11-11T23:40:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120643560319975871"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x",
+   "cuando": "2026-11-12T00:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok",
+   "cuando": "2026-11-12T00:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3|x",
+   "cuando": "2026-11-12T00:20:22.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6af506473d8c751bfd0353db",
+   "clave": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x",
+   "cuando": "2026-11-12T00:20:24.000Z",
+   "dueAt": "2026-11-12T00:22:11.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af5064877f44b653605d7f2",
+   "clave": "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/|x",
+   "cuando": "2026-11-12T00:20:24.000Z",
+   "dueAt": "2026-11-12T00:27:10.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21240,6 +21362,7 @@
   "bot:video_matias-zucchi_mw8h185acy8l_01.mp4": "2026-11-09T00:00:16.000Z",
   "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4": "2026-11-11T00:00:21.000Z",
   "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4": "2026-11-11T14:20:16.000Z",
+  "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4": "2026-11-12T00:20:13.000Z",
   "entrevistas:job00192": "2026-10-13T17:00:22.000Z",
   "entrevistas:job00193": "2026-10-13T17:20:14.000Z",
   "entrevistas:job00194": "2026-10-13T17:40:16.000Z",
@@ -21819,6 +21942,7 @@
   "web:4b476f07-db25-4822-9855-43803cb938df": "2026-11-11T15:40:16.000Z",
   "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699": "2026-10-20T01:20:14.000Z",
   "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec": "2026-10-29T10:02:34.000Z",
+  "web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3": "2026-11-12T00:20:13.000Z",
   "web:4d61cc5b-9d70-46db-b815-a8250038f4de": "2026-10-19T15:00:20.000Z",
   "web:4e7a21c3-01a6-4918-8ef2-41a16ff58018": "2026-10-16T10:20:16.000Z",
   "web:4f30d608-68d1-40d6-9ef4-4e069e213a06": "2026-10-14T15:40:18.000Z",
