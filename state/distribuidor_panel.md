@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 12/11/2026 19:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -21,19 +21,19 @@ Actualizado: 12/11/2026 19:20 (hora AR) · ACTIVO
 - X · Reels del bot: 15 con métricas · mediana vistas/impresiones 31 · likes 0
 - X · Reels policiales: 18 con métricas · mediana vistas/impresiones 45 · likes 0
 - X · Notas web: 100 con métricas · mediana vistas/impresiones 17 · likes 0
-- TikTok · Recortes de entrevistas: 36 con métricas · mediana vistas/impresiones 160.5 · likes 1
+- TikTok · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 153.5 · likes 1
 - TikTok · Reels del bot: 18 con métricas · mediana vistas/impresiones 336 · likes 4.5
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Reels policiales · Un joven de 25 años grave tras ser apuñalado en el Parque Borchex — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T18:40 entrevista_aprobada entrevistas:job00307 
 - 2026-11-12T18:40 recibido entrevistas:job00307|x 
 - 2026-11-12T18:40 recibido entrevistas:job00307|tiktok 
 - 2026-11-12T18:40 programado entrevistas:job00307|x 
@@ -58,3 +58,4 @@ Actualizado: 12/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-12T22:20 enviado entrevistas:job00306|tiktok 
 - 2026-11-12T22:20 enviado entrevistas:job00307|tiktok 
 - 2026-11-12T22:20 programado policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia 
+- 2026-11-12T22:40 recibido policiales:https://www.diariodemocracia.com/policiales/34793 
