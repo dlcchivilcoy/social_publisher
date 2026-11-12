@@ -2005,6 +2005,32 @@
    "volanta": "Choque en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/PH5I_eW6H98"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html": {
+   "categoria": "robo",
+   "descripcion": "Delincuentes se llevaron una motocicleta de alta cilindrada que se encontraba estacionada en el exterior de una vivienda ubicada en el barrio Parque Chacabuco.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-12T23:31:18.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-le-robaron-una-moto-200cc-a-un-vecino-en-el-barrio-f93a32",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un vecino de Chacabuco sufrió el robo de su motocicleta durante la madrugada.\n\nEl damnificado constató el faltante del rodado en horas de la mañana.\n\nEl hecho tuvo lugar en el barrio Parque Chacabuco.\n\nLa víctima había dejado el vehículo estacionado en el exterior de su domicilio.\n\nIntervino la Policía tras la denuncia radicada por el propietario.\n\nLa investigación busca dar con los autores del ilícito.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Robo #Inseguridad #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Le robaron la moto a un vecino de Chacabuco en la madrugada",
+   "urgente": false,
+   "video_bytes": 109904,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_05_chacabuco_le-robaron-la-moto-a-un-vecino.mp4",
+   "volanta": "Robo en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/9sciqb-LX74"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": {
    "categoria": "alerta_meteorologica",
    "descripcion": "Una fuerte tormenta con caída de granizo sorprendió a los vecinos de Chacabuco minutos después de la medianoche. El fenómeno marca el inicio de una semana inestable y rige un alerta oficial.",
@@ -10988,6 +11014,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_05_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html|x": {
+   "actualizado": "2026-11-12T23:40:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html|x",
+   "creado": "2026-11-12T23:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-12T23:31:18.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-le-robaron-una-moto-200cc-a-un-vecino-en-el-barrio-f93a32",
+   "noticia": "nota:chacabuco-le-robaron-una-moto-200cc-a-un-vecino-en-el-barrio-f93a32",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Le robaron la moto a un vecino de Chacabuco en la madrugada\n\nDelincuentes se llevaron una motocicleta de alta cilindrada que se encontraba estacionada en el exterior de una vivienda ubicada en el barrio Parque Chacabuco.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-le-robaron-una-moto-200cc-a-un-vecino-en-el-barrio-f93a32",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Le robaron la moto a un vecino de Chacabuco en la madrugada",
+   "urgente": false,
+   "vence": "2026-11-13T01:31:18.000Z",
+   "video_bytes": 109904,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_05_chacabuco_le-robaron-la-moto-a-un-vecino.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html|x": {
    "actualizado": "2026-11-03T02:40:15.000Z",
    "buffer_id": "",
@@ -17362,14 +17416,6 @@
  },
  "registro": [
   {
-   "clave": "web:ea8aaf01-2797-47ff-a625-b439567a99be|x",
-   "cuando": "2026-11-06T10:03:38.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:3965ee13-9730-4798-8e40-1c97199ed3e6|x",
    "cuando": "2026-11-06T10:03:42.000Z",
    "estado": "pendiente",
@@ -21512,6 +21558,14 @@
    "cuando": "2026-11-12T23:20:21.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2121006069459632401"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html|x",
+   "cuando": "2026-11-12T23:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -22046,6 +22100,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html": "2026-11-12T23:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": "2026-11-07T00:40:13.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html": "2026-11-12T23:40:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html": "2026-11-08T23:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": "2026-11-01T22:40:15.000Z",
