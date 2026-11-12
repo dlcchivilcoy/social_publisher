@@ -17,7 +17,7 @@
     "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-12T18:20:30.000Z"
+   "visto": "2026-11-12T19:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 25
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-11-12T18:20:30.000Z"
+   "visto": "2026-11-12T19:40:14.000Z"
   }
  },
  "contenidos": {
@@ -10105,18 +10105,19 @@
    "viral": false
   },
   "entrevistas:job00307|x": {
-   "actualizado": "2026-11-12T18:40:29.000Z",
+   "actualizado": "2026-11-12T19:40:14.000Z",
    "buffer_id": "6af6081e68b55f457c168ee1",
    "clave": "entrevistas:job00307|x",
    "creado": "2026-11-12T18:40:15.000Z",
    "dueAt": "2026-11-12T18:42:34.000Z",
+   "enviado": "2026-11-12T18:42:56.122Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T18:40:15.000Z",
    "id": "entrevistas:job00307",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120950486157173086",
    "nota_url": "",
    "noticia": "titulo:amor-celebrar-chivilcoy-derrota-rome-samantha",
    "origen": "entrevistas",
@@ -10161,18 +10162,19 @@
    "viral": false
   },
   "entrevistas:job00308|x": {
-   "actualizado": "2026-11-12T19:20:15.000Z",
+   "actualizado": "2026-11-12T19:40:14.000Z",
    "buffer_id": "6af611700522ffa5bc4bbdbd",
    "clave": "entrevistas:job00308|x",
    "creado": "2026-11-12T19:20:13.000Z",
    "dueAt": "2026-11-12T19:22:21.000Z",
+   "enviado": "2026-11-12T19:22:49.086Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T19:20:13.000Z",
    "id": "entrevistas:job00308",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120960522891809047",
    "nota_url": "",
    "noticia": "titulo:chivilcoy-emiliano-farias-maestro-reto-viral",
    "origen": "entrevistas",
@@ -17317,18 +17319,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok",
-   "cuando": "2026-11-06T01:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7704842494281780488"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co|x",
-   "cuando": "2026-11-06T01:20:13.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|x",
    "cuando": "2026-11-06T01:40:15.000Z",
    "estado": "pendiente",
@@ -21477,6 +21467,18 @@
    "cuando": "2026-11-12T19:20:16.000Z",
    "dueAt": "2026-11-12T19:22:21.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00307|x",
+   "cuando": "2026-11-12T19:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120950486157173086"
+  },
+  {
+   "clave": "entrevistas:job00308|x",
+   "cuando": "2026-11-12T19:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120960522891809047"
   }
  ],
  "tandas": {
@@ -21514,7 +21516,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-12",
- "ultima_sync": "2026-11-12T18:20:30.000Z",
+ "ultima_sync": "2026-11-12T19:40:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
