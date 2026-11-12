@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 1,
-    "sent": 5
+    "scheduled": 0,
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-12T22:20:17.000Z"
+   "visto": "2026-11-12T23:20:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-12T22:20:17.000Z"
+   "visto": "2026-11-12T23:20:21.000Z"
   }
  },
  "contenidos": {
@@ -1952,6 +1952,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-07_2134_07_chacabuco_denunci-a-su-propio-hijo-tras-.mp4",
    "volanta": "Operativo policial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/kW31PNyttho"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html": {
+   "categoria": "accidente_vial",
+   "descripcion": "El incidente vial ocurrió esta tarde en la zona céntrica de Chacabuco e involucró a dos motovehículos de 110 cc. Uno de los conductores debió ser trasladado en ambulancia para su atención médica.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-12T23:01:29.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/choque-entre-dos-motos-en-el-centro-de-chacabuco-dejo-un-herido-9812d4",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un fuerte choque entre dos motos sacudió la zona céntrica de Chacabuco durante la tarde de hoy.\n\nEl siniestro vial ocurrió en la intersección de la avenida Saavedra y la calle 25 de Mayo, donde colisionaron dos rodados de 110 cc.\n\nUno de los conductores involucrados necesitó asistencia médica y fue derivado al nosocomio local en una ambulancia.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #AccidenteDeTransito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos motos chocaron en el centro y un conductor terminó en el hospital",
+   "urgente": false,
+   "video_bytes": 122524,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_03_chacabuco_dos-motos-chocaron-en-el-centr.mp4",
+   "volanta": "Choque en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/tUTULx6pato"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": {
    "categoria": "accidente_vial",
@@ -9779,19 +9805,20 @@
    "viral": false
   },
   "entrevistas:job00304|tiktok": {
-   "actualizado": "2026-11-12T21:00:18.000Z",
+   "actualizado": "2026-11-12T23:20:21.000Z",
    "buffer_id": "6af628e8446d978be7e8733c",
    "categoria": "",
    "clave": "entrevistas:job00304|tiktok",
    "creado": "2026-11-12T17:00:19.000Z",
    "dueAt": "2026-11-12T22:23:21.000Z",
+   "enviado": "2026-11-12T22:25:13.369Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T17:00:19.000Z",
    "id": "entrevistas:job00304",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7707414159947730228",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -10142,18 +10169,19 @@
    "viral": true
   },
   "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/|x": {
-   "actualizado": "2026-11-12T22:20:18.000Z",
+   "actualizado": "2026-11-12T23:20:21.000Z",
    "buffer_id": "6af63ba2bcc05bf8b9689fcd",
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/|x",
    "creado": "2026-11-12T22:20:14.000Z",
    "dueAt": "2026-11-12T22:23:35.000Z",
+   "enviado": "2026-11-12T22:23:48.217Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T22:03:17.000Z",
    "id": "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121006069459632401",
    "nota_url": "https://www.diariolacampaña.com.ar/n/crimen-en-mechita-la-autopsia-confirmo-que-ezequiel-caraballo-1b0f67",
    "noticia": "nota:crimen-en-mechita-la-autopsia-confirmo-que-ezequiel-caraballo-1b0f67",
    "origen": "policiales",
@@ -10902,6 +10930,34 @@
    "vence": "2026-11-08T01:31:19.000Z",
    "video_bytes": 86354,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-07_2134_07_chacabuco_denunci-a-su-propio-hijo-tras-.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html|x": {
+   "actualizado": "2026-11-12T23:20:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html|x",
+   "creado": "2026-11-12T23:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-12T23:01:29.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/choque-entre-dos-motos-en-el-centro-de-chacabuco-dejo-un-herido-9812d4",
+   "noticia": "nota:choque-entre-dos-motos-en-el-centro-de-chacabuco-dejo-un-herido-9812d4",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Dos motos chocaron en el centro y un conductor terminó en el hospital\n\nEl incidente vial ocurrió esta tarde en la zona céntrica de Chacabuco e involucró a dos motovehículos de 110 cc.\n\nhttps://www.diariolacampaña.com.ar/n/choque-entre-dos-motos-en-el-centro-de-chacabuco-dejo-un-herido-9812d4",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos motos chocaron en el centro y un conductor terminó en el hospital",
+   "urgente": false,
+   "vence": "2026-11-13T01:01:29.000Z",
+   "video_bytes": 122524,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_03_chacabuco_dos-motos-chocaron-en-el-centr.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x": {
@@ -17306,30 +17362,6 @@
  },
  "registro": [
   {
-   "clave": "web:7043907f-96fa-4ca7-b7a2-aec9499785ad|x",
-   "cuando": "2026-11-06T10:03:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:df5bc5d5-81e6-4f5c-b398-bc0a2cfc2589|x",
-   "cuando": "2026-11-06T10:03:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:0c795818-6600-44be-a68c-acb6a2eedf65|x",
-   "cuando": "2026-11-06T10:03:34.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:ea8aaf01-2797-47ff-a625-b439567a99be|x",
    "cuando": "2026-11-06T10:03:38.000Z",
    "estado": "pendiente",
@@ -21460,6 +21492,26 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html|x",
+   "cuando": "2026-11-12T23:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "entrevistas:job00304|tiktok",
+   "cuando": "2026-11-12T23:20:21.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7707414159947730228"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/|x",
+   "cuando": "2026-11-12T23:20:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121006069459632401"
   }
  ],
  "tandas": {
@@ -21497,14 +21549,13 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-12",
- "ultima_sync": "2026-11-12T22:20:17.000Z",
+ "ultima_sync": "2026-11-12T23:20:21.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-13_matias-zucchi_mv7aich3agh1": "2026-10-13T23:20:14.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv7id7hsiv2a": "2026-10-14T09:00:20.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq": "2026-10-14T13:40:20.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8": "2026-10-14T13:40:20.000Z",
@@ -21993,6 +22044,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/video-cuantos-dolares-fueron.html": "2026-10-17T16:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/violencia-pasional-en-chacabuco.html": "2026-10-16T02:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": "2026-11-07T23:40:13.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html": "2026-11-12T23:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html": "2026-11-08T23:40:14.000Z",
@@ -22615,7 +22667,6 @@
   "web:ce42efb6-366a-4469-b255-64d747973441": "2026-10-16T01:00:17.000Z",
   "web:ce515f56-0397-44d3-b63d-c656faf40928": "2026-10-19T20:20:15.000Z",
   "web:ce55311f-7f8e-46c0-8f9a-27108c261a21": "2026-10-26T15:20:14.000Z",
-  "web:ce9c9291-5b63-4246-99f4-6095ce88b357": "2026-10-13T23:20:14.000Z",
   "web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be": "2026-10-22T10:02:31.000Z",
   "web:d02ad89e-79f9-411b-86f5-added49bc1ff": "2026-10-23T02:00:16.000Z",
   "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9": "2026-11-10T15:00:21.000Z",
