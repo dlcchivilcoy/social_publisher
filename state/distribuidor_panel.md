@@ -1,14 +1,14 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 1 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 2 | 0 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -35,8 +35,6 @@ Actualizado: 11/11/2026 21:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T21:00 enviado entrevistas:job00303-r1|x 
-- 2026-11-11T21:00 programado bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4|tiktok 
 - 2026-11-11T21:00 programado entrevistas:job00303-r1|tiktok 
 - 2026-11-11T21:00 programado entrevistas:job00303|tiktok 
 - 2026-11-11T21:00 programado entrevistas:job00302|tiktok 
@@ -60,3 +58,5 @@ Actualizado: 11/11/2026 21:20 (hora AR) · ACTIVO
 - 2026-11-12T00:20 recibido web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-12T00:20 programado bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x 
 - 2026-11-12T00:20 programado policiales:https://www.lamanana.com.ar/unos-35-efectivos-pol 
+- 2026-11-12T00:40 enviado bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x 
+- 2026-11-12T00:40 enviado policiales:https://www.lamanana.com.ar/unos-35-efectivos-pol 
