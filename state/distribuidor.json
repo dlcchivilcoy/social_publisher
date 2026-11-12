@@ -1293,6 +1293,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00307.mp4",
    "youtube_url": "https://youtu.be/npe6oIsuk6M"
   },
+  "entrevistas:job00308": {
+   "descripcion": "Emiliano Farias, titular de la pizzería Il Maestro en Chivilcoy, contó que un competidor viajó desde Salta exclusivamente para ganar uno de sus retos gastronómicos. Además, explicó por qué sus desafíos de comida son considerados honestos por expertos.",
+   "duracion_seg": null,
+   "entrevistado": "Emiliano Farias",
+   "generado": "2026-11-12T19:20:13.000Z",
+   "id": "entrevistas:job00308",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Emiliano Farias y el reto viral de Il Maestro en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 31211214,
+   "video_mb": 29.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00308.mp4",
+   "youtube_url": "https://youtu.be/AdXdvdXT2hY"
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -10111,6 +10132,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00307.mp4",
    "viral": false
   },
+  "entrevistas:job00308|tiktok": {
+   "actualizado": "2026-11-12T19:20:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00308|tiktok",
+   "creado": "2026-11-12T19:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-12T19:20:13.000Z",
+   "id": "entrevistas:job00308",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Emiliano Farias y el reto viral de Il Maestro en Chivilcoy\n\nEmiliano Farias, titular de la pizzería Il Maestro en Chivilcoy, contó que un competidor viajó desde Salta exclusivamente para ganar uno de sus retos gastronómicos. Además, explicó por qué sus desafíos de comida son considerados honestos por expertos.\n\nhttps://youtu.be/AdXdvdXT2hY\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Emiliano Farias y el reto viral de Il Maestro en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-14T19:20:13.000Z",
+   "video_bytes": 31211214,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00308.mp4",
+   "viral": false
+  },
+  "entrevistas:job00308|x": {
+   "actualizado": "2026-11-12T19:20:15.000Z",
+   "buffer_id": "6af611700522ffa5bc4bbdbd",
+   "clave": "entrevistas:job00308|x",
+   "creado": "2026-11-12T19:20:13.000Z",
+   "dueAt": "2026-11-12T19:22:21.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-12T19:20:13.000Z",
+   "id": "entrevistas:job00308",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:chivilcoy-emiliano-farias-maestro-reto-viral",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Emiliano Farias y el reto viral de Il Maestro en Chivilcoy\n\nEl dueño de la pizzería contó que un competidor viajó desde Salta solo para ganar uno de sus retos gastronómicos. Además, explicó por qué expertos consideran que sus desafíos son honestos.\n\nhttps://youtu.be/AdXdvdXT2hY",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Emiliano Farias y el reto viral de Il Maestro en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-12T21:20:13.000Z",
+   "video_bytes": 31211214,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00308.mp4",
+   "viral": false
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
    "actualizado": "2026-11-11T00:40:17.000Z",
    "buffer_id": "6af3b0230b1f930b454e2bda",
@@ -17240,35 +17317,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x",
-   "cuando": "2026-11-05T23:40:34.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118485712806748565"
-  },
-  {
-   "buffer_id": "6aed189286fe9b83795e91f8",
-   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok",
-   "cuando": "2026-11-06T00:00:18.000Z",
-   "dueAt": "2026-11-06T00:03:59.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26853-detuvieron-a-un-joven-de-18-anos-acusado-de-robarle-a-una-mujer-de-77|x",
-   "cuando": "2026-11-06T00:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos|x",
-   "cuando": "2026-11-06T00:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok",
    "cuando": "2026-11-06T01:00:19.000Z",
    "evento": "enviado",
@@ -21401,6 +21449,34 @@
    "cuando": "2026-11-12T18:40:30.000Z",
    "dueAt": "2026-11-12T18:42:34.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00308",
+   "cuando": "2026-11-12T19:20:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00308|x",
+   "cuando": "2026-11-12T19:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00308|tiktok",
+   "cuando": "2026-11-12T19:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af611700522ffa5bc4bbdbd",
+   "clave": "entrevistas:job00308|x",
+   "cuando": "2026-11-12T19:20:16.000Z",
+   "dueAt": "2026-11-12T19:22:21.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21735,6 +21811,7 @@
   "entrevistas:job00305": "2026-11-12T17:40:14.000Z",
   "entrevistas:job00306": "2026-11-12T18:00:18.000Z",
   "entrevistas:job00307": "2026-11-12T18:40:15.000Z",
+  "entrevistas:job00308": "2026-11-12T19:20:13.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",

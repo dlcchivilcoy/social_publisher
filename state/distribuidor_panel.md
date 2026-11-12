@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 12/11/2026 16:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (5 esperando)
+- TikTok · Recortes de entrevistas · Emiliano Farias y el reto viral de Il Maestro en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Samantha San Romé en Chivilcoy: celebrar la derrota en el amor — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Lula Gonzalez: ¿Si no estás en redes no existís? — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Florencia Galante: defensa personal femenina y críticas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -37,10 +38,6 @@ Actualizado: 12/11/2026 16:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T13:40 enviado web:814123f9-8cc0-4123-a5ec-ff7775c42341|x 
-- 2026-11-12T13:40 enviado web:b8356399-c1a9-4319-bdf3-d449371f55e1|x 
-- 2026-11-12T14:00 depurado web:b034af07-ddaf-426e-8207-d2724c540524|x no está en el carrusel del diario de hoy
-- 2026-11-12T14:20 depurado web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x no está en el carrusel del diario de hoy
 - 2026-11-12T14:20 depurado web:e5265ed2-c719-4005-9f45-041765495e36|x no está en el carrusel del diario de hoy
 - 2026-11-12T15:00 enviado web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x 
 - 2026-11-12T17:00 entrevista_aprobada entrevistas:job00304 
@@ -62,3 +59,7 @@ Actualizado: 12/11/2026 16:00 (hora AR) · ACTIVO
 - 2026-11-12T18:40 recibido entrevistas:job00307|x 
 - 2026-11-12T18:40 recibido entrevistas:job00307|tiktok 
 - 2026-11-12T18:40 programado entrevistas:job00307|x 
+- 2026-11-12T19:20 entrevista_aprobada entrevistas:job00308 
+- 2026-11-12T19:20 recibido entrevistas:job00308|x 
+- 2026-11-12T19:20 recibido entrevistas:job00308|tiktok 
+- 2026-11-12T19:20 programado entrevistas:job00308|x 
