@@ -17,7 +17,7 @@
     "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-12T17:20:15.000Z"
+   "visto": "2026-11-12T18:20:30.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 24
+    "sent": 25
    },
    "pausado": false,
-   "visto": "2026-11-12T17:20:15.000Z"
+   "visto": "2026-11-12T18:20:30.000Z"
   }
  },
  "contenidos": {
@@ -4597,25 +4597,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/festejo-en-club-racing-ariel-ivaldi-celebra-su-cumpleanos-en",
    "volanta": "Festejo en Club Racing"
-  },
-  "web:a872c57c-897c-4bec-8f45-2e83bffd630f": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola Una vecina de Chivilcoy hizo público un reclamo por hechos de inseguridad que, según sostuvo, se registran en la zona de Tomasso. En su publicación, advirtió sobre el robo de instalaciones eléctricas completas de maquinaria agrícola para sustraer cobre, provocando importantes daños que afectan el trabajo diario, y pidió mayores medidas de prevención. “¿Qué está pasando con la seguridad en la ciudad? ¿Hasta...",
-   "generado": "2026-11-02T18:12:54.271Z",
-   "id": "web:a872c57c-897c-4bec-8f45-2e83bffd630f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_978efeeb2a994f1c934c219c4a195c8f~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
-   "volanta": "Chivilcoy · Seguridad"
   },
   "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60": {
    "categoria": "",
@@ -10024,18 +10005,19 @@
    "viral": false
   },
   "entrevistas:job00305|x": {
-   "actualizado": "2026-11-12T17:40:16.000Z",
+   "actualizado": "2026-11-12T18:20:30.000Z",
    "buffer_id": "6af5fa01945bf0f848455b85",
    "clave": "entrevistas:job00305|x",
    "creado": "2026-11-12T17:40:14.000Z",
    "dueAt": "2026-11-12T17:42:41.000Z",
+   "enviado": "2026-11-12T17:43:05.811Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T17:40:14.000Z",
    "id": "entrevistas:job00305",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120935426500260249",
    "nota_url": "",
    "noticia": "titulo:criticas-defensa-femenina-florencia-galante-personal",
    "origen": "entrevistas",
@@ -10080,18 +10062,19 @@
    "viral": false
   },
   "entrevistas:job00306|x": {
-   "actualizado": "2026-11-12T18:00:25.000Z",
+   "actualizado": "2026-11-12T18:20:30.000Z",
    "buffer_id": "6af5feba912fecb48ce2e2a9",
    "clave": "entrevistas:job00306|x",
    "creado": "2026-11-12T18:00:18.000Z",
    "dueAt": "2026-11-12T18:02:19.000Z",
+   "enviado": "2026-11-12T18:07:01.586Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T18:00:18.000Z",
    "id": "entrevistas:job00306",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120941449378169210",
    "nota_url": "",
    "noticia": "titulo:existis-gonzalez-lula-redes",
    "origen": "entrevistas",
@@ -15318,31 +15301,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:a872c57c-897c-4bec-8f45-2e83bffd630f|x": {
-   "actualizado": "2026-11-02T18:20:16.000Z",
-   "buffer_id": "",
-   "clave": "web:a872c57c-897c-4bec-8f45-2e83bffd630f|x",
-   "creado": "2026-11-02T18:20:16.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-02T18:12:54.271Z",
-   "id": "web:a872c57c-897c-4bec-8f45-2e83bffd630f",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
-   "noticia": "nota:chivilcoy-seguridad-chivilcoy-una-vecina-denuncio-robos-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Una vecina denunció robos de instalaciones eléctricas en maquinaria agrícola",
-   "urgente": false,
-   "vence": "2026-11-02T22:12:54.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60|x": {
    "actualizado": "2026-11-03T11:20:16.000Z",
    "buffer_id": "6ae9b195c4e7dc18825ee51a",
@@ -17287,22 +17245,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co|x",
-   "cuando": "2026-11-05T23:20:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:71906e74-9a3f-42e4-a88d-7341f49d98b3|x",
-   "cuando": "2026-11-05T23:20:21.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
   {
    "buffer_id": "6aed0f3686fe9b83795b950c",
    "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|x",
@@ -21453,6 +21395,18 @@
    "cuando": "2026-11-12T18:00:27.000Z",
    "dueAt": "2026-11-12T18:02:19.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00305|x",
+   "cuando": "2026-11-12T18:20:30.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120935426500260249"
+  },
+  {
+   "clave": "entrevistas:job00306|x",
+   "cuando": "2026-11-12T18:20:30.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120941449378169210"
   }
  ],
  "tandas": {
@@ -21490,7 +21444,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-12",
- "ultima_sync": "2026-11-12T17:20:15.000Z",
+ "ultima_sync": "2026-11-12T18:20:30.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21690,8 +21644,6 @@
   "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4": "2026-11-11T00:00:21.000Z",
   "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4": "2026-11-11T14:20:16.000Z",
   "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4": "2026-11-12T00:20:13.000Z",
-  "entrevistas:job00194v2": "2026-10-13T18:20:14.000Z",
-  "entrevistas:job00196": "2026-10-13T18:20:14.000Z",
   "entrevistas:job00197": "2026-10-13T19:00:18.000Z",
   "entrevistas:job00206": "2026-10-14T16:20:15.000Z",
   "entrevistas:job00207": "2026-10-14T17:00:17.000Z",
@@ -22093,7 +22045,6 @@
   "web:086bbffe-08a9-47c9-8d0c-f0475e00ffe8": "2026-10-14T10:20:15.000Z",
   "web:088386b2-2c10-423c-848f-4605d2b2e0e5": "2026-11-02T10:03:22.000Z",
   "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d": "2026-10-27T14:20:14.000Z",
-  "web:09e5f2a4-fed4-4925-b45f-b3287fcd8366": "2026-10-13T18:20:14.000Z",
   "web:0ad113d1-0797-400e-8161-494cc3be7804": "2026-10-20T10:20:14.000Z",
   "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8": "2026-11-05T10:02:30.000Z",
   "web:0ae2afb6-52d2-4336-b9c9-318dc164617e": "2026-10-21T10:20:15.000Z",
@@ -22299,7 +22250,6 @@
   "web:616edca2-10fd-421a-b351-8a958b1e4519": "2026-11-06T18:00:18.000Z",
   "web:61fa0efb-5787-4c59-bce8-a86006933cfa": "2026-10-17T13:20:16.000Z",
   "web:62679199-0cb1-44ba-8928-add87ea1fa3f": "2026-10-15T10:20:13.000Z",
-  "web:63610a74-1ceb-4c17-9d20-a5b404821855": "2026-10-13T18:20:14.000Z",
   "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": "2026-10-26T10:20:14.000Z",
   "web:6541af24-4488-427f-95aa-ae535252bd65": "2026-11-02T18:20:16.000Z",
   "web:65614571-f714-4991-a75b-bc27850d9de1": "2026-10-15T00:20:14.000Z",
@@ -22318,7 +22268,6 @@
   "web:6a095240-50d7-424b-8a14-3d4713bb5b8a": "2026-10-15T12:20:15.000Z",
   "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7": "2026-10-18T15:40:18.000Z",
   "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52": "2026-11-09T10:20:14.000Z",
-  "web:6ab0651a-5f39-461f-9277-fae18ec231f6": "2026-10-13T18:20:14.000Z",
   "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d": "2026-10-22T10:02:31.000Z",
   "web:6adb3465-c4e1-4c1f-a175-109ba016efbd": "2026-10-30T10:01:54.000Z",
   "web:6b162e49-a5e9-45f5-930c-4bd07f9401dc": "2026-10-14T10:20:15.000Z",
