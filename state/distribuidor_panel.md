@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 12/11/2026 14:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Recortes de entrevistas · Lula Gonzalez: ¿Si no estás en redes no existís? — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Florencia Galante: defensa personal femenina y críticas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Laura Azcola: inclusión laboral y sueldos dignos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -35,10 +36,6 @@ Actualizado: 12/11/2026 14:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T12:40 enviado web:a64ce084-265d-420e-aab2-c9ecfce66084|x 
-- 2026-11-12T12:40 enviado web:c8022409-4d8f-45ba-a34f-1011272f6310|x 
-- 2026-11-12T12:40 programado web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x 
-- 2026-11-12T13:00 programado bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok 
 - 2026-11-12T13:20 recibido web:b034af07-ddaf-426e-8207-d2724c540524|x 
 - 2026-11-12T13:40 recibido web:e5265ed2-c719-4005-9f45-041765495e36|x 
 - 2026-11-12T13:40 recibido web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x 
@@ -60,3 +57,7 @@ Actualizado: 12/11/2026 14:40 (hora AR) · ACTIVO
 - 2026-11-12T17:40 recibido entrevistas:job00305|x 
 - 2026-11-12T17:40 recibido entrevistas:job00305|tiktok 
 - 2026-11-12T17:40 programado entrevistas:job00305|x 
+- 2026-11-12T18:00 entrevista_aprobada entrevistas:job00306 
+- 2026-11-12T18:00 recibido entrevistas:job00306|x 
+- 2026-11-12T18:00 recibido entrevistas:job00306|tiktok 
+- 2026-11-12T18:00 programado entrevistas:job00306|x 
