@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,16 +27,13 @@ Actualizado: 12/11/2026 13:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Recortes de entrevistas · Laura Azcola: inclusión laboral y sueldos dignos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T11:20 enviado web:715ed60b-7e27-4f93-b061-3e96c07992e4|x 
-- 2026-11-12T11:20 programado web:1dabe361-4070-447e-9807-fa91aa19b74e|x 
-- 2026-11-12T11:40 programado web:2c8c4ee8-0fd4-4a9f-ab59-ace34d375557|x 
-- 2026-11-12T11:40 programado web:045183d9-6073-43b7-83df-69738e914aa5|x 
 - 2026-11-12T12:00 programado web:b8356399-c1a9-4319-bdf3-d449371f55e1|x 
 - 2026-11-12T12:20 programado web:814123f9-8cc0-4123-a5ec-ff7775c42341|x 
 - 2026-11-12T12:40 enviado web:1dabe361-4070-447e-9807-fa91aa19b74e|x 
@@ -58,3 +55,7 @@ Actualizado: 12/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-12T14:20 depurado web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x no está en el carrusel del diario de hoy
 - 2026-11-12T14:20 depurado web:e5265ed2-c719-4005-9f45-041765495e36|x no está en el carrusel del diario de hoy
 - 2026-11-12T15:00 enviado web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x 
+- 2026-11-12T17:00 entrevista_aprobada entrevistas:job00304 
+- 2026-11-12T17:00 recibido entrevistas:job00304|x 
+- 2026-11-12T17:00 recibido entrevistas:job00304|tiktok 
+- 2026-11-12T17:00 programado entrevistas:job00304|x 

@@ -1209,6 +1209,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00303_r1.mp4",
    "youtube_url": "https://youtu.be/_q5zPr2PYYg"
   },
+  "entrevistas:job00304": {
+   "descripcion": "Laura Azcola, directora de Discapacidad de Chivilcoy, advirtió sobre la precarización y los bajos ingresos que perciben las personas con discapacidad en el sector privado y talleres protegidos. Remarcó la necesidad de avanzar hacia una remuneración digna.",
+   "duracion_seg": null,
+   "entrevistado": "Laura Azcola",
+   "generado": "2026-11-12T17:00:19.000Z",
+   "id": "entrevistas:job00304",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Laura Azcola: inclusión laboral y sueldos dignos",
+   "urgente": false,
+   "video_bytes": 25201496,
+   "video_mb": 24.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00304.mp4",
+   "youtube_url": "https://youtu.be/UAKh3YJE-Qg"
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -9912,6 +9933,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00303.mp4",
    "viral": false
   },
+  "entrevistas:job00304|tiktok": {
+   "actualizado": "2026-11-12T17:00:19.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00304|tiktok",
+   "creado": "2026-11-12T17:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-12T17:00:19.000Z",
+   "id": "entrevistas:job00304",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Laura Azcola: inclusión laboral y sueldos dignos\n\nLaura Azcola, directora de Discapacidad de Chivilcoy, advirtió sobre la precarización y los bajos ingresos que perciben las personas con discapacidad en el sector privado y talleres protegidos. Remarcó la necesidad de avanzar hacia una remuneración digna.\n\nhttps://youtu.be/UAKh3YJE-Qg\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Laura Azcola: inclusión laboral y sueldos dignos",
+   "urgente": false,
+   "vence": "2026-11-14T17:00:19.000Z",
+   "video_bytes": 25201496,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00304.mp4",
+   "viral": false
+  },
+  "entrevistas:job00304|x": {
+   "actualizado": "2026-11-12T17:00:28.000Z",
+   "buffer_id": "6af5f0ad1486327d29adcef8",
+   "clave": "entrevistas:job00304|x",
+   "creado": "2026-11-12T17:00:19.000Z",
+   "dueAt": "2026-11-12T17:02:08.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-12T17:00:19.000Z",
+   "id": "entrevistas:job00304",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:azcola-dignos-inclusion-laboral-laura-sueldos",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Laura Azcola: inclusión laboral y sueldos dignos\n\nLaura Azcola, directora de Discapacidad de Chivilcoy, advirtió sobre la precarización y los bajos ingresos que perciben las personas con discapacidad en el sector privado y talleres protegidos.\n\nhttps://youtu.be/UAKh3YJE-Qg",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Laura Azcola: inclusión laboral y sueldos dignos",
+   "urgente": false,
+   "vence": "2026-11-12T19:00:19.000Z",
+   "video_bytes": 25201496,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00304.mp4",
+   "viral": false
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
    "actualizado": "2026-11-11T00:40:17.000Z",
    "buffer_id": "6af3b0230b1f930b454e2bda",
@@ -17093,35 +17170,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00283|tiktok",
-   "cuando": "2026-11-05T21:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7704796132786081045"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada|x",
-   "cuando": "2026-11-05T22:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6aed011eaa25a700b8db23e8",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada|x",
-   "cuando": "2026-11-05T22:20:14.000Z",
-   "dueAt": "2026-11-05T22:23:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x",
-   "cuando": "2026-11-05T22:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac|x",
    "cuando": "2026-11-05T22:40:16.000Z",
    "estado": "pendiente",
@@ -21257,6 +21305,34 @@
    "cuando": "2026-11-12T15:00:22.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120877464041783366"
+  },
+  {
+   "clave": "entrevistas:job00304",
+   "cuando": "2026-11-12T17:00:20.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00304|x",
+   "cuando": "2026-11-12T17:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00304|tiktok",
+   "cuando": "2026-11-12T17:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af5f0ad1486327d29adcef8",
+   "clave": "entrevistas:job00304|x",
+   "cuando": "2026-11-12T17:00:29.000Z",
+   "dueAt": "2026-11-12T17:02:08.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21494,7 +21570,6 @@
   "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4": "2026-11-11T00:00:21.000Z",
   "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4": "2026-11-11T14:20:16.000Z",
   "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4": "2026-11-12T00:20:13.000Z",
-  "entrevistas:job00192": "2026-10-13T17:00:22.000Z",
   "entrevistas:job00193": "2026-10-13T17:20:14.000Z",
   "entrevistas:job00194": "2026-10-13T17:40:16.000Z",
   "entrevistas:job00194v2": "2026-10-13T18:20:14.000Z",
@@ -21593,6 +21668,7 @@
   "entrevistas:job00302": "2026-11-11T18:40:15.000Z",
   "entrevistas:job00303": "2026-11-11T19:20:15.000Z",
   "entrevistas:job00303-r1": "2026-11-11T20:00:18.000Z",
+  "entrevistas:job00304": "2026-11-12T17:00:19.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
