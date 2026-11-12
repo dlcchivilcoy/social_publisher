@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 11:40 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 12:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 12/11/2026 11:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 14 | 1 | 0 | 0 | 0 | 3 |
+| Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 24 enviadas + 1 programadas de 100 por día
+- X: conectado · Buffer: 24 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -33,7 +33,6 @@ Actualizado: 12/11/2026 11:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T11:20 enviado web:69c39de9-a005-4224-84c8-d634ead4dc59|x 
 - 2026-11-12T11:20 enviado web:715ed60b-7e27-4f93-b061-3e96c07992e4|x 
 - 2026-11-12T11:20 programado web:1dabe361-4070-447e-9807-fa91aa19b74e|x 
 - 2026-11-12T11:40 programado web:2c8c4ee8-0fd4-4a9f-ab59-ace34d375557|x 
@@ -58,3 +57,4 @@ Actualizado: 12/11/2026 11:40 (hora AR) · ACTIVO
 - 2026-11-12T14:00 depurado web:b034af07-ddaf-426e-8207-d2724c540524|x no está en el carrusel del diario de hoy
 - 2026-11-12T14:20 depurado web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x no está en el carrusel del diario de hoy
 - 2026-11-12T14:20 depurado web:e5265ed2-c719-4005-9f45-041765495e36|x no está en el carrusel del diario de hoy
+- 2026-11-12T15:00 enviado web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x 

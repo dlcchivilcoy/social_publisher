@@ -17,7 +17,7 @@
     "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-12T13:40:28.000Z"
+   "visto": "2026-11-12T15:00:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
+    "scheduled": 0,
     "sent": 24
    },
    "pausado": false,
-   "visto": "2026-11-12T13:40:28.000Z"
+   "visto": "2026-11-12T15:00:22.000Z"
   }
  },
  "contenidos": {
@@ -14773,19 +14773,20 @@
    "viral": false
   },
   "web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x": {
-   "actualizado": "2026-11-12T12:40:16.000Z",
+   "actualizado": "2026-11-12T15:00:22.000Z",
    "buffer_id": "6af5b3b0149e4753548221d7",
    "clave": "web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x",
    "creado": "2026-11-12T10:02:44.000Z",
    "dueAt": "2026-11-12T13:52:40.000Z",
+   "enviado": "2026-11-12T13:52:46.418Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T10:01:58.889Z",
    "id": "web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6",
    "ig_hora": "2026-11-12T13:52:32.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120877464041783366",
    "nota_url": "https://www.diariolacampaña.com.ar/n/colon-y-gimnasia-chivilcoy-brillo-en-el-parque-olimpico-y-cerro-el",
    "noticia": "nota:colon-y-gimnasia-chivilcoy-brillo-en-el-parque-olimpico-y-cerro-el",
    "origen": "web",
@@ -17148,13 +17149,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6aecee6b19bea0313feae338",
-   "clave": "entrevistas:job00279|tiktok",
-   "cuando": "2026-11-05T21:00:27.000Z",
-   "dueAt": "2026-11-05T22:23:01.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00283|tiktok",
    "cuando": "2026-11-05T21:20:15.000Z",
@@ -21314,6 +21308,12 @@
    "cuando": "2026-11-12T14:20:14.000Z",
    "evento": "depurado",
    "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x",
+   "cuando": "2026-11-12T15:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120877464041783366"
   }
  ],
  "tandas": {
@@ -21351,7 +21351,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-12",
- "ultima_sync": "2026-11-12T13:40:28.000Z",
+ "ultima_sync": "2026-11-12T15:00:22.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
