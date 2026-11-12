@@ -5904,11 +5904,11 @@
  },
  "cuota_visto": "2026-11-02T17:20:19.000Z",
  "metricas_buffer": {
-  "con_metricas": 70,
+  "con_metricas": 85,
   "disponible": true,
-  "enviados": 70,
+  "enviados": 86,
   "motivo": "",
-  "visto": "2026-11-11T11:00:20.000Z"
+  "visto": "2026-11-12T11:00:20.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -7195,14 +7195,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706697434767920385",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 5.74,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.78,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 6,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 34.33,
+    "views": 337
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
    "origen": "bot",
@@ -7236,7 +7236,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 53,
     "reactions": 0,
     "reposts": 0
    },
@@ -7270,6 +7270,16 @@
    "id": "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707022478148767028",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras-1",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -7351,6 +7361,14 @@
    "id": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120673514650849444",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
    "noticia": "nota:lujan-religion-chivilcoyanos-tuvieron-una-destacada-participacion-en",
    "origen": "bot",
@@ -8902,14 +8920,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706300878315113729",
    "metricas": {
-    "averageTimeWatched": 7.7,
+    "averageTimeWatched": 7.68,
     "comments": 0,
-    "engagementRate": 2.25,
-    "reach": 0,
-    "reactions": 8,
+    "engagementRate": 2.58,
+    "reach": 109,
+    "reactions": 12,
     "shares": 0,
-    "totalTimeWatched": 49.03,
-    "views": 355
+    "totalTimeWatched": 64.87,
+    "views": 465
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8943,7 +8961,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 52,
+    "impressions": 55,
     "reactions": 0,
     "reposts": 0
    },
@@ -8978,14 +8996,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706295767694134529",
    "metricas": {
-    "averageTimeWatched": 5.06,
+    "averageTimeWatched": 5.28,
     "comments": 1,
-    "engagementRate": 2.29,
-    "reach": 0,
+    "engagementRate": 1.98,
+    "reach": 49,
     "reactions": 3,
     "shares": 0,
-    "totalTimeWatched": 16.02,
-    "views": 175
+    "totalTimeWatched": 19.18,
+    "views": 202
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9019,7 +9037,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 24,
+    "impressions": 25,
     "reactions": 0,
     "reposts": 0
    },
@@ -9054,14 +9072,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706290654208363797",
    "metricas": {
-    "averageTimeWatched": 6.08,
+    "averageTimeWatched": 5.74,
     "comments": 0,
-    "engagementRate": 0.83,
-    "reach": 0,
+    "engagementRate": 0.63,
+    "reach": 41,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 12.97,
-    "views": 121
+    "totalTimeWatched": 16.75,
+    "views": 160
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9130,14 +9148,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706285625879612690",
    "metricas": {
-    "averageTimeWatched": 3.52,
+    "averageTimeWatched": 3.45,
     "comments": 0,
     "engagementRate": 0,
-    "reach": 0,
+    "reach": 33,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 7.08,
-    "views": 105
+    "totalTimeWatched": 9.3,
+    "views": 144
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9171,7 +9189,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 28,
+    "impressions": 30,
     "reactions": 0,
     "reposts": 0
    },
@@ -9206,14 +9224,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706279737378819334",
    "metricas": {
-    "averageTimeWatched": 6.5,
+    "averageTimeWatched": 6.03,
     "comments": 0,
-    "engagementRate": 2.76,
-    "reach": 0,
+    "engagementRate": 2.05,
+    "reach": 67,
     "reactions": 3,
     "shares": 1,
-    "totalTimeWatched": 18.07,
-    "views": 145
+    "totalTimeWatched": 22.32,
+    "views": 195
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9247,7 +9265,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 22,
+    "impressions": 24,
     "reactions": 0,
     "reposts": 0
    },
@@ -9282,14 +9300,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706672089830329618",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 4.64,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 0.62,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 13.13,
+    "views": 161
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9323,7 +9341,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -9358,14 +9376,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706667027389336853",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 5.15,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.23,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 16.13,
+    "views": 163
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9399,7 +9417,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 49,
     "reactions": 0,
     "reposts": 0
    },
@@ -9434,14 +9452,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706661866835021063",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 10.11,
     "comments": 0,
     "engagementRate": 0,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 91.83,
+    "views": 460
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9475,7 +9493,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 31,
     "reactions": 0,
     "reposts": 0
    },
@@ -9510,14 +9528,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706656618171174162",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 3.67,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 0.76,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 8.87,
+    "views": 131
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9551,7 +9569,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 29,
     "reactions": 0,
     "reposts": 0
    },
@@ -9586,14 +9604,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7706651432401030406",
    "metricas": {
-    "averageTimeWatched": 0,
+    "averageTimeWatched": 3.73,
     "comments": 0,
     "engagementRate": 0,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 0,
-    "views": 0
+    "totalTimeWatched": 8.58,
+    "views": 133
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9627,7 +9645,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 41,
     "reactions": 0,
     "reposts": 0
    },
@@ -9661,6 +9679,16 @@
    "id": "entrevistas:job00299",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707052935959694593",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9689,6 +9717,14 @@
    "id": "entrevistas:job00299",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120565088260145566",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:aicardo-claves-gritos-karate-lorena-secretas",
    "origen": "entrevistas",
@@ -9719,6 +9755,16 @@
    "id": "entrevistas:job00300",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707048250309610760",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9747,6 +9793,14 @@
    "id": "entrevistas:job00300",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120567878806028539",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:2027-ariel-fabrica-ivaldi-ocupados-sabados-turnos",
    "origen": "entrevistas",
@@ -9777,6 +9831,16 @@
    "id": "entrevistas:job00301",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707042319157054772",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9805,6 +9869,14 @@
    "id": "entrevistas:job00301",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120582971753124269",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:festival-film-malvinas-raices-ricardo-watson",
    "origen": "entrevistas",
@@ -9835,6 +9907,16 @@
    "id": "entrevistas:job00302",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707037947123485959",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9863,6 +9945,14 @@
    "id": "entrevistas:job00302",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120588068360982852",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:argentina-cada-diabetes-eduardo-parysow-personas-tendra",
    "origen": "entrevistas",
@@ -9893,6 +9983,16 @@
    "id": "entrevistas:job00303-r1",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707027802725305620",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9921,6 +10021,14 @@
    "id": "entrevistas:job00303-r1",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120608792559686126",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:bayona-genera-improvisacion-juan-miedo-teatral",
    "origen": "entrevistas",
@@ -9951,6 +10059,16 @@
    "id": "entrevistas:job00303",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707032866865155346",
+   "metricas": {
+    "averageTimeWatched": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 0,
+    "views": 0
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9979,6 +10097,14 @@
    "id": "entrevistas:job00303",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120598099496198386",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:bayona-brilla-grupo-impro-juan",
    "origen": "entrevistas",
@@ -10012,7 +10138,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 177,
     "reactions": 0,
     "reposts": 0
    },
@@ -10046,10 +10172,10 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120281297822052795",
    "metricas": {
-    "clicks": 0,
+    "clicks": 5,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 4.76,
+    "impressions": 147,
     "reactions": 0,
     "reposts": 0
    },
@@ -10464,6 +10590,14 @@
    "id": "policiales:https://semanariodejunin.com.ar/nota/76483/crimen-en-mechita-una-pista-desde-la-carcel-permitio-esclarecer-el-asesinato",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120643560319975871",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-esclarecieron-el-crimen-de-ezequiel-caraballo-en-541598",
    "noticia": "nota:bragado-esclarecieron-el-crimen-de-ezequiel-caraballo-en-541598",
    "origen": "policiales",
@@ -11265,10 +11399,10 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2119918905481199721",
    "metricas": {
-    "clicks": 0,
+    "clicks": 1,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 72,
+    "engagementRate": 2.25,
+    "impressions": 89,
     "reactions": 0,
     "reposts": 0
    },
@@ -11301,6 +11435,14 @@
    "id": "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120674761051115652",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-desplegaron-35-policias-de-25-de-mayo-por-la-visita-del-320da7",
    "noticia": "nota:lujan-desplegaron-35-policias-de-25-de-mayo-por-la-visita-del-320da7",
    "origen": "policiales",
@@ -11565,6 +11707,14 @@
    "ig_hora": "2026-11-11T12:37:22.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120496200868565404",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 2,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-amateur-chivilcoy-el-olimpo-se-quedo-con-la-fase-regular-y-ya",
    "noticia": "nota:futbol-amateur-chivilcoy-el-olimpo-se-quedo-con-la-fase-regular-y-ya",
    "origen": "web",
@@ -11594,6 +11744,14 @@
    "ig_hora": "2026-11-12T10:22:32.000Z",
    "intentos": 0,
    "link": "",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/visita-del-sumo-pontifice-orgullo-chivilcoyano-junto-al-papa-leon-xiv",
    "noticia": "nota:visita-del-sumo-pontifice-orgullo-chivilcoyano-junto-al-papa-leon-xiv",
    "origen": "web",
@@ -11666,7 +11824,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 7,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -11754,6 +11912,14 @@
    "ig_hora": "2026-11-11T11:22:22.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120477326718726261",
+   "metricas": {
+    "clicks": 1,
+    "comments": 0,
+    "engagementRate": 10,
+    "impressions": 10,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/mercado-bonaerense-chivilcoy-exitosa-convocatoria-en-plaza-espana",
    "noticia": "nota:mercado-bonaerense-chivilcoy-exitosa-convocatoria-en-plaza-espana",
    "origen": "web",
@@ -11958,7 +12124,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 28,
+    "impressions": 29,
     "reactions": 0,
     "reposts": 0
    },
@@ -12162,7 +12328,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 3,
+    "impressions": 37,
     "reactions": 0,
     "reposts": 0
    },
@@ -12200,7 +12366,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 9,
+    "impressions": 14,
     "reactions": 0,
     "reposts": 0
    },
@@ -12263,6 +12429,14 @@
    "ig_hora": "2026-11-11T11:52:22.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120484750502535523",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 4,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/salud-mental-chivilcoy-la-caminata-como-estrategia-clinica-para",
    "noticia": "nota:salud-mental-chivilcoy-la-caminata-como-estrategia-clinica-para",
    "origen": "web",
@@ -12626,7 +12800,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 25,
+    "impressions": 35,
     "reactions": 0,
     "reposts": 0
    },
@@ -12794,8 +12968,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 13.51,
+    "impressions": 111,
     "reactions": 0,
     "reposts": 0
    },
@@ -12950,6 +13124,14 @@
    "ig_hora": "2026-11-11T12:52:22.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120500041408262635",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 1,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/primera-division-y-formativas-chivilcoy-el-basquet-femenino-de",
    "noticia": "nota:primera-division-y-formativas-chivilcoy-el-basquet-femenino-de",
    "origen": "web",
@@ -13097,6 +13279,14 @@
    "ig_hora": "2026-11-11T13:22:22.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120507399974834631",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/padel-destacado-subcampeonato-para-francisco-britos-en-el-ajpp-4-000",
    "noticia": "nota:padel-destacado-subcampeonato-para-francisco-britos-en-el-ajpp-4-000",
    "origen": "web",
@@ -13223,7 +13413,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 6,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },
@@ -13337,7 +13527,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 10,
+    "impressions": 36,
     "reactions": 0,
     "reposts": 0
    },
@@ -13465,7 +13655,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 17,
+    "impressions": 18,
     "reactions": 0,
     "reposts": 0
    },
@@ -13536,6 +13726,14 @@
    "ig_hora": "2026-11-12T10:37:32.000Z",
    "intentos": 0,
    "link": "",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/servicios-publicos-chivilcoy-esteban-genaro-y-alejo-cuadrelli",
    "noticia": "nota:servicios-publicos-chivilcoy-esteban-genaro-y-alejo-cuadrelli",
    "origen": "web",
@@ -13570,7 +13768,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 10,
+    "impressions": 16,
     "reactions": 0,
     "reposts": 0
    },
@@ -13607,8 +13805,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 1.41,
-    "impressions": 71,
+    "engagementRate": 1.39,
+    "impressions": 72,
     "reactions": 1,
     "reposts": 0
    },
@@ -13797,6 +13995,14 @@
    "ig_hora": "2026-11-12T10:52:32.000Z",
    "intentos": 0,
    "link": "",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/transito-chivilcoy-demarcacion-de-bulevares-una-intervencion-clave",
    "noticia": "nota:transito-chivilcoy-demarcacion-de-bulevares-una-intervencion-clave",
    "origen": "web",
@@ -14217,7 +14423,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 9,
+    "impressions": 28,
     "reactions": 0,
     "reposts": 0
    },
@@ -14369,7 +14575,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 6,
     "reactions": 0,
     "reposts": 0
    },
@@ -14482,8 +14688,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 3.33,
-    "impressions": 30,
+    "engagementRate": 2.86,
+    "impressions": 35,
     "reactions": 0,
     "reposts": 0
    },
@@ -14760,6 +14966,14 @@
    "ig_hora": "2026-11-11T11:37:22.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120481101499994579",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 7,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/diversidad-e-inclusion-laboral-victoria-ocampo-analizo-los-derechos",
    "noticia": "nota:diversidad-e-inclusion-laboral-victoria-ocampo-analizo-los-derechos",
    "origen": "web",
@@ -14832,7 +15046,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 18,
     "reactions": 0,
     "reposts": 0
    },
@@ -14908,7 +15122,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },
@@ -14975,7 +15189,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 25,
+    "impressions": 26,
     "reactions": 0,
     "reposts": 0
    },
@@ -15040,7 +15254,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 9,
+    "impressions": 11,
     "reactions": 0,
     "reposts": 0
    },
@@ -15101,6 +15315,14 @@
    "ig_hora": "2026-11-11T13:07:22.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120503841296625813",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-torneo-clausura-de-la-asociacion-de-chivilcoy-bragado-club",
    "noticia": "nota:basquet-torneo-clausura-de-la-asociacion-de-chivilcoy-bragado-club",
    "origen": "web",
@@ -15194,6 +15416,14 @@
    "ig_hora": "2026-11-12T10:07:32.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120820714118713534",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/caidas-golpes-y-dudas-chivilcoy-dos-jovenes-permanecen-internados-en",
    "noticia": "nota:caidas-golpes-y-dudas-chivilcoy-dos-jovenes-permanecen-internados-en",
    "origen": "web",
@@ -15424,7 +15654,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 9,
+    "impressions": 11,
     "reactions": 0,
     "reposts": 0
    },
@@ -15462,7 +15692,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 7,
     "reactions": 0,
     "reposts": 0
    },
@@ -15656,8 +15886,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 10.53,
-    "impressions": 38,
+    "engagementRate": 7.55,
+    "impressions": 53,
     "reactions": 2,
     "reposts": 2
    },
@@ -16081,10 +16311,10 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 7,
+    "engagementRate": 4.35,
+    "impressions": 23,
     "reactions": 0,
-    "reposts": 0
+    "reposts": 1
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
    "noticia": "nota:basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
@@ -16453,7 +16683,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 10,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },
@@ -16553,8 +16783,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 4.65,
-    "impressions": 43,
+    "engagementRate": 4.35,
+    "impressions": 46,
     "reactions": 0,
     "reposts": 0
    },
@@ -16614,6 +16844,14 @@
    "id": "web:dcf40e93-0805-42f1-9ed0-237091519937",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120518910223024166",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-trasladaron-a-un-motociclista-al",
    "noticia": "nota:chivilcoy-accidente-chivilcoy-trasladaron-a-un-motociclista-al",
    "origen": "web",
@@ -16648,7 +16886,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 8,
+    "impressions": 10,
     "reactions": 0,
     "reposts": 0
    },
@@ -16800,7 +17038,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 11,
+    "impressions": 31,
     "reactions": 0,
     "reposts": 0
    },
@@ -17121,6 +17359,14 @@
    "ig_hora": "2026-11-11T12:22:22.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120492501169541419",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 16.67,
+    "impressions": 6,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/semillero-rojo-independiente-festejo-los-30-anos-de-su-escuelita-de",
    "noticia": "nota:semillero-rojo-independiente-festejo-los-30-anos-de-su-escuelita-de",
    "origen": "web",
@@ -17216,6 +17462,14 @@
    "ig_hora": "2026-11-11T13:37:22.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2120511375663362257",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/polideportivo-av-84-comienza-una-nueva-fase-de-trabajos-que-permitira",
    "noticia": "nota:polideportivo-av-84-comienza-una-nueva-fase-de-trabajos-que-permitira",
    "origen": "web",
