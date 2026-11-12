@@ -11750,14 +11750,14 @@
    "viral": false
   },
   "web:045183d9-6073-43b7-83df-69738e914aa5|x": {
-   "actualizado": "2026-11-12T10:02:44.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-12T11:40:14.000Z",
+   "buffer_id": "6af5a59e37d13e4d8a4cdfa5",
    "clave": "web:045183d9-6073-43b7-83df-69738e914aa5|x",
    "creado": "2026-11-12T10:02:44.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-12T13:07:41.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-12T10:01:48.489Z",
    "id": "web:045183d9-6073-43b7-83df-69738e914aa5",
    "ig_hora": "2026-11-12T13:07:32.000Z",
@@ -12530,14 +12530,14 @@
    "viral": false
   },
   "web:2c8c4ee8-0fd4-4a9f-ab59-ace34d375557|x": {
-   "actualizado": "2026-11-12T10:02:44.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-12T11:40:14.000Z",
+   "buffer_id": "6af5a59ea3fba876f6be8739",
    "clave": "web:2c8c4ee8-0fd4-4a9f-ab59-ace34d375557|x",
    "creado": "2026-11-12T10:02:44.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-12T12:52:09.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-12T10:01:44.811Z",
    "id": "web:2c8c4ee8-0fd4-4a9f-ab59-ace34d375557",
    "ig_hora": "2026-11-12T12:52:32.000Z",
@@ -17454,19 +17454,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00279|x",
-   "cuando": "2026-11-05T17:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118383569705796042"
-  },
-  {
-   "buffer_id": "6aecb62760a369bcd77cb05c",
-   "clave": "entrevistas:job00280|x",
-   "cuando": "2026-11-05T17:00:24.000Z",
-   "dueAt": "2026-11-05T17:02:16.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00281",
    "cuando": "2026-11-05T17:40:13.000Z",
    "evento": "entrevista_aprobada"
@@ -21623,6 +21610,20 @@
    "clave": "web:1dabe361-4070-447e-9807-fa91aa19b74e|x",
    "cuando": "2026-11-12T11:20:17.000Z",
    "dueAt": "2026-11-12T12:37:54.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af5a59ea3fba876f6be8739",
+   "clave": "web:2c8c4ee8-0fd4-4a9f-ab59-ace34d375557|x",
+   "cuando": "2026-11-12T11:40:14.000Z",
+   "dueAt": "2026-11-12T12:52:09.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af5a59e37d13e4d8a4cdfa5",
+   "clave": "web:045183d9-6073-43b7-83df-69738e914aa5|x",
+   "cuando": "2026-11-12T11:40:14.000Z",
+   "dueAt": "2026-11-12T13:07:41.000Z",
    "evento": "programado"
   }
  ],
