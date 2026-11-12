@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-12T10:20:14.000Z"
+   "visto": "2026-11-12T11:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 5,
-    "sent": 20
+    "scheduled": 1,
+    "sent": 24
    },
    "pausado": false,
-   "visto": "2026-11-12T10:20:14.000Z"
+   "visto": "2026-11-12T11:20:16.000Z"
   }
  },
  "contenidos": {
@@ -4231,25 +4231,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-el-municipio-entrego-nuevas-licencias-a-egresados-de-la",
    "volanta": ""
   },
-  "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880": {
-   "categoria": "",
-   "descripcion": "Los Concejos Deliberantes de la Ruta 5 comienzan a respaldar la iniciativa para finalizar el tramo Mercedes-Suipacha",
-   "generado": "2026-11-02T10:01:09.823Z",
-   "id": "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1b5b9f869cc34202b3b31d3f6ce42759~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/plan-autovia-ruta-5-si-o-si-los-concejos-deliberantes-de-la-ruta-5",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Plan \"Autovía Ruta 5 Sí o Sí\"",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/plan-autovia-ruta-5-si-o-si-los-concejos-deliberantes-de-la-ruta-5",
-   "volanta": ""
-  },
   "web:969326c4-49d1-4610-b2d3-40abe436dfc7": {
    "categoria": "",
    "descripcion": "Chivilcoy: La Municipalidad recuperó la tenencia de la nave industrial ocupada por la empresa Perchet SAU en el Parque Industrial En cumplimiento de una medida cautelar dictada por el Juzgado en lo Contencioso Administrativo N.º 1 de Mercedes, la Oficial de Justicia del Juzgado de Paz Letrado de Chivilcoy hizo entrega formal este lunes de la tenencia del inmueble municipal que se encontraba en poder de la firma Perchet SAU (vinculada a la operatoria de la ex-Bicontinentar / Paquetá). El...",
@@ -5124,25 +5105,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dia-del-empleado-municipal-chivilcoy-anuncio-de-un-bono-de-100-000",
    "volanta": "Día del Empleado Municipal"
   },
-  "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2": {
-   "categoria": "",
-   "descripcion": "Fuerza Patria defendió “la necesidad urgente de modernizar el Estado municipal”; Primero Chivilcoy respondió que “ya se encuentran trabajando…",
-   "generado": "2026-11-02T10:01:31.030Z",
-   "id": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b611111082184973bd42eda04e6c3a44~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-ventanilla-unica-digital-de-habilitaciones-fuerza-patria",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Ventanilla Única Digital de Habilitaciones",
-   "urgente": true,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-ventanilla-unica-digital-de-habilitaciones-fuerza-patria",
-   "volanta": ""
-  },
   "web:c8022409-4d8f-45ba-a34f-1011272f6310": {
    "categoria": "",
    "descripcion": "Chivilcoy: Alicia Ríos presentó el libro sobre la historia de la Logia ‘Luz del Oeste N° 55’ Con un salón colmado en el auditorio “Oscar Lachavanne”, la museóloga Alicia Iris Ríos lanzó su obra sobre el pasado masónico en Chivilcoy. Durante el acto, que combinó el rigor histórico con intervenciones musicales y reflexiones sobre la prensa local, la autora destacó el valor documental rescatado y la profunda impronta de la institución en el desarrollo civil de la ciudad. En la noche del pasado...",
@@ -5161,25 +5123,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/sociedad-francesa-chivilcoy-alicia-rios-presento-el-libro-sobre-la",
    "volanta": "Sociedad Francesa"
-  },
-  "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e": {
-   "categoria": "",
-   "descripcion": "Ola de incendios vehiculares en corredores viales y zonas rurales del partido de Chivilcoy",
-   "generado": "2026-11-02T10:00:53.398Z",
-   "id": "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5efcdfbc82ed46d091e7502bbfdafb0b~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-octubre-amplio-la-estadistica-ola-de-incendios-vehiculares",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Octubre amplió la estadística",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-octubre-amplio-la-estadistica-ola-de-incendios-vehiculares",
-   "volanta": ""
   },
   "web:cb5bd56e-c625-4389-948e-845e3cd94779": {
    "categoria": "",
@@ -5599,25 +5542,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cuatro-funciones-chivilcoy-estrena-la-obra-rico-es-ser-pobre-en-el",
    "volanta": "Cuatro funciones"
   },
-  "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f": {
-   "categoria": "",
-   "descripcion": "Bragado: Quedó a disposición de la Justicia el hombre acusado de comercializar drogas y resistirse violentamente a la policía",
-   "generado": "2026-11-02T10:00:58.720Z",
-   "id": "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_bd9d487e94874207a19c36af4830e23c~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/allanamiento-por-venta-de-drogas-bragado-quedo-a-disposicion-de-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Allanamiento por venta de drogas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/allanamiento-por-venta-de-drogas-bragado-quedo-a-disposicion-de-la",
-   "volanta": ""
-  },
   "web:eacc8d49-8717-44c4-bd52-91080cbfae81": {
    "categoria": "",
    "descripcion": "Douglas Haig venció 1 a 0 a Gimnasia en Pergamino En el marco del partido de ida por los cuartos de final, Douglas Haig superó por 1 a 0 a Gimnasia de Chivilcoy en la ciudad de Pergamino. El único tanto del encuentro fue convertido por Martín Schlotthauer de cabeza, tras un centro al área enviado por Pereira.",
@@ -5769,25 +5693,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/polideportivo-av-84-comienza-una-nueva-fase-de-trabajos-que-permitira",
    "volanta": "Polideportivo Av. 84"
-  },
-  "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Vecinos impulsan el freno de los aumentos en los peajes y reclaman mejoras en la Ruta 5 CHIVILCOY.– Desde Mercedes, integrantes de una comisión vecinal reclaman por las elevadas tarifas de los peajes, el deterioro de la Ruta Nacional 5 y la continuidad de las obras de autopista. Además, buscan convocar a distintas localidades de la región para coordinar posibles medidas de protesta. Vecinos de la ciudad de Mercedes volvieron a manifestarse por la situación de la Ruta Nacional 5,...",
-   "generado": "2026-11-02T10:01:19.892Z",
-   "id": "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_af2f53cc5d604125aa1009c43af760b5~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/reclamo-regional-chivilcoy-vecinos-impulsan-el-freno-de-los-aumentos",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Vecinos impulsan el freno de los aumentos en los peajes y reclaman mejoras en la Ruta 5",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reclamo-regional-chivilcoy-vecinos-impulsan-el-freno-de-los-aumentos",
-   "volanta": "Reclamo Regional"
   },
   "web:f798f446-3206-44e9-8d07-a7a03032fed7": {
    "categoria": "",
@@ -11731,19 +11636,20 @@
    "viral": false
   },
   "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e|x": {
-   "actualizado": "2026-11-12T10:04:04.000Z",
+   "actualizado": "2026-11-12T11:20:16.000Z",
    "buffer_id": "6af58f15dcbfadbe0a6d300b",
    "clave": "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e|x",
    "creado": "2026-11-12T10:02:44.000Z",
    "dueAt": "2026-11-12T10:22:39.000Z",
+   "enviado": "2026-11-12T10:22:46.269Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T10:00:57.407Z",
    "id": "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e",
    "ig_hora": "2026-11-12T10:22:32.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120824615450604025",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -12386,14 +12292,14 @@
    "viral": false
   },
   "web:1dabe361-4070-447e-9807-fa91aa19b74e|x": {
-   "actualizado": "2026-11-12T10:02:44.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-12T11:20:16.000Z",
+   "buffer_id": "6af5a0f12a482cc6407a7d11",
    "clave": "web:1dabe361-4070-447e-9807-fa91aa19b74e|x",
    "creado": "2026-11-12T10:02:44.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-12T12:37:54.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-12T10:01:41.509Z",
    "id": "web:1dabe361-4070-447e-9807-fa91aa19b74e",
    "ig_hora": "2026-11-12T12:37:32.000Z",
@@ -12556,19 +12462,20 @@
    "viral": false
   },
   "web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b|x": {
-   "actualizado": "2026-11-12T10:04:04.000Z",
+   "actualizado": "2026-11-12T11:20:16.000Z",
    "buffer_id": "6af58f17100f73160cc4dc53",
    "clave": "web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b|x",
    "creado": "2026-11-12T10:02:44.000Z",
    "dueAt": "2026-11-12T11:07:41.000Z",
+   "enviado": "2026-11-12T11:07:46.225Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T10:01:12.845Z",
    "id": "web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b",
    "ig_hora": "2026-11-12T11:07:32.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120835939710677112",
    "nota_url": "https://www.diariolacampaña.com.ar/n/largo-y-cortometrajes-chivilcoy-comienza-la-novena-edicion-del",
    "noticia": "nota:largo-y-cortometrajes-chivilcoy-comienza-la-novena-edicion-del",
    "origen": "web",
@@ -13713,19 +13620,20 @@
    "viral": false
   },
   "web:69c39de9-a005-4224-84c8-d634ead4dc59|x": {
-   "actualizado": "2026-11-12T10:04:04.000Z",
+   "actualizado": "2026-11-12T11:20:16.000Z",
    "buffer_id": "6af58f16f662733b84a70742",
    "clave": "web:69c39de9-a005-4224-84c8-d634ead4dc59|x",
    "creado": "2026-11-12T10:02:44.000Z",
    "dueAt": "2026-11-12T10:37:56.000Z",
+   "enviado": "2026-11-12T10:38:01.633Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T10:01:04.517Z",
    "id": "web:69c39de9-a005-4224-84c8-d634ead4dc59",
    "ig_hora": "2026-11-12T10:37:32.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120828454597693915",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -13982,19 +13890,20 @@
    "viral": false
   },
   "web:715ed60b-7e27-4f93-b061-3e96c07992e4|x": {
-   "actualizado": "2026-11-12T10:04:04.000Z",
+   "actualizado": "2026-11-12T11:20:16.000Z",
    "buffer_id": "6af58f16041a9377d7df2962",
    "clave": "web:715ed60b-7e27-4f93-b061-3e96c07992e4|x",
    "creado": "2026-11-12T10:02:44.000Z",
    "dueAt": "2026-11-12T10:52:21.000Z",
+   "enviado": "2026-11-12T10:52:31.154Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-12T10:01:08.563Z",
    "id": "web:715ed60b-7e27-4f93-b061-3e96c07992e4",
    "ig_hora": "2026-11-12T10:52:32.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2120832101582827680",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -14818,34 +14727,6 @@
    "titulo": "Chivilcoy: El Municipio entregó nuevas licencias a egresados de la Escuela Municipal de Manejo",
    "urgente": false,
    "vence": "2026-11-05T14:01:08.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880|x": {
-   "actualizado": "2026-11-02T11:00:22.000Z",
-   "buffer_id": "",
-   "clave": "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880|x",
-   "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "",
-   "error": "no está en el carrusel del diario de hoy",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "descartado",
-   "generado": "2026-11-02T10:01:09.823Z",
-   "id": "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/plan-autovia-ruta-5-si-o-si-los-concejos-deliberantes-de-la-ruta-5",
-   "noticia": "nota:plan-autovia-ruta-5-si-o-si-los-concejos-deliberantes-de-la-ruta-5",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Plan \"Autovía Ruta 5 Sí o Sí\"\n\nhttps://www.diariolacampaña.com.ar/n/plan-autovia-ruta-5-si-o-si-los-concejos-deliberantes-de-la-ruta-5",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Plan \"Autovía Ruta 5 Sí o Sí\"",
-   "urgente": false,
-   "vence": "2026-11-02T14:01:09.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16369,34 +16250,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x": {
-   "actualizado": "2026-11-02T11:00:22.000Z",
-   "buffer_id": "6ae863e04a24ce7f363585bf",
-   "clave": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2|x",
-   "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "2026-11-02T11:38:37.000Z",
-   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
-   "espera": "",
-   "estado": "descartado",
-   "generado": "2026-11-02T10:01:31.030Z",
-   "id": "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-ventanilla-unica-digital-de-habilitaciones-fuerza-patria",
-   "noticia": "nota:chivilcoy-ventanilla-unica-digital-de-habilitaciones-fuerza-patria",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Ventanilla Única Digital de Habilitaciones\n\nFuerza Patria defendió la necesidad urgente de modernizar el Estado municipal.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-ventanilla-unica-digital-de-habilitaciones-fuerza-patria",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Ventanilla Única Digital de Habilitaciones",
-   "urgente": true,
-   "vence": "2026-11-02T14:01:31.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c8022409-4d8f-45ba-a34f-1011272f6310|x": {
    "actualizado": "2026-11-12T10:40:13.000Z",
    "buffer_id": "6af5978ddcbfadbe0a70283e",
@@ -16422,34 +16275,6 @@
    "titulo": "Chivilcoy: Alicia Ríos presentó el libro sobre la historia de la Logia ‘Luz del Oeste N° 55’",
    "urgente": false,
    "vence": "2026-11-12T14:01:34.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e|x": {
-   "actualizado": "2026-11-02T11:00:22.000Z",
-   "buffer_id": "",
-   "clave": "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e|x",
-   "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "",
-   "error": "no está en el carrusel del diario de hoy",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "descartado",
-   "generado": "2026-11-02T10:00:53.398Z",
-   "id": "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-octubre-amplio-la-estadistica-ola-de-incendios-vehiculares",
-   "noticia": "nota:chivilcoy-octubre-amplio-la-estadistica-ola-de-incendios-vehiculares",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Octubre amplió la estadística\n\nRegistran una ola de incendios vehiculares en corredores viales y zonas rurales del partido.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-octubre-amplio-la-estadistica-ola-de-incendios-vehiculares",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Octubre amplió la estadística",
-   "urgente": false,
-   "vence": "2026-11-02T14:00:53.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17196,34 +17021,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f|x": {
-   "actualizado": "2026-11-02T11:00:22.000Z",
-   "buffer_id": "",
-   "clave": "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f|x",
-   "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "",
-   "error": "no está en el carrusel del diario de hoy",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "descartado",
-   "generado": "2026-11-02T10:00:58.720Z",
-   "id": "web:eaacf3db-efb8-47ba-a1c1-76b857c7021f",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/allanamiento-por-venta-de-drogas-bragado-quedo-a-disposicion-de-la",
-   "noticia": "nota:allanamiento-por-venta-de-drogas-bragado-quedo-a-disposicion-de-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Allanamiento por venta de drogas\n\nEn Bragado, quedó a disposición de la Justicia un hombre acusado de vender estupefacientes y de resistirse de forma violenta a la policía.\n\nhttps://www.diariolacampaña.com.ar/n/allanamiento-por-venta-de-drogas-bragado-quedo-a-disposicion-de-la",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Allanamiento por venta de drogas",
-   "urgente": false,
-   "vence": "2026-11-02T14:00:58.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:eacc8d49-8717-44c4-bd52-91080cbfae81|x": {
    "actualizado": "2026-11-07T23:40:24.000Z",
    "buffer_id": "",
@@ -17485,44 +17282,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x": {
-   "actualizado": "2026-11-02T11:00:23.000Z",
-   "buffer_id": "6ae8603bb0da614b553ea704",
-   "clave": "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae|x",
-   "creado": "2026-11-02T10:03:22.000Z",
-   "dueAt": "2026-11-02T10:53:33.000Z",
-   "enviado": "2026-11-02T10:53:46.115Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-02T10:01:19.892Z",
-   "id": "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae",
-   "ig_hora": "2026-11-02T10:53:00.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117208537260601851",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 26,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/reclamo-regional-chivilcoy-vecinos-impulsan-el-freno-de-los-aumentos",
-   "noticia": "nota:reclamo-regional-chivilcoy-vecinos-impulsan-el-freno-de-los-aumentos",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Vecinos impulsan el freno de los aumentos en los peajes y reclaman mejoras en la Ruta 5\n\nUna comisión vecinal de Mercedes reclama por las tarifas de los peajes y el deterioro de la Ruta Nacional 5. Buscan coordinar medidas de protesta.\n\nhttps://www.diariolacampaña.com.ar/n/reclamo-regional-chivilcoy-vecinos-impulsan-el-freno-de-los-aumentos",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Vecinos impulsan el freno de los aumentos en los peajes y reclaman mejoras en la Ruta 5",
-   "urgente": false,
-   "vence": "2026-11-02T14:01:19.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:f798f446-3206-44e9-8d07-a7a03032fed7|x": {
    "actualizado": "2026-11-06T11:40:16.000Z",
    "buffer_id": "6aeda61686fe9b83798ab585",
@@ -17694,42 +17453,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00279|tiktok",
-   "cuando": "2026-11-05T16:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6aecb1719b4d9c55763416b1",
-   "clave": "entrevistas:job00279|x",
-   "cuando": "2026-11-05T16:40:17.000Z",
-   "dueAt": "2026-11-05T16:42:34.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00280",
-   "cuando": "2026-11-05T17:00:20.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00280|x",
-   "cuando": "2026-11-05T17:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00280|tiktok",
-   "cuando": "2026-11-05T17:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00279|x",
    "cuando": "2026-11-05T17:00:22.000Z",
@@ -21870,6 +21593,37 @@
    "cuando": "2026-11-12T10:40:14.000Z",
    "dueAt": "2026-11-12T12:07:51.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e|x",
+   "cuando": "2026-11-12T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120824615450604025"
+  },
+  {
+   "clave": "web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b|x",
+   "cuando": "2026-11-12T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120835939710677112"
+  },
+  {
+   "clave": "web:69c39de9-a005-4224-84c8-d634ead4dc59|x",
+   "cuando": "2026-11-12T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120828454597693915"
+  },
+  {
+   "clave": "web:715ed60b-7e27-4f93-b061-3e96c07992e4|x",
+   "cuando": "2026-11-12T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2120832101582827680"
+  },
+  {
+   "buffer_id": "6af5a0f12a482cc6407a7d11",
+   "clave": "web:1dabe361-4070-447e-9807-fa91aa19b74e|x",
+   "cuando": "2026-11-12T11:20:17.000Z",
+   "dueAt": "2026-11-12T12:37:54.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21907,7 +21661,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-12",
- "ultima_sync": "2026-11-12T10:20:14.000Z",
+ "ultima_sync": "2026-11-12T11:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
