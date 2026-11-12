@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -34,7 +34,6 @@ Actualizado: 12/11/2026 14:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T12:00 programado web:b8356399-c1a9-4319-bdf3-d449371f55e1|x 
 - 2026-11-12T12:20 programado web:814123f9-8cc0-4123-a5ec-ff7775c42341|x 
 - 2026-11-12T12:40 enviado web:1dabe361-4070-447e-9807-fa91aa19b74e|x 
 - 2026-11-12T12:40 enviado web:38185935-c480-4780-9b62-2a630fd62c5f|x 
@@ -59,3 +58,4 @@ Actualizado: 12/11/2026 14:00 (hora AR) · ACTIVO
 - 2026-11-12T17:00 recibido entrevistas:job00304|x 
 - 2026-11-12T17:00 recibido entrevistas:job00304|tiktok 
 - 2026-11-12T17:00 programado entrevistas:job00304|x 
+- 2026-11-12T17:20 enviado entrevistas:job00304|x 
