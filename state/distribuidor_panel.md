@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 11/11/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 11/11/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-11)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 11/11/2026 22:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 1 | 0 |
-| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 5 |
+| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -34,8 +34,6 @@ Actualizado: 11/11/2026 22:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-11T21:00 programado entrevistas:job00303|tiktok 
-- 2026-11-11T21:00 programado entrevistas:job00302|tiktok 
 - 2026-11-11T21:00 programado entrevistas:job00301|tiktok 
 - 2026-11-11T21:00 programado entrevistas:job00300|tiktok 
 - 2026-11-11T21:00 programado entrevistas:job00299|tiktok 
@@ -59,3 +57,5 @@ Actualizado: 11/11/2026 22:40 (hora AR) · ACTIVO
 - 2026-11-12T00:40 enviado bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x 
 - 2026-11-12T00:40 enviado policiales:https://www.lamanana.com.ar/unos-35-efectivos-pol 
 - 2026-11-12T01:20 vencido policiales:https://www.junindigital.com/policiales/2026-11-1 espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-12T02:00 recibido web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x 
+- 2026-11-12T02:00 depurado web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x de la web, a X solo van las notas del diario de la mañana

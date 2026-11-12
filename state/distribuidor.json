@@ -1339,32 +1339,6 @@
    "volanta": "Carmen de Areco",
    "youtube_url": "https://youtube.com/shorts/a5tHmWmIw3E"
   },
-  "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea": {
-   "categoria": "robo",
-   "descripcion": "Un ladrón ingresó este domingo al mediodía por el sector de elaboración de La Europea, ubicada en Rivadavia y Salta, y se llevó dos tarros de dulce de leche.",
-   "distancia_km": 91.2,
-   "duracion_seg": 41.8,
-   "generado": "2026-11-01T23:31:34.000Z",
-   "id": "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-robaron-dos-tarros-de-dulce-de-leche-en-la-panaderia-la-e1a002",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 5,
-   "radio_ok": true,
-   "texto_tiktok": "Un delincuente ingresó a robar este domingo al mediodía en la tradicional panadería La Europea.\n\nEl hecho ocurrió cerca de las 12:15 en el local situado en la esquina de Rivadavia y Salta.\n\nEl ladrón se metió por el acceso lateral que lleva directo a la cuadra de elaboración.\n\nDe allí sustrajo dos tarros de dulce de leche y la secuencia quedó registrada por las cámaras de seguridad.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Inseguridad #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Delincuente robó dulce de leche de una conocida panadería",
-   "urgente": false,
-   "video_bytes": 768920,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_06_junin_delincuente-rob-dulce-de-leche.mp4",
-   "volanta": "Robo en Junín",
-   "youtube_url": "https://youtube.com/shorts/ky-toTFl05o"
-  },
   "policiales:https://junin24.com/locales/solo-danos-materiales-como-consecuencia-de-un-principio-de-incendio-en-una-cocina": {
    "categoria": "incendio",
    "descripcion": "Bomberos debieron intervenir por un principio de incendio registrado en la cocina de una vivienda ubicada en calle Jean Jaures al 850. Afortunadamente no se reportaron personas heridas y el fuego solo provocó daños materiales.",
@@ -5004,6 +4978,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/conflicto-en-salud-gremios-docentes-presentaron-un-reclamo-conjunto",
    "volanta": "Conflicto en salud"
+  },
+  "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: APREHENDIERON a un hombre por robar elementos eléctricos de una fábrica CHIVILCOY.– Un hombre de 62 años fue aprehendido este martes 11 de noviembre, luego de ingresar a la fábrica de cerámicos Gandolfo y sustraer distintos elementos de electricidad. El procedimiento fue realizado por personal policial, tras un alerta al 911, en calle 76 entre Güemes y Guido. Según se informó, el sujeto, identificado como José Luis Garibotti (62), habría ingresado al establecimiento luego de romper...",
+   "generado": "2026-11-12T01:50:11.610Z",
+   "id": "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b4a9f7ad35be4c39b90dbc0f41e2e1cf~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por-robar",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: APREHENDIERON a un hombre por robar elementos eléctricos de una fábrica",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por-robar",
+   "volanta": "Chivilcoy · Policiales"
   },
   "web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e": {
    "categoria": "",
@@ -9936,34 +9929,6 @@
    "vence": "2026-11-03T00:32:11.000Z",
    "video_bytes": 101065,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_03_carmen-de-areco_cay-preso-tras-intentar-robar-.mp4",
-   "viral": false
-  },
-  "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea|x": {
-   "actualizado": "2026-11-02T01:40:16.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea|x",
-   "creado": "2026-11-01T23:40:14.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-01T23:31:34.000Z",
-   "id": "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-robaron-dos-tarros-de-dulce-de-leche-en-la-panaderia-la-e1a002",
-   "noticia": "nota:junin-robaron-dos-tarros-de-dulce-de-leche-en-la-panaderia-la-e1a002",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 5,
-   "texto": "Delincuente robó dulce de leche de una conocida panadería\n\nUn ladrón ingresó este domingo al mediodía por el sector de elaboración de La Europea, ubicada en Rivadavia y Salta, y se llevó dos tarros de dulce de leche.\n\nhttps://www.diariolacampaña.com.ar/n/junin-robaron-dos-tarros-de-dulce-de-leche-en-la-panaderia-la-e1a002",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Delincuente robó dulce de leche de una conocida panadería",
-   "urgente": false,
-   "vence": "2026-11-02T01:31:34.000Z",
-   "video_bytes": 768920,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-01_2135_06_junin_delincuente-rob-dulce-de-leche.mp4",
    "viral": false
   },
   "policiales:https://junin24.com/locales/solo-danos-materiales-como-consecuencia-de-un-principio-de-incendio-en-una-cocina|x": {
@@ -15718,6 +15683,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x": {
+   "actualizado": "2026-11-12T02:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x",
+   "creado": "2026-11-12T02:00:16.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-12T01:50:11.610Z",
+   "id": "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por-robar",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por-robar",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: APREHENDIERON a un hombre por robar elementos eléctricos de una fábrica\n\nUn hombre fue arrestado tras ingresar a una fábrica de cerámicos y sustraer elementos de electricidad. La policía actuó luego de un alerta al 911.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por-robar",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: APREHENDIERON a un hombre por robar elementos eléctricos de una fábrica",
+   "urgente": false,
+   "vence": "2026-11-12T05:50:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e|x": {
    "actualizado": "2026-11-11T14:00:26.000Z",
    "buffer_id": "6af46b95f93beeeade1499cc",
@@ -16869,19 +16861,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:969326c4-49d1-4610-b2d3-40abe436dfc7|x",
-   "cuando": "2026-11-05T10:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118287900311769299"
-  },
-  {
-   "buffer_id": "6aec5d0f7a8d6fb41a6d6cd1",
-   "clave": "web:d4089f06-53a3-4eae-adeb-d9043a2f641d|x",
-   "cuando": "2026-11-05T10:40:16.000Z",
-   "dueAt": "2026-11-05T11:52:16.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6aec5d107a8d6fb41a6d6d02",
    "clave": "web:0d0f2a09-0416-445a-82b7-74eed589d782|x",
@@ -21017,6 +20996,20 @@
    "cuando": "2026-11-12T01:20:17.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x",
+   "cuando": "2026-11-12T02:00:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x",
+   "cuando": "2026-11-12T02:00:18.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22178,6 +22171,7 @@
   "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4": "2026-10-18T22:20:14.000Z",
   "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af": "2026-10-17T17:00:15.000Z",
   "web:cb5bd56e-c625-4389-948e-845e3cd94779": "2026-11-02T10:03:22.000Z",
+  "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f": "2026-11-12T02:00:16.000Z",
   "web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e": "2026-11-11T13:20:17.000Z",
   "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52": "2026-11-10T17:20:14.000Z",
   "web:cc9019ae-7f13-4598-b272-348e432962b5": "2026-10-13T10:20:16.000Z",
