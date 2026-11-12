@@ -15721,14 +15721,14 @@
    "viral": false
   },
   "web:b8356399-c1a9-4319-bdf3-d449371f55e1|x": {
-   "actualizado": "2026-11-12T10:02:44.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-12T12:00:17.000Z",
+   "buffer_id": "6af5aa544926d8280f0cf217",
    "clave": "web:b8356399-c1a9-4319-bdf3-d449371f55e1|x",
    "creado": "2026-11-12T10:02:44.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-12T13:22:05.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-12T10:01:51.926Z",
    "id": "web:b8356399-c1a9-4319-bdf3-d449371f55e1",
    "ig_hora": "2026-11-12T13:22:32.000Z",
@@ -17453,11 +17453,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00281",
-   "cuando": "2026-11-05T17:40:13.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00281|x",
    "cuando": "2026-11-05T17:40:24.000Z",
@@ -21624,6 +21619,13 @@
    "clave": "web:045183d9-6073-43b7-83df-69738e914aa5|x",
    "cuando": "2026-11-12T11:40:14.000Z",
    "dueAt": "2026-11-12T13:07:41.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af5aa544926d8280f0cf217",
+   "clave": "web:b8356399-c1a9-4319-bdf3-d449371f55e1|x",
+   "cuando": "2026-11-12T12:00:21.000Z",
+   "dueAt": "2026-11-12T13:22:05.000Z",
    "evento": "programado"
   }
  ],
