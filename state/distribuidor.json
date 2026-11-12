@@ -1272,6 +1272,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00306.mp4",
    "youtube_url": "https://youtu.be/y7uui7NXk20"
   },
+  "entrevistas:job00307": {
+   "descripcion": "La escritora Samantha San Romé estuvo en Chivilcoy y reflexionó sobre los mandatos actuales y la imposibilidad de controlar el enamoramiento. Además, planteó la idea de festejar la derrota amorosa.",
+   "duracion_seg": null,
+   "entrevistado": "Samantha San Romé",
+   "generado": "2026-11-12T18:40:15.000Z",
+   "id": "entrevistas:job00307",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Samantha San Romé en Chivilcoy: celebrar la derrota en el amor",
+   "urgente": false,
+   "video_bytes": 33155100,
+   "video_mb": 31.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00307.mp4",
+   "youtube_url": "https://youtu.be/npe6oIsuk6M"
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -3590,25 +3611,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
    "volanta": "Seguridad local"
-  },
-  "web:6541af24-4488-427f-95aa-ae535252bd65": {
-   "categoria": "",
-   "descripcion": "Un viaje que nadie había planeado, un país que te enamora y una pregunta simple: ¿por qué es tan difícil encontrar a alguien de confianza para arreglar algo en casa? ¿Y por qué le cuesta tanto a un buen profesional de oficio conseguir trabajo constante? Hay historias que empiezan con un plan de negocios. La de Servidos empezó con un comentario en internet. Domas, el fundador de Servidos, trabaja como desarrollador web freelance desde 2013, cuando estudiaba economía y negocios en el Reino...",
-   "generado": "2026-11-02T18:17:44.148Z",
-   "id": "web:6541af24-4488-427f-95aa-ae535252bd65",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b6f2a9287a1f468e93141c0ffcc02c6b~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/material-de-prensa-octubre-2026-la-historia-de-servidos",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "La historia de Servidos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/material-de-prensa-octubre-2026-la-historia-de-servidos",
-   "volanta": ""
   },
   "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d": {
    "categoria": "",
@@ -7298,43 +7300,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00270.mp4",
    "viral": false
   },
-  "entrevistas:job00270|x": {
-   "actualizado": "2026-11-02T18:20:35.000Z",
-   "buffer_id": "6ae8c653948a9655f41aeefd",
-   "clave": "entrevistas:job00270|x",
-   "creado": "2026-11-02T17:20:15.000Z",
-   "dueAt": "2026-11-02T17:22:19.000Z",
-   "enviado": "2026-11-02T17:22:40.539Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-02T17:20:15.000Z",
-   "id": "entrevistas:job00270",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117306409419174264",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 26,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:decung-escuelas-mailen-mental-ruiz-salud",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Salud mental en escuelas: Mailén Ruiz Decung\n\nMailén Ruiz Decung, coordinadora de Casa Pueblo, advirtió sobre el sufrimiento psíquico en las aulas de Chivilcoy. Además, detalló el trabajo en los conversatorios escolares.\n\nhttps://youtu.be/Sd-9SEolrIk",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Salud mental en escuelas: Mailén Ruiz Decung",
-   "urgente": false,
-   "vence": "2026-11-02T19:20:15.000Z",
-   "video_bytes": 27407471,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00270.mp4",
-   "viral": false
-  },
   "entrevistas:job00271|tiktok": {
    "actualizado": "2026-11-03T23:00:24.000Z",
    "buffer_id": "6aea4b6b6f495ad554194c73",
@@ -10088,6 +10053,62 @@
    "vence": "2026-11-12T20:00:18.000Z",
    "video_bytes": 23215831,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00306.mp4",
+   "viral": false
+  },
+  "entrevistas:job00307|tiktok": {
+   "actualizado": "2026-11-12T18:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00307|tiktok",
+   "creado": "2026-11-12T18:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-12T18:40:15.000Z",
+   "id": "entrevistas:job00307",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Samantha San Romé en Chivilcoy: celebrar la derrota en el amor\n\nLa escritora Samantha San Romé estuvo en Chivilcoy y reflexionó sobre los mandatos actuales y la imposibilidad de controlar el enamoramiento. Además, planteó la idea de festejar la derrota amorosa.\n\nhttps://youtu.be/npe6oIsuk6M\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Samantha San Romé en Chivilcoy: celebrar la derrota en el amor",
+   "urgente": false,
+   "vence": "2026-11-14T18:40:15.000Z",
+   "video_bytes": 33155100,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00307.mp4",
+   "viral": false
+  },
+  "entrevistas:job00307|x": {
+   "actualizado": "2026-11-12T18:40:29.000Z",
+   "buffer_id": "6af6081e68b55f457c168ee1",
+   "clave": "entrevistas:job00307|x",
+   "creado": "2026-11-12T18:40:15.000Z",
+   "dueAt": "2026-11-12T18:42:34.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-12T18:40:15.000Z",
+   "id": "entrevistas:job00307",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:amor-celebrar-chivilcoy-derrota-rome-samantha",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Samantha San Romé en Chivilcoy: celebrar la derrota en el amor\n\nLa escritora Samantha San Romé estuvo en Chivilcoy y reflexionó sobre los mandatos actuales y la imposibilidad de controlar el enamoramiento.\n\nhttps://youtu.be/npe6oIsuk6M",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Samantha San Romé en Chivilcoy: celebrar la derrota en el amor",
+   "urgente": false,
+   "vence": "2026-11-12T20:40:15.000Z",
+   "video_bytes": 33155100,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00307.mp4",
    "viral": false
   },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
@@ -13468,33 +13489,6 @@
    "titulo": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy",
    "urgente": false,
    "vence": "2026-11-06T21:50:11.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:6541af24-4488-427f-95aa-ae535252bd65|x": {
-   "actualizado": "2026-11-02T18:20:35.000Z",
-   "buffer_id": "",
-   "clave": "web:6541af24-4488-427f-95aa-ae535252bd65|x",
-   "creado": "2026-11-02T18:20:16.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-02T18:17:44.148Z",
-   "id": "web:6541af24-4488-427f-95aa-ae535252bd65",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/material-de-prensa-octubre-2026-la-historia-de-servidos",
-   "noticia": "nota:material-de-prensa-octubre-2026-la-historia-de-servidos",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "La historia de Servidos\n\nLa historia empezó con un comentario en internet tras un viaje no planeado. Domas, su fundador, trabaja como desarrollador web freelance desde 2013.\n\nhttps://www.diariolacampaña.com.ar/n/material-de-prensa-octubre-2026-la-historia-de-servidos",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "La historia de Servidos",
-   "urgente": false,
-   "vence": "2026-11-02T22:17:44.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17245,34 +17239,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6aed0f3686fe9b83795b950c",
-   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|x",
-   "cuando": "2026-11-05T23:20:22.000Z",
-   "dueAt": "2026-11-05T23:22:48.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aed0f36f3498efda757a8cc",
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x",
-   "cuando": "2026-11-05T23:20:22.000Z",
-   "dueAt": "2026-11-05T23:28:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/|x",
-   "cuando": "2026-11-05T23:40:34.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|x",
-   "cuando": "2026-11-05T23:40:34.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118484303017370027"
-  },
   {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x",
    "cuando": "2026-11-05T23:40:34.000Z",
@@ -21407,6 +21373,34 @@
    "cuando": "2026-11-12T18:20:30.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120941449378169210"
+  },
+  {
+   "clave": "entrevistas:job00307",
+   "cuando": "2026-11-12T18:40:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00307|x",
+   "cuando": "2026-11-12T18:40:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00307|tiktok",
+   "cuando": "2026-11-12T18:40:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af6081e68b55f457c168ee1",
+   "clave": "entrevistas:job00307|x",
+   "cuando": "2026-11-12T18:40:30.000Z",
+   "dueAt": "2026-11-12T18:42:34.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21741,6 +21735,7 @@
   "entrevistas:job00304": "2026-11-12T17:00:19.000Z",
   "entrevistas:job00305": "2026-11-12T17:40:14.000Z",
   "entrevistas:job00306": "2026-11-12T18:00:18.000Z",
+  "entrevistas:job00307": "2026-11-12T18:40:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",

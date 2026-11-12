@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@ Actualizado: 12/11/2026 15:20 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 26 · likes 0
+- X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 26 · likes 0
 - X · Reels del bot: 16 con métricas · mediana vistas/impresiones 31 · likes 0
 - X · Reels policiales: 18 con métricas · mediana vistas/impresiones 45 · likes 0
 - X · Notas web: 100 con métricas · mediana vistas/impresiones 17 · likes 0
@@ -27,7 +27,8 @@ Actualizado: 12/11/2026 15:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
+- TikTok · Recortes de entrevistas · Samantha San Romé en Chivilcoy: celebrar la derrota en el amor — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Lula Gonzalez: ¿Si no estás en redes no existís? — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Florencia Galante: defensa personal femenina y críticas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Laura Azcola: inclusión laboral y sueldos dignos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -36,10 +37,6 @@ Actualizado: 12/11/2026 15:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T13:40 recibido web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x 
-- 2026-11-12T13:40 enviado bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok 
-- 2026-11-12T13:40 enviado web:045183d9-6073-43b7-83df-69738e914aa5|x 
-- 2026-11-12T13:40 enviado web:2c8c4ee8-0fd4-4a9f-ab59-ace34d375557|x 
 - 2026-11-12T13:40 enviado web:814123f9-8cc0-4123-a5ec-ff7775c42341|x 
 - 2026-11-12T13:40 enviado web:b8356399-c1a9-4319-bdf3-d449371f55e1|x 
 - 2026-11-12T14:00 depurado web:b034af07-ddaf-426e-8207-d2724c540524|x no está en el carrusel del diario de hoy
@@ -61,3 +58,7 @@ Actualizado: 12/11/2026 15:20 (hora AR) · ACTIVO
 - 2026-11-12T18:00 programado entrevistas:job00306|x 
 - 2026-11-12T18:20 enviado entrevistas:job00305|x 
 - 2026-11-12T18:20 enviado entrevistas:job00306|x 
+- 2026-11-12T18:40 entrevista_aprobada entrevistas:job00307 
+- 2026-11-12T18:40 recibido entrevistas:job00307|x 
+- 2026-11-12T18:40 recibido entrevistas:job00307|tiktok 
+- 2026-11-12T18:40 programado entrevistas:job00307|x 
