@@ -13902,14 +13902,14 @@
    "viral": false
   },
   "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x": {
-   "actualizado": "2026-11-12T13:40:16.000Z",
+   "actualizado": "2026-11-12T14:20:14.000Z",
    "buffer_id": "",
    "clave": "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x",
    "creado": "2026-11-12T13:40:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-12T13:26:20.922Z",
    "id": "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285",
    "intentos": 0,
@@ -16626,14 +16626,14 @@
    "viral": false
   },
   "web:e5265ed2-c719-4005-9f45-041765495e36|x": {
-   "actualizado": "2026-11-12T13:40:16.000Z",
+   "actualizado": "2026-11-12T14:20:14.000Z",
    "buffer_id": "",
    "clave": "web:e5265ed2-c719-4005-9f45-041765495e36|x",
    "creado": "2026-11-12T13:40:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-12T13:37:23.178Z",
    "id": "web:e5265ed2-c719-4005-9f45-041765495e36",
    "intentos": 0,
@@ -17262,20 +17262,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6aecee68cf99e575e90bf369",
-   "clave": "entrevistas:job00281|tiktok",
-   "cuando": "2026-11-05T21:00:27.000Z",
-   "dueAt": "2026-11-05T21:43:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aecee6acf99e575e90bf4c2",
-   "clave": "entrevistas:job00280|tiktok",
-   "cuando": "2026-11-05T21:00:27.000Z",
-   "dueAt": "2026-11-05T22:03:14.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6aecee6b19bea0313feae338",
    "clave": "entrevistas:job00279|tiktok",
@@ -21428,6 +21414,18 @@
   {
    "clave": "web:b034af07-ddaf-426e-8207-d2724c540524|x",
    "cuando": "2026-11-12T14:00:17.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x",
+   "cuando": "2026-11-12T14:20:14.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:e5265ed2-c719-4005-9f45-041765495e36|x",
+   "cuando": "2026-11-12T14:20:14.000Z",
    "evento": "depurado",
    "motivo": "no está en el carrusel del diario de hoy"
   }
