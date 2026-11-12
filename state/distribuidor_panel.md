@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 10:00 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 10:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 12/11/2026 10:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 10 | 5 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 10 | 5 | 1 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,20 +20,20 @@ Actualizado: 12/11/2026 10:00 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 36 con métricas · mediana vistas/impresiones 26.5 · likes 0
 - X · Reels del bot: 16 con métricas · mediana vistas/impresiones 31 · likes 0
 - X · Reels policiales: 18 con métricas · mediana vistas/impresiones 45 · likes 0
-- X · Notas web: 106 con métricas · mediana vistas/impresiones 18 · likes 0
+- X · Notas web: 103 con métricas · mediana vistas/impresiones 17 · likes 0
 - TikTok · Recortes de entrevistas: 36 con métricas · mediana vistas/impresiones 160.5 · likes 1
 - TikTok · Reels del bot: 19 con métricas · mediana vistas/impresiones 335 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Notas web · Chivilcoy: Un motociclista fue hospitalizado tras chocar con una camioneta — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T10:04 programado web:01420ed6-06ac-426a-b80b-a6cc421e4e5e|x 
 - 2026-11-12T10:04 programado web:69c39de9-a005-4224-84c8-d634ead4dc59|x 
 - 2026-11-12T10:04 programado web:715ed60b-7e27-4f93-b061-3e96c07992e4|x 
 - 2026-11-12T10:04 programado web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b|x 
@@ -58,3 +58,4 @@ Actualizado: 12/11/2026 10:00 (hora AR) · ACTIVO
 - 2026-11-12T12:40 enviado web:c8022409-4d8f-45ba-a34f-1011272f6310|x 
 - 2026-11-12T12:40 programado web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x 
 - 2026-11-12T13:00 programado bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok 
+- 2026-11-12T13:20 recibido web:b034af07-ddaf-426e-8207-d2724c540524|x 
