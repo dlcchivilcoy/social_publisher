@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 5 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,22 +27,12 @@ Actualizado: 12/11/2026 17:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
-- TikTok · Recortes de entrevistas · Emiliano Farias y el reto viral de Il Maestro en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Samantha San Romé en Chivilcoy: celebrar la derrota en el amor — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Lula Gonzalez: ¿Si no estás en redes no existís? — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Florencia Galante: defensa personal femenina y críticas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Laura Azcola: inclusión laboral y sueldos dignos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T17:00 entrevista_aprobada entrevistas:job00304 
-- 2026-11-12T17:00 recibido entrevistas:job00304|x 
-- 2026-11-12T17:00 recibido entrevistas:job00304|tiktok 
-- 2026-11-12T17:00 programado entrevistas:job00304|x 
-- 2026-11-12T17:20 enviado entrevistas:job00304|x 
 - 2026-11-12T17:40 entrevista_aprobada entrevistas:job00305 
 - 2026-11-12T17:40 recibido entrevistas:job00305|x 
 - 2026-11-12T17:40 recibido entrevistas:job00305|tiktok 
@@ -63,3 +53,8 @@ Actualizado: 12/11/2026 17:40 (hora AR) · ACTIVO
 - 2026-11-12T19:20 programado entrevistas:job00308|x 
 - 2026-11-12T19:40 enviado entrevistas:job00307|x 
 - 2026-11-12T19:40 enviado entrevistas:job00308|x 
+- 2026-11-12T21:00 programado entrevistas:job00308|tiktok 
+- 2026-11-12T21:00 programado entrevistas:job00307|tiktok 
+- 2026-11-12T21:00 programado entrevistas:job00306|tiktok 
+- 2026-11-12T21:00 programado entrevistas:job00305|tiktok 
+- 2026-11-12T21:00 programado entrevistas:job00304|tiktok 
