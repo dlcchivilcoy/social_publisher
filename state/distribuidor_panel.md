@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@ Actualizado: 12/11/2026 14:20 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 36 con métricas · mediana vistas/impresiones 26.5 · likes 0
+- X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 26 · likes 0
 - X · Reels del bot: 16 con métricas · mediana vistas/impresiones 31 · likes 0
 - X · Reels policiales: 18 con métricas · mediana vistas/impresiones 45 · likes 0
 - X · Notas web: 100 con métricas · mediana vistas/impresiones 17 · likes 0
@@ -27,17 +27,14 @@ Actualizado: 12/11/2026 14:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- TikTok · Recortes de entrevistas · Florencia Galante: defensa personal femenina y críticas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Laura Azcola: inclusión laboral y sueldos dignos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T12:20 programado web:814123f9-8cc0-4123-a5ec-ff7775c42341|x 
-- 2026-11-12T12:40 enviado web:1dabe361-4070-447e-9807-fa91aa19b74e|x 
-- 2026-11-12T12:40 enviado web:38185935-c480-4780-9b62-2a630fd62c5f|x 
-- 2026-11-12T12:40 enviado web:3d3373dd-ee69-4fc7-a39d-0aec74b76b6e|x 
 - 2026-11-12T12:40 enviado web:a64ce084-265d-420e-aab2-c9ecfce66084|x 
 - 2026-11-12T12:40 enviado web:c8022409-4d8f-45ba-a34f-1011272f6310|x 
 - 2026-11-12T12:40 programado web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x 
@@ -59,3 +56,7 @@ Actualizado: 12/11/2026 14:20 (hora AR) · ACTIVO
 - 2026-11-12T17:00 recibido entrevistas:job00304|tiktok 
 - 2026-11-12T17:00 programado entrevistas:job00304|x 
 - 2026-11-12T17:20 enviado entrevistas:job00304|x 
+- 2026-11-12T17:40 entrevista_aprobada entrevistas:job00305 
+- 2026-11-12T17:40 recibido entrevistas:job00305|x 
+- 2026-11-12T17:40 recibido entrevistas:job00305|tiktok 
+- 2026-11-12T17:40 programado entrevistas:job00305|x 

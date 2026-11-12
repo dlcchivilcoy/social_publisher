@@ -1230,6 +1230,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00304.mp4",
    "youtube_url": "https://youtu.be/UAKh3YJE-Qg"
   },
+  "entrevistas:job00305": {
+   "descripcion": "Florencia Galante, referente del proyecto Mujer Marcial en Chivilcoy, explicó por qué enseña defensa personal pese a los cuestionamientos recibidos. Destacó la importancia de la prevención y la atención ante situaciones de riesgo.",
+   "duracion_seg": null,
+   "entrevistado": "Florencia Galante",
+   "generado": "2026-11-12T17:40:14.000Z",
+   "id": "entrevistas:job00305",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Florencia Galante: defensa personal femenina y críticas",
+   "urgente": false,
+   "video_bytes": 29150126,
+   "video_mb": 27.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00305.mp4",
+   "youtube_url": "https://youtu.be/GMK10kBuHHg"
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -7236,43 +7257,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00269.mp4",
    "viral": false
   },
-  "entrevistas:job00269|x": {
-   "actualizado": "2026-11-02T17:20:18.000Z",
-   "buffer_id": "6ae8c1ab16eeb393286b2767",
-   "clave": "entrevistas:job00269|x",
-   "creado": "2026-11-02T17:00:19.000Z",
-   "dueAt": "2026-11-02T17:02:41.000Z",
-   "enviado": "2026-11-02T17:08:45.955Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-02T17:00:19.000Z",
-   "id": "entrevistas:job00269",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117302908538486839",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 30,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:daniel-emocional-lazo-muchiut-retratados",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Daniel Muchiut: el lazo emocional con sus retratados\n\nEn Chivilcoy, el fotógrafo Daniel Muchiut reflexiona sobre el vínculo humano detrás de su obra documental y cómo transforma su vida. Asegura que el arte es un acto de amor profundo por el otro.\n\nhttps://youtu.be/GI6PSR_21zg",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Daniel Muchiut: el lazo emocional con sus retratados",
-   "urgente": false,
-   "vence": "2026-11-02T19:00:19.000Z",
-   "video_bytes": 30485973,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00269.mp4",
-   "viral": false
-  },
   "entrevistas:job00270|tiktok": {
    "actualizado": "2026-11-02T22:20:21.000Z",
    "buffer_id": "6ae8f9e774d7e03ec0569a7e",
@@ -9988,6 +9972,62 @@
    "vence": "2026-11-12T19:00:19.000Z",
    "video_bytes": 25201496,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00304.mp4",
+   "viral": false
+  },
+  "entrevistas:job00305|tiktok": {
+   "actualizado": "2026-11-12T17:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00305|tiktok",
+   "creado": "2026-11-12T17:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-12T17:40:14.000Z",
+   "id": "entrevistas:job00305",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Florencia Galante: defensa personal femenina y críticas\n\nFlorencia Galante, referente del proyecto Mujer Marcial en Chivilcoy, explicó por qué enseña defensa personal pese a los cuestionamientos recibidos. Destacó la importancia de la prevención y la atención ante situaciones de riesgo.\n\nhttps://youtu.be/GMK10kBuHHg\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Florencia Galante: defensa personal femenina y críticas",
+   "urgente": false,
+   "vence": "2026-11-14T17:40:14.000Z",
+   "video_bytes": 29150126,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00305.mp4",
+   "viral": false
+  },
+  "entrevistas:job00305|x": {
+   "actualizado": "2026-11-12T17:40:16.000Z",
+   "buffer_id": "6af5fa01945bf0f848455b85",
+   "clave": "entrevistas:job00305|x",
+   "creado": "2026-11-12T17:40:14.000Z",
+   "dueAt": "2026-11-12T17:42:41.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-12T17:40:14.000Z",
+   "id": "entrevistas:job00305",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:criticas-defensa-femenina-florencia-galante-personal",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Florencia Galante: defensa personal femenina y críticas\n\nFlorencia Galante explicó por qué enseña defensa personal pese a las críticas recibidas. Además, destacó la importancia de la prevención y la atención ante situaciones de riesgo.\n\nhttps://youtu.be/GMK10kBuHHg",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Florencia Galante: defensa personal femenina y críticas",
+   "urgente": false,
+   "vence": "2026-11-12T19:40:14.000Z",
+   "video_bytes": 29150126,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00305.mp4",
    "viral": false
   },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
@@ -17171,30 +17211,6 @@
  },
  "registro": [
   {
-   "clave": "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac|x",
-   "cuando": "2026-11-05T22:40:16.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "entrevistas:job00279|tiktok",
-   "cuando": "2026-11-05T22:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7704816578402995476"
-  },
-  {
-   "clave": "entrevistas:job00280|tiktok",
-   "cuando": "2026-11-05T22:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7704811356750466310"
-  },
-  {
-   "clave": "entrevistas:job00281|tiktok",
-   "cuando": "2026-11-05T22:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7704806362747850004"
-  },
-  {
    "clave": "entrevistas:job00282|tiktok",
    "cuando": "2026-11-05T22:40:16.000Z",
    "evento": "enviado",
@@ -21332,6 +21348,34 @@
    "cuando": "2026-11-12T17:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2120926758354464870"
+  },
+  {
+   "clave": "entrevistas:job00305",
+   "cuando": "2026-11-12T17:40:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00305|x",
+   "cuando": "2026-11-12T17:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00305|tiktok",
+   "cuando": "2026-11-12T17:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af5fa01945bf0f848455b85",
+   "clave": "entrevistas:job00305|x",
+   "cuando": "2026-11-12T17:40:17.000Z",
+   "dueAt": "2026-11-12T17:42:41.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21569,7 +21613,6 @@
   "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4": "2026-11-11T00:00:21.000Z",
   "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4": "2026-11-11T14:20:16.000Z",
   "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4": "2026-11-12T00:20:13.000Z",
-  "entrevistas:job00194": "2026-10-13T17:40:16.000Z",
   "entrevistas:job00194v2": "2026-10-13T18:20:14.000Z",
   "entrevistas:job00196": "2026-10-13T18:20:14.000Z",
   "entrevistas:job00197": "2026-10-13T19:00:18.000Z",
@@ -21667,6 +21710,7 @@
   "entrevistas:job00303": "2026-11-11T19:20:15.000Z",
   "entrevistas:job00303-r1": "2026-11-11T20:00:18.000Z",
   "entrevistas:job00304": "2026-11-12T17:00:19.000Z",
+  "entrevistas:job00305": "2026-11-12T17:40:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
