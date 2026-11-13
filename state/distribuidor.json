@@ -17,7 +17,7 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-12T23:20:21.000Z"
+   "visto": "2026-11-13T02:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-12T23:20:21.000Z"
+   "visto": "2026-11-13T02:40:14.000Z"
   }
  },
  "contenidos": {
@@ -7245,18 +7245,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x": {
-   "actualizado": "2026-11-13T02:20:20.000Z",
+   "actualizado": "2026-11-13T02:40:14.000Z",
    "buffer_id": "6af673e5c1a0010a5bf21e8e",
    "clave": "bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x",
    "creado": "2026-11-13T02:20:15.000Z",
    "dueAt": "2026-11-13T02:22:58.000Z",
+   "enviado": "2026-11-13T02:23:06.200Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T02:14:00.000Z",
    "id": "bot:video_matias-zucchi_mwec5iom0isb_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121066291062591603",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-argentino-vencio-a-mariano-moreno-en-el",
    "noticia": "nota:chivilcoy-deportes-chivilcoy-argentino-vencio-a-mariano-moreno-en-el",
    "origen": "bot",
@@ -11134,18 +11135,19 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html|x": {
-   "actualizado": "2026-11-13T02:20:20.000Z",
+   "actualizado": "2026-11-13T02:40:14.000Z",
    "buffer_id": "6af673e65ec1c9d5be53ff76",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html|x",
    "creado": "2026-11-13T00:40:18.000Z",
    "dueAt": "2026-11-13T02:28:14.000Z",
+   "enviado": "2026-11-13T02:28:18.140Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T00:31:22.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121067599567945909",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-robaron-una-moto-guerrero-110-negra-en-la-zona-de-la-fada34",
    "noticia": "nota:chacabuco-robaron-una-moto-guerrero-110-negra-en-la-zona-de-la-fada34",
    "origen": "policiales",
@@ -17431,20 +17433,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6aedb34475db0573c8d30a6e",
-   "clave": "web:df5bc5d5-81e6-4f5c-b398-bc0a2cfc2589|x",
-   "cuando": "2026-11-06T11:00:21.000Z",
-   "dueAt": "2026-11-06T12:22:31.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aedb7ee342c8dd800918504",
-   "clave": "web:7043907f-96fa-4ca7-b7a2-aec9499785ad|x",
-   "cuando": "2026-11-06T11:20:15.000Z",
-   "dueAt": "2026-11-06T12:37:44.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "web:3965ee13-9730-4798-8e40-1c97199ed3e6|x",
    "cuando": "2026-11-06T11:40:16.000Z",
    "evento": "enviado",
@@ -21577,6 +21565,18 @@
    "cuando": "2026-11-13T02:20:22.000Z",
    "dueAt": "2026-11-13T02:28:14.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x",
+   "cuando": "2026-11-13T02:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121066291062591603"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html|x",
+   "cuando": "2026-11-13T02:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121067599567945909"
   }
  ],
  "tandas": {
@@ -21614,7 +21614,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-13",
- "ultima_sync": "2026-11-12T23:20:21.000Z",
+ "ultima_sync": "2026-11-13T02:40:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

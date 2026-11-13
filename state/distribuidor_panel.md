@@ -1,14 +1,14 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 1 | 0 | 0 | 4 | 0 |
+| Reels policiales | X | 6 | 2 | 0 | 0 | 0 | 4 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -34,8 +34,6 @@ Actualizado: 12/11/2026 23:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T22:20 recibido policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia 
-- 2026-11-12T22:20 enviado entrevistas:job00305|tiktok 
 - 2026-11-12T22:20 enviado entrevistas:job00306|tiktok 
 - 2026-11-12T22:20 enviado entrevistas:job00307|tiktok 
 - 2026-11-12T22:20 programado policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia 
@@ -59,3 +57,5 @@ Actualizado: 12/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-13T02:20 vencido policiales:https://www.chacabuquero.com.ar/2026/11/ladrones- espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-13T02:20 programado bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x 
 - 2026-11-13T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-l 
+- 2026-11-13T02:40 enviado bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x 
+- 2026-11-13T02:40 enviado policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-l 
