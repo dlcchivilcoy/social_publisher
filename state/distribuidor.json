@@ -10976,14 +10976,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html|x": {
-   "actualizado": "2026-11-12T23:20:13.000Z",
+   "actualizado": "2026-11-13T01:20:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html|x",
    "creado": "2026-11-12T23:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-12T23:01:29.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html",
    "intentos": 0,
@@ -17516,14 +17516,6 @@
  },
  "registro": [
   {
-   "clave": "web:88924ce4-1995-4f4b-89aa-ccea3f791d0e|x",
-   "cuando": "2026-11-06T10:04:04.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "buffer_id": "6aeda61507f945cca9572d03",
    "clave": "web:88924ce4-1995-4f4b-89aa-ccea3f791d0e|x",
    "cuando": "2026-11-06T10:04:07.000Z",
@@ -21662,6 +21654,12 @@
    "cuando": "2026-11-13T00:40:21.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html|x",
+   "cuando": "2026-11-13T01:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {

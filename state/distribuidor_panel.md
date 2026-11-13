@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 12/11/2026 22:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 1 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 2 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,17 +27,15 @@ Actualizado: 12/11/2026 22:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (3 esperando)
 - X · Reels policiales · Robaron una moto Guerrero 110 negra en la zona de la quinta 1010 — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Delincuentes abandonaron una bicicleta y una amoladora al huir de la Policía — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Le robaron la moto a un vecino de Chacabuco en la madrugada — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Dos motos chocaron en el centro y un conductor terminó en el hospital — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T21:00 programado entrevistas:job00308|tiktok 
 - 2026-11-12T21:00 programado entrevistas:job00307|tiktok 
 - 2026-11-12T21:00 programado entrevistas:job00306|tiktok 
 - 2026-11-12T21:00 programado entrevistas:job00305|tiktok 
@@ -62,3 +60,4 @@ Actualizado: 12/11/2026 22:00 (hora AR) · ACTIVO
 - 2026-11-13T00:40 recibido web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105|x 
 - 2026-11-13T00:40 vencido policiales:https://www.diariodemocracia.com/policiales/34793 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-13T00:40 depurado web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-13T01:20 vencido policiales:https://www.chacabuquero.com.ar/2026/11/choque-en espera su momento (se programa cerca de la hora en que sale en las otras redes)
