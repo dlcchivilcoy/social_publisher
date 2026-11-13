@@ -2083,6 +2083,32 @@
    "volanta": "Autopista Chacabuco-Junín",
    "youtube_url": "https://youtube.com/shorts/tXQD9oukij4"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Dos jóvenes escaparon a pie al ser interceptados por un patrullero en inmediaciones de La Plata y Primera Junta. En el lugar hallaron cables tendidos y secuestraron las herramientas.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-13T00:02:59.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-ladrones-abandonaron-una-bicicleta-y-una-amoladora-c3e9da",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un llamado alertó a las autoridades sobre el hurto de cables en plena madrugada dentro de la ciudad de Chacabuco.\n\nAl arribar a la zona de calles La Plata y Primera Junta, los efectivos policiales hallaron el tendido eléctrico dañado y colgando.\n\nDurante las recorridas preventivas por las inmediaciones, visualizaron a dos jóvenes circulando en bicicleta que inmediatamente emprendieron la fuga a pie.\n\nEn su huida, los sospechosos dejaron abandonado el rodado junto a una amoladora utilizada para concretar el ilícito.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Delincuentes abandonaron una bicicleta y una amoladora al huir de la Policía",
+   "urgente": false,
+   "video_bytes": 85072,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_09_chacabuco_delincuentes-abandonaron-una-b.mp4",
+   "volanta": "Robo de cables en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/QyA_oP2FBns"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": {
    "categoria": "robo",
    "descripcion": "Un vecino de Chacabuco fue víctima de la delincuencia en su propia casa, donde desconocidos ingresaron para sustraerle pertenencias. Investigan el hecho.",
@@ -11098,6 +11124,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_08_chacabuco_incendio-total-de-un-veh-culo-.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html|x": {
+   "actualizado": "2026-11-13T00:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html|x",
+   "creado": "2026-11-13T00:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-13T00:02:59.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-ladrones-abandonaron-una-bicicleta-y-una-amoladora-c3e9da",
+   "noticia": "nota:chacabuco-ladrones-abandonaron-una-bicicleta-y-una-amoladora-c3e9da",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Delincuentes abandonaron una bicicleta y una amoladora al huir de la Policía\n\nDos jóvenes escaparon a pie al ser interceptados por un patrullero en inmediaciones de La Plata y Primera Junta.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-ladrones-abandonaron-una-bicicleta-y-una-amoladora-c3e9da",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Delincuentes abandonaron una bicicleta y una amoladora al huir de la Policía",
+   "urgente": false,
+   "vence": "2026-11-13T02:02:59.000Z",
+   "video_bytes": 85072,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_09_chacabuco_delincuentes-abandonaron-una-b.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html|x": {
    "actualizado": "2026-11-08T00:00:20.000Z",
    "buffer_id": "6aefb6ea562f2e6de9890f5e",
@@ -17416,14 +17470,6 @@
  },
  "registro": [
   {
-   "clave": "web:3965ee13-9730-4798-8e40-1c97199ed3e6|x",
-   "cuando": "2026-11-06T10:03:42.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:840c7bf2-2055-47ae-b89c-be1e455da963|x",
    "cuando": "2026-11-06T10:03:53.000Z",
    "estado": "pendiente",
@@ -21566,6 +21612,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html|x",
+   "cuando": "2026-11-13T00:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -22104,6 +22158,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html": "2026-11-08T23:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": "2026-11-01T22:40:15.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html": "2026-11-13T00:20:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html": "2026-11-09T23:40:15.000Z",
@@ -22346,7 +22401,6 @@
   "web:436624c4-dead-4338-b58f-541ff1196bfe": "2026-10-31T21:20:16.000Z",
   "web:439df9f0-970a-42fd-979a-69b57c0f8607": "2026-10-26T10:20:14.000Z",
   "web:43a2b43f-fc3d-423a-ac09-144e2e421326": "2026-10-20T10:20:14.000Z",
-  "web:44657646-5aa8-40e2-92e8-9107905b81c5": "2026-10-14T00:20:13.000Z",
   "web:449ee4f0-a73f-443a-ba52-32ad213567fa": "2026-11-11T10:02:35.000Z",
   "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c": "2026-10-20T10:20:14.000Z",
   "web:46323048-26ab-4cde-bf1b-7382a5e5ce92": "2026-10-19T17:00:21.000Z",

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 12/11/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 12/11/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-12)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 12/11/2026 21:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 0 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,8 +27,9 @@ Actualizado: 12/11/2026 21:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
 - X · Reels policiales · Un joven de 25 años grave tras ser apuñalado en el Parque Borchex — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Delincuentes abandonaron una bicicleta y una amoladora al huir de la Policía — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Le robaron la moto a un vecino de Chacabuco en la madrugada — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Dos motos chocaron en el centro y un conductor terminó en el hospital — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
@@ -36,7 +37,6 @@ Actualizado: 12/11/2026 21:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T19:20 recibido entrevistas:job00308|x 
 - 2026-11-12T19:20 recibido entrevistas:job00308|tiktok 
 - 2026-11-12T19:20 programado entrevistas:job00308|x 
 - 2026-11-12T19:40 enviado entrevistas:job00307|x 
@@ -61,3 +61,4 @@ Actualizado: 12/11/2026 21:00 (hora AR) · ACTIVO
 - 2026-11-12T23:20 enviado entrevistas:job00304|tiktok 
 - 2026-11-12T23:20 enviado policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia 
 - 2026-11-12T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/dia121120 
+- 2026-11-13T00:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/ladrones- 
