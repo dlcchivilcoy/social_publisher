@@ -157,5 +157,49 @@
     "ultima_salida": "",
     "ultimo_error": "Instagram (historia): Instagram: el medio quedó en estado ERROR al procesar el video — Error: Media upload has failed with error code 2207082",
     "publicado_en": "2026-11-10T12:30-03:00"
+  },
+  {
+    "id": "b579b839d325",
+    "nombre": "el resero",
+    "tipo": "foto",
+    "urls": [
+      "https://diarioweb.vercel.app/avisos/el-resero.jpg"
+    ],
+    "texto": "",
+    "cuando": "",
+    "destinos": [
+      "facebook",
+      "instagram"
+    ],
+    "formatos": [
+      "historia"
+    ],
+    "agenda": {
+      "dias": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "horas": [
+        "20:00"
+      ]
+    },
+    "desde": "2026-11-13T20:00:00-03:00",
+    "baja": "2026-11-19T20:00:00-03:00",
+    "orientacion": "vertical",
+    "etiquetas": [
+      "elfogonctro.tradicionalista"
+    ],
+    "estado": "activa",
+    "creado": "2026-11-13T12:32-03:00",
+    "intentos": 0,
+    "resultado": {},
+    "salidas": [],
+    "ultima_salida": "",
+    "ultimo_error": ""
   }
 ]
