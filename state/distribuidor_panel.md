@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 5 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 6 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 13/11/2026 17:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (6 esperando)
+- TikTok · Recortes de entrevistas · Vicky Eliseire: el truco de cocina para ahorrar tiempo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Camila Martinez sobre la Cooperadora de la Escuela 23 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Matias De La Pérgula: el significado de la visita papal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Fiesta del Resero: Magdalena Gardella detalló las entradas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -38,10 +39,6 @@ Actualizado: 13/11/2026 17:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T17:40 entrevista_aprobada entrevistas:job00309 
-- 2026-11-13T17:40 recibido entrevistas:job00309|x 
-- 2026-11-13T17:40 recibido entrevistas:job00309|tiktok 
-- 2026-11-13T17:40 programado entrevistas:job00309|x 
 - 2026-11-13T18:00 enviado entrevistas:job00309|x 
 - 2026-11-13T18:20 entrevista_aprobada entrevistas:job00310 
 - 2026-11-13T18:20 recibido entrevistas:job00310|x 
@@ -63,3 +60,7 @@ Actualizado: 13/11/2026 17:00 (hora AR) · ACTIVO
 - 2026-11-13T19:40 programado entrevistas:job00313|x 
 - 2026-11-13T20:00 enviado entrevistas:job00312|x 
 - 2026-11-13T20:00 enviado entrevistas:job00313|x 
+- 2026-11-13T20:20 entrevista_aprobada entrevistas:job00314 
+- 2026-11-13T20:20 recibido entrevistas:job00314|x 
+- 2026-11-13T20:20 recibido entrevistas:job00314|tiktok 
+- 2026-11-13T20:20 programado entrevistas:job00314|x 

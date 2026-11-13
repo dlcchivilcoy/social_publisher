@@ -1335,6 +1335,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00313.mp4",
    "youtube_url": "https://youtu.be/5MwsTDmJpRA"
   },
+  "entrevistas:job00314": {
+   "descripcion": "En Chivilcoy, la cocinera profesional Vicky Eliseire explicó cómo optimizar las comidas diarias picando verduras de más para congelar. Con sólo cuatro minutos extra podés resolver tus platos de la semana sin esfuerzo.",
+   "duracion_seg": null,
+   "entrevistado": "Vicky Eliseire",
+   "generado": "2026-11-13T20:20:13.000Z",
+   "id": "entrevistas:job00314",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Vicky Eliseire: el truco de cocina para ahorrar tiempo",
+   "urgente": false,
+   "video_bytes": 25576709,
+   "video_mb": 24.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00314.mp4",
+   "youtube_url": "https://youtu.be/ASX9Vle2V8s"
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -10345,6 +10366,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00313.mp4",
    "viral": false
   },
+  "entrevistas:job00314|tiktok": {
+   "actualizado": "2026-11-13T20:20:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00314|tiktok",
+   "creado": "2026-11-13T20:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-13T20:20:13.000Z",
+   "id": "entrevistas:job00314",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Vicky Eliseire: el truco de cocina para ahorrar tiempo\n\nEn Chivilcoy, la cocinera profesional Vicky Eliseire explicó cómo optimizar las comidas diarias picando verduras de más para congelar. Con sólo cuatro minutos extra podés resolver tus platos de la semana sin esfuerzo.\n\nhttps://youtu.be/ASX9Vle2V8s\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Vicky Eliseire: el truco de cocina para ahorrar tiempo",
+   "urgente": false,
+   "vence": "2026-11-15T20:20:13.000Z",
+   "video_bytes": 25576709,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00314.mp4",
+   "viral": false
+  },
+  "entrevistas:job00314|x": {
+   "actualizado": "2026-11-13T20:20:22.000Z",
+   "buffer_id": "6af771079257ce33980b734a",
+   "clave": "entrevistas:job00314|x",
+   "creado": "2026-11-13T20:20:13.000Z",
+   "dueAt": "2026-11-13T20:22:39.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-13T20:20:13.000Z",
+   "id": "entrevistas:job00314",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:ahorrar-cocina-eliseire-tiempo-truco-vicky",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Vicky Eliseire: el truco de cocina para ahorrar tiempo\n\nEn Chivilcoy, la cocinera profesional Vicky Eliseire explicó cómo optimizar las comidas diarias picando verduras de más para congelar.\n\nhttps://youtu.be/ASX9Vle2V8s",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Vicky Eliseire: el truco de cocina para ahorrar tiempo",
+   "urgente": false,
+   "vence": "2026-11-13T22:20:13.000Z",
+   "video_bytes": 25576709,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00314.mp4",
+   "viral": false
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
    "actualizado": "2026-11-11T00:40:17.000Z",
    "buffer_id": "6af3b0230b1f930b454e2bda",
@@ -17627,32 +17704,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x",
-   "cuando": "2026-11-06T22:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "entrevistas:job00285|tiktok",
-   "cuando": "2026-11-06T22:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705187637836926226"
-  },
-  {
-   "clave": "entrevistas:job00286|tiktok",
-   "cuando": "2026-11-06T22:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705181689768693044"
-  },
-  {
-   "clave": "entrevistas:job00287|tiktok",
-   "cuando": "2026-11-06T22:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705177502532078855"
-  },
-  {
    "clave": "entrevistas:job00288|tiktok",
    "cuando": "2026-11-06T22:40:15.000Z",
    "evento": "enviado",
@@ -21783,6 +21834,34 @@
    "cuando": "2026-11-13T20:00:26.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2121327901194813501"
+  },
+  {
+   "clave": "entrevistas:job00314",
+   "cuando": "2026-11-13T20:20:13.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00314|x",
+   "cuando": "2026-11-13T20:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00314|tiktok",
+   "cuando": "2026-11-13T20:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af771079257ce33980b734a",
+   "clave": "entrevistas:job00314|x",
+   "cuando": "2026-11-13T20:20:23.000Z",
+   "dueAt": "2026-11-13T20:22:39.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22114,6 +22193,7 @@
   "entrevistas:job00311": "2026-11-13T18:40:13.000Z",
   "entrevistas:job00312": "2026-11-13T19:20:15.000Z",
   "entrevistas:job00313": "2026-11-13T19:40:14.000Z",
+  "entrevistas:job00314": "2026-11-13T20:20:13.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
