@@ -1355,32 +1355,6 @@
    "volanta": "Choque y vuelco en Alberti",
    "youtube_url": "https://youtube.com/shorts/cMtKVOE71Vg"
   },
-  "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion": {
-   "categoria": "otro_policial",
-   "descripcion": "La joven de 21 años que resultó herida durante un operativo de persecución policial en Arrecifes fue derivada al Hospital San Martín de La Plata para recibir atención de mayor complejidad.",
-   "distancia_km": 92.6,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-02T23:31:27.000Z",
-   "id": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion",
-   "localidad": "Arrecifes",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/arrecifes-trasladaron-a-la-plata-a-la-joven-herida-durante-una-62cba1",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "radio_ok": true,
-   "texto_tiktok": "Una joven de 21 años que sufrió heridas durante una persecución policial en Arrecifes fue derivada de urgencia para recibir atención médica especializada.\n\nEl traslado se concretó desde el Hospital San José de Pergamino hacia el Hospital San Martín de La Plata.\n\nSu estado requiere asistencia de mayor complejidad y las actuaciones continúan para esclarecer las circunstancias del hecho.\n\n📲 Más noticias de Arrecifes en www.diariolacampaña.com.ar\n\n#Arrecifes #PersecucionPolicial #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Derivaron a La Plata a la joven herida tras una persecución policial",
-   "urgente": false,
-   "video_bytes": 137218,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_05_pergamino_derivaron-a-la-plata-a-la-jove.mp4",
-   "volanta": "Traslado sanitario en Arrecifes",
-   "youtube_url": "https://youtube.com/shorts/3pbXLEVJkdw"
-  },
   "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero": {
    "categoria": "robo",
    "descripcion": "La policía realizó allanamientos, secuestró un arma de fuego y detuvo a dos hombres vinculados a una causa por robo de bicicleta y a un hecho de violencia de género.",
@@ -1458,32 +1432,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_04_pergamino_secuestraron-una-camioneta-y-f.mp4",
    "volanta": "Operativos viales en Salto",
    "youtube_url": "https://youtube.com/shorts/5JA3kA8haWo"
-  },
-  "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/": {
-   "categoria": "otro_policial",
-   "descripcion": "La Policía Comunal concretó tres procedimientos durante el fin de semana. Hubo un arresto por golpear a un agente, dos menores demorados con un rodado robado y un operativo de saturación con 21 infracciones.",
-   "distancia_km": 89.8,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-02T23:02:34.000Z",
-   "id": "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/",
-   "localidad": "Lobos",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-dos-aprehendidos-cinco-motos-secuestradas-y-21-actas-en-676f78",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "La Policía Comunal de Lobos informó sobre tres intervenciones desarrolladas durante el fin de semana en el distrito.\n\nEl primer caso ocurrió el 31 de octubre en 25 de Mayo y Buenos Aires, donde un hombre de 41 años fue aprehendido por resistencia a la autoridad tras agredir a un uniformado.\n\nEn otro procedimiento, dos menores fueron demorados en Laguna de Lobos en poder de una moto Honda GLH roja sin patente que tenía pedido de secuestro activo.\n\nFinalmente, un operativo de saturación vehicular conjunto dejó un saldo de 21 actas de infracción y cinco motocicletas incautadas.\n\n📲 Más noticias de Lobos en www.diariolacampaña.com.ar\n\n#Lobos #Policiales #Seguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Lobos: dos aprehendidos, cinco motos secuestradas y 21 actas viales",
-   "urgente": false,
-   "video_bytes": 170116,
-   "video_mb": 0.2,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_04_lobos_lobos-dos-aprehendidos-cinco-m.mp4",
-   "volanta": "Operativos policiales en Lobos",
-   "youtube_url": "https://youtube.com/shorts/4kFHFmyvdec"
   },
   "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/": {
    "categoria": "accidente_vial",
@@ -3281,6 +3229,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-racing-de-chivilcoy-vencio-a-regatas-de-corrientes",
    "volanta": "Chivilcoy · Deportes"
+  },
+  "web:3173f704-43ae-47b8-9c31-154e6d44e402": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Aprehendieron a un menor que circulaba en una moto robada Un adolescente de 14 años fue aprehendido por personal del Grupo Táctico Operativo (GTO), junto a efectivos de la Sub DDI Chivilcoy, durante un procedimiento realizado en la intersección de las calles Arenales y 86. El menor circulaba a bordo de una motocicleta Zanella ZB 110 cc que, tras ser identificada y cursados sus datos, registraba un pedido de secuestro activo desde el 6 de noviembre de 2026, en el marco de una causa...",
+   "generado": "2026-11-13T01:39:12.477Z",
+   "id": "web:3173f704-43ae-47b8-9c31-154e6d44e402",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_593e6f33f5d74c27a5457f30edded9b4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-1",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Aprehendieron a un menor que circulaba en una moto robada",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-1",
+   "volanta": "Chivilcoy · Policiales"
   },
   "web:38185935-c480-4780-9b62-2a630fd62c5f": {
    "categoria": "",
@@ -10296,34 +10263,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_03_alberti_una-camioneta-volc-tras-un-cho.mp4",
    "viral": false
   },
-  "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion|x": {
-   "actualizado": "2026-11-03T01:40:15.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion|x",
-   "creado": "2026-11-02T23:40:16.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-02T23:31:27.000Z",
-   "id": "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/arrecifes-trasladaron-a-la-plata-a-la-joven-herida-durante-una-62cba1",
-   "noticia": "nota:arrecifes-trasladaron-a-la-plata-a-la-joven-herida-durante-una-62cba1",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Derivaron a La Plata a la joven herida tras una persecución policial\n\nLa joven de 21 años herida en Arrecifes fue trasladada al Hospital San Martín para recibir atención de mayor complejidad.\n\nhttps://www.diariolacampaña.com.ar/n/arrecifes-trasladaron-a-la-plata-a-la-joven-herida-durante-una-62cba1",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Derivaron a La Plata a la joven herida tras una persecución policial",
-   "urgente": false,
-   "vence": "2026-11-03T01:31:27.000Z",
-   "video_bytes": 137218,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_05_pergamino_derivaron-a-la-plata-a-la-jove.mp4",
-   "viral": false
-  },
   "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero|x": {
    "actualizado": "2026-11-03T02:20:15.000Z",
    "buffer_id": "6ae940386f053cdb90b7fe07",
@@ -10415,34 +10354,6 @@
    "vence": "2026-11-10T01:02:56.000Z",
    "video_bytes": 110448,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_04_pergamino_secuestraron-una-camioneta-y-f.mp4",
-   "viral": false
-  },
-  "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/|x": {
-   "actualizado": "2026-11-03T01:20:16.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/|x",
-   "creado": "2026-11-02T23:20:15.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-02T23:02:34.000Z",
-   "id": "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-dos-aprehendidos-cinco-motos-secuestradas-y-21-actas-en-676f78",
-   "noticia": "nota:lobos-dos-aprehendidos-cinco-motos-secuestradas-y-21-actas-en-676f78",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Lobos: dos aprehendidos, cinco motos secuestradas y 21 actas viales\n\nLa Policía Comunal concretó tres procedimientos durante el fin de semana. Hubo arrestos, secuestros de rodados e infracciones viales.\n\nhttps://www.diariolacampaña.com.ar/n/lobos-dos-aprehendidos-cinco-motos-secuestradas-y-21-actas-en-676f78",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Lobos: dos aprehendidos, cinco motos secuestradas y 21 actas viales",
-   "urgente": false,
-   "vence": "2026-11-03T01:02:34.000Z",
-   "video_bytes": 170116,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_04_lobos_lobos-dos-aprehendidos-cinco-m.mp4",
    "viral": false
   },
   "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/|x": {
@@ -11032,14 +10943,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html|x": {
-   "actualizado": "2026-11-12T23:40:16.000Z",
+   "actualizado": "2026-11-13T01:40:23.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html|x",
    "creado": "2026-11-12T23:40:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-12T23:31:18.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html",
    "intentos": 0,
@@ -12957,6 +12868,33 @@
    "titulo": "Racing de Chivilcoy venció a Regatas de Corrientes en la Liga de Desarrollo",
    "urgente": false,
    "vence": "2026-11-09T04:58:01.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:3173f704-43ae-47b8-9c31-154e6d44e402|x": {
+   "actualizado": "2026-11-13T01:40:23.000Z",
+   "buffer_id": "",
+   "clave": "web:3173f704-43ae-47b8-9c31-154e6d44e402|x",
+   "creado": "2026-11-13T01:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-13T01:39:12.477Z",
+   "id": "web:3173f704-43ae-47b8-9c31-154e6d44e402",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-1",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-1",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Aprehendieron a un menor que circulaba en una moto robada\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-1",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Aprehendieron a un menor que circulaba en una moto robada",
+   "urgente": false,
+   "vence": "2026-11-13T05:39:12.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17516,27 +17454,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6aeda61507f945cca9572d03",
-   "clave": "web:88924ce4-1995-4f4b-89aa-ccea3f791d0e|x",
-   "cuando": "2026-11-06T10:04:07.000Z",
-   "dueAt": "2026-11-06T10:07:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aeda615dbada656be0a267b",
-   "clave": "web:c1ca0123-3aeb-47a8-9a4f-e8e40a17be0f|x",
-   "cuando": "2026-11-06T10:04:07.000Z",
-   "dueAt": "2026-11-06T10:22:49.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aeda616dbada656be0a26b5",
-   "clave": "web:d896f31f-27f4-4bfd-a371-8106455d4c26|x",
-   "cuando": "2026-11-06T10:04:07.000Z",
-   "dueAt": "2026-11-06T10:37:59.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6aeda61686fe9b83798ab585",
    "clave": "web:f798f446-3206-44e9-8d07-a7a03032fed7|x",
    "cuando": "2026-11-06T10:04:07.000Z",
@@ -21660,6 +21577,26 @@
    "cuando": "2026-11-13T01:20:15.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:3173f704-43ae-47b8-9c31-154e6d44e402|x",
+   "cuando": "2026-11-13T01:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html|x",
+   "cuando": "2026-11-13T01:40:23.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:3173f704-43ae-47b8-9c31-154e6d44e402|x",
+   "cuando": "2026-11-13T01:40:23.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22401,6 +22338,7 @@
   "web:306a1afa-6396-4897-94c5-e852fbb14fdd": "2026-11-04T10:20:13.000Z",
   "web:30ade280-246e-4cd6-9721-15ac2e67f188": "2026-10-26T12:06:06.000Z",
   "web:31292745-1874-4666-bb1a-583ba97f9032": "2026-11-09T01:00:19.000Z",
+  "web:3173f704-43ae-47b8-9c31-154e6d44e402": "2026-11-13T01:40:14.000Z",
   "web:317c620f-6da5-4b5a-b6b9-577556143229": "2026-10-19T17:20:14.000Z",
   "web:31a6f540-e9dd-415d-9833-6137456f0a06": "2026-10-18T22:40:12.000Z",
   "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe": "2026-10-30T10:01:54.000Z",
