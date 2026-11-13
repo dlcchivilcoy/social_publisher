@@ -1381,32 +1381,6 @@
    "volanta": "Traslado sanitario en Arrecifes",
    "youtube_url": "https://youtube.com/shorts/3pbXLEVJkdw"
   },
-  "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/": {
-   "categoria": "operativo_policial",
-   "descripcion": "El sospechoso saltó un portón y rompió vidrios para ingresar a un local comercial durante la madrugada del viernes. Quedó alojado a disposición de la Justicia.",
-   "distancia_km": 72.7,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-02T22:32:11.000Z",
-   "id": "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/",
-   "localidad": "Carmen de Areco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-detuvieron-a-un-hombre-que-intento-robar-3fe392",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Un individuo fue aprehendido en las primeras horas del viernes tras ingresar de manera clandestina a un comercio de compra y venta de motovehículos.\n\nEl episodio tuvo lugar en un establecimiento situado sobre la calle 25 de Mayo, entre Mitre y Avellaneda, en la zona céntrica.\n\nEl implicado vulneró un cerco perimetral y destrozó cristales para concretar su ingreso, quedando registrado por las cámaras de seguridad.\n\nLa Unidad Funcional de Instrucción N° 6 de Mercedes interviene en el expediente bajo la carátula de tentativa de robo agravado.\n\n📲 Más noticias de Carmen de Areco en www.diariolacampaña.com.ar\n\n#CarmenDeAreco #Operativo #Policia #BuenosAires",
-   "tipo": "video",
-   "titulo": "Cayó preso tras intentar robar una moto de un depósito céntrico",
-   "urgente": false,
-   "video_bytes": 101065,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_03_carmen-de-areco_cay-preso-tras-intentar-robar-.mp4",
-   "volanta": "Carmen de Areco",
-   "youtube_url": "https://youtube.com/shorts/a5tHmWmIw3E"
-  },
   "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero": {
    "categoria": "robo",
    "descripcion": "La policía realizó allanamientos, secuestró un arma de fuego y detuvo a dos hombres vinculados a una causa por robo de bicicleta y a un hecho de violencia de género.",
@@ -2186,6 +2160,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_07_chacabuco_choque-operativos-viales-y-ped.mp4",
    "volanta": "Choques, operativos y acoso en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/AZvYq3Sp9CM"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html": {
+   "categoria": "robo",
+   "descripcion": "Un vecino denunció que le sustrajeron su moto Guerrero 110 de color negro que se encontraba estacionada en la vía pública, en cercanías del barrio ubicado en la quinta 1010.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-13T00:31:22.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-robaron-una-moto-guerrero-110-negra-en-la-zona-de-la-fada34",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un vecino de Chacabuco sufrió el robo de su moto durante la madrugada.\n\nEl rodado sustraído es un motovehículo Guerrero 110 de color negro.\n\nEl hecho ocurrió sobre la continuación de la calle Tulio Spinetti, frente a la zona de viviendas levantada en la subdivisión de la quinta 1010.\n\nPersonal policial tomó conocimiento del caso tras un llamado de alerta realizado por el damnificado.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Robo #Inseguridad #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Robaron una moto Guerrero 110 negra en la zona de la quinta 1010",
+   "urgente": false,
+   "video_bytes": 86742,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_10_chacabuco_robaron-una-moto-guerrero-110-.mp4",
+   "volanta": "Robo en Chacabuco",
+   "youtube_url": ""
   },
   "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co": {
    "categoria": "robo",
@@ -4687,6 +4687,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/festejo-en-club-racing-ariel-ivaldi-celebra-su-cumpleanos-en",
    "volanta": "Festejo en Club Racing"
+  },
+  "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El Programa 10+ de robótica del CUCh expuso en un congreso nacional CHIVILCOY.– El Programa educativo 10+ brinda conocimientos especializados y habilidades prácticas en ciencia y tecnología a niños y niñas de 10 años en adelante, con un plan de estudios abierto que incluye talleres de Ciencias, Taller EUREKA, y Programación y Robótica, en un ambiente universitario que abre sus puertas a los más chicos los sábados por la mañana. Con tres años de trayectoria ininterrumpida, continúa...",
+   "generado": "2026-11-13T00:32:07.621Z",
+   "id": "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_93815ce89fe64b9da367bfe7a2c23d45~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-chivilcoy-el-programa-10-de-robotica-del-cuch",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Programa 10+ de robótica del CUCh expuso en un congreso nacional",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-chivilcoy-el-programa-10-de-robotica-del-cuch",
+   "volanta": "Chivilcoy · Educación"
   },
   "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60": {
    "categoria": "",
@@ -10305,34 +10324,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_05_pergamino_derivaron-a-la-plata-a-la-jove.mp4",
    "viral": false
   },
-  "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/|x": {
-   "actualizado": "2026-11-03T00:40:21.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/|x",
-   "creado": "2026-11-02T22:40:16.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-02T22:32:11.000Z",
-   "id": "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-detuvieron-a-un-hombre-que-intento-robar-3fe392",
-   "noticia": "nota:san-andres-de-giles-detuvieron-a-un-hombre-que-intento-robar-3fe392",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Cayó preso tras intentar robar una moto de un depósito céntrico\n\nEl sospechoso saltó un portón y rompió vidrios para ingresar a un local comercial durante la madrugada del viernes. Quedó alojado a disposición de la Justicia.\n\nhttps://www.diariolacampaña.com.ar/n/san-andres-de-giles-detuvieron-a-un-hombre-que-intento-robar-3fe392",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cayó preso tras intentar robar una moto de un depósito céntrico",
-   "urgente": false,
-   "vence": "2026-11-03T00:32:11.000Z",
-   "video_bytes": 101065,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-02_2135_03_carmen-de-areco_cay-preso-tras-intentar-robar-.mp4",
-   "viral": false
-  },
   "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero|x": {
    "actualizado": "2026-11-03T02:20:15.000Z",
    "buffer_id": "6ae940386f053cdb90b7fe07",
@@ -11254,6 +11245,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_07_chacabuco_choque-operativos-viales-y-ped.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html|x": {
+   "actualizado": "2026-11-13T00:40:18.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html|x",
+   "creado": "2026-11-13T00:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-13T00:31:22.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-robaron-una-moto-guerrero-110-negra-en-la-zona-de-la-fada34",
+   "noticia": "nota:chacabuco-robaron-una-moto-guerrero-110-negra-en-la-zona-de-la-fada34",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Robaron una moto Guerrero 110 negra en la zona de la quinta 1010\n\nUn vecino denunció que le sustrajeron su moto Guerrero 110 de color negro que se encontraba estacionada en la vía pública, en cercanías del barrio ubicado en la quinta 1010.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-robaron-una-moto-guerrero-110-negra-en-la-zona-de-la-fada34",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Robaron una moto Guerrero 110 negra en la zona de la quinta 1010",
+   "urgente": false,
+   "vence": "2026-11-13T02:31:22.000Z",
+   "video_bytes": 86742,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_10_chacabuco_robaron-una-moto-guerrero-110-.mp4",
+   "viral": false
+  },
   "policiales:https://www.diariodemocracia.com/policiales/347623-liberaron-al-detenido-por-el-millonario-robo-al-co|x": {
    "actualizado": "2026-11-06T01:20:13.000Z",
    "buffer_id": "",
@@ -11357,14 +11376,14 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/347937-ataque-a-punaladas-en-el-parque-borchex-de-junin-h|x": {
-   "actualizado": "2026-11-12T22:40:23.000Z",
+   "actualizado": "2026-11-13T00:40:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347937-ataque-a-punaladas-en-el-parque-borchex-de-junin-h|x",
    "creado": "2026-11-12T22:40:23.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-12T22:31:25.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/347937-ataque-a-punaladas-en-el-parque-borchex-de-junin-h",
    "intentos": 0,
@@ -15471,6 +15490,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105|x": {
+   "actualizado": "2026-11-13T00:40:21.000Z",
+   "buffer_id": "",
+   "clave": "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105|x",
+   "creado": "2026-11-13T00:40:18.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-13T00:32:07.621Z",
+   "id": "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-educacion-chivilcoy-el-programa-10-de-robotica-del-cuch",
+   "noticia": "nota:chivilcoy-educacion-chivilcoy-el-programa-10-de-robotica-del-cuch",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: El Programa 10+ de robótica del CUCh expuso en un congreso nacional\n\nEl Programa educativo 10+ enseña ciencia y tecnología a chicos desde los diez años los sábados por la mañana. Cuenta con talleres de ciencias, Eureka, programación y robótica.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-educacion-chivilcoy-el-programa-10-de-robotica-del-cuch",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Programa 10+ de robótica del CUCh expuso en un congreso nacional",
+   "urgente": false,
+   "vence": "2026-11-13T04:32:07.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60|x": {
    "actualizado": "2026-11-03T11:20:16.000Z",
    "buffer_id": "6ae9b195c4e7dc18825ee51a",
@@ -17469,38 +17515,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:840c7bf2-2055-47ae-b89c-be1e455da963|x",
-   "cuando": "2026-11-06T10:03:53.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:f798f446-3206-44e9-8d07-a7a03032fed7|x",
-   "cuando": "2026-11-06T10:03:57.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:d896f31f-27f4-4bfd-a371-8106455d4c26|x",
-   "cuando": "2026-11-06T10:04:00.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c1ca0123-3aeb-47a8-9a4f-e8e40a17be0f|x",
-   "cuando": "2026-11-06T10:04:02.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:88924ce4-1995-4f4b-89aa-ccea3f791d0e|x",
    "cuando": "2026-11-06T10:04:04.000Z",
@@ -21620,6 +21634,34 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html|x",
+   "cuando": "2026-11-13T00:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105|x",
+   "cuando": "2026-11-13T00:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/347937-ataque-a-punaladas-en-el-parque-borchex-de-junin-h|x",
+   "cuando": "2026-11-13T00:40:21.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105|x",
+   "cuando": "2026-11-13T00:40:21.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22162,6 +22204,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html": "2026-11-09T23:40:15.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html": "2026-11-13T00:40:18.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.diariodemocracia.com/mas-deportivo/polideportivo/346551-descontrol-en-el-ingreso-de-los-hinchas-de-river-e": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346493-la-preceptora-agredida-en-chacabuco-relato-el-mied": "2026-10-14T02:20:13.000Z",
@@ -22663,6 +22706,7 @@
   "web:a604bb88-c1b1-4d8c-aeb4-73f24939ba20": "2026-10-26T12:06:06.000Z",
   "web:a642e972-d928-4d92-8619-4b52387cb16a": "2026-11-03T02:00:19.000Z",
   "web:a64ce084-265d-420e-aab2-c9ecfce66084": "2026-11-12T10:02:44.000Z",
+  "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105": "2026-11-13T00:40:18.000Z",
   "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a": "2026-10-19T10:20:14.000Z",
   "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130": "2026-10-18T20:20:13.000Z",
   "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56": "2026-10-29T10:20:14.000Z",
