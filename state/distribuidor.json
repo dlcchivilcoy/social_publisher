@@ -4617,25 +4617,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:a642e972-d928-4d92-8619-4b52387cb16a": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad CHIVILCOY.– Controles simultáneos para fortalecer la prevención y la seguridad. Los procedimientos estuvieron coordinados con la participación de distintas dependencias policiales y áreas de seguridad vial, con el objetivo de reforzar la prevención, controlar la circulación vehicular y fortalecer la presencia preventiva en la vía pública. Los controles se llevaron adelante en los accesos por las avenidas...",
-   "generado": "2026-11-03T01:53:16.276Z",
-   "id": "web:a642e972-d928-4d92-8619-4b52387cb16a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_bb80adc5b0cc4441a81043f17b523fdb~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
-   "volanta": "Chivilcoy · Seguridad"
-  },
   "web:a64ce084-265d-420e-aab2-c9ecfce66084": {
    "categoria": "",
    "descripcion": "Ariel Ivaldi celebra su cumpleaños en Chivilcoy junto a La Juan D'Arienzo y el trío Franchisconi El cantante Ariel Ivaldi llevará adelante este viernes 13 de noviembre una nueva edición de su clásico festejo artístico de cumpleaños en las instalaciones del Club Racing. La velada contará con el regreso estelar a los escenarios chivilcoyanos de la reconocida orquesta La Juan D'Arienzo, que llegará acompañada por su cantor Fernando Rodas. La propuesta integrará presentaciones de tango...",
@@ -15369,31 +15350,6 @@
    "titulo": "Chivilcoy: DEPORTIVO COLÓN recibe a Belgrano de San Nicolás por el Prefederal",
    "urgente": false,
    "vence": "2026-11-06T20:44:32.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:a642e972-d928-4d92-8619-4b52387cb16a|x": {
-   "actualizado": "2026-11-03T02:00:19.000Z",
-   "buffer_id": "",
-   "clave": "web:a642e972-d928-4d92-8619-4b52387cb16a|x",
-   "creado": "2026-11-03T02:00:19.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-03T01:53:16.276Z",
-   "id": "web:a642e972-d928-4d92-8619-4b52387cb16a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
-   "noticia": "nota:chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad",
-   "urgente": false,
-   "vence": "2026-11-03T05:53:16.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
