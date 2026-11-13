@@ -1392,6 +1392,32 @@
    "volanta": "Crimen en Mechita",
    "youtube_url": "https://youtube.com/shorts/tHeLYKduZYM"
   },
+  "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/": {
+   "categoria": "incendio",
+   "descripcion": "El rodado sufrió un desperfecto mecánico durante la medianoche del jueves. Su conductor y el acompañante salieron ilesos. Bomberos trabajaron en el lugar.",
+   "distancia_km": 28.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-13T23:31:43.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/",
+   "localidad": "Alberti",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-una-camioneta-se-incendio-en-el-camino-real-a-benitez-y-aa6d14",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Una camioneta Peugeot Boxer se incendió por completo este jueves cerca de la medianoche sobre el camino real que conecta las localidades de Alberti y Benítez.\n\nEl fuego se desató alrededor de las 23:50 y las llamas fueron combatidas por una dotación de Bomberos Voluntarios de Alberti que acudió rápidamente tras un llamado al CPR local.\n\nLas autoridades informaron que el siniestro se habría originado a raíz de un desperfecto mecánico en el rodado, que es propiedad de un vecino de la zona.\n\nA pesar de la magnitud del fuego que afectó al vehículo, tanto el conductor como su acompañante lograron ponerse a salvo y resultaron ilesos.\n\n📲 Más noticias de Alberti en www.diariolacampaña.com.ar\n\n#Alberti #Incendio #Bomberos #BuenosAires",
+   "tipo": "video",
+   "titulo": "Se prendió fuego una camioneta en el camino real Alberti-Benítez",
+   "urgente": false,
+   "video_bytes": 82782,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_07_alberti_se-prendi-fuego-una-camioneta-.mp4",
+   "volanta": "Incendio en el camino real Alberti-Benítez",
+   "youtube_url": "https://youtube.com/shorts/e2UrpOpOwTQ"
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/": {
    "categoria": "accidente_vial",
    "descripcion": "Dos vehículos colisionaron en la intersección de Albizzatti e Yrigoyen. Una Renault Kangoo terminó volcada sobre su lateral. Los conductores resultaron ilesos y solo se registraron daños materiales según informaron fuentes policiales.",
@@ -4007,6 +4033,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/semillero-rojo-esperando-que-la-tercera-sea-la-vencida-el-club",
    "volanta": "Semillero Rojo"
+  },
+  "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967": {
+   "categoria": "",
+   "descripcion": "Argentina superó a Chile y clasificó al Mundial de handball juvenil Enorme victoria de la Selección Argentina juvenil masculina de handball en el torneo Surcentro de Paraguay frente a la selección de Chile. Tras irse al descanso igualados en 14 tantos, con una levantada colectiva y una aguerrida y destacada actitud defensiva del chivilcoyano Simón Domínguez, la celeste y blanca superó con claridad a su rival en la segunda parte. De esta manera, el combinado nacional logró la clasificación al...",
+   "generado": "2026-11-13T23:30:18.793Z",
+   "id": "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3a054a465ac947399fbf9fe376152506~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/paraguay-deportes-argentina-supero-a-chile-y-clasifico-al-mundial-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Argentina superó a Chile y clasificó al Mundial de handball juvenil",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/paraguay-deportes-argentina-supero-a-chile-y-clasifico-al-mundial-de",
+   "volanta": "Paraguay · Deportes"
   },
   "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3": {
    "categoria": "",
@@ -10453,6 +10498,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_01_alberti_la-autopsia-revel-que-ezequiel.mp4",
    "viral": true
   },
+  "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x": {
+   "actualizado": "2026-11-13T23:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x",
+   "creado": "2026-11-13T23:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-13T23:31:43.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-una-camioneta-se-incendio-en-el-camino-real-a-benitez-y-aa6d14",
+   "noticia": "nota:alberti-una-camioneta-se-incendio-en-el-camino-real-a-benitez-y-aa6d14",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Se prendió fuego una camioneta en el camino real Alberti-Benítez\n\nEl rodado sufrió un desperfecto mecánico durante la medianoche del jueves. Su conductor y el acompañante salieron ilesos. Bomberos trabajaron en el lugar.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-una-camioneta-se-incendio-en-el-camino-real-a-benitez-y-aa6d14",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Se prendió fuego una camioneta en el camino real Alberti-Benítez",
+   "urgente": false,
+   "vence": "2026-11-14T01:31:43.000Z",
+   "video_bytes": 82782,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_07_alberti_se-prendi-fuego-una-camioneta-.mp4",
+   "viral": false
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/|x": {
    "actualizado": "2026-11-04T00:40:17.000Z",
    "buffer_id": "",
@@ -14354,6 +14427,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x": {
+   "actualizado": "2026-11-13T23:40:20.000Z",
+   "buffer_id": "",
+   "clave": "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x",
+   "creado": "2026-11-13T23:40:13.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-13T23:30:18.793Z",
+   "id": "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/paraguay-deportes-argentina-supero-a-chile-y-clasifico-al-mundial-de",
+   "noticia": "nota:paraguay-deportes-argentina-supero-a-chile-y-clasifico-al-mundial-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Argentina superó a Chile y clasificó al Mundial de handball juvenil\n\nEnorme victoria de la Selección Argentina juvenil masculina de handball en el torneo Surcentro de Paraguay frente a la selección de Chile.\n\nhttps://www.diariolacampaña.com.ar/n/paraguay-deportes-argentina-supero-a-chile-y-clasifico-al-mundial-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Argentina superó a Chile y clasificó al Mundial de handball juvenil",
+   "urgente": false,
+   "vence": "2026-11-14T03:30:18.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3|x": {
    "actualizado": "2026-11-04T13:40:18.000Z",
    "buffer_id": "6aeb14f0108e302037fba5d0",
@@ -17644,26 +17744,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:547df2b0-7a1a-4b57-923f-b7947b7b5134|x",
-   "cuando": "2026-11-07T22:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:547df2b0-7a1a-4b57-923f-b7947b7b5134|x",
-   "cuando": "2026-11-07T22:40:23.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347738-causa-por-usurpacion-en-calle-paso-aprehendieron-a|x",
-   "cuando": "2026-11-07T22:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119194129888403469"
-  },
   {
    "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|x",
    "cuando": "2026-11-07T23:40:21.000Z",
@@ -21796,6 +21876,28 @@
    "cuando": "2026-11-13T23:20:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2121368331361857989"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x",
+   "cuando": "2026-11-13T23:40:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x",
+   "cuando": "2026-11-13T23:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x",
+   "cuando": "2026-11-13T23:40:20.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22232,6 +22334,7 @@
   "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": "2026-10-16T13:00:18.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/": "2026-11-10T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/": "2026-11-12T22:20:14.000Z",
+  "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/": "2026-11-13T23:40:13.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/": "2026-11-03T22:40:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura": "2026-10-26T09:00:18.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron": "2026-10-26T23:20:14.000Z",
@@ -22678,6 +22781,7 @@
   "web:7a521c20-c0d0-4494-9499-82a795b8a1f6": "2026-10-20T10:20:14.000Z",
   "web:7a98b9ec-3121-4e64-91db-56be15cef0a9": "2026-10-16T15:20:15.000Z",
   "web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d": "2026-11-04T10:20:13.000Z",
+  "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967": "2026-11-13T23:40:13.000Z",
   "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3": "2026-11-04T10:20:13.000Z",
   "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0": "2026-10-28T10:20:19.000Z",
   "web:7cb552d9-280e-4c2d-9632-6d0734c6eb64": "2026-10-19T09:00:17.000Z",
@@ -22838,7 +22942,6 @@
   "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801": "2026-10-16T16:00:18.000Z",
   "web:b034af07-ddaf-426e-8207-d2724c540524": "2026-11-12T13:20:16.000Z",
   "web:b078718b-3db7-4e2d-a7e7-5e989121b045": "2026-10-29T10:02:34.000Z",
-  "web:b09c90f7-9d79-4af6-a4a7-4a0f6130046b": "2026-10-14T23:40:15.000Z",
   "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7": "2026-10-28T10:02:28.000Z",
   "web:b213f18b-774f-4f28-a33d-398709d50fbe": "2026-10-19T09:00:17.000Z",
   "web:b2e7bc59-967c-48e3-baeb-a84fbfd3edb2": "2026-10-25T15:40:13.000Z",
