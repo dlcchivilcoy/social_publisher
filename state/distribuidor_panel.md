@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 07:03 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 13/11/2026 07:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 5 | 10 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,35 +27,45 @@ Actualizado: 13/11/2026 07:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (11 esperando)
+- X · Notas web · Cien años de pasión y arraigo: El Club Río de la Plata celebró su centenario en  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Lorena Aicardo: 17 medallas nacionales y la preparación para el Mundial de Parag — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Torneo Prefederal Bonaerense: Colón busca el tercer puesto en Pergamino cuando v — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Racing dio el golpe ante Colón, le quitó el invicto y dejó abierto el — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Liga Mercedina: Más triunfos para Atlético Ciclón en instancias decis — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Se revalida el clásico: Varela y Colón, el león por el triunfo que lo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: “La luz del tren”: Cuarta Fiesta de la Empanada Frita al Disco en Gor — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Natalia Fracchia: “El corso tiene que ser popular y gratuito para tod — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Noche de humor y novedades: "Impro y Aparte" vuelve este viernes a El — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Escuela Superior de Servicio Social — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · ARGENTINO venció a MARIANO MORENO en el inicio de los playoffs — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-12T22:20 enviado entrevistas:job00306|tiktok 
-- 2026-11-12T22:20 enviado entrevistas:job00307|tiktok 
-- 2026-11-12T22:20 programado policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia 
-- 2026-11-12T22:40 recibido policiales:https://www.diariodemocracia.com/policiales/34793 
-- 2026-11-12T23:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/choque-en 
-- 2026-11-12T23:20 enviado entrevistas:job00304|tiktok 
-- 2026-11-12T23:20 enviado policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia 
-- 2026-11-12T23:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/dia121120 
-- 2026-11-13T00:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/ladrones- 
-- 2026-11-13T00:40 recibido policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-l 
-- 2026-11-13T00:40 recibido web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105|x 
-- 2026-11-13T00:40 vencido policiales:https://www.diariodemocracia.com/policiales/34793 espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-13T00:40 depurado web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-13T01:20 vencido policiales:https://www.chacabuquero.com.ar/2026/11/choque-en espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-13T01:40 recibido web:3173f704-43ae-47b8-9c31-154e6d44e402|x 
-- 2026-11-13T01:40 vencido policiales:https://www.chacabuquero.com.ar/2026/11/dia121120 espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-13T01:40 depurado web:3173f704-43ae-47b8-9c31-154e6d44e402|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-13T02:20 recibido bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x 
-- 2026-11-13T02:20 recibido bot:video_matias-zucchi_mwec5iom0isb_01.mp4|tiktok 
-- 2026-11-13T02:20 recibido web:268e66c4-69d7-4958-b487-b115fffbc1a1|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-13T02:20 vencido policiales:https://www.chacabuquero.com.ar/2026/11/ladrones- espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-13T02:20 programado bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x 
 - 2026-11-13T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-l 
 - 2026-11-13T02:40 enviado bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x 
 - 2026-11-13T02:40 enviado policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-l 
+- 2026-11-13T10:02 recibido web:1c5322d0-2568-4a34-90d1-f120402f4197|x 
+- 2026-11-13T10:02 recibido web:e09c5f60-c7ea-4314-b2f8-d99f1c806132|x 
+- 2026-11-13T10:02 recibido web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa|x 
+- 2026-11-13T10:02 recibido web:f12ef051-6163-4424-8626-4ff7b049b205|x 
+- 2026-11-13T10:03 recibido web:7dd5195a-6787-458a-861f-22ceaaf90ea3|x 
+- 2026-11-13T10:03 recibido web:3a1e20a8-80b6-4752-89ed-6c5d60a28320|x 
+- 2026-11-13T10:03 recibido web:4b0f4902-985a-4fed-8824-779dfe151dbb|x 
+- 2026-11-13T10:03 recibido web:3a7b8196-052a-4b18-86a2-e06b57de3d46|x 
+- 2026-11-13T10:03 recibido web:fc10ebd0-7cda-42f2-88f4-259827e863aa|x 
+- 2026-11-13T10:03 recibido web:7de16944-cbd0-472a-9ccc-0f7b42b113cd|x 
+- 2026-11-13T10:03 recibido web:7363be41-1ea0-41ce-bd34-f99c8ec33ac2|x 
+- 2026-11-13T10:03 recibido web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061|x 
+- 2026-11-13T10:03 recibido web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7|x 
+- 2026-11-13T10:03 recibido web:03c64a65-3269-4247-b8a7-1e92b9072a66|x 
+- 2026-11-13T10:03 recibido web:49037013-a165-485b-983d-91a1691d32f9|x 
+- 2026-11-13T10:03 programado web:49037013-a165-485b-983d-91a1691d32f9|x 
+- 2026-11-13T10:03 programado web:03c64a65-3269-4247-b8a7-1e92b9072a66|x 
+- 2026-11-13T10:03 programado web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7|x 
+- 2026-11-13T10:03 programado web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061|x 
+- 2026-11-13T10:03 programado web:7de16944-cbd0-472a-9ccc-0f7b42b113cd|x 
