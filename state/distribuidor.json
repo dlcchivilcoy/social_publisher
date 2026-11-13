@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 0
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-13T12:40:20.000Z"
+   "visto": "2026-11-13T14:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,56 +25,14 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 2,
-    "sent": 21
+    "scheduled": 0,
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-13T12:40:20.000Z"
+   "visto": "2026-11-13T14:00:20.000Z"
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6": {
-   "descripcion": "Controles simultáneos para fortalecer la prevención y la seguridad. Los procedimientos estuvieron coordinados con la participación de distintas dependencias policiales y áreas de seguridad vial, con el objetivo de reforzar la prevención, controlar la circulación vehicular y fortalecer...",
-   "duracion_seg": 30.0,
-   "generado": "2026-11-03T01:56:04.000Z",
-   "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad",
-   "urgente": false,
-   "video_bytes": 2897062,
-   "video_mb": 2.8,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_322c84fff498fbab.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/W3CppXWEvCY"
-  },
-  "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi": {
-   "descripcion": "El secretario de Seguridad de la Municipalidad de Chivilcoy, Néstor Dabi, acompañado por Marcelo Loyola, participó de la ceremonia conmemorativa por la Semana de la Policía Federal Argentina, realizada en la ciudad de Mercedes. La actividad tuvo lugar en el salón Casa Anús...",
-   "duracion_seg": 30.0,
-   "generado": "2026-11-03T11:42:08.000Z",
-   "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal",
-   "urgente": false,
-   "video_bytes": 777200,
-   "video_mb": 0.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8632907b48553b3c.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/7Ex0u_gYL04"
-  },
   "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v": {
    "descripcion": "Personal de Bomberos Voluntarios y del SAME rescataron a dos jóvenes que cayeron sobre un techo en la Universidad Nacional de Luján. El oficial Esteban Genaro detalló que trabajaron dos dotaciones para inmovilizar y trasladar a los heridos al hospital.",
    "duracion_seg": 55.0,
@@ -3040,25 +2998,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/hechos-de-violencia-la-liga-chivilcoyana-de-futbol-implementa-medidas",
    "volanta": "Hechos de violencia"
   },
-  "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Romina Caballo lideró al Raleigh Fem en la 1ª Vuelta Ciclista Femenina Internacional La pedalista chivilcoyana capitaneó a la escuadra del Raleigh–Delsanto en una edición inaugural de categoría UCI 2.2 que quedará en la historia del ciclismo sudamericano. Con balance sumamente positivo, el equipo logró el subcampeonato por equipos y conquistas individuales. En una definición apasionante disputada entre Maldonado y Lavalleja, concluyó la 1ª Vuelta Ciclista del Uruguay Femenina,...",
-   "generado": "2026-11-03T10:02:07.714Z",
-   "id": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ca9bef943eb848a09f7d2503869f5f4b~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-chivilcoy-romina-caballo-lidero-al-raleigh-fem-en-la-1",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Romina Caballo lideró al Raleigh Fem en la 1ª Vuelta Ciclista Femenina Internacional",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-chivilcoy-romina-caballo-lidero-al-raleigh-fem-en-la-1",
-   "volanta": "Ciclismo"
-  },
   "web:2e964f84-db65-4365-a793-01e8f49b70ed": {
    "categoria": "",
    "descripcion": "Chivilcoy: DEPORTIVO COLÓN cayó en casa ante BELGRANO de SAN NICOLAS CHIVILCOY.– DEPORTIVO COLÓN no logró el triunfo en casa ante BELGRANO de SAN NICOLAS (fue 59-70), que contó con la jerarquía de NOE GRUNALE para sacar algo de luz y, ante la poca efectividad del LEÓN, el equipo de SAN NICOLAS la mantuvo. COLÓN, ya ascendido al FEDERAL 2027, seguramente aprovecha estos partidos para darle rodaje de primer nivel a sus jugadores y a modo de evaluación para lo que viene. El LEÓN intentó por...",
@@ -4256,25 +4195,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-la-fase-regular-del-clausura-en-su-etapa-de",
    "volanta": "Básquet"
   },
-  "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0": {
-   "categoria": "",
-   "descripcion": "Bragado Club el gran protagonista del fin de semana: tras la caída con Gimnasia, el tricolor metió un par de triunfos y recuperó las chances de meterse en los play off El Lobo se impuso 80-74 en el cierre de la 11ª fecha y se consolida en el tercer puesto. El tricolor bragadense ya se recuperó en el arranque de la 12ª jornada venciendo a Sportivo 25 de Mayo. La Primera División del Torneo Clausura transita momentos definitorios y la 11ª fecha tuvo un cierre a puro básquet. En condición de...",
-   "generado": "2026-11-03T10:01:54.071Z",
-   "id": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7c25d2528a52421493a56b6f2a793631~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-bragado-club-el-gran-protagonista-del-fin-de-semana-tras-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Bragado Club el gran protagonista del fin de semana: tras la caída con Gimnasia, el tricolor metió un par de triunfos y recuperó las chances de meterse en los play off",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-bragado-club-el-gran-protagonista-del-fin-de-semana-tras-la",
-   "volanta": "Básquet"
-  },
   "web:938b6ba4-fafa-439f-9eaa-7e8d85ab3288": {
    "categoria": "",
    "descripcion": "Rumbo al Plan Estratégico de Infraestructura: Chivilcoy será sede del Encuentro Regional Centro Norte CHIVILCOY.– El ministro Gabriel Katopodis encabeza la convocatoria dirigida a 18 municipios de la región. La jornada se desarrollará este jueves 5 de noviembre en Espacio Vallerga para debatir ejes clave del desarrollo territorial y la obra pública. El Ministerio de Infraestructura y Servicios Públicos de la Provincia de Buenos Aires llevará a cabo en la ciudad de Chivilcoy el Encuentro...",
@@ -4997,25 +4917,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras-1",
    "volanta": "Alberti · Policiales"
   },
-  "web:bc895e05-1264-4c69-9d17-5990747c5cfd": {
-   "categoria": "",
-   "descripcion": "Partidazo en el Sandrín: Racing de Chivilcoy busca derribar al invicto Instituto en la Liga de Desarrollo La Liga de Desarrollo no da tregua y este martes 3 de noviembre promete un cruce de alto vuelo en la ciudad de Córdoba. A partir de las 17:00 horas, el Estadio Ángel Sandrín será el escenario donde se enfrentarán el líder absoluto e invicto del certamen, Instituto de Córdoba, y un entonado Racing Club de Chivilcoy, que llega en alza tras dar el golpe en la capital provincial. ¿Cómo llegan...",
-   "generado": "2026-11-03T10:01:58.845Z",
-   "id": "web:bc895e05-1264-4c69-9d17-5990747c5cfd",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_9e6f87b6e1d4436eb48ae3c6f8921b43~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-partidazo-en-el-sandrin-racing-de-chivilcoy-busca-derribar-al",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Partidazo en el Sandrín: Racing de Chivilcoy busca derribar al invicto Instituto en la Liga de Desarrollo",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-partidazo-en-el-sandrin-racing-de-chivilcoy-busca-derribar-al",
-   "volanta": "Básquet"
-  },
   "web:bcc71360-9f79-4290-9d68-9770c7fb87ac": {
    "categoria": "",
    "descripcion": "Chivilcoy: Bomberos controlaron el incendio de una palmera en la Ruta 30 CHIVILCOY.– Bomberos controlaron el incendio de una palmera en la zona de la Ruta 30. El fuego se registró en dirección a La Rica y amenazaba con propagarse a un galpón lindero. Los Bomberos Voluntarios de Chivilcoy acudieron este miércoles 4 de noviembre a la zona de la Ruta 30, en dirección a La Rica, tras recibir un aviso por un incendio. Al llegar, el personal constató que el fuego afectaba a una palmera y que...",
@@ -5624,25 +5525,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
    "volanta": "Junín · Deportes"
   },
-  "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f": {
-   "categoria": "",
-   "descripcion": "Racing Club de Chivilcoy redondeó otra jornada histórica y jugará nuevamente las finales en todas sus categorías en la Liga Social CHIVILCOY.– El conjunto albiceleste tuvo un fin de semana soñado: la Primera Masculina superó con autoridad a Betharram, la categoría Juveniles M17 venció a Malvinas Argentinas y el Rugby Femenino también sacó boleto para el partido decisivo. La gran cita será el próximo 15 de noviembre en Ministro Rivadavia. El campo de deportes de Racing Club de Chivilcoy fue...",
-   "generado": "2026-11-03T10:02:02.911Z",
-   "id": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_59e0b2a532ae45f3b6383ddc345c1c78~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rugby-racing-club-de-chivilcoy-redondeo-otra-jornada-historica-y",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Racing Club de Chivilcoy redondeó otra jornada histórica y jugará nuevamente las finales en todas sus categorías en la Liga Social",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rugby-racing-club-de-chivilcoy-redondeo-otra-jornada-historica-y",
-   "volanta": "Rugby"
-  },
   "web:ecbd39ca-e8d6-4701-920e-b903cf03fc41": {
    "categoria": "",
    "descripcion": "Independiente festejó los 30 años de su Escuelita de Fútbol Infantil con un emotivo encuentro Con el regreso de las primeras camadas de jugadores, dirigentes e hinchas, el \"Rojo\" celebró tres décadas de formación deportiva. Claudio Valle, coordinador de las inferiores con 29 años en el club, analizó el camino recorrido, el rol social de la institución y el desafío de preparar futbolistas para la alta competencia. La tercera fue la vencida. Tras haber sido postergada en dos oportunidades, este...",
@@ -5906,84 +5788,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok": {
-   "actualizado": "2026-11-03T13:40:16.000Z",
-   "buffer_id": "6ae9daf12d879310e0cc1da4",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6|tiktok",
-   "creado": "2026-11-03T02:00:19.000Z",
-   "dueAt": "2026-11-03T13:23:21.000Z",
-   "enviado": "2026-11-03T13:25:13.371Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T01:56:04.000Z",
-   "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw014gc2pgu6",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7703935289332419861",
-   "metricas": {
-    "averageTimeWatched": 6.46,
-    "comments": 0,
-    "engagementRate": 0.94,
-    "reach": 397,
-    "reactions": 5,
-    "shares": 0,
-    "totalTimeWatched": 63.87,
-    "views": 532
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad\n\nControles simultáneos para fortalecer la prevención y la seguridad. Los procedimientos estuvieron coordinados con la participación de distintas dependencias policiales y áreas de seguridad vial, con el objetivo de reforzar la prevención, controlar la circulación vehicular y fortalecer...\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-realizaron-operativos-simultaneos-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Realizaron operativos simultáneos en accesos y distintos puntos de la ciudad",
-   "urgente": false,
-   "vence": "2026-11-05T01:56:04.000Z",
-   "video_bytes": 2897062,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_322c84fff498fbab.mp4",
-   "viral": false
-  },
-  "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok": {
-   "actualizado": "2026-11-03T13:40:16.000Z",
-   "buffer_id": "6ae9daeec6fbbde82486c733",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi|tiktok",
-   "creado": "2026-11-03T12:00:20.000Z",
-   "dueAt": "2026-11-03T13:03:21.000Z",
-   "enviado": "2026-11-03T13:06:37.220Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T11:42:08.000Z",
-   "id": "bot:corresponsal_2026-11-03_matias-zucchi_mw0m36uekvbi",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7703930670162119957",
-   "metricas": {
-    "averageTimeWatched": 4.67,
-    "comments": 0,
-    "engagementRate": 0.66,
-    "reach": 228,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 27.17,
-    "views": 303
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal\n\nEl secretario de Seguridad de la Municipalidad de Chivilcoy, Néstor Dabi, acompañado por Marcelo Loyola, participó de la ceremonia conmemorativa por la Semana de la Policía Federal Argentina, realizada en la ciudad de Mercedes. La actividad tuvo lugar en el salón Casa Anús...\n\nhttps://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal",
-   "urgente": false,
-   "vence": "2026-11-05T11:42:08.000Z",
-   "video_bytes": 777200,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_8632907b48553b3c.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-11-06_matias-zucchi_mw4d4fxd917v|tiktok": {
    "actualizado": "2026-11-06T14:00:26.000Z",
    "buffer_id": "6aedcf631fcdcefa468ef0db",
@@ -7233,19 +7037,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwec5iom0isb_01.mp4|tiktok": {
-   "actualizado": "2026-11-13T13:00:20.000Z",
+   "actualizado": "2026-11-13T14:00:20.000Z",
    "buffer_id": "6af709e67828e7ae1b0ee64a",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwec5iom0isb_01.mp4|tiktok",
    "creado": "2026-11-13T02:20:15.000Z",
    "dueAt": "2026-11-13T13:03:16.000Z",
+   "enviado": "2026-11-13T13:07:20.052Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T02:14:00.000Z",
    "id": "bot:video_matias-zucchi_mwec5iom0isb_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7707641731835104532",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-argentino-vencio-a-mariano-moreno-en-el",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -12319,19 +12124,20 @@
    "viral": false
   },
   "web:1c5322d0-2568-4a34-90d1-f120402f4197|x": {
-   "actualizado": "2026-11-13T12:40:20.000Z",
+   "actualizado": "2026-11-13T14:00:20.000Z",
    "buffer_id": "6af705359a21933ffad608eb",
    "clave": "web:1c5322d0-2568-4a34-90d1-f120402f4197|x",
    "creado": "2026-11-13T10:02:41.000Z",
    "dueAt": "2026-11-13T13:52:03.000Z",
+   "enviado": "2026-11-13T13:52:16.270Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T10:02:10.037Z",
    "id": "web:1c5322d0-2568-4a34-90d1-f120402f4197",
    "ig_hora": "2026-11-13T13:52:28.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121239725574857060",
    "nota_url": "https://www.diariolacampaña.com.ar/n/institucion-social-y-deportiva-cien-anos-de-pasion-y-arraigo-el-club",
    "noticia": "nota:institucion-social-y-deportiva-cien-anos-de-pasion-y-arraigo-el-club",
    "origen": "web",
@@ -12698,44 +12504,6 @@
    "titulo": "La Liga Chivilcoyana de Fútbol implementa medidas más rigurosas, con foco en las inferiores",
    "urgente": false,
    "vence": "2026-11-12T14:01:44.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x": {
-   "actualizado": "2026-11-03T13:40:16.000Z",
-   "buffer_id": "6ae9d17ec4271f6e32ff5f9a",
-   "clave": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec|x",
-   "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "2026-11-03T13:37:21.000Z",
-   "enviado": "2026-11-03T13:37:31.391Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T10:02:07.714Z",
-   "id": "web:2e5a05f3-f364-45b0-996d-3ef1ceb44cec",
-   "ig_hora": "2026-11-03T13:37:11.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117612135710617848",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 19,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-chivilcoy-romina-caballo-lidero-al-raleigh-fem-en-la-1",
-   "noticia": "nota:ciclismo-chivilcoy-romina-caballo-lidero-al-raleigh-fem-en-la-1",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Romina Caballo lideró al Raleigh Fem en la 1ª Vuelta Ciclista Femenina Internacional\n\nEl equipo Raleigh–Delsanto logró el subcampeonato y conquistas individuales en la histórica carrera UCI 2.2 disputada entre Maldonado y Lavalleja.\n\nhttps://www.diariolacampaña.com.ar/n/ciclismo-chivilcoy-romina-caballo-lidero-al-raleigh-fem-en-la-1",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Romina Caballo lideró al Raleigh Fem en la 1ª Vuelta Ciclista Femenina Internacional",
-   "urgente": false,
-   "vence": "2026-11-03T14:37:11.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -13948,19 +13716,20 @@
    "viral": false
   },
   "web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa|x": {
-   "actualizado": "2026-11-13T12:00:20.000Z",
+   "actualizado": "2026-11-13T14:00:20.000Z",
    "buffer_id": "6af6fbd410ced6793b325996",
    "clave": "web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa|x",
    "creado": "2026-11-13T10:02:41.000Z",
    "dueAt": "2026-11-13T13:22:11.000Z",
+   "enviado": "2026-11-13T13:22:16.157Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T10:02:01.741Z",
    "id": "web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa",
    "ig_hora": "2026-11-13T13:22:28.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121232175454376138",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquetbol-torneo-prefederal-bonaerense-colon-busca-el-tercer-puesto",
    "noticia": "nota:basquetbol-torneo-prefederal-bonaerense-colon-busca-el-tercer-puesto",
    "origen": "web",
@@ -14300,19 +14069,20 @@
    "viral": false
   },
   "web:7dd5195a-6787-458a-861f-22ceaaf90ea3|x": {
-   "actualizado": "2026-11-13T11:40:13.000Z",
+   "actualizado": "2026-11-13T14:00:20.000Z",
    "buffer_id": "6af6f71e9a21933ffad0728c",
    "clave": "web:7dd5195a-6787-458a-861f-22ceaaf90ea3|x",
    "creado": "2026-11-13T10:02:41.000Z",
    "dueAt": "2026-11-13T12:52:28.000Z",
+   "enviado": "2026-11-13T12:52:31.194Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T10:01:53.186Z",
    "id": "web:7dd5195a-6787-458a-861f-22ceaaf90ea3",
    "ig_hora": "2026-11-13T12:52:28.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121224688814686619",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-femenino-chivilcoy-liga-mercedina-mas-triunfos-para-atletico",
    "noticia": "nota:futbol-femenino-chivilcoy-liga-mercedina-mas-triunfos-para-atletico",
    "origen": "web",
@@ -14866,44 +14636,6 @@
    "titulo": "Chivilcoy: La fase regular del Clausura en su etapa de definiciones: Racing ganó con lo justo en Mercedes y se viene una Fecha 13 que puede ser determinante",
    "urgente": false,
    "vence": "2026-11-09T14:07:26.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x": {
-   "actualizado": "2026-11-03T13:40:16.000Z",
-   "buffer_id": "6ae9c8223b7ecdee655c40f8",
-   "clave": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0|x",
-   "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "2026-11-03T12:52:18.000Z",
-   "enviado": "2026-11-03T12:52:31.337Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T10:01:54.071Z",
-   "id": "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0",
-   "ig_hora": "2026-11-03T12:52:11.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117600810439737453",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 20,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-bragado-club-el-gran-protagonista-del-fin-de-semana-tras-la",
-   "noticia": "nota:basquet-bragado-club-el-gran-protagonista-del-fin-de-semana-tras-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Bragado Club el gran protagonista del fin de semana: tras la caída con Gimnasia, el tricolor metió un par de triunfos y recuperó las chances de meterse en los play off\n\nEl Lobo ganó en el cierre de la 11ª fecha. El tricolor venció a Sportivo 25 de Mayo.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-bragado-club-el-gran-protagonista-del-fin-de-semana-tras-la",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Bragado Club el gran protagonista del fin de semana: tras la caída con Gimnasia, el tricolor metió un par de triunfos y recuperó las chances de meterse en los play off",
-   "urgente": false,
-   "vence": "2026-11-03T14:01:54.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16189,44 +15921,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x": {
-   "actualizado": "2026-11-03T13:40:16.000Z",
-   "buffer_id": "6ae9c823f81926b932926e07",
-   "clave": "web:bc895e05-1264-4c69-9d17-5990747c5cfd|x",
-   "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "2026-11-03T13:07:00.000Z",
-   "enviado": "2026-11-03T13:07:04.709Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T10:01:58.845Z",
-   "id": "web:bc895e05-1264-4c69-9d17-5990747c5cfd",
-   "ig_hora": "2026-11-03T13:07:11.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117604473954586636",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 35,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-partidazo-en-el-sandrin-racing-de-chivilcoy-busca-derribar-al",
-   "noticia": "nota:basquet-partidazo-en-el-sandrin-racing-de-chivilcoy-busca-derribar-al",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Partidazo en el Sandrín: Racing de Chivilcoy busca derribar al invicto Instituto en la Liga de Desarrollo\n\nLa Liga de Desarrollo no da tregua y este martes 3 de noviembre promete un cruce de alto vuelo en la ciudad de Córdoba.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-partidazo-en-el-sandrin-racing-de-chivilcoy-busca-derribar-al",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Partidazo en el Sandrín: Racing de Chivilcoy busca derribar al invicto Instituto en la Liga de Desarrollo",
-   "urgente": false,
-   "vence": "2026-11-03T14:07:11.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:bcc71360-9f79-4290-9d68-9770c7fb87ac|x": {
    "actualizado": "2026-11-04T15:40:19.000Z",
    "buffer_id": "",
@@ -16965,19 +16659,20 @@
    "viral": false
   },
   "web:e09c5f60-c7ea-4314-b2f8-d99f1c806132|x": {
-   "actualizado": "2026-11-13T12:20:15.000Z",
+   "actualizado": "2026-11-13T14:00:20.000Z",
    "buffer_id": "6af70080d414da1f7da43d28",
    "clave": "web:e09c5f60-c7ea-4314-b2f8-d99f1c806132|x",
    "creado": "2026-11-13T10:02:41.000Z",
    "dueAt": "2026-11-13T13:37:52.000Z",
+   "enviado": "2026-11-13T13:38:01.648Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T10:02:05.722Z",
    "id": "web:e09c5f60-c7ea-4314-b2f8-d99f1c806132",
    "ig_hora": "2026-11-13T13:37:28.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121236141152124999",
    "nota_url": "https://www.diariolacampaña.com.ar/n/karate-do-lorena-aicardo-17-medallas-nacionales-y-la-preparacion-para",
    "noticia": "nota:karate-do-lorena-aicardo-17-medallas-nacionales-y-la-preparacion-para",
    "origen": "web",
@@ -17252,44 +16947,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x": {
-   "actualizado": "2026-11-03T13:40:16.000Z",
-   "buffer_id": "6ae9cce3f81926b93293ecda",
-   "clave": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f|x",
-   "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "2026-11-03T13:22:05.000Z",
-   "enviado": "2026-11-03T13:22:16.252Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T10:02:02.911Z",
-   "id": "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f",
-   "ig_hora": "2026-11-03T13:22:11.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117608297293349072",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 30,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rugby-racing-club-de-chivilcoy-redondeo-otra-jornada-historica-y",
-   "noticia": "nota:rugby-racing-club-de-chivilcoy-redondeo-otra-jornada-historica-y",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Racing Club de Chivilcoy redondeó otra jornada histórica y jugará nuevamente las finales en todas sus categorías en la Liga Social\n\nEl conjunto albiceleste tuvo un fin de semana soñado. La gran cita será el 15 de noviembre.\n\nhttps://www.diariolacampaña.com.ar/n/rugby-racing-club-de-chivilcoy-redondeo-otra-jornada-historica-y",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Racing Club de Chivilcoy redondeó otra jornada histórica y jugará nuevamente las finales en todas sus categorías en la Liga Social",
-   "urgente": false,
-   "vence": "2026-11-03T14:22:11.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:ecbd39ca-e8d6-4701-920e-b903cf03fc41|x": {
    "actualizado": "2026-11-11T12:40:15.000Z",
    "buffer_id": "6af44ac5b4e855103896e20e",
@@ -17394,19 +17051,20 @@
    "viral": false
   },
   "web:f12ef051-6163-4424-8626-4ff7b049b205|x": {
-   "actualizado": "2026-11-13T11:40:13.000Z",
+   "actualizado": "2026-11-13T14:00:20.000Z",
    "buffer_id": "6af6f71ebd1182b0d3edeac4",
    "clave": "web:f12ef051-6163-4424-8626-4ff7b049b205|x",
    "creado": "2026-11-13T10:02:41.000Z",
    "dueAt": "2026-11-13T13:07:00.000Z",
+   "enviado": "2026-11-13T13:07:05.885Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T10:01:57.613Z",
    "id": "web:f12ef051-6163-4424-8626-4ff7b049b205",
    "ig_hora": "2026-11-13T13:07:28.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121228356481843532",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-racing-dio-el-golpe-ante-colon-le-quito-el-invicto",
    "noticia": "nota:basquet-chivilcoy-racing-dio-el-golpe-ante-colon-le-quito-el-invicto",
    "origen": "web",
@@ -17689,51 +17347,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00286|x",
-   "cuando": "2026-11-06T17:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00286|tiktok",
-   "cuando": "2026-11-06T17:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455|x",
-   "cuando": "2026-11-06T17:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455|x",
-   "cuando": "2026-11-06T17:40:22.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "buffer_id": "6aee1107229bf05daffd263c",
-   "clave": "entrevistas:job00286|x",
-   "cuando": "2026-11-06T17:40:23.000Z",
-   "dueAt": "2026-11-06T17:42:19.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|x",
-   "cuando": "2026-11-06T18:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tiktok",
    "cuando": "2026-11-06T18:00:24.000Z",
@@ -21857,6 +21470,42 @@
    "cuando": "2026-11-13T13:00:22.000Z",
    "dueAt": "2026-11-13T13:03:16.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwec5iom0isb_01.mp4|tiktok",
+   "cuando": "2026-11-13T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7707641731835104532"
+  },
+  {
+   "clave": "web:1c5322d0-2568-4a34-90d1-f120402f4197|x",
+   "cuando": "2026-11-13T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121239725574857060"
+  },
+  {
+   "clave": "web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa|x",
+   "cuando": "2026-11-13T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121232175454376138"
+  },
+  {
+   "clave": "web:7dd5195a-6787-458a-861f-22ceaaf90ea3|x",
+   "cuando": "2026-11-13T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121224688814686619"
+  },
+  {
+   "clave": "web:e09c5f60-c7ea-4314-b2f8-d99f1c806132|x",
+   "cuando": "2026-11-13T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121236141152124999"
+  },
+  {
+   "clave": "web:f12ef051-6163-4424-8626-4ff7b049b205|x",
+   "cuando": "2026-11-13T14:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121228356481843532"
   }
  ],
  "tandas": {
@@ -21894,15 +21543,13 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-13",
- "ultima_sync": "2026-11-13T12:40:20.000Z",
+ "ultima_sync": "2026-11-13T14:00:20.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv84tphcucpq": "2026-10-14T13:40:20.000Z",
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv855dce83v8": "2026-10-14T13:40:20.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv86py1k2aye": "2026-10-14T14:20:14.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8c0t3flerf": "2026-10-14T17:00:17.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou": "2026-10-14T19:00:21.000Z",
@@ -23010,7 +22657,6 @@
   "web:d37136b3-ebdc-417b-bc08-a4ca4a1ae0c2": "2026-10-16T18:20:15.000Z",
   "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f": "2026-10-25T13:20:14.000Z",
   "web:d4089f06-53a3-4eae-adeb-d9043a2f641d": "2026-11-05T10:02:30.000Z",
-  "web:d423f381-613b-4f05-94cb-a7fa0d5bd10d": "2026-10-14T13:40:20.000Z",
   "web:d455c1c4-5f25-4847-bf67-277dd0e30dd7": "2026-10-27T10:03:31.000Z",
   "web:d4a9ca49-807f-4353-9ac9-56f63e81d000": "2026-10-15T22:20:20.000Z",
   "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc": "2026-10-19T01:00:18.000Z",
