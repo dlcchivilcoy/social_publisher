@@ -3063,6 +3063,11 @@ def _publicar_carrusel_corr(placas: list, foto: Path, caption: str, post_url: st
             logger.info("[facebook] foto + link OK")
         except Exception as e:  # noqa: BLE001
             estado["facebook"] = f"falló: {e}"; logger.error(f"[facebook] foto FALLÓ: {e}")
+    # 13/11/2026, pedido del usuario: «sacar las historias sobre carruseles, dejar solo reels».
+    # CORR_CARRUSEL_HISTORIA=1 vuelve a subir la portada del carrusel como historia.
+    if (get("CORR_CARRUSEL_HISTORIA") or "0").strip() != "1":
+        logger.info("[historias] carrusel: sin historia (solo los reels van a historias)")
+        return
     if not _historias_on() or not placas:
         return
     try:
