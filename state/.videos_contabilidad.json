@@ -41209,5 +41209,66 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-11-12T23:13:58",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-11-13_matias-zucchi_mwevesq6cgtq",
+    "uploader": "",
+    "fecha_recibido": "2026-11-13T08:07:53",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Chivilcoy · Bomberos",
+    "titulo": "Bomberos extinguieron un incendio en una pinturería de la ciudad",
+    "resumen": "Bomberos extinguieron un incendio en una pinturería de Chivilcoy. El fuego se concentró en un lavarropas dentro del local de Rosetti 258. Una dotación de ocho bomberos evitó que las llamas alcanzaran los tambores de pintura y otros materiales combustibles.",
+    "texto": "Bomberos extinguieron un incendio en una pinturería de Chivilcoy.\n\nEl fuego se concentró en un lavarropas dentro del local de Rosetti 258. Una dotación de ocho bomberos evitó que las llamas alcanzaran los tambores de pintura y otros materiales combustibles.\n\nPasada la medianoche de este viernes, los Bomberos Voluntarios acudieron a una pinturería ubicada en Rosetti 258, cerca de Almirante Brown. Al llegar, encontraron el comercio cerrado y vieron que salía humo por la parte trasera. El propietario se acercó al lugar y les entregó la llave para que pudieran ingresar.\n\nEl humo cubría todo el interior del comercio. Tras recorrer el local, los bomberos encontraron un lavarropas envuelto en llamas y extinguieron el fuego antes de que se propagara. Los daños se limitaron a un sector de aproximadamente dos por dos metros.\n\nUna vez apagado el incendio, la dotación trabajó durante varios minutos para ventilar el local. En el operativo colaboraron la Policía, Tránsito, Guardia Urbana y el propietario del comercio.",
+    "bajada_reel": "El fuego comenzó en un lavarropas y evitaron que alcanzara los tambores de pintura.",
+    "escrito": "Bomberos extinguieron un incendio en una pinturería de Chivilcoy\nEl fuego se concentró en un lavarropas dentro del local de Rosetti 258. Una dotación de ocho bomberos evitó que las llamas alcanzaran los tambores de pintura y otros materiales combustibles.\nPasada la medianoche de este viernes, los Bomberos Voluntarios acudieron a una pinturería ubicada en Rosetti 258, cerca de Almirante Brown. Al llegar, encontraron el comercio cerrado y vieron que salía humo por la parte trasera. El propietario se acercó al lugar y les entregó la llave para que pudieran ingresar.\nEl humo cubría todo el interior del comercio. Tras recorrer el local, los bomberos encontraron un lavarropas envuelto en llamas y extinguieron el fuego antes de que se propagara. Los daños se limitaron a un sector de aproximadamente dos por dos metros.\nUna vez apagado el incendio, la dotación trabajó durante varios minutos para ventilar el local. En el operativo colaboraron la Policía, Tránsito, Guardia Urbana y el propietario del comercio.",
+    "tarjetas_fotos": [],
+    "draft_id": "f6be02f8-6c54-4759-9446-3ae8ad3178ff",
+    "reel_url": "",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-13T11:05:31.337Z — wa:5492346417636",
+    "decl": null,
+    "formato": "carrusel",
+    "tema_carrusel": "grafito",
+    "laminas": [
+      {
+        "titulo": "Fuego controlado en una pinturería",
+        "texto": "Bomberos Voluntarios extinguieron un incendio dentro de una pinturería de Chivilcoy. Las llamas se concentraron en un lavarropas y fueron sofocadas a tiempo antes de que alcanzaran los tambores de pintura del comercio."
+      },
+      {
+        "titulo": "Madrugada de alerta en calle Rosetti",
+        "texto": "El hecho ocurrió pasada la medianoche de este viernes en Rosetti 258, cerca de Almirante Brown. Con el local cerrado, el propietario entregó la llave a ocho bomberos que entraron entre una densa nube de humo."
+      },
+      {
+        "titulo": "Evitaron un peligro mayor en la zona",
+        "texto": "La rápida intervención impidió que el fuego tomara contacto con materiales altamente combustibles como solventes y pinturas. Los daños materiales se limitaron a un sector acotado de dos por dos metros dentro del establecimiento comercial."
+      },
+      {
+        "titulo": "Trabajo conjunto y ventilación final",
+        "texto": "Tras controlar el foco ígneo, la dotación ventiló el local durante varios minutos. El operativo contó con la colaboración del propietario de la pinturería, efectivos de la Policía local, personal de Tránsito y agentes de Guardia Urbana."
+      }
+    ],
+    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_e2132cfc55df4a739a775aeed6fe585f~mv2.jpg",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-11-13T08:09:44",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "ok",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
+    "ig_media_id": "18496189243108480",
+    "fb_video_id": "",
+    "ig_historia_id": "17936489640147567",
+    "fb_historia_id": "1537045781804494",
+    "fb_post_id": "1456376377985890_2090540028554289"
   }
 ]
