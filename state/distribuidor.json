@@ -1881,6 +1881,32 @@
    "volanta": "Operativo policial en Chivilcoy",
    "youtube_url": "https://youtube.com/shorts/eRAogXOBHP0"
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region": {
+   "categoria": "alerta_meteorologica",
+   "descripcion": "El Servicio Meteorológico Nacional emitió una advertencia para este viernes debido a la llegada de tormentas intensas, abundante caída de agua, granizo y vientos que podrían superar los 90 kilómetros por hora en la región.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-13T22:31:31.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-naranja-por-tormentas-fuertes-y-rafagas-6447c1",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "El Servicio Meteorológico Nacional emitió una advertencia de nivel naranja para este viernes 13 de noviembre debido a la llegada de tormentas severas.\n\nLa especialista Vanina Ferrero confirmó que se esperan abundantes precipitaciones, granizo y fuertes ráfagas de viento superiores a los 90 kilómetros por hora.\n\nHacia la tarde y la noche, el nivel de advertencia descenderá a amarillo mientras continúan las precauciones.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #AlertaMeteorologica #Tormentas #Clima #BuenosAires",
+   "tipo": "video",
+   "titulo": "Rige alerta naranja por tormentas severas y fuertes ráfagas de viento",
+   "urgente": false,
+   "video_bytes": 91843,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_04_bragado_rige-alerta-naranja-por-tormen.mp4",
+   "volanta": "Alerta meteorológica en Bragado",
+   "youtube_url": "https://youtube.com/shorts/6n9hXebab6Q"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": {
    "categoria": "otro_policial",
    "descripcion": "Una vecina alertó a los efectivos de seguridad luego de descubrir que su descendiente había ingresado elementos de dudosa procedencia al domicilio familiar ubicado en Chacabuco.",
@@ -4515,25 +4541,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-chivilcoy-clausura-de-primera-moquehua-conservo-la-punta-e",
    "volanta": "Fútbol"
-  },
-  "web:9e4086cb-884a-42ed-9f34-88efb0194b7a": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: El Municipio realiza obras de mantenimiento en los accesos Servicios Públicos y Tránsito trabajan en conjunto en el mantenimiento y embellecimiento de los accesos de Chivilcoy. Las tareas incluyen pintura y protección de columnas de iluminación, reposición de estructuras dañadas, reparación de luminarias y demarcación de bulevares. Actualmente, los trabajos se concentran en la avenida De Tomaso y continuarán en otros accesos y avenidas de la ciudad. “Es un trabajo en conjunto para...",
-   "generado": "2026-11-03T22:14:33.171Z",
-   "id": "web:9e4086cb-884a-42ed-9f34-88efb0194b7a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_df923ad3f3b1418c9433dcb83e9e93c5~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: El Municipio realiza obras de mantenimiento en los accesos",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
-   "volanta": "Chivilcoy · Servicios"
   },
   "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8": {
    "categoria": "",
@@ -11061,6 +11068,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_08_bragado_aprehenden-a-un-motociclista-d.mp4",
    "viral": false
   },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region|x": {
+   "actualizado": "2026-11-13T22:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region|x",
+   "creado": "2026-11-13T22:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-13T22:31:31.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-naranja-por-tormentas-fuertes-y-rafagas-6447c1",
+   "noticia": "nota:bragado-rige-una-alerta-naranja-por-tormentas-fuertes-y-rafagas-6447c1",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Rige alerta naranja por tormentas severas y fuertes ráfagas de viento\n\nEl Servicio Meteorológico Nacional advirtió por la llegada de tormentas intensas, abundante caída de agua, granizo y vientos de más de 90 km/h para este viernes.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-naranja-por-tormentas-fuertes-y-rafagas-6447c1",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Rige alerta naranja por tormentas severas y fuertes ráfagas de viento",
+   "urgente": false,
+   "vence": "2026-11-14T00:31:31.000Z",
+   "video_bytes": 91843,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_04_bragado_rige-alerta-naranja-por-tormen.mp4",
+   "viral": true
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x": {
    "actualizado": "2026-11-08T01:40:15.000Z",
    "buffer_id": "",
@@ -15361,33 +15396,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x": {
-   "actualizado": "2026-11-03T22:20:30.000Z",
-   "buffer_id": "",
-   "clave": "web:9e4086cb-884a-42ed-9f34-88efb0194b7a|x",
-   "creado": "2026-11-03T22:20:16.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-03T22:14:33.171Z",
-   "id": "web:9e4086cb-884a-42ed-9f34-88efb0194b7a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
-   "noticia": "nota:chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: El Municipio realiza obras de mantenimiento en los accesos\n\nServicios Públicos y Tránsito trabajan en el mantenimiento y embellecimiento de los accesos de Chivilcoy. Las tareas se concentran en la avenida De Tomaso.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-el-municipio-realiza-obras-de",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: El Municipio realiza obras de mantenimiento en los accesos",
-   "urgente": false,
-   "vence": "2026-11-04T02:14:33.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8|x": {
    "actualizado": "2026-11-10T10:20:16.000Z",
    "buffer_id": "6af2ec2189e9c23c9bd7ce9e",
@@ -17701,12 +17709,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x",
-   "cuando": "2026-11-07T21:00:20.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "buffer_id": "6aef9165562f2e6de97e8290",
    "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok",
@@ -21855,6 +21857,14 @@
    "cuando": "2026-11-13T22:20:14.000Z",
    "dueAt": "2026-11-13T22:23:13.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region|x",
+   "cuando": "2026-11-13T22:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -22284,7 +22294,6 @@
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/": "2026-10-22T01:40:20.000Z",
   "policiales:https://boscoproducciones.com.ar/un-auto-quedo-destruido-por-un-incendio-en-el-camino-hacia-san-andres-de-giles/": "2026-10-15T02:00:18.000Z",
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": "2026-11-10T22:40:14.000Z",
-  "policiales:https://casaresonline.com.ar/viajante-pehuajense-volco-en-el-camino-a-timote/": "2026-10-14T22:20:16.000Z",
   "policiales:https://chacabucoenred.com/choque-entre-dos-motos-en-acceso-hipolito-yrigoyen": "2026-10-15T02:00:18.000Z",
   "policiales:https://chacabucoenred.com/le-chocaron-la-camioneta-estacionada-y-se-dieron-a-la-fuga-en-chacabuco-la-direccion-quedo-destruida": "2026-10-16T09:00:20.000Z",
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": "2026-10-24T00:20:16.000Z",
@@ -22358,12 +22367,11 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos": "2026-11-06T00:40:13.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja": "2026-11-05T22:40:14.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado": "2026-11-06T23:40:13.000Z",
-  "policiales:https://www.chacabuquero.com.ar/2026/10/123.html": "2026-10-14T22:20:16.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region": "2026-11-13T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": "2026-10-18T21:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html": "2026-10-27T00:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html": "2026-10-17T16:00:19.000Z",
-  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-centro-de-chacabuco_0774635481.html": "2026-10-14T22:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-el-mediodia-de-chacabuco.html": "2026-10-16T19:00:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html": "2026-10-19T23:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html": "2026-10-23T01:40:14.000Z",
@@ -22871,7 +22879,6 @@
   "web:a2b829fd-dfab-4681-94c5-581ba33a9d16": "2026-10-19T09:00:17.000Z",
   "web:a3d30d89-bce5-41df-b635-6f903026b394": "2026-10-28T10:02:28.000Z",
   "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b": "2026-10-20T10:20:14.000Z",
-  "web:a48b6d42-70dd-4459-94a5-2c178959330a": "2026-10-14T22:20:16.000Z",
   "web:a4af8e93-1494-4e38-bc38-5764b271088c": "2026-11-09T09:00:17.000Z",
   "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4": "2026-11-06T17:00:18.000Z",
   "web:a604bb88-c1b1-4d8c-aeb4-73f24939ba20": "2026-10-26T12:06:06.000Z",

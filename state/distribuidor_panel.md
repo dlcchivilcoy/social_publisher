@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 13/11/2026 19:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 3 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,14 +27,14 @@ Actualizado: 13/11/2026 19:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
 - TikTok · Recortes de entrevistas · Rubén del Circo Safari Show: de vendedor a representante — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Reels policiales · Rige alerta naranja por tormentas severas y fuertes ráfagas de viento — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T20:20 programado entrevistas:job00314|x 
 - 2026-11-13T21:00 entrevista_aprobada entrevistas:job00315 
 - 2026-11-13T21:00 recibido entrevistas:job00315|x 
 - 2026-11-13T21:00 recibido entrevistas:job00315|tiktok 
@@ -59,3 +59,4 @@ Actualizado: 13/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-13T22:20 enviado entrevistas:job00315|tiktok 
 - 2026-11-13T22:20 enviado entrevistas:job00315|x 
 - 2026-11-13T22:20 programado policiales:https://www.lamanana.com.ar/secuestraron-seis-veh 
+- 2026-11-13T22:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/ 
