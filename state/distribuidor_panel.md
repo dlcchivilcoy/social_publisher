@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 13/11/2026 16:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
+- TikTok · Recortes de entrevistas · Matias De La Pérgula: el significado de la visita papal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Fiesta del Resero: Magdalena Gardella detalló las entradas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Rubén del Circo Safari Show: el detrás de escena — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Gisela Videla: el rol del coaching antes de entrar a la cancha — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -36,10 +37,6 @@ Actualizado: 13/11/2026 16:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T12:40 enviado web:7de16944-cbd0-472a-9ccc-0f7b42b113cd|x 
-- 2026-11-13T12:40 enviado web:fc10ebd0-7cda-42f2-88f4-259827e863aa|x 
-- 2026-11-13T12:40 programado web:1c5322d0-2568-4a34-90d1-f120402f4197|x 
-- 2026-11-13T13:00 programado bot:video_matias-zucchi_mwec5iom0isb_01.mp4|tiktok 
 - 2026-11-13T14:00 enviado bot:video_matias-zucchi_mwec5iom0isb_01.mp4|tiktok 
 - 2026-11-13T14:00 enviado web:1c5322d0-2568-4a34-90d1-f120402f4197|x 
 - 2026-11-13T14:00 enviado web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa|x 
@@ -61,3 +58,7 @@ Actualizado: 13/11/2026 16:00 (hora AR) · ACTIVO
 - 2026-11-13T18:40 programado entrevistas:job00311|x 
 - 2026-11-13T19:00 enviado entrevistas:job00310|x 
 - 2026-11-13T19:00 enviado entrevistas:job00311|x 
+- 2026-11-13T19:20 entrevista_aprobada entrevistas:job00312 
+- 2026-11-13T19:20 recibido entrevistas:job00312|x 
+- 2026-11-13T19:20 recibido entrevistas:job00312|tiktok 
+- 2026-11-13T19:20 programado entrevistas:job00312|x 

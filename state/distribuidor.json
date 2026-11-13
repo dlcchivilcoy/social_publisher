@@ -1293,6 +1293,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00311.mp4",
    "youtube_url": "https://youtu.be/nUQsApeUrCo"
   },
+  "entrevistas:job00312": {
+   "descripcion": "Desde Chivilcoy, el diácono Matias De La Pérgula reflexionó sobre el valor simbólico y la fe en torno a la visita del Papa a la tierra de Francisco. Compartió su mirada sobre el rol de Pedro sosteniendo a la Iglesia católica.",
+   "duracion_seg": null,
+   "entrevistado": "Matias De La Pérgula",
+   "generado": "2026-11-13T19:20:15.000Z",
+   "id": "entrevistas:job00312",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Matias De La Pérgula: el significado de la visita papal",
+   "urgente": false,
+   "video_bytes": 19438736,
+   "video_mb": 18.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00312.mp4",
+   "youtube_url": "https://youtu.be/Kvp5-eO_IpE"
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -10226,6 +10247,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00311.mp4",
    "viral": false
   },
+  "entrevistas:job00312|tiktok": {
+   "actualizado": "2026-11-13T19:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00312|tiktok",
+   "creado": "2026-11-13T19:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-13T19:20:15.000Z",
+   "id": "entrevistas:job00312",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Matias De La Pérgula: el significado de la visita papal\n\nDesde Chivilcoy, el diácono Matias De La Pérgula reflexionó sobre el valor simbólico y la fe en torno a la visita del Papa a la tierra de Francisco. Compartió su mirada sobre el rol de Pedro sosteniendo a la Iglesia católica.\n\nhttps://youtu.be/Kvp5-eO_IpE\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Matias De La Pérgula: el significado de la visita papal",
+   "urgente": false,
+   "vence": "2026-11-15T19:20:15.000Z",
+   "video_bytes": 19438736,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00312.mp4",
+   "viral": false
+  },
+  "entrevistas:job00312|x": {
+   "actualizado": "2026-11-13T19:20:18.000Z",
+   "buffer_id": "6af762f3bb36d00909c1d7f6",
+   "clave": "entrevistas:job00312|x",
+   "creado": "2026-11-13T19:20:15.000Z",
+   "dueAt": "2026-11-13T19:22:20.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-13T19:20:15.000Z",
+   "id": "entrevistas:job00312",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:matias-papal-pergula-significado-visita",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Matias De La Pérgula: el significado de la visita papal\n\nDesde Chivilcoy, el diácono reflexionó sobre el valor simbólico y la fe en torno a la visita del Papa a la tierra de Francisco. Compartió su mirada sobre el rol de Pedro sosteniendo a la Iglesia.\n\nhttps://youtu.be/Kvp5-eO_IpE",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Matias De La Pérgula: el significado de la visita papal",
+   "urgente": false,
+   "vence": "2026-11-13T21:20:15.000Z",
+   "video_bytes": 19438736,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00312.mp4",
+   "viral": false
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
    "actualizado": "2026-11-11T00:40:17.000Z",
    "buffer_id": "6af3b0230b1f930b454e2bda",
@@ -17508,33 +17585,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00288|x",
-   "cuando": "2026-11-06T19:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118781850030162084"
-  },
-  {
-   "buffer_id": "6aee3fe49214322f68afb7f6",
-   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tiktok",
-   "cuando": "2026-11-06T21:00:26.000Z",
-   "dueAt": "2026-11-06T21:03:17.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aee3fe5a7751de7c9a9768c",
-   "clave": "entrevistas:job00288|tiktok",
-   "cuando": "2026-11-06T21:00:26.000Z",
-   "dueAt": "2026-11-06T21:23:29.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aee3fe69214322f68afbb19",
-   "clave": "entrevistas:job00287|tiktok",
-   "cuando": "2026-11-06T21:00:26.000Z",
-   "dueAt": "2026-11-06T21:43:59.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6aee3fe8004e4879a715584f",
    "clave": "entrevistas:job00286|tiktok",
    "cuando": "2026-11-06T21:00:26.000Z",
@@ -21665,6 +21715,34 @@
    "cuando": "2026-11-13T19:00:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2121312738504790512"
+  },
+  {
+   "clave": "entrevistas:job00312",
+   "cuando": "2026-11-13T19:20:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00312|x",
+   "cuando": "2026-11-13T19:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00312|tiktok",
+   "cuando": "2026-11-13T19:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af762f3bb36d00909c1d7f6",
+   "clave": "entrevistas:job00312|x",
+   "cuando": "2026-11-13T19:20:19.000Z",
+   "dueAt": "2026-11-13T19:22:20.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21709,7 +21787,6 @@
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv8gg4wz4gou": "2026-10-14T19:00:21.000Z",
   "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv": "2026-10-15T00:00:18.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50": "2026-10-15T00:20:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v": "2026-10-15T00:40:14.000Z",
@@ -21897,7 +21974,6 @@
   "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4": "2026-11-11T14:20:16.000Z",
   "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4": "2026-11-12T00:20:13.000Z",
   "bot:video_matias-zucchi_mwec5iom0isb_01.mp4": "2026-11-13T02:20:15.000Z",
-  "entrevistas:job00208": "2026-10-14T19:20:14.000Z",
   "entrevistas:job00211": "2026-10-15T17:00:21.000Z",
   "entrevistas:job00212": "2026-10-15T18:20:17.000Z",
   "entrevistas:job00213": "2026-10-15T17:40:16.000Z",
@@ -21996,6 +22072,7 @@
   "entrevistas:job00309": "2026-11-13T17:40:25.000Z",
   "entrevistas:job00310": "2026-11-13T18:20:13.000Z",
   "entrevistas:job00311": "2026-11-13T18:40:13.000Z",
+  "entrevistas:job00312": "2026-11-13T19:20:15.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
@@ -22119,7 +22196,6 @@
   "policiales:https://laopinionline.ar/articulo/aun-no-identificaron-al-ciclista-que-murio-atropellado-por-una-camioneta-al-circular-de-noche-por-la-autopista": "2026-10-15T19:20:15.000Z",
   "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia": "2026-10-29T23:40:14.000Z",
   "policiales:https://laopinionline.ar/articulo/choque-multiple-en-la-ruta-188-tres-vehiculos-involucrados-y-un-conductor-hospitalizado": "2026-10-15T09:00:21.000Z",
-  "policiales:https://laopinionline.ar/articulo/detuvieron-a-un-sujeto-acusado-de-hostigar-a-mujeres-y-provocar-disturbios-frente-a-un-comercio": "2026-10-14T19:00:21.000Z",
   "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra": "2026-10-16T21:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial": "2026-10-26T09:00:18.000Z",
   "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba": "2026-10-22T00:20:17.000Z",
@@ -22253,7 +22329,6 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/": "2026-11-07T00:20:16.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/": "2026-11-10T23:20:14.000Z",
-  "policiales:https://www.noticiaslasflores.com.ar/policiales/choque-entre-una-moto-y-un-utilitario-en-azul-y-san-martin-una-mujer-fue-trasladada-al-hospital/": "2026-10-14T19:00:21.000Z",
   "policiales:https://www.noticiaslasflores.com.ar/policiales/hirieron-a-una-pareja-de-jubilados-durante-un-asalto-en-olavarria/": "2026-10-15T18:00:21.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22535-el-joven-que-se-atrinchero-armado-quedo-detenido-y-sera-trasladado-a-sierra-chica": "2026-10-16T00:00:21.000Z",
   "policiales:https://www.presentenoticias.com/noticias/2026/10/15/22553-un-hombre-fue-hallado-sin-vida-en-una-vivienda-de-barrio-pompeya": "2026-10-16T02:00:19.000Z",
@@ -22671,7 +22746,6 @@
   "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e": "2026-10-26T13:48:30.000Z",
   "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8": "2026-11-08T23:00:17.000Z",
   "web:a03696d1-157a-48cb-abea-e9cba1380f98": "2026-10-28T14:40:14.000Z",
-  "web:a03ec47f-a0f9-483a-a8d9-146c88206c83": "2026-10-14T19:20:14.000Z",
   "web:a072a57b-8515-4490-a15a-e1036cfa7355": "2026-11-06T10:02:35.000Z",
   "web:a1327fb9-b591-4f76-841c-f71a579fcd51": "2026-11-12T10:02:44.000Z",
   "web:a148d95b-c5c1-4dd9-9cfc-1ae0e037c784": "2026-10-19T10:20:14.000Z",
@@ -22839,7 +22913,6 @@
   "web:dd87b7aa-3504-4ee1-855b-97c17f044d34": "2026-10-18T18:20:15.000Z",
   "web:dda2c07c-c88b-47e7-b8f5-6d103245c317": "2026-10-15T10:20:13.000Z",
   "web:ddb372e9-f75f-433a-ad8d-44035f486a1c": "2026-11-10T10:02:42.000Z",
-  "web:dea7e6d6-1238-4c81-b533-8309a5a4aa21": "2026-10-14T19:00:21.000Z",
   "web:dee5ff39-82ca-4d6d-b9d1-3ad0d5fd7399": "2026-10-19T02:40:14.000Z",
   "web:df11b9af-5afe-4283-a02a-1cd5bee99c4c": "2026-10-16T10:20:16.000Z",
   "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c": "2026-10-29T16:20:15.000Z",
