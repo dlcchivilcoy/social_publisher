@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 18:20 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 18:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 6 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 7 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 6 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 7 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,16 +27,13 @@ Actualizado: 13/11/2026 18:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Recortes de entrevistas · Rubén del Circo Safari Show: de vendedor a representante — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T19:20 recibido entrevistas:job00312|x 
-- 2026-11-13T19:20 recibido entrevistas:job00312|tiktok 
-- 2026-11-13T19:20 programado entrevistas:job00312|x 
-- 2026-11-13T19:40 entrevista_aprobada entrevistas:job00313 
 - 2026-11-13T19:40 recibido entrevistas:job00313|x 
 - 2026-11-13T19:40 recibido entrevistas:job00313|tiktok 
 - 2026-11-13T19:40 programado entrevistas:job00313|x 
@@ -58,3 +55,7 @@ Actualizado: 13/11/2026 18:20 (hora AR) · ACTIVO
 - 2026-11-13T21:00 programado entrevistas:job00311|tiktok 
 - 2026-11-13T21:00 programado entrevistas:job00310|tiktok 
 - 2026-11-13T21:00 programado entrevistas:job00309|tiktok 
+- 2026-11-13T21:40 entrevista_aprobada entrevistas:job00310-r1 
+- 2026-11-13T21:40 recibido entrevistas:job00310-r1|x 
+- 2026-11-13T21:40 recibido entrevistas:job00310-r1|tiktok 
+- 2026-11-13T21:40 programado entrevistas:job00310-r1|x 
