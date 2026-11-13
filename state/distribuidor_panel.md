@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,17 +27,14 @@ Actualizado: 13/11/2026 15:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- TikTok · Recortes de entrevistas · Rubén del Circo Safari Show: el detrás de escena — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Gisela Videla: el rol del coaching antes de entrar a la cancha — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T11:20 enviado web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061|x 
-- 2026-11-13T11:20 programado web:3a1e20a8-80b6-4752-89ed-6c5d60a28320|x 
-- 2026-11-13T11:40 programado web:7dd5195a-6787-458a-861f-22ceaaf90ea3|x 
-- 2026-11-13T11:40 programado web:f12ef051-6163-4424-8626-4ff7b049b205|x 
 - 2026-11-13T12:00 depurado web:f6be02f8-6c54-4759-9446-3ae8ad3178ff|x no está en el carrusel del diario de hoy
 - 2026-11-13T12:00 programado web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa|x 
 - 2026-11-13T12:20 programado web:e09c5f60-c7ea-4314-b2f8-d99f1c806132|x 
@@ -59,3 +56,7 @@ Actualizado: 13/11/2026 15:00 (hora AR) · ACTIVO
 - 2026-11-13T17:40 recibido entrevistas:job00309|tiktok 
 - 2026-11-13T17:40 programado entrevistas:job00309|x 
 - 2026-11-13T18:00 enviado entrevistas:job00309|x 
+- 2026-11-13T18:20 entrevista_aprobada entrevistas:job00310 
+- 2026-11-13T18:20 recibido entrevistas:job00310|x 
+- 2026-11-13T18:20 recibido entrevistas:job00310|tiktok 
+- 2026-11-13T18:20 programado entrevistas:job00310|x 
