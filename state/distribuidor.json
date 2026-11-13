@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 5
+    "scheduled": 0,
+    "sent": 8
    },
    "pausado": false,
-   "visto": "2026-11-13T22:20:13.000Z"
+   "visto": "2026-11-13T23:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 25
    },
    "pausado": false,
-   "visto": "2026-11-13T22:20:13.000Z"
+   "visto": "2026-11-13T23:20:14.000Z"
   }
  },
  "contenidos": {
@@ -410,27 +410,6 @@
    "video_mb": 7.5,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_380afed87523ec8c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/FH4edgoDVxs"
-  },
-  "entrevistas:job00271": {
-   "descripcion": "El meteorólogo Marcelo Speranza explicó en Chivilcoy por qué es imposible anticipar con meses de anticipación si lloverá en la costa durante el verano. Detalló el rol clave de la Oscilación Antártica en el pronóstico a largo plazo.",
-   "duracion_seg": null,
-   "entrevistado": "Marcelo Speranza",
-   "generado": "2026-11-03T17:00:23.000Z",
-   "id": "entrevistas:job00271",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Marcelo Speranza: clima para las vacaciones de verano",
-   "urgente": false,
-   "video_bytes": 24253486,
-   "video_mb": 23.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00271.mp4",
-   "youtube_url": "https://youtu.be/bz_2CTwlq1U"
   },
   "entrevistas:job00275": {
    "descripcion": "La concejal Coty Alonso señaló que casi la totalidad del sector comercial en Chivilcoy reclama la falta de contraprestación y presencia municipal. Mirá las declaraciones completas en Radio del Centro.",
@@ -1647,32 +1626,6 @@
    "volanta": "Crimen en Mechita",
    "youtube_url": "https://youtube.com/shorts/TkPc9fnKVa4"
   },
-  "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html": {
-   "categoria": "otro_policial",
-   "descripcion": "Sebastián Reyes, de 45 años y oriundo de Temperley, protagonizó un vuelco con su Toyota Hilux en el kilómetro 256 de la Ruta Nacional 5. Fue derivado al Hospital Julio de Vedia para controles preventivos.",
-   "distancia_km": 49.3,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-03T22:01:33.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html",
-   "localidad": "Bragado",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-volco-una-camioneta-en-la-ruta-5-y-el-conductor-debio-7a75dc",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Un automovilista protagonizó un despiste y vuelco en la Ruta Nacional 5, a la altura del kilómetro 256, mientras se registraban precipitaciones en la zona.\n\nEl rodado involucrado fue una camioneta Toyota Hilux que se desplazaba en dirección ascendente hacia 9 de Julio, cuyo único ocupante fue identificado como Sebastián Reyes, de 45 años.\n\nEl conductor logró abandonar el habitáculo por sus propios medios tras el siniestro y posteriormente fue llevado en una ambulancia hacia el Hospital Zonal Julio de Vedia para recibir atención médica preventiva.\n\nEn el operativo desplegado en el sitio trabajaron agentes de la Policía Vial junto a efectivos del Destacamento Patricios y personal de la concesionaria Pentavía.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Volcó una camioneta en la Ruta 5 bajo la lluvia y el chofer fue hospitalizado",
-   "urgente": false,
-   "video_bytes": 152637,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_01_bragado_volc-una-camioneta-en-la-ruta-.mp4",
-   "volanta": "Siniestro vial en Bragado",
-   "youtube_url": "https://youtube.com/shorts/NZlPillJOaE"
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html": {
    "categoria": "otro_policial",
    "descripcion": "Un conductor de una moto que manejaba bajo los efectos del alcohol impactó contra un Volkswagen Bora estacionado frente al teatro Constantino. Le secuestraron el rodado.",
@@ -1984,6 +1937,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_05_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
    "volanta": "Choque en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/PH5I_eW6H98"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Un hombre terminó lesionado este viernes tras una violenta disputa barrial vinculada al robo de un motovehículo. La Policía debió intervenir en el lugar.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-13T23:02:13.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/herido-por-ladrillazos-en-una-pelea-de-vecinos-por-una-moto-en-069ed9",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un violento conflicto vecinal se registró este viernes en la ciudad de Chacabuco.\n\nLa disputa comenzó antes de las 8 de la mañana en la zona de Tulio Spinetti continuación, en el barrio de la quinta 1010.\n\nEl enfrentamiento se originó por la sustracción previa de un motovehículo.\n\nUn grupo de personas atacó a otra arrojándole ladrillos, lo que provocó una lesión en uno de los involucrados.\n\nPersonal policial acudió al sitio para intervenir en la gresca, calmar la situación y orientar a las partes sobre los pasos legales a seguir.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Herido tras una pelea entre vecinos por una moto robada en Chacabuco",
+   "urgente": false,
+   "video_bytes": 78302,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_06_chacabuco_herido-tras-una-pelea-entre-ve.mp4",
+   "volanta": "Confrontación en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/7SxGtAMEblo"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html": {
    "categoria": "robo",
@@ -7240,45 +7219,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_380afed87523ec8c.mp4",
    "viral": false
   },
-  "entrevistas:job00271|tiktok": {
-   "actualizado": "2026-11-03T23:00:24.000Z",
-   "buffer_id": "6aea4b6b6f495ad554194c73",
-   "categoria": "",
-   "clave": "entrevistas:job00271|tiktok",
-   "creado": "2026-11-03T17:00:23.000Z",
-   "dueAt": "2026-11-03T22:03:20.000Z",
-   "enviado": "2026-11-03T22:05:13.985Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T17:00:23.000Z",
-   "id": "entrevistas:job00271",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7704069250230570258",
-   "metricas": {
-    "averageTimeWatched": 11.1,
-    "comments": 1,
-    "engagementRate": 1.71,
-    "reach": 270,
-    "reactions": 16,
-    "shares": 0,
-    "totalTimeWatched": 207.38,
-    "views": 997
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Marcelo Speranza: clima para las vacaciones de verano\n\nEl meteorólogo Marcelo Speranza explicó en Chivilcoy por qué es imposible anticipar con meses de anticipación si lloverá en la costa durante el verano. Detalló el rol clave de la Oscilación Antártica en el pronóstico a largo plazo.\n\nhttps://youtu.be/bz_2CTwlq1U\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Marcelo Speranza: clima para las vacaciones de verano",
-   "urgente": false,
-   "vence": "2026-11-05T17:00:23.000Z",
-   "video_bytes": 24253486,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00271.mp4",
-   "viral": false
-  },
   "entrevistas:job00275|tiktok": {
    "actualizado": "2026-11-04T22:40:23.000Z",
    "buffer_id": "6aeb9cf1f0e1705c28e70e23",
@@ -9940,19 +9880,20 @@
    "viral": false
   },
   "entrevistas:job00309|tiktok": {
-   "actualizado": "2026-11-13T21:00:26.000Z",
+   "actualizado": "2026-11-13T23:20:14.000Z",
    "buffer_id": "6af77a73d16af15d4dd1d0e5",
    "categoria": "",
    "clave": "entrevistas:job00309|tiktok",
    "creado": "2026-11-13T17:40:25.000Z",
    "dueAt": "2026-11-13T23:03:45.000Z",
+   "enviado": "2026-11-13T23:05:28.402Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T17:40:25.000Z",
    "id": "entrevistas:job00309",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7707795682672790804",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -10054,19 +9995,20 @@
    "viral": false
   },
   "entrevistas:job00310|tiktok": {
-   "actualizado": "2026-11-13T21:00:26.000Z",
+   "actualizado": "2026-11-13T23:20:14.000Z",
    "buffer_id": "6af77a739257ce33980e6f0a",
    "categoria": "",
    "clave": "entrevistas:job00310|tiktok",
    "creado": "2026-11-13T18:20:13.000Z",
    "dueAt": "2026-11-13T22:43:12.000Z",
+   "enviado": "2026-11-13T22:44:58.142Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T18:20:13.000Z",
    "id": "entrevistas:job00310",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7707790372642098453",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -10111,19 +10053,20 @@
    "viral": false
   },
   "entrevistas:job00311|tiktok": {
-   "actualizado": "2026-11-13T21:00:26.000Z",
+   "actualizado": "2026-11-13T23:20:14.000Z",
    "buffer_id": "6af77a7181e1228421c3458b",
    "categoria": "",
    "clave": "entrevistas:job00311|tiktok",
    "creado": "2026-11-13T18:40:13.000Z",
    "dueAt": "2026-11-13T22:23:06.000Z",
+   "enviado": "2026-11-13T22:24:58.139Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T18:40:13.000Z",
    "id": "entrevistas:job00311",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7707785223018138900",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -10780,43 +10723,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_02_junin_apresaron-a-dos-hombres-por-el.mp4",
    "viral": true
   },
-  "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x": {
-   "actualizado": "2026-11-03T23:00:24.000Z",
-   "buffer_id": "6aea5e2fdaff4dfc5059ae83",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html|x",
-   "creado": "2026-11-03T22:20:16.000Z",
-   "dueAt": "2026-11-03T22:23:55.000Z",
-   "enviado": "2026-11-03T22:24:04.430Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T22:01:33.000Z",
-   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117744646595993694",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 61,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-volco-una-camioneta-en-la-ruta-5-y-el-conductor-debio-7a75dc",
-   "noticia": "nota:bragado-volco-una-camioneta-en-la-ruta-5-y-el-conductor-debio-7a75dc",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Volcó una camioneta en la Ruta 5 bajo la lluvia y el chofer fue hospitalizado\n\nUn hombre de 45 años volcó con su camioneta en el kilómetro 256. Fue trasladado al Hospital Julio de Vedia para controles preventivos.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-volco-una-camioneta-en-la-ruta-5-y-el-conductor-debio-7a75dc",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Volcó una camioneta en la Ruta 5 bajo la lluvia y el chofer fue hospitalizado",
-   "urgente": false,
-   "vence": "2026-11-04T00:01:33.000Z",
-   "video_bytes": 152637,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_01_bragado_volc-una-camioneta-en-la-ruta-.mp4",
-   "viral": false
-  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x": {
    "actualizado": "2026-11-09T00:00:22.000Z",
    "buffer_id": "6af0ff08562f2e6de9e8b4fc",
@@ -11178,6 +11084,34 @@
    "vence": "2026-11-07T02:31:01.000Z",
    "video_bytes": 132572,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_05_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html|x": {
+   "actualizado": "2026-11-13T23:20:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html|x",
+   "creado": "2026-11-13T23:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-13T23:02:13.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/herido-por-ladrillazos-en-una-pelea-de-vecinos-por-una-moto-en-069ed9",
+   "noticia": "nota:herido-por-ladrillazos-en-una-pelea-de-vecinos-por-una-moto-en-069ed9",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Herido tras una pelea entre vecinos por una moto robada en Chacabuco\n\nUn hombre terminó lesionado este viernes tras una violenta disputa barrial vinculada al robo de un motovehículo. La Policía debió intervenir en el lugar.\n\nhttps://www.diariolacampaña.com.ar/n/herido-por-ladrillazos-en-una-pelea-de-vecinos-por-una-moto-en-069ed9",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Herido tras una pelea entre vecinos por una moto robada en Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-14T01:02:13.000Z",
+   "video_bytes": 78302,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_06_chacabuco_herido-tras-una-pelea-entre-ve.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html|x": {
@@ -11738,18 +11672,19 @@
    "viral": true
   },
   "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x": {
-   "actualizado": "2026-11-13T22:20:13.000Z",
+   "actualizado": "2026-11-13T23:20:14.000Z",
    "buffer_id": "6af78d1e4b28296eb11be5f5",
    "clave": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x",
    "creado": "2026-11-13T22:20:13.000Z",
    "dueAt": "2026-11-13T22:23:13.000Z",
+   "enviado": "2026-11-13T22:23:18.223Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T22:02:14.000Z",
    "id": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121368331361857989",
    "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-seis-vehiculos-secuestrados-y-una-moto-robada-970dc5",
    "noticia": "nota:roque-perez-seis-vehiculos-secuestrados-y-una-moto-robada-970dc5",
    "origen": "policiales",
@@ -17710,42 +17645,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6aef9165562f2e6de97e8290",
-   "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok",
-   "cuando": "2026-11-07T21:00:21.000Z",
-   "dueAt": "2026-11-07T21:03:13.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok",
-   "cuando": "2026-11-07T21:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705538045658893586"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347738-causa-por-usurpacion-en-calle-paso-aprehendieron-a|x",
-   "cuando": "2026-11-07T22:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6aefa41d51492b796e02d592",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347738-causa-por-usurpacion-en-calle-paso-aprehendieron-a|x",
-   "cuando": "2026-11-07T22:20:13.000Z",
-   "dueAt": "2026-11-07T22:23:40.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html|x",
-   "cuando": "2026-11-07T22:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "web:547df2b0-7a1a-4b57-923f-b7947b7b5134|x",
    "cuando": "2026-11-07T22:40:23.000Z",
    "estado": "pendiente",
@@ -21865,6 +21764,38 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html|x",
+   "cuando": "2026-11-13T23:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "entrevistas:job00309|tiktok",
+   "cuando": "2026-11-13T23:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7707795682672790804"
+  },
+  {
+   "clave": "entrevistas:job00310|tiktok",
+   "cuando": "2026-11-13T23:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7707790372642098453"
+  },
+  {
+   "clave": "entrevistas:job00311|tiktok",
+   "cuando": "2026-11-13T23:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7707785223018138900"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x",
+   "cuando": "2026-11-13T23:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121368331361857989"
   }
  ],
  "tandas": {
@@ -21902,7 +21833,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-13",
- "ultima_sync": "2026-11-13T22:20:13.000Z",
+ "ultima_sync": "2026-11-13T23:20:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -22389,6 +22320,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html": "2026-11-12T23:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": "2026-11-07T00:40:13.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html": "2026-11-13T23:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html": "2026-11-12T23:40:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html": "2026-11-08T23:40:14.000Z",
