@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 13/11/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 5 | 9 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 7 | 7 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,15 +27,13 @@ Actualizado: 13/11/2026 07:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (8 esperando)
 - X · Notas web · Cien años de pasión y arraigo: El Club Río de la Plata celebró su centenario en  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Lorena Aicardo: 17 medallas nacionales y la preparación para el Mundial de Parag — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Prefederal Bonaerense: Colón busca el tercer puesto en Pergamino cuando v — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Racing dio el golpe ante Colón, le quitó el invicto y dejó abierto el — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Liga Mercedina: Más triunfos para Atlético Ciclón en instancias decis — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Se revalida el clásico: Varela y Colón, el león por el triunfo que lo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: “La luz del tren”: Cuarta Fiesta de la Empanada Frita al Disco en Gor — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Natalia Fracchia: “El corso tiene que ser popular y gratuito para tod — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Escuela Superior de Servicio Social — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · ARGENTINO venció a MARIANO MORENO en el inicio de los playoffs — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -43,8 +41,6 @@ Actualizado: 13/11/2026 07:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-l 
-- 2026-11-13T02:40 enviado bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x 
 - 2026-11-13T02:40 enviado policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-l 
 - 2026-11-13T10:02 recibido web:1c5322d0-2568-4a34-90d1-f120402f4197|x 
 - 2026-11-13T10:02 recibido web:e09c5f60-c7ea-4314-b2f8-d99f1c806132|x 
@@ -68,3 +64,5 @@ Actualizado: 13/11/2026 07:20 (hora AR) · ACTIVO
 - 2026-11-13T10:03 programado web:7de16944-cbd0-472a-9ccc-0f7b42b113cd|x 
 - 2026-11-13T10:20 enviado web:49037013-a165-485b-983d-91a1691d32f9|x 
 - 2026-11-13T10:20 programado web:fc10ebd0-7cda-42f2-88f4-259827e863aa|x 
+- 2026-11-13T10:40 programado web:3a7b8196-052a-4b18-86a2-e06b57de3d46|x 
+- 2026-11-13T10:40 programado web:4b0f4902-985a-4fed-8824-779dfe151dbb|x 
