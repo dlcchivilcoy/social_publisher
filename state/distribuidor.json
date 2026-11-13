@@ -17,7 +17,7 @@
     "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-13T20:00:26.000Z"
+   "visto": "2026-11-13T21:00:26.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 22
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-13T20:00:26.000Z"
+   "visto": "2026-11-13T21:00:26.000Z"
   }
  },
  "contenidos": {
@@ -1355,6 +1355,27 @@
    "video_mb": 24.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00314.mp4",
    "youtube_url": "https://youtu.be/ASX9Vle2V8s"
+  },
+  "entrevistas:job00315": {
+   "descripcion": "En Chivilcoy, el actor Mc Willy contó que tiene registrado su personaje como Mingo de Chivilcoy para evitar confusiones con Minguito. Además, repasó sus presentaciones en fiestas populares y su paso por el autódromo.",
+   "duracion_seg": null,
+   "entrevistado": "Mc Willy",
+   "generado": "2026-11-13T21:00:18.000Z",
+   "id": "entrevistas:job00315",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Mc Willy: cómo registró la marca Mingo de Chivilcoy",
+   "urgente": false,
+   "video_bytes": 27604240,
+   "video_mb": 26.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00315.mp4",
+   "youtube_url": "https://youtu.be/4LV_ho-ne60"
   },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
@@ -7345,43 +7366,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00273.mp4",
    "viral": false
   },
-  "entrevistas:job00273|x": {
-   "actualizado": "2026-11-03T20:40:26.000Z",
-   "buffer_id": "6aea42075a7c19a37cd28506",
-   "clave": "entrevistas:job00273|x",
-   "creado": "2026-11-03T20:20:21.000Z",
-   "dueAt": "2026-11-03T20:22:23.000Z",
-   "enviado": "2026-11-03T20:22:50.694Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T20:20:21.000Z",
-   "id": "entrevistas:job00273",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117714138151481499",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 23,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:defiende-figueroa-folklore-hernan-nombre-sunset",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Hernan Figueroa defiende el nombre Folklore Sunset\n\nEn Chivilcoy, el músico Hernan Figueroa explicó por qué sumaron el término en inglés a la propuesta Folklore Sunset e invitó a bailar en Campus Multiespacio. Mirá los detalles del evento tradicional.\n\nhttps://youtu.be/azIY9nfhZkc",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Hernan Figueroa defiende el nombre Folklore Sunset",
-   "urgente": false,
-   "vence": "2026-11-03T22:20:21.000Z",
-   "video_bytes": 31233725,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00273.mp4",
-   "viral": false
-  },
   "entrevistas:job00274|tiktok": {
    "actualizado": "2026-11-03T22:00:20.000Z",
    "buffer_id": "6aea4b69dd6313a107198ca2",
@@ -10082,15 +10066,15 @@
    "viral": false
   },
   "entrevistas:job00309|tiktok": {
-   "actualizado": "2026-11-13T17:40:25.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-13T21:00:26.000Z",
+   "buffer_id": "6af77a73d16af15d4dd1d0e5",
    "categoria": "",
    "clave": "entrevistas:job00309|tiktok",
    "creado": "2026-11-13T17:40:25.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-13T23:03:45.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-13T17:40:25.000Z",
    "id": "entrevistas:job00309",
    "intentos": 0,
@@ -10139,15 +10123,15 @@
    "viral": false
   },
   "entrevistas:job00310|tiktok": {
-   "actualizado": "2026-11-13T18:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-13T21:00:26.000Z",
+   "buffer_id": "6af77a739257ce33980e6f0a",
    "categoria": "",
    "clave": "entrevistas:job00310|tiktok",
    "creado": "2026-11-13T18:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-13T22:43:12.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-13T18:20:13.000Z",
    "id": "entrevistas:job00310",
    "intentos": 0,
@@ -10196,15 +10180,15 @@
    "viral": false
   },
   "entrevistas:job00311|tiktok": {
-   "actualizado": "2026-11-13T18:40:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-13T21:00:26.000Z",
+   "buffer_id": "6af77a7181e1228421c3458b",
    "categoria": "",
    "clave": "entrevistas:job00311|tiktok",
    "creado": "2026-11-13T18:40:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-13T22:23:06.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-13T18:40:13.000Z",
    "id": "entrevistas:job00311",
    "intentos": 0,
@@ -10253,15 +10237,15 @@
    "viral": false
   },
   "entrevistas:job00312|tiktok": {
-   "actualizado": "2026-11-13T19:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-13T21:00:26.000Z",
+   "buffer_id": "6af77a719257ce33980e6bac",
    "categoria": "",
    "clave": "entrevistas:job00312|tiktok",
    "creado": "2026-11-13T19:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-13T22:03:22.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-13T19:20:15.000Z",
    "id": "entrevistas:job00312",
    "intentos": 0,
@@ -10310,15 +10294,15 @@
    "viral": false
   },
   "entrevistas:job00313|tiktok": {
-   "actualizado": "2026-11-13T19:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-13T21:00:26.000Z",
+   "buffer_id": "6af77a6fbb36d00909c9ecbf",
    "categoria": "",
    "clave": "entrevistas:job00313|tiktok",
    "creado": "2026-11-13T19:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-13T21:43:53.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-13T19:40:14.000Z",
    "id": "entrevistas:job00313",
    "intentos": 0,
@@ -10367,15 +10351,15 @@
    "viral": false
   },
   "entrevistas:job00314|tiktok": {
-   "actualizado": "2026-11-13T20:20:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-13T21:00:26.000Z",
+   "buffer_id": "6af77a6e4b28296eb1153d88",
    "categoria": "",
    "clave": "entrevistas:job00314|tiktok",
    "creado": "2026-11-13T20:20:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-13T21:23:32.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-13T20:20:13.000Z",
    "id": "entrevistas:job00314",
    "intentos": 0,
@@ -10395,18 +10379,19 @@
    "viral": false
   },
   "entrevistas:job00314|x": {
-   "actualizado": "2026-11-13T20:20:22.000Z",
+   "actualizado": "2026-11-13T21:00:26.000Z",
    "buffer_id": "6af771079257ce33980b734a",
    "clave": "entrevistas:job00314|x",
    "creado": "2026-11-13T20:20:13.000Z",
    "dueAt": "2026-11-13T20:22:39.000Z",
+   "enviado": "2026-11-13T20:22:56.019Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T20:20:13.000Z",
    "id": "entrevistas:job00314",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121338039385338104",
    "nota_url": "",
    "noticia": "titulo:ahorrar-cocina-eliseire-tiempo-truco-vicky",
    "origen": "entrevistas",
@@ -10420,6 +10405,62 @@
    "vence": "2026-11-13T22:20:13.000Z",
    "video_bytes": 25576709,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00314.mp4",
+   "viral": false
+  },
+  "entrevistas:job00315|tiktok": {
+   "actualizado": "2026-11-13T21:00:26.000Z",
+   "buffer_id": "6af77a6d4b28296eb1153d01",
+   "categoria": "",
+   "clave": "entrevistas:job00315|tiktok",
+   "creado": "2026-11-13T21:00:18.000Z",
+   "dueAt": "2026-11-13T21:03:39.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-13T21:00:18.000Z",
+   "id": "entrevistas:job00315",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Mc Willy: cómo registró la marca Mingo de Chivilcoy\n\nEn Chivilcoy, el actor Mc Willy contó que tiene registrado su personaje como Mingo de Chivilcoy para evitar confusiones con Minguito. Además, repasó sus presentaciones en fiestas populares y su paso por el autódromo.\n\nhttps://youtu.be/4LV_ho-ne60\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Mc Willy: cómo registró la marca Mingo de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-15T21:00:18.000Z",
+   "video_bytes": 27604240,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00315.mp4",
+   "viral": false
+  },
+  "entrevistas:job00315|x": {
+   "actualizado": "2026-11-13T21:00:26.000Z",
+   "buffer_id": "6af77a6d78196a0a971e05bf",
+   "clave": "entrevistas:job00315|x",
+   "creado": "2026-11-13T21:00:18.000Z",
+   "dueAt": "2026-11-13T21:02:41.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-13T21:00:18.000Z",
+   "id": "entrevistas:job00315",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:chivilcoy-marca-mingo-registro-willy",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Mc Willy: cómo registró la marca Mingo de Chivilcoy\n\nEl actor contó que registró a su personaje para evitar confusiones con Minguito. Además, repasó sus presentaciones en fiestas populares y su paso por el autódromo.\n\nhttps://youtu.be/4LV_ho-ne60",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Mc Willy: cómo registró la marca Mingo de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-13T23:00:18.000Z",
+   "video_bytes": 27604240,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00315.mp4",
    "viral": false
   },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
@@ -17704,86 +17745,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00288|tiktok",
-   "cuando": "2026-11-06T22:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705172232972061973"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347689-un-joven-fue-aprehendido-con-cocaina-durante-un-op|x",
-   "cuando": "2026-11-06T22:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118831807764300093"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado|x",
-   "cuando": "2026-11-06T23:40:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "entrevistas:job00284|tiktok",
-   "cuando": "2026-11-07T00:00:18.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705192871305039112"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/|x",
-   "cuando": "2026-11-07T00:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x",
-   "cuando": "2026-11-07T00:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x",
-   "cuando": "2026-11-07T00:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x",
-   "cuando": "2026-11-07T00:40:14.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado|x",
-   "cuando": "2026-11-07T01:40:13.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/|x",
-   "cuando": "2026-11-07T02:20:13.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x",
-   "cuando": "2026-11-07T02:40:13.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x",
-   "cuando": "2026-11-07T02:40:13.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
    "clave": "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x",
    "cuando": "2026-11-07T09:00:25.000Z",
    "estado": "pendiente",
@@ -21862,11 +21823,93 @@
    "cuando": "2026-11-13T20:20:23.000Z",
    "dueAt": "2026-11-13T20:22:39.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00315",
+   "cuando": "2026-11-13T21:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00315|x",
+   "cuando": "2026-11-13T21:00:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00315|tiktok",
+   "cuando": "2026-11-13T21:00:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00314|x",
+   "cuando": "2026-11-13T21:00:26.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121338039385338104"
+  },
+  {
+   "buffer_id": "6af77a6d78196a0a971e05bf",
+   "clave": "entrevistas:job00315|x",
+   "cuando": "2026-11-13T21:00:35.000Z",
+   "dueAt": "2026-11-13T21:02:41.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af77a6d4b28296eb1153d01",
+   "clave": "entrevistas:job00315|tiktok",
+   "cuando": "2026-11-13T21:00:35.000Z",
+   "dueAt": "2026-11-13T21:03:39.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af77a6e4b28296eb1153d88",
+   "clave": "entrevistas:job00314|tiktok",
+   "cuando": "2026-11-13T21:00:35.000Z",
+   "dueAt": "2026-11-13T21:23:32.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af77a6fbb36d00909c9ecbf",
+   "clave": "entrevistas:job00313|tiktok",
+   "cuando": "2026-11-13T21:00:35.000Z",
+   "dueAt": "2026-11-13T21:43:53.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af77a719257ce33980e6bac",
+   "clave": "entrevistas:job00312|tiktok",
+   "cuando": "2026-11-13T21:00:35.000Z",
+   "dueAt": "2026-11-13T22:03:22.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af77a7181e1228421c3458b",
+   "clave": "entrevistas:job00311|tiktok",
+   "cuando": "2026-11-13T21:00:35.000Z",
+   "dueAt": "2026-11-13T22:23:06.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af77a739257ce33980e6f0a",
+   "clave": "entrevistas:job00310|tiktok",
+   "cuando": "2026-11-13T21:00:35.000Z",
+   "dueAt": "2026-11-13T22:43:12.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af77a73d16af15d4dd1d0e5",
+   "clave": "entrevistas:job00309|tiktok",
+   "cuando": "2026-11-13T21:00:35.000Z",
+   "dueAt": "2026-11-13T23:03:45.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-03 18",
    "2026-11-03 21",
    "2026-11-04 10",
    "2026-11-04 18",
@@ -21895,11 +21938,12 @@
    "2026-11-12 10",
    "2026-11-12 18",
    "2026-11-12 21",
-   "2026-11-13 10"
+   "2026-11-13 10",
+   "2026-11-13 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-13",
- "ultima_sync": "2026-11-13T20:00:26.000Z",
+ "ultima_sync": "2026-11-13T21:00:26.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -22194,6 +22238,7 @@
   "entrevistas:job00312": "2026-11-13T19:20:15.000Z",
   "entrevistas:job00313": "2026-11-13T19:40:14.000Z",
   "entrevistas:job00314": "2026-11-13T20:20:13.000Z",
+  "entrevistas:job00315": "2026-11-13T21:00:18.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
