@@ -1314,6 +1314,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00312.mp4",
    "youtube_url": "https://youtu.be/Kvp5-eO_IpE"
   },
+  "entrevistas:job00313": {
+   "descripcion": "Camila Martinez, de la Cooperadora de la Escuela Primaria N° 23 de Chivilcoy, desmitificó el tiempo que demanda participar y convocó a las familias a sumarse. Explicó que el trabajo es voluntario y busca mejorar la institución del barrio.",
+   "duracion_seg": null,
+   "entrevistado": "Camila Martinez",
+   "generado": "2026-11-13T19:40:14.000Z",
+   "id": "entrevistas:job00313",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Camila Martinez sobre la Cooperadora de la Escuela 23",
+   "urgente": false,
+   "video_bytes": 24290024,
+   "video_mb": 23.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00313.mp4",
+   "youtube_url": "https://youtu.be/5MwsTDmJpRA"
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -7379,43 +7400,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00274.mp4",
    "viral": false
   },
-  "entrevistas:job00274|x": {
-   "actualizado": "2026-11-03T19:20:43.000Z",
-   "buffer_id": "6aea2a9381bf336f271e9d04",
-   "clave": "entrevistas:job00274|x",
-   "creado": "2026-11-03T18:40:17.000Z",
-   "dueAt": "2026-11-03T18:42:16.000Z",
-   "enviado": "2026-11-03T18:42:36.230Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T18:40:17.000Z",
-   "id": "entrevistas:job00274",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117688911790997772",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 49,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:alerta-ferraris-fusarium-gustavo-trigo",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Gustavo Ferraris: Alerta por Fusarium en trigo\n\nEl especialista del INTA Pergamino, Gustavo Ferraris, analizó para Chivilcoy el riesgo de reaparición del Fusarium con el fenómeno de El Niño. Explicó el comportamiento de los cultivos tras años de sequía.\n\nhttps://youtu.be/pJtK72M6-WI",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Gustavo Ferraris: Alerta por Fusarium en trigo",
-   "urgente": false,
-   "vence": "2026-11-03T20:40:17.000Z",
-   "video_bytes": 6333060,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00274.mp4",
-   "viral": false
-  },
   "entrevistas:job00275|tiktok": {
    "actualizado": "2026-11-04T22:40:23.000Z",
    "buffer_id": "6aeb9cf1f0e1705c28e70e23",
@@ -10301,6 +10285,62 @@
    "vence": "2026-11-13T21:20:15.000Z",
    "video_bytes": 19438736,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00312.mp4",
+   "viral": false
+  },
+  "entrevistas:job00313|tiktok": {
+   "actualizado": "2026-11-13T19:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00313|tiktok",
+   "creado": "2026-11-13T19:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-13T19:40:14.000Z",
+   "id": "entrevistas:job00313",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Camila Martinez sobre la Cooperadora de la Escuela 23\n\nCamila Martinez, de la Cooperadora de la Escuela Primaria N° 23 de Chivilcoy, desmitificó el tiempo que demanda participar y convocó a las familias a sumarse. Explicó que el trabajo es voluntario y busca mejorar la institución del barrio.\n\nhttps://youtu.be/5MwsTDmJpRA\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Camila Martinez sobre la Cooperadora de la Escuela 23",
+   "urgente": false,
+   "vence": "2026-11-15T19:40:14.000Z",
+   "video_bytes": 24290024,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00313.mp4",
+   "viral": false
+  },
+  "entrevistas:job00313|x": {
+   "actualizado": "2026-11-13T19:40:21.000Z",
+   "buffer_id": "6af767a69257ce3398085c96",
+   "clave": "entrevistas:job00313|x",
+   "creado": "2026-11-13T19:40:14.000Z",
+   "dueAt": "2026-11-13T19:42:28.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-13T19:40:14.000Z",
+   "id": "entrevistas:job00313",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:camila-cooperadora-escuela-martinez",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Camila Martinez sobre la Cooperadora de la Escuela 23\n\nCamila Martinez convocó a las familias a sumarse a la cooperadora escolar. Explicó que la labor es voluntaria y busca mejorar la institución.\n\nhttps://youtu.be/5MwsTDmJpRA",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Camila Martinez sobre la Cooperadora de la Escuela 23",
+   "urgente": false,
+   "vence": "2026-11-13T21:40:14.000Z",
+   "video_bytes": 24290024,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00313.mp4",
    "viral": false
   },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
@@ -17585,33 +17625,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6aee3fe8004e4879a715584f",
-   "clave": "entrevistas:job00286|tiktok",
-   "cuando": "2026-11-06T21:00:26.000Z",
-   "dueAt": "2026-11-06T22:03:11.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aee3fe99214322f68afbd42",
-   "clave": "entrevistas:job00285|tiktok",
-   "cuando": "2026-11-06T21:00:26.000Z",
-   "dueAt": "2026-11-06T22:23:02.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aee3fea004e4879a7155c7a",
-   "clave": "entrevistas:job00284|tiktok",
-   "cuando": "2026-11-06T21:00:26.000Z",
-   "dueAt": "2026-11-06T22:43:44.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tiktok",
-   "cuando": "2026-11-06T21:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705166298375834881"
-  },
-  {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/347689-un-joven-fue-aprehendido-con-cocaina-durante-un-op|x",
    "cuando": "2026-11-06T22:20:13.000Z",
    "estado": "pendiente",
@@ -21743,6 +21756,34 @@
    "cuando": "2026-11-13T19:20:19.000Z",
    "dueAt": "2026-11-13T19:22:20.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00313",
+   "cuando": "2026-11-13T19:40:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00313|x",
+   "cuando": "2026-11-13T19:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00313|tiktok",
+   "cuando": "2026-11-13T19:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af767a69257ce3398085c96",
+   "clave": "entrevistas:job00313|x",
+   "cuando": "2026-11-13T19:40:22.000Z",
+   "dueAt": "2026-11-13T19:42:28.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22073,6 +22114,7 @@
   "entrevistas:job00310": "2026-11-13T18:20:13.000Z",
   "entrevistas:job00311": "2026-11-13T18:40:13.000Z",
   "entrevistas:job00312": "2026-11-13T19:20:15.000Z",
+  "entrevistas:job00313": "2026-11-13T19:40:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
