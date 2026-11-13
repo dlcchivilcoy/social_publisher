@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-13T10:20:14.000Z"
+   "visto": "2026-11-13T11:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 1,
-    "sent": 23
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-13T10:20:14.000Z"
+   "visto": "2026-11-13T11:20:16.000Z"
   }
  },
  "contenidos": {
@@ -2736,25 +2736,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rally-chivilcoy-matias-bregant-y-sus-sensaciones-tras-consagrarse",
    "volanta": "Rally"
   },
-  "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Gran despedida de año para el Centro Municipal de Danza Creativa y Psicomotricidad en Estadio Centro CHIVILCOY.– Espectacular cierre de año del Centro Municipal de Danza Creativa y Psicomotricidad acompañado de un imponente marco de público que aplaudió de pie. Con una puesta en escena de primer nivel y ante un Estadio Centro colmado, se vivió este domingo una noche inolvidable con Magic Dance, el espectáculo de cierre anual del Centro Municipal de Danza Creativa y Psicomotricidad...",
-   "generado": "2026-11-03T10:01:06.320Z",
-   "id": "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_704c2b626f5a4ffb96b819480fe5d04c~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/magic-dance-chivilcoy-gran-despedida-de-ano-para-el-centro-municipal",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Gran despedida de año para el Centro Municipal de Danza Creativa y Psicomotricidad en Estadio Centro",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/magic-dance-chivilcoy-gran-despedida-de-ano-para-el-centro-municipal",
-   "volanta": "Magic Dance"
-  },
   "web:0c795818-6600-44be-a68c-acb6a2eedf65": {
    "categoria": "",
    "descripcion": "\"Leve Espanto\" despide el año con dos nuevas funciones en CEM Espacio de Arte Con dirección de Marina Carrasco, el ciclo de monólogos presenta sus últimas presentaciones de la temporada los viernes 6 y 13 de noviembre. La propuesta suma actrices invitadas y escenas inspiradas en autoras contemporáneas. El espacio cultural independiente CEM Espacio de Arte (General Frías 38) se prepara para bajar el telón de su temporada anual con el regreso de \"Leve Espanto\", el aclamado ciclo de monólogos...",
@@ -2887,25 +2868,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-una-madre-denuncio-presunto-abuso",
    "volanta": "Chivilcoy · Policiales"
-  },
-  "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Inaugura este martes: Llega ‘Huellas Impresas’, una gran muestra colectiva de grabado La ciudad de Chivilcoy se prepara para recibir una destacada e inédita propuesta cultural en el ámbito de las artes plásticas. Se trata de ‘Huellas Impresas’, una gran muestra colectiva de grabado que reunirá las obras de 36 creadores tanto de la escena local como provenientes de Buenos Aires. La inauguración oficial está programada para el martes 3 de noviembre a las 17 horas en las salas del...",
-   "generado": "2026-11-03T10:01:11.073Z",
-   "id": "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5b3183a2bef04074855e4788299a8d58~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/museo-pompeo-boggio-chivilcoy-inaugura-este-martes-llega-huellas",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Inaugura este martes: Llega ‘Huellas Impresas’, una gran muestra colectiva de grabado",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/museo-pompeo-boggio-chivilcoy-inaugura-este-martes-llega-huellas",
-   "volanta": "Museo ‘Pompeo Boggio’"
   },
   "web:1c5322d0-2568-4a34-90d1-f120402f4197": {
    "categoria": "",
@@ -4522,25 +4484,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reclamo-vial-chivilcoy-oscar-potetti-insistio-en-la-necesidad-urgente",
    "volanta": "Reclamo Vial"
   },
-  "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: \"Averiguación de causales de muerte\": Investigan la muerte de dos hombres en distintos hechos ocurridos este fin de semana CHIVILCOY.– La ciudad se encuentra conmocionada tras el trágico hallazgo de dos hombres sin vida en diferentes domicilios, en hechos ocurridos durante este último fin de semana. Ambos casos son investigados por la Justicia local bajo la intervención de la UFI N° 6 del Departamento Judicial de Mercedes. El primero de los episodios se conoció el domingo 1 de...",
-   "generado": "2026-11-03T10:00:56.626Z",
-   "id": "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ca67ced426564dd98b056742042eb315~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/conmocion-en-chivilcoy-chivilcoy-averiguacion-de-causales-de-muerte",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: \"Averiguación de causales de muerte\": Investigan la muerte de dos hombres en distintos hechos ocurridos este fin de semana",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/conmocion-en-chivilcoy-chivilcoy-averiguacion-de-causales-de-muerte",
-   "volanta": "Conmoción en Chivilcoy"
-  },
   "web:9c2673f5-3976-4a53-b1e8-0746d539c8b0": {
    "categoria": "",
    "descripcion": "Una cámara habría registrado a los acusados trasladando un bulto hacia el Canal Cafiero La investigación por el homicidio de Ezequiel Caraballo sumó nuevos elementos. Un registro de seguridad habría captado a los dos imputados llevando un bulto hacia el canal y regresando luego sin él. Ambos se negaron a declarar y la Fiscalía solicitó que sus aprehensiones se conviertan en detenciones. La investigación por el homicidio de Ezequiel Caraballo, el joven de 27 años cuyo cuerpo fue encontrado el...",
@@ -4806,25 +4749,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-chivilcoy-el-programa-10-de-robotica-del-cuch",
    "volanta": "Chivilcoy · Educación"
-  },
-  "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Casa Pueblo impulsa talleres de salud mental y cuidados en escuelas Desde la organización Casa Pueblo, en articulación directa con el espacio comunitario SUM Esperanza, llevarán adelante en Chivilcoy un ciclo de dos encuentros dirigidos a personal de la educación y a estudiantes de carreras docentes. La propuesta está centrada en la salud mental y en el desarrollo de estrategias colectivas de cuidado dentro de las instituciones escolares. La iniciativa cuenta con el respaldo y...",
-   "generado": "2026-11-03T10:01:01.620Z",
-   "id": "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5045e326621442a4b9fa92725ccf7f8b~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/educacion-y-comunidad-chivilcoy-casa-pueblo-impulsa-talleres-de-salud",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Casa Pueblo impulsa talleres de salud mental y cuidados en escuelas",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/educacion-y-comunidad-chivilcoy-casa-pueblo-impulsa-talleres-de-salud",
-   "volanta": "Educación y Comunidad"
   },
   "web:aa54283b-118c-4bae-8790-73ed73c0006c": {
    "categoria": "",
@@ -5908,6 +5832,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-racing-dio-el-golpe-ante-colon-le-quito-el-invicto",
    "volanta": "Básquet"
+  },
+  "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Bomberos extinguieron un incendio en una pinturería de la ciudad Bomberos extinguieron un incendio en una pinturería de Chivilcoy. El fuego se concentró en un lavarropas dentro del local de Rosetti 258. Una dotación de ocho bomberos evitó que las llamas alcanzaran los tambores de pintura y otros materiales combustibles. Pasada la medianoche de este viernes, los Bomberos Voluntarios acudieron a una pinturería ubicada en Rosetti 258, cerca de Almirante Brown. Al llegar, encontraron...",
+   "generado": "2026-11-13T11:08:05.632Z",
+   "id": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ef33da3c16f4497cb16a84f77753b630~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Bomberos extinguieron un incendio en una pinturería de la ciudad",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
+   "volanta": "Chivilcoy · Bomberos"
   },
   "web:f798f446-3206-44e9-8d07-a7a03032fed7": {
    "categoria": "",
@@ -12165,19 +12108,20 @@
    "viral": false
   },
   "web:03c64a65-3269-4247-b8a7-1e92b9072a66|x": {
-   "actualizado": "2026-11-13T10:03:34.000Z",
+   "actualizado": "2026-11-13T11:20:16.000Z",
    "buffer_id": "6af6e077df68225fc1b11d9f",
    "clave": "web:03c64a65-3269-4247-b8a7-1e92b9072a66|x",
    "creado": "2026-11-13T10:02:41.000Z",
    "dueAt": "2026-11-13T10:22:25.000Z",
+   "enviado": "2026-11-13T10:22:31.309Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T10:01:00.550Z",
    "id": "web:03c64a65-3269-4247-b8a7-1e92b9072a66",
    "ig_hora": "2026-11-13T10:22:28.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121186940405911907",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -12364,44 +12308,6 @@
    "titulo": "Chivilcoy: Matías Bregant y sus sensaciones tras consagrarse campeón como navegante en la Clase N7",
    "urgente": false,
    "vence": "2026-11-05T14:22:15.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42|x": {
-   "actualizado": "2026-11-03T11:20:16.000Z",
-   "buffer_id": "6ae9b196c4e7dc18825ee54b",
-   "clave": "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42|x",
-   "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "2026-11-03T10:52:08.000Z",
-   "enviado": "2026-11-03T10:52:16.183Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T10:01:06.320Z",
-   "id": "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42",
-   "ig_hora": "2026-11-03T10:52:11.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117570548058190328",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 16,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/magic-dance-chivilcoy-gran-despedida-de-ano-para-el-centro-municipal",
-   "noticia": "nota:magic-dance-chivilcoy-gran-despedida-de-ano-para-el-centro-municipal",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Gran despedida de año para el Centro Municipal de Danza Creativa y Psicomotricidad en Estadio Centro\n\nCon una puesta en escena de primer nivel y ante un público colmado que aplaudió de pie, se vivió el espectáculo Magic Dance este domingo.\n\nhttps://www.diariolacampaña.com.ar/n/magic-dance-chivilcoy-gran-despedida-de-ano-para-el-centro-municipal",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Gran despedida de año para el Centro Municipal de Danza Creativa y Psicomotricidad en Estadio Centro",
-   "urgente": false,
-   "vence": "2026-11-03T14:01:06.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -12635,44 +12541,6 @@
    "titulo": "Chivilcoy: Una madre denunció presunto abuso contra su beba de nueve meses",
    "urgente": false,
    "vence": "2026-11-04T07:11:24.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e|x": {
-   "actualizado": "2026-11-03T11:20:16.000Z",
-   "buffer_id": "6ae9b196fe2f16b703bb79bb",
-   "clave": "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e|x",
-   "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "2026-11-03T11:07:28.000Z",
-   "enviado": "2026-11-03T11:07:31.634Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T10:01:11.073Z",
-   "id": "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e",
-   "ig_hora": "2026-11-03T11:07:11.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117574387813499386",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 23,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/museo-pompeo-boggio-chivilcoy-inaugura-este-martes-llega-huellas",
-   "noticia": "nota:museo-pompeo-boggio-chivilcoy-inaugura-este-martes-llega-huellas",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Inaugura este martes: Llega ‘Huellas Impresas’, una gran muestra colectiva de grabado\n\nLa propuesta cultural reunirá las obras de 36 creadores tanto de la escena local como de Buenos Aires. La inauguración oficial será el martes 3 de noviembre.\n\nhttps://www.diariolacampaña.com.ar/n/museo-pompeo-boggio-chivilcoy-inaugura-este-martes-llega-huellas",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Inaugura este martes: Llega ‘Huellas Impresas’, una gran muestra colectiva de grabado",
-   "urgente": false,
-   "vence": "2026-11-03T14:01:11.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -13360,14 +13228,14 @@
    "viral": false
   },
   "web:3a1e20a8-80b6-4752-89ed-6c5d60a28320|x": {
-   "actualizado": "2026-11-13T10:02:41.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-13T11:20:16.000Z",
+   "buffer_id": "6af6f2709a21933ffacec5fd",
    "clave": "web:3a1e20a8-80b6-4752-89ed-6c5d60a28320|x",
    "creado": "2026-11-13T10:02:41.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-13T12:37:54.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-13T10:01:48.273Z",
    "id": "web:3a1e20a8-80b6-4752-89ed-6c5d60a28320",
    "ig_hora": "2026-11-13T12:37:28.000Z",
@@ -15592,44 +15460,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf|x": {
-   "actualizado": "2026-11-03T11:20:16.000Z",
-   "buffer_id": "6ae9b195c4e7dc18825ee4f0",
-   "clave": "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf|x",
-   "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "2026-11-03T10:22:52.000Z",
-   "enviado": "2026-11-03T10:23:01.504Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T10:00:56.626Z",
-   "id": "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf",
-   "ig_hora": "2026-11-03T10:22:11.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117563188333908473",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 2.08,
-    "impressions": 48,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/conmocion-en-chivilcoy-chivilcoy-averiguacion-de-causales-de-muerte",
-   "noticia": "nota:conmocion-en-chivilcoy-chivilcoy-averiguacion-de-causales-de-muerte",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: \"Averiguación de causales de muerte\": Investigan la muerte de dos hombres en distintos hechos ocurridos este fin de semana\n\nhttps://www.diariolacampaña.com.ar/n/conmocion-en-chivilcoy-chivilcoy-averiguacion-de-causales-de-muerte",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: \"Averiguación de causales de muerte\": Investigan la muerte de dos hombres en distintos hechos ocurridos este fin de semana",
-   "urgente": false,
-   "vence": "2026-11-03T14:00:56.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:9c2673f5-3976-4a53-b1e8-0746d539c8b0|x": {
    "actualizado": "2026-11-11T10:20:17.000Z",
    "buffer_id": "6af43d7c2e62829420e11ebf",
@@ -16094,44 +15924,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60|x": {
-   "actualizado": "2026-11-03T11:20:16.000Z",
-   "buffer_id": "6ae9b195c4e7dc18825ee51a",
-   "clave": "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60|x",
-   "creado": "2026-11-03T10:02:22.000Z",
-   "dueAt": "2026-11-03T10:37:28.000Z",
-   "enviado": "2026-11-03T10:37:31.240Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T10:01:01.620Z",
-   "id": "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60",
-   "ig_hora": "2026-11-03T10:37:11.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117566835906244717",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 18,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/educacion-y-comunidad-chivilcoy-casa-pueblo-impulsa-talleres-de-salud",
-   "noticia": "nota:educacion-y-comunidad-chivilcoy-casa-pueblo-impulsa-talleres-de-salud",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Casa Pueblo impulsa talleres de salud mental y cuidados en escuelas\n\nCasa Pueblo y SUM Esperanza harán dos encuentros sobre salud mental y cuidados colectivos en escuelas de Chivilcoy. Serán para docentes y estudiantes de carreras educativas.\n\nhttps://www.diariolacampaña.com.ar/n/educacion-y-comunidad-chivilcoy-casa-pueblo-impulsa-talleres-de-salud",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Casa Pueblo impulsa talleres de salud mental y cuidados en escuelas",
-   "urgente": false,
-   "vence": "2026-11-03T14:01:01.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:aa54283b-118c-4bae-8790-73ed73c0006c|x": {
    "actualizado": "2026-11-08T20:40:12.000Z",
    "buffer_id": "",
@@ -16390,19 +16182,20 @@
    "viral": false
   },
   "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7|x": {
-   "actualizado": "2026-11-13T10:03:34.000Z",
+   "actualizado": "2026-11-13T11:20:16.000Z",
    "buffer_id": "6af6e078b52ddd180246bab6",
    "clave": "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7|x",
    "creado": "2026-11-13T10:02:41.000Z",
    "dueAt": "2026-11-13T10:37:22.000Z",
+   "enviado": "2026-11-13T10:37:31.312Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T10:01:09.725Z",
    "id": "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7",
    "ig_hora": "2026-11-13T10:37:28.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121190715124273302",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -17994,6 +17787,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff|x": {
+   "actualizado": "2026-11-13T11:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff|x",
+   "creado": "2026-11-13T11:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-13T11:08:05.632Z",
+   "id": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
+   "noticia": "nota:chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Bomberos extinguieron un incendio en una pinturería de la ciudad\n\nEl fuego se concentró en un lavarropas dentro del local. Ocho bomberos evitaron que las llamas alcanzaran los tambores de pintura y otros materiales combustibles.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Bomberos extinguieron un incendio en una pinturería de la ciudad",
+   "urgente": false,
+   "vence": "2026-11-13T15:08:05.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:f798f446-3206-44e9-8d07-a7a03032fed7|x": {
    "actualizado": "2026-11-06T11:40:16.000Z",
    "buffer_id": "6aeda61686fe9b83798ab585",
@@ -18165,19 +17986,20 @@
    "viral": false
   },
   "web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061|x": {
-   "actualizado": "2026-11-13T10:03:34.000Z",
+   "actualizado": "2026-11-13T11:20:16.000Z",
    "buffer_id": "6af6e078fe8cb9dc190b46ff",
    "clave": "web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061|x",
    "creado": "2026-11-13T10:02:41.000Z",
    "dueAt": "2026-11-13T10:52:16.000Z",
+   "enviado": "2026-11-13T10:52:31.222Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T10:01:15.951Z",
    "id": "web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061",
    "ig_hora": "2026-11-13T10:52:28.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121194489754595614",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -18231,40 +18053,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5|x",
-   "cuando": "2026-11-06T15:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5|x",
-   "cuando": "2026-11-06T15:20:17.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "web:292c8e3c-5713-4e83-b415-a536e66b9e64|x",
-   "cuando": "2026-11-06T15:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2118706332010160507"
-  },
-  {
-   "clave": "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x",
-   "cuando": "2026-11-06T16:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x",
-   "cuando": "2026-11-06T16:20:23.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "entrevistas:job00284",
    "cuando": "2026-11-06T16:40:14.000Z",
@@ -22403,6 +22191,39 @@
    "cuando": "2026-11-13T11:00:22.000Z",
    "evento": "depurado",
    "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff|x",
+   "cuando": "2026-11-13T11:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:03c64a65-3269-4247-b8a7-1e92b9072a66|x",
+   "cuando": "2026-11-13T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121186940405911907"
+  },
+  {
+   "clave": "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7|x",
+   "cuando": "2026-11-13T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121190715124273302"
+  },
+  {
+   "clave": "web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061|x",
+   "cuando": "2026-11-13T11:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121194489754595614"
+  },
+  {
+   "buffer_id": "6af6f2709a21933ffacec5fd",
+   "clave": "web:3a1e20a8-80b6-4752-89ed-6c5d60a28320|x",
+   "cuando": "2026-11-13T11:20:16.000Z",
+   "dueAt": "2026-11-13T12:37:54.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22440,7 +22261,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-13",
- "ultima_sync": "2026-11-13T10:20:14.000Z",
+ "ultima_sync": "2026-11-13T11:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -23666,6 +23487,7 @@
   "web:f5e279af-867b-46f2-92ed-06cee448bd38": "2026-10-29T10:20:14.000Z",
   "web:f60dffe4-816b-4ff3-be02-73d07b38f55b": "2026-10-15T15:00:22.000Z",
   "web:f618843d-b6ec-46e9-a1d6-b6ee697830a7": "2026-10-21T10:20:15.000Z",
+  "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff": "2026-11-13T11:20:13.000Z",
   "web:f7588a2f-998f-49b6-b044-a5df2f44a1fc": "2026-10-19T14:20:14.000Z",
   "web:f798f446-3206-44e9-8d07-a7a03032fed7": "2026-11-06T10:02:35.000Z",
   "web:f841cb1f-56ef-4ba9-b9a2-c0d6d39880a6": "2026-10-30T23:00:20.000Z",
