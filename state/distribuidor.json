@@ -5700,25 +5700,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
    "volanta": "Pergamino · Deportes"
   },
-  "web:eaf28054-4d3b-40e6-97eb-693de73680a8": {
-   "categoria": "",
-   "descripcion": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal El secretario de Seguridad de la Municipalidad de Chivilcoy, Néstor Dabi, acompañado por Marcelo Loyola, participó de la ceremonia conmemorativa por la Semana de la Policía Federal Argentina, realizada en la ciudad de Mercedes. La actividad tuvo lugar en el salón Casa Anús y fue organizada por la División Unidad Operativa Federal Mercedes, a cargo de la comisaria Alicia Benítez, en el marco de las actividades de...",
-   "generado": "2026-11-03T11:39:57.519Z",
-   "id": "web:eaf28054-4d3b-40e6-97eb-693de73680a8",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_18348875c119419ab3b4ada69bbf8cae~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
-   "volanta": "Mercedes · Seguridad"
-  },
   "web:eafd3864-774e-4c8f-af94-8eabecbba4fa": {
    "categoria": "",
    "descripcion": "Argentino de Chivilcoy venció de visitante a su homónimo de Junín Por el Torneo Femenino de la Asociación Juninense de Básquet, las chicas de Argentino se hicieron fuertes de visitante y vencieron a su homónimo de Junín por un holgado tanteador de 60 a 45. Las goleadoras de Chivilcoy fueron Agustina Curioni, con 20 puntos, y Angie Puntieri, con 13 puntos.",
@@ -14210,14 +14191,14 @@
    "viral": false
   },
   "web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa|x": {
-   "actualizado": "2026-11-13T10:02:41.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-13T12:00:20.000Z",
+   "buffer_id": "6af6fbd410ced6793b325996",
    "clave": "web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa|x",
    "creado": "2026-11-13T10:02:41.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-13T13:22:11.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-13T10:02:01.741Z",
    "id": "web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa",
    "ig_hora": "2026-11-13T13:22:28.000Z",
@@ -17562,34 +17543,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:eaf28054-4d3b-40e6-97eb-693de73680a8|x": {
-   "actualizado": "2026-11-03T12:00:20.000Z",
-   "buffer_id": "",
-   "clave": "web:eaf28054-4d3b-40e6-97eb-693de73680a8|x",
-   "creado": "2026-11-03T11:40:14.000Z",
-   "dueAt": "",
-   "error": "reemplazada por el reel de la misma noticia (bot)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "descartado",
-   "generado": "2026-11-03T11:39:57.519Z",
-   "id": "web:eaf28054-4d3b-40e6-97eb-693de73680a8",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
-   "noticia": "nota:mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal\n\nEl secretario Néstor Dabi y Marcelo Loyola estuvieron en la ceremonia en Mercedes. El acto fue organizado por la División Unidad Operativa Federal a cargo de la comisaria Alicia Benítez.\n\nhttps://www.diariolacampaña.com.ar/n/mercedes-seguridad-seguridad-de-chivilcoy-participo-de-la-semana-de",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Seguridad de Chivilcoy participó de la Semana de la Policía Federal",
-   "urgente": false,
-   "vence": "2026-11-03T15:39:57.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x": {
    "actualizado": "2026-11-07T21:00:20.000Z",
    "buffer_id": "",
@@ -17788,14 +17741,14 @@
    "viral": false
   },
   "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff|x": {
-   "actualizado": "2026-11-13T11:20:13.000Z",
+   "actualizado": "2026-11-13T12:00:20.000Z",
    "buffer_id": "",
    "clave": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff|x",
    "creado": "2026-11-13T11:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-13T11:08:05.632Z",
    "id": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff",
    "intentos": 0,
@@ -18053,21 +18006,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00284|tiktok",
-   "cuando": "2026-11-06T16:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6aee02ef9214322f689a396b",
-   "clave": "entrevistas:job00284|x",
-   "cuando": "2026-11-06T16:40:16.000Z",
-   "dueAt": "2026-11-06T16:42:17.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x",
    "cuando": "2026-11-06T17:00:28.000Z",
@@ -22224,6 +22162,19 @@
    "clave": "web:f12ef051-6163-4424-8626-4ff7b049b205|x",
    "cuando": "2026-11-13T11:40:14.000Z",
    "dueAt": "2026-11-13T13:07:00.000Z",
+   "evento": "programado"
+  },
+  {
+   "clave": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff|x",
+   "cuando": "2026-11-13T12:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "buffer_id": "6af6fbd410ced6793b325996",
+   "clave": "web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa|x",
+   "cuando": "2026-11-13T12:00:20.000Z",
+   "dueAt": "2026-11-13T13:22:11.000Z",
    "evento": "programado"
   }
  ],
