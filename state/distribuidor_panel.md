@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 13/11/2026 09:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 9 | 5 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,14 +27,12 @@ Actualizado: 13/11/2026 09:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- TikTok · Reels del bot · ARGENTINO venció a MARIANO MORENO en el inicio de los playoffs — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T10:03 programado web:03c64a65-3269-4247-b8a7-1e92b9072a66|x 
 - 2026-11-13T10:03 programado web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7|x 
 - 2026-11-13T10:03 programado web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061|x 
 - 2026-11-13T10:03 programado web:7de16944-cbd0-472a-9ccc-0f7b42b113cd|x 
@@ -59,3 +57,4 @@ Actualizado: 13/11/2026 09:40 (hora AR) · ACTIVO
 - 2026-11-13T12:40 enviado web:7de16944-cbd0-472a-9ccc-0f7b42b113cd|x 
 - 2026-11-13T12:40 enviado web:fc10ebd0-7cda-42f2-88f4-259827e863aa|x 
 - 2026-11-13T12:40 programado web:1c5322d0-2568-4a34-90d1-f120402f4197|x 
+- 2026-11-13T13:00 programado bot:video_matias-zucchi_mwec5iom0isb_01.mp4|tiktok 
