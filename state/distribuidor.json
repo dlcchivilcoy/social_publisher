@@ -1272,6 +1272,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00310.mp4",
    "youtube_url": "https://youtu.be/MdQ04Yuv9ds"
   },
+  "entrevistas:job00311": {
+   "descripcion": "Magdalena Gardella, del Centro Tradicionalista El Fogón en Chivilcoy, detalló los precios de las entradas y los combos para la Fiesta del Resero y de la Tradición.",
+   "duracion_seg": null,
+   "entrevistado": "Magdalena Gardella",
+   "generado": "2026-11-13T18:40:13.000Z",
+   "id": "entrevistas:job00311",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Fiesta del Resero: Magdalena Gardella detalló las entradas",
+   "urgente": false,
+   "video_bytes": 24557877,
+   "video_mb": 23.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00311.mp4",
+   "youtube_url": "https://youtu.be/nUQsApeUrCo"
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -7222,43 +7243,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00272.mp4",
    "viral": false
   },
-  "entrevistas:job00272|x": {
-   "actualizado": "2026-11-03T18:20:34.000Z",
-   "buffer_id": "6aea1c8024384d4018531c17",
-   "clave": "entrevistas:job00272|x",
-   "creado": "2026-11-03T17:40:15.000Z",
-   "dueAt": "2026-11-03T17:42:42.000Z",
-   "enviado": "2026-11-03T17:42:55.513Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-03T17:40:15.000Z",
-   "id": "entrevistas:job00272",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2117673893288677461",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 36,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:actuar-beccaglia-hugo-pobre-rico",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Hugo Beccaglia: Qué es actuar en \"Rico es ser pobre\"\n\nEl director teatral Hugo Beccaglia presentó en Chivilcoy la comedia \"Rico es ser pobre\". Reflexionó sobre el desafío actoral de componer personajes y salirse del propio cuerpo arriba del escenario.\n\nhttps://youtu.be/LOuWDwrYwVE",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Hugo Beccaglia: Qué es actuar en \"Rico es ser pobre\"",
-   "urgente": false,
-   "vence": "2026-11-03T19:40:15.000Z",
-   "video_bytes": 27362230,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00272.mp4",
-   "viral": false
-  },
   "entrevistas:job00273|tiktok": {
    "actualizado": "2026-11-03T22:00:20.000Z",
    "buffer_id": "6aea4b671ee1ad0996cccf50",
@@ -10182,6 +10166,62 @@
    "vence": "2026-11-13T20:20:13.000Z",
    "video_bytes": 16995593,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00310.mp4",
+   "viral": false
+  },
+  "entrevistas:job00311|tiktok": {
+   "actualizado": "2026-11-13T18:40:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00311|tiktok",
+   "creado": "2026-11-13T18:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-13T18:40:13.000Z",
+   "id": "entrevistas:job00311",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Fiesta del Resero: Magdalena Gardella detalló las entradas\n\nMagdalena Gardella, del Centro Tradicionalista El Fogón en Chivilcoy, detalló los precios de las entradas y los combos para la Fiesta del Resero y de la Tradición.\n\nhttps://youtu.be/nUQsApeUrCo\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fiesta del Resero: Magdalena Gardella detalló las entradas",
+   "urgente": false,
+   "vence": "2026-11-15T18:40:13.000Z",
+   "video_bytes": 24557877,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00311.mp4",
+   "viral": false
+  },
+  "entrevistas:job00311|x": {
+   "actualizado": "2026-11-13T18:40:14.000Z",
+   "buffer_id": "6af7598fc578ae3e2b38e7a4",
+   "clave": "entrevistas:job00311|x",
+   "creado": "2026-11-13T18:40:13.000Z",
+   "dueAt": "2026-11-13T18:42:15.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-13T18:40:13.000Z",
+   "id": "entrevistas:job00311",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:detallo-entradas-fiesta-gardella-magdalena-resero",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Fiesta del Resero: Magdalena Gardella detalló las entradas\n\nMagdalena Gardella, del Centro Tradicionalista El Fogón en Chivilcoy, detalló los precios de las entradas y los combos para la Fiesta del Resero y de la Tradición.\n\nhttps://youtu.be/nUQsApeUrCo",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fiesta del Resero: Magdalena Gardella detalló las entradas",
+   "urgente": false,
+   "vence": "2026-11-13T20:40:13.000Z",
+   "video_bytes": 24557877,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00311.mp4",
    "viral": false
   },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
@@ -17466,34 +17506,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6aee1a60004e4879a708fae6",
-   "clave": "entrevistas:job00287|x",
-   "cuando": "2026-11-06T18:20:16.000Z",
-   "dueAt": "2026-11-06T18:22:24.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00288",
-   "cuando": "2026-11-06T19:00:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00288|x",
-   "cuando": "2026-11-06T19:00:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00288|tiktok",
-   "cuando": "2026-11-06T19:00:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
    "buffer_id": "6aee23cb229bf05daf03ce7b",
    "clave": "entrevistas:job00288|x",
    "cuando": "2026-11-06T19:00:28.000Z",
@@ -21624,6 +21636,34 @@
    "cuando": "2026-11-13T18:20:23.000Z",
    "dueAt": "2026-11-13T18:22:55.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00311",
+   "cuando": "2026-11-13T18:40:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00311|x",
+   "cuando": "2026-11-13T18:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00311|tiktok",
+   "cuando": "2026-11-13T18:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6af7598fc578ae3e2b38e7a4",
+   "clave": "entrevistas:job00311|x",
+   "cuando": "2026-11-13T18:40:15.000Z",
+   "dueAt": "2026-11-13T18:42:15.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21954,6 +21994,7 @@
   "entrevistas:job00308": "2026-11-12T19:20:13.000Z",
   "entrevistas:job00309": "2026-11-13T17:40:25.000Z",
   "entrevistas:job00310": "2026-11-13T18:20:13.000Z",
+  "entrevistas:job00311": "2026-11-13T18:40:13.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
@@ -22665,7 +22706,6 @@
   "web:ad3a4e55-d231-4fc6-b239-dfe3641bb938": "2026-10-26T10:20:14.000Z",
   "web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f": "2026-11-11T10:02:35.000Z",
   "web:ad88cc96-5c59-46c7-ae00-26c4333f393e": "2026-11-11T00:00:21.000Z",
-  "web:b0047360-2401-4617-a433-07cb41aa8ce4": "2026-10-14T18:40:14.000Z",
   "web:b0217d6f-04b3-4f79-ad2a-85e9a5e9a801": "2026-10-16T16:00:18.000Z",
   "web:b034af07-ddaf-426e-8207-d2724c540524": "2026-11-12T13:20:16.000Z",
   "web:b078718b-3db7-4e2d-a7e7-5e989121b045": "2026-10-29T10:02:34.000Z",
