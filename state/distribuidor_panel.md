@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 07:03 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,25 +9,25 @@ Actualizado: 13/11/2026 07:03 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 5 | 10 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 5 | 9 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 23 enviadas + 1 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 26 · likes 0
 - X · Reels del bot: 14 con métricas · mediana vistas/impresiones 34 · likes 0
 - X · Reels policiales: 17 con métricas · mediana vistas/impresiones 47 · likes 0
-- X · Notas web: 100 con métricas · mediana vistas/impresiones 17 · likes 0
+- X · Notas web: 99 con métricas · mediana vistas/impresiones 17 · likes 0
 - TikTok · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 153.5 · likes 1
 - TikTok · Reels del bot: 18 con métricas · mediana vistas/impresiones 336 · likes 4.5
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (10 esperando)
 - X · Notas web · Cien años de pasión y arraigo: El Club Río de la Plata celebró su centenario en  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Lorena Aicardo: 17 medallas nacionales y la preparación para el Mundial de Parag — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Torneo Prefederal Bonaerense: Colón busca el tercer puesto en Pergamino cuando v — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -36,7 +36,6 @@ Actualizado: 13/11/2026 07:03 (hora AR) · ACTIVO
 - X · Notas web · Chivilcoy: Se revalida el clásico: Varela y Colón, el león por el triunfo que lo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: “La luz del tren”: Cuarta Fiesta de la Empanada Frita al Disco en Gor — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Natalia Fracchia: “El corso tiene que ser popular y gratuito para tod — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Noche de humor y novedades: "Impro y Aparte" vuelve este viernes a El — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Escuela Superior de Servicio Social — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · ARGENTINO venció a MARIANO MORENO en el inicio de los playoffs — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -44,8 +43,6 @@ Actualizado: 13/11/2026 07:03 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T02:20 vencido policiales:https://www.chacabuquero.com.ar/2026/11/ladrones- espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-13T02:20 programado bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x 
 - 2026-11-13T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-l 
 - 2026-11-13T02:40 enviado bot:video_matias-zucchi_mwec5iom0isb_01.mp4|x 
 - 2026-11-13T02:40 enviado policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-l 
@@ -69,3 +66,5 @@ Actualizado: 13/11/2026 07:03 (hora AR) · ACTIVO
 - 2026-11-13T10:03 programado web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7|x 
 - 2026-11-13T10:03 programado web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061|x 
 - 2026-11-13T10:03 programado web:7de16944-cbd0-472a-9ccc-0f7b42b113cd|x 
+- 2026-11-13T10:20 enviado web:49037013-a165-485b-983d-91a1691d32f9|x 
+- 2026-11-13T10:20 programado web:fc10ebd0-7cda-42f2-88f4-259827e863aa|x 
