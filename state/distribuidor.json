@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 1
+    "scheduled": 3,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-13T21:00:26.000Z"
+   "visto": "2026-11-13T22:20:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 23
+    "sent": 25
    },
    "pausado": false,
-   "visto": "2026-11-13T21:00:26.000Z"
+   "visto": "2026-11-13T22:20:13.000Z"
   }
  },
  "contenidos": {
@@ -2400,6 +2400,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_01_25-de-mayo_buscan-a-un-joven-de-27-a-os-p.mp4",
    "volanta": "Búsqueda e investigación en Mechita",
    "youtube_url": "https://youtube.com/shorts/l7N9nYNZuio"
+  },
+  "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/": {
+   "categoria": "operativo_policial",
+   "descripcion": "Durante el fin de semana largo se realizaron controles vehiculares que derivaron en la retención de seis rodados, un caso positivo de alcohol en sangre y el hallazgo de una moto robada.",
+   "distancia_km": 83.7,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-13T22:02:14.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/",
+   "localidad": "Roque Pérez",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-seis-vehiculos-secuestrados-y-una-moto-robada-970dc5",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "El municipio desplegó controles de tránsito durante el fin de semana largo en Roque Pérez.\n\nComo resultado, seis vehículos fueron retenidos por diversas infracciones y se detectó un test de alcoholemia positivo.\n\nAdemás, la policía halló en la esquina de San Martín y San Juan una motocicleta Honda Wave robada.\n\n📲 Más noticias de Roque Pérez en www.diariolacampaña.com.ar\n\n#RoquePerez #Operativo #Policia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Seis vehículos secuestrados y un caso de alcoholemia en Roque Pérez",
+   "urgente": false,
+   "video_bytes": 80180,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_03_25-de-mayo_seis-veh-culos-secuestrados-y-.mp4",
+   "volanta": "Operativos viales en Roque Pérez",
+   "youtube_url": "https://youtube.com/shorts/ptPzcCh6URw"
   },
   "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/": {
    "categoria": "operativo_policial",
@@ -9992,18 +10018,19 @@
    "viral": false
   },
   "entrevistas:job00310-r1|x": {
-   "actualizado": "2026-11-13T21:40:27.000Z",
+   "actualizado": "2026-11-13T22:20:13.000Z",
    "buffer_id": "6af783cb4b28296eb118bac9",
    "clave": "entrevistas:job00310-r1|x",
    "creado": "2026-11-13T21:40:17.000Z",
    "dueAt": "2026-11-13T21:42:08.000Z",
+   "enviado": "2026-11-13T21:42:26.341Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T21:40:17.000Z",
    "id": "entrevistas:job00310-r1",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121358047654093258",
    "nota_url": "",
    "noticia": "titulo:circo-representante-ruben-safari-show-vendedor",
    "origen": "entrevistas",
@@ -10134,19 +10161,20 @@
    "viral": false
   },
   "entrevistas:job00312|tiktok": {
-   "actualizado": "2026-11-13T21:00:26.000Z",
+   "actualizado": "2026-11-13T22:20:13.000Z",
    "buffer_id": "6af77a719257ce33980e6bac",
    "categoria": "",
    "clave": "entrevistas:job00312|tiktok",
    "creado": "2026-11-13T19:20:15.000Z",
    "dueAt": "2026-11-13T22:03:22.000Z",
+   "enviado": "2026-11-13T22:05:13.290Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T19:20:15.000Z",
    "id": "entrevistas:job00312",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7707780141140708629",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -10191,19 +10219,20 @@
    "viral": false
   },
   "entrevistas:job00313|tiktok": {
-   "actualizado": "2026-11-13T21:00:26.000Z",
+   "actualizado": "2026-11-13T22:20:13.000Z",
    "buffer_id": "6af77a6fbb36d00909c9ecbf",
    "categoria": "",
    "clave": "entrevistas:job00313|tiktok",
    "creado": "2026-11-13T19:40:14.000Z",
    "dueAt": "2026-11-13T21:43:53.000Z",
+   "enviado": "2026-11-13T21:45:43.737Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T19:40:14.000Z",
    "id": "entrevistas:job00313",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7707775076564847879",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -10248,19 +10277,20 @@
    "viral": false
   },
   "entrevistas:job00314|tiktok": {
-   "actualizado": "2026-11-13T21:00:26.000Z",
+   "actualizado": "2026-11-13T22:20:13.000Z",
    "buffer_id": "6af77a6e4b28296eb1153d88",
    "categoria": "",
    "clave": "entrevistas:job00314|tiktok",
    "creado": "2026-11-13T20:20:13.000Z",
    "dueAt": "2026-11-13T21:23:32.000Z",
+   "enviado": "2026-11-13T21:25:28.315Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T20:20:13.000Z",
    "id": "entrevistas:job00314",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7707769847202974994",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -10305,19 +10335,20 @@
    "viral": false
   },
   "entrevistas:job00315|tiktok": {
-   "actualizado": "2026-11-13T21:00:26.000Z",
+   "actualizado": "2026-11-13T22:20:13.000Z",
    "buffer_id": "6af77a6d4b28296eb1153d01",
    "categoria": "",
    "clave": "entrevistas:job00315|tiktok",
    "creado": "2026-11-13T21:00:18.000Z",
    "dueAt": "2026-11-13T21:03:39.000Z",
+   "enviado": "2026-11-13T21:07:29.185Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T21:00:18.000Z",
    "id": "entrevistas:job00315",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7707764731091635462",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -10333,18 +10364,19 @@
    "viral": false
   },
   "entrevistas:job00315|x": {
-   "actualizado": "2026-11-13T21:00:26.000Z",
+   "actualizado": "2026-11-13T22:20:13.000Z",
    "buffer_id": "6af77a6d78196a0a971e05bf",
    "clave": "entrevistas:job00315|x",
    "creado": "2026-11-13T21:00:18.000Z",
    "dueAt": "2026-11-13T21:02:41.000Z",
+   "enviado": "2026-11-13T21:03:21.287Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T21:00:18.000Z",
    "id": "entrevistas:job00315",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121348211730206811",
    "nota_url": "",
    "noticia": "titulo:chivilcoy-marca-mingo-registro-willy",
    "origen": "entrevistas",
@@ -11669,6 +11701,34 @@
    "video_bytes": 103663,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_01_25-de-mayo_buscan-a-un-joven-de-27-a-os-p.mp4",
    "viral": true
+  },
+  "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x": {
+   "actualizado": "2026-11-13T22:20:13.000Z",
+   "buffer_id": "6af78d1e4b28296eb11be5f5",
+   "clave": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x",
+   "creado": "2026-11-13T22:20:13.000Z",
+   "dueAt": "2026-11-13T22:23:13.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-13T22:02:14.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-seis-vehiculos-secuestrados-y-una-moto-robada-970dc5",
+   "noticia": "nota:roque-perez-seis-vehiculos-secuestrados-y-una-moto-robada-970dc5",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Seis vehículos secuestrados y un caso de alcoholemia en Roque Pérez\n\nDurante el fin de semana largo se realizaron controles vehiculares que derivaron en la retención de seis rodados, un caso positivo de alcohol en sangre y el hallazgo de una moto robada.\n\nhttps://www.diariolacampaña.com.ar/n/roque-perez-seis-vehiculos-secuestrados-y-una-moto-robada-970dc5",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Seis vehículos secuestrados y un caso de alcoholemia en Roque Pérez",
+   "urgente": false,
+   "vence": "2026-11-14T00:02:14.000Z",
+   "video_bytes": 80180,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_03_25-de-mayo_seis-veh-culos-secuestrados-y-.mp4",
+   "viral": false
   },
   "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/|x": {
    "actualizado": "2026-11-12T00:40:17.000Z",
@@ -17642,65 +17702,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x",
-   "cuando": "2026-11-07T18:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok",
-   "cuando": "2026-11-07T18:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:cd19d51a-2d12-4c2f-a5a7-6e89ce9ab386|x",
-   "cuando": "2026-11-07T18:40:23.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6aef709851492b796ef3fa41",
-   "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x",
-   "cuando": "2026-11-07T18:40:24.000Z",
-   "dueAt": "2026-11-07T18:42:02.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|x",
-   "cuando": "2026-11-07T19:00:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119138404340269367"
-  },
-  {
-   "clave": "web:2e964f84-db65-4365-a793-01e8f49b70ed|x",
-   "cuando": "2026-11-07T20:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2e964f84-db65-4365-a793-01e8f49b70ed|x",
-   "cuando": "2026-11-07T20:40:22.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x",
-   "cuando": "2026-11-07T21:00:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x",
    "cuando": "2026-11-07T21:00:20.000Z",
    "evento": "depurado",
@@ -21803,6 +21804,57 @@
    "cuando": "2026-11-13T21:40:27.000Z",
    "dueAt": "2026-11-13T21:42:08.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x",
+   "cuando": "2026-11-13T22:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "entrevistas:job00310-r1|x",
+   "cuando": "2026-11-13T22:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121358047654093258"
+  },
+  {
+   "clave": "entrevistas:job00312|tiktok",
+   "cuando": "2026-11-13T22:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7707780141140708629"
+  },
+  {
+   "clave": "entrevistas:job00313|tiktok",
+   "cuando": "2026-11-13T22:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7707775076564847879"
+  },
+  {
+   "clave": "entrevistas:job00314|tiktok",
+   "cuando": "2026-11-13T22:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7707769847202974994"
+  },
+  {
+   "clave": "entrevistas:job00315|tiktok",
+   "cuando": "2026-11-13T22:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7707764731091635462"
+  },
+  {
+   "clave": "entrevistas:job00315|x",
+   "cuando": "2026-11-13T22:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121348211730206811"
+  },
+  {
+   "buffer_id": "6af78d1e4b28296eb11be5f5",
+   "clave": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x",
+   "cuando": "2026-11-13T22:20:14.000Z",
+   "dueAt": "2026-11-13T22:23:13.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21840,7 +21892,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-13",
- "ultima_sync": "2026-11-13T21:00:26.000Z",
+ "ultima_sync": "2026-11-13T22:20:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -22373,6 +22425,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos": "2026-11-08T22:20:12.000Z",
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": "2026-10-23T00:20:14.000Z",
   "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/": "2026-11-09T22:20:15.000Z",
+  "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/": "2026-11-13T22:20:13.000Z",
   "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/": "2026-11-11T22:40:16.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/incendio-vehicular-en-sarmiento-al-2000-sospechan-que-fue-intencional-y-ofrecen-recompensa/": "2026-10-16T02:00:19.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/15/pehuajo-hallaron-asesinado-a-un-hombre-de-78-anos/": "2026-10-15T18:00:21.000Z",

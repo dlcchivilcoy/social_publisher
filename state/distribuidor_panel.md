@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 6 | 2 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 7 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 8 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 4 | 3 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 25 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 5 enviadas + 3 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 30 · likes 0
@@ -34,14 +34,6 @@ Actualizado: 13/11/2026 19:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T19:40 recibido entrevistas:job00313|x 
-- 2026-11-13T19:40 recibido entrevistas:job00313|tiktok 
-- 2026-11-13T19:40 programado entrevistas:job00313|x 
-- 2026-11-13T20:00 enviado entrevistas:job00312|x 
-- 2026-11-13T20:00 enviado entrevistas:job00313|x 
-- 2026-11-13T20:20 entrevista_aprobada entrevistas:job00314 
-- 2026-11-13T20:20 recibido entrevistas:job00314|x 
-- 2026-11-13T20:20 recibido entrevistas:job00314|tiktok 
 - 2026-11-13T20:20 programado entrevistas:job00314|x 
 - 2026-11-13T21:00 entrevista_aprobada entrevistas:job00315 
 - 2026-11-13T21:00 recibido entrevistas:job00315|x 
@@ -59,3 +51,11 @@ Actualizado: 13/11/2026 19:00 (hora AR) · ACTIVO
 - 2026-11-13T21:40 recibido entrevistas:job00310-r1|x 
 - 2026-11-13T21:40 recibido entrevistas:job00310-r1|tiktok 
 - 2026-11-13T21:40 programado entrevistas:job00310-r1|x 
+- 2026-11-13T22:20 recibido policiales:https://www.lamanana.com.ar/secuestraron-seis-veh 
+- 2026-11-13T22:20 enviado entrevistas:job00310-r1|x 
+- 2026-11-13T22:20 enviado entrevistas:job00312|tiktok 
+- 2026-11-13T22:20 enviado entrevistas:job00313|tiktok 
+- 2026-11-13T22:20 enviado entrevistas:job00314|tiktok 
+- 2026-11-13T22:20 enviado entrevistas:job00315|tiktok 
+- 2026-11-13T22:20 enviado entrevistas:job00315|x 
+- 2026-11-13T22:20 programado policiales:https://www.lamanana.com.ar/secuestraron-seis-veh 
