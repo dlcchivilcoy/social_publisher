@@ -2769,6 +2769,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-chivilcoy-campeon-sub-23-gran-actuacion-de-maximo-sala-en-el",
    "volanta": "Ciclismo"
   },
+  "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6": {
+   "categoria": "",
+   "descripcion": "Bragado Club venció a Quilmes sobre el final del partido Por la última fecha del Torneo Clausura de Primera División, Quilmes recibió a Bragado Club. Era un partido importantísimo para las aspiraciones de poder clasificar en la cuarta posición para Bragado Club e hizo los deberes: consiguió el triunfo por 77 a 76 en la última bola del partido. Bragado Club debe esperar ahora el resultado del domingo entre Deportivo Colón y San Lorenzo. Solo le sirve un triunfo de Colón; en caso contrario, la...",
+   "generado": "2026-11-14T15:58:19.673Z",
+   "id": "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_dc875e9b01c1475489b0893b7c6eb3e3~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-bragado-club-vencio-a-quilmes-sobre-el-final-del",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Bragado Club venció a Quilmes sobre el final del partido",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-bragado-club-vencio-a-quilmes-sobre-el-final-del",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:160a1c97-6c1f-4723-8b48-a54f7405c098": {
    "categoria": "",
    "descripcion": "Gran cosecha de Independiente en 25 de Mayo por la Superliga de As.Am.Bal El Club Atlético Independiente viajó con todas sus divisiones hasta la vecina ciudad para disputar la quinta fecha del certamen regional. En una jornada sumamente disputada y con duelos directos por la parte alta de la tabla, el \"Rojo\" cosechó seis victorias, cinco caídas y un empate. Por la senda del protagonismo La escuela de handball del Club Atlético Independiente de Chivilcoy tuvo este fin de semana una intensa y...",
@@ -4744,25 +4763,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras-1",
    "volanta": "Alberti · Policiales"
-  },
-  "web:bcc71360-9f79-4290-9d68-9770c7fb87ac": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Bomberos controlaron el incendio de una palmera en la Ruta 30 CHIVILCOY.– Bomberos controlaron el incendio de una palmera en la zona de la Ruta 30. El fuego se registró en dirección a La Rica y amenazaba con propagarse a un galpón lindero. Los Bomberos Voluntarios de Chivilcoy acudieron este miércoles 4 de noviembre a la zona de la Ruta 30, en dirección a La Rica, tras recibir un aviso por un incendio. Al llegar, el personal constató que el fuego afectaba a una palmera y que...",
-   "generado": "2026-11-04T15:11:13.925Z",
-   "id": "web:bcc71360-9f79-4290-9d68-9770c7fb87ac",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_02c56367200e41e98f478eca937eda57~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-bomberos-chivilcoy-bomberos-controlaron-el-incendio-de-una",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Bomberos controlaron el incendio de una palmera en la Ruta 30",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-30-bomberos-chivilcoy-bomberos-controlaron-el-incendio-de-una",
-   "volanta": "Ruta 30 · Bomberos"
   },
   "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf": {
    "categoria": "",
@@ -11988,6 +11988,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6|x": {
+   "actualizado": "2026-11-14T16:00:23.000Z",
+   "buffer_id": "",
+   "clave": "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6|x",
+   "creado": "2026-11-14T16:00:17.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-14T15:58:19.673Z",
+   "id": "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-bragado-club-vencio-a-quilmes-sobre-el-final-del",
+   "noticia": "nota:chivilcoy-deportes-bragado-club-vencio-a-quilmes-sobre-el-final-del",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Bragado Club venció a Quilmes sobre el final del partido\n\nEl equipo visitante ganó 77 a 76 por el Torneo Clausura de Primera División. Ahora depende de una victoria de Colón frente a San Lorenzo para poder clasificar en la cuarta posición.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-bragado-club-vencio-a-quilmes-sobre-el-final-del",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Bragado Club venció a Quilmes sobre el final del partido",
+   "urgente": false,
+   "vence": "2026-11-14T19:58:19.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x": {
    "actualizado": "2026-11-09T14:00:18.000Z",
    "buffer_id": "6af1bf3279df38f6f58939de",
@@ -15552,33 +15579,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:bcc71360-9f79-4290-9d68-9770c7fb87ac|x": {
-   "actualizado": "2026-11-04T15:40:19.000Z",
-   "buffer_id": "",
-   "clave": "web:bcc71360-9f79-4290-9d68-9770c7fb87ac|x",
-   "creado": "2026-11-04T15:40:14.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-04T15:11:13.925Z",
-   "id": "web:bcc71360-9f79-4290-9d68-9770c7fb87ac",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-bomberos-chivilcoy-bomberos-controlaron-el-incendio-de-una",
-   "noticia": "nota:ruta-30-bomberos-chivilcoy-bomberos-controlaron-el-incendio-de-una",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Bomberos controlaron el incendio de una palmera en la Ruta 30\n\nEl fuego se registró en dirección a La Rica. Las llamas amenazaban con propagarse a un galpón lindero.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-30-bomberos-chivilcoy-bomberos-controlaron-el-incendio-de-una",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Bomberos controlaron el incendio de una palmera en la Ruta 30",
-   "urgente": false,
-   "vence": "2026-11-04T19:11:13.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf|x": {
    "actualizado": "2026-11-05T12:40:14.000Z",
    "buffer_id": "",
@@ -16888,18 +16888,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tiktok",
-   "cuando": "2026-11-08T01:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705589578115091732"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|tiktok",
-   "cuando": "2026-11-08T01:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705584497810590984"
-  },
   {
    "clave": "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|x",
    "cuando": "2026-11-08T01:20:14.000Z",
@@ -21034,6 +21022,20 @@
    "cuando": "2026-11-14T12:20:22.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6|x",
+   "cuando": "2026-11-14T16:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6|x",
+   "cuando": "2026-11-14T16:00:23.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21630,7 +21632,6 @@
   "web:03c64a65-3269-4247-b8a7-1e92b9072a66": "2026-11-13T10:02:41.000Z",
   "web:04425d89-83c4-4e64-b618-b51e5d8d09e0": "2026-10-18T19:40:15.000Z",
   "web:045183d9-6073-43b7-83df-69738e914aa5": "2026-11-12T10:02:44.000Z",
-  "web:0488321b-e07d-4538-90b9-84ad4724ad17": "2026-10-15T15:40:19.000Z",
   "web:04a24de3-2093-4b59-8e4e-5da6fa217039": "2026-11-04T09:00:19.000Z",
   "web:053f7722-ce93-4d22-9679-cc89862bee76": "2026-10-20T10:20:14.000Z",
   "web:054fa202-87fe-43be-afff-36d09259bbf7": "2026-10-16T23:40:15.000Z",
@@ -21653,6 +21654,7 @@
   "web:0d0f2a09-0416-445a-82b7-74eed589d782": "2026-11-05T10:02:30.000Z",
   "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb": "2026-10-22T15:20:17.000Z",
   "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814": "2026-11-09T10:20:14.000Z",
+  "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6": "2026-11-14T16:00:17.000Z",
   "web:102f794a-1b02-4e61-aa74-3d003a611178": "2026-11-03T10:02:22.000Z",
   "web:10530670-a72a-4de8-bc7f-13a21143d576": "2026-10-28T00:40:14.000Z",
   "web:110a806e-7381-4845-8f7e-851f18f79901": "2026-10-26T10:20:14.000Z",
@@ -21994,7 +21996,6 @@
   "web:9bcaa52a-5164-4329-99d8-9e88c2c29241": "2026-10-18T23:20:13.000Z",
   "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327": "2026-10-21T02:20:14.000Z",
   "web:9c2673f5-3976-4a53-b1e8-0746d539c8b0": "2026-11-11T10:02:35.000Z",
-  "web:9cb13f8f-7629-4775-bc59-668a4e784c85": "2026-10-15T15:40:19.000Z",
   "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f": "2026-10-30T19:20:18.000Z",
   "web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6": "2026-11-12T10:02:44.000Z",
   "web:9da65e87-8b1a-426a-922a-94936fe79688": "2026-11-09T10:20:14.000Z",
