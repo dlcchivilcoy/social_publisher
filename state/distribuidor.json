@@ -11196,14 +11196,14 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region|x": {
-   "actualizado": "2026-11-13T22:40:14.000Z",
+   "actualizado": "2026-11-14T00:40:14.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region|x",
    "creado": "2026-11-13T22:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-13T22:31:31.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region",
    "intentos": 0,
@@ -17920,13 +17920,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6aefb6ea562f2e6de9890f5e",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html|x",
-   "cuando": "2026-11-07T23:40:26.000Z",
-   "dueAt": "2026-11-07T23:48:47.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|x",
    "cuando": "2026-11-08T00:00:18.000Z",
    "estado": "pendiente",
@@ -22070,6 +22063,12 @@
    "cuando": "2026-11-14T00:20:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7707811210724461845"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region|x",
+   "cuando": "2026-11-14T00:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
@@ -22114,8 +22113,6 @@
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v": "2026-10-15T00:40:14.000Z",
-  "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr": "2026-10-15T00:40:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4": "2026-10-15T13:20:17.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9ns1da5om9": "2026-10-15T15:20:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2": "2026-10-15T20:20:15.000Z",
@@ -23131,7 +23128,6 @@
   "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6": "2026-11-09T10:02:37.000Z",
   "web:b6d79f8b-20cb-429f-95dc-adf0d9340584": "2026-10-26T10:20:14.000Z",
   "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7": "2026-11-13T10:02:41.000Z",
-  "web:b6fb5d90-4508-431b-b874-06c3716a8faf": "2026-10-15T00:40:14.000Z",
   "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72": "2026-10-26T00:40:15.000Z",
   "web:b7990fc0-6c89-4df8-a394-ec61efeecec2": "2026-10-19T23:40:17.000Z",
   "web:b8356399-c1a9-4319-bdf3-d449371f55e1": "2026-11-12T10:02:44.000Z",
@@ -23230,7 +23226,6 @@
   "web:daae8efc-080c-4b85-8684-6b87ab41878c": "2026-10-26T12:06:06.000Z",
   "web:dad7423e-f855-41dd-8505-49e56691870b": "2026-10-19T00:20:16.000Z",
   "web:dbcff185-c524-4cad-9ffd-27938d2a4920": "2026-10-29T10:20:14.000Z",
-  "web:dc3e92fc-1723-4ed1-bde2-bdcf1257e5a6": "2026-10-15T00:40:14.000Z",
   "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a": "2026-11-09T10:02:37.000Z",
   "web:dca831fd-6866-464f-a367-e6b85d1a5640": "2026-10-15T23:40:15.000Z",
   "web:dcafe461-f045-4d40-aee9-6f7618ed3a5e": "2026-10-15T18:20:17.000Z",
