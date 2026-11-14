@@ -3395,25 +3395,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/obra-biografica-una-vida-sobre-ruedas-cristina-bracco-presento-su",
    "volanta": "Obra biográfica"
   },
-  "web:3db074fa-b73d-41dc-9567-5ce1c3d65907": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Un camión volcó sobre un puente tras chocar con un auto Un choque entre un auto y un camión se produjo en la Ruta 30, donde el vehículo de mayor porte terminó volcando sobre el puente. El siniestro ocurrió en inmediaciones de los silos de Andreoli, y requirió la intervención de los Bomberos Voluntarios de Chivilcoy, personal del SAME, Policía Vial y Tránsito. Alrededor de las 22:00 del martes 3 de noviembre, los Bomberos Voluntarios acudieron a la Ruta Provincial 30 tras el alerta...",
-   "generado": "2026-11-04T01:54:22.665Z",
-   "id": "web:3db074fa-b73d-41dc-9567-5ce1c3d65907",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_3d1b97114c3c4f45ada584f2a7d89d69~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Un camión volcó sobre un puente tras chocar con un auto",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
-   "volanta": "Ruta 30 · Accidente"
-  },
   "web:3fae7597-04b8-4378-8e2d-22c4f444cefd": {
    "categoria": "",
    "descripcion": "Chivilcoy: Récord de participantes en los torneos intercolegiales locales CHIVILCOY.– El pasado sábado 31/10 por la tarde, se jugaron 2 torneos intercolegiales locales por equipos, en simultáneo, uno de alumnos de escuelas primarias y otro de escuelas secundarias. Los certámenes se desarrollaron al aire libre, sobre la acera a la altura de Avda Soarez N° 114, en cercanías al local comercial auspiciante, hecho también novedoso para el tipo de evento, como una forma más de promocionar el...",
@@ -10812,14 +10793,14 @@
    "viral": true
   },
   "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor|x": {
-   "actualizado": "2026-11-14T00:20:14.000Z",
+   "actualizado": "2026-11-14T02:20:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor|x",
    "creado": "2026-11-14T00:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-14T00:03:16.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor",
    "intentos": 0,
@@ -13337,33 +13318,6 @@
    "titulo": "‘Una vida sobre ruedas’: Cristina Bracco presentó su libro “Yo me parí”",
    "urgente": false,
    "vence": "2026-11-12T14:01:26.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x": {
-   "actualizado": "2026-11-04T02:00:22.000Z",
-   "buffer_id": "",
-   "clave": "web:3db074fa-b73d-41dc-9567-5ce1c3d65907|x",
-   "creado": "2026-11-04T02:00:20.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-04T01:54:22.665Z",
-   "id": "web:3db074fa-b73d-41dc-9567-5ce1c3d65907",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
-   "noticia": "nota:ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Un camión volcó sobre un puente tras chocar con un auto\n\nEl siniestro vial ocurrió en la Ruta 30, cerca de los silos de Andreoli. Intervinieron Bomberos Voluntarios, personal del SAME, Policía Vial y Tránsito.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-30-accidente-chivilcoy-un-camion-volco-sobre-un-puente-tras",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Un camión volcó sobre un puente tras chocar con un auto",
-   "urgente": false,
-   "vence": "2026-11-04T05:54:22.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17759,12 +17713,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html|x",
-   "cuando": "2026-11-08T00:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119215589872881901"
-  },
-  {
    "buffer_id": "6aefbb9751492b796e092f88",
    "clave": "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|x",
    "cuando": "2026-11-08T00:00:26.000Z",
@@ -21902,6 +21850,12 @@
   {
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x",
    "cuando": "2026-11-14T01:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor|x",
+   "cuando": "2026-11-14T02:20:13.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
