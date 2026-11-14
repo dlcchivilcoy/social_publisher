@@ -20,7 +20,7 @@ from platforms import facebook, instagram
 from publisher import _prepare_image
 from story_image import (compose_clima_feed, compose_clima_story, compose_sepelios_feed,
                          compose_sepelios_story, compose_tapa_story)
-from utils.branding import sitio_web
+from utils.branding import link_pagina, sitio_web
 from utils.config import get
 from utils.logger import get_logger
 
@@ -244,14 +244,16 @@ def _caption_tapa(fecha: str) -> str:
 def _caption_farmacias(fecha: str, lineas: list[str], es_cambio: bool) -> str:
     cabecera = "⚠️ *CAMBIO de turno de hoy*\n\n" if es_cambio else ""
     return (cabecera + f"💊 Farmacias de turno — {fecha}\n\n" + "\n".join(lineas)
-            + "\n\nLas dos primeras están de turno las 24 hs; la última, hasta las 22 hs.")
+            + "\n\nLas dos primeras están de turno las 24 hs; la última, hasta las 22 hs."
+            + f"\n\n👉 Las farmacias de turno de todos los días, en nuestra web: {link_pagina('farmacias-de-turno')}")
 
 
 def _caption_sepelios(fecha: str, lista: list[dict]) -> str:
     renglones = [f"• {s['nombre']} ({s['empresa']}, {s['fecha'].strftime('%d/%m')})" for s in lista]
     return (f"🕯️ Sepelios — {fecha}\n\nQ.E.P.D.\n\n" + "\n".join(renglones)
             + "\n\nDiario La Campaña acompaña a las familias.\n"
-              "Información: Grupo Visión y Empresa San Nicolás.")
+              "Información: Grupo Visión y Empresa San Nicolás."
+            + f"\n\n👉 Todos los sepelios, en nuestra web: {link_pagina('sepelios')}")
 
 
 def _caption_clima(fecha: str, d: dict) -> str:
@@ -263,7 +265,7 @@ def _caption_clima(fecha: str, d: dict) -> str:
             f"{d['estado']['texto']}. Máxima de {d['max']}° y mínima de {d['min']}°.\n"
             f"💨 Viento del {ahora.get('rumbo')}, hasta {d.get('viento_max')} km/h · "
             f"💧 Humedad {ahora.get('humedad')} %\n{agua}\n\n"
-            f"El pronóstico extendido, en nuestra web.\n"
+            f"👉 El pronóstico extendido, en nuestra web: {link_pagina('clima')}\n"
             f"Datos: Instituto Meteorológico de Noruega (MET Norway).")
 
 

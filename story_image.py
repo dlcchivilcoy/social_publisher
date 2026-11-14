@@ -1264,7 +1264,7 @@ def compose_note_slide(photo_path: Path, volanta: str, titular: str, site_url: s
     title_bottom = yb - (cta_block + 24 if cta_lines else 0)
     title_top = _draw_title_impose(draw, titular, MARGIN, title_bottom, max_w, max_h=470)
 
-    vol = (volanta or "").strip().upper()
+    vol = _sin_dos_puntos(volanta).upper()
     if vol:
         f_vol = _font(30, bold=True)
         vy = title_top - 14 - _line_h(f_vol, "Ay")
@@ -1495,6 +1495,41 @@ def _partes_titular(volanta: str, titular: str) -> tuple:
     if mejor is None:
         mejor = max(2, round(len(pal) * 0.45))
     return " ".join(pal[:mejor]), " ".join(pal[mejor:])
+
+
+def _sin_dos_puntos(texto: str) -> str:
+    """La volanta sin «:» (ni punto o guion) al final."""
+    return (texto or "").strip().rstrip(":.;,-–— ").strip()
+
+
+def _volanta_portada(volanta: str, titular: str) -> tuple:
+    """(volanta, comienzo en color, resto) de la PORTADA del carrusel. Desde el 14/11/2026 (pedido del
+    usuario: «que no vaya con dos puntos y que el tamaño sea más chico con respecto al título») la volanta
+    va SOLA, en su renglón arriba del título, más chica y sin «:». Si no hay volanta pero el título arranca
+    con «Algo: …», ese «Algo» hace de volanta. Si no hay ninguna de las dos, como antes: el comienzo del
+    título en color, en el mismo renglón (ahí no hay dos puntos)."""
+    vol = _sin_dos_puntos(volanta)
+    tit = (titular or "").strip()
+    if vol:
+        return vol, "", tit
+    a, sep, b = tit.partition(":")
+    if sep and a.strip() and b.strip() and len(a) <= 90:
+        b = b.strip()
+        return _sin_dos_puntos(a), "", b[:1].upper() + b[1:]
+    lead, resto = _partes_titular("", tit)
+    return "", lead, resto
+
+
+def _renglones_volanta(draw, vol: str, color, ancho: int, tope: int) -> tuple:
+    """(fuente, renglones, interlínea) de la volanta: en mayúsculas, negrita, hasta 2 renglones y
+    como mucho `tope` de cuerpo (siempre bastante más chica que el título)."""
+    if not vol:
+        return None, [], 0
+    tope = max(22, tope)
+    pv = [(w, color) for w in vol.upper().split()]
+    negrita = lambda s_: _sans(s_, 700)                                                  # noqa: E731
+    return _medir_texto(draw, pv, ancho, 2 * round(tope * 1.22), negrita, salto=1.22, max_lineas=2,
+                        max_size=_tope_por_palabra(draw, pv, ancho, negrita, tope, 22), min_size=22)
 
 
 def _partir_palabras(draw, palabras: list, font, max_w: int) -> list:
@@ -1798,13 +1833,14 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
     m = CARRUSEL_MARGEN
     ancho = SLIDE_W - 2 * m
     draw = ImageDraw.Draw(canvas)
-    lead, resto = _partes_titular(volanta, titular)
+    vol, lead, resto = _volanta_portada(volanta, titular)
     # Como en los reels: Google Sans y el titular tal como se escribe (antes, todo en mayúsculas).
     mayus = [(w, t["acento"]) for w in lead.split()] + [(w, t["texto"]) for w in resto.split()]
     _titulo = lambda s_: _sans(s_, 700)                                                  # noqa: E731
 
     if _es_vertical(foto) and estilo in ("A", "B") and not _recorte_activo():
-        return _placa_lateral(foto, t, "", lead, resto, titular, bajada, site_url, idx, total, leyenda)
+        return _placa_lateral(foto, t, vol, lead, resto, titular, bajada, site_url, idx, total, leyenda,
+                              portada=True)
 
     if estilo in ("A", "B"):
         if foto is not None and not _recorte_activo():
@@ -1826,23 +1862,31 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
         if estilo == "A":
             draw.rectangle((0, foto_h, SLIDE_W, foto_h + 10), fill=t["acento"])
             y0 = foto_h + 10 + 52
-            f, lineas, lh = _medir_texto(draw, mayus, ancho, pie_y - 60 - y0, _titulo,
+            libre = pie_y - 60 - y0
+            fv, lv, lhv = _renglones_volanta(draw, vol, t["acento"], ancho, 40)
+            alto_vol = (len(lv) * lhv + 16) if lv else 0
+            f, lineas, lh = _medir_texto(draw, mayus, ancho, libre - alto_vol, _titulo,
                                          max_size=92, min_size=50, salto=1.06, partir=_partir_titular)
-            # El título centrado en el espacio libre entre la foto y el pie.
-            y0 += max(0, (pie_y - 60 - y0 - len(lineas) * lh) // 2)
+            if lv:
+                # La volanta, como mucho la mitad del cuerpo del título.
+                fv, lv, lhv = _renglones_volanta(draw, vol, t["acento"], ancho, min(40, round(f.size * 0.5)))
+                alto_vol = len(lv) * lhv + 16
+            # La volanta y el título centrados en el espacio libre entre la foto y el pie.
+            y0 += max(0, (libre - alto_vol - len(lineas) * lh) // 2)
+            if lv:
+                _dibujar_renglones(draw, m, y0, lv, fv, lhv)
+                y0 += alto_vol
             _dibujar_renglones(draw, m, y0, lineas, f, lh)
         else:
             draw.rectangle((m, foto_h - 30, m + 330, foto_h), fill=t["acento"])
             y = foto_h + 50
-            vol = (volanta or "").strip().upper()
-            if vol:
-                fv = _sans(30, 700)
-                draw.text((m, y), vol, font=fv, fill=t["acento"], anchor="lt")
-                y += 30 + 26
+            fv, lv, lhv = _renglones_volanta(draw, vol, t["acento"], ancho, 32)
+            if lv:
+                y = _dibujar_renglones(draw, m, y, lv, fv, lhv) + 34
             alto_libre = pie_y - 56 - y
             baj = (bajada or "").strip()
             alto_tit = round(alto_libre * 0.55) if baj else alto_libre
-            ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in (titular or "").split()], ancho,
+            ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in f"{lead} {resto}".split()], ancho,
                                        alto_tit, lambda s: _sans(s, 700), max_size=72 if baj else 100,
                                        min_size=42, salto=1.14, max_lineas=5, partir=_partir_titular)
             base = _dibujar_renglones(draw, m, y, lt, ft, lht)
@@ -1875,13 +1919,15 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
                                      max_size=size, min_size=size, salto=1.06, max_lineas=6)
         if lineas and lineas[-1][-1][0].endswith("…") and size != cuerpos[-1]:
             continue                                  # no entra en 6 renglones: más chico
-        alto_caja = pad + _alto_mayus(f) + (len(lineas) - 1) * lh + 34 + fila_pie + pad - 6
+        fv, lv, lhv = _renglones_volanta(draw, vol, t["acento"], bx1 - bx0 - 2 * pad, min(36, round(size * 0.5)))
+        alto_vol = (len(lv) * lhv + 14) if lv else 0
+        alto_caja = pad + alto_vol + _alto_mayus(f) + (len(lineas) - 1) * lh + 34 + fila_pie + pad - 6
         y_caja, tapa = _zona_caja(caras, alto_caja, tope_logos, y_max)
         if eleccion is None or tapa < eleccion[0]:
-            eleccion = (tapa, f, lineas, lh, alto_caja, y_caja)
+            eleccion = (tapa, f, lineas, lh, alto_caja, y_caja, fv, lv, lhv, alto_vol)
         if tapa == 0:
             break
-    _, f, lineas, lh, alto_caja, by0 = eleccion
+    _, f, lineas, lh, alto_caja, by0, fv, lv, lhv, alto_vol = eleccion
     by1 = by0 + alto_caja
     zona = canvas.crop((bx0, by0, bx1, by1)).filter(ImageFilter.GaussianBlur(10))
     zona = Image.blend(zona, Image.new("RGB", zona.size, t["fondo"]), 0.80)
@@ -1890,7 +1936,9 @@ def compose_carrusel_slide(photo_path, volanta: str, titular: str, bajada: str =
     canvas.paste(zona, (bx0, by0), mascara)
     draw = ImageDraw.Draw(canvas)
     draw.rectangle((bx0 + pad, by0, bx0 + pad + 200, by0 + 9), fill=t["acento"])
-    _dibujar_renglones(draw, bx0 + pad, by0 + pad, lineas, f, lh)
+    if lv:
+        _dibujar_renglones(draw, bx0 + pad, by0 + pad, lv, fv, lhv)
+    _dibujar_renglones(draw, bx0 + pad, by0 + pad + alto_vol, lineas, f, lh)
     _pie_carrusel(canvas, draw, t, bx0 + pad, bx1 - pad, by1 - pad - fila_pie // 2 + 6, idx, total,
                   site_url, color_sitio=t["texto"])
     return _save(canvas, "carrusel_" + _safe_stem(titular or volanta, "nota"))
@@ -1933,7 +1981,7 @@ def compose_lamina_carrusel(photo_path, volanta: str, titulo: str, texto: str, s
     else:
         draw.rectangle((m, 70, m + 200, 79), fill=t["acento"])
         y = 130
-    vol = (volanta or "").strip().upper()
+    vol = _sin_dos_puntos(volanta).upper()
     if vol:
         fv = _sans(30, 700)
         draw.text((m, y), vol, font=fv, fill=t["acento"], anchor="lt")
@@ -2004,7 +2052,7 @@ def _leyenda_foto(canvas, texto: str, x1: int, y1: int) -> None:
 
 
 def _placa_lateral(foto, t: dict, volanta: str, lead: str, resto: str, titulo: str, texto: str,
-                   site_url: str, idx, total, leyenda: str = "") -> Path:
+                   site_url: str, idx, total, leyenda: str = "", portada: bool = False) -> Path:
     """Placa de una foto VERTICAL: la foto entera contra el margen izquierdo, a todo el alto, y la columna
     de la derecha con el título, el texto y el pie. `lead` + `resto` es el título (la portada lleva el
     comienzo en color y `volanta` vacía; la lámina, al revés). Si la foto no llena el alto (una 3:4), los
@@ -2030,17 +2078,17 @@ def _placa_lateral(foto, t: dict, volanta: str, lead: str, resto: str, titulo: s
 
     negrita = lambda s_: _sans(s_, 700)                                                  # noqa: E731
     normal = lambda s_: _sans(s_, 400)                                                   # noqa: E731
-    vol = (volanta or "").strip().upper()
+    vol = _sin_dos_puntos(volanta).upper()
     fv, lv, lhv = (None, [], 0)
     if vol:
         pv = [(w, t["acento"]) for w in vol.split()]
         fv, lv, lhv = _medir_texto(draw, pv, col, 90, negrita, salto=1.25, max_lineas=2,
-                                   max_size=_tope_por_palabra(draw, pv, col, negrita, 28, 20), min_size=20)
+                                   max_size=_tope_por_palabra(draw, pv, col, negrita, 32, 20), min_size=20)
     alto_vol = (len(lv) * lhv + 22) if lv else 0
     pt = ([(w, t["acento"]) for w in (lead or "").split()]
           + [(w, t["texto"]) for w in (resto or "").split()])
     baj = (texto or "").strip()
-    if lead:
+    if portada:
         # PORTADA vertical: SOLO el título (pedido del usuario, 11/11/2026: «las placas que salgan verticales
         # llevan solo el título en la portada; desde la segunda arranca el texto descriptivo»). La columna es
         # angosta y la bajada achicaba el título. Lo que decía la bajada lo cuentan las láminas.
@@ -2097,7 +2145,7 @@ def _lamina_solo_texto(volanta: str, titulo: str, texto: str, site_url: str, idx
     draw.line((m, 160, W - m, 160), fill=linea, width=2)
     # El bloque, medido antes de dibujar para centrarlo entre el filete y el pie.
     arriba, abajo = 210, H - 170
-    vol = (volanta or "").strip().upper()
+    vol = _sin_dos_puntos(volanta).upper()
     alto_vol = 30 + 24 + 8 + 40 if vol else 0
     titulo = (titulo or "").strip()
     ft, lt, lht = _medir_texto(draw, [(w, t["texto"]) for w in titulo.split()], ancho, 330,

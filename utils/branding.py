@@ -51,6 +51,16 @@ def sitio_web() -> str:
     return normalizar_sitio((get("STORY_SITE_URL") or "").strip()) or SITIO_CANONICO
 
 
+def link_pagina(ruta: str) -> str:
+    """Link a una página fija de la web (`sepelios`, `farmacias-de-turno`, `clima`…), con el dominio
+    bien escrito. Pedido del usuario (14/11/2026): los posteos de Facebook de sepelios, farmacias y clima
+    llevan el enlace a SU página de la web."""
+    sitio = sitio_web().strip().rstrip("/")
+    if not sitio.startswith("http"):
+        sitio = "https://" + sitio
+    return f"{sitio}/{(ruta or '').strip('/')}"
+
+
 def link_nota(url: str) -> str:
     """Link CORTO y con el dominio propio para compartir una nota.
 
