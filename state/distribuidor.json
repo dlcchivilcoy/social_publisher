@@ -2026,6 +2026,32 @@
    "volanta": "Choques, operativos y acoso en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/AZvYq3Sp9CM"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Un hombre con una chaquetilla del hospital causó destrozos en un comercio céntrico y terminó aprehendido por la policía tras una persecución.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-14T22:03:21.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-un-hombre-que-causo-destrozos-en-un-1c2df6",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un hombre protagonizó disturbios y rompió los vidrios de un kiosco ubicado en la zona céntrica.\n\nEl sospechoso vestía una chaquetilla de internación del hospital municipal.\n\nEfectivos policiales lograron interceptarlo y aprehenderlo a pocas cuadras del lugar.\n\nEl operativo se desencadenó tras una alerta por daños materiales en el comercio.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Detenido #BuenosAires",
+   "tipo": "video",
+   "titulo": "Demoraron a un hombre que rompió los vidrios de un kiosco en el centro",
+   "urgente": false,
+   "video_bytes": 100490,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-14_2134_06_chacabuco_demoraron-a-un-hombre-que-romp.mp4",
+   "volanta": "Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/GlH9zUxNWAw"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html": {
    "categoria": "robo",
    "descripcion": "Un vecino denunció que le sustrajeron su moto Guerrero 110 de color negro que se encontraba estacionada en la vía pública, en cercanías del barrio ubicado en la quinta 1010.",
@@ -10761,6 +10787,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_07_chacabuco_choque-operativos-viales-y-ped.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html|x": {
+   "actualizado": "2026-11-14T22:20:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html|x",
+   "creado": "2026-11-14T22:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-14T22:03:21.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-un-hombre-que-causo-destrozos-en-un-1c2df6",
+   "noticia": "nota:chacabuco-demoraron-a-un-hombre-que-causo-destrozos-en-un-1c2df6",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Demoraron a un hombre que rompió los vidrios de un kiosco en el centro\n\nUn hombre con una chaquetilla del hospital causó destrozos en un comercio céntrico y terminó aprehendido por la policía tras una persecución.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-un-hombre-que-causo-destrozos-en-un-1c2df6",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Demoraron a un hombre que rompió los vidrios de un kiosco en el centro",
+   "urgente": false,
+   "vence": "2026-11-15T00:03:21.000Z",
+   "video_bytes": 100490,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-14_2134_06_chacabuco_demoraron-a-un-hombre-que-romp.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html|x": {
    "actualizado": "2026-11-13T02:40:14.000Z",
    "buffer_id": "6af673e65ec1c9d5be53ff76",
@@ -16727,13 +16781,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af0af54229bf05dafc517ec",
-   "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x",
-   "cuando": "2026-11-08T17:20:20.000Z",
-   "dueAt": "2026-11-08T17:22:01.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x",
    "cuando": "2026-11-08T17:40:13.000Z",
    "evento": "enviado",
@@ -20874,6 +20921,14 @@
    "cuando": "2026-11-14T22:00:19.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html|x",
+   "cuando": "2026-11-14T22:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -21387,6 +21442,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html": "2026-11-09T23:40:15.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html": "2026-11-14T22:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html": "2026-11-13T00:40:18.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346583-detuvieron-a-un-hombre-que-registraba-un-pedido-de": "2026-10-16T00:00:21.000Z",
