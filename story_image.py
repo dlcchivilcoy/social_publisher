@@ -2076,19 +2076,18 @@ def _placa_lateral(foto, t: dict, volanta: str, lead: str, resto: str, titulo: s
 def _lamina_solo_texto(volanta: str, titulo: str, texto: str, site_url: str, idx, total, t: dict) -> Path:
     """La lámina SOLO TEXTO del carrusel explicativo (pedido del usuario 2026-10-18: «la primera con
     imagen y las siguientes enfocate en hacer solo texto bien diseñado»). Arriba el isotipo, el nombre
-    del diario y «02 / 06» con un filete; el número de la lámina enorme y tenue de fondo; el bloque
+    del diario y «02 / 06» con un filete (sin número de fondo desde el 14/11/2026); el bloque
     centrado (volanta con su filo naranja, título y texto); abajo el pie de siempre (sitio, número,
     flecha)."""
     W, H = SLIDE_W, SLIDE_H
     m = 84
     ancho = W - 2 * m
     claro = sum(t["fondo"]) > 600
-    tenue = tuple(round(f * 0.94 + a * 0.06) for f, a in zip(t["fondo"], t["acento"]))
     linea = t.get("linea") or ((226, 228, 233) if claro else (64, 66, 74))
     canvas = Image.new("RGB", (W, H), t["fondo"])
     draw = ImageDraw.Draw(canvas)
-    if idx:
-        draw.text((W - 40, H - 150), f"{idx:02d}", font=_sans(520, 800), fill=tenue, anchor="rs")
+    # 14/11/2026 (pedido del usuario: «sacale el número de fondo en las placas»): ya no va el número de la
+    # lámina enorme y tenue de fondo; queda el «02 / 06» de arriba y el del pie.
     # Cabecera: isotipo + DIARIO LA CAMPAÑA a la izquierda, «02 / 06» a la derecha.
     x = _paste_iso(canvas, m, 70, 50, orange=not t.get("iso_blanco")) + 16
     draw.text((x, 95), NOMBRE_MARCA, font=_sans(24, 700), fill=t["texto"], anchor="lm")
