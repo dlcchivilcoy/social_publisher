@@ -1376,6 +1376,32 @@
    "volanta": "Incendio en el camino real Alberti-Benítez",
    "youtube_url": "https://youtube.com/shorts/e2UrpOpOwTQ"
   },
+  "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores": {
+   "categoria": "robo",
+   "descripcion": "Una serie de procedimientos policiales en distintos puntos de la ciudad permitió esclarecer un hurto, atrapar a un prófugo, detener a un hombre por drogas y arrestar a otros dos acusados por tentativa de robo y daños.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-14T22:33:20.000Z",
+   "id": "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cuatro-aprehensiones-un-profugo-recapturado-y-operativos-bfa638",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "La policía local llevó adelante diversos procedimientos que terminaron con el arresto de cuatro personas en distintos puntos de la ciudad.\n\nEntre los casos se destacan el esclarecimiento de un hurto tras un allanamiento, la captura de un evadido y operativos por drogas y daños.\n\nLas fiscalías intervinientes dispusieron las medidas legales correspondientes para cada uno de los sospechosos.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Múltiples operativos en Junín: cuatro aprehensiones, un prófugo y drogas",
+   "urgente": false,
+   "video_bytes": 77309,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-14_2134_09_junin_m-ltiples-operativos-en-jun-n-.mp4",
+   "volanta": "Junín",
+   "youtube_url": "https://youtube.com/shorts/_2tfdoy0a4o"
+  },
   "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina": {
    "categoria": "operativo_policial",
    "descripcion": "Durante el fin de semana largo, agentes municipales y policiales interceptaron una Ford EcoSport tras una persecución y cortaron una reunión no autorizada con hasta noventa asistentes.",
@@ -10024,6 +10050,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_07_alberti_se-prendi-fuego-una-camioneta-.mp4",
    "viral": false
   },
+  "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores|x": {
+   "actualizado": "2026-11-14T22:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores|x",
+   "creado": "2026-11-14T22:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-14T22:33:20.000Z",
+   "id": "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cuatro-aprehensiones-un-profugo-recapturado-y-operativos-bfa638",
+   "noticia": "nota:junin-cuatro-aprehensiones-un-profugo-recapturado-y-operativos-bfa638",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Múltiples operativos en Junín: cuatro aprehensiones, un prófugo y drogas\n\nVarios procedimientos policiales permitieron esclarecer un hurto y atrapar a un prófugo. También arrestaron a implicados por drogas, tentativa de robo y daños.\n\nhttps://www.diariolacampaña.com.ar/n/junin-cuatro-aprehensiones-un-profugo-recapturado-y-operativos-bfa638",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Múltiples operativos en Junín: cuatro aprehensiones, un prófugo y drogas",
+   "urgente": false,
+   "vence": "2026-11-15T00:33:20.000Z",
+   "video_bytes": 77309,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-14_2134_09_junin_m-ltiples-operativos-en-jun-n-.mp4",
+   "viral": false
+  },
   "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina|x": {
    "actualizado": "2026-11-10T01:20:14.000Z",
    "buffer_id": "",
@@ -16781,12 +16835,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x",
-   "cuando": "2026-11-08T17:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119480668258259348"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x",
    "cuando": "2026-11-08T20:40:14.000Z",
    "estado": "pendiente",
@@ -20929,6 +20977,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores|x",
+   "cuando": "2026-11-14T22:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -21364,6 +21420,7 @@
   "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas": "2026-10-27T23:20:16.000Z",
   "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea": "2026-11-01T23:40:14.000Z",
   "policiales:https://junin24.com/locales/solo-danos-materiales-como-consecuencia-de-un-principio-de-incendio-en-una-cocina": "2026-11-02T00:20:13.000Z",
+  "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores": "2026-11-14T22:40:13.000Z",
   "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero": "2026-11-03T00:40:17.000Z",
   "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos": "2026-10-24T22:20:14.000Z",
   "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad": "2026-10-21T23:40:15.000Z",
@@ -22018,7 +22075,6 @@
   "web:d37c6bc6-4b95-4911-9530-c232b7b72a1f": "2026-10-25T13:20:14.000Z",
   "web:d4089f06-53a3-4eae-adeb-d9043a2f641d": "2026-11-05T10:02:30.000Z",
   "web:d455c1c4-5f25-4847-bf67-277dd0e30dd7": "2026-10-27T10:03:31.000Z",
-  "web:d4a9ca49-807f-4353-9ac9-56f63e81d000": "2026-10-15T22:20:20.000Z",
   "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc": "2026-10-19T01:00:18.000Z",
   "web:d5f53bed-b052-4c25-bed8-d407293e0f55": "2026-10-29T14:20:15.000Z",
   "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f": "2026-10-22T01:40:20.000Z",
