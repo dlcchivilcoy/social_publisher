@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/11/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 14/11/2026 09:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 14/11/2026 09:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,7 +20,7 @@ Actualizado: 14/11/2026 09:00 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 43 con métricas · mediana vistas/impresiones 35 · likes 0
 - X · Reels del bot: 14 con métricas · mediana vistas/impresiones 38.5 · likes 0
 - X · Reels policiales: 19 con métricas · mediana vistas/impresiones 51 · likes 0
-- X · Notas web: 110 con métricas · mediana vistas/impresiones 19.5 · likes 0
+- X · Notas web: 106 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 43 con métricas · mediana vistas/impresiones 161 · likes 1
 - TikTok · Reels del bot: 19 con métricas · mediana vistas/impresiones 418 · likes 7
 
@@ -33,10 +33,6 @@ Actualizado: 14/11/2026 09:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T22:20 enviado entrevistas:job00315|tiktok 
-- 2026-11-13T22:20 enviado entrevistas:job00315|x 
-- 2026-11-13T22:20 programado policiales:https://www.lamanana.com.ar/secuestraron-seis-veh 
-- 2026-11-13T22:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/ 
 - 2026-11-13T23:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/confronta 
 - 2026-11-13T23:20 enviado entrevistas:job00309|tiktok 
 - 2026-11-13T23:20 enviado entrevistas:job00310|tiktok 
@@ -58,3 +54,7 @@ Actualizado: 14/11/2026 09:00 (hora AR) · ACTIVO
 - 2026-11-14T01:20 enviado entrevistas:job00310-r1|tiktok 
 - 2026-11-14T01:40 vencido policiales:https://diarioelsalado.com.ar/2026/11/se-incendio espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-14T02:20 vencido policiales:https://semanariodejunin.com.ar/nota/76536/detuvi espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-14T12:20 recibido web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x 
+- 2026-11-14T12:20 recibido web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x 
+- 2026-11-14T12:20 depurado web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-14T12:20 depurado web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x de la web, a X solo van las notas del diario de la mañana
