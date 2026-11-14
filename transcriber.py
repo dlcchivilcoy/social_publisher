@@ -317,9 +317,49 @@ def _video_4x5(videos: list, salida: Path) -> Path:
 CARRUSEL_MIXTO_TOPE_VERTICAL = 16 / 9  # lo más alto que se le deja a la imagen de prueba (alto/ancho)
 
 
-def _medios_mixto(videos: list, fotos: list, tope: int = 10) -> list:
-    """[(ruta, es_video)] en el orden del carrusel: los videos primero, las fotos después, hasta `tope`."""
-    return ([(v, True) for v in videos] + [(f, False) for f in fotos])[:tope]
+def _foto_primera_de_portada(video: Path) -> Path | None:
+    """La foto que el vecino mandó antes que todo lo demás, en JPG derecho, para la portada de la nota web.
+    None si lo primero fue un video o la carpeta no tiene la numeración por llegada."""
+    try:
+        videos, fotos = _material_mixto(video)
+        primero = _primero_que_llego(videos, fotos, video.parent) if videos else None
+        if primero is None or primero not in fotos:
+            return None
+        from PIL import Image, ImageOps
+        destino = WORK_DIR / "portada_foto_corresponsal.jpg"
+        ImageOps.exif_transpose(Image.open(primero)).convert("RGB").save(destino, "JPEG", quality=92)
+        logger.info(f"Portada: la primera foto que mandó el corresponsal ({primero.name}).")
+        return destino
+    except Exception as e:  # noqa: BLE001 — cosmético: queda el cuadro del video
+        logger.warning(f"No pude usar la primera foto de portada ({e}); va el cuadro del video.")
+        return None
+
+
+def _numero_llegada(p: Path) -> int:
+    """El número del archivo (…_03.jpg → 3). Desde el 14/11/2026 el webhook numera por ORDEN DE LLEGADA,
+    fotos y videos mezclados (contexto.txt: «NUMERACION: llegada»)."""
+    m = re.search(r"_(\d+)\.[A-Za-z0-9]+$", p.name)
+    return int(m.group(1)) if m else 10 ** 6
+
+
+def _primero_que_llego(videos: list, fotos: list, carpeta: Path | None) -> Path | None:
+    """Lo PRIMERO que mandó el vecino (foto o video), o None si la carpeta es de antes de la numeración por
+    llegada (ahí no se sabe: queda como siempre, el video primero)."""
+    ctx = _leer_contexto(carpeta) if carpeta else None
+    if not ctx or (ctx.get("numeracion") or "").strip().lower() != "llegada" or not (videos or fotos):
+        return None
+    return min(list(videos) + list(fotos), key=_numero_llegada)
+
+
+def _medios_mixto(videos: list, fotos: list, tope: int = 10, primero: Path | None = None) -> list:
+    """[(ruta, es_video)] en el orden del carrusel: los videos primero, las fotos después, hasta `tope`.
+    `primero` (14/11/2026, pedido del usuario: «pone primero en portada la primera foto/video que envíen»):
+    lo que llegó primero va adelante, de portada, y el resto sigue como siempre."""
+    medios = [(v, True) for v in videos] + [(f, False) for f in fotos]
+    if primero is not None:
+        adelante = [m for m in medios if m[0] == primero]
+        medios = adelante + [m for m in medios if m[0] != primero]
+    return medios[:tope]
 
 
 def _aspecto_placa(w: int, h: int) -> tuple:
@@ -421,9 +461,12 @@ def _placas_mixto(medios: list, clave: str, volanta: str, titulo: str, texto: st
     tope = instagram.MAX_CAROUSEL
     laminas = _laminas_mixto(volanta, titulo, texto, min(tope - 1, max(2, len(medios) - 1)))
     n_texto = max(0, min(len(laminas) - (len(medios) - 1), tope - len(medios)))
-    videos = [m for m in medios if m[1]]
-    fotos = [m for m in medios if not m[1]]
-    orden = videos + [(None, False)] * n_texto + fotos      # None = lámina solo texto
+    # La portada es el primero de `medios` (lo primero que mandó el vecino, 14/11/2026); después los videos,
+    # las láminas solo texto y las fotos, como siempre.
+    resto = medios[1:]
+    videos = [m for m in resto if m[1]]
+    fotos = [m for m in resto if not m[1]]
+    orden = medios[:1] + videos + [(None, False)] * n_texto + fotos      # None = lámina solo texto
     total = len(orden)
     sitio = _site()
     carpeta = WORK_DIR / f"carr_mixto_{clave}"
@@ -471,7 +514,8 @@ def _publicar_carrusel_mixto(video: Path | None, caption: str, volanta: str = ""
     if not videos:
         return None
     clave = _slug(video.parent.name)
-    medios = _medios_mixto(videos, fotos, instagram.MAX_CAROUSEL)
+    medios = _medios_mixto(videos, fotos, instagram.MAX_CAROUSEL,
+                           primero=_primero_que_llego(videos, fotos, video.parent))
     placas = []
     if titulo and texto:
         try:
@@ -482,9 +526,11 @@ def _publicar_carrusel_mixto(video: Path | None, caption: str, volanta: str = ""
         placas = [(_video_4x5([r], WORK_DIR / f"carr_mixto_{clave}_v{i:02d}.mp4"), True) if v
                   else (_foto_4x5(r, WORK_DIR / f"carr_mixto_{clave}_{i:02d}.jpg"), False)
                   for i, (r, v) in enumerate(medios)]
-    urls = [upload_reel(p) for p, v in placas if v]
-    imagenes = [p for p, v in placas if not v]
-    res = instagram.publish_carousel(caption, imagenes, video_url=urls)
+    # En el orden de las placas (14/11/2026): si el vecino mandó primero una foto, la portada es esa foto.
+    mezcla = [("video", upload_reel(p)) if v else ("imagen", p) for p, v in placas]
+    urls = [x for t, x in mezcla if t == "video"]
+    imagenes = [x for t, x in mezcla if t == "imagen"]
+    res = instagram.publish_carousel(caption, imagenes, video_url=urls, mezcla=mezcla)
     logger.info(f"[instagram] carrusel cruzado OK: {len(urls)} video(s) + {len(imagenes)} placa(s) "
                 f"(id={(res or {}).get('id', '')})")
     return res
@@ -618,7 +664,8 @@ def _recolectar_adjuntos(video: Path) -> tuple[str, list[Path]]:
 FIRMA_DEFAULT = ("Material enviado por un colaborador de la Red de Corresponsales — "
                  "Diario La Campaña · Radio del Centro")
 # HABLA: quién habla en el audio de una declaración (nombre y cargo, lo escribe el corresponsal).
-_CTX_KEYS = ("origen", "nombre", "celular", "lugar", "descripcion", "autorizacion", "habla")
+# NUMERACION: «llegada» (14/11/2026) = los números de los archivos son el orden en que los mandó el vecino.
+_CTX_KEYS = ("origen", "nombre", "celular", "lugar", "descripcion", "autorizacion", "habla", "numeracion")
 
 
 def _firma_texto() -> str:
@@ -1160,6 +1207,9 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
         # (cascada: elección inteligente → cuadro sin filtros → thumbnail) y si aun así no sale,
         # más abajo se saca del REEL.
         cover = portada_segura(video_media, WORK_DIR / "portada.jpg")
+        # Si el corresponsal mandó PRIMERO una foto (14/11/2026), esa es la portada de la nota.
+        if es_corresponsal:
+            cover = _foto_primera_de_portada(video) or cover
         slug = _slug(video.stem)
 
         # Reel para redes: VIDEO COMPLETO, sin recorte (pedido del usuario 2026-06-28).
@@ -1362,7 +1412,9 @@ def run_transcribe_video(file: str = "", uploader: str = "", dry_run: bool = Fal
 
     # Video + fotos de un corresponsal: avisar que en Instagram sale el carrusel cruzado.
     _v_mix, _f_mix = _material_mixto(video) if es_corresponsal else ([], [])
-    aviso_mixto = (f"<p>📸 En <b>Instagram</b> sale como <b>carrusel</b> de hasta 10: primero "
+    _prim = _primero_que_llego(_v_mix, _f_mix, video.parent) if _v_mix else None
+    _de_portada = ("la foto que mandó primero y después " if _prim is not None and _prim in _f_mix else "primero ")
+    aviso_mixto = (f"<p>📸 En <b>Instagram</b> sale como <b>carrusel</b> de hasta 10: {_de_portada}"
                    f"{'el video' if len(_v_mix) == 1 else f'los {len(_v_mix)} videos'} y después las placas que "
                    f"explican la nota con {'la foto' if len(_f_mix) == 1 else 'las fotos'}. En Facebook, "
                    f"YouTube, TikTok y las historias sale el reel.</p>") if _v_mix else ""

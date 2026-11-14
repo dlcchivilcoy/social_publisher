@@ -545,15 +545,32 @@ def _crear_hijo_carousel(user_id: str, token: str, jpeg_path: Path, *, intentos:
 
 
 def publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
-                     video_url="", etiquetas=None) -> dict:
+                     video_url="", etiquetas=None, mezcla=None) -> dict:
     """Carrusel de Instagram (ver `_publish_carousel`). `etiquetas`: cuentas a etiquetar; van en
     las fotos, de a 5 por lámina desde la primera (si falla con ellas, sale sin)."""
     return _sin_etiquetas_si_falla(
-        lambda et: _publish_carousel(caption, image_paths, colab, video_url, et), etiquetas, "carrusel")
+        lambda et: _publish_carousel(caption, image_paths, colab, video_url, et, mezcla), etiquetas, "carrusel")
+
+
+def orden_carrusel(videos: list, paths: list, mezcla=None) -> list:
+    """[("video", url) | ("imagen", ruta)] en el orden en que salen. Sin `mezcla`, los videos primero y las
+    imágenes después (como siempre). `mezcla` (14/11/2026, corresponsales): el orden exacto, para que la
+    portada sea lo primero que mandó el vecino aunque sea una foto. Solo entran los videos y las imágenes que
+    quedaron después de los topes."""
+    if not mezcla:
+        return [("video", v) for v in videos] + [("imagen", p) for p in paths]
+    quedan_v, quedan_p = list(videos), list(paths)
+    salida = []
+    for tipo, x in mezcla:
+        lista = quedan_v if tipo == "video" else quedan_p
+        if x in lista:
+            lista.remove(x)
+            salida.append((tipo, x))
+    return salida
 
 
 def _publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
-                      video_url="", etiquetas=None) -> dict:
+                      video_url="", etiquetas=None, mezcla=None) -> dict:
     """Publica un CARRUSEL (varias imágenes en un solo posteo) en Instagram.
 
     Flujo: por cada imagen se crea un contenedor hijo (is_carousel_item=true);
@@ -584,15 +601,18 @@ def _publish_carousel(caption: str, image_paths: list[Path], colab: bool = True,
     temps: list[Path] = []
     try:
         child_ids: list[str] = []
-        for v in videos:
-            child_ids.append(_contenedor_video_listo(
-                user_id, token, {"media_type": "VIDEO", "video_url": v, "is_carousel_item": "true"},
-                v, "video del carrusel"))
-        for i, p in enumerate(paths):
-            jpeg = _as_jpeg(p)
-            if jpeg != p:
+        i = 0                                       # cuántas imágenes van (las etiquetas, de a 5 por foto)
+        for tipo, x in orden_carrusel(videos, paths, mezcla):
+            if tipo == "video":
+                child_ids.append(_contenedor_video_listo(
+                    user_id, token, {"media_type": "VIDEO", "video_url": x, "is_carousel_item": "true"},
+                    x, "video del carrusel"))
+                continue
+            jpeg = _as_jpeg(x)
+            if jpeg != x:
                 temps.append(jpeg)
             lote = cuentas[i * MAX_ETIQUETAS_LAMINA:(i + 1) * MAX_ETIQUETAS_LAMINA]
+            i += 1
             child_ids.append(_crear_hijo_carousel(user_id, token, jpeg, etiquetas=lote or None))
 
         parent_data = {

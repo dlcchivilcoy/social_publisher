@@ -410,6 +410,9 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
     `ORIGEN: corresponsal-whatsapp\n` +
     `NOMBRE: ${nombre}\n` +
     `CELULAR: ${celular}\n` +
+    // 2026-11-14: los números de los archivos (_01, _02…) son el ORDEN EN QUE LLEGARON, fotos y videos
+    // mezclados: el desgrabador pone de portada lo primero que mandó el vecino.
+    `NUMERACION: llegada\n` +
     `DESCRIPCION: ${s.descripcion ?? ""}\n` +
     `AUTORIZACION: ACEPTADA — ${LEGAL} — ${new Date().toISOString()} — wa:${waId}\n`;
 
@@ -422,17 +425,18 @@ async function depositarEnDrive(s: Record<string, unknown>, waId: string): Promi
     : String(s.habla ?? "").trim();
   await subirArchivo(token, carpeta, "contexto.txt", "text/plain; charset=UTF-8",
     enc.encode(contexto + (habla ? `HABLA: ${habla}\n` : "")));
-  // Bajar y subir CADA archivo, numerado (01, 02, …) para preservar el orden en el reel. Fotos → el
+  // Bajar y subir CADA archivo, numerado (01, 02, …) con el ORDEN EN QUE LLEGÓ (2026-11-14, pedido del
+  // usuario: «que ponga primero en portada la primera foto/video que envíen»; antes se numeraba después de
+  // ordenar por tipo y una foto mandada primero quedaba detrás del video). Fotos → el
   // Apps Script dispara `--placa` (reel de la/s foto/s); videos → `--transcribe-video` (si hay varios,
   // el desgrabador los concatena). El contexto.txt va PRIMERO y el material DESPUÉS: los AUDIOS
   // antes que las fotos y los videos al final, así cuando arranca el desgrabador ya está todo.
   const orden = (t: string) => (t === "audio" ? 0 : t === "image" ? 1 : 2);
+  const llegada = new Map(lista.map((m, k) => [m, k + 1]));
   const ordenada = [...lista].sort((a, b) => orden(a.tipo) - orden(b.tipo));
-  let i = 0;
   for (const m of ordenada) {
-    i++;
     const { data, mime } = await bajarMedia(String(m.id));
-    const nn = String(i).padStart(2, "0");
+    const nn = String(llegada.get(m) ?? 0).padStart(2, "0");
     if (mime.startsWith("audio/")) {
       const ext = mime.includes("mpeg") ? "mp3" : mime.includes("mp4") || mime.includes("aac") ? "m4a"
         : mime.includes("amr") ? "amr" : mime.includes("wav") ? "wav" : "ogg";
