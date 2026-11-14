@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 13/11/2026 22:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 8 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 3 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,13 @@ Actualizado: 13/11/2026 22:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - X · Reels policiales · Detuvieron en Junín a un hombre de 41 años acusado de abuso sexual — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Se prendió fuego una camioneta en el camino real Alberti-Benítez — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T22:20 enviado entrevistas:job00313|tiktok 
 - 2026-11-13T22:20 enviado entrevistas:job00314|tiktok 
 - 2026-11-13T22:20 enviado entrevistas:job00315|tiktok 
 - 2026-11-13T22:20 enviado entrevistas:job00315|x 
@@ -60,3 +58,4 @@ Actualizado: 13/11/2026 22:20 (hora AR) · ACTIVO
 - 2026-11-14T00:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-14T01:20 vencido policiales:https://www.chacabuquero.com.ar/2026/11/confronta espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-14T01:20 enviado entrevistas:job00310-r1|tiktok 
+- 2026-11-14T01:40 vencido policiales:https://diarioelsalado.com.ar/2026/11/se-incendio espera su momento (se programa cerca de la hora en que sale en las otras redes)

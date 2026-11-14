@@ -1699,32 +1699,6 @@
    "volanta": "Choque en Bragado",
    "youtube_url": "https://youtube.com/shorts/_Lz50yeCPYI"
   },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos": {
-   "categoria": "robo",
-   "descripcion": "Cayó un sospechoso de 40 años tras un hurto en una casa de la calle Alem al 1800, perpetrado el 03/11/2026. La policía recuperó el teléfono y la billetera.",
-   "distancia_km": 49.3,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-03T23:31:39.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos",
-   "localidad": "Bragado",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-cayo-un-hombre-de-40-anos-tras-un-robo-a-una-vecina-de-f551f8",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "radio_ok": true,
-   "texto_tiktok": "Un operativo policial permitió arrestar a un sujeto de 40 años en Bragado, acusado de ingresar a robar a un domicilio.\n\nEl hecho ocurrió el 03/11/2026 en una finca situada en la calle Alem al 1800.\n\nLa víctima resultó ser una vecina de 71 años, a quien le sustrajeron pertenencias personales.\n\nLas autoridades lograron recuperar el teléfono celular y la billetera que le pertenecían a la damnificada.\n\nLa investigación continúa bajo la intervención judicial correspondiente.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Policiales #Inseguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Aprehendieron a un hombre de 40 años por un robo a una mujer de 71 años",
-   "urgente": false,
-   "video_bytes": 123642,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_07_bragado_aprehendieron-a-un-hombre-de-4.mp4",
-   "volanta": "Hurto esclarecido en Bragado",
-   "youtube_url": ""
-  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo": {
    "categoria": "accidente_vial",
    "descripcion": "Un joven de 21 años debió ser internado en el hospital tras protagonizar un violento choque contra un automóvil en la intersección de calle Las Rosas y el Acceso Elizondo.",
@@ -10568,14 +10542,14 @@
    "viral": true
   },
   "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x": {
-   "actualizado": "2026-11-13T23:40:13.000Z",
+   "actualizado": "2026-11-14T01:40:14.000Z",
    "buffer_id": "",
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x",
    "creado": "2026-11-13T23:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-13T23:31:43.000Z",
    "id": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/",
    "intentos": 0,
@@ -10900,34 +10874,6 @@
    "vence": "2026-11-09T00:32:15.000Z",
    "video_bytes": 83799,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_04_bragado_motociclista-ebrio-choc-contra.mp4",
-   "viral": false
-  },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos|x": {
-   "actualizado": "2026-11-04T01:40:14.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos|x",
-   "creado": "2026-11-03T23:40:19.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-03T23:31:39.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/03/26775-esclarecieron-un-hurto-en-una-vivienda-de-bragado-y-aprehendieron-a-un-hombre-de-40-anos",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-cayo-un-hombre-de-40-anos-tras-un-robo-a-una-vecina-de-f551f8",
-   "noticia": "nota:bragado-cayo-un-hombre-de-40-anos-tras-un-robo-a-una-vecina-de-f551f8",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Aprehendieron a un hombre de 40 años por un robo a una mujer de 71 años\n\nCayó un sospechoso de 40 años tras un hurto en una casa de la calle Alem al 1800, perpetrado el 03/11/2026. La policía recuperó el teléfono y la billetera.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-cayo-un-hombre-de-40-anos-tras-un-robo-a-una-vecina-de-f551f8",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Aprehendieron a un hombre de 40 años por un robo a una mujer de 71 años",
-   "urgente": false,
-   "vence": "2026-11-04T01:31:39.000Z",
-   "video_bytes": 123642,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-03_2135_07_bragado_aprehendieron-a-un-hombre-de-4.mp4",
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/04/26811-un-motociclista-sufrio-una-fractura-expuesta-tras-un-choque-en-el-acceso-elizondo|x": {
@@ -17813,12 +17759,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|x",
-   "cuando": "2026-11-08T00:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119214012168581317"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html|x",
    "cuando": "2026-11-08T00:00:20.000Z",
    "evento": "enviado",
@@ -21958,6 +21898,12 @@
    "cuando": "2026-11-14T01:20:23.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7707814796179148038"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x",
+   "cuando": "2026-11-14T01:40:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
