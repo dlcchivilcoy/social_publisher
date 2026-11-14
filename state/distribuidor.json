@@ -411,6 +411,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_380afed87523ec8c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/FH4edgoDVxs"
   },
+  "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4": {
+   "descripcion": "El Club Social y Deportivo Colón concretó la firma de un importante convenio institucional con la Universidad de Belgrano.\n\nTras el acuerdo alcanzado entre ambas entidades, Esteban Lobianco y Nicolás Lobianco fueron los encargados de brindar detalles acerca de los alcances y la relevancia de este vínculo educativo y deportivo.",
+   "duracion_seg": 148.0,
+   "generado": "2026-11-13T23:55:48.000Z",
+   "id": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El Club Colón firmó un convenio con la Universidad de Belgrano",
+   "urgente": false,
+   "video_bytes": 17439066,
+   "video_mb": 16.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_52f6a3a02444f4fd.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/t5iYAmH6uKw"
+  },
   "entrevistas:job00275": {
    "descripcion": "La concejal Coty Alonso señaló que casi la totalidad del sector comercial en Chivilcoy reclama la falta de contraprestación y presencia municipal. Mirá las declaraciones completas en Radio del Centro.",
    "duracion_seg": null,
@@ -2817,6 +2838,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-chivilcoy-refuerzan-las-medidas-de-prevencion-contra",
    "volanta": "Chivilcoy · Salud"
+  },
+  "web:0a7c727d-6a67-4887-b808-eec9a0e44568": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El Club Colón firmó un convenio con la Universidad de Belgrano CHIVILCOY.– El Club Social y Deportivo Colón firmó un importante convenio con la Universidad de Belgrano. Esteban Lobianco y Nicolás Lobianco brindaron detalles al respecto.",
+   "generado": "2026-11-13T23:55:04.479Z",
+   "id": "web:0a7c727d-6a67-4887-b808-eec9a0e44568",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c02fde3a87734c36b67e167349f51494~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Club Colón firmó un convenio con la Universidad de Belgrano",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
+   "volanta": "Chivilcoy · Institucionales"
   },
   "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8": {
    "categoria": "",
@@ -7264,6 +7304,59 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_380afed87523ec8c.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok": {
+   "actualizado": "2026-11-14T00:00:21.000Z",
+   "buffer_id": "6af7a497d16af15d4ddf5b27",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok",
+   "creado": "2026-11-14T00:00:20.000Z",
+   "dueAt": "2026-11-14T00:03:25.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-13T23:55:48.000Z",
+   "id": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El Club Colón firmó un convenio con la Universidad de Belgrano\n\nEl Club Social y Deportivo Colón concretó la firma de un importante convenio institucional con la Universidad de Belgrano. Tras el acuerdo alcanzado entre ambas entidades, Esteban Lobianco y Nicolás Lobianco fueron los encargados de brindar detalles acerca de los alcances y la relevancia de este vínculo educativo y deportivo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Club Colón firmó un convenio con la Universidad de Belgrano",
+   "urgente": false,
+   "vence": "2026-11-15T23:55:48.000Z",
+   "video_bytes": 17439066,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_52f6a3a02444f4fd.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|x": {
+   "actualizado": "2026-11-14T00:00:20.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|x",
+   "creado": "2026-11-14T00:00:20.000Z",
+   "dueAt": "",
+   "error": "dura 148 s y X admite 140 s sin suscripción",
+   "estado": "descartado",
+   "generado": "2026-11-13T23:55:48.000Z",
+   "id": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
+   "noticia": "nota:chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El Club Colón firmó un convenio con la Universidad de Belgrano",
+   "urgente": false,
+   "vence": "2026-11-14T01:55:48.000Z",
+   "video_bytes": 17439066,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_52f6a3a02444f4fd.mp4",
+   "viral": false
+  },
   "entrevistas:job00275|tiktok": {
    "actualizado": "2026-11-04T22:40:23.000Z",
    "buffer_id": "6aeb9cf1f0e1705c28e70e23",
@@ -9983,15 +10076,15 @@
    "viral": false
   },
   "entrevistas:job00310-r1|tiktok": {
-   "actualizado": "2026-11-13T21:40:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-14T00:00:21.000Z",
+   "buffer_id": "6af7a49881e1228421d1040a",
    "categoria": "",
    "clave": "entrevistas:job00310-r1|tiktok",
    "creado": "2026-11-13T21:40:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-14T00:23:25.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-13T21:40:17.000Z",
    "id": "entrevistas:job00310-r1",
    "intentos": 0,
@@ -12283,6 +12376,33 @@
    "titulo": "Chivilcoy: Refuerzan las medidas de prevención contra el dengue y la vacunación",
    "urgente": false,
    "vence": "2026-11-10T17:54:25.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:0a7c727d-6a67-4887-b808-eec9a0e44568|x": {
+   "actualizado": "2026-11-14T00:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:0a7c727d-6a67-4887-b808-eec9a0e44568|x",
+   "creado": "2026-11-14T00:00:20.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-13T23:55:04.479Z",
+   "id": "web:0a7c727d-6a67-4887-b808-eec9a0e44568",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
+   "noticia": "nota:chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: El Club Colón firmó un convenio con la Universidad de Belgrano\n\nCHIVILCOY.– El Club Social y Deportivo Colón firmó un importante convenio con la Universidad de Belgrano. Esteban Lobianco y Nicolás Lobianco brindaron detalles al respecto.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Club Colón firmó un convenio con la Universidad de Belgrano",
+   "urgente": false,
+   "vence": "2026-11-14T03:55:04.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17745,54 +17865,6 @@
  },
  "registro": [
   {
-   "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|x",
-   "cuando": "2026-11-07T23:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tiktok",
-   "cuando": "2026-11-07T23:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html|x",
-   "cuando": "2026-11-07T23:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x",
-   "cuando": "2026-11-07T23:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:eacc8d49-8717-44c4-bd52-91080cbfae81|x",
-   "cuando": "2026-11-07T23:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf|x",
-   "cuando": "2026-11-07T23:40:24.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
    "clave": "web:eacc8d49-8717-44c4-bd52-91080cbfae81|x",
    "cuando": "2026-11-07T23:40:24.000Z",
    "evento": "depurado",
@@ -21898,11 +21970,54 @@
    "cuando": "2026-11-13T23:40:20.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|x",
+   "cuando": "2026-11-14T00:00:21.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 148 s y X admite 140 s sin suscripción",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok",
+   "cuando": "2026-11-14T00:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:0a7c727d-6a67-4887-b808-eec9a0e44568|x",
+   "cuando": "2026-11-14T00:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0a7c727d-6a67-4887-b808-eec9a0e44568|x",
+   "cuando": "2026-11-14T00:00:21.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "buffer_id": "6af7a497d16af15d4ddf5b27",
+   "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok",
+   "cuando": "2026-11-14T00:00:24.000Z",
+   "dueAt": "2026-11-14T00:03:25.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6af7a49881e1228421d1040a",
+   "clave": "entrevistas:job00310-r1|tiktok",
+   "cuando": "2026-11-14T00:00:24.000Z",
+   "dueAt": "2026-11-14T00:23:25.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-03 21",
    "2026-11-04 10",
    "2026-11-04 18",
    "2026-11-04 21",
@@ -21931,10 +22046,11 @@
    "2026-11-12 18",
    "2026-11-12 21",
    "2026-11-13 10",
-   "2026-11-13 18"
+   "2026-11-13 18",
+   "2026-11-13 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-13",
+ "ultima_limpieza_release": "2026-11-14",
  "ultima_sync": "2026-11-13T23:20:14.000Z",
  "version": 1,
  "vistos": {
@@ -21942,7 +22058,6 @@
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-14_matias-zucchi_mv8r626u5iyv": "2026-10-15T00:00:18.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50": "2026-10-15T00:20:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v": "2026-10-15T00:40:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr": "2026-10-15T00:40:14.000Z",
@@ -22129,6 +22244,7 @@
   "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4": "2026-11-11T14:20:16.000Z",
   "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4": "2026-11-12T00:20:13.000Z",
   "bot:video_matias-zucchi_mwec5iom0isb_01.mp4": "2026-11-13T02:20:15.000Z",
+  "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4": "2026-11-14T00:00:20.000Z",
   "entrevistas:job00211": "2026-10-15T17:00:21.000Z",
   "entrevistas:job00212": "2026-10-15T18:20:17.000Z",
   "entrevistas:job00213": "2026-10-15T17:40:16.000Z",
@@ -22521,6 +22637,7 @@
   "web:07f6b77f-a719-48eb-ab59-425617675b7f": "2026-11-10T14:00:21.000Z",
   "web:088386b2-2c10-423c-848f-4605d2b2e0e5": "2026-11-02T10:03:22.000Z",
   "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d": "2026-10-27T14:20:14.000Z",
+  "web:0a7c727d-6a67-4887-b808-eec9a0e44568": "2026-11-14T00:00:20.000Z",
   "web:0ad113d1-0797-400e-8161-494cc3be7804": "2026-10-20T10:20:14.000Z",
   "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8": "2026-11-05T10:02:30.000Z",
   "web:0ae2afb6-52d2-4336-b9c9-318dc164617e": "2026-10-21T10:20:15.000Z",
@@ -22972,7 +23089,6 @@
   "web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a": "2026-11-04T10:20:13.000Z",
   "web:ba897d31-ac41-4f84-8f0c-c7ed0f8e504d": "2026-10-21T00:40:14.000Z",
   "web:baaf099e-c142-4489-acde-1d17b8a7b862": "2026-11-04T21:20:13.000Z",
-  "web:babe63fa-ef53-4fab-b1c7-628dc773cf8b": "2026-10-15T00:00:18.000Z",
   "web:baed3e4a-9c01-444d-9517-955f540623a8": "2026-11-05T10:02:30.000Z",
   "web:bc053d4c-ad46-498a-b851-acfc5e417338": "2026-11-11T14:00:18.000Z",
   "web:bc895e05-1264-4c69-9d17-5990747c5cfd": "2026-11-03T10:02:22.000Z",
