@@ -165,6 +165,12 @@ def main() -> None:
              "con miniatura (lun-vie 18:00-19:00; uno por corrida, sin vivos ni shorts).",
     )
     parser.add_argument(
+        "--historia-entrevistados",
+        action="store_true",
+        help="Historia de las 19:00 (14/11/2026): los entrevistados del día en «La Mañana del Centro», "
+             "en pantalla dividida, con el texto tipeado y la flecha al mensaje directo (IG + FB).",
+    )
+    parser.add_argument(
         "--publicidades-programadas",
         action="store_true",
         help="Publica en FB/IG las publicidades de clientes cuya hora ya llego, y da de baja "
@@ -467,6 +473,11 @@ def main() -> None:
         from yt_a_facebook import run_yt_a_facebook
         logger.info(f"Modo --yt-facebook (dry_run={args.dry_run}).")
         run_yt_a_facebook(dry_run=args.dry_run)
+        return
+    if args.historia_entrevistados:
+        import historia_entrevistados
+        logger.info(f"Modo --historia-entrevistados (dry_run={args.dry_run}).")
+        historia_entrevistados.correr(dry=args.dry_run)
         return
     if args.publicidades_programadas:
         import publicidades_programadas

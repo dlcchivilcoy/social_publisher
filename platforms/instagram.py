@@ -843,15 +843,15 @@ def _contenedor_video_listo(user_id: str, token: str, data: dict, video_url: str
 
 
 def publish_reel(video_url: str, caption: str, cover_url: str = "", colab: bool = True,
-                 etiquetas=None) -> dict:
+                 etiquetas=None, portada_ms: int = 0) -> dict:
     """Reel de Instagram (ver `_publish_reel`). `etiquetas`: cuentas a etiquetar (solo el usuario,
     los reels no llevan posición); si falla con ellas, sale sin."""
     return _sin_etiquetas_si_falla(
-        lambda et: _publish_reel(video_url, caption, cover_url, colab, et), etiquetas, "reel")
+        lambda et: _publish_reel(video_url, caption, cover_url, colab, et, portada_ms), etiquetas, "reel")
 
 
 def _publish_reel(video_url: str, caption: str, cover_url: str = "", colab: bool = True,
-                  etiquetas=None) -> dict:
+                  etiquetas=None, portada_ms: int = 0) -> dict:
     """Publica un REEL (video vertical) en Instagram a partir de una URL pública del .mp4.
 
     Flujo: crear contenedor media_type=REELS con video_url → esperar a que IG
@@ -873,6 +873,10 @@ def _publish_reel(video_url: str, caption: str, cover_url: str = "", colab: bool
     }
     if cover_url:
         reel_data["cover_url"] = cover_url
+    elif portada_ms:
+        # Sin imagen de portada: el cuadro del propio video en ese milisegundo (15/11/2026, la historia de
+        # los entrevistados, que arranca con la pantalla casi vacía).
+        reel_data["thumb_offset"] = str(int(portada_ms))
     if etiquetas:
         reel_data["user_tags"] = _user_tags(etiquetas)
     if _location():

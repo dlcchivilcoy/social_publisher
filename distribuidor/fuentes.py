@@ -310,9 +310,11 @@ def privacidad_youtube(ids: list[str]) -> dict:
         return {}
 
 
-def limpiar_release(est: dict, dias: int = 5) -> int:
+def limpiar_release(est: dict, dias: int = 9) -> int:
     """Borra del Release `buzon-distribuidor` (MP4 de entrevistas) lo de más de `dias` que
-    ninguna publicación activa usa. Una vez por día. Necesita GITHUB_TOKEN (lo da Actions)."""
+    ninguna publicación activa usa. Una vez por día. Necesita GITHUB_TOKEN (lo da Actions).
+    9 días (15/11/2026, antes 5): la historia del domingo (historia_entrevistados.py) usa los reels
+    de toda la semana, también los del lunes."""
     import os
     tok = os.environ.get("GITHUB_TOKEN") or ""
     hoy = estado.iso(estado.ahora())[:10]
