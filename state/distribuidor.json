@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 8
+    "scheduled": 1,
+    "sent": 9
    },
    "pausado": false,
-   "visto": "2026-11-13T23:20:14.000Z"
+   "visto": "2026-11-14T00:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 25
    },
    "pausado": false,
-   "visto": "2026-11-13T23:20:14.000Z"
+   "visto": "2026-11-14T00:20:14.000Z"
   }
  },
  "contenidos": {
@@ -1672,6 +1672,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_02_junin_apresaron-a-dos-hombres-por-el.mp4",
    "volanta": "Crimen en Mechita",
    "youtube_url": "https://youtube.com/shorts/TkPc9fnKVa4"
+  },
+  "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor": {
+   "categoria": "operativo_policial",
+   "descripcion": "Cayó en la vía pública un sospechoso de 41 años tras la denuncia de un familiar. Lo investiga la fiscal Vanina Lisazo.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-14T00:03:16.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-627473",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Un hombre de 41 años fue capturado en la vía pública de Junín tras ser acusado de efectuar tocamientos a una niña de 12 años.\n\nEl operativo estuvo a cargo de la DDI en la esquina de Comandante Escribano y Carlos Pellegrini, tras una denuncia realizada por un familiar.\n\nLa causa se encuentra bajo la órbita de la fiscal Vanina Lisazo y el Juzgado de Garantías N.º 1, y el imputado quedó alojado a la espera de cupo penitenciario.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #Detenido #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron en Junín a un hombre de 41 años acusado de abuso sexual",
+   "urgente": false,
+   "video_bytes": 75430,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_08_junin_detuvieron-en-jun-n-a-un-hombr.mp4",
+   "volanta": "Operativo policial en Junín",
+   "youtube_url": "https://youtube.com/shorts/-n-wwHuFw0A"
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html": {
    "categoria": "otro_policial",
@@ -7305,19 +7331,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok": {
-   "actualizado": "2026-11-14T00:00:21.000Z",
+   "actualizado": "2026-11-14T00:20:14.000Z",
    "buffer_id": "6af7a497d16af15d4ddf5b27",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok",
    "creado": "2026-11-14T00:00:20.000Z",
    "dueAt": "2026-11-14T00:03:25.000Z",
+   "enviado": "2026-11-14T00:05:49.921Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-13T23:55:48.000Z",
    "id": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7707811210724461845",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -10887,6 +10914,34 @@
    "vence": "2026-11-12T00:01:44.000Z",
    "video_bytes": 74920,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_02_junin_apresaron-a-dos-hombres-por-el.mp4",
+   "viral": true
+  },
+  "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor|x": {
+   "actualizado": "2026-11-14T00:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor|x",
+   "creado": "2026-11-14T00:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-14T00:03:16.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-627473",
+   "noticia": "nota:junin-detuvieron-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-627473",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Detuvieron en Junín a un hombre de 41 años acusado de abuso sexual\n\nCayó en la vía pública un sospechoso de 41 años tras la denuncia de un familiar. Lo investiga la fiscal Vanina Lisazo.\n\nhttps://www.diariolacampaña.com.ar/n/junin-detuvieron-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-627473",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron en Junín a un hombre de 41 años acusado de abuso sexual",
+   "urgente": false,
+   "vence": "2026-11-14T02:03:16.000Z",
+   "video_bytes": 75430,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_08_junin_detuvieron-en-jun-n-a-un-hombr.mp4",
    "viral": true
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x": {
@@ -17865,19 +17920,6 @@
  },
  "registro": [
   {
-   "clave": "web:eacc8d49-8717-44c4-bd52-91080cbfae81|x",
-   "cuando": "2026-11-07T23:40:24.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "buffer_id": "6aefb6e9d6bbae6fa1b8b1fa",
-   "clave": "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|x",
-   "cuando": "2026-11-07T23:40:26.000Z",
-   "dueAt": "2026-11-07T23:42:44.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6aefb6ea562f2e6de9890f5e",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html|x",
    "cuando": "2026-11-07T23:40:26.000Z",
@@ -22014,6 +22056,20 @@
    "cuando": "2026-11-14T00:00:24.000Z",
    "dueAt": "2026-11-14T00:23:25.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor|x",
+   "cuando": "2026-11-14T00:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok",
+   "cuando": "2026-11-14T00:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7707811210724461845"
   }
  ],
  "tandas": {
@@ -22051,14 +22107,13 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-14",
- "ultima_sync": "2026-11-13T23:20:14.000Z",
+ "ultima_sync": "2026-11-14T00:20:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-15_matias-zucchi_mv8s6ci4hv50": "2026-10-15T00:20:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sn4ysyr4v": "2026-10-15T00:40:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv8sv5v3ynkr": "2026-10-15T00:40:14.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mv9k45i7i1i4": "2026-10-15T13:20:17.000Z",
@@ -22491,6 +22546,7 @@
   "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre": "2026-11-06T22:40:13.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin": "2026-11-09T00:20:14.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76483/crimen-en-mechita-una-pista-desde-la-carcel-permitio-esclarecer-el-asesinato": "2026-11-11T22:20:16.000Z",
+  "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor": "2026-11-14T00:20:14.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31004/un-principio-de-incendio-afecto-a-una-camioneta-en-calle-italia.html": "2026-10-15T14:00:19.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31005/investigan-una-llamativa-denuncia-por-el-robo-de-un-auto-durante-la-fiesta-del-caballo.html": "2026-10-15T14:00:19.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html": "2026-10-17T09:00:19.000Z",
@@ -22842,7 +22898,6 @@
   "web:62679199-0cb1-44ba-8928-add87ea1fa3f": "2026-10-15T10:20:13.000Z",
   "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": "2026-10-26T10:20:14.000Z",
   "web:6541af24-4488-427f-95aa-ae535252bd65": "2026-11-02T18:20:16.000Z",
-  "web:65614571-f714-4991-a75b-bc27850d9de1": "2026-10-15T00:20:14.000Z",
   "web:660ce08b-5eea-4d96-ac71-12f7add445dd": "2026-10-19T23:00:18.000Z",
   "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b": "2026-10-28T10:20:19.000Z",
   "web:66bad44b-4ffb-4fe4-a2d7-800fe271a723": "2026-10-29T10:02:34.000Z",

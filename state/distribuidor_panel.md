@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 13/11/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 13/11/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-13)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 13/11/2026 21:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 8 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 7 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 20 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 0 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 25 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 9 enviadas + 1 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 30 · likes 0
@@ -27,7 +27,8 @@ Actualizado: 13/11/2026 21:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
+- X · Reels policiales · Detuvieron en Junín a un hombre de 41 años acusado de abuso sexual — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Rige alerta naranja por tormentas severas y fuertes ráfagas de viento — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Herido tras una pelea entre vecinos por una moto robada en Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Se prendió fuego una camioneta en el camino real Alberti-Benítez — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -36,8 +37,6 @@ Actualizado: 13/11/2026 21:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T21:40 recibido entrevistas:job00310-r1|tiktok 
-- 2026-11-13T21:40 programado entrevistas:job00310-r1|x 
 - 2026-11-13T22:20 recibido policiales:https://www.lamanana.com.ar/secuestraron-seis-veh 
 - 2026-11-13T22:20 enviado entrevistas:job00310-r1|x 
 - 2026-11-13T22:20 enviado entrevistas:job00312|tiktok 
@@ -61,3 +60,5 @@ Actualizado: 13/11/2026 21:00 (hora AR) · ACTIVO
 - 2026-11-14T00:00 depurado web:0a7c727d-6a67-4887-b808-eec9a0e44568|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-14T00:00 programado bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok 
 - 2026-11-14T00:00 programado entrevistas:job00310-r1|tiktok 
+- 2026-11-14T00:20 recibido policiales:https://semanariodejunin.com.ar/nota/76536/detuvi 
+- 2026-11-14T00:20 enviado bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok 
