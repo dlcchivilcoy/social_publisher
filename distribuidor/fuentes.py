@@ -109,8 +109,13 @@ def buzon_local() -> list[dict]:
     return out
 
 
+DIAS_BUZON_ENTREVISTAS = 9
+
+
 def limpiar_buzon(est: dict, dias: int = 4) -> int:
-    """Borra archivos del buzón ya encolados y viejos (el commit del distribuidor los saca)."""
+    """Borra archivos del buzón ya encolados y viejos (el commit del distribuidor los saca). Los de las
+    ENTREVISTAS quedan DIAS_BUZON_ENTREVISTAS (15/11/2026): la historia del sábado y el domingo
+    (historia_entrevistados.py) usa las fichas de toda la semana."""
     if not estado.BUZON.exists():
         return 0
     limite = estado.ahora() - timedelta(days=dias)
@@ -122,7 +127,9 @@ def limpiar_buzon(est: dict, dias: int = 4) -> int:
             continue
         evs = datos if isinstance(datos, list) else [datos]
         ids = [str(ev.get("id")) for ev in evs if isinstance(ev, dict)]
-        viejo = all((estado.de_iso(ev.get("generado")) or estado.ahora()) < limite
+        entrevistas = bool(evs) and all(isinstance(ev, dict) and ev.get("origen") == "entrevistas" for ev in evs)
+        tope = estado.ahora() - timedelta(days=DIAS_BUZON_ENTREVISTAS) if entrevistas else limite
+        viejo = all((estado.de_iso(ev.get("generado")) or estado.ahora()) < tope
                     for ev in evs if isinstance(ev, dict))
         if viejo and all(i in est["vistos"] for i in ids):
             f.unlink()
