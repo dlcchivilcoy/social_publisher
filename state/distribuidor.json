@@ -4344,25 +4344,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-libertad-avanza-chivilcoy-juan-ignacio-felice-afirmo-el",
    "volanta": "La Libertad Avanza"
   },
-  "web:9e795c0b-5665-45d1-8325-8af58d45b889": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: El Municipio recuperó la tenencia de la nave industrial En cumplimiento de una medida cautelar dictada por el Juzgado en lo Contencioso Administrativo N.º 1 de Mercedes, la oficial de justicia del Juzgado de Paz Letrado de Chivilcoy hizo entrega formal este lunes de la tenencia del inmueble municipal que se encontraba en poder de la firma Perchet SAU (vinculada a la operatoria de la ex-Bicontinentar / Paquetá). El procedimiento se llevó a cabo con la intervención de la fuerza...",
-   "generado": "2026-11-04T21:39:15.508Z",
-   "id": "web:9e795c0b-5665-45d1-8325-8af58d45b889",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_15afb8f1faa24c0aa3c90934ebcaa334~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: El Municipio recuperó la tenencia de la nave industrial",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
-   "volanta": "Chivilcoy · Política"
-  },
   "web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4": {
    "categoria": "",
    "descripcion": "Torneo Clausura de la Asociación de Chivilcoy: Bragado Club goleó a Argentino y mantiene firme el sueño del pasaje a los Play-Offs Bragado Club consumó una contundente victoria como local tras superar a Argentino por 71 a 46, en el marco de la 13ª fecha de la fase regular del Torneo Clausura de Primera División organizado por la Asociación de Básquetbol de Chivilcoy. El conjunto tricolor dominó las acciones de principio a fin sin dar opciones al elenco visitante, encadenando así su tercero...",
@@ -5008,6 +4989,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la",
    "volanta": "Chivilcoy · Cultura"
+  },
+  "web:d18919f0-46ff-47b2-83c2-1363d2423d59": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Colón ganó el clásico de visitante y clasificó a cuartos CHIVILCOY.– Colón revirtió el resultado ante Florencio Varela para quedarse con el clásico en condición de visitante y asegurar su clasificación a los cuartos de final. En la próxima fecha, Colón será local ante Moquehuá en un partido determinante por el primer puesto de la fase regular. Todas las emociones ocurrieron en el segundo tiempo. Enzo Benítez abrió el marcador para Florencio Varela tras rematar luego de un desborde...",
+   "generado": "2026-11-14T21:49:05.546Z",
+   "id": "web:d18919f0-46ff-47b2-83c2-1363d2423d59",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_651a90e53a8048dc8bb3e25cfaa51b5e~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-colon-gano-el-clasico-de-visitante-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Colón ganó el clásico de visitante y clasificó a cuartos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-colon-gano-el-clasico-de-visitante-y",
+   "volanta": "Chivilcoy · Deportes"
   },
   "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9": {
    "categoria": "",
@@ -14698,33 +14698,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:9e795c0b-5665-45d1-8325-8af58d45b889|x": {
-   "actualizado": "2026-11-04T21:40:17.000Z",
-   "buffer_id": "",
-   "clave": "web:9e795c0b-5665-45d1-8325-8af58d45b889|x",
-   "creado": "2026-11-04T21:40:12.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-04T21:39:15.508Z",
-   "id": "web:9e795c0b-5665-45d1-8325-8af58d45b889",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
-   "noticia": "nota:chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: El Municipio recuperó la tenencia de la nave industrial\n\nLa Justicia entregó formalmente el inmueble que estaba en poder de la firma Perchet SAU. El procedimiento se cumplió por una medida cautelar y con la intervención de la fuerza pública.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-politica-chivilcoy-el-municipio-recupero-la-tenencia-de-la",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: El Municipio recuperó la tenencia de la nave industrial",
-   "urgente": false,
-   "vence": "2026-11-05T01:39:15.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4|x": {
    "actualizado": "2026-11-11T13:40:15.000Z",
    "buffer_id": "6af4541f9494b43fade73643",
@@ -15810,6 +15783,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:d18919f0-46ff-47b2-83c2-1363d2423d59|x": {
+   "actualizado": "2026-11-14T22:00:19.000Z",
+   "buffer_id": "",
+   "clave": "web:d18919f0-46ff-47b2-83c2-1363d2423d59|x",
+   "creado": "2026-11-14T22:00:17.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-14T21:49:05.546Z",
+   "id": "web:d18919f0-46ff-47b2-83c2-1363d2423d59",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-colon-gano-el-clasico-de-visitante-y",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-colon-gano-el-clasico-de-visitante-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Colón ganó el clásico de visitante y clasificó a cuartos\n\nEl equipo revirtió el resultado ante Florencio Varela. En la próxima fecha recibirá a Moquehuá en un duelo clave por el primer puesto.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-colon-gano-el-clasico-de-visitante-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Colón ganó el clásico de visitante y clasificó a cuartos",
+   "urgente": false,
+   "vence": "2026-11-15T01:49:05.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x": {
    "actualizado": "2026-11-10T15:00:23.000Z",
    "buffer_id": "",
@@ -16726,22 +16726,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok",
-   "cuando": "2026-11-08T17:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:e8070380-cce0-41f4-8a78-b0a02378bc68|x",
-   "cuando": "2026-11-08T17:20:19.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
   {
    "buffer_id": "6af0af54229bf05dafc517ec",
    "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x",
@@ -20876,6 +20860,20 @@
    "cuando": "2026-11-14T20:20:15.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:d18919f0-46ff-47b2-83c2-1363d2423d59|x",
+   "cuando": "2026-11-14T22:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:d18919f0-46ff-47b2-83c2-1363d2423d59|x",
+   "cuando": "2026-11-14T22:00:19.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21926,7 +21924,6 @@
   "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b": "2026-10-22T22:20:17.000Z",
   "web:c5296d2f-83a9-4c62-8aac-248e918bda5e": "2026-10-22T10:02:31.000Z",
   "web:c546061b-2a6f-44e9-b39f-577c4f187d8e": "2026-10-16T10:20:16.000Z",
-  "web:c5ceb6ed-d94b-4498-8d3d-46e32f18caab": "2026-10-15T21:40:16.000Z",
   "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b": "2026-11-12T22:00:19.000Z",
   "web:c636a949-65bd-4d05-988f-93cbad23a411": "2026-10-27T16:20:15.000Z",
   "web:c6663899-669a-41de-b04f-299805304e87": "2026-10-18T18:40:13.000Z",
@@ -21957,6 +21954,7 @@
   "web:ce55311f-7f8e-46c0-8f9a-27108c261a21": "2026-10-26T15:20:14.000Z",
   "web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be": "2026-10-22T10:02:31.000Z",
   "web:d02ad89e-79f9-411b-86f5-added49bc1ff": "2026-10-23T02:00:16.000Z",
+  "web:d18919f0-46ff-47b2-83c2-1363d2423d59": "2026-11-14T22:00:17.000Z",
   "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9": "2026-11-10T15:00:21.000Z",
   "web:d243e208-dd8e-46a7-9465-8665ba05218a": "2026-10-26T12:06:06.000Z",
   "web:d32900c4-88d6-42ae-8c8e-361cf3839478": "2026-10-28T10:02:28.000Z",
