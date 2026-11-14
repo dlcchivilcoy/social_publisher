@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/11/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 14/11/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 14/11/2026 13:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 3 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 14/11/2026 13:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T23:20 enviado entrevistas:job00310|tiktok 
-- 2026-11-13T23:20 enviado entrevistas:job00311|tiktok 
 - 2026-11-13T23:20 enviado policiales:https://www.lamanana.com.ar/secuestraron-seis-veh 
 - 2026-11-13T23:40 recibido policiales:https://diarioelsalado.com.ar/2026/11/se-incendio 
 - 2026-11-13T23:40 recibido web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x 
@@ -58,3 +56,5 @@ Actualizado: 14/11/2026 13:20 (hora AR) · ACTIVO
 - 2026-11-14T12:20 depurado web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-14T16:00 recibido web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6|x 
 - 2026-11-14T16:00 depurado web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-14T16:40 recibido web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x 
+- 2026-11-14T16:40 depurado web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x de la web, a X solo van las notas del diario de la mañana

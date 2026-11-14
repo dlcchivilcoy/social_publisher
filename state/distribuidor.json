@@ -3130,6 +3130,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-1",
    "volanta": "Chivilcoy · Policiales"
   },
+  "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: APREHENDIERON a un menor que circulaba en una moto robada Personal del Grupo Táctico Operativo (GTO), junto a efectivos de la SubDDI Chivilcoy, aprehendió a un menor de 17 años en la intersección de calle Castelli y avenida 9. El adolescente circulaba en una motocicleta Guerrero Trip 110 cc, que, tras ser cursada por el sistema informático, registraba un pedido de secuestro activo desde el 7 de noviembre de 2026, en el marco de una causa por hurto de vehículo dejado en la vía...",
+   "generado": "2026-11-14T16:29:11.005Z",
+   "id": "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_4487b7d48da047fa828372b3a6aebc70~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-2",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: APREHENDIERON a un menor que circulaba en una moto robada",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-2",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:38185935-c480-4780-9b62-2a630fd62c5f": {
    "categoria": "",
    "descripcion": "Chivilcoy: El Lumière Quinteto regresa a la Sociedad Francesa con invitados de lujo CHIVILCOY.– La reconocida agrupación femenina volverá a presentarse en la sala de la calle Moreno 14. El espectáculo contará con la participación especial del violonchelista Diego Sánchez y dos destacadas parejas de baile. El espíritu y la vanguardia de Astor Piazzolla volverán a decir presente en la agenda cultural local. Por tercera vez, el Lumière Quinteto se presentará en la histórica sede de la Sociedad...",
@@ -12620,6 +12639,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x": {
+   "actualizado": "2026-11-14T16:40:16.000Z",
+   "buffer_id": "",
+   "clave": "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x",
+   "creado": "2026-11-14T16:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-14T16:29:11.005Z",
+   "id": "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-2",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-2",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: APREHENDIERON a un menor que circulaba en una moto robada\n\nEfectivos del GTO y la SubDDI aprehendieron a un joven de 17 años en Castelli y avenida 9. El rodado en el que iba tenía un pedido de secuestro activo por hurto.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-2",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: APREHENDIERON a un menor que circulaba en una moto robada",
+   "urgente": false,
+   "vence": "2026-11-14T20:29:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:38185935-c480-4780-9b62-2a630fd62c5f|x": {
    "actualizado": "2026-11-12T12:40:16.000Z",
    "buffer_id": "6af592de49bcfed3aa760229",
@@ -16889,18 +16935,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|x",
-   "cuando": "2026-11-08T01:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119219070918660463"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html|x",
-   "cuando": "2026-11-08T01:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119220302714450372"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x",
    "cuando": "2026-11-08T01:40:15.000Z",
    "evento": "vencido",
@@ -21036,6 +21070,20 @@
    "cuando": "2026-11-14T16:00:23.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x",
+   "cuando": "2026-11-14T16:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x",
+   "cuando": "2026-11-14T16:40:16.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21742,6 +21790,7 @@
   "web:3173f704-43ae-47b8-9c31-154e6d44e402": "2026-11-13T01:40:14.000Z",
   "web:317c620f-6da5-4b5a-b6b9-577556143229": "2026-10-19T17:20:14.000Z",
   "web:31a6f540-e9dd-415d-9833-6137456f0a06": "2026-10-18T22:40:12.000Z",
+  "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2": "2026-11-14T16:40:14.000Z",
   "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe": "2026-10-30T10:01:54.000Z",
   "web:34578935-f4ba-4a48-b177-a3e196a4e890": "2026-10-26T10:20:14.000Z",
   "web:34f6c2bc-72ff-4d48-84bc-64729fa9b00c": "2026-10-29T01:00:22.000Z",
@@ -22216,7 +22265,6 @@
   "web:ed4a9d74-7757-4ff3-9c77-9f162f53815b": "2026-10-16T15:40:14.000Z",
   "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f": "2026-11-06T16:20:16.000Z",
   "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630": "2026-10-18T22:40:12.000Z",
-  "web:ef08afdb-9daf-4a78-95b8-f9238d46d54b": "2026-10-15T16:20:19.000Z",
   "web:ef08f847-d9e6-4534-8776-17ff73df6820": "2026-10-16T18:40:13.000Z",
   "web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e": "2026-11-02T10:03:22.000Z",
   "web:eff024d5-cc52-4c26-9548-edd418eb2cec": "2026-10-17T22:20:14.000Z",
