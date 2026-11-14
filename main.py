@@ -132,13 +132,13 @@ def main() -> None:
     parser.add_argument(
         "--grupo-clasificados",
         action="store_true",
-        help="Invitación SEMANAL a sumarse al grupo de clasificados de Facebook: publicación en el muro con el "
-             "link + historia con QR (una vez por semana desde GRUPO_DIA; --forzar la saca igual).",
+        help="Grupo de clasificados de Facebook: historia de video TODOS LOS DÍAS y, una vez por semana (desde "
+             "GRUPO_DIA), el video en el muro con el link del grupo (--forzar saca las dos igual).",
     )
     parser.add_argument(
         "--forzar",
         action="store_true",
-        help="Con --grupo-clasificados: sale aunque esta semana ya haya salido o no sea el día.",
+        help="Con --grupo-clasificados: sale aunque hoy (historia) o esta semana (muro) ya haya salido.",
     )
     parser.add_argument(
         "--solo-muro",

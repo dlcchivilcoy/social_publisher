@@ -271,9 +271,15 @@ def _canal_marcar() -> None:
 # 5) GRUPO DE CLASIFICADOS (pedido del editor, 23/10/2026: «un posteo semanal en la página de Facebook y una
 #    historia que invite a sumarse al grupo de clasificados, con el link del grupo»). Facebook no deja
 #    publicar EN el grupo ni invitar gente por la API (Groups API retirada en abril de 2024): esto lo
-#    promociona desde la página. Sale una vez por semana: el día GRUPO_DIA (4 = viernes; 0 = lunes) o el
-#    primero después si ese día no corrió. Publicación en el muro (placa 4:5 + texto con el link) e historia
-#    (9:16 con QR) en las redes de STORIES_PLATFORMS.
+#    promociona desde la página.
+#    Desde el 14/11/2026 (pedido del usuario: «cambiá la imagen del QR por algo oficial del grupo de Facebook,
+#    como un video que invite a la compra/venta de productos… y que la historia salga todos los días»):
+#    - la HISTORIA sale TODOS LOS DÍAS y es un video (historia_clasificados.py): el tablero de avisos, la
+#      pregunta «¿Tenés algún producto o servicio?», «Compartilo en el grupo de Clasificados de @diarioyradio»
+#      y la tarjeta del grupo como se ve en Facebook, con el botón «Unirte al grupo»;
+#    - la PUBLICACIÓN EN EL MURO sigue una vez por semana (el día GRUPO_DIA, 4 = viernes, o el primero después
+#      si ese día no corrió), ahora con ese mismo video y el texto con el link del grupo.
+#    Si el video no se puede armar, sale la placa de antes (con QR), para no perder el día.
 # ---------------------------------------------------------------------------
 GRUPO_LEDGER = Path(__file__).parent / ".grupo_clasificados.json"
 GRUPO_URL_DEFAULT = "https://www.facebook.com/groups/1889259989118980"
@@ -295,61 +301,109 @@ def _grupo_estado() -> dict:
 
 
 def grupo_toca(hoy) -> bool:
-    """¿Sale hoy? Una vez por semana ISO, desde el día GRUPO_DIA en adelante."""
+    """¿Toca la publicación del MURO hoy? Una vez por semana ISO, desde el día GRUPO_DIA en adelante."""
     try:
         dia = int(get("GRUPO_DIA") or GRUPO_DIA_DEFAULT)
     except ValueError:
         dia = GRUPO_DIA_DEFAULT
     hechas = _grupo_estado().get("semanas") or {}
-    return hoy.weekday() >= dia and not all(hechas.get(_grupo_semana(hoy), {}).get(r) for r in ("muro", "historia"))
+    return hoy.weekday() >= dia and not hechas.get(_grupo_semana(hoy), {}).get("muro")
+
+
+def grupo_historia_toca(hoy) -> bool:
+    """¿Falta la historia de hoy? Sale todos los días."""
+    return not ((_grupo_estado().get("dias") or {}).get(hoy.isoformat()) or {}).get("historia")
 
 
 def grupo_texto(url: str) -> str:
-    return ("📢 ¿Querés vender, comprar, alquilar o buscás un servicio en Chivilcoy?\n\n"
-            "Sumate a nuestro grupo de CLASIFICADOS de Diario La Campaña y Radio del Centro: publicá lo tuyo "
+    return ("📢 ¿Tenés algún producto o servicio? ¿Querés vender, comprar, alquilar o buscás algo en Chivilcoy?\n\n"
+            "Compartilo en nuestro grupo de CLASIFICADOS de Diario La Campaña y Radio del Centro: publicá lo tuyo "
             "y encontrá lo que necesitás, entre vecinos.\n\n"
             f"👉 Unite acá: {url}\n\n"
             "Compartilo con quien esté buscando o vendiendo algo. 🙌\n\n#Chivilcoy #Clasificados #ComprayVenta")
 
 
+def _grupo_historia_video(mp4: Path) -> dict:
+    """La historia de video en las redes de STORIES_PLATFORMS. try/except por red."""
+    from utils.video_host import upload_reel
+    resultados = {}
+    url = None
+    for red in _platforms():
+        try:
+            if red == "instagram":
+                url = url or upload_reel(mp4)
+                instagram.publish_video_story(url)
+            elif red == "facebook":
+                facebook.publish_video_story(mp4)
+            else:
+                continue
+            resultados[red] = {"success": True}
+            logger.info(f"   [{red}] historia del grupo OK")
+        except Exception as e:
+            resultados[red] = {"success": False, "error": str(e)[:200]}
+            logger.error(f"   [{red}] historia del grupo FALLÓ: {e}")
+    return resultados
+
+
 def run_grupo_clasificados(dry_run: bool = False, forzar: bool = False) -> None:
+    import tempfile
     modo = "SIMULACIÓN (dry-run)" if dry_run else "PUBLICACIÓN REAL"
-    logger.info(f"=== Invitación semanal al grupo de clasificados [{modo}] ===")
+    logger.info(f"=== Grupo de clasificados: historia diaria y muro semanal [{modo}] ===")
     url = get("GRUPO_CLASIFICADOS_URL") or GRUPO_URL_DEFAULT
     hoy = date.today()
-    if not forzar and not grupo_toca(hoy):
-        logger.info("Esta semana ya salió (o todavía no es el día). Se omite.")
+    toca_historia = forzar or grupo_historia_toca(hoy)
+    toca_muro = forzar or grupo_toca(hoy)
+    if not (toca_historia or toca_muro):
+        logger.info("Hoy ya salió la historia y esta semana ya salió el muro (o todavía no es el día). Se omite.")
         return
     estado = _grupo_estado()
-    hecho = estado.setdefault("semanas", {}).setdefault(_grupo_semana(hoy), {})
+    semana = estado.setdefault("semanas", {}).setdefault(_grupo_semana(hoy), {})
+    dia = estado.setdefault("dias", {}).setdefault(hoy.isoformat(), {})
+    mp4 = None
     try:
-        feed = compose_grupo_placa(url, alto=1350)
-        historia = compose_grupo_placa(url)
+        import historia_clasificados as HCL
+        mp4 = HCL.armar(Path(tempfile.mkdtemp(prefix="grupo_")) / f"historia_clasificados_{hoy:%Y%m%d}.mp4", hoy)
+        logger.info(f"   video armado: {mp4.name}")
     except Exception as e:
-        logger.error(f"No se pudo armar la placa del grupo: {e}")
-        return
+        logger.error(f"No se pudo armar el video del grupo ({type(e).__name__}: {e}): sale la placa de antes.")
+    feed = historia = None
+    if mp4 is None:
+        try:
+            feed = compose_grupo_placa(url, alto=1350)
+            historia = compose_grupo_placa(url)
+        except Exception as e:
+            logger.error(f"No se pudo armar la placa del grupo: {e}")
+            return
     if dry_run:
-        logger.info(f"   [dry-run] muro: {feed.name} + texto:\n{grupo_texto(url)}")
-        logger.info(f"   [dry-run] historia: {historia.name}")
+        if toca_historia:
+            logger.info(f"   [dry-run] historia: {(mp4 or historia).name}")
+        if toca_muro:
+            logger.info(f"   [dry-run] muro: {(mp4 or feed).name} + texto:\n{grupo_texto(url)}")
         return
 
     def guardar():
         estado["semanas"] = dict(sorted(estado["semanas"].items())[-8:])
+        estado["dias"] = dict(sorted(estado["dias"].items())[-14:])
         GRUPO_LEDGER.write_text(json.dumps(estado, ensure_ascii=False), encoding="utf-8")
 
-    if not hecho.get("muro"):
+    if toca_historia:
+        res = _grupo_historia_video(mp4) if mp4 else _publish(historia, False)
+        if _ok(res):
+            dia["historia"] = hoy.isoformat()
+            guardar()
+    if toca_muro:
         try:
-            facebook.publish(grupo_texto(url), feed)
-            hecho["muro"] = date.today().isoformat()
+            if mp4:
+                # Video común (no reel): en un reel de Facebook el link del texto no se puede tocar.
+                facebook.publish_video(grupo_texto(url), mp4, preferir_reel=False)
+            else:
+                facebook.publish(grupo_texto(url), feed)
+            semana["muro"] = hoy.isoformat()
             guardar()
             logger.info("   [facebook] publicación en el muro OK")
         except Exception as e:
             logger.error(f"   [facebook] publicación en el muro FALLÓ: {e}")
-    if not hecho.get("historia"):
-        if _ok(_publish(historia, False)):
-            hecho["historia"] = date.today().isoformat()
-            guardar()
-    logger.info("=== Invitación al grupo de clasificados: fin ===")
+    logger.info("=== Grupo de clasificados: fin ===")
 
 
 def run_canal_story(dry_run: bool = False) -> None:
