@@ -3548,6 +3548,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-colon-continua-sumando-triunfos-para-estirar-su-record",
    "volanta": "Básquet"
   },
+  "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Murió un motociclista tras un choque en avenida Avellaneda y Arenales Un motociclista falleció tras un choque registrado alrededor de las 14 de este sábado 14 de noviembre en la esquina de avenida Avellaneda y Arenales, en Chivilcoy. Según la información inicial, el conductor habría sufrido un traumatismo grave en la cabeza. El personal de emergencias lo asistió en el lugar y lo trasladó de urgencia al Hospital Municipal, adonde llegó sin vida. Por su parte, una joven involucrada...",
+   "generado": "2026-11-14T20:10:08.426Z",
+   "id": "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c6b760e4b632470ab5fcadf80c86f871~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-murio-un-motociclista-tras-un-choque-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Murió un motociclista tras un choque en avenida Avellaneda y Arenales",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-murio-un-motociclista-tras-un-choque-en",
+   "volanta": "Chivilcoy · Accidente"
+  },
   "web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3": {
    "categoria": "",
    "descripcion": "Chivilcoy: El Torneo Clausura de Primera en la previa de una fecha 13° que determinará los dos extremos de la tabla: el ganador de la fase regular y el último clasificado a octavos CHIVILCOY.– A falta de una sola fecha para el cierre de la fase regular, Social Moquehuá defiende la punta ante Gimnasia, mientras que la lucha por meterse en cuartos de final, evitar el repechaje y escapar del fondo promete noventa minutos infartantes. La emoción del fútbol local entra en su recta definitiva. Con...",
@@ -13236,6 +13255,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x": {
+   "actualizado": "2026-11-14T20:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x",
+   "creado": "2026-11-14T20:20:13.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-14T20:10:08.426Z",
+   "id": "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-murio-un-motociclista-tras-un-choque-en",
+   "noticia": "nota:chivilcoy-accidente-chivilcoy-murio-un-motociclista-tras-un-choque-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Murió un motociclista tras un choque en avenida Avellaneda y Arenales\n\nEl conductor habría sufrido un traumatismo grave en la cabeza tras el impacto. Fue asistido y trasladado al Hospital Municipal, adonde llegó sin vida.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-murio-un-motociclista-tras-un-choque-en",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Murió un motociclista tras un choque en avenida Avellaneda y Arenales",
+   "urgente": false,
+   "vence": "2026-11-15T00:10:08.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3|x": {
    "actualizado": "2026-11-10T12:40:13.000Z",
    "buffer_id": "6af2f948e6a19650c9852c43",
@@ -16786,20 +16832,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x",
-   "cuando": "2026-11-08T01:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|x",
-   "cuando": "2026-11-08T17:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "bot:video_matias-zucchi_mw82pn1o5mwr_01.mp4|tiktok",
    "cuando": "2026-11-08T17:20:19.000Z",
@@ -20936,6 +20968,20 @@
    "cuando": "2026-11-14T16:40:16.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x",
+   "cuando": "2026-11-14T20:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x",
+   "cuando": "2026-11-14T20:20:15.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -20980,7 +21026,6 @@
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-15_matias-zucchi_mv9z47vxwzy2": "2026-10-15T20:20:15.000Z",
   "bot:corresponsal_2026-10-15_matias-zucchi_mva6mbt2vjwx": "2026-10-16T00:00:21.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mva8wqql7oop": "2026-10-16T01:00:17.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mva982rrqbi3": "2026-10-16T01:00:17.000Z",
@@ -21538,7 +21583,6 @@
   "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42": "2026-11-03T10:02:22.000Z",
   "web:0c795818-6600-44be-a68c-acb6a2eedf65": "2026-11-06T10:02:35.000Z",
   "web:0cd5c457-7502-4d59-8051-9927ae917ce7": "2026-10-29T10:02:34.000Z",
-  "web:0cd8907a-b0ff-49b3-97c8-f1e6fc77279f": "2026-10-15T20:20:15.000Z",
   "web:0d0f2a09-0416-445a-82b7-74eed589d782": "2026-11-05T10:02:30.000Z",
   "web:0e1ea41e-dbd2-458f-9377-3409f308f7eb": "2026-10-22T15:20:17.000Z",
   "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814": "2026-11-09T10:20:14.000Z",
@@ -21719,6 +21763,7 @@
   "web:5bed14ed-a1b5-489b-a283-67d7d832c78c": "2026-10-27T10:20:16.000Z",
   "web:5c389835-1655-4415-b7ad-23045aa7c3ca": "2026-10-19T13:20:16.000Z",
   "web:5ca863ea-d5c6-45ae-b613-ee86268b66cc": "2026-10-27T10:03:31.000Z",
+  "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb": "2026-11-14T20:20:13.000Z",
   "web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3": "2026-11-10T10:02:42.000Z",
   "web:5de0a567-504a-4513-8e76-0f10b16b1c52": "2026-11-09T10:20:14.000Z",
   "web:5e1b7468-652a-43da-baf9-771cda1103ff": "2026-10-18T15:20:15.000Z",

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/11/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 14/11/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 14/11/2026 17:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 14/11/2026 17:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-13T23:20 enviado policiales:https://www.lamanana.com.ar/secuestraron-seis-veh 
-- 2026-11-13T23:40 recibido policiales:https://diarioelsalado.com.ar/2026/11/se-incendio 
 - 2026-11-13T23:40 recibido web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x 
 - 2026-11-13T23:40 depurado web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-14T00:00 recibido bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|x dura 148 s y X admite 140 s sin suscripción
@@ -58,3 +56,5 @@ Actualizado: 14/11/2026 17:00 (hora AR) · ACTIVO
 - 2026-11-14T16:00 depurado web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-14T16:40 recibido web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x 
 - 2026-11-14T16:40 depurado web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-14T20:20 recibido web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x 
+- 2026-11-14T20:20 depurado web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x de la web, a X solo van las notas del diario de la mañana
