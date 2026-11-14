@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/11/2026 18:20 (hora AR) · ACTIVO
+Actualizado: 14/11/2026 18:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -22,7 +22,7 @@ Actualizado: 14/11/2026 18:20 (hora AR) · ACTIVO
 - X · Reels policiales: 19 con métricas · mediana vistas/impresiones 51 · likes 0
 - X · Notas web: 100 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 43 con métricas · mediana vistas/impresiones 161 · likes 1
-- TikTok · Reels del bot: 17 con métricas · mediana vistas/impresiones 335 · likes 4
+- TikTok · Reels del bot: 16 con métricas · mediana vistas/impresiones 376.5 · likes 5.5
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
