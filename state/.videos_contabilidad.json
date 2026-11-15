@@ -42146,5 +42146,60 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-11-15T13:51:13",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-11-15_matias-zucchi_mwi47kdvy9rl",
+    "uploader": "",
+    "fecha_recibido": "2026-11-15T14:37:58",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Chivilcoy · Deportes",
+    "titulo": "Cierre de año de la categoría Mosquitos en el Estadio Centro",
+    "resumen": "Se realizó el cierre de año de la categoría Mosquitos en el Estadio Centro, organizado por el Club Gimnasia. Clubes participantes: Gimnasia y Esgrima, Colón, Racing y Bragado Club. Una gran cantidad de peques y un gran marco de público se vivió en esta hermosa jornada.",
+    "texto": "Se realizó el cierre de año de la categoría Mosquitos en el Estadio Centro, organizado por el Club Gimnasia.\n\nClubes participantes:\n- Gimnasia y Esgrima\n- Colón\n- Racing\n- Bragado Club\n\nUna gran cantidad de peques y un gran marco de público se vivió en esta hermosa jornada. Felicitaciones a todos.",
+    "bajada_reel": "El encuentro organizado por Gimnasia reunió a Colón, Racing y Bragado Club con gran marco.",
+    "escrito": "SE REALIZO EL CIERRE DE AÑO DE LA CATEGORIA MOSQUITOS EN EL ESTADIO CENTRO ORGANIZADO POR EL CLUB GIMNASIA.\nCLUBES PARTICIPANTES:\nGIMNASIA Y ESGRIMA.\nCOLON.\nRACING.\nBRAGADO CLUB.\nGRAN CANTIDAD DE PEQUES Y UN GRAN MARCO DE PUBLICO SE VIVIO EN ESTA HERMOSA JORNADA.\nFELICITACIONES A TODOS.",
+    "tarjetas_fotos": [],
+    "draft_id": "bff9dfc7-873a-4a8d-a3de-da24428245eb",
+    "reel_url": "",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-15T17:35:07.884Z — wa:5492346417636",
+    "decl": null,
+    "formato": "carrusel",
+    "tema_carrusel": "claro",
+    "laminas": [
+      {
+        "titulo": "Cierre de la categoría Mosquitos",
+        "texto": "Se realizó el cierre de año de la categoría Mosquitos en el Estadio Centro, organizado por el Club Gimnasia."
+      },
+      {
+        "titulo": "Clubes participantes",
+        "texto": "Clubes participantes: Gimnasia y Esgrima, Colón, Racing y Bragado Club."
+      },
+      {
+        "titulo": "Jornada y marco de público",
+        "texto": "Una gran cantidad de peques y un gran marco de público se vivió en esta hermosa jornada. Felicitaciones a todos."
+      }
+    ],
+    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_d82510ef62a141faa434e188e5917f40~mv2.jpg",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-11-15T14:39:06",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-cierre-de-ano-de-la-categoria-mosquitos",
+    "ig_media_id": "18129976195888096",
+    "fb_video_id": "",
+    "ig_historia_id": "",
+    "fb_historia_id": "",
+    "fb_post_id": "1456376377985890_2093327738275518"
   }
 ]
