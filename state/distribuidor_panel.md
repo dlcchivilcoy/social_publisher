@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/11/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 14/11/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 14/11/2026 21:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 1 | 0 | 1 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,13 @@ Actualizado: 14/11/2026 21:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - X · Reels policiales · Múltiples operativos en Junín: cuatro aprehensiones, un prófugo y drogas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Demoraron a un hombre que rompió los vidrios de un kiosco en el centro — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-14T00:00 recibido web:0a7c727d-6a67-4887-b808-eec9a0e44568|x 
 - 2026-11-14T00:00 depurado web:0a7c727d-6a67-4887-b808-eec9a0e44568|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-14T00:00 programado bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok 
 - 2026-11-14T00:00 programado entrevistas:job00310-r1|tiktok 
@@ -60,3 +58,4 @@ Actualizado: 14/11/2026 21:00 (hora AR) · ACTIVO
 - 2026-11-14T22:00 depurado web:d18919f0-46ff-47b2-83c2-1363d2423d59|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-14T22:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/policiale 
 - 2026-11-14T22:40 recibido policiales:https://junin24.com/policiales/esclarecen-un-hurt 
+- 2026-11-15T00:20 vencido policiales:https://www.chacabuquero.com.ar/2026/11/policiale espera su momento (se programa cerca de la hora en que sale en las otras redes)
