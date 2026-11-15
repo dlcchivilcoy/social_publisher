@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-15T21:20:19.000Z"
+   "visto": "2026-11-15T22:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 2
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-11-15T21:20:19.000Z"
+   "visto": "2026-11-15T22:40:14.000Z"
   }
  },
  "contenidos": {
@@ -1312,6 +1312,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_07_alberti_se-prendi-fuego-una-camioneta-.mp4",
    "volanta": "Incendio en el camino real Alberti-Benítez",
    "youtube_url": "https://youtube.com/shorts/e2UrpOpOwTQ"
+  },
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/": {
+   "categoria": "accidente_vial",
+   "descripcion": "Adrián Ezequiel Buchholz, de 30 años y domiciliado en la ciudad, falleció en la madrugada de este domingo al chocar su auto contra un camión en el kilómetro 183 de la Ruta Nacional 5.",
+   "distancia_km": 28.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-15T22:32:12.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/",
+   "localidad": "Alberti",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-un-automovilista-de-30-anos-murio-en-un-choque-frontal-2c0fa3",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Un trágico choque frontal sobre la Ruta 5 cobró la vida de un vecino de la zona durante las primeras horas del domingo.\n\nEl impacto se produjo a la altura del kilómetro 183 entre un automóvil y un camión de carga.\n\nLas autoridades judiciales investigan las causas del siniestro vial bajo la carátula de homicidio culposo.\n\n📲 Más noticias de Alberti en www.diariolacampaña.com.ar\n\n#Alberti #SiniestroVial #Ruta5 #BuenosAires",
+   "tipo": "video",
+   "titulo": "Murió un conductor de 30 años en un choque frontal en la Ruta 5",
+   "urgente": false,
+   "video_bytes": 98646,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_03_alberti_muri-un-conductor-de-30-a-os-e.mp4",
+   "volanta": "Choque fatal en Alberti",
+   "youtube_url": "https://youtube.com/shorts/yII15iIFYTE"
   },
   "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores": {
    "categoria": "robo",
@@ -9411,6 +9437,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_07_alberti_se-prendi-fuego-una-camioneta-.mp4",
    "viral": false
   },
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/|x": {
+   "actualizado": "2026-11-15T22:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/|x",
+   "creado": "2026-11-15T22:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-15T22:32:12.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-un-automovilista-de-30-anos-murio-en-un-choque-frontal-2c0fa3",
+   "noticia": "nota:alberti-un-automovilista-de-30-anos-murio-en-un-choque-frontal-2c0fa3",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Murió un conductor de 30 años en un choque frontal en la Ruta 5\n\nAdrián Ezequiel Buchholz, de 30 años y domiciliado en la ciudad, falleció en la madrugada de este domingo al chocar su auto contra un camión en el kilómetro 183 de la Ruta Nacional 5.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-un-automovilista-de-30-anos-murio-en-un-choque-frontal-2c0fa3",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Murió un conductor de 30 años en un choque frontal en la Ruta 5",
+   "urgente": false,
+   "vence": "2026-11-16T00:32:12.000Z",
+   "video_bytes": 98646,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_03_alberti_muri-un-conductor-de-30-a-os-e.mp4",
+   "viral": true
+  },
   "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores|x": {
    "actualizado": "2026-11-15T00:40:15.000Z",
    "buffer_id": "",
@@ -10370,18 +10424,19 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x": {
-   "actualizado": "2026-11-15T22:20:14.000Z",
+   "actualizado": "2026-11-15T22:40:14.000Z",
    "buffer_id": "6afa301e06e1675856ac5010",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x",
    "creado": "2026-11-15T22:20:14.000Z",
    "dueAt": "2026-11-15T22:23:19.000Z",
+   "enviado": "2026-11-15T22:23:33.190Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-15T22:03:17.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122093169781129317",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
    "noticia": "nota:chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
    "origen": "policiales",
@@ -15638,21 +15693,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af10d1ed6bbae6fa11bfabe",
-   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok",
-   "cuando": "2026-11-09T00:00:30.000Z",
-   "dueAt": "2026-11-09T00:23:35.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x",
-   "cuando": "2026-11-09T00:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "web:31292745-1874-4666-bb1a-583ba97f9032|x",
    "cuando": "2026-11-09T01:00:21.000Z",
    "estado": "pendiente",
@@ -19782,6 +19822,20 @@
    "cuando": "2026-11-15T22:20:14.000Z",
    "dueAt": "2026-11-15T22:23:19.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/|x",
+   "cuando": "2026-11-15T22:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x",
+   "cuando": "2026-11-15T22:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122093169781129317"
   }
  ],
  "tandas": {
@@ -19819,7 +19873,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-15",
- "ultima_sync": "2026-11-15T21:20:19.000Z",
+ "ultima_sync": "2026-11-15T22:40:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -20190,6 +20244,7 @@
   "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/": "2026-11-12T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/": "2026-11-13T23:40:13.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/": "2026-11-03T22:40:14.000Z",
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/": "2026-11-15T22:40:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura": "2026-10-26T09:00:18.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron": "2026-10-26T23:20:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion": "2026-11-02T23:40:16.000Z",
