@@ -1489,6 +1489,32 @@
    "volanta": "Operativo policial en Junín",
    "youtube_url": "https://youtube.com/shorts/-n-wwHuFw0A"
   },
+  "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto": {
+   "categoria": "robo",
+   "descripcion": "Un trabajador de reparto y su pareja fueron atacados por dos ladrones armados con un fierro en Javier Muñiz y Chile. La víctima se resistió a los golpes y evitó que le robaran el rodado. Terminó con heridas leves y fue asistido en el hospital.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-15T23:33:22.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-delivery-se-resistio-a-los-golpes-y-evito-que-dos-5e2306",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Un violento episodio de inseguridad se registró en la ciudad de Junín, donde un trabajador de reparto se enfrentó a los golpes con dos motochorros para evitar que le robaran el rodado.\n\nEl hecho ocurrió cerca de las 22 en la intersección de Javier Muñiz y Chile, cuando la víctima y su pareja realizaban entregas a bordo de una moto Honda Wave S.\n\nLos asaltantes los interceptaron a bordo de un motovehículo de 110 cilindradas y los amenazaron con un objeto metálico para exigirles la entrega del rodado.\n\nAnte la resistencia del conductor, uno de los atacantes comenzó a golpearlo con el fierro, mientras el cómplice esperaba al mando del vehículo.\n\nA pesar de la agresión, el repartidor logró repeler el asalto y obligó a los ladrones a escapar sin concretar el robo.\n\nEl joven sufrió lesiones en un brazo y diversos golpes en el cuerpo, por lo que debió acudir al hospital local para recibir atención médica.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Inseguridad #RoboFrustrado #BuenosAires",
+   "tipo": "video",
+   "titulo": "Junín: un repartidor se defendió a golpes de motochorros y frustró el robo de su moto",
+   "urgente": false,
+   "video_bytes": 78246,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_08_junin_jun-n-un-repartidor-se-defendi.mp4",
+   "volanta": "Violento asalto en Junín",
+   "youtube_url": "https://youtube.com/shorts/RX6zJVKkQO0"
+  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html": {
    "categoria": "otro_policial",
    "descripcion": "Un conductor de una moto que manejaba bajo los efectos del alcohol impactó contra un Volkswagen Bora estacionado frente al teatro Constantino. Le secuestraron el rodado.",
@@ -9448,6 +9474,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_08_junin_detuvieron-en-jun-n-a-un-hombr.mp4",
    "viral": true
   },
+  "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto|x": {
+   "actualizado": "2026-11-15T23:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto|x",
+   "creado": "2026-11-15T23:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-15T23:33:22.000Z",
+   "id": "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-delivery-se-resistio-a-los-golpes-y-evito-que-dos-5e2306",
+   "noticia": "nota:junin-un-delivery-se-resistio-a-los-golpes-y-evito-que-dos-5e2306",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Junín: un repartidor se defendió a golpes de motochorros y frustró el robo de su moto\n\nDos ladrones atacaron a un repartidor y su pareja en Javier Muñiz y Chile. La víctima sufrió heridas leves tras resistirse y fue asistida en el hospital.\n\nhttps://www.diariolacampaña.com.ar/n/junin-un-delivery-se-resistio-a-los-golpes-y-evito-que-dos-5e2306",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Junín: un repartidor se defendió a golpes de motochorros y frustró el robo de su moto",
+   "urgente": false,
+   "vence": "2026-11-16T01:33:22.000Z",
+   "video_bytes": 78246,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_08_junin_jun-n-un-repartidor-se-defendi.mp4",
+   "viral": false
+  },
   "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x": {
    "actualizado": "2026-11-09T00:00:22.000Z",
    "buffer_id": "6af0ff08562f2e6de9e8b4fc",
@@ -15354,12 +15408,6 @@
  },
  "registro": [
   {
-   "clave": "web:31292745-1874-4666-bb1a-583ba97f9032|x",
-   "cuando": "2026-11-09T01:00:21.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok",
    "cuando": "2026-11-09T01:20:16.000Z",
    "evento": "enviado",
@@ -19497,6 +19545,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto|x",
+   "cuando": "2026-11-15T23:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -19935,6 +19991,7 @@
   "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin": "2026-11-09T00:20:14.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76483/crimen-en-mechita-una-pista-desde-la-carcel-permitio-esclarecer-el-asesinato": "2026-11-11T22:20:16.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor": "2026-11-14T00:20:14.000Z",
+  "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto": "2026-11-15T23:40:13.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html": "2026-10-17T09:00:19.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html": "2026-10-21T00:40:14.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html": "2026-10-21T00:20:18.000Z",
@@ -20054,7 +20111,6 @@
   "web:045183d9-6073-43b7-83df-69738e914aa5": "2026-11-12T10:02:44.000Z",
   "web:04a24de3-2093-4b59-8e4e-5da6fa217039": "2026-11-04T09:00:19.000Z",
   "web:053f7722-ce93-4d22-9679-cc89862bee76": "2026-10-20T10:20:14.000Z",
-  "web:054fa202-87fe-43be-afff-36d09259bbf7": "2026-10-16T23:40:15.000Z",
   "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17": "2026-10-19T10:20:14.000Z",
   "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067": "2026-11-11T10:02:35.000Z",
   "web:071fe0d7-07fd-406f-9b34-979c80fb37a2": "2026-10-19T16:00:16.000Z",
