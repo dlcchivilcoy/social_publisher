@@ -9766,14 +9766,14 @@
    "viral": false
   },
   "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores|x": {
-   "actualizado": "2026-11-14T22:40:13.000Z",
+   "actualizado": "2026-11-15T00:40:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores|x",
    "creado": "2026-11-14T22:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-14T22:33:20.000Z",
    "id": "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores",
    "intentos": 0,
@@ -16486,14 +16486,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|tiktok",
-   "cuando": "2026-11-08T20:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:aa54283b-118c-4bae-8790-73ed73c0006c|x",
    "cuando": "2026-11-08T20:40:15.000Z",
    "estado": "descartado",
@@ -20632,6 +20624,12 @@
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html|x",
    "cuando": "2026-11-15T00:20:14.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores|x",
+   "cuando": "2026-11-15T00:40:15.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
