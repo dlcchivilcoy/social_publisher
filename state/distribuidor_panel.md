@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/11/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 15/11/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 1 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 2 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -34,7 +34,6 @@ Actualizado: 15/11/2026 14:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-14T20:20 recibido web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x 
 - 2026-11-14T20:20 depurado web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-14T22:00 recibido web:d18919f0-46ff-47b2-83c2-1363d2423d59|x 
 - 2026-11-14T22:00 depurado web:d18919f0-46ff-47b2-83c2-1363d2423d59|x de la web, a X solo van las notas del diario de la mañana
@@ -59,3 +58,4 @@ Actualizado: 15/11/2026 14:00 (hora AR) · ACTIVO
 - 2026-11-15T17:00 recibido bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok 
 - 2026-11-15T17:00 recibido web:5296a026-93a3-4ae5-a568-78482a52580c|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-15T17:00 programado bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x 
+- 2026-11-15T17:20 enviado bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x 
