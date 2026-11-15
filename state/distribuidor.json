@@ -390,6 +390,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2594ef04e2cb14e0.mp4",
    "youtube_url": "https://www.youtube.com/shorts/oUpffTveV1k"
   },
+  "bot:video_matias-zucchi_mwi2eoljergp_01.mp4": {
+   "descripcion": "El básquet formativo tuvo una jornada especial con el cierre de año de la categoría Mosquitos, desarrollado en las instalaciones del Estadio Centro bajo la organización del Club Gimnasia y Esgrima.\n\nEl encuentro deportivo y recreativo reunió a una gran cantidad de chicos pertenecientes a distintas instituciones de la zona. Además del club anfitrión, participaron de las actividades las delegaciones de Colón, Racing y Bragado Club.\n\nLa propuesta contó con un importante marco de público en las tribunas, donde familias enteras acompañaron a los pequeños basquetbolistas durante los diferentes partidos que marcaron la despedida del ciclo deportivo.",
+   "duracion_seg": 124.1,
+   "generado": "2026-11-15T16:51:15.000Z",
+   "id": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO",
+   "urgente": false,
+   "video_bytes": 28196847,
+   "video_mb": 26.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae04118e838617e.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/G05XcGp1B1A"
+  },
   "entrevistas:job00279": {
    "descripcion": "En Chivilcoy, Fabian Casco, organizador de La Pampa Rock, contó cómo protegen y entregan en adopción responsable a galgos rescatados durante el festival.",
    "duracion_seg": null,
@@ -3188,6 +3209,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/padel-destacado-subcampeonato-para-francisco-britos-en-el-ajpp-4-000",
    "volanta": "Padel"
+  },
+  "web:5296a026-93a3-4ae5-a568-78482a52580c": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO CHIVILCOY.– Se realizó el cierre de año de la categoría MOSQUITOS en el ESTADIO CENTRO, organizado por el CLUB GIMNASIA. Los clubes participantes fueron: - GIMNASIA y ESGRIMA - COLON - RACING - BRAGADO CLUB Una gran cantidad de chicos y un gran marco de público se vivieron en esta hermosa jornada. FELICITACIONES a todos.",
+   "generado": "2026-11-15T16:50:15.618Z",
+   "id": "web:5296a026-93a3-4ae5-a568-78482a52580c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_f81c2dde6670448b80e3b4cd4f0eb4be~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
+   "volanta": "Chivilcoy · Deportes"
   },
   "web:547df2b0-7a1a-4b57-923f-b7947b7b5134": {
    "categoria": "",
@@ -6391,6 +6431,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2594ef04e2cb14e0.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok": {
+   "actualizado": "2026-11-15T17:00:25.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok",
+   "creado": "2026-11-15T17:00:25.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-15T16:51:15.000Z",
+   "id": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO\n\nBajo la organización del Club Gimnasia y Esgrima, una gran cantidad de chicos de distintas instituciones de la zona participaron de una jornada deportiva y recreativa. Las actividades contaron con la presencia de delegaciones de Colón, Racing y Bragado Club, acompañadas por familias enteras en las tribunas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO",
+   "urgente": false,
+   "vence": "2026-11-17T16:51:15.000Z",
+   "video_bytes": 28196847,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae04118e838617e.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x": {
+   "actualizado": "2026-11-15T17:00:30.000Z",
+   "buffer_id": "6af9e52f4f0276ab944e3a33",
+   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x",
+   "creado": "2026-11-15T17:00:25.000Z",
+   "dueAt": "2026-11-15T17:02:54.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-15T16:51:15.000Z",
+   "id": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO\n\nGimnasia y Esgrima organizó una jornada con chicos de varias instituciones de la zona. Las familias acompañaron los partidos de las delegaciones de Colón, Racing y Bragado Club.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO",
+   "urgente": false,
+   "vence": "2026-11-15T18:51:15.000Z",
+   "video_bytes": 28196847,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae04118e838617e.mp4",
+   "viral": false
+  },
   "entrevistas:job00279|tiktok": {
    "actualizado": "2026-11-05T22:40:16.000Z",
    "buffer_id": "6aecee6b19bea0313feae338",
@@ -6426,43 +6522,6 @@
    "titulo": "Fabian Casco: galgos rescatados en La Pampa Rock",
    "urgente": false,
    "vence": "2026-11-07T16:40:15.000Z",
-   "video_bytes": 22247420,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00279.mp4",
-   "viral": false
-  },
-  "entrevistas:job00279|x": {
-   "actualizado": "2026-11-05T17:00:20.000Z",
-   "buffer_id": "6aecb1719b4d9c55763416b1",
-   "clave": "entrevistas:job00279|x",
-   "creado": "2026-11-05T16:40:15.000Z",
-   "dueAt": "2026-11-05T16:42:34.000Z",
-   "enviado": "2026-11-05T16:42:55.554Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-05T16:40:15.000Z",
-   "id": "entrevistas:job00279",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2118383569705796042",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 12,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:casco-fabian-galgos-pampa-rescatados-rock",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Fabian Casco: galgos rescatados en La Pampa Rock\n\nEn Chivilcoy, Fabian Casco, organizador de La Pampa Rock, contó cómo protegen y entregan en adopción responsable a galgos rescatados durante el festival.\n\nhttps://youtu.be/O6hhx9bQoZ0",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Fabian Casco: galgos rescatados en La Pampa Rock",
-   "urgente": false,
-   "vence": "2026-11-05T18:40:15.000Z",
    "video_bytes": 22247420,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00279.mp4",
    "viral": false
@@ -12238,6 +12297,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:5296a026-93a3-4ae5-a568-78482a52580c|x": {
+   "actualizado": "2026-11-15T17:00:25.000Z",
+   "buffer_id": "",
+   "clave": "web:5296a026-93a3-4ae5-a568-78482a52580c|x",
+   "creado": "2026-11-15T17:00:25.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-15T16:50:15.618Z",
+   "id": "web:5296a026-93a3-4ae5-a568-78482a52580c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO",
+   "urgente": false,
+   "vence": "2026-11-15T20:50:15.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:547df2b0-7a1a-4b57-923f-b7947b7b5134|x": {
    "actualizado": "2026-11-07T22:40:23.000Z",
    "buffer_id": "",
@@ -15613,34 +15697,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos|x",
-   "cuando": "2026-11-08T23:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119556392096878918"
-  },
-  {
-   "buffer_id": "6af0ff089214322f687fdc25",
-   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x",
-   "cuando": "2026-11-08T23:00:24.000Z",
-   "dueAt": "2026-11-08T23:02:23.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af0ff08562f2e6de9e8b4fc",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x",
-   "cuando": "2026-11-08T23:00:24.000Z",
-   "dueAt": "2026-11-08T23:08:36.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x",
-   "cuando": "2026-11-08T23:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html|x",
    "cuando": "2026-11-08T23:40:18.000Z",
@@ -19758,6 +19814,37 @@
    "cuando": "2026-11-15T14:40:16.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x",
+   "cuando": "2026-11-15T17:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok",
+   "cuando": "2026-11-15T17:00:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:5296a026-93a3-4ae5-a568-78482a52580c|x",
+   "cuando": "2026-11-15T17:00:30.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6af9e52f4f0276ab944e3a33",
+   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x",
+   "cuando": "2026-11-15T17:00:31.000Z",
+   "dueAt": "2026-11-15T17:02:54.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19975,7 +20062,7 @@
   "bot:video_matias-zucchi_mwec5iom0isb_01.mp4": "2026-11-13T02:20:15.000Z",
   "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4": "2026-11-14T00:00:20.000Z",
   "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4": "2026-11-15T01:20:17.000Z",
-  "entrevistas:job00217": "2026-10-16T17:00:18.000Z",
+  "bot:video_matias-zucchi_mwi2eoljergp_01.mp4": "2026-11-15T17:00:25.000Z",
   "entrevistas:job00218": "2026-10-16T17:20:17.000Z",
   "entrevistas:job00219": "2026-10-16T18:00:17.000Z",
   "entrevistas:job00221": "2026-10-16T18:20:15.000Z",
@@ -20494,6 +20581,7 @@
   "web:51e471e5-2b2b-43ba-8451-9ac391cdb485": "2026-10-20T10:20:14.000Z",
   "web:520b9327-4abb-4720-aa44-9684331b9ca6": "2026-11-04T22:40:21.000Z",
   "web:5253b590-963f-4a40-8acf-18a1f53713b5": "2026-10-19T14:00:19.000Z",
+  "web:5296a026-93a3-4ae5-a568-78482a52580c": "2026-11-15T17:00:25.000Z",
   "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20": "2026-10-18T01:20:13.000Z",
   "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba": "2026-10-27T10:03:31.000Z",
   "web:52c96f09-7e84-4dea-9e97-24ab64aa6215": "2026-11-01T13:20:14.000Z",
