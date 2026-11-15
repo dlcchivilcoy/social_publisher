@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 1
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-15T17:20:15.000Z"
+   "visto": "2026-11-15T21:20:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-15T17:20:15.000Z"
+   "visto": "2026-11-15T21:20:19.000Z"
   }
  },
  "contenidos": {
@@ -494,27 +494,6 @@
    "video_mb": 21.2,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00282.mp4",
    "youtube_url": "https://youtu.be/cDAX4zuDsXc"
-  },
-  "entrevistas:job00283": {
-   "descripcion": "Marina Caparros, defensora del Pueblo de Chivilcoy, advirtió sobre la suspensión de pensiones no contributivas por parte del Ministerio de Salud de la Nación y confirmó que ya detectaron casos en la ciudad.",
-   "duracion_seg": null,
-   "entrevistado": "Marina Caparros",
-   "generado": "2026-11-05T19:00:18.000Z",
-   "id": "entrevistas:job00283",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Marina Caparros: Suspenden 22.000 pensiones por discapacidad",
-   "urgente": false,
-   "video_bytes": 17938916,
-   "video_mb": 17.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00283.mp4",
-   "youtube_url": "https://youtu.be/GwZu6xt4rJI"
   },
   "entrevistas:job00284": {
    "descripcion": "Natalia Fracchia, referente de la murga Colgados de la Rama en Chivilcoy, defendió la gratuidad de los corsos barriales para que sean una fiesta popular accesible a todas las familias.",
@@ -6470,19 +6449,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok": {
-   "actualizado": "2026-11-15T21:00:16.000Z",
+   "actualizado": "2026-11-15T21:20:19.000Z",
    "buffer_id": "6afa1d61a869c35e5b968813",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok",
    "creado": "2026-11-15T17:00:25.000Z",
    "dueAt": "2026-11-15T21:03:20.000Z",
+   "enviado": "2026-11-15T21:05:13.869Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-15T16:51:15.000Z",
    "id": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7708506817919274248",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6680,45 +6660,6 @@
    "vence": "2026-11-07T18:20:15.000Z",
    "video_bytes": 22278786,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00282.mp4",
-   "viral": false
-  },
-  "entrevistas:job00283|tiktok": {
-   "actualizado": "2026-11-05T21:20:15.000Z",
-   "buffer_id": "6aecee6594067731a41f69ce",
-   "categoria": "",
-   "clave": "entrevistas:job00283|tiktok",
-   "creado": "2026-11-05T19:00:18.000Z",
-   "dueAt": "2026-11-05T21:03:51.000Z",
-   "enviado": "2026-11-05T21:05:45.528Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-05T19:00:18.000Z",
-   "id": "entrevistas:job00283",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7704796132786081045",
-   "metricas": {
-    "averageTimeWatched": 4.98,
-    "comments": 0,
-    "engagementRate": 0.92,
-    "reach": 73,
-    "reactions": 1,
-    "shares": 0,
-    "totalTimeWatched": 10.12,
-    "views": 109
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Marina Caparros: Suspenden 22.000 pensiones por discapacidad\n\nMarina Caparros, defensora del Pueblo de Chivilcoy, advirtió sobre la suspensión de pensiones no contributivas por parte del Ministerio de Salud de la Nación y confirmó que ya detectaron casos en la ciudad.\n\nhttps://youtu.be/GwZu6xt4rJI\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Marina Caparros: Suspenden 22.000 pensiones por discapacidad",
-   "urgente": false,
-   "vence": "2026-11-07T19:00:18.000Z",
-   "video_bytes": 17938916,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00283.mp4",
    "viral": false
   },
   "entrevistas:job00284|tiktok": {
@@ -15643,13 +15584,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af10d1ad6bbae6fa11bf858",
-   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x",
-   "cuando": "2026-11-09T00:00:30.000Z",
-   "dueAt": "2026-11-09T00:02:04.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af10d1b562f2e6de9ecc20d",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x",
    "cuando": "2026-11-09T00:00:30.000Z",
@@ -19787,6 +19721,12 @@
    "cuando": "2026-11-15T21:00:17.000Z",
    "dueAt": "2026-11-15T21:03:20.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok",
+   "cuando": "2026-11-15T21:20:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7708506817919274248"
   }
  ],
  "tandas": {
@@ -19824,15 +19764,13 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-15",
- "ultima_sync": "2026-11-15T17:20:15.000Z",
+ "ultima_sync": "2026-11-15T21:20:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p": "2026-10-16T21:00:18.000Z",
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc": "2026-10-16T21:20:13.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b": "2026-10-16T23:20:14.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa": "2026-10-17T17:20:13.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": "2026-10-17T17:40:13.000Z",
@@ -20212,7 +20150,6 @@
   "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia": "2026-11-04T00:40:13.000Z",
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero": "2026-10-26T22:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia": "2026-10-29T23:40:14.000Z",
-  "policiales:https://laopinionline.ar/articulo/dos-sujetos-robaron-una-heladera-de-una-casa-y-los-detuvieron-cuando-la-trasladaban-con-una-zorra": "2026-10-16T21:20:13.000Z",
   "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial": "2026-10-26T09:00:18.000Z",
   "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba": "2026-10-22T00:20:17.000Z",
   "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina": "2026-11-09T23:20:16.000Z",
@@ -20462,7 +20399,6 @@
   "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72": "2026-10-23T13:40:14.000Z",
   "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b": "2026-10-18T15:20:15.000Z",
   "web:3965ee13-9730-4798-8e40-1c97199ed3e6": "2026-11-06T10:02:35.000Z",
-  "web:399a52c0-1faa-4a1d-b39d-9c21c4d01b37": "2026-10-16T21:00:18.000Z",
   "web:3a1e20a8-80b6-4752-89ed-6c5d60a28320": "2026-11-13T10:02:41.000Z",
   "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade": "2026-10-20T21:20:16.000Z",
   "web:3a7b8196-052a-4b18-86a2-e06b57de3d46": "2026-11-13T10:02:41.000Z",
@@ -20525,7 +20461,6 @@
   "web:559ac15c-0c52-40db-b3a1-6118e02867ed": "2026-10-16T21:40:13.000Z",
   "web:55b92f65-e2c2-4dda-9cf3-e4d82ff6a438": "2026-10-22T10:02:31.000Z",
   "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85": "2026-10-29T10:20:14.000Z",
-  "web:56c45ecc-addc-4d4e-bab9-b5f0ebef47f3": "2026-10-16T21:20:13.000Z",
   "web:57eb6bf3-51d2-48ac-80c2-598793c9bb7a": "2026-10-19T10:20:14.000Z",
   "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84": "2026-10-26T10:20:14.000Z",
   "web:589aada5-2294-49ca-8ee9-5c71fc761177": "2026-11-10T10:02:42.000Z",
@@ -20803,7 +20738,6 @@
   "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e": "2026-11-02T10:03:22.000Z",
   "web:c876f210-4b35-4b4a-add4-8813297977a9": "2026-10-19T10:20:14.000Z",
   "web:c8fffffc-9fd5-4775-9a97-2aa26888b072": "2026-10-17T18:40:12.000Z",
-  "web:c9371dd8-162b-4f1a-b810-3babc7cd5394": "2026-10-16T21:20:13.000Z",
   "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd": "2026-10-23T23:40:15.000Z",
   "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4": "2026-10-18T22:20:14.000Z",
   "web:cb3767a3-a3f6-488f-b291-f3c7efb7e0af": "2026-10-17T17:00:15.000Z",
