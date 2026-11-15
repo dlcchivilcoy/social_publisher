@@ -1255,6 +1255,32 @@
    "volanta": "Choque fatal en Alberti",
    "youtube_url": "https://youtube.com/shorts/yII15iIFYTE"
   },
+  "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas": {
+   "categoria": "accidente_vial",
+   "descripcion": "Jesús Almeyra, de 22 años, perdió la vida este martes luego de colisionar la moto Yamaha 150 cc que manejaba contra otro vehículo en la ciudad de Chivilcoy.",
+   "distancia_km": 0.0,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-15T23:03:19.000Z",
+   "id": "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Un joven de 22 años identificado como Jesús Almeyra murió tras un choque entre dos motocicletas en Chivilcoy.\n\nEl hecho ocurrió cuando la víctima circulaba en un rodado Yamaha 150 cc y colisionó con una Mondial 110 cc guiada por Ludmila Suárez, de 25 años.\n\nA raíz del impacto, el joven sufrió un grave traumatismo de cráneo y fue llevado de urgencia al Hospital Municipal, donde ingresó sin vida.\n\nLa Ayudantía Fiscal, a cargo de la Dra.\n\nLombardo, interviene en el caso para esclarecer cómo sucedieron los hechos.\n\n📲 Más noticias de Chivilcoy en www.diariolacampaña.com.ar\n\n#Chivilcoy #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Chivilcoy: un motociclista de 22 años falleció tras impactar contra otro rodado",
+   "urgente": false,
+   "video_bytes": 96997,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_07_junin_chivilcoy-un-motociclista-de-2.mp4",
+   "volanta": "Trágico choque en Chivilcoy",
+   "youtube_url": "https://youtube.com/shorts/AqY0Bl3xQI8"
+  },
   "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores": {
    "categoria": "robo",
    "descripcion": "Una serie de procedimientos policiales en distintos puntos de la ciudad permitió esclarecer un hurto, atrapar a un prófugo, detener a un hombre por drogas y arrestar a otros dos acusados por tentativa de robo y daños.",
@@ -3472,25 +3498,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/transito-chivilcoy-demarcacion-de-bulevares-una-intervencion-clave",
    "volanta": "Tránsito"
-  },
-  "web:71906e74-9a3f-42e4-a88d-7341f49d98b3": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé Familiares, allegados y vecinos se concentraron este jueves 5 de noviembre en la Plaza 9 de Julio de Chivilcoy, tras la presentación de una denuncia judicial por un presunto abuso sexual contra una bebé de nueve meses. La convocatoria, difundida a través de redes sociales a partir de las 17, reunió a los manifestantes en la plaza para luego marchar por las calles de la ciudad con destino a la Comisaría...",
-   "generado": "2026-11-05T23:01:33.872Z",
-   "id": "web:71906e74-9a3f-42e4-a88d-7341f49d98b3",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0b7afdc0840444ef9b84112f594b80a7~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
-   "volanta": "Chivilcoy · Judiciales"
   },
   "web:7363be41-1ea0-41ce-bd34-f99c8ec33ac2": {
    "categoria": "",
@@ -9180,6 +9187,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_03_alberti_muri-un-conductor-de-30-a-os-e.mp4",
    "viral": true
   },
+  "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas|x": {
+   "actualizado": "2026-11-15T23:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas|x",
+   "creado": "2026-11-15T23:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-15T23:03:19.000Z",
+   "id": "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf",
+   "noticia": "nota:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Chivilcoy: un motociclista de 22 años falleció tras impactar contra otro rodado\n\nJesús Almeyra, de 22 años, perdió la vida este martes luego de colisionar la moto Yamaha 150 cc que manejaba contra otro vehículo en la ciudad de Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chivilcoy: un motociclista de 22 años falleció tras impactar contra otro rodado",
+   "urgente": false,
+   "vence": "2026-11-16T01:03:19.000Z",
+   "video_bytes": 96997,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_07_junin_chivilcoy-un-motociclista-de-2.mp4",
+   "viral": false
+  },
   "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores|x": {
    "actualizado": "2026-11-15T00:40:15.000Z",
    "buffer_id": "",
@@ -12529,31 +12564,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:71906e74-9a3f-42e4-a88d-7341f49d98b3|x": {
-   "actualizado": "2026-11-05T23:20:13.000Z",
-   "buffer_id": "",
-   "clave": "web:71906e74-9a3f-42e4-a88d-7341f49d98b3|x",
-   "creado": "2026-11-05T23:20:13.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-05T23:01:33.872Z",
-   "id": "web:71906e74-9a3f-42e4-a88d-7341f49d98b3",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
-   "noticia": "nota:chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
-   "urgente": false,
-   "vence": "2026-11-06T03:01:33.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:7363be41-1ea0-41ce-bd34-f99c8ec33ac2|x": {
    "actualizado": "2026-11-13T11:00:22.000Z",
    "buffer_id": "",
@@ -15343,14 +15353,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:31292745-1874-4666-bb1a-583ba97f9032|x",
-   "cuando": "2026-11-09T01:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:31292745-1874-4666-bb1a-583ba97f9032|x",
    "cuando": "2026-11-09T01:00:21.000Z",
@@ -19487,6 +19489,14 @@
    "cuando": "2026-11-15T22:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2122093169781129317"
+  },
+  {
+   "clave": "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas|x",
+   "cuando": "2026-11-15T23:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -19531,7 +19541,6 @@
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b": "2026-10-16T23:20:14.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa": "2026-10-17T17:20:13.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": "2026-10-17T17:40:13.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2": "2026-10-18T09:00:15.000Z",
@@ -19904,6 +19913,7 @@
   "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas": "2026-10-27T23:20:16.000Z",
   "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea": "2026-11-01T23:40:14.000Z",
   "policiales:https://junin24.com/locales/solo-danos-materiales-como-consecuencia-de-un-principio-de-incendio-en-una-cocina": "2026-11-02T00:20:13.000Z",
+  "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas": "2026-11-15T23:20:14.000Z",
   "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores": "2026-11-14T22:40:13.000Z",
   "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero": "2026-11-03T00:40:17.000Z",
   "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos": "2026-10-24T22:20:14.000Z",
@@ -20191,7 +20201,6 @@
   "web:480e86f5-f14e-481b-844f-2ac1f1192f77": "2026-10-17T00:20:12.000Z",
   "web:4841dd2d-07c3-4c90-b819-3d0e547196a3": "2026-10-19T11:20:14.000Z",
   "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659": "2026-10-18T18:00:17.000Z",
-  "web:48cb7cd1-72dd-4aaf-ad04-819b00c13f73": "2026-10-16T23:20:14.000Z",
   "web:49037013-a165-485b-983d-91a1691d32f9": "2026-11-13T10:02:41.000Z",
   "web:4932e566-1b9a-47b3-98b4-4a91035bb79b": "2026-10-18T01:00:19.000Z",
   "web:4a4fb364-85cb-463d-9fb5-721f301a1a4d": "2026-11-05T10:02:30.000Z",

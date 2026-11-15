@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/11/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 15/11/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 15/11/2026 20:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,14 +27,14 @@ Actualizado: 15/11/2026 20:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
 - X · Reels policiales · Murió un conductor de 30 años en un choque frontal en la Ruta 5 — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Chivilcoy: un motociclista de 22 años falleció tras impactar contra otro rodado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-15T01:20 recibido bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok 
 - 2026-11-15T01:20 recibido web:761944f8-e1c1-436a-9ef1-bf5df2286672|x 
 - 2026-11-15T01:20 recibido web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-15T01:20 depurado web:761944f8-e1c1-436a-9ef1-bf5df2286672|x de la web, a X solo van las notas del diario de la mañana
@@ -59,3 +59,4 @@ Actualizado: 15/11/2026 20:00 (hora AR) · ACTIVO
 - 2026-11-15T22:20 programado policiales:https://www.diariodemocracia.com/policiales/34805 
 - 2026-11-15T22:40 recibido policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-d 
 - 2026-11-15T22:40 enviado policiales:https://www.diariodemocracia.com/policiales/34805 
+- 2026-11-15T23:20 recibido policiales:https://junin24.com/noticias/chivilcoy-un-joven-d 
