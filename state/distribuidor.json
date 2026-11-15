@@ -4481,25 +4481,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras-1",
    "volanta": "Alberti · Policiales"
   },
-  "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Un auto quedó destruido por un incendio en el camino a Henry Bell CHIVILCOY.– Un automóvil quedó completamente destruido por un incendio registrado este jueves 5 de noviembre en el camino que conduce hacia Henry Bell. Según informó Federico Díaz, a cargo del operativo de Bomberos Voluntarios, la salida se registró alrededor de las 5:20. El fuego se desató durante la madrugada, a unos cuatro kilómetros del desvío de la Ruta 5, a la altura de la fábrica Las Tres Niñas. En el vehículo...",
-   "generado": "2026-11-05T11:41:09.258Z",
-   "id": "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8b05e4cce3ae4e72bef62d7f3e773ec8~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Un auto quedó destruido por un incendio en el camino a Henry Bell",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
-   "volanta": "Chivilcoy · Bomberos"
-  },
   "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f": {
    "categoria": "",
    "descripcion": "Chivilcoy: Racing superó a Gimnasia en la última fecha del Clausura CHIVILCOY.– Por la última fecha del Torneo Clausura de Primera División, Gimnasia recibió a Racing en un gran partido, donde el local estuvo adelante en el tanteador durante gran parte del juego. En el último cuarto, la visita logró pasar al frente y los últimos minutos se disputaron tanto a tanto. Llegando al final, a falta de 2 segundos y con un doble arriba para «la AKD», el local pidió minuto para armar la última jugada...",
@@ -6459,15 +6440,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok": {
-   "actualizado": "2026-11-15T01:20:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-15T13:00:19.000Z",
+   "buffer_id": "6af9ace476c23bf1c77e573a",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok",
    "creado": "2026-11-15T01:20:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-15T13:03:38.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-15T01:04:15.000Z",
    "id": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4",
    "intentos": 0,
@@ -14703,34 +14684,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf|x": {
-   "actualizado": "2026-11-05T12:40:14.000Z",
-   "buffer_id": "",
-   "clave": "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf|x",
-   "creado": "2026-11-05T12:00:18.000Z",
-   "dueAt": "",
-   "error": "no está en el carrusel del diario de hoy",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "descartado",
-   "generado": "2026-11-05T11:41:09.258Z",
-   "id": "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
-   "noticia": "nota:chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Un auto quedó destruido por un incendio en el camino a Henry Bell\n\nEl hecho ocurrió a cuatro kilómetros de la Ruta 5, cerca de Las Tres Niñas. La salida fue a las 5:20, informó Federico Díaz, a cargo del operativo de Bomberos Voluntarios.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-un-auto-quedo-destruido-por-un-incendio",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Un auto quedó destruido por un incendio en el camino a Henry Bell",
-   "urgente": false,
-   "vence": "2026-11-05T15:41:09.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x": {
    "actualizado": "2026-11-14T12:20:22.000Z",
    "buffer_id": "",
@@ -16001,14 +15954,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x",
-   "cuando": "2026-11-08T22:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x",
    "cuando": "2026-11-08T23:00:20.000Z",
@@ -20151,11 +20096,17 @@
    "cuando": "2026-11-15T01:40:18.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2121775972001235175"
+  },
+  {
+   "buffer_id": "6af9ace476c23bf1c77e573a",
+   "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok",
+   "cuando": "2026-11-15T13:00:20.000Z",
+   "dueAt": "2026-11-15T13:03:38.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-05 10",
    "2026-11-05 18",
    "2026-11-05 21",
    "2026-11-06 10",
@@ -20184,7 +20135,8 @@
    "2026-11-13 21",
    "2026-11-14 10",
    "2026-11-14 18",
-   "2026-11-14 21"
+   "2026-11-14 21",
+   "2026-11-15 10"
   ]
  },
  "ultima_limpieza_release": "2026-11-15",
@@ -20568,7 +20520,6 @@
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": "2026-11-10T22:40:14.000Z",
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": "2026-10-24T00:20:16.000Z",
   "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/": "2026-10-22T01:00:18.000Z",
-  "policiales:https://diarioelsalado.com.ar/2026/10/trasladaron-a-una-unidad-carcelaria-al-detenido-en-alberti-por-el-homicidio-de-una-bebe-durante-una-persecucion/": "2026-10-16T13:00:18.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/": "2026-11-10T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/": "2026-11-12T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/": "2026-11-13T23:40:13.000Z",
@@ -20614,7 +20565,6 @@
   "policiales:https://www.bragadoinforma.com.ar/nota/31099/chocaron-dos-motos-una-mujer-sufrio-una-fractura-grave-y-un-adolescente-fue-aprehendido.html": "2026-11-01T00:20:15.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html": "2026-11-03T22:20:16.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html": "2026-11-08T22:40:14.000Z",
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/16/26369-dos-menores-fueron-aprehendidos-tras-amenazar-a-una-mujer-con-un-arma-de-juguete-en-el-hospital-san-luis": "2026-10-16T13:00:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados": "2026-10-25T22:40:17.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/26592-la-justicia-confirmo-la-prision-preventiva-de-german-diaz-y-el-concejo-deliberante-definira-su-reemplazo": "2026-10-27T23:20:16.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc": "2026-10-28T23:20:14.000Z",
@@ -21228,7 +21178,6 @@
   "web:d9d5c19d-7cdc-4599-9431-674725b57a40": "2026-10-17T15:40:15.000Z",
   "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa": "2026-10-30T10:20:13.000Z",
   "web:da7a71c1-fb14-4868-ba84-3e52bf96430a": "2026-11-09T00:00:16.000Z",
-  "web:da812ee7-10e6-4f68-a954-bbcfc675078c": "2026-10-16T12:40:14.000Z",
   "web:da88e1e4-510a-45e4-992a-55ed16bef1e5": "2026-10-24T23:00:21.000Z",
   "web:daae8efc-080c-4b85-8684-6b87ab41878c": "2026-10-26T12:06:06.000Z",
   "web:dad7423e-f855-41dd-8505-49e56691870b": "2026-10-19T00:20:16.000Z",

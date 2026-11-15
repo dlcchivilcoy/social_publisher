@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/11/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 15/11/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 15/11/2026 09:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,14 +27,12 @@ Actualizado: 15/11/2026 09:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- TikTok · Reels del bot · Continúa el Festival Internacional de Cine Raices en El Chasqui — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-14T12:20 recibido web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x 
 - 2026-11-14T12:20 recibido web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x 
 - 2026-11-14T12:20 depurado web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-14T12:20 depurado web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x de la web, a X solo van las notas del diario de la mañana
@@ -59,3 +57,4 @@ Actualizado: 15/11/2026 09:40 (hora AR) · ACTIVO
 - 2026-11-15T01:20 depurado web:761944f8-e1c1-436a-9ef1-bf5df2286672|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-15T01:20 programado bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x 
 - 2026-11-15T01:40 enviado bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x 
+- 2026-11-15T13:00 programado bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok 
