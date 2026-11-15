@@ -41989,5 +41989,60 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-11-14T22:04:13",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-11-15_matias-zucchi_mwh4us9yo48x",
+    "uploader": "",
+    "fecha_recibido": "2026-11-14T22:08:14",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Chivilcoy · Deportes",
+    "titulo": "Colón venció a Bragado Club y pasó a la final",
+    "resumen": "Por la semifinal de la Copa de Oro de la categoría Cadetes, Colón recibió a Bragado Club. Fue triunfo del local por 62 a 32, con lo que se ganó el pasaje a la final, donde enfrentará a Argentino, que fue el ganador de la otra semifinal. Felicitaciones a todos.",
+    "texto": "Por la semifinal de la Copa de Oro de la categoría Cadetes, Colón recibió a Bragado Club.\n\nFue triunfo del local por 62 a 32, con lo que se ganó el pasaje a la final, donde enfrentará a Argentino, que fue el ganador de la otra semifinal.\n\nFelicitaciones a todos.",
+    "bajada_reel": "Ganó 62 a 32 en Cadetes y definirá la Copa de Oro frente a Argentino.",
+    "escrito": "POR LA SEMIFINAL DE LA COPA DE ORO DE LA CATEGORIA CADETES COLON RECIBIO A BRAGADO CLUB.\nFUE TRIUNFO DEL LOCAL POR 62 A 32 Y SE GANO EL PASAJE A LA FINAL DONDE ENFRENTARA A ARGENTINO QUE FUE EL GANADOR DE LA OTRA SEMIFINAL.\nFELICITACIONES A TODOS.",
+    "tarjetas_fotos": [],
+    "draft_id": "761944f8-e1c1-436a-9ef1-bf5df2286672",
+    "reel_url": "",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-15T01:05:25.405Z — wa:5492346417636",
+    "decl": null,
+    "formato": "carrusel",
+    "tema_carrusel": "grafito",
+    "laminas": [
+      {
+        "titulo": "Semifinal de la Copa de Oro",
+        "texto": "Por la semifinal de la Copa de Oro de la categoría Cadetes, Colón recibió a Bragado Club."
+      },
+      {
+        "titulo": "Victoria y pase a la final",
+        "texto": "Fue triunfo del local por 62 a 32, con lo que se ganó el pasaje a la final."
+      },
+      {
+        "titulo": "El próximo rival",
+        "texto": "Enfrentará a Argentino, que fue el ganador de la otra semifinal. Felicitaciones a todos."
+      }
+    ],
+    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_87b836a44a294b7e9ca3d60cdbc17bab~mv2.jpg",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-11-14T22:09:16",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-colon-vencio-a-bragado-club-y-paso-a-la-final",
+    "ig_media_id": "18027504329867926",
+    "fb_video_id": "",
+    "ig_historia_id": "",
+    "fb_historia_id": "",
+    "fb_post_id": "1456376377985890_2092468108361481"
   }
 ]
