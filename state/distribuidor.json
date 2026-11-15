@@ -3628,6 +3628,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-colon-vencio-a-bragado-club-y-paso-a-la-final",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:764b2539-78a7-4f05-92a1-20413bf6f24b": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: San Lorenzo venció a Quilmes y es finalista de la Copa de Oro U11 Se jugó la primera semifinal de la Copa de Oro categoría U11 en Chivilcoy, donde San Lorenzo venció a Quilmes de Mercedes por 53 a 49 y se convirtió en el primer finalista, a la espera del segundo finalista que saldrá del encuentro que se disputará hoy por la tarde en Bragado entre Los Millonarios y Gimnasia.",
+   "generado": "2026-11-15T17:48:23.868Z",
+   "id": "web:764b2539-78a7-4f05-92a1-20413bf6f24b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_eb7ddb705033495992dd6258100f4fb2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-y-es",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: San Lorenzo venció a Quilmes y es finalista de la Copa de Oro U11",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-y-es",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967": {
    "categoria": "",
    "descripcion": "Argentina superó a Chile y clasificó al Mundial de handball juvenil Enorme victoria de la Selección Argentina juvenil masculina de handball en el torneo Surcentro de Paraguay frente a la selección de Chile. Tras irse al descanso igualados en 14 tantos, con una levantada colectiva y una aguerrida y destacada actitud defensiva del chivilcoyano Simón Domínguez, la celeste y blanca superó con claridad a su rival en la segunda parte. De esta manera, el combinado nacional logró la clasificación al...",
@@ -13037,6 +13056,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:764b2539-78a7-4f05-92a1-20413bf6f24b|x": {
+   "actualizado": "2026-11-15T18:00:25.000Z",
+   "buffer_id": "",
+   "clave": "web:764b2539-78a7-4f05-92a1-20413bf6f24b|x",
+   "creado": "2026-11-15T18:00:17.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-15T17:48:23.868Z",
+   "id": "web:764b2539-78a7-4f05-92a1-20413bf6f24b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-y-es",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-y-es",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: San Lorenzo venció a Quilmes y es finalista de la Copa de Oro U11\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-y-es",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: San Lorenzo venció a Quilmes y es finalista de la Copa de Oro U11",
+   "urgente": false,
+   "vence": "2026-11-15T21:48:23.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x": {
    "actualizado": "2026-11-13T23:40:20.000Z",
    "buffer_id": "",
@@ -15744,20 +15790,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:da7a71c1-fb14-4868-ba84-3e52bf96430a|x",
-   "cuando": "2026-11-09T00:00:22.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|x",
-   "cuando": "2026-11-09T00:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119566322489078001"
-  },
   {
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x",
    "cuando": "2026-11-09T00:00:24.000Z",
@@ -19888,6 +19920,20 @@
    "cuando": "2026-11-15T17:40:24.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:764b2539-78a7-4f05-92a1-20413bf6f24b|x",
+   "cuando": "2026-11-15T18:00:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:764b2539-78a7-4f05-92a1-20413bf6f24b|x",
+   "cuando": "2026-11-15T18:00:25.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -20105,7 +20151,6 @@
   "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4": "2026-11-14T00:00:20.000Z",
   "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4": "2026-11-15T01:20:17.000Z",
   "bot:video_matias-zucchi_mwi2eoljergp_01.mp4": "2026-11-15T17:00:25.000Z",
-  "entrevistas:job00219": "2026-10-16T18:00:17.000Z",
   "entrevistas:job00221": "2026-10-16T18:20:15.000Z",
   "entrevistas:job00222": "2026-10-16T19:00:17.000Z",
   "entrevistas:job00223": "2026-10-16T19:20:14.000Z",
@@ -20692,6 +20737,7 @@
   "web:7363be41-1ea0-41ce-bd34-f99c8ec33ac2": "2026-11-13T10:02:41.000Z",
   "web:7524a117-5ec3-428b-862c-0238cd3653e6": "2026-10-20T10:20:14.000Z",
   "web:761944f8-e1c1-436a-9ef1-bf5df2286672": "2026-11-15T01:20:17.000Z",
+  "web:764b2539-78a7-4f05-92a1-20413bf6f24b": "2026-11-15T18:00:17.000Z",
   "web:767181b8-08a7-40d4-a0b0-598f6f0c540f": "2026-10-17T02:20:17.000Z",
   "web:76ba9989-902f-48e4-be31-1bb0265c5c60": "2026-10-26T10:20:14.000Z",
   "web:76e7c276-9244-4833-b1f9-9ae148587bd5": "2026-10-29T14:40:15.000Z",

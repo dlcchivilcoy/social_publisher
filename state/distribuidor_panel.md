@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/11/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 15/11/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 15/11/2026 14:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 3 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -34,8 +34,6 @@ Actualizado: 15/11/2026 14:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-14T22:00 depurado web:d18919f0-46ff-47b2-83c2-1363d2423d59|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-14T22:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/policiale 
 - 2026-11-14T22:40 recibido policiales:https://junin24.com/policiales/esclarecen-un-hurt 
 - 2026-11-15T00:20 vencido policiales:https://www.chacabuquero.com.ar/2026/11/policiale espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-15T00:40 vencido policiales:https://junin24.com/policiales/esclarecen-un-hurt espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -59,3 +57,5 @@ Actualizado: 15/11/2026 14:40 (hora AR) · ACTIVO
 - 2026-11-15T17:20 enviado bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x 
 - 2026-11-15T17:40 recibido web:bff9dfc7-873a-4a8d-a3de-da24428245eb|x 
 - 2026-11-15T17:40 depurado web:bff9dfc7-873a-4a8d-a3de-da24428245eb|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-15T18:00 recibido web:764b2539-78a7-4f05-92a1-20413bf6f24b|x 
+- 2026-11-15T18:00 depurado web:764b2539-78a7-4f05-92a1-20413bf6f24b|x de la web, a X solo van las notas del diario de la mañana
