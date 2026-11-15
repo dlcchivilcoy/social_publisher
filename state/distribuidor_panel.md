@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/11/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 14/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 7 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,18 +27,13 @@ Actualizado: 14/11/2026 22:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Reels del bot · Continúa el Festival Internacional de Cine Raices en El Chasqui — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-14T00:20 recibido policiales:https://semanariodejunin.com.ar/nota/76536/detuvi 
-- 2026-11-14T00:20 enviado bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok 
-- 2026-11-14T00:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-14T01:20 vencido policiales:https://www.chacabuquero.com.ar/2026/11/confronta espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-14T01:20 enviado entrevistas:job00310-r1|tiktok 
-- 2026-11-14T01:40 vencido policiales:https://diarioelsalado.com.ar/2026/11/se-incendio espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-14T02:20 vencido policiales:https://semanariodejunin.com.ar/nota/76536/detuvi espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-14T12:20 recibido web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x 
 - 2026-11-14T12:20 recibido web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x 
@@ -58,3 +53,9 @@ Actualizado: 14/11/2026 22:00 (hora AR) · ACTIVO
 - 2026-11-15T00:40 vencido policiales:https://junin24.com/policiales/esclarecen-un-hurt espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-15T01:00 recibido web:6660aa77-72e5-4b87-ac3a-0c96160d4930|x 
 - 2026-11-15T01:00 depurado web:6660aa77-72e5-4b87-ac3a-0c96160d4930|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-15T01:20 recibido bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x 
+- 2026-11-15T01:20 recibido bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok 
+- 2026-11-15T01:20 recibido web:761944f8-e1c1-436a-9ef1-bf5df2286672|x 
+- 2026-11-15T01:20 recibido web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-15T01:20 depurado web:761944f8-e1c1-436a-9ef1-bf5df2286672|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-15T01:20 programado bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x 
