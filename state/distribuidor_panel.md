@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 14/11/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 14/11/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-14)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 25 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 1 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 39 con métricas · mediana vistas/impresiones 35 · likes 0
@@ -34,7 +34,6 @@ Actualizado: 14/11/2026 22:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-14T02:20 vencido policiales:https://semanariodejunin.com.ar/nota/76536/detuvi espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-14T12:20 recibido web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x 
 - 2026-11-14T12:20 recibido web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x 
 - 2026-11-14T12:20 depurado web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x de la web, a X solo van las notas del diario de la mañana
@@ -59,3 +58,4 @@ Actualizado: 14/11/2026 22:20 (hora AR) · ACTIVO
 - 2026-11-15T01:20 recibido web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-15T01:20 depurado web:761944f8-e1c1-436a-9ef1-bf5df2286672|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-15T01:20 programado bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x 
+- 2026-11-15T01:40 enviado bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x 

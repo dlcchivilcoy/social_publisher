@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 10
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-14T01:20:23.000Z"
+   "visto": "2026-11-15T01:40:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 25
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-14T01:20:23.000Z"
+   "visto": "2026-11-15T01:40:17.000Z"
   }
  },
  "contenidos": {
@@ -2352,32 +2352,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_09_9-de-julio_imputaron-a-un-empleado-por-un.mp4",
    "volanta": "Robo millonario en Chacabuco",
    "youtube_url": ""
-  },
-  "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/": {
-   "categoria": "narcotrafico",
-   "descripcion": "Dos hombres fueron imputados por infracción a la Ley de Estupefacientes durante un control vehicular realizado por la policía vial en la Ruta Nacional N° 5.",
-   "distancia_km": 99.4,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-04T23:31:58.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/",
-   "localidad": "9 de Julio",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-dos-imputados-por-infraccion-a-la-ley-de-cf6faf",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "La policía vial interceptó dos vehículos durante la mañana de ayer en la Ruta Nacional N° 5.\n\nEl operativo estuvo encabezado por el jefe del Destacamento, Oficial Inspector Maximiliano Sateriano.\n\nComo resultado, dos hombres mayores de edad quedaron imputados por infringir la ley de estupefacientes.\n\nAmbos sospechosos recuperaron la libertad por disposición de la fiscalía interviniente tras cumplir los trámites legales.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Narcotrafico #Operativo #BuenosAires",
-   "tipo": "video",
-   "titulo": "Dos imputados por narcotráfico en la Ruta 5",
-   "urgente": false,
-   "video_bytes": 119714,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_07_9-de-julio_dos-imputados-por-narcotr-fico.mp4",
-   "volanta": "Operativo en 9 de Julio",
-   "youtube_url": "https://youtube.com/shorts/r3rUpQ-sQ1A"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/": {
    "categoria": "otro_policial",
@@ -6769,18 +6743,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x": {
-   "actualizado": "2026-11-15T01:20:32.000Z",
+   "actualizado": "2026-11-15T01:40:17.000Z",
    "buffer_id": "6af908e1b9a106584c7dcf69",
    "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x",
    "creado": "2026-11-15T01:20:17.000Z",
    "dueAt": "2026-11-15T01:22:47.000Z",
+   "enviado": "2026-11-15T01:23:07.294Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-15T01:04:15.000Z",
    "id": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2121775972001235175",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
    "noticia": "nota:chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
    "origen": "bot",
@@ -11152,34 +11127,6 @@
    "vence": "2026-11-05T02:31:44.000Z",
    "video_bytes": 87351,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_09_9-de-julio_imputaron-a-un-empleado-por-un.mp4",
-   "viral": false
-  },
-  "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/|x": {
-   "actualizado": "2026-11-05T01:40:16.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/|x",
-   "creado": "2026-11-04T23:40:17.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-04T23:31:58.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/04/operativo-sobre-ruta-5-dos-personas-imputadas-por-infraccion-a-la-ley-de-estupefacientes/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-dos-imputados-por-infraccion-a-la-ley-de-cf6faf",
-   "noticia": "nota:9-de-julio-dos-imputados-por-infraccion-a-la-ley-de-cf6faf",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Dos imputados por narcotráfico en la Ruta 5\n\nDos hombres fueron imputados por infracción a la Ley de Estupefacientes durante un control vehicular realizado por la policía vial en la Ruta Nacional N° 5.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-dos-imputados-por-infraccion-a-la-ley-de-cf6faf",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Dos imputados por narcotráfico en la Ruta 5",
-   "urgente": false,
-   "vence": "2026-11-05T01:31:58.000Z",
-   "video_bytes": 119714,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-04_2135_07_9-de-julio_dos-imputados-por-narcotr-fico.mp4",
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/04/ruta-5-un-camion-choco-una-retroexcavadora/|x": {
@@ -16699,13 +16646,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af0f59ed6bbae6fa1158637",
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos|x",
-   "cuando": "2026-11-08T22:20:15.000Z",
-   "dueAt": "2026-11-08T22:23:03.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x",
    "cuando": "2026-11-08T22:40:14.000Z",
    "estado": "pendiente",
@@ -20849,6 +20789,12 @@
    "cuando": "2026-11-15T01:20:33.000Z",
    "dueAt": "2026-11-15T01:22:47.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x",
+   "cuando": "2026-11-15T01:40:18.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2121775972001235175"
   }
  ],
  "tandas": {
@@ -20886,7 +20832,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-15",
- "ultima_sync": "2026-11-14T01:20:23.000Z",
+ "ultima_sync": "2026-11-15T01:40:17.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
