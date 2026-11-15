@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/11/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 15/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 15/11/2026 19:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -33,8 +33,6 @@ Actualizado: 15/11/2026 19:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-15T00:40 vencido policiales:https://junin24.com/policiales/esclarecen-un-hurt espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-15T01:00 recibido web:6660aa77-72e5-4b87-ac3a-0c96160d4930|x 
 - 2026-11-15T01:00 depurado web:6660aa77-72e5-4b87-ac3a-0c96160d4930|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-15T01:20 recibido bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x 
 - 2026-11-15T01:20 recibido bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok 
@@ -58,3 +56,5 @@ Actualizado: 15/11/2026 19:00 (hora AR) · ACTIVO
 - 2026-11-15T18:00 depurado web:764b2539-78a7-4f05-92a1-20413bf6f24b|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-15T21:00 programado bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok 
 - 2026-11-15T21:20 enviado bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok 
+- 2026-11-15T22:20 recibido policiales:https://www.diariodemocracia.com/policiales/34805 
+- 2026-11-15T22:20 programado policiales:https://www.diariodemocracia.com/policiales/34805 

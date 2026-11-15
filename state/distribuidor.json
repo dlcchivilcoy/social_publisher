@@ -2119,6 +2119,32 @@
    "volanta": "Ataque en Junín",
    "youtube_url": "https://youtube.com/shorts/ApZNY_J5IS0"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p": {
+   "categoria": "operativo_policial",
+   "descripcion": "Un hombre de 42 años fue arrestado en el barrio Prado Español tras un allanamiento donde se incautaron dosis de cocaína y marihuana. La investigación se inició en septiembre.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-15T22:03:17.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Personal policial detuvo a un hombre de 42 años en una vivienda de la calle Alfredo Palacios, situada entre Chacabuco y Pedro Aparicio.\n\nEl operativo se originó tras una serie de denuncias anónimas y registros de cámaras que alertaban sobre la comercialización de estupefacientes bajo la modalidad menudeo.\n\nDurante la requisa en el domicilio del barrio Prado Español, los efectivos incautaron cocaína fraccionada y envoltorios con marihuana listos para su comercialización.\n\nEl imputado quedó a disposición de la justicia bajo la carátula de infracción a la ley 23737 de drogas.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Operativo #Policia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron a un hombre de 42 años tras allanar una vivienda en Chacabuco",
+   "urgente": false,
+   "video_bytes": 137737,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_02_chacabuco_detuvieron-a-un-hombre-de-42-a.mp4",
+   "volanta": "Operativo antidrogas en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/ArxpDlVWNxk"
+  },
   "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor": {
    "categoria": "robo",
    "descripcion": "Dos procedimientos policiales en Junín culminaron con un joven de 21 años aprehendido tras una persecución y el secuestro de un auto y una moto con pedido de captura.",
@@ -10343,6 +10369,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_02_chacabuco_un-joven-de-25-a-os-grave-tras.mp4",
    "viral": false
   },
+  "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x": {
+   "actualizado": "2026-11-15T22:20:14.000Z",
+   "buffer_id": "6afa301e06e1675856ac5010",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x",
+   "creado": "2026-11-15T22:20:14.000Z",
+   "dueAt": "2026-11-15T22:23:19.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-15T22:03:17.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
+   "noticia": "nota:chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Detuvieron a un hombre de 42 años tras allanar una vivienda en Chacabuco\n\nUn hombre de 42 años fue arrestado en el barrio Prado Español tras un allanamiento donde se incautaron dosis de cocaína y marihuana. La investigación se inició en septiembre.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un hombre de 42 años tras allanar una vivienda en Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-16T00:03:17.000Z",
+   "video_bytes": 137737,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_02_chacabuco_detuvieron-a-un-hombre-de-42-a.mp4",
+   "viral": false
+  },
   "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor|x": {
    "actualizado": "2026-11-12T01:20:17.000Z",
    "buffer_id": "",
@@ -15584,20 +15638,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af10d1b562f2e6de9ecc20d",
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x",
-   "cuando": "2026-11-09T00:00:30.000Z",
-   "dueAt": "2026-11-09T00:07:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af10d1c51492b796e6be8f3",
-   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok",
-   "cuando": "2026-11-09T00:00:30.000Z",
-   "dueAt": "2026-11-09T00:03:24.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af10d1ed6bbae6fa11bfabe",
    "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok",
    "cuando": "2026-11-09T00:00:30.000Z",
@@ -19727,6 +19767,21 @@
    "cuando": "2026-11-15T21:20:20.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7708506817919274248"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x",
+   "cuando": "2026-11-15T22:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6afa301e06e1675856ac5010",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x",
+   "cuando": "2026-11-15T22:20:14.000Z",
+   "dueAt": "2026-11-15T22:23:19.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20232,6 +20287,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/347689-un-joven-fue-aprehendido-con-cocaina-durante-un-op": "2026-11-06T22:20:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347738-causa-por-usurpacion-en-calle-paso-aprehendieron-a": "2026-11-07T22:20:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347937-ataque-a-punaladas-en-el-parque-borchex-de-junin-h": "2026-11-12T22:40:23.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p": "2026-11-15T22:20:14.000Z",
   "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html": "2026-10-17T01:20:16.000Z",
   "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html": "2026-10-17T01:20:16.000Z",
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": "2026-11-05T00:40:13.000Z",
@@ -20311,7 +20367,6 @@
   "web:125df7be-6590-4828-b258-27d7a0764f2d": "2026-10-28T14:40:14.000Z",
   "web:126d1602-781f-4ba0-8fa9-63424a9f9e78": "2026-10-21T10:02:08.000Z",
   "web:141e8c71-d366-458d-8748-f475405147ab": "2026-10-26T12:06:06.000Z",
-  "web:14436815-e65b-4622-81a4-d215bbfc9d5f": "2026-10-16T22:20:13.000Z",
   "web:1577e055-5def-4f13-aaba-45b5fbac35da": "2026-10-19T01:20:15.000Z",
   "web:160a1c97-6c1f-4723-8b48-a54f7405c098": "2026-11-09T10:20:14.000Z",
   "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b": "2026-10-17T23:40:13.000Z",
