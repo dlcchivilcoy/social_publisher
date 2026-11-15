@@ -6470,15 +6470,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok": {
-   "actualizado": "2026-11-15T17:00:25.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-15T21:00:16.000Z",
+   "buffer_id": "6afa1d61a869c35e5b968813",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok",
    "creado": "2026-11-15T17:00:25.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-15T21:03:20.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-15T16:51:15.000Z",
    "id": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4",
    "intentos": 0,
@@ -15643,12 +15643,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html|x",
-   "cuando": "2026-11-09T00:00:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119567846346719391"
-  },
-  {
    "buffer_id": "6af10d1ad6bbae6fa11bf858",
    "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x",
    "cuando": "2026-11-09T00:00:30.000Z",
@@ -19786,11 +19780,17 @@
    "cuando": "2026-11-15T18:00:25.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "buffer_id": "6afa1d61a869c35e5b968813",
+   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok",
+   "cuando": "2026-11-15T21:00:17.000Z",
+   "dueAt": "2026-11-15T21:03:20.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-05 18",
    "2026-11-05 21",
    "2026-11-06 10",
    "2026-11-06 18",
@@ -19819,7 +19819,8 @@
    "2026-11-14 10",
    "2026-11-14 18",
    "2026-11-14 21",
-   "2026-11-15 10"
+   "2026-11-15 10",
+   "2026-11-15 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-15",
