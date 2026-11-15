@@ -4407,6 +4407,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras-1",
    "volanta": "Alberti · Policiales"
   },
+  "web:bff9dfc7-873a-4a8d-a3de-da24428245eb": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Cierre de año de la categoría Mosquitos en el Estadio Centro CHIVILCOY.– Se realizó el cierre de año de la categoría Mosquitos en el Estadio Centro, organizado por el Club Gimnasia. Clubes participantes: - Gimnasia y Esgrima - Colón - Racing - Bragado Club Una gran cantidad de peques y un gran marco de público se vivió en esta hermosa jornada. Felicitaciones a todos.",
+   "generado": "2026-11-15T17:38:11.092Z",
+   "id": "web:bff9dfc7-873a-4a8d-a3de-da24428245eb",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7fec85f7714b49b6998838bb66a11026~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-cierre-de-ano-de-la-categoria-mosquitos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Cierre de año de la categoría Mosquitos en el Estadio Centro",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-cierre-de-ano-de-la-categoria-mosquitos",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f": {
    "categoria": "",
    "descripcion": "Chivilcoy: Racing superó a Gimnasia en la última fecha del Clausura CHIVILCOY.– Por la última fecha del Torneo Clausura de Primera División, Gimnasia recibió a Racing en un gran partido, donde el local estuvo adelante en el tanteador durante gran parte del juego. En el último cuarto, la visita logró pasar al frente y los últimos minutos se disputaron tanto a tanto. Llegando al final, a falta de 2 segundos y con un doble arriba para «la AKD», el local pidió minuto para armar la última jugada...",
@@ -14428,6 +14447,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:bff9dfc7-873a-4a8d-a3de-da24428245eb|x": {
+   "actualizado": "2026-11-15T17:40:24.000Z",
+   "buffer_id": "",
+   "clave": "web:bff9dfc7-873a-4a8d-a3de-da24428245eb|x",
+   "creado": "2026-11-15T17:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-15T17:38:11.092Z",
+   "id": "web:bff9dfc7-873a-4a8d-a3de-da24428245eb",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-cierre-de-ano-de-la-categoria-mosquitos",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-cierre-de-ano-de-la-categoria-mosquitos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Cierre de año de la categoría Mosquitos en el Estadio Centro\n\nCHIVILCOY.– Se realizó el cierre de año de la categoría Mosquitos en el Estadio Centro, organizado por el Club Gimnasia.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-cierre-de-ano-de-la-categoria-mosquitos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Cierre de año de la categoría Mosquitos en el Estadio Centro",
+   "urgente": false,
+   "vence": "2026-11-15T21:38:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x": {
    "actualizado": "2026-11-14T12:20:22.000Z",
    "buffer_id": "",
@@ -15698,22 +15744,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x",
-   "cuando": "2026-11-09T00:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok",
-   "cuando": "2026-11-09T00:00:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:da7a71c1-fb14-4868-ba84-3e52bf96430a|x",
    "cuando": "2026-11-09T00:00:22.000Z",
@@ -19844,6 +19874,20 @@
    "cuando": "2026-11-15T17:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2122013221913501885"
+  },
+  {
+   "clave": "web:bff9dfc7-873a-4a8d-a3de-da24428245eb|x",
+   "cuando": "2026-11-15T17:40:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:bff9dfc7-873a-4a8d-a3de-da24428245eb|x",
+   "cuando": "2026-11-15T17:40:24.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -19888,7 +19932,6 @@
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-16_matias-zucchi_mvb7yk7b9gtd": "2026-10-16T17:20:17.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbg05fzt67p": "2026-10-16T21:00:18.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbgbchq49jc": "2026-10-16T21:20:13.000Z",
   "bot:corresponsal_2026-10-16_matias-zucchi_mvbl0ndbw64b": "2026-10-16T23:20:14.000Z",
@@ -20062,7 +20105,6 @@
   "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4": "2026-11-14T00:00:20.000Z",
   "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4": "2026-11-15T01:20:17.000Z",
   "bot:video_matias-zucchi_mwi2eoljergp_01.mp4": "2026-11-15T17:00:25.000Z",
-  "entrevistas:job00218": "2026-10-16T17:20:17.000Z",
   "entrevistas:job00219": "2026-10-16T18:00:17.000Z",
   "entrevistas:job00221": "2026-10-16T18:20:15.000Z",
   "entrevistas:job00222": "2026-10-16T19:00:17.000Z",
@@ -20467,7 +20509,6 @@
   "web:2001b7d6-2e52-49f0-b4f5-8b548c3ef7f9": "2026-10-31T14:00:18.000Z",
   "web:21db22f9-b141-462c-b83c-6c1174b09194": "2026-11-11T10:02:35.000Z",
   "web:222c5924-1b87-456d-96b4-f20fcdee84f5": "2026-11-10T10:02:42.000Z",
-  "web:224bce4f-fd6c-4adc-9df4-bd62a94a04de": "2026-10-16T17:20:17.000Z",
   "web:23544596-7ffd-4da0-9940-5700227a63bf": "2026-10-26T22:20:14.000Z",
   "web:235c69cb-f4d0-4bac-832b-a776588dd3e9": "2026-10-27T10:03:31.000Z",
   "web:23a74d83-2170-4408-abe4-23838297e05f": "2026-10-25T14:20:14.000Z",
@@ -20844,6 +20885,7 @@
   "web:be3f2357-0b41-4b5c-a76e-7242f7a153df": "2026-10-31T20:40:14.000Z",
   "web:bf6521bd-4d33-4790-8b06-46d2c1596e82": "2026-10-24T17:20:15.000Z",
   "web:bfd610a6-2963-4140-98d0-d45bf948298c": "2026-10-26T12:06:06.000Z",
+  "web:bff9dfc7-873a-4a8d-a3de-da24428245eb": "2026-11-15T17:40:14.000Z",
   "web:c00bb224-879f-4991-ba6d-b57cef2f5104": "2026-10-24T17:20:15.000Z",
   "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f": "2026-11-14T12:20:12.000Z",
   "web:c111ebae-74fb-4af9-b579-9f53a3522b71": "2026-11-06T09:00:16.000Z",
