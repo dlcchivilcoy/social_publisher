@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 16:20 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 16:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -13,7 +13,7 @@ Actualizado: 16/11/2026 16:20 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 17 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 18 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -37,7 +37,6 @@ Actualizado: 16/11/2026 16:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T14:40 recibido web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3|x 
 - 2026-11-16T14:40 depurado web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-16T15:20 recibido web:b13a4343-1c5f-4791-894f-bb286876e7d0|x 
 - 2026-11-16T15:20 depurado web:b13a4343-1c5f-4791-894f-bb286876e7d0|x de la web, a X solo van las notas del diario de la mañana
@@ -62,3 +61,4 @@ Actualizado: 16/11/2026 16:20 (hora AR) · ACTIVO
 - 2026-11-16T18:40 recibido entrevistas:job00319|x 
 - 2026-11-16T18:40 recibido entrevistas:job00319|tiktok 
 - 2026-11-16T18:40 programado entrevistas:job00319|x 
+- 2026-11-16T19:40 enviado entrevistas:job00319|x 
