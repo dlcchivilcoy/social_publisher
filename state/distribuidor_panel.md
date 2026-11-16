@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 15/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-15)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 15/11/2026 23:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 2 | 1 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 15/11/2026 23:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-15T01:40 enviado bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x 
-- 2026-11-15T13:00 programado bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok 
 - 2026-11-15T13:20 enviado bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok 
 - 2026-11-15T14:40 recibido web:a13517b3-e29e-4a98-b0bc-d2fa2f109778|x 
 - 2026-11-15T14:40 depurado web:a13517b3-e29e-4a98-b0bc-d2fa2f109778|x de la web, a X solo van las notas del diario de la mañana
@@ -58,3 +56,5 @@ Actualizado: 15/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-16T00:20 baja policiales:https://junin24.com/noticias/chivilcoy-un-joven-d 
 - 2026-11-16T00:40 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-d espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-16T01:40 vencido policiales:https://semanariodejunin.com.ar/nota/76579/feroz- espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-16T02:40 recibido web:62ebb555-db92-4262-86b8-2f76e3982e4b|x 
+- 2026-11-16T02:40 depurado web:62ebb555-db92-4262-86b8-2f76e3982e4b|x de la web, a X solo van las notas del diario de la mañana

@@ -1494,32 +1494,6 @@
    "volanta": "Choque en Bragado",
    "youtube_url": "https://youtube.com/shorts/_Lz50yeCPYI"
   },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos": {
-   "categoria": "robo",
-   "descripcion": "Un joven de 18 años fue detenido en Bragado tras una investigación por el hurto de un teléfono celular cometido en una vivienda de la calle Rivadavia al 398. La policía recuperó el aparato y el sospechoso recuperó la libertad por orden judicial.",
-   "distancia_km": 49.3,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-06T00:31:25.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos",
-   "localidad": "Bragado",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-recuperaron-un-celular-robado-y-aprehendieron-a-un-225524",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 5,
-   "radio_ok": true,
-   "texto_tiktok": "Un joven de 18 años fue arrestado en Bragado luego de una investigación por el robo de un teléfono celular en una vivienda.\n\nEl hecho se había producido el pasado 21 de octubre en un domicilio situado en la calle Rivadavia al 398.\n\nPersonal policial analizó registros de cámaras de seguridad y reunió diversos testimonios para dar con el presunto autor del ilícito.\n\nEl operativo de captura se concretó este miércoles en el cruce de Hermanos Islas y 12 de Octubre, donde además se recuperó el aparato sustraído.\n\nTras cumplimentar los recaudos legales de rigor, el magistrado interviniente ordenó que el sospechoso recupere la libertad.\n\nEn el expediente judicial interviene la Unidad Funcional de Instrucción N° 4 del Departamento Judicial de Mercedes.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Robo #Inseguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Aprehendieron a un joven de 18 años tras esclarecer un hurto domiciliario",
-   "urgente": false,
-   "video_bytes": 107560,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_09_bragado_aprehendieron-a-un-joven-de-18.mp4",
-   "volanta": "Bragado",
-   "youtube_url": "https://youtube.com/shorts/7q-zoi4n0No"
-  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado": {
    "categoria": "operativo_policial",
    "descripcion": "Un hombre de 29 años fue demorado en Chivilcoy al descubrirse que manejaba una moto buscada por la justicia a raíz de un ilícito denunciado en Bragado.",
@@ -3171,6 +3145,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
    "volanta": "Seguridad local"
+  },
+  "web:62ebb555-db92-4262-86b8-2f76e3982e4b": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Colón finalizó primero en la fase regular por cuarta vez consecutiva CHIVILCOY.– Colón finalizó primero absoluto de la fase regular por cuarta vez consecutiva. Le ganó esta noche a San Lorenzo 88-63 en el Oscar y Alfredo Barca y se aseguró ante su gente el primer puesto en la fase regular. Definirá, de ser necesario, todos los partidos de local en los playoffs. Los goleadores resultaron Denis Bosarelli con 28 puntos, Rolandelli con 13 y Francisco Luengo con 12. Martirena, con 16, y...",
+   "generado": "2026-11-16T02:25:24.406Z",
+   "id": "web:62ebb555-db92-4262-86b8-2f76e3982e4b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_bf75136ca76a493581ff59268638a777~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Colón finalizó primero en la fase regular por cuarta vez consecutiva",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
+   "volanta": "Chivilcoy · Deportes"
   },
   "web:6660aa77-72e5-4b87-ac3a-0c96160d4930": {
    "categoria": "",
@@ -9273,34 +9266,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_04_bragado_motociclista-ebrio-choc-contra.mp4",
    "viral": false
   },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos|x": {
-   "actualizado": "2026-11-06T02:40:17.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos|x",
-   "creado": "2026-11-06T00:40:13.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-06T00:31:25.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26856-recuperaron-un-celular-robado-en-una-vivienda-y-aprehendieron-a-un-joven-de-18-anos",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-recuperaron-un-celular-robado-y-aprehendieron-a-un-225524",
-   "noticia": "nota:bragado-recuperaron-un-celular-robado-y-aprehendieron-a-un-225524",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 5,
-   "texto": "Aprehendieron a un joven de 18 años tras esclarecer un hurto domiciliario\n\nLa policía recuperó en Bragado un celular sustraído de una vivienda. El sospechoso fue liberado por orden judicial.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-recuperaron-un-celular-robado-y-aprehendieron-a-un-225524",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Aprehendieron a un joven de 18 años tras esclarecer un hurto domiciliario",
-   "urgente": false,
-   "vence": "2026-11-06T02:31:25.000Z",
-   "video_bytes": 107560,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_09_bragado_aprehendieron-a-un-joven-de-18.mp4",
-   "viral": false
-  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado|x": {
    "actualizado": "2026-11-07T01:40:13.000Z",
    "buffer_id": "",
@@ -11824,6 +11789,33 @@
    "titulo": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy",
    "urgente": false,
    "vence": "2026-11-06T21:50:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:62ebb555-db92-4262-86b8-2f76e3982e4b|x": {
+   "actualizado": "2026-11-16T02:40:23.000Z",
+   "buffer_id": "",
+   "clave": "web:62ebb555-db92-4262-86b8-2f76e3982e4b|x",
+   "creado": "2026-11-16T02:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-16T02:25:24.406Z",
+   "id": "web:62ebb555-db92-4262-86b8-2f76e3982e4b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Colón finalizó primero en la fase regular por cuarta vez consecutiva\n\nCHIVILCOY.– Colón finalizó primero absoluto de la fase regular por cuarta vez consecutiva.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Colón finalizó primero en la fase regular por cuarta vez consecutiva",
+   "urgente": false,
+   "vence": "2026-11-16T06:25:24.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -15039,18 +15031,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x",
-   "cuando": "2026-11-09T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119582564402823449"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html|x",
-   "cuando": "2026-11-09T01:40:14.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
   {
    "clave": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x",
    "cuando": "2026-11-09T02:20:14.000Z",
@@ -19184,6 +19164,20 @@
    "cuando": "2026-11-16T01:40:16.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:62ebb555-db92-4262-86b8-2f76e3982e4b|x",
+   "cuando": "2026-11-16T02:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:62ebb555-db92-4262-86b8-2f76e3982e4b|x",
+   "cuando": "2026-11-16T02:40:23.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -19315,7 +19309,6 @@
   "bot:corresponsal_2026-11-07_matias-zucchi_mw5temp2tz8d": "2026-11-07T09:00:16.000Z",
   "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2": "2026-11-07T23:40:13.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4": "2026-10-17T02:20:17.000Z",
   "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4": "2026-10-17T21:00:16.000Z",
   "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4": "2026-10-17T23:40:13.000Z",
   "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4": "2026-10-18T00:40:14.000Z",
@@ -19929,6 +19922,7 @@
   "web:606007a3-f032-422b-ace3-ee59408ba8de": "2026-10-30T10:01:54.000Z",
   "web:616edca2-10fd-421a-b351-8a958b1e4519": "2026-11-06T18:00:18.000Z",
   "web:61fa0efb-5787-4c59-bce8-a86006933cfa": "2026-10-17T13:20:16.000Z",
+  "web:62ebb555-db92-4262-86b8-2f76e3982e4b": "2026-11-16T02:40:14.000Z",
   "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": "2026-10-26T10:20:14.000Z",
   "web:6541af24-4488-427f-95aa-ae535252bd65": "2026-11-02T18:20:16.000Z",
   "web:660ce08b-5eea-4d96-ac71-12f7add445dd": "2026-10-19T23:00:18.000Z",
@@ -19970,7 +19964,6 @@
   "web:7524a117-5ec3-428b-862c-0238cd3653e6": "2026-10-20T10:20:14.000Z",
   "web:761944f8-e1c1-436a-9ef1-bf5df2286672": "2026-11-15T01:20:17.000Z",
   "web:764b2539-78a7-4f05-92a1-20413bf6f24b": "2026-11-15T18:00:17.000Z",
-  "web:767181b8-08a7-40d4-a0b0-598f6f0c540f": "2026-10-17T02:20:17.000Z",
   "web:76ba9989-902f-48e4-be31-1bb0265c5c60": "2026-10-26T10:20:14.000Z",
   "web:76e7c276-9244-4833-b1f9-9ae148587bd5": "2026-10-29T14:40:15.000Z",
   "web:76ff5169-2518-4c32-96e7-955ae7a8d272": "2026-10-19T22:00:20.000Z",
