@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,16 +27,13 @@ Actualizado: 16/11/2026 13:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Recortes de entrevistas · Luciano Dellepiane advierte sobre el freno a la obra pública — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T11:00 depurado web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-16T11:00 programado web:f6b756be-3ae7-477a-81b1-48dfe2af1498|x 
-- 2026-11-16T11:20 enviado web:0d728d16-1d2e-4eb0-a9d3-e4a738b6b357|x 
-- 2026-11-16T11:20 enviado web:69e96fd3-a502-4c57-b2e0-93979aab8d0b|x 
 - 2026-11-16T11:20 enviado web:ea501eca-e6aa-48e2-81a7-be44a5f2529a|x 
 - 2026-11-16T11:20 programado web:44fd5518-ed5a-40fc-83e8-17f01377db20|x 
 - 2026-11-16T11:40 programado web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x 
@@ -58,3 +55,7 @@ Actualizado: 16/11/2026 13:20 (hora AR) · ACTIVO
 - 2026-11-16T15:20 depurado web:b13a4343-1c5f-4791-894f-bb286876e7d0|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-16T15:40 recibido web:d5cbb379-f3fd-4f6e-a96e-4dc3636d39ed|x 
 - 2026-11-16T15:40 depurado web:d5cbb379-f3fd-4f6e-a96e-4dc3636d39ed|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-16T16:40 entrevista_aprobada entrevistas:job00316 
+- 2026-11-16T16:40 recibido entrevistas:job00316|x 
+- 2026-11-16T16:40 recibido entrevistas:job00316|tiktok 
+- 2026-11-16T16:40 programado entrevistas:job00316|x 
