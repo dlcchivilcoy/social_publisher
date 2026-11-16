@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 2 | 2 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 5 |
+| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,18 +27,13 @@ Actualizado: 16/11/2026 19:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Reels del bot · Finalizó la novena edición del Festival Internacional de Cine Raíces — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T17:20 programado entrevistas:job00317|x 
-- 2026-11-16T18:00 entrevista_aprobada entrevistas:job00318 
-- 2026-11-16T18:00 recibido entrevistas:job00318|x 
-- 2026-11-16T18:00 recibido entrevistas:job00318|tiktok 
-- 2026-11-16T18:00 programado entrevistas:job00318|x 
-- 2026-11-16T18:20 enviado entrevistas:job00317|x 
 - 2026-11-16T18:20 enviado entrevistas:job00318|x 
 - 2026-11-16T18:40 entrevista_aprobada entrevistas:job00319 
 - 2026-11-16T18:40 recibido entrevistas:job00319|x 
@@ -58,3 +53,9 @@ Actualizado: 16/11/2026 19:00 (hora AR) · ACTIVO
 - 2026-11-16T22:00 enviado bot:video_matias-zucchi_mwjo5rifucll_01.mp4|tiktok 
 - 2026-11-16T22:00 enviado entrevistas:job00318|tiktok 
 - 2026-11-16T22:00 enviado entrevistas:job00319|tiktok 
+- 2026-11-16T22:20 recibido bot:video_matias-zucchi_mwjsvheuls91_01.mp4|x 
+- 2026-11-16T22:20 recibido bot:video_matias-zucchi_mwjsvheuls91_01.mp4|tiktok 
+- 2026-11-16T22:20 recibido policiales:https://www.diariodemocracia.com/policiales/34813 
+- 2026-11-16T22:20 recibido web:f84c9b38-6290-47dc-9e63-f3c2c8f2e0fb|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-16T22:20 programado bot:video_matias-zucchi_mwjsvheuls91_01.mp4|x 
+- 2026-11-16T22:20 programado policiales:https://www.diariodemocracia.com/policiales/34813 
