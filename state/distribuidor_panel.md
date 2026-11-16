@@ -1,13 +1,13 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,22 +27,12 @@ Actualizado: 16/11/2026 17:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
-- TikTok · Reels del bot · Una caravana de motociclistas despidió a un joven fallecido en un choque — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Marcos Salvaggio: balance de Gimnasia de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Guillermo López: llegada de animales silvestres por inundaciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Maria Del Carmen Giuliano: el valor de leer en voz alta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Luciano Dellepiane advierte sobre el freno a la obra pública — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T16:40 entrevista_aprobada entrevistas:job00316 
-- 2026-11-16T16:40 recibido entrevistas:job00316|x 
-- 2026-11-16T16:40 recibido entrevistas:job00316|tiktok 
-- 2026-11-16T16:40 programado entrevistas:job00316|x 
-- 2026-11-16T17:00 enviado entrevistas:job00316|x 
 - 2026-11-16T17:20 entrevista_aprobada entrevistas:job00317 
 - 2026-11-16T17:20 recibido entrevistas:job00317|x 
 - 2026-11-16T17:20 recibido entrevistas:job00317|tiktok 
@@ -63,3 +53,8 @@ Actualizado: 16/11/2026 17:40 (hora AR) · ACTIVO
 - 2026-11-16T20:00 recibido web:f1a20b87-1804-430d-9961-2598fe26d092|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-16T20:00 programado bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x 
 - 2026-11-16T20:40 enviado bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x 
+- 2026-11-16T21:00 programado bot:video_matias-zucchi_mwjo5rifucll_01.mp4|tiktok 
+- 2026-11-16T21:00 programado entrevistas:job00319|tiktok 
+- 2026-11-16T21:00 programado entrevistas:job00318|tiktok 
+- 2026-11-16T21:00 programado entrevistas:job00317|tiktok 
+- 2026-11-16T21:00 programado entrevistas:job00316|tiktok 
