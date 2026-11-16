@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 16/11/2026 12:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 2 |
+| Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,7 +20,7 @@ Actualizado: 16/11/2026 12:00 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 46 · likes 0
 - X · Reels del bot: 13 con métricas · mediana vistas/impresiones 44 · likes 0
 - X · Reels policiales: 16 con métricas · mediana vistas/impresiones 59 · likes 0
-- X · Notas web: 78 con métricas · mediana vistas/impresiones 21.5 · likes 0
+- X · Notas web: 77 con métricas · mediana vistas/impresiones 21 · likes 0
 - TikTok · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 189.5 · likes 1
 - TikTok · Reels del bot: 15 con métricas · mediana vistas/impresiones 247 · likes 4
 
@@ -33,8 +33,6 @@ Actualizado: 16/11/2026 12:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T10:20 enviado web:62d60b10-08a0-4e4a-b50b-4faca841dd26|x 
-- 2026-11-16T10:20 programado web:b4b8df92-6a44-497e-bfda-6b94b8414a97|x 
 - 2026-11-16T10:40 programado web:79b2a1c9-ea02-4daf-9e3e-3dd29dd81958|x 
 - 2026-11-16T10:40 programado web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5|x 
 - 2026-11-16T11:00 depurado web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5|x no está en el carrusel del diario de hoy (sacado de Buffer)
@@ -58,3 +56,5 @@ Actualizado: 16/11/2026 12:00 (hora AR) · ACTIVO
 - 2026-11-16T13:40 enviado web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x 
 - 2026-11-16T14:40 recibido web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3|x 
 - 2026-11-16T14:40 depurado web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-16T15:20 recibido web:b13a4343-1c5f-4791-894f-bb286876e7d0|x 
+- 2026-11-16T15:20 depurado web:b13a4343-1c5f-4791-894f-bb286876e7d0|x de la web, a X solo van las notas del diario de la mañana
