@@ -14489,14 +14489,14 @@
    "viral": false
   },
   "web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x": {
-   "actualizado": "2026-11-16T10:03:28.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-16T12:20:16.000Z",
+   "buffer_id": "6afaf50037f9e5273be7f0a4",
    "clave": "web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x",
    "creado": "2026-11-16T10:03:28.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-16T13:38:42.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-16T10:03:08.185Z",
    "id": "web:d1ed8261-7eab-4e57-97b0-fe69b793a107",
    "ig_hora": "2026-11-16T13:38:16.000Z",
@@ -15350,12 +15350,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x",
-   "cuando": "2026-11-09T11:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119756263709905009"
-  },
   {
    "buffer_id": "6af1b11f03b6251bb37b5830",
    "clave": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x",
@@ -19498,6 +19492,13 @@
    "cuando": "2026-11-16T12:00:21.000Z",
    "dueAt": "2026-11-16T13:23:41.000Z",
    "evento": "programado"
+  },
+  {
+   "buffer_id": "6afaf50037f9e5273be7f0a4",
+   "clave": "web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x",
+   "cuando": "2026-11-16T12:20:16.000Z",
+   "dueAt": "2026-11-16T13:38:42.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19956,7 +19957,6 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja": "2026-11-05T22:40:14.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado": "2026-11-06T23:40:13.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region": "2026-11-13T22:40:14.000Z",
-  "policiales:https://www.chacabuquero.com.ar/2026/10/a-los-tiros-en-la-noche-de-chacabuco.html": "2026-10-17T12:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": "2026-10-18T21:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html": "2026-10-27T00:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/cayeron-mas-borrachines-en-chacabuco.html": "2026-10-17T16:00:19.000Z",
@@ -20036,7 +20036,6 @@
   "web:010e4114-35e9-438d-8057-51285ef42a56": "2026-10-19T02:20:15.000Z",
   "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e": "2026-11-12T10:02:44.000Z",
   "web:01bf9e9c-5d81-432e-9d5f-303e147f07d7": "2026-11-03T10:02:22.000Z",
-  "web:021c5ea9-7206-4d0c-a8ef-bc0e3d997553": "2026-10-17T12:20:16.000Z",
   "web:024c510b-0090-4885-a004-6612c092f38b": "2026-10-26T22:40:15.000Z",
   "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": "2026-10-18T09:00:15.000Z",
   "web:02e93911-55df-4a65-bb82-d3e764bdb7c5": "2026-10-26T12:06:06.000Z",
