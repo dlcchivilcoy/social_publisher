@@ -3127,6 +3127,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-no-pude-contener-la-emocion",
    "volanta": "Opinión"
   },
+  "web:60168ccc-c626-4cdc-b170-c86efab84f3d": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Los Millonarios venció a Gimnasia y avanzó a la final de la Copa de Oro CHIVILCOY.– Se jugó la segunda semifinal de la Copa de Oro en la categoría U11 entre Los Millonarios y Gimnasia. Fue victoria del conjunto local por 85 a 56, logrando así el pase a la final, donde se enfrentará a San Lorenzo. Felicitaciones.",
+   "generado": "2026-11-16T02:42:10.843Z",
+   "id": "web:60168ccc-c626-4cdc-b170-c86efab84f3d",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2b09dad90eef4f449b9c8d2b7cb4e897~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-los-millonarios-vencio-a-gimnasia-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Los Millonarios venció a Gimnasia y avanzó a la final de la Copa de Oro",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-los-millonarios-vencio-a-gimnasia-y",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:616edca2-10fd-421a-b351-8a958b1e4519": {
    "categoria": "",
    "descripcion": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy El secretario de Seguridad, Néstor Dabi, confirmó en diálogo con Diario La Campaña y Radio del Centro que efectivos policiales de Chivilcoy fueron convocados para participar de un operativo en Luján. Al respecto, el funcionario explicó que la medida no resiente la cobertura en el distrito. «Los que están de servicio están de servicio, los que están de franco son convocados para ese operativo», detalló Dabi sobre el...",
@@ -4266,25 +4285,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-racing-supero-a-gimnasia-en-la-ultima",
    "volanta": "Chivilcoy · Deportes"
-  },
-  "web:c111ebae-74fb-4af9-b579-9f53a3522b71": {
-   "categoria": "",
-   "descripcion": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján Bomberos Voluntarios y personal de emergencias llevaron adelante un operativo de rescate para auxiliar a dos jóvenes que cayeron en las instalaciones de la Universidad Nacional de Luján. El hecho se originó tras un llamado que alertó sobre personas accidentadas en el sector edilicio. El oficial de bomberos Esteban Genaro explicó las tareas realizadas en el establecimiento educativo: «Fuimos convocados por un...",
-   "generado": "2026-11-06T02:42:11.548Z",
-   "id": "web:c111ebae-74fb-4af9-b579-9f53a3522b71",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5c56b81f157b4bde8eb2836198f68bae~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
-   "volanta": "Rescate en altura"
   },
   "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149": {
    "categoria": "",
@@ -11768,6 +11768,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:60168ccc-c626-4cdc-b170-c86efab84f3d|x": {
+   "actualizado": "2026-11-16T09:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:60168ccc-c626-4cdc-b170-c86efab84f3d|x",
+   "creado": "2026-11-16T09:00:18.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-16T02:42:10.843Z",
+   "id": "web:60168ccc-c626-4cdc-b170-c86efab84f3d",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-los-millonarios-vencio-a-gimnasia-y",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-los-millonarios-vencio-a-gimnasia-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Los Millonarios venció a Gimnasia y avanzó a la final de la Copa de Oro\n\nEn la categoría U11, el equipo local ganó la semifinal por 85 a 56 y definirá el torneo contra San Lorenzo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-los-millonarios-vencio-a-gimnasia-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Los Millonarios venció a Gimnasia y avanzó a la final de la Copa de Oro",
+   "urgente": false,
+   "vence": "2026-11-16T06:42:10.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:616edca2-10fd-421a-b351-8a958b1e4519|x": {
    "actualizado": "2026-11-06T18:00:18.000Z",
    "buffer_id": "",
@@ -13788,31 +13815,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c111ebae-74fb-4af9-b579-9f53a3522b71|x": {
-   "actualizado": "2026-11-06T09:00:16.000Z",
-   "buffer_id": "",
-   "clave": "web:c111ebae-74fb-4af9-b579-9f53a3522b71|x",
-   "creado": "2026-11-06T09:00:16.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-06T02:42:11.548Z",
-   "id": "web:c111ebae-74fb-4af9-b579-9f53a3522b71",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
-   "noticia": "nota:rescate-en-altura-genaro-bomberos-rescataron-a-dos-jovenes-tras-caer",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Genaro: Bomberos rescataron a dos jóvenes tras caer en la Universidad de Luján",
-   "urgente": false,
-   "vence": "2026-11-06T06:42:11.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149|x": {
    "actualizado": "2026-11-12T21:40:18.000Z",
    "buffer_id": "",
@@ -15031,20 +15033,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x",
-   "cuando": "2026-11-09T02:20:14.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:a4af8e93-1494-4e38-bc38-5764b271088c|x",
-   "cuando": "2026-11-09T09:00:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:a4af8e93-1494-4e38-bc38-5764b271088c|x",
    "cuando": "2026-11-09T09:00:24.000Z",
@@ -19178,6 +19166,20 @@
    "cuando": "2026-11-16T02:40:23.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:60168ccc-c626-4cdc-b170-c86efab84f3d|x",
+   "cuando": "2026-11-16T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:60168ccc-c626-4cdc-b170-c86efab84f3d|x",
+   "cuando": "2026-11-16T09:00:21.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -19607,7 +19609,6 @@
   "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/": "2026-11-09T22:40:14.000Z",
   "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/": "2026-11-05T23:40:18.000Z",
   "policiales:https://noticiasmercedes.com/mercedes-en-un-fallo-historico-condenan-a-jerarca-policial-que-abuso-de-una-subalterna/": "2026-10-17T19:00:17.000Z",
-  "policiales:https://semanariodejunin.com.ar/nota/75601/hallaron-muerto-al-jubilado-hugo-juarez-y-detuvieron-a-un-joven-de-27-anos": "2026-10-17T09:00:19.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado": "2026-11-03T00:40:17.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76304/ddi-junin-secuestro-un-gol-trend-con-patentes-apocrifas-y-numeracion-borrada": "2026-11-05T22:20:13.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre": "2026-11-06T22:40:13.000Z",
@@ -19615,7 +19616,6 @@
   "policiales:https://semanariodejunin.com.ar/nota/76483/crimen-en-mechita-una-pista-desde-la-carcel-permitio-esclarecer-el-asesinato": "2026-11-11T22:20:16.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor": "2026-11-14T00:20:14.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto": "2026-11-15T23:40:13.000Z",
-  "policiales:https://www.bragadoinforma.com.ar/nota/31015/susto-en-pleno-centro-por-el-incendio-de-un-aire-acondicionado-en-un-edificio.html": "2026-10-17T09:00:19.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html": "2026-10-21T00:40:14.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html": "2026-10-21T00:20:18.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html": "2026-10-23T02:20:14.000Z",
@@ -19712,7 +19712,6 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/": "2026-11-07T00:20:16.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/": "2026-11-10T23:20:14.000Z",
-  "policiales:https://www.presentenoticias.com/noticias/2026/10/16/22577-se-produjo-un-incendio-en-una-vivienda-de-barrio-los-zorzales": "2026-10-17T09:00:19.000Z",
   "web:004e7af4-996b-4844-babe-bcc9c91c2fe6": "2026-10-21T00:00:28.000Z",
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": "2026-11-02T10:03:22.000Z",
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0": "2026-11-11T10:02:35.000Z",
@@ -19918,6 +19917,7 @@
   "web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3": "2026-11-10T10:02:42.000Z",
   "web:5de0a567-504a-4513-8e76-0f10b16b1c52": "2026-11-09T10:20:14.000Z",
   "web:5e1b7468-652a-43da-baf9-771cda1103ff": "2026-10-18T15:20:15.000Z",
+  "web:60168ccc-c626-4cdc-b170-c86efab84f3d": "2026-11-16T09:00:18.000Z",
   "web:603008ee-aaa2-4035-94d1-a082d4cfaa32": "2026-10-22T10:02:31.000Z",
   "web:606007a3-f032-422b-ace3-ee59408ba8de": "2026-10-30T10:01:54.000Z",
   "web:616edca2-10fd-421a-b351-8a958b1e4519": "2026-11-06T18:00:18.000Z",

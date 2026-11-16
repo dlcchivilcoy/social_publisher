@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 15/11/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-11-15)
+## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 2 | 1 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 5 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 15/11/2026 23:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-15T13:20 enviado bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok 
-- 2026-11-15T14:40 recibido web:a13517b3-e29e-4a98-b0bc-d2fa2f109778|x 
 - 2026-11-15T14:40 depurado web:a13517b3-e29e-4a98-b0bc-d2fa2f109778|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-15T17:00 recibido bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x 
 - 2026-11-15T17:00 recibido bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok 
@@ -58,3 +56,5 @@ Actualizado: 15/11/2026 23:40 (hora AR) · ACTIVO
 - 2026-11-16T01:40 vencido policiales:https://semanariodejunin.com.ar/nota/76579/feroz- espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-16T02:40 recibido web:62ebb555-db92-4262-86b8-2f76e3982e4b|x 
 - 2026-11-16T02:40 depurado web:62ebb555-db92-4262-86b8-2f76e3982e4b|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-16T09:00 recibido web:60168ccc-c626-4cdc-b170-c86efab84f3d|x 
+- 2026-11-16T09:00 vencido web:60168ccc-c626-4cdc-b170-c86efab84f3d|x no hubo lugar antes de su vencimiento
