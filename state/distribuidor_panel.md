@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 16/11/2026 08:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 4 | 5 | 4 | 0 | 1 | 1 |
+| Notas web | X | 15 | 4 | 7 | 2 | 0 | 1 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,25 +20,21 @@ Actualizado: 16/11/2026 08:20 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 46 · likes 0
 - X · Reels del bot: 13 con métricas · mediana vistas/impresiones 44 · likes 0
 - X · Reels policiales: 16 con métricas · mediana vistas/impresiones 59 · likes 0
-- X · Notas web: 91 con métricas · mediana vistas/impresiones 20 · likes 0
+- X · Notas web: 85 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 189.5 · likes 1
 - TikTok · Reels del bot: 17 con métricas · mediana vistas/impresiones 335 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (2 esperando)
 - X · Notas web · Chivilcoy: Histórica actuación de los mellizos Tomás y Germán Vega en el Sudamer — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Simón Domínguez, campeón sudamericano con la Selección Argentina Juve — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Torneo Prefederal Bonaerense: Somisa cerró invicto la fase regular y  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Habrá final chivilcoyana en la Copa de Oro de Cadetes: Colón y Argentino van por — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T10:03 recibido web:44fd5518-ed5a-40fc-83e8-17f01377db20|x 
-- 2026-11-16T10:04 recibido web:f6b756be-3ae7-477a-81b1-48dfe2af1498|x 
 - 2026-11-16T10:04 recibido web:79b2a1c9-ea02-4daf-9e3e-3dd29dd81958|x 
 - 2026-11-16T10:04 recibido web:b4b8df92-6a44-497e-bfda-6b94b8414a97|x 
 - 2026-11-16T10:04 recibido web:58e141af-ad69-4845-a7f9-40c71d9349cb|x 
@@ -62,3 +58,5 @@ Actualizado: 16/11/2026 08:20 (hora AR) · ACTIVO
 - 2026-11-16T11:20 enviado web:69e96fd3-a502-4c57-b2e0-93979aab8d0b|x 
 - 2026-11-16T11:20 enviado web:ea501eca-e6aa-48e2-81a7-be44a5f2529a|x 
 - 2026-11-16T11:20 programado web:44fd5518-ed5a-40fc-83e8-17f01377db20|x 
+- 2026-11-16T11:40 programado web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x 
+- 2026-11-16T11:40 programado web:7a38384a-57c1-43f8-a275-9335467a7e1b|x 
