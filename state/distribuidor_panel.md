@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 16:40 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 17:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 4 |
+| Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -17,7 +17,7 @@ Actualizado: 16/11/2026 16:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 45 · likes 0
+- X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 47 · likes 0
 - X · Reels del bot: 12 con métricas · mediana vistas/impresiones 47.5 · likes 0
 - X · Reels policiales: 16 con métricas · mediana vistas/impresiones 59 · likes 0
 - X · Notas web: 77 con métricas · mediana vistas/impresiones 21 · likes 0
@@ -27,7 +27,8 @@ Actualizado: 16/11/2026 16:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (5 esperando)
+- TikTok · Reels del bot · Una caravana de motociclistas despidió a un joven fallecido en un choque — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Marcos Salvaggio: balance de Gimnasia de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Guillermo López: llegada de animales silvestres por inundaciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Maria Del Carmen Giuliano: el valor de leer en voz alta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -37,10 +38,6 @@ Actualizado: 16/11/2026 16:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T14:40 depurado web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-16T15:20 recibido web:b13a4343-1c5f-4791-894f-bb286876e7d0|x 
-- 2026-11-16T15:20 depurado web:b13a4343-1c5f-4791-894f-bb286876e7d0|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-16T15:40 recibido web:d5cbb379-f3fd-4f6e-a96e-4dc3636d39ed|x 
 - 2026-11-16T15:40 depurado web:d5cbb379-f3fd-4f6e-a96e-4dc3636d39ed|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-16T16:40 entrevista_aprobada entrevistas:job00316 
 - 2026-11-16T16:40 recibido entrevistas:job00316|x 
@@ -62,3 +59,7 @@ Actualizado: 16/11/2026 16:40 (hora AR) · ACTIVO
 - 2026-11-16T18:40 recibido entrevistas:job00319|tiktok 
 - 2026-11-16T18:40 programado entrevistas:job00319|x 
 - 2026-11-16T19:40 enviado entrevistas:job00319|x 
+- 2026-11-16T20:00 recibido bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x 
+- 2026-11-16T20:00 recibido bot:video_matias-zucchi_mwjo5rifucll_01.mp4|tiktok 
+- 2026-11-16T20:00 recibido web:f1a20b87-1804-430d-9961-2598fe26d092|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-16T20:00 programado bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x 

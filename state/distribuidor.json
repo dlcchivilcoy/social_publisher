@@ -348,6 +348,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae04118e838617e.mp4",
    "youtube_url": "https://www.youtube.com/shorts/G05XcGp1B1A"
   },
+  "bot:video_matias-zucchi_mwjo5rifucll_01.mp4": {
+   "descripcion": "Familiares, amigos y vecinos despidieron este lunes 16 de noviembre a Jesús Almeira, el joven que falleció tras un choque de motos en Chivilcoy.\n\nUna caravana de motociclistas acompañó el cortejo fúnebre durante la mañana. Sus allegados se sumaron en dos ruedas a lo largo del recorrido para rendirle homenaje y acompañar a su familia en este difícil momento.\n\nEl siniestro vial ocurrió el sábado 14 de noviembre, cerca de las 14, en la intersección de avenida Avellaneda y Arenales. Almeira sufrió heridas graves tras colisionar con otra motocicleta y fue trasladado al Hospital Municipal, donde se constató su fallecimiento.\n\nEn el hecho también intervino otra moto conducida por una joven de 25 años, quien resultó lesionada.\n\nDiario La Campaña y Radio del Centro envían sus sinceras condolencias a los familiares y amigos de Jesús Almeira.",
+   "duracion_seg": 35.2,
+   "generado": "2026-11-16T19:48:14.000Z",
+   "id": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Una caravana de motociclistas despidió a un joven fallecido en un choque",
+   "urgente": false,
+   "video_bytes": 10212157,
+   "video_mb": 9.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_01edab53a7d38e13.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/q4eoojn59WI"
+  },
   "entrevistas:job00284": {
    "descripcion": "Natalia Fracchia, referente de la murga Colgados de la Rama en Chivilcoy, defendió la gratuidad de los corsos barriales para que sean una fiesta popular accesible a todas las familias.",
    "duracion_seg": null,
@@ -4860,6 +4881,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-racing-dio-el-golpe-ante-colon-le-quito-el-invicto",
    "volanta": "Básquet"
   },
+  "web:f1a20b87-1804-430d-9961-2598fe26d092": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Una caravana de motociclistas despidió a un joven fallecido en un choque CHIVILCOY.– Familiares, amigos y vecinos despidieron este lunes a Jesús Almeira, el joven que murió tras un choque entre dos motos en avenida Avellaneda y Arenales. Una caravana de motociclistas acompañó el cortejo fúnebre en la mañana del lunes 16 de noviembre, en Chivilcoy. Sus amigos se sumaron al recorrido en moto para rendirle homenaje y acompañar a su familia en la despedida. Almeira había sufrido...",
+   "generado": "2026-11-16T19:46:39.335Z",
+   "id": "web:f1a20b87-1804-430d-9961-2598fe26d092",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2d2ab59649db41ff848c37a5fe7ba0ed~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Una caravana de motociclistas despidió a un joven fallecido en un choque",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
+   "volanta": "Chivilcoy · De duelo"
+  },
   "web:f6b756be-3ae7-477a-81b1-48dfe2af1498": {
    "categoria": "",
    "descripcion": "Chivilcoy: A Gimnasia se le escapó la clasificación de las manos: empató con Douglas Haig y quedó eliminado del Torneo Federal ‘A’ El \"Lobo\" lo ganaba 2 a 0 y tenía la clasificación en el bolsillo, pero el conjunto de Pergamino reaccionó en el complemento, igualó 2 a 2 con un hombre menos y avanzó a semifinales por un global de 3 a 2. Pese a la despedida, el equipo de Chivilcoy cerró la temporada con el boleto asegurado a la Copa Argentina 2027. En una tarde cargada de emociones y dramatismo...",
@@ -6069,6 +6109,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae04118e838617e.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|tiktok": {
+   "actualizado": "2026-11-16T20:00:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|tiktok",
+   "creado": "2026-11-16T20:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-16T19:48:14.000Z",
+   "id": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una caravana de motociclistas despidió a un joven fallecido en un choque\n\nFamiliares, amigos y vecinos acompañaron el cortejo fúnebre de Jesús Almeira, quien murió tras colisionar en moto con otro vehículo similar en Chivilcoy. Durante el recorrido matutino, sus allegados se sumaron en dos ruedas para rendirle homenaje y apoyar a su familia.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una caravana de motociclistas despidió a un joven fallecido en un choque",
+   "urgente": false,
+   "vence": "2026-11-18T19:48:14.000Z",
+   "video_bytes": 10212157,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_01edab53a7d38e13.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x": {
+   "actualizado": "2026-11-16T20:00:25.000Z",
+   "buffer_id": "6afb60da3509d4c5b87e474d",
+   "clave": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x",
+   "creado": "2026-11-16T20:00:18.000Z",
+   "dueAt": "2026-11-16T20:02:22.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-16T19:48:14.000Z",
+   "id": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
+   "noticia": "nota:chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Una caravana de motociclistas despidió a un joven fallecido en un choque\n\nFamiliares, amigos y vecinos acompañaron el cortejo fúnebre de Jesús Almeira en Chivilcoy. El joven murió tras chocar con otra motocicleta.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una caravana de motociclistas despidió a un joven fallecido en un choque",
+   "urgente": false,
+   "vence": "2026-11-16T21:48:14.000Z",
+   "video_bytes": 10212157,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_01edab53a7d38e13.mp4",
+   "viral": false
+  },
   "entrevistas:job00284|tiktok": {
    "actualizado": "2026-11-07T00:00:16.000Z",
    "buffer_id": "6aee3fea004e4879a7155c7a",
@@ -6225,43 +6321,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00287.mp4",
    "viral": false
   },
-  "entrevistas:job00287|x": {
-   "actualizado": "2026-11-06T19:40:15.000Z",
-   "buffer_id": "6aee1a60004e4879a708fae6",
-   "clave": "entrevistas:job00287|x",
-   "creado": "2026-11-06T18:20:14.000Z",
-   "dueAt": "2026-11-06T18:22:24.000Z",
-   "enviado": "2026-11-06T18:22:40.413Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-06T18:20:14.000Z",
-   "id": "entrevistas:job00287",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2118771059876921403",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 20,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:caselles-extra-ezequiel-hora-municipal-pagan",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Ezequiel Caselles: Pagan $2.200 la hora extra municipal\n\nEl concejal de Fuerza Patria en Chivilcoy, Ezequiel Caselles, denunció los salarios de miseria que perciben los trabajadores municipales y exigió revisar el presupuesto.\n\nhttps://youtu.be/t1JtU3KwZQw",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Ezequiel Caselles: Pagan $2.200 la hora extra municipal",
-   "urgente": false,
-   "vence": "2026-11-06T20:20:14.000Z",
-   "video_bytes": 29700111,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00287.mp4",
-   "viral": false
-  },
   "entrevistas:job00288|tiktok": {
    "actualizado": "2026-11-06T22:40:15.000Z",
    "buffer_id": "6aee3fe5a7751de7c9a9768c",
@@ -6297,43 +6356,6 @@
    "titulo": "Patricia Gallo: IA y profesiones humanas en Chivilcoy",
    "urgente": false,
    "vence": "2026-11-08T19:00:17.000Z",
-   "video_bytes": 28317983,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00288.mp4",
-   "viral": false
-  },
-  "entrevistas:job00288|x": {
-   "actualizado": "2026-11-06T19:40:15.000Z",
-   "buffer_id": "6aee23cb229bf05daf03ce7b",
-   "clave": "entrevistas:job00288|x",
-   "creado": "2026-11-06T19:00:17.000Z",
-   "dueAt": "2026-11-06T19:02:15.000Z",
-   "enviado": "2026-11-06T19:05:33.026Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-06T19:00:17.000Z",
-   "id": "entrevistas:job00288",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2118781850030162084",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 16,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:chivilcoy-gallo-humanas-patricia-profesiones",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Patricia Gallo: IA y profesiones humanas en Chivilcoy\n\nhttps://youtu.be/tH52lKs3baU",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Patricia Gallo: IA y profesiones humanas en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-11-06T21:00:17.000Z",
    "video_bytes": 28317983,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00288.mp4",
    "viral": false
@@ -14647,6 +14669,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:f1a20b87-1804-430d-9961-2598fe26d092|x": {
+   "actualizado": "2026-11-16T20:00:18.000Z",
+   "buffer_id": "",
+   "clave": "web:f1a20b87-1804-430d-9961-2598fe26d092|x",
+   "creado": "2026-11-16T20:00:18.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-16T19:46:39.335Z",
+   "id": "web:f1a20b87-1804-430d-9961-2598fe26d092",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
+   "noticia": "nota:chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Una caravana de motociclistas despidió a un joven fallecido en un choque",
+   "urgente": false,
+   "vence": "2026-11-16T23:46:39.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:f6b756be-3ae7-477a-81b1-48dfe2af1498|x": {
    "actualizado": "2026-11-16T12:40:15.000Z",
    "buffer_id": "6afae25137f9e5273bdfc902",
@@ -14811,35 +14858,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00293|tiktok",
-   "cuando": "2026-11-09T21:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6af2346618d54f7e0dd02f1b",
-   "clave": "entrevistas:job00293|x",
-   "cuando": "2026-11-09T21:00:27.000Z",
-   "dueAt": "2026-11-09T21:02:29.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af2346773b2b0fbabda43eb",
-   "clave": "entrevistas:job00293|tiktok",
-   "cuando": "2026-11-09T21:00:27.000Z",
-   "dueAt": "2026-11-09T21:03:18.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af23468740f5b7fb9ae0523",
-   "clave": "entrevistas:job00292|tiktok",
-   "cuando": "2026-11-09T21:00:27.000Z",
-   "dueAt": "2026-11-09T21:23:54.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6af2346973b2b0fbabda46a5",
    "clave": "entrevistas:job00291|tiktok",
@@ -18960,6 +18978,37 @@
    "cuando": "2026-11-16T19:40:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2122399974205817320"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x",
+   "cuando": "2026-11-16T20:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|tiktok",
+   "cuando": "2026-11-16T20:00:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:f1a20b87-1804-430d-9961-2598fe26d092|x",
+   "cuando": "2026-11-16T20:00:25.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6afb60da3509d4c5b87e474d",
+   "clave": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x",
+   "cuando": "2026-11-16T20:00:26.000Z",
+   "dueAt": "2026-11-16T20:02:22.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19170,6 +19219,7 @@
   "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4": "2026-11-14T00:00:20.000Z",
   "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4": "2026-11-15T01:20:17.000Z",
   "bot:video_matias-zucchi_mwi2eoljergp_01.mp4": "2026-11-15T17:00:25.000Z",
+  "bot:video_matias-zucchi_mwjo5rifucll_01.mp4": "2026-11-16T20:00:18.000Z",
   "entrevistas:job00224": "2026-10-19T16:20:14.000Z",
   "entrevistas:job00225": "2026-10-19T17:00:21.000Z",
   "entrevistas:job00226": "2026-10-19T17:20:14.000Z",
@@ -20058,6 +20108,7 @@
   "web:f0f64009-e880-45a2-9552-b15ed75817f2": "2026-11-11T10:02:35.000Z",
   "web:f0fdf6dc-eb9d-437d-ac1e-248417895c62": "2026-10-21T10:02:08.000Z",
   "web:f12ef051-6163-4424-8626-4ff7b049b205": "2026-11-13T10:02:41.000Z",
+  "web:f1a20b87-1804-430d-9961-2598fe26d092": "2026-11-16T20:00:18.000Z",
   "web:f34b4317-aae2-4788-9b60-afe5d1e7eb93": "2026-10-26T12:06:06.000Z",
   "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d": "2026-10-26T16:40:17.000Z",
   "web:f4a2bdee-0434-4521-9ae7-bcf4d0011055": "2026-10-18T22:00:19.000Z",
