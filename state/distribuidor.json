@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-16T11:20:24.000Z"
+   "visto": "2026-11-16T12:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 4,
-    "sent": 6
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-11-16T11:20:24.000Z"
+   "visto": "2026-11-16T12:40:15.000Z"
   }
  },
  "contenidos": {
@@ -11526,19 +11526,20 @@
    "viral": false
   },
   "web:44fd5518-ed5a-40fc-83e8-17f01377db20|x": {
-   "actualizado": "2026-11-16T11:20:24.000Z",
+   "actualizado": "2026-11-16T12:40:15.000Z",
    "buffer_id": "6afae6f891ba8aa74bccfcc2",
    "clave": "web:44fd5518-ed5a-40fc-83e8-17f01377db20|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T12:38:58.000Z",
+   "enviado": "2026-11-16T12:39:01.736Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:02:47.302Z",
    "id": "web:44fd5518-ed5a-40fc-83e8-17f01377db20",
    "ig_hora": "2026-11-16T12:38:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122308457428607371",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-colon-revirtio-el-resultado-frente-a-florencio",
    "noticia": "nota:futbol-chivilcoy-colon-revirtio-el-resultado-frente-a-florencio",
    "origen": "web",
@@ -11865,19 +11866,20 @@
    "viral": false
   },
   "web:58e141af-ad69-4845-a7f9-40c71d9349cb|x": {
-   "actualizado": "2026-11-16T10:04:30.000Z",
+   "actualizado": "2026-11-16T12:40:15.000Z",
    "buffer_id": "6afad53060a910801c866999",
    "clave": "web:58e141af-ad69-4845-a7f9-40c71d9349cb|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T11:23:16.000Z",
+   "enviado": "2026-11-16T11:23:31.244Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:02:18.121Z",
    "id": "web:58e141af-ad69-4845-a7f9-40c71d9349cb",
    "ig_hora": "2026-11-16T11:23:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122289454907785510",
    "nota_url": "https://www.diariolacampaña.com.ar/n/programa-de-inclusion-laboral-chivilcoy-laura-azcola-considero",
    "noticia": "nota:programa-de-inclusion-laboral-chivilcoy-laura-azcola-considero",
    "origen": "web",
@@ -12656,19 +12658,20 @@
    "viral": false
   },
   "web:79b2a1c9-ea02-4daf-9e3e-3dd29dd81958|x": {
-   "actualizado": "2026-11-16T10:40:13.000Z",
+   "actualizado": "2026-11-16T12:40:15.000Z",
    "buffer_id": "6afadd8d91ba8aa74bc8d8a4",
    "clave": "web:79b2a1c9-ea02-4daf-9e3e-3dd29dd81958|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T11:53:21.000Z",
+   "enviado": "2026-11-16T11:53:31.139Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:02:33.459Z",
    "id": "web:79b2a1c9-ea02-4daf-9e3e-3dd29dd81958",
    "ig_hora": "2026-11-16T11:53:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122297004290175410",
    "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-el-mensaje-del-papa-y-el-mensaje-de-los-argentinos",
    "noticia": "nota:opinion-el-mensaje-del-papa-y-el-mensaje-de-los-argentinos",
    "origen": "web",
@@ -13835,19 +13838,20 @@
    "viral": false
   },
   "web:b4b8df92-6a44-497e-bfda-6b94b8414a97|x": {
-   "actualizado": "2026-11-16T10:20:19.000Z",
+   "actualizado": "2026-11-16T12:40:15.000Z",
    "buffer_id": "6afad8e30c2af02527d33299",
    "clave": "web:b4b8df92-6a44-497e-bfda-6b94b8414a97|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T11:38:18.000Z",
+   "enviado": "2026-11-16T11:38:31.346Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:02:28.652Z",
    "id": "web:b4b8df92-6a44-497e-bfda-6b94b8414a97",
    "ig_hora": "2026-11-16T11:38:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122293230054134045",
    "nota_url": "https://www.diariolacampaña.com.ar/n/encuentro-de-talleres-protegido-zona-sur-en-la-ciudad-de-carhue",
    "noticia": "nota:encuentro-de-talleres-protegido-zona-sur-en-la-ciudad-de-carhue",
    "origen": "web",
@@ -15150,19 +15154,20 @@
    "viral": false
   },
   "web:f6b756be-3ae7-477a-81b1-48dfe2af1498|x": {
-   "actualizado": "2026-11-16T11:00:33.000Z",
+   "actualizado": "2026-11-16T12:40:15.000Z",
    "buffer_id": "6afae25137f9e5273bdfc902",
    "clave": "web:f6b756be-3ae7-477a-81b1-48dfe2af1498|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T12:23:47.000Z",
+   "enviado": "2026-11-16T12:24:03.013Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:02:41.189Z",
    "id": "web:f6b756be-3ae7-477a-81b1-48dfe2af1498",
    "ig_hora": "2026-11-16T12:23:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122304687516885336",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-a-gimnasia-se-le-escapo-la-clasificacion-de-las",
    "noticia": "nota:futbol-chivilcoy-a-gimnasia-se-le-escapo-la-clasificacion-de-las",
    "origen": "web",
@@ -15350,40 +15355,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6af1b11f03b6251bb37b5830",
-   "clave": "web:2f44ced7-23f0-4b6f-888d-c95d56334b15|x",
-   "cuando": "2026-11-09T11:40:16.000Z",
-   "dueAt": "2026-11-09T12:52:21.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af1b12091e5a427b1aa86f2",
-   "clave": "web:8eb33e2e-1da6-4cb1-8f45-85058ba8a577|x",
-   "cuando": "2026-11-09T11:40:16.000Z",
-   "dueAt": "2026-11-09T13:07:12.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af1b5d72c4acc7aad277c54",
-   "clave": "web:8d454526-fe37-4a5c-a733-afb21a24349b|x",
-   "cuando": "2026-11-09T12:00:24.000Z",
-   "dueAt": "2026-11-09T13:22:18.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af1ba7f9c89efdcd5b9da93",
-   "clave": "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814|x",
-   "cuando": "2026-11-09T12:20:15.000Z",
-   "dueAt": "2026-11-09T13:37:50.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:5de0a567-504a-4513-8e76-0f10b16b1c52|x",
-   "cuando": "2026-11-09T12:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119760038029901863"
-  },
   {
    "clave": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x",
    "cuando": "2026-11-09T12:40:18.000Z",
@@ -19499,6 +19470,36 @@
    "cuando": "2026-11-16T12:20:16.000Z",
    "dueAt": "2026-11-16T13:38:42.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:44fd5518-ed5a-40fc-83e8-17f01377db20|x",
+   "cuando": "2026-11-16T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122308457428607371"
+  },
+  {
+   "clave": "web:58e141af-ad69-4845-a7f9-40c71d9349cb|x",
+   "cuando": "2026-11-16T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122289454907785510"
+  },
+  {
+   "clave": "web:79b2a1c9-ea02-4daf-9e3e-3dd29dd81958|x",
+   "cuando": "2026-11-16T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122297004290175410"
+  },
+  {
+   "clave": "web:b4b8df92-6a44-497e-bfda-6b94b8414a97|x",
+   "cuando": "2026-11-16T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122293230054134045"
+  },
+  {
+   "clave": "web:f6b756be-3ae7-477a-81b1-48dfe2af1498|x",
+   "cuando": "2026-11-16T12:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122304687516885336"
   }
  ],
  "tandas": {
@@ -19536,7 +19537,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-16",
- "ultima_sync": "2026-11-16T11:20:24.000Z",
+ "ultima_sync": "2026-11-16T12:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -20118,7 +20119,6 @@
   "web:28d31caa-4225-4df6-852e-fce87e6a75a7": "2026-10-19T09:00:17.000Z",
   "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3": "2026-10-19T10:20:14.000Z",
   "web:292c8e3c-5713-4e83-b415-a536e66b9e64": "2026-11-06T14:00:21.000Z",
-  "web:2981a70b-4786-42f4-adb6-8b9121c1ed06": "2026-10-17T12:40:14.000Z",
   "web:2991bf21-e852-48ba-87ce-5d073c3a7487": "2026-10-18T15:20:15.000Z",
   "web:29bafb6c-db7b-4454-ba46-6708c7e90b80": "2026-10-23T10:02:47.000Z",
   "web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b": "2026-11-12T10:02:44.000Z",
