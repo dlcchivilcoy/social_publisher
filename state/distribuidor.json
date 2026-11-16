@@ -1083,6 +1083,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00316.mp4",
    "youtube_url": "https://youtu.be/xAWOY-czX-k"
   },
+  "entrevistas:job00317": {
+   "descripcion": "Maria Del Carmen Giuliano, del Taller de Lectura de Encuentro por las Artes en Chivilcoy, explica por qué leer en voz alta es clave para acompañar a los adultos mayores que están solos. Mirá el video completo y sumate a la conversación.",
+   "duracion_seg": null,
+   "entrevistado": "Maria Del Carmen Giuliano",
+   "generado": "2026-11-16T17:20:14.000Z",
+   "id": "entrevistas:job00317",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Maria Del Carmen Giuliano: el valor de leer en voz alta",
+   "urgente": false,
+   "video_bytes": 19404670,
+   "video_mb": 18.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00317.mp4",
+   "youtube_url": "https://youtu.be/44wAKQVCiYs"
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -3923,25 +3944,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-racing-cayo-ante-regatas-en-el-grilon",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: DEPORTIVO COLÓN recibe a Belgrano de San Nicolás por el Prefederal CHIVILCOY.– Por la fecha 9 del Prefederal, COLÓN, que ya está ascendido gracias a la final ganada en JUNIN ante San MARTIN, jugará esta noche ante Belgrano de San Nicolás desde las 21 en el Oscar y Alfredo Barca. Como antecedente, el León viene de hacer un partidazo contra Somisa sin la suerte de salir victorioso, pero sí le ganó a Argentino de Pergamino en la ruta y a Porteño de Chacabuco con mucha solidez de...",
-   "generado": "2026-11-06T16:44:32.118Z",
-   "id": "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_22f8cb4727964dd687decc756570ad34~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: DEPORTIVO COLÓN recibe a Belgrano de San Nicolás por el Prefederal",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:a64ce084-265d-420e-aab2-c9ecfce66084": {
    "categoria": "",
    "descripcion": "Ariel Ivaldi celebra su cumpleaños en Chivilcoy junto a La Juan D'Arienzo y el trío Franchisconi El cantante Ariel Ivaldi llevará adelante este viernes 13 de noviembre una nueva edición de su clásico festejo artístico de cumpleaños en las instalaciones del Club Racing. La velada contará con el regreso estelar a los escenarios chivilcoyanos de la reconocida orquesta La Juan D'Arienzo, que llegará acompañada por su cantor Fernando Rodas. La propuesta integrará presentaciones de tango...",
@@ -6135,43 +6137,6 @@
    "titulo": "Natalia Fracchia: Los corsos deben ser gratuitos",
    "urgente": false,
    "vence": "2026-11-08T16:40:14.000Z",
-   "video_bytes": 32352734,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00284.mp4",
-   "viral": false
-  },
-  "entrevistas:job00284|x": {
-   "actualizado": "2026-11-06T17:00:28.000Z",
-   "buffer_id": "6aee02ef9214322f689a396b",
-   "clave": "entrevistas:job00284|x",
-   "creado": "2026-11-06T16:40:14.000Z",
-   "dueAt": "2026-11-06T16:42:17.000Z",
-   "enviado": "2026-11-06T16:42:39.998Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-06T16:40:14.000Z",
-   "id": "entrevistas:job00284",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2118745892198953305",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 49,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:corsos-deben-fracchia-gratuitos-natalia",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Natalia Fracchia: Los corsos deben ser gratuitos\n\nNatalia Fracchia, referente de la murga Colgados de la Rama en Chivilcoy, defendió la gratuidad de los corsos barriales para que sean una fiesta popular accesible a todas las familias.\n\nhttps://youtu.be/m1IlGh8g_54",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Natalia Fracchia: Los corsos deben ser gratuitos",
-   "urgente": false,
-   "vence": "2026-11-06T18:40:14.000Z",
    "video_bytes": 32352734,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00284.mp4",
    "viral": false
@@ -8739,6 +8704,62 @@
    "vence": "2026-11-16T18:40:29.000Z",
    "video_bytes": 23155078,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00316.mp4",
+   "viral": false
+  },
+  "entrevistas:job00317|tiktok": {
+   "actualizado": "2026-11-16T17:20:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00317|tiktok",
+   "creado": "2026-11-16T17:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-16T17:20:14.000Z",
+   "id": "entrevistas:job00317",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Maria Del Carmen Giuliano, del Taller de Lectura de Encuentro por las Artes en Chivilcoy, explica por qué leer en voz alta es clave para acompañar a los adultos mayores que están solos. Mirá el video completo y sumate a la conversación.\n\nhttps://youtu.be/44wAKQVCiYs\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Maria Del Carmen Giuliano: el valor de leer en voz alta",
+   "urgente": false,
+   "vence": "2026-11-18T17:20:14.000Z",
+   "video_bytes": 19404670,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00317.mp4",
+   "viral": false
+  },
+  "entrevistas:job00317|x": {
+   "actualizado": "2026-11-16T17:20:15.000Z",
+   "buffer_id": "6afb3b502f6896f5ef3e686b",
+   "clave": "entrevistas:job00317|x",
+   "creado": "2026-11-16T17:20:14.000Z",
+   "dueAt": "2026-11-16T17:22:14.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-16T17:20:14.000Z",
+   "id": "entrevistas:job00317",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:alta-carmen-giuliano-leer-maria-valor",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Maria Del Carmen Giuliano, del Taller de Lectura de Encuentro por las Artes en Chivilcoy, explica por qué leer en voz alta es clave para acompañar a los adultos mayores que están solos. Mirá el video completo y sumate a la conversación.\n\nhttps://youtu.be/44wAKQVCiYs",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Maria Del Carmen Giuliano: el valor de leer en voz alta",
+   "urgente": false,
+   "vence": "2026-11-16T19:20:14.000Z",
+   "video_bytes": 19404670,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00317.mp4",
    "viral": false
   },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
@@ -13155,33 +13176,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x": {
-   "actualizado": "2026-11-06T17:00:28.000Z",
-   "buffer_id": "",
-   "clave": "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4|x",
-   "creado": "2026-11-06T17:00:18.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-06T16:44:32.118Z",
-   "id": "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: DEPORTIVO COLÓN recibe a Belgrano de San Nicolás por el Prefederal\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-recibe-a-belgrano-de-san",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: DEPORTIVO COLÓN recibe a Belgrano de San Nicolás por el Prefederal",
-   "urgente": false,
-   "vence": "2026-11-06T20:44:32.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:a64ce084-265d-420e-aab2-c9ecfce66084|x": {
    "actualizado": "2026-11-12T12:40:16.000Z",
    "buffer_id": "6af58f17e11ce7b6b8e063cf",
@@ -14861,34 +14855,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00290|tiktok",
-   "cuando": "2026-11-09T17:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6af200d5fa4f406f7bb8ac27",
-   "clave": "entrevistas:job00290|x",
-   "cuando": "2026-11-09T17:20:22.000Z",
-   "dueAt": "2026-11-09T17:22:16.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00291",
-   "cuando": "2026-11-09T18:00:21.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00291|x",
-   "cuando": "2026-11-09T18:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00291|tiktok",
    "cuando": "2026-11-09T18:00:23.000Z",
@@ -19010,6 +18976,34 @@
    "cuando": "2026-11-16T17:00:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2122369861867217098"
+  },
+  {
+   "clave": "entrevistas:job00317",
+   "cuando": "2026-11-16T17:20:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00317|x",
+   "cuando": "2026-11-16T17:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00317|tiktok",
+   "cuando": "2026-11-16T17:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6afb3b502f6896f5ef3e686b",
+   "clave": "entrevistas:job00317|x",
+   "cuando": "2026-11-16T17:20:16.000Z",
+   "dueAt": "2026-11-16T17:22:14.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19055,7 +19049,6 @@
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa": "2026-10-17T17:20:13.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": "2026-10-17T17:40:13.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2": "2026-10-18T09:00:15.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l": "2026-10-18T21:00:16.000Z",
@@ -19316,6 +19309,7 @@
   "entrevistas:job00314": "2026-11-13T20:20:13.000Z",
   "entrevistas:job00315": "2026-11-13T21:00:18.000Z",
   "entrevistas:job00316": "2026-11-16T16:40:29.000Z",
+  "entrevistas:job00317": "2026-11-16T17:20:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
@@ -19870,7 +19864,6 @@
   "web:8fd9d678-2717-4972-af3c-fcb225b55159": "2026-10-30T10:01:54.000Z",
   "web:902234a6-60aa-4826-bffd-430eafadfad0": "2026-10-17T21:20:16.000Z",
   "web:90a67262-a0c0-4d38-9911-bafe84c9db3a": "2026-10-19T22:20:15.000Z",
-  "web:90ccf787-b147-4a06-9acf-05aa45b23cca": "2026-10-17T17:20:13.000Z",
   "web:92c264ae-78ff-431e-bebc-0875504ae30a": "2026-10-23T10:20:15.000Z",
   "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0": "2026-11-03T10:02:22.000Z",
   "web:938b6ba4-fafa-439f-9eaa-7e8d85ab3288": "2026-11-04T10:20:13.000Z",
