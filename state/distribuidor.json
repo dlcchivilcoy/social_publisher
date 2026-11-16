@@ -1967,6 +1967,32 @@
    "volanta": "Operativo antidrogas en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/ArxpDlVWNxk"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un": {
+   "categoria": "robo",
+   "descripcion": "Cayó un sospechoso este lunes 16 de noviembre de 2026 tras un operativo de urgencia por un asalto en una vivienda de la calle 27 de Diciembre.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-16T23:31:33.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-un-allanamiento-por-un-b0a99a",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Un hombre quedó detenido en Chacabuco tras un allanamiento ordenado por la Justicia.\n\nLa Policía recuperó elementos y secuestró marihuana durante el procedimiento realizado este lunes.\n\nEl sospechoso fue localizado gracias al análisis de cámaras de seguridad aportadas por la víctima.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Detenido #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron a un hombre de Chacabuco tras un robo en la calle 27 de Diciembre",
+   "urgente": false,
+   "video_bytes": 78788,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_08_chacabuco_detuvieron-a-un-hombre-de-chac.mp4",
+   "volanta": "Allanamientos en Chacabuco",
+   "youtube_url": ""
+  },
   "policiales:https://www.diariodemocracia.com/policiales/348139-ruta-65-interceptaron-a-un-hombre-de-45-anos-que-r": {
    "categoria": "otro_policial",
    "descripcion": "Un conductor de 45 años fue demorado durante un control vehicular sobre la Ruta Provincial 65. Al chequear sus datos, descubrieron que sumaba dos requerimientos judiciales vigentes por una causa de defraudación.",
@@ -9689,6 +9715,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_02_chacabuco_detuvieron-a-un-hombre-de-42-a.mp4",
    "viral": false
   },
+  "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un|x": {
+   "actualizado": "2026-11-16T23:40:19.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un|x",
+   "creado": "2026-11-16T23:40:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-16T23:31:33.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-un-allanamiento-por-un-b0a99a",
+   "noticia": "nota:chacabuco-detuvieron-a-un-hombre-tras-un-allanamiento-por-un-b0a99a",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Detuvieron a un hombre de Chacabuco tras un robo en la calle 27 de Diciembre\n\nCayó un sospechoso este lunes 16 de noviembre de 2026 tras un operativo de urgencia por un asalto en una vivienda de la calle 27 de Diciembre.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-tras-un-allanamiento-por-un-b0a99a",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un hombre de Chacabuco tras un robo en la calle 27 de Diciembre",
+   "urgente": false,
+   "vence": "2026-11-17T01:31:33.000Z",
+   "video_bytes": 78788,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_08_chacabuco_detuvieron-a-un-hombre-de-chac.mp4",
+   "viral": false
+  },
   "policiales:https://www.diariodemocracia.com/policiales/348139-ruta-65-interceptaron-a-un-hombre-de-45-anos-que-r|x": {
    "actualizado": "2026-11-16T23:00:20.000Z",
    "buffer_id": "6afb81ace71931620ba237b9",
@@ -14787,14 +14841,6 @@
  },
  "registro": [
   {
-   "clave": "web:87b34ef6-682f-453d-9a41-c5e57e182a44|x",
-   "cuando": "2026-11-10T10:03:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:e570a0c3-9d95-48dd-984f-3bf24b18af2c|x",
    "cuando": "2026-11-10T10:03:22.000Z",
    "estado": "pendiente",
@@ -18938,6 +18984,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un|x",
+   "cuando": "2026-11-16T23:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -19067,7 +19121,6 @@
   "bot:corresponsal_2026-11-07_matias-zucchi_mw5temp2tz8d": "2026-11-07T09:00:16.000Z",
   "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2": "2026-11-07T23:40:13.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4": "2026-10-17T23:40:13.000Z",
   "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4": "2026-10-18T00:40:14.000Z",
   "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4": "2026-10-18T01:00:19.000Z",
   "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4": "2026-10-18T01:00:19.000Z",
@@ -19442,6 +19495,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/347738-causa-por-usurpacion-en-calle-paso-aprehendieron-a": "2026-11-07T22:20:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347937-ataque-a-punaladas-en-el-parque-borchex-de-junin-h": "2026-11-12T22:40:23.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p": "2026-11-15T22:20:14.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un": "2026-11-16T23:40:19.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348139-ruta-65-interceptaron-a-un-hombre-de-45-anos-que-r": "2026-11-16T22:20:13.000Z",
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros": "2026-10-24T00:40:15.000Z",
@@ -19519,7 +19573,6 @@
   "web:141e8c71-d366-458d-8748-f475405147ab": "2026-10-26T12:06:06.000Z",
   "web:1577e055-5def-4f13-aaba-45b5fbac35da": "2026-10-19T01:20:15.000Z",
   "web:160a1c97-6c1f-4723-8b48-a54f7405c098": "2026-11-09T10:20:14.000Z",
-  "web:16432f2f-a428-432e-a4ca-2fdd5ab9823b": "2026-10-17T23:40:13.000Z",
   "web:1666fae3-dd89-410f-b67f-9206fc69affb": "2026-10-23T10:02:47.000Z",
   "web:18542f99-eee2-4a32-b4a1-6ef1af84ede2": "2026-11-05T10:02:30.000Z",
   "web:191fa87d-084e-4d11-bc6e-011231dad2c0": "2026-11-04T09:00:19.000Z",
