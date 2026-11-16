@@ -9123,14 +9123,14 @@
    "viral": false
   },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/|x": {
-   "actualizado": "2026-11-15T22:40:14.000Z",
+   "actualizado": "2026-11-16T00:40:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/|x",
    "creado": "2026-11-15T22:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-15T22:32:12.000Z",
    "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/",
    "intentos": 0,
@@ -15308,12 +15308,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok",
-   "cuando": "2026-11-09T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705955663817477397"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x",
    "cuando": "2026-11-09T01:20:16.000Z",
    "evento": "enviado",
@@ -19452,6 +19446,12 @@
    "clave": "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas|x",
    "cuando": "2026-11-16T00:20:15.000Z",
    "evento": "baja"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/|x",
+   "cuando": "2026-11-16T00:40:13.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
