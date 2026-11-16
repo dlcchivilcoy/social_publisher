@@ -96,27 +96,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
    "youtube_url": "https://www.youtube.com/shorts/jbMchsApiJk"
   },
-  "bot:video_matias-zucchi_mw4587m6w644_01.mp4": {
-   "descripcion": "Familiares, allegados y vecinos se concentraron el 5 de noviembre en la Plaza 9 de Julio de Chivilcoy, tras la presentación de una denuncia judicial por un presunto caso de abuso sexual contra una bebé de nueve meses.\n\nLa convocatoria, difundida previamente a través de las redes sociales, fijó el punto de encuentro a las 17. Desde ese espacio público, los manifestantes avanzaron de forma pacífica por las calles de la ciudad con destino a la Comisaría Primera.\n\nDurante la movilización, los participantes solicitaron que la Justicia agilice las pericias correspondientes, adopte las medidas necesarias para garantizar la debida protección de la niña y avance en el esclarecimiento de lo sucedido.\n\nAsimismo, quienes impulsaron la marcha convocaron a toda la comunidad a sumarse y acompañar el reclamo en defensa de los derechos de niños y niñas.",
-   "duracion_seg": 85.0,
-   "generado": "2026-11-05T23:03:02.000Z",
-   "id": "bot:video_matias-zucchi_mw4587m6w644_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
-   "urgente": false,
-   "video_bytes": 26341614,
-   "video_mb": 25.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_284dee9e05bca4b4.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/99UPVO06NsY"
-  },
   "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4": {
    "descripcion": "Se llevó a cabo la celebración por el Día del Bancario en las instalaciones de Tomaso Eventos.\n\nEl encuentro reunió a trabajadores del sector para compartir una jornada conmemorativa en el mencionado espacio de nuestra ciudad.\n\nLa actividad formó parte de los festejos programados en el marco de la fecha que homenajea a los empleados bancarios.",
    "duracion_seg": 44.9,
@@ -5346,45 +5325,6 @@
    "vence": "2026-11-08T01:35:06.000Z",
    "video_bytes": 630904,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a863f554c5f25da7.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok": {
-   "actualizado": "2026-11-06T01:00:19.000Z",
-   "buffer_id": "6aed189286fe9b83795e91f8",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|tiktok",
-   "creado": "2026-11-05T23:20:13.000Z",
-   "dueAt": "2026-11-06T00:03:59.000Z",
-   "enviado": "2026-11-06T00:07:45.741Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-05T23:03:02.000Z",
-   "id": "bot:video_matias-zucchi_mw4587m6w644_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7704842494281780488",
-   "metricas": {
-    "averageTimeWatched": 14.03,
-    "comments": 0,
-    "engagementRate": 3.59,
-    "reach": 0,
-    "reactions": 15,
-    "shares": 0,
-    "totalTimeWatched": 100.33,
-    "views": 418
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé\n\nFamiliares y vecinos se movilizaron en Chivilcoy tras una denuncia judicial por el presunto abuso sexual de una bebé de nueve meses. Los manifestantes marcharon hacia la Comisaría Primera para reclamar que la Justicia agilice las pericias y garantice la protección de la niña.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
-   "urgente": false,
-   "vence": "2026-11-07T23:03:02.000Z",
-   "video_bytes": 26341614,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_284dee9e05bca4b4.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mw4ad2q6t68d_01.mp4|tiktok": {
