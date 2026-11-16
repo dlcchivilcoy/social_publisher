@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 16/11/2026 14:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Recortes de entrevistas · Guillermo López: llegada de animales silvestres por inundaciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Maria Del Carmen Giuliano: el valor de leer en voz alta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Luciano Dellepiane advierte sobre el freno a la obra pública — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -35,10 +36,6 @@ Actualizado: 16/11/2026 14:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T12:20 programado web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x 
-- 2026-11-16T12:40 enviado web:44fd5518-ed5a-40fc-83e8-17f01377db20|x 
-- 2026-11-16T12:40 enviado web:58e141af-ad69-4845-a7f9-40c71d9349cb|x 
-- 2026-11-16T12:40 enviado web:79b2a1c9-ea02-4daf-9e3e-3dd29dd81958|x 
 - 2026-11-16T12:40 enviado web:b4b8df92-6a44-497e-bfda-6b94b8414a97|x 
 - 2026-11-16T12:40 enviado web:f6b756be-3ae7-477a-81b1-48dfe2af1498|x 
 - 2026-11-16T13:40 enviado web:7a38384a-57c1-43f8-a275-9335467a7e1b|x 
@@ -60,3 +57,7 @@ Actualizado: 16/11/2026 14:40 (hora AR) · ACTIVO
 - 2026-11-16T17:20 recibido entrevistas:job00317|x 
 - 2026-11-16T17:20 recibido entrevistas:job00317|tiktok 
 - 2026-11-16T17:20 programado entrevistas:job00317|x 
+- 2026-11-16T18:00 entrevista_aprobada entrevistas:job00318 
+- 2026-11-16T18:00 recibido entrevistas:job00318|x 
+- 2026-11-16T18:00 recibido entrevistas:job00318|tiktok 
+- 2026-11-16T18:00 programado entrevistas:job00318|x 
