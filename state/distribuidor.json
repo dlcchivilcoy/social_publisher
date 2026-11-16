@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-16T19:40:13.000Z"
+   "visto": "2026-11-16T20:40:22.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 18
+    "sent": 19
    },
    "pausado": false,
-   "visto": "2026-11-16T19:40:13.000Z"
+   "visto": "2026-11-16T20:40:22.000Z"
   }
  },
  "contenidos": {
@@ -6138,18 +6138,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x": {
-   "actualizado": "2026-11-16T20:00:25.000Z",
+   "actualizado": "2026-11-16T20:40:22.000Z",
    "buffer_id": "6afb60da3509d4c5b87e474d",
    "clave": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x",
    "creado": "2026-11-16T20:00:18.000Z",
    "dueAt": "2026-11-16T20:02:22.000Z",
+   "enviado": "2026-11-16T20:04:30.988Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T19:48:14.000Z",
    "id": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122420568163074315",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
    "noticia": "nota:chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
    "origen": "bot",
@@ -14859,13 +14860,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af2346973b2b0fbabda46a5",
-   "clave": "entrevistas:job00291|tiktok",
-   "cuando": "2026-11-09T21:00:27.000Z",
-   "dueAt": "2026-11-09T21:43:22.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af2346aba863ca7a14986e2",
    "clave": "entrevistas:job00290|tiktok",
    "cuando": "2026-11-09T21:00:27.000Z",
@@ -19009,6 +19003,12 @@
    "cuando": "2026-11-16T20:00:26.000Z",
    "dueAt": "2026-11-16T20:02:22.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x",
+   "cuando": "2026-11-16T20:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122420568163074315"
   }
  ],
  "tandas": {
@@ -19046,7 +19046,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-16",
- "ultima_sync": "2026-11-16T19:40:13.000Z",
+ "ultima_sync": "2026-11-16T20:40:22.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
