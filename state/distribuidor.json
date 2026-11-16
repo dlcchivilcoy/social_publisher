@@ -1338,32 +1338,6 @@
    "volanta": "Siniestro vial en Lobos",
    "youtube_url": "https://youtube.com/shorts/E_zRcu9B53I"
   },
-  "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/": {
-   "categoria": "robo",
-   "descripcion": "Marcelo Daniel Tradatti fue sorprendido por delincuentes mientras dormía en su vivienda de la zona rural. Lo ataron y le robaron dinero, objetos y una camioneta Volkswagen Amarok, hallada abandonada el 05/11/2026.",
-   "distancia_km": 92.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-05T23:31:52.000Z",
-   "id": "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/",
-   "localidad": "Salto",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/solis-ataron-y-robaron-a-marcelo-daniel-tradatti-en-su-casa-e0505d",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "radio_ok": true,
-   "texto_tiktok": "Un violento asalto se registró en una vivienda situada en un camino apartado del barrio El Candil, en la localidad de Solís.\n\nLa víctima fue identificada como Marcelo Daniel Tradatti, quien se encontraba durmiendo cuando un grupo de delincuentes ingresó a la propiedad.\n\nLos malvivientes lo redujeron, lo maniataron y le robaron dinero en efectivo, objetos personales y una camioneta Volkswagen Amarok.\n\nEl operativo policial permitió hallar el vehículo sustraído en la zona rural de Exaltación de la Cruz el 05/11/2026, mientras avanzan las investigaciones sobre una banda local.\n\n📲 Más noticias de Salto en www.diariolacampaña.com.ar\n\n#Salto #Robo #Inseguridad #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Violento asalto a Marcelo Daniel Tradatti en Solís y hallan su camioneta",
-   "urgente": false,
-   "video_bytes": 132216,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_07_san-andres-de-giles_violento-asalto-a-marcelo-dani.mp4",
-   "volanta": "Robo calificado en Solís",
-   "youtube_url": "https://youtube.com/shorts/IdTT9dniwz0"
-  },
   "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre": {
    "categoria": "otro_policial",
    "descripcion": "Una beba ingresó al Hospital Municipal de Chivilcoy con lesiones en sus partes íntimas. La madre la trasladó tras advertir el cuadro y denunció formalmente al padre biológico del ataque. La Justicia investiga el caso.",
@@ -9176,34 +9150,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_02_lobos_muri-un-joven-de-24-a-os-en-un.mp4",
    "viral": true
   },
-  "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/|x": {
-   "actualizado": "2026-11-06T01:40:15.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/|x",
-   "creado": "2026-11-05T23:40:18.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-05T23:31:52.000Z",
-   "id": "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/solis-ataron-y-robaron-a-marcelo-daniel-tradatti-en-su-casa-e0505d",
-   "noticia": "nota:solis-ataron-y-robaron-a-marcelo-daniel-tradatti-en-su-casa-e0505d",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 8,
-   "texto": "Violento asalto a Marcelo Daniel Tradatti en Solís y hallan su camioneta\n\nMarcelo Daniel Tradatti fue sorprendido por delincuentes mientras dormía en su vivienda de la zona rural.\n\nhttps://www.diariolacampaña.com.ar/n/solis-ataron-y-robaron-a-marcelo-daniel-tradatti-en-su-casa-e0505d",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Violento asalto a Marcelo Daniel Tradatti en Solís y hallan su camioneta",
-   "urgente": false,
-   "vence": "2026-11-06T01:31:52.000Z",
-   "video_bytes": 132216,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_07_san-andres-de-giles_violento-asalto-a-marcelo-dani.mp4",
-   "viral": false
-  },
   "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x": {
    "actualizado": "2026-11-07T00:40:14.000Z",
    "buffer_id": "",
@@ -9326,14 +9272,14 @@
    "viral": true
   },
   "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto|x": {
-   "actualizado": "2026-11-15T23:40:13.000Z",
+   "actualizado": "2026-11-16T01:40:16.000Z",
    "buffer_id": "",
    "clave": "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto|x",
    "creado": "2026-11-15T23:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-15T23:33:22.000Z",
    "id": "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto",
    "intentos": 0,
@@ -15194,12 +15140,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|x",
-   "cuando": "2026-11-09T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119581383299416445"
-  },
-  {
    "clave": "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin|x",
    "cuando": "2026-11-09T01:20:16.000Z",
    "evento": "enviado",
@@ -19338,6 +19278,12 @@
    "cuando": "2026-11-16T00:40:13.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto|x",
+   "cuando": "2026-11-16T01:40:16.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
@@ -19845,10 +19791,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/347738-causa-por-usurpacion-en-calle-paso-aprehendieron-a": "2026-11-07T22:20:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347937-ataque-a-punaladas-en-el-parque-borchex-de-junin-h": "2026-11-12T22:40:23.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p": "2026-11-15T22:20:14.000Z",
-  "policiales:https://www.diariojunin.com/noticias/102844_el-gobierno-present-una-denuncia-penal.html": "2026-10-17T01:20:16.000Z",
-  "policiales:https://www.diariojunin.com/noticias/102846_abigeato-faenaron-tres-vacas-preadas-y-robaron-unos-700-kilos-de-carne.html": "2026-10-17T01:20:16.000Z",
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": "2026-11-05T00:40:13.000Z",
-  "policiales:https://www.junindigital.com/ciudad/2026-10-16-19-41-0-impotencia-en-el-club-river-de-junin-robaron-material-deportivo-causaron-destrozos-y-la-comision-debe-reponer-lo-perdido": "2026-10-17T01:20:16.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-23-11-12-0-allanaron-una-vivienda-en-junin-por-amenazas-agravadas-y-secuestraron-una-pistola-9-milimetros": "2026-10-24T00:40:15.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": "2026-10-29T23:40:14.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor": "2026-11-11T23:20:14.000Z",
