@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 16/11/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 5 | 8 | 0 | 1 | 0 |
+| Notas web | X | 15 | 1 | 7 | 6 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,22 +27,18 @@ Actualizado: 16/11/2026 07:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (8 esperando)
+## Cola propia (6 esperando)
 - X · Notas web · Chivilcoy: Histórica actuación de los mellizos Tomás y Germán Vega en el Sudamer — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Simón Domínguez, campeón sudamericano con la Selección Argentina Juve — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Prefederal Bonaerense: Somisa cerró invicto la fase regular y  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Habrá final chivilcoyana en la Copa de Oro de Cadetes: Colón y Argentino van por — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Colón revirtió el resultado frente a Florencio Varela, se quedó con e — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: A Gimnasia se le escapó la clasificación de las manos: empató con Dou — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · El mensaje del Papa y el mensaje de los argentinos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Visita de León XIV y Ordenación Sacerdotal — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T02:40 recibido web:62ebb555-db92-4262-86b8-2f76e3982e4b|x 
-- 2026-11-16T02:40 depurado web:62ebb555-db92-4262-86b8-2f76e3982e4b|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-16T09:00 recibido web:60168ccc-c626-4cdc-b170-c86efab84f3d|x 
 - 2026-11-16T09:00 vencido web:60168ccc-c626-4cdc-b170-c86efab84f3d|x no hubo lugar antes de su vencimiento
 - 2026-11-16T10:03 recibido web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x 
@@ -66,3 +62,5 @@ Actualizado: 16/11/2026 07:20 (hora AR) · ACTIVO
 - 2026-11-16T10:04 programado web:58e141af-ad69-4845-a7f9-40c71d9349cb|x 
 - 2026-11-16T10:20 enviado web:62d60b10-08a0-4e4a-b50b-4faca841dd26|x 
 - 2026-11-16T10:20 programado web:b4b8df92-6a44-497e-bfda-6b94b8414a97|x 
+- 2026-11-16T10:40 programado web:79b2a1c9-ea02-4daf-9e3e-3dd29dd81958|x 
+- 2026-11-16T10:40 programado web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5|x 
