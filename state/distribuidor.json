@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh": {
-   "descripcion": "Néstor Dabi afirmó que la convocatoria de policías locales para un operativo en Luján recae sobre personal que se encuentra de franco. El secretario de Seguridad aseguró que la medida no altera el normal desenvolvimiento de las tareas de prevención en Chivilcoy.",
-   "duracion_seg": 29.3,
-   "generado": "2026-11-06T17:52:07.000Z",
-   "id": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy",
-   "urgente": false,
-   "video_bytes": 1080965,
-   "video_mb": 1.0,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_adc2bff2a025cb9a.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/w5hDrWpQnJw"
-  },
   "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2": {
    "descripcion": "Once Tigres superó 2 a 1 a Huracán en el inicio de la fecha 12 del Torneo Clausura de la Liga Chivilcoyana. Tras el cotejo, el jugador Benjamín Moscoloni remarcó la importancia del resultado y el esfuerzo realizado por el plantel.",
    "duracion_seg": 15.4,
@@ -5030,45 +5009,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tiktok": {
-   "actualizado": "2026-11-06T21:20:15.000Z",
-   "buffer_id": "6aee3fe49214322f68afb7f6",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh|tiktok",
-   "creado": "2026-11-06T18:00:18.000Z",
-   "dueAt": "2026-11-06T21:03:17.000Z",
-   "enviado": "2026-11-06T21:04:12.657Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-06T17:52:07.000Z",
-   "id": "bot:corresponsal_2026-11-06_matias-zucchi_mw59mp12wmxh",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7705166298375834881",
-   "metricas": {
-    "averageTimeWatched": 4.73,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 72,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 12.05,
-    "views": 133
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy\n\nNéstor Dabi afirmó que la convocatoria de policías locales para un operativo en Luján recae sobre personal que se encuentra de franco. El secretario de Seguridad aseguró que la medida no altera el normal desenvolvimiento de las tareas de prevención en Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/seguridad-local-dabi-la-convocatoria-policial-a-lujan-no-afecta-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Dabi: la convocatoria policial a Luján no afecta la operatividad en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-11-08T17:52:07.000Z",
-   "video_bytes": 1080965,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_adc2bff2a025cb9a.mp4",
-   "viral": false
-  },
   "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2|tiktok": {
    "actualizado": "2026-11-08T01:20:14.000Z",
    "buffer_id": "6aefbb99229bf05daf7edc72",
@@ -19864,7 +19804,6 @@
   "web:8eedc4c8-7ed9-4248-9de7-468717547999": "2026-10-30T10:01:54.000Z",
   "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960": "2026-10-28T10:02:28.000Z",
   "web:8fd9d678-2717-4972-af3c-fcb225b55159": "2026-10-30T10:01:54.000Z",
-  "web:902234a6-60aa-4826-bffd-430eafadfad0": "2026-10-17T21:20:16.000Z",
   "web:90a67262-a0c0-4d38-9911-bafe84c9db3a": "2026-10-19T22:20:15.000Z",
   "web:92c264ae-78ff-431e-bebc-0875504ae30a": "2026-10-23T10:20:15.000Z",
   "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0": "2026-11-03T10:02:22.000Z",
@@ -19930,7 +19869,6 @@
   "web:a67232cc-1a4d-42ec-96f2-5a76b38ae64a": "2026-10-19T10:20:14.000Z",
   "web:a6866535-5ea0-4fe1-bea6-41c2d0e69130": "2026-10-18T20:20:13.000Z",
   "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56": "2026-10-29T10:20:14.000Z",
-  "web:a71527cf-9969-4a41-b023-0cbb15aa0c08": "2026-10-17T21:40:12.000Z",
   "web:a7506907-93aa-4f39-beaa-3504a79c1fe5": "2026-10-19T09:00:17.000Z",
   "web:a7875969-2bc4-498e-8b29-ec2539b13deb": "2026-10-22T13:20:15.000Z",
   "web:a872c57c-897c-4bec-8f45-2e83bffd630f": "2026-11-02T18:20:16.000Z",
