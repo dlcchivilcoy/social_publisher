@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-16T10:20:19.000Z"
+   "visto": "2026-11-16T11:20:24.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 4,
-    "sent": 3
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-16T10:20:19.000Z"
+   "visto": "2026-11-16T11:20:24.000Z"
   }
  },
  "contenidos": {
@@ -5256,11 +5256,11 @@
  },
  "cuota_visto": "2026-11-02T17:20:19.000Z",
  "metricas_buffer": {
-  "con_metricas": 58,
+  "con_metricas": 38,
   "disponible": true,
-  "enviados": 58,
+  "enviados": 38,
   "motivo": "",
-  "visto": "2026-11-15T11:20:13.000Z"
+  "visto": "2026-11-16T11:20:24.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -6189,14 +6189,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707641731835104532",
    "metricas": {
-    "averageTimeWatched": 4.46,
+    "averageTimeWatched": 4.52,
     "comments": 0,
-    "engagementRate": 0.61,
-    "reach": 0,
+    "engagementRate": 0.6,
+    "reach": 124,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 11.73,
-    "views": 165
+    "totalTimeWatched": 11.97,
+    "views": 166
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-argentino-vencio-a-mariano-moreno-en-el",
    "origen": "bot",
@@ -6265,14 +6265,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707811210724461845",
    "metricas": {
-    "averageTimeWatched": 11.49,
+    "averageTimeWatched": 11.78,
     "comments": 0,
-    "engagementRate": 2.07,
+    "engagementRate": 1.84,
     "reach": 0,
     "reactions": 1,
     "shares": 2,
-    "totalTimeWatched": 33.52,
-    "views": 145
+    "totalTimeWatched": 37.87,
+    "views": 163
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-institucionales-chivilcoy-el-club-colon-firmo-un-convenio",
    "origen": "bot",
@@ -6328,6 +6328,16 @@
    "id": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7708383545772805397",
+   "metricas": {
+    "averageTimeWatched": 3.6,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 9.9,
+    "views": 199
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6359,8 +6369,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 2.13,
-    "impressions": 47,
+    "engagementRate": 1.85,
+    "impressions": 54,
     "reactions": 1,
     "reposts": 0
    },
@@ -6394,6 +6404,16 @@
    "id": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7708506817919274248",
+   "metricas": {
+    "averageTimeWatched": 7.34,
+    "comments": 0,
+    "engagementRate": 1.71,
+    "reach": 0,
+    "reactions": 4,
+    "shares": 3,
+    "totalTimeWatched": 52.38,
+    "views": 410
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6422,6 +6442,14 @@
    "id": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122013221913501885",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 114,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
    "noticia": "nota:chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
    "origen": "bot",
@@ -8429,14 +8457,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707795682672790804",
    "metricas": {
-    "averageTimeWatched": 2.58,
+    "averageTimeWatched": 2.53,
     "comments": 0,
     "engagementRate": 0,
-    "reach": 0,
+    "reach": 6,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 4.25,
-    "views": 95
+    "totalTimeWatched": 4.47,
+    "views": 102
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8470,7 +8498,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 27,
+    "impressions": 31,
     "reactions": 0,
     "reposts": 0
    },
@@ -8505,14 +8533,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707814796179148038",
    "metricas": {
-    "averageTimeWatched": 4.78,
+    "averageTimeWatched": 4.6,
     "comments": 0,
     "engagementRate": 0,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 16.1,
-    "views": 184
+    "totalTimeWatched": 17.15,
+    "views": 205
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8546,7 +8574,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 55,
+    "impressions": 60,
     "reactions": 0,
     "reposts": 0
    },
@@ -8581,14 +8609,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707790372642098453",
    "metricas": {
-    "averageTimeWatched": 5.59,
+    "averageTimeWatched": 5.61,
     "comments": 0,
     "engagementRate": 0,
-    "reach": 0,
+    "reach": 37,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 13.4,
-    "views": 136
+    "totalTimeWatched": 14.57,
+    "views": 146
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8622,7 +8650,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 84,
+    "impressions": 87,
     "reactions": 0,
     "reposts": 0
    },
@@ -8657,14 +8685,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707785223018138900",
    "metricas": {
-    "averageTimeWatched": 6.5,
+    "averageTimeWatched": 6.44,
     "comments": 0,
-    "engagementRate": 1.53,
-    "reach": 0,
+    "engagementRate": 1.3,
+    "reach": 56,
     "reactions": 2,
     "shares": 1,
-    "totalTimeWatched": 20.78,
-    "views": 196
+    "totalTimeWatched": 24.88,
+    "views": 231
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8697,8 +8725,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 2.63,
-    "impressions": 38,
+    "engagementRate": 2.56,
+    "impressions": 39,
     "reactions": 0,
     "reposts": 0
    },
@@ -8733,14 +8761,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707780141140708629",
    "metricas": {
-    "averageTimeWatched": 2.69,
+    "averageTimeWatched": 2.66,
     "comments": 0,
-    "engagementRate": 0.76,
-    "reach": 0,
+    "engagementRate": 0.71,
+    "reach": 39,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 5.55,
-    "views": 132
+    "totalTimeWatched": 5.95,
+    "views": 141
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8774,7 +8802,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 34,
+    "impressions": 39,
     "reactions": 0,
     "reposts": 0
    },
@@ -8811,12 +8839,12 @@
    "metricas": {
     "averageTimeWatched": 3.43,
     "comments": 0,
-    "engagementRate": 0.72,
-    "reach": 0,
+    "engagementRate": 0.69,
+    "reach": 55,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 7.32,
-    "views": 139
+    "totalTimeWatched": 7.6,
+    "views": 144
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8850,7 +8878,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 42,
+    "impressions": 45,
     "reactions": 0,
     "reposts": 0
    },
@@ -8885,14 +8913,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707769847202974994",
    "metricas": {
-    "averageTimeWatched": 7.84,
+    "averageTimeWatched": 7.46,
     "comments": 0,
-    "engagementRate": 1.43,
-    "reach": 0,
-    "reactions": 3,
+    "engagementRate": 1.75,
+    "reach": 33,
+    "reactions": 4,
     "shares": 0,
-    "totalTimeWatched": 27.7,
-    "views": 210
+    "totalTimeWatched": 29.23,
+    "views": 228
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8926,7 +8954,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 46,
+    "impressions": 58,
     "reactions": 0,
     "reposts": 0
    },
@@ -8961,14 +8989,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7707764731091635462",
    "metricas": {
-    "averageTimeWatched": 6.87,
+    "averageTimeWatched": 6.79,
     "comments": 0,
-    "engagementRate": 0.98,
-    "reach": 0,
+    "engagementRate": 0.93,
+    "reach": 106,
     "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 22.2,
-    "views": 205
+    "totalTimeWatched": 22.87,
+    "views": 215
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9002,7 +9030,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 48,
+    "impressions": 50,
     "reactions": 0,
     "reposts": 0
    },
@@ -10021,6 +10049,14 @@
    "id": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122093169781129317",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 69,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
    "noticia": "nota:chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
    "origen": "policiales",
@@ -10193,7 +10229,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 50,
+    "impressions": 51,
     "reactions": 0,
     "reposts": 0
    },
@@ -10655,19 +10691,28 @@
    "viral": false
   },
   "web:0d728d16-1d2e-4eb0-a9d3-e4a738b6b357|x": {
-   "actualizado": "2026-11-16T10:04:30.000Z",
+   "actualizado": "2026-11-16T11:20:24.000Z",
    "buffer_id": "6afad52f60a910801c866916",
    "clave": "web:0d728d16-1d2e-4eb0-a9d3-e4a738b6b357|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T10:38:20.000Z",
+   "enviado": "2026-11-16T10:38:31.184Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:02:02.218Z",
    "id": "web:0d728d16-1d2e-4eb0-a9d3-e4a738b6b357",
    "ig_hora": "2026-11-16T10:38:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122278130165444944",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/centro-tradicionalista-el-fogon-chivilcoy-magdalena-gardella-adelanto",
    "noticia": "nota:centro-tradicionalista-el-fogon-chivilcoy-magdalena-gardella-adelanto",
    "origen": "web",
@@ -11475,7 +11520,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 25,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
@@ -11633,14 +11678,14 @@
    "viral": false
   },
   "web:44fd5518-ed5a-40fc-83e8-17f01377db20|x": {
-   "actualizado": "2026-11-16T10:03:28.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-16T11:20:24.000Z",
+   "buffer_id": "6afae6f891ba8aa74bccfcc2",
    "clave": "web:44fd5518-ed5a-40fc-83e8-17f01377db20|x",
    "creado": "2026-11-16T10:03:28.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-16T12:38:58.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-16T10:02:47.302Z",
    "id": "web:44fd5518-ed5a-40fc-83e8-17f01377db20",
    "ig_hora": "2026-11-16T12:38:16.000Z",
@@ -12170,6 +12215,14 @@
    "ig_hora": "2026-11-16T10:08:16.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122270579826835894",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/siniestralidad-vial-en-chivilcoy-chivilcoy-choques-entre-motos-una",
    "noticia": "nota:siniestralidad-vial-en-chivilcoy-chivilcoy-choques-entre-motos-una",
    "origen": "web",
@@ -12392,19 +12445,28 @@
    "viral": false
   },
   "web:69e96fd3-a502-4c57-b2e0-93979aab8d0b|x": {
-   "actualizado": "2026-11-16T10:04:30.000Z",
+   "actualizado": "2026-11-16T11:20:24.000Z",
    "buffer_id": "6afad52fd7e5fee638b99765",
    "clave": "web:69e96fd3-a502-4c57-b2e0-93979aab8d0b|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T10:53:54.000Z",
+   "enviado": "2026-11-16T10:54:01.472Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:02:05.630Z",
    "id": "web:69e96fd3-a502-4c57-b2e0-93979aab8d0b",
    "ig_hora": "2026-11-16T10:53:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122282031132373239",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/por-mayoria-chivilcoy-el-concejo-deliberante-aprobo-la",
    "noticia": "nota:por-mayoria-chivilcoy-el-concejo-deliberante-aprobo-la",
    "origen": "web",
@@ -12848,8 +12910,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 10.53,
-    "impressions": 19,
+    "engagementRate": 10,
+    "impressions": 20,
     "reactions": 0,
     "reposts": 0
    },
@@ -15121,19 +15183,28 @@
    "viral": false
   },
   "web:ea501eca-e6aa-48e2-81a7-be44a5f2529a|x": {
-   "actualizado": "2026-11-16T10:04:30.000Z",
+   "actualizado": "2026-11-16T11:20:24.000Z",
    "buffer_id": "6afad52f06e1675856e2aca9",
    "clave": "web:ea501eca-e6aa-48e2-81a7-be44a5f2529a|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T10:23:59.000Z",
+   "enviado": "2026-11-16T10:24:02.083Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:01:54.485Z",
    "id": "web:ea501eca-e6aa-48e2-81a7-be44a5f2529a",
    "ig_hora": "2026-11-16T10:23:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122274484795191713",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/choque-auto-camion-un-vecino-de-alberti-murio-en-un-choque-frontal",
    "noticia": "nota:choque-auto-camion-un-vecino-de-alberti-murio-en-un-choque-frontal",
    "origen": "web",
@@ -15363,7 +15434,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 34,
+    "impressions": 35,
     "reactions": 0,
     "reposts": 0
    },
@@ -15621,32 +15692,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6af1a30e72554a06de3d04a1",
-   "clave": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x",
-   "cuando": "2026-11-09T10:40:14.000Z",
-   "dueAt": "2026-11-09T12:07:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af1ac6f9541fd37f93f02a0",
-   "clave": "web:9da65e87-8b1a-426a-922a-94936fe79688|x",
-   "cuando": "2026-11-09T11:20:15.000Z",
-   "dueAt": "2026-11-09T12:37:40.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x",
-   "cuando": "2026-11-09T11:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119748650146369667"
-  },
-  {
-   "clave": "web:87f82441-faec-422a-8856-fdfb0a63cf9e|x",
-   "cuando": "2026-11-09T11:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119752550450713062"
-  },
   {
    "clave": "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c|x",
    "cuando": "2026-11-09T11:40:15.000Z",
@@ -19767,6 +19812,31 @@
    "cuando": "2026-11-16T11:00:33.000Z",
    "dueAt": "2026-11-16T12:23:47.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:0d728d16-1d2e-4eb0-a9d3-e4a738b6b357|x",
+   "cuando": "2026-11-16T11:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122278130165444944"
+  },
+  {
+   "clave": "web:69e96fd3-a502-4c57-b2e0-93979aab8d0b|x",
+   "cuando": "2026-11-16T11:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122282031132373239"
+  },
+  {
+   "clave": "web:ea501eca-e6aa-48e2-81a7-be44a5f2529a|x",
+   "cuando": "2026-11-16T11:20:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122274484795191713"
+  },
+  {
+   "buffer_id": "6afae6f891ba8aa74bccfcc2",
+   "clave": "web:44fd5518-ed5a-40fc-83e8-17f01377db20|x",
+   "cuando": "2026-11-16T11:20:24.000Z",
+   "dueAt": "2026-11-16T12:38:58.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19804,7 +19874,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-16",
- "ultima_sync": "2026-11-16T10:20:19.000Z",
+ "ultima_sync": "2026-11-16T11:20:24.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
