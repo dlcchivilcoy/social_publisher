@@ -1593,32 +1593,6 @@
    "volanta": "Bragado",
    "youtube_url": "https://youtube.com/shorts/7q-zoi4n0No"
   },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja": {
-   "categoria": "robo",
-   "descripcion": "Un hombre y una mujer fueron arrestados este 05/11/2026 en la plaza Eva Perón tras robar más de 100.000 pesos en un local de Tucumán e Yrigoyen.",
-   "distancia_km": 49.3,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-05T22:31:03.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja",
-   "localidad": "Bragado",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-una-pareja-tras-asaltar-una-agencia-de-9cccff",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "radio_ok": true,
-   "texto_tiktok": "Una pareja fue detenida este jueves 05/11/2026 tras asaltar una agencia de quiniela ubicada en Tucumán e Hipólito Yrigoyen, frente a la Escuela Industrial.\n\nLos sospechosos ingresaron simulando ser clientes y se apoderaron de más de 100.000 pesos bajo amenazas a la empleada.\n\nTras el aviso a los efectivos y el análisis de las cámaras de seguridad, ambos fueron localizados y arrestados en la plaza Eva Perón.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Policiales #Robo #Inseguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Detuvieron a una pareja tras asaltar una agencia de quiniela en Bragado",
-   "urgente": false,
-   "video_bytes": 90354,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_03_bragado_detuvieron-a-una-pareja-tras-a.mp4",
-   "volanta": "Robo en Bragado",
-   "youtube_url": "https://youtube.com/shorts/F7pIierwbuw"
-  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado": {
    "categoria": "operativo_policial",
    "descripcion": "Un hombre de 29 años fue demorado en Chivilcoy al descubrirse que manejaba una moto buscada por la justicia a raíz de un ilícito denunciado en Bragado.",
@@ -5409,43 +5383,6 @@
    "titulo": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
    "urgente": false,
    "vence": "2026-11-07T23:03:02.000Z",
-   "video_bytes": 26341614,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_284dee9e05bca4b4.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mw4587m6w644_01.mp4|x": {
-   "actualizado": "2026-11-05T23:40:34.000Z",
-   "buffer_id": "6aed0f3686fe9b83795b950c",
-   "clave": "bot:video_matias-zucchi_mw4587m6w644_01.mp4|x",
-   "creado": "2026-11-05T23:20:13.000Z",
-   "dueAt": "2026-11-05T23:22:48.000Z",
-   "enviado": "2026-11-05T23:23:12.248Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-05T23:03:02.000Z",
-   "id": "bot:video_matias-zucchi_mw4587m6w644_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2118484303017370027",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 30,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
-   "noticia": "nota:chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé\n\nFamiliares y vecinos se movilizaron en Chivilcoy tras denunciarse el presunto abuso sexual de una bebé de nueve meses. Reclamaron medidas de protección y celeridad judicial.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-judiciales-chivilcoy-marcharon-para-pedir-justicia-tras-la",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Marcharon para pedir justicia tras la denuncia por presunto abuso de una bebé",
-   "urgente": false,
-   "vence": "2026-11-06T01:03:02.000Z",
    "video_bytes": 26341614,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_284dee9e05bca4b4.mp4",
    "viral": false
@@ -9602,43 +9539,6 @@
    "vence": "2026-11-06T02:31:25.000Z",
    "video_bytes": 107560,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_09_bragado_aprehendieron-a-un-joven-de-18.mp4",
-   "viral": false
-  },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x": {
-   "actualizado": "2026-11-05T23:40:34.000Z",
-   "buffer_id": "6aed0f36f3498efda757a8cc",
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja|x",
-   "creado": "2026-11-05T22:40:14.000Z",
-   "dueAt": "2026-11-05T23:28:32.000Z",
-   "enviado": "2026-11-05T23:28:48.365Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-05T22:31:03.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2118485712806748565",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 35,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-una-pareja-tras-asaltar-una-agencia-de-9cccff",
-   "noticia": "nota:bragado-detuvieron-a-una-pareja-tras-asaltar-una-agencia-de-9cccff",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Detuvieron a una pareja tras asaltar una agencia de quiniela en Bragado\n\nUn hombre y una mujer fueron arrestados este 05/11/2026 en la plaza Eva Perón tras robar más de 100.000 pesos en un local de Tucumán e Yrigoyen.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-detuvieron-a-una-pareja-tras-asaltar-una-agencia-de-9cccff",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Detuvieron a una pareja tras asaltar una agencia de quiniela en Bragado",
-   "urgente": false,
-   "vence": "2026-11-06T00:31:03.000Z",
-   "video_bytes": 90354,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-05_2135_03_bragado_detuvieron-a-una-pareja-tras-a.mp4",
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado|x": {
@@ -19557,7 +19457,6 @@
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-05 21",
    "2026-11-06 10",
    "2026-11-06 18",
    "2026-11-06 21",
@@ -19586,10 +19485,11 @@
    "2026-11-14 18",
    "2026-11-14 21",
    "2026-11-15 10",
-   "2026-11-15 18"
+   "2026-11-15 18",
+   "2026-11-15 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-15",
+ "ultima_limpieza_release": "2026-11-16",
  "ultima_sync": "2026-11-15T22:40:14.000Z",
  "version": 1,
  "vistos": {
