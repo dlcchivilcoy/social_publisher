@@ -9151,14 +9151,14 @@
    "viral": true
   },
   "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas|x": {
-   "actualizado": "2026-11-15T23:20:14.000Z",
+   "actualizado": "2026-11-16T00:20:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas|x",
    "creado": "2026-11-15T23:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "la borraron desde el Editor de notas",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-15T23:03:19.000Z",
    "id": "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas",
    "intentos": 0,
@@ -15308,12 +15308,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok",
-   "cuando": "2026-11-09T01:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7705960851001462017"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mw8h185acy8l_01.mp4|tiktok",
    "cuando": "2026-11-09T01:20:16.000Z",
    "evento": "enviado",
@@ -19453,6 +19447,11 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas|x",
+   "cuando": "2026-11-16T00:20:15.000Z",
+   "evento": "baja"
   }
  ],
  "tandas": {
@@ -19496,6 +19495,7 @@
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
+  "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcmwdl18sxa": "2026-10-17T17:20:13.000Z",
   "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": "2026-10-17T17:40:13.000Z",
@@ -19583,8 +19583,6 @@
   "bot:corresponsal_2026-11-07_matias-zucchi_mw5temp2tz8d": "2026-11-07T09:00:16.000Z",
   "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2": "2026-11-07T23:40:13.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvbmmh5k0tpx_01.mp4": "2026-10-17T00:20:12.000Z",
-  "bot:video_matias-zucchi_mvbmyw31rit7_01.mp4": "2026-10-17T00:20:12.000Z",
   "bot:video_matias-zucchi_mvbrdizkdtby_01.mp4": "2026-10-17T02:20:17.000Z",
   "bot:video_matias-zucchi_mvcv0398lq0d_01.mp4": "2026-10-17T21:00:16.000Z",
   "bot:video_matias-zucchi_mvd0wx06z1mw_01.mp4": "2026-10-17T23:40:13.000Z",
@@ -20014,7 +20012,6 @@
   "web:066c49d6-cc6c-4c39-93cd-dcced6b5bc17": "2026-10-19T10:20:14.000Z",
   "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067": "2026-11-11T10:02:35.000Z",
   "web:071fe0d7-07fd-406f-9b34-979c80fb37a2": "2026-10-19T16:00:16.000Z",
-  "web:074bc093-e566-4d4d-8d42-0dcd34171beb": "2026-10-17T00:20:12.000Z",
   "web:07ef819a-940d-48e5-aee9-922cce690ab8": "2026-10-23T19:00:17.000Z",
   "web:07f6b77f-a719-48eb-ab59-425617675b7f": "2026-11-10T14:00:21.000Z",
   "web:088386b2-2c10-423c-848f-4605d2b2e0e5": "2026-11-02T10:03:22.000Z",
@@ -20154,7 +20151,6 @@
   "web:46323048-26ab-4cde-bf1b-7382a5e5ce92": "2026-10-19T17:00:21.000Z",
   "web:464e2e48-a775-44fb-ba64-8d4a372bbadb": "2026-10-31T23:40:14.000Z",
   "web:4738ab65-8dbc-4d5e-807d-78b88a465544": "2026-10-25T15:40:13.000Z",
-  "web:480e86f5-f14e-481b-844f-2ac1f1192f77": "2026-10-17T00:20:12.000Z",
   "web:4841dd2d-07c3-4c90-b819-3d0e547196a3": "2026-10-19T11:20:14.000Z",
   "web:4866bd67-05c6-4bcb-b167-af4d2c0c7659": "2026-10-18T18:00:17.000Z",
   "web:49037013-a165-485b-983d-91a1691d32f9": "2026-11-13T10:02:41.000Z",
@@ -20270,6 +20266,7 @@
   "web:7fb16583-71d2-4d12-9242-d6637d144fca": "2026-10-23T00:20:14.000Z",
   "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285": "2026-11-12T13:40:16.000Z",
   "web:7fcb1162-b823-4d08-a5e8-854ed71d5230": "2026-11-05T10:02:30.000Z",
+  "web:805ea18c-74c6-4000-b8da-d8365794e47c": "2026-11-16T00:20:15.000Z",
   "web:808568c6-1ce9-4338-b277-3a4776233812": "2026-11-06T14:00:21.000Z",
   "web:80dd52dd-b09d-4340-b669-62eba0dc1ce1": "2026-10-20T14:00:21.000Z",
   "web:814123f9-8cc0-4123-a5ec-ff7775c42341": "2026-11-12T10:02:44.000Z",
