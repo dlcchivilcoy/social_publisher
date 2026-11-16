@@ -4795,25 +4795,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/semillero-rojo-independiente-festejo-los-30-anos-de-su-escuelita-de",
    "volanta": "Semillero Rojo"
   },
-  "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f": {
-   "categoria": "",
-   "descripcion": "Restringen el transporte de cargas por la visita del papa León XIV VISITA del papa León XIV: reordenamiento del transporte de cargas. No podrán circular: Del 7 al 11 de noviembre en los accesos a CABA y Luján, y del 8 al 11 de noviembre en los accesos a Córdoba Capital, de 6 a 22 horas y en ambos sentidos, por los tramos de rutas nacionales afectados por las disposiciones ANSV 370, 381 y 382, los vehículos de carga de más de 3.500 kg (categorías N2 y N3) ni los acoplados y semirremolques de...",
-   "generado": "2026-11-06T16:17:12.768Z",
-   "id": "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a9dafb6d42384332a25b7b261d4689bc~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/transito-seguridad-vial-restringen-el-transporte-de-cargas-por-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Restringen el transporte de cargas por la visita del papa León XIV",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/transito-seguridad-vial-restringen-el-transporte-de-cargas-por-la",
-   "volanta": "Tránsito · Seguridad vial"
-  },
   "web:f0f64009-e880-45a2-9552-b15ed75817f2": {
    "categoria": "",
    "descripcion": "Comienza una nueva fase de trabajos que permitirá prontamente habilitar el uso de las instalaciones Se firmó el convenio para reiniciar las obras en el Polideportivo de la Avenida 84. En una conferencia de prensa encabezada por el intendente Guillermo Britos, junto al secretario de Obras Públicas, Eduardo Alonso, y el director de Deportes, Ignacio Fedato, el Municipio anunció formalmente la firma del convenio con la provincia de Buenos Aires para encarar una nueva etapa de finalización del...",
@@ -14562,33 +14543,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x": {
-   "actualizado": "2026-11-06T16:20:23.000Z",
-   "buffer_id": "",
-   "clave": "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f|x",
-   "creado": "2026-11-06T16:20:16.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-06T16:17:12.768Z",
-   "id": "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/transito-seguridad-vial-restringen-el-transporte-de-cargas-por-la",
-   "noticia": "nota:transito-seguridad-vial-restringen-el-transporte-de-cargas-por-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Restringen el transporte de cargas por la visita del papa León XIV\n\nProhíben circular a vehículos de carga de más de 3.500 kg en accesos a CABA, Luján y Córdoba en determinados días y horarios. Rige según disposiciones de la ANSV.\n\nhttps://www.diariolacampaña.com.ar/n/transito-seguridad-vial-restringen-el-transporte-de-cargas-por-la",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Restringen el transporte de cargas por la visita del papa León XIV",
-   "urgente": false,
-   "vence": "2026-11-06T20:17:12.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:f0f64009-e880-45a2-9552-b15ed75817f2|x": {
    "actualizado": "2026-11-11T13:40:15.000Z",
    "buffer_id": "6af45d7d24197454719a66d7",
@@ -19993,7 +19947,6 @@
   "web:ccce7a0b-db66-488d-8412-6628b516975f": "2026-10-17T23:20:15.000Z",
   "web:cd19d51a-2d12-4c2f-a5a7-6e89ce9ab386": "2026-11-07T18:40:16.000Z",
   "web:cda8454d-0a50-4bdf-a400-999d0e9be823": "2026-10-26T12:06:06.000Z",
-  "web:cdfc3f34-85e2-4c70-895a-89a1bd1e33d0": "2026-10-17T16:20:14.000Z",
   "web:ce117f38-054b-4f6b-92d7-4743edb8711b": "2026-10-23T10:02:47.000Z",
   "web:ce515f56-0397-44d3-b63d-c656faf40928": "2026-10-19T20:20:15.000Z",
   "web:ce55311f-7f8e-46c0-8f9a-27108c261a21": "2026-10-26T15:20:14.000Z",
