@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-16T12:40:15.000Z"
+   "visto": "2026-11-16T13:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 4,
-    "sent": 11
+    "scheduled": 0,
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-11-16T12:40:15.000Z"
+   "visto": "2026-11-16T13:40:15.000Z"
   }
  },
  "contenidos": {
@@ -12536,19 +12536,20 @@
    "viral": false
   },
   "web:7a38384a-57c1-43f8-a275-9335467a7e1b|x": {
-   "actualizado": "2026-11-16T11:40:15.000Z",
+   "actualizado": "2026-11-16T13:40:15.000Z",
    "buffer_id": "6afaeba037f9e5273be3ac23",
    "clave": "web:7a38384a-57c1-43f8-a275-9335467a7e1b|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T13:08:22.000Z",
+   "enviado": "2026-11-16T13:08:31.142Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:02:54.041Z",
    "id": "web:7a38384a-57c1-43f8-a275-9335467a7e1b",
    "ig_hora": "2026-11-16T13:08:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122315878872084934",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-torneo-prefederal-bonaerense-somisa-cerro-invicto",
    "noticia": "nota:basquet-chivilcoy-torneo-prefederal-bonaerense-somisa-cerro-invicto",
    "origen": "web",
@@ -13028,19 +13029,20 @@
    "viral": false
   },
   "web:990fea7f-febb-4b01-a4e7-7e8f17ee66cd|x": {
-   "actualizado": "2026-11-16T12:00:20.000Z",
+   "actualizado": "2026-11-16T13:40:15.000Z",
    "buffer_id": "6afaf05537f9e5273be58757",
    "clave": "web:990fea7f-febb-4b01-a4e7-7e8f17ee66cd|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T13:23:41.000Z",
+   "enviado": "2026-11-16T13:23:46.300Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:03:04.225Z",
    "id": "web:990fea7f-febb-4b01-a4e7-7e8f17ee66cd",
    "ig_hora": "2026-11-16T13:23:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122319716957954179",
    "nota_url": "https://www.diariolacampaña.com.ar/n/handball-chivilcoy-simon-dominguez-campeon-sudamericano-con-la",
    "noticia": "nota:handball-chivilcoy-simon-dominguez-campeon-sudamericano-con-la",
    "origen": "web",
@@ -14303,19 +14305,20 @@
    "viral": false
   },
   "web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x": {
-   "actualizado": "2026-11-16T12:20:16.000Z",
+   "actualizado": "2026-11-16T13:40:15.000Z",
    "buffer_id": "6afaf50037f9e5273be7f0a4",
    "clave": "web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T13:38:42.000Z",
+   "enviado": "2026-11-16T13:38:46.097Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:03:08.185Z",
    "id": "web:d1ed8261-7eab-4e57-97b0-fe69b793a107",
    "ig_hora": "2026-11-16T13:38:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122323491093417992",
    "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-internacional-chivilcoy-historica-actuacion-de-los-mellizos",
    "noticia": "nota:atletismo-internacional-chivilcoy-historica-actuacion-de-los-mellizos",
    "origen": "web",
@@ -14332,19 +14335,20 @@
    "viral": false
   },
   "web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x": {
-   "actualizado": "2026-11-16T11:40:15.000Z",
+   "actualizado": "2026-11-16T13:40:15.000Z",
    "buffer_id": "6afaeba00c2af02527daaef0",
    "clave": "web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x",
    "creado": "2026-11-16T10:03:28.000Z",
    "dueAt": "2026-11-16T12:53:40.000Z",
+   "enviado": "2026-11-16T12:53:46.268Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-16T10:02:50.526Z",
    "id": "web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed",
    "ig_hora": "2026-11-16T12:53:16.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122312167118487849",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-habra-final-chivilcoyana-en-la-copa-de-oro-de-cadetes-colon-y",
    "noticia": "nota:basquet-habra-final-chivilcoyana-en-la-copa-de-oro-de-cadetes-colon-y",
    "origen": "web",
@@ -15127,31 +15131,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52|x",
-   "cuando": "2026-11-09T12:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119763875461517395"
-  },
-  {
-   "clave": "web:9da65e87-8b1a-426a-922a-94936fe79688|x",
-   "cuando": "2026-11-09T12:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119771425477156996"
-  },
-  {
-   "buffer_id": "6af1bf3279df38f6f58939de",
-   "clave": "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x",
-   "cuando": "2026-11-09T12:40:19.000Z",
-   "dueAt": "2026-11-09T13:52:21.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814|x",
-   "cuando": "2026-11-09T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119786590872432962"
-  },
   {
    "clave": "web:160a1c97-6c1f-4723-8b48-a54f7405c098|x",
    "cuando": "2026-11-09T14:00:20.000Z",
@@ -19272,6 +19251,30 @@
    "cuando": "2026-11-16T12:40:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2122304687516885336"
+  },
+  {
+   "clave": "web:7a38384a-57c1-43f8-a275-9335467a7e1b|x",
+   "cuando": "2026-11-16T13:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122315878872084934"
+  },
+  {
+   "clave": "web:990fea7f-febb-4b01-a4e7-7e8f17ee66cd|x",
+   "cuando": "2026-11-16T13:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122319716957954179"
+  },
+  {
+   "clave": "web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x",
+   "cuando": "2026-11-16T13:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122323491093417992"
+  },
+  {
+   "clave": "web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x",
+   "cuando": "2026-11-16T13:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122312167118487849"
   }
  ],
  "tandas": {
@@ -19309,7 +19312,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-16",
- "ultima_sync": "2026-11-16T12:40:15.000Z",
+ "ultima_sync": "2026-11-16T13:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -20013,7 +20016,6 @@
   "web:603008ee-aaa2-4035-94d1-a082d4cfaa32": "2026-10-22T10:02:31.000Z",
   "web:606007a3-f032-422b-ace3-ee59408ba8de": "2026-10-30T10:01:54.000Z",
   "web:616edca2-10fd-421a-b351-8a958b1e4519": "2026-11-06T18:00:18.000Z",
-  "web:61fa0efb-5787-4c59-bce8-a86006933cfa": "2026-10-17T13:20:16.000Z",
   "web:62d60b10-08a0-4e4a-b50b-4faca841dd26": "2026-11-16T10:03:28.000Z",
   "web:62ebb555-db92-4262-86b8-2f76e3982e4b": "2026-11-16T02:40:14.000Z",
   "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": "2026-10-26T10:20:14.000Z",
