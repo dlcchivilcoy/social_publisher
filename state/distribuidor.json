@@ -4115,25 +4115,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/encuentro-de-talleres-protegido-zona-sur-en-la-ciudad-de-carhue",
    "volanta": ""
   },
-  "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Britos anunció un bono de 100 mil pesos para empleados municipales En el marco de los festejos por el Día del Empleado Municipal, el intendente de Chivilcoy, Guillermo Britos, encabezó un encuentro y brindis junto al personal de las distintas áreas. Durante su discurso, confirmó el pago de un bono extraordinario de $100.000 destinado a los 1.200 trabajadores que perciben los salarios más bajos. El beneficio estará dirigido exclusivamente a aquellos empleados que hayan cobrado el...",
-   "generado": "2026-11-06T17:39:15.933Z",
-   "id": "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_dcf1e9ad99b548ab8484f0223d63c2cd~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-chivilcoy-britos-anuncio-un-bono-de-100-mil-pesos",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Britos anunció un bono de 100 mil pesos para empleados municipales",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gremiales-chivilcoy-britos-anuncio-un-bono-de-100-mil-pesos",
-   "volanta": "Chivilcoy · Gremiales"
-  },
   "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6": {
    "categoria": "",
    "descripcion": "Autoridades sanitarias locales instan a reforzar la prevención y la vacunación ante la temporada estival El Secretario de Salud, Dr. José Luis Neme, y la directora del Hospital Municipal, Dra. Patricia Mangino, brindaron un detallado panorama sobre la situación epidemiológica, las medidas de control domiciliario y las contraindicaciones del esquema de vacunación. En el marco de las condiciones climáticas actuales propiciadas por el fenómeno de «El Niño» —con lluvias intensas, crecida de ríos...",
@@ -13452,33 +13433,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455|x": {
-   "actualizado": "2026-11-06T17:40:22.000Z",
-   "buffer_id": "",
-   "clave": "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455|x",
-   "creado": "2026-11-06T17:40:14.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-06T17:39:15.933Z",
-   "id": "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-chivilcoy-britos-anuncio-un-bono-de-100-mil-pesos",
-   "noticia": "nota:chivilcoy-gremiales-chivilcoy-britos-anuncio-un-bono-de-100-mil-pesos",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Britos anunció un bono de 100 mil pesos para empleados municipales\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-chivilcoy-britos-anuncio-un-bono-de-100-mil-pesos",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Britos anunció un bono de 100 mil pesos para empleados municipales",
-   "urgente": false,
-   "vence": "2026-11-06T21:39:15.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6|x": {
    "actualizado": "2026-11-09T11:40:15.000Z",
    "buffer_id": "6af19a66c2f2264e30f820ec",
@@ -19049,7 +19003,6 @@
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-17_matias-zucchi_mvcnou3w6gxo": "2026-10-17T17:40:13.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2": "2026-10-18T09:00:15.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l": "2026-10-18T21:00:16.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj": "2026-10-18T23:00:17.000Z",
