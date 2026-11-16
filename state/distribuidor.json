@@ -1125,6 +1125,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00318.mp4",
    "youtube_url": "https://youtu.be/lHlS_iTNu6o"
   },
+  "entrevistas:job00319": {
+   "descripcion": "Marcos Salvaggio, futbolista de Gimnasia y Esgrima de Chivilcoy, analizó la campaña en el Torneo Federal A tras la eliminación. Valoró los objetivos logrados por el plantel más allá de quedarse a un paso de la semifinal.",
+   "duracion_seg": null,
+   "entrevistado": "Marcos Salvaggio",
+   "generado": "2026-11-16T18:40:14.000Z",
+   "id": "entrevistas:job00319",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Marcos Salvaggio: balance de Gimnasia de Chivilcoy",
+   "urgente": false,
+   "video_bytes": 32125804,
+   "video_mb": 30.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00319.mp4",
+   "youtube_url": "https://youtu.be/r2q2szRW-30"
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
    "categoria": "otro_policial",
    "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
@@ -8692,6 +8713,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00318.mp4",
    "viral": false
   },
+  "entrevistas:job00319|tiktok": {
+   "actualizado": "2026-11-16T18:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00319|tiktok",
+   "creado": "2026-11-16T18:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-16T18:40:14.000Z",
+   "id": "entrevistas:job00319",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Marcos Salvaggio: balance de Gimnasia de Chivilcoy\n\nMarcos Salvaggio, futbolista de Gimnasia y Esgrima de Chivilcoy, analizó la campaña en el Torneo Federal A tras la eliminación. Valoró los objetivos logrados por el plantel más allá de quedarse a un paso de la semifinal.\n\nhttps://youtu.be/r2q2szRW-30\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marcos Salvaggio: balance de Gimnasia de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-18T18:40:14.000Z",
+   "video_bytes": 32125804,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00319.mp4",
+   "viral": false
+  },
+  "entrevistas:job00319|x": {
+   "actualizado": "2026-11-16T18:40:23.000Z",
+   "buffer_id": "6afb4e18d3924e687ee9d2f6",
+   "clave": "entrevistas:job00319|x",
+   "creado": "2026-11-16T18:40:14.000Z",
+   "dueAt": "2026-11-16T18:42:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-16T18:40:14.000Z",
+   "id": "entrevistas:job00319",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:balance-chivilcoy-gimnasia-marcos-salvaggio",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Marcos Salvaggio: balance de Gimnasia de Chivilcoy\n\nMarcos Salvaggio, futbolista de Gimnasia y Esgrima de Chivilcoy, analizó la campaña en el Torneo Federal A tras la eliminación.\n\nhttps://youtu.be/r2q2szRW-30",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marcos Salvaggio: balance de Gimnasia de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-16T20:40:14.000Z",
+   "video_bytes": 32125804,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00319.mp4",
+   "viral": false
+  },
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
    "actualizado": "2026-11-11T00:40:17.000Z",
    "buffer_id": "6af3b0230b1f930b454e2bda",
@@ -14734,30 +14811,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af2139d29f60b1cda27dab2",
-   "clave": "entrevistas:job00292|x",
-   "cuando": "2026-11-09T18:40:29.000Z",
-   "dueAt": "2026-11-09T18:42:36.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00291|x",
-   "cuando": "2026-11-09T19:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119854180118532099"
-  },
-  {
-   "clave": "entrevistas:job00292|x",
-   "cuando": "2026-11-09T19:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2119863315010621703"
-  },
-  {
-   "clave": "entrevistas:job00293",
-   "cuando": "2026-11-09T21:00:19.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
    "clave": "entrevistas:job00293|x",
    "cuando": "2026-11-09T21:00:19.000Z",
    "estado": "pendiente",
@@ -18880,6 +18933,34 @@
    "cuando": "2026-11-16T18:20:18.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2122391184337215622"
+  },
+  {
+   "clave": "entrevistas:job00319",
+   "cuando": "2026-11-16T18:40:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00319|x",
+   "cuando": "2026-11-16T18:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00319|tiktok",
+   "cuando": "2026-11-16T18:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6afb4e18d3924e687ee9d2f6",
+   "clave": "entrevistas:job00319|x",
+   "cuando": "2026-11-16T18:40:25.000Z",
+   "dueAt": "2026-11-16T18:42:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19186,6 +19267,7 @@
   "entrevistas:job00316": "2026-11-16T16:40:29.000Z",
   "entrevistas:job00317": "2026-11-16T17:20:14.000Z",
   "entrevistas:job00318": "2026-11-16T18:00:18.000Z",
+  "entrevistas:job00319": "2026-11-16T18:40:14.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
@@ -19883,7 +19965,6 @@
   "web:c8022409-4d8f-45ba-a34f-1011272f6310": "2026-11-12T10:02:44.000Z",
   "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e": "2026-11-02T10:03:22.000Z",
   "web:c876f210-4b35-4b4a-add4-8813297977a9": "2026-10-19T10:20:14.000Z",
-  "web:c8fffffc-9fd5-4775-9a97-2aa26888b072": "2026-10-17T18:40:12.000Z",
   "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd": "2026-10-23T23:40:15.000Z",
   "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4": "2026-10-18T22:20:14.000Z",
   "web:cb5bd56e-c625-4389-948e-845e3cd94779": "2026-11-02T10:03:22.000Z",

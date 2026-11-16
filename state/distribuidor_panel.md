@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 16/11/2026 15:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
+- TikTok · Recortes de entrevistas · Marcos Salvaggio: balance de Gimnasia de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Guillermo López: llegada de animales silvestres por inundaciones — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Maria Del Carmen Giuliano: el valor de leer en voz alta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Luciano Dellepiane advierte sobre el freno a la obra pública — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -36,10 +37,6 @@ Actualizado: 16/11/2026 15:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T13:40 enviado web:7a38384a-57c1-43f8-a275-9335467a7e1b|x 
-- 2026-11-16T13:40 enviado web:990fea7f-febb-4b01-a4e7-7e8f17ee66cd|x 
-- 2026-11-16T13:40 enviado web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x 
-- 2026-11-16T13:40 enviado web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x 
 - 2026-11-16T14:40 recibido web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3|x 
 - 2026-11-16T14:40 depurado web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-16T15:20 recibido web:b13a4343-1c5f-4791-894f-bb286876e7d0|x 
@@ -61,3 +58,7 @@ Actualizado: 16/11/2026 15:20 (hora AR) · ACTIVO
 - 2026-11-16T18:00 programado entrevistas:job00318|x 
 - 2026-11-16T18:20 enviado entrevistas:job00317|x 
 - 2026-11-16T18:20 enviado entrevistas:job00318|x 
+- 2026-11-16T18:40 entrevista_aprobada entrevistas:job00319 
+- 2026-11-16T18:40 recibido entrevistas:job00319|x 
+- 2026-11-16T18:40 recibido entrevistas:job00319|tiktok 
+- 2026-11-16T18:40 programado entrevistas:job00319|x 
