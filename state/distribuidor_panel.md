@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 07:04 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,25 +9,25 @@ Actualizado: 16/11/2026 07:04 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 5 | 9 | 0 | 1 | 0 |
+| Notas web | X | 15 | 1 | 5 | 8 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 3 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 3 enviadas + 4 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 45.5 · likes 0
 - X · Reels del bot: 12 con métricas · mediana vistas/impresiones 42 · likes 0
 - X · Reels policiales: 15 con métricas · mediana vistas/impresiones 57 · likes 0
-- X · Notas web: 88 con métricas · mediana vistas/impresiones 21.5 · likes 0
+- X · Notas web: 87 con métricas · mediana vistas/impresiones 21 · likes 0
 - TikTok · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 186.5 · likes 1
 - TikTok · Reels del bot: 15 con métricas · mediana vistas/impresiones 335 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (8 esperando)
 - X · Notas web · Chivilcoy: Histórica actuación de los mellizos Tomás y Germán Vega en el Sudamer — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Simón Domínguez, campeón sudamericano con la Selección Argentina Juve — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Prefederal Bonaerense: Somisa cerró invicto la fase regular y  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -35,15 +35,12 @@ Actualizado: 16/11/2026 07:04 (hora AR) · ACTIVO
 - X · Notas web · Chivilcoy: Colón revirtió el resultado frente a Florencio Varela, se quedó con e — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: A Gimnasia se le escapó la clasificación de las manos: empató con Dou — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · El mensaje del Papa y el mensaje de los argentinos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Encuentro de Talleres Protegido zona sur en la ciudad de Carhué — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Visita de León XIV y Ordenación Sacerdotal — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T00:40 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-d espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-16T01:40 vencido policiales:https://semanariodejunin.com.ar/nota/76579/feroz- espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-16T02:40 recibido web:62ebb555-db92-4262-86b8-2f76e3982e4b|x 
 - 2026-11-16T02:40 depurado web:62ebb555-db92-4262-86b8-2f76e3982e4b|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-16T09:00 recibido web:60168ccc-c626-4cdc-b170-c86efab84f3d|x 
@@ -67,3 +64,5 @@ Actualizado: 16/11/2026 07:04 (hora AR) · ACTIVO
 - 2026-11-16T10:04 programado web:0d728d16-1d2e-4eb0-a9d3-e4a738b6b357|x 
 - 2026-11-16T10:04 programado web:69e96fd3-a502-4c57-b2e0-93979aab8d0b|x 
 - 2026-11-16T10:04 programado web:58e141af-ad69-4845-a7f9-40c71d9349cb|x 
+- 2026-11-16T10:20 enviado web:62d60b10-08a0-4e4a-b50b-4faca841dd26|x 
+- 2026-11-16T10:20 programado web:b4b8df92-6a44-497e-bfda-6b94b8414a97|x 
