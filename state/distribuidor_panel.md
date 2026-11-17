@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 17/11/2026 19:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 5 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 1 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -33,8 +33,6 @@ Actualizado: 17/11/2026 19:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T18:00 depurado web:eb8e0b3b-587b-40aa-8877-dbd82b928a97|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-17T18:00 enviado entrevistas:job00321|x 
 - 2026-11-17T18:00 programado entrevistas:job00322|x 
 - 2026-11-17T18:20 entrevista_aprobada entrevistas:job00322-r1 
 - 2026-11-17T18:20 entrevista_aprobada entrevistas:job00323 
@@ -58,3 +56,5 @@ Actualizado: 17/11/2026 19:00 (hora AR) · ACTIVO
 - 2026-11-17T21:00 programado entrevistas:job00321|tiktok 
 - 2026-11-17T21:00 programado entrevistas:job00320|tiktok 
 - 2026-11-17T21:20 enviado bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
+- 2026-11-17T22:20 recibido policiales:https://noticiasgilenses.com.ar/el-conductor-de-l 
+- 2026-11-17T22:20 programado policiales:https://noticiasgilenses.com.ar/el-conductor-de-l 

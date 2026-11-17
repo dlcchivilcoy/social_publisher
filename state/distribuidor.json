@@ -1495,6 +1495,32 @@
    "volanta": "Siniestro vial en Lobos",
    "youtube_url": "https://youtube.com/shorts/E_zRcu9B53I"
   },
+  "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/": {
+   "categoria": "accidente_vial",
+   "descripcion": "El conductor de la moto que atropelló a Marcelo Daniel Tradatti el domingo por la noche quedó detenido e indagado en Mercedes.",
+   "distancia_km": 72.7,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-17T22:02:54.000Z",
+   "id": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/",
+   "localidad": "Mercedes",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-detuvieron-al-motociclista-que-atropello-a-c38ed2",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "El motociclista que protagonizó un violento choque contra un vecino fue trasladado para ser indagado.\n\nEl hecho ocurrió el domingo por la noche y la víctima fue identificada como Marcelo Daniel Tradatti.\n\nLa fiscalía interviniente decidió que el conductor permanezca alojado en una dependencia policial.\n\nLa investigación continúa con diversas medidas probatorias para esclarecer las responsabilidades penales.\n\n📲 Más noticias de Mercedes en www.diariolacampaña.com.ar\n\n#Mercedes #SiniestroVial #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron al motociclista que atropelló a Marcelo Daniel Tradatti",
+   "urgente": false,
+   "video_bytes": 101493,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_01_san-andres-de-giles_detuvieron-al-motociclista-que.mp4",
+   "volanta": "Siniestro vial en San Andrés de Giles",
+   "youtube_url": "https://youtube.com/shorts/b9XcehpP0Oo"
+  },
   "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/": {
    "categoria": "otro_policial",
    "descripcion": "Jorge Limonta, de quien no se precisó la edad, falleció anoche en la calle Rivadavia al ser atropellado por un motovehículo que iba a gran velocidad. El Municipio decretó duelo comunal.",
@@ -9825,6 +9851,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_02_lobos_muri-un-joven-de-24-a-os-en-un.mp4",
    "viral": true
   },
+  "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x": {
+   "actualizado": "2026-11-17T22:20:14.000Z",
+   "buffer_id": "6afcd31fc68ceea50aaa2139",
+   "clave": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x",
+   "creado": "2026-11-17T22:20:13.000Z",
+   "dueAt": "2026-11-17T22:23:09.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-17T22:02:54.000Z",
+   "id": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-detuvieron-al-motociclista-que-atropello-a-c38ed2",
+   "noticia": "nota:san-andres-de-giles-detuvieron-al-motociclista-que-atropello-a-c38ed2",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Detuvieron al motociclista que atropelló a Marcelo Daniel Tradatti\n\nEl conductor de la moto que atropelló a Marcelo Daniel Tradatti el domingo por la noche quedó detenido e indagado en Mercedes.\n\nhttps://www.diariolacampaña.com.ar/n/san-andres-de-giles-detuvieron-al-motociclista-que-atropello-a-c38ed2",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron al motociclista que atropelló a Marcelo Daniel Tradatti",
+   "urgente": false,
+   "vence": "2026-11-18T00:02:54.000Z",
+   "video_bytes": 101493,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_01_san-andres-de-giles_detuvieron-al-motociclista-que.mp4",
+   "viral": false
+  },
   "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/|x": {
    "actualizado": "2026-11-17T02:20:20.000Z",
    "buffer_id": "",
@@ -16192,22 +16246,6 @@
  },
  "registro": [
   {
-   "clave": "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067|x",
-   "cuando": "2026-11-11T10:03:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:8bcf2503-f895-462b-af3a-dffcba6750bb|x",
-   "cuando": "2026-11-11T10:03:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8|x",
    "cuando": "2026-11-11T10:03:31.000Z",
    "estado": "pendiente",
@@ -20344,6 +20382,21 @@
    "cuando": "2026-11-17T21:20:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7709249159408192786"
+  },
+  {
+   "clave": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x",
+   "cuando": "2026-11-17T22:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6afcd31fc68ceea50aaa2139",
+   "clave": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x",
+   "cuando": "2026-11-17T22:20:15.000Z",
+   "dueAt": "2026-11-17T22:23:09.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20761,6 +20814,7 @@
   "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina": "2026-11-09T23:20:16.000Z",
   "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/": "2026-11-02T23:20:15.000Z",
   "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/": "2026-11-09T22:40:14.000Z",
+  "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/": "2026-11-17T22:20:13.000Z",
   "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/": "2026-11-17T00:20:16.000Z",
   "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/": "2026-11-05T23:40:18.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado": "2026-11-03T00:40:17.000Z",
@@ -21213,7 +21267,6 @@
   "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8": "2026-11-11T10:02:35.000Z",
   "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf": "2026-11-03T10:02:22.000Z",
   "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9": "2026-11-17T10:03:18.000Z",
-  "web:9b1a9ff1-7092-4f88-bf0f-42d69c6c3283": "2026-10-18T22:20:14.000Z",
   "web:9bcaa52a-5164-4329-99d8-9e88c2c29241": "2026-10-18T23:20:13.000Z",
   "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327": "2026-10-21T02:20:14.000Z",
   "web:9c2673f5-3976-4a53-b1e8-0746d539c8b0": "2026-11-11T10:02:35.000Z",
@@ -21323,7 +21376,6 @@
   "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e": "2026-11-02T10:03:22.000Z",
   "web:c876f210-4b35-4b4a-add4-8813297977a9": "2026-10-19T10:20:14.000Z",
   "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd": "2026-10-23T23:40:15.000Z",
-  "web:caefc3bd-5910-49b1-81d6-1348cc14c6e4": "2026-10-18T22:20:14.000Z",
   "web:cb5bd56e-c625-4389-948e-845e3cd94779": "2026-11-02T10:03:22.000Z",
   "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f": "2026-11-12T02:00:16.000Z",
   "web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e": "2026-11-11T13:20:17.000Z",
