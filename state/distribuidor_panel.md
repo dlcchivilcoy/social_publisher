@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
@@ -35,7 +35,6 @@ Actualizado: 17/11/2026 13:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T13:00 enviado web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x 
 - 2026-11-17T13:00 enviado web:d03c3c10-1591-42b2-8b28-464788b1537c|x 
 - 2026-11-17T13:00 programado bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok 
 - 2026-11-17T13:20 recibido web:d0efc114-d938-4147-8730-19457aaf57f4|x 
@@ -60,3 +59,4 @@ Actualizado: 17/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-17T16:40 recibido entrevistas:job00320|x 
 - 2026-11-17T16:40 recibido entrevistas:job00320|tiktok 
 - 2026-11-17T16:40 programado entrevistas:job00320|x 
+- 2026-11-17T17:00 enviado entrevistas:job00320|x 
