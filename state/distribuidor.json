@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 6
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-17T00:20:24.000Z"
+   "visto": "2026-11-17T10:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
+    "scheduled": 1,
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-17T00:20:24.000Z"
+   "visto": "2026-11-17T10:20:16.000Z"
   }
  },
  "contenidos": {
@@ -12115,14 +12115,14 @@
    "viral": false
   },
   "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x": {
-   "actualizado": "2026-11-17T10:03:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T10:20:17.000Z",
+   "buffer_id": "6afc2a61fb90347d01bcb056",
    "clave": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x",
    "creado": "2026-11-17T10:03:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T11:38:47.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T10:01:31.505Z",
    "id": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa",
    "ig_hora": "2026-11-17T11:38:04.000Z",
@@ -14889,19 +14889,20 @@
    "viral": false
   },
   "web:e7db619d-9df6-4b45-871f-f8453608c66f|x": {
-   "actualizado": "2026-11-17T10:04:35.000Z",
+   "actualizado": "2026-11-17T10:20:16.000Z",
    "buffer_id": "6afc26b41d0f4cca06147127",
    "clave": "web:e7db619d-9df6-4b45-871f-f8453608c66f|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T10:08:38.000Z",
+   "enviado": "2026-11-17T10:08:46.325Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:00:52.859Z",
    "id": "web:e7db619d-9df6-4b45-871f-f8453608c66f",
    "ig_hora": "2026-11-17T10:08:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122633031714279822",
    "nota_url": "https://www.diariolacampaña.com.ar/n/preparativos-ante-emergencias-guillermo-lopez-explico-como-se-prepara",
    "noticia": "nota:preparativos-ante-emergencias-guillermo-lopez-explico-como-se-prepara",
    "origen": "web",
@@ -15362,20 +15363,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:e570a0c3-9d95-48dd-984f-3bf24b18af2c|x",
-   "cuando": "2026-11-10T12:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120133813233647763"
-  },
-  {
-   "clave": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x",
-   "cuando": "2026-11-10T13:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x",
    "cuando": "2026-11-10T13:20:23.000Z",
@@ -19524,6 +19511,19 @@
    "cuando": "2026-11-17T10:04:37.000Z",
    "dueAt": "2026-11-17T11:23:47.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:e7db619d-9df6-4b45-871f-f8453608c66f|x",
+   "cuando": "2026-11-17T10:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122633031714279822"
+  },
+  {
+   "buffer_id": "6afc2a61fb90347d01bcb056",
+   "clave": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x",
+   "cuando": "2026-11-17T10:20:17.000Z",
+   "dueAt": "2026-11-17T11:38:47.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19561,7 +19561,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-17",
- "ultima_sync": "2026-11-17T00:20:24.000Z",
+ "ultima_sync": "2026-11-17T10:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
