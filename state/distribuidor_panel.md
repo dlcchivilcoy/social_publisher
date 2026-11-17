@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 17/11/2026 20:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 3 | 2 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,14 +27,14 @@ Actualizado: 17/11/2026 20:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
 - X · Reels policiales · Investigan robo y destrozos en el cementerio de la localidad de Morea — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Alberti: un menor de 16 años herido tras chocar en moto contra una camioneta — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T18:20 recibido entrevistas:job00323|tiktok 
 - 2026-11-17T18:20 programado entrevistas:job00323|x 
 - 2026-11-17T18:40 recibido bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
 - 2026-11-17T18:40 recibido bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
@@ -59,3 +59,4 @@ Actualizado: 17/11/2026 20:00 (hora AR) · ACTIVO
 - 2026-11-17T22:40 enviado entrevistas:job00322|tiktok 
 - 2026-11-17T22:40 enviado entrevistas:job00323|tiktok 
 - 2026-11-17T22:40 enviado policiales:https://noticiasgilenses.com.ar/el-conductor-de-l 
+- 2026-11-17T23:20 recibido policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de 

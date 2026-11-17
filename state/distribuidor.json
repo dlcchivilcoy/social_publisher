@@ -1365,6 +1365,32 @@
    "volanta": "Incendio en el camino real Alberti-Benítez",
    "youtube_url": "https://youtube.com/shorts/e2UrpOpOwTQ"
   },
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/": {
+   "categoria": "otro_policial",
+   "descripcion": "El violento impacto sucedió en la esquina de San Martín y 10 de Junio. El conductor del rodado menor, de 16 años, debió ser llevado al Hospital Municipal.",
+   "distancia_km": 28.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-17T23:01:56.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/",
+   "localidad": "Alberti",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-un-menor-de-16-anos-herido-tras-chocar-su-moto-contra-8b5928",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un violento choque entre una moto y una camioneta dejó como saldo a un adolescente herido durante la madrugada del domingo en las calles San Martín y 10 de Junio.\n\nEl conductor del rodado menor, de 16 años, debió ser trasladado de urgencia por una ambulancia del SAME hacia el Hospital Municipal local con lesiones de consideración.\n\nEn el otro vehículo involucrado, una Renault Kangoo, circulaban Manuel Hernández, de 39 años, y Carla Navarro, de 38, quienes resultaron ilesos tras el impacto.\n\nLa causa quedó caratulada como actuaciones penales bajo la intervención de la Unidad Funcional de Instrucción N° 4 del Departamento Judicial de Mercedes.\n\n📲 Más noticias de Alberti en www.diariolacampaña.com.ar\n\n#Alberti #SiniestroVial #AccidenteDeTransito #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Alberti: un menor de 16 años herido tras chocar en moto contra una camioneta",
+   "urgente": false,
+   "video_bytes": 94725,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_05_alberti_alberti-un-menor-de-16-a-os-he.mp4",
+   "volanta": "Siniestro vial en Alberti",
+   "youtube_url": "https://youtube.com/shorts/HPc_OkDTPvM"
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/": {
    "categoria": "accidente_vial",
    "descripcion": "Adrián Ezequiel Buchholz, de 30 años y domiciliado en la ciudad, falleció en la madrugada de este domingo al chocar su auto contra un camión en el kilómetro 183 de la Ruta Nacional 5.",
@@ -9696,6 +9722,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_07_alberti_se-prendi-fuego-una-camioneta-.mp4",
    "viral": false
   },
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/|x": {
+   "actualizado": "2026-11-17T23:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/|x",
+   "creado": "2026-11-17T23:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-17T23:01:56.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-un-menor-de-16-anos-herido-tras-chocar-su-moto-contra-8b5928",
+   "noticia": "nota:alberti-un-menor-de-16-anos-herido-tras-chocar-su-moto-contra-8b5928",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Alberti: un menor de 16 años herido tras chocar en moto contra una camioneta\n\nEl violento impacto sucedió en la esquina de San Martín y 10 de Junio. El conductor del rodado menor, de 16 años, debió ser llevado al Hospital Municipal.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-un-menor-de-16-anos-herido-tras-chocar-su-moto-contra-8b5928",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alberti: un menor de 16 años herido tras chocar en moto contra una camioneta",
+   "urgente": false,
+   "vence": "2026-11-18T01:01:56.000Z",
+   "video_bytes": 94725,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_05_alberti_alberti-un-menor-de-16-a-os-he.mp4",
+   "viral": false
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/|x": {
    "actualizado": "2026-11-16T00:40:13.000Z",
    "buffer_id": "",
@@ -16196,13 +16250,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af43d7c2e62829420e11f05",
-   "clave": "web:8bcf2503-f895-462b-af3a-dffcba6750bb|x",
-   "cuando": "2026-11-11T10:03:40.000Z",
-   "dueAt": "2026-11-11T10:52:48.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af43d7cdb6e84f20becac6f",
    "clave": "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067|x",
    "cuando": "2026-11-11T10:03:40.000Z",
@@ -20340,6 +20387,14 @@
    "cuando": "2026-11-17T22:40:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2122817887349969345"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/|x",
+   "cuando": "2026-11-17T23:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -20733,6 +20788,7 @@
   "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/": "2026-11-12T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/": "2026-11-13T23:40:13.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/": "2026-11-03T22:40:14.000Z",
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/": "2026-11-17T23:20:15.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/": "2026-11-15T22:40:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura": "2026-10-26T09:00:18.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron": "2026-10-26T23:20:14.000Z",
@@ -20930,7 +20986,6 @@
   "web:23a74d83-2170-4408-abe4-23838297e05f": "2026-10-25T14:20:14.000Z",
   "web:2412c923-bb37-4065-b81b-1dac0777e220": "2026-10-20T01:00:18.000Z",
   "web:248ece43-82ef-4e37-a82d-ea5d6b751b0e": "2026-10-19T09:00:17.000Z",
-  "web:24b96e87-c964-4e2e-830e-f3b0d739e8f2": "2026-10-18T23:20:13.000Z",
   "web:2618a8ce-8352-4c8a-8e71-1b5bf69b11e0": "2026-10-19T09:00:17.000Z",
   "web:268e66c4-69d7-4958-b487-b115fffbc1a1": "2026-11-13T02:20:15.000Z",
   "web:26b25411-f69f-490e-8bb8-4a36156faf79": "2026-11-05T10:02:30.000Z",
@@ -21207,7 +21262,6 @@
   "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8": "2026-11-11T10:02:35.000Z",
   "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf": "2026-11-03T10:02:22.000Z",
   "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9": "2026-11-17T10:03:18.000Z",
-  "web:9bcaa52a-5164-4329-99d8-9e88c2c29241": "2026-10-18T23:20:13.000Z",
   "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327": "2026-10-21T02:20:14.000Z",
   "web:9c2673f5-3976-4a53-b1e8-0746d539c8b0": "2026-11-11T10:02:35.000Z",
   "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f": "2026-10-30T19:20:18.000Z",
