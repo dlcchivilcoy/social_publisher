@@ -210,8 +210,25 @@ async function atenderEditor(waId: string, accion: string, id: string): Promise<
       ? `✏️ Corregí el texto acá:\n${url}\n\nCuando termines, tocá *Publicar* en el mensaje del envío.`
       : "Este envío no tiene nota para corregir: tocá *Publicar* o *Descartar*.");
   } else if (accion === "de") {
+    // Descartar = el «🗑️ Borrar borrador» del mail (17/11/2026): no se publica Y se borra el borrador de
+    // Wix. Es el mismo link firmado de Corregir con action=delete (aprobar-video.js acepta draft=).
     if (!(await cambiarAprobacion(id, ["pendiente"], "descartada"))) return await yaResuelto();
-    await enviarTexto(waId, `🗑️ Listo, «${titulo}» no se publica. El borrador queda en Wix por si cambiás de idea.`);
+    const corregir = String(fila.url_corregir || "");
+    const borrar = corregir.includes("action=edit") ? corregir.replace("action=edit", "action=delete") : "";
+    let borrado = false;
+    if (borrar) {
+      try {
+        const r = await fetch(borrar, { redirect: "follow" });
+        borrado = r.ok && (await r.text()).includes("Borrador borrado");
+      } catch (e) {
+        console.error("borrar borrador:", e);
+      }
+    }
+    await enviarTexto(waId, borrado
+      ? `🗑️ Listo, «${titulo}» no se publica y se borró el borrador de la web.`
+      : borrar
+      ? `🗑️ «${titulo}» no se publica. No pude borrar el borrador de Wix: borralo con el botón del mail.`
+      : `🗑️ Listo, «${titulo}» no se publica.`);
   }
 }
 
