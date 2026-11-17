@@ -43045,7 +43045,7 @@
     "tarjetas_fotos": [],
     "draft_id": "5abbdc69-8f44-400c-8e8e-315798eae48e",
     "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-11-17-juan-huertas-228.mp4",
-    "estado": "borrador_foto_corr",
+    "estado": "publicado_foto_corr",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Juan Huertas 2284669269",
     "corresponsal_celular": "5492284669269",
@@ -43087,7 +43087,24 @@
       "asr": "groq"
     },
     "tema_4x5": "blanco",
-    "formato": "reel"
+    "formato": "reel",
+    "fecha_publicado": "2026-11-17T15:38:07",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "ok",
+      "wix": "ok",
+      "tiktok": "vía Buffer (distribuidor)",
+      "ig_historia": "ok",
+      "fb_historia": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de",
+    "ig_media_id": "17941736268409774",
+    "fb_video_id": "1358650339572098",
+    "ig_historia_id": "18029426324863721",
+    "fb_historia_id": "1013499904403798",
+    "yt_video_id": "3eJ3pOfVS1E",
+    "yt_url": "https://www.youtube.com/shorts/3eJ3pOfVS1E"
   },
   {
     "file": "corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w",
