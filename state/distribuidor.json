@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-17T11:40:17.000Z"
+   "visto": "2026-11-17T13:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-17T11:40:17.000Z"
+   "visto": "2026-11-17T13:00:20.000Z"
   }
  },
  "contenidos": {
@@ -6443,15 +6443,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok": {
-   "actualizado": "2026-11-17T09:00:20.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T13:00:21.000Z",
+   "buffer_id": "6afc4fe6b7c36a6dabfe288b",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok",
    "creado": "2026-11-17T09:00:20.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T13:03:03.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T02:55:28.000Z",
    "id": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4",
    "intentos": 0,
@@ -10883,19 +10883,20 @@
    "viral": false
   },
   "web:1cd196f2-3537-4e49-be39-a657b9945fa4|x": {
-   "actualizado": "2026-11-17T11:00:24.000Z",
+   "actualizado": "2026-11-17T13:00:20.000Z",
    "buffer_id": "6afc33c8f0b6269251738d1b",
    "clave": "web:1cd196f2-3537-4e49-be39-a657b9945fa4|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T12:23:03.000Z",
+   "enviado": "2026-11-17T12:23:16.137Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:01:48.548Z",
    "id": "web:1cd196f2-3537-4e49-be39-a657b9945fa4",
    "ig_hora": "2026-11-17T12:23:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122666879126769983",
    "nota_url": "https://www.diariolacampaña.com.ar/n/abierta-a-la-comunidad-chivilcoy-jornada-de-capacitacion-sobre",
    "noticia": "nota:abierta-a-la-comunidad-chivilcoy-jornada-de-capacitacion-sobre",
    "origen": "web",
@@ -11432,19 +11433,20 @@
    "viral": false
   },
   "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x": {
-   "actualizado": "2026-11-17T11:40:17.000Z",
+   "actualizado": "2026-11-17T13:00:20.000Z",
    "buffer_id": "6afc3d21d4d832ae4bc5bf3d",
    "clave": "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T12:53:50.000Z",
+   "enviado": "2026-11-17T12:54:03.634Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:01:57.295Z",
    "id": "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b",
    "ig_hora": "2026-11-17T12:53:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122674628095103064",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-racing-recibe-a-lanus-en-el-grilon-arena-con-la",
    "noticia": "nota:basquet-chivilcoy-racing-recibe-a-lanus-en-el-grilon-arena-con-la",
    "origen": "web",
@@ -12124,19 +12126,20 @@
    "viral": false
   },
   "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x": {
-   "actualizado": "2026-11-17T10:40:15.000Z",
+   "actualizado": "2026-11-17T13:00:20.000Z",
    "buffer_id": "6afc2f0f86c5475ec30b0a13",
    "clave": "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T11:53:51.000Z",
+   "enviado": "2026-11-17T11:54:01.678Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:01:36.033Z",
    "id": "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7",
    "ig_hora": "2026-11-17T11:53:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122659520363020621",
    "nota_url": "https://www.diariolacampaña.com.ar/n/pedido-de-publicacion-17-de-noviembre-dia-de-la-militancia",
    "noticia": "nota:pedido-de-publicacion-17-de-noviembre-dia-de-la-militancia",
    "origen": "web",
@@ -14658,19 +14661,20 @@
    "viral": false
   },
   "web:d03c3c10-1591-42b2-8b28-464788b1537c|x": {
-   "actualizado": "2026-11-17T11:20:14.000Z",
+   "actualizado": "2026-11-17T13:00:20.000Z",
    "buffer_id": "6afc386f49781f123c1076d6",
    "clave": "web:d03c3c10-1591-42b2-8b28-464788b1537c|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T12:38:05.000Z",
+   "enviado": "2026-11-17T12:38:16.157Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:01:53.252Z",
    "id": "web:d03c3c10-1591-42b2-8b28-464788b1537c",
    "ig_hora": "2026-11-17T12:38:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122670654101004735",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-pcd-el-taller-chivilcoy-sin-barreras-represento-a-la-ciudad-en",
    "noticia": "nota:futbol-pcd-el-taller-chivilcoy-sin-barreras-represento-a-la-ciudad-en",
    "origen": "web",
@@ -14817,14 +14821,14 @@
    "viral": false
   },
   "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x": {
-   "actualizado": "2026-11-17T12:40:14.000Z",
+   "actualizado": "2026-11-17T13:00:20.000Z",
    "buffer_id": "6afc4b2ee3ed8b2730c08613",
    "clave": "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x",
    "creado": "2026-11-17T12:20:14.000Z",
    "dueAt": "2026-11-17T13:53:48.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-17T12:15:13.333Z",
    "id": "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315",
    "intentos": 0,
@@ -15642,48 +15646,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x",
-   "cuando": "2026-11-10T15:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9|x",
-   "cuando": "2026-11-10T15:00:23.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "entrevistas:job00294",
-   "cuando": "2026-11-10T17:00:19.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00294|x",
-   "cuando": "2026-11-10T17:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00294|tiktok",
-   "cuando": "2026-11-10T17:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6af34da4a0d7326462d3977b",
-   "clave": "entrevistas:job00294|x",
-   "cuando": "2026-11-10T17:00:21.000Z",
-   "dueAt": "2026-11-10T17:02:31.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52|x",
    "cuando": "2026-11-10T17:20:16.000Z",
@@ -19804,11 +19766,47 @@
    "cuando": "2026-11-17T12:40:14.000Z",
    "dueAt": "2026-11-17T13:53:48.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x",
+   "cuando": "2026-11-17T13:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "clave": "web:1cd196f2-3537-4e49-be39-a657b9945fa4|x",
+   "cuando": "2026-11-17T13:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122666879126769983"
+  },
+  {
+   "clave": "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x",
+   "cuando": "2026-11-17T13:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122674628095103064"
+  },
+  {
+   "clave": "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x",
+   "cuando": "2026-11-17T13:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122659520363020621"
+  },
+  {
+   "clave": "web:d03c3c10-1591-42b2-8b28-464788b1537c|x",
+   "cuando": "2026-11-17T13:00:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122670654101004735"
+  },
+  {
+   "buffer_id": "6afc4fe6b7c36a6dabfe288b",
+   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok",
+   "cuando": "2026-11-17T13:00:22.000Z",
+   "dueAt": "2026-11-17T13:03:03.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-07 10",
    "2026-11-07 18",
    "2026-11-07 21",
    "2026-11-08 10",
@@ -19837,11 +19835,12 @@
    "2026-11-15 21",
    "2026-11-16 10",
    "2026-11-16 18",
-   "2026-11-16 21"
+   "2026-11-16 21",
+   "2026-11-17 10"
   ]
  },
  "ultima_limpieza_release": "2026-11-17",
- "ultima_sync": "2026-11-17T11:40:17.000Z",
+ "ultima_sync": "2026-11-17T13:00:20.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -20387,7 +20386,6 @@
   "web:18542f99-eee2-4a32-b4a1-6ef1af84ede2": "2026-11-05T10:02:30.000Z",
   "web:191fa87d-084e-4d11-bc6e-011231dad2c0": "2026-11-04T09:00:19.000Z",
   "web:19bb7dd9-ab7d-4edc-839e-67454eb77d4c": "2026-11-07T09:00:16.000Z",
-  "web:1a3f2450-d820-426b-a2f8-b91f8e338629": "2026-10-18T12:40:15.000Z",
   "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c": "2026-10-31T21:40:15.000Z",
   "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e": "2026-11-03T10:02:22.000Z",
   "web:1abafabb-ff53-4fcd-911c-6a4465fed747": "2026-10-18T16:20:14.000Z",
