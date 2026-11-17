@@ -10739,14 +10739,14 @@
    "viral": false
   },
   "web:1cd196f2-3537-4e49-be39-a657b9945fa4|x": {
-   "actualizado": "2026-11-17T10:03:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T11:00:24.000Z",
+   "buffer_id": "6afc33c8f0b6269251738d1b",
    "clave": "web:1cd196f2-3537-4e49-be39-a657b9945fa4|x",
    "creado": "2026-11-17T10:03:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T12:23:03.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T10:01:48.548Z",
    "id": "web:1cd196f2-3537-4e49-be39-a657b9945fa4",
    "ig_hora": "2026-11-17T12:23:04.000Z",
@@ -12049,14 +12049,14 @@
    "viral": false
   },
   "web:5da64ba1-ff4b-482f-b881-4a873f748575|x": {
-   "actualizado": "2026-11-17T10:04:35.000Z",
+   "actualizado": "2026-11-17T11:00:23.000Z",
    "buffer_id": "6afc26b554b9dc9e0726c45b",
    "clave": "web:5da64ba1-ff4b-482f-b881-4a873f748575|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T11:23:47.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-17T10:01:24.428Z",
    "id": "web:5da64ba1-ff4b-482f-b881-4a873f748575",
    "intentos": 0,
@@ -15363,20 +15363,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6af31a17efda8cf29ac63f23",
-   "clave": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x",
-   "cuando": "2026-11-10T13:20:24.000Z",
-   "dueAt": "2026-11-10T13:52:42.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af31a18ab69ec4b27ebe767",
-   "clave": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x",
-   "cuando": "2026-11-10T13:20:24.000Z",
-   "dueAt": "2026-11-10T14:07:47.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x",
    "cuando": "2026-11-10T13:40:17.000Z",
@@ -19522,6 +19508,19 @@
    "clave": "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x",
    "cuando": "2026-11-17T10:40:15.000Z",
    "dueAt": "2026-11-17T11:53:51.000Z",
+   "evento": "programado"
+  },
+  {
+   "clave": "web:5da64ba1-ff4b-482f-b881-4a873f748575|x",
+   "cuando": "2026-11-17T11:00:24.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "buffer_id": "6afc33c8f0b6269251738d1b",
+   "clave": "web:1cd196f2-3537-4e49-be39-a657b9945fa4|x",
+   "cuando": "2026-11-17T11:00:24.000Z",
+   "dueAt": "2026-11-17T12:23:03.000Z",
    "evento": "programado"
   }
  ],
