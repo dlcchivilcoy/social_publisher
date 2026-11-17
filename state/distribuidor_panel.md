@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 22:00 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 16/11/2026 22:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 1 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 2 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,17 +27,15 @@ Actualizado: 16/11/2026 22:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (3 esperando)
 - X · Reels policiales · Murió Jorge Limonta tras ser atropellado por una moto en San Andrés de Giles — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Bragado bajo alerta amarilla por tormentas y posibles ráfagas intensas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Detuvieron a un hombre de Chacabuco tras un robo en la calle 27 de Diciembre — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Sufrió dos robos en una semana en su local de Junín y evalúa vender el negocio — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T21:00 programado entrevistas:job00317|tiktok 
 - 2026-11-16T21:00 programado entrevistas:job00316|tiktok 
 - 2026-11-16T22:00 enviado bot:video_matias-zucchi_mwjo5rifucll_01.mp4|tiktok 
 - 2026-11-16T22:00 enviado entrevistas:job00318|tiktok 
@@ -62,3 +60,4 @@ Actualizado: 16/11/2026 22:00 (hora AR) · ACTIVO
 - 2026-11-17T00:40 recibido web:4b894c99-4b3e-4cec-9703-086eaee6d5d4|x 
 - 2026-11-17T00:40 vencido policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-17T00:40 depurado web:4b894c99-4b3e-4cec-9703-086eaee6d5d4|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-17T01:20 vencido policiales:https://junin24.com/locales/comerciante-sufrio-en espera su momento (se programa cerca de la hora en que sale en las otras redes)

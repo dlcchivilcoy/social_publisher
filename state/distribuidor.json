@@ -8855,14 +8855,14 @@
    "viral": true
   },
   "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos|x": {
-   "actualizado": "2026-11-16T23:20:29.000Z",
+   "actualizado": "2026-11-17T01:20:15.000Z",
    "buffer_id": "",
    "clave": "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos|x",
    "creado": "2026-11-16T23:20:29.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-16T23:01:35.000Z",
    "id": "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos",
    "intentos": 0,
@@ -14882,14 +14882,6 @@
  },
  "registro": [
   {
-   "clave": "web:d84d3ec0-05cf-43ec-a248-9969295317ed|x",
-   "cuando": "2026-11-10T10:03:57.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:aa775535-c5f2-4a64-95ca-135757291376|x",
    "cuando": "2026-11-10T10:04:07.000Z",
    "estado": "pendiente",
@@ -19026,6 +19018,12 @@
    "cuando": "2026-11-17T00:40:21.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos|x",
+   "cuando": "2026-11-17T01:20:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
@@ -19155,7 +19153,6 @@
   "bot:corresponsal_2026-11-07_matias-zucchi_mw5temp2tz8d": "2026-11-07T09:00:16.000Z",
   "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2": "2026-11-07T23:40:13.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4": "2026-10-18T01:20:13.000Z",
   "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4": "2026-10-18T15:20:15.000Z",
   "bot:video_matias-zucchi_mve43kv7d0je_01.mp4": "2026-10-18T18:00:17.000Z",
   "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4": "2026-10-18T22:00:19.000Z",
@@ -19731,7 +19728,6 @@
   "web:520b9327-4abb-4720-aa44-9684331b9ca6": "2026-11-04T22:40:21.000Z",
   "web:5253b590-963f-4a40-8acf-18a1f53713b5": "2026-10-19T14:00:19.000Z",
   "web:5296a026-93a3-4ae5-a568-78482a52580c": "2026-11-15T17:00:25.000Z",
-  "web:52a671cf-a583-4d28-a1e5-2bd0786a4c20": "2026-10-18T01:20:13.000Z",
   "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba": "2026-10-27T10:03:31.000Z",
   "web:52c96f09-7e84-4dea-9e97-24ab64aa6215": "2026-11-01T13:20:14.000Z",
   "web:53a73a04-7714-4da8-a6b3-30f272f523ee": "2026-11-03T10:02:22.000Z",
