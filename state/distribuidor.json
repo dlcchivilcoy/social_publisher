@@ -1608,32 +1608,6 @@
    "volanta": "Choque en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/tUTULx6pato"
   },
-  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": {
-   "categoria": "accidente_vial",
-   "descripcion": "Una motociclista de 36 años debió ser trasladada en ambulancia al hospital tras colisionar contra un automóvil en la intersección del acceso Hipólito Yrigoyen y la calle Carlos Gardel.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-07T00:31:01.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-36-anos-herida-tras-un-choque-entre-moto-daf543",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 5,
-   "radio_ok": true,
-   "texto_tiktok": "Una motociclista de 36 años resultó herida este mediodía tras protagonizar un choque contra un automóvil en la ciudad de Chacabuco.\n\nEl siniestro vial ocurrió en la intersección del acceso Hipólito Yrigoyen y la calle Carlos Gardel, donde colisionaron una moto Yamaha YBR y un Fiat Palio.\n\nEl rodado menor era conducido por una mujer de apellido Márquez, de 36 años, quien sufrió una lesión en una pierna y fue trasladada en ambulancia al hospital local.\n\nEn tanto, el automóvil era guiado por una mujer de apellido Bustos, de 70 años.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #Transito #BuenosAires",
-   "tipo": "video",
-   "titulo": "Una mujer herida tras un choque entre un auto y una moto en Chacabuco",
-   "urgente": false,
-   "video_bytes": 132572,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_05_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
-   "volanta": "Choque en Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/PH5I_eW6H98"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html": {
    "categoria": "otro_policial",
    "descripcion": "Un hombre terminó lesionado este viernes tras una violenta disputa barrial vinculada al robo de un motovehículo. La Policía debió intervenir en el lugar.",
@@ -2153,32 +2127,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_03_25-de-mayo_desplegaron-35-polic-as-de-25-.mp4",
    "volanta": "Operativo policial en Luján",
    "youtube_url": "https://youtube.com/shorts/lNK-FvKc--c"
-  },
-  "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/": {
-   "categoria": "alerta_meteorologica",
-   "descripcion": "El Servicio Meteorológico Nacional anunció un aviso por precipitaciones intensas, ráfagas y posible caída de granizo. Se esperan acumulados de hasta 40 milímetros.",
-   "distancia_km": 99.4,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-07T00:30:59.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/",
-   "localidad": "9 de Julio",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-rige-un-alerta-amarilla-por-tormentas-fuertes-para-1e32dc",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "radio_ok": true,
-   "texto_tiktok": "El Servicio Meteorológico Nacional emitió un alerta amarilla por tormentas fuertes para este viernes en la región.\n\nSe prevén lluvias intensas, ráfagas de viento, actividad eléctrica y ocasional caída de granizo.\n\nLos acumulados estimados rondarán entre los 20 y 40 milímetros, con una temperatura máxima de 24 grados.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #AlertaMeteorologica #Tormentas #ServicioMeteorologico #BuenosAires",
-   "tipo": "video",
-   "titulo": "Rige un alerta amarilla por tormentas fuertes para este viernes en 9 de Julio",
-   "urgente": false,
-   "video_bytes": 79132,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_10_9-de-julio_rige-un-alerta-amarilla-por-to.mp4",
-   "volanta": "Alerta meteorológica en 9 de Julio",
-   "youtube_url": "https://youtube.com/shorts/yQ5ufvJAirU"
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/": {
    "categoria": "otro_policial",
@@ -9157,14 +9105,14 @@
    "viral": true
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas|x": {
-   "actualizado": "2026-11-17T00:40:17.000Z",
+   "actualizado": "2026-11-17T02:40:16.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas|x",
    "creado": "2026-11-17T00:40:17.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-17T00:32:57.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas",
    "intentos": 0,
@@ -9238,34 +9186,6 @@
    "vence": "2026-11-13T01:01:29.000Z",
    "video_bytes": 122524,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_03_chacabuco_dos-motos-chocaron-en-el-centr.mp4",
-   "viral": false
-  },
-  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x": {
-   "actualizado": "2026-11-07T02:40:13.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html|x",
-   "creado": "2026-11-07T00:40:13.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-07T00:31:01.000Z",
-   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-36-anos-herida-tras-un-choque-entre-moto-daf543",
-   "noticia": "nota:chacabuco-una-mujer-de-36-anos-herida-tras-un-choque-entre-moto-daf543",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 5,
-   "texto": "Una mujer herida tras un choque entre un auto y una moto en Chacabuco\n\nUna motociclista de 36 años debió ser trasladada en ambulancia al hospital tras colisionar contra un automóvil en la intersección del acceso Hipólito Yrigoyen y la calle Carlos Gardel.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-de-36-anos-herida-tras-un-choque-entre-moto-daf543",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Una mujer herida tras un choque entre un auto y una moto en Chacabuco",
-   "urgente": false,
-   "vence": "2026-11-07T02:31:01.000Z",
-   "video_bytes": 132572,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_05_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html|x": {
@@ -9917,34 +9837,6 @@
    "vence": "2026-11-12T00:31:56.000Z",
    "video_bytes": 89318,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_03_25-de-mayo_desplegaron-35-polic-as-de-25-.mp4",
-   "viral": false
-  },
-  "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x": {
-   "actualizado": "2026-11-07T02:40:13.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x",
-   "creado": "2026-11-07T00:40:13.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-07T00:30:59.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-rige-un-alerta-amarilla-por-tormentas-fuertes-para-1e32dc",
-   "noticia": "nota:9-de-julio-rige-un-alerta-amarilla-por-tormentas-fuertes-para-1e32dc",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 8,
-   "texto": "Rige un alerta amarilla por tormentas fuertes para este viernes en 9 de Julio\n\nEl Servicio Meteorológico Nacional anunció un aviso por precipitaciones intensas, ráfagas y posible caída de granizo. Se esperan acumulados de hasta 40 milímetros.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-rige-un-alerta-amarilla-por-tormentas-fuertes-para-1e32dc",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Rige un alerta amarilla por tormentas fuertes para este viernes en 9 de Julio",
-   "urgente": false,
-   "vence": "2026-11-07T02:30:59.000Z",
-   "video_bytes": 79132,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_10_9-de-julio_rige-un-alerta-amarilla-por-to.mp4",
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/|x": {
@@ -14774,13 +14666,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af2ec2189e9c23c9bd7ce9e",
-   "clave": "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8|x",
-   "cuando": "2026-11-10T10:04:19.000Z",
-   "dueAt": "2026-11-10T10:07:39.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af2ec21eea2cc573bb49928",
    "clave": "web:aa775535-c5f2-4a64-95ca-135757291376|x",
    "cuando": "2026-11-10T10:04:19.000Z",
@@ -18910,6 +18795,12 @@
   {
    "clave": "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/|x",
    "cuando": "2026-11-17T02:20:20.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas|x",
+   "cuando": "2026-11-17T02:40:16.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }

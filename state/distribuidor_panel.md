@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 16/11/2026 23:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 4 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 5 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,14 +27,12 @@ Actualizado: 16/11/2026 23:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- X · Reels policiales · Bragado bajo alerta amarilla por tormentas y posibles ráfagas intensas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T22:00 enviado entrevistas:job00318|tiktok 
 - 2026-11-16T22:00 enviado entrevistas:job00319|tiktok 
 - 2026-11-16T22:20 recibido bot:video_matias-zucchi_mwjsvheuls91_01.mp4|x 
 - 2026-11-16T22:20 recibido bot:video_matias-zucchi_mwjsvheuls91_01.mp4|tiktok 
@@ -59,3 +57,4 @@ Actualizado: 16/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-17T01:20 vencido policiales:https://junin24.com/locales/comerciante-sufrio-en espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-17T01:40 vencido policiales:https://www.diariodemocracia.com/policiales/34808 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-17T02:20 vencido policiales:https://noticiasgilenses.com.ar/otra-muerte-que-d espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-17T02:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
