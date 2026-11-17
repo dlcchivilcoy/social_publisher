@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 6,
-    "sent": 2
+    "scheduled": 2,
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-17T21:20:16.000Z"
+   "visto": "2026-11-17T22:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 22
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-17T21:20:16.000Z"
+   "visto": "2026-11-17T22:40:13.000Z"
   }
  },
  "contenidos": {
@@ -1208,6 +1208,32 @@
    "video_mb": 19.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00323.mp4",
    "youtube_url": "https://youtu.be/k5Yeu915hJw"
+  },
+  "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": {
+   "categoria": "robo",
+   "descripcion": "Investigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.",
+   "distancia_km": 88.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-17T22:32:50.000Z",
+   "id": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea",
+   "localidad": "Morea",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-investigan-graves-hechos-de-vandalismo-y-robo-en-el-74f76f",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Investigan graves hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea.\n\nEl episodio generó un repudio generalizado entre los vecinos de la comunidad del partido de 9 de Julio.\n\nLa policía local inició una investigación para dar con los responsables de los daños y faltantes en el predio.\n\n📲 Más noticias de Morea en www.diariolacampaña.com.ar\n\n#Morea #Inseguridad #Robo #BuenosAires",
+   "tipo": "video",
+   "titulo": "Investigan robo y destrozos en el cementerio de la localidad de Morea",
+   "urgente": false,
+   "video_bytes": 141560,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_02_9-de-julio_investigan-robo-y-destrozos-en.mp4",
+   "volanta": "Vandalismo en Morea",
+   "youtube_url": "https://youtube.com/shorts/vN8uWpibrlA"
   },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": {
    "categoria": "otro_policial",
@@ -6671,19 +6697,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok": {
-   "actualizado": "2026-11-17T21:00:20.000Z",
+   "actualizado": "2026-11-17T22:40:13.000Z",
    "buffer_id": "6afcc068ea84dfa925468a0d",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok",
    "creado": "2026-11-17T15:20:16.000Z",
    "dueAt": "2026-11-17T21:23:34.000Z",
+   "enviado": "2026-11-17T21:24:27.483Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T15:07:13.000Z",
    "id": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7709254204610645268",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -9350,19 +9377,20 @@
    "viral": false
   },
   "entrevistas:job00322-r1|tiktok": {
-   "actualizado": "2026-11-17T21:00:20.000Z",
+   "actualizado": "2026-11-17T22:40:13.000Z",
    "buffer_id": "6afcc068ea84dfa925468a92",
    "categoria": "",
    "clave": "entrevistas:job00322-r1|tiktok",
    "creado": "2026-11-17T18:20:12.000Z",
    "dueAt": "2026-11-17T21:43:03.000Z",
+   "enviado": "2026-11-17T21:44:58.317Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T18:20:12.000Z",
    "id": "entrevistas:job00322-r1",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7709259264430312722",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9403,19 +9431,20 @@
    "viral": false
   },
   "entrevistas:job00322|tiktok": {
-   "actualizado": "2026-11-17T21:00:20.000Z",
+   "actualizado": "2026-11-17T22:40:13.000Z",
    "buffer_id": "6afcc071953f4c1b18bdd60e",
    "categoria": "",
    "clave": "entrevistas:job00322|tiktok",
    "creado": "2026-11-17T18:00:24.000Z",
    "dueAt": "2026-11-17T22:23:45.000Z",
+   "enviado": "2026-11-17T22:24:27.845Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T18:00:24.000Z",
    "id": "entrevistas:job00322",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7709268734753508609",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9460,19 +9489,20 @@
    "viral": false
   },
   "entrevistas:job00323|tiktok": {
-   "actualizado": "2026-11-17T21:00:20.000Z",
+   "actualizado": "2026-11-17T22:40:13.000Z",
    "buffer_id": "6afcc06f30e8d67e7ca419da",
    "categoria": "",
    "clave": "entrevistas:job00323|tiktok",
    "creado": "2026-11-17T18:20:12.000Z",
    "dueAt": "2026-11-17T22:03:57.000Z",
+   "enviado": "2026-11-17T22:05:44.343Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T18:20:12.000Z",
    "id": "entrevistas:job00323",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7709264568295492870",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9514,6 +9544,34 @@
    "vence": "2026-11-17T20:20:12.000Z",
    "video_bytes": 20569600,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00323.mp4",
+   "viral": false
+  },
+  "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x": {
+   "actualizado": "2026-11-17T22:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x",
+   "creado": "2026-11-17T22:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-17T22:32:50.000Z",
+   "id": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-investigan-graves-hechos-de-vandalismo-y-robo-en-el-74f76f",
+   "noticia": "nota:9-de-julio-investigan-graves-hechos-de-vandalismo-y-robo-en-el-74f76f",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Investigan robo y destrozos en el cementerio de la localidad de Morea\n\nInvestigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-investigan-graves-hechos-de-vandalismo-y-robo-en-el-74f76f",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Investigan robo y destrozos en el cementerio de la localidad de Morea",
+   "urgente": false,
+   "vence": "2026-11-18T00:32:50.000Z",
+   "video_bytes": 141560,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_02_9-de-julio_investigan-robo-y-destrozos-en.mp4",
    "viral": false
   },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/|x": {
@@ -9852,18 +9910,19 @@
    "viral": true
   },
   "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x": {
-   "actualizado": "2026-11-17T22:20:14.000Z",
+   "actualizado": "2026-11-17T22:40:13.000Z",
    "buffer_id": "6afcd31fc68ceea50aaa2139",
    "clave": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x",
    "creado": "2026-11-17T22:20:13.000Z",
    "dueAt": "2026-11-17T22:23:09.000Z",
+   "enviado": "2026-11-17T22:23:19.284Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T22:02:54.000Z",
    "id": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122817887349969345",
    "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-detuvieron-al-motociclista-que-atropello-a-c38ed2",
    "noticia": "nota:san-andres-de-giles-detuvieron-al-motociclista-que-atropello-a-c38ed2",
    "origen": "policiales",
@@ -16246,51 +16305,6 @@
  },
  "registro": [
   {
-   "clave": "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8|x",
-   "cuando": "2026-11-11T10:03:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f|x",
-   "cuando": "2026-11-11T10:03:33.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:9c2673f5-3976-4a53-b1e8-0746d539c8b0|x",
-   "cuando": "2026-11-11T10:03:39.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6af43d7bdb6e84f20becac2f",
-   "clave": "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8|x",
-   "cuando": "2026-11-11T10:03:40.000Z",
-   "dueAt": "2026-11-11T10:37:30.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af43d7c2e62829420e11ebf",
-   "clave": "web:9c2673f5-3976-4a53-b1e8-0746d539c8b0|x",
-   "cuando": "2026-11-11T10:03:40.000Z",
-   "dueAt": "2026-11-11T10:07:46.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af43d7c658ef0788e2261cc",
-   "clave": "web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f|x",
-   "cuando": "2026-11-11T10:03:40.000Z",
-   "dueAt": "2026-11-11T10:22:30.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af43d7c2e62829420e11f05",
    "clave": "web:8bcf2503-f895-462b-af3a-dffcba6750bb|x",
    "cuando": "2026-11-11T10:03:40.000Z",
@@ -20397,6 +20411,44 @@
    "cuando": "2026-11-17T22:20:15.000Z",
    "dueAt": "2026-11-17T22:23:09.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x",
+   "cuando": "2026-11-17T22:40:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok",
+   "cuando": "2026-11-17T22:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7709254204610645268"
+  },
+  {
+   "clave": "entrevistas:job00322-r1|tiktok",
+   "cuando": "2026-11-17T22:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7709259264430312722"
+  },
+  {
+   "clave": "entrevistas:job00322|tiktok",
+   "cuando": "2026-11-17T22:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7709268734753508609"
+  },
+  {
+   "clave": "entrevistas:job00323|tiktok",
+   "cuando": "2026-11-17T22:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7709264568295492870"
+  },
+  {
+   "clave": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x",
+   "cuando": "2026-11-17T22:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122817887349969345"
   }
  ],
  "tandas": {
@@ -20434,7 +20486,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-17",
- "ultima_sync": "2026-11-17T21:20:16.000Z",
+ "ultima_sync": "2026-11-17T22:40:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -20781,6 +20833,7 @@
   "nacionales:f8740af29dcd48f9": "2026-10-23T01:20:18.000Z",
   "nacionales:f8cbb878e65900d1": "2026-10-19T09:00:17.000Z",
   "nacionales:fb8bbb9c2285b74b": "2026-10-20T21:20:16.000Z",
+  "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/": "2026-10-22T01:40:20.000Z",
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": "2026-11-16T22:40:15.000Z",
@@ -21024,7 +21077,6 @@
   "web:31292745-1874-4666-bb1a-583ba97f9032": "2026-11-09T01:00:19.000Z",
   "web:3173f704-43ae-47b8-9c31-154e6d44e402": "2026-11-13T01:40:14.000Z",
   "web:317c620f-6da5-4b5a-b6b9-577556143229": "2026-10-19T17:20:14.000Z",
-  "web:31a6f540-e9dd-415d-9833-6137456f0a06": "2026-10-18T22:40:12.000Z",
   "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2": "2026-11-14T16:40:14.000Z",
   "web:3278c2f0-00fb-4466-b2e2-ac9619179fbe": "2026-10-30T10:01:54.000Z",
   "web:34578935-f4ba-4a48-b177-a3e196a4e890": "2026-10-26T10:20:14.000Z",
@@ -21466,7 +21518,6 @@
   "web:eca084c4-f470-4290-a9ab-e8a57e117475": "2026-10-26T12:06:06.000Z",
   "web:ecbd39ca-e8d6-4701-920e-b903cf03fc41": "2026-11-11T10:02:35.000Z",
   "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f": "2026-11-06T16:20:16.000Z",
-  "web:eded5bb5-8863-4fd7-8a91-c5fa4d44d630": "2026-10-18T22:40:12.000Z",
   "web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e": "2026-11-02T10:03:22.000Z",
   "web:f0f64009-e880-45a2-9552-b15ed75817f2": "2026-11-11T10:02:35.000Z",
   "web:f0fdf6dc-eb9d-437d-ac1e-248417895c62": "2026-10-21T10:02:08.000Z",
