@@ -2459,22 +2459,16 @@ def run_publish_video(file: str = "", dry_run: bool = False) -> None:
     _guardar_ledger(rows)
     _a_distribuidor(fila, reel_url, titulo, desc or resumen, post_url, yt_info, local_reel)
 
+    # Los links de cada red donde salió: para el aviso final al editor y al corresponsal.
+    links = _links_publicados(estado_canales, post_url, ig_media_id, fb_video_id, yt_info)
+
     # Aviso de estado por canal (el «panel» de publicación).
-    _avisar_estado(fila, estado_canales, post_url, yt_info)
+    _avisar_estado(fila, estado_canales, post_url, yt_info, links=links)
 
     # Corresponsal: avisarle por WhatsApp que su nota se publicó, con los LINKS de cada red donde
     # salió ok (web/IG/FB/YouTube). SOLO-GRATIS (ver el helper).
     if es_corr:
         canales = [_WA_CANALES[k] for k in _WA_ORDEN if estado_canales.get(k) == "ok"]
-        links = {}
-        if estado_canales.get("wix") == "ok" and post_url:
-            links["web"] = post_url
-        if estado_canales.get("instagram") == "ok" and ig_media_id:
-            links["instagram"] = instagram.permalink(ig_media_id)
-        if estado_canales.get("facebook") == "ok" and fb_video_id:
-            links["facebook"] = facebook.permalink(fb_video_id)
-        if estado_canales.get("youtube") == "ok":
-            links["youtube"] = yt_info.get("short_url") or yt_info.get("watch_url") or yt_info.get("url", "")
         _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales, links)
 
     algun_ok = any(v == "ok" for v in estado_canales.values())
@@ -2822,7 +2816,7 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
         from utils import editor_wa
         if not dry_run and editor_wa.freno(nombre=carpeta.name, tipo="carpeta", titulo=titular,
                                            quien=ctx.get("nombre", ""), reel_url=reel_url, draft_id=draft_id,
-                                           celular=ctx.get("celular", "")):
+                                           celular=ctx.get("celular", ""), vista_url=hoja_url):
             fila["publicacion_directa"] = True
             _guardar_ledger(rows)
             logger.info("=== Corresponsal-foto (etapa 1): avisado al editor, se publica en 10 minutos ===")
@@ -2868,7 +2862,8 @@ def _corresponsal_foto_etapa1(carpeta: Path, ctx: dict, uploader: str, dry_run: 
     if not dry_run:
         from utils import editor_wa
         editor_wa.avisar_revision(nombre=carpeta.name, tipo="carpeta", titulo=titular, resumen=resumen or texto,
-                                  quien=ctx.get("nombre", ""), reel_url=reel_url, draft_id=draft_id)
+                                  quien=ctx.get("nombre", ""), reel_url=reel_url, draft_id=draft_id,
+                                  vista_url=hoja_url)
     logger.info("=== Corresponsal-foto (etapa 1): fin ===")
     return True
 
@@ -3073,19 +3068,12 @@ def _corresponsal_foto_publish(fila: dict, dry_run: bool) -> None:
                   f"Se publicó la foto de corresponsal «{titular}»: web={estado['wix']}, "
                   f"IG={estado['instagram']}, FB={estado['facebook']}, YT={estado['youtube']}, "
                   f"TikTok={estado.get('tiktok', 'omitido')}{_historias_txt(estado)}.")
+    links = _links_publicados(estado, post_url, fila.get("ig_media_id", ""),
+                              fila.get("fb_video_id") or fila.get("fb_post_id", ""), yt_info)
     from utils import editor_wa
-    editor_wa.confirmar_publicado(fila.get("file", ""), post_url)
+    editor_wa.confirmar_publicado(fila.get("file", ""), links)
     # Aviso al corresponsal por WhatsApp con los LINKS de cada red donde salió ok (SOLO-GRATIS).
     canales = [_WA_CANALES[k] for k in _WA_ORDEN if estado.get(k) == "ok"]
-    links = {}
-    if estado.get("wix") == "ok" and post_url:
-        links["web"] = post_url
-    if estado.get("instagram") == "ok" and fila.get("ig_media_id"):
-        links["instagram"] = instagram.permalink(fila["ig_media_id"])
-    if estado.get("facebook") == "ok" and (fila.get("fb_video_id") or fila.get("fb_post_id")):
-        links["facebook"] = facebook.permalink(fila.get("fb_video_id") or fila["fb_post_id"])
-    if estado.get("youtube") == "ok":
-        links["youtube"] = yt_info.get("short_url") or yt_info.get("watch_url") or yt_info.get("url", "")
     _avisar_corresponsal_publicado(fila.get("corresponsal_celular", ""), canales, links)
 
 
@@ -3635,7 +3623,26 @@ def _historias_txt(estado: dict) -> str:
     return (", " + ", ".join(partes)) if partes else ""
 
 
-def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> None:
+def _links_publicados(estado: dict, post_url: str, ig_id: str, fb_id: str, yt_info: dict) -> dict:
+    """{web, instagram, facebook, youtube}: el link de cada red donde salió ok. Nunca rompe: el link que no
+    se pueda sacar, falta."""
+    links = {}
+    try:
+        if estado.get("wix") == "ok" and post_url:
+            links["web"] = post_url
+        if estado.get("instagram") == "ok" and ig_id:
+            links["instagram"] = instagram.permalink(ig_id)
+        if estado.get("facebook") == "ok" and fb_id:
+            links["facebook"] = facebook.permalink(fb_id)
+        if estado.get("youtube") == "ok":
+            links["youtube"] = ((yt_info or {}).get("short_url") or (yt_info or {}).get("watch_url")
+                                or (yt_info or {}).get("url", ""))
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"no pude armar todos los links de la publicación: {e}")
+    return {k: v for k, v in links.items() if v}
+
+
+def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict, links: dict | None = None) -> None:
     """Manda un mail con el ESTADO de publicación por canal (IG/FB/YouTube/Wix)."""
     titulo = fila.get("titulo") or fila.get("file", "")
     iconos = {"ok": "✅", "omitido": "➖"}
@@ -3688,4 +3695,4 @@ def _avisar_estado(fila: dict, estado: dict, post_url: str, yt_info: dict) -> No
     _enviar_aviso(("Publicado directo: " if fila.get("publicacion_directa")
                    else "Estado de publicación: ") + titulo, cuerpo, html=html)
     from utils import editor_wa
-    editor_wa.confirmar_publicado(fila.get("file", ""), post_url)
+    editor_wa.confirmar_publicado(fila.get("file", ""), links if links is not None else post_url)

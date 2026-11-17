@@ -141,12 +141,27 @@ def _video_apto(url: str) -> bool:
         return False
 
 
-def _botones(cuerpo: str, botones: list, video_url: str = "") -> dict:
+def _botones(cuerpo: str, botones: list, video_url: str = "", imagen_url: str = "") -> dict:
+    """Mensaje con botones. Arriba va el reel (si pesa hasta 15 MB) o, si no hay reel, la imagen con las
+    placas del carrusel: así se previsualiza sin salir de WhatsApp."""
     inter = {"type": "button", "body": {"text": _corto(cuerpo, 1000)},
              "action": {"buttons": [{"type": "reply", "reply": {"id": i, "title": t}} for i, t in botones]}}
     if video_url and _video_apto(video_url):
         inter["header"] = {"type": "video", "video": {"link": video_url}}
+    elif imagen_url:
+        inter["header"] = {"type": "image", "image": {"link": imagen_url}}
     return {"type": "interactive", "interactive": inter}
+
+
+def _ver(reel_url: str, vista_url: str) -> str:
+    """El renglón para previsualizar (17/11/2026, pedido del editor: «los mismos botones del mail:
+    previsualizar, editar, borrar o aceptar»). WhatsApp deja solo 3 botones, así que «ver» va como link:
+    el reel entero (aunque pese más de lo que WhatsApp muestra arriba) o las placas del carrusel."""
+    if vista_url:
+        return f"\n\n👁️ Ver el carrusel: {vista_url}"
+    if reel_url:
+        return f"\n\n👁️ Ver el reel: {reel_url}"
+    return ""
 
 
 def _plantilla(nombre: str, titulo: str, quien: str, ids: list) -> dict:
@@ -191,7 +206,7 @@ def _links(nombre: str, tipo: str, draft_id: str) -> tuple:
 
 
 def avisar_revision(*, nombre: str, tipo: str, titulo: str, resumen: str = "", quien: str = "",
-                    reel_url: str = "", draft_id: str = "") -> str:
+                    reel_url: str = "", draft_id: str = "", vista_url: str = "") -> str:
     """El aviso de revisión al editor, con Publicar, Corregir y Descartar. Devuelve el id o ""."""
     if not activo():
         return ""
@@ -204,10 +219,11 @@ def avisar_revision(*, nombre: str, tipo: str, titulo: str, resumen: str = "", q
         id_ = secrets.token_hex(4)
         _guardar({"id": id_, "nombre": nombre, "tipo": tipo, "titulo": _corto(titulo, 300), "estado": "pendiente",
                   "url_aprobar": aprobar, "url_corregir": corregir})
-        cuerpo = (f"📰 *{_corto(titulo, 200)}*\n\n{_corto(resumen, 500)}\n\n"
+        cuerpo = (f"📰 *{_corto(titulo, 200)}*\n\n{_corto(resumen, 450)}"
+                  f"{_ver(reel_url, vista_url)}\n\n"
                   f"📲 Lo mandó {quien or 'un corresponsal'}. ¿Lo publicamos?")
         libre = _botones(cuerpo, [(f"ap:{id_}", "✅ Publicar"), (f"co:{id_}", "✏️ Corregir"),
-                                  (f"de:{id_}", "🗑️ Descartar")], reel_url)
+                                  (f"de:{id_}", "🗑️ Descartar")], reel_url, vista_url)
         _mandar(editor, libre, _plantilla(PLANTILLA_REVISION, titulo, quien, [f"ap:{id_}", f"co:{id_}", f"de:{id_}"]))
         logger.info(f"[editor] aviso de revisión enviado por WhatsApp (id {id_}).")
         return id_
@@ -221,7 +237,7 @@ def _ultimos10(numero: str) -> str:
 
 
 def freno(*, nombre: str, tipo: str, titulo: str, quien: str = "", reel_url: str = "", draft_id: str = "",
-          minutos: int = MINUTOS_FRENO, celular: str = "") -> bool:
+          minutos: int = MINUTOS_FRENO, celular: str = "", vista_url: str = "") -> bool:
     """Publicación directa con freno: avisa «se publica en 10 minutos» y NO espera acá (una corrida que
     espera tranca la fila de videos de GitHub y puede hacer cancelar otra). El reloj vive en Supabase:
     `corresponsales_frenos_vencidos()` corre cada minuto y llama al link de aprobar de lo que venció; «Publicar
@@ -244,9 +260,10 @@ def freno(*, nombre: str, tipo: str, titulo: str, quien: str = "", reel_url: str
         hasta = datetime.now(timezone.utc) + timedelta(minutes=minutos)
         _guardar({"id": id_, "nombre": nombre, "tipo": tipo, "titulo": _corto(titulo, 300), "estado": "esperando",
                   "url_aprobar": aprobar, "url_corregir": corregir, "publicar_a": hasta.isoformat()})
-        cuerpo = (f"⏱️ En {minutos} minutos se publica directo:\n\n📰 *{_corto(titulo, 200)}*\n\n"
+        cuerpo = (f"⏱️ En {minutos} minutos se publica directo:\n\n📰 *{_corto(titulo, 200)}*"
+                  f"{_ver(reel_url, vista_url)}\n\n"
                   f"📲 Lo mandó {quien or 'un corresponsal'}. Si querés revisarlo antes, tocá *Frenar*.")
-        libre = _botones(cuerpo, [(f"fr:{id_}", "✋ Frenar"), (f"ya:{id_}", "✅ Publicar ya")], reel_url)
+        libre = _botones(cuerpo, [(f"fr:{id_}", "✋ Frenar"), (f"ya:{id_}", "✅ Publicar ya")], reel_url, vista_url)
         try:
             _mandar(editor, libre, _plantilla(PLANTILLA_FRENO, titulo, quien, [f"fr:{id_}", f"ya:{id_}"]))
         except Exception:
@@ -259,8 +276,21 @@ def freno(*, nombre: str, tipo: str, titulo: str, quien: str = "", reel_url: str
         return False
 
 
-def confirmar_publicado(nombre: str, link: str = "") -> None:
-    """«✅ Publicado» al editor, si ese envío pasó por WhatsApp. Solo gratis: si la ventana cerró, nada."""
+REDES_LINKS = (("web", "🌐 Web"), ("instagram", "📸 Instagram"), ("facebook", "👍 Facebook"),
+               ("youtube", "▶️ YouTube"))
+
+
+def texto_publicado(titulo: str, links) -> str:
+    """«✅ Publicado» con el link de CADA red donde salió (17/11/2026: antes iba solo el de la web)."""
+    if isinstance(links, str):
+        links = {"web": links} if links else {}
+    renglones = [f"{et}: {links[k]}" for k, et in REDES_LINKS if (links or {}).get(k)]
+    return f"✅ Publicado: {_corto(titulo, 200)}" + ("\n\n" + "\n".join(renglones) if renglones else "")
+
+
+def confirmar_publicado(nombre: str, links=None) -> None:
+    """«✅ Publicado» al editor con los links de cada red, si ese envío pasó por WhatsApp. `links`:
+    {web, instagram, facebook, youtube} (o un solo link, como antes). Solo gratis: si la ventana cerró, nada."""
     if not activo():
         return
     try:
@@ -270,8 +300,7 @@ def confirmar_publicado(nombre: str, link: str = "") -> None:
         _cambiar(fila["id"], ("pendiente", "esperando", "publicar", "frenada"), "publicada")
         editor = numero_editor()
         if editor:
-            _enviar(editor, {"type": "text", "text": {"body": f"✅ Publicado: {_corto(fila.get('titulo', ''), 200)}"
-                                                               + (f"\n{link}" if link else "")}})
+            _enviar(editor, {"type": "text", "text": {"body": texto_publicado(fila.get("titulo", ""), links)}})
     except FueraDeVentana:
         pass
     except Exception as e:  # noqa: BLE001
