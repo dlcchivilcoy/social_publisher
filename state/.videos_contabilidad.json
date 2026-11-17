@@ -42635,5 +42635,64 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-11-16T19:01:25",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-11-17_matias-zucchi_mwjymzvjlywn",
+    "uploader": "",
+    "fecha_recibido": "2026-11-16T21:38:00",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Chivilcoy · Policiales",
+    "titulo": "Hallaron a un hombre sin vida en una vivienda de Emilio Mitre y Saavedra",
+    "resumen": "Un hombre fue encontrado sin vida este lunes 16 de noviembre en una vivienda ubicada en la esquina de Emilio Mitre y Saavedra, en Chivilcoy. La Policía intervino en el lugar y aguardaba la llegada de Bomberos para retirar el cuerpo. Según la información preliminar, habría fallecido...",
+    "texto": "Un hombre fue encontrado sin vida este lunes 16 de noviembre en una vivienda ubicada en la esquina de Emilio Mitre y Saavedra, en Chivilcoy. La Policía intervino en el lugar y aguardaba la llegada de Bomberos para retirar el cuerpo.\n\nSegún la información preliminar, el hombre habría fallecido varios días antes del hallazgo y aún no se confirmaron las causas de su muerte. Vecinos de la zona señalaron que vivía solo en la casa desde hacía varios años, mientras que su identidad no había sido informada oficialmente.\n\nEstaba previsto trasladar el cuerpo a la morgue del hospital para realizar las pericias correspondientes que permitan establecer cuándo y en qué circunstancias falleció.",
+    "bajada_reel": "La Policía intervino en el lugar y realizarán pericias para establecer las causas del fallecimiento.",
+    "escrito": "Chivilcoy: hallaron a un hombre sin vida en una vivienda de Emilio Mitre y Saavedra\nLa Policía intervino en el lugar. Según la información preliminar, el hombre habría fallecido varios días antes del hallazgo. Aún no se confirmaron las causas de su muerte.\nUn hombre fue encontrado sin vida este lunes 16 de noviembre en una vivienda ubicada en la esquina de Emilio Mitre y Saavedra, en Chivilcoy. Tras el hallazgo, personal policial acudió al domicilio y aguardaba la llegada de Bomberos para retirar el cuerpo.\nVecinos de la zona señalaron que el hombre vivía solo en la casa desde hacía varios años. Su identidad no había sido informada oficialmente.\nEstaba previsto trasladar el cuerpo a la morgue del hospital para realizar las pericias que permitan establecer cuándo y en qué circunstancias falleció.",
+    "tarjetas_fotos": [],
+    "draft_id": "4b894c99-4b3e-4cec-9703-086eaee6d5d4",
+    "reel_url": "",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-17T00:34:43.622Z — wa:5492346417636",
+    "decl": null,
+    "formato": "carrusel",
+    "tema_carrusel": "grafito",
+    "laminas": [
+      {
+        "titulo": "Encuentran un cuerpo en una casa",
+        "texto": "Un hombre fue encontrado sin vida en el interior de una vivienda ubicada en Chivilcoy. La Policía intervino en el lugar y aguardaba a los Bomberos para retirar el cuerpo."
+      },
+      {
+        "titulo": "Las coordenadas del hallazgo",
+        "texto": "El hecho se registró este lunes 16 de noviembre en la esquina de Emilio Mitre y Saavedra. Según información preliminar, el hombre habría fallecido varios días antes de ser encontrado."
+      },
+      {
+        "titulo": "El testimonio de los vecinos",
+        "texto": "Vecinos de la zona señalaron que la persona vivía sola en esa casa desde hacía varios años. La identidad del hombre todavía no fue informada de manera oficial."
+      },
+      {
+        "titulo": "Pericias y causas a determinar",
+        "texto": "Aún no se confirmaron las causas del fallecimiento. Estaba previsto trasladar el cuerpo a la morgue del hospital para realizar las pericias que determinen cuándo y cómo murió."
+      }
+    ],
+    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_ac448a53a02147b1bdf695934d312989~mv2.jpg",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-11-16T21:39:25",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-hallaron-a-un-hombre-sin-vida-en-una",
+    "ig_media_id": "18503705035100279",
+    "fb_video_id": "",
+    "ig_historia_id": "",
+    "fb_historia_id": "",
+    "fb_post_id": "1456376377985890_2094942608114031"
   }
 ]
