@@ -2835,25 +2835,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/hechos-de-violencia-la-liga-chivilcoyana-de-futbol-implementa-medidas",
    "volanta": "Hechos de violencia"
   },
-  "web:2e964f84-db65-4365-a793-01e8f49b70ed": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: DEPORTIVO COLÓN cayó en casa ante BELGRANO de SAN NICOLAS CHIVILCOY.– DEPORTIVO COLÓN no logró el triunfo en casa ante BELGRANO de SAN NICOLAS (fue 59-70), que contó con la jerarquía de NOE GRUNALE para sacar algo de luz y, ante la poca efectividad del LEÓN, el equipo de SAN NICOLAS la mantuvo. COLÓN, ya ascendido al FEDERAL 2027, seguramente aprovecha estos partidos para darle rodaje de primer nivel a sus jugadores y a modo de evaluación para lo que viene. El LEÓN intentó por...",
-   "generado": "2026-11-07T20:29:21.987Z",
-   "id": "web:2e964f84-db65-4365-a793-01e8f49b70ed",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5bcd614969584f1f91bacb91ca788be6~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-cayo-en-casa-ante",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: DEPORTIVO COLÓN cayó en casa ante BELGRANO de SAN NICOLAS",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-deportivo-colon-cayo-en-casa-ante",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:2f44ced7-23f0-4b6f-888d-c95d56334b15": {
    "categoria": "",
    "descripcion": "Federal A: Douglas Haig ganó por la mínima y viajará con ventaja a Chivilcoy CHIVILCOY.– Con gol de Martín Schlottahuer en el cierre del primer tiempo, el “Rojinegro” venció 1 a 0 a Gimnasia por la ida de los cuartos de final de la Reválida. El equipo de Hernán Medina mereció ampliar la diferencia. Un empate en la revancha le alcanzará para meterse en semifinales. En la tarde de este sábado, Douglas Haig recibió a Gimnasia de Chivilcoy por el partido de ida de los cuartos de final de la...",
@@ -5210,25 +5191,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
    "volanta": "Pergamino · Deportes"
   },
-  "web:eafd3864-774e-4c8f-af94-8eabecbba4fa": {
-   "categoria": "",
-   "descripcion": "Argentino de Chivilcoy venció de visitante a su homónimo de Junín Por el Torneo Femenino de la Asociación Juninense de Básquet, las chicas de Argentino se hicieron fuertes de visitante y vencieron a su homónimo de Junín por un holgado tanteador de 60 a 45. Las goleadoras de Chivilcoy fueron Agustina Curioni, con 20 puntos, y Angie Puntieri, con 13 puntos.",
-   "generado": "2026-11-07T20:44:04.385Z",
-   "id": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_0cb9fc4628ca4a7a8edef74851eac082~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Argentino de Chivilcoy venció de visitante a su homónimo de Junín",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
-   "volanta": "Junín · Deportes"
-  },
   "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97": {
    "categoria": "",
    "descripcion": "Chivilcoy: Baja presión de agua por una falla eléctrica en ABSA CHIVILCOY.– El desperfecto afecta al sistema central que abastece a la ciudad. Personal de ABSA y EDEN trabaja para reparar la instalación y recuperar el servicio. Una falla eléctrica en la planta principal de ABSA provoca una baja generalizada en la presión del agua en Chivilcoy este martes 17 de noviembre. Según la información difundida por la prestataria, los inconvenientes comenzaron durante el temporal de la noche del lunes,...",
@@ -5550,15 +5512,15 @@
    "viral": false
   },
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok": {
-   "actualizado": "2026-11-17T18:40:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T21:00:20.000Z",
+   "buffer_id": "6afcc067953f4c1b18bdbed9",
    "categoria": "",
    "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok",
    "creado": "2026-11-17T18:40:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T21:03:44.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T18:38:09.000Z",
    "id": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2",
    "intentos": 0,
@@ -6742,15 +6704,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok": {
-   "actualizado": "2026-11-17T15:20:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T21:00:20.000Z",
+   "buffer_id": "6afcc068ea84dfa925468a0d",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok",
    "creado": "2026-11-17T15:20:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T21:23:34.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T15:07:13.000Z",
    "id": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4",
    "intentos": 0,
@@ -9307,15 +9269,15 @@
    "viral": false
   },
   "entrevistas:job00320|tiktok": {
-   "actualizado": "2026-11-17T16:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T21:00:20.000Z",
+   "buffer_id": "6afcc07730e8d67e7ca428de",
    "categoria": "",
    "clave": "entrevistas:job00320|tiktok",
    "creado": "2026-11-17T16:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T23:03:01.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T16:40:14.000Z",
    "id": "entrevistas:job00320",
    "intentos": 0,
@@ -9364,15 +9326,15 @@
    "viral": false
   },
   "entrevistas:job00321|tiktok": {
-   "actualizado": "2026-11-17T17:40:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T21:00:20.000Z",
+   "buffer_id": "6afcc072953f4c1b18bdd692",
    "categoria": "",
    "clave": "entrevistas:job00321|tiktok",
    "creado": "2026-11-17T17:40:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T22:43:06.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T17:40:16.000Z",
    "id": "entrevistas:job00321",
    "intentos": 0,
@@ -9421,15 +9383,15 @@
    "viral": false
   },
   "entrevistas:job00322-r1|tiktok": {
-   "actualizado": "2026-11-17T18:20:12.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T21:00:20.000Z",
+   "buffer_id": "6afcc068ea84dfa925468a92",
    "categoria": "",
    "clave": "entrevistas:job00322-r1|tiktok",
    "creado": "2026-11-17T18:20:12.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T21:43:03.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T18:20:12.000Z",
    "id": "entrevistas:job00322-r1",
    "intentos": 0,
@@ -9474,15 +9436,15 @@
    "viral": false
   },
   "entrevistas:job00322|tiktok": {
-   "actualizado": "2026-11-17T18:00:24.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T21:00:20.000Z",
+   "buffer_id": "6afcc071953f4c1b18bdd60e",
    "categoria": "",
    "clave": "entrevistas:job00322|tiktok",
    "creado": "2026-11-17T18:00:24.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T22:23:45.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T18:00:24.000Z",
    "id": "entrevistas:job00322",
    "intentos": 0,
@@ -9531,15 +9493,15 @@
    "viral": false
   },
   "entrevistas:job00323|tiktok": {
-   "actualizado": "2026-11-17T18:20:12.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T21:00:20.000Z",
+   "buffer_id": "6afcc06f30e8d67e7ca419da",
    "categoria": "",
    "clave": "entrevistas:job00323|tiktok",
    "creado": "2026-11-17T18:20:12.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T22:03:57.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T18:20:12.000Z",
    "id": "entrevistas:job00323",
    "intentos": 0,
@@ -11839,33 +11801,6 @@
    "titulo": "La Liga Chivilcoyana de Fútbol implementa medidas más rigurosas, con foco en las inferiores",
    "urgente": false,
    "vence": "2026-11-12T14:01:44.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:2e964f84-db65-4365-a793-01e8f49b70ed|x": {
-   "actualizado": "2026-11-07T20:40:22.000Z",
-   "buffer_id": "",
-   "clave": "web:2e964f84-db65-4365-a793-01e8f49b70ed|x",
-   "creado": "2026-11-07T20:40:13.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-07T20:29:21.987Z",
-   "id": "web:2e964f84-db65-4365-a793-01e8f49b70ed",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-cayo-en-casa-ante",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-deportivo-colon-cayo-en-casa-ante",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: DEPORTIVO COLÓN cayó en casa ante BELGRANO de SAN NICOLAS\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-cayo-en-casa-ante",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: DEPORTIVO COLÓN cayó en casa ante BELGRANO de SAN NICOLAS",
-   "urgente": false,
-   "vence": "2026-11-08T00:29:21.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -15952,33 +15887,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x": {
-   "actualizado": "2026-11-07T21:00:20.000Z",
-   "buffer_id": "",
-   "clave": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa|x",
-   "creado": "2026-11-07T21:00:17.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-07T20:44:04.385Z",
-   "id": "web:eafd3864-774e-4c8f-af94-8eabecbba4fa",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
-   "noticia": "nota:junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Argentino de Chivilcoy venció de visitante a su homónimo de Junín\n\nPor el torneo de la Asociación Juninense de Básquet, el equipo femenino se impuso 60 a 45. Agustina Curioni aportó 20 puntos y Angie Puntieri anotó 13.\n\nhttps://www.diariolacampaña.com.ar/n/junin-deportes-argentino-de-chivilcoy-vencio-de-visitante-a-su",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Argentino de Chivilcoy venció de visitante a su homónimo de Junín",
-   "urgente": false,
-   "vence": "2026-11-08T00:44:04.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97|x": {
    "actualizado": "2026-11-17T18:00:35.000Z",
    "buffer_id": "",
@@ -16342,62 +16250,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:f0f64009-e880-45a2-9552-b15ed75817f2|x",
-   "cuando": "2026-11-11T10:02:39.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:51d406e0-8d07-4bc1-b1c2-9567feb03776|x",
-   "cuando": "2026-11-11T10:02:41.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4|x",
-   "cuando": "2026-11-11T10:02:49.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:449ee4f0-a73f-443a-ba52-32ad213567fa|x",
-   "cuando": "2026-11-11T10:02:52.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x",
-   "cuando": "2026-11-11T10:02:54.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ecbd39ca-e8d6-4701-920e-b903cf03fc41|x",
-   "cuando": "2026-11-11T10:03:03.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:21db22f9-b141-462c-b83c-6c1174b09194|x",
-   "cuando": "2026-11-11T10:03:05.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:9869ea43-5e12-4498-bdb2-3cb48381f45a|x",
    "cuando": "2026-11-11T10:03:12.000Z",
@@ -20504,11 +20356,59 @@
    "cuando": "2026-11-17T19:20:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2122757379359990158"
+  },
+  {
+   "buffer_id": "6afcc067953f4c1b18bdbed9",
+   "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok",
+   "cuando": "2026-11-17T21:00:41.000Z",
+   "dueAt": "2026-11-17T21:03:44.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afcc068ea84dfa925468a0d",
+   "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok",
+   "cuando": "2026-11-17T21:00:41.000Z",
+   "dueAt": "2026-11-17T21:23:34.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afcc068ea84dfa925468a92",
+   "clave": "entrevistas:job00322-r1|tiktok",
+   "cuando": "2026-11-17T21:00:41.000Z",
+   "dueAt": "2026-11-17T21:43:03.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afcc06f30e8d67e7ca419da",
+   "clave": "entrevistas:job00323|tiktok",
+   "cuando": "2026-11-17T21:00:41.000Z",
+   "dueAt": "2026-11-17T22:03:57.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afcc071953f4c1b18bdd60e",
+   "clave": "entrevistas:job00322|tiktok",
+   "cuando": "2026-11-17T21:00:41.000Z",
+   "dueAt": "2026-11-17T22:23:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afcc072953f4c1b18bdd692",
+   "clave": "entrevistas:job00321|tiktok",
+   "cuando": "2026-11-17T21:00:41.000Z",
+   "dueAt": "2026-11-17T22:43:06.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afcc07730e8d67e7ca428de",
+   "clave": "entrevistas:job00320|tiktok",
+   "cuando": "2026-11-17T21:00:41.000Z",
+   "dueAt": "2026-11-17T23:03:01.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-07 18",
    "2026-11-07 21",
    "2026-11-08 10",
    "2026-11-08 18",
@@ -20537,7 +20437,8 @@
    "2026-11-16 10",
    "2026-11-16 18",
    "2026-11-16 21",
-   "2026-11-17 10"
+   "2026-11-17 10",
+   "2026-11-17 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-17",
@@ -20549,7 +20450,6 @@
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l": "2026-10-18T21:00:16.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj": "2026-10-18T23:00:17.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv": "2026-10-18T23:00:17.000Z",
   "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn": "2026-10-19T13:20:16.000Z",
