@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 16/11/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 16/11/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-16)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,8 +8,8 @@ Actualizado: 16/11/2026 21:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 0 | 0 |
-| Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 6 |
+| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 1 | 0 |
+| Notas web | X | 15 | 13 | 0 | 0 | 0 | 1 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -29,18 +29,14 @@ Actualizado: 16/11/2026 21:20 (hora AR) · ACTIVO
 
 ## Cola propia (4 esperando)
 - X · Reels policiales · Murió Jorge Limonta tras ser atropellado por una moto en San Andrés de Giles — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Bragado bajo alerta amarilla por tormentas y posibles ráfagas intensas — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Detuvieron a un hombre de Chacabuco tras un robo en la calle 27 de Diciembre — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Sufrió dos robos en una semana en su local de Junín y evalúa vender el negocio — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Motociclista herido tras chocar contra un camión de Absa en Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-16T20:40 enviado bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x 
-- 2026-11-16T21:00 programado bot:video_matias-zucchi_mwjo5rifucll_01.mp4|tiktok 
-- 2026-11-16T21:00 programado entrevistas:job00319|tiktok 
-- 2026-11-16T21:00 programado entrevistas:job00318|tiktok 
 - 2026-11-16T21:00 programado entrevistas:job00317|tiktok 
 - 2026-11-16T21:00 programado entrevistas:job00316|tiktok 
 - 2026-11-16T22:00 enviado bot:video_matias-zucchi_mwjo5rifucll_01.mp4|tiktok 
@@ -62,3 +58,7 @@ Actualizado: 16/11/2026 21:20 (hora AR) · ACTIVO
 - 2026-11-17T00:00 programado bot:video_matias-zucchi_mwjsvheuls91_01.mp4|tiktok 
 - 2026-11-17T00:20 recibido policiales:https://noticiasgilenses.com.ar/otra-muerte-que-d 
 - 2026-11-17T00:20 enviado bot:video_matias-zucchi_mwjsvheuls91_01.mp4|tiktok 
+- 2026-11-17T00:40 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/ 
+- 2026-11-17T00:40 recibido web:4b894c99-4b3e-4cec-9703-086eaee6d5d4|x 
+- 2026-11-17T00:40 vencido policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-17T00:40 depurado web:4b894c99-4b3e-4cec-9703-086eaee6d5d4|x de la web, a X solo van las notas del diario de la mañana

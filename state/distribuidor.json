@@ -1374,32 +1374,6 @@
    "volanta": "San Andrés de Giles",
    "youtube_url": "https://youtube.com/shorts/de1sbNZs3FM"
   },
-  "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre": {
-   "categoria": "otro_policial",
-   "descripcion": "Una beba ingresó al Hospital Municipal de Chivilcoy con lesiones en sus partes íntimas. La madre la trasladó tras advertir el cuadro y denunció formalmente al padre biológico del ataque. La Justicia investiga el caso.",
-   "distancia_km": 0.0,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-06T22:31:50.000Z",
-   "id": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-internaron-a-una-beba-con-signos-de-abuso-y-la-madre-356146",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 9,
-   "radio_ok": true,
-   "texto_tiktok": "Una beba quedó internada en el Hospital Municipal de Chivilcoy tras ser llevada por su madre con graves lesiones en sus partes íntimas.\n\nAnte esta situación, la mujer realizó una denuncia directa contra el padre biológico de la menor.\n\nLa Justicia ya tomó intervención en el hecho para esclarecer lo sucedido.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #AbusoInfantil #Investigacion #BuenosAires",
-   "tipo": "video",
-   "titulo": "Beba internada por abuso y denuncia contra el padre en Chivilcoy",
-   "urgente": true,
-   "video_bytes": 77251,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_04_junin_beba-internada-por-abuso-y-den.mp4",
-   "volanta": "Chivilcoy en Junín",
-   "youtube_url": "https://youtube.com/shorts/dnZ57_CYQVI"
-  },
   "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin": {
    "categoria": "otro_policial",
    "descripcion": "Un motociclista que realizaba maniobras imprudentes perdió el control del rodado e impactó contra un vehículo estacionado. Ocurrió por la noche sobre la avenida San Martín. No se registraron personas heridas.",
@@ -1581,6 +1555,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_04_bragado_rige-alerta-naranja-por-tormen.mp4",
    "volanta": "Alerta meteorológica en Bragado",
    "youtube_url": "https://youtube.com/shorts/6n9hXebab6Q"
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas": {
+   "categoria": "alerta_meteorologica",
+   "descripcion": "Rige un aviso oficial para este lunes 16 y martes 17 de noviembre. Se prevén precipitaciones acumuladas de hasta 50 milímetros, actividad eléctrica y ocasional caída de granizo en la región.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-17T00:32:57.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-amarilla-por-tormentas-y-pronostican-733174",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "El partido de Bragado y gran parte de la provincia de Buenos Aires se encuentran bajo alerta meteorológica de nivel amarillo por tormentas fuertes.\n\nEl fenómeno rige entre el lunes 16 y el martes 17 de noviembre, impulsado por el avance de un frente frío que genera inestabilidad.\n\nSe esperan ráfagas intensas, actividad eléctrica, ocasional caída de granizo y acumulados de lluvia de hasta 50 milímetros.\n\nLas condiciones más críticas se concentran durante la tarde y la noche de este lunes.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Clima #AlertaMeteorologica #BuenosAires",
+   "tipo": "video",
+   "titulo": "Bragado bajo alerta amarilla por tormentas y posibles ráfagas intensas",
+   "urgente": false,
+   "video_bytes": 84668,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_10_bragado_bragado-bajo-alerta-amarilla-p.mp4",
+   "volanta": "Alerta meteorológica en Bragado",
+   "youtube_url": "https://youtube.com/shorts/p6LU4p9V5qA"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": {
    "categoria": "otro_policial",
@@ -2998,6 +2998,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-un-adolescente-quedo-en-terapia",
    "volanta": "Chivilcoy · Accidente"
+  },
+  "web:4b894c99-4b3e-4cec-9703-086eaee6d5d4": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Hallaron a un hombre sin vida en una vivienda de Emilio Mitre y Saavedra Un hombre fue encontrado sin vida este lunes 16 de noviembre en una vivienda ubicada en la esquina de Emilio Mitre y Saavedra, en Chivilcoy. La Policía intervino en el lugar y aguardaba la llegada de Bomberos para retirar el cuerpo. Según la información preliminar, el hombre habría fallecido varios días antes del hallazgo y aún no se confirmaron las causas de su muerte. Vecinos de la zona señalaron que vivía...",
+   "generado": "2026-11-17T00:38:11.570Z",
+   "id": "web:4b894c99-4b3e-4cec-9703-086eaee6d5d4",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_77aec708b93a47eabde6167d606ec82c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-hallaron-a-un-hombre-sin-vida-en-una",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Hallaron a un hombre sin vida en una vivienda de Emilio Mitre y Saavedra",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-hallaron-a-un-hombre-sin-vida-en-una",
+   "volanta": "Chivilcoy · Policiales"
   },
   "web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3": {
    "categoria": "",
@@ -8641,14 +8660,14 @@
    "viral": false
   },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/|x": {
-   "actualizado": "2026-11-16T22:40:15.000Z",
+   "actualizado": "2026-11-17T00:40:21.000Z",
    "buffer_id": "",
    "clave": "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/|x",
    "creado": "2026-11-16T22:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-16T22:32:12.000Z",
    "id": "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/",
    "intentos": 0,
@@ -9003,34 +9022,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_09_san-andres-de-giles_muri-jorge-limonta-tras-ser-at.mp4",
    "viral": true
   },
-  "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x": {
-   "actualizado": "2026-11-07T00:40:14.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre|x",
-   "creado": "2026-11-06T22:40:13.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-06T22:31:50.000Z",
-   "id": "policiales:https://semanariodejunin.com.ar/nota/76336/chivilcoy-una-beba-fue-internada-con-signos-de-abuso-y-su-madre-denuncio-al-padre",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-internaron-a-una-beba-con-signos-de-abuso-y-la-madre-356146",
-   "noticia": "nota:chivilcoy-internaron-a-una-beba-con-signos-de-abuso-y-la-madre-356146",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 9,
-   "texto": "Beba internada por abuso y denuncia contra el padre en Chivilcoy\n\nLa madre de la menor la trasladó a un centro de salud tras advertir las lesiones y denunció al padre biológico. La Justicia investiga el hecho.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-internaron-a-una-beba-con-signos-de-abuso-y-la-madre-356146",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Beba internada por abuso y denuncia contra el padre en Chivilcoy",
-   "urgente": true,
-   "vence": "2026-11-07T00:31:50.000Z",
-   "video_bytes": 77251,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_04_junin_beba-internada-por-abuso-y-den.mp4",
-   "viral": true
-  },
   "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x": {
    "actualizado": "2026-11-09T02:20:14.000Z",
    "buffer_id": "",
@@ -9244,6 +9235,34 @@
    "video_bytes": 91843,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_04_bragado_rige-alerta-naranja-por-tormen.mp4",
    "viral": true
+  },
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas|x": {
+   "actualizado": "2026-11-17T00:40:17.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas|x",
+   "creado": "2026-11-17T00:40:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-17T00:32:57.000Z",
+   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-amarilla-por-tormentas-y-pronostican-733174",
+   "noticia": "nota:bragado-rige-una-alerta-amarilla-por-tormentas-y-pronostican-733174",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Bragado bajo alerta amarilla por tormentas y posibles ráfagas intensas\n\nRige un aviso oficial para este lunes y martes. Se prevén precipitaciones de hasta 50 milímetros, actividad eléctrica y granizo en la región.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-amarilla-por-tormentas-y-pronostican-733174",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bragado bajo alerta amarilla por tormentas y posibles ráfagas intensas",
+   "urgente": false,
+   "vence": "2026-11-17T02:32:57.000Z",
+   "video_bytes": 84668,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_10_bragado_bragado-bajo-alerta-amarilla-p.mp4",
+   "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html|x": {
    "actualizado": "2026-11-08T01:40:15.000Z",
@@ -11388,6 +11407,33 @@
    "titulo": "Chivilcoy: Un adolescente quedó en terapia intensiva tras golpearse en Plaza España",
    "urgente": false,
    "vence": "2026-11-11T19:31:09.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:4b894c99-4b3e-4cec-9703-086eaee6d5d4|x": {
+   "actualizado": "2026-11-17T00:40:21.000Z",
+   "buffer_id": "",
+   "clave": "web:4b894c99-4b3e-4cec-9703-086eaee6d5d4|x",
+   "creado": "2026-11-17T00:40:17.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-17T00:38:11.570Z",
+   "id": "web:4b894c99-4b3e-4cec-9703-086eaee6d5d4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-hallaron-a-un-hombre-sin-vida-en-una",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-hallaron-a-un-hombre-sin-vida-en-una",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Hallaron a un hombre sin vida en una vivienda de Emilio Mitre y Saavedra\n\nLa Policía intervino en el lugar y aguardaba a Bomberos para retirar el cuerpo. Según datos preliminares, habría fallecido varios días antes y se investigan las causas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-hallaron-a-un-hombre-sin-vida-en-una",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Hallaron a un hombre sin vida en una vivienda de Emilio Mitre y Saavedra",
+   "urgente": false,
+   "vence": "2026-11-17T04:38:11.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -14835,38 +14881,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:69d9ed72-3877-4424-8f92-4ab6f352a5ed|x",
-   "cuando": "2026-11-10T10:03:39.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:222c5924-1b87-456d-96b4-f20fcdee84f5|x",
-   "cuando": "2026-11-10T10:03:41.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:1d419c9d-f015-4088-8655-0aa75738fd73|x",
-   "cuando": "2026-11-10T10:03:48.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ddb372e9-f75f-433a-ad8d-44035f486a1c|x",
-   "cuando": "2026-11-10T10:03:54.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:d84d3ec0-05cf-43ec-a248-9969295317ed|x",
    "cuando": "2026-11-10T10:03:57.000Z",
@@ -18984,6 +18998,34 @@
    "cuando": "2026-11-17T00:20:24.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7708924702420454664"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas|x",
+   "cuando": "2026-11-17T00:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:4b894c99-4b3e-4cec-9703-086eaee6d5d4|x",
+   "cuando": "2026-11-17T00:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/|x",
+   "cuando": "2026-11-17T00:40:21.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "web:4b894c99-4b3e-4cec-9703-086eaee6d5d4|x",
+   "cuando": "2026-11-17T00:40:21.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -19113,7 +19155,6 @@
   "bot:corresponsal_2026-11-07_matias-zucchi_mw5temp2tz8d": "2026-11-07T09:00:16.000Z",
   "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2": "2026-11-07T23:40:13.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvd2xf8avf1w_01.mp4": "2026-10-18T00:40:14.000Z",
   "bot:video_matias-zucchi_mvd3lbeeyudj_01.mp4": "2026-10-18T01:00:19.000Z",
   "bot:video_matias-zucchi_mvd41gcxcsrn_01.mp4": "2026-10-18T01:00:19.000Z",
   "bot:video_matias-zucchi_mvd4i8z23n08_01.mp4": "2026-10-18T01:20:13.000Z",
@@ -19446,6 +19487,7 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/05/26859-asaltaron-una-agencia-de-quiniela-y-detuvieron-a-una-pareja": "2026-11-05T22:40:14.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/06/26895-aprehendieron-a-un-hombre-que-circulaba-en-una-moto-con-pedido-de-secuestro-en-bragado": "2026-11-06T23:40:13.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region": "2026-11-13T22:40:14.000Z",
+  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas": "2026-11-17T00:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/accidente-en-la-ruta-7-en-chacabuco.html": "2026-10-18T21:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html": "2026-10-27T00:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html": "2026-10-19T23:40:17.000Z",
@@ -19681,6 +19723,7 @@
   "web:4b0f4902-985a-4fed-8824-779dfe151dbb": "2026-11-13T10:02:41.000Z",
   "web:4b476f07-db25-4822-9855-43803cb938df": "2026-11-11T15:40:16.000Z",
   "web:4b5dd180-0a41-4c94-b3d3-8286a3fd1699": "2026-10-20T01:20:14.000Z",
+  "web:4b894c99-4b3e-4cec-9703-086eaee6d5d4": "2026-11-17T00:40:17.000Z",
   "web:4ba9abc3-3d05-4c73-bd94-b513f0050dec": "2026-10-29T10:02:34.000Z",
   "web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3": "2026-11-12T00:20:13.000Z",
   "web:4d5d9406-be42-46a8-b22f-c157c62f6e29": "2026-11-14T12:20:12.000Z",
@@ -19845,7 +19888,6 @@
   "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0": "2026-11-03T10:02:22.000Z",
   "web:938b6ba4-fafa-439f-9eaa-7e8d85ab3288": "2026-11-04T10:20:13.000Z",
   "web:93908f78-67cb-4a45-a902-712d32f96cb3": "2026-11-05T10:02:30.000Z",
-  "web:93aa3a63-06dc-4ee7-83b9-7e8b151257cf": "2026-10-18T00:40:14.000Z",
   "web:9460231f-30bd-422d-89e0-f6db3cfd0675": "2026-10-28T14:40:14.000Z",
   "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880": "2026-11-02T10:03:22.000Z",
   "web:95dcab62-2f94-4aee-9f4f-23edb4c6fa2d": "2026-10-23T10:20:15.000Z",
