@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 1
+    "scheduled": 6,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-17T19:20:15.000Z"
+   "visto": "2026-11-17T21:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 23
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-17T19:20:15.000Z"
+   "visto": "2026-11-17T21:20:16.000Z"
   }
  },
  "contenidos": {
@@ -74,27 +74,6 @@
    "video_mb": 2.7,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_48715283272c98de.mp4",
    "youtube_url": "https://www.youtube.com/shorts/3eJ3pOfVS1E"
-  },
-  "bot:video_matias-zucchi_mw6qhfehknag_01.mp4": {
-   "descripcion": "La museóloga Alicia Rios presentó en la sede de la Sociedad Francesa su libro titulado «Masonería Augusta Logia Luz del Oeste N55 Chivilcoy», una obra desarrollada a partir de su labor e investigación en la práctica museológica.\n\nEl encuentro se llevó a cabo ante una importante convocatoria en el auditorio de la calle Moreno. De manera complementaria, en la planta baja del edificio se exhibió una muestra alusiva compuesta por material fotográfico y documentos históricos vinculados a la temática.\n\nLa investigación desarrollada por Rios sitúa el recorrido de la masonería en la comunidad local desde la instalación de la Logia Luz del Oeste en 1877 hasta aproximadamente 1918.\n\nDurante su intervención ante el público, la autora señaló que su trabajo no busca tomar una postura a favor o en contra de los masones, entendiendo que existieron tanto acciones cuestionables como hechos destacables a lo largo del tiempo. A su vez, hizo referencia a la participación femenina en relación con el libre pensamiento y repasó las transformaciones registradas entre los distintos períodos abordados en la publicación.",
-   "duracion_seg": 62.5,
-   "generado": "2026-11-07T18:31:23.000Z",
-   "id": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Alicia Rios presentó su investigación sobre la masonería en Chivilcoy",
-   "urgente": false,
-   "video_bytes": 5427569,
-   "video_mb": 5.2,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_447226ddcdd1ec9c.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/jh9u0fsl0uU"
   },
   "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4": {
    "descripcion": "Douglas Haig superó por 1 a 0 a Gimnasia de Chivilcoy en la ciudad de Pergamino, en el marco del partido de ida por los cuartos de final.\n\nEl único tanto del encuentro fue convertido por Martín Schlotthauer de cabeza, luego de conectar un centro al área enviado por Pereira.\n\nCon este resultado adverso en condición de visitante, el conjunto chivilcoyano buscará revertir la serie en el choque de vuelta para lograr la clasificación a la siguiente instancia.",
@@ -5512,19 +5491,20 @@
    "viral": false
   },
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok": {
-   "actualizado": "2026-11-17T21:00:20.000Z",
+   "actualizado": "2026-11-17T21:20:16.000Z",
    "buffer_id": "6afcc067953f4c1b18bdbed9",
    "categoria": "",
    "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok",
    "creado": "2026-11-17T18:40:17.000Z",
    "dueAt": "2026-11-17T21:03:44.000Z",
+   "enviado": "2026-11-17T21:04:47.652Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T18:38:09.000Z",
    "id": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7709249159408192786",
    "nota_url": "https://www.diariolacampaña.com.ar/n/coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -5566,45 +5546,6 @@
    "vence": "2026-11-17T20:38:09.000Z",
    "video_bytes": 2825618,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_48715283272c98de.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok": {
-   "actualizado": "2026-11-07T21:20:12.000Z",
-   "buffer_id": "6aef9165562f2e6de97e8290",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4|tiktok",
-   "creado": "2026-11-07T18:40:16.000Z",
-   "dueAt": "2026-11-07T21:03:13.000Z",
-   "enviado": "2026-11-07T21:03:58.351Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-07T18:31:23.000Z",
-   "id": "bot:video_matias-zucchi_mw6qhfehknag_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7705538045658893586",
-   "metricas": {
-    "averageTimeWatched": 5.4,
-    "comments": 1,
-    "engagementRate": 2.39,
-    "reach": 156,
-    "reactions": 7,
-    "shares": 0,
-    "totalTimeWatched": 32.03,
-    "views": 335
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Alicia Rios presentó su investigación sobre la masonería en Chivilcoy\n\nEn la sede de la Sociedad Francesa, la museóloga dio a conocer su libro sobre la Logia Luz del Oeste entre 1877 y 1918, acompañado por una muestra de fotos y documentos históricos. Durante el encuentro, señaló que su trabajo no busca tomar postura a favor o en contra de los masones, sino repasar los distintos períodos y la participación femenina.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-alicia-rios-presento-su-investigacion-sobre-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Alicia Rios presentó su investigación sobre la masonería en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-11-09T18:31:23.000Z",
-   "video_bytes": 5427569,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_447226ddcdd1ec9c.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mw71kzwe3p1w_01.mp4|tiktok": {
@@ -16251,14 +16192,6 @@
  },
  "registro": [
   {
-   "clave": "web:9869ea43-5e12-4498-bdb2-3cb48381f45a|x",
-   "cuando": "2026-11-11T10:03:12.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067|x",
    "cuando": "2026-11-11T10:03:23.000Z",
    "estado": "pendiente",
@@ -20405,6 +20338,12 @@
    "cuando": "2026-11-17T21:00:41.000Z",
    "dueAt": "2026-11-17T23:03:01.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok",
+   "cuando": "2026-11-17T21:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7709249159408192786"
   }
  ],
  "tandas": {
@@ -20442,7 +20381,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-17",
- "ultima_sync": "2026-11-17T19:20:15.000Z",
+ "ultima_sync": "2026-11-17T21:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
