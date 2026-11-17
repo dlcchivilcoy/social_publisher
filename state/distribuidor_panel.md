@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 17/11/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 5 | 7 | 0 | 0 | 1 |
+| Notas web | X | 15 | 1 | 6 | 6 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,7 +27,7 @@ Actualizado: 17/11/2026 07:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (8 esperando)
+## Cola propia (7 esperando)
 - TikTok · Reels del bot · Vecinos reclaman por calles anegadas tras la lluvia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Chivilcoy: Campeón en Primera y Femenino: Histórico doblete de Racing Club en la — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: ¡Oro continental! Marina Arce se consagró Campeona Panamericana de XC — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -35,13 +35,11 @@ Actualizado: 17/11/2026 07:20 (hora AR) · ACTIVO
 - X · Notas web · Chivilcoy: Racing recibe a Lanús en el Grilon Arena con la urgencia de cortar la — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · El taller “Chivilcoy Sin Barreras” representó a la ciudad en el 1° Encuentro “Ju — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Jornada de capacitación sobre Seguridad en Infraestructuras Deportiva — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · 17 de Noviembre: Día de la Militancia — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T02:40 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-17T09:00 recibido bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|x 
 - 2026-11-17T09:00 recibido bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok 
 - 2026-11-17T09:00 recibido web:41ee3e32-bcc0-459d-bd54-85372c380544|x la misma noticia ya sale en X (Reels del bot, pendiente)
@@ -66,3 +64,4 @@ Actualizado: 17/11/2026 07:20 (hora AR) · ACTIVO
 - 2026-11-17T10:04 programado web:5da64ba1-ff4b-482f-b881-4a873f748575|x 
 - 2026-11-17T10:20 enviado web:e7db619d-9df6-4b45-871f-f8453608c66f|x 
 - 2026-11-17T10:20 programado web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x 
+- 2026-11-17T10:40 programado web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x 
