@@ -4740,6 +4740,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-habra-final-chivilcoyana-en-la-copa-de-oro-de-cadetes-colon-y",
    "volanta": "Básquet"
   },
+  "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Coordinan controles municipales y provinciales para la venta de pirotecnia De cara a las próximas fiestas, el Municipio de Chivilcoy intensificó las tareas de control y prevención en conjunto con la Dirección de Explosivos de la Provincia de Buenos Aires y áreas locales de seguridad. El objetivo principal es garantizar el cumplimiento de las normativas vigentes y evitar incidentes vinculados al uso de pirotecnia. La directora de Habilitaciones, Claudia Bogliolo, explicó que se...",
+   "generado": "2026-11-17T12:15:13.333Z",
+   "id": "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2d1a5ec092fb491399280ee5aa4a9ae4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-coordinan-controles-municipales-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Coordinan controles municipales y provinciales para la venta de pirotecnia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-chivilcoy-coordinan-controles-municipales-y",
+   "volanta": "Chivilcoy · Seguridad"
+  },
   "web:d5cbb379-f3fd-4f6e-a96e-4dc3636d39ed": {
    "categoria": "",
    "descripcion": "Vecinos suspendieron la movilización al peaje de Olivera La Comisión de Vecinos contra el Peaje resolvió suspender por el momento la movilización a las cabinas de Olivera, sobre la Ruta Nacional 5. La decisión se tomó el sábado 14 de noviembre en una reunión en la Plaza San Martín de Mercedes, donde el grupo acordó mantener la campaña informativa y convocar a usuarios de localidades vecinas. La comisión señaló que la rebaja tarifaria es provisoria y que, según su interpretación, se mantendría...",
@@ -13486,14 +13505,14 @@
    "viral": false
   },
   "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x": {
-   "actualizado": "2026-11-17T10:03:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T12:20:16.000Z",
+   "buffer_id": "6afc4681223fb0bae76c2266",
    "clave": "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x",
    "creado": "2026-11-17T10:03:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T13:38:03.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T10:02:09.460Z",
    "id": "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9",
    "ig_hora": "2026-11-17T13:38:04.000Z",
@@ -14797,6 +14816,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x": {
+   "actualizado": "2026-11-17T12:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x",
+   "creado": "2026-11-17T12:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-17T12:15:13.333Z",
+   "id": "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-coordinan-controles-municipales-y",
+   "noticia": "nota:chivilcoy-seguridad-chivilcoy-coordinan-controles-municipales-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Coordinan controles municipales y provinciales para la venta de pirotecnia\n\nEl Municipio y la Provincia intensificaron tareas de prevención para las fiestas. El objetivo es cumplir las normativas y evitar incidentes por el uso de pirotecnia.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-chivilcoy-coordinan-controles-municipales-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Coordinan controles municipales y provinciales para la venta de pirotecnia",
+   "urgente": false,
+   "vence": "2026-11-17T16:15:13.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:d5cbb379-f3fd-4f6e-a96e-4dc3636d39ed|x": {
    "actualizado": "2026-11-16T15:40:16.000Z",
    "buffer_id": "",
@@ -15595,18 +15642,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:07f6b77f-a719-48eb-ab59-425617675b7f|x",
-   "cuando": "2026-11-10T14:40:18.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec|x",
-   "cuando": "2026-11-10T14:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120152687136178408"
-  },
   {
    "clave": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x",
    "cuando": "2026-11-10T14:40:18.000Z",
@@ -19753,6 +19788,21 @@
    "cuando": "2026-11-17T12:00:29.000Z",
    "dueAt": "2026-11-17T13:23:45.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x",
+   "cuando": "2026-11-17T12:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6afc4681223fb0bae76c2266",
+   "clave": "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x",
+   "cuando": "2026-11-17T12:20:17.000Z",
+   "dueAt": "2026-11-17T13:38:03.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20683,7 +20733,6 @@
   "web:a872c57c-897c-4bec-8f45-2e83bffd630f": "2026-11-02T18:20:16.000Z",
   "web:a88f249c-9e23-46be-8a40-bb31f049e2b7": "2026-10-23T16:20:15.000Z",
   "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60": "2026-11-03T10:02:22.000Z",
-  "web:aa19ec63-7fdb-421e-a71e-c7aa2c48974e": "2026-10-18T12:20:16.000Z",
   "web:aa54283b-118c-4bae-8790-73ed73c0006c": "2026-11-08T20:40:12.000Z",
   "web:aa775535-c5f2-4a64-95ca-135757291376": "2026-11-10T10:02:42.000Z",
   "web:aac6f864-9661-40bc-8e13-c03b62c05fed": "2026-10-26T10:20:14.000Z",
@@ -20698,7 +20747,6 @@
   "web:b213f18b-774f-4f28-a33d-398709d50fbe": "2026-10-19T09:00:17.000Z",
   "web:b2e7bc59-967c-48e3-baeb-a84fbfd3edb2": "2026-10-25T15:40:13.000Z",
   "web:b333b47e-b16a-4899-bd75-63c2b7086095": "2026-11-03T10:02:22.000Z",
-  "web:b355a924-69fb-44bb-b43c-862727b7b5f2": "2026-10-18T12:20:16.000Z",
   "web:b4a12021-9279-4b86-9d0b-ae839890e171": "2026-10-21T00:00:28.000Z",
   "web:b4a5706f-57d8-4a48-a6c1-6b0b59be7d41": "2026-10-18T23:40:13.000Z",
   "web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd": "2026-10-19T21:00:21.000Z",
@@ -20780,6 +20828,7 @@
   "web:d4089f06-53a3-4eae-adeb-d9043a2f641d": "2026-11-05T10:02:30.000Z",
   "web:d455c1c4-5f25-4847-bf67-277dd0e30dd7": "2026-10-27T10:03:31.000Z",
   "web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed": "2026-11-16T10:03:28.000Z",
+  "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315": "2026-11-17T12:20:14.000Z",
   "web:d4da84b6-4dc9-44f6-b157-449e45b8f5cc": "2026-10-19T01:00:18.000Z",
   "web:d5cbb379-f3fd-4f6e-a96e-4dc3636d39ed": "2026-11-16T15:40:14.000Z",
   "web:d5f53bed-b052-4c25-bed8-d407293e0f55": "2026-10-29T14:20:15.000Z",
