@@ -2154,32 +2154,6 @@
    "volanta": "Operativo policial en Luján",
    "youtube_url": "https://youtube.com/shorts/lNK-FvKc--c"
   },
-  "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/": {
-   "categoria": "otro_policial",
-   "descripcion": "Teo Camilo Posse, de 19 años, está internado en terapia intensiva con traumatismo de cráneo y asistencia respiratoria tras precipitarse cinco metros desde una cubierta en la sede universitaria.",
-   "distancia_km": 0.0,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-07T00:01:46.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/",
-   "localidad": "Luján",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-un-joven-de-19-anos-esta-grave-tras-caer-desde-el-c79126",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "radio_ok": true,
-   "texto_tiktok": "Teo Camilo Posse, de 19 años, permanece internado en el área de terapia intensiva bajo asistencia respiratoria mecánica tras sufrir graves lesiones.\n\nEl episodio ocurrió en las instalaciones de la Universidad Nacional de Luján situadas en Chivilcoy, donde ambos involucrados se precipitaron desde unos cinco metros de altura.\n\nUn complejo operativo que incluyó al personal policial, los bomberos voluntarios y el SAME permitió rescatar a los heridos mediante técnicas de descenso en altura.\n\nEl paciente presenta traumatismo de cráneo con posible fractura y contusión pulmonar, aguardando los resultados de nuevos estudios médicos.\n\n📲 Más noticias de Luján en www.diariolacampaña.com.ar\n\n#Lujan #Chivilcoy #Siniestro #BuenosAires",
-   "tipo": "video",
-   "titulo": "Un joven de 19 años en terapia intensiva tras caer del techo de la UNLu en Chivilcoy",
-   "urgente": false,
-   "video_bytes": 86009,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_09_9-de-julio_un-joven-de-19-a-os-en-terapia.mp4",
-   "volanta": "Luján",
-   "youtube_url": "https://youtube.com/shorts/_k8ed3SxCe4"
-  },
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/": {
    "categoria": "alerta_meteorologica",
    "descripcion": "El Servicio Meteorológico Nacional anunció un aviso por precipitaciones intensas, ráfagas y posible caída de granizo. Se esperan acumulados de hasta 40 milímetros.",
@@ -8969,14 +8943,14 @@
    "viral": true
   },
   "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/|x": {
-   "actualizado": "2026-11-17T00:20:16.000Z",
+   "actualizado": "2026-11-17T02:20:20.000Z",
    "buffer_id": "",
    "clave": "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/|x",
    "creado": "2026-11-17T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-17T00:03:11.000Z",
    "id": "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/",
    "intentos": 0,
@@ -9943,34 +9917,6 @@
    "vence": "2026-11-12T00:31:56.000Z",
    "video_bytes": 89318,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_03_25-de-mayo_desplegaron-35-polic-as-de-25-.mp4",
-   "viral": false
-  },
-  "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/|x": {
-   "actualizado": "2026-11-07T02:20:13.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/|x",
-   "creado": "2026-11-07T00:20:16.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-07T00:01:46.000Z",
-   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-un-joven-de-19-anos-esta-grave-tras-caer-desde-el-c79126",
-   "noticia": "nota:chivilcoy-un-joven-de-19-anos-esta-grave-tras-caer-desde-el-c79126",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Un joven de 19 años en terapia intensiva tras caer del techo de la UNLu en Chivilcoy\n\nTeo Camilo Posse está internado con traumatismo de cráneo y asistencia respiratoria. El hecho ocurrió tras precipitarse cinco metros desde una cubierta en la sede.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-un-joven-de-19-anos-esta-grave-tras-caer-desde-el-c79126",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Un joven de 19 años en terapia intensiva tras caer del techo de la UNLu en Chivilcoy",
-   "urgente": false,
-   "vence": "2026-11-07T02:01:46.000Z",
-   "video_bytes": 86009,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-06_2134_09_9-de-julio_un-joven-de-19-a-os-en-terapia.mp4",
    "viral": false
   },
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/|x": {
@@ -14828,14 +14774,6 @@
  },
  "registro": [
   {
-   "clave": "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8|x",
-   "cuando": "2026-11-10T10:04:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "buffer_id": "6af2ec2189e9c23c9bd7ce9e",
    "clave": "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8|x",
    "cuando": "2026-11-10T10:04:19.000Z",
@@ -18966,6 +18904,12 @@
   {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un|x",
    "cuando": "2026-11-17T01:40:15.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/|x",
+   "cuando": "2026-11-17T02:20:20.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
