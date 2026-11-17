@@ -43088,5 +43088,68 @@
     },
     "tema_4x5": "blanco",
     "formato": "reel"
+  },
+  {
+    "file": "corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w",
+    "uploader": "",
+    "fecha_recibido": "2026-11-17T15:00:02",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Chivilcoy · Servicios",
+    "titulo": "Baja presión de agua por una falla eléctrica en ABSA",
+    "resumen": "El desperfecto afecta al sistema central que abastece a la ciudad. Personal de ABSA y EDEN trabaja para reparar la instalación y recuperar el servicio. Una falla eléctrica en la planta principal de ABSA provoca una baja generalizada en la presión del agua en Chivilcoy este martes",
+    "texto": "El desperfecto afecta al sistema central que abastece a la ciudad. Personal de ABSA y EDEN trabaja para reparar la instalación y recuperar el servicio.\n\nUna falla eléctrica en la planta principal de ABSA provoca una baja generalizada en la presión del agua en Chivilcoy este martes 17 de noviembre.\n\nSegún la información difundida por la prestataria, los inconvenientes comenzaron durante el temporal de la noche del lunes, con fallas intermitentes que se agravaron durante la mañana. El desperfecto redujo el funcionamiento del bombeo central y afectó el caudal que llega a la red domiciliaria.\n\nOperarios de ABSA y una cuadrilla de EDEN trabajan en la reparación. Una vez resuelto el problema eléctrico, la presión se recuperará de manera progresiva, a medida que se recargue el sistema. La previsión informada apunta a normalizar el suministro durante la tarde, aunque dependerá del avance de las tareas.\n\nMientras continúe la contingencia, ABSA solicita cuidar el agua disponible en los tanques domiciliarios y priorizar los usos esenciales. También pide postergar el lavado de veredas y vehículos, así como el riego.",
+    "bajada_reel": "Operarios de la empresa y EDEN trabajan para reparar el bombeo central tras el temporal.",
+    "escrito": "Baja presión de agua en Chivilcoy por una falla eléctrica en el bombeo de ABSA\nEl desperfecto afecta al sistema central que abastece a la ciudad. Personal de ABSA y EDEN trabaja para reparar la instalación y recuperar el servicio.\nUna falla eléctrica en la planta principal de ABSA provoca una baja generalizada en la presión del agua en Chivilcoy este martes 17 de noviembre.\nSegún la información difundida por la prestataria, los inconvenientes comenzaron durante el temporal de la noche del lunes, con fallas intermitentes que se agravaron durante la mañana. El desperfecto redujo el funcionamiento del bombeo central y afectó el caudal que llega a la red domiciliaria.\nOperarios de ABSA y una cuadrilla de EDEN trabajan en la reparación. Una vez resuelto el problema eléctrico, la presión se recuperará de manera progresiva, a medida que se recargue el sistema. La previsión informada apunta a normalizar el suministro durante la tarde, aunque dependerá del avance de las tareas.\nMientras continúe la contingencia, ABSA solicita cuidar el agua disponible en los tanques domiciliarios y priorizar los usos esenciales. También pide postergar el lavado de veredas y vehículos, así como el riego.",
+    "tarjetas_fotos": [],
+    "draft_id": "eb8e0b3b-587b-40aa-8877-dbd82b928a97",
+    "reel_url": "",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-17T17:56:41.655Z — wa:5492346417636",
+    "decl": null,
+    "formato": "carrusel",
+    "tema_carrusel": "claro",
+    "laminas": [
+      {
+        "titulo": "Falla en ABSA reduce la presión de agua",
+        "texto": "Un desperfecto eléctrico en la planta principal de ABSA provoca una baja generalizada de presión en Chivilcoy este martes 17 de noviembre, tras reducir el funcionamiento del bombeo central que abastece a toda la ciudad."
+      },
+      {
+        "titulo": "El temporal del lunes causó el problema",
+        "texto": "Los inconvenientes iniciaron durante el temporal del lunes por la noche con fallas intermitentes que empeoraron por la mañana. Operarios de ABSA y personal de EDEN trabajan juntos en el lugar para reparar la instalación eléctrica afectada."
+      },
+      {
+        "titulo": "El impacto en la red de los vecinos",
+        "texto": "La avería redujo el bombeo central y perjudicó directamente el caudal que ingresa a la red domiciliaria local. Una vez reparado el tendido, la presión retornará de manera paulatina a medida que se recargue todo el sistema."
+      },
+      {
+        "titulo": "Se normalizaría durante la tarde",
+        "texto": "La previsión oficial apunta a normalizar el suministro durante la tarde, aunque el restablecimiento definitivo dependerá de la marcha de los trabajos de las cuadrillas en la planta."
+      },
+      {
+        "titulo": "Piden cuidar el agua de los tanques",
+        "texto": "ABSA solicitó cuidar las reservas de los tanques domiciliarios y priorizar usos esenciales. Además, pidió postergar totalmente el riego y el lavado de veredas y vehículos mientras continúe la contingencia en la ciudad."
+      }
+    ],
+    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_65a3b3d0acd84524b632240f1ef09ed7~mv2.jpg",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-11-17T15:01:58",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla",
+    "ig_media_id": "18143481049622795",
+    "fb_video_id": "",
+    "ig_historia_id": "",
+    "fb_historia_id": "",
+    "fb_post_id": "1456376377985890_2095727208035571"
   }
 ]
