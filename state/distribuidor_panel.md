@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 2 | 0 | 0 | 0 | 1 |
+| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 1 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 1 | 0 |
+| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 22 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -40,9 +40,6 @@ Actualizado: 17/11/2026 16:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T16:40 recibido entrevistas:job00320|tiktok 
-- 2026-11-17T16:40 programado entrevistas:job00320|x 
-- 2026-11-17T17:00 enviado entrevistas:job00320|x 
 - 2026-11-17T17:40 entrevista_aprobada entrevistas:job00321 
 - 2026-11-17T17:40 recibido entrevistas:job00321|x 
 - 2026-11-17T17:40 recibido entrevistas:job00321|tiktok 
@@ -65,3 +62,6 @@ Actualizado: 17/11/2026 16:00 (hora AR) · ACTIVO
 - 2026-11-17T18:40 recibido bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
 - 2026-11-17T18:40 recibido web:5abbdc69-8f44-400c-8e8e-315798eae48e|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-17T18:40 programado bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
+- 2026-11-17T19:20 enviado bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
+- 2026-11-17T19:20 enviado entrevistas:job00322|x 
+- 2026-11-17T19:20 enviado entrevistas:job00323|x 
