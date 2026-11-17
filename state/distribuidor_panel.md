@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 12:00 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 12:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,13 @@ Actualizado: 17/11/2026 12:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Reels del bot · El Municipio destacó el rápido escurrimiento del agua tras el temporal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T11:40 programado web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x 
-- 2026-11-17T11:40 programado web:14c161cd-c8d1-48e8-8946-281aee6be5d2|x 
-- 2026-11-17T12:00 programado web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab|x 
-- 2026-11-17T12:20 recibido web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x 
 - 2026-11-17T12:20 programado web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x 
 - 2026-11-17T12:40 programado web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x 
 - 2026-11-17T13:00 depurado web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x no está en el carrusel del diario de hoy (sacado de Buffer)
@@ -58,3 +55,7 @@ Actualizado: 17/11/2026 12:00 (hora AR) · ACTIVO
 - 2026-11-17T14:20 enviado web:53643e41-5b43-415e-b955-0740b1d0ee5b|x 
 - 2026-11-17T14:20 enviado web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x 
 - 2026-11-17T14:20 enviado web:d0efc114-d938-4147-8730-19457aaf57f4|x 
+- 2026-11-17T15:20 recibido bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x 
+- 2026-11-17T15:20 recibido bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok 
+- 2026-11-17T15:20 recibido web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-17T15:20 programado bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x 

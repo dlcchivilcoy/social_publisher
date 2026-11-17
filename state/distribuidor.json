@@ -390,6 +390,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cf3f80f43f0a2591.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Y97P8lc-hi4"
   },
+  "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4": {
+   "descripcion": "El Municipio destacó el rápido escurrimiento del agua tras el fuerte temporal que afectó a la región, donde se registraron más de 100 milímetros de lluvia en total y una intensa caída de 50 milímetros en apenas media hora.\n\nEl secretario de Obras Públicas, Eduardo Alonso, brindó un balance positivo sobre la respuesta hidráulica de la ciudad. El funcionario remarcó que la mayoría de los sectores quedaron transitables en pocas horas gracias a los trabajos continuos de mantenimiento en canales, cunetas y bocas de tormenta que realizan las cuadrillas de Pavimento y Vial.\n\nAlonso detalló que se ejecutaron limpiezas en los canales de las calles 520, 108, Hija de San José y en el conducto hacia Las Tres Niñas. Además, indicó que se interviene en Las Tres Bocas y se proyectan mejoras en el barrio Adas. Respecto a anegamientos puntuales, explicó que responden a conductos antiguos de escaso diámetro o a viviendas situadas bajo el nivel de calzada.\n\nDe cara a los pronósticos de nuevas tormentas vinculadas al fenómeno de El Niño, el secretario solicitó la colaboración de los vecinos para evitar arrojar basura, pasto cortado o escombros en la vía pública, materiales que suelen obstruir los desagües pluviales.",
+   "duracion_seg": 20.8,
+   "generado": "2026-11-17T15:07:13.000Z",
+   "id": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "El Municipio destacó el rápido escurrimiento del agua tras el temporal",
+   "urgente": false,
+   "video_bytes": 2511993,
+   "video_mb": 2.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d66471733a81d89.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/CYZqCuNmAA8"
+  },
   "entrevistas:job00289": {
    "descripcion": "El cura párroco Ricardo Rodriguez destacó la participación de vecinos de Chivilcoy en la misa papal. Un diácono y una joven de la comunidad tendrán roles protagónicos durante la celebración.",
    "duracion_seg": null,
@@ -3543,6 +3564,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquetbol-torneo-prefederal-bonaerense-colon-busca-el-tercer-puesto",
    "volanta": "Básquetbol"
   },
+  "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El Municipio destacó el rápido escurrimiento del agua tras el temporal CHIVILCOY.– Tras la intensa tormenta, el Municipio destacó el rápido escurrimiento del agua gracias al mantenimiento continuo. El secretario de Obras Públicas, Eduardo Alonso, brindó un balance sobre el impacto de los más de 50 milímetros caídos en apenas media hora, superando los 100 mm en total. Subrayó que la limpieza permanente de canales, cunetas y bocas de tormenta permitió normalizar la situación en pocas...",
+   "generado": "2026-11-17T15:05:51.152Z",
+   "id": "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5a48f576aa464bbea409c0406b11e5ec~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio destacó el rápido escurrimiento del agua tras el temporal",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
+   "volanta": "Chivilcoy · Servicios públicos"
+  },
   "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf": {
    "categoria": "",
    "descripcion": "Moscoloni tras la victoria de Once Tigres: «Bien importante ganar» En el marco de la duodécima fecha del Torneo Clausura de Primera División de la Liga Chivilcoyana de Fútbol, Once Tigres venció 2 a 1 a Huracán en el estadio «Jorge Ramón Leva». El conjunto local abrió el marcador mediante Enzo Stronatti, mientras que Matías Spano anotó la igualdad transitoria para el visitante. Finalmente, un remate de Valentín Acuña selló el triunfo definitivo para Once Tigres, que sumó su tercera victoria...",
@@ -6553,6 +6593,62 @@
    "vence": "2026-11-17T04:55:28.000Z",
    "video_bytes": 12003132,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cf3f80f43f0a2591.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok": {
+   "actualizado": "2026-11-17T15:20:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok",
+   "creado": "2026-11-17T15:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-17T15:07:13.000Z",
+   "id": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "El Municipio destacó el rápido escurrimiento del agua tras el temporal\n\nEl secretario de Obras Públicas, Eduardo Alonso, brindó un balance positivo sobre la respuesta hidráulica de la ciudad tras el temporal que dejó más de 100 milímetros de lluvia. Remarcó que la mayoría de los sectores quedaron transitables en pocas horas gracias a los trabajos continuos de mantenimiento en canales, cunetas y bocas de tormenta.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Municipio destacó el rápido escurrimiento del agua tras el temporal",
+   "urgente": false,
+   "vence": "2026-11-19T15:07:13.000Z",
+   "video_bytes": 2511993,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d66471733a81d89.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x": {
+   "actualizado": "2026-11-17T15:20:20.000Z",
+   "buffer_id": "6afc70b45bbbda0a8916f3a2",
+   "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x",
+   "creado": "2026-11-17T15:20:16.000Z",
+   "dueAt": "2026-11-17T15:22:16.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-17T15:07:13.000Z",
+   "id": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
+   "noticia": "nota:chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "El Municipio destacó el rápido escurrimiento del agua tras el temporal\n\nEl secretario de Obras Públicas, Eduardo Alonso, dio un balance positivo sobre la respuesta hidráulica. Afirmó que la mayoría de las zonas quedaron transitables en pocas horas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "El Municipio destacó el rápido escurrimiento del agua tras el temporal",
+   "urgente": false,
+   "vence": "2026-11-17T17:07:13.000Z",
+   "video_bytes": 2511993,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d66471733a81d89.mp4",
    "viral": false
   },
   "entrevistas:job00289|tiktok": {
@@ -12788,6 +12884,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6|x": {
+   "actualizado": "2026-11-17T15:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6|x",
+   "creado": "2026-11-17T15:20:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-17T15:05:51.152Z",
+   "id": "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
+   "noticia": "nota:chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio destacó el rápido escurrimiento del agua tras el temporal",
+   "urgente": false,
+   "vence": "2026-11-17T19:05:51.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf|x": {
    "actualizado": "2026-11-07T23:40:13.000Z",
    "buffer_id": "",
@@ -15793,34 +15914,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00297|x",
-   "cuando": "2026-11-10T18:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00297|tiktok",
-   "cuando": "2026-11-10T18:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6af3651142d1993c828c844c",
-   "clave": "entrevistas:job00297|x",
-   "cuando": "2026-11-10T18:40:17.000Z",
-   "dueAt": "2026-11-10T18:42:18.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00298",
-   "cuando": "2026-11-10T19:20:17.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00298|x",
    "cuando": "2026-11-10T19:20:23.000Z",
@@ -19950,6 +20043,37 @@
    "cuando": "2026-11-17T14:20:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2122689590658011500"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x",
+   "cuando": "2026-11-17T15:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok",
+   "cuando": "2026-11-17T15:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6|x",
+   "cuando": "2026-11-17T15:20:20.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6afc70b45bbbda0a8916f3a2",
+   "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x",
+   "cuando": "2026-11-17T15:20:21.000Z",
+   "dueAt": "2026-11-17T15:22:16.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20078,7 +20202,6 @@
   "bot:corresponsal_2026-11-07_matias-zucchi_mw5temp2tz8d": "2026-11-07T09:00:16.000Z",
   "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2": "2026-11-07T23:40:13.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvdyajufb6p0_01.mp4": "2026-10-18T15:20:15.000Z",
   "bot:video_matias-zucchi_mve43kv7d0je_01.mp4": "2026-10-18T18:00:17.000Z",
   "bot:video_matias-zucchi_mvecu2frqyxs_01.mp4": "2026-10-18T22:00:19.000Z",
   "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4": "2026-10-19T01:00:18.000Z",
@@ -20156,6 +20279,7 @@
   "bot:video_matias-zucchi_mwjo5rifucll_01.mp4": "2026-11-16T20:00:18.000Z",
   "bot:video_matias-zucchi_mwjsvheuls91_01.mp4": "2026-11-16T22:20:13.000Z",
   "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4": "2026-11-17T09:00:20.000Z",
+  "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4": "2026-11-17T15:20:16.000Z",
   "entrevistas:job00224": "2026-10-19T16:20:14.000Z",
   "entrevistas:job00225": "2026-10-19T17:00:21.000Z",
   "entrevistas:job00226": "2026-10-19T17:20:14.000Z",
@@ -20564,7 +20688,6 @@
   "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab": "2026-11-17T10:03:18.000Z",
   "web:2928280c-1fd2-41ce-90cb-0ebd97b929b3": "2026-10-19T10:20:14.000Z",
   "web:292c8e3c-5713-4e83-b415-a536e66b9e64": "2026-11-06T14:00:21.000Z",
-  "web:2991bf21-e852-48ba-87ce-5d073c3a7487": "2026-10-18T15:20:15.000Z",
   "web:29bafb6c-db7b-4454-ba46-6708c7e90b80": "2026-10-23T10:02:47.000Z",
   "web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b": "2026-11-12T10:02:44.000Z",
   "web:2bb54dc0-2bdb-4da6-8f63-5045a1e9e082": "2026-10-19T02:20:15.000Z",
@@ -20602,7 +20725,6 @@
   "web:37a8cc6e-d0f6-44df-bd80-5ee911112801": "2026-10-30T00:00:18.000Z",
   "web:38185935-c480-4780-9b62-2a630fd62c5f": "2026-11-12T10:02:44.000Z",
   "web:38bcb99b-9ce7-4e80-8b33-9fcf93377d72": "2026-10-23T13:40:14.000Z",
-  "web:392e7a62-f2d6-40e2-9e2d-13ed48cab31b": "2026-10-18T15:20:15.000Z",
   "web:3965ee13-9730-4798-8e40-1c97199ed3e6": "2026-11-06T10:02:35.000Z",
   "web:3a1e20a8-80b6-4752-89ed-6c5d60a28320": "2026-11-13T10:02:41.000Z",
   "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade": "2026-10-20T21:20:16.000Z",
@@ -20681,7 +20803,6 @@
   "web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3": "2026-11-10T10:02:42.000Z",
   "web:5da64ba1-ff4b-482f-b881-4a873f748575": "2026-11-17T10:03:18.000Z",
   "web:5de0a567-504a-4513-8e76-0f10b16b1c52": "2026-11-09T10:20:14.000Z",
-  "web:5e1b7468-652a-43da-baf9-771cda1103ff": "2026-10-18T15:20:15.000Z",
   "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa": "2026-11-17T10:03:18.000Z",
   "web:60168ccc-c626-4cdc-b170-c86efab84f3d": "2026-11-16T09:00:18.000Z",
   "web:603008ee-aaa2-4035-94d1-a082d4cfaa32": "2026-10-22T10:02:31.000Z",
@@ -20706,6 +20827,7 @@
   "web:6a8eefef-fd3c-42f1-b4bd-47d0ccf635f7": "2026-10-18T15:40:18.000Z",
   "web:6a9444f2-fbfd-4d61-8355-b7a4366c1a52": "2026-11-09T10:20:14.000Z",
   "web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa": "2026-11-13T10:02:41.000Z",
+  "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6": "2026-11-17T15:20:16.000Z",
   "web:6ac9ef64-16ac-4e57-b44c-20d6ca5ca74d": "2026-10-22T10:02:31.000Z",
   "web:6adb3465-c4e1-4c1f-a175-109ba016efbd": "2026-10-30T10:01:54.000Z",
   "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed": "2026-11-05T16:20:20.000Z",
