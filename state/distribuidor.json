@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 0
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-17T13:00:20.000Z"
+   "visto": "2026-11-17T14:20:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 2,
-    "sent": 18
+    "scheduled": 0,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-17T13:00:20.000Z"
+   "visto": "2026-11-17T14:20:13.000Z"
   }
  },
  "contenidos": {
@@ -6500,19 +6500,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok": {
-   "actualizado": "2026-11-17T13:00:21.000Z",
+   "actualizado": "2026-11-17T14:20:13.000Z",
    "buffer_id": "6afc4fe6b7c36a6dabfe288b",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok",
    "creado": "2026-11-17T09:00:20.000Z",
    "dueAt": "2026-11-17T13:03:03.000Z",
+   "enviado": "2026-11-17T13:08:47.070Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T02:55:28.000Z",
    "id": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7709125751970204934",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -10835,19 +10836,20 @@
    "viral": false
   },
   "web:14c161cd-c8d1-48e8-8946-281aee6be5d2|x": {
-   "actualizado": "2026-11-17T11:40:17.000Z",
+   "actualizado": "2026-11-17T14:20:13.000Z",
    "buffer_id": "6afc3d216d6484cf6f16fd68",
    "clave": "web:14c161cd-c8d1-48e8-8946-281aee6be5d2|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T13:08:44.000Z",
+   "enviado": "2026-11-17T13:08:46.397Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:02:01.627Z",
    "id": "web:14c161cd-c8d1-48e8-8946-281aee6be5d2",
    "ig_hora": "2026-11-17T13:08:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122678330629435482",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-torneo-clausura-de-primera-colon-gano-y-ratifico-el-1-en-la",
    "noticia": "nota:basquet-torneo-clausura-de-primera-colon-gano-y-ratifico-el-1-en-la",
    "origen": "web",
@@ -11212,19 +11214,20 @@
    "viral": false
   },
   "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab|x": {
-   "actualizado": "2026-11-17T12:00:19.000Z",
+   "actualizado": "2026-11-17T14:20:13.000Z",
    "buffer_id": "6afc41d9d4d832ae4bc774f6",
    "clave": "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T13:23:45.000Z",
+   "enviado": "2026-11-17T13:23:46.234Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:02:05.501Z",
    "id": "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab",
    "ig_hora": "2026-11-17T13:23:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122682104693530637",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-de-montana-chivilcoy-oro-continental-marina-arce-se-consagro",
    "noticia": "nota:ciclismo-de-montana-chivilcoy-oro-continental-marina-arce-se-consagro",
    "origen": "web",
@@ -11835,14 +11838,14 @@
    "viral": false
   },
   "web:455e03e1-e3b5-4a62-94b9-89e1d7016505|x": {
-   "actualizado": "2026-11-17T13:40:31.000Z",
+   "actualizado": "2026-11-17T14:20:13.000Z",
    "buffer_id": "6afc5950ddb326928b5d4d0d",
    "clave": "web:455e03e1-e3b5-4a62-94b9-89e1d7016505|x",
    "creado": "2026-11-17T13:40:13.000Z",
    "dueAt": "2026-11-17T14:23:48.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-17T13:32:02.727Z",
    "id": "web:455e03e1-e3b5-4a62-94b9-89e1d7016505",
    "intentos": 0,
@@ -12108,18 +12111,19 @@
    "viral": false
   },
   "web:53643e41-5b43-415e-b955-0740b1d0ee5b|x": {
-   "actualizado": "2026-11-17T13:40:31.000Z",
+   "actualizado": "2026-11-17T14:20:13.000Z",
    "buffer_id": "6afc595036ec401176a8bf1d",
    "clave": "web:53643e41-5b43-415e-b955-0740b1d0ee5b|x",
    "creado": "2026-11-17T13:40:13.000Z",
    "dueAt": "2026-11-17T14:08:10.000Z",
+   "enviado": "2026-11-17T14:08:16.507Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T13:26:42.278Z",
    "id": "web:53643e41-5b43-415e-b955-0740b1d0ee5b",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122693304307351651",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-deportes-valentino-iberro-logro-dos-segundos-puestos-en-el",
    "noticia": "nota:chacabuco-deportes-valentino-iberro-logro-dos-segundos-puestos-en-el",
    "origen": "web",
@@ -13621,19 +13625,20 @@
    "viral": false
   },
   "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x": {
-   "actualizado": "2026-11-17T12:20:16.000Z",
+   "actualizado": "2026-11-17T14:20:13.000Z",
    "buffer_id": "6afc4681223fb0bae76c2266",
    "clave": "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T13:38:03.000Z",
+   "enviado": "2026-11-17T13:38:16.510Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:02:09.460Z",
    "id": "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9",
    "ig_hora": "2026-11-17T13:38:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122685753851257293",
    "nota_url": "https://www.diariolacampaña.com.ar/n/rugby-chivilcoy-campeon-en-primera-y-femenino-historico-doblete-de",
    "noticia": "nota:rugby-chivilcoy-campeon-en-primera-y-femenino-historico-doblete-de",
    "origen": "web",
@@ -14804,18 +14809,19 @@
    "viral": false
   },
   "web:d0efc114-d938-4147-8730-19457aaf57f4|x": {
-   "actualizado": "2026-11-17T13:20:29.000Z",
+   "actualizado": "2026-11-17T14:20:13.000Z",
    "buffer_id": "6afc549ecb397a6ba1ee2b02",
    "clave": "web:d0efc114-d938-4147-8730-19457aaf57f4|x",
    "creado": "2026-11-17T13:20:27.000Z",
    "dueAt": "2026-11-17T13:53:30.000Z",
+   "enviado": "2026-11-17T13:53:30.994Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T13:18:18.539Z",
    "id": "web:d0efc114-d938-4147-8730-19457aaf57f4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122689590658011500",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-denunciaron-el-robo-de-dinero-y-ropa",
    "noticia": "nota:chivilcoy-policiales-chivilcoy-denunciaron-el-robo-de-dinero-y-ropa",
    "origen": "web",
@@ -15787,52 +15793,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6af357080649793ed2fb735c",
-   "clave": "entrevistas:job00295|x",
-   "cuando": "2026-11-10T17:40:24.000Z",
-   "dueAt": "2026-11-10T17:42:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00296",
-   "cuando": "2026-11-10T18:20:17.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00296|x",
-   "cuando": "2026-11-10T18:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00296|tiktok",
-   "cuando": "2026-11-10T18:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00295|x",
-   "cuando": "2026-11-10T18:20:26.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120210673892278754"
-  },
-  {
-   "buffer_id": "6af3606b0649793ed2ff5ebb",
-   "clave": "entrevistas:job00296|x",
-   "cuando": "2026-11-10T18:20:27.000Z",
-   "dueAt": "2026-11-10T18:22:57.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00297",
-   "cuando": "2026-11-10T18:40:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00297|x",
    "cuando": "2026-11-10T18:40:16.000Z",
@@ -19948,6 +19908,48 @@
    "cuando": "2026-11-17T13:40:32.000Z",
    "dueAt": "2026-11-17T14:23:48.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:455e03e1-e3b5-4a62-94b9-89e1d7016505|x",
+   "cuando": "2026-11-17T14:20:13.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok",
+   "cuando": "2026-11-17T14:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7709125751970204934"
+  },
+  {
+   "clave": "web:14c161cd-c8d1-48e8-8946-281aee6be5d2|x",
+   "cuando": "2026-11-17T14:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122678330629435482"
+  },
+  {
+   "clave": "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab|x",
+   "cuando": "2026-11-17T14:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122682104693530637"
+  },
+  {
+   "clave": "web:53643e41-5b43-415e-b955-0740b1d0ee5b|x",
+   "cuando": "2026-11-17T14:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122693304307351651"
+  },
+  {
+   "clave": "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x",
+   "cuando": "2026-11-17T14:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122685753851257293"
+  },
+  {
+   "clave": "web:d0efc114-d938-4147-8730-19457aaf57f4|x",
+   "cuando": "2026-11-17T14:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122689590658011500"
   }
  ],
  "tandas": {
@@ -19985,7 +19987,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-17",
- "ultima_sync": "2026-11-17T13:00:20.000Z",
+ "ultima_sync": "2026-11-17T14:20:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
