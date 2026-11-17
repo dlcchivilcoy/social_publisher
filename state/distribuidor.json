@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-17T10:20:16.000Z"
+   "visto": "2026-11-17T11:40:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 20
+    "scheduled": 2,
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-17T10:20:16.000Z"
+   "visto": "2026-11-17T11:40:17.000Z"
   }
  },
  "contenidos": {
@@ -5216,11 +5216,11 @@
  },
  "cuota_visto": "2026-11-02T17:20:19.000Z",
  "metricas_buffer": {
-  "con_metricas": 38,
+  "con_metricas": 36,
   "disponible": true,
-  "enviados": 38,
+  "enviados": 36,
   "motivo": "",
-  "visto": "2026-11-16T11:20:24.000Z"
+  "visto": "2026-11-17T11:40:17.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -6135,14 +6135,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7708383545772805397",
    "metricas": {
-    "averageTimeWatched": 3.6,
+    "averageTimeWatched": 3.51,
     "comments": 0,
     "engagementRate": 0,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 9.9,
-    "views": 199
+    "totalTimeWatched": 12.1,
+    "views": 238
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
    "origen": "bot",
@@ -6175,8 +6175,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 1.85,
-    "impressions": 54,
+    "engagementRate": 1.79,
+    "impressions": 56,
     "reactions": 1,
     "reposts": 0
    },
@@ -6211,14 +6211,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7708506817919274248",
    "metricas": {
-    "averageTimeWatched": 7.34,
+    "averageTimeWatched": 7.08,
     "comments": 0,
-    "engagementRate": 1.71,
+    "engagementRate": 1.6,
     "reach": 0,
     "reactions": 4,
-    "shares": 3,
-    "totalTimeWatched": 52.38,
-    "views": 410
+    "shares": 4,
+    "totalTimeWatched": 61.72,
+    "views": 500
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
    "origen": "bot",
@@ -6252,7 +6252,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 114,
+    "impressions": 119,
     "reactions": 0,
     "reposts": 0
    },
@@ -6286,6 +6286,16 @@
    "id": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7708877881300045062",
+   "metricas": {
+    "averageTimeWatched": 10.85,
+    "comments": 1,
+    "engagementRate": 2.55,
+    "reach": 0,
+    "reactions": 12,
+    "shares": 0,
+    "totalTimeWatched": 98.77,
+    "views": 510
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6314,6 +6324,14 @@
    "id": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122420568163074315",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 118,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
    "noticia": "nota:chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
    "origen": "bot",
@@ -6344,6 +6362,16 @@
    "id": "bot:video_matias-zucchi_mwjsvheuls91_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7708924702420454664",
+   "metricas": {
+    "averageTimeWatched": 3.62,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 3.37,
+    "views": 53
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-finalizo-la-novena-edicion-del-festival",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6372,6 +6400,14 @@
    "id": "bot:video_matias-zucchi_mwjsvheuls91_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122455497345294419",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 66,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-finalizo-la-novena-edicion-del-festival",
    "noticia": "nota:chivilcoy-cultura-chivilcoy-finalizo-la-novena-edicion-del-festival",
    "origen": "bot",
@@ -8661,6 +8697,16 @@
    "id": "entrevistas:job00316",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7708898562087898389",
+   "metricas": {
+    "averageTimeWatched": 3.93,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 6.87,
+    "views": 95
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8689,6 +8735,14 @@
    "id": "entrevistas:job00316",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122369861867217098",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 43,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:advierte-dellepiane-freno-luciano-obra-publica",
    "origen": "entrevistas",
@@ -8719,6 +8773,16 @@
    "id": "entrevistas:job00317",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7708893341324234005",
+   "metricas": {
+    "averageTimeWatched": 3.28,
+    "comments": 0,
+    "engagementRate": 2,
+    "reach": 0,
+    "reactions": 2,
+    "shares": 0,
+    "totalTimeWatched": 5.95,
+    "views": 100
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8747,6 +8811,14 @@
    "id": "entrevistas:job00317",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122379767169089931",
+   "metricas": {
+    "clicks": 0,
+    "comments": 1,
+    "engagementRate": 3.28,
+    "impressions": 61,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:alta-carmen-giuliano-leer-maria-valor",
    "origen": "entrevistas",
@@ -8777,6 +8849,16 @@
    "id": "entrevistas:job00318",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7708888209572269313",
+   "metricas": {
+    "averageTimeWatched": 3.04,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 4.95,
+    "views": 94
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8805,6 +8887,14 @@
    "id": "entrevistas:job00318",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122391184337215622",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 43,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:animales-guillermo-inundaciones-llegada-lopez-silvestres",
    "origen": "entrevistas",
@@ -8835,6 +8925,16 @@
    "id": "entrevistas:job00319",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7708883111731268916",
+   "metricas": {
+    "averageTimeWatched": 5.67,
+    "comments": 0,
+    "engagementRate": 2.68,
+    "reach": 0,
+    "reactions": 3,
+    "shares": 0,
+    "totalTimeWatched": 11.43,
+    "views": 112
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8863,6 +8963,14 @@
    "id": "entrevistas:job00319",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122399974205817320",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 70,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:balance-chivilcoy-gimnasia-marcos-salvaggio",
    "origen": "entrevistas",
@@ -9873,7 +9981,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 69,
+    "impressions": 78,
     "reactions": 0,
     "reposts": 0
    },
@@ -9934,6 +10042,14 @@
    "id": "policiales:https://www.diariodemocracia.com/policiales/348139-ruta-65-interceptaron-a-un-hombre-de-45-anos-que-r",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122456816005099989",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 78,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-65-detuvieron-a-un-hombre-de-45-anos-con-pedido-de-captura-90bffb",
    "noticia": "nota:ruta-65-detuvieron-a-un-hombre-de-45-anos-con-pedido-de-captura-90bffb",
    "origen": "policiales",
@@ -10492,7 +10608,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },
@@ -10605,19 +10721,28 @@
    "viral": false
   },
   "web:13973a3b-2171-416a-a98c-8226b8fae8f7|x": {
-   "actualizado": "2026-11-17T10:04:35.000Z",
+   "actualizado": "2026-11-17T11:40:17.000Z",
    "buffer_id": "6afc26b52c90bee7eb1642cd",
    "clave": "web:13973a3b-2171-416a-a98c-8226b8fae8f7|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T11:08:08.000Z",
+   "enviado": "2026-11-17T11:08:16.054Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:01:15.051Z",
    "id": "web:13973a3b-2171-416a-a98c-8226b8fae8f7",
    "ig_hora": "2026-11-17T11:08:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122648004565807121",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/literatura-y-gestion-cultural-chivilcoy-samantha-san-rome-presenta-la",
    "noticia": "nota:literatura-y-gestion-cultural-chivilcoy-samantha-san-rome-presenta-la",
    "origen": "web",
@@ -10634,14 +10759,14 @@
    "viral": false
   },
   "web:14c161cd-c8d1-48e8-8946-281aee6be5d2|x": {
-   "actualizado": "2026-11-17T10:03:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T11:40:17.000Z",
+   "buffer_id": "6afc3d216d6484cf6f16fd68",
    "clave": "web:14c161cd-c8d1-48e8-8946-281aee6be5d2|x",
    "creado": "2026-11-17T10:03:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T13:08:44.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T10:02:01.627Z",
    "id": "web:14c161cd-c8d1-48e8-8946-281aee6be5d2",
    "ig_hora": "2026-11-17T13:08:04.000Z",
@@ -10947,19 +11072,28 @@
    "viral": false
   },
   "web:229a7170-c2c4-42c1-abe1-cb945b533f0e|x": {
-   "actualizado": "2026-11-17T10:04:35.000Z",
+   "actualizado": "2026-11-17T11:40:17.000Z",
    "buffer_id": "6afc26b4fae76827be3e3737",
    "clave": "web:229a7170-c2c4-42c1-abe1-cb945b533f0e|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T10:53:41.000Z",
+   "enviado": "2026-11-17T10:53:46.340Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:01:11.068Z",
    "id": "web:229a7170-c2c4-42c1-abe1-cb945b533f0e",
    "ig_hora": "2026-11-17T10:53:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122644356301570072",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/presupuesto-2027-el-gobierno-garantizo-fondos-para-finalizar-la",
    "noticia": "nota:presupuesto-2027-el-gobierno-garantizo-fondos-para-finalizar-la",
    "origen": "web",
@@ -11279,14 +11413,14 @@
    "viral": false
   },
   "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x": {
-   "actualizado": "2026-11-17T10:03:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-17T11:40:17.000Z",
+   "buffer_id": "6afc3d21d4d832ae4bc5bf3d",
    "clave": "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x",
    "creado": "2026-11-17T10:03:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-17T12:53:50.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-17T10:01:57.295Z",
    "id": "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b",
    "ig_hora": "2026-11-17T12:53:04.000Z",
@@ -11599,6 +11733,14 @@
    "ig_hora": "2026-11-16T12:38:16.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122308457428607371",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 6.06,
+    "impressions": 33,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-colon-revirtio-el-resultado-frente-a-florencio",
    "noticia": "nota:futbol-chivilcoy-colon-revirtio-el-resultado-frente-a-florencio",
    "origen": "web",
@@ -11939,6 +12081,14 @@
    "ig_hora": "2026-11-16T11:23:16.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122289454907785510",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 12,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/programa-de-inclusion-laboral-chivilcoy-laura-azcola-considero",
    "noticia": "nota:programa-de-inclusion-laboral-chivilcoy-laura-azcola-considero",
    "origen": "web",
@@ -12115,19 +12265,28 @@
    "viral": false
   },
   "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x": {
-   "actualizado": "2026-11-17T10:20:17.000Z",
+   "actualizado": "2026-11-17T11:40:17.000Z",
    "buffer_id": "6afc2a61fb90347d01bcb056",
    "clave": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T11:38:47.000Z",
+   "enviado": "2026-11-17T11:39:01.771Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:01:31.505Z",
    "id": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa",
    "ig_hora": "2026-11-17T11:38:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122655744977666238",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/ix-edicion-cierre-a-sala-llena-del-festival-internacional-de-cine",
    "noticia": "nota:ix-edicion-cierre-a-sala-llena-del-festival-internacional-de-cine",
    "origen": "web",
@@ -12188,8 +12347,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 1.59,
+    "impressions": 63,
     "reactions": 0,
     "reposts": 0
    },
@@ -12394,8 +12553,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 5.88,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -12716,6 +12875,14 @@
    "ig_hora": "2026-11-16T11:53:16.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122297004290175410",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 13,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-el-mensaje-del-papa-y-el-mensaje-de-los-argentinos",
    "noticia": "nota:opinion-el-mensaje-del-papa-y-el-mensaje-de-los-argentinos",
    "origen": "web",
@@ -12746,6 +12913,14 @@
    "ig_hora": "2026-11-16T13:08:16.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122315878872084934",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 17,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-torneo-prefederal-bonaerense-somisa-cerro-invicto",
    "noticia": "nota:basquet-chivilcoy-torneo-prefederal-bonaerense-somisa-cerro-invicto",
    "origen": "web",
@@ -12893,19 +13068,28 @@
    "viral": false
   },
   "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824|x": {
-   "actualizado": "2026-11-17T10:04:35.000Z",
+   "actualizado": "2026-11-17T11:40:17.000Z",
    "buffer_id": "6afc26b4fae76827be3e36e9",
    "clave": "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824|x",
    "creado": "2026-11-17T10:03:18.000Z",
    "dueAt": "2026-11-17T10:23:08.000Z",
+   "enviado": "2026-11-17T10:23:16.018Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-17T10:00:57.241Z",
    "id": "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824",
    "ig_hora": "2026-11-17T10:23:04.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2122636679605264473",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/reiteracion-de-siniestros-tres-incendios-vehiculares-en-menos-de-diez",
    "noticia": "nota:reiteracion-de-siniestros-tres-incendios-vehiculares-en-menos-de-diez",
    "origen": "web",
@@ -13240,6 +13424,14 @@
    "ig_hora": "2026-11-16T13:23:16.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122319716957954179",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 26,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/handball-chivilcoy-simon-dominguez-campeon-sudamericano-con-la",
    "noticia": "nota:handball-chivilcoy-simon-dominguez-campeon-sudamericano-con-la",
    "origen": "web",
@@ -13890,6 +14082,14 @@
    "ig_hora": "2026-11-16T11:38:16.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122293230054134045",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 12,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/encuentro-de-talleres-protegido-zona-sur-en-la-ciudad-de-carhue",
    "noticia": "nota:encuentro-de-talleres-protegido-zona-sur-en-la-ciudad-de-carhue",
    "origen": "web",
@@ -14536,6 +14736,14 @@
    "ig_hora": "2026-11-16T13:38:16.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122323491093417992",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 24,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/atletismo-internacional-chivilcoy-historica-actuacion-de-los-mellizos",
    "noticia": "nota:atletismo-internacional-chivilcoy-historica-actuacion-de-los-mellizos",
    "origen": "web",
@@ -14566,6 +14774,14 @@
    "ig_hora": "2026-11-16T12:53:16.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122312167118487849",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 19,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-habra-final-chivilcoyana-en-la-copa-de-oro-de-cadetes-colon-y",
    "noticia": "nota:basquet-habra-final-chivilcoyana-en-la-copa-de-oro-de-cadetes-colon-y",
    "origen": "web",
@@ -14903,6 +15119,14 @@
    "ig_hora": "2026-11-17T10:08:04.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122633031714279822",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/preparativos-ante-emergencias-guillermo-lopez-explico-como-se-prepara",
    "noticia": "nota:preparativos-ante-emergencias-guillermo-lopez-explico-como-se-prepara",
    "origen": "web",
@@ -14959,10 +15183,10 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122274484795191713",
    "metricas": {
-    "clicks": 0,
+    "clicks": 1,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 5.66,
+    "impressions": 53,
     "reactions": 0,
     "reposts": 0
    },
@@ -15189,6 +15413,14 @@
    "ig_hora": "2026-11-16T12:23:16.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2122304687516885336",
+   "metricas": {
+    "clicks": 1,
+    "comments": 0,
+    "engagementRate": 4.44,
+    "impressions": 45,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-a-gimnasia-se-le-escapo-la-clasificacion-de-las",
    "noticia": "nota:futbol-chivilcoy-a-gimnasia-se-le-escapo-la-clasificacion-de-las",
    "origen": "web",
@@ -15363,44 +15595,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:03ae8b4c-08d8-488d-9203-4b4212346184|x",
-   "cuando": "2026-11-10T13:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120148849343815848"
-  },
-  {
-   "clave": "web:589aada5-2294-49ca-8ee9-5c71fc761177|x",
-   "cuando": "2026-11-10T13:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120145204548129241"
-  },
-  {
-   "clave": "web:87b34ef6-682f-453d-9a41-c5e57e182a44|x",
-   "cuando": "2026-11-10T13:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120137656617021672"
-  },
-  {
-   "clave": "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x",
-   "cuando": "2026-11-10T13:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120141428412088483"
-  },
-  {
-   "clave": "web:07f6b77f-a719-48eb-ab59-425617675b7f|x",
-   "cuando": "2026-11-10T14:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x",
-   "cuando": "2026-11-10T14:00:29.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
-  },
   {
    "buffer_id": "6af3237d3fb3e0f9eadc3852",
    "clave": "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f|x",
@@ -19521,6 +19715,44 @@
    "cuando": "2026-11-17T11:20:15.000Z",
    "dueAt": "2026-11-17T12:38:05.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:13973a3b-2171-416a-a98c-8226b8fae8f7|x",
+   "cuando": "2026-11-17T11:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122648004565807121"
+  },
+  {
+   "clave": "web:229a7170-c2c4-42c1-abe1-cb945b533f0e|x",
+   "cuando": "2026-11-17T11:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122644356301570072"
+  },
+  {
+   "clave": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x",
+   "cuando": "2026-11-17T11:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122655744977666238"
+  },
+  {
+   "clave": "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824|x",
+   "cuando": "2026-11-17T11:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2122636679605264473"
+  },
+  {
+   "buffer_id": "6afc3d21d4d832ae4bc5bf3d",
+   "clave": "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x",
+   "cuando": "2026-11-17T11:40:18.000Z",
+   "dueAt": "2026-11-17T12:53:50.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afc3d216d6484cf6f16fd68",
+   "clave": "web:14c161cd-c8d1-48e8-8946-281aee6be5d2|x",
+   "cuando": "2026-11-17T11:40:18.000Z",
+   "dueAt": "2026-11-17T13:08:44.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19558,7 +19790,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-17",
- "ultima_sync": "2026-11-17T10:20:16.000Z",
+ "ultima_sync": "2026-11-17T11:40:17.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
