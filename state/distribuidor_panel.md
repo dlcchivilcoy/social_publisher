@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 08:40 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 09:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 17/11/2026 08:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 5 | 2 | 0 | 0 | 2 |
+| Notas web | X | 15 | 5 | 6 | 1 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,14 @@ Actualizado: 17/11/2026 08:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (2 esperando)
 - TikTok · Reels del bot · Vecinos reclaman por calles anegadas tras la lluvia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · Chivilcoy: Campeón en Primera y Femenino: Histórico doblete de Racing Club en la — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: ¡Oro continental! Marina Arce se consagró Campeona Panamericana de XC — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T10:04 recibido web:1cd196f2-3537-4e49-be39-a657b9945fa4|x 
 - 2026-11-17T10:04 recibido web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x 
 - 2026-11-17T10:04 recibido web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x 
 - 2026-11-17T10:04 recibido web:5da64ba1-ff4b-482f-b881-4a873f748575|x 
@@ -61,3 +59,4 @@ Actualizado: 17/11/2026 08:40 (hora AR) · ACTIVO
 - 2026-11-17T11:40 enviado web:7fee0cd4-1da8-4eb8-bf87-221715ef0824|x 
 - 2026-11-17T11:40 programado web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x 
 - 2026-11-17T11:40 programado web:14c161cd-c8d1-48e8-8946-281aee6be5d2|x 
+- 2026-11-17T12:00 programado web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab|x 
