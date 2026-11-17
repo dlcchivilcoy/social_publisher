@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00323",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-11-17T18:13:22.000Z",
+ "titulo": "Fernando Jecke y el impacto del clima en el trigo",
+ "descripcion": "En diálogo con Radio del Centro, el ingeniero Fernando Jecke, jefe del INTA San Antonio de Areco, explicó cómo afectaron las heladas y la menor radiación al cultivo de trigo en la región.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00323.mp4",
+ "duracion_seg": null,
+ "espera_youtube_publico": {
+  "short": "q5UQzHM1p5M",
+  "largo": "k5Yeu915hJw"
+ },
+ "youtube_url": "https://youtube.com/shorts/q5UQzHM1p5M",
+ "prioridad": 7,
+ "entrevistado": "Fernando Jecke",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
