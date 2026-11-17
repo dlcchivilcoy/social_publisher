@@ -43028,5 +43028,65 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-11-17T12:07:11",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2",
+    "uploader": "",
+    "fecha_recibido": "2026-11-17T14:45:21",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Coleccionismo en Olavarría",
+    "titulo": "Organizan el octavo encuentro de coleccionismo con más de treinta expositores",
+    "resumen": "Coleccionismo Olavarría realizará su octavo encuentro el domingo 22 de noviembre en el Club Mariano Moreno con entrada libre y gratuita. La jornada contará con más de treinta expositores de la ciudad y la región, stands de exhibición, compra, venta y canje.",
+    "texto": "Integrantes de Coleccionismo Olavarría invitaron a la comunidad a participar de su próximo encuentro, programado para el domingo 22 de noviembre en el gimnasio del Club Mariano Moreno, ubicado en España 2045, a metros de la avenida Sarmiento. La actividad comenzará a las 13 horas con entrada libre y gratuita.\n\nJuan, integrante del grupo organizador, señaló que se trata de la octava edición del evento y detalló que reunirá a «más de 30 expositores de Olavarría y la Región». Entre los elementos que se exhibirán mencionó vehículos a escala, trenes, aviones, figuras de acción, antigüedades, muñecas, cómics, manga y funkos, además de stands destinados a la compra, venta y canje.\n\nEl organizador convocó a las familias a acercarse para compartir la jornada y sugirió asistir con equipo de mate, al tiempo que adelantó que «habrá cosas ricas para la merienda» en las instalaciones del club.",
+    "bajada_reel": "",
+    "escrito": "Buenas tardes desde Coleccionismo Olavarría los queríamos invitar al evento que estamos organizando y les solicitamos y agradecemos la difusión, abrazo, los esperamos",
+    "tarjetas_fotos": [],
+    "draft_id": "5abbdc69-8f44-400c-8e8e-315798eae48e",
+    "reel_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/prev_corresponsal-2026-11-17-juan-huertas-228.mp4",
+    "estado": "borrador_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "Juan Huertas 2284669269",
+    "corresponsal_celular": "5492284669269",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-17T17:41:09.067Z — wa:5492284669269",
+    "decl": {
+      "audio": "audio_juan-huertas-2284669269_mwkzazs7s9z2_02.ogg",
+      "visual": "foto_juan-huertas-2284669269_mwkzazs7s9z2_01.jpg",
+      "es_foto": true,
+      "nombre": "Juan",
+      "cargo": "Integrante del grupo organizador",
+      "frases": [
+        {
+          "desde": 1.5,
+          "texto": "Invitación al encuentro de coleccionismo"
+        },
+        {
+          "desde": 14.4,
+          "texto": "Más de treinta expositores regionales"
+        },
+        {
+          "desde": 21.6,
+          "texto": "Autos, antigüedades, cómics y figuras"
+        },
+        {
+          "desde": 28.1,
+          "texto": "Entrada libre desde las 13"
+        },
+        {
+          "desde": 40.5,
+          "texto": "Stands de compra, venta y canje"
+        }
+      ],
+      "tramo": {
+        "desde": 0,
+        "hasta": 52.9
+      },
+      "transcripcion": "Hola gente, ¿cómo les va? Desde Coleccionismo Olavarría queremos invitarlos a nuestro próximo evento a realizarse el domingo 22 de noviembre en el gimnasio del club Mariano Moreno, calle España 2045 a metros de avenida Sarmiento. Es nuestro octavo encuentro y contaremos con más de 30 expositores de Olavarría y la Región con sus diversas colecciones entre las cuales se van a encontrar con autos, motos, camiones, trenes, aviones figuras de acción, antigüedades, muñecas, cómics, manga, funko y muchísimas cosas más pueden acercarse a partir de las 13 con entrada libre y gratuita evento para toda la familia en el cual se van a sorprender con diferentes stands de coleccionismo, compra, venta y canje Los esperamos a disfrutar una tarde distinta, emocionante y divertida. Se recomienda llevar equipo de mate, también habrá cosas ricas para la merienda. Los esperamos.",
+      "asr": "groq"
+    },
+    "tema_4x5": "blanco",
+    "formato": "reel"
   }
 ]
