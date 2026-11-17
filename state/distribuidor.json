@@ -369,6 +369,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_478fa08fa02b7b12.mp4",
    "youtube_url": "https://www.youtube.com/shorts/BOhlI6swQq0"
   },
+  "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4": {
+   "descripcion": "Vecinos de Chivilcoy visibilizaron su malestar por el estado en que quedaron diversas cuadras de la ciudad tras las precipitaciones registradas en las últimas horas.\n\nA través de registros en video enviados a nuestra redacción, los frentistas mostraron la importante acumulación de agua sobre la calzada, una situación que genera serias complicaciones para circular a pie o en vehículos por los sectores afectados.\n\nFrente a este panorama, convocamos a la comunidad a sumar sus testimonios. Quienes cuenten con fotos o videos del estado de su zona pueden etiquetar a @diarioyradio para difundir la situación. Se solicita detallar las calles y el barrio correspondiente para poder precisar y ubicar cada reclamo.",
+   "duracion_seg": 51.1,
+   "generado": "2026-11-17T02:55:28.000Z",
+   "id": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Vecinos reclaman por calles anegadas tras la lluvia",
+   "urgente": false,
+   "video_bytes": 12003132,
+   "video_mb": 11.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cf3f80f43f0a2591.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/Y97P8lc-hi4"
+  },
   "entrevistas:job00289": {
    "descripcion": "El cura párroco Ricardo Rodriguez destacó la participación de vecinos de Chivilcoy en la misa papal. Un diácono y una joven de la comunidad tendrán roles protagónicos durante la celebración.",
    "duracion_seg": null,
@@ -2800,6 +2821,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
    "volanta": "Chivilcoy · Cultura"
   },
+  "web:41ee3e32-bcc0-459d-bd54-85372c380544": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Vecinos reclaman por calles anegadas tras la lluvia Vecinos de Chivilcoy grabaron cómo quedaron sus cuadras tras la lluvia. En los videos se ve el agua acumulada sobre las calles y las dificultades para circular. ¿Tenés una foto o un video de cómo quedó tu cuadra? Etiquetanos en @diarioyradio y lo compartimos. Si podés, indicá el barrio y las calles para ubicar el reclamo.",
+   "generado": "2026-11-17T02:53:30.305Z",
+   "id": "web:41ee3e32-bcc0-459d-bd54-85372c380544",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_63af699d211a46c4bea2a1dcdf739d92~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Vecinos reclaman por calles anegadas tras la lluvia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
+   "volanta": "Chivilcoy · Sociedad"
+  },
   "web:449ee4f0-a73f-443a-ba52-32ad213567fa": {
    "categoria": "",
    "descripcion": "Chivilcoy: El básquet femenino de Argentino vive un gran momento: punteras invictas y con la mirada en los zonales Tras cerrar un Torneo Clausura impecable con siete victorias consecutivas, las chicas del \"Decano\" chivilcoyano arrancan una nueva etapa competitiva en la Asociación Juninense de Básquet. Además, gran desempeño en categorías formativas. El próximo compromiso será en casa este jueves por la noche. El básquet femenino del Club Argentino de Chivilcoy atraviesa un momento excepcional...",
@@ -4548,25 +4588,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dignidad-y-fetap-presentes-chivilcoy-realizaron-el-32-encuentro",
    "volanta": "Dignidad y Fetap Presentes"
   },
-  "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Racing venció a Quilmes por el Torneo Clausura de básquet CHIVILCOY.– Se completó la fecha 12 del Torneo Clausura de Primera División. En un partido muy parejo, emotivo y de mucha intensidad, donde fue un tiempo para cada equipo. Primer tiempo: Quilmes 34 - Racing 28. Y el segundo tiempo fue para la Academia: Quilmes 42 - Racing 50. De esta manera, la visita se queda con un importantísimo triunfo para seguir en el segundo puesto en la recta final del torneo por 78 a 76. Fotos de...",
-   "generado": "2026-11-07T03:13:03.953Z",
-   "id": "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7e080d317fca4c839570bbea5c64177c~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-vencio-a-quilmes-por-el-torneo",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Racing venció a Quilmes por el Torneo Clausura de básquet",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-racing-vencio-a-quilmes-por-el-torneo",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:dcf40e93-0805-42f1-9ed0-237091519937": {
    "categoria": "",
    "descripcion": "Chivilcoy: Trasladaron a un motociclista al hospital tras un choque en Pintos y calle 84 Una motocicleta y una camioneta chocaron en la esquina de Pintos y calle 84, en Chivilcoy. El siniestro involucró a una moto Guerrero y a una Renault Kangoo. De acuerdo con el informe policial, Jonathan Gallardo conducía la motocicleta y Luciana Melisa Santia iba al volante del utilitario. Un equipo de emergencias asistió a Gallardo en el lugar y lo trasladó al hospital en el móvil sanitario N.º 1. Según...",
@@ -6117,6 +6138,61 @@
    "vence": "2026-11-17T00:01:27.000Z",
    "video_bytes": 13582308,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_478fa08fa02b7b12.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok": {
+   "actualizado": "2026-11-17T09:00:20.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok",
+   "creado": "2026-11-17T09:00:20.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-17T02:55:28.000Z",
+   "id": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Vecinos reclaman por calles anegadas tras la lluvia\n\nFrentistas de Chivilcoy expresaron su malestar por el anegamiento de diversas cuadras de la ciudad tras las precipitaciones recientes. La acumulación de agua sobre la calzada genera serias complicaciones para circular a pie o en vehículos por los sectores afectados.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Vecinos reclaman por calles anegadas tras la lluvia",
+   "urgente": false,
+   "vence": "2026-11-19T02:55:28.000Z",
+   "video_bytes": 12003132,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cf3f80f43f0a2591.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|x": {
+   "actualizado": "2026-11-17T09:00:28.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|x",
+   "creado": "2026-11-17T09:00:20.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-17T02:55:28.000Z",
+   "id": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
+   "noticia": "nota:chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Vecinos reclaman por calles anegadas tras la lluvia\n\nVecinos de Chivilcoy mostraron su malestar por el agua acumulada en las calles tras las lluvias. La situación genera complicaciones para circular a pie o en vehículos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Vecinos reclaman por calles anegadas tras la lluvia",
+   "urgente": false,
+   "vence": "2026-11-17T04:55:28.000Z",
+   "video_bytes": 12003132,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cf3f80f43f0a2591.mp4",
    "viral": false
   },
   "entrevistas:job00289|tiktok": {
@@ -11024,6 +11100,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:41ee3e32-bcc0-459d-bd54-85372c380544|x": {
+   "actualizado": "2026-11-17T09:00:20.000Z",
+   "buffer_id": "",
+   "clave": "web:41ee3e32-bcc0-459d-bd54-85372c380544|x",
+   "creado": "2026-11-17T09:00:20.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-17T02:53:30.305Z",
+   "id": "web:41ee3e32-bcc0-459d-bd54-85372c380544",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
+   "noticia": "nota:chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Vecinos reclaman por calles anegadas tras la lluvia",
+   "urgente": false,
+   "vence": "2026-11-17T06:53:30.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:449ee4f0-a73f-443a-ba52-32ad213567fa|x": {
    "actualizado": "2026-11-11T13:40:15.000Z",
    "buffer_id": "6af4541ea197a2c4d579f10d",
@@ -14014,33 +14115,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x": {
-   "actualizado": "2026-11-07T09:00:25.000Z",
-   "buffer_id": "",
-   "clave": "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24|x",
-   "creado": "2026-11-07T09:00:16.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-11-07T03:13:03.953Z",
-   "id": "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-vencio-a-quilmes-por-el-torneo",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-racing-vencio-a-quilmes-por-el-torneo",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Racing venció a Quilmes por el Torneo Clausura de básquet\n\nCHIVILCOY.– Se completó la fecha 12 del Torneo Clausura de Primera División. En un partido muy parejo, emotivo y de mucha intensidad, donde fue un tiempo para cada equipo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-vencio-a-quilmes-por-el-torneo",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Racing venció a Quilmes por el Torneo Clausura de básquet",
-   "urgente": false,
-   "vence": "2026-11-07T07:13:03.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:dcf40e93-0805-42f1-9ed0-237091519937|x": {
    "actualizado": "2026-11-11T14:40:15.000Z",
    "buffer_id": "6af474fb65ca8ad72d05b034",
@@ -14665,34 +14739,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6af2ec21eea2cc573bb49928",
-   "clave": "web:aa775535-c5f2-4a64-95ca-135757291376|x",
-   "cuando": "2026-11-10T10:04:19.000Z",
-   "dueAt": "2026-11-10T10:22:12.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af2ec2127db27ce062bbc2b",
-   "clave": "web:d84d3ec0-05cf-43ec-a248-9969295317ed|x",
-   "cuando": "2026-11-10T10:04:19.000Z",
-   "dueAt": "2026-11-10T10:37:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af2ec225202fa03473df588",
-   "clave": "web:ddb372e9-f75f-433a-ad8d-44035f486a1c|x",
-   "cuando": "2026-11-10T10:04:19.000Z",
-   "dueAt": "2026-11-10T10:52:17.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af2ec2201446117738cc391",
-   "clave": "web:1d419c9d-f015-4088-8655-0aa75738fd73|x",
-   "cuando": "2026-11-10T10:04:19.000Z",
-   "dueAt": "2026-11-10T11:07:37.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6af2ec2227db27ce062bbcae",
    "clave": "web:222c5924-1b87-456d-96b4-f20fcdee84f5|x",
@@ -18803,6 +18849,36 @@
    "cuando": "2026-11-17T02:40:16.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|x",
+   "cuando": "2026-11-17T09:00:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok",
+   "cuando": "2026-11-17T09:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:41ee3e32-bcc0-459d-bd54-85372c380544|x",
+   "cuando": "2026-11-17T09:00:28.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|x",
+   "cuando": "2026-11-17T09:00:28.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -18848,7 +18924,6 @@
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-18_matias-zucchi_mvdbro65ozw2": "2026-10-18T09:00:15.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mvea9kfbcz3l": "2026-10-18T21:00:16.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mveekrp2fwqj": "2026-10-18T23:00:17.000Z",
   "bot:corresponsal_2026-10-18_matias-zucchi_mveewax9u1zv": "2026-10-18T23:00:17.000Z",
@@ -19009,6 +19084,7 @@
   "bot:video_matias-zucchi_mwi2eoljergp_01.mp4": "2026-11-15T17:00:25.000Z",
   "bot:video_matias-zucchi_mwjo5rifucll_01.mp4": "2026-11-16T20:00:18.000Z",
   "bot:video_matias-zucchi_mwjsvheuls91_01.mp4": "2026-11-16T22:20:13.000Z",
+  "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4": "2026-11-17T09:00:20.000Z",
   "entrevistas:job00224": "2026-10-19T16:20:14.000Z",
   "entrevistas:job00225": "2026-10-19T17:00:21.000Z",
   "entrevistas:job00226": "2026-10-19T17:20:14.000Z",
@@ -19340,7 +19416,6 @@
   "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e": "2026-11-12T10:02:44.000Z",
   "web:01bf9e9c-5d81-432e-9d5f-303e147f07d7": "2026-11-03T10:02:22.000Z",
   "web:024c510b-0090-4885-a004-6612c092f38b": "2026-10-26T22:40:15.000Z",
-  "web:027eee23-ffcc-4172-a0e7-0bb0fdc31803": "2026-10-18T09:00:15.000Z",
   "web:02e93911-55df-4a65-bb82-d3e764bdb7c5": "2026-10-26T12:06:06.000Z",
   "web:037db3cf-2837-40cd-af9c-c0b367f30802": "2026-10-21T10:20:15.000Z",
   "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151": "2026-10-24T23:40:14.000Z",
@@ -19477,6 +19552,7 @@
   "web:415bcffd-26ca-41bb-807f-0d3961339b5c": "2026-10-30T10:01:54.000Z",
   "web:4199d5d7-7749-42b5-a204-16844f3014eb": "2026-10-19T10:20:14.000Z",
   "web:41b50fea-05eb-4988-89d9-dc639e73ba72": "2026-10-30T00:40:16.000Z",
+  "web:41ee3e32-bcc0-459d-bd54-85372c380544": "2026-11-17T09:00:20.000Z",
   "web:429bd6b6-0e3e-4fe4-bac4-d0799672ac03": "2026-10-19T15:00:20.000Z",
   "web:436624c4-dead-4338-b58f-541ff1196bfe": "2026-10-31T21:20:16.000Z",
   "web:439df9f0-970a-42fd-979a-69b57c0f8607": "2026-10-26T10:20:14.000Z",
