@@ -1167,6 +1167,48 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00322.mp4",
    "youtube_url": "https://youtu.be/PKo7TasVytE"
   },
+  "entrevistas:job00322-r1": {
+   "descripcion": "La consejera escolar Sandra Martinez detalló el impacto del temporal en los edificios educativos de Chivilcoy y confirmó que las clases funcionaron con normalidad. Explicó que el área de infraestructura realizó relevamientos para atender filtraciones menores.",
+   "duracion_seg": 51.7,
+   "entrevistado": "Sandra Martinez",
+   "generado": "2026-11-17T18:20:12.000Z",
+   "id": "entrevistas:job00322-r1",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Sandra Martinez: balance edilicio en escuelas de Chivilcoy",
+   "urgente": false,
+   "video_bytes": 15071814,
+   "video_mb": 14.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00322_r1.mp4",
+   "youtube_url": "https://youtu.be/PKo7TasVytE"
+  },
+  "entrevistas:job00323": {
+   "descripcion": "En diálogo con Radio del Centro, el ingeniero Fernando Jecke, jefe del INTA San Antonio de Areco, explicó cómo afectaron las heladas y la menor radiación al cultivo de trigo en la región.",
+   "duracion_seg": null,
+   "entrevistado": "Fernando Jecke",
+   "generado": "2026-11-17T18:20:12.000Z",
+   "id": "entrevistas:job00323",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Fernando Jecke y el impacto del clima en el trigo",
+   "urgente": false,
+   "video_bytes": 20569600,
+   "video_mb": 19.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00323.mp4",
+   "youtube_url": "https://youtu.be/k5Yeu915hJw"
+  },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": {
    "categoria": "otro_policial",
    "descripcion": "Un hombre de 46 años debió ser hospitalizado con heridas tras colisionar con su motocicleta contra un camión de la empresa Absa en una esquina de la ciudad.",
@@ -9337,6 +9379,59 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00321.mp4",
    "viral": false
   },
+  "entrevistas:job00322-r1|tiktok": {
+   "actualizado": "2026-11-17T18:20:12.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00322-r1|tiktok",
+   "creado": "2026-11-17T18:20:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-17T18:20:12.000Z",
+   "id": "entrevistas:job00322-r1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Sandra Martinez: balance edilicio en escuelas de Chivilcoy\n\nLa consejera escolar Sandra Martinez detalló el impacto del temporal en los edificios educativos de Chivilcoy y confirmó que las clases funcionaron con normalidad. Explicó que el área de infraestructura realizó relevamientos para atender filtraciones menores.\n\nhttps://youtu.be/PKo7TasVytE\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Sandra Martinez: balance edilicio en escuelas de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-19T18:20:12.000Z",
+   "video_bytes": 15071814,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00322_r1.mp4",
+   "viral": false
+  },
+  "entrevistas:job00322-r1|x": {
+   "actualizado": "2026-11-17T18:20:12.000Z",
+   "buffer_id": "",
+   "clave": "entrevistas:job00322-r1|x",
+   "creado": "2026-11-17T18:20:12.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Recortes de entrevistas, programado)",
+   "estado": "descartado",
+   "generado": "2026-11-17T18:20:12.000Z",
+   "id": "entrevistas:job00322-r1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:balance-chivilcoy-edilicio-escuelas-martinez-sandra",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Sandra Martinez: balance edilicio en escuelas de Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-17T20:20:12.000Z",
+   "video_bytes": 15071814,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00322_r1.mp4",
+   "viral": false
+  },
   "entrevistas:job00322|tiktok": {
    "actualizado": "2026-11-17T18:00:24.000Z",
    "buffer_id": "",
@@ -9391,6 +9486,62 @@
    "vence": "2026-11-17T20:00:24.000Z",
    "video_bytes": 8558723,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00322.mp4",
+   "viral": false
+  },
+  "entrevistas:job00323|tiktok": {
+   "actualizado": "2026-11-17T18:20:12.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00323|tiktok",
+   "creado": "2026-11-17T18:20:12.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-17T18:20:12.000Z",
+   "id": "entrevistas:job00323",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Fernando Jecke y el impacto del clima en el trigo\n\nEn diálogo con Radio del Centro, el ingeniero Fernando Jecke, jefe del INTA San Antonio de Areco, explicó cómo afectaron las heladas y la menor radiación al cultivo de trigo en la región.\n\nhttps://youtu.be/k5Yeu915hJw\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fernando Jecke y el impacto del clima en el trigo",
+   "urgente": false,
+   "vence": "2026-11-19T18:20:12.000Z",
+   "video_bytes": 20569600,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00323.mp4",
+   "viral": false
+  },
+  "entrevistas:job00323|x": {
+   "actualizado": "2026-11-17T18:20:13.000Z",
+   "buffer_id": "6afc9aded4c8ef4106f4d9cb",
+   "clave": "entrevistas:job00323|x",
+   "creado": "2026-11-17T18:20:12.000Z",
+   "dueAt": "2026-11-17T18:22:37.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-17T18:20:12.000Z",
+   "id": "entrevistas:job00323",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:clima-fernando-impacto-jecke-trigo",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Fernando Jecke y el impacto del clima en el trigo\n\nEn diálogo con Radio del Centro, el ingeniero Fernando Jecke, jefe del INTA San Antonio de Areco, explicó cómo afectaron las heladas y la menor radiación al cultivo de trigo en la región.\n\nhttps://youtu.be/k5Yeu915hJw",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fernando Jecke y el impacto del clima en el trigo",
+   "urgente": false,
+   "vence": "2026-11-17T20:20:12.000Z",
+   "video_bytes": 20569600,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00323.mp4",
    "viral": false
   },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/|x": {
@@ -16149,58 +16300,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x",
-   "cuando": "2026-11-10T22:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/|x",
-   "cuando": "2026-11-10T23:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "entrevistas:job00294|tiktok",
-   "cuando": "2026-11-10T23:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7706672089830329618"
-  },
-  {
-   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/|x",
-   "cuando": "2026-11-10T23:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120281297822052795"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x",
-   "cuando": "2026-11-11T00:00:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok",
-   "cuando": "2026-11-11T00:00:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:ad88cc96-5c59-46c7-ae00-26c4333f393e|x",
-   "cuando": "2026-11-11T00:00:32.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
    "buffer_id": "6af3b0220b1f930b454e2b84",
    "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x",
    "cuando": "2026-11-11T00:00:35.000Z",
@@ -20309,6 +20408,55 @@
    "cuando": "2026-11-17T18:00:37.000Z",
    "dueAt": "2026-11-17T18:02:33.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00322-r1",
+   "cuando": "2026-11-17T18:20:13.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00323",
+   "cuando": "2026-11-17T18:20:13.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00322-r1|x",
+   "cuando": "2026-11-17T18:20:13.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Recortes de entrevistas, programado)",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00322-r1|tiktok",
+   "cuando": "2026-11-17T18:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00323|x",
+   "cuando": "2026-11-17T18:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00323|tiktok",
+   "cuando": "2026-11-17T18:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6afc9aded4c8ef4106f4d9cb",
+   "clave": "entrevistas:job00323|x",
+   "cuando": "2026-11-17T18:20:14.000Z",
+   "dueAt": "2026-11-17T18:22:37.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20614,6 +20762,8 @@
   "entrevistas:job00320": "2026-11-17T16:40:14.000Z",
   "entrevistas:job00321": "2026-11-17T17:40:16.000Z",
   "entrevistas:job00322": "2026-11-17T18:00:24.000Z",
+  "entrevistas:job00322-r1": "2026-11-17T18:20:12.000Z",
+  "entrevistas:job00323": "2026-11-17T18:20:12.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",
