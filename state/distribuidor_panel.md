@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,17 +27,14 @@ Actualizado: 17/11/2026 13:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
 - TikTok · Reels del bot · El Municipio destacó el rápido escurrimiento del agua tras el temporal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Victoria Barros: Robótica y domótica infantil en el CUCH — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T12:40 programado web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x 
-- 2026-11-17T13:00 depurado web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-17T13:00 enviado web:1cd196f2-3537-4e49-be39-a657b9945fa4|x 
-- 2026-11-17T13:00 enviado web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x 
 - 2026-11-17T13:00 enviado web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x 
 - 2026-11-17T13:00 enviado web:d03c3c10-1591-42b2-8b28-464788b1537c|x 
 - 2026-11-17T13:00 programado bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok 
@@ -59,3 +56,7 @@ Actualizado: 17/11/2026 13:20 (hora AR) · ACTIVO
 - 2026-11-17T15:20 recibido web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-17T15:20 programado bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x 
 - 2026-11-17T15:40 enviado bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x 
+- 2026-11-17T16:40 entrevista_aprobada entrevistas:job00320 
+- 2026-11-17T16:40 recibido entrevistas:job00320|x 
+- 2026-11-17T16:40 recibido entrevistas:job00320|tiktok 
+- 2026-11-17T16:40 programado entrevistas:job00320|x 
