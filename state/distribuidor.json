@@ -4664,6 +4664,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-pcd-el-taller-chivilcoy-sin-barreras-represento-a-la-ciudad-en",
    "volanta": "Fútbol PCD"
   },
+  "web:d0efc114-d938-4147-8730-19457aaf57f4": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Denunciaron el robo de dinero y ropa del interior de un auto Un vecino de Chivilcoy denunció que el domingo 15 de noviembre le sustrajeron dinero, perfumes y prendas de vestir del interior de su auto. El vehículo estaba estacionado sobre la vereda, frente a su domicilio ubicado en General Rodríguez al 800, a pocas cuadras de la cancha de Gimnasia. Según la denuncia de Leonel Petrucelli, el hecho habría ocurrido entre las 16 y las 19, mientras se encontraba en el estadio. Al...",
+   "generado": "2026-11-17T13:18:18.539Z",
+   "id": "web:d0efc114-d938-4147-8730-19457aaf57f4",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0f64e054d61d4d7f8e5be340c66e9520~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-denunciaron-el-robo-de-dinero-y-ropa",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Denunciaron el robo de dinero y ropa del interior de un auto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-denunciaron-el-robo-de-dinero-y-ropa",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:d18919f0-46ff-47b2-83c2-1363d2423d59": {
    "categoria": "",
    "descripcion": "Chivilcoy: Colón ganó el clásico de visitante y clasificó a cuartos CHIVILCOY.– Colón revirtió el resultado ante Florencio Varela para quedarse con el clásico en condición de visitante y asegurar su clasificación a los cuartos de final. En la próxima fecha, Colón será local ante Moquehuá en un partido determinante por el primer puesto de la fase regular. Todas las emociones ocurrieron en el segundo tiempo. Enzo Benítez abrió el marcador para Florencio Varela tras rematar luego de un desborde...",
@@ -14690,6 +14709,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:d0efc114-d938-4147-8730-19457aaf57f4|x": {
+   "actualizado": "2026-11-17T13:20:29.000Z",
+   "buffer_id": "6afc549ecb397a6ba1ee2b02",
+   "clave": "web:d0efc114-d938-4147-8730-19457aaf57f4|x",
+   "creado": "2026-11-17T13:20:27.000Z",
+   "dueAt": "2026-11-17T13:53:30.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-17T13:18:18.539Z",
+   "id": "web:d0efc114-d938-4147-8730-19457aaf57f4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-denunciaron-el-robo-de-dinero-y-ropa",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-denunciaron-el-robo-de-dinero-y-ropa",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Denunciaron el robo de dinero y ropa del interior de un auto\n\nUn vecino denunció que le sustrajeron pertenencias del interior de su vehículo estacionado frente a su domicilio. Según Leonel Petrucelli, ocurrió mientras estaba en el estadio.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-denunciaron-el-robo-de-dinero-y-ropa",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Denunciaron el robo de dinero y ropa del interior de un auto",
+   "urgente": false,
+   "vence": "2026-11-17T17:18:18.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:d18919f0-46ff-47b2-83c2-1363d2423d59|x": {
    "actualizado": "2026-11-14T22:00:19.000Z",
    "buffer_id": "",
@@ -15646,20 +15693,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52|x",
-   "cuando": "2026-11-10T17:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52|x",
-   "cuando": "2026-11-10T17:20:16.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "entrevistas:job00294|x",
    "cuando": "2026-11-10T17:20:16.000Z",
@@ -19803,6 +19836,21 @@
    "cuando": "2026-11-17T13:00:22.000Z",
    "dueAt": "2026-11-17T13:03:03.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:d0efc114-d938-4147-8730-19457aaf57f4|x",
+   "cuando": "2026-11-17T13:20:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6afc549ecb397a6ba1ee2b02",
+   "clave": "web:d0efc114-d938-4147-8730-19457aaf57f4|x",
+   "cuando": "2026-11-17T13:20:30.000Z",
+   "dueAt": "2026-11-17T13:53:30.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20130,13 +20178,11 @@
   "nacionales:48bb4e9d6ed706f8": "2026-10-24T01:20:18.000Z",
   "nacionales:4ce13bf44cf7dbc5": "2026-10-21T01:00:18.000Z",
   "nacionales:4d4c5be14febf1aa": "2026-10-18T20:20:13.000Z",
-  "nacionales:502713ec1f96e399": "2026-10-18T13:20:13.000Z",
   "nacionales:509780bc5420f2f5": "2026-10-19T02:40:14.000Z",
   "nacionales:545f9842d5a42866": "2026-10-24T00:20:16.000Z",
   "nacionales:54abafdb21dc7c6a": "2026-10-19T15:20:16.000Z",
   "nacionales:552c66c451a5584e": "2026-10-19T00:20:16.000Z",
   "nacionales:56e46b4aea933185": "2026-10-24T01:00:18.000Z",
-  "nacionales:58461ddc8e0149c5": "2026-10-18T13:20:13.000Z",
   "nacionales:588268bbf306f395": "2026-10-19T15:20:16.000Z",
   "nacionales:5de2902aa9f0dc53": "2026-10-23T21:20:13.000Z",
   "nacionales:605a06264731bcec": "2026-10-19T00:20:16.000Z",
@@ -20144,7 +20190,6 @@
   "nacionales:64c61b88e47d5daf": "2026-10-21T22:00:22.000Z",
   "nacionales:677e9def2f7175b0": "2026-10-19T15:00:20.000Z",
   "nacionales:6b05c0de5e77c089": "2026-10-19T23:20:14.000Z",
-  "nacionales:6e5b52bbe69fd410": "2026-10-18T13:20:13.000Z",
   "nacionales:7473fc970bead57a": "2026-10-20T02:00:19.000Z",
   "nacionales:7570d6c409614369": "2026-10-19T00:20:16.000Z",
   "nacionales:76f6781e9594def9": "2026-10-18T20:20:13.000Z",
@@ -20818,6 +20863,7 @@
   "web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be": "2026-10-22T10:02:31.000Z",
   "web:d02ad89e-79f9-411b-86f5-added49bc1ff": "2026-10-23T02:00:16.000Z",
   "web:d03c3c10-1591-42b2-8b28-464788b1537c": "2026-11-17T10:03:18.000Z",
+  "web:d0efc114-d938-4147-8730-19457aaf57f4": "2026-11-17T13:20:27.000Z",
   "web:d18919f0-46ff-47b2-83c2-1363d2423d59": "2026-11-14T22:00:17.000Z",
   "web:d1ebd2a7-949f-44a4-aa1c-fc5c477ac5f9": "2026-11-10T15:00:21.000Z",
   "web:d1ed8261-7eab-4e57-97b0-fe69b793a107": "2026-11-16T10:03:28.000Z",
@@ -20879,7 +20925,6 @@
   "web:e8070380-cce0-41f4-8a78-b0a02378bc68": "2026-11-08T17:20:17.000Z",
   "web:e8617d8a-3fde-4ee7-9654-6eaac49d7101": "2026-10-19T13:20:16.000Z",
   "web:e92d7cef-125b-45bf-8655-591a3ccc565b": "2026-10-23T14:00:23.000Z",
-  "web:e95b1bc1-7e4f-45a7-be0c-a458de8ddc11": "2026-10-18T13:20:13.000Z",
   "web:ea13235b-dbb9-482c-b517-2865e5df2d34": "2026-10-31T16:40:18.000Z",
   "web:ea501eca-e6aa-48e2-81a7-be44a5f2529a": "2026-11-16T10:03:28.000Z",
   "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52": "2026-10-27T12:40:18.000Z",
