@@ -1125,6 +1125,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00320.mp4",
    "youtube_url": "https://youtu.be/fZ31v_qxjek"
   },
+  "entrevistas:job00321": {
+   "descripcion": "En Chivilcoy, Alejandro Diguardi, integrante del Observatorio de Discapacidad del MDF, cuestionó las prioridades de gasto del Estado frente a la falta de fondos para tratamientos de autismo. Reclamó que la cobertura de estas terapias es una decisión política urgente.",
+   "duracion_seg": null,
+   "entrevistado": "Alejandro Diguardi",
+   "generado": "2026-11-17T17:40:16.000Z",
+   "id": "entrevistas:job00321",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Alejandro Diguardi: \"Hay plata para aviones y no para terapias\"",
+   "urgente": false,
+   "video_bytes": 24860459,
+   "video_mb": 23.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00321.mp4",
+   "youtube_url": "https://youtu.be/DnZsYgQlmaY"
+  },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": {
    "categoria": "otro_policial",
    "descripcion": "Un hombre de 46 años debió ser hospitalizado con heridas tras colisionar con su motocicleta contra un camión de la empresa Absa en una esquina de la ciudad.",
@@ -9219,6 +9240,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00320.mp4",
    "viral": false
   },
+  "entrevistas:job00321|tiktok": {
+   "actualizado": "2026-11-17T17:40:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00321|tiktok",
+   "creado": "2026-11-17T17:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-17T17:40:16.000Z",
+   "id": "entrevistas:job00321",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Alejandro Diguardi: \"Hay plata para aviones y no para terapias\"\n\nEn Chivilcoy, Alejandro Diguardi, integrante del Observatorio de Discapacidad del MDF, cuestionó las prioridades de gasto del Estado frente a la falta de fondos para tratamientos de autismo. Reclamó que la cobertura de estas terapias es una decisión política urgente.\n\nhttps://youtu.be/DnZsYgQlmaY\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alejandro Diguardi: \"Hay plata para aviones y no para terapias\"",
+   "urgente": false,
+   "vence": "2026-11-19T17:40:16.000Z",
+   "video_bytes": 24860459,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00321.mp4",
+   "viral": false
+  },
+  "entrevistas:job00321|x": {
+   "actualizado": "2026-11-17T17:40:23.000Z",
+   "buffer_id": "6afc91870ec7d2b08236499e",
+   "clave": "entrevistas:job00321|x",
+   "creado": "2026-11-17T17:40:16.000Z",
+   "dueAt": "2026-11-17T17:42:33.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-17T17:40:16.000Z",
+   "id": "entrevistas:job00321",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:alejandro-aviones-diguardi-plata-terapias",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Alejandro Diguardi: \"Hay plata para aviones y no para terapias\"\n\nAlejandro Diguardi cuestionó el gasto del Estado ante la falta de fondos para el autismo. Reclamó que la cobertura de estas terapias es una decisión política urgente.\n\nhttps://youtu.be/DnZsYgQlmaY",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alejandro Diguardi: \"Hay plata para aviones y no para terapias\"",
+   "urgente": false,
+   "vence": "2026-11-17T19:40:16.000Z",
+   "video_bytes": 24860459,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00321.mp4",
+   "viral": false
+  },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/|x": {
    "actualizado": "2026-11-17T00:40:21.000Z",
    "buffer_id": "",
@@ -15948,34 +16025,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af385e42b686bd66cf7ab70",
-   "clave": "entrevistas:job00298|tiktok",
-   "cuando": "2026-11-10T21:00:24.000Z",
-   "dueAt": "2026-11-10T21:03:38.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af385e591300263f77f9455",
-   "clave": "entrevistas:job00297|tiktok",
-   "cuando": "2026-11-10T21:00:24.000Z",
-   "dueAt": "2026-11-10T21:23:34.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af385e64cc2b37f6a10a094",
-   "clave": "entrevistas:job00296|tiktok",
-   "cuando": "2026-11-10T21:00:24.000Z",
-   "dueAt": "2026-11-10T21:43:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af385e74cc2b37f6a10a1aa",
-   "clave": "entrevistas:job00295|tiktok",
-   "cuando": "2026-11-10T21:00:24.000Z",
-   "dueAt": "2026-11-10T22:03:58.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af385e82b686bd66cf7b133",
    "clave": "entrevistas:job00294|tiktok",
    "cuando": "2026-11-10T21:00:24.000Z",
@@ -20106,6 +20155,34 @@
    "cuando": "2026-11-17T17:00:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2122732278962950217"
+  },
+  {
+   "clave": "entrevistas:job00321",
+   "cuando": "2026-11-17T17:40:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00321|x",
+   "cuando": "2026-11-17T17:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00321|tiktok",
+   "cuando": "2026-11-17T17:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6afc91870ec7d2b08236499e",
+   "clave": "entrevistas:job00321|x",
+   "cuando": "2026-11-17T17:40:24.000Z",
+   "dueAt": "2026-11-17T17:42:33.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20410,6 +20487,7 @@
   "entrevistas:job00318": "2026-11-16T18:00:18.000Z",
   "entrevistas:job00319": "2026-11-16T18:40:14.000Z",
   "entrevistas:job00320": "2026-11-17T16:40:14.000Z",
+  "entrevistas:job00321": "2026-11-17T17:40:16.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:02472f0cd4ba4800": "2026-10-19T02:40:14.000Z",
   "nacionales:07376db2590e79bf": "2026-10-19T09:00:17.000Z",

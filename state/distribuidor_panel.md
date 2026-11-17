@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 17/11/2026 14:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Recortes de entrevistas · Alejandro Diguardi: "Hay plata para aviones y no para terapias" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · El Municipio destacó el rápido escurrimiento del agua tras el temporal — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Victoria Barros: Robótica y domótica infantil en el CUCH — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -35,10 +36,6 @@ Actualizado: 17/11/2026 14:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T13:00 enviado web:d03c3c10-1591-42b2-8b28-464788b1537c|x 
-- 2026-11-17T13:00 programado bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok 
-- 2026-11-17T13:20 recibido web:d0efc114-d938-4147-8730-19457aaf57f4|x 
-- 2026-11-17T13:20 programado web:d0efc114-d938-4147-8730-19457aaf57f4|x 
 - 2026-11-17T13:40 recibido web:455e03e1-e3b5-4a62-94b9-89e1d7016505|x 
 - 2026-11-17T13:40 recibido web:53643e41-5b43-415e-b955-0740b1d0ee5b|x 
 - 2026-11-17T13:40 programado web:53643e41-5b43-415e-b955-0740b1d0ee5b|x 
@@ -60,3 +57,7 @@ Actualizado: 17/11/2026 14:20 (hora AR) · ACTIVO
 - 2026-11-17T16:40 recibido entrevistas:job00320|tiktok 
 - 2026-11-17T16:40 programado entrevistas:job00320|x 
 - 2026-11-17T17:00 enviado entrevistas:job00320|x 
+- 2026-11-17T17:40 entrevista_aprobada entrevistas:job00321 
+- 2026-11-17T17:40 recibido entrevistas:job00321|x 
+- 2026-11-17T17:40 recibido entrevistas:job00321|tiktok 
+- 2026-11-17T17:40 programado entrevistas:job00321|x 
