@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 2 | 2 | 0 | 0 | 0 | 1 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 1 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 1 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 6 |
+| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,7 +27,8 @@ Actualizado: 17/11/2026 15:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (7 esperando)
+- TikTok · Reels del bot · Organizan el octavo encuentro de coleccionismo con más de treinta expositores — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Sandra Martinez: balance edilicio en escuelas de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Fernando Jecke y el impacto del clima en el trigo — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Sandra Martinez: balance edilicio en escuelas de Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -39,10 +40,6 @@ Actualizado: 17/11/2026 15:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T15:20 programado bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x 
-- 2026-11-17T15:40 enviado bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x 
-- 2026-11-17T16:40 entrevista_aprobada entrevistas:job00320 
-- 2026-11-17T16:40 recibido entrevistas:job00320|x 
 - 2026-11-17T16:40 recibido entrevistas:job00320|tiktok 
 - 2026-11-17T16:40 programado entrevistas:job00320|x 
 - 2026-11-17T17:00 enviado entrevistas:job00320|x 
@@ -64,3 +61,7 @@ Actualizado: 17/11/2026 15:20 (hora AR) · ACTIVO
 - 2026-11-17T18:20 recibido entrevistas:job00323|x 
 - 2026-11-17T18:20 recibido entrevistas:job00323|tiktok 
 - 2026-11-17T18:20 programado entrevistas:job00323|x 
+- 2026-11-17T18:40 recibido bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
+- 2026-11-17T18:40 recibido bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
+- 2026-11-17T18:40 recibido web:5abbdc69-8f44-400c-8e8e-315798eae48e|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-17T18:40 programado bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
