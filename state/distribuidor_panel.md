@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 18/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,18 +27,15 @@ Actualizado: 18/11/2026 13:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
 - TikTok · Reels del bot · Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Carolina Ricci y el crecimiento de Beer Tonic — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Esteban Lobianco: medidas contra padres en Colón — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T11:40 programado web:09d582bb-d391-4be5-adf7-75cec83c05fe|x 
-- 2026-11-18T11:40 programado web:44289470-403b-4f8c-b4f2-0f1d3fba55d0|x 
-- 2026-11-18T12:00 programado web:fad92e16-ef85-4bcc-b7ff-84f088f97a85|x 
-- 2026-11-18T12:20 recibido web:c4854cf8-a2b0-40af-8957-20584264a3a0|x 
 - 2026-11-18T12:20 programado web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90|x 
 - 2026-11-18T12:40 programado web:c4854cf8-a2b0-40af-8957-20584264a3a0|x 
 - 2026-11-18T13:00 depurado web:c4854cf8-a2b0-40af-8957-20584264a3a0|x no está en el carrusel del diario de hoy (sacado de Buffer)
@@ -60,3 +57,7 @@ Actualizado: 18/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-18T16:40 recibido entrevistas:job00324|x 
 - 2026-11-18T16:40 recibido entrevistas:job00324|tiktok 
 - 2026-11-18T16:40 programado entrevistas:job00324|x 
+- 2026-11-18T17:00 entrevista_aprobada entrevistas:job00325 
+- 2026-11-18T17:00 recibido entrevistas:job00325|x 
+- 2026-11-18T17:00 recibido entrevistas:job00325|tiktok 
+- 2026-11-18T17:00 programado entrevistas:job00325|x 
