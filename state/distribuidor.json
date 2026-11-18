@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-18T13:00:19.000Z"
+   "visto": "2026-11-18T14:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
-    "sent": 22
+    "scheduled": 0,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-18T13:00:19.000Z"
+   "visto": "2026-11-18T14:00:20.000Z"
   }
  },
  "contenidos": {
@@ -12504,19 +12504,20 @@
    "viral": false
   },
   "web:44289470-403b-4f8c-b4f2-0f1d3fba55d0|x": {
-   "actualizado": "2026-11-18T11:40:18.000Z",
+   "actualizado": "2026-11-18T14:00:20.000Z",
    "buffer_id": "6afd8ea2771ad9d67623f1ee",
    "clave": "web:44289470-403b-4f8c-b4f2-0f1d3fba55d0|x",
    "creado": "2026-11-18T10:02:51.000Z",
    "dueAt": "2026-11-18T13:07:13.000Z",
+   "enviado": "2026-11-18T13:07:16.645Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-18T10:02:38.784Z",
    "id": "web:44289470-403b-4f8c-b4f2-0f1d3fba55d0",
    "ig_hora": "2026-11-18T13:07:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123040341917843826",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-formativo-chivilcoy-los-millonarios-y-san-lorenzo",
    "noticia": "nota:basquet-formativo-chivilcoy-los-millonarios-y-san-lorenzo",
    "origen": "web",
@@ -12819,19 +12820,20 @@
    "viral": false
   },
   "web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90|x": {
-   "actualizado": "2026-11-18T12:20:18.000Z",
+   "actualizado": "2026-11-18T14:00:20.000Z",
    "buffer_id": "6afd9802771ad9d6762858df",
    "clave": "web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90|x",
    "creado": "2026-11-18T10:02:51.000Z",
    "dueAt": "2026-11-18T13:37:33.000Z",
+   "enviado": "2026-11-18T13:37:46.288Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-18T10:02:47.520Z",
    "id": "web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90",
    "ig_hora": "2026-11-18T13:37:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123048016122634284",
    "nota_url": "https://www.diariolacampaña.com.ar/n/karting-del-oeste-valentino-iberro-y-una-destacada-actuacion-en-la",
    "noticia": "nota:karting-del-oeste-valentino-iberro-y-una-destacada-actuacion-en-la",
    "origen": "web",
@@ -16752,19 +16754,20 @@
    "viral": false
   },
   "web:fad92e16-ef85-4bcc-b7ff-84f088f97a85|x": {
-   "actualizado": "2026-11-18T12:00:18.000Z",
+   "actualizado": "2026-11-18T14:00:20.000Z",
    "buffer_id": "6afd935367b44b742a516318",
    "clave": "web:fad92e16-ef85-4bcc-b7ff-84f088f97a85|x",
    "creado": "2026-11-18T10:02:51.000Z",
    "dueAt": "2026-11-18T13:22:09.000Z",
+   "enviado": "2026-11-18T13:22:16.134Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-18T10:02:43.424Z",
    "id": "web:fad92e16-ef85-4bcc-b7ff-84f088f97a85",
    "ig_hora": "2026-11-18T13:22:22.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123044114690150614",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-rural-triunfo-chivilcoyano-en-el-cierre-del-rally-serie",
    "noticia": "nota:ciclismo-rural-triunfo-chivilcoyano-en-el-cierre-del-rally-serie",
    "origen": "web",
@@ -16886,27 +16889,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00302",
-   "cuando": "2026-11-11T18:40:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00302|x",
-   "cuando": "2026-11-11T18:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00302|tiktok",
-   "cuando": "2026-11-11T18:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00300|x",
    "cuando": "2026-11-11T18:40:18.000Z",
@@ -21042,6 +21024,24 @@
    "cuando": "2026-11-18T13:00:21.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123032790224519394"
+  },
+  {
+   "clave": "web:44289470-403b-4f8c-b4f2-0f1d3fba55d0|x",
+   "cuando": "2026-11-18T14:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123040341917843826"
+  },
+  {
+   "clave": "web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90|x",
+   "cuando": "2026-11-18T14:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123048016122634284"
+  },
+  {
+   "clave": "web:fad92e16-ef85-4bcc-b7ff-84f088f97a85|x",
+   "cuando": "2026-11-18T14:00:22.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123044114690150614"
   }
  ],
  "tandas": {
@@ -21079,7 +21079,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-18",
- "ultima_sync": "2026-11-18T13:00:19.000Z",
+ "ultima_sync": "2026-11-18T14:00:20.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21088,7 +21088,6 @@
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr": "2026-10-19T13:40:18.000Z",
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfebppjvmuc": "2026-10-19T15:40:14.000Z",
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3": "2026-10-20T00:00:19.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i": "2026-10-20T01:40:15.000Z",
@@ -21169,7 +21168,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvfawsecvwjh_01.mp4": "2026-10-19T14:00:19.000Z",
   "bot:video_matias-zucchi_mvfhhc1x2ipl_01.mp4": "2026-10-19T17:00:21.000Z",
   "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4": "2026-10-19T21:00:21.000Z",
   "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4": "2026-10-19T23:20:14.000Z",
@@ -21693,7 +21691,6 @@
   "web:51d406e0-8d07-4bc1-b1c2-9567feb03776": "2026-11-11T10:02:35.000Z",
   "web:51e471e5-2b2b-43ba-8451-9ac391cdb485": "2026-10-20T10:20:14.000Z",
   "web:520b9327-4abb-4720-aa44-9684331b9ca6": "2026-11-04T22:40:21.000Z",
-  "web:5253b590-963f-4a40-8acf-18a1f53713b5": "2026-10-19T14:00:19.000Z",
   "web:5296a026-93a3-4ae5-a568-78482a52580c": "2026-11-15T17:00:25.000Z",
   "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba": "2026-10-27T10:03:31.000Z",
   "web:52c96f09-7e84-4dea-9e97-24ab64aa6215": "2026-11-01T13:20:14.000Z",
@@ -21803,10 +21800,8 @@
   "web:83aa22b6-5664-4e7e-9984-1dfd644a5220": "2026-10-27T10:03:31.000Z",
   "web:840c7bf2-2055-47ae-b89c-be1e455da963": "2026-11-06T10:02:35.000Z",
   "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f": "2026-10-26T10:20:14.000Z",
-  "web:847aec7b-6e8c-4074-82b2-d77103ae355f": "2026-10-19T13:40:18.000Z",
   "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38": "2026-10-31T21:00:19.000Z",
   "web:85a57a4a-c0f1-48b4-91ec-5d0a6f439bdc": "2026-10-23T13:00:20.000Z",
-  "web:85b0f263-df46-4783-b4dd-311f977e50c9": "2026-10-19T14:00:19.000Z",
   "web:85c7c574-2535-4b4c-9aa4-cab46d956ea6": "2026-11-02T10:03:22.000Z",
   "web:86ad29b1-82b6-4e00-868b-4e29af5b4496": "2026-11-05T10:02:30.000Z",
   "web:872a2063-6765-4479-9b88-9ec7435019ea": "2026-11-04T10:20:13.000Z",
