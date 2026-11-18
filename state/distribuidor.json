@@ -1495,6 +1495,32 @@
    "volanta": "Junín",
    "youtube_url": "https://youtube.com/shorts/_2tfdoy0a4o"
   },
+  "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com": {
+   "categoria": "robo",
+   "descripcion": "Una Corven Energy 110 sustraída de madrugada fue hallada oculta entre la vegetación cerca del río Salado. La policía la ubicó en menos de dos horas mediante el seguimiento del COM.",
+   "distancia_km": 91.2,
+   "duracion_seg": 56.2,
+   "generado": "2026-11-18T00:32:05.000Z",
+   "id": "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-recuperan-una-moto-robada-en-menos-de-dos-horas-con-las-13161d",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Una motocicleta robada en Junín fue recuperada por la policía en menos de dos horas durante la madrugada.\n\nEl operativo se concretó mediante el monitoreo de las cámaras del COM y un rastrillaje cerca del río Salado.\n\nEl rodado estaba escondido entre la vegetación próxima al puente Posadas y la investigación quedó a cargo de la fiscalía interviniente.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Recuperan en menos de dos horas una moto robada en Junín tras seguirla por las cámaras",
+   "urgente": false,
+   "video_bytes": 1810949,
+   "video_mb": 1.7,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_10_junin_recuperan-en-menos-de-dos-hora.mp4",
+   "volanta": "Robo en Junín",
+   "youtube_url": "https://youtube.com/shorts/9Zffe-ZfP0M"
+  },
   "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina": {
    "categoria": "operativo_policial",
    "descripcion": "Durante el fin de semana largo, agentes municipales y policiales interceptaron una Ford EcoSport tras una persecución y cortaron una reunión no autorizada con hasta noventa asistentes.",
@@ -9481,14 +9507,14 @@
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x": {
-   "actualizado": "2026-11-17T22:40:13.000Z",
+   "actualizado": "2026-11-18T00:40:16.000Z",
    "buffer_id": "",
    "clave": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x",
    "creado": "2026-11-17T22:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-17T22:32:50.000Z",
    "id": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea",
    "intentos": 0,
@@ -9813,6 +9839,34 @@
    "vence": "2026-11-15T00:33:20.000Z",
    "video_bytes": 77309,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-14_2134_09_junin_m-ltiples-operativos-en-jun-n-.mp4",
+   "viral": false
+  },
+  "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com|x": {
+   "actualizado": "2026-11-18T00:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com|x",
+   "creado": "2026-11-18T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-18T00:32:05.000Z",
+   "id": "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-recuperan-una-moto-robada-en-menos-de-dos-horas-con-las-13161d",
+   "noticia": "nota:junin-recuperan-una-moto-robada-en-menos-de-dos-horas-con-las-13161d",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Recuperan en menos de dos horas una moto robada en Junín tras seguirla por las cámaras\n\nUna Corven Energy 110 sustraída de madrugada fue hallada oculta entre la vegetación cerca del río Salado. La policía la ubicó con el seguimiento del COM.\n\nhttps://www.diariolacampaña.com.ar/n/junin-recuperan-una-moto-robada-en-menos-de-dos-horas-con-las-13161d",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Recuperan en menos de dos horas una moto robada en Junín tras seguirla por las cámaras",
+   "urgente": false,
+   "vence": "2026-11-18T02:32:05.000Z",
+   "video_bytes": 1810949,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_10_junin_recuperan-en-menos-de-dos-hora.mp4",
    "viral": false
   },
   "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina|x": {
@@ -16170,19 +16224,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af44ac5b4e855103896e20e",
-   "clave": "web:ecbd39ca-e8d6-4701-920e-b903cf03fc41|x",
-   "cuando": "2026-11-11T11:00:21.000Z",
-   "dueAt": "2026-11-11T12:22:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:8bcf2503-f895-462b-af3a-dffcba6750bb|x",
-   "cuando": "2026-11-11T11:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120469842197111210"
-  },
-  {
    "clave": "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8|x",
    "cuando": "2026-11-11T11:20:18.000Z",
    "evento": "enviado",
@@ -20316,6 +20357,20 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com|x",
+   "cuando": "2026-11-18T00:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x",
+   "cuando": "2026-11-18T00:40:16.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
@@ -20717,6 +20772,7 @@
   "policiales:https://junin24.com/policiales/golpes-al-narcomenudeo-en-junin-tres-detenidos-en-allanamientos-en-la-celeste-y-la-captura-de-el-paisa-en-los-paraguayos": "2026-10-24T22:20:14.000Z",
   "policiales:https://junin24.com/policiales/la-ddi-junin-aprehendio-a-una-mujer-acusada-de-cometer-siete-robos-y-hurtos-en-la-ciudad": "2026-10-21T23:40:15.000Z",
   "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia": "2026-11-04T00:40:13.000Z",
+  "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com": "2026-11-18T00:40:14.000Z",
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero": "2026-10-26T22:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia": "2026-10-29T23:40:14.000Z",
   "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial": "2026-10-26T09:00:18.000Z",
@@ -21011,7 +21067,6 @@
   "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84": "2026-10-26T10:20:14.000Z",
   "web:589aada5-2294-49ca-8ee9-5c71fc761177": "2026-11-10T10:02:42.000Z",
   "web:58e141af-ad69-4845-a7f9-40c71d9349cb": "2026-11-16T10:03:28.000Z",
-  "web:593361c2-110f-4e68-b565-1c86df54fffe": "2026-10-19T00:40:14.000Z",
   "web:594e84e0-bc01-4c60-a132-6a7f872182e0": "2026-10-19T01:40:13.000Z",
   "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7": "2026-11-17T10:03:18.000Z",
   "web:5abbdc69-8f44-400c-8e8e-315798eae48e": "2026-11-17T18:40:17.000Z",

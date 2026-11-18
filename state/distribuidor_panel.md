@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 17/11/2026 21:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 4 | 0 | 1 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -29,7 +29,7 @@ Actualizado: 17/11/2026 21:20 (hora AR) · ACTIVO
 
 ## Cola propia (4 esperando)
 - X · Reels policiales · Temporal en Chacabuco: 55 milímetros de lluvia, evacuados y cortes de luz — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Investigan robo y destrozos en el cementerio de la localidad de Morea — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Recuperan en menos de dos horas una moto robada en Junín tras seguirla por las c — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Tres detenidos con armas de fuego en un campo de Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Alberti: un menor de 16 años herido tras chocar en moto contra una camioneta — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
@@ -37,8 +37,6 @@ Actualizado: 17/11/2026 21:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T18:40 programado bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
-- 2026-11-17T19:20 enviado bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
 - 2026-11-17T19:20 enviado entrevistas:job00322|x 
 - 2026-11-17T19:20 enviado entrevistas:job00323|x 
 - 2026-11-17T21:00 programado bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
@@ -62,3 +60,5 @@ Actualizado: 17/11/2026 21:20 (hora AR) · ACTIVO
 - 2026-11-17T23:40 enviado entrevistas:job00320|tiktok 
 - 2026-11-17T23:40 enviado entrevistas:job00321|tiktok 
 - 2026-11-18T00:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/ 
+- 2026-11-18T00:40 recibido policiales:https://junin24.com/policiales/rapido-accionar-po 
+- 2026-11-18T00:40 vencido policiales:https://9dejulio.diariotiempodigital.com/politica espera su momento (se programa cerca de la hora en que sale en las otras redes)
