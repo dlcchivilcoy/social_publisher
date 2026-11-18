@@ -4502,25 +4502,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-torneo-clausura-de-la-asociacion-de-chivilcoy-bragado-club",
    "volanta": "Básquet"
   },
-  "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Independiente venció a Villarino por el Torneo Clausura Por la fecha 12 del Torneo Clausura de la Liga Chivilcoyana de Fútbol, Independiente derrotó 3-0 a Villarino en un encuentro disputado el domingo 8 de noviembre en el estadio Raúl Orlando Lungarzo. El conjunto local resolvió el partido durante la primera etapa. Sacó ventaja rápidamente con dos tantos en el arranque y amplió la diferencia cerca del descanso, mientras que en el complemento el resultado no sufrió modificaciones....",
-   "generado": "2026-11-08T22:58:43.753Z",
-   "id": "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8be139425e8748adb1db05db3c90fcec~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Independiente venció a Villarino por el Torneo Clausura",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:a1327fb9-b591-4f76-841c-f71a579fcd51": {
    "categoria": "",
    "descripcion": "Chivilcoy: Dos jóvenes permanecen internados en Terapia Intensiva del Hospital Municipal tras graves accidentes CHIVILCOY.– La Unidad de Terapia Intensiva (UTI) del Hospital Municipal “Dr. Santiago Fornos” concentra por estas horas la atención médica sobre dos jóvenes que protagonizaron distintos y graves episodios en la ciudad en los últimos días. Se trata de un adolescente de 17 años herido durante la madrugada de este miércoles en Plaza España, y de Theo Posse Molina, de 19 años, quien...",
@@ -15106,31 +15087,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8|x": {
-   "actualizado": "2026-11-08T23:00:17.000Z",
-   "buffer_id": "",
-   "clave": "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8|x",
-   "creado": "2026-11-08T23:00:17.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-08T22:58:43.753Z",
-   "id": "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-independiente-vencio-a-villarino-por-el",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Independiente venció a Villarino por el Torneo Clausura",
-   "urgente": false,
-   "vence": "2026-11-09T02:58:43.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:a1327fb9-b591-4f76-841c-f71a579fcd51|x": {
    "actualizado": "2026-11-12T10:20:14.000Z",
    "buffer_id": "6af58f15100f73160cc4dbf3",
@@ -21594,7 +21550,6 @@
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron": "2026-10-26T23:20:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion": "2026-11-02T23:40:16.000Z",
   "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/": "2026-11-02T22:40:16.000Z",
-  "policiales:https://infociudad.com.ar/actualidad/san-antonio-de-areco-joven-fue-herido-con-bala-de-goma-tras-evadir-un-control-policial-en-moto/": "2026-10-19T23:00:18.000Z",
   "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos": "2026-11-16T23:20:29.000Z",
   "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas": "2026-10-27T23:20:16.000Z",
   "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea": "2026-11-01T23:40:14.000Z",
@@ -21903,7 +21858,6 @@
   "web:62ebb555-db92-4262-86b8-2f76e3982e4b": "2026-11-16T02:40:14.000Z",
   "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": "2026-10-26T10:20:14.000Z",
   "web:6541af24-4488-427f-95aa-ae535252bd65": "2026-11-02T18:20:16.000Z",
-  "web:660ce08b-5eea-4d96-ac71-12f7add445dd": "2026-10-19T23:00:18.000Z",
   "web:6660aa77-72e5-4b87-ac3a-0c96160d4930": "2026-11-15T01:00:17.000Z",
   "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b": "2026-10-28T10:20:19.000Z",
   "web:66bad44b-4ffb-4fe4-a2d7-800fe271a723": "2026-10-29T10:02:34.000Z",
