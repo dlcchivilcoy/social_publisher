@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 18/11/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/11/2026 09:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 6 | 7 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 6 | 8 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,14 +27,12 @@ Actualizado: 18/11/2026 09:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- X · Notas web · Racing de Chivilcoy venció a Lanús por la Liga Nacional — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T10:03 recibido web:93018c2f-e4af-4ca4-8846-c489c90f0853|x 
 - 2026-11-18T10:03 recibido web:747d5ae9-2756-46ee-8d93-309ec883e498|x 
 - 2026-11-18T10:03 recibido web:bb99a3ee-2a46-43f4-9098-145146c59f56|x 
 - 2026-11-18T10:03 recibido web:692034a6-2c77-4c88-827a-99bbd456a36c|x 
@@ -59,3 +57,4 @@ Actualizado: 18/11/2026 09:20 (hora AR) · ACTIVO
 - 2026-11-18T12:00 programado web:fad92e16-ef85-4bcc-b7ff-84f088f97a85|x 
 - 2026-11-18T12:20 recibido web:c4854cf8-a2b0-40af-8957-20584264a3a0|x 
 - 2026-11-18T12:20 programado web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90|x 
+- 2026-11-18T12:40 programado web:c4854cf8-a2b0-40af-8957-20584264a3a0|x 
