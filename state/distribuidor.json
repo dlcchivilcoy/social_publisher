@@ -4658,25 +4658,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-educacion-chivilcoy-el-programa-10-de-robotica-del-cuch",
    "volanta": "Chivilcoy · Educación"
   },
-  "web:aa54283b-118c-4bae-8790-73ed73c0006c": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Cristina Bracco presentó su libro Yo me parí CHIVILCOY.– En el salón de La Ronda Cultural, Cristina Bracco presentó este sábado su libro “Yo me parí”, una obra que comenzó a idear en su juventud y que, tras varios intentos, logró plasmar en papel. La publicación narra una historia personal atravesada por la discapacidad, la perseverancia y el deseo de relatar su propia experiencia, la cual definió como una vida “sobre ruedas”. Durante el encuentro, la autora relató cómo nació la...",
-   "generado": "2026-11-08T20:32:55.884Z",
-   "id": "web:aa54283b-118c-4bae-8790-73ed73c0006c",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_37bd4645bbad4976b6605cfe05909227~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Cristina Bracco presentó su libro Yo me parí",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
-   "volanta": "Chivilcoy · Cultura"
-  },
   "web:aa775535-c5f2-4a64-95ca-135757291376": {
    "categoria": "",
    "descripcion": "Chivilcoy: El Municipio continuará “las acciones legales para reclamar la deuda de PERCHET SAU” En un operativo judicial llevado a cabo con el auxilio de la fuerza pública, el Municipio tomó posesión del predio ocupado por la empresa Perchet en el Parque Industrial de Chivilcoy. El Director de Gobierno, Hugo Kübler, brindó detalles sobre las actuaciones realizadas y remarcó la intención del Ejecutivo local de poner la nave a disposición de nuevos proyectos productivos que generen empleo...",
@@ -15459,31 +15440,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:aa54283b-118c-4bae-8790-73ed73c0006c|x": {
-   "actualizado": "2026-11-08T20:40:12.000Z",
-   "buffer_id": "",
-   "clave": "web:aa54283b-118c-4bae-8790-73ed73c0006c|x",
-   "creado": "2026-11-08T20:40:12.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-08T20:32:55.884Z",
-   "id": "web:aa54283b-118c-4bae-8790-73ed73c0006c",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
-   "noticia": "nota:chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Cristina Bracco presentó su libro Yo me parí",
-   "urgente": false,
-   "vence": "2026-11-09T00:32:55.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:aa775535-c5f2-4a64-95ca-135757291376|x": {
    "actualizado": "2026-11-10T11:40:13.000Z",
    "buffer_id": "6af2ec21eea2cc573bb49928",
@@ -22344,7 +22300,6 @@
   "web:cd19d51a-2d12-4c2f-a5a7-6e89ce9ab386": "2026-11-07T18:40:16.000Z",
   "web:cda8454d-0a50-4bdf-a400-999d0e9be823": "2026-10-26T12:06:06.000Z",
   "web:ce117f38-054b-4f6b-92d7-4743edb8711b": "2026-10-23T10:02:47.000Z",
-  "web:ce515f56-0397-44d3-b63d-c656faf40928": "2026-10-19T20:20:15.000Z",
   "web:ce55311f-7f8e-46c0-8f9a-27108c261a21": "2026-10-26T15:20:14.000Z",
   "web:cf8b5d42-4d24-4bb4-aa24-4e67dc5953be": "2026-10-22T10:02:31.000Z",
   "web:d02ad89e-79f9-411b-86f5-added49bc1ff": "2026-10-23T02:00:16.000Z",
