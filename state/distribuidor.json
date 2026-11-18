@@ -5191,25 +5191,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/choque-auto-camion-un-vecino-de-alberti-murio-en-un-choque-frontal",
    "volanta": "Choque auto - camión"
   },
-  "web:eacc8d49-8717-44c4-bd52-91080cbfae81": {
-   "categoria": "",
-   "descripcion": "Douglas Haig venció 1 a 0 a Gimnasia en Pergamino En el marco del partido de ida por los cuartos de final, Douglas Haig superó por 1 a 0 a Gimnasia de Chivilcoy en la ciudad de Pergamino. El único tanto del encuentro fue convertido por Martín Schlotthauer de cabeza, tras un centro al área enviado por Pereira.",
-   "generado": "2026-11-07T23:39:17.529Z",
-   "id": "web:eacc8d49-8717-44c4-bd52-91080cbfae81",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_183ba53dcc8f4f8cb0aa82c64ee598a0~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Douglas Haig venció 1 a 0 a Gimnasia en Pergamino",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
-   "volanta": "Pergamino · Deportes"
-  },
   "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97": {
    "categoria": "",
    "descripcion": "Chivilcoy: Baja presión de agua por una falla eléctrica en ABSA CHIVILCOY.– El desperfecto afecta al sistema central que abastece a la ciudad. Personal de ABSA y EDEN trabaja para reparar la instalación y recuperar el servicio. Una falla eléctrica en la planta principal de ABSA provoca una baja generalizada en la presión del agua en Chivilcoy este martes 17 de noviembre. Según la información difundida por la prestataria, los inconvenientes comenzaron durante el temporal de la noche del lunes,...",
@@ -15871,33 +15852,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:eacc8d49-8717-44c4-bd52-91080cbfae81|x": {
-   "actualizado": "2026-11-07T23:40:24.000Z",
-   "buffer_id": "",
-   "clave": "web:eacc8d49-8717-44c4-bd52-91080cbfae81|x",
-   "creado": "2026-11-07T23:40:13.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-07T23:39:17.529Z",
-   "id": "web:eacc8d49-8717-44c4-bd52-91080cbfae81",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
-   "noticia": "nota:pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Douglas Haig venció 1 a 0 a Gimnasia en Pergamino\n\nPor la ida de cuartos de final, Martín Schlotthauer convirtió de cabeza tras un centro de Pereira para el triunfo del conjunto local ante Gimnasia de Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/pergamino-deportes-douglas-haig-vencio-1-a-0-a-gimnasia-en-pergamino",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Douglas Haig venció 1 a 0 a Gimnasia en Pergamino",
-   "urgente": false,
-   "vence": "2026-11-08T03:39:17.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97|x": {
    "actualizado": "2026-11-17T18:00:35.000Z",
    "buffer_id": "",
@@ -20411,7 +20365,6 @@
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-07 21",
    "2026-11-08 10",
    "2026-11-08 18",
    "2026-11-08 21",
@@ -20440,10 +20393,11 @@
    "2026-11-16 18",
    "2026-11-16 21",
    "2026-11-17 10",
-   "2026-11-17 18"
+   "2026-11-17 18",
+   "2026-11-17 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-17",
+ "ultima_limpieza_release": "2026-11-18",
  "ultima_sync": "2026-11-17T23:40:23.000Z",
  "version": 1,
  "vistos": {
@@ -20451,6 +20405,7 @@
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
+  "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
   "bot:corresponsal_2026-10-19_matias-zucchi_mvf9n9phq2rn": "2026-10-19T13:20:16.000Z",
   "bot:corresponsal_2026-10-19_matias-zucchi_mvfa1lwyrpyr": "2026-10-19T13:40:18.000Z",
@@ -20532,6 +20487,7 @@
   "bot:corresponsal_2026-11-07_matias-zucchi_mw5temp2tz8d": "2026-11-07T09:00:16.000Z",
   "bot:corresponsal_2026-11-07_matias-zucchi_mw71bysj8ui2": "2026-11-07T23:40:13.000Z",
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
+  "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
   "bot:video_matias-zucchi_mveix6pkl8zn_01.mp4": "2026-10-19T01:00:18.000Z",
   "bot:video_matias-zucchi_mvf5mjawvjoi_01.mp4": "2026-10-19T11:20:14.000Z",
@@ -21465,7 +21421,7 @@
   "web:eaf28054-4d3b-40e6-97eb-693de73680a8": "2026-11-03T11:40:14.000Z",
   "web:eafd3864-774e-4c8f-af94-8eabecbba4fa": "2026-11-07T21:00:17.000Z",
   "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f": "2026-11-03T10:02:22.000Z",
-  "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97": "2026-11-17T18:00:24.000Z",
+  "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97": "2026-11-18T00:00:18.000Z",
   "web:ebbf648a-9d99-42b0-ac31-da6b00f8f29a": "2026-10-19T01:00:18.000Z",
   "web:ec62b06a-31c0-4f2f-8f9b-bd9944187ce9": "2026-10-23T22:40:17.000Z",
   "web:eca084c4-f470-4290-a9ab-e8a57e117475": "2026-10-26T12:06:06.000Z",
