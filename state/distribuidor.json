@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 4,
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-18T18:40:13.000Z"
+   "visto": "2026-11-18T21:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 20
+    "sent": 19
    },
    "pausado": false,
-   "visto": "2026-11-18T18:40:13.000Z"
+   "visto": "2026-11-18T21:20:15.000Z"
   }
  },
  "contenidos": {
@@ -6847,19 +6847,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok": {
-   "actualizado": "2026-11-18T21:00:20.000Z",
+   "actualizado": "2026-11-18T21:20:15.000Z",
    "buffer_id": "6afe11e60d8c064ce4d65a8a",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok",
    "creado": "2026-11-18T16:00:21.000Z",
    "dueAt": "2026-11-18T21:03:31.000Z",
+   "enviado": "2026-11-18T21:05:53.036Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-18T15:44:46.000Z",
    "id": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7709620276052495637",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -17208,12 +17209,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76483/crimen-en-mechita-una-pista-desde-la-carcel-permitio-esclarecer-el-asesinato|x",
-   "cuando": "2026-11-11T23:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120643560319975871"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|x",
    "cuando": "2026-11-12T00:20:20.000Z",
    "estado": "pendiente",
@@ -21367,6 +21362,12 @@
    "cuando": "2026-11-18T21:00:31.000Z",
    "dueAt": "2026-11-18T22:23:14.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok",
+   "cuando": "2026-11-18T21:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7709620276052495637"
   }
  ],
  "tandas": {
@@ -21404,7 +21405,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-18",
- "ultima_sync": "2026-11-18T18:40:13.000Z",
+ "ultima_sync": "2026-11-18T21:20:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21908,7 +21909,6 @@
   "web:2412c923-bb37-4065-b81b-1dac0777e220": "2026-10-20T01:00:18.000Z",
   "web:268e66c4-69d7-4958-b487-b115fffbc1a1": "2026-11-13T02:20:15.000Z",
   "web:26b25411-f69f-490e-8bb8-4a36156faf79": "2026-11-05T10:02:30.000Z",
-  "web:26f30cdf-958e-4e3d-9ada-014ceb8a7de4": "2026-10-19T21:20:14.000Z",
   "web:27dc8470-4f21-4899-9a5b-ad57413cf2f3": "2026-10-21T10:02:08.000Z",
   "web:27dff6dd-cc71-429b-b4b6-cd136b76a346": "2026-10-28T01:00:19.000Z",
   "web:280999ac-1b54-4b50-93c1-5c7aa19298cf": "2026-10-22T10:02:31.000Z",

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 18:00 (hora AR) · ACTIVO
+Actualizado: 18/11/2026 18:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 18/11/2026 18:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 20 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 19 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 1 enviadas + 4 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 37 con métricas · mediana vistas/impresiones 50 · likes 0
@@ -33,7 +33,6 @@ Actualizado: 18/11/2026 18:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T16:40 entrevista_aprobada entrevistas:job00324 
 - 2026-11-18T16:40 recibido entrevistas:job00324|x 
 - 2026-11-18T16:40 recibido entrevistas:job00324|tiktok 
 - 2026-11-18T16:40 programado entrevistas:job00324|x 
@@ -58,3 +57,4 @@ Actualizado: 18/11/2026 18:00 (hora AR) · ACTIVO
 - 2026-11-18T21:00 programado entrevistas:job00326|tiktok 
 - 2026-11-18T21:00 programado entrevistas:job00325|tiktok 
 - 2026-11-18T21:00 programado entrevistas:job00324|tiktok 
+- 2026-11-18T21:20 enviado bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok 
