@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 13:20 (hora AR) · ACTIVO
+Actualizado: 18/11/2026 13:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,17 +27,14 @@ Actualizado: 18/11/2026 13:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
 - TikTok · Reels del bot · Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Esteban Lobianco: medidas contra padres en Colón — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T11:40 enviado web:692034a6-2c77-4c88-827a-99bbd456a36c|x 
-- 2026-11-18T11:40 enviado web:747d5ae9-2756-46ee-8d93-309ec883e498|x 
-- 2026-11-18T11:40 enviado web:93018c2f-e4af-4ca4-8846-c489c90f0853|x 
-- 2026-11-18T11:40 enviado web:bb99a3ee-2a46-43f4-9098-145146c59f56|x 
 - 2026-11-18T11:40 programado web:09d582bb-d391-4be5-adf7-75cec83c05fe|x 
 - 2026-11-18T11:40 programado web:44289470-403b-4f8c-b4f2-0f1d3fba55d0|x 
 - 2026-11-18T12:00 programado web:fad92e16-ef85-4bcc-b7ff-84f088f97a85|x 
@@ -59,3 +56,7 @@ Actualizado: 18/11/2026 13:20 (hora AR) · ACTIVO
 - 2026-11-18T16:00 recibido web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-18T16:00 programado bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x 
 - 2026-11-18T16:20 enviado bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x 
+- 2026-11-18T16:40 entrevista_aprobada entrevistas:job00324 
+- 2026-11-18T16:40 recibido entrevistas:job00324|x 
+- 2026-11-18T16:40 recibido entrevistas:job00324|tiktok 
+- 2026-11-18T16:40 programado entrevistas:job00324|x 

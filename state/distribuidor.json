@@ -1188,6 +1188,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00323.mp4",
    "youtube_url": "https://youtu.be/k5Yeu915hJw"
   },
+  "entrevistas:job00324": {
+   "descripcion": "En Chivilcoy, el dirigente del Club Colón, Esteban Lobianco, explicó las estrictas sanciones formativas que aplican si los padres insultan desde la tribuna o si los chicos cometen faltas graves.",
+   "duracion_seg": null,
+   "entrevistado": "Esteban Lobianco",
+   "generado": "2026-11-18T16:40:16.000Z",
+   "id": "entrevistas:job00324",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Esteban Lobianco: medidas contra padres en Colón",
+   "urgente": false,
+   "video_bytes": 23205806,
+   "video_mb": 22.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00324.mp4",
+   "youtube_url": "https://youtu.be/6cWW9ZTs4_U"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": {
    "categoria": "robo",
    "descripcion": "Investigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.",
@@ -9807,6 +9828,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00323.mp4",
    "viral": false
   },
+  "entrevistas:job00324|tiktok": {
+   "actualizado": "2026-11-18T16:40:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00324|tiktok",
+   "creado": "2026-11-18T16:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-18T16:40:16.000Z",
+   "id": "entrevistas:job00324",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Esteban Lobianco: medidas contra padres en Colón\n\nEn Chivilcoy, el dirigente del Club Colón, Esteban Lobianco, explicó las estrictas sanciones formativas que aplican si los padres insultan desde la tribuna o si los chicos cometen faltas graves.\n\nhttps://youtu.be/6cWW9ZTs4_U\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Esteban Lobianco: medidas contra padres en Colón",
+   "urgente": false,
+   "vence": "2026-11-20T16:40:16.000Z",
+   "video_bytes": 23205806,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00324.mp4",
+   "viral": false
+  },
+  "entrevistas:job00324|x": {
+   "actualizado": "2026-11-18T16:40:17.000Z",
+   "buffer_id": "6afdd4f2ff73344f88fd6544",
+   "clave": "entrevistas:job00324|x",
+   "creado": "2026-11-18T16:40:16.000Z",
+   "dueAt": "2026-11-18T16:42:01.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-18T16:40:16.000Z",
+   "id": "entrevistas:job00324",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:colon-esteban-lobianco-medidas-padres",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Esteban Lobianco: medidas contra padres en Colón\n\nEn Chivilcoy, el dirigente del Club Colón, Esteban Lobianco, explicó las estrictas sanciones formativas que aplican si los padres insultan desde la tribuna o si los chicos cometen faltas graves.\n\nhttps://youtu.be/6cWW9ZTs4_U",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Esteban Lobianco: medidas contra padres en Colón",
+   "urgente": false,
+   "vence": "2026-11-18T18:40:16.000Z",
+   "video_bytes": 23205806,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00324.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x": {
    "actualizado": "2026-11-18T00:40:16.000Z",
    "buffer_id": "",
@@ -17058,33 +17135,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00303-r1",
-   "cuando": "2026-11-11T20:00:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00303-r1|x",
-   "cuando": "2026-11-11T20:00:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00303-r1|tiktok",
-   "cuando": "2026-11-11T20:00:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00302|x",
-   "cuando": "2026-11-11T20:00:25.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120588068360982852"
-  },
-  {
    "clave": "entrevistas:job00303|x",
    "cuando": "2026-11-11T20:00:25.000Z",
    "evento": "enviado",
@@ -21214,6 +21264,34 @@
    "cuando": "2026-11-18T16:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123085968970219826"
+  },
+  {
+   "clave": "entrevistas:job00324",
+   "cuando": "2026-11-18T16:40:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00324|x",
+   "cuando": "2026-11-18T16:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00324|tiktok",
+   "cuando": "2026-11-18T16:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6afdd4f2ff73344f88fd6544",
+   "clave": "entrevistas:job00324|x",
+   "cuando": "2026-11-18T16:40:18.000Z",
+   "dueAt": "2026-11-18T16:42:01.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21514,6 +21592,7 @@
   "entrevistas:job00322": "2026-11-17T18:00:24.000Z",
   "entrevistas:job00322-r1": "2026-11-17T18:20:12.000Z",
   "entrevistas:job00323": "2026-11-17T18:20:12.000Z",
+  "entrevistas:job00324": "2026-11-18T16:40:16.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:0f149db2f4d13c80": "2026-10-23T22:00:20.000Z",
   "nacionales:10671478a956c2ad": "2026-10-20T22:20:13.000Z",
