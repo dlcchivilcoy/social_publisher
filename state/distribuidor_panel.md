@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 22:20 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 22:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 17/11/2026 22:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 3 | 0 | 2 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -18,17 +18,16 @@ Actualizado: 17/11/2026 22:20 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 33 con métricas · mediana vistas/impresiones 47 · likes 0
-- X · Reels del bot: 12 con métricas · mediana vistas/impresiones 55.5 · likes 0
-- X · Reels policiales: 14 con métricas · mediana vistas/impresiones 78 · likes 0
+- X · Reels del bot: 11 con métricas · mediana vistas/impresiones 55 · likes 0
+- X · Reels policiales: 13 con métricas · mediana vistas/impresiones 78 · likes 0
 - X · Notas web: 91 con métricas · mediana vistas/impresiones 20 · likes 0
 - TikTok · Recortes de entrevistas: 33 con métricas · mediana vistas/impresiones 160 · likes 1
-- TikTok · Reels del bot: 15 con métricas · mediana vistas/impresiones 247 · likes 4
+- TikTok · Reels del bot: 13 con métricas · mediana vistas/impresiones 238 · likes 3
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
-- X · Reels policiales · Temporal en Chacabuco: 55 milímetros de lluvia, evacuados y cortes de luz — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (2 esperando)
 - X · Reels policiales · Recuperan en menos de dos horas una moto robada en Junín tras seguirla por las c — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Tres detenidos con armas de fuego en un campo de Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
@@ -36,7 +35,6 @@ Actualizado: 17/11/2026 22:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T19:20 enviado entrevistas:job00323|x 
 - 2026-11-17T21:00 programado bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7 
 - 2026-11-17T21:00 programado bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok 
 - 2026-11-17T21:00 programado entrevistas:job00322-r1|tiktok 
@@ -61,3 +59,4 @@ Actualizado: 17/11/2026 22:20 (hora AR) · ACTIVO
 - 2026-11-18T00:40 recibido policiales:https://junin24.com/policiales/rapido-accionar-po 
 - 2026-11-18T00:40 vencido policiales:https://9dejulio.diariotiempodigital.com/politica espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-18T01:20 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-18T01:40 vencido policiales:https://www.diariodemocracia.com/ciudad/chacabuco espera su momento (se programa cerca de la hora en que sale en las otras redes)
