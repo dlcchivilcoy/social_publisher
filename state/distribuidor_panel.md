@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 08:00 (hora AR) · ACTIVO
+Actualizado: 18/11/2026 08:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/11/2026 08:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 7 | 5 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 8 | 4 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,18 +27,16 @@ Actualizado: 18/11/2026 08:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (4 esperando)
 - X · Notas web · Valentino Iberro y una destacada actuación en la fecha doble de Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Triunfo chivilcoyano en el cierre del Rally Serie: Romina Caballo y Pamela Marti — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Los Millonarios y San Lorenzo protagonizarán la gran final de la Copa — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Contundentes en el "Carlos Aiello": Argentino de Chivilcoy debutó con una golead — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Maximiliano Robledo y El Olimpo van por la gloria en la LICHFA: "No hay segunda  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T01:40 vencido policiales:https://www.diariodemocracia.com/ciudad/chacabuco espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-18T02:20 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-18T02:40 vencido policiales:https://junin24.com/policiales/rapido-accionar-po espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-18T10:03 recibido web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90|x 
@@ -63,3 +61,4 @@ Actualizado: 18/11/2026 08:00 (hora AR) · ACTIVO
 - 2026-11-18T10:20 programado web:34ca221c-d3ad-47c6-a684-17ca82485f5e|x 
 - 2026-11-18T10:40 programado web:32285d1a-8731-4ac5-bc68-d2258419ed2b|x 
 - 2026-11-18T11:00 programado web:6b678702-87da-4470-9680-6bda53c0a3ee|x 
+- 2026-11-18T11:20 programado web:9d8ecd66-8e74-41a7-9a81-7553d8501625|x 
