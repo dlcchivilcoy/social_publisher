@@ -231,8 +231,8 @@
     "creado": "2026-11-13T12:32-03:00",
     "intentos": 0,
     "resultado": {
-      "fb_historia": "1619675062525469",
-      "ig_historia": "18033994337684021"
+      "fb_historia": "1690926312654083",
+      "ig_historia": "18650407090010480"
     },
     "salidas": [
       {
@@ -274,9 +274,17 @@
           "ig_historia": "18033994337684021"
         },
         "fallas": []
+      },
+      {
+        "momento": "2026-11-18T20:00-03:00",
+        "ids": {
+          "fb_historia": "1690926312654083",
+          "ig_historia": "18650407090010480"
+        },
+        "fallas": []
       }
     ],
-    "ultima_salida": "2026-11-17T20:00-03:00",
+    "ultima_salida": "2026-11-18T20:00-03:00",
     "ultimo_error": ""
   }
 ]
