@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 12:40 (hora AR) · ACTIVO
+Actualizado: 18/11/2026 13:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,13 @@ Actualizado: 18/11/2026 12:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Reels del bot · Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T10:20 programado web:34ca221c-d3ad-47c6-a684-17ca82485f5e|x 
-- 2026-11-18T10:40 programado web:32285d1a-8731-4ac5-bc68-d2258419ed2b|x 
-- 2026-11-18T11:00 programado web:6b678702-87da-4470-9680-6bda53c0a3ee|x 
-- 2026-11-18T11:20 programado web:9d8ecd66-8e74-41a7-9a81-7553d8501625|x 
 - 2026-11-18T11:40 enviado web:34ca221c-d3ad-47c6-a684-17ca82485f5e|x 
 - 2026-11-18T11:40 enviado web:692034a6-2c77-4c88-827a-99bbd456a36c|x 
 - 2026-11-18T11:40 enviado web:747d5ae9-2756-46ee-8d93-309ec883e498|x 
@@ -58,3 +55,7 @@ Actualizado: 18/11/2026 12:40 (hora AR) · ACTIVO
 - 2026-11-18T14:00 enviado web:fad92e16-ef85-4bcc-b7ff-84f088f97a85|x 
 - 2026-11-18T15:40 recibido web:e9cee33f-5562-4cef-aec9-c786a2894f5c|x 
 - 2026-11-18T15:40 depurado web:e9cee33f-5562-4cef-aec9-c786a2894f5c|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-18T16:00 recibido bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x 
+- 2026-11-18T16:00 recibido bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok 
+- 2026-11-18T16:00 recibido web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-18T16:00 programado bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x 

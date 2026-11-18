@@ -369,6 +369,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d66471733a81d89.mp4",
    "youtube_url": "https://www.youtube.com/shorts/CYZqCuNmAA8"
   },
+  "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4": {
+   "descripcion": "Atiadim y el grupo Kilómetros que Ayudan impulsan dos iniciativas solidarias en Chivilcoy con el objetivo de recaudar fondos para reactivar las propuestas acuáticas de verano destinadas a los chicos, jóvenes y adultos que asisten a la institución.\n\nLa primera actividad programada consiste en una venta de pollos asados con ensalada, prevista para el domingo 29 de noviembre al mediodía. Federico Fage, integrante de Kilómetros que Ayudan, señaló que la preventa ya está en marcha y que las reservas pueden coordinarse a través de las redes sociales de ambas entidades.\n\nLa segunda propuesta se desarrollará el domingo 6 de diciembre y consistirá en una bicicleteada solidaria y participativa por caminos rurales. El recorrido abarcará aproximadamente 25 kilómetros, sin modalidad competitiva, y se requerirá el uso obligatorio del casco para quienes formen parte del trayecto.\n\nFernanda Ré y Marcelo Videla destacaron la importancia de estas actividades para sostener un espacio valioso de recreación e inclusión, ya que lo recaudado permitirá cubrir los gastos operativos y el personal necesario para las jornadas de verano.",
+   "duracion_seg": 60.3,
+   "generado": "2026-11-18T15:44:46.000Z",
+   "id": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios",
+   "urgente": false,
+   "video_bytes": 4651078,
+   "video_mb": 4.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_61e46f1480540eb6.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/6YSzOjJz5kU"
+  },
   "entrevistas:job00289": {
    "descripcion": "El cura párroco Ricardo Rodriguez destacó la participación de vecinos de Chivilcoy en la misa papal. Un diácono y una joven de la comunidad tendrán roles protagónicos durante la celebración.",
    "duracion_seg": null,
@@ -3051,6 +3072,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras",
    "volanta": "Alberti · Policiales"
+  },
+  "web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios Atiadim y el grupo Kilómetros que Ayudan preparan dos actividades solidarias en Chivilcoy con un objetivo común: reunir los recursos necesarios para volver a poner en marcha la actividad acuática durante el verano. La iniciativa incluye una venta de pollos asados con ensalada y una bicicleteada por caminos rurales. Marcelo Videla explicó que la propuesta surge de la necesidad de recuperar una actividad importante para...",
+   "generado": "2026-11-18T15:44:13.779Z",
+   "id": "web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5dfc8b9b44524d93979b12d6ecc2fc7b~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
+   "volanta": "Chivilcoy · Solidaridad"
   },
   "web:3d3373dd-ee69-4fc7-a39d-0aec74b76b6e": {
    "categoria": "",
@@ -6832,6 +6872,62 @@
    "vence": "2026-11-17T17:07:13.000Z",
    "video_bytes": 2511993,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d66471733a81d89.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok": {
+   "actualizado": "2026-11-18T16:00:21.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok",
+   "creado": "2026-11-18T16:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-18T15:44:46.000Z",
+   "id": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios\n\nAmbas entidades impulsan una venta de pollos y una bicicleteada participativa en Chivilcoy para recaudar fondos. Fernanda Ré y Marcelo Videla destacaron la importancia de estas iniciativas para reactivar propuestas acuáticas de recreación e inclusión destinadas a quienes asisten a la institución.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios",
+   "urgente": false,
+   "vence": "2026-11-20T15:44:46.000Z",
+   "video_bytes": 4651078,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_61e46f1480540eb6.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x": {
+   "actualizado": "2026-11-18T16:00:31.000Z",
+   "buffer_id": "6afdcba0ff73344f88f8c34d",
+   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x",
+   "creado": "2026-11-18T16:00:21.000Z",
+   "dueAt": "2026-11-18T16:02:12.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-18T15:44:46.000Z",
+   "id": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
+   "noticia": "nota:chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios",
+   "urgente": false,
+   "vence": "2026-11-18T17:44:46.000Z",
+   "video_bytes": 4651078,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_61e46f1480540eb6.mp4",
    "viral": false
   },
   "entrevistas:job00289|tiktok": {
@@ -12434,6 +12530,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35|x": {
+   "actualizado": "2026-11-18T16:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35|x",
+   "creado": "2026-11-18T16:00:21.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-18T15:44:13.779Z",
+   "id": "web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
+   "noticia": "nota:chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios",
+   "urgente": false,
+   "vence": "2026-11-18T19:44:13.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:3d3373dd-ee69-4fc7-a39d-0aec74b76b6e|x": {
    "actualizado": "2026-11-12T12:40:16.000Z",
    "buffer_id": "6af5978d49bcfed3aa779c8b",
@@ -16936,34 +17057,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af4b692f0d62ba60e2a668e",
-   "clave": "entrevistas:job00302|x",
-   "cuando": "2026-11-11T18:40:18.000Z",
-   "dueAt": "2026-11-11T18:42:24.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00303",
-   "cuando": "2026-11-11T19:20:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00303|x",
-   "cuando": "2026-11-11T19:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00303|tiktok",
-   "cuando": "2026-11-11T19:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
    "buffer_id": "6af4bff10e1aab0352b2828d",
    "clave": "entrevistas:job00303|x",
    "cuando": "2026-11-11T19:20:17.000Z",
@@ -21090,6 +21183,37 @@
    "cuando": "2026-11-18T15:40:21.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x",
+   "cuando": "2026-11-18T16:00:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok",
+   "cuando": "2026-11-18T16:00:31.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35|x",
+   "cuando": "2026-11-18T16:00:31.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6afdcba0ff73344f88f8c34d",
+   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x",
+   "cuando": "2026-11-18T16:00:33.000Z",
+   "dueAt": "2026-11-18T16:02:12.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21288,6 +21412,7 @@
   "bot:video_matias-zucchi_mwjsvheuls91_01.mp4": "2026-11-16T22:20:13.000Z",
   "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4": "2026-11-17T09:00:20.000Z",
   "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4": "2026-11-17T15:20:16.000Z",
+  "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4": "2026-11-18T16:00:21.000Z",
   "entrevistas:job00224": "2026-10-19T16:20:14.000Z",
   "entrevistas:job00225": "2026-10-19T17:00:21.000Z",
   "entrevistas:job00226": "2026-10-19T17:20:14.000Z",
@@ -21419,9 +21544,7 @@
   "nacionales:b164c7aa50445aed": "2026-10-21T01:20:15.000Z",
   "nacionales:b3aa9eb0744c0822": "2026-10-22T01:00:18.000Z",
   "nacionales:b7b1426a9ab6b8b3": "2026-10-22T01:20:15.000Z",
-  "nacionales:cb2e9c67cd146106": "2026-10-19T16:00:16.000Z",
   "nacionales:d553fbc1ee6752bd": "2026-10-19T23:20:14.000Z",
-  "nacionales:dc18047933ea00df": "2026-10-19T16:00:16.000Z",
   "nacionales:e25c9cf3646e5306": "2026-10-22T21:20:13.000Z",
   "nacionales:f1cea0fec08ce954": "2026-10-23T22:20:15.000Z",
   "nacionales:f8740af29dcd48f9": "2026-10-23T01:20:18.000Z",
@@ -21580,7 +21703,6 @@
   "web:04a24de3-2093-4b59-8e4e-5da6fa217039": "2026-11-04T09:00:19.000Z",
   "web:053f7722-ce93-4d22-9679-cc89862bee76": "2026-10-20T10:20:14.000Z",
   "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067": "2026-11-11T10:02:35.000Z",
-  "web:071fe0d7-07fd-406f-9b34-979c80fb37a2": "2026-10-19T16:00:16.000Z",
   "web:07ef819a-940d-48e5-aee9-922cce690ab8": "2026-10-23T19:00:17.000Z",
   "web:07f6b77f-a719-48eb-ab59-425617675b7f": "2026-11-10T14:00:21.000Z",
   "web:088386b2-2c10-423c-848f-4605d2b2e0e5": "2026-11-02T10:03:22.000Z",
@@ -21683,6 +21805,7 @@
   "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd": "2026-10-26T10:20:14.000Z",
   "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f": "2026-11-10T13:40:15.000Z",
   "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44": "2026-10-22T00:40:17.000Z",
+  "web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35": "2026-11-18T16:00:21.000Z",
   "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac": "2026-11-05T22:40:14.000Z",
   "web:3d2d2bf3-c64a-4bb5-bf4b-5dc8ac6b2980": "2026-10-21T10:20:15.000Z",
   "web:3d3373dd-ee69-4fc7-a39d-0aec74b76b6e": "2026-11-12T10:02:44.000Z",
