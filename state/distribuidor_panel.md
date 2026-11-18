@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 17/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 17/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-17)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 17/11/2026 23:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 1 | 0 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 4 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 0 | 0 | 5 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,14 +27,12 @@ Actualizado: 17/11/2026 23:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- X · Reels policiales · Recuperan en menos de dos horas una moto robada en Junín tras seguirla por las c — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-17T21:00 programado bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok 
 - 2026-11-17T21:00 programado entrevistas:job00322-r1|tiktok 
 - 2026-11-17T21:00 programado entrevistas:job00323|tiktok 
 - 2026-11-17T21:00 programado entrevistas:job00322|tiktok 
@@ -59,3 +57,4 @@ Actualizado: 17/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-18T01:20 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-18T01:40 vencido policiales:https://www.diariodemocracia.com/ciudad/chacabuco espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-18T02:20 vencido policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/ espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-18T02:40 vencido policiales:https://junin24.com/policiales/rapido-accionar-po espera su momento (se programa cerca de la hora en que sale en las otras redes)
