@@ -120,6 +120,37 @@ def _fb_intervalo_seg() -> int:
         return 900
 
 
+TZ_AR = timezone(timedelta(hours=-3))
+FB_HASTA_DEFECTO = "08:00"
+FB_INTERVALO_MIN_SEG = 180
+
+
+def _fb_hasta(ahora: datetime | None = None) -> datetime | None:
+    """Hasta qué hora tienen que haber salido todas las notas en Facebook (NOTAS_FB_HASTA, «08:00»).
+    18/11/2026, pedido del editor por el informe de métricas («en face … ponelos más temprano, de 6 a 8 am»:
+    a las 6 rinden más del triple que el promedio). «0» lo apaga y vuelve al intervalo fijo."""
+    crudo = str(get("NOTAS_FB_HASTA") or FB_HASTA_DEFECTO).strip()
+    if crudo in ("0", ""):
+        return None
+    try:
+        h, m = (int(x) for x in crudo.split(":"))
+    except ValueError:
+        return None
+    ahora = ahora or datetime.now(TZ_AR)
+    return ahora.replace(hour=h, minute=m, second=0, microsecond=0)
+
+
+def _fb_intervalo_para(pendientes: int, ahora: datetime | None = None) -> int:
+    """Segundos entre nota y nota: los de NOTAS_FB_INTERVALO_MIN, achicados para que la última salga antes
+    de NOTAS_FB_HASTA (nunca menos de 3 minutos). Si ya pasó esa hora, el intervalo de siempre."""
+    base = _fb_intervalo_seg()
+    ahora = ahora or datetime.now(TZ_AR)
+    hasta = _fb_hasta(ahora)
+    if pendientes < 2 or hasta is None or hasta <= ahora:
+        return base
+    return min(base, max(FB_INTERVALO_MIN_SEG, int((hasta - ahora).total_seconds() // (pendientes - 1))))
+
+
 # ── Posteo de cada nota en Facebook: SUBIENDO LA FOTO PROPIA (imagen garantizada) ─────
 # No se puede confiar en que Facebook arme la tarjeta del link: cuando scrapea una nota
 # de Wix RECIÉN publicada, el Open Graph todavía no está propagado para robots (tarda
@@ -242,8 +273,8 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
     logger.info(f"[facebook] {len(pending)} nota(s) para postear ({modo}, una por una)…")
 
     sin_url, errores = [], []
-    intervalo = _fb_intervalo_seg()
-    logger.info(f"[facebook] una nota cada {intervalo // 60} min")
+    intervalo = _fb_intervalo_para(len(pending))
+    logger.info(f"[facebook] una nota cada {intervalo / 60:.1f} min")
     ultimo = None
     # 2026-11-02: la misma nota estaba DOS veces en la carpeta (Angelina Reyes, dos .docx con el mismo
     # titular): se cargó dos veces en la web y Facebook la habría posteado dos veces. Un titular que ya

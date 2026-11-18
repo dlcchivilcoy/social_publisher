@@ -144,6 +144,27 @@ idx = ET.indice(reg)
 chequear("policiales, nacionales, carrusel de las 22 y pregunta del día por id",
          idx["i1"]["origen"] == "Policiales" and idx["i2"]["categoria"] == "economia" and idx["999"]["origen"] == "Nacionales"
          and idx["c1"]["origen"].startswith("Nacionales · carrusel") and idx["a1"]["origen"] == "Pregunta del día")
+# 18/11/2026: los reels de prueba y los virales, aparte
+reg2 = {"publicados.json": {"u1": {"titular": "P", "instagram": {"id": "i1"}, "ig_prueba": {"id": "pp1"}}},
+        "nacionales.json": {"piezas": {
+            "v1": {"titular": "Tucán", "categoria": "virales", "ig_prueba": {"id": "pv1"}},
+            "v2": {"titular": "Mono", "categoria": "virales", "prueba": "virales", "ig_prueba": {"id": "pv2"},
+                   "facebook": {"id": "fv2"}},
+            "v3": {"titular": "Viral normal", "categoria": "virales", "instagram": {"id": "iv3"}},
+            "p1": {"titular": "Choque", "categoria": "policiales", "prueba": "policiales", "ig_prueba": {"id": "pp2"},
+                   "facebook": {"id": "fp2"}}}}}
+idx2 = ET.indice(reg2)
+chequear("reels de prueba de virales y de policiales, aparte",
+         idx2["pv1"]["origen"] == idx2["pv2"]["origen"] == ET.PRUEBA_VIRALES
+         and idx2["pp1"]["origen"] == idx2["pp2"]["origen"] == ET.PRUEBA_POLICIALES and idx2["i1"]["origen"] == "Policiales")
+chequear("virales normales y la copia en FB de los de prueba, con su propio nombre",
+         idx2["iv3"]["origen"] == idx2["fv2"]["origen"] == ET.VIRALES and idx2["fp2"]["origen"] == ET.COPIA_POLICIALES)
+from metricas_redes import recolector as _REC  # noqa: E402
+_d = {"posteos": {"ig:pv1": {"id": "pv1", "origen": "Videos propios (entrevistas y corresponsales)"},
+                  "ig:zz": {"id": "zz", "origen": "Otros"}}}
+chequear("lo ya medido se pone al día (y lo que no está en los registros queda igual)",
+         _REC.reetiquetar(_d, idx2) == 1 and _d["posteos"]["ig:pv1"]["origen"] == ET.PRUEBA_VIRALES
+         and _d["posteos"]["ig:zz"]["origen"] == "Otros")
 chequear("el resto por el texto: notas de la mañana, entrevistas, notas en reel, agro",
          ET.origen_por_texto("FÚTBOL | 📰 Racing ganó", "carrusel")[0].startswith("Notas del diario")
          and ET.origen_por_texto("Poggio: «Basta»\n\nEn Chivilcoy, el concejal…", "reel")[0].startswith("Videos propios")

@@ -47,6 +47,7 @@ def main(argv=None) -> int:
         meta = Meta(token, invalidas=d["invalidas"])
         idx = etiquetas.indice(etiquetas.cargar_registros())
         print(f"Registros de policiales-bsas: {len(idx)} ids conocidos")
+        print(f"Etiquetas puestas al día: {recolector.reetiquetar(d, idx)}")
         hecho = recolector.foto(meta, d, get("INSTAGRAM_USER_ID"), get("FACEBOOK_PAGE_ID"), idx)
         print(f"Foto: {hecho['posteos_medidos']} posteos medidos, {hecho['historias']} historias, "
               f"{meta.llamadas} consultas a Meta")

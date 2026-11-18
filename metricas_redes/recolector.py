@@ -242,6 +242,19 @@ def _cuenta_fb(meta, d, fb_id, ahora, hecho):
 
 
 # ---------------------------------------------------------------- posteos
+def reetiquetar(d: dict, idx: dict) -> int:
+    """Pone al día el origen de lo ya medido con los registros de hoy (18/11/2026: los reels de prueba y los
+    virales se separaron después de medidos). Solo toca lo que está en los registros; devuelve cuántos cambió."""
+    n = 0
+    for p in (d.get("posteos") or {}).values():
+        mid = str(p.get("id") or "")
+        et = idx.get(mid) or (idx.get(mid.split("_", 1)[1]) if "_" in mid else None)
+        if et and et.get("origen") and p.get("origen") != et["origen"]:
+            p["origen"] = et["origen"]
+            n += 1
+    return n
+
+
 def _registro(red, mid, cuando, formato, texto, link, idx, ahora) -> dict:
     et = ET.etiquetar(red, mid, cuando, formato, texto, idx)
     return {"red": red, "id": str(mid), "cuando": cuando.astimezone(timezone.utc).isoformat(timespec="seconds"),

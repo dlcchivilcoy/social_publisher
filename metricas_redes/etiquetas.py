@@ -87,6 +87,12 @@ def cargar_registros(carpeta: str | None = None, get=None) -> dict:
     return out
 
 
+PRUEBA_VIRALES = "Reels de prueba · virales"
+PRUEBA_POLICIALES = "Reels de prueba · policiales"
+VIRALES = "Virales nacionales (reel)"
+COPIA_POLICIALES = "Policiales nacionales (copia en FB de los de prueba)"
+
+
 def indice(registros: dict) -> dict:
     """{id de Meta: etiqueta} con lo que publicó policiales-bsas."""
     idx = {}
@@ -105,6 +111,9 @@ def indice(registros: dict) -> dict:
         et = {"origen": "Policiales", "categoria": "policiales", "titulo": e.get("titular") or "",
               "km": e.get("distancia_km"), "localidad": e.get("lugar_hecho") or e.get("localidad") or ""}
         poner([(e.get("instagram") or {}).get("id"), (e.get("facebook") or {}).get("id")], et)
+        # 18/11/2026: los reels de prueba aparte («separá lo de reels virales y reels de prueba para mediciones»):
+        # Instagram se los muestra primero a los que NO siguen la cuenta, no se comparan con el resto.
+        poner([(e.get("ig_prueba") or {}).get("id")], dict(et, origen=PRUEBA_POLICIALES))
     nac = registros.get("nacionales.json") or {}
     for _url, e in (nac.get("piezas") or {}).items():
         if not isinstance(e, dict):
@@ -112,6 +121,14 @@ def indice(registros: dict) -> dict:
         cat = e.get("categoria") or e.get("subgeneral") or "general"
         et = {"origen": "Nacionales", "categoria": cat, "titulo": e.get("titular") or "",
               "impacto": e.get("impacto")}
+        grupo = e.get("prueba") or ("policiales" if cat == "policiales" else "virales")
+        if (e.get("ig_prueba") or {}).get("id") or e.get("prueba"):
+            # El reel de prueba de IG y su copia como reel normal en Facebook (nacionales/prueba.py).
+            poner([(e.get("ig_prueba") or {}).get("id")],
+                  dict(et, origen=PRUEBA_POLICIALES if grupo == "policiales" else PRUEBA_VIRALES))
+            et = dict(et, origen=COPIA_POLICIALES if grupo == "policiales" else VIRALES)
+        elif cat == "virales":
+            et = dict(et, origen=VIRALES)
         poner([(e.get("instagram") or {}).get("id"), (e.get("facebook") or {}).get("id")], et)
     for dia, c in (nac.get("carruseles") or {}).items():
         if isinstance(c, dict):
