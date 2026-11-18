@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 07:04 (hora AR) · ACTIVO
+Actualizado: 18/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 18/11/2026 07:04 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 5 | 8 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 5 | 7 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 21 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 8 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 20 enviadas + 3 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 33 con métricas · mediana vistas/impresiones 47 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 18/11/2026 07:04 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (8 esperando)
+## Cola propia (7 esperando)
 - X · Notas web · Valentino Iberro y una destacada actuación en la fecha doble de Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Triunfo chivilcoyano en el cierre del Rally Serie: Romina Caballo y Pamela Marti — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Los Millonarios y San Lorenzo protagonizarán la gran final de la Copa — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -35,14 +35,11 @@ Actualizado: 18/11/2026 07:04 (hora AR) · ACTIVO
 - X · Notas web · Maximiliano Robledo y El Olimpo van por la gloria en la LICHFA: "No hay segunda  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Facundo Tumbesi: "Ganamos un partido clave que nos permite seguir creciendo y pe — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · El Taller Efímera realizó su muestra anual en el Museo ‘Pompeo Boggio’ — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Exitosa cuarta edición de la Fiesta de la Empanada Frita al Disco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T00:20 recibido policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/ 
-- 2026-11-18T00:40 recibido policiales:https://junin24.com/policiales/rapido-accionar-po 
 - 2026-11-18T00:40 vencido policiales:https://9dejulio.diariotiempodigital.com/politica espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-18T01:20 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-18T01:40 vencido policiales:https://www.diariodemocracia.com/ciudad/chacabuco espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -66,3 +63,5 @@ Actualizado: 18/11/2026 07:04 (hora AR) · ACTIVO
 - 2026-11-18T10:04 programado web:bb99a3ee-2a46-43f4-9098-145146c59f56|x 
 - 2026-11-18T10:04 programado web:747d5ae9-2756-46ee-8d93-309ec883e498|x 
 - 2026-11-18T10:04 programado web:93018c2f-e4af-4ca4-8846-c489c90f0853|x 
+- 2026-11-18T10:20 enviado web:72962c62-5965-4c6f-846b-7ccd90b6b31b|x 
+- 2026-11-18T10:20 programado web:34ca221c-d3ad-47c6-a684-17ca82485f5e|x 
