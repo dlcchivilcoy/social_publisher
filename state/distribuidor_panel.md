@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 20:00 (hora AR) · ACTIVO
+Actualizado: 18/11/2026 20:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 18/11/2026 20:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 3 |
+| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -19,7 +19,7 @@ Actualizado: 18/11/2026 20:00 (hora AR) · ACTIVO
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 37 con métricas · mediana vistas/impresiones 50 · likes 0
 - X · Reels del bot: 11 con métricas · mediana vistas/impresiones 56 · likes 0
-- X · Reels policiales: 14 con métricas · mediana vistas/impresiones 80.5 · likes 0
+- X · Reels policiales: 13 con métricas · mediana vistas/impresiones 82 · likes 0
 - X · Notas web: 106 con métricas · mediana vistas/impresiones 21 · likes 0
 - TikTok · Recortes de entrevistas: 38 con métricas · mediana vistas/impresiones 159 · likes 1
 - TikTok · Reels del bot: 14 con métricas · mediana vistas/impresiones 245 · likes 4
@@ -33,9 +33,6 @@ Actualizado: 18/11/2026 20:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T17:00 recibido entrevistas:job00325|x 
-- 2026-11-18T17:00 recibido entrevistas:job00325|tiktok 
-- 2026-11-18T17:00 programado entrevistas:job00325|x 
 - 2026-11-18T17:20 entrevista_aprobada entrevistas:job00326 
 - 2026-11-18T17:20 recibido entrevistas:job00326|x 
 - 2026-11-18T17:20 recibido entrevistas:job00326|tiktok 
@@ -58,3 +55,6 @@ Actualizado: 18/11/2026 20:00 (hora AR) · ACTIVO
 - 2026-11-18T22:40 enviado entrevistas:job00325|tiktok 
 - 2026-11-18T22:40 enviado entrevistas:job00326|tiktok 
 - 2026-11-18T22:40 enviado entrevistas:job00327|tiktok 
+- 2026-11-18T23:20 recibido web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c|x 
+- 2026-11-18T23:20 recibido web:221b8fb0-b926-4a1a-8a3e-ecccb5751759|x la misma noticia ya sale en X (Notas web, pendiente)
+- 2026-11-18T23:20 depurado web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c|x de la web, a X solo van las notas del diario de la mañana
