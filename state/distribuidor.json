@@ -9702,14 +9702,14 @@
    "viral": false
   },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/|x": {
-   "actualizado": "2026-11-17T23:20:15.000Z",
+   "actualizado": "2026-11-18T01:20:13.000Z",
    "buffer_id": "",
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/|x",
    "creado": "2026-11-17T23:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-17T23:01:56.000Z",
    "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/",
    "intentos": 0,
@@ -16224,12 +16224,6 @@
  },
  "registro": [
   {
-   "clave": "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8|x",
-   "cuando": "2026-11-11T11:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120465938755527039"
-  },
-  {
    "clave": "web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f|x",
    "cuando": "2026-11-11T11:20:18.000Z",
    "evento": "enviado",
@@ -20369,6 +20363,12 @@
   {
    "clave": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x",
    "cuando": "2026-11-18T00:40:16.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/|x",
+   "cuando": "2026-11-18T01:20:13.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
