@@ -5892,43 +5892,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_313f89456d0f028f.mp4",
    "viral": false
   },
-  "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x": {
-   "actualizado": "2026-11-08T21:00:17.000Z",
-   "buffer_id": "6af0de30229bf05dafd3d472",
-   "clave": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4|x",
-   "creado": "2026-11-08T20:40:12.000Z",
-   "dueAt": "2026-11-08T20:42:30.000Z",
-   "enviado": "2026-11-08T20:42:46.097Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-08T20:33:38.000Z",
-   "id": "bot:video_matias-zucchi_mw8ab8809a8f_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119531091639853427",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 20,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
-   "noticia": "nota:chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Cristina Bracco presentó su libro Yo me parí\n\nSe trata de una obra autobiográfica que narra una historia personal atravesada por la discapacidad y la perseverancia. En el encuentro, la autora compartió detalles del proceso creativo de su trabajo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-cristina-bracco-presento-su-libro-yo-me",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Cristina Bracco presentó su libro Yo me parí",
-   "urgente": false,
-   "vence": "2026-11-08T22:33:38.000Z",
-   "video_bytes": 5000598,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_313f89456d0f028f.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mw8fk9waas5j_01.mp4|tiktok": {
    "actualizado": "2026-11-09T01:20:16.000Z",
    "buffer_id": "6af10d1ed6bbae6fa11bfabe",
@@ -6884,15 +6847,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok": {
-   "actualizado": "2026-11-18T16:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-18T21:00:20.000Z",
+   "buffer_id": "6afe11e60d8c064ce4d65a8a",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok",
    "creado": "2026-11-18T16:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-18T21:03:31.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-18T15:44:46.000Z",
    "id": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4",
    "intentos": 0,
@@ -9817,15 +9780,15 @@
    "viral": false
   },
   "entrevistas:job00324|tiktok": {
-   "actualizado": "2026-11-18T16:40:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-18T21:00:20.000Z",
+   "buffer_id": "6afe11ef570d3cc01e691926",
    "categoria": "",
    "clave": "entrevistas:job00324|tiktok",
    "creado": "2026-11-18T16:40:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-18T22:23:14.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-18T16:40:16.000Z",
    "id": "entrevistas:job00324",
    "intentos": 0,
@@ -9874,15 +9837,15 @@
    "viral": false
   },
   "entrevistas:job00325|tiktok": {
-   "actualizado": "2026-11-18T17:00:21.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-18T21:00:20.000Z",
+   "buffer_id": "6afe11ec0a1fb75cd4173546",
    "categoria": "",
    "clave": "entrevistas:job00325|tiktok",
    "creado": "2026-11-18T17:00:21.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-18T22:03:41.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-18T17:00:21.000Z",
    "id": "entrevistas:job00325",
    "intentos": 0,
@@ -9931,15 +9894,15 @@
    "viral": false
   },
   "entrevistas:job00326|tiktok": {
-   "actualizado": "2026-11-18T17:20:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-18T21:00:20.000Z",
+   "buffer_id": "6afe11e8a8bd8e4ffd1882d2",
    "categoria": "",
    "clave": "entrevistas:job00326|tiktok",
    "creado": "2026-11-18T17:20:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-18T21:43:48.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-18T17:20:18.000Z",
    "id": "entrevistas:job00326",
    "intentos": 0,
@@ -9988,15 +9951,15 @@
    "viral": false
   },
   "entrevistas:job00327|tiktok": {
-   "actualizado": "2026-11-18T18:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-18T21:00:20.000Z",
+   "buffer_id": "6afe11e7a8bd8e4ffd188128",
    "categoria": "",
    "clave": "entrevistas:job00327|tiktok",
    "creado": "2026-11-18T18:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-18T21:23:48.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-18T18:00:19.000Z",
    "id": "entrevistas:job00327",
    "intentos": 0,
@@ -17245,40 +17208,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/|x",
-   "cuando": "2026-11-11T22:40:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor|x",
-   "cuando": "2026-11-11T23:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "entrevistas:job00299|tiktok",
-   "cuando": "2026-11-11T23:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707052935959694593"
-  },
-  {
-   "clave": "entrevistas:job00300|tiktok",
-   "cuando": "2026-11-11T23:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707048250309610760"
-  },
-  {
-   "clave": "entrevistas:job00301|tiktok",
-   "cuando": "2026-11-11T23:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707042319157054772"
-  },
-  {
    "clave": "policiales:https://semanariodejunin.com.ar/nota/76483/crimen-en-mechita-una-pista-desde-la-carcel-permitio-esclarecer-el-asesinato|x",
    "cuando": "2026-11-11T23:40:16.000Z",
    "evento": "enviado",
@@ -21403,11 +21332,45 @@
    "cuando": "2026-11-18T18:40:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123116161084621087"
+  },
+  {
+   "buffer_id": "6afe11e60d8c064ce4d65a8a",
+   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok",
+   "cuando": "2026-11-18T21:00:31.000Z",
+   "dueAt": "2026-11-18T21:03:31.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afe11e7a8bd8e4ffd188128",
+   "clave": "entrevistas:job00327|tiktok",
+   "cuando": "2026-11-18T21:00:31.000Z",
+   "dueAt": "2026-11-18T21:23:48.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afe11e8a8bd8e4ffd1882d2",
+   "clave": "entrevistas:job00326|tiktok",
+   "cuando": "2026-11-18T21:00:31.000Z",
+   "dueAt": "2026-11-18T21:43:48.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afe11ec0a1fb75cd4173546",
+   "clave": "entrevistas:job00325|tiktok",
+   "cuando": "2026-11-18T21:00:31.000Z",
+   "dueAt": "2026-11-18T22:03:41.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afe11ef570d3cc01e691926",
+   "clave": "entrevistas:job00324|tiktok",
+   "cuando": "2026-11-18T21:00:31.000Z",
+   "dueAt": "2026-11-18T22:23:14.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-08 18",
    "2026-11-08 21",
    "2026-11-09 10",
    "2026-11-09 18",
@@ -21436,7 +21399,8 @@
    "2026-11-17 10",
    "2026-11-17 18",
    "2026-11-17 21",
-   "2026-11-18 10"
+   "2026-11-18 10",
+   "2026-11-18 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-18",
@@ -21528,7 +21492,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvfpuw6z9d58_01.mp4": "2026-10-19T21:00:21.000Z",
   "bot:video_matias-zucchi_mvfvdkctq23f_01.mp4": "2026-10-19T23:20:14.000Z",
   "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4": "2026-10-19T23:40:17.000Z",
   "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4": "2026-10-20T12:40:14.000Z",
@@ -22243,7 +22206,6 @@
   "web:b2e7bc59-967c-48e3-baeb-a84fbfd3edb2": "2026-10-25T15:40:13.000Z",
   "web:b333b47e-b16a-4899-bd75-63c2b7086095": "2026-11-03T10:02:22.000Z",
   "web:b4a12021-9279-4b86-9d0b-ae839890e171": "2026-10-21T00:00:28.000Z",
-  "web:b4b8512b-c6fc-4efb-8b09-b75decf9e3dd": "2026-10-19T21:00:21.000Z",
   "web:b4b8df92-6a44-497e-bfda-6b94b8414a97": "2026-11-16T10:03:28.000Z",
   "web:b4dddc38-6caa-416d-8010-6276dec99036": "2026-10-26T10:20:14.000Z",
   "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69": "2026-10-27T10:03:31.000Z",
