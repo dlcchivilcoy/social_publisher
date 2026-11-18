@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-18T14:00:20.000Z"
+   "visto": "2026-11-18T16:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 21
+    "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-18T14:00:20.000Z"
+   "visto": "2026-11-18T16:20:15.000Z"
   }
  },
  "contenidos": {
@@ -6903,18 +6903,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x": {
-   "actualizado": "2026-11-18T16:00:31.000Z",
+   "actualizado": "2026-11-18T16:20:15.000Z",
    "buffer_id": "6afdcba0ff73344f88f8c34d",
    "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x",
    "creado": "2026-11-18T16:00:21.000Z",
    "dueAt": "2026-11-18T16:02:12.000Z",
+   "enviado": "2026-11-18T16:08:34.931Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-18T15:44:46.000Z",
    "id": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123085968970219826",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
    "noticia": "nota:chivilcoy-solidaridad-chivilcoy-atiadim-y-kilometros-que-ayudan",
    "origen": "bot",
@@ -17057,13 +17058,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af4bff10e1aab0352b2828d",
-   "clave": "entrevistas:job00303|x",
-   "cuando": "2026-11-11T19:20:17.000Z",
-   "dueAt": "2026-11-11T19:22:22.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00303-r1",
    "cuando": "2026-11-11T20:00:18.000Z",
    "evento": "entrevista_aprobada"
@@ -21214,6 +21208,12 @@
    "cuando": "2026-11-18T16:00:33.000Z",
    "dueAt": "2026-11-18T16:02:12.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x",
+   "cuando": "2026-11-18T16:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123085968970219826"
   }
  ],
  "tandas": {
@@ -21251,7 +21251,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-18",
- "ultima_sync": "2026-11-18T14:00:20.000Z",
+ "ultima_sync": "2026-11-18T16:20:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21413,7 +21413,6 @@
   "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4": "2026-11-17T09:00:20.000Z",
   "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4": "2026-11-17T15:20:16.000Z",
   "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4": "2026-11-18T16:00:21.000Z",
-  "entrevistas:job00224": "2026-10-19T16:20:14.000Z",
   "entrevistas:job00225": "2026-10-19T17:00:21.000Z",
   "entrevistas:job00226": "2026-10-19T17:20:14.000Z",
   "entrevistas:job00228": "2026-10-19T17:40:30.000Z",
@@ -21963,7 +21962,6 @@
   "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4": "2026-10-27T00:40:14.000Z",
   "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d": "2026-10-21T10:20:15.000Z",
   "web:87f82441-faec-422a-8856-fdfb0a63cf9e": "2026-11-09T10:02:37.000Z",
-  "web:8823bbc2-feae-46ef-8a92-a08165b6e26c": "2026-10-19T16:20:14.000Z",
   "web:88924ce4-1995-4f4b-89aa-ccea3f791d0e": "2026-11-06T10:02:35.000Z",
   "web:88c4485b-b3c8-4e50-b111-0de101c23ab0": "2026-10-20T10:20:14.000Z",
   "web:88cf316f-775e-44d8-a2ae-b1cca1162e08": "2026-10-22T15:40:16.000Z",
