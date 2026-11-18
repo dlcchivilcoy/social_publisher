@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 18/11/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 2 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -13,7 +13,7 @@ Actualizado: 18/11/2026 14:00 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 20 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 21 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,8 +27,9 @@ Actualizado: 18/11/2026 14:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
 - TikTok · Reels del bot · Atiadim y Kilómetros que Ayudan organizan dos eventos solidarios — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Roberto Angeloff: El fin de los rostros inflados — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Carolina Ricci y el crecimiento de Beer Tonic — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Esteban Lobianco: medidas contra padres en Colón — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -36,12 +37,6 @@ Actualizado: 18/11/2026 14:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T12:20 programado web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90|x 
-- 2026-11-18T12:40 programado web:c4854cf8-a2b0-40af-8957-20584264a3a0|x 
-- 2026-11-18T13:00 depurado web:c4854cf8-a2b0-40af-8957-20584264a3a0|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-18T13:00 enviado web:09d582bb-d391-4be5-adf7-75cec83c05fe|x 
-- 2026-11-18T13:00 enviado web:32285d1a-8731-4ac5-bc68-d2258419ed2b|x 
-- 2026-11-18T13:00 enviado web:6b678702-87da-4470-9680-6bda53c0a3ee|x 
 - 2026-11-18T13:00 enviado web:9d8ecd66-8e74-41a7-9a81-7553d8501625|x 
 - 2026-11-18T14:00 enviado web:44289470-403b-4f8c-b4f2-0f1d3fba55d0|x 
 - 2026-11-18T14:00 enviado web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90|x 
@@ -61,3 +56,9 @@ Actualizado: 18/11/2026 14:00 (hora AR) · ACTIVO
 - 2026-11-18T17:00 recibido entrevistas:job00325|x 
 - 2026-11-18T17:00 recibido entrevistas:job00325|tiktok 
 - 2026-11-18T17:00 programado entrevistas:job00325|x 
+- 2026-11-18T17:20 entrevista_aprobada entrevistas:job00326 
+- 2026-11-18T17:20 recibido entrevistas:job00326|x 
+- 2026-11-18T17:20 recibido entrevistas:job00326|tiktok 
+- 2026-11-18T17:20 enviado entrevistas:job00324|x 
+- 2026-11-18T17:20 enviado entrevistas:job00325|x 
+- 2026-11-18T17:20 programado entrevistas:job00326|x 
