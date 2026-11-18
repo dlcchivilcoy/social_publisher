@@ -9988,14 +9988,14 @@
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion|x": {
-   "actualizado": "2026-11-18T00:20:16.000Z",
+   "actualizado": "2026-11-18T02:20:14.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion|x",
    "creado": "2026-11-18T00:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-18T00:03:17.000Z",
    "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion",
    "intentos": 0,
@@ -15950,13 +15950,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af44f72ac862eacabfb5cd3",
-   "clave": "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x",
-   "cuando": "2026-11-11T11:20:18.000Z",
-   "dueAt": "2026-11-11T12:37:43.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af4541ea197a2c4d579f10d",
    "clave": "web:449ee4f0-a73f-443a-ba52-32ad213567fa|x",
    "cuando": "2026-11-11T11:40:15.000Z",
@@ -20095,6 +20088,12 @@
   {
    "clave": "policiales:https://www.diariodemocracia.com/ciudad/chacabuco/348152-un-fuerte-temporal-provoco-inundaciones-cortes-de|x",
    "cuando": "2026-11-18T01:40:23.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion|x",
+   "cuando": "2026-11-18T02:20:14.000Z",
    "evento": "vencido",
    "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
