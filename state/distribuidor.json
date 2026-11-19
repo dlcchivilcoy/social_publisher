@@ -5005,6 +5005,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
    "volanta": "Básquet"
   },
+  "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Personal policial local intervino en un masivo operativo contra el abuso infantil En el marco de la \"Operación Provincial Protección de las Infancias VIII\", que se desarrolló el 18 de noviembre en 75 localidades bonaerenses, personal de la División de Investigaciones en Ciberdelitos contra Niños, Niñas y Adolescentes (DICCNNA), con sede en Chivilcoy, participó de un procedimiento que tuvo resultado positivo en la localidad de Matheu, partido de Escobar. La investigación se inició a...",
+   "generado": "2026-11-19T21:30:49.263Z",
+   "id": "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_9e4a1045209946c98f72edf6d9ae1c22~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-personal-policial-local-intervino-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Personal policial local intervino en un masivo operativo contra el abuso infantil",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-personal-policial-local-intervino-en",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b": {
    "categoria": "",
    "descripcion": "Chivilcoy: Guillermo Britos recibió a Leonardo Nardini con eje en la gestión En una jornada marcada por el intercambio de experiencias de gestión y definiciones políticas de cara al escenario electoral de 2027, el intendente de Chivilcoy, Guillermo Britos, recibió en su distrito a su par de Malvinas Argentinas, Leonardo Nardini. Durante el encuentro, ambos jefes comunales coincidieron en la necesidad de priorizar el diálogo interjurisdiccional por encima de las pertenencias partidarias. A...",
@@ -15916,6 +15935,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e|x": {
+   "actualizado": "2026-11-19T21:40:28.000Z",
+   "buffer_id": "",
+   "clave": "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e|x",
+   "creado": "2026-11-19T21:40:26.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-19T21:30:49.263Z",
+   "id": "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-personal-policial-local-intervino-en",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-personal-policial-local-intervino-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Personal policial local intervino en un masivo operativo contra el abuso infantil\n\nLa policía de investigaciones en ciberdelitos participó de un procedimiento con resultado positivo en Matheu, en el marco de un operativo en la Provincia.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-personal-policial-local-intervino-en",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Personal policial local intervino en un masivo operativo contra el abuso infantil",
+   "urgente": false,
+   "vence": "2026-11-20T01:30:49.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b|x": {
    "actualizado": "2026-11-12T22:00:23.000Z",
    "buffer_id": "",
@@ -17254,18 +17300,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00305|tiktok",
-   "cuando": "2026-11-12T22:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707409177848646932"
-  },
-  {
-   "clave": "entrevistas:job00306|tiktok",
-   "cuando": "2026-11-12T22:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707403979315039506"
-  },
   {
    "clave": "entrevistas:job00307|tiktok",
    "cuando": "2026-11-12T22:20:18.000Z",
@@ -21413,6 +21447,20 @@
    "cuando": "2026-11-19T21:20:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7709991233552321799"
+  },
+  {
+   "clave": "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e|x",
+   "cuando": "2026-11-19T21:40:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e|x",
+   "cuando": "2026-11-19T21:40:28.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22262,6 +22310,7 @@
   "web:c4854cf8-a2b0-40af-8957-20584264a3a0": "2026-11-18T12:20:15.000Z",
   "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155": "2026-11-10T10:02:42.000Z",
   "web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6": "2026-11-09T10:02:37.000Z",
+  "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e": "2026-11-19T21:40:26.000Z",
   "web:c521d80b-ce00-4861-a7b2-a581e72aaf1b": "2026-10-22T22:20:17.000Z",
   "web:c5296d2f-83a9-4c62-8aac-248e918bda5e": "2026-10-22T10:02:31.000Z",
   "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b": "2026-11-12T22:00:19.000Z",
