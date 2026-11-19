@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 10:00 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 10:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 19/11/2026 10:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 13 | 2 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 13 | 2 | 2 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,15 +27,14 @@ Actualizado: 19/11/2026 10:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (2 esperando)
+- X · Notas web · Chivilcoy: Un motociclista cayó en avenida De Tomaso y su moto terminó bajo una  — cupo diario de Notas web en X completo (15)
+- X · Notas web · Chivilcoy: Una motociclista fue hospitalizada tras chocar contra un utilitario — cupo diario de Notas web en X completo (15)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T09:07 programado web:20466408-a7de-4dfe-ae72-76c8866f0181|x 
-- 2026-11-19T09:07 programado web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b|x 
-- 2026-11-19T09:07 programado web:8979344a-0701-4069-b470-ee00954debc6|x 
 - 2026-11-19T09:20 enviado web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x 
 - 2026-11-19T09:20 programado web:69649be8-12b5-49fe-a08e-169906bb6799|x 
 - 2026-11-19T09:40 programado web:c84c8adb-3791-435c-bf8f-60519d299bc0|x 
@@ -58,3 +57,6 @@ Actualizado: 19/11/2026 10:00 (hora AR) · ACTIVO
 - 2026-11-19T12:40 enviado web:b25195a6-8663-4776-9925-1b3d65850489|x 
 - 2026-11-19T12:40 enviado web:e3c0a836-b40d-420b-b76b-e8a9f383a162|x 
 - 2026-11-19T12:40 enviado web:efb8b273-d909-4552-a200-a555ac7dd49f|x 
+- 2026-11-19T13:20 recibido web:538c9642-3889-4297-9eed-8227576f7a51|x 
+- 2026-11-19T13:20 recibido web:f6815fdc-6983-4a94-8ba2-35a647bf7d9b|x 
+- 2026-11-19T13:20 recibido web:14192db7-5d91-4203-a34b-3cc4138f57f8|x la misma noticia ya sale en X (Notas web, pendiente)
