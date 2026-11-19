@@ -4885,6 +4885,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
    "volanta": "Chivilcoy · Salud"
   },
+  "web:c215b26a-1860-4016-8c29-ff480e2f8fcc": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Un motociclista herido tras ser chocado por una camioneta que se fugó Un motociclista resultó herido este jueves 19 de noviembre, alrededor de las 8:45, en la intersección de las avenidas Güemes y Ortiz, en Chivilcoy. El otro vehículo involucrado, una Ford Ranchero, abandonó el lugar tras el choque. El conductor de la moto fue identificado como Miguel Oviedo, quien transportaba una escalera de trabajo. Por circunstancias que aún deben establecerse, se produjo el impacto que lo dejó...",
+   "generado": "2026-11-19T16:05:09.449Z",
+   "id": "web:c215b26a-1860-4016-8c29-ff480e2f8fcc",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d8519f0b1a7748c1b19e44965b38e1a4~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-un-motociclista-herido-tras-ser-chocado",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Un motociclista herido tras ser chocado por una camioneta que se fugó",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-un-motociclista-herido-tras-ser-chocado",
+   "volanta": "Chivilcoy · Accidente"
+  },
   "web:c4854cf8-a2b0-40af-8957-20584264a3a0": {
    "categoria": "",
    "descripcion": "Racing de Chivilcoy venció a Lanús por la Liga Nacional Racing de Chivilcoy consiguió una importante victoria en la Liga Nacional al derrotar a Lanús por 69 a 66 en un encuentro muy parejo, que se definió en los últimos minutos y tuvo un gran protagonismo del equipo local. Nico Romano llegó a los 10.000 puntos en la LNB y tuvo una destacada tarea. Con esta victoria, Racing continúa sumando en la competencia y ya piensa en su próximo compromiso: el 3 de diciembre, cuando visitará a Ferro. El...",
@@ -15736,6 +15755,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:c215b26a-1860-4016-8c29-ff480e2f8fcc|x": {
+   "actualizado": "2026-11-19T16:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:c215b26a-1860-4016-8c29-ff480e2f8fcc|x",
+   "creado": "2026-11-19T16:20:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-19T16:05:09.449Z",
+   "id": "web:c215b26a-1860-4016-8c29-ff480e2f8fcc",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-un-motociclista-herido-tras-ser-chocado",
+   "noticia": "nota:chivilcoy-accidente-chivilcoy-un-motociclista-herido-tras-ser-chocado",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Un motociclista herido tras ser chocado por una camioneta que se fugó\n\nMiguel Oviedo fue hospitalizado tras ser embestido en Güemes y Ortiz por una camioneta Ford Ranchero. El conductor del vehículo involucrado abandonó el lugar del hecho.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-un-motociclista-herido-tras-ser-chocado",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Un motociclista herido tras ser chocado por una camioneta que se fugó",
+   "urgente": false,
+   "vence": "2026-11-19T20:05:09.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:c4854cf8-a2b0-40af-8957-20584264a3a0|x": {
    "actualizado": "2026-11-18T13:00:19.000Z",
    "buffer_id": "6afd9cb03cc95fb47cef844b",
@@ -17140,19 +17186,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00306",
-   "cuando": "2026-11-12T18:00:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00306|x",
-   "cuando": "2026-11-12T18:00:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00306|tiktok",
    "cuando": "2026-11-12T18:00:25.000Z",
@@ -21300,6 +21333,20 @@
    "cuando": "2026-11-19T14:40:14.000Z",
    "evento": "depurado",
    "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:c215b26a-1860-4016-8c29-ff480e2f8fcc|x",
+   "cuando": "2026-11-19T16:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c215b26a-1860-4016-8c29-ff480e2f8fcc|x",
+   "cuando": "2026-11-19T16:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21422,7 +21469,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvgve3f60o53_01.mp4": "2026-10-20T16:20:16.000Z",
   "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4": "2026-10-20T18:00:17.000Z",
   "bot:video_matias-zucchi_mvhd1kfakc5p_01.mp4": "2026-10-21T00:40:14.000Z",
   "bot:video_matias-zucchi_mvhdc15ntftg_01.mp4": "2026-10-21T00:40:14.000Z",
@@ -22150,6 +22196,7 @@
   "web:c111ebae-74fb-4af9-b579-9f53a3522b71": "2026-11-06T09:00:16.000Z",
   "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149": "2026-11-12T21:40:14.000Z",
   "web:c1ca0123-3aeb-47a8-9a4f-e8e40a17be0f": "2026-11-06T10:02:35.000Z",
+  "web:c215b26a-1860-4016-8c29-ff480e2f8fcc": "2026-11-19T16:20:14.000Z",
   "web:c47cb128-863f-4d78-97f6-739a46ed4cca": "2026-10-28T10:02:28.000Z",
   "web:c4854cf8-a2b0-40af-8957-20584264a3a0": "2026-11-18T12:20:15.000Z",
   "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155": "2026-11-10T10:02:42.000Z",
