@@ -5236,25 +5236,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/olimpiadas-de-matematicas-vicente-fontana-representara-a-chivilcoy-en",
    "volanta": "Olimpiadas de Matemáticas"
   },
-  "web:da7a71c1-fb14-4868-ba84-3e52bf96430a": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Social Moquehuá y Gimnasia y Esgrima empataron uno a uno Social Moquehuá y Gimnasia y Esgrima igualaron 1 a 1 en el estadio Walter Biondo, en el marco de la fecha 12 del Torneo Clausura 2026 de la Liga Chivilcoyana de Fútbol. El encuentro se disputó el domingo 8 de noviembre y reunió a los dos equipos que llegaban al frente de la tabla de posiciones. Tras un primer tiempo sin goles, el visitante abrió el marcador en el complemento tras un tiro libre de Salinardi que derivó en la...",
-   "generado": "2026-11-08T23:41:47.234Z",
-   "id": "web:da7a71c1-fb14-4868-ba84-3e52bf96430a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_7d4de76750934765944eb616db25d109~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Social Moquehuá y Gimnasia y Esgrima empataron uno a uno",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
-   "volanta": "Moquehuá · Deportes"
-  },
   "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a": {
    "categoria": "",
    "descripcion": "Chivilcoy: Realizaron el 32° Encuentro Regional de Talleres Protegidos en Lomas de Zamora Chivilcoy el año próximo será sede del 33° encuentro de talleres protegidos zona norte. Con una importante participación y más de 20 talleres protegidos de producción y más de 600 operarios, se llevó adelante el 32° Encuentro Regional Zona Norte de Talleres Protegidos de la Provincia de Buenos Aires, en el Parque de Lomas, en Lomas de Zamora. Dignidad Chivilcoy y la Federación de Talleres Protegidos...",
@@ -16337,31 +16318,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:da7a71c1-fb14-4868-ba84-3e52bf96430a|x": {
-   "actualizado": "2026-11-09T00:00:16.000Z",
-   "buffer_id": "",
-   "clave": "web:da7a71c1-fb14-4868-ba84-3e52bf96430a|x",
-   "creado": "2026-11-09T00:00:16.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-08T23:41:47.234Z",
-   "id": "web:da7a71c1-fb14-4868-ba84-3e52bf96430a",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
-   "noticia": "nota:moquehua-deportes-chivilcoy-social-moquehua-y-gimnasia-y-esgrima",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Social Moquehuá y Gimnasia y Esgrima empataron uno a uno",
-   "urgente": false,
-   "vence": "2026-11-09T03:41:47.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x": {
    "actualizado": "2026-11-09T11:40:15.000Z",
    "buffer_id": "6af19e87ea98fdea6acf7be0",
@@ -21235,7 +21191,6 @@
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-08 21",
    "2026-11-09 10",
    "2026-11-09 18",
    "2026-11-09 21",
@@ -21264,10 +21219,11 @@
    "2026-11-17 18",
    "2026-11-17 21",
    "2026-11-18 10",
-   "2026-11-18 18"
+   "2026-11-18 18",
+   "2026-11-18 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-18",
+ "ultima_limpieza_release": "2026-11-19",
  "ultima_sync": "2026-11-18T22:40:14.000Z",
  "version": 1,
  "vistos": {
@@ -21277,7 +21233,6 @@
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-19_matias-zucchi_mvfwlv0vrrj3": "2026-10-20T00:00:19.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvg09gaotz8i": "2026-10-20T01:40:15.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvgq94abbbnr": "2026-10-20T14:00:21.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w": "2026-10-20T21:20:16.000Z",
@@ -21356,7 +21311,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvfvw9ygmqdg_01.mp4": "2026-10-19T23:40:17.000Z",
   "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4": "2026-10-20T12:40:14.000Z",
   "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4": "2026-10-20T14:00:21.000Z",
   "bot:video_matias-zucchi_mvgve3f60o53_01.mp4": "2026-10-20T16:20:16.000Z",
@@ -21627,7 +21581,6 @@
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas": "2026-11-17T00:40:17.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion": "2026-11-18T00:20:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html": "2026-10-27T00:20:13.000Z",
-  "policiales:https://www.chacabuquero.com.ar/2026/10/choque-en-la-tarde-de-chacabuco.html": "2026-10-19T23:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html": "2026-10-23T01:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html": "2026-10-20T23:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html": "2026-10-23T01:00:17.000Z",
@@ -22007,7 +21960,6 @@
   "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7": "2026-10-29T15:40:17.000Z",
   "web:990fea7f-febb-4b01-a4e7-7e8f17ee66cd": "2026-11-16T10:03:28.000Z",
   "web:993aea8e-95de-4b48-ac0f-22d386bc338b": "2026-10-22T10:02:31.000Z",
-  "web:99a98512-7ac4-4629-a1a6-eab0dc99a301": "2026-10-20T00:00:19.000Z",
   "web:99c2fca1-2325-4b6b-bf4d-e7336abd53ce": "2026-10-21T10:20:15.000Z",
   "web:9a2487db-6f1e-429e-9bd0-157e9cf9a892": "2026-10-26T10:20:14.000Z",
   "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8": "2026-11-11T10:02:35.000Z",
@@ -22068,7 +22020,6 @@
   "web:b6d79f8b-20cb-429f-95dc-adf0d9340584": "2026-10-26T10:20:14.000Z",
   "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7": "2026-11-13T10:02:41.000Z",
   "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72": "2026-10-26T00:40:15.000Z",
-  "web:b7990fc0-6c89-4df8-a394-ec61efeecec2": "2026-10-19T23:40:17.000Z",
   "web:b8356399-c1a9-4319-bdf3-d449371f55e1": "2026-11-12T10:02:44.000Z",
   "web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3": "2026-11-16T14:40:14.000Z",
   "web:b8f99c2d-7f06-4d78-a4ac-7cd0d76d7fab": "2026-11-10T10:02:42.000Z",
