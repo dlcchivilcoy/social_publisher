@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-19T09:20:13.000Z"
+   "visto": "2026-11-19T10:20:28.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 3,
-    "sent": 20
+    "scheduled": 0,
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-19T09:20:13.000Z"
+   "visto": "2026-11-19T10:20:28.000Z"
   }
  },
  "contenidos": {
@@ -12105,19 +12105,20 @@
    "viral": false
   },
   "web:20466408-a7de-4dfe-ae72-76c8866f0181|x": {
-   "actualizado": "2026-11-19T09:07:23.000Z",
+   "actualizado": "2026-11-19T10:20:28.000Z",
    "buffer_id": "6afebc4cbad67efd5ad93998",
    "clave": "web:20466408-a7de-4dfe-ae72-76c8866f0181|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T09:55:28.000Z",
+   "enviado": "2026-11-19T09:55:31.074Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:03:09.018Z",
    "id": "web:20466408-a7de-4dfe-ae72-76c8866f0181",
    "ig_hora": "2026-11-19T09:55:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123354472009109768",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mas-de-200-firmas-suteba-chivilcoy-presento-un-petitorio-a-la",
    "noticia": "nota:mas-de-200-firmas-suteba-chivilcoy-presento-un-petitorio-a-la",
    "origen": "web",
@@ -13121,19 +13122,20 @@
    "viral": false
   },
   "web:49e62895-3650-40a4-96b0-255e389c9fe6|x": {
-   "actualizado": "2026-11-19T09:07:23.000Z",
+   "actualizado": "2026-11-19T10:20:28.000Z",
    "buffer_id": "6afebc4c73dee4185935cff3",
    "clave": "web:49e62895-3650-40a4-96b0-255e389c9fe6|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T09:25:02.000Z",
+   "enviado": "2026-11-19T09:25:16.146Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:02:54.806Z",
    "id": "web:49e62895-3650-40a4-96b0-255e389c9fe6",
    "ig_hora": "2026-11-19T09:25:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123346859552907720",
    "nota_url": "https://www.diariolacampaña.com.ar/n/oriundos-de-chivilcoy-y-junin-intensa-busqueda-en-la-region-tras-la",
    "noticia": "nota:oriundos-de-chivilcoy-y-junin-intensa-busqueda-en-la-region-tras-la",
    "origen": "web",
@@ -16726,19 +16728,20 @@
    "viral": false
   },
   "web:dbf352ff-5f10-4d42-b7a1-25afb048d043|x": {
-   "actualizado": "2026-11-19T09:07:23.000Z",
+   "actualizado": "2026-11-19T10:20:28.000Z",
    "buffer_id": "6afebc4c73dee4185935d01a",
    "clave": "web:dbf352ff-5f10-4d42-b7a1-25afb048d043|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T09:40:51.000Z",
+   "enviado": "2026-11-19T09:41:02.332Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:03:04.476Z",
    "id": "web:dbf352ff-5f10-4d42-b7a1-25afb048d043",
    "ig_hora": "2026-11-19T09:40:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123350828111061222",
    "nota_url": "https://www.diariolacampaña.com.ar/n/retorno-de-la-colonia-chivilcoy-atiadim-convoca-a-la-comunidad-a",
    "noticia": "nota:retorno-de-la-colonia-chivilcoy-atiadim-convoca-a-la-comunidad-a",
    "origen": "web",
@@ -16906,19 +16909,20 @@
    "viral": false
   },
   "web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b|x": {
-   "actualizado": "2026-11-19T09:07:23.000Z",
+   "actualizado": "2026-11-19T10:20:28.000Z",
    "buffer_id": "6afebc4dbad67efd5ad939be",
    "clave": "web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T10:10:02.000Z",
+   "enviado": "2026-11-19T10:10:16.388Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:03:13.628Z",
    "id": "web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b",
    "ig_hora": "2026-11-19T10:10:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123358184983101610",
    "nota_url": "https://www.diariolacampaña.com.ar/n/concejal-fuerza-patria-chivilcoy-ezequiel-caselles-destaco-la",
    "noticia": "nota:concejal-fuerza-patria-chivilcoy-ezequiel-caselles-destaco-la",
    "origen": "web",
@@ -17198,14 +17202,14 @@
    "viral": false
   },
   "web:efb8b273-d909-4552-a200-a555ac7dd49f|x": {
-   "actualizado": "2026-11-19T09:05:46.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-19T10:20:28.000Z",
+   "buffer_id": "6afecd6dec3834f154509d49",
    "clave": "web:efb8b273-d909-4552-a200-a555ac7dd49f|x",
    "creado": "2026-11-19T09:05:46.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-19T11:40:06.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-19T09:04:06.981Z",
    "id": "web:efb8b273-d909-4552-a200-a555ac7dd49f",
    "ig_hora": "2026-11-19T11:40:35.000Z",
@@ -17554,37 +17558,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:38185935-c480-4780-9b62-2a630fd62c5f|x",
-   "cuando": "2026-11-12T12:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120843362785693992"
-  },
-  {
-   "clave": "web:3d3373dd-ee69-4fc7-a39d-0aec74b76b6e|x",
-   "cuando": "2026-11-12T12:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120847080004440102"
-  },
-  {
-   "clave": "web:a64ce084-265d-420e-aab2-c9ecfce66084|x",
-   "cuando": "2026-11-12T12:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120839588893614568"
-  },
-  {
-   "clave": "web:c8022409-4d8f-45ba-a34f-1011272f6310|x",
-   "cuando": "2026-11-12T12:40:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120851108151070744"
-  },
-  {
-   "buffer_id": "6af5b3b0149e4753548221d7",
-   "clave": "web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x",
-   "cuando": "2026-11-12T12:40:16.000Z",
-   "dueAt": "2026-11-12T13:52:40.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6af5b86493c238937055dc75",
    "clave": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok",
@@ -21716,6 +21689,37 @@
    "cuando": "2026-11-19T10:00:29.000Z",
    "dueAt": "2026-11-19T11:10:57.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:20466408-a7de-4dfe-ae72-76c8866f0181|x",
+   "cuando": "2026-11-19T10:20:28.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123354472009109768"
+  },
+  {
+   "clave": "web:49e62895-3650-40a4-96b0-255e389c9fe6|x",
+   "cuando": "2026-11-19T10:20:28.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123346859552907720"
+  },
+  {
+   "clave": "web:dbf352ff-5f10-4d42-b7a1-25afb048d043|x",
+   "cuando": "2026-11-19T10:20:28.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123350828111061222"
+  },
+  {
+   "clave": "web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b|x",
+   "cuando": "2026-11-19T10:20:28.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123358184983101610"
+  },
+  {
+   "buffer_id": "6afecd6dec3834f154509d49",
+   "clave": "web:efb8b273-d909-4552-a200-a555ac7dd49f|x",
+   "cuando": "2026-11-19T10:20:29.000Z",
+   "dueAt": "2026-11-19T11:40:06.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21753,7 +21757,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-19",
- "ultima_sync": "2026-11-19T09:20:13.000Z",
+ "ultima_sync": "2026-11-19T10:20:28.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -22189,7 +22193,6 @@
   "web:03c64a65-3269-4247-b8a7-1e92b9072a66": "2026-11-13T10:02:41.000Z",
   "web:045183d9-6073-43b7-83df-69738e914aa5": "2026-11-12T10:02:44.000Z",
   "web:04a24de3-2093-4b59-8e4e-5da6fa217039": "2026-11-04T09:00:19.000Z",
-  "web:053f7722-ce93-4d22-9679-cc89862bee76": "2026-10-20T10:20:14.000Z",
   "web:0649b9df-9dcf-46f0-b904-cf607353f7e7": "2026-11-19T09:05:46.000Z",
   "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067": "2026-11-11T10:02:35.000Z",
   "web:07ef819a-940d-48e5-aee9-922cce690ab8": "2026-10-23T19:00:17.000Z",
@@ -22198,7 +22201,6 @@
   "web:08a3a06e-b121-4743-b4b4-bbecd0cf597d": "2026-10-27T14:20:14.000Z",
   "web:09d582bb-d391-4be5-adf7-75cec83c05fe": "2026-11-18T10:02:51.000Z",
   "web:0a7c727d-6a67-4887-b808-eec9a0e44568": "2026-11-14T00:00:20.000Z",
-  "web:0ad113d1-0797-400e-8161-494cc3be7804": "2026-10-20T10:20:14.000Z",
   "web:0ad87759-ab4a-4438-9bf2-c67262d8d0a8": "2026-11-05T10:02:30.000Z",
   "web:0ae2afb6-52d2-4336-b9c9-318dc164617e": "2026-10-21T10:20:15.000Z",
   "web:0b8b0e36-875b-420d-b97c-db8a8c9b7f42": "2026-11-03T10:02:22.000Z",
@@ -22302,7 +22304,6 @@
   "web:3db074fa-b73d-41dc-9567-5ce1c3d65907": "2026-11-04T02:00:20.000Z",
   "web:3e3abc09-6c21-4ab2-88f6-118e63835441": "2026-10-25T21:00:16.000Z",
   "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c": "2026-11-15T01:20:17.000Z",
-  "web:3eca8243-4c03-45a9-a195-9f8f669d1dc1": "2026-10-20T10:20:14.000Z",
   "web:3fae7597-04b8-4378-8e2d-22c4f444cefd": "2026-11-04T10:20:13.000Z",
   "web:3fd96e27-c831-4f61-8742-13d9e1c64ecc": "2026-10-21T10:20:15.000Z",
   "web:415bcffd-26ca-41bb-807f-0d3961339b5c": "2026-10-30T10:01:54.000Z",
@@ -22310,13 +22311,11 @@
   "web:41ee3e32-bcc0-459d-bd54-85372c380544": "2026-11-17T09:00:20.000Z",
   "web:436624c4-dead-4338-b58f-541ff1196bfe": "2026-10-31T21:20:16.000Z",
   "web:439df9f0-970a-42fd-979a-69b57c0f8607": "2026-10-26T10:20:14.000Z",
-  "web:43a2b43f-fc3d-423a-ac09-144e2e421326": "2026-10-20T10:20:14.000Z",
   "web:44237ca1-fd70-452d-89bb-5cd456e50210": "2026-11-19T09:05:46.000Z",
   "web:44289470-403b-4f8c-b4f2-0f1d3fba55d0": "2026-11-18T10:02:51.000Z",
   "web:449ee4f0-a73f-443a-ba52-32ad213567fa": "2026-11-11T10:02:35.000Z",
   "web:44fd5518-ed5a-40fc-83e8-17f01377db20": "2026-11-16T10:03:28.000Z",
   "web:455e03e1-e3b5-4a62-94b9-89e1d7016505": "2026-11-17T13:40:13.000Z",
-  "web:45e18f3d-764c-49f7-926b-acb9d1fa0d0c": "2026-10-20T10:20:14.000Z",
   "web:464e2e48-a775-44fb-ba64-8d4a372bbadb": "2026-10-31T23:40:14.000Z",
   "web:4738ab65-8dbc-4d5e-807d-78b88a465544": "2026-10-25T15:40:13.000Z",
   "web:49037013-a165-485b-983d-91a1691d32f9": "2026-11-13T10:02:41.000Z",
@@ -22333,7 +22332,6 @@
   "web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90": "2026-11-18T10:02:51.000Z",
   "web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5": "2026-11-06T15:20:14.000Z",
   "web:51d406e0-8d07-4bc1-b1c2-9567feb03776": "2026-11-11T10:02:35.000Z",
-  "web:51e471e5-2b2b-43ba-8451-9ac391cdb485": "2026-10-20T10:20:14.000Z",
   "web:520b9327-4abb-4720-aa44-9684331b9ca6": "2026-11-04T22:40:21.000Z",
   "web:5296a026-93a3-4ae5-a568-78482a52580c": "2026-11-15T17:00:25.000Z",
   "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba": "2026-10-27T10:03:31.000Z",
@@ -22404,7 +22402,6 @@
   "web:72962c62-5965-4c6f-846b-7ccd90b6b31b": "2026-11-18T10:02:51.000Z",
   "web:7363be41-1ea0-41ce-bd34-f99c8ec33ac2": "2026-11-13T10:02:41.000Z",
   "web:747d5ae9-2756-46ee-8d93-309ec883e498": "2026-11-18T10:02:51.000Z",
-  "web:7524a117-5ec3-428b-862c-0238cd3653e6": "2026-10-20T10:20:14.000Z",
   "web:761944f8-e1c1-436a-9ef1-bf5df2286672": "2026-11-15T01:20:17.000Z",
   "web:764b2539-78a7-4f05-92a1-20413bf6f24b": "2026-11-15T18:00:17.000Z",
   "web:76ba9989-902f-48e4-be31-1bb0265c5c60": "2026-10-26T10:20:14.000Z",
@@ -22416,7 +22413,6 @@
   "web:79d9f140-48df-40f4-b83c-a3e8b305ad23": "2026-10-27T10:03:31.000Z",
   "web:79f11ed7-89de-45e5-a88c-d315c3f0d9f0": "2026-10-30T10:01:54.000Z",
   "web:7a38384a-57c1-43f8-a275-9335467a7e1b": "2026-11-16T10:03:28.000Z",
-  "web:7a521c20-c0d0-4494-9499-82a795b8a1f6": "2026-10-20T10:20:14.000Z",
   "web:7aa4bc90-c59a-4efc-a41c-8cc16f9c2f5d": "2026-11-04T10:20:13.000Z",
   "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967": "2026-11-13T23:40:13.000Z",
   "web:7b6e6471-8bc5-4e93-9254-ba362af74bd3": "2026-11-04T10:20:13.000Z",
@@ -22438,7 +22434,6 @@
   "web:815f1320-b368-407e-9e43-21cf0ad1b815": "2026-10-23T10:02:47.000Z",
   "web:816a3792-59b4-4a7e-af9a-a442a4ba3443": "2026-11-02T10:03:22.000Z",
   "web:82ebcdfe-8761-4e44-b100-cd2e7b4f31ae": "2026-10-22T14:20:16.000Z",
-  "web:832d0dac-3f62-40f3-8005-0f31ba82d1f4": "2026-10-20T10:20:14.000Z",
   "web:83aa22b6-5664-4e7e-9984-1dfd644a5220": "2026-10-27T10:03:31.000Z",
   "web:840c7bf2-2055-47ae-b89c-be1e455da963": "2026-11-06T10:02:35.000Z",
   "web:8456f3d2-98fa-44c2-b795-a80ca90f9b4f": "2026-10-26T10:20:14.000Z",
@@ -22452,7 +22447,6 @@
   "web:87d8c0c6-2de9-45b6-abc4-df5d39fd972d": "2026-10-21T10:20:15.000Z",
   "web:87f82441-faec-422a-8856-fdfb0a63cf9e": "2026-11-09T10:02:37.000Z",
   "web:88924ce4-1995-4f4b-89aa-ccea3f791d0e": "2026-11-06T10:02:35.000Z",
-  "web:88c4485b-b3c8-4e50-b111-0de101c23ab0": "2026-10-20T10:20:14.000Z",
   "web:88cf316f-775e-44d8-a2ae-b1cca1162e08": "2026-10-22T15:40:16.000Z",
   "web:8979344a-0701-4069-b470-ee00954debc6": "2026-11-19T09:05:46.000Z",
   "web:898dd9bc-8d37-4255-aaf1-59fb965090e9": "2026-10-30T14:40:14.000Z",
@@ -22517,7 +22511,6 @@
   "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34": "2026-10-28T10:20:19.000Z",
   "web:a223c7fb-02cc-4f0e-8968-13bbf35af953": "2026-10-22T10:02:31.000Z",
   "web:a3d30d89-bce5-41df-b635-6f903026b394": "2026-10-28T10:02:28.000Z",
-  "web:a3f43c4e-09ef-4b40-bd23-34715bdc9e9b": "2026-10-20T10:20:14.000Z",
   "web:a4af8e93-1494-4e38-bc38-5764b271088c": "2026-11-09T09:00:17.000Z",
   "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4": "2026-11-06T17:00:18.000Z",
   "web:a604bb88-c1b1-4d8c-aeb4-73f24939ba20": "2026-10-26T12:06:06.000Z",
@@ -22620,7 +22613,6 @@
   "web:d5f53bed-b052-4c25-bed8-d407293e0f55": "2026-10-29T14:20:15.000Z",
   "web:d650e27a-6c22-4e26-a19b-afcb223f9d3f": "2026-10-22T01:40:20.000Z",
   "web:d6abc04f-5ec6-4b07-8f51-5bccc93205ef": "2026-10-21T00:40:14.000Z",
-  "web:d799c57f-7212-48e4-a327-deb6d13d1b4f": "2026-10-20T10:20:14.000Z",
   "web:d84d3ec0-05cf-43ec-a248-9969295317ed": "2026-11-10T10:02:42.000Z",
   "web:d896f31f-27f4-4bfd-a371-8106455d4c26": "2026-11-06T10:02:35.000Z",
   "web:d8bbde96-e323-4c02-93f7-b2e09a555019": "2026-10-29T10:02:34.000Z",
@@ -22638,7 +22630,6 @@
   "web:dd86062e-10d5-470e-a60e-27533841a020": "2026-10-23T10:20:15.000Z",
   "web:ddb372e9-f75f-433a-ad8d-44035f486a1c": "2026-11-10T10:02:42.000Z",
   "web:df19bfd3-d45f-4acd-a6c1-fbf0fd92d02c": "2026-10-29T16:20:15.000Z",
-  "web:df52ecc6-4b40-4601-8032-7f6b05e57d3b": "2026-10-20T10:20:14.000Z",
   "web:df585fc0-4639-4338-88f4-51fc0c0eb03c": "2026-10-24T17:40:14.000Z",
   "web:df5bc5d5-81e6-4f5c-b398-bc0a2cfc2589": "2026-11-06T10:02:35.000Z",
   "web:e09c5f60-c7ea-4314-b2f8-d99f1c806132": "2026-11-13T10:02:41.000Z",
