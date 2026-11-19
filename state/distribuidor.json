@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 5
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-19T02:40:23.000Z"
+   "visto": "2026-11-19T09:20:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 19
+    "scheduled": 3,
+    "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-19T02:40:23.000Z"
+   "visto": "2026-11-19T09:20:13.000Z"
   }
  },
  "contenidos": {
@@ -13927,14 +13927,14 @@
    "viral": false
   },
   "web:69649be8-12b5-49fe-a08e-169906bb6799|x": {
-   "actualizado": "2026-11-19T09:05:46.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-19T09:20:13.000Z",
+   "buffer_id": "6afebf4dfc3e30ab95ba8b17",
    "clave": "web:69649be8-12b5-49fe-a08e-169906bb6799|x",
    "creado": "2026-11-19T09:05:46.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-19T10:40:45.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-19T09:03:23.483Z",
    "id": "web:69649be8-12b5-49fe-a08e-169906bb6799",
    "ig_hora": "2026-11-19T10:40:35.000Z",
@@ -15871,19 +15871,20 @@
    "viral": false
   },
   "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x": {
-   "actualizado": "2026-11-19T09:07:23.000Z",
+   "actualizado": "2026-11-19T09:20:13.000Z",
    "buffer_id": "6afebc4b4ad8a97b3a2dca4b",
    "clave": "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T09:10:13.000Z",
+   "enviado": "2026-11-19T09:10:16.538Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:02:50.049Z",
    "id": "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b",
    "ig_hora": "2026-11-19T09:10:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123343086176567566",
    "nota_url": "https://www.diariolacampaña.com.ar/n/dano-chivilcoy-violencia-familiar-e-incendio-en-moquehua-imputaron-a",
    "noticia": "nota:dano-chivilcoy-violencia-familiar-e-incendio-en-moquehua-imputaron-a",
    "origen": "web",
@@ -17553,20 +17554,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6af5a59e37d13e4d8a4cdfa5",
-   "clave": "web:045183d9-6073-43b7-83df-69738e914aa5|x",
-   "cuando": "2026-11-12T11:40:14.000Z",
-   "dueAt": "2026-11-12T13:07:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af5aa544926d8280f0cf217",
-   "clave": "web:b8356399-c1a9-4319-bdf3-d449371f55e1|x",
-   "cuando": "2026-11-12T12:00:21.000Z",
-   "dueAt": "2026-11-12T13:22:05.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6af5aefe8810c41b3dd1bc5c",
    "clave": "web:814123f9-8cc0-4123-a5ec-ff7775c42341|x",
@@ -21715,6 +21702,19 @@
    "cuando": "2026-11-19T09:07:25.000Z",
    "dueAt": "2026-11-19T10:25:29.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x",
+   "cuando": "2026-11-19T09:20:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123343086176567566"
+  },
+  {
+   "buffer_id": "6afebf4dfc3e30ab95ba8b17",
+   "clave": "web:69649be8-12b5-49fe-a08e-169906bb6799|x",
+   "cuando": "2026-11-19T09:20:14.000Z",
+   "dueAt": "2026-11-19T10:40:45.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21752,7 +21752,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-19",
- "ultima_sync": "2026-11-19T02:40:23.000Z",
+ "ultima_sync": "2026-11-19T09:20:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

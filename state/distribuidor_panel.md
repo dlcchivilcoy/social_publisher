@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 06:07 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 06:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 19/11/2026 06:07 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 6 | 9 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 6 | 8 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 19 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 20 enviadas + 3 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 37 con métricas · mediana vistas/impresiones 50 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 19/11/2026 06:07 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (9 esperando)
+## Cola propia (8 esperando)
 - X · Notas web · Superliga de ASAMBAL: Independiente de Chivilcoy se consagró campeón en ocho cat — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Román Mastrángelo subió al podio en el cierre de la Vuelta al Valle y — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Clausura de Primera División: Racing y Gimnasia abren una seri — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -36,14 +36,11 @@ Actualizado: 19/11/2026 06:07 (hora AR) · ACTIVO
 - X · Notas web · Chivilcoy: Torneo Federal ‘A’ - Reválida: Cuatro candidatos para un solo boleto, — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Estudiantes locales recorrieron la muestra de grabado “Huellas Impresas” en el M — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Avenidas Ortiz y Carlos Gardel: Circo Safari Show en Chivilcoy con diversas func — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Los privilegios que la democracia no consigue desterrar. — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T09:00 vencido policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombr espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-19T09:00 vencido policiales:https://www.abcsaladillo.com.ar/general/la-patrul no hubo lugar antes de su vencimiento
 - 2026-11-19T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-rob no hubo lugar antes de su vencimiento
 - 2026-11-19T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/18/un- no hubo lugar antes de su vencimiento
 - 2026-11-19T09:05 recibido web:3a27f600-fd73-4505-9cb2-6434f4ad6e89|x 
@@ -67,3 +64,5 @@ Actualizado: 19/11/2026 06:07 (hora AR) · ACTIVO
 - 2026-11-19T09:07 programado web:20466408-a7de-4dfe-ae72-76c8866f0181|x 
 - 2026-11-19T09:07 programado web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b|x 
 - 2026-11-19T09:07 programado web:8979344a-0701-4069-b470-ee00954debc6|x 
+- 2026-11-19T09:20 enviado web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x 
+- 2026-11-19T09:20 programado web:69649be8-12b5-49fe-a08e-169906bb6799|x 
