@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 06:40 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 07:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 19/11/2026 06:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 1 | 7 | 7 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 8 | 6 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,20 +27,18 @@ Actualizado: 19/11/2026 06:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (7 esperando)
+## Cola propia (6 esperando)
 - X · Notas web · Superliga de ASAMBAL: Independiente de Chivilcoy se consagró campeón en ocho cat — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Román Mastrángelo subió al podio en el cierre de la Vuelta al Valle y — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Clausura de Primera División: Racing y Gimnasia abren una seri — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Liga Nacional: Noche de desahogo y sonrisa para Racing que venció a L — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Con oficio y experiencia, Super Moli selló su pase a la final de la L — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Federal ‘A’ - Reválida: Cuatro candidatos para un solo boleto, — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Estudiantes locales recorrieron la muestra de grabado “Huellas Impresas” en el M — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/18/un- no hubo lugar antes de su vencimiento
 - 2026-11-19T09:05 recibido web:3a27f600-fd73-4505-9cb2-6434f4ad6e89|x 
 - 2026-11-19T09:06 recibido web:a84ee201-6571-4781-a9ba-cda913722cca|x 
 - 2026-11-19T09:06 recibido web:0649b9df-9dcf-46f0-b904-cf607353f7e7|x 
@@ -65,3 +63,4 @@ Actualizado: 19/11/2026 06:40 (hora AR) · ACTIVO
 - 2026-11-19T09:20 enviado web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x 
 - 2026-11-19T09:20 programado web:69649be8-12b5-49fe-a08e-169906bb6799|x 
 - 2026-11-19T09:40 programado web:c84c8adb-3791-435c-bf8f-60519d299bc0|x 
+- 2026-11-19T10:00 programado web:44237ca1-fd70-452d-89bb-5cd456e50210|x 
