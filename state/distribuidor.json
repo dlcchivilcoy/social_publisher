@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 3,
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-19T19:20:25.000Z"
+   "visto": "2026-11-19T21:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-19T19:20:25.000Z"
+   "visto": "2026-11-19T21:20:15.000Z"
   }
  },
  "contenidos": {
@@ -389,27 +389,6 @@
    "video_mb": 22.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00292.mp4",
    "youtube_url": "https://youtu.be/37z79Yk-z3E"
-  },
-  "entrevistas:job00293": {
-   "descripcion": "Mariano Calandrino, dirigente del Auto Club Chivilcoy, detalló cómo la fecha del Rally Regional impulsa el comercio y multiplica por 13 cada peso que ingresa a la ciudad.",
-   "duracion_seg": null,
-   "entrevistado": "Mariano Calandrino",
-   "generado": "2026-11-09T21:00:19.000Z",
-   "id": "entrevistas:job00293",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Mariano Calandrino: El impacto económico del rally",
-   "urgente": false,
-   "video_bytes": 25599550,
-   "video_mb": 24.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00293.mp4",
-   "youtube_url": "https://youtu.be/_JXxY--Yj6A"
   },
   "entrevistas:job00294": {
    "descripcion": "En diálogo con Radio del Centro, Salvador Femenia, vocero de CAME, analizó el comportamiento de los fines de semana largos marcados por viajes cortos y un presupuesto ajustado.",
@@ -6931,82 +6910,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00292.mp4",
    "viral": false
   },
-  "entrevistas:job00293|tiktok": {
-   "actualizado": "2026-11-09T21:20:13.000Z",
-   "buffer_id": "6af2346773b2b0fbabda43eb",
-   "categoria": "",
-   "clave": "entrevistas:job00293|tiktok",
-   "creado": "2026-11-09T21:00:19.000Z",
-   "dueAt": "2026-11-09T21:03:18.000Z",
-   "enviado": "2026-11-09T21:05:13.583Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T21:00:19.000Z",
-   "id": "entrevistas:job00293",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7706279737378819334",
-   "metricas": {
-    "averageTimeWatched": 6.03,
-    "comments": 0,
-    "engagementRate": 2.05,
-    "reach": 67,
-    "reactions": 3,
-    "shares": 1,
-    "totalTimeWatched": 22.32,
-    "views": 195
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Mariano Calandrino: El impacto económico del rally\n\nMariano Calandrino, dirigente del Auto Club Chivilcoy, detalló cómo la fecha del Rally Regional impulsa el comercio y multiplica por 13 cada peso que ingresa a la ciudad.\n\nhttps://youtu.be/_JXxY--Yj6A\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Mariano Calandrino: El impacto económico del rally",
-   "urgente": false,
-   "vence": "2026-11-11T21:00:19.000Z",
-   "video_bytes": 25599550,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00293.mp4",
-   "viral": false
-  },
-  "entrevistas:job00293|x": {
-   "actualizado": "2026-11-09T21:20:13.000Z",
-   "buffer_id": "6af2346618d54f7e0dd02f1b",
-   "clave": "entrevistas:job00293|x",
-   "creado": "2026-11-09T21:00:19.000Z",
-   "dueAt": "2026-11-09T21:02:29.000Z",
-   "enviado": "2026-11-09T21:02:42.174Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T21:00:19.000Z",
-   "id": "entrevistas:job00293",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119898495641329907",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 24,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:calandrino-economico-impacto-mariano-rally",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Mariano Calandrino: El impacto económico del rally\n\nMariano Calandrino, dirigente del Auto Club Chivilcoy, detalló cómo la fecha del Rally Regional impulsa el comercio y multiplica por 13 cada peso que ingresa a la ciudad.\n\nhttps://youtu.be/_JXxY--Yj6A",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Mariano Calandrino: El impacto económico del rally",
-   "urgente": false,
-   "vence": "2026-11-09T23:00:19.000Z",
-   "video_bytes": 25599550,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00293.mp4",
-   "viral": false
-  },
   "entrevistas:job00294|tiktok": {
    "actualizado": "2026-11-10T23:20:24.000Z",
    "buffer_id": "6af385e82b686bd66cf7b133",
@@ -9979,19 +9882,20 @@
    "viral": false
   },
   "entrevistas:job00331|tiktok": {
-   "actualizado": "2026-11-19T21:00:19.000Z",
+   "actualizado": "2026-11-19T21:20:15.000Z",
    "buffer_id": "6aff63658ec824f4cebe47c9",
    "categoria": "",
    "clave": "entrevistas:job00331|tiktok",
    "creado": "2026-11-19T19:00:16.000Z",
    "dueAt": "2026-11-19T21:03:02.000Z",
+   "enviado": "2026-11-19T21:05:23.316Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T19:00:16.000Z",
    "id": "entrevistas:job00331",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7709991233552321799",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -17351,14 +17255,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/|x",
-   "cuando": "2026-11-12T22:20:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "entrevistas:job00305|tiktok",
    "cuando": "2026-11-12T22:20:18.000Z",
    "evento": "enviado",
@@ -21511,6 +21407,12 @@
    "cuando": "2026-11-19T21:00:23.000Z",
    "dueAt": "2026-11-19T22:03:41.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00331|tiktok",
+   "cuando": "2026-11-19T21:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7709991233552321799"
   }
  ],
  "tandas": {
@@ -21548,7 +21450,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-19",
- "ultima_sync": "2026-11-19T19:20:25.000Z",
+ "ultima_sync": "2026-11-19T21:20:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21557,7 +21459,6 @@
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-20_matias-zucchi_mvh63vinpy7w": "2026-10-20T21:20:16.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x": "2026-10-21T00:00:28.000Z",
   "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095": "2026-10-21T00:00:28.000Z",
   "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34": "2026-10-21T02:20:14.000Z",
@@ -21823,7 +21724,6 @@
   "nacionales:e25c9cf3646e5306": "2026-10-22T21:20:13.000Z",
   "nacionales:f1cea0fec08ce954": "2026-10-23T22:20:15.000Z",
   "nacionales:f8740af29dcd48f9": "2026-10-23T01:20:18.000Z",
-  "nacionales:fb8bbb9c2285b74b": "2026-10-20T21:20:16.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/": "2026-10-22T01:40:20.000Z",
@@ -22078,7 +21978,6 @@
   "web:3965ee13-9730-4798-8e40-1c97199ed3e6": "2026-11-06T10:02:35.000Z",
   "web:3a1e20a8-80b6-4752-89ed-6c5d60a28320": "2026-11-13T10:02:41.000Z",
   "web:3a27f600-fd73-4505-9cb2-6434f4ad6e89": "2026-11-19T09:05:46.000Z",
-  "web:3a6fc715-5d3a-47bd-8e14-ca6ee6959ade": "2026-10-20T21:20:16.000Z",
   "web:3a7b8196-052a-4b18-86a2-e06b57de3d46": "2026-11-13T10:02:41.000Z",
   "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd": "2026-10-26T10:20:14.000Z",
   "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f": "2026-11-10T13:40:15.000Z",
