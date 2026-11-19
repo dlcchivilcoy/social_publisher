@@ -1604,32 +1604,6 @@
    "volanta": "San Andrés de Giles",
    "youtube_url": "https://youtube.com/shorts/de1sbNZs3FM"
   },
-  "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin": {
-   "categoria": "otro_policial",
-   "descripcion": "Un motociclista que realizaba maniobras imprudentes perdió el control del rodado e impactó contra un vehículo estacionado. Ocurrió por la noche sobre la avenida San Martín. No se registraron personas heridas.",
-   "distancia_km": 91.2,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-09T00:01:18.000Z",
-   "id": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-motociclista-choco-contra-una-camioneta-estacionada-tras-89beab",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 5,
-   "radio_ok": true,
-   "texto_tiktok": "Un motociclista que circulaba haciendo willy por la avenida San Martín perdió el control de su rodado y terminó chocando contra una camioneta estacionada a pocos metros de la calle Paso.\n\nEl episodio ocurrió durante la noche y quedó registrado por las cámaras de seguridad de la zona, según se informó oficialmente.\n\nAfortunadamente, a pesar de la violencia del impacto y la maniobra imprudente, no se registraron personas lesionadas tras el siniestro.\n\nEl hecho vuelve a poner en foco la problemática de las picadas y las acrobacias peligrosas en la vía pública en distintos puntos de la ciudad.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #SiniestroVial #SeguridadVial #BuenosAires",
-   "tipo": "video",
-   "titulo": "Choque y caída en avenida San Martín por hacer willy con la moto",
-   "urgente": false,
-   "video_bytes": 70871,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_09_junin_choque-y-ca-da-en-avenida-san-.mp4",
-   "volanta": "Siniestro vial en Junín",
-   "youtube_url": "https://youtube.com/shorts/eVy9xkB3UWo"
-  },
   "policiales:https://semanariodejunin.com.ar/nota/76483/crimen-en-mechita-una-pista-desde-la-carcel-permitio-esclarecer-el-asesinato": {
    "categoria": "homicidio",
    "descripcion": "Dos sospechosos quedaron detenidos tras el hallazgo del cuerpo de Ezequiel Caraballo, de 27 años, en un canal de la localidad de Mechita. Una serie de mensajes enviados desde una prisión orientó la pesquisa.",
@@ -1863,6 +1837,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_05_chacabuco_le-robaron-la-moto-a-un-vecino.mp4",
    "volanta": "Robo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/9sciqb-LX74"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Personal de la Patrulla Rural interceptó a dos hombres en el camino que une Chacabuco con Irala. Uno llevaba un machete y habían intentado escapar tras el llamado de una mujer que denunció el robo de su nieto a su propio padre.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-19T02:02:08.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-dos-hombres-tras-el-robo-de-una-moto-y-91f54c",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un operativo policial culminó con la aprehensión de dos sospechosos en el camino rural que vincula a Chacabuco con la localidad de Irala.\n\nLa intervención se originó tras una alerta telefónica sobre la presencia de personas sospechosas y la denuncia de una mujer que indicó que su nieto le había sustraído una moto Gilera a su padre con intenciones de venderla.\n\nEfectivos de la Patrulla Rural divisaron a los involucrados junto a un automóvil antes del puente sobre el Río Salado.\n\nAl intentar su identificación, los sujetos intentaron fuga hacia un campo cercano pero fueron rápidamente reducidos, incautándose además un arma blanca tipo machete.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #PatrullaRural #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Demoraron a dos sospechosos tras un robo de moto entre Chacabuco e Irala",
+   "urgente": false,
+   "video_bytes": 82429,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_01_chacabuco_demoraron-a-dos-sospechosos-tr.mp4",
+   "volanta": "Incidente en el camino a Irala",
+   "youtube_url": "https://youtube.com/shorts/frctnc1FdMc"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html": {
    "categoria": "otro_policial",
@@ -2149,6 +2149,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_01_25-de-mayo_buscan-a-un-joven-de-27-a-os-p.mp4",
    "volanta": "Búsqueda e investigación en Mechita",
    "youtube_url": "https://youtube.com/shorts/l7N9nYNZuio"
+  },
+  "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/": {
+   "categoria": "violencia_genero",
+   "descripcion": "Un individuo fue apresado por la policía tras presentarse dos veces en un día en la casa de su expareja. Violó restricciones judiciales y la intimidó.",
+   "distancia_km": 61.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-19T02:18:14.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/",
+   "localidad": "25 de Mayo",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-arrestaron-a-un-sujeto-por-desobedecer-restricciones-80ef22",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "La detención se concretó tras reiteradas llamadas de alerta emitidas desde el domicilio de la víctima.\n\nEl agresor se había presentado en dos ocasiones en la misma jornada para intimidarla.\n\nLas actuaciones quedaron bajo la órbita de la fiscalía local a la espera de su declaración indagatoria.\n\n📲 Más noticias de 25 de Mayo en www.diariolacampaña.com.ar\n\n#25DeMayo #ViolenciaDeGenero #Detenido #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Capturan a un hombre que hostigó a su expareja e incumplió la prohibición de acercamiento",
+   "urgente": false,
+   "video_bytes": 110111,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_02_25-de-mayo_capturan-a-un-hombre-que-hosti.mp4",
+   "volanta": "Violencia de género en 25 de Mayo",
+   "youtube_url": "https://youtube.com/shorts/N3Hra_x5jYI"
   },
   "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/": {
    "categoria": "operativo_policial",
@@ -10059,34 +10085,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_09_san-andres-de-giles_muri-jorge-limonta-tras-ser-at.mp4",
    "viral": true
   },
-  "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x": {
-   "actualizado": "2026-11-09T02:20:14.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin|x",
-   "creado": "2026-11-09T00:20:14.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-09T00:01:18.000Z",
-   "id": "policiales:https://semanariodejunin.com.ar/nota/76374/un-motociclista-choco-contra-una-camioneta-estacionada-sobre-la-avenida-san-martin",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-motociclista-choco-contra-una-camioneta-estacionada-tras-89beab",
-   "noticia": "nota:junin-motociclista-choco-contra-una-camioneta-estacionada-tras-89beab",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 5,
-   "texto": "Choque y caída en avenida San Martín por hacer willy con la moto\n\nUn motociclista que realizaba maniobras imprudentes impactó contra un vehículo estacionado. Ocurrió por la noche y no hubo heridos.\n\nhttps://www.diariolacampaña.com.ar/n/junin-motociclista-choco-contra-una-camioneta-estacionada-tras-89beab",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Choque y caída en avenida San Martín por hacer willy con la moto",
-   "urgente": false,
-   "vence": "2026-11-09T02:01:18.000Z",
-   "video_bytes": 70871,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-08_2134_09_junin_choque-y-ca-da-en-avenida-san-.mp4",
-   "viral": false
-  },
   "policiales:https://semanariodejunin.com.ar/nota/76483/crimen-en-mechita-una-pista-desde-la-carcel-permitio-esclarecer-el-asesinato|x": {
    "actualizado": "2026-11-11T23:40:14.000Z",
    "buffer_id": "6af4ea24304f8985c46b365b",
@@ -10346,6 +10344,34 @@
    "vence": "2026-11-13T01:31:18.000Z",
    "video_bytes": 109904,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_05_chacabuco_le-robaron-la-moto-a-un-vecino.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html|x": {
+   "actualizado": "2026-11-19T02:20:24.000Z",
+   "buffer_id": "6afe5ce946636f319e7ebdad",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html|x",
+   "creado": "2026-11-19T02:20:21.000Z",
+   "dueAt": "2026-11-19T02:23:27.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-19T02:02:08.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-dos-hombres-tras-el-robo-de-una-moto-y-91f54c",
+   "noticia": "nota:chacabuco-demoraron-a-dos-hombres-tras-el-robo-de-una-moto-y-91f54c",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Demoraron a dos sospechosos tras un robo de moto entre Chacabuco e Irala\n\nLa Patrulla Rural interceptó a dos hombres armados con un machete. Habían intentado escapar tras la denuncia de una mujer por el robo que sufrió su nieto.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-demoraron-a-dos-hombres-tras-el-robo-de-una-moto-y-91f54c",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Demoraron a dos sospechosos tras un robo de moto entre Chacabuco e Irala",
+   "urgente": false,
+   "vence": "2026-11-19T04:02:08.000Z",
+   "video_bytes": 82429,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_01_chacabuco_demoraron-a-dos-sospechosos-tr.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html|x": {
@@ -10691,6 +10717,34 @@
    "video_bytes": 103663,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_01_25-de-mayo_buscan-a-un-joven-de-27-a-os-p.mp4",
    "viral": true
+  },
+  "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/|x": {
+   "actualizado": "2026-11-19T02:20:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/|x",
+   "creado": "2026-11-19T02:20:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-19T02:18:14.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-arrestaron-a-un-sujeto-por-desobedecer-restricciones-80ef22",
+   "noticia": "nota:25-de-mayo-arrestaron-a-un-sujeto-por-desobedecer-restricciones-80ef22",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Capturan a un hombre que hostigó a su expareja e incumplió la prohibición de acercamiento\n\nUn individuo fue apresado por la policía tras presentarse dos veces en un día en la casa de su expareja. Violó restricciones judiciales y la intimidó.\n\nhttps://www.diariolacampaña.com.ar/n/25-de-mayo-arrestaron-a-un-sujeto-por-desobedecer-restricciones-80ef22",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Capturan a un hombre que hostigó a su expareja e incumplió la prohibición de acercamiento",
+   "urgente": false,
+   "vence": "2026-11-19T04:18:14.000Z",
+   "video_bytes": 110111,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_02_25-de-mayo_capturan-a-un-hombre-que-hosti.mp4",
+   "viral": false
   },
   "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x": {
    "actualizado": "2026-11-13T23:20:14.000Z",
@@ -16612,26 +16666,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor|x",
-   "cuando": "2026-11-12T01:20:17.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x",
-   "cuando": "2026-11-12T02:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x",
-   "cuando": "2026-11-12T02:00:18.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
    "clave": "web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x",
    "cuando": "2026-11-12T10:02:55.000Z",
    "estado": "pendiente",
@@ -20767,6 +20801,29 @@
    "cuando": "2026-11-18T23:20:27.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html|x",
+   "cuando": "2026-11-19T02:20:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/|x",
+   "cuando": "2026-11-19T02:20:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6afe5ce946636f319e7ebdad",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html|x",
+   "cuando": "2026-11-19T02:20:25.000Z",
+   "dueAt": "2026-11-19T02:23:27.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21171,6 +21228,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html": "2026-11-12T23:40:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html": "2026-11-08T23:40:14.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html": "2026-11-19T02:20:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": "2026-11-01T22:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html": "2026-11-13T00:20:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
@@ -21205,6 +21263,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos": "2026-11-08T22:20:12.000Z",
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": "2026-10-23T00:20:14.000Z",
   "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/": "2026-11-09T22:20:15.000Z",
+  "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/": "2026-11-19T02:20:21.000Z",
   "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/": "2026-11-13T22:20:13.000Z",
   "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/": "2026-11-11T22:40:16.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/": "2026-10-24T02:40:13.000Z",
