@@ -1188,6 +1188,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00327.mp4",
    "youtube_url": "https://youtu.be/umjmyUy4FQE"
   },
+  "entrevistas:job00328": {
+   "descripcion": "En Chivilcoy, Silvia Gonzalez, presidenta de la Fundación Estrellas Amarillas, advirtió sobre el dramático cambio en las víctimas viales. Explicó que la gravedad de los choques ahora se cobra la vida de todos los ocupantes de los vehículos.",
+   "duracion_seg": null,
+   "entrevistado": "Silvia Gonzalez",
+   "generado": "2026-11-19T17:00:18.000Z",
+   "id": "entrevistas:job00328",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Silvia Gonzalez: \"Están muriendo familias enteras en la Ruta 5\"",
+   "urgente": false,
+   "video_bytes": 32855490,
+   "video_mb": 31.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00328.mp4",
+   "youtube_url": "https://youtu.be/pxj4BD7gXE8"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": {
    "categoria": "robo",
    "descripcion": "Investigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.",
@@ -6730,43 +6751,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00289.mp4",
    "viral": false
   },
-  "entrevistas:job00289|x": {
-   "actualizado": "2026-11-09T17:00:20.000Z",
-   "buffer_id": "6af1f771704ab85a6bd54162",
-   "clave": "entrevistas:job00289|x",
-   "creado": "2026-11-09T16:40:15.000Z",
-   "dueAt": "2026-11-09T16:42:39.000Z",
-   "enviado": "2026-11-09T16:42:54.000Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T16:40:15.000Z",
-   "id": "entrevistas:job00289",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119833114675397050",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 55,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:cerca-chivilcoyanos-papa-ricardo-rodriguez",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Ricardo Rodriguez: Chivilcoyanos cerca del Papa\n\nEl cura párroco Ricardo Rodriguez destacó la participación de vecinos de Chivilcoy en la misa papal. Un diácono y una joven de la comunidad tendrán roles protagónicos durante la celebración.\n\nhttps://youtu.be/tJWLV8lPKP0",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Ricardo Rodriguez: Chivilcoyanos cerca del Papa",
-   "urgente": false,
-   "vence": "2026-11-09T18:40:15.000Z",
-   "video_bytes": 23449290,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00289.mp4",
-   "viral": false
-  },
   "entrevistas:job00290|tiktok": {
    "actualizado": "2026-11-09T22:20:27.000Z",
    "buffer_id": "6af2346aba863ca7a14986e2",
@@ -9869,6 +9853,62 @@
    "vence": "2026-11-18T20:00:19.000Z",
    "video_bytes": 19205493,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00327.mp4",
+   "viral": false
+  },
+  "entrevistas:job00328|tiktok": {
+   "actualizado": "2026-11-19T17:00:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00328|tiktok",
+   "creado": "2026-11-19T17:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-19T17:00:18.000Z",
+   "id": "entrevistas:job00328",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Silvia Gonzalez: \"Están muriendo familias enteras en la Ruta 5\"\n\nEn Chivilcoy, Silvia Gonzalez, presidenta de la Fundación Estrellas Amarillas, advirtió sobre el dramático cambio en las víctimas viales. Explicó que la gravedad de los choques ahora se cobra la vida de todos los ocupantes de los vehículos.\n\nhttps://youtu.be/pxj4BD7gXE8\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Silvia Gonzalez: \"Están muriendo familias enteras en la Ruta 5\"",
+   "urgente": false,
+   "vence": "2026-11-21T17:00:18.000Z",
+   "video_bytes": 32855490,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00328.mp4",
+   "viral": false
+  },
+  "entrevistas:job00328|x": {
+   "actualizado": "2026-11-19T17:00:28.000Z",
+   "buffer_id": "6aff2b32d32f1cc858d67bdc",
+   "clave": "entrevistas:job00328|x",
+   "creado": "2026-11-19T17:00:18.000Z",
+   "dueAt": "2026-11-19T17:02:34.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-19T17:00:18.000Z",
+   "id": "entrevistas:job00328",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:enteras-estan-familias-gonzalez-muriendo-ruta-silvia",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Silvia Gonzalez: \"Están muriendo familias enteras en la Ruta 5\"\n\nEn Chivilcoy, Silvia Gonzalez, presidenta de la Fundación Estrellas Amarillas, advirtió sobre el dramático cambio en las víctimas viales.\n\nhttps://youtu.be/pxj4BD7gXE8",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Silvia Gonzalez: \"Están muriendo familias enteras en la Ruta 5\"",
+   "urgente": false,
+   "vence": "2026-11-19T19:00:18.000Z",
+   "video_bytes": 32855490,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00328.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x": {
@@ -17187,33 +17227,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00306|tiktok",
-   "cuando": "2026-11-12T18:00:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6af5feba912fecb48ce2e2a9",
-   "clave": "entrevistas:job00306|x",
-   "cuando": "2026-11-12T18:00:27.000Z",
-   "dueAt": "2026-11-12T18:02:19.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00305|x",
-   "cuando": "2026-11-12T18:20:30.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120935426500260249"
-  },
-  {
-   "clave": "entrevistas:job00306|x",
-   "cuando": "2026-11-12T18:20:30.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120941449378169210"
-  },
-  {
    "clave": "entrevistas:job00307",
    "cuando": "2026-11-12T18:40:15.000Z",
    "evento": "entrevista_aprobada"
@@ -21347,6 +21360,34 @@
    "cuando": "2026-11-19T16:20:16.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00328",
+   "cuando": "2026-11-19T17:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00328|x",
+   "cuando": "2026-11-19T17:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00328|tiktok",
+   "cuando": "2026-11-19T17:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6aff2b32d32f1cc858d67bdc",
+   "clave": "entrevistas:job00328|x",
+   "cuando": "2026-11-19T17:00:34.000Z",
+   "dueAt": "2026-11-19T17:02:34.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21536,7 +21577,6 @@
   "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4": "2026-11-17T09:00:20.000Z",
   "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4": "2026-11-17T15:20:16.000Z",
   "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4": "2026-11-18T16:00:21.000Z",
-  "entrevistas:job00230": "2026-10-20T17:00:17.000Z",
   "entrevistas:job00231": "2026-10-20T17:40:15.000Z",
   "entrevistas:job00232": "2026-10-20T18:00:17.000Z",
   "entrevistas:job00233": "2026-10-20T18:20:18.000Z",
@@ -21637,6 +21677,7 @@
   "entrevistas:job00325": "2026-11-18T17:00:21.000Z",
   "entrevistas:job00326": "2026-11-18T17:20:18.000Z",
   "entrevistas:job00327": "2026-11-18T18:00:19.000Z",
+  "entrevistas:job00328": "2026-11-19T17:00:18.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:0f149db2f4d13c80": "2026-10-23T22:00:20.000Z",
   "nacionales:10671478a956c2ad": "2026-10-20T22:20:13.000Z",
