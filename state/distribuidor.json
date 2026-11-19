@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-19T11:40:15.000Z"
+   "visto": "2026-11-19T12:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 2,
-    "sent": 21
+    "scheduled": 1,
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-19T11:40:15.000Z"
+   "visto": "2026-11-19T12:40:15.000Z"
   }
  },
  "contenidos": {
@@ -11484,19 +11484,20 @@
    "viral": false
   },
   "web:0649b9df-9dcf-46f0-b904-cf607353f7e7|x": {
-   "actualizado": "2026-11-19T11:00:18.000Z",
+   "actualizado": "2026-11-19T12:40:15.000Z",
    "buffer_id": "6afed6c6ffd0192517ab2257",
    "clave": "web:0649b9df-9dcf-46f0-b904-cf607353f7e7|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T12:25:28.000Z",
+   "enviado": "2026-11-19T12:25:31.162Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:04:20.624Z",
    "id": "web:0649b9df-9dcf-46f0-b904-cf607353f7e7",
    "ig_hora": "2026-11-19T12:25:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123392221160395145",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquetbol-chivilcoy-torneo-clausura-de-primera-division-racing-y",
    "noticia": "nota:basquetbol-chivilcoy-torneo-clausura-de-primera-division-racing-y",
    "origen": "web",
@@ -15634,19 +15635,20 @@
    "viral": false
   },
   "web:b25195a6-8663-4776-9925-1b3d65850489|x": {
-   "actualizado": "2026-11-19T10:40:15.000Z",
+   "actualizado": "2026-11-19T12:40:15.000Z",
    "buffer_id": "6afed20f7c25de751c32ec14",
    "clave": "web:b25195a6-8663-4776-9925-1b3d65850489|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T11:55:31.000Z",
+   "enviado": "2026-11-19T11:55:46.227Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:04:11.983Z",
    "id": "web:b25195a6-8663-4776-9925-1b3d65850489",
    "ig_hora": "2026-11-19T11:55:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123384734680039471",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -16770,19 +16772,20 @@
    "viral": false
   },
   "web:e3c0a836-b40d-420b-b76b-e8a9f383a162|x": {
-   "actualizado": "2026-11-19T11:00:18.000Z",
+   "actualizado": "2026-11-19T12:40:15.000Z",
    "buffer_id": "6afed6c4ffd0192517ab1eb6",
    "clave": "web:e3c0a836-b40d-420b-b76b-e8a9f383a162|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T12:10:09.000Z",
+   "enviado": "2026-11-19T12:10:16.189Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:04:16.318Z",
    "id": "web:e3c0a836-b40d-420b-b76b-e8a9f383a162",
    "ig_hora": "2026-11-19T12:10:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123388383468687810",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-liga-nacional-noche-de-desahogo-y-sonrisa-para",
    "noticia": "nota:basquet-chivilcoy-liga-nacional-noche-de-desahogo-y-sonrisa-para",
    "origen": "web",
@@ -17033,19 +17036,20 @@
    "viral": false
   },
   "web:efb8b273-d909-4552-a200-a555ac7dd49f|x": {
-   "actualizado": "2026-11-19T10:20:28.000Z",
+   "actualizado": "2026-11-19T12:40:15.000Z",
    "buffer_id": "6afecd6dec3834f154509d49",
    "clave": "web:efb8b273-d909-4552-a200-a555ac7dd49f|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T11:40:06.000Z",
+   "enviado": "2026-11-19T11:40:16.299Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:04:06.981Z",
    "id": "web:efb8b273-d909-4552-a200-a555ac7dd49f",
    "ig_hora": "2026-11-19T11:40:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123380834006716631",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -17405,30 +17409,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:b034af07-ddaf-426e-8207-d2724c540524|x",
-   "cuando": "2026-11-12T14:00:17.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x",
-   "cuando": "2026-11-12T14:20:14.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:e5265ed2-c719-4005-9f45-041765495e36|x",
-   "cuando": "2026-11-12T14:20:14.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy"
-  },
-  {
-   "clave": "web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6|x",
-   "cuando": "2026-11-12T15:00:22.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120877464041783366"
-  },
   {
    "clave": "entrevistas:job00304",
    "cuando": "2026-11-12T17:00:20.000Z",
@@ -21565,6 +21545,30 @@
    "cuando": "2026-11-19T11:40:15.000Z",
    "dueAt": "2026-11-19T12:55:29.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:0649b9df-9dcf-46f0-b904-cf607353f7e7|x",
+   "cuando": "2026-11-19T12:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123392221160395145"
+  },
+  {
+   "clave": "web:b25195a6-8663-4776-9925-1b3d65850489|x",
+   "cuando": "2026-11-19T12:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123384734680039471"
+  },
+  {
+   "clave": "web:e3c0a836-b40d-420b-b76b-e8a9f383a162|x",
+   "cuando": "2026-11-19T12:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123388383468687810"
+  },
+  {
+   "clave": "web:efb8b273-d909-4552-a200-a555ac7dd49f|x",
+   "cuando": "2026-11-19T12:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123380834006716631"
   }
  ],
  "tandas": {
@@ -21602,7 +21606,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-19",
- "ultima_sync": "2026-11-19T11:40:15.000Z",
+ "ultima_sync": "2026-11-19T12:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21688,7 +21692,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvgnbrt9pnau_01.mp4": "2026-10-20T12:40:14.000Z",
   "bot:video_matias-zucchi_mvgqo8ikx8t7_01.mp4": "2026-10-20T14:00:21.000Z",
   "bot:video_matias-zucchi_mvgve3f60o53_01.mp4": "2026-10-20T16:20:16.000Z",
   "bot:video_matias-zucchi_mvgyyecb6yiw_01.mp4": "2026-10-20T18:00:17.000Z",
