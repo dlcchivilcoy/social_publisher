@@ -15488,14 +15488,14 @@
    "viral": false
   },
   "web:a84ee201-6571-4781-a9ba-cda913722cca|x": {
-   "actualizado": "2026-11-19T09:05:46.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-19T11:20:13.000Z",
+   "buffer_id": "6afedb6da905c231b635677b",
    "clave": "web:a84ee201-6571-4781-a9ba-cda913722cca|x",
    "creado": "2026-11-19T09:05:46.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-19T12:40:46.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-19T09:04:25.076Z",
    "id": "web:a84ee201-6571-4781-a9ba-cda913722cca",
    "ig_hora": "2026-11-19T12:40:35.000Z",
@@ -17501,14 +17501,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x",
-   "cuando": "2026-11-12T13:40:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok",
    "cuando": "2026-11-12T13:40:28.000Z",
@@ -21660,6 +21652,13 @@
    "clave": "web:0649b9df-9dcf-46f0-b904-cf607353f7e7|x",
    "cuando": "2026-11-19T11:00:23.000Z",
    "dueAt": "2026-11-19T12:25:28.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afedb6da905c231b635677b",
+   "clave": "web:a84ee201-6571-4781-a9ba-cda913722cca|x",
+   "cuando": "2026-11-19T11:20:13.000Z",
+   "dueAt": "2026-11-19T12:40:46.000Z",
    "evento": "programado"
   }
  ],
