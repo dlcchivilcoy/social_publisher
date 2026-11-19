@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 19/11/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 5 | 5 | 5 | 0 | 0 | 0 |
+| Notas web | X | 15 | 5 | 6 | 4 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,25 +20,23 @@ Actualizado: 19/11/2026 07:20 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 37 con métricas · mediana vistas/impresiones 50 · likes 0
 - X · Reels del bot: 9 con métricas · mediana vistas/impresiones 65 · likes 0
 - X · Reels policiales: 11 con métricas · mediana vistas/impresiones 89 · likes 0
-- X · Notas web: 106 con métricas · mediana vistas/impresiones 21 · likes 0
+- X · Notas web: 105 con métricas · mediana vistas/impresiones 21 · likes 0
 - TikTok · Recortes de entrevistas: 38 con métricas · mediana vistas/impresiones 159 · likes 1
 - TikTok · Reels del bot: 12 con métricas · mediana vistas/impresiones 308.5 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (4 esperando)
 - X · Notas web · Superliga de ASAMBAL: Independiente de Chivilcoy se consagró campeón en ocho cat — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Román Mastrángelo subió al podio en el cierre de la Vuelta al Valle y — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Clausura de Primera División: Racing y Gimnasia abren una seri — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Liga Nacional: Noche de desahogo y sonrisa para Racing que venció a L — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Con oficio y experiencia, Super Moli selló su pase a la final de la L — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T09:06 recibido web:efb8b273-d909-4552-a200-a555ac7dd49f|x 
 - 2026-11-19T09:06 recibido web:44237ca1-fd70-452d-89bb-5cd456e50210|x 
 - 2026-11-19T09:06 recibido web:c84c8adb-3791-435c-bf8f-60519d299bc0|x 
 - 2026-11-19T09:06 recibido web:69649be8-12b5-49fe-a08e-169906bb6799|x 
@@ -63,3 +61,4 @@ Actualizado: 19/11/2026 07:20 (hora AR) · ACTIVO
 - 2026-11-19T10:20 enviado web:dbf352ff-5f10-4d42-b7a1-25afb048d043|x 
 - 2026-11-19T10:20 enviado web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b|x 
 - 2026-11-19T10:20 programado web:efb8b273-d909-4552-a200-a555ac7dd49f|x 
+- 2026-11-19T10:40 programado web:b25195a6-8663-4776-9925-1b3d65850489|x 

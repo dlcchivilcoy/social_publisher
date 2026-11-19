@@ -4011,25 +4011,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
    "volanta": "Chivilcoy · Sociedad"
   },
-  "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Caída desde un techo en la UNLu: un joven de 19 años lucha por su vida en terapia intensiva CHIVILCOY.– Dos personas cayeron desde un techo superior del predio universitario sobre la calle 110. Bomberos Voluntarios, SAME y Policía desplegaron un complejo operativo de rescate en altura. El herido grave, Theo Posse Molina, sufrió fractura occipital, traumatismo de cráneo y contusión pulmonar; se encuentra en coma farmacológico con asistencia respiratoria. Una jornada de habitual...",
-   "generado": "2026-11-09T10:01:50.304Z",
-   "id": "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_2738bb48ad814d6fa81f4801acab65ea~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/internado-en-uti-chivilcoy-caida-desde-un-techo-en-la-unlu-un-joven",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Caída desde un techo en la UNLu: un joven de 19 años lucha por su vida en terapia intensiva",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/internado-en-uti-chivilcoy-caida-desde-un-techo-en-la-unlu-un-joven",
-   "volanta": "Internado en UTI"
-  },
   "web:715ed60b-7e27-4f93-b061-3e96c07992e4": {
    "categoria": "",
    "descripcion": "Chivilcoy: Demarcación de bulevares: una intervención clave para la seguridad vial CHIVILCOY.– Matías Maleichuk destacó que las tareas que lleva adelante la Dirección de Tránsito tienen una importancia que va más allá del embellecimiento urbano, ya que apuntan directamente a mejorar las condiciones de circulación y prevenir siniestros. “Es una tarea de embellecimiento, pero fundamentalmente, en lo que respecta a nuestra área, está orientada a la seguridad vial”, afirmó. El funcionario recordó...",
@@ -14230,44 +14211,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb|x": {
-   "actualizado": "2026-11-09T10:20:55.000Z",
-   "buffer_id": "6af19a66f309feb7ee03b688",
-   "clave": "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb|x",
-   "creado": "2026-11-09T10:02:37.000Z",
-   "dueAt": "2026-11-09T10:07:57.000Z",
-   "enviado": "2026-11-09T10:08:01.930Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T10:01:50.304Z",
-   "id": "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb",
-   "ig_hora": "2026-11-09T10:07:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119733742595965065",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 39,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/internado-en-uti-chivilcoy-caida-desde-un-techo-en-la-unlu-un-joven",
-   "noticia": "nota:internado-en-uti-chivilcoy-caida-desde-un-techo-en-la-unlu-un-joven",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Caída desde un techo en la UNLu: un joven de 19 años lucha por su vida en terapia intensiva\n\nDos personas cayeron desde un techo en la sede universitaria de la calle 110. Se desplegó un complejo operativo de rescate en altura para asistirlas.\n\nhttps://www.diariolacampaña.com.ar/n/internado-en-uti-chivilcoy-caida-desde-un-techo-en-la-unlu-un-joven",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Caída desde un techo en la UNLu: un joven de 19 años lucha por su vida en terapia intensiva",
-   "urgente": false,
-   "vence": "2026-11-09T14:01:50.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:715ed60b-7e27-4f93-b061-3e96c07992e4|x": {
    "actualizado": "2026-11-12T11:20:16.000Z",
    "buffer_id": "6af58f16041a9377d7df2962",
@@ -15730,14 +15673,14 @@
    "viral": false
   },
   "web:b25195a6-8663-4776-9925-1b3d65850489|x": {
-   "actualizado": "2026-11-19T09:05:46.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-19T10:40:15.000Z",
+   "buffer_id": "6afed20f7c25de751c32ec14",
    "clave": "web:b25195a6-8663-4776-9925-1b3d65850489|x",
    "creado": "2026-11-19T09:05:46.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-19T11:55:31.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-19T09:04:11.983Z",
    "id": "web:b25195a6-8663-4776-9925-1b3d65850489",
    "ig_hora": "2026-11-19T11:55:35.000Z",
@@ -17558,13 +17501,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6af5b86493c238937055dc75",
-   "clave": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok",
-   "cuando": "2026-11-12T13:00:20.000Z",
-   "dueAt": "2026-11-12T13:03:14.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:b034af07-ddaf-426e-8207-d2724c540524|x",
    "cuando": "2026-11-12T13:20:19.000Z",
@@ -21719,6 +21655,13 @@
    "clave": "web:efb8b273-d909-4552-a200-a555ac7dd49f|x",
    "cuando": "2026-11-19T10:20:29.000Z",
    "dueAt": "2026-11-19T11:40:06.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6afed20f7c25de751c32ec14",
+   "clave": "web:b25195a6-8663-4776-9925-1b3d65850489|x",
+   "cuando": "2026-11-19T10:40:16.000Z",
+   "dueAt": "2026-11-19T11:55:31.000Z",
    "evento": "programado"
   }
  ],
