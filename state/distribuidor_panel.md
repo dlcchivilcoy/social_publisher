@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 06:00 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 06:07 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 19/11/2026 06:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 6 | 9 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,34 +27,43 @@ Actualizado: 19/11/2026 06:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (9 esperando)
+- X · Notas web · Superliga de ASAMBAL: Independiente de Chivilcoy se consagró campeón en ocho cat — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Román Mastrángelo subió al podio en el cierre de la Vuelta al Valle y — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Torneo Clausura de Primera División: Racing y Gimnasia abren una seri — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Liga Nacional: Noche de desahogo y sonrisa para Racing que venció a L — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Con oficio y experiencia, Super Moli selló su pase a la final de la L — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Torneo Federal ‘A’ - Reválida: Cuatro candidatos para un solo boleto, — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Estudiantes locales recorrieron la muestra de grabado “Huellas Impresas” en el M — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Avenidas Ortiz y Carlos Gardel: Circo Safari Show en Chivilcoy con diversas func — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Los privilegios que la democracia no consigue desterrar. — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T21:00 programado entrevistas:job00327|tiktok 
-- 2026-11-18T21:00 programado entrevistas:job00326|tiktok 
-- 2026-11-18T21:00 programado entrevistas:job00325|tiktok 
-- 2026-11-18T21:00 programado entrevistas:job00324|tiktok 
-- 2026-11-18T21:20 enviado bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok 
-- 2026-11-18T22:40 enviado entrevistas:job00324|tiktok 
-- 2026-11-18T22:40 enviado entrevistas:job00325|tiktok 
-- 2026-11-18T22:40 enviado entrevistas:job00326|tiktok 
-- 2026-11-18T22:40 enviado entrevistas:job00327|tiktok 
-- 2026-11-18T23:20 recibido web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c|x 
-- 2026-11-18T23:20 recibido web:221b8fb0-b926-4a1a-8a3e-ecccb5751759|x la misma noticia ya sale en X (Notas web, pendiente)
-- 2026-11-18T23:20 depurado web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-19T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/incidente 
-- 2026-11-19T02:20 recibido policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombr 
-- 2026-11-19T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/11/incidente 
-- 2026-11-19T02:40 recibido policiales:https://www.diariodemocracia.com/policiales/34823 
-- 2026-11-19T02:40 enviado policiales:https://www.chacabuquero.com.ar/2026/11/incidente 
-- 2026-11-19T09:00 recibido policiales:https://www.abcsaladillo.com.ar/general/la-patrul 
-- 2026-11-19T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-rob 
-- 2026-11-19T09:00 recibido policiales:https://www.latrochadigital.com.ar/2026/11/18/un- 
-- 2026-11-19T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34823 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-19T09:00 vencido policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombr espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-19T09:00 vencido policiales:https://www.abcsaladillo.com.ar/general/la-patrul no hubo lugar antes de su vencimiento
 - 2026-11-19T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-rob no hubo lugar antes de su vencimiento
 - 2026-11-19T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/18/un- no hubo lugar antes de su vencimiento
+- 2026-11-19T09:05 recibido web:3a27f600-fd73-4505-9cb2-6434f4ad6e89|x 
+- 2026-11-19T09:06 recibido web:a84ee201-6571-4781-a9ba-cda913722cca|x 
+- 2026-11-19T09:06 recibido web:0649b9df-9dcf-46f0-b904-cf607353f7e7|x 
+- 2026-11-19T09:06 recibido web:e3c0a836-b40d-420b-b76b-e8a9f383a162|x 
+- 2026-11-19T09:06 recibido web:b25195a6-8663-4776-9925-1b3d65850489|x 
+- 2026-11-19T09:06 recibido web:efb8b273-d909-4552-a200-a555ac7dd49f|x 
+- 2026-11-19T09:06 recibido web:44237ca1-fd70-452d-89bb-5cd456e50210|x 
+- 2026-11-19T09:06 recibido web:c84c8adb-3791-435c-bf8f-60519d299bc0|x 
+- 2026-11-19T09:06 recibido web:69649be8-12b5-49fe-a08e-169906bb6799|x 
+- 2026-11-19T09:07 recibido web:8979344a-0701-4069-b470-ee00954debc6|x 
+- 2026-11-19T09:07 recibido web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b|x 
+- 2026-11-19T09:07 recibido web:20466408-a7de-4dfe-ae72-76c8866f0181|x 
+- 2026-11-19T09:07 recibido web:dbf352ff-5f10-4d42-b7a1-25afb048d043|x 
+- 2026-11-19T09:07 recibido web:49e62895-3650-40a4-96b0-255e389c9fe6|x 
+- 2026-11-19T09:07 recibido web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x 
+- 2026-11-19T09:07 programado web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x 
+- 2026-11-19T09:07 programado web:49e62895-3650-40a4-96b0-255e389c9fe6|x 
+- 2026-11-19T09:07 programado web:dbf352ff-5f10-4d42-b7a1-25afb048d043|x 
+- 2026-11-19T09:07 programado web:20466408-a7de-4dfe-ae72-76c8866f0181|x 
+- 2026-11-19T09:07 programado web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b|x 
+- 2026-11-19T09:07 programado web:8979344a-0701-4069-b470-ee00954debc6|x 
