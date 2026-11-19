@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -27,17 +27,14 @@ Actualizado: 19/11/2026 14:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- TikTok · Recortes de entrevistas · Marina Arce y el insólito susto en el Panamericano — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Silvia Gonzalez: "Están muriendo familias enteras en la Ruta 5" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T11:40 enviado web:44237ca1-fd70-452d-89bb-5cd456e50210|x 
-- 2026-11-19T11:40 enviado web:69649be8-12b5-49fe-a08e-169906bb6799|x 
-- 2026-11-19T11:40 enviado web:8979344a-0701-4069-b470-ee00954debc6|x 
-- 2026-11-19T11:40 enviado web:c84c8adb-3791-435c-bf8f-60519d299bc0|x 
 - 2026-11-19T11:40 programado web:3a27f600-fd73-4505-9cb2-6434f4ad6e89|x 
 - 2026-11-19T12:40 enviado web:0649b9df-9dcf-46f0-b904-cf607353f7e7|x 
 - 2026-11-19T12:40 enviado web:b25195a6-8663-4776-9925-1b3d65850489|x 
@@ -59,3 +56,7 @@ Actualizado: 19/11/2026 14:20 (hora AR) · ACTIVO
 - 2026-11-19T17:00 recibido entrevistas:job00328|tiktok 
 - 2026-11-19T17:00 programado entrevistas:job00328|x 
 - 2026-11-19T17:20 enviado entrevistas:job00328|x 
+- 2026-11-19T17:40 entrevista_aprobada entrevistas:job00329 
+- 2026-11-19T17:40 recibido entrevistas:job00329|x 
+- 2026-11-19T17:40 recibido entrevistas:job00329|tiktok 
+- 2026-11-19T17:40 programado entrevistas:job00329|x 

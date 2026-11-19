@@ -1209,6 +1209,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00328.mp4",
    "youtube_url": "https://youtu.be/pxj4BD7gXE8"
   },
+  "entrevistas:job00329": {
+   "descripcion": "La ciclista de Chivilcoy Marina Arce relató la desesperante confusión que vivió en el cierre del Panamericano cuando pensó que perdía la punta de la carrera.",
+   "duracion_seg": null,
+   "entrevistado": "Marina Arce",
+   "generado": "2026-11-19T17:40:13.000Z",
+   "id": "entrevistas:job00329",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Marina Arce y el insólito susto en el Panamericano",
+   "urgente": false,
+   "video_bytes": 31280856,
+   "video_mb": 29.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00329.mp4",
+   "youtube_url": "https://youtu.be/vFkt9XEqh2k"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": {
    "categoria": "robo",
    "descripcion": "Investigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.",
@@ -9912,6 +9933,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00328.mp4",
    "viral": false
   },
+  "entrevistas:job00329|tiktok": {
+   "actualizado": "2026-11-19T17:40:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00329|tiktok",
+   "creado": "2026-11-19T17:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-19T17:40:13.000Z",
+   "id": "entrevistas:job00329",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Marina Arce y el insólito susto en el Panamericano\n\nLa ciclista de Chivilcoy Marina Arce relató la desesperante confusión que vivió en el cierre del Panamericano cuando pensó que perdía la punta de la carrera.\n\nhttps://youtu.be/vFkt9XEqh2k\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marina Arce y el insólito susto en el Panamericano",
+   "urgente": false,
+   "vence": "2026-11-21T17:40:13.000Z",
+   "video_bytes": 31280856,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00329.mp4",
+   "viral": false
+  },
+  "entrevistas:job00329|x": {
+   "actualizado": "2026-11-19T17:40:14.000Z",
+   "buffer_id": "6aff347e95650eb4b8b96674",
+   "clave": "entrevistas:job00329|x",
+   "creado": "2026-11-19T17:40:13.000Z",
+   "dueAt": "2026-11-19T17:42:37.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-19T17:40:13.000Z",
+   "id": "entrevistas:job00329",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:arce-insolito-marina-panamericano-susto",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Marina Arce y el insólito susto en el Panamericano\n\nLa ciclista de Chivilcoy Marina Arce relató la desesperante confusión que vivió en el cierre del Panamericano cuando pensó que perdía la punta de la carrera.\n\nhttps://youtu.be/vFkt9XEqh2k",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marina Arce y el insólito susto en el Panamericano",
+   "urgente": false,
+   "vence": "2026-11-19T19:40:13.000Z",
+   "video_bytes": 31280856,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00329.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x": {
    "actualizado": "2026-11-18T00:40:16.000Z",
    "buffer_id": "",
@@ -17228,34 +17305,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00307|x",
-   "cuando": "2026-11-12T18:40:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00307|tiktok",
-   "cuando": "2026-11-12T18:40:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6af6081e68b55f457c168ee1",
-   "clave": "entrevistas:job00307|x",
-   "cuando": "2026-11-12T18:40:30.000Z",
-   "dueAt": "2026-11-12T18:42:34.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00308",
-   "cuando": "2026-11-12T19:20:14.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
    "clave": "entrevistas:job00308|x",
    "cuando": "2026-11-12T19:20:15.000Z",
    "estado": "pendiente",
@@ -21390,6 +21439,34 @@
    "cuando": "2026-11-19T17:20:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123463923215016135"
+  },
+  {
+   "clave": "entrevistas:job00329",
+   "cuando": "2026-11-19T17:40:13.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00329|x",
+   "cuando": "2026-11-19T17:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00329|tiktok",
+   "cuando": "2026-11-19T17:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6aff347e95650eb4b8b96674",
+   "clave": "entrevistas:job00329|x",
+   "cuando": "2026-11-19T17:40:14.000Z",
+   "dueAt": "2026-11-19T17:42:37.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21680,6 +21757,7 @@
   "entrevistas:job00326": "2026-11-18T17:20:18.000Z",
   "entrevistas:job00327": "2026-11-18T18:00:19.000Z",
   "entrevistas:job00328": "2026-11-19T17:00:18.000Z",
+  "entrevistas:job00329": "2026-11-19T17:40:13.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:0f149db2f4d13c80": "2026-10-23T22:00:20.000Z",
   "nacionales:10671478a956c2ad": "2026-10-20T22:20:13.000Z",
