@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -27,20 +27,12 @@ Actualizado: 19/11/2026 17:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
-- TikTok · Recortes de entrevistas · Yamil Rodriguez y la competencia comercial en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · José Luis Ghiglieri: el caso que impulsó la Ley Joaquín — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Marina Arce y el insólito susto en el Panamericano — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Silvia Gonzalez: "Están muriendo familias enteras en la Ruta 5" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T14:00 enviado web:3a27f600-fd73-4505-9cb2-6434f4ad6e89|x 
-- 2026-11-19T14:00 enviado web:a84ee201-6571-4781-a9ba-cda913722cca|x 
-- 2026-11-19T14:40 depurado web:31c0e74b-478b-4404-9a91-90590ed6b0b4|x no está en el carrusel del diario de hoy
-- 2026-11-19T16:20 recibido web:c215b26a-1860-4016-8c29-ff480e2f8fcc|x 
 - 2026-11-19T16:20 depurado web:c215b26a-1860-4016-8c29-ff480e2f8fcc|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-19T17:00 entrevista_aprobada entrevistas:job00328 
 - 2026-11-19T17:00 recibido entrevistas:job00328|x 
@@ -62,3 +54,7 @@ Actualizado: 19/11/2026 17:40 (hora AR) · ACTIVO
 - 2026-11-19T19:00 programado entrevistas:job00331|x 
 - 2026-11-19T19:20 enviado entrevistas:job00330|x 
 - 2026-11-19T19:20 enviado entrevistas:job00331|x 
+- 2026-11-19T21:00 programado entrevistas:job00331|tiktok 
+- 2026-11-19T21:00 programado entrevistas:job00330|tiktok 
+- 2026-11-19T21:00 programado entrevistas:job00329|tiktok 
+- 2026-11-19T21:00 programado entrevistas:job00328|tiktok 
