@@ -12285,14 +12285,14 @@
    "viral": false
   },
   "web:31c0e74b-478b-4404-9a91-90590ed6b0b4|x": {
-   "actualizado": "2026-11-19T14:00:20.000Z",
+   "actualizado": "2026-11-19T14:40:14.000Z",
    "buffer_id": "",
    "clave": "web:31c0e74b-478b-4404-9a91-90590ed6b0b4|x",
    "creado": "2026-11-19T14:00:20.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-19T13:43:36.219Z",
    "id": "web:31c0e74b-478b-4404-9a91-90590ed6b0b4",
    "intentos": 0,
@@ -17141,13 +17141,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af5fa01945bf0f848455b85",
-   "clave": "entrevistas:job00305|x",
-   "cuando": "2026-11-12T17:40:17.000Z",
-   "dueAt": "2026-11-12T17:42:41.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00306",
    "cuando": "2026-11-12T18:00:18.000Z",
    "evento": "entrevista_aprobada"
@@ -21301,6 +21294,12 @@
    "cuando": "2026-11-19T14:00:23.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123396130574639237"
+  },
+  {
+   "clave": "web:31c0e74b-478b-4404-9a91-90590ed6b0b4|x",
+   "cuando": "2026-11-19T14:40:14.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
   }
  ],
  "tandas": {
