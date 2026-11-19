@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 19:00 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 1 | 3 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -14,7 +14,7 @@ Actualizado: 19/11/2026 19:00 (hora AR) · ACTIVO
 
 ## Canales
 - X: conectado · Buffer: 20 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 1 enviadas + 3 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 4 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 36 con métricas · mediana vistas/impresiones 59 · likes 0
@@ -33,9 +33,6 @@ Actualizado: 19/11/2026 19:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T17:40 programado entrevistas:job00329|x 
-- 2026-11-19T18:20 entrevista_aprobada entrevistas:job00330 
-- 2026-11-19T18:20 recibido entrevistas:job00330|x 
 - 2026-11-19T18:20 recibido entrevistas:job00330|tiktok 
 - 2026-11-19T18:20 enviado entrevistas:job00329|x 
 - 2026-11-19T18:20 programado entrevistas:job00330|x 
@@ -58,3 +55,6 @@ Actualizado: 19/11/2026 19:00 (hora AR) · ACTIVO
 - 2026-11-19T22:00 depurado web:fbf18cb2-fdbc-428f-aba5-f02fe7e0ddb8|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-19T22:00 depurado web:900359d5-6183-4c50-8ecb-5fd30abaf575|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-19T22:00 depurado web:8d685a3e-55db-42df-bf39-d5595b1bafe9|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-19T22:20 enviado entrevistas:job00328|tiktok 
+- 2026-11-19T22:20 enviado entrevistas:job00329|tiktok 
+- 2026-11-19T22:20 enviado entrevistas:job00330|tiktok 
