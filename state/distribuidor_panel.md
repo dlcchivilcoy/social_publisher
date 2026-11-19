@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 18/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-18)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,12 +8,12 @@ Actualizado: 18/11/2026 23:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 18 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 19 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,15 +27,14 @@ Actualizado: 18/11/2026 23:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- X · Reels policiales · Cayó un hombre de 31 años tras robar una caja fuerte en Junín y recuperaron el b — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Capturan a un hombre que hostigó a su expareja e incumplió la prohibición de ace — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T17:20 enviado entrevistas:job00324|x 
-- 2026-11-18T17:20 enviado entrevistas:job00325|x 
 - 2026-11-18T17:20 programado entrevistas:job00326|x 
 - 2026-11-18T18:00 entrevista_aprobada entrevistas:job00327 
 - 2026-11-18T18:00 recibido entrevistas:job00327|x 
@@ -59,3 +58,5 @@ Actualizado: 18/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-19T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/incidente 
 - 2026-11-19T02:20 recibido policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombr 
 - 2026-11-19T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/11/incidente 
+- 2026-11-19T02:40 recibido policiales:https://www.diariodemocracia.com/policiales/34823 
+- 2026-11-19T02:40 enviado policiales:https://www.chacabuquero.com.ar/2026/11/incidente 
