@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00329",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-11-19T17:30:48.000Z",
+ "titulo": "Marina Arce y el insólito susto en el Panamericano",
+ "descripcion": "La ciclista de Chivilcoy Marina Arce relató la desesperante confusión que vivió en el cierre del Panamericano cuando pensó que perdía la punta de la carrera.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00329.mp4",
+ "duracion_seg": null,
+ "espera_youtube_publico": {
+  "short": "B1WB84_2DUE",
+  "largo": "vFkt9XEqh2k"
+ },
+ "youtube_url": "https://youtube.com/shorts/B1WB84_2DUE",
+ "prioridad": 7,
+ "entrevistado": "Marina Arce",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
