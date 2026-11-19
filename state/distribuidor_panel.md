@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 18/11/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-11-18)
+## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 0 | 0 |
-| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 5 |
+| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,22 +27,12 @@ Actualizado: 18/11/2026 23:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
-- X · Reels policiales · Cayó un hombre de 31 años tras robar una caja fuerte en Junín y recuperaron el b — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Capturan a un hombre que hostigó a su expareja e incumplió la prohibición de ace — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-18T17:20 programado entrevistas:job00326|x 
-- 2026-11-18T18:00 entrevista_aprobada entrevistas:job00327 
-- 2026-11-18T18:00 recibido entrevistas:job00327|x 
-- 2026-11-18T18:00 recibido entrevistas:job00327|tiktok 
-- 2026-11-18T18:00 programado entrevistas:job00327|x 
-- 2026-11-18T18:40 enviado entrevistas:job00326|x 
-- 2026-11-18T18:40 enviado entrevistas:job00327|x 
-- 2026-11-18T21:00 programado bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok 
 - 2026-11-18T21:00 programado entrevistas:job00327|tiktok 
 - 2026-11-18T21:00 programado entrevistas:job00326|tiktok 
 - 2026-11-18T21:00 programado entrevistas:job00325|tiktok 
@@ -60,3 +50,11 @@ Actualizado: 18/11/2026 23:40 (hora AR) · ACTIVO
 - 2026-11-19T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/11/incidente 
 - 2026-11-19T02:40 recibido policiales:https://www.diariodemocracia.com/policiales/34823 
 - 2026-11-19T02:40 enviado policiales:https://www.chacabuquero.com.ar/2026/11/incidente 
+- 2026-11-19T09:00 recibido policiales:https://www.abcsaladillo.com.ar/general/la-patrul 
+- 2026-11-19T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-rob 
+- 2026-11-19T09:00 recibido policiales:https://www.latrochadigital.com.ar/2026/11/18/un- 
+- 2026-11-19T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34823 espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-19T09:00 vencido policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombr espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-19T09:00 vencido policiales:https://www.abcsaladillo.com.ar/general/la-patrul no hubo lugar antes de su vencimiento
+- 2026-11-19T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-rob no hubo lugar antes de su vencimiento
+- 2026-11-19T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/18/un- no hubo lugar antes de su vencimiento

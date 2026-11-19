@@ -1682,6 +1682,32 @@
    "volanta": "Violento asalto en Junín",
    "youtube_url": "https://youtube.com/shorts/RX6zJVKkQO0"
   },
+  "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/": {
+   "categoria": "otro_policial",
+   "descripcion": "El Comando de Prevención Rural interceptó a dos infractores que utilizaban mallas prohibidas en el arroyo Saladillo. El material fue incautado.",
+   "distancia_km": 82.0,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-19T02:46:26.000Z",
+   "id": "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/",
+   "localidad": "Del Carril",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/del-carril-secuestraron-redes-ilegales-de-pesca-en-el-arroyo-a3532d",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 4,
+   "radio_ok": true,
+   "texto_tiktok": "La Patrulla Rural sorprendió a dos personas empleando redes de tipo trasmallo en aguas prohibidas.\n\nEl procedimiento se llevó a cabo sobre el arroyo Saladillo, en la localidad de Del Carril.\n\nLos agentes incautaron los elementos de pesca y elevaron las actuaciones al Juzgado Municipal de Faltas local.\n\nDesde la fuerza recordaron que la normativa bonaerense prohíbe el uso de redes y autoriza únicamente la caña.\n\n📲 Más noticias de Del Carril en www.diariolacampaña.com.ar\n\n#DelCarril #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Secuestran redes ilegales de pesca en un arroyo de Del Carril",
+   "urgente": false,
+   "video_bytes": 90637,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_05_roque-perez_secuestran-redes-ilegales-de-p.mp4",
+   "volanta": "Operativo en Del Carril",
+   "youtube_url": "https://youtube.com/shorts/GPxtCaTIk7I"
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region": {
    "categoria": "alerta_meteorologica",
    "descripcion": "El Servicio Meteorológico Nacional emitió una advertencia para este viernes debido a la llegada de tormentas intensas, abundante caída de agua, granizo y vientos que podrían superar los 90 kilómetros por hora en la región.",
@@ -1889,6 +1915,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_09_chacabuco_delincuentes-abandonaron-una-b.mp4",
    "volanta": "Robo de cables en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/QyA_oP2FBns"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html": {
+   "categoria": "robo",
+   "descripcion": "Delincuentes sustrajeron dos bicicletas, una marca Shifter y una Schwinn, durante la madrugada en una zona alejada del centro de Chacabuco. Intentaron estafar a la dueña pidiendo un rescate.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-19T03:02:13.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-robaron-dos-bicicletas-una-marca-shifter-y-una-12cd27",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Delincuentes ingresaron durante la madrugada a una propiedad ubicada en la continuación de la calle Andrés de Vera, en las inmediaciones de la sede de la colectividad boliviana de Chacabuco.\n\nLos ladrones se llevaron dos bicicletas, una marca Shifter y la otra marca Schwinn.\n\nPosteriormente, la damnificada sufrió un intento de estafa telefónica cuando una persona con acento paraguayo le exigió 70 mil pesos de rescate a cambio de devolverle los rodados.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Inseguridad #Robo #BuenosAires",
+   "tipo": "video",
+   "titulo": "Robaron dos bicicletas, una marca Shifter y una Schwinn, en la madrugada de Chacabuco",
+   "urgente": false,
+   "video_bytes": 112358,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_06_chacabuco_robaron-dos-bicicletas-una-mar.mp4",
+   "volanta": "Robo en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/EOiBgga_Q2I"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html": {
    "categoria": "accidente_vial",
@@ -2279,6 +2331,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_08_9-de-julio_encontraron-un-cad-ver-desmemb.mp4",
    "volanta": "Hallazgo en Alberti y Mechita",
    "youtube_url": "https://youtube.com/shorts/16xStU92504"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/": {
+   "categoria": "otro_policial",
+   "descripcion": "Un conductor falleció tras chocar su camioneta Toyota Hilux contra un camión de La Serenísima en la Ruta Nacional 5, a la altura de 9 de Julio. El tránsito quedó interrumpido y trabajaron en el lugar bomberos y personal policial.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-19T03:18:06.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tragedia-en-la-ruta-5-en-9-de-julio-murio-el-conductor-de-una-224403",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Un trágico choque en la Ruta Nacional 5 dejó como saldo la muerte del conductor de una camioneta Toyota Hilux.\n\nEl hecho ocurrió anoche cerca de una estación de servicio en jurisdicción de 9 de Julio, cuando el rodado menor ingresaba desde el acceso a Cadret.\n\nAllí colisionó con un camión de la empresa La Serenísima, cuyo acoplado quedó atravesado sobre la calzada en posición de tijera.\n\nTrabajaron en el lugar bomberos voluntarios, agentes policiales, personal de Guardia urbana y una ambulancia para ordenar el tránsito y peritar la zona.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Murió un hombre en un fuerte choque entre un camión y una Hilux en la Ruta 5",
+   "urgente": false,
+   "video_bytes": 105371,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_10_9-de-julio_muri-un-hombre-en-un-fuerte-ch.mp4",
+   "volanta": "Siniestro vial en 9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/9B9sbOhOa88"
   },
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0": {
    "categoria": "",
@@ -10204,6 +10282,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_08_junin_jun-n-un-repartidor-se-defendi.mp4",
    "viral": false
   },
+  "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/|x": {
+   "actualizado": "2026-11-19T09:00:23.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/|x",
+   "creado": "2026-11-19T09:00:19.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-19T02:46:26.000Z",
+   "id": "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/del-carril-secuestraron-redes-ilegales-de-pesca-en-el-arroyo-a3532d",
+   "noticia": "nota:del-carril-secuestraron-redes-ilegales-de-pesca-en-el-arroyo-a3532d",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 4,
+   "texto": "Secuestran redes ilegales de pesca en un arroyo de Del Carril\n\nEl Comando de Prevención Rural interceptó a dos infractores que utilizaban mallas prohibidas en el arroyo Saladillo. El material fue incautado.\n\nhttps://www.diariolacampaña.com.ar/n/del-carril-secuestraron-redes-ilegales-de-pesca-en-el-arroyo-a3532d",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Secuestran redes ilegales de pesca en un arroyo de Del Carril",
+   "urgente": false,
+   "vence": "2026-11-19T04:46:26.000Z",
+   "video_bytes": 90637,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_05_roque-perez_secuestran-redes-ilegales-de-p.mp4",
+   "viral": false
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region|x": {
    "actualizado": "2026-11-14T00:40:14.000Z",
    "buffer_id": "",
@@ -10427,6 +10532,33 @@
    "vence": "2026-11-13T02:02:59.000Z",
    "video_bytes": 85072,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_09_chacabuco_delincuentes-abandonaron-una-b.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html|x": {
+   "actualizado": "2026-11-19T09:00:23.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html|x",
+   "creado": "2026-11-19T09:00:19.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-19T03:02:13.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-robaron-dos-bicicletas-una-marca-shifter-y-una-12cd27",
+   "noticia": "nota:chacabuco-robaron-dos-bicicletas-una-marca-shifter-y-una-12cd27",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Robaron dos bicicletas, una marca Shifter y una Schwinn, en la madrugada de Chacabuco\n\nEl hecho ocurrió en una zona alejada del centro. Además, los ladrones intentaron estafar a la dueña pidiendo un rescate.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-robaron-dos-bicicletas-una-marca-shifter-y-una-12cd27",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Robaron dos bicicletas, una marca Shifter y una Schwinn, en la madrugada de Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-19T05:02:13.000Z",
+   "video_bytes": 112358,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_06_chacabuco_robaron-dos-bicicletas-una-mar.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html|x": {
@@ -10681,14 +10813,14 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/348231-robaron-una-caja-de-seguridad-en-un-estudio-contab|x": {
-   "actualizado": "2026-11-19T02:40:14.000Z",
+   "actualizado": "2026-11-19T09:00:23.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/348231-robaron-una-caja-de-seguridad-en-un-estudio-contab|x",
    "creado": "2026-11-19T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-19T02:32:13.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/348231-robaron-una-caja-de-seguridad-en-un-estudio-contab",
    "intentos": 0,
@@ -10774,14 +10906,14 @@
    "viral": true
   },
   "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/|x": {
-   "actualizado": "2026-11-19T02:20:21.000Z",
+   "actualizado": "2026-11-19T09:00:23.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/|x",
    "creado": "2026-11-19T02:20:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-19T02:18:14.000Z",
    "id": "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/",
    "intentos": 0,
@@ -10901,6 +11033,33 @@
    "vence": "2026-11-11T01:01:10.000Z",
    "video_bytes": 107717,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_08_9-de-julio_encontraron-un-cad-ver-desmemb.mp4",
+   "viral": true
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/|x": {
+   "actualizado": "2026-11-19T09:00:23.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/|x",
+   "creado": "2026-11-19T09:00:19.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-19T03:18:06.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/tragedia-en-la-ruta-5-en-9-de-julio-murio-el-conductor-de-una-224403",
+   "noticia": "nota:tragedia-en-la-ruta-5-en-9-de-julio-murio-el-conductor-de-una-224403",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Murió un hombre en un fuerte choque entre un camión y una Hilux en la Ruta 5\n\nEl siniestro ocurrió a la altura de 9 de Julio con un vehículo de La Serenísima. El tránsito fue interrumpido mientras trabajaron bomberos y policías.\n\nhttps://www.diariolacampaña.com.ar/n/tragedia-en-la-ruta-5-en-9-de-julio-murio-el-conductor-de-una-224403",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Murió un hombre en un fuerte choque entre un camión y una Hilux en la Ruta 5",
+   "urgente": false,
+   "vence": "2026-11-19T05:18:06.000Z",
+   "video_bytes": 105371,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_10_9-de-julio_muri-un-hombre-en-un-fuerte-ch.mp4",
    "viral": true
   },
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x": {
@@ -16721,70 +16880,6 @@
  },
  "registro": [
   {
-   "clave": "web:b8356399-c1a9-4319-bdf3-d449371f55e1|x",
-   "cuando": "2026-11-12T10:03:07.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:045183d9-6073-43b7-83df-69738e914aa5|x",
-   "cuando": "2026-11-12T10:03:10.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:2c8c4ee8-0fd4-4a9f-ab59-ace34d375557|x",
-   "cuando": "2026-11-12T10:03:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:1dabe361-4070-447e-9807-fa91aa19b74e|x",
-   "cuando": "2026-11-12T10:03:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c8022409-4d8f-45ba-a34f-1011272f6310|x",
-   "cuando": "2026-11-12T10:03:34.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:3d3373dd-ee69-4fc7-a39d-0aec74b76b6e|x",
-   "cuando": "2026-11-12T10:03:37.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:38185935-c480-4780-9b62-2a630fd62c5f|x",
-   "cuando": "2026-11-12T10:03:41.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:a64ce084-265d-420e-aab2-c9ecfce66084|x",
-   "cuando": "2026-11-12T10:03:45.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b|x",
    "cuando": "2026-11-12T10:03:48.000Z",
    "estado": "pendiente",
@@ -20877,6 +20972,60 @@
    "cuando": "2026-11-19T02:40:23.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123240732467105866"
+  },
+  {
+   "clave": "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/|x",
+   "cuando": "2026-11-19T09:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html|x",
+   "cuando": "2026-11-19T09:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/|x",
+   "cuando": "2026-11-19T09:00:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348231-robaron-una-caja-de-seguridad-en-un-estudio-contab|x",
+   "cuando": "2026-11-19T09:00:23.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/|x",
+   "cuando": "2026-11-19T09:00:23.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/|x",
+   "cuando": "2026-11-19T09:00:23.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html|x",
+   "cuando": "2026-11-19T09:00:23.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/|x",
+   "cuando": "2026-11-19T09:00:23.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -21241,6 +21390,7 @@
   "policiales:https://semanariodejunin.com.ar/nota/76483/crimen-en-mechita-una-pista-desde-la-carcel-permitio-esclarecer-el-asesinato": "2026-11-11T22:20:16.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor": "2026-11-14T00:20:14.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto": "2026-11-15T23:40:13.000Z",
+  "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/": "2026-11-19T09:00:19.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31026/principio-de-incendio-en-un-departamento-del-barrio-fonavi-2-movilizo-a-los-bomberos.html": "2026-10-21T00:40:14.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31032/un-auto-choco-desde-atras-a-una-moto-y-cuatro-personas-fueron-hospitalizadas.html": "2026-10-21T00:20:18.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html": "2026-10-23T02:20:14.000Z",
@@ -21269,7 +21419,6 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html": "2026-10-23T01:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/detenido-en-chacabuco.html": "2026-10-20T23:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html": "2026-10-23T01:00:17.000Z",
-  "policiales:https://www.chacabuquero.com.ar/2026/10/ladrones-al-acecho-en-las-afueras-de.html": "2026-10-20T09:00:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html": "2026-10-22T02:20:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/policiales-robo-conflicto-de-ex-pareja.html": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html": "2026-10-29T22:40:14.000Z",
@@ -21286,12 +21435,12 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html": "2026-11-13T00:20:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html": "2026-11-19T09:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html": "2026-11-09T23:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html": "2026-11-14T22:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html": "2026-11-13T00:40:18.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/chacabuco/348152-un-fuerte-temporal-provoco-inundaciones-cortes-de": "2026-11-17T23:40:12.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
-  "policiales:https://www.diariodemocracia.com/policiales/346781-dos-jovenes-aprehendidos-por-amenazar-con-un-arma": "2026-10-20T09:00:21.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/346949-un-detenido-tras-el-robo-de-una-moto-el-rodado-ten": "2026-10-22T23:40:15.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un": "2026-10-23T23:40:15.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en": "2026-10-24T23:20:14.000Z",
@@ -21336,6 +21485,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/dos-jovenes-cayeron-desde-un-techo-en-la-universidad-nacional-de-lujan/": "2026-11-07T00:20:16.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/": "2026-11-10T23:20:14.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/": "2026-11-19T09:00:19.000Z",
   "web:004e7af4-996b-4844-babe-bcc9c91c2fe6": "2026-10-21T00:00:28.000Z",
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": "2026-11-02T10:03:22.000Z",
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0": "2026-11-11T10:02:35.000Z",
