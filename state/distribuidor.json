@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-19T10:20:28.000Z"
+   "visto": "2026-11-19T11:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 23
+    "scheduled": 2,
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-19T10:20:28.000Z"
+   "visto": "2026-11-19T11:40:15.000Z"
   }
  },
  "contenidos": {
@@ -3802,25 +3802,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-argentino-vencio-a-quilmes-y-avanzo-a-la",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Un artista presencial y virtual: Iván Elizalde analizó el humor en redes y celebró su regreso al teatro El actor, fotógrafo y creador de contenidos Iván Elizalde visitó los estudios de Radio del Centro durante el programa La Mañana del Centro para repasar su presente artístico, analizar el fenómeno de sus videos de humor en las plataformas digitales y profundizar sobre su reciente regreso a las tablas teatrales en Chivilcoy. Durante una extensa entrevista, abordó las complejidades...",
-   "generado": "2026-11-09T10:02:17.791Z",
-   "id": "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c712ba036f8f44f08266cde82259f585~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/actor-e-influencer-chivilcoy-un-artista-presencial-y-virtual-ivan",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Un artista presencial y virtual: Iván Elizalde analizó el humor en redes y celebró su regreso al teatro",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/actor-e-influencer-chivilcoy-un-artista-presencial-y-virtual-ivan",
-   "volanta": "Actor e Influencer"
-  },
   "web:692034a6-2c77-4c88-827a-99bbd456a36c": {
    "categoria": "",
    "descripcion": "Operativo de prevención y seguridad en Chivilcoy: autoridades articulan acciones para la venta responsable de pirotecnia De cara a las próximas fiestas, el Municipio de Chivilcoy intensificó las tareas de control y prevención en conjunto con la Dirección de Explosivos de la Provincia de Buenos Aires y áreas locales de seguridad. El objetivo principal es garantizar el cumplimiento de las normativas vigentes y evitar incidentes vinculados al uso de pirotecnia. La directora de Habilitaciones,...",
@@ -4296,25 +4277,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-racha-negativa-racing-sufrio-su-quinta-caida",
    "volanta": "Básquet"
   },
-  "web:87f82441-faec-422a-8856-fdfb0a63cf9e": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Marcelo Bozzo analizó la situación bancaria y el impacto de los feriados El secretario general de la Asociación Bancaria Seccional Chivilcoy, Marcelo Bozzo, realizó un balance exhaustivo sobre la coyuntura gremial, salarial e institucional que atraviesa el sector financiero tanto en la ciudad como en la región. En el marco de la conmemoración del Día del Bancario (6 de noviembre), el dirigente gremial brindó precisiones sobre las consecuencias operativas de los próximos feriados...",
-   "generado": "2026-11-09T10:02:21.801Z",
-   "id": "web:87f82441-faec-422a-8856-fdfb0a63cf9e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b01b191e65f948af985374fd264abfeb~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/asociacion-bancaria-chivilcoy-chivilcoy-marcelo-bozzo-analizo-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Marcelo Bozzo analizó la situación bancaria y el impacto de los feriados",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/asociacion-bancaria-chivilcoy-chivilcoy-marcelo-bozzo-analizo-la",
-   "volanta": "Asociación Bancaria Chivilcoy"
-  },
   "web:8979344a-0701-4069-b470-ee00954debc6": {
    "categoria": "",
    "descripcion": "La escritora Verónica Salinas visitará Chivilcoy en diciembre para el cierre del Club de Lectura El club de lectura que funciona durante todo el año en las instalaciones de Encuentro por las Artes culminará su ciclo 2026 con un acontecimiento literario de jerarquía. La actividad contará con la presencia estelar de la escritora, actriz y cantante argentina radicada en Noruega, Verónica Salinas, quien arribará a Chivilcoy el miércoles 9 de diciembre para brindar una charla abierta a la...",
@@ -4333,25 +4295,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/encuentro-por-las-artes-la-escritora-veronica-salinas-visitara",
    "volanta": "Encuentro por las Artes"
-  },
-  "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Ezequiel Caselles impulsa un proyecto para la recategorización de empleados municipales CHIVILCOY.– El concejal del bloque Fuerza Patria, Ezequiel Caselles, presentó una iniciativa legislativa orientada a modificar el régimen laboral de la administración local. La propuesta busca implementar un sistema extraordinario que ordene los escalafones y permita la recategorización del personal en función de sus años de servicio, con el objetivo de saldar demoras históricas en la carrera...",
-   "generado": "2026-11-09T10:02:04.294Z",
-   "id": "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b5433d29287948899c6b389c9df9bd8e~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/concejo-deliberante-chivilcoy-ezequiel-caselles-impulsa-un-proyecto",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Ezequiel Caselles impulsa un proyecto para la recategorización de empleados municipales",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/concejo-deliberante-chivilcoy-ezequiel-caselles-impulsa-un-proyecto",
-   "volanta": "CONCEJO DELIBERANTE"
   },
   "web:8bcf2503-f895-462b-af3a-dffcba6750bb": {
    "categoria": "",
@@ -4847,25 +4790,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/encuentro-de-talleres-protegido-zona-sur-en-la-ciudad-de-carhue",
    "volanta": ""
   },
-  "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6": {
-   "categoria": "",
-   "descripcion": "Autoridades sanitarias locales instan a reforzar la prevención y la vacunación ante la temporada estival El Secretario de Salud, Dr. José Luis Neme, y la directora del Hospital Municipal, Dra. Patricia Mangino, brindaron un detallado panorama sobre la situación epidemiológica, las medidas de control domiciliario y las contraindicaciones del esquema de vacunación. En el marco de las condiciones climáticas actuales propiciadas por el fenómeno de «El Niño» —con lluvias intensas, crecida de ríos...",
-   "generado": "2026-11-09T10:01:58.455Z",
-   "id": "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ae79097a5a294a0ea389ec61dc8581de~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/dengue-autoridades-sanitarias-locales-instan-a-reforzar-la-prevencion",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Autoridades sanitarias locales instan a reforzar la prevención y la vacunación ante la temporada estival",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dengue-autoridades-sanitarias-locales-instan-a-reforzar-la-prevencion",
-   "volanta": "Dengue"
-  },
   "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7": {
    "categoria": "",
    "descripcion": "Chivilcoy: Florencia Galante, el Kung Fu en la defensa personal y disciplina: “Se enseña a tener una biblioteca de recursos disponibles para no tener que usarlos jamás” En diálogo con el programa radial La Mañana del Centro, a través del aire de Radio del Centro, Florencia Galante, referente de la comunidad ‘Mujer Marcial’, abordó en profundidad la enseñanza del Kung Fu tradicional en la ciudad de Chivilcoy, sus implicancias formativas, los valores de la disciplina y el verdadero rol que...",
@@ -5093,25 +5017,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
    "volanta": "Básquet"
-  },
-  "web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Anuncio de un bono de $100.000 para los trabajadores con sueldos más bajos y asistencia efectiva en los dos últimos meses En la celebración por el Día del Empleado Municipal, el intendente de Chivilcoy, Guillermo Britos, encabezó un encuentro y brindis junto al personal de las distintas áreas. Durante su discurso, confirmó el pago de un bono extraordinario de $100.000 destinado a los 1.200 trabajadores que perciben los salarios más bajos. El beneficio estará dirigido exclusivamente...",
-   "generado": "2026-11-09T10:02:12.221Z",
-   "id": "web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_47e28ac760a543a68f65b98ff7a747f5~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/dia-del-empleado-municipal-chivilcoy-anuncio-de-un-bono-de-100-000",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Anuncio de un bono de $100.000 para los trabajadores con sueldos más bajos y asistencia efectiva en los dos últimos meses",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dia-del-empleado-municipal-chivilcoy-anuncio-de-un-bono-de-100-000",
-   "volanta": "Día del Empleado Municipal"
   },
   "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b": {
    "categoria": "",
@@ -5416,25 +5321,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/retorno-de-la-colonia-chivilcoy-atiadim-convoca-a-la-comunidad-a",
    "volanta": "Retorno de la colonia"
-  },
-  "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Realizaron el 32° Encuentro Regional de Talleres Protegidos en Lomas de Zamora Chivilcoy el año próximo será sede del 33° encuentro de talleres protegidos zona norte. Con una importante participación y más de 20 talleres protegidos de producción y más de 600 operarios, se llevó adelante el 32° Encuentro Regional Zona Norte de Talleres Protegidos de la Provincia de Buenos Aires, en el Parque de Lomas, en Lomas de Zamora. Dignidad Chivilcoy y la Federación de Talleres Protegidos...",
-   "generado": "2026-11-09T10:02:34.373Z",
-   "id": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_aac2059b5fc547fdb72ddbc017405112~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/dignidad-y-fetap-presentes-chivilcoy-realizaron-el-32-encuentro",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Realizaron el 32° Encuentro Regional de Talleres Protegidos en Lomas de Zamora",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dignidad-y-fetap-presentes-chivilcoy-realizaron-el-32-encuentro",
-   "volanta": "Dignidad y Fetap Presentes"
   },
   "web:dcf40e93-0805-42f1-9ed0-237091519937": {
    "categoria": "",
@@ -12658,14 +12544,14 @@
    "viral": false
   },
   "web:3a27f600-fd73-4505-9cb2-6434f4ad6e89|x": {
-   "actualizado": "2026-11-19T09:05:46.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-19T11:40:15.000Z",
+   "buffer_id": "6afee01f34f1a439bb9e210f",
    "clave": "web:3a27f600-fd73-4505-9cb2-6434f4ad6e89|x",
    "creado": "2026-11-19T09:05:46.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-19T12:55:29.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-19T09:04:30.170Z",
    "id": "web:3a27f600-fd73-4505-9cb2-6434f4ad6e89",
    "ig_hora": "2026-11-19T12:55:35.000Z",
@@ -12902,19 +12788,20 @@
    "viral": false
   },
   "web:44237ca1-fd70-452d-89bb-5cd456e50210|x": {
-   "actualizado": "2026-11-19T10:00:28.000Z",
+   "actualizado": "2026-11-19T11:40:15.000Z",
    "buffer_id": "6afec8bd4833082724933f9a",
    "clave": "web:44237ca1-fd70-452d-89bb-5cd456e50210|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T11:10:57.000Z",
+   "enviado": "2026-11-19T11:11:01.666Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:03:58.216Z",
    "id": "web:44237ca1-fd70-452d-89bb-5cd456e50210",
    "ig_hora": "2026-11-19T11:10:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123373474697691604",
    "nota_url": "https://www.diariolacampaña.com.ar/n/actividad-colectiva-estudiantes-locales-recorrieron-la-muestra-de",
    "noticia": "nota:actividad-colectiva-estudiantes-locales-recorrieron-la-muestra-de",
    "origen": "web",
@@ -13833,44 +13720,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x": {
-   "actualizado": "2026-11-09T11:40:15.000Z",
-   "buffer_id": "6af19a67f370063e08d5c5d6",
-   "clave": "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d|x",
-   "creado": "2026-11-09T10:02:37.000Z",
-   "dueAt": "2026-11-09T11:07:11.000Z",
-   "enviado": "2026-11-09T11:07:16.161Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T10:02:17.791Z",
-   "id": "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d",
-   "ig_hora": "2026-11-09T11:07:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119748650146369667",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 18,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/actor-e-influencer-chivilcoy-un-artista-presencial-y-virtual-ivan",
-   "noticia": "nota:actor-e-influencer-chivilcoy-un-artista-presencial-y-virtual-ivan",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Un artista presencial y virtual: Iván Elizalde analizó el humor en redes y celebró su regreso al teatro\n\nhttps://www.diariolacampaña.com.ar/n/actor-e-influencer-chivilcoy-un-artista-presencial-y-virtual-ivan",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Un artista presencial y virtual: Iván Elizalde analizó el humor en redes y celebró su regreso al teatro",
-   "urgente": false,
-   "vence": "2026-11-09T14:02:17.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:692034a6-2c77-4c88-827a-99bbd456a36c|x": {
    "actualizado": "2026-11-18T11:40:17.000Z",
    "buffer_id": "6afd7818e6ccf7cfbbbb3dfd",
@@ -13910,19 +13759,20 @@
    "viral": false
   },
   "web:69649be8-12b5-49fe-a08e-169906bb6799|x": {
-   "actualizado": "2026-11-19T09:20:13.000Z",
+   "actualizado": "2026-11-19T11:40:15.000Z",
    "buffer_id": "6afebf4dfc3e30ab95ba8b17",
    "clave": "web:69649be8-12b5-49fe-a08e-169906bb6799|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T10:40:45.000Z",
+   "enviado": "2026-11-19T10:40:46.162Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:03:23.483Z",
    "id": "web:69649be8-12b5-49fe-a08e-169906bb6799",
    "ig_hora": "2026-11-19T10:40:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123365859863220596",
    "nota_url": "https://www.diariolacampaña.com.ar/n/opinion-los-privilegios-que-la-democracia-no-consigue-desterrar",
    "noticia": "nota:opinion-los-privilegios-que-la-democracia-no-consigue-desterrar",
    "origen": "web",
@@ -14728,58 +14578,21 @@
    "video_url": "",
    "viral": false
   },
-  "web:87f82441-faec-422a-8856-fdfb0a63cf9e|x": {
-   "actualizado": "2026-11-09T11:40:15.000Z",
-   "buffer_id": "6af19a67ea98fdea6acdc48c",
-   "clave": "web:87f82441-faec-422a-8856-fdfb0a63cf9e|x",
-   "creado": "2026-11-09T10:02:37.000Z",
-   "dueAt": "2026-11-09T11:22:31.000Z",
-   "enviado": "2026-11-09T11:22:46.056Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T10:02:21.801Z",
-   "id": "web:87f82441-faec-422a-8856-fdfb0a63cf9e",
-   "ig_hora": "2026-11-09T11:22:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119752550450713062",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 19,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/asociacion-bancaria-chivilcoy-chivilcoy-marcelo-bozzo-analizo-la",
-   "noticia": "nota:asociacion-bancaria-chivilcoy-chivilcoy-marcelo-bozzo-analizo-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Marcelo Bozzo analizó la situación bancaria y el impacto de los feriados\n\nMarcelo Bozzo realizó un balance sobre la coyuntura gremial del sector financiero. El dirigente brindó precisiones sobre las consecuencias de los feriados.\n\nhttps://www.diariolacampaña.com.ar/n/asociacion-bancaria-chivilcoy-chivilcoy-marcelo-bozzo-analizo-la",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Marcelo Bozzo analizó la situación bancaria y el impacto de los feriados",
-   "urgente": false,
-   "vence": "2026-11-09T14:02:21.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:8979344a-0701-4069-b470-ee00954debc6|x": {
-   "actualizado": "2026-11-19T09:07:23.000Z",
+   "actualizado": "2026-11-19T11:40:15.000Z",
    "buffer_id": "6afebc4d4fb82a830a0cebba",
    "clave": "web:8979344a-0701-4069-b470-ee00954debc6|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T10:25:29.000Z",
+   "enviado": "2026-11-19T10:25:31.165Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:03:18.207Z",
    "id": "web:8979344a-0701-4069-b470-ee00954debc6",
    "ig_hora": "2026-11-19T10:25:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123362022142148639",
    "nota_url": "https://www.diariolacampaña.com.ar/n/encuentro-por-las-artes-la-escritora-veronica-salinas-visitara",
    "noticia": "nota:encuentro-por-las-artes-la-escritora-veronica-salinas-visitara",
    "origen": "web",
@@ -14791,44 +14604,6 @@
    "titulo": "La escritora Verónica Salinas visitará Chivilcoy en diciembre para el cierre del Club de Lectura",
    "urgente": false,
    "vence": "2026-11-19T13:03:18.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c|x": {
-   "actualizado": "2026-11-09T11:40:15.000Z",
-   "buffer_id": "6af19a660ed1890679a8285c",
-   "clave": "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c|x",
-   "creado": "2026-11-09T10:02:37.000Z",
-   "dueAt": "2026-11-09T10:37:28.000Z",
-   "enviado": "2026-11-09T10:37:31.206Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T10:02:04.294Z",
-   "id": "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c",
-   "ig_hora": "2026-11-09T10:37:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119741163347259591",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 5.26,
-    "impressions": 19,
-    "reactions": 0,
-    "reposts": 1
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/concejo-deliberante-chivilcoy-ezequiel-caselles-impulsa-un-proyecto",
-   "noticia": "nota:concejo-deliberante-chivilcoy-ezequiel-caselles-impulsa-un-proyecto",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Ezequiel Caselles impulsa un proyecto para la recategorización de empleados municipales\n\nBusca ordenar los escalafones y permitir la recategorización según los años de servicio. El objetivo es saldar demoras históricas en la carrera.\n\nhttps://www.diariolacampaña.com.ar/n/concejo-deliberante-chivilcoy-ezequiel-caselles-impulsa-un-proyecto",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Ezequiel Caselles impulsa un proyecto para la recategorización de empleados municipales",
-   "urgente": false,
-   "vence": "2026-11-09T14:02:04.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -15739,44 +15514,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6|x": {
-   "actualizado": "2026-11-09T11:40:15.000Z",
-   "buffer_id": "6af19a66c2f2264e30f820ec",
-   "clave": "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6|x",
-   "creado": "2026-11-09T10:02:37.000Z",
-   "dueAt": "2026-11-09T10:22:59.000Z",
-   "enviado": "2026-11-09T10:23:03.090Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T10:01:58.455Z",
-   "id": "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6",
-   "ig_hora": "2026-11-09T10:22:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119737522167169407",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 17,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/dengue-autoridades-sanitarias-locales-instan-a-reforzar-la-prevencion",
-   "noticia": "nota:dengue-autoridades-sanitarias-locales-instan-a-reforzar-la-prevencion",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Autoridades sanitarias locales instan a reforzar la prevención y la vacunación ante la temporada estival\n\nEl Secretario de Salud, Dr. José Luis Neme, y la directora del Hospital Municipal, Dra.\n\nhttps://www.diariolacampaña.com.ar/n/dengue-autoridades-sanitarias-locales-instan-a-reforzar-la-prevencion",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Autoridades sanitarias locales instan a reforzar la prevención y la vacunación ante la temporada estival",
-   "urgente": false,
-   "vence": "2026-11-09T14:01:58.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7|x": {
    "actualizado": "2026-11-13T11:20:16.000Z",
    "buffer_id": "6af6e078b52ddd180246bab6",
@@ -16158,44 +15895,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6|x": {
-   "actualizado": "2026-11-09T11:40:15.000Z",
-   "buffer_id": "6af19a66c2f2264e30f82115",
-   "clave": "web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6|x",
-   "creado": "2026-11-09T10:02:37.000Z",
-   "dueAt": "2026-11-09T10:52:12.000Z",
-   "enviado": "2026-11-09T10:52:16.100Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T10:02:12.221Z",
-   "id": "web:c49926c9-8b4a-4b9b-b4c1-2a5d2304a0c6",
-   "ig_hora": "2026-11-09T10:52:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119744875176263757",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 18,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/dia-del-empleado-municipal-chivilcoy-anuncio-de-un-bono-de-100-000",
-   "noticia": "nota:dia-del-empleado-municipal-chivilcoy-anuncio-de-un-bono-de-100-000",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Anuncio de un bono de $100.000 para los trabajadores con sueldos más bajos y asistencia efectiva en los dos últimos meses\n\nEl intendente Guillermo Britos confirmó la medida para 1.200 empleados.\n\nhttps://www.diariolacampaña.com.ar/n/dia-del-empleado-municipal-chivilcoy-anuncio-de-un-bono-de-100-000",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Anuncio de un bono de $100.000 para los trabajadores con sueldos más bajos y asistencia efectiva en los dos últimos meses",
-   "urgente": false,
-   "vence": "2026-11-09T14:02:12.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c5dcbdf6-22c2-4d42-aeae-daae2b49654b|x": {
    "actualizado": "2026-11-12T22:00:23.000Z",
    "buffer_id": "",
@@ -16262,19 +15961,20 @@
    "viral": false
   },
   "web:c84c8adb-3791-435c-bf8f-60519d299bc0|x": {
-   "actualizado": "2026-11-19T09:40:13.000Z",
+   "actualizado": "2026-11-19T11:40:15.000Z",
    "buffer_id": "6afec3fe4833082724918f4b",
    "clave": "web:c84c8adb-3791-435c-bf8f-60519d299bc0|x",
    "creado": "2026-11-19T09:05:46.000Z",
    "dueAt": "2026-11-19T10:55:35.000Z",
+   "enviado": "2026-11-19T10:55:46.140Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-19T09:03:27.671Z",
    "id": "web:c84c8adb-3791-435c-bf8f-60519d299bc0",
    "ig_hora": "2026-11-19T10:55:35.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123369634686492886",
    "nota_url": "https://www.diariolacampaña.com.ar/n/propuesta-familiar-avenidas-ortiz-y-carlos-gardel-circo-safari-show",
    "noticia": "nota:propuesta-familiar-avenidas-ortiz-y-carlos-gardel-circo-safari-show",
    "origen": "web",
@@ -16696,44 +16396,6 @@
    "titulo": "Chivilcoy: ATIADIM convoca a la comunidad a sumarse a dos iniciativas solidarias para recuperar sus actividades acuáticas",
    "urgente": false,
    "vence": "2026-11-19T13:03:04.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x": {
-   "actualizado": "2026-11-09T11:40:15.000Z",
-   "buffer_id": "6af19e87ea98fdea6acf7be0",
-   "clave": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a|x",
-   "creado": "2026-11-09T10:02:37.000Z",
-   "dueAt": "2026-11-09T11:37:24.000Z",
-   "enviado": "2026-11-09T11:37:31.364Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T10:02:34.373Z",
-   "id": "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a",
-   "ig_hora": "2026-11-09T11:37:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119756263709905009",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 4.35,
-    "impressions": 46,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/dignidad-y-fetap-presentes-chivilcoy-realizaron-el-32-encuentro",
-   "noticia": "nota:dignidad-y-fetap-presentes-chivilcoy-realizaron-el-32-encuentro",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Realizaron el 32° Encuentro Regional de Talleres Protegidos en Lomas de Zamora\n\nMás de 20 talleres protegidos y más de 600 operarios participaron de la jornada en el Parque de Lomas. Chivilcoy será sede de la próxima edición el año que viene.\n\nhttps://www.diariolacampaña.com.ar/n/dignidad-y-fetap-presentes-chivilcoy-realizaron-el-32-encuentro",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Realizaron el 32° Encuentro Regional de Talleres Protegidos en Lomas de Zamora",
-   "urgente": false,
-   "vence": "2026-11-09T14:02:34.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17501,36 +17163,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mwcs68wcmi9a_01.mp4|tiktok",
-   "cuando": "2026-11-12T13:40:28.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707270688331009300"
-  },
-  {
-   "clave": "web:045183d9-6073-43b7-83df-69738e914aa5|x",
-   "cuando": "2026-11-12T13:40:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120866139290927498"
-  },
-  {
-   "clave": "web:2c8c4ee8-0fd4-4a9f-ab59-ace34d375557|x",
-   "cuando": "2026-11-12T13:40:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120862238256799855"
-  },
-  {
-   "clave": "web:814123f9-8cc0-4123-a5ec-ff7775c42341|x",
-   "cuando": "2026-11-12T13:40:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120873690363515193"
-  },
-  {
-   "clave": "web:b8356399-c1a9-4319-bdf3-d449371f55e1|x",
-   "cuando": "2026-11-12T13:40:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2120869787773386945"
-  },
   {
    "clave": "web:b034af07-ddaf-426e-8207-d2724c540524|x",
    "cuando": "2026-11-12T14:00:17.000Z",
@@ -21660,6 +21292,37 @@
    "cuando": "2026-11-19T11:20:13.000Z",
    "dueAt": "2026-11-19T12:40:46.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:44237ca1-fd70-452d-89bb-5cd456e50210|x",
+   "cuando": "2026-11-19T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123373474697691604"
+  },
+  {
+   "clave": "web:69649be8-12b5-49fe-a08e-169906bb6799|x",
+   "cuando": "2026-11-19T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123365859863220596"
+  },
+  {
+   "clave": "web:8979344a-0701-4069-b470-ee00954debc6|x",
+   "cuando": "2026-11-19T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123362022142148639"
+  },
+  {
+   "clave": "web:c84c8adb-3791-435c-bf8f-60519d299bc0|x",
+   "cuando": "2026-11-19T11:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123369634686492886"
+  },
+  {
+   "buffer_id": "6afee01f34f1a439bb9e210f",
+   "clave": "web:3a27f600-fd73-4505-9cb2-6434f4ad6e89|x",
+   "cuando": "2026-11-19T11:40:15.000Z",
+   "dueAt": "2026-11-19T12:55:29.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21697,7 +21360,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-19",
- "ultima_sync": "2026-11-19T10:20:28.000Z",
+ "ultima_sync": "2026-11-19T11:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
