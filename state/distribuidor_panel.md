@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 15:40 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 16:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 19/11/2026 15:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
+- TikTok · Recortes de entrevistas · Yamil Rodriguez y la competencia comercial en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · José Luis Ghiglieri: el caso que impulsó la Ley Joaquín — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Marina Arce y el insólito susto en el Panamericano — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Silvia Gonzalez: "Están muriendo familias enteras en la Ruta 5" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -36,10 +37,6 @@ Actualizado: 19/11/2026 15:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T13:20 recibido web:538c9642-3889-4297-9eed-8227576f7a51|x 
-- 2026-11-19T13:20 recibido web:f6815fdc-6983-4a94-8ba2-35a647bf7d9b|x 
-- 2026-11-19T13:20 recibido web:14192db7-5d91-4203-a34b-3cc4138f57f8|x la misma noticia ya sale en X (Notas web, pendiente)
-- 2026-11-19T14:00 recibido web:31c0e74b-478b-4404-9a91-90590ed6b0b4|x 
 - 2026-11-19T14:00 depurado web:538c9642-3889-4297-9eed-8227576f7a51|x no está en el carrusel del diario de hoy
 - 2026-11-19T14:00 depurado web:f6815fdc-6983-4a94-8ba2-35a647bf7d9b|x no está en el carrusel del diario de hoy
 - 2026-11-19T14:00 enviado web:3a27f600-fd73-4505-9cb2-6434f4ad6e89|x 
@@ -61,3 +58,7 @@ Actualizado: 19/11/2026 15:40 (hora AR) · ACTIVO
 - 2026-11-19T18:20 recibido entrevistas:job00330|tiktok 
 - 2026-11-19T18:20 enviado entrevistas:job00329|x 
 - 2026-11-19T18:20 programado entrevistas:job00330|x 
+- 2026-11-19T19:00 entrevista_aprobada entrevistas:job00331 
+- 2026-11-19T19:00 recibido entrevistas:job00331|x 
+- 2026-11-19T19:00 recibido entrevistas:job00331|tiktok 
+- 2026-11-19T19:00 programado entrevistas:job00331|x 

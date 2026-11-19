@@ -1251,6 +1251,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00330.mp4",
    "youtube_url": "https://youtu.be/MNlDeEzqvHs"
   },
+  "entrevistas:job00331": {
+   "descripcion": "Yamil Rodriguez, titular de Amapola Indumentaria en Chivilcoy, contó cómo reacciona cuando ve ideas replicadas en la competencia y el respaldo que recibe de sus clientas en redes sociales.",
+   "duracion_seg": null,
+   "entrevistado": "Yamil Rodriguez",
+   "generado": "2026-11-19T19:00:16.000Z",
+   "id": "entrevistas:job00331",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Yamil Rodriguez y la competencia comercial en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 23959340,
+   "video_mb": 22.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00331.mp4",
+   "youtube_url": "https://youtu.be/oNOXYZaq-PI"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": {
    "categoria": "robo",
    "descripcion": "Investigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.",
@@ -10030,6 +10051,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00330.mp4",
    "viral": false
   },
+  "entrevistas:job00331|tiktok": {
+   "actualizado": "2026-11-19T19:00:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00331|tiktok",
+   "creado": "2026-11-19T19:00:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-19T19:00:16.000Z",
+   "id": "entrevistas:job00331",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Yamil Rodriguez y la competencia comercial en Chivilcoy\n\nYamil Rodriguez, titular de Amapola Indumentaria en Chivilcoy, contó cómo reacciona cuando ve ideas replicadas en la competencia y el respaldo que recibe de sus clientas en redes sociales.\n\nhttps://youtu.be/oNOXYZaq-PI\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Yamil Rodriguez y la competencia comercial en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-21T19:00:16.000Z",
+   "video_bytes": 23959340,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00331.mp4",
+   "viral": false
+  },
+  "entrevistas:job00331|x": {
+   "actualizado": "2026-11-19T19:00:16.000Z",
+   "buffer_id": "6aff4746182c0ff41176f92b",
+   "clave": "entrevistas:job00331|x",
+   "creado": "2026-11-19T19:00:16.000Z",
+   "dueAt": "2026-11-19T19:02:12.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-19T19:00:16.000Z",
+   "id": "entrevistas:job00331",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:chivilcoy-comercial-competencia-rodriguez-yamil",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Yamil Rodriguez y la competencia comercial en Chivilcoy\n\nYamil Rodriguez, titular de Amapola Indumentaria en Chivilcoy, contó cómo reacciona cuando ve ideas replicadas en la competencia y el respaldo que recibe de sus clientas en redes sociales.\n\nhttps://youtu.be/oNOXYZaq-PI",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Yamil Rodriguez y la competencia comercial en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-19T21:00:16.000Z",
+   "video_bytes": 23959340,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00331.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x": {
    "actualizado": "2026-11-18T00:40:16.000Z",
    "buffer_id": "",
@@ -17346,34 +17423,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af628e4a01fb6efee4a9cf8",
-   "clave": "entrevistas:job00308|tiktok",
-   "cuando": "2026-11-12T21:00:24.000Z",
-   "dueAt": "2026-11-12T21:03:56.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af628e5a01fb6efee4aa27b",
-   "clave": "entrevistas:job00307|tiktok",
-   "cuando": "2026-11-12T21:00:24.000Z",
-   "dueAt": "2026-11-12T21:23:18.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af628e6446d978be7e86f6b",
-   "clave": "entrevistas:job00306|tiktok",
-   "cuando": "2026-11-12T21:00:24.000Z",
-   "dueAt": "2026-11-12T21:43:48.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af628e848a8bf93e4250dcf",
-   "clave": "entrevistas:job00305|tiktok",
-   "cuando": "2026-11-12T21:00:24.000Z",
-   "dueAt": "2026-11-12T22:03:48.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af628e8446d978be7e8733c",
    "clave": "entrevistas:job00304|tiktok",
    "cuando": "2026-11-12T21:00:24.000Z",
@@ -21507,6 +21556,34 @@
    "cuando": "2026-11-19T18:20:22.000Z",
    "dueAt": "2026-11-19T18:22:32.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00331",
+   "cuando": "2026-11-19T19:00:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00331|x",
+   "cuando": "2026-11-19T19:00:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00331|tiktok",
+   "cuando": "2026-11-19T19:00:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6aff4746182c0ff41176f92b",
+   "clave": "entrevistas:job00331|x",
+   "cuando": "2026-11-19T19:00:23.000Z",
+   "dueAt": "2026-11-19T19:02:12.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21695,7 +21772,6 @@
   "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4": "2026-11-17T09:00:20.000Z",
   "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4": "2026-11-17T15:20:16.000Z",
   "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4": "2026-11-18T16:00:21.000Z",
-  "entrevistas:job00234": "2026-10-20T19:00:19.000Z",
   "entrevistas:job00235": "2026-10-21T16:40:14.000Z",
   "entrevistas:job00236": "2026-10-21T20:00:18.000Z",
   "entrevistas:job00237": "2026-10-21T17:40:15.000Z",
@@ -21795,6 +21871,7 @@
   "entrevistas:job00328": "2026-11-19T17:00:18.000Z",
   "entrevistas:job00329": "2026-11-19T17:40:13.000Z",
   "entrevistas:job00330": "2026-11-19T18:20:18.000Z",
+  "entrevistas:job00331": "2026-11-19T19:00:16.000Z",
   "nacionales:01c0d7889e6b5047": "2026-10-21T00:20:18.000Z",
   "nacionales:0f149db2f4d13c80": "2026-10-23T22:00:20.000Z",
   "nacionales:10671478a956c2ad": "2026-10-20T22:20:13.000Z",
