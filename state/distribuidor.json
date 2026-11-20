@@ -2469,6 +2469,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/visita-del-sumo-pontifice-orgullo-chivilcoyano-junto-al-papa-leon-xiv",
    "volanta": "Visita del Sumo Pontífice"
   },
+  "web:01599053-9367-4272-a3b7-d36e906da218": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Una vecina denunció el robo de dos motos de su patio Romina Di Benedetto denunció el robo de dos motocicletas del patio de su vivienda, ubicada en Las Heras al 1100, en Chivilcoy. Según relató, los autores ingresaron durante la madrugada de este viernes tras acceder a través de la propiedad de su madre. Desde ese lugar, cortaron el tejido perimetral para entrar al sector donde se encontraban guardadas una Honda Wave 110 y una Honda XR 125. La damnificada explicó que dejaba las...",
+   "generado": "2026-11-20T22:42:10.979Z",
+   "id": "web:01599053-9367-4272-a3b7-d36e906da218",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_47c488bae1614411a3a6e3a41adb9b76~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-una-vecina-denuncio-el-robo-de-dos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Una vecina denunció el robo de dos motos de su patio",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-una-vecina-denuncio-el-robo-de-dos",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:03c64a65-3269-4247-b8a7-1e92b9072a66": {
    "categoria": "",
    "descripcion": "La autopsia confirmó que Carballo murió por un fuerte golpe en la cabeza antes de ser mutilado El joven de 27 años falleció como consecuencia de un traumatismo de cráneo que provocó un shock hipovolémico. Por el crimen hay dos hombres detenidos, de 34 y 37 años, quienes se negaron a declarar y permanecen alojados en dependencias policiales de Alberti y 25 de Mayo. La investigación por el crimen de Ezequiel Caraballo, el joven de 27 años cuyo cuerpo fue hallado en la zona del canal Cafiero, en...",
@@ -11500,6 +11519,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:01599053-9367-4272-a3b7-d36e906da218|x": {
+   "actualizado": "2026-11-20T23:00:20.000Z",
+   "buffer_id": "",
+   "clave": "web:01599053-9367-4272-a3b7-d36e906da218|x",
+   "creado": "2026-11-20T23:00:18.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-20T22:42:10.979Z",
+   "id": "web:01599053-9367-4272-a3b7-d36e906da218",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-una-vecina-denuncio-el-robo-de-dos",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-una-vecina-denuncio-el-robo-de-dos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Una vecina denunció el robo de dos motos de su patio\n\nSegún relató la damnificada, ingresaron a la madrugada tras cortar el tejido perimetral desde la propiedad de su madre. Se llevaron una Honda Wave 110 y una Honda XR 125.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-una-vecina-denuncio-el-robo-de-dos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Una vecina denunció el robo de dos motos de su patio",
+   "urgente": false,
+   "vence": "2026-11-21T02:42:10.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:03c64a65-3269-4247-b8a7-1e92b9072a66|x": {
    "actualizado": "2026-11-13T11:20:16.000Z",
    "buffer_id": "6af6e077df68225fc1b11d9f",
@@ -17574,18 +17620,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00314|tiktok",
-   "cuando": "2026-11-13T22:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707769847202974994"
-  },
-  {
-   "clave": "entrevistas:job00315|tiktok",
-   "cuando": "2026-11-13T22:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707764731091635462"
-  },
-  {
    "clave": "entrevistas:job00315|x",
    "cuando": "2026-11-13T22:20:13.000Z",
    "evento": "enviado",
@@ -21734,6 +21768,20 @@
    "cuando": "2026-11-20T22:40:40.000Z",
    "dueAt": "2026-11-20T22:42:24.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:01599053-9367-4272-a3b7-d36e906da218|x",
+   "cuando": "2026-11-20T23:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:01599053-9367-4272-a3b7-d36e906da218|x",
+   "cuando": "2026-11-20T23:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22025,7 +22073,6 @@
   "nacionales:545f9842d5a42866": "2026-10-24T00:20:16.000Z",
   "nacionales:56e46b4aea933185": "2026-10-24T01:00:18.000Z",
   "nacionales:5de2902aa9f0dc53": "2026-10-23T21:20:13.000Z",
-  "nacionales:780212f6b8352df4": "2026-10-21T23:00:16.000Z",
   "nacionales:89b6dd1b304f6c4e": "2026-10-22T00:20:17.000Z",
   "nacionales:975c5666332b123b": "2026-10-22T22:00:20.000Z",
   "nacionales:ae9e5a4804b66987": "2026-10-23T23:00:18.000Z",
@@ -22180,6 +22227,7 @@
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": "2026-11-02T10:03:22.000Z",
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0": "2026-11-11T10:02:35.000Z",
   "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e": "2026-11-12T10:02:44.000Z",
+  "web:01599053-9367-4272-a3b7-d36e906da218": "2026-11-20T23:00:18.000Z",
   "web:01bf9e9c-5d81-432e-9d5f-303e147f07d7": "2026-11-03T10:02:22.000Z",
   "web:024c510b-0090-4885-a004-6612c092f38b": "2026-10-26T22:40:15.000Z",
   "web:02e93911-55df-4a65-bb82-d3e764bdb7c5": "2026-10-26T12:06:06.000Z",

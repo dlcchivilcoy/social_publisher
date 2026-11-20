@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 20/11/2026 19:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 16 | 0 | 0 | 0 | 0 | 7 |
+| Notas web | X | 15 | 16 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -34,8 +34,6 @@ Actualizado: 20/11/2026 19:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T19:20 recibido entrevistas:job00335|tiktok 
-- 2026-11-20T19:20 programado entrevistas:job00335|x 
 - 2026-11-20T19:40 enviado entrevistas:job00334|x 
 - 2026-11-20T19:40 enviado entrevistas:job00335|x 
 - 2026-11-20T20:20 entrevista_aprobada entrevistas:job00336 
@@ -59,3 +57,5 @@ Actualizado: 20/11/2026 19:40 (hora AR) · ACTIVO
 - 2026-11-20T22:40 enviado entrevistas:job00333|tiktok 
 - 2026-11-20T22:40 enviado entrevistas:job00334|tiktok 
 - 2026-11-20T22:40 programado bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x 
+- 2026-11-20T23:00 recibido web:01599053-9367-4272-a3b7-d36e906da218|x 
+- 2026-11-20T23:00 depurado web:01599053-9367-4272-a3b7-d36e906da218|x de la web, a X solo van las notas del diario de la mañana
