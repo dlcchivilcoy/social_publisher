@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-20T10:20:14.000Z"
+   "visto": "2026-11-20T11:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
+    "scheduled": 2,
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-20T10:20:14.000Z"
+   "visto": "2026-11-20T11:20:14.000Z"
   }
  },
  "contenidos": {
@@ -2882,25 +2882,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-que",
    "volanta": "Chivilcoy · Policiales"
-  },
-  "web:222c5924-1b87-456d-96b4-f20fcdee84f5": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Fiorella Molina: “En el área de salud considero que tenemos un 30% conquistado; quedaría la articulación con los centros médicos públicos y las obras…",
-   "generado": "2026-11-10T10:01:28.285Z",
-   "id": "web:222c5924-1b87-456d-96b4-f20fcdee84f5",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a9412221c8ad48309a33326f13a58b03~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cannabis-medicinal-y-reprocann-chivilcoy-fiorella-molina-en-el-area",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Cannabis Medicinal y Reprocann",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cannabis-medicinal-y-reprocann-chivilcoy-fiorella-molina-en-el-area",
-   "volanta": ""
   },
   "web:229a7170-c2c4-42c1-abe1-cb945b533f0e": {
    "categoria": "",
@@ -12419,34 +12400,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:222c5924-1b87-456d-96b4-f20fcdee84f5|x": {
-   "actualizado": "2026-11-10T11:00:21.000Z",
-   "buffer_id": "6af2ec2227db27ce062bbcae",
-   "clave": "web:222c5924-1b87-456d-96b4-f20fcdee84f5|x",
-   "creado": "2026-11-10T10:02:42.000Z",
-   "dueAt": "2026-11-10T11:22:17.000Z",
-   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
-   "espera": "",
-   "estado": "descartado",
-   "generado": "2026-11-10T10:01:28.285Z",
-   "id": "web:222c5924-1b87-456d-96b4-f20fcdee84f5",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/cannabis-medicinal-y-reprocann-chivilcoy-fiorella-molina-en-el-area",
-   "noticia": "nota:cannabis-medicinal-y-reprocann-chivilcoy-fiorella-molina-en-el-area",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Cannabis Medicinal y Reprocann\n\nFiorella Molina consideró que en el área de salud tienen un 30% conquistado en Chivilcoy. Señaló que resta articular con centros médicos públicos y obras sociales.\n\nhttps://www.diariolacampaña.com.ar/n/cannabis-medicinal-y-reprocann-chivilcoy-fiorella-molina-en-el-area",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Cannabis Medicinal y Reprocann",
-   "urgente": false,
-   "vence": "2026-11-10T14:01:28.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:229a7170-c2c4-42c1-abe1-cb945b533f0e|x": {
    "actualizado": "2026-11-17T11:40:17.000Z",
    "buffer_id": "6afc26b4fae76827be3e3737",
@@ -12549,19 +12502,20 @@
    "viral": false
   },
   "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x": {
-   "actualizado": "2026-11-20T09:20:13.000Z",
+   "actualizado": "2026-11-20T11:20:14.000Z",
    "buffer_id": "6b0010cdd5f8acdd0d8897cc",
    "clave": "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x",
    "creado": "2026-11-20T09:03:47.000Z",
    "dueAt": "2026-11-20T10:38:36.000Z",
+   "enviado": "2026-11-20T10:38:46.231Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T09:01:51.460Z",
    "id": "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79",
    "ig_hora": "2026-11-20T10:38:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123727744739459582",
    "nota_url": "https://www.diariolacampaña.com.ar/n/en-la-ronda-cc-el-fuego-el-barro-y-lo-comun-chivilcoy-vive-su-tercer",
    "noticia": "nota:en-la-ronda-cc-el-fuego-el-barro-y-lo-comun-chivilcoy-vive-su-tercer",
    "origen": "web",
@@ -12654,19 +12608,20 @@
    "viral": false
   },
   "web:307fc9d4-4abc-4362-b593-36783c0bf652|x": {
-   "actualizado": "2026-11-20T09:40:13.000Z",
+   "actualizado": "2026-11-20T11:20:14.000Z",
    "buffer_id": "6b00157ed6ba71125fadfbe0",
    "clave": "web:307fc9d4-4abc-4362-b593-36783c0bf652|x",
    "creado": "2026-11-20T09:03:47.000Z",
    "dueAt": "2026-11-20T11:08:06.000Z",
+   "enviado": "2026-11-20T11:08:16.099Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T09:02:23.735Z",
    "id": "web:307fc9d4-4abc-4362-b593-36783c0bf652",
    "ig_hora": "2026-11-20T11:08:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123735168288432598",
    "nota_url": "https://www.diariolacampaña.com.ar/n/literatura-local-chivilcoy-alicia-marino-presentara-su-nueva-novela",
    "noticia": "nota:literatura-local-chivilcoy-alicia-marino-presentara-su-nueva-novela",
    "origen": "web",
@@ -13306,19 +13261,20 @@
    "viral": false
   },
   "web:445649bf-b33a-41c9-8469-6db55b0bd62d|x": {
-   "actualizado": "2026-11-20T09:04:55.000Z",
+   "actualizado": "2026-11-20T11:20:14.000Z",
    "buffer_id": "6b000d387b0a126cebc10a31",
    "clave": "web:445649bf-b33a-41c9-8469-6db55b0bd62d|x",
    "creado": "2026-11-20T09:03:47.000Z",
    "dueAt": "2026-11-20T10:23:23.000Z",
+   "enviado": "2026-11-20T10:23:31.292Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T09:01:47.880Z",
    "id": "web:445649bf-b33a-41c9-8469-6db55b0bd62d",
    "ig_hora": "2026-11-20T10:23:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123723907018403893",
    "nota_url": "https://www.diariolacampaña.com.ar/n/fiesta-de-la-literatura-chivilcoy-cuenta-regresiva-para-la-5-edicion",
    "noticia": "nota:fiesta-de-la-literatura-chivilcoy-cuenta-regresiva-para-la-5-edicion",
    "origen": "web",
@@ -13659,14 +13615,14 @@
    "viral": false
   },
   "web:4e6e2626-d326-4a75-93b5-756fb6f07584|x": {
-   "actualizado": "2026-11-20T09:03:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-20T11:20:15.000Z",
+   "buffer_id": "6b002cef39116a845dd0b2ad",
    "clave": "web:4e6e2626-d326-4a75-93b5-756fb6f07584|x",
    "creado": "2026-11-20T09:03:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-20T12:38:34.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-20T09:02:52.427Z",
    "id": "web:4e6e2626-d326-4a75-93b5-756fb6f07584",
    "ig_hora": "2026-11-20T12:38:36.000Z",
@@ -16725,19 +16681,20 @@
    "viral": false
   },
   "web:d0b1d7bb-5cfb-465e-882c-ccbd45b12f77|x": {
-   "actualizado": "2026-11-20T09:40:13.000Z",
+   "actualizado": "2026-11-20T11:20:14.000Z",
    "buffer_id": "6b00157db3576a91c14c5e15",
    "clave": "web:d0b1d7bb-5cfb-465e-882c-ccbd45b12f77|x",
    "creado": "2026-11-20T09:03:47.000Z",
    "dueAt": "2026-11-20T10:53:58.000Z",
+   "enviado": "2026-11-20T10:54:02.476Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T09:01:54.897Z",
    "id": "web:d0b1d7bb-5cfb-465e-882c-ccbd45b12f77",
    "ig_hora": "2026-11-20T10:53:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123731587808272726",
    "nota_url": "https://www.diariolacampaña.com.ar/n/beer-tonic-festeja-sus-dos-anos-en-chivilcoy-con-musica-en-vivo-y",
    "noticia": "nota:beer-tonic-festeja-sus-dos-anos-en-chivilcoy-con-musica-en-vivo-y",
    "origen": "web",
@@ -18014,38 +17971,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6af6fbd410ced6793b325996",
-   "clave": "web:6aa2da6b-4b8f-417d-82c8-0fc553eebcfa|x",
-   "cuando": "2026-11-13T12:00:20.000Z",
-   "dueAt": "2026-11-13T13:22:11.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af70080d414da1f7da43d28",
-   "clave": "web:e09c5f60-c7ea-4314-b2f8-d99f1c806132|x",
-   "cuando": "2026-11-13T12:20:16.000Z",
-   "dueAt": "2026-11-13T13:37:52.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:3a1e20a8-80b6-4752-89ed-6c5d60a28320|x",
-   "cuando": "2026-11-13T12:40:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121221046606926330"
-  },
-  {
-   "clave": "web:3a7b8196-052a-4b18-86a2-e06b57de3d46|x",
-   "cuando": "2026-11-13T12:40:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121209589328675206"
-  },
-  {
-   "clave": "web:4b0f4902-985a-4fed-8824-779dfe151dbb|x",
-   "cuando": "2026-11-13T12:40:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121213427389444118"
-  },
   {
    "clave": "web:7de16944-cbd0-472a-9ccc-0f7b42b113cd|x",
    "cuando": "2026-11-13T12:40:20.000Z",
@@ -22174,6 +22099,37 @@
    "cuando": "2026-11-20T11:00:20.000Z",
    "dueAt": "2026-11-20T12:23:08.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x",
+   "cuando": "2026-11-20T11:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123727744739459582"
+  },
+  {
+   "clave": "web:307fc9d4-4abc-4362-b593-36783c0bf652|x",
+   "cuando": "2026-11-20T11:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123735168288432598"
+  },
+  {
+   "clave": "web:445649bf-b33a-41c9-8469-6db55b0bd62d|x",
+   "cuando": "2026-11-20T11:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123723907018403893"
+  },
+  {
+   "clave": "web:d0b1d7bb-5cfb-465e-882c-ccbd45b12f77|x",
+   "cuando": "2026-11-20T11:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123731587808272726"
+  },
+  {
+   "buffer_id": "6b002cef39116a845dd0b2ad",
+   "clave": "web:4e6e2626-d326-4a75-93b5-756fb6f07584|x",
+   "cuando": "2026-11-20T11:20:15.000Z",
+   "dueAt": "2026-11-20T12:38:34.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22211,7 +22167,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-20",
- "ultima_sync": "2026-11-20T10:20:14.000Z",
+ "ultima_sync": "2026-11-20T11:20:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
