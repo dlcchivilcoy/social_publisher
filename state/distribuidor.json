@@ -4688,25 +4688,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-amateur-maximiliano-robledo-y-el-olimpo-van-por-la-gloria-en",
    "volanta": "Fútbol Amateur"
   },
-  "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Juan Ignacio Felice afirmó: “el Departamento Ejecutivo suele reaccionar improvisando obras tras las críticas públicas de la oposición” El concejal y presidente del bloque de La Libertad Avanza en el Concejo Deliberante de Chivilcoy, Juan Ignacio Felice, visitó los estudios de Radio del Centro donde trazó un pormenorizado balance del escenario legislativo local, analizó las perspectivas electorales del espacio libertario hacia 2027 y profundizó sus críticas hacia el Departamento...",
-   "generado": "2026-11-10T10:00:54.359Z",
-   "id": "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_90e63001707f4ccabda7086d9364e2b9~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-libertad-avanza-chivilcoy-juan-ignacio-felice-afirmo-el",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Juan Ignacio Felice afirmó: “el Departamento Ejecutivo suele reaccionar improvisando obras tras las críticas públicas de la oposición”",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/la-libertad-avanza-chivilcoy-juan-ignacio-felice-afirmo-el",
-   "volanta": "La Libertad Avanza"
-  },
   "web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4": {
    "categoria": "",
    "descripcion": "Torneo Clausura de la Asociación de Chivilcoy: Bragado Club goleó a Argentino y mantiene firme el sueño del pasaje a los Play-Offs Bragado Club consumó una contundente victoria como local tras superar a Argentino por 71 a 46, en el marco de la 13ª fecha de la fase regular del Torneo Clausura de Primera División organizado por la Asociación de Básquetbol de Chivilcoy. El conjunto tricolor dominó las acciones de principio a fin sin dar opciones al elenco visitante, encadenando así su tercero...",
@@ -15060,14 +15041,14 @@
    "viral": false
   },
   "web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e|x": {
-   "actualizado": "2026-11-20T09:03:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-20T10:40:13.000Z",
+   "buffer_id": "6b00238dc0a7142f84b0db7e",
    "clave": "web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e|x",
    "creado": "2026-11-20T09:03:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-20T11:53:55.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-20T09:02:36.357Z",
    "id": "web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e",
    "ig_hora": "2026-11-20T11:53:36.000Z",
@@ -15614,44 +15595,6 @@
    "titulo": "Maximiliano Robledo y El Olimpo van por la gloria en la LICHFA: \"No hay segunda opción, vamos por todo\"",
    "urgente": false,
    "vence": "2026-11-18T14:02:30.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8|x": {
-   "actualizado": "2026-11-10T10:20:16.000Z",
-   "buffer_id": "6af2ec2189e9c23c9bd7ce9e",
-   "clave": "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8|x",
-   "creado": "2026-11-10T10:02:42.000Z",
-   "dueAt": "2026-11-10T10:07:39.000Z",
-   "enviado": "2026-11-10T10:07:46.458Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-10T10:00:54.359Z",
-   "id": "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8",
-   "ig_hora": "2026-11-10T10:07:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2120096065495986650",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 11,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-libertad-avanza-chivilcoy-juan-ignacio-felice-afirmo-el",
-   "noticia": "nota:la-libertad-avanza-chivilcoy-juan-ignacio-felice-afirmo-el",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Juan Ignacio Felice afirmó: “el Departamento Ejecutivo suele reaccionar improvisando obras tras las críticas públicas de la oposición”\n\nhttps://www.diariolacampaña.com.ar/n/la-libertad-avanza-chivilcoy-juan-ignacio-felice-afirmo-el",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Juan Ignacio Felice afirmó: “el Departamento Ejecutivo suele reaccionar improvisando obras tras las críticas públicas de la oposición”",
-   "urgente": false,
-   "vence": "2026-11-10T14:00:54.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16557,14 +16500,14 @@
    "viral": false
   },
   "web:c6713e1d-61d9-4e84-b151-556ac94ad1d6|x": {
-   "actualizado": "2026-11-20T09:03:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-20T10:40:13.000Z",
+   "buffer_id": "6b00238d39116a845dcc85c2",
    "clave": "web:c6713e1d-61d9-4e84-b151-556ac94ad1d6|x",
    "creado": "2026-11-20T09:03:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-20T12:08:55.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-20T09:02:42.223Z",
    "id": "web:c6713e1d-61d9-4e84-b151-556ac94ad1d6",
    "ig_hora": "2026-11-20T12:08:36.000Z",
@@ -18071,20 +18014,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6af6f71e9a21933ffad0728c",
-   "clave": "web:7dd5195a-6787-458a-861f-22ceaaf90ea3|x",
-   "cuando": "2026-11-13T11:40:14.000Z",
-   "dueAt": "2026-11-13T12:52:28.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af6f71ebd1182b0d3edeac4",
-   "clave": "web:f12ef051-6163-4424-8626-4ff7b049b205|x",
-   "cuando": "2026-11-13T11:40:14.000Z",
-   "dueAt": "2026-11-13T13:07:00.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff|x",
    "cuando": "2026-11-13T12:00:20.000Z",
@@ -22229,6 +22158,20 @@
    "clave": "web:8e817278-db9c-4cf6-92d0-f5c02816d27d|x",
    "cuando": "2026-11-20T10:20:15.000Z",
    "dueAt": "2026-11-20T11:38:47.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b00238dc0a7142f84b0db7e",
+   "clave": "web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e|x",
+   "cuando": "2026-11-20T10:40:13.000Z",
+   "dueAt": "2026-11-20T11:53:55.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b00238d39116a845dcc85c2",
+   "clave": "web:c6713e1d-61d9-4e84-b151-556ac94ad1d6|x",
+   "cuando": "2026-11-20T10:40:13.000Z",
+   "dueAt": "2026-11-20T12:08:55.000Z",
    "evento": "programado"
   }
  ],
