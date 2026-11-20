@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 16:20 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 16:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -37,8 +37,6 @@ Actualizado: 20/11/2026 16:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T14:20 recibido web:1ff76a20-6f21-47f2-bb6b-449299a0ee07|x 
-- 2026-11-20T14:20 depurado web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110|x no está en el carrusel del diario de hoy
 - 2026-11-20T14:20 depurado web:1ff76a20-6f21-47f2-bb6b-449299a0ee07|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-20T16:20 recibido web:7f27bdc8-3410-406c-a7fa-a0920049340f|x 
 - 2026-11-20T16:20 depurado web:7f27bdc8-3410-406c-a7fa-a0920049340f|x de la web, a X solo van las notas del diario de la mañana
@@ -62,3 +60,5 @@ Actualizado: 20/11/2026 16:20 (hora AR) · ACTIVO
 - 2026-11-20T19:20 recibido entrevistas:job00335|x 
 - 2026-11-20T19:20 recibido entrevistas:job00335|tiktok 
 - 2026-11-20T19:20 programado entrevistas:job00335|x 
+- 2026-11-20T19:40 enviado entrevistas:job00334|x 
+- 2026-11-20T19:40 enviado entrevistas:job00335|x 
