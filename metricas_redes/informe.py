@@ -94,10 +94,36 @@ def resumen(inf: dict) -> list:
         hs = [h for h in r["horarios"] if h["recomendacion"].startswith("probar")]
         if hs:
             lineas.append(f"{RED_NOMBRE[red]}, {hs[0]['grupo']}: {hs[0]['recomendacion']}.")
+    v = inf.get("visibilidad_ia")
+    if v:
+        lineas.append(f"Inteligencias artificiales: Gemini citó al diario en {v['citado']} de {v['total']} preguntas "
+                      "sobre Chivilcoy.")
     return lineas
 
 
 # ---------------------------------------------------------------- secciones
+def _seccion_visibilidad(v: dict, antes) -> str:
+    """¿Las IA usan al diario? (metricas_redes/visibilidad_ia.py, 20/11/2026)."""
+    filas = []
+    for q in v["preguntas"]:
+        if q["error"]:
+            estado = f"<span style='color:{GRIS}'>no se pudo preguntar</span>"
+        elif q["citado"]:
+            estado = f"<b style='color:{VERDE}'>Sí, nos cita</b>"
+        elif q["menciona"]:
+            estado = f"<span style='color:{NARANJA}'>Nos nombra, sin enlace</span>"
+        else:
+            estado = f"<span style='color:{ROJO}'>No</span>"
+        otras = [f for f in q["fuentes"] if "diariolacampa" not in f][:4]
+        filas.append([e(q["pregunta"]), estado, e(", ".join(otras)) or "—"])
+    t = f"Gemini (con búsqueda de Google) citó a diariolacampaña.com.ar en {v['citado']} de {v['total']} preguntas"
+    if antes is not None:
+        t += f" (la semana anterior, {antes})"
+    return (_p(e(t) + ".") + _tabla(["Pregunta", "¿Usa al diario?", "Otras fuentes que usó"], filas)
+            + _p("Lo que hace la web para que la usen: /llms.txt, RSS, «Chivilcoy hoy», el lugar de cada nota en los "
+                 "datos estructurados y el aviso a Bing (IndexNow, que es lo que mira ChatGPT).", True))
+
+
 def _seccion_cuenta(r) -> str:
     c, c0 = r["cuenta"], r["cuenta_ant"]
     filas = []
@@ -315,6 +341,9 @@ def html_informe(inf: dict) -> str:
                    _h2("¿El formato es el correcto?"), _seccion_formato(r),
                    _h2("Mejor horario por corrida"), _seccion_horarios(r, inf["audiencia"] if red == "instagram" else None),
                    _h2("Posteos de la semana"), _seccion_posteos(r)]
+    if inf.get("visibilidad_ia"):
+        partes.append(_h2("¿Las inteligencias artificiales usan al diario?"))
+        partes.append(_seccion_visibilidad(inf["visibilidad_ia"], inf.get("visibilidad_ia_antes")))
     falta = faltantes(inf["permisos"])
     if falta:
         partes.append(_h2("Lo que falta medir"))
@@ -322,7 +351,7 @@ def html_informe(inf: dict) -> str:
         partes.append(_p("Cuando se agreguen esos permisos al token, el informe los suma solo: no hay que tocar nada más.", True))
     partes.append(_p("Cada posteo se mide una vez, a las 48 horas de publicado, para comparar todos a la misma edad. "
                      "Este informe lo arma un programa con reglas fijas en GitHub: no usa inteligencia artificial "
-                     "ni gasta tokens. Adjunto: la planilla con todos los posteos de la semana.", True))
+                     "(salvo las 8 preguntas a Gemini de la visibilidad en IA). Adjunto: la planilla con todos los posteos de la semana.", True))
     partes.append("</div>")
     return "".join(partes)
 

@@ -61,6 +61,16 @@ def main(argv=None) -> int:
     if a.informe:
         hoy = date.fromisoformat(a.hoy) if a.hoy else datetime.now(timezone.utc).astimezone(recolector.TZ_AR).date()
         inf = analisis.informe(d, hoy)
+        # 20/11/2026: ¿las IA usan al diario para hablar de Chivilcoy? (8 preguntas a Gemini con Google)
+        from . import visibilidad_ia as VI
+        if VI.activo():
+            try:
+                inf["visibilidad_ia"] = VI.medir()
+                previas = sorted(k for k in d.get("visibilidad_ia", {}) if k < inf["ini"].isoformat())
+                inf["visibilidad_ia_antes"] = d["visibilidad_ia"][previas[-1]]["citado"] if previas else None
+                print(f"Visibilidad en IA: citado en {inf['visibilidad_ia']['citado']}/{inf['visibilidad_ia']['total']}")
+            except Exception as ex:                        # noqa: BLE001 — el informe sale igual
+                print(f"Visibilidad en IA: no se pudo medir ({ex})")
         html_ = informe.html_informe(inf)
         texto = informe.texto_informe(inf)
         adj = informe.csv_posteos(inf, d)
@@ -75,6 +85,9 @@ def main(argv=None) -> int:
             print(f"(simulación) informe en {carpeta / 'informe_metricas.html'}")
         else:
             informe.enviar(informe.asunto(inf), html_, texto, adj, nombre)
+            if inf.get("visibilidad_ia"):
+                d.setdefault("visibilidad_ia", {})[inf["ini"].isoformat()] = {
+                    "citado": inf["visibilidad_ia"]["citado"], "total": inf["visibilidad_ia"]["total"]}
             d["semanas"][inf["ini"].isoformat()] = {
                 red: {"seguidores": r["cuenta"].get("seguidores"), "neto": r["cuenta"].get("neto"), "posteos": r["n"],
                       "rendimiento": r.get("rend_semana")} for red, r in inf["redes"].items()}
