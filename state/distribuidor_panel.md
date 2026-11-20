@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 06:00 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 06:04 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 20/11/2026 06:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 6 | 10 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,34 +27,44 @@ Actualizado: 20/11/2026 06:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (10 esperando)
+- X · Notas web · El Karting del Centro define sus campeones 2026 con el Gran Premio Coronación en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Mariano Calandrino analizó el Rally de Chivilcoy y anticipó la definición en Ame — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Liga Desarrollo: Racing festejó en casa y se metió en la pelea; Insti — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Torneo Clausura De Primera División: contundente primer paso de Colón hacia la f — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Independiente y la mira puesta en la clasificación: el rojo quiere asegurar su p — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Torneo Clausura de Primera: La Liga Chivilcoyana pone en marcha su última fecha  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy palpita la XXX Fiesta del Resero y el 69° Desfile de la Tradición orga — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Alicia Marino presentará su nueva novela ‘Romance sin fronteras’ en e — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Beer Tonic festeja sus dos años en Chivilcoy con música en vivo y gastronomía — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · El fuego, el barro y lo común: Chivilcoy vive su tercer Encuentro de Cerámica — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T21:20 enviado entrevistas:job00331|tiktok 
-- 2026-11-19T21:40 recibido web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e|x 
-- 2026-11-19T21:40 depurado web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-19T22:00 recibido web:fbf18cb2-fdbc-428f-aba5-f02fe7e0ddb8|x 
-- 2026-11-19T22:00 recibido web:900359d5-6183-4c50-8ecb-5fd30abaf575|x 
-- 2026-11-19T22:00 recibido web:8d685a3e-55db-42df-bf39-d5595b1bafe9|x 
-- 2026-11-19T22:00 depurado web:fbf18cb2-fdbc-428f-aba5-f02fe7e0ddb8|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-19T22:00 depurado web:900359d5-6183-4c50-8ecb-5fd30abaf575|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-19T22:00 depurado web:8d685a3e-55db-42df-bf39-d5595b1bafe9|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-19T22:20 enviado entrevistas:job00328|tiktok 
-- 2026-11-19T22:20 enviado entrevistas:job00329|tiktok 
-- 2026-11-19T22:20 enviado entrevistas:job00330|tiktok 
-- 2026-11-20T02:20 recibido policiales:https://cuartopoderbragado.com.ar/piden-libertad- 
-- 2026-11-20T02:20 recibido policiales:https://www.lamanana.com.ar/perdidas-totales-tras 
-- 2026-11-20T02:20 programado policiales:https://cuartopoderbragado.com.ar/piden-libertad- 
-- 2026-11-20T02:40 recibido policiales:https://noticiasgilenses.com.ar/la-justicia-excar 
-- 2026-11-20T02:40 enviado policiales:https://cuartopoderbragado.com.ar/piden-libertad- 
-- 2026-11-20T09:00 recibido policiales:https://noticiasmercedes.com/policia-de-mercedes- 
-- 2026-11-20T09:00 recibido policiales:https://www.junindigital.com/policiales/2026-11-1 
-- 2026-11-20T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/policiale 
-- 2026-11-20T09:00 vencido policiales:https://noticiasgilenses.com.ar/la-justicia-excar espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-20T09:00 vencido policiales:https://www.lamanana.com.ar/perdidas-totales-tras espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-20T09:00 vencido policiales:https://noticiasmercedes.com/policia-de-mercedes- no hubo lugar antes de su vencimiento
 - 2026-11-20T09:00 vencido policiales:https://www.junindigital.com/policiales/2026-11-1 no hubo lugar antes de su vencimiento
 - 2026-11-20T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/policiale no hubo lugar antes de su vencimiento
+- 2026-11-20T09:03 recibido web:08fd2a3f-5e18-4be2-818e-34bec857979d|x 
+- 2026-11-20T09:03 recibido web:4e6e2626-d326-4a75-93b5-756fb6f07584|x 
+- 2026-11-20T09:04 recibido web:ec55e592-9c0f-4539-8414-481ecbfa2719|x 
+- 2026-11-20T09:04 recibido web:c6713e1d-61d9-4e84-b151-556ac94ad1d6|x 
+- 2026-11-20T09:04 recibido web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e|x 
+- 2026-11-20T09:04 recibido web:8e817278-db9c-4cf6-92d0-f5c02816d27d|x 
+- 2026-11-20T09:04 recibido web:98ed68af-c1a7-496d-a8bf-6de7af346ff4|x 
+- 2026-11-20T09:04 recibido web:307fc9d4-4abc-4362-b593-36783c0bf652|x 
+- 2026-11-20T09:04 recibido web:d0b1d7bb-5cfb-465e-882c-ccbd45b12f77|x 
+- 2026-11-20T09:04 recibido web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x 
+- 2026-11-20T09:04 recibido web:445649bf-b33a-41c9-8469-6db55b0bd62d|x 
+- 2026-11-20T09:04 recibido web:1ad007ee-de8a-4d54-b75c-4f87b9c62d71|x 
+- 2026-11-20T09:04 recibido web:d14ece9c-b6ae-4210-9921-a170b45d7d43|x 
+- 2026-11-20T09:04 recibido web:43a80259-224c-4361-b631-3814b78880dc|x 
+- 2026-11-20T09:04 recibido web:f78304d9-a338-4cad-a91c-4dbb95f32587|x 
+- 2026-11-20T09:04 recibido web:eb8b75f6-688a-44fd-b4de-4b9bb4386276|x 
+- 2026-11-20T09:04 programado web:eb8b75f6-688a-44fd-b4de-4b9bb4386276|x 
+- 2026-11-20T09:04 programado web:f78304d9-a338-4cad-a91c-4dbb95f32587|x 
+- 2026-11-20T09:04 programado web:43a80259-224c-4361-b631-3814b78880dc|x 
+- 2026-11-20T09:04 programado web:d14ece9c-b6ae-4210-9921-a170b45d7d43|x 
+- 2026-11-20T09:04 programado web:1ad007ee-de8a-4d54-b75c-4f87b9c62d71|x 
+- 2026-11-20T09:04 programado web:445649bf-b33a-41c9-8469-6db55b0bd62d|x 
