@@ -1251,6 +1251,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00335.mp4",
    "youtube_url": "https://youtu.be/4PjDrmcXJBQ"
   },
+  "entrevistas:job00336": {
+   "descripcion": "Claudia Bogliolo, Directora de Habilitaciones de Chivilcoy, explicó cómo se regulan los fuegos artificiales de bajo impacto sonoro. Además, detalló el trabajo conjunto con la Dirección de Explosivos bonaerense.",
+   "duracion_seg": null,
+   "entrevistado": "Claudia Bogliolo",
+   "generado": "2026-11-20T20:20:18.000Z",
+   "id": "entrevistas:job00336",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Claudia Bogliolo: \"La pirotecnia cero no existe\"",
+   "urgente": false,
+   "video_bytes": 27997835,
+   "video_mb": 26.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00336.mp4",
+   "youtube_url": "https://youtu.be/bmJzPcZ9xgs"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": {
    "categoria": "robo",
    "descripcion": "Investigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.",
@@ -10048,6 +10069,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00335.mp4",
    "viral": false
   },
+  "entrevistas:job00336|tiktok": {
+   "actualizado": "2026-11-20T20:20:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00336|tiktok",
+   "creado": "2026-11-20T20:20:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-20T20:20:18.000Z",
+   "id": "entrevistas:job00336",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Claudia Bogliolo: \"La pirotecnia cero no existe\"\n\nClaudia Bogliolo, Directora de Habilitaciones de Chivilcoy, explicó cómo se regulan los fuegos artificiales de bajo impacto sonoro. Además, detalló el trabajo conjunto con la Dirección de Explosivos bonaerense.\n\nhttps://youtu.be/bmJzPcZ9xgs\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Claudia Bogliolo: \"La pirotecnia cero no existe\"",
+   "urgente": false,
+   "vence": "2026-11-22T20:20:18.000Z",
+   "video_bytes": 27997835,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00336.mp4",
+   "viral": false
+  },
+  "entrevistas:job00336|x": {
+   "actualizado": "2026-11-20T20:20:38.000Z",
+   "buffer_id": "6b00ab976f199ec35b7c949d",
+   "clave": "entrevistas:job00336|x",
+   "creado": "2026-11-20T20:20:18.000Z",
+   "dueAt": "2026-11-20T20:22:52.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-20T20:20:18.000Z",
+   "id": "entrevistas:job00336",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:bogliolo-cero-claudia-existe-pirotecnia",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Claudia Bogliolo: \"La pirotecnia cero no existe\"\n\nClaudia Bogliolo, Directora de Habilitaciones de Chivilcoy, explicó cómo se regulan los fuegos artificiales de bajo impacto sonoro.\n\nhttps://youtu.be/bmJzPcZ9xgs",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Claudia Bogliolo: \"La pirotecnia cero no existe\"",
+   "urgente": false,
+   "vence": "2026-11-20T22:20:18.000Z",
+   "video_bytes": 27997835,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00336.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x": {
    "actualizado": "2026-11-18T00:40:16.000Z",
    "buffer_id": "",
@@ -17564,34 +17641,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af771079257ce33980b734a",
-   "clave": "entrevistas:job00314|x",
-   "cuando": "2026-11-13T20:20:23.000Z",
-   "dueAt": "2026-11-13T20:22:39.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00315",
-   "cuando": "2026-11-13T21:00:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00315|x",
-   "cuando": "2026-11-13T21:00:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00315|tiktok",
-   "cuando": "2026-11-13T21:00:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
    "clave": "entrevistas:job00314|x",
    "cuando": "2026-11-13T21:00:26.000Z",
    "evento": "enviado",
@@ -21724,6 +21773,34 @@
    "cuando": "2026-11-20T19:40:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123859582212509986"
+  },
+  {
+   "clave": "entrevistas:job00336",
+   "cuando": "2026-11-20T20:20:19.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00336|x",
+   "cuando": "2026-11-20T20:20:38.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00336|tiktok",
+   "cuando": "2026-11-20T20:20:38.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b00ab976f199ec35b7c949d",
+   "clave": "entrevistas:job00336|x",
+   "cuando": "2026-11-20T20:20:39.000Z",
+   "dueAt": "2026-11-20T20:22:52.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22006,6 +22083,7 @@
   "entrevistas:job00333": "2026-11-20T17:40:14.000Z",
   "entrevistas:job00334": "2026-11-20T18:20:14.000Z",
   "entrevistas:job00335": "2026-11-20T19:20:15.000Z",
+  "entrevistas:job00336": "2026-11-20T20:20:18.000Z",
   "nacionales:0f149db2f4d13c80": "2026-10-23T22:00:20.000Z",
   "nacionales:1bc3bff36ba5e828": "2026-10-23T00:20:14.000Z",
   "nacionales:41a4276d3cbfa924": "2026-10-21T21:20:15.000Z",
