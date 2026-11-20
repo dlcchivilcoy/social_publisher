@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 20/11/2026 07:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 5 | 8 | 3 | 0 | 0 | 0 |
+| Notas web | X | 15 | 5 | 9 | 2 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,14 @@ Actualizado: 20/11/2026 07:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (2 esperando)
 - X · Notas web · El Karting del Centro define sus campeones 2026 con el Gran Premio Coronación en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Mariano Calandrino analizó el Rally de Chivilcoy y anticipó la definición en Ame — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Liga Desarrollo: Racing festejó en casa y se metió en la pelea; Insti — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T09:04 recibido web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x 
 - 2026-11-20T09:04 recibido web:445649bf-b33a-41c9-8469-6db55b0bd62d|x 
 - 2026-11-20T09:04 recibido web:1ad007ee-de8a-4d54-b75c-4f87b9c62d71|x 
 - 2026-11-20T09:04 recibido web:d14ece9c-b6ae-4210-9921-a170b45d7d43|x 
@@ -61,3 +59,4 @@ Actualizado: 20/11/2026 07:40 (hora AR) · ACTIVO
 - 2026-11-20T10:20 programado web:8e817278-db9c-4cf6-92d0-f5c02816d27d|x 
 - 2026-11-20T10:40 programado web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e|x 
 - 2026-11-20T10:40 programado web:c6713e1d-61d9-4e84-b151-556ac94ad1d6|x 
+- 2026-11-20T11:00 programado web:ec55e592-9c0f-4539-8414-481ecbfa2719|x 
