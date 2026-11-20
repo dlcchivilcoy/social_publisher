@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 09:00 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 09:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 20/11/2026 09:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 9 | 7 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 13 | 3 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 20 enviadas + 2 programadas de 100 por día
+- X: conectado · Buffer: 21 enviadas + 1 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,18 +27,12 @@ Actualizado: 20/11/2026 09:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- X · Notas web · Chivilcoy: Racing venció a Gimnasia en la primera semifinal — cupo diario de Notas web en X completo (15)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T09:04 programado web:f78304d9-a338-4cad-a91c-4dbb95f32587|x 
-- 2026-11-20T09:04 programado web:43a80259-224c-4361-b631-3814b78880dc|x 
-- 2026-11-20T09:04 programado web:d14ece9c-b6ae-4210-9921-a170b45d7d43|x 
-- 2026-11-20T09:04 programado web:1ad007ee-de8a-4d54-b75c-4f87b9c62d71|x 
-- 2026-11-20T09:04 programado web:445649bf-b33a-41c9-8469-6db55b0bd62d|x 
 - 2026-11-20T09:20 enviado web:eb8b75f6-688a-44fd-b4de-4b9bb4386276|x 
 - 2026-11-20T09:20 programado web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x 
 - 2026-11-20T09:40 programado web:d0b1d7bb-5cfb-465e-882c-ccbd45b12f77|x 
@@ -59,3 +53,8 @@ Actualizado: 20/11/2026 09:00 (hora AR) · ACTIVO
 - 2026-11-20T11:20 programado web:4e6e2626-d326-4a75-93b5-756fb6f07584|x 
 - 2026-11-20T11:40 programado web:08fd2a3f-5e18-4be2-818e-34bec857979d|x 
 - 2026-11-20T12:00 recibido web:25a7e087-aa0a-4b66-bbc2-f90599ed4a50|x 
+- 2026-11-20T12:20 depurado web:25a7e087-aa0a-4b66-bbc2-f90599ed4a50|x no está en el carrusel del diario de hoy
+- 2026-11-20T12:20 enviado web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e|x 
+- 2026-11-20T12:20 enviado web:8e817278-db9c-4cf6-92d0-f5c02816d27d|x 
+- 2026-11-20T12:20 enviado web:98ed68af-c1a7-496d-a8bf-6de7af346ff4|x 
+- 2026-11-20T12:20 enviado web:c6713e1d-61d9-4e84-b151-556ac94ad1d6|x 
