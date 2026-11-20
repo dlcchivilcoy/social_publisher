@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 06:04 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 06:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 20/11/2026 06:04 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 6 | 10 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 6 | 9 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 20 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 4 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 20 enviadas + 1 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 36 con métricas · mediana vistas/impresiones 59 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 20/11/2026 06:04 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (9 esperando)
 - X · Notas web · El Karting del Centro define sus campeones 2026 con el Gran Premio Coronación en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Mariano Calandrino analizó el Rally de Chivilcoy y anticipó la definición en Ame — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Liga Desarrollo: Racing festejó en casa y se metió en la pelea; Insti — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -37,14 +37,11 @@ Actualizado: 20/11/2026 06:04 (hora AR) · ACTIVO
 - X · Notas web · Chivilcoy palpita la XXX Fiesta del Resero y el 69° Desfile de la Tradición orga — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Alicia Marino presentará su nueva novela ‘Romance sin fronteras’ en e — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Beer Tonic festeja sus dos años en Chivilcoy con música en vivo y gastronomía — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · El fuego, el barro y lo común: Chivilcoy vive su tercer Encuentro de Cerámica — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T09:00 vencido policiales:https://noticiasmercedes.com/policia-de-mercedes- no hubo lugar antes de su vencimiento
-- 2026-11-20T09:00 vencido policiales:https://www.junindigital.com/policiales/2026-11-1 no hubo lugar antes de su vencimiento
 - 2026-11-20T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/policiale no hubo lugar antes de su vencimiento
 - 2026-11-20T09:03 recibido web:08fd2a3f-5e18-4be2-818e-34bec857979d|x 
 - 2026-11-20T09:03 recibido web:4e6e2626-d326-4a75-93b5-756fb6f07584|x 
@@ -68,3 +65,5 @@ Actualizado: 20/11/2026 06:04 (hora AR) · ACTIVO
 - 2026-11-20T09:04 programado web:d14ece9c-b6ae-4210-9921-a170b45d7d43|x 
 - 2026-11-20T09:04 programado web:1ad007ee-de8a-4d54-b75c-4f87b9c62d71|x 
 - 2026-11-20T09:04 programado web:445649bf-b33a-41c9-8469-6db55b0bd62d|x 
+- 2026-11-20T09:20 enviado web:eb8b75f6-688a-44fd-b4de-4b9bb4386276|x 
+- 2026-11-20T09:20 programado web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x 
