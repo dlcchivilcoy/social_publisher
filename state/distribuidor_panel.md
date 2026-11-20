@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 19/11/2026 23:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 3 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,14 @@ Actualizado: 19/11/2026 23:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- X · Reels policiales · Excarcelaron al joven de 18 años que mató a Jorge Limonta — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Reels policiales · Destrucción total de una casa por las llamas en 25 de Mayo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T19:00 entrevista_aprobada entrevistas:job00331 
-- 2026-11-19T19:00 recibido entrevistas:job00331|x 
 - 2026-11-19T19:00 recibido entrevistas:job00331|tiktok 
 - 2026-11-19T19:00 programado entrevistas:job00331|x 
 - 2026-11-19T19:20 enviado entrevistas:job00330|x 
@@ -59,3 +58,5 @@ Actualizado: 19/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-20T02:20 recibido policiales:https://cuartopoderbragado.com.ar/piden-libertad- 
 - 2026-11-20T02:20 recibido policiales:https://www.lamanana.com.ar/perdidas-totales-tras 
 - 2026-11-20T02:20 programado policiales:https://cuartopoderbragado.com.ar/piden-libertad- 
+- 2026-11-20T02:40 recibido policiales:https://noticiasgilenses.com.ar/la-justicia-excar 
+- 2026-11-20T02:40 enviado policiales:https://cuartopoderbragado.com.ar/piden-libertad- 

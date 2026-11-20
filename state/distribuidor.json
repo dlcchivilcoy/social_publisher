@@ -17,7 +17,7 @@
     "sent": 4
    },
    "pausado": false,
-   "visto": "2026-11-19T22:20:24.000Z"
+   "visto": "2026-11-20T02:40:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-19T22:20:24.000Z"
+   "visto": "2026-11-20T02:40:23.000Z"
   }
  },
  "contenidos": {
@@ -1530,6 +1530,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_01_san-andres-de-giles_detuvieron-al-motociclista-que.mp4",
    "volanta": "Siniestro vial en San Andrés de Giles",
    "youtube_url": "https://youtube.com/shorts/b9XcehpP0Oo"
+  },
+  "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/": {
+   "categoria": "judicial",
+   "descripcion": "La Justicia otorgó la libertad al motoclista de 18 años acusado de atropellar y matar a Jorge Limonta. El hecho ocurrió el domingo por la noche y la causa está caratulada como homicidio culposo agravado.",
+   "distancia_km": 72.7,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-20T02:33:29.000Z",
+   "id": "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/",
+   "localidad": "San Andrés de Giles",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-excarcelaron-al-motoclista-que-mato-a-jorge-e97c5e",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Un joven de dieciocho años que atropelló y mató con su moto a Jorge Limonta quedó en libertad tras prestar declaración.\n\nEl hecho ocurrió el domingo por la noche en San Andrés de Giles y la causa está a cargo del Juzgado de Garantías Nro 3 de Mercedes.\n\nEl juez Patricio Guillermo Arrieta concedió la excarcelación en el marco de una investigación por homicidio culposo agravado mientras aguardan peritajes.\n\n📲 Más noticias de San Andrés de Giles en www.diariolacampaña.com.ar\n\n#SanAndresDeGiles #Justicia #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Excarcelaron al joven de 18 años que mató a Jorge Limonta",
+   "urgente": false,
+   "video_bytes": 99528,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_06_san-andres-de-giles_excarcelaron-al-joven-de-18-a-.mp4",
+   "volanta": "San Andrés de Giles",
+   "youtube_url": "https://youtube.com/shorts/EbfbWKnvI_I"
   },
   "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/": {
    "categoria": "otro_policial",
@@ -9820,18 +9846,19 @@
    "viral": true
   },
   "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x": {
-   "actualizado": "2026-11-20T02:20:37.000Z",
+   "actualizado": "2026-11-20T02:40:23.000Z",
    "buffer_id": "6affae75d5f8acdd0d6405b8",
    "clave": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x",
    "creado": "2026-11-20T02:20:19.000Z",
    "dueAt": "2026-11-20T02:23:36.000Z",
+   "enviado": "2026-11-20T02:23:48.227Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T02:03:21.000Z",
    "id": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123603182316052563",
    "nota_url": "https://www.diariolacampaña.com.ar/n/mechita-piden-libertad-condicional-para-el-preso-que-ayudo-a-7b2817",
    "noticia": "nota:mechita-piden-libertad-condicional-para-el-preso-que-ayudo-a-7b2817",
    "origen": "policiales",
@@ -10152,6 +10179,34 @@
    "vence": "2026-11-18T00:02:54.000Z",
    "video_bytes": 101493,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_01_san-andres-de-giles_detuvieron-al-motociclista-que.mp4",
+   "viral": false
+  },
+  "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/|x": {
+   "actualizado": "2026-11-20T02:40:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/|x",
+   "creado": "2026-11-20T02:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-20T02:33:29.000Z",
+   "id": "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-excarcelaron-al-motoclista-que-mato-a-jorge-e97c5e",
+   "noticia": "nota:san-andres-de-giles-excarcelaron-al-motoclista-que-mato-a-jorge-e97c5e",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Excarcelaron al joven de 18 años que mató a Jorge Limonta\n\nLa Justicia liberó al motociclista acusado del hecho ocurrido el domingo por la noche. La causa está caratulada como homicidio culposo agravado.\n\nhttps://www.diariolacampaña.com.ar/n/san-andres-de-giles-excarcelaron-al-motoclista-que-mato-a-jorge-e97c5e",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Excarcelaron al joven de 18 años que mató a Jorge Limonta",
+   "urgente": false,
+   "vence": "2026-11-20T04:33:29.000Z",
+   "video_bytes": 99528,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_06_san-andres-de-giles_excarcelaron-al-joven-de-18-a-.mp4",
    "viral": false
   },
   "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/|x": {
@@ -17085,20 +17140,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html|x",
-   "cuando": "2026-11-13T01:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:3173f704-43ae-47b8-9c31-154e6d44e402|x",
-   "cuando": "2026-11-13T01:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html|x",
    "cuando": "2026-11-13T01:40:23.000Z",
    "evento": "vencido",
@@ -21243,6 +21284,20 @@
    "cuando": "2026-11-20T02:20:37.000Z",
    "dueAt": "2026-11-20T02:23:36.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/|x",
+   "cuando": "2026-11-20T02:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x",
+   "cuando": "2026-11-20T02:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123603182316052563"
   }
  ],
  "tandas": {
@@ -21280,7 +21335,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-20",
- "ultima_sync": "2026-11-19T22:20:24.000Z",
+ "ultima_sync": "2026-11-20T02:40:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21581,6 +21636,7 @@
   "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/": "2026-11-02T23:20:15.000Z",
   "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/": "2026-11-09T22:40:14.000Z",
   "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/": "2026-11-17T22:20:13.000Z",
+  "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/": "2026-11-20T02:40:15.000Z",
   "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/": "2026-11-17T00:20:16.000Z",
   "policiales:https://noticiasgilenses.com.ar/violento-robo-en-el-candil-recuperan-el-vehiculo-sustraido/": "2026-11-05T23:40:18.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76160/siniestro-vial-en-respuela-y-zapiola-un-conductor-borracho-choco-un-auto-estacionado": "2026-11-03T00:40:17.000Z",
