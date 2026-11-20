@@ -1245,6 +1245,32 @@
    "volanta": "Hallazgo en Alberti",
    "youtube_url": "https://youtube.com/shorts/FkC0lxwFle0"
   },
+  "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte": {
+   "categoria": "homicidio",
+   "descripcion": "Familiares de un recluso que aportó datos clave para resolver el homicidio de Ezequiel Caraballo en Mechita denuncian amenazas de muerte y exigen su libertad condicional en una marcha.",
+   "distancia_km": 40.8,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-20T02:03:21.000Z",
+   "id": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte",
+   "localidad": "Mechita",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mechita-piden-libertad-condicional-para-el-preso-que-ayudo-a-7b2817",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Familiares y allegados de un preso que colaboró en el esclarecimiento del homicidio de Ezequiel Caraballo convocaron a una marcha para este sábado a las 16 frente a la Municipalidad de Bragado.\n\nLa movilización busca exigir medidas de protección y la libertad condicional para el recluso, quien según sus allegados recibe amenazas de muerte tras haber aportado audios determinantes para la causa.\n\nLa investigación se había iniciado tras el hallazgo del cuerpo de la víctima, de 27 años, en el Canal Cafiero.\n\n📲 Más noticias de Mechita en www.diariolacampaña.com.ar\n\n#Mechita #Homicidio #Bragado #BuenosAires",
+   "tipo": "video",
+   "titulo": "Piden libertad condicional para el preso que esclareció el crimen de Ezequiel Caraballo",
+   "urgente": false,
+   "video_bytes": 100892,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_03_bragado_piden-libertad-condicional-par.mp4",
+   "volanta": "Mechita, partido de Bragado",
+   "youtube_url": "https://youtube.com/shorts/XVwhKseEbWI"
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/": {
    "categoria": "homicidio",
    "descripcion": "Una filmación comprometería a los dos detenidos por el homicidio de Ezequiel Caraballo, hallado sin vida en el canal Cafiero. Ambos prefirieron no declarar ante la Justicia.",
@@ -2128,6 +2154,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_02_25-de-mayo_capturan-a-un-hombre-que-hosti.mp4",
    "volanta": "Violencia de género en 25 de Mayo",
    "youtube_url": "https://youtube.com/shorts/N3Hra_x5jYI"
+  },
+  "policiales:https://www.lamanana.com.ar/perdidas-totales-tras-el-incendio-de-una-vivienda/": {
+   "categoria": "incendio",
+   "descripcion": "El fuego consumió por completo una vivienda este jueves por la tarde. Tres dotaciones de bomberos combatieron el foco ígneo para evitar daños en inmuebles vecinos y una mujer recibió asistencia médica tras sufrir una crisis nerviosa.",
+   "distancia_km": 61.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-20T02:18:25.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/perdidas-totales-tras-el-incendio-de-una-vivienda/",
+   "localidad": "25 de Mayo",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-voraz-incendio-destruyo-por-completo-una-vivienda-y-016de3",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Una vivienda sufrió daños totales este jueves tras desatarse un voraz incendio en la ciudad de 25 de Mayo.\n\nEl siniestro se registró cerca de las 15:00 en un inmueble situado sobre la calle 8, entre los números 28 y 29.\n\nTres dotaciones de bomberos voluntarios acudieron al lugar y trabajaron arduamente para extinguir las llamas y frenar su avance hacia terrenos vecinos.\n\nDurante el operativo, profesionales de la salud atendieron en el sitio a una mujer que atravesó una fuerte crisis de nervios por la situación.\n\n📲 Más noticias de 25 de Mayo en www.diariolacampaña.com.ar\n\n#25DeMayo #Incendio #BomberosVoluntarios #BuenosAires",
+   "tipo": "video",
+   "titulo": "Destrucción total de una casa por las llamas en 25 de Mayo",
+   "urgente": false,
+   "video_bytes": 120550,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_04_25-de-mayo_destrucci-n-total-de-una-casa-.mp4",
+   "volanta": "Incendio en 25 de Mayo",
+   "youtube_url": "https://youtube.com/shorts/OgiuA5F3i5w"
   },
   "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/": {
    "categoria": "operativo_policial",
@@ -9767,6 +9819,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_03_carlos-casares_hallan-un-cuerpo-en-el-canal-c.mp4",
    "viral": true
   },
+  "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x": {
+   "actualizado": "2026-11-20T02:20:37.000Z",
+   "buffer_id": "6affae75d5f8acdd0d6405b8",
+   "clave": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x",
+   "creado": "2026-11-20T02:20:19.000Z",
+   "dueAt": "2026-11-20T02:23:36.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-20T02:03:21.000Z",
+   "id": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/mechita-piden-libertad-condicional-para-el-preso-que-ayudo-a-7b2817",
+   "noticia": "nota:mechita-piden-libertad-condicional-para-el-preso-que-ayudo-a-7b2817",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Piden libertad condicional para el preso que esclareció el crimen de Ezequiel Caraballo\n\nhttps://www.diariolacampaña.com.ar/n/mechita-piden-libertad-condicional-para-el-preso-que-ayudo-a-7b2817",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Piden libertad condicional para el preso que esclareció el crimen de Ezequiel Caraballo",
+   "urgente": false,
+   "vence": "2026-11-20T04:03:21.000Z",
+   "video_bytes": 100892,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_03_bragado_piden-libertad-condicional-par.mp4",
+   "viral": false
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/|x": {
    "actualizado": "2026-11-10T23:20:24.000Z",
    "buffer_id": "6af398a840d53aa0ae17bedb",
@@ -10787,6 +10867,34 @@
    "vence": "2026-11-19T04:18:14.000Z",
    "video_bytes": 110111,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_02_25-de-mayo_capturan-a-un-hombre-que-hosti.mp4",
+   "viral": false
+  },
+  "policiales:https://www.lamanana.com.ar/perdidas-totales-tras-el-incendio-de-una-vivienda/|x": {
+   "actualizado": "2026-11-20T02:20:19.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.lamanana.com.ar/perdidas-totales-tras-el-incendio-de-una-vivienda/|x",
+   "creado": "2026-11-20T02:20:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-20T02:18:25.000Z",
+   "id": "policiales:https://www.lamanana.com.ar/perdidas-totales-tras-el-incendio-de-una-vivienda/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/25-de-mayo-voraz-incendio-destruyo-por-completo-una-vivienda-y-016de3",
+   "noticia": "nota:25-de-mayo-voraz-incendio-destruyo-por-completo-una-vivienda-y-016de3",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Destrucción total de una casa por las llamas en 25 de Mayo\n\nEl fuego consumió por completo una vivienda este jueves por la tarde.\n\nhttps://www.diariolacampaña.com.ar/n/25-de-mayo-voraz-incendio-destruyo-por-completo-una-vivienda-y-016de3",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Destrucción total de una casa por las llamas en 25 de Mayo",
+   "urgente": false,
+   "vence": "2026-11-20T04:18:25.000Z",
+   "video_bytes": 120550,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_04_25-de-mayo_destrucci-n-total-de-una-casa-.mp4",
    "viral": false
   },
   "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x": {
@@ -16977,26 +17085,6 @@
  },
  "registro": [
   {
-   "clave": "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105|x",
-   "cuando": "2026-11-13T00:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/347937-ataque-a-punaladas-en-el-parque-borchex-de-junin-h|x",
-   "cuando": "2026-11-13T00:40:21.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105|x",
-   "cuando": "2026-11-13T00:40:21.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html|x",
    "cuando": "2026-11-13T01:20:15.000Z",
    "evento": "vencido",
@@ -21132,6 +21220,29 @@
    "cuando": "2026-11-19T22:20:24.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7709996428575116565"
+  },
+  {
+   "clave": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x",
+   "cuando": "2026-11-20T02:20:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.lamanana.com.ar/perdidas-totales-tras-el-incendio-de-una-vivienda/|x",
+   "cuando": "2026-11-20T02:20:37.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6affae75d5f8acdd0d6405b8",
+   "clave": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x",
+   "cuando": "2026-11-20T02:20:37.000Z",
+   "dueAt": "2026-11-20T02:23:36.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21178,7 +21289,6 @@
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34": "2026-10-21T02:20:14.000Z",
   "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe": "2026-10-22T01:40:20.000Z",
   "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4": "2026-10-22T18:00:18.000Z",
   "bot:corresponsal_2026-10-22_matias-zucchi_mvk3nf0dh0cl": "2026-10-22T22:40:13.000Z",
@@ -21439,6 +21549,7 @@
   "policiales:https://boscoproducciones.com.ar/decimo-robo-a-la-cooperativa-27-de-octubre-ya-nos-desganamos-es-hacerles-el-trabajo-para-que-vengan-y-se-lleven-todo/": "2026-10-22T01:40:20.000Z",
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": "2026-11-16T22:40:15.000Z",
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": "2026-11-10T22:40:14.000Z",
+  "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte": "2026-11-20T02:20:19.000Z",
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": "2026-10-24T00:20:16.000Z",
   "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/": "2026-10-22T01:00:18.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/": "2026-11-10T22:20:14.000Z",
@@ -21552,6 +21663,7 @@
   "policiales:https://www.lamanana.com.ar/alerta-naranja-y-amarillo-por-tormentas-en-el-centro-bonaerense/": "2026-10-23T00:20:14.000Z",
   "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/": "2026-11-09T22:20:15.000Z",
   "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/": "2026-11-19T02:20:21.000Z",
+  "policiales:https://www.lamanana.com.ar/perdidas-totales-tras-el-incendio-de-una-vivienda/": "2026-11-20T02:20:19.000Z",
   "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/": "2026-11-13T22:20:13.000Z",
   "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/": "2026-11-11T22:40:16.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/23/ruta-65-despisto-un-camion-y-termino-en-la-banquina/": "2026-10-24T02:40:13.000Z",
@@ -21882,7 +21994,6 @@
   "web:9aac6be9-6fc0-49c0-a625-b3cae9f000c8": "2026-11-11T10:02:35.000Z",
   "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf": "2026-11-03T10:02:22.000Z",
   "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9": "2026-11-17T10:03:18.000Z",
-  "web:9c0bea0a-bc62-4077-a32b-f2ef600a6327": "2026-10-21T02:20:14.000Z",
   "web:9c2673f5-3976-4a53-b1e8-0746d539c8b0": "2026-11-11T10:02:35.000Z",
   "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f": "2026-10-30T19:20:18.000Z",
   "web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6": "2026-11-12T10:02:44.000Z",

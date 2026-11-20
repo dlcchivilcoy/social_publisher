@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 19/11/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 19/11/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-19)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 19/11/2026 23:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 3 | 0 |
 | Notas web | X | 15 | 15 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,13 @@ Actualizado: 19/11/2026 23:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Reels policiales · Destrucción total de una casa por las llamas en 25 de Mayo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-19T18:20 recibido entrevistas:job00330|tiktok 
-- 2026-11-19T18:20 enviado entrevistas:job00329|x 
-- 2026-11-19T18:20 programado entrevistas:job00330|x 
 - 2026-11-19T19:00 entrevista_aprobada entrevistas:job00331 
 - 2026-11-19T19:00 recibido entrevistas:job00331|x 
 - 2026-11-19T19:00 recibido entrevistas:job00331|tiktok 
@@ -58,3 +56,6 @@ Actualizado: 19/11/2026 23:00 (hora AR) · ACTIVO
 - 2026-11-19T22:20 enviado entrevistas:job00328|tiktok 
 - 2026-11-19T22:20 enviado entrevistas:job00329|tiktok 
 - 2026-11-19T22:20 enviado entrevistas:job00330|tiktok 
+- 2026-11-20T02:20 recibido policiales:https://cuartopoderbragado.com.ar/piden-libertad- 
+- 2026-11-20T02:20 recibido policiales:https://www.lamanana.com.ar/perdidas-totales-tras 
+- 2026-11-20T02:20 programado policiales:https://cuartopoderbragado.com.ar/piden-libertad- 
