@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-20T19:40:13.000Z"
+   "visto": "2026-11-20T20:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 21
+    "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-20T19:40:13.000Z"
+   "visto": "2026-11-20T20:40:13.000Z"
   }
  },
  "contenidos": {
@@ -10098,18 +10098,19 @@
    "viral": false
   },
   "entrevistas:job00336|x": {
-   "actualizado": "2026-11-20T20:20:38.000Z",
+   "actualizado": "2026-11-20T20:40:13.000Z",
    "buffer_id": "6b00ab976f199ec35b7c949d",
    "clave": "entrevistas:job00336|x",
    "creado": "2026-11-20T20:20:18.000Z",
    "dueAt": "2026-11-20T20:22:52.000Z",
+   "enviado": "2026-11-20T20:23:22.161Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T20:20:18.000Z",
    "id": "entrevistas:job00336",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123874863915974851",
    "nota_url": "",
    "noticia": "titulo:bogliolo-cero-claudia-existe-pirotecnia",
    "origen": "entrevistas",
@@ -17641,12 +17642,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00314|x",
-   "cuando": "2026-11-13T21:00:26.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121338039385338104"
-  },
-  {
    "buffer_id": "6af77a6d78196a0a971e05bf",
    "clave": "entrevistas:job00315|x",
    "cuando": "2026-11-13T21:00:35.000Z",
@@ -21801,6 +21796,12 @@
    "cuando": "2026-11-20T20:20:39.000Z",
    "dueAt": "2026-11-20T20:22:52.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00336|x",
+   "cuando": "2026-11-20T20:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123874863915974851"
   }
  ],
  "tandas": {
@@ -21838,7 +21839,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-20",
- "ultima_sync": "2026-11-20T19:40:13.000Z",
+ "ultima_sync": "2026-11-20T20:40:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
