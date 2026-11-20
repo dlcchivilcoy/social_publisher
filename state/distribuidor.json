@@ -4194,6 +4194,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/fotografia-alicia-galante-expondra-en-la-noche-de-los-museos-en-caba",
    "volanta": "Fotografía"
   },
+  "web:7f27bdc8-3410-406c-a7fa-a0920049340f": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El Municipio limpia el canal de las Tres Bocas y reclama obras provinciales CHIVILCOY.– En medio del alerta por el fenómeno de El Niño y ante las graves inundaciones que golpean a distintas provincias, el intendente municipal Guillermo Britos y el secretario de Obras Públicas Eduardo Alonso informaron sobre las tareas de saneamiento hídrico que se ejecutan en el distrito, detallaron los frentes de obra activos, cuestionaron la demora de la Provincia en proyectos estructurales y...",
+   "generado": "2026-11-20T16:18:32.720Z",
+   "id": "web:7f27bdc8-3410-406c-a7fa-a0920049340f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_58c1ccbfaee24e26944aedc0e2a9093f~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-obras-publicas-chivilcoy-el-municipio-limpia-el-canal-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio limpia el canal de las Tres Bocas y reclama obras provinciales",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-obras-publicas-chivilcoy-el-municipio-limpia-el-canal-de",
+   "volanta": "Chivilcoy · Obras públicas"
+  },
   "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285": {
    "categoria": "",
    "descripcion": "El grupo Simec acordó comprar la siderúrgica Acerbrag El acuerdo con el grupo brasileño Votorantim abarca el 100% de las acciones. El cierre está sujeto a autorizaciones regulatorias y el monto no fue informado; medios de Brasil y México estimaron la operación en unos US$ 350 millones. Grupo Simec acordó adquirir Acerbrag, una de las principales productoras de aceros largos de la Argentina, cuya planta industrial está ubicada en Bragado. La operación, pactada con el conglomerado brasileño...",
@@ -14527,6 +14546,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:7f27bdc8-3410-406c-a7fa-a0920049340f|x": {
+   "actualizado": "2026-11-20T16:20:17.000Z",
+   "buffer_id": "",
+   "clave": "web:7f27bdc8-3410-406c-a7fa-a0920049340f|x",
+   "creado": "2026-11-20T16:20:13.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-20T16:18:32.720Z",
+   "id": "web:7f27bdc8-3410-406c-a7fa-a0920049340f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-obras-publicas-chivilcoy-el-municipio-limpia-el-canal-de",
+   "noticia": "nota:chivilcoy-obras-publicas-chivilcoy-el-municipio-limpia-el-canal-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: El Municipio limpia el canal de las Tres Bocas y reclama obras provinciales\n\nAnte inundaciones por El Niño, el intendente y el secretario de Obras Públicas informaron sobre tareas de saneamiento y cuestionaron demoras provinciales.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-obras-publicas-chivilcoy-el-municipio-limpia-el-canal-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio limpia el canal de las Tres Bocas y reclama obras provinciales",
+   "urgente": false,
+   "vence": "2026-11-20T20:18:32.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285|x": {
    "actualizado": "2026-11-12T14:20:14.000Z",
    "buffer_id": "",
@@ -17390,17 +17436,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00309|x",
-   "cuando": "2026-11-13T18:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121297638511309086"
-  },
-  {
-   "clave": "entrevistas:job00310",
-   "cuando": "2026-11-13T18:20:14.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00310|x",
    "cuando": "2026-11-13T18:20:22.000Z",
@@ -21550,6 +21585,20 @@
    "cuando": "2026-11-20T14:20:16.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:7f27bdc8-3410-406c-a7fa-a0920049340f|x",
+   "cuando": "2026-11-20T16:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7f27bdc8-3410-406c-a7fa-a0920049340f|x",
+   "cuando": "2026-11-20T16:20:17.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22239,6 +22288,7 @@
   "web:7de16944-cbd0-472a-9ccc-0f7b42b113cd": "2026-11-13T10:02:41.000Z",
   "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3": "2026-10-29T10:20:14.000Z",
   "web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5": "2026-10-28T21:20:21.000Z",
+  "web:7f27bdc8-3410-406c-a7fa-a0920049340f": "2026-11-20T16:20:13.000Z",
   "web:7fb16583-71d2-4d12-9242-d6637d144fca": "2026-10-23T00:20:14.000Z",
   "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285": "2026-11-12T13:40:16.000Z",
   "web:7fcb1162-b823-4d08-a5e8-854ed71d5230": "2026-11-05T10:02:30.000Z",
