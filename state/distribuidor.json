@@ -2788,6 +2788,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-chivilcoy-torneo-federal-a-se-definen-los-semifinalistas-por",
    "volanta": "Fútbol"
   },
+  "web:1ff76a20-6f21-47f2-bb6b-449299a0ee07": {
+   "categoria": "",
+   "descripcion": "Un vehículo se incendió por completo a la altura del paraje Forastieri Un vehículo quedó completamente destruido por un incendio registrado el miércoles 18 de noviembre sobre la Ruta Provincial 30, a la altura de la bajada al paraje Forastieri. El aviso ingresó a las 21:35 al cuartel de Bomberos Voluntarios de Norberto de la Riestra. Desde allí partió el móvil 7, a cargo del suboficial Carlos Solimo. Al operativo se sumó una dotación de Bomberos Voluntarios de Roque Pérez. Ambas dotaciones...",
+   "generado": "2026-11-20T14:04:14.306Z",
+   "id": "web:1ff76a20-6f21-47f2-bb6b-449299a0ee07",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_454709bad41d459fa62a2cf79be25db2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-incendio-un-vehiculo-se-incendio-por-completo-a-la-altura-del",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Un vehículo se incendió por completo a la altura del paraje Forastieri",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-30-incendio-un-vehiculo-se-incendio-por-completo-a-la-altura-del",
+   "volanta": "Ruta 30 · Incendio"
+  },
   "web:20466408-a7de-4dfe-ae72-76c8866f0181": {
    "categoria": "",
    "descripcion": "SUTEBA Chivilcoy presentó un petitorio a la Jefatura Distrital en defensa del Nivel Inicial CHIVILCOY.– Con el respaldo de más de 200 firmas de docentes y trabajadores de la educación, el gremio entregó un documento que exige mejoras estructurales, creación de cargos y la defensa de la continuidad pedagógica en los jardines del distrito. En el marco de las acciones gremiales llevadas adelante por SUTEBA a nivel provincial, la seccional Chivilcoy concretó la entrega formal de un petitorio ante...",
@@ -4022,25 +4041,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-facundo-tumbesi-ganamos-un-partido-clave-que-nos-permite",
    "volanta": "Fútbol"
-  },
-  "web:6c408fc2-8757-49c7-81fb-32d1d39afb67": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Destrozaron los vidrios de una parada de colectivos en Sarmiento y Brandsen Una garita de colectivos ubicada en la esquina de avenida Sarmiento y Brandsen, en Chivilcoy, fue vandalizada durante la madrugada del lunes. Los daños quedaron al descubierto a primera hora, cuando vecinos y usuarios del transporte público encontraron los paneles de vidrio destruidos. Los fragmentos quedaron esparcidos sobre la vereda y parte de la calzada, lo que generó un riesgo para quienes circulaban...",
-   "generado": "2026-11-10T13:14:06.931Z",
-   "id": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5ece577c45774a17bc7f6332d2c44435~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Destrozaron los vidrios de una parada de colectivos en Sarmiento y Brandsen",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
-   "volanta": "Chivilcoy · Sociedad"
   },
   "web:715ed60b-7e27-4f93-b061-3e96c07992e4": {
    "categoria": "",
@@ -12130,6 +12130,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:1ff76a20-6f21-47f2-bb6b-449299a0ee07|x": {
+   "actualizado": "2026-11-20T14:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:1ff76a20-6f21-47f2-bb6b-449299a0ee07|x",
+   "creado": "2026-11-20T14:20:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-20T14:04:14.306Z",
+   "id": "web:1ff76a20-6f21-47f2-bb6b-449299a0ee07",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-30-incendio-un-vehiculo-se-incendio-por-completo-a-la-altura-del",
+   "noticia": "nota:ruta-30-incendio-un-vehiculo-se-incendio-por-completo-a-la-altura-del",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Un vehículo se incendió por completo a la altura del paraje Forastieri\n\nEl siniestro ocurrió sobre la Ruta Provincial 30. Bomberos Voluntarios de Norberto de la Riestra y de Roque Pérez trabajaron en el operativo.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-30-incendio-un-vehiculo-se-incendio-por-completo-a-la-altura-del",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Un vehículo se incendió por completo a la altura del paraje Forastieri",
+   "urgente": false,
+   "vence": "2026-11-20T18:04:14.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:20466408-a7de-4dfe-ae72-76c8866f0181|x": {
    "actualizado": "2026-11-19T10:20:28.000Z",
    "buffer_id": "6afebc4cbad67efd5ad93998",
@@ -13582,14 +13609,14 @@
    "viral": false
   },
   "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110|x": {
-   "actualizado": "2026-11-20T13:40:15.000Z",
+   "actualizado": "2026-11-20T14:20:16.000Z",
    "buffer_id": "",
    "clave": "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110|x",
    "creado": "2026-11-20T13:40:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "cupo diario de Notas web en X completo (15)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-20T13:30:16.707Z",
    "id": "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110",
    "intentos": 0,
@@ -14299,34 +14326,6 @@
    "titulo": "Facundo Tumbesi: \"Ganamos un partido clave que nos permite seguir creciendo y pensar en el puntero\"",
    "urgente": false,
    "vence": "2026-11-18T14:02:25.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x": {
-   "actualizado": "2026-11-10T14:00:28.000Z",
-   "buffer_id": "6af31a18ab69ec4b27ebe767",
-   "clave": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67|x",
-   "creado": "2026-11-10T13:20:13.000Z",
-   "dueAt": "2026-11-10T14:07:47.000Z",
-   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
-   "espera": "",
-   "estado": "descartado",
-   "generado": "2026-11-10T13:14:06.931Z",
-   "id": "web:6c408fc2-8757-49c7-81fb-32d1d39afb67",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
-   "noticia": "nota:chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Destrozaron los vidrios de una parada de colectivos en Sarmiento y Brandsen\n\nVecinos y usuarios hallaron los paneles destruidos durante la madrugada. Los fragmentos quedaron sobre la vereda y la calzada, generando riesgo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-destrozaron-los-vidrios-de-una-parada-de",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Destrozaron los vidrios de una parada de colectivos en Sarmiento y Brandsen",
-   "urgente": false,
-   "vence": "2026-11-10T17:14:06.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17596,29 +17595,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00309|x",
-   "cuando": "2026-11-13T17:40:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00309|tiktok",
-   "cuando": "2026-11-13T17:40:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6af74b8b357fdb912a6d7382",
-   "clave": "entrevistas:job00309|x",
-   "cuando": "2026-11-13T17:40:27.000Z",
-   "dueAt": "2026-11-13T17:42:05.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00309|x",
    "cuando": "2026-11-13T18:00:19.000Z",
@@ -21759,6 +21735,26 @@
    "cuando": "2026-11-20T13:40:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123754042669109434"
+  },
+  {
+   "clave": "web:1ff76a20-6f21-47f2-bb6b-449299a0ee07|x",
+   "cuando": "2026-11-20T14:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110|x",
+   "cuando": "2026-11-20T14:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:1ff76a20-6f21-47f2-bb6b-449299a0ee07|x",
+   "cuando": "2026-11-20T14:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22261,6 +22257,7 @@
   "web:1df540af-0585-4bf5-9430-5b0234724aff": "2026-10-23T10:02:47.000Z",
   "web:1e08419d-60ee-4c27-98d2-488e539b6952": "2026-10-24T16:20:14.000Z",
   "web:1f7131d8-0343-4072-9cd4-8996b6088ee3": "2026-10-26T12:06:06.000Z",
+  "web:1ff76a20-6f21-47f2-bb6b-449299a0ee07": "2026-11-20T14:20:14.000Z",
   "web:2001b7d6-2e52-49f0-b4f5-8b548c3ef7f9": "2026-10-31T14:00:18.000Z",
   "web:20466408-a7de-4dfe-ae72-76c8866f0181": "2026-11-19T09:05:46.000Z",
   "web:21db22f9-b141-462c-b83c-6c1174b09194": "2026-11-11T10:02:35.000Z",
