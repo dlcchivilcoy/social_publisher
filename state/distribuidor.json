@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 3,
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-20T20:40:13.000Z"
+   "visto": "2026-11-20T21:40:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-20T20:40:13.000Z"
+   "visto": "2026-11-20T21:40:19.000Z"
   }
  },
  "contenidos": {
@@ -389,27 +389,6 @@
    "video_mb": 24.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00297.mp4",
    "youtube_url": "https://youtu.be/MD57ke6LgN8"
-  },
-  "entrevistas:job00298": {
-   "descripcion": "En diálogo con Radio del Centro, Guillermo Ruffo, coordinador de Protección Vegetal de SENASA, reveló que un apuro por fumigar maquinaria importada provocó un principio de incendio en la terminal. Remarcó que los controles fitosanitarios no son un mero trámite burocrático.",
-   "duracion_seg": null,
-   "entrevistado": "Guillermo Ruffo",
-   "generado": "2026-11-10T19:20:16.000Z",
-   "id": "entrevistas:job00298",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Guillermo Ruffo: Accidente al fumigar maquinaria",
-   "urgente": false,
-   "video_bytes": 17185432,
-   "video_mb": 16.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00298.mp4",
-   "youtube_url": "https://youtu.be/Mb-MuXDMZ6E"
   },
   "entrevistas:job00299": {
    "descripcion": "La Sensei Lorena Aicardo reveló en Chivilcoy cómo vive los combates de karate desde afuera y el sistema de palabras clave con el que guía a sus alumnos. Mirá la divertida anécdota de cuando la hicieron correr del área de coachs.",
@@ -7078,45 +7057,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00297.mp4",
    "viral": false
   },
-  "entrevistas:job00298|tiktok": {
-   "actualizado": "2026-11-10T21:20:14.000Z",
-   "buffer_id": "6af385e42b686bd66cf7ab70",
-   "categoria": "",
-   "clave": "entrevistas:job00298|tiktok",
-   "creado": "2026-11-10T19:20:16.000Z",
-   "dueAt": "2026-11-10T21:03:38.000Z",
-   "enviado": "2026-11-10T21:05:30.217Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-10T19:20:16.000Z",
-   "id": "entrevistas:job00298",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7706651432401030406",
-   "metricas": {
-    "averageTimeWatched": 3.77,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 57,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 10.25,
-    "views": 154
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Guillermo Ruffo: Accidente al fumigar maquinaria\n\nEn diálogo con Radio del Centro, Guillermo Ruffo, coordinador de Protección Vegetal de SENASA, reveló que un apuro por fumigar maquinaria importada provocó un principio de incendio en la terminal. Remarcó que los controles fitosanitarios no son un mero trámite burocrático.\n\nhttps://youtu.be/Mb-MuXDMZ6E\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Guillermo Ruffo: Accidente al fumigar maquinaria",
-   "urgente": false,
-   "vence": "2026-11-12T19:20:16.000Z",
-   "video_bytes": 17185432,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00298.mp4",
-   "viral": false
-  },
   "entrevistas:job00299|tiktok": {
    "actualizado": "2026-11-11T23:40:14.000Z",
    "buffer_id": "6af4d78038da815779d3df8a",
@@ -10013,19 +9953,20 @@
    "viral": false
   },
   "entrevistas:job00335|tiktok": {
-   "actualizado": "2026-11-20T21:00:27.000Z",
+   "actualizado": "2026-11-20T21:40:19.000Z",
    "buffer_id": "6b00b4ee9ffbc8503cd5d98e",
    "categoria": "",
    "clave": "entrevistas:job00335|tiktok",
    "creado": "2026-11-20T19:20:15.000Z",
    "dueAt": "2026-11-20T21:23:22.000Z",
+   "enviado": "2026-11-20T21:25:13.667Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T19:20:15.000Z",
    "id": "entrevistas:job00335",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7710367445386530069",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -10070,19 +10011,20 @@
    "viral": false
   },
   "entrevistas:job00336|tiktok": {
-   "actualizado": "2026-11-20T21:00:27.000Z",
+   "actualizado": "2026-11-20T21:40:19.000Z",
    "buffer_id": "6b00b4eddd205ed779968795",
    "categoria": "",
    "clave": "entrevistas:job00336|tiktok",
    "creado": "2026-11-20T20:20:18.000Z",
    "dueAt": "2026-11-20T21:03:10.000Z",
+   "enviado": "2026-11-20T21:05:28.479Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T20:20:18.000Z",
    "id": "entrevistas:job00336",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7710362364000013588",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -17642,20 +17584,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af77a7181e1228421c3458b",
-   "clave": "entrevistas:job00311|tiktok",
-   "cuando": "2026-11-13T21:00:35.000Z",
-   "dueAt": "2026-11-13T22:23:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af77a739257ce33980e6f0a",
-   "clave": "entrevistas:job00310|tiktok",
-   "cuando": "2026-11-13T21:00:35.000Z",
-   "dueAt": "2026-11-13T22:43:12.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af77a73d16af15d4dd1d0e5",
    "clave": "entrevistas:job00309|tiktok",
    "cuando": "2026-11-13T21:00:35.000Z",
@@ -21802,6 +21730,18 @@
    "cuando": "2026-11-20T21:00:33.000Z",
    "dueAt": "2026-11-20T22:23:03.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00335|tiktok",
+   "cuando": "2026-11-20T21:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7710367445386530069"
+  },
+  {
+   "clave": "entrevistas:job00336|tiktok",
+   "cuando": "2026-11-20T21:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7710362364000013588"
   }
  ],
  "tandas": {
@@ -21839,7 +21779,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-20",
- "ultima_sync": "2026-11-20T20:40:13.000Z",
+ "ultima_sync": "2026-11-20T21:40:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -22087,7 +22027,6 @@
   "entrevistas:job00336": "2026-11-20T20:20:18.000Z",
   "nacionales:0f149db2f4d13c80": "2026-10-23T22:00:20.000Z",
   "nacionales:1bc3bff36ba5e828": "2026-10-23T00:20:14.000Z",
-  "nacionales:41a4276d3cbfa924": "2026-10-21T21:20:15.000Z",
   "nacionales:47f4536459d66a4a": "2026-10-23T01:00:17.000Z",
   "nacionales:48bb4e9d6ed706f8": "2026-10-24T01:20:18.000Z",
   "nacionales:545f9842d5a42866": "2026-10-24T00:20:16.000Z",
