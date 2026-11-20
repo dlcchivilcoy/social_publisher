@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 5 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -27,22 +27,12 @@ Actualizado: 20/11/2026 17:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
-- TikTok · Recortes de entrevistas · Claudia Bogliolo: "La pirotecnia cero no existe" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Tomas Mesplet sobre el streaming en Claramente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Ornella Martinez Marcelo y la dirección teatral — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Fernando Antonelli: Sin multas crece el trabajo en negro — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Gustavo Caggiano: Anatomía de mi barrio en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T17:00 recibido entrevistas:job00332|tiktok 
-- 2026-11-20T17:00 programado entrevistas:job00332|x 
-- 2026-11-20T17:20 recibido web:265a42c3-bd6d-4c58-bb99-66ce3bccf594|x 
-- 2026-11-20T17:20 depurado web:265a42c3-bd6d-4c58-bb99-66ce3bccf594|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-20T17:20 enviado entrevistas:job00332|x 
 - 2026-11-20T17:40 entrevista_aprobada entrevistas:job00333 
 - 2026-11-20T17:40 recibido entrevistas:job00333|x 
 - 2026-11-20T17:40 recibido entrevistas:job00333|tiktok 
@@ -63,3 +53,8 @@ Actualizado: 20/11/2026 17:40 (hora AR) · ACTIVO
 - 2026-11-20T20:20 recibido entrevistas:job00336|tiktok 
 - 2026-11-20T20:20 programado entrevistas:job00336|x 
 - 2026-11-20T20:40 enviado entrevistas:job00336|x 
+- 2026-11-20T21:00 programado entrevistas:job00336|tiktok 
+- 2026-11-20T21:00 programado entrevistas:job00335|tiktok 
+- 2026-11-20T21:00 programado entrevistas:job00334|tiktok 
+- 2026-11-20T21:00 programado entrevistas:job00333|tiktok 
+- 2026-11-20T21:00 programado entrevistas:job00332|tiktok 

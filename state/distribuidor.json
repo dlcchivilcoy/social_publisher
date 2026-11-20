@@ -9842,15 +9842,15 @@
    "viral": false
   },
   "entrevistas:job00332|tiktok": {
-   "actualizado": "2026-11-20T17:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-20T21:00:27.000Z",
+   "buffer_id": "6b00b4f1dd205ed779968b87",
    "categoria": "",
    "clave": "entrevistas:job00332|tiktok",
    "creado": "2026-11-20T17:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-20T22:23:03.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-20T17:00:17.000Z",
    "id": "entrevistas:job00332",
    "intentos": 0,
@@ -9899,15 +9899,15 @@
    "viral": false
   },
   "entrevistas:job00333|tiktok": {
-   "actualizado": "2026-11-20T17:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-20T21:00:27.000Z",
+   "buffer_id": "6b00b4f05e993799d82abfc6",
    "categoria": "",
    "clave": "entrevistas:job00333|tiktok",
    "creado": "2026-11-20T17:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-20T22:03:45.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-20T17:40:14.000Z",
    "id": "entrevistas:job00333",
    "intentos": 0,
@@ -9956,15 +9956,15 @@
    "viral": false
   },
   "entrevistas:job00334|tiktok": {
-   "actualizado": "2026-11-20T18:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-20T21:00:27.000Z",
+   "buffer_id": "6b00b4ef20a2d09a0aadab69",
    "categoria": "",
    "clave": "entrevistas:job00334|tiktok",
    "creado": "2026-11-20T18:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-20T21:43:08.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-20T18:20:14.000Z",
    "id": "entrevistas:job00334",
    "intentos": 0,
@@ -10013,15 +10013,15 @@
    "viral": false
   },
   "entrevistas:job00335|tiktok": {
-   "actualizado": "2026-11-20T19:20:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-20T21:00:27.000Z",
+   "buffer_id": "6b00b4ee9ffbc8503cd5d98e",
    "categoria": "",
    "clave": "entrevistas:job00335|tiktok",
    "creado": "2026-11-20T19:20:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-20T21:23:22.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-20T19:20:15.000Z",
    "id": "entrevistas:job00335",
    "intentos": 0,
@@ -10070,15 +10070,15 @@
    "viral": false
   },
   "entrevistas:job00336|tiktok": {
-   "actualizado": "2026-11-20T20:20:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-20T21:00:27.000Z",
+   "buffer_id": "6b00b4eddd205ed779968795",
    "categoria": "",
    "clave": "entrevistas:job00336|tiktok",
    "creado": "2026-11-20T20:20:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-20T21:03:10.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-20T20:20:18.000Z",
    "id": "entrevistas:job00336",
    "intentos": 0,
@@ -17642,41 +17642,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af77a6d78196a0a971e05bf",
-   "clave": "entrevistas:job00315|x",
-   "cuando": "2026-11-13T21:00:35.000Z",
-   "dueAt": "2026-11-13T21:02:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af77a6d4b28296eb1153d01",
-   "clave": "entrevistas:job00315|tiktok",
-   "cuando": "2026-11-13T21:00:35.000Z",
-   "dueAt": "2026-11-13T21:03:39.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af77a6e4b28296eb1153d88",
-   "clave": "entrevistas:job00314|tiktok",
-   "cuando": "2026-11-13T21:00:35.000Z",
-   "dueAt": "2026-11-13T21:23:32.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af77a6fbb36d00909c9ecbf",
-   "clave": "entrevistas:job00313|tiktok",
-   "cuando": "2026-11-13T21:00:35.000Z",
-   "dueAt": "2026-11-13T21:43:53.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af77a719257ce33980e6bac",
-   "clave": "entrevistas:job00312|tiktok",
-   "cuando": "2026-11-13T21:00:35.000Z",
-   "dueAt": "2026-11-13T22:03:22.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6af77a7181e1228421c3458b",
    "clave": "entrevistas:job00311|tiktok",
    "cuando": "2026-11-13T21:00:35.000Z",
@@ -21802,11 +21767,45 @@
    "cuando": "2026-11-20T20:40:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123874863915974851"
+  },
+  {
+   "buffer_id": "6b00b4eddd205ed779968795",
+   "clave": "entrevistas:job00336|tiktok",
+   "cuando": "2026-11-20T21:00:33.000Z",
+   "dueAt": "2026-11-20T21:03:10.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b00b4ee9ffbc8503cd5d98e",
+   "clave": "entrevistas:job00335|tiktok",
+   "cuando": "2026-11-20T21:00:33.000Z",
+   "dueAt": "2026-11-20T21:23:22.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b00b4ef20a2d09a0aadab69",
+   "clave": "entrevistas:job00334|tiktok",
+   "cuando": "2026-11-20T21:00:33.000Z",
+   "dueAt": "2026-11-20T21:43:08.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b00b4f05e993799d82abfc6",
+   "clave": "entrevistas:job00333|tiktok",
+   "cuando": "2026-11-20T21:00:33.000Z",
+   "dueAt": "2026-11-20T22:03:45.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b00b4f1dd205ed779968b87",
+   "clave": "entrevistas:job00332|tiktok",
+   "cuando": "2026-11-20T21:00:33.000Z",
+   "dueAt": "2026-11-20T22:23:03.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-10 18",
    "2026-11-10 21",
    "2026-11-11 10",
    "2026-11-11 18",
@@ -21835,7 +21834,8 @@
    "2026-11-19 10",
    "2026-11-19 18",
    "2026-11-19 21",
-   "2026-11-20 10"
+   "2026-11-20 10",
+   "2026-11-20 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-20",
