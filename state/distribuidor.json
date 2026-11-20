@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-20T12:20:17.000Z"
+   "visto": "2026-11-20T13:40:17.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
+    "scheduled": 0,
     "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-20T12:20:17.000Z"
+   "visto": "2026-11-20T13:40:17.000Z"
   }
  },
  "contenidos": {
@@ -2427,25 +2427,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/visita-del-sumo-pontifice-orgullo-chivilcoyano-junto-al-papa-leon-xiv",
    "volanta": "Visita del Sumo Pontífice"
   },
-  "web:03ae8b4c-08d8-488d-9203-4b4212346184": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Éxito y superación en el torneo regional con alrededor de 200 participantes en el Club Colón Con la participación de alrededor de 200 competidores de toda la región y la presencia del presidente de la escuela, se llevó a cabo el primer torneo del año. El instructor Alberto Cogo brindó detalles sobre la jornada y los proyectos del deporte en Chivilcoy. Las instalaciones del Club Colón fueron escenario de una jornada deportiva a puro Taekwondo, al recibir la primera competencia del...",
-   "generado": "2026-11-10T10:02:17.078Z",
-   "id": "web:03ae8b4c-08d8-488d-9203-4b4212346184",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_f5135f84d03148d782d2485b54de58d2~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/taekwondo-chivilcoy-exito-y-superacion-en-el-torneo-regional-con",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Éxito y superación en el torneo regional con alrededor de 200 participantes en el Club Colón",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/taekwondo-chivilcoy-exito-y-superacion-en-el-torneo-regional-con",
-   "volanta": "Taekwondo"
-  },
   "web:03c64a65-3269-4247-b8a7-1e92b9072a66": {
    "categoria": "",
    "descripcion": "La autopsia confirmó que Carballo murió por un fuerte golpe en la cabeza antes de ser mutilado El joven de 27 años falleció como consecuencia de un traumatismo de cráneo que provocó un shock hipovolémico. Por el crimen hay dos hombres detenidos, de 34 y 37 años, quienes se negaron a declarar y permanecen alojados en dependencias policiales de Alberti y 25 de Mayo. La investigación por el crimen de Ezequiel Caraballo, el joven de 27 años cuyo cuerpo fue hallado en la zona del canal Cafiero, en...",
@@ -3624,6 +3605,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/karting-del-oeste-valentino-iberro-y-una-destacada-actuacion-en-la",
    "volanta": "Karting del Oeste"
   },
+  "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110": {
+   "categoria": "",
+   "descripcion": "Secuestraron la camioneta que se fugó tras un choque en Chivilcoy Las cámaras municipales permitieron reconstruir el recorrido del vehículo. La Ford Ranchero quedó a disposición del Juzgado de Faltas de Chivilcoy. Personal policial y agentes de Tránsito localizaron en Gorostiaga la camioneta involucrada en el choque ocurrido el jueves por la mañana en la intersección de las avenidas Güemes y Ortiz, en Chivilcoy. El vehículo había abandonado el lugar sin detenerse después del impacto. El...",
+   "generado": "2026-11-20T13:30:16.707Z",
+   "id": "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b4aec032d8b04b209b43dcf615ec4275~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gorostiaga-transito-secuestraron-la-camioneta-que-se-fugo-tras-un",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Secuestraron la camioneta que se fugó tras un choque en Chivilcoy",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/gorostiaga-transito-secuestraron-la-camioneta-que-se-fugo-tras-un",
+   "volanta": "Gorostiaga · Tránsito"
+  },
   "web:51d406e0-8d07-4bc1-b1c2-9567feb03776": {
    "categoria": "",
    "descripcion": "Destacado Subcampeonato para Francisco Britos En el AJPP 4.000 de Bragado En dupla con el juvenil Thiago Mayerna, el padelista chivilcoyano completó un fin de semana extraordinario en La Casa Pádel. Cayeron en la final ante la pareja sensación del circuito, Rolla-Peirón, tras un camino demoledor. El circuito profesional de la Asociación de Jugadores Profesionales de Pádel (AJPP) vivió una de sus citas más importantes del calendario en la ciudad de Bragado. La Etapa 40 reunió a los mejores...",
@@ -3699,25 +3699,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-un-motociclista-cayo-en-avenida-de",
    "volanta": "Chivilcoy · Accidente"
-  },
-  "web:589aada5-2294-49ca-8ee9-5c71fc761177": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Máximo Cataldi revalidó su título y se consagró tricampeón en las canchas de Bolívar El tenista chivilcoyano Máximo Cataldi volvió a hacer historia en la región al consagrarse tricampeón del Torneo de Primera Categoría organizado por Clay Tennis Bolívar. Con esta nueva victoria, el juvenil extendió su dominio absoluto en las canchas de polvo de ladrillo del Club Independiente, tras haber obtenido también las ediciones de 2025 y junio de 2026. La tercera edición del certamen...",
-   "generado": "2026-11-10T10:02:12.010Z",
-   "id": "web:589aada5-2294-49ca-8ee9-5c71fc761177",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_582b6cf1e19a4754b63302ffacd177b3~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-chivilcoy-maximo-cataldi-revalido-su-titulo-y-se-consagro",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Máximo Cataldi revalidó su título y se consagró tricampeón en las canchas de Bolívar",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/tenis-chivilcoy-maximo-cataldi-revalido-su-titulo-y-se-consagro",
-   "volanta": "Tenis"
   },
   "web:58e141af-ad69-4845-a7f9-40c71d9349cb": {
    "categoria": "",
@@ -4345,25 +4326,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-independiente-y-la-mira-puesta-en-la-clasificacion-el-rojo",
    "volanta": "Fútbol"
-  },
-  "web:87b34ef6-682f-453d-9a41-c5e57e182a44": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Racha negativa: Racing sufrió su quinta caída consecutiva al perder de local ante Regatas Corrientes CHIVILCOY.– El conjunto de Diego Dambrosio no pudo sostener la paridad en el último cuarto y terminó cayendo por 80 a 68 frente al equipo correntino en el Grilón Arena. Nicolás Romano fue el más destacado del local con 17 puntos. Una noche amarga se vivió este lunes en Chivilcoy. En un encuentro parejo que se definió recién en los diez minutos finales, Racing Club cayó ante Regatas...",
-   "generado": "2026-11-10T10:02:03.555Z",
-   "id": "web:87b34ef6-682f-453d-9a41-c5e57e182a44",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a3275fd38ea644a69d5dcf685dd00181~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-racha-negativa-racing-sufrio-su-quinta-caida",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Racha negativa: Racing sufrió su quinta caída consecutiva al perder de local ante Regatas Corrientes",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-racha-negativa-racing-sufrio-su-quinta-caida",
-   "volanta": "Básquet"
   },
   "web:8979344a-0701-4069-b470-ee00954debc6": {
    "categoria": "",
@@ -5067,25 +5029,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-racing-de-chivilcoy-vencio-a-lanus-por-la-liga",
    "volanta": "Chivilcoy · Deportes"
-  },
-  "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Liga de Desarrollo: Racing pisó fuerte en el Grilon Arena mientras Instituto y Boca marcan el ritmo de la cima Con una notable actuación colectiva y figuras destacadas como Tomás Delía, el conjunto de Chivilcoy venció a Regatas de Corrientes. En la parte alta de la tabla, La Gloria aplastó a Quimsa para mantener su invicto perfecto y el Xeneize no le pierde pisada tras superar a La Unión. Paso firme de Racing de Chivilcoy ante su gente Racing de Chivilcoy redondeó una gran jornada...",
-   "generado": "2026-11-10T10:02:07.616Z",
-   "id": "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ec0c3576e2f34e60b3fbf2346e132d8b~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Liga de Desarrollo: Racing pisó fuerte en el Grilon Arena mientras Instituto y Boca marcan el ritmo de la cima",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
-   "volanta": "Básquet"
   },
   "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e": {
    "categoria": "",
@@ -11529,44 +11472,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:03ae8b4c-08d8-488d-9203-4b4212346184|x": {
-   "actualizado": "2026-11-10T13:40:17.000Z",
-   "buffer_id": "6af30c01f23c8c39a0e8cbf1",
-   "clave": "web:03ae8b4c-08d8-488d-9203-4b4212346184|x",
-   "creado": "2026-11-10T10:02:42.000Z",
-   "dueAt": "2026-11-10T13:37:16.000Z",
-   "enviado": "2026-11-10T13:37:31.035Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-10T10:02:17.078Z",
-   "id": "web:03ae8b4c-08d8-488d-9203-4b4212346184",
-   "ig_hora": "2026-11-10T13:37:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2120148849343815848",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 17,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/taekwondo-chivilcoy-exito-y-superacion-en-el-torneo-regional-con",
-   "noticia": "nota:taekwondo-chivilcoy-exito-y-superacion-en-el-torneo-regional-con",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Éxito y superación en el torneo regional con alrededor de 200 participantes en el Club Colón\n\nEl instructor Alberto Cogo detalló la jornada deportiva de Taekwondo y los proyectos locales. Participaron cerca de 200 competidores.\n\nhttps://www.diariolacampaña.com.ar/n/taekwondo-chivilcoy-exito-y-superacion-en-el-torneo-regional-con",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Éxito y superación en el torneo regional con alrededor de 200 participantes en el Club Colón",
-   "urgente": false,
-   "vence": "2026-11-10T14:37:26.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:03c64a65-3269-4247-b8a7-1e92b9072a66|x": {
    "actualizado": "2026-11-13T11:20:16.000Z",
    "buffer_id": "6af6e077df68225fc1b11d9f",
@@ -11748,19 +11653,20 @@
    "viral": false
   },
   "web:08fd2a3f-5e18-4be2-818e-34bec857979d|x": {
-   "actualizado": "2026-11-20T11:40:16.000Z",
+   "actualizado": "2026-11-20T13:40:17.000Z",
    "buffer_id": "6b0031a0c1f33e2aa5bd1905",
    "clave": "web:08fd2a3f-5e18-4be2-818e-34bec857979d|x",
    "creado": "2026-11-20T09:03:47.000Z",
    "dueAt": "2026-11-20T12:53:51.000Z",
+   "enviado": "2026-11-20T12:54:02.005Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T09:02:55.939Z",
    "id": "web:08fd2a3f-5e18-4be2-818e-34bec857979d",
    "ig_hora": "2026-11-20T12:53:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123761784892916043",
    "nota_url": "https://www.diariolacampaña.com.ar/n/decima-fecha-el-karting-del-centro-define-sus-campeones-2026-con-el",
    "noticia": "nota:decima-fecha-el-karting-del-centro-define-sus-campeones-2026-con-el",
    "origen": "web",
@@ -13608,19 +13514,20 @@
    "viral": false
   },
   "web:4e6e2626-d326-4a75-93b5-756fb6f07584|x": {
-   "actualizado": "2026-11-20T11:20:15.000Z",
+   "actualizado": "2026-11-20T13:40:17.000Z",
    "buffer_id": "6b002cef39116a845dd0b2ad",
    "clave": "web:4e6e2626-d326-4a75-93b5-756fb6f07584|x",
    "creado": "2026-11-20T09:03:47.000Z",
    "dueAt": "2026-11-20T12:38:34.000Z",
+   "enviado": "2026-11-20T12:38:46.206Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T09:02:52.427Z",
    "id": "web:4e6e2626-d326-4a75-93b5-756fb6f07584",
    "ig_hora": "2026-11-20T12:38:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123757943669633437",
    "nota_url": "https://www.diariolacampaña.com.ar/n/campeonato-regional-mariano-calandrino-analizo-el-rally-de-chivilcoy",
    "noticia": "nota:campeonato-regional-mariano-calandrino-analizo-el-rally-de-chivilcoy",
    "origen": "web",
@@ -13670,6 +13577,34 @@
    "titulo": "Valentino Iberro y una destacada actuación en la fecha doble de Chacabuco",
    "urgente": false,
    "vence": "2026-11-18T14:37:22.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110|x": {
+   "actualizado": "2026-11-20T13:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110|x",
+   "creado": "2026-11-20T13:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "cupo diario de Notas web en X completo (15)",
+   "estado": "pendiente",
+   "generado": "2026-11-20T13:30:16.707Z",
+   "id": "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/gorostiaga-transito-secuestraron-la-camioneta-que-se-fugo-tras-un",
+   "noticia": "nota:gorostiaga-transito-secuestraron-la-camioneta-que-se-fugo-tras-un",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Secuestraron la camioneta que se fugó tras un choque en Chivilcoy\n\nLas cámaras municipales permitieron reconstruir el recorrido del vehículo. La camioneta quedó a disposición del Juzgado de Faltas.\n\nhttps://www.diariolacampaña.com.ar/n/gorostiaga-transito-secuestraron-la-camioneta-que-se-fugo-tras-un",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Secuestraron la camioneta que se fugó tras un choque en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-20T17:30:16.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -13798,44 +13733,6 @@
    "titulo": "Chivilcoy: Un motociclista cayó en avenida De Tomaso y su moto terminó bajo una camioneta",
    "urgente": false,
    "vence": "2026-11-19T17:16:06.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:589aada5-2294-49ca-8ee9-5c71fc761177|x": {
-   "actualizado": "2026-11-10T13:40:17.000Z",
-   "buffer_id": "6af307538b228afcc9607777",
-   "clave": "web:589aada5-2294-49ca-8ee9-5c71fc761177|x",
-   "creado": "2026-11-10T10:02:42.000Z",
-   "dueAt": "2026-11-10T13:22:57.000Z",
-   "enviado": "2026-11-10T13:23:02.047Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-10T10:02:12.010Z",
-   "id": "web:589aada5-2294-49ca-8ee9-5c71fc761177",
-   "ig_hora": "2026-11-10T13:22:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2120145204548129241",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 7.14,
-    "impressions": 14,
-    "reactions": 0,
-    "reposts": 1
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/tenis-chivilcoy-maximo-cataldi-revalido-su-titulo-y-se-consagro",
-   "noticia": "nota:tenis-chivilcoy-maximo-cataldi-revalido-su-titulo-y-se-consagro",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Máximo Cataldi revalidó su título y se consagró tricampeón en las canchas de Bolívar\n\nEl juvenil extendió su dominio absoluto en las canchas de polvo de ladrillo del Club Independiente, tras ganar en 2025 y junio de 2026.\n\nhttps://www.diariolacampaña.com.ar/n/tenis-chivilcoy-maximo-cataldi-revalido-su-titulo-y-se-consagro",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Máximo Cataldi revalidó su título y se consagró tricampeón en las canchas de Bolívar",
-   "urgente": false,
-   "vence": "2026-11-10T14:22:26.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -14947,44 +14844,6 @@
    "titulo": "Independiente y la mira puesta en la clasificación: el rojo quiere asegurar su pase a cuartos de final",
    "urgente": false,
    "vence": "2026-11-20T13:02:36.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:87b34ef6-682f-453d-9a41-c5e57e182a44|x": {
-   "actualizado": "2026-11-10T13:40:17.000Z",
-   "buffer_id": "6af3029dcbbac94e1ea340b8",
-   "clave": "web:87b34ef6-682f-453d-9a41-c5e57e182a44|x",
-   "creado": "2026-11-10T10:02:42.000Z",
-   "dueAt": "2026-11-10T12:52:56.000Z",
-   "enviado": "2026-11-10T12:53:02.477Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-10T10:02:03.555Z",
-   "id": "web:87b34ef6-682f-453d-9a41-c5e57e182a44",
-   "ig_hora": "2026-11-10T12:52:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2120137656617021672",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 29,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-racha-negativa-racing-sufrio-su-quinta-caida",
-   "noticia": "nota:basquet-chivilcoy-racha-negativa-racing-sufrio-su-quinta-caida",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Racha negativa: Racing sufrió su quinta caída consecutiva al perder de local ante Regatas Corrientes\n\nhttps://www.diariolacampaña.com.ar/n/basquet-chivilcoy-racha-negativa-racing-sufrio-su-quinta-caida",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Racha negativa: Racing sufrió su quinta caída consecutiva al perder de local ante Regatas Corrientes",
-   "urgente": false,
-   "vence": "2026-11-10T14:02:03.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16239,44 +16098,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x": {
-   "actualizado": "2026-11-10T13:40:17.000Z",
-   "buffer_id": "6af3029e5799f4c24ff1bed7",
-   "clave": "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155|x",
-   "creado": "2026-11-10T10:02:42.000Z",
-   "dueAt": "2026-11-10T13:07:55.000Z",
-   "enviado": "2026-11-10T13:08:01.791Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-10T10:02:07.616Z",
-   "id": "web:c485a97b-ff68-4c59-8ea1-6c3717fa4155",
-   "ig_hora": "2026-11-10T13:07:26.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2120141428412088483",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 4.17,
-    "impressions": 24,
-    "reactions": 0,
-    "reposts": 1
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
-   "noticia": "nota:basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Liga de Desarrollo: Racing pisó fuerte en el Grilon Arena mientras Instituto y Boca marcan el ritmo de la cima\n\nRacing venció a Regatas. En la cima, Instituto aplastó a Quimsa y Boca superó a La Unión.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-chivilcoy-liga-de-desarrollo-racing-piso-fuerte-en-el-grilon",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Liga de Desarrollo: Racing pisó fuerte en el Grilon Arena mientras Instituto y Boca marcan el ritmo de la cima",
-   "urgente": false,
-   "vence": "2026-11-10T14:07:26.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e|x": {
    "actualizado": "2026-11-19T21:40:28.000Z",
    "buffer_id": "",
@@ -17241,19 +17062,20 @@
    "viral": false
   },
   "web:ec55e592-9c0f-4539-8414-481ecbfa2719|x": {
-   "actualizado": "2026-11-20T11:00:19.000Z",
+   "actualizado": "2026-11-20T13:40:17.000Z",
    "buffer_id": "6b002844c1f33e2aa5b8d313",
    "clave": "web:ec55e592-9c0f-4539-8414-481ecbfa2719|x",
    "creado": "2026-11-20T09:03:47.000Z",
    "dueAt": "2026-11-20T12:23:08.000Z",
+   "enviado": "2026-11-20T12:23:16.110Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T09:02:45.850Z",
    "id": "web:ec55e592-9c0f-4539-8414-481ecbfa2719",
    "ig_hora": "2026-11-20T12:23:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123754042669109434",
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-liga-desarrollo-racing-festejo-en-casa-y-se-metio",
    "noticia": "nota:basquet-chivilcoy-liga-desarrollo-racing-festejo-en-casa-y-se-metio",
    "origen": "web",
@@ -17774,29 +17596,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:7dd5195a-6787-458a-861f-22ceaaf90ea3|x",
-   "cuando": "2026-11-13T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121224688814686619"
-  },
-  {
-   "clave": "web:e09c5f60-c7ea-4314-b2f8-d99f1c806132|x",
-   "cuando": "2026-11-13T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121236141152124999"
-  },
-  {
-   "clave": "web:f12ef051-6163-4424-8626-4ff7b049b205|x",
-   "cuando": "2026-11-13T14:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121228356481843532"
-  },
-  {
-   "clave": "entrevistas:job00309",
-   "cuando": "2026-11-13T17:40:26.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00309|x",
    "cuando": "2026-11-13T17:40:26.000Z",
@@ -21934,6 +21733,32 @@
    "cuando": "2026-11-20T12:20:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123750464323788806"
+  },
+  {
+   "clave": "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110|x",
+   "cuando": "2026-11-20T13:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:08fd2a3f-5e18-4be2-818e-34bec857979d|x",
+   "cuando": "2026-11-20T13:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123761784892916043"
+  },
+  {
+   "clave": "web:4e6e2626-d326-4a75-93b5-756fb6f07584|x",
+   "cuando": "2026-11-20T13:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123757943669633437"
+  },
+  {
+   "clave": "web:ec55e592-9c0f-4539-8414-481ecbfa2719|x",
+   "cuando": "2026-11-20T13:40:17.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123754042669109434"
   }
  ],
  "tandas": {
@@ -21971,7 +21796,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-20",
- "ultima_sync": "2026-11-20T12:20:17.000Z",
+ "ultima_sync": "2026-11-20T13:40:17.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -22530,6 +22355,7 @@
   "web:4e6e2626-d326-4a75-93b5-756fb6f07584": "2026-11-20T09:03:47.000Z",
   "web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90": "2026-11-18T10:02:51.000Z",
   "web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5": "2026-11-06T15:20:14.000Z",
+  "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110": "2026-11-20T13:40:15.000Z",
   "web:51d406e0-8d07-4bc1-b1c2-9567feb03776": "2026-11-11T10:02:35.000Z",
   "web:520b9327-4abb-4720-aa44-9684331b9ca6": "2026-11-04T22:40:21.000Z",
   "web:5296a026-93a3-4ae5-a568-78482a52580c": "2026-11-15T17:00:25.000Z",
