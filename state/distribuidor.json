@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 2
+    "scheduled": 0,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-20T21:40:19.000Z"
+   "visto": "2026-11-20T22:40:38.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 22
    },
    "pausado": false,
-   "visto": "2026-11-20T21:40:19.000Z"
+   "visto": "2026-11-20T22:40:38.000Z"
   }
  },
  "contenidos": {
@@ -305,6 +305,27 @@
    "video_mb": 4.4,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_61e46f1480540eb6.mp4",
    "youtube_url": "https://www.youtube.com/shorts/6YSzOjJz5kU"
+  },
+  "bot:video_matias-zucchi_mwpjplbs46th_01.mp4": {
+   "descripcion": "Un video registró una fuerte caída de granizo en Chivilcoy, en un sector señalado en la propia filmación como la zona de la Ruta Nacional 5 y el Parque Industrial.\n\nEn las imágenes se observa una intensa precipitación y el impacto constante de las piedras de hielo contra el suelo. El registro fue realizado desde un acceso cubierto, donde varias personas permanecían resguardadas mientras observaban el avance de la tormenta.\n\nDurante la secuencia, de unos veinte segundos de duración, la cámara recorre parte del exterior y permite apreciar la fuerza con la que caía el granizo sobre un espacio de trabajo al aire libre. Asimismo, quedaron reflejadas la abundante presencia de agua acumulada sobre la superficie y la reducción de la visibilidad provocada por el temporal.\n\nEl material documenta las severas condiciones climáticas que se presentaron en ese punto específico de la ciudad, aunque no permite determinar la duración total del fenómeno meteorológico ni si ocasionó daños materiales en instalaciones o en vehículos estacionados en el lugar.",
+   "duracion_seg": 25.9,
+   "generado": "2026-11-20T22:29:58.000Z",
+   "id": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Una fuerte granizada afectó la zona del Parque Industrial y la Ruta 5",
+   "urgente": false,
+   "video_bytes": 4373012,
+   "video_mb": 4.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_52ba1d5b2b1f6fbe.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/fSNxSsvpGOQ"
   },
   "entrevistas:job00294": {
    "descripcion": "En diálogo con Radio del Centro, Salvador Femenia, vocero de CAME, analizó el comportamiento de los fines de semana largos marcados por viajes cortos y un presupuesto ajustado.",
@@ -5507,6 +5528,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/choque-auto-camion-un-vecino-de-alberti-murio-en-un-choque-frontal",
    "volanta": "Choque auto - camión"
   },
+  "web:eb7dd6ce-68b1-4158-924b-cd46e922a21a": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Una fuerte granizada afectó la zona del Parque Industrial y la Ruta 5 Un video registró una fuerte caída de granizo en Chivilcoy, en un sector señalado en la propia grabación como la zona de la Ruta Nacional 5 y el Parque Industrial. En las imágenes se observa una intensa precipitación y el impacto de las piedras de hielo contra el suelo. El registro fue realizado desde un acceso cubierto, donde varias personas permanecían resguardadas mientras observaban la tormenta. Durante la...",
+   "generado": "2026-11-20T22:27:48.155Z",
+   "id": "web:eb7dd6ce-68b1-4158-924b-cd46e922a21a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1199888098474fa19902aa83598a108e~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Una fuerte granizada afectó la zona del Parque Industrial y la Ruta 5",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
+   "volanta": "Chivilcoy · Clima"
+  },
   "web:eb8b75f6-688a-44fd-b4de-4b9bb4386276": {
    "categoria": "",
    "descripcion": "Allanamientos en Marcos Paz, Chivilcoy, Salto, y Luján en la Protección de las Infancias Este jueves 18 del corriente se llevaron a cabo siete allanamientos en viviendas de las localidades de Marcos Paz (3), Chivilcoy, Salto, Luján (2) en el marco de la “Operación Provincial Protección de las Infancias VIII”. Este operativo que lleva adelante el Ministerio Público de la provincia de Buenos Aires, es la octava misión organizada de acciones para combatir la pornografía y abuso sexual infantil....",
@@ -5657,6 +5697,25 @@
    "titulo": "Chivilcoy: Una caravana de motociclistas despidió a un joven fallecido en un choque",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
+   "volanta": "Chivilcoy · De duelo"
+  },
+  "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9": {
+   "categoria": "",
+   "descripcion": "Murió Juan Carlos Lausano, reconocido entrenador del fútbol chivilcoyano Juan Carlos Lausano, una figura de extensa trayectoria en el fútbol chivilcoyano, falleció el jueves 19 de noviembre por la noche en San Bernardo, localidad en la que vivía junto a su pareja. Su carrera como entrenador estuvo marcada por la obtención de títulos con distintos clubes de la ciudad. Alcanzó campeonatos al frente de Atlético Independiente y posteriormente con Atlético Villarino, Deportivo Colón y Florencio...",
+   "generado": "2026-11-20T22:34:35.720Z",
+   "id": "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b1ef837b7c234ca5bee66365e45909ab~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-murio-juan-carlos-lausano-reconocido-entrenador",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Murió Juan Carlos Lausano, reconocido entrenador del fútbol chivilcoyano",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-de-duelo-murio-juan-carlos-lausano-reconocido-entrenador",
    "volanta": "Chivilcoy · De duelo"
   },
   "web:f6815fdc-6983-4a94-8ba2-35a647bf7d9b": {
@@ -6836,6 +6895,62 @@
    "vence": "2026-11-18T17:44:46.000Z",
    "video_bytes": 4651078,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_61e46f1480540eb6.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok": {
+   "actualizado": "2026-11-20T22:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok",
+   "creado": "2026-11-20T22:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-20T22:29:58.000Z",
+   "id": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Una fuerte granizada afectó la zona del Parque Industrial y la Ruta 5\n\nUn video registró la intensa precipitación y el constante impacto de piedras de hielo en Chivilcoy, donde varias personas se resguardaron durante el temporal. Las imágenes reflejaron abundante agua acumulada y visibilidad reducida, aunque no permitieron determinar si se produjeron daños materiales en instalaciones o vehículos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una fuerte granizada afectó la zona del Parque Industrial y la Ruta 5",
+   "urgente": false,
+   "vence": "2026-11-22T22:29:58.000Z",
+   "video_bytes": 4373012,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_52ba1d5b2b1f6fbe.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x": {
+   "actualizado": "2026-11-20T22:40:39.000Z",
+   "buffer_id": "6b00cc67d9cbb430a1004575",
+   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x",
+   "creado": "2026-11-20T22:40:15.000Z",
+   "dueAt": "2026-11-20T22:42:24.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-20T22:29:58.000Z",
+   "id": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
+   "noticia": "nota:chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Una fuerte granizada afectó la zona del Parque Industrial y la Ruta 5\n\nUn video registró la intensa caída de granizo en Chivilcoy. Las imágenes muestran abundante agua acumulada y visibilidad reducida por el temporal.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una fuerte granizada afectó la zona del Parque Industrial y la Ruta 5",
+   "urgente": false,
+   "vence": "2026-11-21T00:29:58.000Z",
+   "video_bytes": 4373012,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_52ba1d5b2b1f6fbe.mp4",
    "viral": false
   },
   "entrevistas:job00294|tiktok": {
@@ -9602,19 +9717,20 @@
    "viral": false
   },
   "entrevistas:job00332|tiktok": {
-   "actualizado": "2026-11-20T21:00:27.000Z",
+   "actualizado": "2026-11-20T22:40:38.000Z",
    "buffer_id": "6b00b4f1dd205ed779968b87",
    "categoria": "",
    "clave": "entrevistas:job00332|tiktok",
    "creado": "2026-11-20T17:00:17.000Z",
    "dueAt": "2026-11-20T22:23:03.000Z",
+   "enviado": "2026-11-20T22:24:58.560Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T17:00:17.000Z",
    "id": "entrevistas:job00332",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7710382757339352372",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9659,19 +9775,20 @@
    "viral": false
   },
   "entrevistas:job00333|tiktok": {
-   "actualizado": "2026-11-20T21:00:27.000Z",
+   "actualizado": "2026-11-20T22:40:38.000Z",
    "buffer_id": "6b00b4f05e993799d82abfc6",
    "categoria": "",
    "clave": "entrevistas:job00333|tiktok",
    "creado": "2026-11-20T17:40:14.000Z",
    "dueAt": "2026-11-20T22:03:45.000Z",
+   "enviado": "2026-11-20T22:05:28.123Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T17:40:14.000Z",
    "id": "entrevistas:job00333",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7710377818684689671",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9716,19 +9833,20 @@
    "viral": false
   },
   "entrevistas:job00334|tiktok": {
-   "actualizado": "2026-11-20T21:00:27.000Z",
+   "actualizado": "2026-11-20T22:40:38.000Z",
    "buffer_id": "6b00b4ef20a2d09a0aadab69",
    "categoria": "",
    "clave": "entrevistas:job00334|tiktok",
    "creado": "2026-11-20T18:20:14.000Z",
    "dueAt": "2026-11-20T21:43:08.000Z",
+   "enviado": "2026-11-20T21:44:58.606Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T18:20:14.000Z",
    "id": "entrevistas:job00334",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7710372544339119368",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -16803,6 +16921,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:eb7dd6ce-68b1-4158-924b-cd46e922a21a|x": {
+   "actualizado": "2026-11-20T22:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:eb7dd6ce-68b1-4158-924b-cd46e922a21a|x",
+   "creado": "2026-11-20T22:40:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-20T22:27:48.155Z",
+   "id": "web:eb7dd6ce-68b1-4158-924b-cd46e922a21a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
+   "noticia": "nota:chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Una fuerte granizada afectó la zona del Parque Industrial y la Ruta 5",
+   "urgente": false,
+   "vence": "2026-11-21T02:27:48.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:eb8b75f6-688a-44fd-b4de-4b9bb4386276|x": {
    "actualizado": "2026-11-20T09:20:12.000Z",
    "buffer_id": "6b000d37d5f8acdd0d871667",
@@ -17071,6 +17214,33 @@
    "titulo": "Chivilcoy: Una caravana de motociclistas despidió a un joven fallecido en un choque",
    "urgente": false,
    "vence": "2026-11-16T23:46:39.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x": {
+   "actualizado": "2026-11-20T22:40:38.000Z",
+   "buffer_id": "",
+   "clave": "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x",
+   "creado": "2026-11-20T22:40:15.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-20T22:34:35.720Z",
+   "id": "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-murio-juan-carlos-lausano-reconocido-entrenador",
+   "noticia": "nota:chivilcoy-de-duelo-murio-juan-carlos-lausano-reconocido-entrenador",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Murió Juan Carlos Lausano, reconocido entrenador del fútbol chivilcoyano\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-murio-juan-carlos-lausano-reconocido-entrenador",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Murió Juan Carlos Lausano, reconocido entrenador del fútbol chivilcoyano",
+   "urgente": false,
+   "vence": "2026-11-21T02:34:35.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17403,67 +17573,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6af77a73d16af15d4dd1d0e5",
-   "clave": "entrevistas:job00309|tiktok",
-   "cuando": "2026-11-13T21:00:35.000Z",
-   "dueAt": "2026-11-13T23:03:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00310-r1",
-   "cuando": "2026-11-13T21:40:17.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00310-r1|x",
-   "cuando": "2026-11-13T21:40:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00310-r1|tiktok",
-   "cuando": "2026-11-13T21:40:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6af783cb4b28296eb118bac9",
-   "clave": "entrevistas:job00310-r1|x",
-   "cuando": "2026-11-13T21:40:27.000Z",
-   "dueAt": "2026-11-13T21:42:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x",
-   "cuando": "2026-11-13T22:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "entrevistas:job00310-r1|x",
-   "cuando": "2026-11-13T22:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121358047654093258"
-  },
-  {
-   "clave": "entrevistas:job00312|tiktok",
-   "cuando": "2026-11-13T22:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707780141140708629"
-  },
-  {
-   "clave": "entrevistas:job00313|tiktok",
-   "cuando": "2026-11-13T22:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707775076564847879"
-  },
   {
    "clave": "entrevistas:job00314|tiktok",
    "cuando": "2026-11-13T22:20:13.000Z",
@@ -21562,6 +21671,69 @@
    "cuando": "2026-11-20T21:40:19.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7710362364000013588"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x",
+   "cuando": "2026-11-20T22:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok",
+   "cuando": "2026-11-20T22:40:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x",
+   "cuando": "2026-11-20T22:40:38.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:eb7dd6ce-68b1-4158-924b-cd46e922a21a|x",
+   "cuando": "2026-11-20T22:40:38.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x",
+   "cuando": "2026-11-20T22:40:38.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00332|tiktok",
+   "cuando": "2026-11-20T22:40:39.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7710382757339352372"
+  },
+  {
+   "clave": "entrevistas:job00333|tiktok",
+   "cuando": "2026-11-20T22:40:39.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7710377818684689671"
+  },
+  {
+   "clave": "entrevistas:job00334|tiktok",
+   "cuando": "2026-11-20T22:40:39.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7710372544339119368"
+  },
+  {
+   "buffer_id": "6b00cc67d9cbb430a1004575",
+   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x",
+   "cuando": "2026-11-20T22:40:40.000Z",
+   "dueAt": "2026-11-20T22:42:24.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21599,7 +21771,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-20",
- "ultima_sync": "2026-11-20T21:40:19.000Z",
+ "ultima_sync": "2026-11-20T22:40:38.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21744,6 +21916,7 @@
   "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4": "2026-11-17T09:00:20.000Z",
   "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4": "2026-11-17T15:20:16.000Z",
   "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4": "2026-11-18T16:00:21.000Z",
+  "bot:video_matias-zucchi_mwpjplbs46th_01.mp4": "2026-11-20T22:40:15.000Z",
   "entrevistas:job00239": "2026-10-22T17:20:20.000Z",
   "entrevistas:job00240": "2026-10-22T18:00:18.000Z",
   "entrevistas:job00241": "2026-10-22T18:20:18.000Z",
@@ -22495,6 +22668,7 @@
   "web:eacc8d49-8717-44c4-bd52-91080cbfae81": "2026-11-07T23:40:13.000Z",
   "web:eaf28054-4d3b-40e6-97eb-693de73680a8": "2026-11-03T11:40:14.000Z",
   "web:eafd3864-774e-4c8f-af94-8eabecbba4fa": "2026-11-07T21:00:17.000Z",
+  "web:eb7dd6ce-68b1-4158-924b-cd46e922a21a": "2026-11-20T22:40:15.000Z",
   "web:eb81db8c-de8f-49d1-a3f3-da5022a4348f": "2026-11-03T10:02:22.000Z",
   "web:eb8b75f6-688a-44fd-b4de-4b9bb4386276": "2026-11-20T09:03:47.000Z",
   "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97": "2026-11-18T00:00:18.000Z",
@@ -22513,6 +22687,7 @@
   "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72": "2026-10-28T10:02:28.000Z",
   "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae": "2026-11-02T10:03:22.000Z",
   "web:f5e279af-867b-46f2-92ed-06cee448bd38": "2026-10-29T10:20:14.000Z",
+  "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9": "2026-11-20T22:40:15.000Z",
   "web:f6815fdc-6983-4a94-8ba2-35a647bf7d9b": "2026-11-19T13:20:14.000Z",
   "web:f6b756be-3ae7-477a-81b1-48dfe2af1498": "2026-11-16T10:03:28.000Z",
   "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff": "2026-11-13T11:20:13.000Z",
