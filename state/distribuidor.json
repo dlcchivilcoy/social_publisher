@@ -1188,6 +1188,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00332.mp4",
    "youtube_url": "https://youtu.be/_-la-acv6xw"
   },
+  "entrevistas:job00333": {
+   "descripcion": "El delegado regional del Ministerio de Trabajo en Chivilcoy, Fernando Antonelli, advirtió sobre el impacto del fin de las sanciones por empleo no registrado. Explicó que al desaparecer las multas administrativas y judiciales ya no habrá castigo para la informalidad laboral.",
+   "duracion_seg": null,
+   "entrevistado": "Fernando Antonelli",
+   "generado": "2026-11-20T17:40:14.000Z",
+   "id": "entrevistas:job00333",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Fernando Antonelli: Sin multas crece el trabajo en negro",
+   "urgente": false,
+   "video_bytes": 18367934,
+   "video_mb": 17.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00333.mp4",
+   "youtube_url": "https://youtu.be/m6aF4XTWtzg"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": {
    "categoria": "robo",
    "descripcion": "Investigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.",
@@ -5165,25 +5186,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-de-mercedes",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52": {
-   "categoria": "",
-   "descripcion": "Bragado Club venció con claridad a Argentino por el Torneo Clausura Por la fecha 13 del Torneo Clausura de Primera División, Bragado Club recibió a Argentino. Fue un nuevo triunfo del local de principio a fin por 71 a 46. Lo ganó de principio a fin y sigue con la ilusión de clasificar en la cuarta posición, que hoy está disputándosela con San Lorenzo. Fotos de los destacados del juego.",
-   "generado": "2026-11-10T17:04:09.907Z",
-   "id": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_b730dd44fb094134ad0d988299e38db9~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-deportes-bragado-club-vencio-con-claridad-a-argentino-por-el",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Bragado Club venció con claridad a Argentino por el Torneo Clausura",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bragado-deportes-bragado-club-vencio-con-claridad-a-argentino-por-el",
-   "volanta": "Bragado · Deportes"
-  },
   "web:d03c3c10-1591-42b2-8b28-464788b1537c": {
    "categoria": "",
    "descripcion": "El taller “Chivilcoy Sin Barreras” representó a la ciudad en el 1° Encuentro “Jugando por la Provincia” CHIVILCOY.– Dos equipos locales participaron de la jornada deportiva realizada en Norberto de la Riestra, que reunió a cerca de 140 atletas de siete distritos bonaerenses. Con el objetivo de promover el deporte como herramienta de integración y garantía de derechos, una delegación local viajó días atrás a la localidad de Norberto de la Riestra (partido de 25 de Mayo) para formar parte del...",
@@ -6892,43 +6894,6 @@
    "titulo": "Femenia (CAME): Turismo con más gente y menos gasto",
    "urgente": false,
    "vence": "2026-11-12T17:00:19.000Z",
-   "video_bytes": 21201776,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00294.mp4",
-   "viral": false
-  },
-  "entrevistas:job00294|x": {
-   "actualizado": "2026-11-10T17:20:16.000Z",
-   "buffer_id": "6af34da4a0d7326462d3977b",
-   "clave": "entrevistas:job00294|x",
-   "creado": "2026-11-10T17:00:19.000Z",
-   "dueAt": "2026-11-10T17:02:31.000Z",
-   "enviado": "2026-11-10T17:09:32.099Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-10T17:00:19.000Z",
-   "id": "entrevistas:job00294",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2120202205437337918",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 33,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:came-femenia-gasto-gente-menos-turismo",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Femenia (CAME): Turismo con más gente y menos gasto\n\nEn diálogo con Radio del Centro, Salvador Femenia, vocero de CAME, analizó el comportamiento de los fines de semana largos marcados por viajes cortos y un presupuesto ajustado.\n\nhttps://youtu.be/ASAQ10tBewA",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Femenia (CAME): Turismo con más gente y menos gasto",
-   "urgente": false,
-   "vence": "2026-11-10T19:00:19.000Z",
    "video_bytes": 21201776,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00294.mp4",
    "viral": false
@@ -10016,6 +9981,62 @@
    "vence": "2026-11-20T19:00:17.000Z",
    "video_bytes": 29350314,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00332.mp4",
+   "viral": false
+  },
+  "entrevistas:job00333|tiktok": {
+   "actualizado": "2026-11-20T17:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00333|tiktok",
+   "creado": "2026-11-20T17:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-20T17:40:14.000Z",
+   "id": "entrevistas:job00333",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Fernando Antonelli: Sin multas crece el trabajo en negro\n\nEl delegado regional del Ministerio de Trabajo en Chivilcoy, Fernando Antonelli, advirtió sobre el impacto del fin de las sanciones por empleo no registrado. Explicó que al desaparecer las multas administrativas y judiciales ya no habrá castigo para la informalidad laboral.\n\nhttps://youtu.be/m6aF4XTWtzg\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fernando Antonelli: Sin multas crece el trabajo en negro",
+   "urgente": false,
+   "vence": "2026-11-22T17:40:14.000Z",
+   "video_bytes": 18367934,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00333.mp4",
+   "viral": false
+  },
+  "entrevistas:job00333|x": {
+   "actualizado": "2026-11-20T17:40:21.000Z",
+   "buffer_id": "6b0086066f199ec35b6b5318",
+   "clave": "entrevistas:job00333|x",
+   "creado": "2026-11-20T17:40:14.000Z",
+   "dueAt": "2026-11-20T17:42:30.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-20T17:40:14.000Z",
+   "id": "entrevistas:job00333",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:antonelli-crece-fernando-multas-negro-trabajo",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Fernando Antonelli: Sin multas crece el trabajo en negro\n\nEl delegado regional del Ministerio de Trabajo en Chivilcoy, Fernando Antonelli, advirtió sobre el impacto del fin de las sanciones por empleo no registrado.\n\nhttps://youtu.be/m6aF4XTWtzg",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fernando Antonelli: Sin multas crece el trabajo en negro",
+   "urgente": false,
+   "vence": "2026-11-20T19:40:14.000Z",
+   "video_bytes": 18367934,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00333.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x": {
@@ -16304,33 +16325,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52|x": {
-   "actualizado": "2026-11-10T17:20:16.000Z",
-   "buffer_id": "",
-   "clave": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52|x",
-   "creado": "2026-11-10T17:20:14.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-10T17:04:09.907Z",
-   "id": "web:cc4b8a1e-7030-459f-aa2a-0b6ab3886b52",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-deportes-bragado-club-vencio-con-claridad-a-argentino-por-el",
-   "noticia": "nota:bragado-deportes-bragado-club-vencio-con-claridad-a-argentino-por-el",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Bragado Club venció con claridad a Argentino por el Torneo Clausura\n\nEl local ganó 71 a 46 por la fecha 13 de Primera División. Mantiene la ilusión de clasificar en la cuarta posición, lugar que disputa con San Lorenzo.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-deportes-bragado-club-vencio-con-claridad-a-argentino-por-el",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Bragado Club venció con claridad a Argentino por el Torneo Clausura",
-   "urgente": false,
-   "vence": "2026-11-10T21:04:09.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:d03c3c10-1591-42b2-8b28-464788b1537c|x": {
    "actualizado": "2026-11-17T13:00:20.000Z",
    "buffer_id": "6afc386f49781f123c1076d6",
@@ -17560,31 +17554,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00310|x",
-   "cuando": "2026-11-13T19:00:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121307904619819015"
-  },
-  {
-   "clave": "entrevistas:job00311|x",
-   "cuando": "2026-11-13T19:00:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121312738504790512"
-  },
-  {
-   "clave": "entrevistas:job00312",
-   "cuando": "2026-11-13T19:20:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00312|x",
-   "cuando": "2026-11-13T19:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00312|tiktok",
    "cuando": "2026-11-13T19:20:18.000Z",
@@ -21720,6 +21689,34 @@
    "cuando": "2026-11-20T17:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123826559924498751"
+  },
+  {
+   "clave": "entrevistas:job00333",
+   "cuando": "2026-11-20T17:40:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00333|x",
+   "cuando": "2026-11-20T17:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00333|tiktok",
+   "cuando": "2026-11-20T17:40:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b0086066f199ec35b6b5318",
+   "clave": "entrevistas:job00333|x",
+   "cuando": "2026-11-20T17:40:22.000Z",
+   "dueAt": "2026-11-20T17:42:30.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21903,7 +21900,6 @@
   "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4": "2026-11-17T15:20:16.000Z",
   "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4": "2026-11-18T16:00:21.000Z",
   "entrevistas:job00236": "2026-10-21T20:00:18.000Z",
-  "entrevistas:job00237": "2026-10-21T17:40:15.000Z",
   "entrevistas:job00238": "2026-10-21T18:40:15.000Z",
   "entrevistas:job00239": "2026-10-22T17:20:20.000Z",
   "entrevistas:job00240": "2026-10-22T18:00:18.000Z",
@@ -22002,6 +21998,7 @@
   "entrevistas:job00330": "2026-11-19T18:20:18.000Z",
   "entrevistas:job00331": "2026-11-19T19:00:16.000Z",
   "entrevistas:job00332": "2026-11-20T17:00:17.000Z",
+  "entrevistas:job00333": "2026-11-20T17:40:14.000Z",
   "nacionales:0f149db2f4d13c80": "2026-10-23T22:00:20.000Z",
   "nacionales:1bc3bff36ba5e828": "2026-10-23T00:20:14.000Z",
   "nacionales:41a4276d3cbfa924": "2026-10-21T21:20:15.000Z",
