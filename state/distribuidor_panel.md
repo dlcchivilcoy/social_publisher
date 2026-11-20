@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 20/11/2026 15:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Recortes de entrevistas · Ornella Martinez Marcelo y la dirección teatral — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Fernando Antonelli: Sin multas crece el trabajo en negro — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Gustavo Caggiano: Anatomía de mi barrio en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -35,11 +36,6 @@ Actualizado: 20/11/2026 15:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T12:20 depurado web:25a7e087-aa0a-4b66-bbc2-f90599ed4a50|x no está en el carrusel del diario de hoy
-- 2026-11-20T12:20 enviado web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e|x 
-- 2026-11-20T12:20 enviado web:8e817278-db9c-4cf6-92d0-f5c02816d27d|x 
-- 2026-11-20T12:20 enviado web:98ed68af-c1a7-496d-a8bf-6de7af346ff4|x 
-- 2026-11-20T12:20 enviado web:c6713e1d-61d9-4e84-b151-556ac94ad1d6|x 
 - 2026-11-20T13:40 recibido web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110|x 
 - 2026-11-20T13:40 enviado web:08fd2a3f-5e18-4be2-818e-34bec857979d|x 
 - 2026-11-20T13:40 enviado web:4e6e2626-d326-4a75-93b5-756fb6f07584|x 
@@ -60,3 +56,8 @@ Actualizado: 20/11/2026 15:00 (hora AR) · ACTIVO
 - 2026-11-20T17:40 recibido entrevistas:job00333|x 
 - 2026-11-20T17:40 recibido entrevistas:job00333|tiktok 
 - 2026-11-20T17:40 programado entrevistas:job00333|x 
+- 2026-11-20T18:20 entrevista_aprobada entrevistas:job00334 
+- 2026-11-20T18:20 recibido entrevistas:job00334|x 
+- 2026-11-20T18:20 recibido entrevistas:job00334|tiktok 
+- 2026-11-20T18:20 enviado entrevistas:job00333|x 
+- 2026-11-20T18:20 programado entrevistas:job00334|x 
