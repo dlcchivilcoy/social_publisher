@@ -227,7 +227,7 @@
     "etiquetas": [
       "elfogonctro.tradicionalista"
     ],
-    "estado": "activa",
+    "estado": "bajado",
     "creado": "2026-11-13T12:32-03:00",
     "intentos": 0,
     "resultado": {
@@ -293,6 +293,7 @@
       }
     ],
     "ultima_salida": "2026-11-19T20:00-03:00",
-    "ultimo_error": ""
+    "ultimo_error": "",
+    "bajado_en": "2026-11-19T23:59-03:00"
   }
 ]
