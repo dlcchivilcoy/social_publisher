@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 20/11/2026 08:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 9 | 6 | 1 | 0 | 0 | 0 |
+| Notas web | X | 15 | 9 | 7 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,21 +20,19 @@ Actualizado: 20/11/2026 08:20 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 36 con métricas · mediana vistas/impresiones 59 · likes 0
 - X · Reels del bot: 10 con métricas · mediana vistas/impresiones 67.5 · likes 0
 - X · Reels policiales: 11 con métricas · mediana vistas/impresiones 82 · likes 0
-- X · Notas web: 108 con métricas · mediana vistas/impresiones 20 · likes 0
+- X · Notas web: 103 con métricas · mediana vistas/impresiones 21 · likes 0
 - TikTok · Recortes de entrevistas: 37 con métricas · mediana vistas/impresiones 178 · likes 1
 - TikTok · Reels del bot: 13 con métricas · mediana vistas/impresiones 245 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- X · Notas web · El Karting del Centro define sus campeones 2026 con el Gran Premio Coronación en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T09:04 recibido web:eb8b75f6-688a-44fd-b4de-4b9bb4386276|x 
 - 2026-11-20T09:04 programado web:eb8b75f6-688a-44fd-b4de-4b9bb4386276|x 
 - 2026-11-20T09:04 programado web:f78304d9-a338-4cad-a91c-4dbb95f32587|x 
 - 2026-11-20T09:04 programado web:43a80259-224c-4361-b631-3814b78880dc|x 
@@ -59,3 +57,4 @@ Actualizado: 20/11/2026 08:20 (hora AR) · ACTIVO
 - 2026-11-20T11:20 enviado web:445649bf-b33a-41c9-8469-6db55b0bd62d|x 
 - 2026-11-20T11:20 enviado web:d0b1d7bb-5cfb-465e-882c-ccbd45b12f77|x 
 - 2026-11-20T11:20 programado web:4e6e2626-d326-4a75-93b5-756fb6f07584|x 
+- 2026-11-20T11:40 programado web:08fd2a3f-5e18-4be2-818e-34bec857979d|x 
