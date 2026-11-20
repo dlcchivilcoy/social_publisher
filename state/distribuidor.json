@@ -306,27 +306,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_61e46f1480540eb6.mp4",
    "youtube_url": "https://www.youtube.com/shorts/6YSzOjJz5kU"
   },
-  "entrevistas:job00289": {
-   "descripcion": "El cura párroco Ricardo Rodriguez destacó la participación de vecinos de Chivilcoy en la misa papal. Un diácono y una joven de la comunidad tendrán roles protagónicos durante la celebración.",
-   "duracion_seg": null,
-   "entrevistado": "Ricardo Rodriguez",
-   "generado": "2026-11-09T16:40:15.000Z",
-   "id": "entrevistas:job00289",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Ricardo Rodriguez: Chivilcoyanos cerca del Papa",
-   "urgente": false,
-   "video_bytes": 23449290,
-   "video_mb": 22.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00289.mp4",
-   "youtube_url": "https://youtu.be/tJWLV8lPKP0"
-  },
   "entrevistas:job00294": {
    "descripcion": "En diálogo con Radio del Centro, Salvador Femenia, vocero de CAME, analizó el comportamiento de los fines de semana largos marcados por viajes cortos y un presupuesto ajustado.",
    "duracion_seg": null,
@@ -2201,32 +2180,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_04_junin_detuvieron-a-un-joven-de-21-a-.mp4",
    "volanta": "Operativos viales en Junín",
    "youtube_url": "https://youtube.com/shorts/uhUA2zIyFqE"
-  },
-  "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/": {
-   "categoria": "otro_policial",
-   "descripcion": "Investigan la desaparición de un joven de 27 años en la localidad de Mechita ante la sospecha de un violento ajuste de cuentas. Dos hombres quedaron detenidos y realizan rastrillajes en un canal.",
-   "distancia_km": 39.8,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-09T22:01:37.000Z",
-   "id": "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/",
-   "localidad": "Mechita",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mechita-buscan-a-un-joven-de-27-anos-y-hay-dos-detenidos-por-un-1a1417",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 9,
-   "radio_ok": true,
-   "texto_tiktok": "La desaparición de un joven de 27 años en Mechita generó conmoción y movilizó a la policía tras la hipótesis de un violento ajuste de cuentas.\n\nLos operativos de búsqueda se concentran en un canal de la zona con la participación de bomberos de distintos partidos.\n\nPor el caso hay dos hombres detenidos mientras la justicia intenta esclarecer lo sucedido.\n\n📲 Más noticias de Mechita en www.diariolacampaña.com.ar\n\n#Mechita #Investigacion #Policiales #BuenosAires",
-   "tipo": "video",
-   "titulo": "Buscan a un joven de 27 años por un presunto homicidio en Mechita",
-   "urgente": true,
-   "video_bytes": 103663,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_01_25-de-mayo_buscan-a-un-joven-de-27-a-os-p.mp4",
-   "volanta": "Búsqueda e investigación en Mechita",
-   "youtube_url": "https://youtube.com/shorts/l7N9nYNZuio"
   },
   "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/": {
    "categoria": "violencia_genero",
@@ -6767,45 +6720,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_61e46f1480540eb6.mp4",
    "viral": false
   },
-  "entrevistas:job00289|tiktok": {
-   "actualizado": "2026-11-09T23:40:16.000Z",
-   "buffer_id": "6af2346b21c8282e5bf18061",
-   "categoria": "",
-   "clave": "entrevistas:job00289|tiktok",
-   "creado": "2026-11-09T16:40:15.000Z",
-   "dueAt": "2026-11-09T22:23:05.000Z",
-   "enviado": "2026-11-09T22:24:58.497Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T16:40:15.000Z",
-   "id": "entrevistas:job00289",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7706300878315113729",
-   "metricas": {
-    "averageTimeWatched": 7.68,
-    "comments": 0,
-    "engagementRate": 2.58,
-    "reach": 109,
-    "reactions": 12,
-    "shares": 0,
-    "totalTimeWatched": 64.87,
-    "views": 465
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Ricardo Rodriguez: Chivilcoyanos cerca del Papa\n\nEl cura párroco Ricardo Rodriguez destacó la participación de vecinos de Chivilcoy en la misa papal. Un diácono y una joven de la comunidad tendrán roles protagónicos durante la celebración.\n\nhttps://youtu.be/tJWLV8lPKP0\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Ricardo Rodriguez: Chivilcoyanos cerca del Papa",
-   "urgente": false,
-   "vence": "2026-11-11T16:40:15.000Z",
-   "video_bytes": 23449290,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00289.mp4",
-   "viral": false
-  },
   "entrevistas:job00294|tiktok": {
    "actualizado": "2026-11-10T23:20:24.000Z",
    "buffer_id": "6af385e82b686bd66cf7b133",
@@ -11008,43 +10922,6 @@
    "video_bytes": 84834,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-11_2134_04_junin_detuvieron-a-un-joven-de-21-a-.mp4",
    "viral": false
-  },
-  "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/|x": {
-   "actualizado": "2026-11-09T23:40:16.000Z",
-   "buffer_id": "6af2472ca33c4e0efe056744",
-   "clave": "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/|x",
-   "creado": "2026-11-09T22:20:15.000Z",
-   "dueAt": "2026-11-09T22:23:33.000Z",
-   "enviado": "2026-11-09T22:23:48.146Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-09T22:01:37.000Z",
-   "id": "policiales:https://www.lamanana.com.ar/buscan-a-joven-que-habria-sido-asesinado-en-un-ajuste-de-cuentas/",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2119918905481199721",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 2.25,
-    "impressions": 89,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/mechita-buscan-a-un-joven-de-27-anos-y-hay-dos-detenidos-por-un-1a1417",
-   "noticia": "nota:mechita-buscan-a-un-joven-de-27-anos-y-hay-dos-detenidos-por-un-1a1417",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 9,
-   "texto": "Buscan a un joven de 27 años por un presunto homicidio en Mechita\n\nInvestigan la desaparición de un joven de 27 años en la localidad de Mechita ante la sospecha de un violento ajuste de cuentas.\n\nhttps://www.diariolacampaña.com.ar/n/mechita-buscan-a-un-joven-de-27-anos-y-hay-dos-detenidos-por-un-1a1417",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Buscan a un joven de 27 años por un presunto homicidio en Mechita",
-   "urgente": true,
-   "vence": "2026-11-10T00:01:37.000Z",
-   "video_bytes": 103663,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-09_2134_01_25-de-mayo_buscan-a-un-joven-de-27-a-os-p.mp4",
-   "viral": true
   },
   "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/|x": {
    "actualizado": "2026-11-19T09:00:23.000Z",
@@ -21421,7 +21298,6 @@
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-09 21",
    "2026-11-10 10",
    "2026-11-10 18",
    "2026-11-10 21",
@@ -21450,10 +21326,11 @@
    "2026-11-18 18",
    "2026-11-18 21",
    "2026-11-19 10",
-   "2026-11-19 18"
+   "2026-11-19 18",
+   "2026-11-19 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-19",
+ "ultima_limpieza_release": "2026-11-20",
  "ultima_sync": "2026-11-19T22:20:24.000Z",
  "version": 1,
  "vistos": {
@@ -21463,8 +21340,6 @@
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-20_matias-zucchi_mvhbohmqd15x": "2026-10-21T00:00:28.000Z",
-  "bot:corresponsal_2026-10-20_matias-zucchi_mvhc131sx095": "2026-10-21T00:00:28.000Z",
   "bot:corresponsal_2026-10-21_matias-zucchi_mvhgybptuj34": "2026-10-21T02:20:14.000Z",
   "bot:corresponsal_2026-10-22_matias-zucchi_mviv09wfqooe": "2026-10-22T01:40:20.000Z",
   "bot:corresponsal_2026-10-22_matias-zucchi_mvjto2h1c6u4": "2026-10-22T18:00:18.000Z",
@@ -21866,7 +21741,6 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/": "2026-11-10T23:20:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/": "2026-11-19T09:00:19.000Z",
-  "web:004e7af4-996b-4844-babe-bcc9c91c2fe6": "2026-10-21T00:00:28.000Z",
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": "2026-11-02T10:03:22.000Z",
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0": "2026-11-11T10:02:35.000Z",
   "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e": "2026-11-12T10:02:44.000Z",
@@ -22225,7 +22099,6 @@
   "web:b25195a6-8663-4776-9925-1b3d65850489": "2026-11-19T09:05:46.000Z",
   "web:b2e7bc59-967c-48e3-baeb-a84fbfd3edb2": "2026-10-25T15:40:13.000Z",
   "web:b333b47e-b16a-4899-bd75-63c2b7086095": "2026-11-03T10:02:22.000Z",
-  "web:b4a12021-9279-4b86-9d0b-ae839890e171": "2026-10-21T00:00:28.000Z",
   "web:b4b8df92-6a44-497e-bfda-6b94b8414a97": "2026-11-16T10:03:28.000Z",
   "web:b4dddc38-6caa-416d-8010-6276dec99036": "2026-10-26T10:20:14.000Z",
   "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69": "2026-10-27T10:03:31.000Z",
