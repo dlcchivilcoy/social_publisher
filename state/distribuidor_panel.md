@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 21/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 21/11/2026 13:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,10 +33,6 @@ Actualizado: 21/11/2026 13:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T22:40 programado bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x 
-- 2026-11-20T23:00 recibido web:01599053-9367-4272-a3b7-d36e906da218|x 
-- 2026-11-20T23:00 depurado web:01599053-9367-4272-a3b7-d36e906da218|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-21T00:00 enviado bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x 
 - 2026-11-21T00:00 programado bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok 
 - 2026-11-21T00:20 recibido web:3d6dd4d6-874c-4845-9393-b40b2650e570|x 
 - 2026-11-21T00:20 depurado web:3d6dd4d6-874c-4845-9393-b40b2650e570|x de la web, a X solo van las notas del diario de la mañana
@@ -58,3 +54,7 @@ Actualizado: 21/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-21T12:00 depurado web:36063451-bcf8-479d-8bfe-ebe6376e7dcf|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-21T16:40 recibido web:b569c879-d38b-4d24-9658-e00056ee70e7|x 
 - 2026-11-21T16:40 depurado web:b569c879-d38b-4d24-9658-e00056ee70e7|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-21T17:00 recibido web:c9db04af-d3ab-4346-a206-72ea501d0adb|x 
+- 2026-11-21T17:00 recibido web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf|x 
+- 2026-11-21T17:00 depurado web:c9db04af-d3ab-4346-a206-72ea501d0adb|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-21T17:00 depurado web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf|x de la web, a X solo van las notas del diario de la mañana

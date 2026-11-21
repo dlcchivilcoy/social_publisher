@@ -2752,6 +2752,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/control-y-concientizacion-chivilcoy-ghiglieri-detallo-los-alcances-de",
    "volanta": "Control y Concientización"
   },
+  "web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Un auto se incendió por completo en la Ruta 30 CHIVILCOY.– Un auto se incendió por completo en la Ruta 30: una pareja y su perra salieron ilesas. El hecho ocurrió cerca de la rotonda con la Ruta 5, en Chivilcoy. Según contó el conductor, la tos de su mascota los alertó sobre el humo dentro del vehículo. Un Volkswagen Golf quedó destruido por un incendio este sábado 21 de noviembre, alrededor de las 9:50, sobre la Ruta Provincial 30, a unos 50 metros de la rotonda con la Ruta...",
+   "generado": "2026-11-21T16:46:08.631Z",
+   "id": "web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_dbbb7cce8bbb4b1285ed987a210277b7~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-un-auto-se-incendio-por-completo-en-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Un auto se incendió por completo en la Ruta 30",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-un-auto-se-incendio-por-completo-en-la",
+   "volanta": "Chivilcoy · Accidente"
+  },
   "web:1c5322d0-2568-4a34-90d1-f120402f4197": {
    "categoria": "",
    "descripcion": "Cien años de pasión y arraigo: El Club Río de la Plata celebró su centenario en Chivilcoy Hay instituciones que trascienden la mera función deportiva para convertirse en verdaderos faros de identidad barrial y comunitaria. El Club Río de la Plata es, sin dudas, una de ellas. En el marco de su centenario —conmemorado oficialmente a comienzos de noviembre—, la entidad celebró sus 100 años de trayectoria ininterrumpida en Chivilcoy, reuniendo a socios, deportistas, vecinos y autoridades locales...",
@@ -4993,6 +5012,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/propuesta-familiar-avenidas-ortiz-y-carlos-gardel-circo-safari-show",
    "volanta": "Propuesta familiar"
+  },
+  "web:c9db04af-d3ab-4346-a206-72ea501d0adb": {
+   "categoria": "",
+   "descripcion": "El Tricolor ganó 62 a 56 y forzó un tercer partido Y el Tricolor lo hizo. Contra todos los pronósticos y por cómo se había dado el primer juego, nada hacía pensar que se podía revertir el resultado. Pero este grupo de jugadores, muchos con larga experiencia y sobre todo mucho amor propio, sorprendió al equipo de Tamburini venciéndolo 62 a 56 y estirando la serie a un tercer juego de las semifinales del Torneo Clausura de Primera División. El León no tuvo su mejor juego, lo que sumado al buen...",
+   "generado": "2026-11-21T16:51:10.466Z",
+   "id": "web:c9db04af-d3ab-4346-a206-72ea501d0adb",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_3a793656eeec4c7990aaf73ea68dc8ab~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-deportes-el-tricolor-gano-62-a-56-y-forzo-un-tercer-partido",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "El Tricolor ganó 62 a 56 y forzó un tercer partido",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bragado-deportes-el-tricolor-gano-62-a-56-y-forzo-un-tercer-partido",
+   "volanta": "Bragado · Deportes"
   },
   "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f": {
    "categoria": "",
@@ -11731,6 +11769,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf|x": {
+   "actualizado": "2026-11-21T17:00:29.000Z",
+   "buffer_id": "",
+   "clave": "web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf|x",
+   "creado": "2026-11-21T17:00:24.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-21T16:46:08.631Z",
+   "id": "web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-un-auto-se-incendio-por-completo-en-la",
+   "noticia": "nota:chivilcoy-accidente-chivilcoy-un-auto-se-incendio-por-completo-en-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Un auto se incendió por completo en la Ruta 30\n\nUna pareja y su perra salieron ilesas. Según contó el conductor, la tos de su mascota los alertó sobre el humo dentro del vehículo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-un-auto-se-incendio-por-completo-en-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Un auto se incendió por completo en la Ruta 30",
+   "urgente": false,
+   "vence": "2026-11-21T20:46:08.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:1c5322d0-2568-4a34-90d1-f120402f4197|x": {
    "actualizado": "2026-11-13T14:00:20.000Z",
    "buffer_id": "6af705359a21933ffad608eb",
@@ -15667,6 +15732,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:c9db04af-d3ab-4346-a206-72ea501d0adb|x": {
+   "actualizado": "2026-11-21T17:00:29.000Z",
+   "buffer_id": "",
+   "clave": "web:c9db04af-d3ab-4346-a206-72ea501d0adb|x",
+   "creado": "2026-11-21T17:00:24.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-21T16:51:10.466Z",
+   "id": "web:c9db04af-d3ab-4346-a206-72ea501d0adb",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-deportes-el-tricolor-gano-62-a-56-y-forzo-un-tercer-partido",
+   "noticia": "nota:bragado-deportes-el-tricolor-gano-62-a-56-y-forzo-un-tercer-partido",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "El Tricolor ganó 62 a 56 y forzó un tercer partido\n\nContra los pronósticos, el equipo sorprendió al conjunto de Tamburini. La victoria estiró la serie a un tercer juego en las semifinales del Torneo Clausura de Primera División.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-deportes-el-tricolor-gano-62-a-56-y-forzo-un-tercer-partido",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "El Tricolor ganó 62 a 56 y forzó un tercer partido",
+   "urgente": false,
+   "vence": "2026-11-21T20:51:10.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f|x": {
    "actualizado": "2026-11-12T02:00:18.000Z",
    "buffer_id": "",
@@ -16842,34 +16934,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x",
-   "cuando": "2026-11-14T01:40:14.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor|x",
-   "cuando": "2026-11-14T02:20:13.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x",
-   "cuando": "2026-11-14T12:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x",
-   "cuando": "2026-11-14T12:20:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x",
    "cuando": "2026-11-14T12:20:22.000Z",
@@ -21006,6 +21070,34 @@
    "cuando": "2026-11-21T16:40:22.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:c9db04af-d3ab-4346-a206-72ea501d0adb|x",
+   "cuando": "2026-11-21T17:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf|x",
+   "cuando": "2026-11-21T17:00:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c9db04af-d3ab-4346-a206-72ea501d0adb|x",
+   "cuando": "2026-11-21T17:00:29.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf|x",
+   "cuando": "2026-11-21T17:00:29.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21125,7 +21217,6 @@
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:corresponsal_2026-11-21_matias-zucchi_mwqc3v64udx0": "2026-11-21T12:00:17.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvjruzv7puat_01.mp4": "2026-10-22T17:00:19.000Z",
   "bot:video_matias-zucchi_mvk7v846hb6f_01.mp4": "2026-10-23T00:40:14.000Z",
   "bot:video_matias-zucchi_mvl06ipa6qg6_01.mp4": "2026-10-23T13:40:14.000Z",
   "bot:video_matias-zucchi_mvl80hcengob_01.mp4": "2026-10-23T17:20:14.000Z",
@@ -21489,6 +21580,7 @@
   "web:1a4717d2-78dc-448d-b2dd-dcbf0ed09d2c": "2026-10-31T21:40:15.000Z",
   "web:1a9d082b-7e2f-4cfc-a605-aad33fa7d27e": "2026-11-03T10:02:22.000Z",
   "web:1ad007ee-de8a-4d54-b75c-4f87b9c62d71": "2026-11-20T09:03:47.000Z",
+  "web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf": "2026-11-21T17:00:24.000Z",
   "web:1c5322d0-2568-4a34-90d1-f120402f4197": "2026-11-13T10:02:41.000Z",
   "web:1cd196f2-3537-4e49-be39-a657b9945fa4": "2026-11-17T10:03:18.000Z",
   "web:1cf6c8dd-ef97-4a6d-9e47-0aa93f5612ec": "2026-11-10T13:20:13.000Z",
@@ -21841,6 +21933,7 @@
   "web:c8022409-4d8f-45ba-a34f-1011272f6310": "2026-11-12T10:02:44.000Z",
   "web:c84c8adb-3791-435c-bf8f-60519d299bc0": "2026-11-19T09:05:46.000Z",
   "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e": "2026-11-02T10:03:22.000Z",
+  "web:c9db04af-d3ab-4346-a206-72ea501d0adb": "2026-11-21T17:00:24.000Z",
   "web:ca01b6cf-fad6-4eef-8d2c-c27839eafbcd": "2026-10-23T23:40:15.000Z",
   "web:cb5bd56e-c625-4389-948e-845e3cd94779": "2026-11-02T10:03:22.000Z",
   "web:cb5f9974-29df-4cd2-8ad4-ff03d6c0aa2f": "2026-11-12T02:00:16.000Z",
