@@ -83,6 +83,9 @@ export function leerConfig(env) {
   const config = {
     base, recurso: base + '/mcp',
     secreto: env('MCP_SIGNING_SECRET') || '', clave: env('MCP_ACCESS_KEY') || '',
+    // Clave fija OPCIONAL (21/11/2026): la app de escritorio de ChatGPT conecta el chat con otro cliente MCP que no
+    // usa el login OAuth y solo manda «Bearer» desde una variable de entorno de la compu del editor.
+    tokenFijo: env('MCP_STATIC_TOKEN') || '',
     ingestUrl: (env('EDITORIAL_INGEST_URL') || '').replace(/\/+$/, ''), ingestToken: env('EDITORIAL_INGEST_TOKEN') || '',
     redirectsExtra: (env('MCP_REDIRECTS_EXTRA') || '').split(',').map(s => s.trim()).filter(Boolean),
     hostsArchivos: (env('MCP_FILE_HOSTS') || '').split(',').map(s => s.trim().toLowerCase()).filter(Boolean),
@@ -259,12 +262,11 @@ export const HERRAMIENTAS = [
       'Devuelve un recibo con un id: guardalo para consultar el estado. El recibo confirma el depósito, no la publicación.',
     inputSchema: {
       type: 'object',
-      $defs: { OpenAIFile: ARCHIVO_OPENAI },
       properties: {
         texto: { type: 'string', description: 'El texto completo de la nota o el relato del hecho, tal como lo dio el editor.', maxLength: 30000 },
-        archivos: { type: 'array', minItems: 1, maxItems: 8, items: { $ref: '#/$defs/OpenAIFile' },
+        archivos: { type: 'array', minItems: 1, maxItems: 8, items: ARCHIVO_OPENAI,
           description: 'De 1 a 8 fotos, videos o audios adjuntos en el chat, en orden. Al menos uno tiene que ser foto o video.' },
-        autorizacion: { type: 'boolean', const: true, description: 'true solo si el editor confirmó en el chat que autoriza publicar el material.' },
+        autorizacion: { type: 'boolean', description: 'true solo si el editor confirmó en el chat que autoriza publicar el material.' },
         lugar: { type: 'string', description: 'Dónde pasó (una línea), por ejemplo «Chivilcoy».', maxLength: 200 },
         habla: { type: 'string', description: 'Si hay audios: nombre y cargo de quien habla en cada uno.', maxLength: 2000 },
         fuente_url: { type: 'string', description: 'Opcional: enlace de referencia interna (no se descarga).', maxLength: 2000 },
@@ -436,7 +438,9 @@ async function mcp(config, req, http) {
   if (req.method === 'GET' || req.method === 'DELETE') return json(405, { error: 'method_not_allowed' }, { Allow: 'POST' });
   if (req.method !== 'POST') return json(405, { error: 'method_not_allowed' });
   const auth = req.headers.get('authorization') || '';
-  const datos = auth.startsWith('Bearer ') ? await verificar(config.secreto, auth.slice(7), 'acceso') : null;
+  const fijo = config.tokenFijo.length >= 32 && auth.startsWith('Bearer ') && igual(auth.slice(7), config.tokenFijo);
+  const datos = fijo ? { aud: config.recurso, scope: SCOPE }
+    : auth.startsWith('Bearer ') ? await verificar(config.secreto, auth.slice(7), 'acceso') : null;
   if (!datos || datos.aud !== config.recurso || datos.scope !== SCOPE) {
     return json(401, { error: 'invalid_token' }, { 'WWW-Authenticate': desafio(config, auth ? 'invalid_token' : '', auth ? 'Token vencido o inválido' : '') });
   }

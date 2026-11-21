@@ -148,7 +148,8 @@ test('MCP: initialize, tools/list con fileParams y esquema de archivo que exige 
   const lista = await (await llamar(app, token, { jsonrpc: '2.0', id: 2, method: 'tools/list' })).json();
   const enviar = lista.result.tools.find(t => t.name === 'enviar_material');
   assert.deepEqual(enviar._meta['openai/fileParams'], ['archivos']);
-  const f = enviar.inputSchema.$defs.OpenAIFile;
+  const f = enviar.inputSchema.properties.archivos.items;
+  assert.equal(JSON.stringify(lista.result.tools).includes('$ref'), false);
   assert.deepEqual(Object.keys(f.properties).sort(), ['download_url', 'file_id', 'file_name', 'mime_type']);
   assert.deepEqual(f.required, ['download_url', 'file_id']);
   assert.equal(HERRAMIENTAS.find(t => t.name === 'consultar_envio').annotations.readOnlyHint, true);
@@ -233,4 +234,15 @@ test('apps de escritorio: retorno local (127.0.0.1 con puerto) y alcances extra 
   const tok = await app(pedido('/token', form({ grant_type: 'authorization_code', code: vuelta.searchParams.get('code'),
     client_id, redirect_uri: local, code_verifier: verifier, resource: BASE })), '/token');
   assert.equal(tok.status, 200);
+});
+
+test('clave fija opcional (MCP_STATIC_TOKEN) para clientes sin OAuth; corta o ausente no abre nada', async () => {
+  const fijo = 'fija-'.repeat(10);
+  const app = crearApp(k => ({ ...ENV, MCP_STATIC_TOKEN: fijo })[k] || '');
+  assert.equal((await llamar(app, fijo, { jsonrpc: '2.0', id: 1, method: 'tools/list' })).status, 200);
+  assert.equal((await llamar(app, fijo + 'x', { jsonrpc: '2.0', id: 1, method: 'tools/list' })).status, 401);
+  const corta = crearApp(k => ({ ...ENV, MCP_STATIC_TOKEN: 'corta' })[k] || '');
+  assert.equal((await llamar(corta, 'corta', { jsonrpc: '2.0', id: 1, method: 'tools/list' })).status, 401);
+  const { app: sin } = entorno();
+  assert.equal((await llamar(sin, '', { jsonrpc: '2.0', id: 1, method: 'tools/list' })).status, 401);
 });
