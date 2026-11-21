@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/11/2026 11:40 (hora AR) · ACTIVO
+Actualizado: 21/11/2026 12:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -20,7 +20,7 @@ Actualizado: 21/11/2026 11:40 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 40 con métricas · mediana vistas/impresiones 74.5 · likes 0
 - X · Reels del bot: 10 con métricas · mediana vistas/impresiones 71.5 · likes 0
 - X · Reels policiales: 11 con métricas · mediana vistas/impresiones 85 · likes 0
-- X · Notas web: 101 con métricas · mediana vistas/impresiones 23 · likes 0
+- X · Notas web: 100 con métricas · mediana vistas/impresiones 23 · likes 0
 - TikTok · Recortes de entrevistas: 41 con métricas · mediana vistas/impresiones 157 · likes 1
 - TikTok · Reels del bot: 13 con métricas · mediana vistas/impresiones 254 · likes 4
 
