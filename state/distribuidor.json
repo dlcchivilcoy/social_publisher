@@ -4443,6 +4443,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/alemania-sociedad-el-chivilcoyano-alexis-cupaiolo-fue-premiado-en",
    "volanta": "Alemania · Sociedad"
   },
+  "web:907296ec-5419-464c-91d8-137c3a16176c": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Recuperaron dos motos robadas tras un siniestro vial e investigaciones policiales CHIVILCOY.– Dos motocicletas que habían sido sustraídas fueron recuperadas, una de ellas tras un siniestro vial registrado en la esquina de San Martín y avenida 22 de Octubre. El siniestro vial involucró a una motocicleta Honda XR 125 sin patente, conducida por un menor de 17 años, y a una pick-up Toyota Hilux. Al verificar los datos del rodado de menor porte, el personal policial constató que la moto...",
+   "generado": "2026-11-21T21:22:16.449Z",
+   "id": "web:907296ec-5419-464c-91d8-137c3a16176c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_ed119e56e88d45fe99e5e688e11ae141~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-recuperaron-dos-motos-robadas-tras-un",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Recuperaron dos motos robadas tras un siniestro vial e investigaciones policiales",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-recuperaron-dos-motos-robadas-tras-un",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:93018c2f-e4af-4ca4-8846-c489c90f0853": {
    "categoria": "",
    "descripcion": "Chivilcoy: El Observatorio de los Derechos de las Personas con Discapacidad del MDF advierte sobre el impacto económico y la falta de accesibilidad Integrantes del Observatorio de los Derechos de las Personas con Discapacidad del MDF, espacio articulado con el Frente Grande de Chivilcoy, visitaron los estudios de Radio del Centro para exponer la cruda situación que atraviesan cotidianamente las familias de la comunidad. Lucia Lobos y Alejandro Diguardi explicaron las motivaciones detrás del...",
@@ -14538,6 +14557,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:907296ec-5419-464c-91d8-137c3a16176c|x": {
+   "actualizado": "2026-11-21T21:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:907296ec-5419-464c-91d8-137c3a16176c|x",
+   "creado": "2026-11-21T21:40:13.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-21T21:22:16.449Z",
+   "id": "web:907296ec-5419-464c-91d8-137c3a16176c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-recuperaron-dos-motos-robadas-tras-un",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-recuperaron-dos-motos-robadas-tras-un",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Recuperaron dos motos robadas tras un siniestro vial e investigaciones policiales\n\nHallaron dos rodados sustraídos. Uno de ellos fue localizado luego de un choque entre una moto sin patente y una camioneta.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-recuperaron-dos-motos-robadas-tras-un",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Recuperaron dos motos robadas tras un siniestro vial e investigaciones policiales",
+   "urgente": false,
+   "vence": "2026-11-22T01:22:16.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:93018c2f-e4af-4ca4-8846-c489c90f0853|x": {
    "actualizado": "2026-11-18T11:40:17.000Z",
    "buffer_id": "6afd7819e6ccf7cfbbbb3e7d",
@@ -16804,20 +16850,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x",
-   "cuando": "2026-11-14T16:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x",
-   "cuando": "2026-11-14T16:40:16.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x",
    "cuando": "2026-11-14T20:20:15.000Z",
@@ -20970,6 +21002,20 @@
    "cuando": "2026-11-21T21:20:16.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:907296ec-5419-464c-91d8-137c3a16176c|x",
+   "cuando": "2026-11-21T21:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:907296ec-5419-464c-91d8-137c3a16176c|x",
+   "cuando": "2026-11-21T21:40:15.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21682,6 +21728,7 @@
   "web:8f34e8a6-8a15-4ddf-afe4-485d7d7e0960": "2026-10-28T10:02:28.000Z",
   "web:8fd9d678-2717-4972-af3c-fcb225b55159": "2026-10-30T10:01:54.000Z",
   "web:900359d5-6183-4c50-8ecb-5fd30abaf575": "2026-11-19T22:00:18.000Z",
+  "web:907296ec-5419-464c-91d8-137c3a16176c": "2026-11-21T21:40:13.000Z",
   "web:92c264ae-78ff-431e-bebc-0875504ae30a": "2026-10-23T10:20:15.000Z",
   "web:92e8fc91-e83b-461b-a7d6-2a1f162da6f0": "2026-11-03T10:02:22.000Z",
   "web:93018c2f-e4af-4ca4-8846-c489c90f0853": "2026-11-18T10:02:51.000Z",

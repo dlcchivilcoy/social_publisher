@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/11/2026 18:20 (hora AR) · ACTIVO
+Actualizado: 21/11/2026 18:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 21/11/2026 18:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 6 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 21/11/2026 18:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-21T02:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
-- 2026-11-21T02:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-2 
 - 2026-11-21T02:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
 - 2026-11-21T02:40 recibido policiales:https://diarioelsalado.com.ar/2026/11/un-motocicl 
 - 2026-11-21T02:40 enviado policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
@@ -58,3 +56,5 @@ Actualizado: 21/11/2026 18:20 (hora AR) · ACTIVO
 - 2026-11-21T18:20 depurado web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-21T21:20 recibido web:aa699acf-5076-4312-a4f2-93b7679d840a|x 
 - 2026-11-21T21:20 depurado web:aa699acf-5076-4312-a4f2-93b7679d840a|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-21T21:40 recibido web:907296ec-5419-464c-91d8-137c3a16176c|x 
+- 2026-11-21T21:40 depurado web:907296ec-5419-464c-91d8-137c3a16176c|x de la web, a X solo van las notas del diario de la mañana
