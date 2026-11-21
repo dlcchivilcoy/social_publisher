@@ -3892,6 +3892,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Básquet femenino: Argentino ganó de visitante ante Sportivo Rojas CHIVILCOY.– La Primera de básquet femenino de Argentino sigue por la senda de las victorias en la Asociación Juninense de Básquet. Anoche, en condición de visitante, derrotó a Sportivo Rojas por 57 a 32.",
+   "generado": "2026-11-21T18:06:05.810Z",
+   "id": "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_554e1dfcd7bf44f091aa036bfcb61289~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-basquet-femenino-argentino-gano-de",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Básquet femenino: Argentino ganó de visitante ante Sportivo Rojas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-basquet-femenino-argentino-gano-de",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:6660aa77-72e5-4b87-ac3a-0c96160d4930": {
    "categoria": "",
    "descripcion": "Chivilcoy: Argentino venció a Quilmes y avanzó a la final en Cadetes CHIVILCOY.– En la semifinal de la Copa de Oro en categoría Cadetes, Argentino enfrentó de local a Quilmes de Mercedes. Fue triunfo del conjunto local por 49 a 41, con lo que se ganó el pase a la final, donde enfrentará a Deportivo Colón. Recordamos que Argentino fue local por haber terminado la fase regular mejor posicionado. Felicitaciones a todos.",
@@ -13704,6 +13723,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x": {
+   "actualizado": "2026-11-21T18:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x",
+   "creado": "2026-11-21T18:20:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-21T18:06:05.810Z",
+   "id": "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-basquet-femenino-argentino-gano-de",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-basquet-femenino-argentino-gano-de",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Básquet femenino: Argentino ganó de visitante ante Sportivo Rojas\n\nLa Primera de Argentino derrotó por 57 a 32 a Sportivo Rojas en la Asociación Juninense de Básquet. Con este resultado fuera de casa, el equipo mantiene su racha de triunfos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-basquet-femenino-argentino-gano-de",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Básquet femenino: Argentino ganó de visitante ante Sportivo Rojas",
+   "urgente": false,
+   "vence": "2026-11-21T22:06:05.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:6660aa77-72e5-4b87-ac3a-0c96160d4930|x": {
    "actualizado": "2026-11-15T01:00:19.000Z",
    "buffer_id": "",
@@ -16897,18 +16943,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x",
-   "cuando": "2026-11-14T12:20:22.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x",
-   "cuando": "2026-11-14T12:20:22.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6|x",
    "cuando": "2026-11-14T16:00:23.000Z",
@@ -21061,6 +21095,20 @@
    "cuando": "2026-11-21T17:00:29.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x",
+   "cuando": "2026-11-21T18:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x",
+   "cuando": "2026-11-21T18:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21679,6 +21727,7 @@
   "web:616edca2-10fd-421a-b351-8a958b1e4519": "2026-11-06T18:00:18.000Z",
   "web:62d60b10-08a0-4e4a-b50b-4faca841dd26": "2026-11-16T10:03:28.000Z",
   "web:62ebb555-db92-4262-86b8-2f76e3982e4b": "2026-11-16T02:40:14.000Z",
+  "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf": "2026-11-21T18:20:14.000Z",
   "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": "2026-10-26T10:20:14.000Z",
   "web:6541af24-4488-427f-95aa-ae535252bd65": "2026-11-02T18:20:16.000Z",
   "web:6660aa77-72e5-4b87-ac3a-0c96160d4930": "2026-11-15T01:00:17.000Z",

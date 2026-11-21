@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/11/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 21/11/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 21/11/2026 15:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 21/11/2026 15:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-21T00:00 programado bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok 
-- 2026-11-21T00:20 recibido web:3d6dd4d6-874c-4845-9393-b40b2650e570|x 
 - 2026-11-21T00:20 depurado web:3d6dd4d6-874c-4845-9393-b40b2650e570|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-21T01:00 enviado bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok 
 - 2026-11-21T02:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
@@ -58,3 +56,5 @@ Actualizado: 21/11/2026 15:00 (hora AR) · ACTIVO
 - 2026-11-21T17:00 recibido web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf|x 
 - 2026-11-21T17:00 depurado web:c9db04af-d3ab-4346-a206-72ea501d0adb|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-21T17:00 depurado web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-21T18:20 recibido web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x 
+- 2026-11-21T18:20 depurado web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x de la web, a X solo van las notas del diario de la mañana
