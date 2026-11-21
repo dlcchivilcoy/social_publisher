@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 5
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-21T00:00:19.000Z"
+   "visto": "2026-11-21T01:00:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-21T00:00:19.000Z"
+   "visto": "2026-11-21T01:00:20.000Z"
   }
  },
  "contenidos": {
@@ -53,27 +53,6 @@
    "video_mb": 2.7,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_48715283272c98de.mp4",
    "youtube_url": "https://www.youtube.com/shorts/3eJ3pOfVS1E"
-  },
-  "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4": {
-   "descripcion": "El lunes 9 de noviembre se llevó a cabo un encuentro de básquet formativo de la categoría mosquitos en el estadio Oscar y Alfredo Barca, bajo la organización del Club Deportivo Colón.\n\nLa jornada deportiva contó además con la participación de las delegaciones de Gimnasia y Esgrima y de Racing Club, reuniendo a una gran cantidad de niños de entre 4 y 7 años ante un importante marco de público que acompañó la actividad desde las tribunas.\n\nPor el club anfitrión, Deportivo Colón, los profesores a cargo fueron Silvio Propato, Nicolás Marchesini, Erbel De Pietro, Andrés Ventieri y Rodrigo Padilla.\n\nEn Racing Club estuvieron presentes los profesores Juan Luis Serra, Josefina Pollaroli y Tobías Vito, acompañados por los monitores Juan I. Senra e Iñaki Arthur.\n\nPor parte de Gimnasia y Esgrima, el equipo técnico estuvo integrado por María Cecilia Ramírez, Marcos Mambelli, Tomás Costanzo y Valentina Nadales, junto al monitor Mateo Caprifoglio.",
-   "duracion_seg": 31.0,
-   "generado": "2026-11-10T23:51:11.000Z",
-   "id": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA",
-   "urgente": false,
-   "video_bytes": 7459516,
-   "video_mb": 7.1,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae55cc289cff439.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/6dJpouSONNc"
   },
   "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4": {
    "descripcion": "La búsqueda de Ezequiel Carballo, de 27 años, concluyó el lunes 9 de noviembre tras el hallazgo de su cuerpo en el canal República de Italia, conocido como Canal Cafiero, en inmediaciones de Larrea, partido de Alberti. Tras confirmarse su identidad, la causa pasó a investigarse como homicidio.\n\nEl joven se encontraba desaparecido desde el sábado, cuando su hermano radicó la denuncia luego de que saliera de su casa y no regresara. En las tareas de rastrillaje intervinieron efectivos policiales y dotaciones de Bomberos Voluntarios de Mechita, Bragado y Alberti.\n\nLa hipótesis de los investigadores sostiene que Carballo habría sido atacado en una vivienda de Mechita tras reunirse con dos personas conocidas, para luego ser trasladado hacia el canal. Durante un allanamiento en el inmueble señalado, se incautaron prendas de vestir, un cuchillo y diversos elementos con presuntos rastros hemáticos que serán sometidos a peritajes. Dos personas permanecen aprehendidas a disposición judicial.\n\nEl cuerpo presentaba lesiones de gravedad y la autopsia, desarrollada en la morgue judicial de Chivilcoy, determinará las causas fehacientes del fallecimiento. La causa está bajo la órbita de la Unidad Funcional de Instrucción N.º 2 del Departamento Judicial de Mercedes.",
@@ -1239,32 +1218,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_02_bragado_motociclista-herido-tras-choca.mp4",
    "volanta": "Siniestro vial en Bragado",
    "youtube_url": "https://youtube.com/shorts/F-MV5Q3KgbA"
-  },
-  "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": {
-   "categoria": "otro_policial",
-   "descripcion": "Investigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.",
-   "distancia_km": 28.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-10T22:31:20.000Z",
-   "id": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/",
-   "localidad": "Alberti",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-hallaron-un-cuerpo-en-el-canal-cafiero-e-investigan-un-6daa39",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 9,
-   "radio_ok": true,
-   "texto_tiktok": "Hallaron un cadáver en el curso de agua durante un operativo de búsqueda en el partido de Alberti.\n\nLas sospechas apuntan a que se trataría de Ezequiel Eduardo Caraballo, de 27 años, buscado desde el sábado.\n\nDos hombres se encuentran demorados a disposición de la Justicia mientras avanzan las pericias forenses.\n\n📲 Más noticias de Alberti en www.diariolacampaña.com.ar\n\n#Alberti #Homicidio #Investigacion #BuenosAires",
-   "tipo": "video",
-   "titulo": "Hallan un cuerpo en el Canal Cafiero en el marco de la búsqueda de un joven",
-   "urgente": false,
-   "video_bytes": 115621,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_03_carlos-casares_hallan-un-cuerpo-en-el-canal-c.mp4",
-   "volanta": "Hallazgo en Alberti",
-   "youtube_url": "https://youtube.com/shorts/FkC0lxwFle0"
   },
   "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte": {
    "categoria": "homicidio",
@@ -5991,82 +5944,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_48715283272c98de.mp4",
    "viral": false
   },
-  "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok": {
-   "actualizado": "2026-11-11T00:40:17.000Z",
-   "buffer_id": "6af3b023850477b0c27cefad",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|tiktok",
-   "creado": "2026-11-11T00:00:21.000Z",
-   "dueAt": "2026-11-11T00:03:59.000Z",
-   "enviado": "2026-11-11T00:05:52.482Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-10T23:51:11.000Z",
-   "id": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7706697434767920385",
-   "metricas": {
-    "averageTimeWatched": 5.23,
-    "comments": 0,
-    "engagementRate": 1.43,
-    "reach": 0,
-    "reactions": 7,
-    "shares": 0,
-    "totalTimeWatched": 46.12,
-    "views": 491
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA\n\nBajo la organización del Club Deportivo Colón, se realizó una jornada de básquet formativo que reunió a niños de entre 4 y 7 años junto a las delegaciones de Gimnasia y Esgrima y Racing Club. El evento deportivo convocó a una gran cantidad de público que acompañó la actividad desde las tribunas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA",
-   "urgente": false,
-   "vence": "2026-11-12T23:51:11.000Z",
-   "video_bytes": 7459516,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae55cc289cff439.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x": {
-   "actualizado": "2026-11-11T00:40:17.000Z",
-   "buffer_id": "6af3b0220b1f930b454e2b84",
-   "clave": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4|x",
-   "creado": "2026-11-11T00:00:21.000Z",
-   "dueAt": "2026-11-11T00:02:20.000Z",
-   "enviado": "2026-11-11T00:03:54.861Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-10T23:51:11.000Z",
-   "id": "bot:video_matias-zucchi_mwbc2nun3eiz_03.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2120306487352238297",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 55,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA",
-   "urgente": false,
-   "vence": "2026-11-11T01:51:11.000Z",
-   "video_bytes": 7459516,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae55cc289cff439.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mwc6kfvj1lpf_01.mp4|tiktok": {
    "actualizado": "2026-11-11T22:20:19.000Z",
    "buffer_id": "6af4d77c231207c2710fa254",
@@ -6870,19 +6747,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok": {
-   "actualizado": "2026-11-21T00:00:19.000Z",
+   "actualizado": "2026-11-21T01:00:20.000Z",
    "buffer_id": "6b00df149ffbc8503ce541b1",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok",
    "creado": "2026-11-20T22:40:15.000Z",
    "dueAt": "2026-11-21T00:03:15.000Z",
+   "enviado": "2026-11-21T00:05:22.373Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T22:29:58.000Z",
    "id": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7710408957986213126",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -9995,43 +9873,6 @@
    "video_bytes": 96672,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_02_bragado_motociclista-herido-tras-choca.mp4",
    "viral": false
-  },
-  "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x": {
-   "actualizado": "2026-11-11T00:40:17.000Z",
-   "buffer_id": "6af3b0230b1f930b454e2bda",
-   "clave": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/|x",
-   "creado": "2026-11-10T22:40:14.000Z",
-   "dueAt": "2026-11-11T00:07:45.000Z",
-   "enviado": "2026-11-11T00:07:48.279Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-10T22:31:20.000Z",
-   "id": "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2120307466206392729",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 227,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-hallaron-un-cuerpo-en-el-canal-cafiero-e-investigan-un-6daa39",
-   "noticia": "nota:alberti-hallaron-un-cuerpo-en-el-canal-cafiero-e-investigan-un-6daa39",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 9,
-   "texto": "Hallan un cuerpo en el Canal Cafiero en el marco de la búsqueda de un joven\n\nInvestigan el homicidio de Ezequiel Eduardo Caraballo, de 27 años, cuyo cuerpo sin vida fue encontrado en el partido de Alberti tras varios días de intenso rastrillaje.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-hallaron-un-cuerpo-en-el-canal-cafiero-e-investigan-un-6daa39",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Hallan un cuerpo en el Canal Cafiero en el marco de la búsqueda de un joven",
-   "urgente": false,
-   "vence": "2026-11-11T00:31:20.000Z",
-   "video_bytes": 115621,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-10_2135_03_carlos-casares_hallan-un-cuerpo-en-el-canal-c.mp4",
-   "viral": true
   },
   "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x": {
    "actualizado": "2026-11-20T02:40:23.000Z",
@@ -17500,12 +17341,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00309|tiktok",
-   "cuando": "2026-11-13T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707795682672790804"
-  },
-  {
    "clave": "entrevistas:job00310|tiktok",
    "cuando": "2026-11-13T23:20:14.000Z",
    "evento": "enviado",
@@ -21660,6 +21495,12 @@
    "cuando": "2026-11-21T00:20:20.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok",
+   "cuando": "2026-11-21T01:00:20.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7710408957986213126"
   }
  ],
  "tandas": {
@@ -21697,7 +21538,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-21",
- "ultima_sync": "2026-11-21T00:00:19.000Z",
+ "ultima_sync": "2026-11-21T01:00:20.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21778,7 +21619,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4": "2026-10-22T00:40:17.000Z",
   "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4": "2026-10-22T13:20:15.000Z",
   "bot:video_matias-zucchi_mvjluzixklug_01.mp4": "2026-10-22T14:20:16.000Z",
   "bot:video_matias-zucchi_mvjmdat71rrt_01.mp4": "2026-10-22T14:20:16.000Z",
@@ -21952,7 +21792,6 @@
   "nacionales:5de2902aa9f0dc53": "2026-10-23T21:20:13.000Z",
   "nacionales:975c5666332b123b": "2026-10-22T22:00:20.000Z",
   "nacionales:ae9e5a4804b66987": "2026-10-23T23:00:18.000Z",
-  "nacionales:b3aa9eb0744c0822": "2026-10-22T01:00:18.000Z",
   "nacionales:b7b1426a9ab6b8b3": "2026-10-22T01:20:15.000Z",
   "nacionales:e25c9cf3646e5306": "2026-10-22T21:20:13.000Z",
   "nacionales:f1cea0fec08ce954": "2026-10-23T22:20:15.000Z",
@@ -21964,7 +21803,6 @@
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": "2026-11-10T22:40:14.000Z",
   "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte": "2026-11-20T02:20:19.000Z",
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": "2026-10-24T00:20:16.000Z",
-  "policiales:https://diariodelujan.com/un-robo-dos-sospechosos-detenidos-en-lujan/": "2026-10-22T01:00:18.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/": "2026-11-10T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/": "2026-11-12T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/": "2026-11-13T23:40:13.000Z",
@@ -22216,7 +22054,6 @@
   "web:3a7b8196-052a-4b18-86a2-e06b57de3d46": "2026-11-13T10:02:41.000Z",
   "web:3b49e21f-6e3d-4e7d-a211-3ba9ad9bfcbd": "2026-10-26T10:20:14.000Z",
   "web:3b5b0416-a297-4eb9-899d-024bc2f03c5f": "2026-11-10T13:40:15.000Z",
-  "web:3b9f27f9-b2ce-4eee-b2de-b60199585c44": "2026-10-22T00:40:17.000Z",
   "web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35": "2026-11-18T16:00:21.000Z",
   "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac": "2026-11-05T22:40:14.000Z",
   "web:3d3373dd-ee69-4fc7-a39d-0aec74b76b6e": "2026-11-12T10:02:44.000Z",
