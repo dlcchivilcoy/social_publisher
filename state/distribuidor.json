@@ -17,7 +17,7 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-21T01:00:20.000Z"
+   "visto": "2026-11-21T02:40:31.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-21T01:00:20.000Z"
+   "visto": "2026-11-21T02:40:31.000Z"
   }
  },
  "contenidos": {
@@ -1322,6 +1322,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_05_alberti_alberti-un-menor-de-16-a-os-he.mp4",
    "volanta": "Siniestro vial en Alberti",
    "youtube_url": "https://youtube.com/shorts/HPc_OkDTPvM"
+  },
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/": {
+   "categoria": "accidente_vial",
+   "descripcion": "Un conductor de moto terminó con fractura tras chocar contra un auto en la intersección de avenida San Martín y calle Uruguay. Interviene la fiscalía de Mercedes.",
+   "distancia_km": 28.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-21T02:32:32.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/",
+   "localidad": "Alberti",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-chocaron-un-auto-y-una-moto-y-el-conductor-sufrio-una-9cd1c4",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Un automovilista y un motociclista protagonizaron un violento impacto en las calles albertinas.\n\nEl siniestro vial sucedió el jueves por la tarde en el cruce de avenida General Libertador San Martín y calle Uruguay.\n\nComo saldo del choque, el conductor del rodado menor debió ser hospitalizado con lesiones de carácter leve.\n\n📲 Más noticias de Alberti en www.diariolacampaña.com.ar\n\n#Alberti #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Choque entre un auto y una moto dejó un herido en Alberti",
+   "urgente": false,
+   "video_bytes": 99643,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_06_alberti_choque-entre-un-auto-y-una-mot.mp4",
+   "volanta": "Siniestro vial en Alberti",
+   "youtube_url": "https://youtube.com/shorts/DkXeTYD02rg"
   },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/": {
    "categoria": "accidente_vial",
@@ -10030,6 +10056,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_05_alberti_alberti-un-menor-de-16-a-os-he.mp4",
    "viral": false
   },
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/|x": {
+   "actualizado": "2026-11-21T02:40:31.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/|x",
+   "creado": "2026-11-21T02:40:31.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-21T02:32:32.000Z",
+   "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-chocaron-un-auto-y-una-moto-y-el-conductor-sufrio-una-9cd1c4",
+   "noticia": "nota:alberti-chocaron-un-auto-y-una-moto-y-el-conductor-sufrio-una-9cd1c4",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Choque entre un auto y una moto dejó un herido en Alberti\n\nUn conductor de moto terminó con fractura tras chocar contra un auto en la intersección de avenida San Martín y calle Uruguay. Interviene la fiscalía de Mercedes.\n\nhttps://www.diariolacampaña.com.ar/n/alberti-chocaron-un-auto-y-una-moto-y-el-conductor-sufrio-una-9cd1c4",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque entre un auto y una moto dejó un herido en Alberti",
+   "urgente": false,
+   "vence": "2026-11-21T04:32:32.000Z",
+   "video_bytes": 99643,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_06_alberti_choque-entre-un-auto-y-una-mot.mp4",
+   "viral": false
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/|x": {
    "actualizado": "2026-11-16T00:40:13.000Z",
    "buffer_id": "",
@@ -10411,18 +10465,19 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html|x": {
-   "actualizado": "2026-11-21T02:20:13.000Z",
+   "actualizado": "2026-11-21T02:40:31.000Z",
    "buffer_id": "6b00ffde5102766245ed32fc",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html|x",
    "creado": "2026-11-21T02:20:13.000Z",
    "dueAt": "2026-11-21T02:23:20.000Z",
+   "enviado": "2026-11-21T02:23:34.208Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-21T02:03:20.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123965511432020396",
    "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-motociclista-de-35-anos-herido-tras-chocar-contra-759f32",
    "noticia": "nota:bragado-un-motociclista-de-35-anos-herido-tras-chocar-contra-759f32",
    "origen": "policiales",
@@ -17395,22 +17450,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x",
-   "cuando": "2026-11-13T23:40:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x",
-   "cuando": "2026-11-13T23:40:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x",
    "cuando": "2026-11-13T23:40:20.000Z",
    "evento": "depurado",
@@ -21560,6 +21599,20 @@
    "cuando": "2026-11-21T02:20:14.000Z",
    "dueAt": "2026-11-21T02:23:20.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/|x",
+   "cuando": "2026-11-21T02:40:31.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html|x",
+   "cuando": "2026-11-21T02:40:31.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123965511432020396"
   }
  ],
  "tandas": {
@@ -21597,7 +21650,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-21",
- "ultima_sync": "2026-11-21T01:00:20.000Z",
+ "ultima_sync": "2026-11-21T02:40:31.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21864,6 +21917,7 @@
   "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/": "2026-11-13T23:40:13.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-choque-en-albizzatti-e-yrigoyen-termino-con-una-camioneta-volcada/": "2026-11-03T22:40:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/": "2026-11-17T23:20:15.000Z",
+  "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/": "2026-11-21T02:40:31.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/": "2026-11-15T22:40:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291155-dos-jovenes-pergamino-resultaron-heridas-bala-dura": "2026-10-26T09:00:18.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron": "2026-10-26T23:20:14.000Z",
@@ -21924,7 +21978,6 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/bomberos-incendio-en-un-auto-en.html": "2026-10-27T00:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/danos-y-robo-en-una-propiedad-de.html": "2026-10-23T01:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/jovenes-abandonaron-una-moto-en-la.html": "2026-10-23T01:00:17.000Z",
-  "policiales:https://www.chacabuquero.com.ar/2026/10/motociclista-accidentada-en-chacabuco.html": "2026-10-22T02:20:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/policiales-robo-conflicto-de-ex-pareja.html": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html": "2026-10-29T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": "2026-11-07T23:40:13.000Z",

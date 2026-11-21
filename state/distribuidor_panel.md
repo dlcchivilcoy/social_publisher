@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 20/11/2026 23:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 3 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
 | Notas web | X | 15 | 16 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,14 @@ Actualizado: 20/11/2026 23:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
 - X · Reels policiales · Aprehendieron a un joven y secuestraron su auto tras hallar marihuana — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Choque entre un auto y una moto dejó un herido en Alberti — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T21:00 programado entrevistas:job00335|tiktok 
-- 2026-11-20T21:00 programado entrevistas:job00334|tiktok 
 - 2026-11-20T21:00 programado entrevistas:job00333|tiktok 
 - 2026-11-20T21:00 programado entrevistas:job00332|tiktok 
 - 2026-11-20T21:40 enviado entrevistas:job00335|tiktok 
@@ -59,3 +58,5 @@ Actualizado: 20/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-21T02:20 recibido policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
 - 2026-11-21T02:20 recibido policiales:https://www.junindigital.com/policiales/2026-11-2 
 - 2026-11-21T02:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
+- 2026-11-21T02:40 recibido policiales:https://diarioelsalado.com.ar/2026/11/un-motocicl 
+- 2026-11-21T02:40 enviado policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
