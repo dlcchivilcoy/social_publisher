@@ -1,0 +1,33 @@
+name: Chequeo ingreso editorial
+on:
+  push:
+    paths:
+      - 'supabase/functions/editorial-ingest/**'
+      - 'supabase/migrations/0008_editorial_ingresos.sql'
+      - 'tools/editorial_ingest.py'
+      - '.github/workflows/editorial-ingest.yml'
+      - 'mcp-editorial/**'
+  pull_request:
+    paths:
+      - 'supabase/functions/editorial-ingest/**'
+      - 'supabase/migrations/0008_editorial_ingresos.sql'
+      - 'tools/editorial_ingest.py'
+      - '.github/workflows/editorial-ingest.yml'
+      - 'mcp-editorial/**'
+  workflow_dispatch:
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: node --test supabase/functions/editorial-ingest/core.test.mjs
+      - run: python -m py_compile tools/editorial_ingest.py tools/editorial_secretos.py
+      - run: node --test mcp-editorial/core.test.mjs

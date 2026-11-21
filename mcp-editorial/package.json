@@ -1,0 +1,8 @@
+{
+  "name": "mcp-editorial",
+  "private": true,
+  "type": "module",
+  "description": "Conector MCP (ChatGPT / Claude) del ingreso editorial del Diario La Campaña. Sin dependencias.",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test core.test.mjs" }
+}
