@@ -4804,25 +4804,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/consejo-escolar-de-chivilcoy-chivilcoy-sandra-martinez-detallo-la",
    "volanta": "Consejo Escolar de Chivilcoy"
   },
-  "web:bc053d4c-ad46-498a-b851-acfc5e417338": {
-   "categoria": "",
-   "descripcion": "Investigan el homicidio de Ezequiel Carballo tras hallar su cuerpo en un canal La búsqueda de Ezequiel Carballo, el joven de 27 años desaparecido en Mechita, culminó este lunes 9 de noviembre con el hallazgo de su cuerpo en el canal República de Italia, conocido como Canal Cafiero, cerca de Larrea, en el partido de Alberti. Tras confirmarse su identidad, la causa, que inicialmente se tramitaba como averiguación de paradero, pasó a investigarse como un homicidio. La denuncia por su...",
-   "generado": "2026-11-11T13:59:36.362Z",
-   "id": "web:bc053d4c-ad46-498a-b851-acfc5e417338",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_6ee3293b2b7e4c6db03d55f80bdf6eb2~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras-1",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Investigan el homicidio de Ezequiel Carballo tras hallar su cuerpo en un canal",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras-1",
-   "volanta": "Alberti · Policiales"
-  },
   "web:bff9dfc7-873a-4a8d-a3de-da24428245eb": {
    "categoria": "",
    "descripcion": "Chivilcoy: Cierre de año de la categoría Mosquitos en el Estadio Centro CHIVILCOY.– Se realizó el cierre de año de la categoría Mosquitos en el Estadio Centro, organizado por el Club Gimnasia. Clubes participantes: - Gimnasia y Esgrima - Colón - Racing - Bragado Club Una gran cantidad de peques y un gran marco de público se vivió en esta hermosa jornada. Felicitaciones a todos.",
@@ -5031,25 +5012,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por-robar",
    "volanta": "Chivilcoy · Policiales"
-  },
-  "web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: San Lorenzo venció a Quilmes de Mercedes por el Torneo Clausura CHIVILCOY.– Por la decimotercera fecha del Torneo Clausura de Primera División, San Lorenzo recibió a Quilmes de Mercedes. Fue un partido importante para el Cuervo, donde necesitaba la victoria para luchar por esa ansiada cuarta posición en la tabla, y logró concretarla por 72 a 56. Salvo en el primer cuarto, donde la visita se impuso 18 a 13, luego fue todo del local, que llega a la última fecha de la fase regular...",
-   "generado": "2026-11-11T13:02:14.048Z",
-   "id": "web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5a6cb5a22773446580799a7b2a2d259b~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-de-mercedes",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: San Lorenzo venció a Quilmes de Mercedes por el Torneo Clausura",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-de-mercedes",
-   "volanta": "Chivilcoy · Deportes"
   },
   "web:d03c3c10-1591-42b2-8b28-464788b1537c": {
    "categoria": "",
@@ -15445,31 +15407,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:bc053d4c-ad46-498a-b851-acfc5e417338|x": {
-   "actualizado": "2026-11-11T14:00:18.000Z",
-   "buffer_id": "",
-   "clave": "web:bc053d4c-ad46-498a-b851-acfc5e417338|x",
-   "creado": "2026-11-11T14:00:18.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Notas web, enviado)",
-   "estado": "descartado",
-   "generado": "2026-11-11T13:59:36.362Z",
-   "id": "web:bc053d4c-ad46-498a-b851-acfc5e417338",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras-1",
-   "noticia": "nota:alberti-policiales-investigan-el-homicidio-de-ezequiel-carballo-tras-1",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Investigan el homicidio de Ezequiel Carballo tras hallar su cuerpo en un canal",
-   "urgente": false,
-   "vence": "2026-11-11T17:59:36.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:bff9dfc7-873a-4a8d-a3de-da24428245eb|x": {
    "actualizado": "2026-11-15T17:40:24.000Z",
    "buffer_id": "",
@@ -15797,34 +15734,6 @@
    "titulo": "Chivilcoy: APREHENDIERON a un hombre por robar elementos eléctricos de una fábrica",
    "urgente": false,
    "vence": "2026-11-12T05:50:11.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e|x": {
-   "actualizado": "2026-11-11T14:00:26.000Z",
-   "buffer_id": "6af46b95f93beeeade1499cc",
-   "clave": "web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e|x",
-   "creado": "2026-11-11T13:20:17.000Z",
-   "dueAt": "2026-11-11T14:07:31.000Z",
-   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
-   "espera": "",
-   "estado": "descartado",
-   "generado": "2026-11-11T13:02:14.048Z",
-   "id": "web:cb7bf669-9e6f-4d3b-b1f8-597c5e6b4b0e",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-de-mercedes",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-de-mercedes",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: San Lorenzo venció a Quilmes de Mercedes por el Torneo Clausura\n\nEl local logró la victoria por 72 a 56 para pelear por el cuarto puesto en la tabla. Tras caer en el primer cuarto, dominó el resto del partido.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-san-lorenzo-vencio-a-quilmes-de-mercedes",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: San Lorenzo venció a Quilmes de Mercedes por el Torneo Clausura",
-   "urgente": false,
-   "vence": "2026-11-11T17:02:14.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
