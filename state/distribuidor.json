@@ -4652,6 +4652,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-chivilcoy-roman-mastrangelo-subio-al-podio-en-el-cierre-de",
    "volanta": "Ciclismo"
   },
+  "web:aa699acf-5076-4312-a4f2-93b7679d840a": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Una motociclista fue hospitalizada tras caer en la avenida El Grito de Alcorta Una motociclista debió recibir atención hospitalaria luego de sufrir una caída este sábado 21 de noviembre, alrededor del mediodía, sobre la avenida El Grito de Alcorta, en Chivilcoy. La conductora, identificada como Agustina Lorenzetti, circulaba desde la avenida 22 de Octubre hacia la avenida Mitre cuando, por circunstancias que aún no fueron determinadas, cayó sobre la calzada. Personal del SAME le...",
+   "generado": "2026-11-21T21:16:11.442Z",
+   "id": "web:aa699acf-5076-4312-a4f2-93b7679d840a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_fec6568e244e434391d47f7fc218d5a9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-una-motociclista-fue-hospitalizada-tras-2",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Una motociclista fue hospitalizada tras caer en la avenida El Grito de Alcorta",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-una-motociclista-fue-hospitalizada-tras-2",
+   "volanta": "Chivilcoy · Accidente"
+  },
   "web:b034af07-ddaf-426e-8207-d2724c540524": {
    "categoria": "",
    "descripcion": "Chivilcoy: Un motociclista fue hospitalizado tras chocar con una camioneta CHIVILCOY.– Un motociclista fue trasladado al hospital tras un choque en avenida 84 y calle 25 de Mayo. El siniestro ocurrió este jueves por la mañana en Chivilcoy e involucró a una Toyota Hilux y una motocicleta Honda. El tránsito quedó interrumpido en el cruce. Una camioneta y una motocicleta chocaron en la mañana del jueves 12 de noviembre en la intersección de avenida 84 y calle 25 de Mayo. El conductor de la moto...",
@@ -6871,43 +6890,6 @@
    "titulo": "Juan Bayona: por qué la improvisación teatral genera miedo",
    "urgente": false,
    "vence": "2026-11-13T20:00:18.000Z",
-   "video_bytes": 16721039,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00303_r1.mp4",
-   "viral": false
-  },
-  "entrevistas:job00303-r1|x": {
-   "actualizado": "2026-11-11T21:00:42.000Z",
-   "buffer_id": "6af4c95aceae26a3a50dc211",
-   "clave": "entrevistas:job00303-r1|x",
-   "creado": "2026-11-11T20:00:18.000Z",
-   "dueAt": "2026-11-11T20:02:38.000Z",
-   "enviado": "2026-11-11T20:05:10.078Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-11T20:00:18.000Z",
-   "id": "entrevistas:job00303-r1",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2120608792559686126",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 47,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:bayona-genera-improvisacion-juan-miedo-teatral",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Juan Bayona: por qué la improvisación teatral genera miedo\n\nEl actor Juan Bayona reflexionó sobre los prejuicios y el temor hacia la improvisación teatral. Además, anticipó detalles del próximo show de Impro y Aparte en El Portal del Tango.\n\nhttps://youtu.be/_q5zPr2PYYg",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Juan Bayona: por qué la improvisación teatral genera miedo",
-   "urgente": false,
-   "vence": "2026-11-11T22:00:18.000Z",
    "video_bytes": 16721039,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00303_r1.mp4",
    "viral": false
@@ -14952,6 +14934,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:aa699acf-5076-4312-a4f2-93b7679d840a|x": {
+   "actualizado": "2026-11-21T21:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:aa699acf-5076-4312-a4f2-93b7679d840a|x",
+   "creado": "2026-11-21T21:20:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-21T21:16:11.442Z",
+   "id": "web:aa699acf-5076-4312-a4f2-93b7679d840a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-una-motociclista-fue-hospitalizada-tras-2",
+   "noticia": "nota:chivilcoy-accidente-chivilcoy-una-motociclista-fue-hospitalizada-tras-2",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Una motociclista fue hospitalizada tras caer en la avenida El Grito de Alcorta\n\nUna mujer cayó de su moto al mediodía sobre la calzada mientras circulaba hacia la avenida Mitre. Recibió atención hospitalaria tras el hecho.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-una-motociclista-fue-hospitalizada-tras-2",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Una motociclista fue hospitalizada tras caer en la avenida El Grito de Alcorta",
+   "urgente": false,
+   "vence": "2026-11-22T01:16:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b034af07-ddaf-426e-8207-d2724c540524|x": {
    "actualizado": "2026-11-12T14:00:17.000Z",
    "buffer_id": "",
@@ -16795,20 +16804,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6|x",
-   "cuando": "2026-11-14T16:00:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:0f6add14-9e03-43d4-ad3f-e51c81bdfcd6|x",
-   "cuando": "2026-11-14T16:00:23.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "web:3246d50f-9aeb-4fa0-a07c-74aa4db5bef2|x",
    "cuando": "2026-11-14T16:40:16.000Z",
@@ -20961,6 +20956,20 @@
    "cuando": "2026-11-21T18:20:16.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:aa699acf-5076-4312-a4f2-93b7679d840a|x",
+   "cuando": "2026-11-21T21:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:aa699acf-5076-4312-a4f2-93b7679d840a|x",
+   "cuando": "2026-11-21T21:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21240,7 +21249,6 @@
   "nacionales:5de2902aa9f0dc53": "2026-10-23T21:20:13.000Z",
   "nacionales:975c5666332b123b": "2026-10-22T22:00:20.000Z",
   "nacionales:ae9e5a4804b66987": "2026-10-23T23:00:18.000Z",
-  "nacionales:e25c9cf3646e5306": "2026-10-22T21:20:13.000Z",
   "nacionales:f1cea0fec08ce954": "2026-10-23T22:20:15.000Z",
   "nacionales:f8740af29dcd48f9": "2026-10-23T01:20:18.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
@@ -21727,6 +21735,7 @@
   "web:a88f249c-9e23-46be-8a40-bb31f049e2b7": "2026-10-23T16:20:15.000Z",
   "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60": "2026-11-03T10:02:22.000Z",
   "web:aa54283b-118c-4bae-8790-73ed73c0006c": "2026-11-08T20:40:12.000Z",
+  "web:aa699acf-5076-4312-a4f2-93b7679d840a": "2026-11-21T21:20:14.000Z",
   "web:aa775535-c5f2-4a64-95ca-135757291376": "2026-11-10T10:02:42.000Z",
   "web:aac6f864-9661-40bc-8e13-c03b62c05fed": "2026-10-26T10:20:14.000Z",
   "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd": "2026-10-28T17:20:18.000Z",
