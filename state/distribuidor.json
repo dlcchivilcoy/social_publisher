@@ -4690,6 +4690,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/encuentro-de-talleres-protegido-zona-sur-en-la-ciudad-de-carhue",
    "volanta": ""
   },
+  "web:b569c879-d38b-4d24-9658-e00056ee70e7": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Robaron una moto del Globo de la Muerte del Circo Safari Show El Circo Safari Show, instalado en el sector de las avenidas Ortiz y Carlos Gardel de Chivilcoy, informó el robo de una motocicleta que utiliza en el número del Globo de la Muerte. Se trata de una Yamaha XTZ azul utilizada en las funciones. Los responsables del espectáculo difundieron el hecho en Facebook y pidieron colaboración para recuperarla. Según publicaron en su cuenta oficial de Facebook, la Yamaha XTZ se...",
+   "generado": "2026-11-21T16:40:11.133Z",
+   "id": "web:b569c879-d38b-4d24-9658-e00056ee70e7",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8d8b9f73d9c44ff3a753ebd625f5daf9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-robaron-una-moto-del-globo-de-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Robaron una moto del Globo de la Muerte del Circo Safari Show",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-robaron-una-moto-del-globo-de-la",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7": {
    "categoria": "",
    "descripcion": "Chivilcoy: Florencia Galante, el Kung Fu en la defensa personal y disciplina: “Se enseña a tener una biblioteca de recursos disponibles para no tener que usarlos jamás” En diálogo con el programa radial La Mañana del Centro, a través del aire de Radio del Centro, Florencia Galante, referente de la comunidad ‘Mujer Marcial’, abordó en profundidad la enseñanza del Kung Fu tradicional en la ciudad de Chivilcoy, sus implicancias formativas, los valores de la disciplina y el verdadero rol que...",
@@ -15138,6 +15157,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:b569c879-d38b-4d24-9658-e00056ee70e7|x": {
+   "actualizado": "2026-11-21T16:40:22.000Z",
+   "buffer_id": "",
+   "clave": "web:b569c879-d38b-4d24-9658-e00056ee70e7|x",
+   "creado": "2026-11-21T16:40:12.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-21T16:40:11.133Z",
+   "id": "web:b569c879-d38b-4d24-9658-e00056ee70e7",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-robaron-una-moto-del-globo-de-la",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-robaron-una-moto-del-globo-de-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Robaron una moto del Globo de la Muerte del Circo Safari Show\n\nEl Circo Safari Show, instalado en el sector de las avenidas Ortiz y Carlos Gardel de Chivilcoy, informó el robo de una motocicleta que utiliza en el número del Globo de la Muerte.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-robaron-una-moto-del-globo-de-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Robaron una moto del Globo de la Muerte del Circo Safari Show",
+   "urgente": false,
+   "vence": "2026-11-21T20:40:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7|x": {
    "actualizado": "2026-11-13T11:20:16.000Z",
    "buffer_id": "6af6e078b52ddd180246bab6",
@@ -16796,18 +16842,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html|x",
-   "cuando": "2026-11-14T01:20:23.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "entrevistas:job00310-r1|tiktok",
-   "cuando": "2026-11-14T01:20:23.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707814796179148038"
-  },
   {
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x",
    "cuando": "2026-11-14T01:40:14.000Z",
@@ -20958,6 +20992,20 @@
    "cuando": "2026-11-21T12:00:20.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:b569c879-d38b-4d24-9658-e00056ee70e7|x",
+   "cuando": "2026-11-21T16:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b569c879-d38b-4d24-9658-e00056ee70e7|x",
+   "cuando": "2026-11-21T16:40:22.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21746,6 +21794,7 @@
   "web:b4b8df92-6a44-497e-bfda-6b94b8414a97": "2026-11-16T10:03:28.000Z",
   "web:b4dddc38-6caa-416d-8010-6276dec99036": "2026-10-26T10:20:14.000Z",
   "web:b544f39f-73d2-4a85-b97d-b3f4029ecd69": "2026-10-27T10:03:31.000Z",
+  "web:b569c879-d38b-4d24-9658-e00056ee70e7": "2026-11-21T16:40:12.000Z",
   "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455": "2026-11-06T17:40:14.000Z",
   "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6": "2026-11-09T10:02:37.000Z",
   "web:b6d79f8b-20cb-429f-95dc-adf0d9340584": "2026-10-26T10:20:14.000Z",
