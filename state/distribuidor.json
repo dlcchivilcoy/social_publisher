@@ -1245,6 +1245,32 @@
    "volanta": "Mechita, partido de Bragado",
    "youtube_url": "https://youtube.com/shorts/XVwhKseEbWI"
   },
+  "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/": {
+   "categoria": "abuso_sexual",
+   "descripcion": "El Ministerio Público bonaerense llevó adelante 136 procedimientos en 75 ciudades contra redes de grooming y pornografía infantil. Hubo dos operativos en Luján y otros en Marcos Paz, Chivilcoy y Salto, con secuestro de dispositivos electrónicos.",
+   "distancia_km": 90.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-21T02:46:49.000Z",
+   "id": "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/",
+   "localidad": "Luján",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-dos-allanamientos-en-un-megaoperativo-provincial-contra-5e8099",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Un gran despliegue policial y judicial golpeó las redes de ciberpedofilia en territorio bonaerense.\n\nLa octava edición de la Operación Protección de las Infancias dejó 136 allanamientos en 75 distritos.\n\nEn Luján se concretaron dos procedimientos con secuestro de equipos informáticos.\n\n📲 Más noticias de Luján en www.diariolacampaña.com.ar\n\n#Lujan #Policiales #Justicia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Megaoperativo contra la pedofilia: 136 allanamientos en la provincia",
+   "urgente": false,
+   "video_bytes": 92918,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_07_lujan_megaoperativo-contra-la-pedofi.mp4",
+   "volanta": "Allanamientos en Luján y la región",
+   "youtube_url": "https://youtube.com/shorts/MWvxqtg9v1U"
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/": {
    "categoria": "otro_policial",
    "descripcion": "El análisis forense determinó que Ezequiel Caraballo, de 27 años, falleció por un traumatismo de cráneo antes de ser mutilado y abandonado en un canal. Hay dos sospechosos apresados.",
@@ -1921,6 +1947,32 @@
    "volanta": "Robo de cables en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/QyA_oP2FBns"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html": {
+   "categoria": "robo",
+   "descripcion": "Delincuentes le sustrajeron el motovehículo a un vecino en las inmediaciones de Hipólito Yrigoyen y Falucho. La víctima radicó la denuncia en la Comisaría local.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-21T03:02:06.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-le-robaron-la-moto-a-un-vecino-en-inmediaciones-de-f1db4c",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Un vecino de Chacabuco fue víctima de la inseguridad al amanecer, cuando descubrió que le habían sustraído su moto Rouser.\n\nEl hecho ocurrió en la zona de Hipólito Yrigoyen y Falucho, un sector donde se suelen registrar episodios similares que afectan principalmente a trabajadores nocturnos.\n\nTras notar el faltante, la víctima se comunicó con las fuerzas de seguridad y luego se presentó personalmente en la Comisaría para formalizar la denuncia correspondiente.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Inseguridad #RoboDeMoto #BuenosAires",
+   "tipo": "video",
+   "titulo": "Le robaron la moto a un vecino al amanecer en Chacabuco",
+   "urgente": false,
+   "video_bytes": 77117,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_08_chacabuco_le-robaron-la-moto-a-un-vecino.mp4",
+   "volanta": "Robo en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/SCyZFkdZU6E"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html": {
    "categoria": "robo",
    "descripcion": "Delincuentes sustrajeron dos bicicletas, una marca Shifter y una Schwinn, durante la madrugada en una zona alejada del centro de Chacabuco. Intentaron estafar a la dueña pidiendo un rescate.",
@@ -2388,6 +2440,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_10_9-de-julio_muri-un-hombre-en-un-fuerte-ch.mp4",
    "volanta": "Siniestro vial en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/9B9sbOhOa88"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/": {
+   "categoria": "otro_policial",
+   "descripcion": "El hijo de Ricardo Fort viajaba como acompañante junto a su novia y dos amigos cuando la camioneta en la que iban terminó en la banquina tras esquivar a un auto. Los cuatro ocupantes resultaron ilesos.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-21T03:17:12.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/felipe-fort-volco-con-su-camioneta-en-la-ruta-5-entre-9-de-f622e8",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "El hijo del empresario Ricardo Fort protagonizó un siniestro vial sobre la Ruta Nacional 5.\n\nEl hecho ocurrió el sábado pasado en el tramo entre 9 de Julio y Carlos Casares, cuando la camioneta en la que circulaban debió realizar una brusca maniobra.\n\nEl vehículo intentó rebasar a un camión, pero al ver que venía otro rodado de frente desviaron hacia la banquina.\n\nA bordo iban dos amigos en los asientos delanteros, mientras que Felipe Fort viajaba atrás con su pareja.\n\nLos cuatro ocupantes salieron ilesos y no requirieron atención médica.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #SiniestroVial #FelipeFort #Ruta5 #BuenosAires",
+   "tipo": "video",
+   "titulo": "Felipe Fort volcó con su camioneta en la Ruta 5 entre 9 de Julio y Carlos Casares",
+   "urgente": false,
+   "video_bytes": 101924,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_09_9-de-julio_felipe-fort-volc-con-su-camion.mp4",
+   "volanta": "Siniestro vial en Ruta 5",
+   "youtube_url": "https://youtube.com/shorts/DwDia5ViBIY"
   },
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0": {
    "categoria": "",
@@ -9963,6 +10041,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_03_bragado_piden-libertad-condicional-par.mp4",
    "viral": false
   },
+  "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/|x": {
+   "actualizado": "2026-11-21T09:00:36.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/|x",
+   "creado": "2026-11-21T09:00:22.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-21T02:46:49.000Z",
+   "id": "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-dos-allanamientos-en-un-megaoperativo-provincial-contra-5e8099",
+   "noticia": "nota:lujan-dos-allanamientos-en-un-megaoperativo-provincial-contra-5e8099",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Megaoperativo contra la pedofilia: 136 allanamientos en la provincia\n\nEl Ministerio Público bonaerense realizó 136 procedimientos en 75 ciudades contra redes de grooming y pornografía infantil. Se secuestraron dispositivos electrónicos.\n\nhttps://www.diariolacampaña.com.ar/n/lujan-dos-allanamientos-en-un-megaoperativo-provincial-contra-5e8099",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Megaoperativo contra la pedofilia: 136 allanamientos en la provincia",
+   "urgente": false,
+   "vence": "2026-11-21T04:46:49.000Z",
+   "video_bytes": 92918,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_07_lujan_megaoperativo-contra-la-pedofi.mp4",
+   "viral": true
+  },
   "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/|x": {
    "actualizado": "2026-11-12T23:20:21.000Z",
    "buffer_id": "6af63ba2bcc05bf8b9689fcd",
@@ -10057,14 +10162,14 @@
    "viral": false
   },
   "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/|x": {
-   "actualizado": "2026-11-21T02:40:31.000Z",
+   "actualizado": "2026-11-21T09:00:36.000Z",
    "buffer_id": "",
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/|x",
    "creado": "2026-11-21T02:40:31.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-21T02:32:32.000Z",
    "id": "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/",
    "intentos": 0,
@@ -10726,6 +10831,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_09_chacabuco_delincuentes-abandonaron-una-b.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html|x": {
+   "actualizado": "2026-11-21T09:00:36.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html|x",
+   "creado": "2026-11-21T09:00:22.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-21T03:02:06.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-le-robaron-la-moto-a-un-vecino-en-inmediaciones-de-f1db4c",
+   "noticia": "nota:chacabuco-le-robaron-la-moto-a-un-vecino-en-inmediaciones-de-f1db4c",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Le robaron la moto a un vecino al amanecer en Chacabuco\n\nDelincuentes le sustrajeron el motovehículo a un vecino en las inmediaciones de Hipólito Yrigoyen y Falucho. La víctima radicó la denuncia en la Comisaría local.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-le-robaron-la-moto-a-un-vecino-en-inmediaciones-de-f1db4c",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Le robaron la moto a un vecino al amanecer en Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-21T05:02:06.000Z",
+   "video_bytes": 77117,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_08_chacabuco_le-robaron-la-moto-a-un-vecino.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html|x": {
    "actualizado": "2026-11-19T09:00:23.000Z",
    "buffer_id": "",
@@ -11087,14 +11219,14 @@
    "viral": false
   },
   "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin|x": {
-   "actualizado": "2026-11-21T02:20:13.000Z",
+   "actualizado": "2026-11-21T09:00:36.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin|x",
    "creado": "2026-11-21T02:20:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-21T02:16:49.000Z",
    "id": "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin",
    "intentos": 0,
@@ -11269,6 +11401,33 @@
    "vence": "2026-11-19T05:18:06.000Z",
    "video_bytes": 105371,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_10_9-de-julio_muri-un-hombre-en-un-fuerte-ch.mp4",
+   "viral": true
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/|x": {
+   "actualizado": "2026-11-21T09:00:36.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/|x",
+   "creado": "2026-11-21T09:00:22.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-21T03:17:12.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/felipe-fort-volco-con-su-camioneta-en-la-ruta-5-entre-9-de-f622e8",
+   "noticia": "nota:felipe-fort-volco-con-su-camioneta-en-la-ruta-5-entre-9-de-f622e8",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Felipe Fort volcó con su camioneta en la Ruta 5 entre 9 de Julio y Carlos Casares\n\nEl vehículo terminó en la banquina tras esquivar a un auto. Iban cuatro personas que resultaron ilesas.\n\nhttps://www.diariolacampaña.com.ar/n/felipe-fort-volco-con-su-camioneta-en-la-ruta-5-entre-9-de-f622e8",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Felipe Fort volcó con su camioneta en la Ruta 5 entre 9 de Julio y Carlos Casares",
+   "urgente": false,
+   "vence": "2026-11-21T05:17:12.000Z",
+   "video_bytes": 101924,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_09_9-de-julio_felipe-fort-volc-con-su-camion.mp4",
    "viral": true
   },
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0|x": {
@@ -17450,64 +17609,6 @@
  },
  "registro": [
   {
-   "clave": "web:7ad38e57-b0ac-4dd8-ac1b-8a575a407967|x",
-   "cuando": "2026-11-13T23:40:20.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|x",
-   "cuando": "2026-11-14T00:00:21.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "dura 148 s y X admite 140 s sin suscripción",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok",
-   "cuando": "2026-11-14T00:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:0a7c727d-6a67-4887-b808-eec9a0e44568|x",
-   "cuando": "2026-11-14T00:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:0a7c727d-6a67-4887-b808-eec9a0e44568|x",
-   "cuando": "2026-11-14T00:00:21.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "buffer_id": "6af7a497d16af15d4ddf5b27",
-   "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok",
-   "cuando": "2026-11-14T00:00:24.000Z",
-   "dueAt": "2026-11-14T00:03:25.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6af7a49881e1228421d1040a",
-   "clave": "entrevistas:job00310-r1|tiktok",
-   "cuando": "2026-11-14T00:00:24.000Z",
-   "dueAt": "2026-11-14T00:23:25.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor|x",
-   "cuando": "2026-11-14T00:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mwfmoy2xhrta_01.mp4|tiktok",
    "cuando": "2026-11-14T00:20:15.000Z",
    "evento": "enviado",
@@ -21613,6 +21714,60 @@
    "cuando": "2026-11-21T02:40:31.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2123965511432020396"
+  },
+  {
+   "clave": "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/|x",
+   "cuando": "2026-11-21T09:00:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html|x",
+   "cuando": "2026-11-21T09:00:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/|x",
+   "cuando": "2026-11-21T09:00:36.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/|x",
+   "cuando": "2026-11-21T09:00:36.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin|x",
+   "cuando": "2026-11-21T09:00:36.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/|x",
+   "cuando": "2026-11-21T09:00:36.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html|x",
+   "cuando": "2026-11-21T09:00:36.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/|x",
+   "cuando": "2026-11-21T09:00:36.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -21912,6 +22067,7 @@
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": "2026-11-10T22:40:14.000Z",
   "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte": "2026-11-20T02:20:19.000Z",
   "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": "2026-10-24T00:20:16.000Z",
+  "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/": "2026-11-21T09:00:22.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/": "2026-11-10T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/": "2026-11-12T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/": "2026-11-13T23:40:13.000Z",
@@ -21990,6 +22146,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html": "2026-11-19T02:20:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": "2026-11-01T22:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html": "2026-11-13T00:20:15.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html": "2026-11-21T09:00:22.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html": "2026-11-19T09:00:19.000Z",
@@ -22047,6 +22204,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/06/viernes-bajo-alerta-amarilla-por-tormentas-fuertes-en-9-de-julio-y-la-zona/": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/": "2026-11-10T23:20:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/": "2026-11-19T09:00:19.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/": "2026-11-21T09:00:22.000Z",
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": "2026-11-02T10:03:22.000Z",
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0": "2026-11-11T10:02:35.000Z",
   "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e": "2026-11-12T10:02:44.000Z",

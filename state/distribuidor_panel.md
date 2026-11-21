@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 21/11/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-11-20)
+## Hoy (2026-11-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
-| Notas web | X | 15 | 16 | 0 | 0 | 0 | 0 | 9 |
+| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,22 +27,12 @@ Actualizado: 20/11/2026 23:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
-- X · Reels policiales · Aprehendieron a un joven y secuestraron su auto tras hallar marihuana — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Choque entre un auto y una moto dejó un herido en Alberti — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T21:00 programado entrevistas:job00333|tiktok 
-- 2026-11-20T21:00 programado entrevistas:job00332|tiktok 
-- 2026-11-20T21:40 enviado entrevistas:job00335|tiktok 
-- 2026-11-20T21:40 enviado entrevistas:job00336|tiktok 
-- 2026-11-20T22:40 recibido bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x 
-- 2026-11-20T22:40 recibido bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok 
-- 2026-11-20T22:40 recibido web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x 
-- 2026-11-20T22:40 recibido web:eb7dd6ce-68b1-4158-924b-cd46e922a21a|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-20T22:40 depurado web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-20T22:40 enviado entrevistas:job00332|tiktok 
 - 2026-11-20T22:40 enviado entrevistas:job00333|tiktok 
@@ -60,3 +50,11 @@ Actualizado: 20/11/2026 23:40 (hora AR) · ACTIVO
 - 2026-11-21T02:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
 - 2026-11-21T02:40 recibido policiales:https://diarioelsalado.com.ar/2026/11/un-motocicl 
 - 2026-11-21T02:40 enviado policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
+- 2026-11-21T09:00 recibido policiales:https://diariodelujan.com/operativo-por-abuso-sex 
+- 2026-11-21T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/le-robaro 
+- 2026-11-21T09:00 recibido policiales:https://www.latrochadigital.com.ar/2026/11/20/fel 
+- 2026-11-21T09:00 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-motocicl espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-21T09:00 vencido policiales:https://www.junindigital.com/policiales/2026-11-2 espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-21T09:00 vencido policiales:https://diariodelujan.com/operativo-por-abuso-sex no hubo lugar antes de su vencimiento
+- 2026-11-21T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/le-robaro no hubo lugar antes de su vencimiento
+- 2026-11-21T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/20/fel no hubo lugar antes de su vencimiento
