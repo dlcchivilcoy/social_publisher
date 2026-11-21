@@ -3979,6 +3979,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-facundo-tumbesi-ganamos-un-partido-clave-que-nos-permite",
    "volanta": "Fútbol"
   },
+  "web:6f1c27db-98fb-45a0-b31a-9079360edfc6": {
+   "categoria": "",
+   "descripcion": "Gandolfo y Labaronnie lideran el Rally de Ameghino tras la primera etapa Ramiro Gandolfo y Juan Labaronnie quedaron al frente del Gran Premio Rally de Ameghino después de completar la primera etapa, disputada este sábado 21 de noviembre. La jornada comprendió cinco pruebas especiales y 71,24 kilómetros cronometrados. Los líderes aventajaron por seis segundos a Sebastián Monserrat y Claudio Muciachio, mientras que Horacio y Belén Heiland finalizaron terceros en la general, a 22,1 segundos....",
+   "generado": "2026-11-21T22:56:26.237Z",
+   "id": "web:6f1c27db-98fb-45a0-b31a-9079360edfc6",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_357e9d299bdd444cbcdbad47982036c3~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ameghino-deportes-gandolfo-y-labaronnie-lideran-el-rally-de-ameghino",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Gandolfo y Labaronnie lideran el Rally de Ameghino tras la primera etapa",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ameghino-deportes-gandolfo-y-labaronnie-lideran-el-rally-de-ameghino",
+   "volanta": "Ameghino · Deportes"
+  },
   "web:715ed60b-7e27-4f93-b061-3e96c07992e4": {
    "categoria": "",
    "descripcion": "Chivilcoy: Demarcación de bulevares: una intervención clave para la seguridad vial CHIVILCOY.– Matías Maleichuk destacó que las tareas que lleva adelante la Dirección de Tránsito tienen una importancia que va más allá del embellecimiento urbano, ya que apuntan directamente a mejorar las condiciones de circulación y prevenir siniestros. “Es una tarea de embellecimiento, pero fundamentalmente, en lo que respecta a nuestra área, está orientada a la seguridad vial”, afirmó. El funcionario recordó...",
@@ -13643,6 +13662,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x": {
+   "actualizado": "2026-11-21T23:00:22.000Z",
+   "buffer_id": "",
+   "clave": "web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x",
+   "creado": "2026-11-21T23:00:20.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-21T22:56:26.237Z",
+   "id": "web:6f1c27db-98fb-45a0-b31a-9079360edfc6",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ameghino-deportes-gandolfo-y-labaronnie-lideran-el-rally-de-ameghino",
+   "noticia": "nota:ameghino-deportes-gandolfo-y-labaronnie-lideran-el-rally-de-ameghino",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Gandolfo y Labaronnie lideran el Rally de Ameghino tras la primera etapa\n\nLa dupla aventajó por seis segundos a Sebastián Monserrat y Claudio Muciachio tras cinco pruebas especiales. Horacio y Belén Heiland finalizaron terceros en la general.\n\nhttps://www.diariolacampaña.com.ar/n/ameghino-deportes-gandolfo-y-labaronnie-lideran-el-rally-de-ameghino",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Gandolfo y Labaronnie lideran el Rally de Ameghino tras la primera etapa",
+   "urgente": false,
+   "vence": "2026-11-22T02:56:26.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:715ed60b-7e27-4f93-b061-3e96c07992e4|x": {
    "actualizado": "2026-11-12T11:20:16.000Z",
    "buffer_id": "6af58f16041a9377d7df2962",
@@ -16610,20 +16656,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x",
-   "cuando": "2026-11-14T20:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb|x",
-   "cuando": "2026-11-14T20:20:15.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "web:d18919f0-46ff-47b2-83c2-1363d2423d59|x",
    "cuando": "2026-11-14T22:00:19.000Z",
@@ -20776,6 +20808,20 @@
    "cuando": "2026-11-21T21:40:15.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x",
+   "cuando": "2026-11-21T23:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x",
+   "cuando": "2026-11-21T23:00:22.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21414,6 +21460,7 @@
   "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677": "2026-10-30T15:00:19.000Z",
   "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb": "2026-11-09T10:02:37.000Z",
   "web:6eaf6418-146a-46ea-add6-5506d89ee4b7": "2026-10-24T19:20:18.000Z",
+  "web:6f1c27db-98fb-45a0-b31a-9079360edfc6": "2026-11-21T23:00:20.000Z",
   "web:6f536878-4577-4da9-9ab2-31ae024c0a0e": "2026-10-23T10:02:47.000Z",
   "web:6fa97049-5784-463a-a94e-a3d63da21b58": "2026-10-27T10:03:31.000Z",
   "web:7043907f-96fa-4ca7-b7a2-aec9499785ad": "2026-11-06T10:02:35.000Z",

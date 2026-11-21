@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/11/2026 19:40 (hora AR) · ACTIVO
+Actualizado: 21/11/2026 20:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 21/11/2026 19:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 7 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 21/11/2026 19:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-21T02:20 programado policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
-- 2026-11-21T02:40 recibido policiales:https://diarioelsalado.com.ar/2026/11/un-motocicl 
 - 2026-11-21T02:40 enviado policiales:https://www.bragadoinforma.com.ar/nota/31210/un-m 
 - 2026-11-21T09:00 recibido policiales:https://diariodelujan.com/operativo-por-abuso-sex 
 - 2026-11-21T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/le-robaro 
@@ -58,3 +56,5 @@ Actualizado: 21/11/2026 19:40 (hora AR) · ACTIVO
 - 2026-11-21T21:20 depurado web:aa699acf-5076-4312-a4f2-93b7679d840a|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-21T21:40 recibido web:907296ec-5419-464c-91d8-137c3a16176c|x 
 - 2026-11-21T21:40 depurado web:907296ec-5419-464c-91d8-137c3a16176c|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-21T23:00 recibido web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x 
+- 2026-11-21T23:00 depurado web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x de la web, a X solo van las notas del diario de la mañana
