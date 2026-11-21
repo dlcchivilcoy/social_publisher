@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-20T22:40:38.000Z"
+   "visto": "2026-11-21T00:00:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 22
+    "sent": 23
    },
    "pausado": false,
-   "visto": "2026-11-20T22:40:38.000Z"
+   "visto": "2026-11-21T00:00:19.000Z"
   }
  },
  "contenidos": {
@@ -6870,15 +6870,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok": {
-   "actualizado": "2026-11-20T22:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-21T00:00:19.000Z",
+   "buffer_id": "6b00df149ffbc8503ce541b1",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok",
    "creado": "2026-11-20T22:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-21T00:03:15.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-20T22:29:58.000Z",
    "id": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4",
    "intentos": 0,
@@ -6898,18 +6898,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x": {
-   "actualizado": "2026-11-20T22:40:39.000Z",
+   "actualizado": "2026-11-21T00:00:19.000Z",
    "buffer_id": "6b00cc67d9cbb430a1004575",
    "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x",
    "creado": "2026-11-20T22:40:15.000Z",
    "dueAt": "2026-11-20T22:42:24.000Z",
+   "enviado": "2026-11-20T22:42:38.034Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-20T22:29:58.000Z",
    "id": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2123909911159464195",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
    "noticia": "nota:chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
    "origen": "bot",
@@ -17497,19 +17498,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00315|x",
-   "cuando": "2026-11-13T22:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121348211730206811"
-  },
-  {
-   "buffer_id": "6af78d1e4b28296eb11be5f5",
-   "clave": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x",
-   "cuando": "2026-11-13T22:20:14.000Z",
-   "dueAt": "2026-11-13T22:23:13.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region|x",
    "cuando": "2026-11-13T22:40:17.000Z",
    "estado": "pendiente",
@@ -21659,11 +21647,23 @@
    "cuando": "2026-11-20T23:00:20.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x",
+   "cuando": "2026-11-21T00:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2123909911159464195"
+  },
+  {
+   "buffer_id": "6b00df149ffbc8503ce541b1",
+   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok",
+   "cuando": "2026-11-21T00:00:20.000Z",
+   "dueAt": "2026-11-21T00:03:15.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-10 21",
    "2026-11-11 10",
    "2026-11-11 18",
    "2026-11-11 21",
@@ -21692,11 +21692,12 @@
    "2026-11-19 18",
    "2026-11-19 21",
    "2026-11-20 10",
-   "2026-11-20 18"
+   "2026-11-20 18",
+   "2026-11-20 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-20",
- "ultima_sync": "2026-11-20T22:40:38.000Z",
+ "ultima_limpieza_release": "2026-11-21",
+ "ultima_sync": "2026-11-21T00:00:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

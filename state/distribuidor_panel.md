@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 20/11/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 20/11/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-20)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
 | Notas web | X | 15 | 16 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 22 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,15 +27,12 @@ Actualizado: 20/11/2026 20:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- TikTok · Reels del bot · Una fuerte granizada afectó la zona del Parque Industrial y la Ruta 5 — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T19:40 enviado entrevistas:job00334|x 
-- 2026-11-20T19:40 enviado entrevistas:job00335|x 
 - 2026-11-20T20:20 entrevista_aprobada entrevistas:job00336 
 - 2026-11-20T20:20 recibido entrevistas:job00336|x 
 - 2026-11-20T20:20 recibido entrevistas:job00336|tiktok 
@@ -59,3 +56,5 @@ Actualizado: 20/11/2026 20:40 (hora AR) · ACTIVO
 - 2026-11-20T22:40 programado bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x 
 - 2026-11-20T23:00 recibido web:01599053-9367-4272-a3b7-d36e906da218|x 
 - 2026-11-20T23:00 depurado web:01599053-9367-4272-a3b7-d36e906da218|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-21T00:00 enviado bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x 
+- 2026-11-21T00:00 programado bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok 
