@@ -3239,6 +3239,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/obra-biografica-una-vida-sobre-ruedas-cristina-bracco-presento-su",
    "volanta": "Obra biográfica"
   },
+  "web:3d6dd4d6-874c-4845-9393-b40b2650e570": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: SECUESTRARON un revólver en un allanamiento por amenazas agravadas Personal de la Subdelegación Departamental de Investigaciones (SubDDI) Chivilcoy, en un trabajo conjunto con efectivos de la Jefatura Comunal local, llevó a cabo un allanamiento en una vivienda de esta ciudad que culminó con el secuestro de un arma de fuego. La diligencia judicial se concretó en el marco de una investigación penal preparatoria caratulada como «Amenazas agravadas», en la que interviene la Unidad...",
+   "generado": "2026-11-21T00:19:24.753Z",
+   "id": "web:3d6dd4d6-874c-4845-9393-b40b2650e570",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_762e73e850c040548f438797e1923a8d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-secuestraron-un-revolver-en-un",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: SECUESTRARON un revólver en un allanamiento por amenazas agravadas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-secuestraron-un-revolver-en-un",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c": {
    "categoria": "",
    "descripcion": "Chivilcoy: APREHENDIERON a un menor que circulaba en una moto robada Personal del Grupo Táctico Operativo (GTO) de Chivilcoy aprehendió a un menor de 14 años que circulaba en una motocicleta Zanella ZB 110 cc en la intersección de la calle 99 y avenida Monseñor de Andrea. Al cursar los datos del rodado, se constató que presentaba un pedido de secuestro activo desde el 14 de noviembre de 2026, en el marco de una causa por hurto ocurrido en la ciudad de Chacabuco, cuya denunciante es Silvia...",
@@ -4720,25 +4739,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/preocupacion-vecinal-chivilcoy-investigan-una-serie-de-actos",
    "volanta": "Preocupación vecinal"
-  },
-  "web:ad88cc96-5c59-46c7-ae00-26c4333f393e": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA CHIVILCOY.– HERMOSO encuentro de MOSQUITOS en el estadio OSCAR y ALFREDO BARCA el lunes 9/11, organizado por el CLUB DEPORTIVO COLON, donde también participaron GIMNASIA y ESGRIMA y RACING CLUB. El evento contó con una gran cantidad de niños de entre 4 y 7 años y con un importante marco de público. Los profesores y monitores encargados de esta categoría fueron: COLON: - SILVIO PROPATO - NICOLAS...",
-   "generado": "2026-11-10T23:49:53.203Z",
-   "id": "web:ad88cc96-5c59-46c7-ae00-26c4333f393e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e33d7d05c2fe469d8b396f2b34ae29ee~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
-   "volanta": "Chivilcoy · Deportes"
   },
   "web:b034af07-ddaf-426e-8207-d2724c540524": {
    "categoria": "",
@@ -12864,6 +12864,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:3d6dd4d6-874c-4845-9393-b40b2650e570|x": {
+   "actualizado": "2026-11-21T00:20:20.000Z",
+   "buffer_id": "",
+   "clave": "web:3d6dd4d6-874c-4845-9393-b40b2650e570|x",
+   "creado": "2026-11-21T00:20:13.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-21T00:19:24.753Z",
+   "id": "web:3d6dd4d6-874c-4845-9393-b40b2650e570",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-secuestraron-un-revolver-en-un",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-secuestraron-un-revolver-en-un",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: SECUESTRARON un revólver en un allanamiento por amenazas agravadas\n\nEfectivos policiales allanaron una vivienda y secuestraron un arma de fuego. La diligencia judicial se concretó por una causa caratulada como amenazas agravadas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-secuestraron-un-revolver-en-un",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: SECUESTRARON un revólver en un allanamiento por amenazas agravadas",
+   "urgente": false,
+   "vence": "2026-11-21T04:19:24.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c|x": {
    "actualizado": "2026-11-18T23:20:27.000Z",
    "buffer_id": "",
@@ -15505,31 +15532,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:ad88cc96-5c59-46c7-ae00-26c4333f393e|x": {
-   "actualizado": "2026-11-11T00:00:21.000Z",
-   "buffer_id": "",
-   "clave": "web:ad88cc96-5c59-46c7-ae00-26c4333f393e|x",
-   "creado": "2026-11-11T00:00:21.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-10T23:49:53.203Z",
-   "id": "web:ad88cc96-5c59-46c7-ae00-26c4333f393e",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-encuentro-de-basquet-de-la-categoria",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: ENCUENTRO de básquet de la categoría mosquitos en el estadio OSCAR y ALFREDO BARCA",
-   "urgente": false,
-   "vence": "2026-11-11T03:49:53.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:b034af07-ddaf-426e-8207-d2724c540524|x": {
    "actualizado": "2026-11-12T14:00:17.000Z",
    "buffer_id": "",
@@ -17497,22 +17499,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region|x",
-   "cuando": "2026-11-13T22:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html|x",
-   "cuando": "2026-11-13T23:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "entrevistas:job00309|tiktok",
    "cuando": "2026-11-13T23:20:14.000Z",
@@ -21660,6 +21646,20 @@
    "cuando": "2026-11-21T00:00:20.000Z",
    "dueAt": "2026-11-21T00:03:15.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:3d6dd4d6-874c-4845-9393-b40b2650e570|x",
+   "cuando": "2026-11-21T00:20:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:3d6dd4d6-874c-4845-9393-b40b2650e570|x",
+   "cuando": "2026-11-21T00:20:20.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21778,7 +21778,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvis6vqnjbje_01.mp4": "2026-10-22T00:20:17.000Z",
   "bot:video_matias-zucchi_mvisx6zzgoa3_01.mp4": "2026-10-22T00:40:17.000Z",
   "bot:video_matias-zucchi_mvjjqyn0jbm4_01.mp4": "2026-10-22T13:20:15.000Z",
   "bot:video_matias-zucchi_mvjluzixklug_01.mp4": "2026-10-22T14:20:16.000Z",
@@ -21951,7 +21950,6 @@
   "nacionales:545f9842d5a42866": "2026-10-24T00:20:16.000Z",
   "nacionales:56e46b4aea933185": "2026-10-24T01:00:18.000Z",
   "nacionales:5de2902aa9f0dc53": "2026-10-23T21:20:13.000Z",
-  "nacionales:89b6dd1b304f6c4e": "2026-10-22T00:20:17.000Z",
   "nacionales:975c5666332b123b": "2026-10-22T22:00:20.000Z",
   "nacionales:ae9e5a4804b66987": "2026-10-23T23:00:18.000Z",
   "nacionales:b3aa9eb0744c0822": "2026-10-22T01:00:18.000Z",
@@ -21990,7 +21988,6 @@
   "policiales:https://junin24.com/policiales/recuperan-una-bicicleta-robada-atrapan-a-un-profugo-y-detienen-a-un-agresor-por-violencia-de-genero": "2026-10-26T22:20:14.000Z",
   "policiales:https://laopinionline.ar/articulo/celeste-montarana-sigue-en-estado-critico-tras-el-ataque-policial-en-arrecifes-y-el-padre-exige-justicia": "2026-10-29T23:40:14.000Z",
   "policiales:https://laopinionline.ar/articulo/gatillo-facil-en-arrecifes-dos-policias-aprehendidos-y-seis-jovenes-pergaminenses-lesionados-por-la-balacera-policial": "2026-10-26T09:00:18.000Z",
-  "policiales:https://laopinionline.ar/articulo/la-fiscalia-sostiene-que-el-jardinero-participo-del-violento-asalto-a-la-casa-de-la-mujer-donde-trabajaba": "2026-10-22T00:20:17.000Z",
   "policiales:https://laopinionline.ar/articulo/salto-secuestraron-una-camioneta-por-graves-infracciones-y-desarticularon-una-fiesta-clandestina": "2026-11-09T23:20:16.000Z",
   "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/": "2026-11-02T23:20:15.000Z",
   "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/": "2026-11-09T22:40:14.000Z",
@@ -22223,6 +22220,7 @@
   "web:3bf7ae35-5231-4c00-9dfe-f07b4f90cb35": "2026-11-18T16:00:21.000Z",
   "web:3c2f1934-c1bb-40bb-9a33-d969e19d76ac": "2026-11-05T22:40:14.000Z",
   "web:3d3373dd-ee69-4fc7-a39d-0aec74b76b6e": "2026-11-12T10:02:44.000Z",
+  "web:3d6dd4d6-874c-4845-9393-b40b2650e570": "2026-11-21T00:20:13.000Z",
   "web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c": "2026-11-18T23:20:24.000Z",
   "web:3db074fa-b73d-41dc-9567-5ce1c3d65907": "2026-11-04T02:00:20.000Z",
   "web:3e3abc09-6c21-4ab2-88f6-118e63835441": "2026-10-25T21:00:16.000Z",
@@ -22578,7 +22576,6 @@
   "web:e700de23-2158-4ceb-9d8e-86a0d3a8b7d5": "2026-10-29T10:02:34.000Z",
   "web:e71fb0dc-94d7-456d-9127-31522ce0aa70": "2026-10-27T10:03:31.000Z",
   "web:e734229c-79c5-449c-91b5-fec63de9a1ad": "2026-11-04T10:20:13.000Z",
-  "web:e790e167-f2c1-4e20-bcee-7d86399107cd": "2026-10-22T00:20:17.000Z",
   "web:e7db619d-9df6-4b45-871f-f8453608c66f": "2026-11-17T10:03:18.000Z",
   "web:e8070380-cce0-41f4-8a78-b0a02378bc68": "2026-11-08T17:20:17.000Z",
   "web:e92d7cef-125b-45bf-8655-591a3ccc565b": "2026-10-23T14:00:23.000Z",
