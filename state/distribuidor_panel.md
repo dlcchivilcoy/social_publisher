@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/11/2026 08:40 (hora AR) · ACTIVO
+Actualizado: 21/11/2026 09:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 21/11/2026 08:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 21/11/2026 08:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-20T22:40 depurado web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-20T22:40 enviado entrevistas:job00332|tiktok 
 - 2026-11-20T22:40 enviado entrevistas:job00333|tiktok 
 - 2026-11-20T22:40 enviado entrevistas:job00334|tiktok 
 - 2026-11-20T22:40 programado bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x 
@@ -58,3 +56,5 @@ Actualizado: 21/11/2026 08:40 (hora AR) · ACTIVO
 - 2026-11-21T09:00 vencido policiales:https://diariodelujan.com/operativo-por-abuso-sex no hubo lugar antes de su vencimiento
 - 2026-11-21T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/le-robaro no hubo lugar antes de su vencimiento
 - 2026-11-21T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/20/fel no hubo lugar antes de su vencimiento
+- 2026-11-21T12:00 recibido web:36063451-bcf8-479d-8bfe-ebe6376e7dcf|x 
+- 2026-11-21T12:00 depurado web:36063451-bcf8-479d-8bfe-ebe6376e7dcf|x de la web, a X solo van las notas del diario de la mañana
