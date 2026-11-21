@@ -1661,6 +1661,32 @@
    "volanta": "Operativo en Del Carril",
    "youtube_url": "https://youtube.com/shorts/GPxtCaTIk7I"
   },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html": {
+   "categoria": "accidente_vial",
+   "descripcion": "Leandro Del Basto, de 35 años, debió ser llevado de urgencia al hospital tras impactar con su moto contra una camioneta en Pellegrini y Combate de San Lorenzo.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-21T02:03:20.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-motociclista-de-35-anos-herido-tras-chocar-contra-759f32",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un motociclista de 35 años sufrió lesiones de consideración y fue trasladado de urgencia al centro de salud local tras protagonizar un violento choque contra una camioneta.\n\nEl hecho ocurrió en el cruce de las calles Pellegrini y Combate de San Lorenzo, donde por motivos que se investigan colisionaron una moto Keller Crono azul y un utilitario Mercedes-Benz.\n\nEn la escena trabajaron efectivos policiales y peritos de la Policía Científica, mientras que la investigación quedó en manos de la UFI N° 4 de Mercedes.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Bragado: un motociclista de 35 años herido tras chocar contra una camioneta",
+   "urgente": false,
+   "video_bytes": 90209,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_04_bragado_bragado-un-motociclista-de-35-.mp4",
+   "volanta": "Siniestro vial en Bragado",
+   "youtube_url": "https://youtube.com/shorts/ZS41QALmm0A"
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region": {
    "categoria": "alerta_meteorologica",
    "descripcion": "El Servicio Meteorológico Nacional emitió una advertencia para este viernes debido a la llegada de tormentas intensas, abundante caída de agua, granizo y vientos que podrían superar los 90 kilómetros por hora en la región.",
@@ -2180,6 +2206,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_08_junin_dos-aprehendidos-por-robar-en-.mp4",
    "volanta": "Junín",
    "youtube_url": "https://youtube.com/shorts/nv99m5TY1Vs"
+  },
+  "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin": {
+   "categoria": "operativo_policial",
+   "descripcion": "Un joven fue aprehendido en Junín luego de que la Policía le encontrara marihuana durante un control vehicular. Además, el auto fue secuestrado por circular sin seguro ni licencia.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-21T02:16:49.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-aprehendieron-a-un-joven-y-secuestraron-un-auto-tras-51f506",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un joven fue aprehendido en Junín durante la madrugada del viernes tras un control policial en avenida Circunvalación y Juez Pérez.\n\nLos efectivos de la Unidad de Policía de Prevención Local interceptaron un Volkswagen Gol Trend y hallaron marihuana entre las pertenencias de los ocupantes.\n\nAdemás, el automóvil fue secuestrado debido a que el conductor carecía de licencia de conducir y el rodado no tenía seguro obligatorio.\n\nInterviene en el caso la Unidad Fiscal Especializada en Estupefacientes bajo la carátula de infracción a la Ley 23.737.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Operativo #Policia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Aprehendieron a un joven y secuestraron su auto tras hallar marihuana",
+   "urgente": false,
+   "video_bytes": 89045,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_05_junin_aprehendieron-a-un-joven-y-sec.mp4",
+   "volanta": "Operativo policial en Junín",
+   "youtube_url": "https://youtube.com/shorts/dMSqNIdsaS8"
   },
   "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/": {
    "categoria": "violencia_genero",
@@ -10358,6 +10410,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_05_roque-perez_secuestran-redes-ilegales-de-p.mp4",
    "viral": false
   },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html|x": {
+   "actualizado": "2026-11-21T02:20:13.000Z",
+   "buffer_id": "6b00ffde5102766245ed32fc",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html|x",
+   "creado": "2026-11-21T02:20:13.000Z",
+   "dueAt": "2026-11-21T02:23:20.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-21T02:03:20.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-un-motociclista-de-35-anos-herido-tras-chocar-contra-759f32",
+   "noticia": "nota:bragado-un-motociclista-de-35-anos-herido-tras-chocar-contra-759f32",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Bragado: un motociclista de 35 años herido tras chocar contra una camioneta\n\nLeandro Del Basto, de 35 años, debió ser llevado de urgencia al hospital tras impactar con su moto contra una camioneta en Pellegrini y Combate de San Lorenzo.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-un-motociclista-de-35-anos-herido-tras-chocar-contra-759f32",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bragado: un motociclista de 35 años herido tras chocar contra una camioneta",
+   "urgente": false,
+   "vence": "2026-11-21T04:03:20.000Z",
+   "video_bytes": 90209,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_04_bragado_bragado-un-motociclista-de-35-.mp4",
+   "viral": false
+  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/13/26984-alerta-naranja-por-tormentas-fuertes-para-bragado-y-la-region|x": {
    "actualizado": "2026-11-14T00:40:14.000Z",
    "buffer_id": "",
@@ -10949,6 +11029,34 @@
    "vence": "2026-11-20T05:03:34.000Z",
    "video_bytes": 71075,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_08_junin_dos-aprehendidos-por-robar-en-.mp4",
+   "viral": false
+  },
+  "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin|x": {
+   "actualizado": "2026-11-21T02:20:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin|x",
+   "creado": "2026-11-21T02:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-21T02:16:49.000Z",
+   "id": "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-aprehendieron-a-un-joven-y-secuestraron-un-auto-tras-51f506",
+   "noticia": "nota:junin-aprehendieron-a-un-joven-y-secuestraron-un-auto-tras-51f506",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Aprehendieron a un joven y secuestraron su auto tras hallar marihuana\n\nUn joven fue aprehendido en Junín luego de que la Policía le encontrara marihuana durante un control vehicular. Además, el auto fue secuestrado por circular sin seguro ni licencia.\n\nhttps://www.diariolacampaña.com.ar/n/junin-aprehendieron-a-un-joven-y-secuestraron-un-auto-tras-51f506",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Aprehendieron a un joven y secuestraron su auto tras hallar marihuana",
+   "urgente": false,
+   "vence": "2026-11-21T04:16:49.000Z",
+   "video_bytes": 89045,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_05_junin_aprehendieron-a-un-joven-y-sec.mp4",
    "viral": false
   },
   "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/|x": {
@@ -17287,24 +17395,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00310|tiktok",
-   "cuando": "2026-11-13T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707790372642098453"
-  },
-  {
-   "clave": "entrevistas:job00311|tiktok",
-   "cuando": "2026-11-13T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7707785223018138900"
-  },
-  {
-   "clave": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x",
-   "cuando": "2026-11-13T23:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121368331361857989"
-  },
-  {
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/se-incendio-una-camioneta-en-el-camino-real-alberti-benitez/|x",
    "cuando": "2026-11-13T23:40:13.000Z",
    "estado": "pendiente",
@@ -21447,6 +21537,29 @@
    "cuando": "2026-11-21T01:00:20.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7710408957986213126"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html|x",
+   "cuando": "2026-11-21T02:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin|x",
+   "cuando": "2026-11-21T02:20:13.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6b00ffde5102766245ed32fc",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html|x",
+   "cuando": "2026-11-21T02:20:14.000Z",
+   "dueAt": "2026-11-21T02:23:20.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21791,6 +21904,7 @@
   "policiales:https://www.bragadoinforma.com.ar/nota/31099/chocaron-dos-motos-una-mujer-sufrio-una-fractura-grave-y-un-adolescente-fue-aprehendido.html": "2026-11-01T00:20:15.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html": "2026-11-03T22:20:16.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31139/motociclista-alcoholizado-choco-contra-un-auto-estacionado-frente-al-teatro-constantino.html": "2026-11-08T22:40:14.000Z",
+  "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html": "2026-11-21T02:20:13.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/25/26556-esclarecieron-un-robo-en-bragado-dos-aprehendidos-y-elementos-recuperados": "2026-10-25T22:40:17.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/26592-la-justicia-confirmo-la-prision-preventiva-de-german-diaz-y-el-concejo-deliberante-definira-su-reemplazo": "2026-10-27T23:20:16.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc": "2026-10-28T23:20:14.000Z",
@@ -21853,6 +21967,7 @@
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": "2026-10-29T23:40:14.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor": "2026-11-11T23:20:14.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-19-10-15-0-junin-dos-hombres-aprehendidos-tras-esclarecer-un-robo-a-un-comercio": "2026-11-20T09:00:18.000Z",
+  "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin": "2026-11-21T02:20:13.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-4-9-51-0-violento-choque-entre-un-camion-y-un-auto-cerca-de-chivilcoy-dos-conductores-hospitalizados": "2026-11-04T22:20:15.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-1-0-una-estafa-de-11-7-millones-por-whatsapp-termino-con-allanamientos-y-el-dinero-llego-a-presos-de-junin": "2026-11-08T23:20:14.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-8-10-37-0-violencia-escolar-en-junin-atacaron-en-patota-a-una-adolescente-y-aprehendieron-a-una-menor-de-15-anos": "2026-11-08T22:20:12.000Z",
