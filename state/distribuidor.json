@@ -5125,6 +5125,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-5-sociedad-vecinos-suspendieron-la-movilizacion-al-peaje-de",
    "volanta": "Ruta 5 · Sociedad"
   },
+  "web:d8d9e806-dc3e-4887-b796-d8971d445e58": {
+   "categoria": "",
+   "descripcion": "PAMI Chivilcoy espera nuevas autoridades y habría demoras en trámites PAMI Chivilcoy continúa a la espera de la definición de sus nuevas autoridades tras la salida de Federico Feminella y Guillermo Giuri, lo que dejó dos cargos vacantes. La demora en cubrir esas responsabilidades habría provocado dificultades en trámites de jubilados y pensionados vinculados con autorizaciones, cobertura médica y otros servicios. Mientras se aguardan las designaciones, en la sede de avenida Villarino y Biedma...",
+   "generado": "2026-11-21T23:43:19.912Z",
+   "id": "web:d8d9e806-dc3e-4887-b796-d8971d445e58",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e3d78b720d514c4e8db0702b880988ff~mv2.webp",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-pami-chivilcoy-espera-nuevas-autoridades-y-habria",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "PAMI Chivilcoy espera nuevas autoridades y habría demoras en trámites",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-pami-chivilcoy-espera-nuevas-autoridades-y-habria",
+   "volanta": "Chivilcoy · Salud"
+  },
   "web:dbf352ff-5f10-4d42-b7a1-25afb048d043": {
    "categoria": "",
    "descripcion": "Chivilcoy: ATIADIM convoca a la comunidad a sumarse a dos iniciativas solidarias para recuperar sus actividades acuáticas Junto al grupo ciclista Kilómetros que Ayudan, la institución chivilcoyana organizó una venta de pollos asados para el domingo 29 de noviembre y una bicicleteada rural para el 6 de diciembre. Lo recaudado permitirá poner nuevamente en marcha la pileta de su predio y sostener las propuestas recreativas de verano para los concurrentes. Con el objetivo de volver a poner en...",
@@ -15574,6 +15593,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:d8d9e806-dc3e-4887-b796-d8971d445e58|x": {
+   "actualizado": "2026-11-22T00:00:26.000Z",
+   "buffer_id": "",
+   "clave": "web:d8d9e806-dc3e-4887-b796-d8971d445e58|x",
+   "creado": "2026-11-22T00:00:17.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-21T23:43:19.912Z",
+   "id": "web:d8d9e806-dc3e-4887-b796-d8971d445e58",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-pami-chivilcoy-espera-nuevas-autoridades-y-habria",
+   "noticia": "nota:chivilcoy-salud-pami-chivilcoy-espera-nuevas-autoridades-y-habria",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "PAMI Chivilcoy espera nuevas autoridades y habría demoras en trámites\n\nLa falta de designación de cargos vacantes habría provocado dificultades en trámites de jubilados vinculados con autorizaciones y cobertura médica.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-pami-chivilcoy-espera-nuevas-autoridades-y-habria",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "PAMI Chivilcoy espera nuevas autoridades y habría demoras en trámites",
+   "urgente": false,
+   "vence": "2026-11-22T03:43:19.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:dbf352ff-5f10-4d42-b7a1-25afb048d043|x": {
    "actualizado": "2026-11-19T10:20:28.000Z",
    "buffer_id": "6afebc4c73dee4185935d01a",
@@ -16413,20 +16459,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:d18919f0-46ff-47b2-83c2-1363d2423d59|x",
-   "cuando": "2026-11-14T22:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:d18919f0-46ff-47b2-83c2-1363d2423d59|x",
-   "cuando": "2026-11-14T22:00:19.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html|x",
    "cuando": "2026-11-14T22:20:14.000Z",
@@ -20579,11 +20611,24 @@
    "cuando": "2026-11-21T23:00:22.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:d8d9e806-dc3e-4887-b796-d8971d445e58|x",
+   "cuando": "2026-11-22T00:00:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:d8d9e806-dc3e-4887-b796-d8971d445e58|x",
+   "cuando": "2026-11-22T00:00:26.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-11 21",
    "2026-11-12 10",
    "2026-11-12 18",
    "2026-11-12 21",
@@ -20612,10 +20657,11 @@
    "2026-11-20 18",
    "2026-11-20 21",
    "2026-11-21 10",
-   "2026-11-21 18"
+   "2026-11-21 18",
+   "2026-11-21 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-21",
+ "ultima_limpieza_release": "2026-11-22",
  "ultima_sync": "2026-11-21T02:40:31.000Z",
  "version": 1,
  "vistos": {
@@ -21436,6 +21482,7 @@
   "web:d84d3ec0-05cf-43ec-a248-9969295317ed": "2026-11-10T10:02:42.000Z",
   "web:d896f31f-27f4-4bfd-a371-8106455d4c26": "2026-11-06T10:02:35.000Z",
   "web:d8bbde96-e323-4c02-93f7-b2e09a555019": "2026-10-29T10:02:34.000Z",
+  "web:d8d9e806-dc3e-4887-b796-d8971d445e58": "2026-11-22T00:00:17.000Z",
   "web:d8e94a2d-145b-4ca4-a85b-0994863d6185": "2026-10-26T14:20:14.000Z",
   "web:d90365e7-57ab-4bdc-90e5-fbd2e5210400": "2026-10-29T10:02:34.000Z",
   "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa": "2026-10-30T10:20:13.000Z",
