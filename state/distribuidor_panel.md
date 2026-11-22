@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/11/2026 10:00 (hora AR) · ACTIVO
+Actualizado: 22/11/2026 10:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 22/11/2026 10:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 2 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 34 con métricas · mediana vistas/impresiones 76.5 · likes 0
@@ -33,7 +33,6 @@ Actualizado: 22/11/2026 10:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-21T21:40 recibido web:907296ec-5419-464c-91d8-137c3a16176c|x 
 - 2026-11-21T21:40 depurado web:907296ec-5419-464c-91d8-137c3a16176c|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-21T23:00 recibido web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x 
 - 2026-11-21T23:00 depurado web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x de la web, a X solo van las notas del diario de la mañana
@@ -58,3 +57,4 @@ Actualizado: 22/11/2026 10:00 (hora AR) · ACTIVO
 - 2026-11-22T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/llamativo no hubo lugar antes de su vencimiento
 - 2026-11-22T09:00 enviado policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo- 
 - 2026-11-22T13:00 programado bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|tiktok 
+- 2026-11-22T13:20 enviado bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|tiktok 
