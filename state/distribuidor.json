@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 6
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-21T02:40:31.000Z"
+   "visto": "2026-11-22T02:20:34.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 23
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-21T02:40:31.000Z"
+   "visto": "2026-11-22T02:20:34.000Z"
   }
  },
  "contenidos": {
@@ -1743,6 +1743,32 @@
    "volanta": "Robo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/9sciqb-LX74"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html": {
+   "categoria": "otro_policial",
+   "descripcion": "La Policía y el damnificado encontraron este sábado una moto Rouser 200 que había sido robada en la madrugada del viernes en Yrigoyen y Falucho. El rodado estaba abandonado cerca de las vías del tren, en la continuación de la calle Alberdi.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-22T02:06:57.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-hallaron-este-sabado-una-moto-robada-en-un-descampado-2745bd",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Encontraron este sábado una moto Rouser 200 que había sido robada en la madrugada del viernes en Yrigoyen y Falucho.\n\nEl rodado fue hallado por personal policial junto con el propio damnificado en un sector descampado.\n\nLa motocicleta estaba ubicada cerca de las vías del tren, en la continuación de la calle Alberdi.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Hallaron este sábado una moto robada en un descampado de Chacabuco",
+   "urgente": false,
+   "video_bytes": 108425,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_02_chacabuco_hallaron-este-s-bado-una-moto-.mp4",
+   "volanta": "Hallazgo en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/hPITNMN9hjo"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html": {
    "categoria": "otro_policial",
    "descripcion": "Personal de la Patrulla Rural interceptó a dos hombres en el camino que une Chacabuco con Irala. Uno llevaba un machete y habían intentado escapar tras el llamado de una mujer que denunció el robo de su nieto a su propio padre.",
@@ -1924,6 +1950,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_10_chacabuco_robaron-una-moto-guerrero-110-.mp4",
    "volanta": "Robo en Chacabuco",
    "youtube_url": ""
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Un trabajador de nacionalidad paraguaya falleció este sábado tras sufrir una descarga eléctrica y un incendio en una obra en construcción en Junín. Fue asistido por bomberos y personal médico, pero constataron su deceso en el hospital.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-22T02:18:19.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-murio-un-albanil-tras-recibir-una-descarga-electrica-y-47d395",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Un trágico accidente laboral sacudió este sábado a la ciudad de Junín, donde un albañil perdió la vida luego de recibir una descarga eléctrica en una obra en construcción ubicada en la calle Lebensohn, entre Arias y 2 de Enero.\n\nLa víctima fue identificada como Diosnel Núñez, de nacionalidad paraguaya, quien además sufrió un principio de incendio en el lugar que debió ser controlado por los bomberos.\n\nA pesar de ser asistido rápidamente por personal de salud y trasladado de urgencia al Hospital Interzonal de Agudos, los profesionales no lograron salvarle la vida y constataron su fallecimiento.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Murió un albañil tras recibir una descarga eléctrica y desatarse un incendio",
+   "urgente": false,
+   "video_bytes": 93360,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_03_chacabuco_muri-un-alba-il-tras-recibir-u.mp4",
+   "volanta": "Accidente laboral en Junín",
+   "youtube_url": "https://youtube.com/shorts/0P7KiZg7X6o"
   },
   "policiales:https://www.diariodemocracia.com/ciudad/chacabuco/348152-un-fuerte-temporal-provoco-inundaciones-cortes-de": {
    "categoria": "alerta_meteorologica",
@@ -6486,18 +6538,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x": {
-   "actualizado": "2026-11-22T02:00:32.000Z",
+   "actualizado": "2026-11-22T02:20:34.000Z",
    "buffer_id": "6b024cc0d864a011058d091f",
    "clave": "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x",
    "creado": "2026-11-22T02:00:23.000Z",
    "dueAt": "2026-11-22T02:02:00.000Z",
+   "enviado": "2026-11-22T02:02:07.337Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-22T01:45:06.000Z",
    "id": "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124322501433979068",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-hinchas-de-boca-festejaron-en-el-centro",
    "noticia": "nota:chivilcoy-deportes-chivilcoy-hinchas-de-boca-festejaron-en-el-centro",
    "origen": "bot",
@@ -9950,6 +10003,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_05_chacabuco_le-robaron-la-moto-a-un-vecino.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x": {
+   "actualizado": "2026-11-22T02:20:34.000Z",
+   "buffer_id": "6b025172cc364169c11f7678",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x",
+   "creado": "2026-11-22T02:20:21.000Z",
+   "dueAt": "2026-11-22T02:23:04.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-22T02:06:57.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-hallaron-este-sabado-una-moto-robada-en-un-descampado-2745bd",
+   "noticia": "nota:chacabuco-hallaron-este-sabado-una-moto-robada-en-un-descampado-2745bd",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Hallaron este sábado una moto robada en un descampado de Chacabuco\n\nLa Policía y el damnificado localizaron una Rouser 200 sustraída el viernes. El vehículo estaba abandonado cerca de las vías del tren, en la continuación de Alberdi.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-hallaron-este-sabado-una-moto-robada-en-un-descampado-2745bd",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Hallaron este sábado una moto robada en un descampado de Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-22T04:06:57.000Z",
+   "video_bytes": 108425,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_02_chacabuco_hallaron-este-s-bado-una-moto-.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html|x": {
    "actualizado": "2026-11-19T02:40:23.000Z",
    "buffer_id": "6afe5ce946636f319e7ebdad",
@@ -10159,6 +10240,34 @@
    "vence": "2026-11-13T02:31:22.000Z",
    "video_bytes": 86742,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_10_chacabuco_robaron-una-moto-guerrero-110-.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html|x": {
+   "actualizado": "2026-11-22T02:20:21.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html|x",
+   "creado": "2026-11-22T02:20:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-22T02:18:19.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-murio-un-albanil-tras-recibir-una-descarga-electrica-y-47d395",
+   "noticia": "nota:junin-murio-un-albanil-tras-recibir-una-descarga-electrica-y-47d395",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Murió un albañil tras recibir una descarga eléctrica y desatarse un incendio\n\nUn trabajador de nacionalidad paraguaya falleció este sábado tras sufrir una descarga eléctrica y un incendio en una obra en construcción en Junín.\n\nhttps://www.diariolacampaña.com.ar/n/junin-murio-un-albanil-tras-recibir-una-descarga-electrica-y-47d395",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Murió un albañil tras recibir una descarga eléctrica y desatarse un incendio",
+   "urgente": false,
+   "vence": "2026-11-22T04:18:19.000Z",
+   "video_bytes": 93360,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_03_chacabuco_muri-un-alba-il-tras-recibir-u.mp4",
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/ciudad/chacabuco/348152-un-fuerte-temporal-provoco-inundaciones-cortes-de|x": {
@@ -16337,36 +16446,6 @@
  },
  "registro": [
   {
-   "clave": "web:6660aa77-72e5-4b87-ac3a-0c96160d4930|x",
-   "cuando": "2026-11-15T01:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:6660aa77-72e5-4b87-ac3a-0c96160d4930|x",
-   "cuando": "2026-11-15T01:00:19.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x",
-   "cuando": "2026-11-15T01:20:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok",
-   "cuando": "2026-11-15T01:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:761944f8-e1c1-436a-9ef1-bf5df2286672|x",
    "cuando": "2026-11-15T01:20:32.000Z",
    "estado": "pendiente",
@@ -20505,6 +20584,35 @@
    "cuando": "2026-11-22T02:00:33.000Z",
    "dueAt": "2026-11-22T02:02:00.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x",
+   "cuando": "2026-11-22T02:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html|x",
+   "cuando": "2026-11-22T02:20:34.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x",
+   "cuando": "2026-11-22T02:20:34.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124322501433979068"
+  },
+  {
+   "buffer_id": "6b025172cc364169c11f7678",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x",
+   "cuando": "2026-11-22T02:20:34.000Z",
+   "dueAt": "2026-11-22T02:23:04.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20542,7 +20650,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-22",
- "ultima_sync": "2026-11-21T02:40:31.000Z",
+ "ultima_sync": "2026-11-22T02:20:34.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -20827,7 +20935,6 @@
   "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor": "2026-11-14T00:20:14.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto": "2026-11-15T23:40:13.000Z",
   "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/": "2026-11-19T09:00:19.000Z",
-  "policiales:https://www.bragadoinforma.com.ar/nota/31050/choque-fuga-y-misterio-impacto-a-otro-auto-y-abandono-el-vehiculo-a-pocas-cuadras.html": "2026-10-23T02:20:14.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html": "2026-10-27T23:20:16.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31099/chocaron-dos-motos-una-mujer-sufrio-una-fractura-grave-y-un-adolescente-fue-aprehendido.html": "2026-11-01T00:20:15.000Z",
@@ -20859,6 +20966,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html": "2026-11-13T23:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html": "2026-11-12T23:40:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html": "2026-11-22T02:20:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html": "2026-11-08T23:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html": "2026-11-19T02:20:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/la-semana-comienza-con-una-nueva-alerta.html": "2026-11-01T22:40:15.000Z",
@@ -20871,6 +20979,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html": "2026-11-14T22:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-esclarecieron.html": "2026-11-20T09:00:18.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/robo-en-la-madrugada-de-chacabuco.html": "2026-11-13T00:40:18.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html": "2026-11-22T02:20:21.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/chacabuco/348152-un-fuerte-temporal-provoco-inundaciones-cortes-de": "2026-11-17T23:40:12.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347002-quiso-pagar-con-una-billetera-virtual-trucha-en-un": "2026-10-23T23:40:15.000Z",
