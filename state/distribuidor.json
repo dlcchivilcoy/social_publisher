@@ -285,6 +285,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e080e96ecd930bff.mp4",
    "youtube_url": "https://www.youtube.com/shorts/Uw4VqYUTdAg"
   },
+  "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4": {
+   "descripcion": "En las instalaciones de Racing Club se lleva a cabo la quinta edición de la FLICH, el tradicional festival y feria del libro independiente de Chivilcoy.\n\nEl encuentro cuenta con una amplia propuesta que reúne stands de diversas editoriales, instituciones y escritores independientes que acercan sus producciones al público local.\n\nA lo largo de la jornada, la programación incluye la realización de entrevistas a destacados autores del ámbito nacional que forman parte de esta nueva convocatoria literaria.\n\nEl cierre de esta quinta edición del festival independiente estará a cargo de la reconocida artista Miss Bolivia con una presentación musical.",
+   "duracion_seg": 40.0,
+   "generado": "2026-11-22T21:25:37.000Z",
+   "id": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Se lleva a cabo la quinta edición de la FLICH en Racing Club",
+   "urgente": false,
+   "video_bytes": 8785187,
+   "video_mb": 8.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0b62713fe392f66c.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/SQN8Pf7U-jQ"
+  },
   "entrevistas:job00304": {
    "descripcion": "Laura Azcola, directora de Discapacidad de Chivilcoy, advirtió sobre la precarización y los bajos ingresos que perciben las personas con discapacidad en el sector privado y talleres protegidos. Remarcó la necesidad de avanzar hacia una remuneración digna.",
    "duracion_seg": null,
@@ -2414,6 +2435,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/crimen-en-mechita-la-autopsia-confirmo-que-carballo-murio-por-un",
    "volanta": "Crimen en Mechita"
+  },
+  "web:0631a52f-24c6-4511-a712-b95f4a815afb": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Se lleva a cabo la quinta edición de la FLICH en Racing Club En el salón de Racing Club se lleva a cabo la quinta edición de la FLICH, el festival y feria del libro independiente de Chivilcoy, con stands de distintas editoriales, instituciones y escritores independientes. Asimismo, se realizan entrevistas a destacados autores nacionales y habrá un cierre musical a cargo de Miss Bolivia.",
+   "generado": "2026-11-22T21:24:09.084Z",
+   "id": "web:0631a52f-24c6-4511-a712-b95f4a815afb",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_cfcfb3670c6c4ce7bd2a119d36d0f387~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Se lleva a cabo la quinta edición de la FLICH en Racing Club",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
+   "volanta": "Chivilcoy · Cultura"
   },
   "web:0649b9df-9dcf-46f0-b904-cf607353f7e7": {
    "categoria": "",
@@ -4581,25 +4621,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-racing-supero-a-gimnasia-en-la-ultima",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: APS realizará una jornada de capacitación y prevención sobre diabetes CHIVILCOY.– En el marco del Día Mundial de la Diabetes, que se conmemora cada 14 de noviembre, la Dirección de Atención Primaria de la Salud (APS) llevará adelante una jornada de capacitación y concientización destinada a profesionales de la salud, estudiantes, pacientes y familiares. La actividad tendrá lugar en el Centro Universitario, este viernes 13, a partir de las 9 horas, y estará orientada a brindar...",
-   "generado": "2026-11-12T21:39:17.445Z",
-   "id": "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_85863648a0094f44b999d33dbf1f7788~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: APS realizará una jornada de capacitación y prevención sobre diabetes",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
-   "volanta": "Chivilcoy · Salud"
-  },
   "web:c215b26a-1860-4016-8c29-ff480e2f8fcc": {
    "categoria": "",
    "descripcion": "Chivilcoy: Un motociclista herido tras ser chocado por una camioneta que se fugó Un motociclista resultó herido este jueves 19 de noviembre, alrededor de las 8:45, en la intersección de las avenidas Güemes y Ortiz, en Chivilcoy. El otro vehículo involucrado, una Ford Ranchero, abandonó el lugar tras el choque. El conductor de la moto fue identificado como Miguel Oviedo, quien transportaba una escalera de trabajo. Por circunstancias que aún deben establecerse, se produjo el impacto que lo dejó...",
@@ -6292,6 +6313,62 @@
    "vence": "2026-11-22T03:45:06.000Z",
    "video_bytes": 7098585,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_e080e96ecd930bff.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok": {
+   "actualizado": "2026-11-22T21:40:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok",
+   "creado": "2026-11-22T21:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-22T21:25:37.000Z",
+   "id": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Se lleva a cabo la quinta edición de la FLICH en Racing Club\n\nEl tradicional festival y feria del libro independiente de Chivilcoy cuenta con stands de diversas editoriales, instituciones y escritores. Además, la programación incluye entrevistas a destacados autores nacionales y un cierre musical a cargo de Miss Bolivia.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Se lleva a cabo la quinta edición de la FLICH en Racing Club",
+   "urgente": false,
+   "vence": "2026-11-24T21:25:37.000Z",
+   "video_bytes": 8785187,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0b62713fe392f66c.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|x": {
+   "actualizado": "2026-11-22T21:40:28.000Z",
+   "buffer_id": "6b03614dd5eabfb8cce071ff",
+   "clave": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|x",
+   "creado": "2026-11-22T21:40:18.000Z",
+   "dueAt": "2026-11-22T21:42:03.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-22T21:25:37.000Z",
+   "id": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
+   "noticia": "nota:chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Se lleva a cabo la quinta edición de la FLICH en Racing Club\n\nEn las instalaciones de Racing Club se lleva a cabo la quinta edición de la FLICH, el tradicional festival y feria del libro independiente de Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Se lleva a cabo la quinta edición de la FLICH en Racing Club",
+   "urgente": false,
+   "vence": "2026-11-22T23:25:37.000Z",
+   "video_bytes": 8785187,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0b62713fe392f66c.mp4",
    "viral": false
   },
   "entrevistas:job00304|tiktok": {
@@ -10345,6 +10422,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:0631a52f-24c6-4511-a712-b95f4a815afb|x": {
+   "actualizado": "2026-11-22T21:40:18.000Z",
+   "buffer_id": "",
+   "clave": "web:0631a52f-24c6-4511-a712-b95f4a815afb|x",
+   "creado": "2026-11-22T21:40:18.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-22T21:24:09.084Z",
+   "id": "web:0631a52f-24c6-4511-a712-b95f4a815afb",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
+   "noticia": "nota:chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Se lleva a cabo la quinta edición de la FLICH en Racing Club",
+   "urgente": false,
+   "vence": "2026-11-23T01:24:09.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:0649b9df-9dcf-46f0-b904-cf607353f7e7|x": {
    "actualizado": "2026-11-19T12:40:15.000Z",
    "buffer_id": "6afed6c6ffd0192517ab2257",
@@ -14081,33 +14183,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149|x": {
-   "actualizado": "2026-11-12T21:40:18.000Z",
-   "buffer_id": "",
-   "clave": "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149|x",
-   "creado": "2026-11-12T21:40:14.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-12T21:39:17.445Z",
-   "id": "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
-   "noticia": "nota:chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: APS realizará una jornada de capacitación y prevención sobre diabetes\n\nLa Dirección de Atención Primaria de la Salud hará una actividad en el Centro Universitario para profesionales, pacientes y familiares.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-salud-chivilcoy-aps-realizara-una-jornada-de-capacitacion-y",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: APS realizará una jornada de capacitación y prevención sobre diabetes",
-   "urgente": false,
-   "vence": "2026-11-13T01:39:17.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:c215b26a-1860-4016-8c29-ff480e2f8fcc|x": {
    "actualizado": "2026-11-19T16:20:16.000Z",
    "buffer_id": "",
@@ -15467,33 +15542,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:764b2539-78a7-4f05-92a1-20413bf6f24b|x",
-   "cuando": "2026-11-15T18:00:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:764b2539-78a7-4f05-92a1-20413bf6f24b|x",
-   "cuando": "2026-11-15T18:00:25.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "buffer_id": "6afa1d61a869c35e5b968813",
-   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok",
-   "cuando": "2026-11-15T21:00:17.000Z",
-   "dueAt": "2026-11-15T21:03:20.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok",
-   "cuando": "2026-11-15T21:20:20.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7708506817919274248"
-  },
   {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x",
    "cuando": "2026-11-15T22:20:14.000Z",
@@ -19631,6 +19679,37 @@
    "cuando": "2026-11-22T20:20:15.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|x",
+   "cuando": "2026-11-22T21:40:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok",
+   "cuando": "2026-11-22T21:40:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:0631a52f-24c6-4511-a712-b95f4a815afb|x",
+   "cuando": "2026-11-22T21:40:28.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6b03614dd5eabfb8cce071ff",
+   "clave": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|x",
+   "cuando": "2026-11-22T21:40:29.000Z",
+   "dueAt": "2026-11-22T21:42:03.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19794,6 +19873,7 @@
   "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4": "2026-11-18T16:00:21.000Z",
   "bot:video_matias-zucchi_mwpjplbs46th_01.mp4": "2026-11-20T22:40:15.000Z",
   "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4": "2026-11-22T02:00:23.000Z",
+  "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4": "2026-11-22T21:40:18.000Z",
   "entrevistas:job00248": "2026-10-26T16:40:17.000Z",
   "entrevistas:job00249": "2026-10-26T17:00:18.000Z",
   "entrevistas:job00250": "2026-10-26T17:40:14.000Z",
@@ -20049,6 +20129,7 @@
   "web:03c64a65-3269-4247-b8a7-1e92b9072a66": "2026-11-13T10:02:41.000Z",
   "web:045183d9-6073-43b7-83df-69738e914aa5": "2026-11-12T10:02:44.000Z",
   "web:04a24de3-2093-4b59-8e4e-5da6fa217039": "2026-11-04T09:00:19.000Z",
+  "web:0631a52f-24c6-4511-a712-b95f4a815afb": "2026-11-22T21:40:18.000Z",
   "web:0649b9df-9dcf-46f0-b904-cf607353f7e7": "2026-11-19T09:05:46.000Z",
   "web:068e6bfd-d4fc-4da5-b74a-c047d3f42067": "2026-11-11T10:02:35.000Z",
   "web:07f6b77f-a719-48eb-ab59-425617675b7f": "2026-11-10T14:00:21.000Z",
