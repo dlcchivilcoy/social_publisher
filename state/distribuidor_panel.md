@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/11/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 22/11/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-11-21)
+## Hoy (2026-11-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 2 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 10 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,24 +27,13 @@ Actualizado: 21/11/2026 23:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (1 esperando)
 - TikTok · Reels del bot · Hinchas de Boca festejaron en el centro la consagración continental — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Murió un albañil tras recibir una descarga eléctrica y desatarse un incendio — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Robaron una moto Rouser en la zona de Levalle al 100 — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-21T16:40 recibido web:b569c879-d38b-4d24-9658-e00056ee70e7|x 
-- 2026-11-21T16:40 depurado web:b569c879-d38b-4d24-9658-e00056ee70e7|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-21T17:00 recibido web:c9db04af-d3ab-4346-a206-72ea501d0adb|x 
-- 2026-11-21T17:00 recibido web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf|x 
-- 2026-11-21T17:00 depurado web:c9db04af-d3ab-4346-a206-72ea501d0adb|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-21T17:00 depurado web:1b8bfb3e-fba9-4474-af0a-f5415d7256cf|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-21T18:20 recibido web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x 
-- 2026-11-21T18:20 depurado web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-21T21:20 recibido web:aa699acf-5076-4312-a4f2-93b7679d840a|x 
 - 2026-11-21T21:20 depurado web:aa699acf-5076-4312-a4f2-93b7679d840a|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-21T21:40 recibido web:907296ec-5419-464c-91d8-137c3a16176c|x 
 - 2026-11-21T21:40 depurado web:907296ec-5419-464c-91d8-137c3a16176c|x de la web, a X solo van las notas del diario de la mañana
@@ -61,3 +50,12 @@ Actualizado: 21/11/2026 23:40 (hora AR) · ACTIVO
 - 2026-11-22T02:20 enviado bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x 
 - 2026-11-22T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo- 
 - 2026-11-22T02:40 recibido policiales:https://9dejulio.diariotiempodigital.com/Policial 
+- 2026-11-22T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/emergenci 
+- 2026-11-22T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/nuevo2111 
+- 2026-11-22T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/llamativo 
+- 2026-11-22T09:00 vencido policiales:https://9dejulio.diariotiempodigital.com/Policial espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-22T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/tragedia- espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-22T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/emergenci no hubo lugar antes de su vencimiento
+- 2026-11-22T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/nuevo2111 no hubo lugar antes de su vencimiento
+- 2026-11-22T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/llamativo no hubo lugar antes de su vencimiento
+- 2026-11-22T09:00 enviado policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo- 

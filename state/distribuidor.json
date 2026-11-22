@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-22T02:20:34.000Z"
+   "visto": "2026-11-22T09:00:31.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-22T02:20:34.000Z"
+   "visto": "2026-11-22T09:00:31.000Z"
   }
  },
  "contenidos": {
@@ -1769,6 +1769,32 @@
    "volanta": "Robo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/9sciqb-LX74"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html": {
+   "categoria": "accidente_vial",
+   "descripcion": "Tres personas sufrieron heridas este martes por la tarde tras un fuerte impacto entre una ambulancia, un coche Chevrolet y una camioneta VW detenida en la intersección de Salta y Liniers.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-22T02:48:18.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-ambulancia-choco-contra-un-chevrolet-y-una-camioneta-d428e3",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Una ambulancia que circulaba hacia una urgencia colisionó contra un coche Chevrolet y una camioneta VW en las calles Salta y Liniers de Chacabuco.\n\nEl episodio ocurrió esta tarde a pocas cuadras del hospital municipal, cuando el móvil sanitario avanzaba por la calle Salta rumbo al Parque Recreativo.\n\nComo consecuencia del impacto, el chofer Pita, la enfermera Laura Sayago y la doctora Georgina Sánchez debieron ser internados en el centro de salud local.\n\nLa enfermera será derivada a la ciudad de Junín para someterse a estudios de mayor complejidad médica.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Choque entre una ambulancia, un auto Chevrolet y una camioneta VW dejó tres heridos",
+   "urgente": false,
+   "video_bytes": 151088,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_05_chacabuco_choque-entre-una-ambulancia-un.mp4",
+   "volanta": "Choque en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/YMQ15lqD7jM"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html": {
    "categoria": "otro_policial",
    "descripcion": "La Policía y el damnificado encontraron este sábado una moto Rouser 200 que había sido robada en la madrugada del viernes en Yrigoyen y Falucho. El rodado estaba abandonado cerca de las vías del tren, en la continuación de la calle Alberdi.",
@@ -1873,6 +1899,32 @@
    "volanta": "Robo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/SCyZFkdZU6E"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Un estafador se hizo pasar por Nicolás Golía, referente de la Juventud Peronista, y le escribió a su padre por WhatsApp desde un número con característica de Buenos Aires para engañarlo.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-22T03:18:05.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-intentaron-estafar-al-padre-de-nicolas-golia-ac8ba5",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un delincuente intentó engañar al padre de Nicolás Golía haciéndose pasar por él a través de la aplicación de mensajería WhatsApp.\n\nEl impostor utilizó una línea telefónica con característica de la Ciudad de Buenos Aires para enviar un mensaje simulando ser el joven dirigente político.\n\nAnte la sospecha, el destinatario intentó comunicarse telefónicamente pero no obtuvo respuesta, lo que motivó la alerta pública.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #EstafaVirtual #SuplantacionDeIdentidad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Usurpando la identidad del sobrino del intendente, intentaron estafar a su padre",
+   "urgente": false,
+   "video_bytes": 77373,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_10_chacabuco_usurpando-la-identidad-del-sob.mp4",
+   "volanta": "Intento de estafa en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/U74v0Vn3MfM"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html": {
    "categoria": "robo",
    "descripcion": "Delincuentes sustrajeron dos bicicletas, una marca Shifter y una Schwinn, durante la madrugada en una zona alejada del centro de Chacabuco. Intentaron estafar a la dueña pidiendo un rescate.",
@@ -1898,6 +1950,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_06_chacabuco_robaron-dos-bicicletas-una-mar.mp4",
    "volanta": "Robo en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/EOiBgga_Q2I"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html": {
+   "categoria": "robo",
+   "descripcion": "Delincuentes ingresaron a una vivienda durante la madrugada y se llevaron una motocicleta marca Motomel tras dañar el cierre del portón. Ocurrió en la ciudad de Chacabuco.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-22T03:02:59.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/robaron-una-moto-a-una-vecina-tras-danar-el-porton-de-una-casa-a528ba",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Una vecina de Chacabuco sufrió el robo de su motocicleta durante la madrugada.\n\nEl ilícito ocurrió en el interior de una vivienda ubicada en el barrio Alcira de la Peña.\n\nPara ingresar, los ladrones dañaron el sistema de cierre de un portón.\n\nHasta el momento no se informaron novedades sobre el paradero del rodado.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Inseguridad #RoboDeMoto #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Robaron una moto a una vecina tras forzar un portón en barrio Alcira de la Peña",
+   "urgente": false,
+   "video_bytes": 81042,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_08_chacabuco_robaron-una-moto-a-una-vecina-.mp4",
+   "volanta": "Robo en Chacabuco",
+   "youtube_url": ""
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html": {
    "categoria": "otro_policial",
@@ -9241,14 +9319,14 @@
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
-   "actualizado": "2026-11-22T02:40:14.000Z",
+   "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
    "clave": "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x",
    "creado": "2026-11-22T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-22T02:32:57.000Z",
    "id": "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100",
    "intentos": 0,
@@ -10057,19 +10135,47 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-12_2135_05_chacabuco_le-robaron-la-moto-a-un-vecino.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html|x": {
+   "actualizado": "2026-11-22T09:00:31.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html|x",
+   "creado": "2026-11-22T09:00:16.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-22T02:48:18.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-ambulancia-choco-contra-un-chevrolet-y-una-camioneta-d428e3",
+   "noticia": "nota:chacabuco-ambulancia-choco-contra-un-chevrolet-y-una-camioneta-d428e3",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Choque entre una ambulancia, un auto Chevrolet y una camioneta VW dejó tres heridos\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-ambulancia-choco-contra-un-chevrolet-y-una-camioneta-d428e3",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Choque entre una ambulancia, un auto Chevrolet y una camioneta VW dejó tres heridos",
+   "urgente": false,
+   "vence": "2026-11-22T04:48:18.000Z",
+   "video_bytes": 151088,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_05_chacabuco_choque-entre-una-ambulancia-un.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x": {
-   "actualizado": "2026-11-22T02:20:34.000Z",
+   "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "6b025172cc364169c11f7678",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x",
    "creado": "2026-11-22T02:20:21.000Z",
    "dueAt": "2026-11-22T02:23:04.000Z",
+   "enviado": "2026-11-22T02:23:18.030Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-22T02:06:57.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124327831656096092",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-hallaron-este-sabado-una-moto-robada-en-un-descampado-2745bd",
    "noticia": "nota:chacabuco-hallaron-este-sabado-una-moto-robada-en-un-descampado-2745bd",
    "origen": "policiales",
@@ -10177,6 +10283,33 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_08_chacabuco_le-robaron-la-moto-a-un-vecino.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html|x": {
+   "actualizado": "2026-11-22T09:00:31.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html|x",
+   "creado": "2026-11-22T09:00:16.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-22T03:18:05.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-intentaron-estafar-al-padre-de-nicolas-golia-ac8ba5",
+   "noticia": "nota:chacabuco-intentaron-estafar-al-padre-de-nicolas-golia-ac8ba5",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Usurpando la identidad del sobrino del intendente, intentaron estafar a su padre\n\nUn estafador se hizo pasar por el referente Nicolás Golía y le escribió a su padre por WhatsApp desde un número de Buenos Aires para engañarlo.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-intentaron-estafar-al-padre-de-nicolas-golia-ac8ba5",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Usurpando la identidad del sobrino del intendente, intentaron estafar a su padre",
+   "urgente": false,
+   "vence": "2026-11-22T05:18:05.000Z",
+   "video_bytes": 77373,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_10_chacabuco_usurpando-la-identidad-del-sob.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html|x": {
    "actualizado": "2026-11-19T09:00:23.000Z",
    "buffer_id": "",
@@ -10202,6 +10335,33 @@
    "vence": "2026-11-19T05:02:13.000Z",
    "video_bytes": 112358,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_06_chacabuco_robaron-dos-bicicletas-una-mar.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html|x": {
+   "actualizado": "2026-11-22T09:00:31.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html|x",
+   "creado": "2026-11-22T09:00:16.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-22T03:02:59.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/robaron-una-moto-a-una-vecina-tras-danar-el-porton-de-una-casa-a528ba",
+   "noticia": "nota:robaron-una-moto-a-una-vecina-tras-danar-el-porton-de-una-casa-a528ba",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Robaron una moto a una vecina tras forzar un portón en barrio Alcira de la Peña\n\nDelincuentes ingresaron a una vivienda durante la madrugada y se llevaron una motocicleta marca Motomel tras dañar el cierre del portón. Ocurrió en la ciudad de Chacabuco.\n\nhttps://www.diariolacampaña.com.ar/n/robaron-una-moto-a-una-vecina-tras-danar-el-porton-de-una-casa-a528ba",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Robaron una moto a una vecina tras forzar un portón en barrio Alcira de la Peña",
+   "urgente": false,
+   "vence": "2026-11-22T05:02:59.000Z",
+   "video_bytes": 81042,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_08_chacabuco_robaron-una-moto-a-una-vecina-.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html|x": {
@@ -10297,14 +10457,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html|x": {
-   "actualizado": "2026-11-22T02:20:21.000Z",
+   "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html|x",
    "creado": "2026-11-22T02:20:21.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-22T02:18:19.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html",
    "intentos": 0,
@@ -16500,68 +16660,6 @@
  },
  "registro": [
   {
-   "clave": "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c|x",
-   "cuando": "2026-11-15T01:20:32.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:761944f8-e1c1-436a-9ef1-bf5df2286672|x",
-   "cuando": "2026-11-15T01:20:32.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "buffer_id": "6af908e1b9a106584c7dcf69",
-   "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x",
-   "cuando": "2026-11-15T01:20:33.000Z",
-   "dueAt": "2026-11-15T01:22:47.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x",
-   "cuando": "2026-11-15T01:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2121775972001235175"
-  },
-  {
-   "buffer_id": "6af9ace476c23bf1c77e573a",
-   "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok",
-   "cuando": "2026-11-15T13:00:20.000Z",
-   "dueAt": "2026-11-15T13:03:38.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok",
-   "cuando": "2026-11-15T13:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7708383545772805397"
-  },
-  {
-   "clave": "web:a13517b3-e29e-4a98-b0bc-d2fa2f109778|x",
-   "cuando": "2026-11-15T14:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:a13517b3-e29e-4a98-b0bc-d2fa2f109778|x",
-   "cuando": "2026-11-15T14:40:16.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x",
-   "cuando": "2026-11-15T17:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok",
    "cuando": "2026-11-15T17:00:30.000Z",
    "estado": "pendiente",
@@ -20667,6 +20765,66 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html|x",
+   "cuando": "2026-11-22T09:00:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html|x",
+   "cuando": "2026-11-22T09:00:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html|x",
+   "cuando": "2026-11-22T09:00:31.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x",
+   "cuando": "2026-11-22T09:00:31.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html|x",
+   "cuando": "2026-11-22T09:00:31.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html|x",
+   "cuando": "2026-11-22T09:00:31.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html|x",
+   "cuando": "2026-11-22T09:00:31.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html|x",
+   "cuando": "2026-11-22T09:00:31.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x",
+   "cuando": "2026-11-22T09:00:31.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124327831656096092"
   }
  ],
  "tandas": {
@@ -20704,7 +20862,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-22",
- "ultima_sync": "2026-11-22T02:20:34.000Z",
+ "ultima_sync": "2026-11-22T09:00:31.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21020,6 +21178,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html": "2026-11-13T23:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html": "2026-11-12T23:40:16.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html": "2026-11-22T09:00:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html": "2026-11-22T02:20:21.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/incendio-de-un-vehiculo-en-la-autopista.html": "2026-11-08T23:40:14.000Z",
@@ -21028,8 +21187,10 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/ladrones-en-fuga-en-la-noche-de.html": "2026-11-13T00:20:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html": "2026-11-21T09:00:22.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html": "2026-11-22T09:00:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html": "2026-11-19T09:00:19.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html": "2026-11-22T09:00:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html": "2026-11-09T23:40:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-danos-en-un.html": "2026-11-14T22:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-esclarecieron.html": "2026-11-20T09:00:18.000Z",
