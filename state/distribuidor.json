@@ -2873,6 +2873,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/en-la-ronda-cc-el-fuego-el-barro-y-lo-comun-chivilcoy-vive-su-tercer",
    "volanta": "En La Ronda CC"
   },
+  "web:2b45ee99-77fa-4008-8536-ab636885bf9e": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Se realizó el tradicional desfile de la Fiesta del Resero de El Fogón CHIVILCOY.– Más de 35 delegaciones y agrupaciones gauchas recorrieron las calles de la ciudad en una jornada encabezada por el intendente Guillermo Britos y la presidenta del Centro Tradicionalista \"El Fogón\", Magdalena Gardella. Este domingo se llevó a cabo la 69.ª edición del Desfile de la Tradición en Chivilcoy, en el marco de la XXX Fiesta del Resero y de la Tradición organizada por el Centro Tradicionalista...",
+   "generado": "2026-11-22T15:59:32.734Z",
+   "id": "web:2b45ee99-77fa-4008-8536-ab636885bf9e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_46c7d858fb2c451faa9590d17b9adbe9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-tradicion-chivilcoy-se-realizo-el-tradicional-desfile-de-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Se realizó el tradicional desfile de la Fiesta del Resero de El Fogón",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-tradicion-chivilcoy-se-realizo-el-tradicional-desfile-de-la",
+   "volanta": "Chivilcoy · Tradición"
+  },
   "web:307fc9d4-4abc-4362-b593-36783c0bf652": {
    "categoria": "",
    "descripcion": "Chivilcoy: Alicia Marino presentará su nueva novela ‘Romance sin fronteras’ en el Museo ‘Pompeo Boggio’ CHIVILCOY.– La actividad se llevará a cabo este sábado 21 de noviembre, a partir de las 18 horas, en el espacio cultural ubicado en la calle Bolívar. La autora suma así una nueva publicación a su destacada trayectoria dedicada tanto a la ficción como al rescate de la historia de las localidades rurales del partido. Este sábado 21 de noviembre, desde las 18 horas, la escritora Alicia Marino...",
@@ -11312,6 +11331,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:2b45ee99-77fa-4008-8536-ab636885bf9e|x": {
+   "actualizado": "2026-11-22T16:00:20.000Z",
+   "buffer_id": "",
+   "clave": "web:2b45ee99-77fa-4008-8536-ab636885bf9e|x",
+   "creado": "2026-11-22T16:00:16.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-22T15:59:32.734Z",
+   "id": "web:2b45ee99-77fa-4008-8536-ab636885bf9e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-tradicion-chivilcoy-se-realizo-el-tradicional-desfile-de-la",
+   "noticia": "nota:chivilcoy-tradicion-chivilcoy-se-realizo-el-tradicional-desfile-de-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Se realizó el tradicional desfile de la Fiesta del Resero de El Fogón\n\nMás de 35 delegaciones y agrupaciones gauchas recorrieron la ciudad. El evento fue encabezado por el intendente Guillermo Britos y Magdalena Gardella.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-tradicion-chivilcoy-se-realizo-el-tradicional-desfile-de-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Se realizó el tradicional desfile de la Fiesta del Resero de El Fogón",
+   "urgente": false,
+   "vence": "2026-11-22T19:59:32.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:307fc9d4-4abc-4362-b593-36783c0bf652|x": {
    "actualizado": "2026-11-20T11:20:14.000Z",
    "buffer_id": "6b00157ed6ba71125fadfbe0",
@@ -15621,19 +15667,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6af9e52f4f0276ab944e3a33",
-   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x",
-   "cuando": "2026-11-15T17:00:31.000Z",
-   "dueAt": "2026-11-15T17:02:54.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|x",
-   "cuando": "2026-11-15T17:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122013221913501885"
-  },
-  {
    "clave": "web:bff9dfc7-873a-4a8d-a3de-da24428245eb|x",
    "cuando": "2026-11-15T17:40:24.000Z",
    "estado": "pendiente",
@@ -19783,6 +19816,20 @@
    "cuando": "2026-11-22T13:20:14.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7710981526237760789"
+  },
+  {
+   "clave": "web:2b45ee99-77fa-4008-8536-ab636885bf9e|x",
+   "cuando": "2026-11-22T16:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:2b45ee99-77fa-4008-8536-ab636885bf9e|x",
+   "cuando": "2026-11-22T16:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -20273,6 +20320,7 @@
   "web:292c8e3c-5713-4e83-b415-a536e66b9e64": "2026-11-06T14:00:21.000Z",
   "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79": "2026-11-20T09:03:47.000Z",
   "web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b": "2026-11-12T10:02:44.000Z",
+  "web:2b45ee99-77fa-4008-8536-ab636885bf9e": "2026-11-22T16:00:16.000Z",
   "web:2bda9681-8499-4001-bce8-f38052f6e045": "2026-10-26T12:06:06.000Z",
   "web:2bf1c280-dd32-4d78-be39-44cf4e56fe9a": "2026-10-29T10:02:34.000Z",
   "web:2c08d2bb-2c10-4352-a617-4a84c0781807": "2026-10-26T10:20:14.000Z",
