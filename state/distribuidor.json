@@ -1041,6 +1041,32 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00336.mp4",
    "youtube_url": "https://youtu.be/bmJzPcZ9xgs"
   },
+  "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
+   "categoria": "robo",
+   "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-22T02:32:57.000Z",
+   "id": "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-robaron-una-moto-rouser-en-la-zona-de-levalle-al-100-0433f0",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Delincuentes se llevaron una motocicleta marca Rouser en la zona de Levalle al 100, en la ciudad de 9 de Julio.\n\nEl episodio delictivo tuvo lugar en plena vía pública y es materia de investigación por parte de las autoridades policiales locales.\n\nHasta el momento no se informaron detenciones ni mayores precisiones sobre el paradero del rodado sustraído.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Inseguridad #RoboDeMoto #BuenosAires",
+   "tipo": "video",
+   "titulo": "Robaron una moto Rouser en la zona de Levalle al 100",
+   "urgente": false,
+   "video_bytes": 110068,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_04_9-de-julio_robaron-una-moto-rouser-en-la-.mp4",
+   "volanta": "Robo en 9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/k5NE24RAM64"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": {
    "categoria": "robo",
    "descripcion": "Investigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.",
@@ -9214,6 +9240,34 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00336.mp4",
    "viral": false
   },
+  "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
+   "actualizado": "2026-11-22T02:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x",
+   "creado": "2026-11-22T02:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-22T02:32:57.000Z",
+   "id": "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-robaron-una-moto-rouser-en-la-zona-de-levalle-al-100-0433f0",
+   "noticia": "nota:9-de-julio-robaron-una-moto-rouser-en-la-zona-de-levalle-al-100-0433f0",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Robaron una moto Rouser en la zona de Levalle al 100\n\nSustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-robaron-una-moto-rouser-en-la-zona-de-levalle-al-100-0433f0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Robaron una moto Rouser en la zona de Levalle al 100",
+   "urgente": false,
+   "vence": "2026-11-22T04:32:57.000Z",
+   "video_bytes": 110068,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_04_9-de-julio_robaron-una-moto-rouser-en-la-.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x": {
    "actualizado": "2026-11-18T00:40:16.000Z",
    "buffer_id": "",
@@ -16446,14 +16500,6 @@
  },
  "registro": [
   {
-   "clave": "web:761944f8-e1c1-436a-9ef1-bf5df2286672|x",
-   "cuando": "2026-11-15T01:20:32.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c|x",
    "cuando": "2026-11-15T01:20:32.000Z",
    "estado": "descartado",
@@ -20613,6 +20659,14 @@
    "cuando": "2026-11-22T02:20:34.000Z",
    "dueAt": "2026-11-22T02:23:04.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x",
+   "cuando": "2026-11-22T02:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -20888,6 +20942,7 @@
   "nacionales:5de2902aa9f0dc53": "2026-10-23T21:20:13.000Z",
   "nacionales:ae9e5a4804b66987": "2026-10-23T23:00:18.000Z",
   "nacionales:f1cea0fec08ce954": "2026-10-23T22:20:15.000Z",
+  "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": "2026-11-16T22:40:15.000Z",
