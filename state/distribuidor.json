@@ -5650,11 +5650,11 @@
  },
  "cuota_visto": "2026-11-02T17:20:19.000Z",
  "metricas_buffer": {
-  "con_metricas": 70,
+  "con_metricas": 43,
   "disponible": true,
-  "enviados": 70,
+  "enviados": 43,
   "motivo": "",
-  "visto": "2026-11-21T12:20:13.000Z"
+  "visto": "2026-11-22T12:20:13.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -6458,14 +6458,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710408957986213126",
    "metricas": {
-    "averageTimeWatched": 8.51,
+    "averageTimeWatched": 7.16,
     "comments": 1,
-    "engagementRate": 3.63,
+    "engagementRate": 2.13,
     "reach": 0,
-    "reactions": 9,
-    "shares": 3,
-    "totalTimeWatched": 78.38,
-    "views": 358
+    "reactions": 20,
+    "shares": 6,
+    "totalTimeWatched": 244.5,
+    "views": 1270
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
    "origen": "bot",
@@ -6498,9 +6498,9 @@
    "metricas": {
     "clicks": 1,
     "comments": 0,
-    "engagementRate": 1.09,
-    "impressions": 92,
-    "reactions": 0,
+    "engagementRate": 1.61,
+    "impressions": 124,
+    "reactions": 1,
     "reposts": 0
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
@@ -6560,6 +6560,14 @@
    "id": "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124322501433979068",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 21,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-hinchas-de-boca-festejaron-en-el-centro",
    "noticia": "nota:chivilcoy-deportes-chivilcoy-hinchas-de-boca-festejaron-en-el-centro",
    "origen": "bot",
@@ -8555,14 +8563,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710006703122861319",
    "metricas": {
-    "averageTimeWatched": 8.39,
+    "averageTimeWatched": 8.23,
     "comments": 0,
-    "engagementRate": 0.77,
-    "reach": 0,
+    "engagementRate": 0.75,
+    "reach": 100,
     "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 57.33,
-    "views": 260
+    "totalTimeWatched": 57.77,
+    "views": 268
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8595,8 +8603,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 1.94,
-    "impressions": 155,
+    "engagementRate": 1.9,
+    "impressions": 158,
     "reactions": 3,
     "reposts": 0
    },
@@ -8631,14 +8639,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710001571270003986",
    "metricas": {
-    "averageTimeWatched": 9.02,
+    "averageTimeWatched": 8.96,
     "comments": 0,
     "engagementRate": 0,
-    "reach": 0,
+    "reach": 38,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 36.82,
-    "views": 154
+    "totalTimeWatched": 36.85,
+    "views": 156
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8672,7 +8680,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 88,
+    "impressions": 90,
     "reactions": 0,
     "reposts": 0
    },
@@ -8709,12 +8717,12 @@
    "metricas": {
     "averageTimeWatched": 5.95,
     "comments": 0,
-    "engagementRate": 0.68,
-    "reach": 0,
+    "engagementRate": 0.67,
+    "reach": 35,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 24.4,
-    "views": 146
+    "totalTimeWatched": 24.78,
+    "views": 149
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8783,14 +8791,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7709991233552321799",
    "metricas": {
-    "averageTimeWatched": 8.32,
+    "averageTimeWatched": 8.35,
     "comments": 0,
-    "engagementRate": 2.11,
-    "reach": 0,
-    "reactions": 4,
+    "engagementRate": 2.15,
+    "reach": 52,
+    "reactions": 5,
     "shares": 2,
-    "totalTimeWatched": 52.55,
-    "views": 284
+    "totalTimeWatched": 59.12,
+    "views": 326
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8823,8 +8831,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0.98,
-    "impressions": 102,
+    "engagementRate": 0.94,
+    "impressions": 106,
     "reactions": 1,
     "reposts": 0
    },
@@ -8859,14 +8867,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710382757339352372",
    "metricas": {
-    "averageTimeWatched": 3.26,
+    "averageTimeWatched": 2.95,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.02,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 4.6,
-    "views": 57
+    "totalTimeWatched": 7.77,
+    "views": 98
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8899,10 +8907,10 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 81,
+    "engagementRate": 1.19,
+    "impressions": 84,
     "reactions": 0,
-    "reposts": 0
+    "reposts": 1
    },
    "nota_url": "",
    "noticia": "titulo:anatomia-barrio-caggiano-chivilcoy-gustavo",
@@ -8935,14 +8943,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710377818684689671",
    "metricas": {
-    "averageTimeWatched": 6.08,
+    "averageTimeWatched": 6.53,
     "comments": 1,
-    "engagementRate": 1.65,
+    "engagementRate": 1.21,
     "reach": 0,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 19.03,
-    "views": 121
+    "totalTimeWatched": 27.32,
+    "views": 165
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8975,10 +8983,10 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 91,
+    "engagementRate": 1.03,
+    "impressions": 97,
     "reactions": 0,
-    "reposts": 0
+    "reposts": 1
    },
    "nota_url": "",
    "noticia": "titulo:antonelli-crece-fernando-multas-negro-trabajo",
@@ -9011,14 +9019,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710372544339119368",
    "metricas": {
-    "averageTimeWatched": 4.12,
+    "averageTimeWatched": 3.43,
     "comments": 0,
-    "engagementRate": 1.47,
+    "engagementRate": 0.81,
     "reach": 0,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 6.52,
-    "views": 68
+    "totalTimeWatched": 9.42,
+    "views": 124
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9051,10 +9059,10 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 92,
+    "engagementRate": 1.05,
+    "impressions": 95,
     "reactions": 0,
-    "reposts": 0
+    "reposts": 1
    },
    "nota_url": "",
    "noticia": "titulo:direccion-marcelo-martinez-ornella-teatral",
@@ -9087,14 +9095,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710367445386530069",
    "metricas": {
-    "averageTimeWatched": 4.35,
+    "averageTimeWatched": 4.76,
     "comments": 0,
-    "engagementRate": 1.14,
+    "engagementRate": 1.27,
     "reach": 0,
-    "reactions": 1,
+    "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 7.6,
-    "views": 88
+    "totalTimeWatched": 16.17,
+    "views": 158
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9127,8 +9135,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 1.22,
-    "impressions": 82,
+    "engagementRate": 1.11,
+    "impressions": 90,
     "reactions": 0,
     "reposts": 1
    },
@@ -9163,14 +9171,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710362364000013588",
    "metricas": {
-    "averageTimeWatched": 3.27,
+    "averageTimeWatched": 5.19,
     "comments": 0,
     "engagementRate": 0,
     "reach": 0,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 4.9,
-    "views": 86
+    "totalTimeWatched": 11.23,
+    "views": 118
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -9203,10 +9211,10 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 98,
+    "engagementRate": 0.83,
+    "impressions": 120,
     "reactions": 0,
-    "reposts": 0
+    "reposts": 1
    },
    "nota_url": "",
    "noticia": "titulo:bogliolo-cero-claudia-existe-pirotecnia",
@@ -9853,7 +9861,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 75,
+    "impressions": 146,
     "reactions": 0,
     "reposts": 0
    },
@@ -10081,6 +10089,14 @@
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124327831656096092",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-hallaron-este-sabado-una-moto-robada-en-un-descampado-2745bd",
    "noticia": "nota:chacabuco-hallaron-este-sabado-una-moto-robada-en-un-descampado-2745bd",
    "origen": "policiales",
@@ -11233,8 +11249,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 3.57,
-    "impressions": 28,
+    "engagementRate": 3.45,
+    "impressions": 29,
     "reactions": 0,
     "reposts": 0
    },
@@ -11659,7 +11675,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 18,
+    "impressions": 19,
     "reactions": 0,
     "reposts": 0
    },
@@ -11734,8 +11750,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 5.56,
-    "impressions": 18,
+    "engagementRate": 4.55,
+    "impressions": 22,
     "reactions": 0,
     "reposts": 1
    },
@@ -12072,7 +12088,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 32,
+    "impressions": 33,
     "reactions": 0,
     "reposts": 0
    },
@@ -12428,8 +12444,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 4,
-    "impressions": 25,
+    "engagementRate": 3.7,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 1
    },
@@ -12701,7 +12717,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 24,
+    "impressions": 26,
     "reactions": 0,
     "reposts": 0
    },
@@ -13969,8 +13985,8 @@
    "metricas": {
     "clicks": 3,
     "comments": 0,
-    "engagementRate": 20,
-    "impressions": 20,
+    "engagementRate": 17.39,
+    "impressions": 23,
     "reactions": 0,
     "reposts": 0
    },
@@ -14073,7 +14089,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 16,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -14202,8 +14218,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 6,
-    "impressions": 50,
+    "engagementRate": 5.08,
+    "impressions": 59,
     "reactions": 1,
     "reposts": 2
    },
@@ -15076,8 +15092,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 4.35,
-    "impressions": 23,
+    "engagementRate": 3.85,
+    "impressions": 26,
     "reactions": 0,
     "reposts": 0
    },
@@ -15256,7 +15272,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 11,
+    "impressions": 12,
     "reactions": 0,
     "reposts": 0
    },
@@ -15330,8 +15346,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 7.69,
-    "impressions": 13,
+    "engagementRate": 7.14,
+    "impressions": 14,
     "reactions": 0,
     "reposts": 0
    },
@@ -15861,8 +15877,8 @@
    "metricas": {
     "clicks": 2,
     "comments": 0,
-    "engagementRate": 16.67,
-    "impressions": 60,
+    "engagementRate": 14.93,
+    "impressions": 67,
     "reactions": 1,
     "reposts": 0
    },
@@ -15926,8 +15942,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 7.69,
-    "impressions": 26,
+    "engagementRate": 10.71,
+    "impressions": 28,
     "reactions": 0,
     "reposts": 1
    },
@@ -16186,8 +16202,8 @@
    "metricas": {
     "clicks": 1,
     "comments": 0,
-    "engagementRate": 8,
-    "impressions": 25,
+    "engagementRate": 7.41,
+    "impressions": 27,
     "reactions": 0,
     "reposts": 0
    },
