@@ -47,6 +47,7 @@ logger = get_logger("transcriber")
 
 LEDGER = Path(__file__).parent / ".videos_contabilidad.json"
 WORK_DIR = Path(__file__).parent / "videos_preview"
+WORK_DIR.mkdir(parents=True, exist_ok=True)    # 22/11/2026: varias rutas escriben acá sin crearla antes
 VIDEO_EXTS = {".mp4", ".mov", ".mkv", ".avi", ".webm", ".m4v", ".mpg", ".mpeg"}
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 TEXT_EXTS = {".txt", ".md", ".docx"}
@@ -3093,8 +3094,11 @@ def _publicar_carrusel_corr(placas: list, foto: Path, caption: str, post_url: st
     if "facebook" in plats:
         try:
             from PIL import Image, ImageOps
+            # 22/11/2026: en la nube la carpeta de trabajo no existe si el corresponsal mandó SOLO fotos y la
+            # corrida no armó ningún video antes → «No such file or directory» y Facebook quedaba sin publicar.
+            WORK_DIR.mkdir(parents=True, exist_ok=True)
             jpg = WORK_DIR / f"fb_{_slug(fila['file'])}.jpg"
-            img = ImageOps.exif_transpose(Image.open(foto)).convert("RGB")
+            img =ImageOps.exif_transpose(Image.open(foto)).convert("RGB")
             img.thumbnail((2048, 2048))
             img.save(jpg, quality=90)
             res = facebook.publish(_caption_fb(caption, post_url), jpg)
