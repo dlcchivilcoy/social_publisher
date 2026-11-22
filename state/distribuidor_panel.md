@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 21/11/2026 22:40 (hora AR) · ACTIVO
+Actualizado: 21/11/2026 23:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-21)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 9 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 10 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,13 @@ Actualizado: 21/11/2026 22:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Reels del bot · Hinchas de Boca festejaron en el centro la consagración continental — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-21T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/le-robaro 
-- 2026-11-21T09:00 recibido policiales:https://www.latrochadigital.com.ar/2026/11/20/fel 
-- 2026-11-21T09:00 vencido policiales:https://diarioelsalado.com.ar/2026/11/un-motocicl espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-21T09:00 vencido policiales:https://www.junindigital.com/policiales/2026-11-2 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-21T09:00 vencido policiales:https://diariodelujan.com/operativo-por-abuso-sex no hubo lugar antes de su vencimiento
 - 2026-11-21T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/le-robaro no hubo lugar antes de su vencimiento
 - 2026-11-21T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/20/fel no hubo lugar antes de su vencimiento
@@ -58,3 +55,7 @@ Actualizado: 21/11/2026 22:40 (hora AR) · ACTIVO
 - 2026-11-21T23:00 depurado web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-22T00:00 recibido web:d8d9e806-dc3e-4887-b796-d8971d445e58|x 
 - 2026-11-22T00:00 depurado web:d8d9e806-dc3e-4887-b796-d8971d445e58|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-22T02:00 recibido bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x 
+- 2026-11-22T02:00 recibido bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|tiktok 
+- 2026-11-22T02:00 recibido web:50ef56fd-4c47-4dfd-b6a7-6c243fec43e7|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-22T02:00 programado bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x 
