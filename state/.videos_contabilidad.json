@@ -45202,7 +45202,7 @@
     "tarjetas_fotos": [],
     "draft_id": "8137827c-f8be-4605-b572-6f65a9b4bfb3",
     "reel_url": "",
-    "estado": "borrador_foto_corr",
+    "estado": "publicado_foto_corr",
     "origen": "corresponsal-whatsapp",
     "corresponsal_nombre": "Jennifer Sosa. 2352-406706",
     "corresponsal_celular": "5492352406706",
@@ -45225,6 +45225,18 @@
         "texto": "Por favor, comunicarse al 2352 44-0205. Sigan compartiendo para que puedan aparecer."
       }
     ],
-    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_1ee295b7d9474376832309e01f402e76~mv2.jpg"
+    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_1ee295b7d9474376832309e01f402e76~mv2.jpg",
+    "fecha_publicado": "2026-11-22T17:02:50",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "falló: [Errno 2] No such file or directory: '/home/runner/work/social_publisher/social_publisher/videos_preview/fb_corresponsal-2026-11-22-jennifer-sosa-23.jpg'",
+      "youtube": "omitido",
+      "wix": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-buscan-dos-bicicletas-robadas-a-dos",
+    "ig_media_id": "18277130290306696",
+    "fb_video_id": "",
+    "ig_historia_id": "",
+    "fb_historia_id": ""
   }
 ]
