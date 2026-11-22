@@ -4108,6 +4108,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reiteracion-de-siniestros-tres-incendios-vehiculares-en-menos-de-diez",
    "volanta": "Reiteración de Siniestros"
   },
+  "web:8137827c-f8be-4605-b572-6f65a9b4bfb3": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Buscan dos bicicletas robadas a dos nenas mientras estaban en la escuela CHIVILCOY.– Bicicletas robadas: son de dos nenas que las usan para ir a la escuela. Por favor, compartir; alguien tuvo que ver algo. Fueron robadas el jueves 19 de noviembre afuera de Chacinados Milione, entre las 14 y las 17 horas, mientras las nenas estaban en la escuela. A los vecinos de la zona, pedimos la colaboración de mirar las cámaras; también al Municipio por medio de Monitoreo. Alguien tiene que...",
+   "generado": "2026-11-22T20:01:48.565Z",
+   "id": "web:8137827c-f8be-4605-b572-6f65a9b4bfb3",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6c7ab497b83a487298c42b37aac50cfa~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-buscan-dos-bicicletas-robadas-a-dos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Buscan dos bicicletas robadas a dos nenas mientras estaban en la escuela",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-buscan-dos-bicicletas-robadas-a-dos",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e": {
    "categoria": "",
    "descripcion": "Independiente y la mira puesta en la clasificación: el rojo quiere asegurar su pase a cuartos de final Tras un partido intenso en el que Independiente logró quedarse con la victoria y hacerse fuerte en su cancha, Rodrigo Jimenez y Bautista Berruti, los futbolistas del plantel compartieron sus sensaciones sobre el desarrollo del encuentro, la importancia del trabajo en equipo y los objetivos para la recta final del torneo. Uno de los principales protagonistas de la jornada fue Bautista...",
@@ -13266,6 +13285,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:8137827c-f8be-4605-b572-6f65a9b4bfb3|x": {
+   "actualizado": "2026-11-22T20:20:15.000Z",
+   "buffer_id": "",
+   "clave": "web:8137827c-f8be-4605-b572-6f65a9b4bfb3|x",
+   "creado": "2026-11-22T20:20:12.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-22T20:01:48.565Z",
+   "id": "web:8137827c-f8be-4605-b572-6f65a9b4bfb3",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-buscan-dos-bicicletas-robadas-a-dos",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-buscan-dos-bicicletas-robadas-a-dos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Buscan dos bicicletas robadas a dos nenas mientras estaban en la escuela\n\nPiden revisar las cámaras a los vecinos y al Municipio para encontrar los rodados sustraídos afuera de un comercio. Piden compartir para dar con testigos del hecho.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-buscan-dos-bicicletas-robadas-a-dos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Buscan dos bicicletas robadas a dos nenas mientras estaban en la escuela",
+   "urgente": false,
+   "vence": "2026-11-23T00:01:48.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e|x": {
    "actualizado": "2026-11-20T12:20:17.000Z",
    "buffer_id": "6b00238dc0a7142f84b0db7e",
@@ -15481,20 +15527,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:bff9dfc7-873a-4a8d-a3de-da24428245eb|x",
-   "cuando": "2026-11-15T17:40:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:bff9dfc7-873a-4a8d-a3de-da24428245eb|x",
-   "cuando": "2026-11-15T17:40:24.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "web:764b2539-78a7-4f05-92a1-20413bf6f24b|x",
    "cuando": "2026-11-15T18:00:25.000Z",
@@ -19645,6 +19677,20 @@
    "cuando": "2026-11-22T16:00:20.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:8137827c-f8be-4605-b572-6f65a9b4bfb3|x",
+   "cuando": "2026-11-22T20:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:8137827c-f8be-4605-b572-6f65a9b4bfb3|x",
+   "cuando": "2026-11-22T20:20:15.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -19754,7 +19800,6 @@
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:corresponsal_2026-11-21_matias-zucchi_mwqc3v64udx0": "2026-11-21T12:00:17.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvldteosy8fo_01.mp4": "2026-10-23T20:00:19.000Z",
   "bot:video_matias-zucchi_mvllmur3yyre_01.mp4": "2026-10-23T23:40:15.000Z",
   "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4": "2026-10-24T09:00:20.000Z",
   "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4": "2026-10-24T23:00:21.000Z",
@@ -20298,6 +20343,7 @@
   "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824": "2026-11-17T10:03:18.000Z",
   "web:805ea18c-74c6-4000-b8da-d8365794e47c": "2026-11-16T00:20:15.000Z",
   "web:808568c6-1ce9-4338-b277-3a4776233812": "2026-11-06T14:00:21.000Z",
+  "web:8137827c-f8be-4605-b572-6f65a9b4bfb3": "2026-11-22T20:20:12.000Z",
   "web:814123f9-8cc0-4123-a5ec-ff7775c42341": "2026-11-12T10:02:44.000Z",
   "web:816a3792-59b4-4a7e-af9a-a442a4ba3443": "2026-11-02T10:03:22.000Z",
   "web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e": "2026-11-20T09:03:47.000Z",

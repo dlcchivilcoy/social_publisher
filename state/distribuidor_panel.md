@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/11/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 22/11/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 22/11/2026 17:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 22/11/2026 17:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-21T23:00 depurado web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-22T00:00 recibido web:d8d9e806-dc3e-4887-b796-d8971d445e58|x 
 - 2026-11-22T00:00 depurado web:d8d9e806-dc3e-4887-b796-d8971d445e58|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-22T02:00 recibido bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x 
 - 2026-11-22T02:00 recibido bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|tiktok 
@@ -58,3 +56,5 @@ Actualizado: 22/11/2026 17:00 (hora AR) · ACTIVO
 - 2026-11-22T13:20 enviado bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|tiktok 
 - 2026-11-22T16:00 recibido web:2b45ee99-77fa-4008-8536-ab636885bf9e|x 
 - 2026-11-22T16:00 depurado web:2b45ee99-77fa-4008-8536-ab636885bf9e|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-22T20:20 recibido web:8137827c-f8be-4605-b572-6f65a9b4bfb3|x 
+- 2026-11-22T20:20 depurado web:8137827c-f8be-4605-b572-6f65a9b4bfb3|x de la web, a X solo van las notas del diario de la mañana
