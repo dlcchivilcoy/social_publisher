@@ -6187,15 +6187,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok": {
-   "actualizado": "2026-11-22T21:40:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-23T00:00:17.000Z",
+   "buffer_id": "6b038212846b0ee907c9da32",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok",
    "creado": "2026-11-22T21:40:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-23T00:03:18.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-22T21:25:37.000Z",
    "id": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4",
    "intentos": 0,
@@ -15195,13 +15195,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6afa301e06e1675856ac5010",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x",
-   "cuando": "2026-11-15T22:20:14.000Z",
-   "dueAt": "2026-11-15T22:23:19.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/|x",
    "cuando": "2026-11-15T22:40:14.000Z",
    "estado": "pendiente",
@@ -19360,11 +19353,17 @@
    "cuando": "2026-11-22T22:00:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2124619539493040343"
+  },
+  {
+   "buffer_id": "6b038212846b0ee907c9da32",
+   "clave": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok",
+   "cuando": "2026-11-23T00:00:19.000Z",
+   "dueAt": "2026-11-23T00:03:18.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-12 21",
    "2026-11-13 10",
    "2026-11-13 18",
    "2026-11-13 21",
@@ -19393,10 +19392,11 @@
    "2026-11-21 18",
    "2026-11-21 21",
    "2026-11-22 10",
-   "2026-11-22 18"
+   "2026-11-22 18",
+   "2026-11-22 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-22",
+ "ultima_limpieza_release": "2026-11-23",
  "ultima_sync": "2026-11-22T22:00:16.000Z",
  "version": 1,
  "vistos": {

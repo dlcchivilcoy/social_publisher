@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/11/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 22/11/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 22/11/2026 20:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,14 +27,12 @@ Actualizado: 22/11/2026 20:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- TikTok · Reels del bot · Se lleva a cabo la quinta edición de la FLICH en Racing Club — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-22T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo- 
 - 2026-11-22T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/tragedia- 
 - 2026-11-22T02:20 enviado bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x 
 - 2026-11-22T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo- 
@@ -59,3 +57,4 @@ Actualizado: 22/11/2026 20:40 (hora AR) · ACTIVO
 - 2026-11-22T21:40 recibido web:0631a52f-24c6-4511-a712-b95f4a815afb|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-22T21:40 programado bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|x 
 - 2026-11-22T22:00 enviado bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|x 
+- 2026-11-23T00:00 programado bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok 
