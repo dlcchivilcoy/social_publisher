@@ -5431,11 +5431,11 @@
  },
  "cuota_visto": "2026-11-02T17:20:19.000Z",
  "metricas_buffer": {
-  "con_metricas": 43,
+  "con_metricas": 33,
   "disponible": true,
-  "enviados": 43,
+  "enviados": 33,
   "motivo": "",
-  "visto": "2026-11-22T12:20:13.000Z"
+  "visto": "2026-11-23T12:25:24.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -6163,14 +6163,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710408957986213126",
    "metricas": {
-    "averageTimeWatched": 7.16,
+    "averageTimeWatched": 6.84,
     "comments": 1,
     "engagementRate": 2.13,
     "reach": 0,
-    "reactions": 20,
-    "shares": 6,
-    "totalTimeWatched": 244.5,
-    "views": 1270
+    "reactions": 24,
+    "shares": 8,
+    "totalTimeWatched": 284.02,
+    "views": 1550
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-clima-chivilcoy-una-fuerte-granizada-afecto-la-zona-del",
    "origen": "bot",
@@ -6203,8 +6203,8 @@
    "metricas": {
     "clicks": 1,
     "comments": 0,
-    "engagementRate": 1.61,
-    "impressions": 124,
+    "engagementRate": 1.54,
+    "impressions": 130,
     "reactions": 1,
     "reposts": 0
    },
@@ -6238,6 +6238,16 @@
    "id": "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710981526237760789",
+   "metricas": {
+    "averageTimeWatched": 6.04,
+    "comments": 0,
+    "engagementRate": 5.18,
+    "reach": 0,
+    "reactions": 10,
+    "shares": 0,
+    "totalTimeWatched": 27.15,
+    "views": 193
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-hinchas-de-boca-festejaron-en-el-centro",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6269,8 +6279,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 21,
+    "engagementRate": 0.81,
+    "impressions": 124,
     "reactions": 0,
     "reposts": 0
    },
@@ -6304,6 +6314,16 @@
    "id": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7711150826638593301",
+   "metricas": {
+    "averageTimeWatched": 8.58,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 10.28,
+    "views": 64
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6332,6 +6352,14 @@
    "id": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124619539493040343",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 78,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
    "noticia": "nota:chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
    "origen": "bot",
@@ -8251,14 +8279,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710382757339352372",
    "metricas": {
-    "averageTimeWatched": 2.95,
+    "averageTimeWatched": 2.91,
     "comments": 0,
-    "engagementRate": 1.02,
-    "reach": 0,
+    "engagementRate": 0.98,
+    "reach": 22,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 7.77,
-    "views": 98
+    "totalTimeWatched": 8.03,
+    "views": 102
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8291,8 +8319,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 1.19,
-    "impressions": 84,
+    "engagementRate": 1.18,
+    "impressions": 85,
     "reactions": 0,
     "reposts": 1
    },
@@ -8327,14 +8355,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710377818684689671",
    "metricas": {
-    "averageTimeWatched": 6.53,
+    "averageTimeWatched": 6.68,
     "comments": 1,
-    "engagementRate": 1.21,
-    "reach": 0,
+    "engagementRate": 1.06,
+    "reach": 46,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 27.32,
-    "views": 165
+    "totalTimeWatched": 31.07,
+    "views": 188
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8367,8 +8395,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 1.03,
-    "impressions": 97,
+    "engagementRate": 0.99,
+    "impressions": 101,
     "reactions": 0,
     "reposts": 1
    },
@@ -8403,14 +8431,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710372544339119368",
    "metricas": {
-    "averageTimeWatched": 3.43,
+    "averageTimeWatched": 3.52,
     "comments": 0,
-    "engagementRate": 0.81,
-    "reach": 0,
+    "engagementRate": 0.76,
+    "reach": 22,
     "reactions": 1,
     "shares": 0,
-    "totalTimeWatched": 9.42,
-    "views": 124
+    "totalTimeWatched": 10.43,
+    "views": 132
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8443,8 +8471,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 1.05,
-    "impressions": 95,
+    "engagementRate": 1.04,
+    "impressions": 96,
     "reactions": 0,
     "reposts": 1
    },
@@ -8479,14 +8507,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710367445386530069",
    "metricas": {
-    "averageTimeWatched": 4.76,
+    "averageTimeWatched": 4.64,
     "comments": 0,
-    "engagementRate": 1.27,
-    "reach": 0,
+    "engagementRate": 1.21,
+    "reach": 34,
     "reactions": 2,
     "shares": 0,
-    "totalTimeWatched": 16.17,
-    "views": 158
+    "totalTimeWatched": 16.45,
+    "views": 165
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8519,8 +8547,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 1.11,
-    "impressions": 90,
+    "engagementRate": 1.1,
+    "impressions": 91,
     "reactions": 0,
     "reposts": 1
    },
@@ -8555,14 +8583,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710362364000013588",
    "metricas": {
-    "averageTimeWatched": 5.19,
+    "averageTimeWatched": 5.09,
     "comments": 0,
     "engagementRate": 0,
-    "reach": 0,
+    "reach": 17,
     "reactions": 0,
     "shares": 0,
-    "totalTimeWatched": 11.23,
-    "views": 118
+    "totalTimeWatched": 11.28,
+    "views": 120
    },
    "nota_url": "",
    "origen": "entrevistas",
@@ -8595,8 +8623,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0.83,
-    "impressions": 120,
+    "engagementRate": 0.79,
+    "impressions": 126,
     "reactions": 0,
     "reposts": 1
    },
@@ -8685,6 +8713,14 @@
    "id": "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124690345501884791",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-dos-muertos-y-un-herido-tras-un-choque-e-4d1488",
    "noticia": "nota:san-antonio-de-areco-dos-muertos-y-un-herido-tras-un-choque-e-4d1488",
    "origen": "policiales",
@@ -9237,7 +9273,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 146,
+    "impressions": 153,
     "reactions": 0,
     "reposts": 0
    },
@@ -9496,7 +9532,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 93,
     "reactions": 0,
     "reposts": 0
    },
@@ -10261,6 +10297,14 @@
    "ig_hora": "2026-11-23T12:08:36.000Z",
    "intentos": 0,
    "link": "",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-femenino-chivilcoy-torneo-clausura-ajb-argentino-vencio-a",
    "noticia": "nota:basquet-femenino-chivilcoy-torneo-clausura-ajb-argentino-vencio-a",
    "origen": "web",
@@ -10329,6 +10373,14 @@
    "ig_hora": "2026-11-23T09:38:36.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124799682983440698",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/cultura-literaria-chivilcoy-una-multitud-acompano-una-nueva-y-exitosa",
    "noticia": "nota:cultura-literaria-chivilcoy-una-multitud-acompano-una-nueva-y-exitosa",
    "origen": "web",
@@ -10397,6 +10449,14 @@
    "ig_hora": "2026-11-23T09:23:36.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124796101714751838",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/sustraccion-vehicular-chivilcoy-circo-safari-show-continuan-con-la",
    "noticia": "nota:sustraccion-vehicular-chivilcoy-circo-safari-show-continuan-con-la",
    "origen": "web",
@@ -10907,6 +10967,14 @@
    "ig_hora": "2026-11-23T09:08:36.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124792326400663659",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/preocupacion-en-chivilcoy-chivilcoy-una-serie-de-operativos",
    "noticia": "nota:preocupacion-en-chivilcoy-chivilcoy-una-serie-de-operativos",
    "origen": "web",
@@ -11264,6 +11332,14 @@
    "ig_hora": "2026-11-23T10:23:36.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124811134339256628",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/teatro-el-chasqui-ornella-martinez-marcelo-las-funciones-que-cerraran",
    "noticia": "nota:teatro-el-chasqui-ornella-martinez-marcelo-las-funciones-que-cerraran",
    "origen": "web",
@@ -11615,6 +11691,14 @@
    "ig_hora": "2026-11-23T10:08:36.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124807295280254980",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/panorama-laboral-local-fernando-antonelli-advirtio-sobre-despidos-y",
    "noticia": "nota:panorama-laboral-local-fernando-antonelli-advirtio-sobre-despidos-y",
    "origen": "web",
@@ -12018,6 +12102,14 @@
    "ig_hora": "2026-11-23T11:38:36.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124829880953020518",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-femenino-liga-mercedina-torneo-clausura-2026-ciclon-de",
    "noticia": "nota:futbol-femenino-liga-mercedina-torneo-clausura-2026-ciclon-de",
    "origen": "web",
@@ -12291,14 +12383,14 @@
    "viral": false
   },
   "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x": {
-   "actualizado": "2026-11-23T12:00:39.000Z",
+   "actualizado": "2026-11-23T12:25:24.000Z",
    "buffer_id": "6b042ae77eae78cd9a97ac97",
    "clave": "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x",
    "creado": "2026-11-23T12:00:31.000Z",
    "dueAt": "2026-11-23T12:53:36.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-23T11:41:44.085Z",
    "id": "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1",
    "intentos": 0,
@@ -12515,6 +12607,14 @@
    "ig_hora": "2026-11-23T11:53:36.000Z",
    "intentos": 0,
    "link": "",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-chivilcoy-liga-nacional-joaquin-valinotti-tras-el-desahogo-de",
    "noticia": "nota:basquet-chivilcoy-liga-nacional-joaquin-valinotti-tras-el-desahogo-de",
    "origen": "web",
@@ -13139,6 +13239,14 @@
    "ig_hora": "2026-11-23T11:23:36.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124826106461098211",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-torneo-clausura-de-primera-division-gimnasia-se",
    "noticia": "nota:futbol-chivilcoy-torneo-clausura-de-primera-division-gimnasia-se",
    "origen": "web",
@@ -13570,6 +13678,14 @@
    "ig_hora": "2026-11-23T09:53:36.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124803457622086113",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/desfile-y-destrezas-criollas-mas-de-35-agrupaciones-celebraron-la-69",
    "noticia": "nota:desfile-y-destrezas-criollas-mas-de-35-agrupaciones-celebraron-la-69",
    "origen": "web",
@@ -14038,6 +14154,14 @@
    "ig_hora": "2026-11-23T12:23:36.000Z",
    "intentos": 0,
    "link": "",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/campeonato-regional-chivilcoy-horacio-y-belen-heiland-cerraron-la",
    "noticia": "nota:campeonato-regional-chivilcoy-horacio-y-belen-heiland-cerraron-la",
    "origen": "web",
@@ -14862,6 +14986,14 @@
    "ig_hora": "2026-11-23T10:38:36.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124814782293311592",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/participacion-articulada-chivilcoy-concientizacion-acerca-del-dia",
    "noticia": "nota:participacion-articulada-chivilcoy-concientizacion-acerca-del-dia",
    "origen": "web",
@@ -15470,12 +15602,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3|x",
-   "cuando": "2026-11-16T14:40:17.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "web:b13a4343-1c5f-4791-894f-bb286876e7d0|x",
    "cuando": "2026-11-16T15:20:20.000Z",
@@ -19641,6 +19767,12 @@
    "cuando": "2026-11-23T12:00:40.000Z",
    "dueAt": "2026-11-23T12:53:36.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x",
+   "cuando": "2026-11-23T12:25:24.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
   }
  ],
  "tandas": {
