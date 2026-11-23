@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-23T09:20:21.000Z"
+   "visto": "2026-11-23T10:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 5,
-    "sent": 3
+    "scheduled": 2,
+    "sent": 9
    },
    "pausado": false,
-   "visto": "2026-11-23T09:20:21.000Z"
+   "visto": "2026-11-23T10:40:13.000Z"
   }
  },
  "contenidos": {
@@ -10362,14 +10362,14 @@
    "viral": false
   },
   "web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x": {
-   "actualizado": "2026-11-23T09:03:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-23T10:40:13.000Z",
+   "buffer_id": "6b04180e95bbdb5492ed5cbd",
    "clave": "web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x",
    "creado": "2026-11-23T09:03:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-23T12:08:55.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-23T09:02:12.980Z",
    "id": "web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f",
    "ig_hora": "2026-11-23T12:08:36.000Z",
@@ -10429,19 +10429,20 @@
    "viral": false
   },
   "web:0905cc0b-2dcc-44a0-a8b2-c7b651813a28|x": {
-   "actualizado": "2026-11-23T09:05:15.000Z",
+   "actualizado": "2026-11-23T10:40:13.000Z",
    "buffer_id": "6b0401cc9c1a68014f60fe7d",
    "clave": "web:0905cc0b-2dcc-44a0-a8b2-c7b651813a28|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T09:38:10.000Z",
+   "enviado": "2026-11-23T09:38:16.228Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:01:05.495Z",
    "id": "web:0905cc0b-2dcc-44a0-a8b2-c7b651813a28",
    "ig_hora": "2026-11-23T09:38:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124799682983440698",
    "nota_url": "https://www.diariolacampaña.com.ar/n/cultura-literaria-chivilcoy-una-multitud-acompano-una-nueva-y-exitosa",
    "noticia": "nota:cultura-literaria-chivilcoy-una-multitud-acompano-una-nueva-y-exitosa",
    "origen": "web",
@@ -10496,19 +10497,20 @@
    "viral": false
   },
   "web:0a15fc2c-0108-44f3-b021-e0f9df166285|x": {
-   "actualizado": "2026-11-23T09:05:15.000Z",
+   "actualizado": "2026-11-23T10:40:13.000Z",
    "buffer_id": "6b0401cb00ec56c26fef44c9",
    "clave": "web:0a15fc2c-0108-44f3-b021-e0f9df166285|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T09:23:46.000Z",
+   "enviado": "2026-11-23T09:24:02.379Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:01:00.220Z",
    "id": "web:0a15fc2c-0108-44f3-b021-e0f9df166285",
    "ig_hora": "2026-11-23T09:23:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124796101714751838",
    "nota_url": "https://www.diariolacampaña.com.ar/n/sustraccion-vehicular-chivilcoy-circo-safari-show-continuan-con-la",
    "noticia": "nota:sustraccion-vehicular-chivilcoy-circo-safari-show-continuan-con-la",
    "origen": "web",
@@ -11362,19 +11364,20 @@
    "viral": false
   },
   "web:33a866e0-a7fe-4701-ac8b-885a55855c7e|x": {
-   "actualizado": "2026-11-23T09:05:15.000Z",
+   "actualizado": "2026-11-23T10:40:13.000Z",
    "buffer_id": "6b0401cd9c1a68014f60ff4b",
    "clave": "web:33a866e0-a7fe-4701-ac8b-885a55855c7e|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T10:23:38.000Z",
+   "enviado": "2026-11-23T10:23:46.435Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:01:31.697Z",
    "id": "web:33a866e0-a7fe-4701-ac8b-885a55855c7e",
    "ig_hora": "2026-11-23T10:23:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124811134339256628",
    "nota_url": "https://www.diariolacampaña.com.ar/n/teatro-el-chasqui-ornella-martinez-marcelo-las-funciones-que-cerraran",
    "noticia": "nota:teatro-el-chasqui-ornella-martinez-marcelo-las-funciones-que-cerraran",
    "origen": "web",
@@ -11712,19 +11715,20 @@
    "viral": false
   },
   "web:3f8887ff-4fa1-4011-9138-62d2d037d36b|x": {
-   "actualizado": "2026-11-23T09:05:15.000Z",
+   "actualizado": "2026-11-23T10:40:13.000Z",
    "buffer_id": "6b0401cd9c1a68014f60ff1f",
    "clave": "web:3f8887ff-4fa1-4011-9138-62d2d037d36b|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T10:08:25.000Z",
+   "enviado": "2026-11-23T10:08:31.132Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:01:21.802Z",
    "id": "web:3f8887ff-4fa1-4011-9138-62d2d037d36b",
    "ig_hora": "2026-11-23T10:08:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124807295280254980",
    "nota_url": "https://www.diariolacampaña.com.ar/n/panorama-laboral-local-fernando-antonelli-advirtio-sobre-despidos-y",
    "noticia": "nota:panorama-laboral-local-fernando-antonelli-advirtio-sobre-despidos-y",
    "origen": "web",
@@ -12583,14 +12587,14 @@
    "viral": false
   },
   "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x": {
-   "actualizado": "2026-11-23T09:03:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-23T10:40:13.000Z",
+   "buffer_id": "6b04180db37f5256c8d982a3",
    "clave": "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x",
    "creado": "2026-11-23T09:03:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-23T11:53:58.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-23T09:02:07.989Z",
    "id": "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6",
    "ig_hora": "2026-11-23T11:53:36.000Z",
@@ -13664,19 +13668,20 @@
    "viral": false
   },
   "web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba|x": {
-   "actualizado": "2026-11-23T09:05:15.000Z",
+   "actualizado": "2026-11-23T10:40:13.000Z",
    "buffer_id": "6b0401cc9c207fed958ba688",
    "clave": "web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T09:53:08.000Z",
+   "enviado": "2026-11-23T09:53:16.188Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:01:13.777Z",
    "id": "web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba",
    "ig_hora": "2026-11-23T09:53:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124803457622086113",
    "nota_url": "https://www.diariolacampaña.com.ar/n/desfile-y-destrezas-criollas-mas-de-35-agrupaciones-celebraron-la-69",
    "noticia": "nota:desfile-y-destrezas-criollas-mas-de-35-agrupaciones-celebraron-la-69",
    "origen": "web",
@@ -14993,19 +14998,20 @@
    "viral": false
   },
   "web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x": {
-   "actualizado": "2026-11-23T09:20:21.000Z",
+   "actualizado": "2026-11-23T10:40:13.000Z",
    "buffer_id": "6b04055551038c931bab2778",
    "clave": "web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T10:38:10.000Z",
+   "enviado": "2026-11-23T10:38:16.251Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:01:40.031Z",
    "id": "web:e4274fd1-053f-4ac0-8b14-aefcffccd755",
    "ig_hora": "2026-11-23T10:38:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124814782293311592",
    "nota_url": "https://www.diariolacampaña.com.ar/n/participacion-articulada-chivilcoy-concientizacion-acerca-del-dia",
    "noticia": "nota:participacion-articulada-chivilcoy-concientizacion-acerca-del-dia",
    "origen": "web",
@@ -15680,58 +15686,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6afaeba00c2af02527daaef0",
-   "clave": "web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x",
-   "cuando": "2026-11-16T11:40:16.000Z",
-   "dueAt": "2026-11-16T12:53:40.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afaeba037f9e5273be3ac23",
-   "clave": "web:7a38384a-57c1-43f8-a275-9335467a7e1b|x",
-   "cuando": "2026-11-16T11:40:16.000Z",
-   "dueAt": "2026-11-16T13:08:22.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afaf05537f9e5273be58757",
-   "clave": "web:990fea7f-febb-4b01-a4e7-7e8f17ee66cd|x",
-   "cuando": "2026-11-16T12:00:21.000Z",
-   "dueAt": "2026-11-16T13:23:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afaf50037f9e5273be7f0a4",
-   "clave": "web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x",
-   "cuando": "2026-11-16T12:20:16.000Z",
-   "dueAt": "2026-11-16T13:38:42.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:44fd5518-ed5a-40fc-83e8-17f01377db20|x",
-   "cuando": "2026-11-16T12:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122308457428607371"
-  },
-  {
-   "clave": "web:58e141af-ad69-4845-a7f9-40c71d9349cb|x",
-   "cuando": "2026-11-16T12:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122289454907785510"
-  },
-  {
-   "clave": "web:79b2a1c9-ea02-4daf-9e3e-3dd29dd81958|x",
-   "cuando": "2026-11-16T12:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122297004290175410"
-  },
-  {
-   "clave": "web:b4b8df92-6a44-497e-bfda-6b94b8414a97|x",
-   "cuando": "2026-11-16T12:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122293230054134045"
-  },
   {
    "clave": "web:f6b756be-3ae7-477a-81b1-48dfe2af1498|x",
    "cuando": "2026-11-16T12:40:15.000Z",
@@ -19850,6 +19804,56 @@
    "cuando": "2026-11-23T10:20:14.000Z",
    "dueAt": "2026-11-23T11:38:14.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:0905cc0b-2dcc-44a0-a8b2-c7b651813a28|x",
+   "cuando": "2026-11-23T10:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124799682983440698"
+  },
+  {
+   "clave": "web:0a15fc2c-0108-44f3-b021-e0f9df166285|x",
+   "cuando": "2026-11-23T10:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124796101714751838"
+  },
+  {
+   "clave": "web:33a866e0-a7fe-4701-ac8b-885a55855c7e|x",
+   "cuando": "2026-11-23T10:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124811134339256628"
+  },
+  {
+   "clave": "web:3f8887ff-4fa1-4011-9138-62d2d037d36b|x",
+   "cuando": "2026-11-23T10:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124807295280254980"
+  },
+  {
+   "clave": "web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba|x",
+   "cuando": "2026-11-23T10:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124803457622086113"
+  },
+  {
+   "clave": "web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x",
+   "cuando": "2026-11-23T10:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124814782293311592"
+  },
+  {
+   "buffer_id": "6b04180db37f5256c8d982a3",
+   "clave": "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x",
+   "cuando": "2026-11-23T10:40:14.000Z",
+   "dueAt": "2026-11-23T11:53:58.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b04180e95bbdb5492ed5cbd",
+   "clave": "web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x",
+   "cuando": "2026-11-23T10:40:14.000Z",
+   "dueAt": "2026-11-23T12:08:55.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19887,7 +19891,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-23",
- "ultima_sync": "2026-11-23T09:20:21.000Z",
+ "ultima_sync": "2026-11-23T10:40:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
