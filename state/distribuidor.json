@@ -3568,6 +3568,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/programa-de-inclusion-laboral-chivilcoy-laura-azcola-considero",
    "volanta": "Programa de inclusión laboral"
   },
+  "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Racing venció a Gimnasia y es finalista del Torneo Clausura CHIVILCOY.– Clausura de Primera División. Se conoce al primer finalista del torneo y es Racing, que venció a Gimnasia en el Estadio Centro por 78 a 48. La mayor diferencia se notó en el segundo cuarto, donde el parcial fue 17 a 4, y en el tercer cuarto, que fue 21 a 12. Luego, para el local, el juego se hizo cuesta arriba y, con la abultada diferencia, la Academia manejó el partido hasta el final. Solo resta saber quién...",
+   "generado": "2026-11-23T11:41:44.085Z",
+   "id": "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1643e9b3dbcb41ea834ea4b0663e3451~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-vencio-a-gimnasia-y-es-finalista",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Racing venció a Gimnasia y es finalista del Torneo Clausura",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-racing-vencio-a-gimnasia-y-es-finalista",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7": {
    "categoria": "",
    "descripcion": "17 de Noviembre: Día de la Militancia El 17 de noviembre de 1972 quedó marcado para siempre en la historia del peronismo y de la Argentina. Después de casi 18 años de exilio, proscripción y resistencia, el General Juan Domingo Perón regresaba a la Patria, acompañado por la esperanza de millones de argentinos y argentinas que nunca habían renunciado a sus convicciones. El Día de la Militancia Peronista es mucho más que una fecha conmemorativa. Es el homenaje a quienes, en los momentos más...",
@@ -5296,25 +5315,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-chivilcoy-a-gimnasia-se-le-escapo-la-clasificacion-de-las",
    "volanta": "Fútbol"
-  },
-  "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Bomberos extinguieron un incendio en una pinturería de la ciudad Bomberos extinguieron un incendio en una pinturería de Chivilcoy. El fuego se concentró en un lavarropas dentro del local de Rosetti 258. Una dotación de ocho bomberos evitó que las llamas alcanzaran los tambores de pintura y otros materiales combustibles. Pasada la medianoche de este viernes, los Bomberos Voluntarios acudieron a una pinturería ubicada en Rosetti 258, cerca de Almirante Brown. Al llegar, encontraron...",
-   "generado": "2026-11-13T11:08:05.632Z",
-   "id": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_ef33da3c16f4497cb16a84f77753b630~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Bomberos extinguieron un incendio en una pinturería de la ciudad",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
-   "volanta": "Chivilcoy · Bomberos"
   },
   "web:f78304d9-a338-4cad-a91c-4dbb95f32587": {
    "categoria": "",
@@ -12290,6 +12290,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x": {
+   "actualizado": "2026-11-23T12:00:39.000Z",
+   "buffer_id": "6b042ae77eae78cd9a97ac97",
+   "clave": "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x",
+   "creado": "2026-11-23T12:00:31.000Z",
+   "dueAt": "2026-11-23T12:53:36.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-23T11:41:44.085Z",
+   "id": "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-vencio-a-gimnasia-y-es-finalista",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-racing-vencio-a-gimnasia-y-es-finalista",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Racing venció a Gimnasia y es finalista del Torneo Clausura\n\nEl equipo de la Academia se impuso por 78 a 48 en el Estadio Centro tras sacar ventajas en el segundo y tercer cuarto. Con el triunfo, aseguró su lugar en la definición.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-vencio-a-gimnasia-y-es-finalista",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Racing venció a Gimnasia y es finalista del Torneo Clausura",
+   "urgente": false,
+   "vence": "2026-11-23T15:41:44.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x": {
    "actualizado": "2026-11-17T13:00:20.000Z",
    "buffer_id": "6afc2f0f86c5475ec30b0a13",
@@ -15274,34 +15302,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff|x": {
-   "actualizado": "2026-11-13T12:00:20.000Z",
-   "buffer_id": "",
-   "clave": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff|x",
-   "creado": "2026-11-13T11:20:13.000Z",
-   "dueAt": "",
-   "error": "no está en el carrusel del diario de hoy",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "descartado",
-   "generado": "2026-11-13T11:08:05.632Z",
-   "id": "web:f6be02f8-6c54-4759-9446-3ae8ad3178ff",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
-   "noticia": "nota:chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Bomberos extinguieron un incendio en una pinturería de la ciudad\n\nEl fuego se concentró en un lavarropas dentro del local. Ocho bomberos evitaron que las llamas alcanzaran los tambores de pintura y otros materiales combustibles.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-extinguieron-un-incendio-en-una",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Bomberos extinguieron un incendio en una pinturería de la ciudad",
-   "urgente": false,
-   "vence": "2026-11-13T15:08:05.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:f78304d9-a338-4cad-a91c-4dbb95f32587|x": {
    "actualizado": "2026-11-20T10:20:14.000Z",
    "buffer_id": "6b000d37ca85ebefb00e3a1a",
@@ -15470,20 +15470,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x",
-   "cuando": "2026-11-16T13:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122312167118487849"
-  },
-  {
-   "clave": "web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3|x",
-   "cuando": "2026-11-16T14:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3|x",
    "cuando": "2026-11-16T14:40:17.000Z",
@@ -19640,6 +19626,21 @@
    "cuando": "2026-11-23T11:40:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2124826106461098211"
+  },
+  {
+   "clave": "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x",
+   "cuando": "2026-11-23T12:00:39.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6b042ae77eae78cd9a97ac97",
+   "clave": "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x",
+   "cuando": "2026-11-23T12:00:40.000Z",
+   "dueAt": "2026-11-23T12:53:36.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20217,6 +20218,7 @@
   "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84": "2026-10-26T10:20:14.000Z",
   "web:589aada5-2294-49ca-8ee9-5c71fc761177": "2026-11-10T10:02:42.000Z",
   "web:58e141af-ad69-4845-a7f9-40c71d9349cb": "2026-11-16T10:03:28.000Z",
+  "web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1": "2026-11-23T12:00:31.000Z",
   "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7": "2026-11-17T10:03:18.000Z",
   "web:5abbdc69-8f44-400c-8e8e-315798eae48e": "2026-11-17T18:40:17.000Z",
   "web:5b212ff6-9006-4b2b-ae18-48b4e0798b82": "2026-11-05T10:02:30.000Z",
