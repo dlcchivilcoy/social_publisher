@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-23T11:40:13.000Z"
+   "visto": "2026-11-23T12:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 4,
-    "sent": 11
+    "scheduled": 0,
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-11-23T11:40:13.000Z"
+   "visto": "2026-11-23T12:40:13.000Z"
   }
  },
  "contenidos": {
@@ -10284,19 +10284,20 @@
    "viral": false
   },
   "web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x": {
-   "actualizado": "2026-11-23T10:40:13.000Z",
+   "actualizado": "2026-11-23T12:40:13.000Z",
    "buffer_id": "6b04180e95bbdb5492ed5cbd",
    "clave": "web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T12:08:55.000Z",
+   "enviado": "2026-11-23T12:09:02.761Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:02:12.980Z",
    "id": "web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f",
    "ig_hora": "2026-11-23T12:08:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124837627102745046",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -12594,19 +12595,20 @@
    "viral": false
   },
   "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x": {
-   "actualizado": "2026-11-23T10:40:13.000Z",
+   "actualizado": "2026-11-23T12:40:13.000Z",
    "buffer_id": "6b04180db37f5256c8d982a3",
    "clave": "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T11:53:58.000Z",
+   "enviado": "2026-11-23T11:54:01.721Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:02:07.989Z",
    "id": "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6",
    "ig_hora": "2026-11-23T11:53:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124833847770489338",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -14141,19 +14143,20 @@
    "viral": false
   },
   "web:ba8e819e-fc43-4315-8b96-fd90deb06634|x": {
-   "actualizado": "2026-11-23T11:00:19.000Z",
+   "actualizado": "2026-11-23T12:40:13.000Z",
    "buffer_id": "6b041cc4c9e1646179059dab",
    "clave": "web:ba8e819e-fc43-4315-8b96-fd90deb06634|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T12:23:43.000Z",
+   "enviado": "2026-11-23T12:23:46.189Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:02:19.666Z",
    "id": "web:ba8e819e-fc43-4315-8b96-fd90deb06634",
    "ig_hora": "2026-11-23T12:23:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124841332338311468",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -14671,19 +14674,20 @@
    "viral": false
   },
   "web:d29b119d-8f9b-47c4-8582-f320c151dbba|x": {
-   "actualizado": "2026-11-23T11:20:25.000Z",
+   "actualizado": "2026-11-23T12:40:13.000Z",
    "buffer_id": "6b042179d8293518c2dd7e7e",
    "clave": "web:d29b119d-8f9b-47c4-8582-f320c151dbba|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T12:38:37.000Z",
+   "enviado": "2026-11-23T12:38:46.200Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:02:26.547Z",
    "id": "web:d29b119d-8f9b-47c4-8582-f320c151dbba",
    "ig_hora": "2026-11-23T12:38:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124845106960183604",
    "nota_url": "https://www.diariolacampaña.com.ar/n/golf-chivilcoy-camino-a-la-definicion-se-palpita-la-gran-final-de-la",
    "noticia": "nota:golf-chivilcoy-camino-a-la-definicion-se-palpita-la-gran-final-de-la",
    "origen": "web",
@@ -15602,34 +15606,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:b13a4343-1c5f-4791-894f-bb286876e7d0|x",
-   "cuando": "2026-11-16T15:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:b13a4343-1c5f-4791-894f-bb286876e7d0|x",
-   "cuando": "2026-11-16T15:20:20.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "web:d5cbb379-f3fd-4f6e-a96e-4dc3636d39ed|x",
-   "cuando": "2026-11-16T15:40:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:d5cbb379-f3fd-4f6e-a96e-4dc3636d39ed|x",
-   "cuando": "2026-11-16T15:40:16.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
   {
    "clave": "entrevistas:job00316",
    "cuando": "2026-11-16T16:40:29.000Z",
@@ -19773,6 +19749,30 @@
    "cuando": "2026-11-23T12:25:24.000Z",
    "evento": "depurado",
    "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "clave": "web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x",
+   "cuando": "2026-11-23T12:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124837627102745046"
+  },
+  {
+   "clave": "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x",
+   "cuando": "2026-11-23T12:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124833847770489338"
+  },
+  {
+   "clave": "web:ba8e819e-fc43-4315-8b96-fd90deb06634|x",
+   "cuando": "2026-11-23T12:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124841332338311468"
+  },
+  {
+   "clave": "web:d29b119d-8f9b-47c4-8582-f320c151dbba|x",
+   "cuando": "2026-11-23T12:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124845106960183604"
   }
  ],
  "tandas": {
@@ -19810,7 +19810,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-23",
- "ultima_sync": "2026-11-23T11:40:13.000Z",
+ "ultima_sync": "2026-11-23T12:40:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/11/2026 09:25 (hora AR) · ACTIVO
+Actualizado: 23/11/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 23/11/2026 09:25 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 9 | 4 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 11 enviadas + 4 programadas de 100 por día
+- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -33,10 +33,6 @@ Actualizado: 23/11/2026 09:25 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-23T09:05 programado web:0905cc0b-2dcc-44a0-a8b2-c7b651813a28|x 
-- 2026-11-23T09:05 programado web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba|x 
-- 2026-11-23T09:05 programado web:3f8887ff-4fa1-4011-9138-62d2d037d36b|x 
-- 2026-11-23T09:05 programado web:33a866e0-a7fe-4701-ac8b-885a55855c7e|x 
 - 2026-11-23T09:20 enviado web:228b6d6b-86cb-4392-a8ca-6599d475ecc3|x 
 - 2026-11-23T09:20 programado web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x 
 - 2026-11-23T09:40 programado web:1f8a4af4-b2db-4be5-b0a6-a5c9b1109b84|x 
@@ -58,3 +54,7 @@ Actualizado: 23/11/2026 09:25 (hora AR) · ACTIVO
 - 2026-11-23T12:00 recibido web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x 
 - 2026-11-23T12:00 programado web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x 
 - 2026-11-23T12:25 depurado web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x no está en el carrusel del diario de hoy (sacado de Buffer)
+- 2026-11-23T12:40 enviado web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x 
+- 2026-11-23T12:40 enviado web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x 
+- 2026-11-23T12:40 enviado web:ba8e819e-fc43-4315-8b96-fd90deb06634|x 
+- 2026-11-23T12:40 enviado web:d29b119d-8f9b-47c4-8582-f320c151dbba|x 
