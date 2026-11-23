@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-23T10:40:13.000Z"
+   "visto": "2026-11-23T11:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 2,
-    "sent": 9
+    "scheduled": 4,
+    "sent": 11
    },
    "pausado": false,
-   "visto": "2026-11-23T10:40:13.000Z"
+   "visto": "2026-11-23T11:40:13.000Z"
   }
  },
  "contenidos": {
@@ -12004,19 +12004,20 @@
    "viral": false
   },
   "web:4d89ade0-7563-4650-985d-371fb8d64317|x": {
-   "actualizado": "2026-11-23T10:20:13.000Z",
+   "actualizado": "2026-11-23T11:40:13.000Z",
    "buffer_id": "6b04135e95bbdb5492eb880d",
    "clave": "web:4d89ade0-7563-4650-985d-371fb8d64317|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T11:38:14.000Z",
+   "enviado": "2026-11-23T11:38:15.930Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:02:03.908Z",
    "id": "web:4d89ade0-7563-4650-985d-371fb8d64317",
    "ig_hora": "2026-11-23T11:38:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124829880953020518",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-femenino-liga-mercedina-torneo-clausura-2026-ciclon-de",
    "noticia": "nota:futbol-femenino-liga-mercedina-torneo-clausura-2026-ciclon-de",
    "origen": "web",
@@ -13096,19 +13097,20 @@
    "viral": false
   },
   "web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6|x": {
-   "actualizado": "2026-11-23T10:00:24.000Z",
+   "actualizado": "2026-11-23T11:40:13.000Z",
    "buffer_id": "6b040eb83c0b3ee4f418f4ba",
    "clave": "web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T11:23:03.000Z",
+   "enviado": "2026-11-23T11:23:16.112Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:01:59.743Z",
    "id": "web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6",
    "ig_hora": "2026-11-23T11:23:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124826106461098211",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-torneo-clausura-de-primera-division-gimnasia-se",
    "noticia": "nota:futbol-chivilcoy-torneo-clausura-de-primera-division-gimnasia-se",
    "origen": "web",
@@ -15468,18 +15470,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:990fea7f-febb-4b01-a4e7-7e8f17ee66cd|x",
-   "cuando": "2026-11-16T13:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122319716957954179"
-  },
-  {
-   "clave": "web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x",
-   "cuando": "2026-11-16T13:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122323491093417992"
-  },
   {
    "clave": "web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x",
    "cuando": "2026-11-16T13:40:15.000Z",
@@ -19638,6 +19628,18 @@
    "cuando": "2026-11-23T11:20:25.000Z",
    "dueAt": "2026-11-23T12:38:37.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:4d89ade0-7563-4650-985d-371fb8d64317|x",
+   "cuando": "2026-11-23T11:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124829880953020518"
+  },
+  {
+   "clave": "web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6|x",
+   "cuando": "2026-11-23T11:40:13.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124826106461098211"
   }
  ],
  "tandas": {
@@ -19675,7 +19677,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-23",
- "ultima_sync": "2026-11-23T10:40:13.000Z",
+ "ultima_sync": "2026-11-23T11:40:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
