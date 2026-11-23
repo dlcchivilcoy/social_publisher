@@ -62,5 +62,30 @@ os.environ["INSTAGRAM_USER_ID"] = "17841405971293744"
 chequear("las palabras ambiguas solas no alcanzan",
          not CA.es_del_campo("La productora del recital y el rendimiento del equipo"))
 
+# 23/11/2026: la nota 6 del Drive SIEMPRE en colab con agro.
+from pathlib import Path as _P  # noqa: E402
+os.environ.pop("COLAB_AGRO_NOTAS", None)
+chequear("número de nota «6-nota ornella mm.docx» = 6", CA.numero_de_nota("6-nota ornella mm.docx") == 6)
+chequear("número de nota con ruta y cero adelante", CA.numero_de_nota(_P("x/06 nota.docx")) == 6)
+chequear("«16-nota» no es la 6", CA.numero_de_nota("16-nota golf.docx") == 16)
+chequear("sin número = 0", CA.numero_de_nota("nota suelta.docx") == 0)
+chequear("la nota 6 → colab siempre", CA.colab_de_nota({"docx": _P("6-nota ornella mm.docx")}) == "siempre")
+chequear("la nota 9 → decide el texto", CA.colab_de_nota({"docx": _P("9-nota rolandelli h.docx")}) is True)
+chequear("la 16 no cuenta como 6", CA.colab_de_nota({"docx": _P("16-nota x.docx")}) is True)
+chequear("siempre=True invita aunque no sea del campo",
+         CA.colaborador_para("Ornella Martínez Marcelo", siempre=True) == "diarioyradioagro")
+os.environ["COLAB_AGRO_NOTAS"] = "6,9"
+chequear("COLAB_AGRO_NOTAS=6,9 suma la 9", CA.colab_de_nota({"docx": _P("9-nota.docx")}) == "siempre")
+os.environ["COLAB_AGRO_NOTAS"] = "0"
+chequear("COLAB_AGRO_NOTAS=0 = ninguna", CA.colab_de_nota({"docx": _P("6-nota.docx")}) is True)
+os.environ.pop("COLAB_AGRO_NOTAS")
+contenedores.clear()
+IG.publish_reel("https://v/x.mp4", "Ornella Martínez Marcelo: las funciones de la temporada", colab="siempre")
+chequear("reel de la nota 6 (no es del campo) → invita a agro",
+         contenedores[-1].get("collaborators") == '["diarioyradioagro"]')
+os.environ["INSTAGRAM_USER_ID"] = "999"
+chequear("otra cuenta nunca invita, ni con siempre", CA.colaborador_para("x", siempre=True) == "")
+os.environ["INSTAGRAM_USER_ID"] = "17841405971293744"
+
 print(f"\n{total - len(fallas)}/{total} bien")
 sys.exit(1 if fallas else 0)

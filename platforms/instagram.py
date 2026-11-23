@@ -396,7 +396,8 @@ def _colaborador(caption: str, colab: bool, user_id: str) -> str:
         return ""
     try:
         from utils import colab_agro
-        return colab_agro.colaborador_para(caption, user_id)
+        # colab="siempre" (23/11/2026): la nota fija de agro del Drive, aunque el texto no sea del campo.
+        return colab_agro.colaborador_para(caption, user_id, siempre=(colab == "siempre"))
     except Exception as e:  # noqa: BLE001 — la colab nunca puede costar el posteo
         logger.warning(f"colab agro: no pude decidir ({e}); sale sin colab")
         return ""

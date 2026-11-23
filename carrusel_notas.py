@@ -480,7 +480,7 @@ def _reel_de_placas(placas: list) -> Path:
     return to_vertical_reel(base, carpeta / "reel.mp4", audio=False, compuesto=True, logo=False, alto=1350)
 
 
-def _publicar_reel(caption: str, placas: list) -> None:
+def _publicar_reel(caption: str, placas: list, colab=True) -> None:
     from utils.image_host import upload_to_imgbb
     from utils.video_host import upload_reel
     url = upload_reel(_reel_de_placas(placas))
@@ -489,7 +489,7 @@ def _publicar_reel(caption: str, placas: list) -> None:
     except Exception as e:  # noqa: BLE001 — sin portada propia Instagram usa el primer cuadro, que es la misma
         logger.warning(f"[instagram] no pude subir la portada del reel ({e}); va sin cover_url")
         portada = ""
-    instagram.publish_reel(url, caption, cover_url=portada)
+    instagram.publish_reel(url, caption, cover_url=portada, colab=colab)
 
 
 def _intervalo_seg() -> int:
@@ -718,15 +718,19 @@ def _instagram_individual(posts_folder: Path, notas: list, ledger: set, hoy: dat
         falta = inicio + intervalo * k - reloj()
         if falta > 0:
             dormir(falta)
+        from utils import colab_agro
+        colab = colab_agro.colab_de_nota(note)        # la nota 6: siempre en colab con agro (23/11/2026)
+        if colab == "siempre":
+            logger.info(f"[instagram] «{titular[:40]}» es la nota fija de agro: va en colab con @diarioyradioagro")
         try:
             if reel:
                 try:
-                    publicar_reel(caption, placas)
+                    publicar_reel(caption, placas, colab=colab)
                 except Exception as e:  # noqa: BLE001 — el reel no salió: la nota no se pierde, va en carrusel
                     logger.error(f"[instagram] el reel de «{titular[:40]}» FALLÓ ({e}); sale como carrusel")
-                    instagram.publish_carousel(caption_carrusel, placas)
+                    instagram.publish_carousel(caption_carrusel, placas, colab=colab)
             else:
-                instagram.publish_carousel(caption_carrusel, placas)
+                instagram.publish_carousel(caption_carrusel, placas, colab=colab)
         except Exception as e:  # noqa: BLE001
             logger.error(f"[instagram] «{titular[:40]}» FALLÓ: {e}")
             continue

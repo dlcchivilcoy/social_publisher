@@ -19,7 +19,9 @@ aceptar (sin ellas, la invitación queda para el barrido de agro).
 from __future__ import annotations
 
 import json
+import re
 import time
+from pathlib import Path
 
 import requests
 
@@ -46,13 +48,36 @@ def es_del_campo(texto: str) -> bool:
     return len(_hay(t, FIRMES)) >= 1
 
 
-def colaborador_para(texto: str, user_id: str = "") -> str:
-    """«diarioyradioagro» si este posteo de @diarioyradio es del campo; "" si no corresponde."""
+def colaborador_para(texto: str, user_id: str = "", siempre: bool = False) -> str:
+    """«diarioyradioagro» si este posteo de @diarioyradio es del campo (o `siempre`: la nota fija de agro del
+    Drive, ver notas_siempre); "" si no corresponde."""
     if not activo():
         return ""
     if (user_id or get("INSTAGRAM_USER_ID") or "").strip() != (get("DIARIO_IG_ID") or DIARIO_IG):
         return ""
-    return CUENTA_AGRO if es_del_campo(texto) else ""
+    return CUENTA_AGRO if (siempre or es_del_campo(texto)) else ""
+
+
+# 23/11/2026 (el editor: «poné en colab las notas de la página 6 cargadas en el drive de diarioyradio con
+# diarioyradioagro»; aclaró: «siempre la nota 6»): la nota del Drive cuyo archivo empieza con «6-» sale en colab
+# con agro TODOS los días, sea del tema que sea. COLAB_AGRO_NOTAS cambia los números («6,9»; 0 = ninguna).
+def notas_siempre() -> set:
+    crudo = (get("COLAB_AGRO_NOTAS") or "6").strip()
+    return {int(x) for x in re.findall(r"\d+", crudo) if int(x) > 0}
+
+
+def numero_de_nota(nombre: str) -> int:
+    """El número con que empieza el archivo de la nota («6-nota ornella mm.docx» → 6), o 0."""
+    m = re.match(r"\s*0*(\d+)\s*[-_. ]", Path(str(nombre or "")).name)
+    return int(m.group(1)) if m else 0
+
+
+def colab_de_nota(note: dict):
+    """Lo que va en `colab=` al publicar la nota del Drive en Instagram: "siempre" para la nota fija de agro,
+    True (decide el texto: ¿es del campo?) para las demás."""
+    archivo = (note or {}).get("docx") or (note or {}).get("file") or ""
+    n = numero_de_nota(archivo)
+    return "siempre" if n and n in notas_siempre() else True
 
 
 def con_colab(data: dict, colaborador: str) -> dict:
