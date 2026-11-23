@@ -1664,6 +1664,32 @@
    "volanta": "Confrontación en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/7SxGtAMEblo"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/dano-incendiario-en-la-noche-de.html": {
+   "categoria": "incendio",
+   "descripcion": "Bomberos voluntarios debieron acudir de urgencia tras la quema intencional de contenedores de residuos en la esquina de Almirante Brown y Uspallata. La policía busca al responsable.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-23T03:03:07.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/dano-incendiario-en-la-noche-de.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-prendieron-fuego-varios-contenedores-de-residuos-y-17b12e",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un nuevo episodio de vandalismo se registró durante la madrugada en la ciudad de Chacabuco, donde desconocidos prendieron fuego varios contenedores de residuos.\n\nEl hecho movilizó de urgencia a los Bomberos Voluntarios tras desatarse las llamas en inmediaciones de las calles Almirante Brown y Uspallata.\n\nEfectivos de la Policía comunal fueron alertados de la situación y desplegaron patrullajes por las inmediaciones para dar con el autor del incendio.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Incendio #Bomberos #BuenosAires",
+   "tipo": "video",
+   "titulo": "Quusaron contenedores de basura en una madrugada de furia en Chacabuco",
+   "urgente": false,
+   "video_bytes": 166415,
+   "video_mb": 0.2,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_09_chacabuco_quusaron-contenedores-de-basur.mp4",
+   "volanta": "Incendio intencional en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/LnhAGfxUZE8"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html": {
    "categoria": "accidente_vial",
    "descripcion": "Tres personas sufrieron heridas este martes por la tarde tras un fuerte impacto entre una ambulancia, un coche Chevrolet y una camioneta VW detenida en la intersección de Salta y Liniers.",
@@ -1793,6 +1819,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_10_chacabuco_usurpando-la-identidad-del-sob.mp4",
    "volanta": "Intento de estafa en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/U74v0Vn3MfM"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Una vecina alertó a la Policía tras sufrir un asalto en un campo ubicado en la zona rural. El caso pasó a manos de la Patrulla Rural del partido vecino.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-23T03:18:01.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/robo-en-un-campo-en-el-limite-entre-chacabuco-y-chivilcoy-b42ffc",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Una vecina alertó a las autoridades sobre un robo cometido en un establecimiento rural ubicado en los límites del distrito.\n\nEl hecho sucedió durante la noche y motivó la intervención inicial del personal policial local.\n\nTras verificar la ubicación exacta, las actuaciones fueron derivadas a la Patrulla Rural del partido vecino por cuestiones de jurisdicción.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #InseguridadRural #RoboEnElCampo #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Denunciaron un robo en un establecimiento rural en el límite con Chivilcoy",
+   "urgente": false,
+   "video_bytes": 77523,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_10_chacabuco_denunciaron-un-robo-en-un-esta.mp4",
+   "volanta": "Zona rural de Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/QwgeVBSuBJY"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html": {
    "categoria": "robo",
@@ -2235,6 +2287,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_09_9-de-julio_felipe-fort-volc-con-su-camion.mp4",
    "volanta": "Siniestro vial en Ruta 5",
    "youtube_url": "https://youtube.com/shorts/DwDia5ViBIY"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/22/insolito-robaron-la-moto-del-globo-de-la-muerte-de-un-circo/": {
+   "categoria": "robo",
+   "descripcion": "El Circo Safari Show sufrió el robo de la motocicleta Yamaha XTZ que utilizaba en su número principal del Globo de la Muerte. El hecho ocurrió en su predio ubicado en las avenidas Ortiz y Carlos Gardel.",
+   "distancia_km": 0.0,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-23T02:47:09.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/22/insolito-robaron-la-moto-del-globo-de-la-muerte-de-un-circo/",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-robaron-la-moto-del-globo-de-la-muerte-a-un-circo-b591a0",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Delincuentes ingresaron a la estructura del Globo de la Muerte del Circo Safari Show y robaron una motocicleta Yamaha XTZ de color azul.\n\nEl rodado es fundamental para el espectáculo de acrobacias que el circo realiza en su temporada en Chivilcoy.\n\nLos responsables del circo instalados en avenidas Ortiz y Carlos Gardel piden colaboración a los vecinos.\n\n📲 Más noticias de Chivilcoy en www.diariolacampaña.com.ar\n\n#Chivilcoy #Robo #Inseguridad #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Robaron la moto del Globo de la Muerte a un circo instalado en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 111181,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_08_9-de-julio_robaron-la-moto-del-globo-de-l.mp4",
+   "volanta": "Robo en Chivilcoy",
+   "youtube_url": "https://youtube.com/shorts/78QET5Y0aQc"
   },
   "web:01599053-9367-4272-a3b7-d36e906da218": {
    "categoria": "",
@@ -9008,14 +9086,14 @@
    "viral": false
   },
   "policiales:https://www.bragadoinforma.com.ar/nota/31215/fin-de-semana-largo-con-dos-aprehendidos-por-resistencia-a-la-autoridad-y-un-hecho-de-dano.html|x": {
-   "actualizado": "2026-11-23T02:40:14.000Z",
+   "actualizado": "2026-11-23T09:00:32.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31215/fin-de-semana-largo-con-dos-aprehendidos-por-resistencia-a-la-autoridad-y-un-hecho-de-dano.html|x",
    "creado": "2026-11-23T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-23T02:33:19.000Z",
    "id": "policiales:https://www.bragadoinforma.com.ar/nota/31215/fin-de-semana-largo-con-dos-aprehendidos-por-resistencia-a-la-autoridad-y-un-hecho-de-dano.html",
    "intentos": 0,
@@ -9120,14 +9198,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html|x": {
-   "actualizado": "2026-11-23T02:20:14.000Z",
+   "actualizado": "2026-11-23T09:00:32.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html|x",
    "creado": "2026-11-23T02:20:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-23T02:02:48.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html",
    "intentos": 0,
@@ -9173,6 +9251,33 @@
    "vence": "2026-11-14T01:02:13.000Z",
    "video_bytes": 78302,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_06_chacabuco_herido-tras-una-pelea-entre-ve.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/dano-incendiario-en-la-noche-de.html|x": {
+   "actualizado": "2026-11-23T09:00:32.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dano-incendiario-en-la-noche-de.html|x",
+   "creado": "2026-11-23T09:00:30.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-23T03:03:07.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/dano-incendiario-en-la-noche-de.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-prendieron-fuego-varios-contenedores-de-residuos-y-17b12e",
+   "noticia": "nota:chacabuco-prendieron-fuego-varios-contenedores-de-residuos-y-17b12e",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Quusaron contenedores de basura en una madrugada de furia en Chacabuco\n\nBomberos voluntarios debieron acudir de urgencia tras la quema intencional de contenedores de residuos en la esquina de Almirante Brown y Uspallata. La policía busca al responsable.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-prendieron-fuego-varios-contenedores-de-residuos-y-17b12e",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Quusaron contenedores de basura en una madrugada de furia en Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-23T05:03:07.000Z",
+   "video_bytes": 166415,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_09_chacabuco_quusaron-contenedores-de-basur.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html|x": {
@@ -9328,6 +9433,33 @@
    "vence": "2026-11-22T05:18:05.000Z",
    "video_bytes": 77373,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_10_chacabuco_usurpando-la-identidad-del-sob.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html|x": {
+   "actualizado": "2026-11-23T09:00:32.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html|x",
+   "creado": "2026-11-23T09:00:30.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-23T03:18:01.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/robo-en-un-campo-en-el-limite-entre-chacabuco-y-chivilcoy-b42ffc",
+   "noticia": "nota:robo-en-un-campo-en-el-limite-entre-chacabuco-y-chivilcoy-b42ffc",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Denunciaron un robo en un establecimiento rural en el límite con Chivilcoy\n\nUna vecina alertó a la Policía tras sufrir un asalto en un campo ubicado en la zona rural. El caso pasó a manos de la Patrulla Rural del partido vecino.\n\nhttps://www.diariolacampaña.com.ar/n/robo-en-un-campo-en-el-limite-entre-chacabuco-y-chivilcoy-b42ffc",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Denunciaron un robo en un establecimiento rural en el límite con Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-23T05:18:01.000Z",
+   "video_bytes": 77523,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_10_chacabuco_denunciaron-un-robo-en-un-esta.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html|x": {
@@ -9826,6 +9958,33 @@
    "video_bytes": 101924,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_09_9-de-julio_felipe-fort-volc-con-su-camion.mp4",
    "viral": true
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/22/insolito-robaron-la-moto-del-globo-de-la-muerte-de-un-circo/|x": {
+   "actualizado": "2026-11-23T09:00:32.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/22/insolito-robaron-la-moto-del-globo-de-la-muerte-de-un-circo/|x",
+   "creado": "2026-11-23T09:00:30.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-23T02:47:09.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/22/insolito-robaron-la-moto-del-globo-de-la-muerte-de-un-circo/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-robaron-la-moto-del-globo-de-la-muerte-a-un-circo-b591a0",
+   "noticia": "nota:chivilcoy-robaron-la-moto-del-globo-de-la-muerte-a-un-circo-b591a0",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Robaron la moto del Globo de la Muerte a un circo instalado en Chivilcoy\n\nEl Circo Safari Show sufrió el robo de la motocicleta Yamaha XTZ que utilizaba en su número principal. El hecho ocurrió en su predio ubicado en las avenidas Ortiz y Carlos Gardel.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-robaron-la-moto-del-globo-de-la-muerte-a-un-circo-b591a0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Robaron la moto del Globo de la Muerte a un circo instalado en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-23T04:47:09.000Z",
+   "video_bytes": 111181,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_08_9-de-julio_robaron-la-moto-del-globo-de-l.mp4",
+   "viral": false
   },
   "web:01599053-9367-4272-a3b7-d36e906da218|x": {
    "actualizado": "2026-11-20T23:00:20.000Z",
@@ -14907,64 +15066,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto|x",
-   "cuando": "2026-11-16T01:40:16.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:62ebb555-db92-4262-86b8-2f76e3982e4b|x",
-   "cuando": "2026-11-16T02:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:62ebb555-db92-4262-86b8-2f76e3982e4b|x",
-   "cuando": "2026-11-16T02:40:23.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "web:60168ccc-c626-4cdc-b170-c86efab84f3d|x",
-   "cuando": "2026-11-16T09:00:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:60168ccc-c626-4cdc-b170-c86efab84f3d|x",
-   "cuando": "2026-11-16T09:00:21.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:d1ed8261-7eab-4e57-97b0-fe69b793a107|x",
-   "cuando": "2026-11-16T10:03:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:990fea7f-febb-4b01-a4e7-7e8f17ee66cd|x",
-   "cuando": "2026-11-16T10:03:40.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:7a38384a-57c1-43f8-a275-9335467a7e1b|x",
-   "cuando": "2026-11-16T10:03:48.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x",
    "cuando": "2026-11-16T10:03:54.000Z",
    "estado": "pendiente",
@@ -19074,6 +19175,60 @@
    "cuando": "2026-11-23T02:40:17.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2124690345501884791"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/22/insolito-robaron-la-moto-del-globo-de-la-muerte-de-un-circo/|x",
+   "cuando": "2026-11-23T09:00:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dano-incendiario-en-la-noche-de.html|x",
+   "cuando": "2026-11-23T09:00:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html|x",
+   "cuando": "2026-11-23T09:00:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31215/fin-de-semana-largo-con-dos-aprehendidos-por-resistencia-a-la-autoridad-y-un-hecho-de-dano.html|x",
+   "cuando": "2026-11-23T09:00:32.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html|x",
+   "cuando": "2026-11-23T09:00:32.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/22/insolito-robaron-la-moto-del-globo-de-la-muerte-de-un-circo/|x",
+   "cuando": "2026-11-23T09:00:32.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dano-incendiario-en-la-noche-de.html|x",
+   "cuando": "2026-11-23T09:00:32.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html|x",
+   "cuando": "2026-11-23T09:00:32.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -19182,7 +19337,6 @@
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:corresponsal_2026-11-21_matias-zucchi_mwqc3v64udx0": "2026-11-21T12:00:17.000Z",
   "bot:video_marias-zucchi_mvn19qyzgokw_01.mp4": "2026-10-24T23:40:14.000Z",
-  "bot:video_matias-zucchi_mvltgsa9bnp2_01.mp4": "2026-10-24T09:00:20.000Z",
   "bot:video_matias-zucchi_mvmz9xl5sgtf_01.mp4": "2026-10-24T23:00:21.000Z",
   "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4": "2026-10-25T21:00:16.000Z",
   "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4": "2026-10-26T00:40:15.000Z",
@@ -19407,6 +19561,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html": "2026-11-23T02:20:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html": "2026-11-13T23:20:13.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/dano-incendiario-en-la-noche-de.html": "2026-11-23T09:00:30.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html": "2026-11-12T23:40:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html": "2026-11-22T09:00:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
@@ -19419,6 +19574,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html": "2026-11-22T09:00:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html": "2026-11-23T09:00:30.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html": "2026-11-19T09:00:19.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html": "2026-11-22T09:00:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-choque-acoso-y.html": "2026-11-09T23:40:15.000Z",
@@ -19472,6 +19628,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/10/mechita-conmocionada-encontraron-un-cadaver-desmembrado/": "2026-11-10T23:20:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/": "2026-11-19T09:00:19.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/": "2026-11-21T09:00:22.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/22/insolito-robaron-la-moto-del-globo-de-la-muerte-de-un-circo/": "2026-11-23T09:00:30.000Z",
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": "2026-11-02T10:03:22.000Z",
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0": "2026-11-11T10:02:35.000Z",
   "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e": "2026-11-12T10:02:44.000Z",
@@ -19739,7 +19896,6 @@
   "web:8b789d89-b735-4a61-8637-1f4be868e032": "2026-10-26T12:06:06.000Z",
   "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c": "2026-11-09T10:02:37.000Z",
   "web:8bcf2503-f895-462b-af3a-dffcba6750bb": "2026-11-11T10:02:35.000Z",
-  "web:8c9dbaa6-0216-4bad-ac94-66721cae1cf5": "2026-10-24T09:00:20.000Z",
   "web:8ccde707-f548-4c61-83cf-fb2ee30a7c99": "2026-11-03T10:02:22.000Z",
   "web:8d454526-fe37-4a5c-a733-afb21a24349b": "2026-11-09T10:20:14.000Z",
   "web:8d560e2d-d783-4c32-9cdb-09aff3b3c5c7": "2026-10-30T10:20:13.000Z",
