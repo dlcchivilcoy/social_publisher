@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/11/2026 06:05 (hora AR) · ACTIVO
+Actualizado: 23/11/2026 06:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 23/11/2026 06:05 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 6 | 8 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 6 | 7 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 2 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 3 enviadas + 5 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 75 · likes 0
@@ -27,7 +27,7 @@ Actualizado: 23/11/2026 06:05 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (8 esperando)
+## Cola propia (7 esperando)
 - X · Notas web · Chivilcoy: Camino a la definición: se palpita la gran final de la Copa del Club  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Horacio y Belén Heiland cerraron la temporada con la victoria en el G — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Clausura (AJB): Argentino venció a Sportivo Rojas como visitan — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -35,14 +35,11 @@ Actualizado: 23/11/2026 06:05 (hora AR) · ACTIVO
 - X · Notas web · Liga Mercedina (Torneo Clausura 2026): Ciclón de Chivilcoy gritó campeón invicto — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Clausura de Primera División: Gimnasia se quedó con el "1" de  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Recordando al sacerdote José Lindor Zaccardi — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Concientización acerca del Día Internacional de los Derechos de la Ni — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-23T09:00 vencido policiales:https://www.bragadoinforma.com.ar/nota/31215/fin- espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-23T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/choque-en espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-23T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/22/ins no hubo lugar antes de su vencimiento
 - 2026-11-23T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/dano-ince no hubo lugar antes de su vencimiento
 - 2026-11-23T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/noche2111 no hubo lugar antes de su vencimiento
@@ -66,3 +63,5 @@ Actualizado: 23/11/2026 06:05 (hora AR) · ACTIVO
 - 2026-11-23T09:05 programado web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba|x 
 - 2026-11-23T09:05 programado web:3f8887ff-4fa1-4011-9138-62d2d037d36b|x 
 - 2026-11-23T09:05 programado web:33a866e0-a7fe-4701-ac8b-885a55855c7e|x 
+- 2026-11-23T09:20 enviado web:228b6d6b-86cb-4392-a8ca-6599d475ecc3|x 
+- 2026-11-23T09:20 programado web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x 

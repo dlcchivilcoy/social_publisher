@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 2
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-23T02:40:16.000Z"
+   "visto": "2026-11-23T09:20:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 2
+    "scheduled": 5,
+    "sent": 3
    },
    "pausado": false,
-   "visto": "2026-11-23T02:40:16.000Z"
+   "visto": "2026-11-23T09:20:21.000Z"
   }
  },
  "contenidos": {
@@ -11024,19 +11024,20 @@
    "viral": false
   },
   "web:228b6d6b-86cb-4392-a8ca-6599d475ecc3|x": {
-   "actualizado": "2026-11-23T09:05:15.000Z",
+   "actualizado": "2026-11-23T09:20:21.000Z",
    "buffer_id": "6b0401cb9c207fed958ba5fb",
    "clave": "web:228b6d6b-86cb-4392-a8ca-6599d475ecc3|x",
    "creado": "2026-11-23T09:03:47.000Z",
    "dueAt": "2026-11-23T09:08:55.000Z",
+   "enviado": "2026-11-23T09:09:02.221Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T09:00:55.932Z",
    "id": "web:228b6d6b-86cb-4392-a8ca-6599d475ecc3",
    "ig_hora": "2026-11-23T09:08:36.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124792326400663659",
    "nota_url": "https://www.diariolacampaña.com.ar/n/preocupacion-en-chivilcoy-chivilcoy-una-serie-de-operativos",
    "noticia": "nota:preocupacion-en-chivilcoy-chivilcoy-una-serie-de-operativos",
    "origen": "web",
@@ -15049,14 +15050,14 @@
    "viral": false
   },
   "web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x": {
-   "actualizado": "2026-11-23T09:03:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-23T09:20:21.000Z",
+   "buffer_id": "6b04055551038c931bab2778",
    "clave": "web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x",
    "creado": "2026-11-23T09:03:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-23T10:38:10.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-23T09:01:40.031Z",
    "id": "web:e4274fd1-053f-4ac0-8b14-aefcffccd755",
    "ig_hora": "2026-11-23T10:38:36.000Z",
@@ -15736,19 +15737,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5|x",
-   "cuando": "2026-11-16T11:00:33.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
-  },
-  {
-   "buffer_id": "6afae25137f9e5273bdfc902",
-   "clave": "web:f6b756be-3ae7-477a-81b1-48dfe2af1498|x",
-   "cuando": "2026-11-16T11:00:33.000Z",
-   "dueAt": "2026-11-16T12:23:47.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:0d728d16-1d2e-4eb0-a9d3-e4a738b6b357|x",
    "cuando": "2026-11-16T11:20:24.000Z",
@@ -19904,6 +19892,19 @@
    "cuando": "2026-11-23T09:05:17.000Z",
    "dueAt": "2026-11-23T10:23:38.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:228b6d6b-86cb-4392-a8ca-6599d475ecc3|x",
+   "cuando": "2026-11-23T09:20:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124792326400663659"
+  },
+  {
+   "buffer_id": "6b04055551038c931bab2778",
+   "clave": "web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x",
+   "cuando": "2026-11-23T09:20:22.000Z",
+   "dueAt": "2026-11-23T10:38:10.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19941,7 +19942,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-23",
- "ultima_sync": "2026-11-23T02:40:16.000Z",
+ "ultima_sync": "2026-11-23T09:20:21.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
