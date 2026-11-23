@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 1
+    "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-22T22:00:16.000Z"
+   "visto": "2026-11-23T00:20:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 3
    },
    "pausado": false,
-   "visto": "2026-11-22T22:00:16.000Z"
+   "visto": "2026-11-23T00:20:18.000Z"
   }
  },
  "contenidos": {
@@ -6187,19 +6187,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok": {
-   "actualizado": "2026-11-23T00:00:17.000Z",
+   "actualizado": "2026-11-23T00:20:18.000Z",
    "buffer_id": "6b038212846b0ee907c9da32",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok",
    "creado": "2026-11-22T21:40:18.000Z",
    "dueAt": "2026-11-23T00:03:18.000Z",
+   "enviado": "2026-11-23T00:05:13.252Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-22T21:25:37.000Z",
    "id": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7711150826638593301",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15195,14 +15196,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/|x",
-   "cuando": "2026-11-15T22:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x",
    "cuando": "2026-11-15T22:40:15.000Z",
    "evento": "enviado",
@@ -19360,6 +19353,12 @@
    "cuando": "2026-11-23T00:00:19.000Z",
    "dueAt": "2026-11-23T00:03:18.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok",
+   "cuando": "2026-11-23T00:20:18.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7711150826638593301"
   }
  ],
  "tandas": {
@@ -19397,7 +19396,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-23",
- "ultima_sync": "2026-11-22T22:00:16.000Z",
+ "ultima_sync": "2026-11-23T00:20:18.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -19615,7 +19614,6 @@
   "entrevistas:job00335": "2026-11-20T19:20:15.000Z",
   "entrevistas:job00336": "2026-11-20T20:20:18.000Z",
   "nacionales:48bb4e9d6ed706f8": "2026-10-24T01:20:18.000Z",
-  "nacionales:545f9842d5a42866": "2026-10-24T00:20:16.000Z",
   "nacionales:56e46b4aea933185": "2026-10-24T01:00:18.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
@@ -19623,7 +19621,6 @@
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": "2026-11-16T22:40:15.000Z",
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": "2026-11-10T22:40:14.000Z",
   "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte": "2026-11-20T02:20:19.000Z",
-  "policiales:https://diariodelujan.com/dos-aprehendidos-por-amenazas/": "2026-10-24T00:20:16.000Z",
   "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/": "2026-11-21T09:00:22.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/crimen-de-mechita-una-camara-habria-registrado-a-los-acusados-trasladando-un-bulto-hacia-el-canal-cafiero/": "2026-11-10T22:20:14.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/la-autopsia-confirmo-que-murio-por-un-fuerte-golpe-en-la-cabeza-antes-de-ser-mutilado/": "2026-11-12T22:20:14.000Z",
