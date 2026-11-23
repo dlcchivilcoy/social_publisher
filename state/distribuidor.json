@@ -306,6 +306,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0b62713fe392f66c.mp4",
    "youtube_url": "https://www.youtube.com/shorts/SQN8Pf7U-jQ"
   },
+  "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4": {
+   "descripcion": "Paz Ferreyra, reconocida artísticamente como Miss Bolivia, formó parte de la quinta edición de la FLICH.\n\nDurante el encuentro, la cantante y escritora fue entrevistada por Sami San Rome en una charla abierta donde abordaron diversos temas vinculados a su trayectoria y su mirada personal.\n\nA lo largo de la conversación, la artista compartió reflexiones que fueron más allá de sus textos y composiciones musicales, profundizando sobre aspectos de la vida cotidiana y la manera en que estos influyen directamente en su faceta creativa.\n\nLa actividad contó con un destacado marco de público, que siguió atentamente la entrevista y acompañó las intervenciones de la invitada con aplausos.",
+   "duracion_seg": 73.5,
+   "generado": "2026-11-23T13:19:06.000Z",
+   "id": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Miss Bolivia participó en la quinta edición de la FLICH",
+   "urgente": false,
+   "video_bytes": 8780457,
+   "video_mb": 8.4,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5fc5bb6f990e2e22.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/h9SEWYFbpN4"
+  },
   "entrevistas:job00309": {
    "descripcion": "En Chivilcoy, la especialista en coaching deportivo Gisela Videla explicó cómo actúa de filtro para cuidar las emociones de los chicos antes de entrenar o competir.",
    "duracion_seg": null,
@@ -5126,6 +5147,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-liga-desarrollo-racing-festejo-en-casa-y-se-metio",
    "volanta": "Básquet"
   },
+  "web:edfa9f86-d847-403f-9858-10233e91d347": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Miss Bolivia participó en la quinta edición de la FLICH CHIVILCOY.– Paz Ferreyra, más conocida artísticamente como Miss Bolivia, fue una de las participantes en la quinta edición de la FLICH. La escritora y cantante fue entrevistada por Sami San Rome, ocasión en la que reflexionó no solamente acerca de sus textos o letras musicales, sino principalmente sobre la vida cotidiana y su injerencia en la faz artística. Un destacado marco de público acompañó la entrevista escuchando y...",
+   "generado": "2026-11-23T13:18:22.490Z",
+   "id": "web:edfa9f86-d847-403f-9858-10233e91d347",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_fd54ad4669a644679ee07436c0a9996c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Miss Bolivia participó en la quinta edición de la FLICH",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
+   "volanta": "Chivilcoy · Cultura"
+  },
   "web:efb8b273-d909-4552-a200-a555ac7dd49f": {
    "categoria": "",
    "descripcion": "Chivilcoy: Torneo Federal ‘A’ - Reválida: Cuatro candidatos para un solo boleto, así se jugarán las semifinales por el segundo ascenso CHIVILCOY.– Tras una apasionante definición de cuartos de final, Cipolletti, Olimpo, Douglas Haig y Sarmiento de La Banda quedaron a un paso de la final del Reducido. Los partidos de ida se disputarán este domingo 22 de noviembre en Pergamino y Santiago del Estero. El Torneo Federal ‘A’ entra en su recta definitiva. Con San Martín de Formosa ya consagrado y...",
@@ -6278,6 +6318,62 @@
    "vence": "2026-11-22T23:25:37.000Z",
    "video_bytes": 8785187,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_0b62713fe392f66c.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|tiktok": {
+   "actualizado": "2026-11-23T13:20:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|tiktok",
+   "creado": "2026-11-23T13:20:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-23T13:19:06.000Z",
+   "id": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Miss Bolivia participó en la quinta edición de la FLICH\n\nPaz Ferreyra fue entrevistada por Sami San Rome en una charla abierta donde abordó su trayectoria, su mirada personal y cómo la vida cotidiana influye en su faceta creativa. El encuentro contó con un destacado marco de público que acompañó las intervenciones con aplausos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Miss Bolivia participó en la quinta edición de la FLICH",
+   "urgente": false,
+   "vence": "2026-11-25T13:19:06.000Z",
+   "video_bytes": 8780457,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5fc5bb6f990e2e22.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x": {
+   "actualizado": "2026-11-23T13:20:17.000Z",
+   "buffer_id": "6b043d92a910126ee82f6200",
+   "clave": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x",
+   "creado": "2026-11-23T13:20:13.000Z",
+   "dueAt": "2026-11-23T13:22:22.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-23T13:19:06.000Z",
+   "id": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
+   "noticia": "nota:chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Miss Bolivia participó en la quinta edición de la FLICH\n\nLa artista fue entrevistada por Sami San Rome ante un destacado marco de público. Abordaron su trayectoria y reflexiones personales que influyen en su faceta creativa.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Miss Bolivia participó en la quinta edición de la FLICH",
+   "urgente": false,
+   "vence": "2026-11-23T15:19:06.000Z",
+   "video_bytes": 8780457,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5fc5bb6f990e2e22.mp4",
    "viral": false
   },
   "entrevistas:job00309|tiktok": {
@@ -14997,6 +15093,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:edfa9f86-d847-403f-9858-10233e91d347|x": {
+   "actualizado": "2026-11-23T13:20:13.000Z",
+   "buffer_id": "",
+   "clave": "web:edfa9f86-d847-403f-9858-10233e91d347|x",
+   "creado": "2026-11-23T13:20:13.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-23T13:18:22.490Z",
+   "id": "web:edfa9f86-d847-403f-9858-10233e91d347",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
+   "noticia": "nota:chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Miss Bolivia participó en la quinta edición de la FLICH",
+   "urgente": false,
+   "vence": "2026-11-23T17:18:22.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:efb8b273-d909-4552-a200-a555ac7dd49f|x": {
    "actualizado": "2026-11-19T12:40:15.000Z",
    "buffer_id": "6afecd6dec3834f154509d49",
@@ -15321,34 +15442,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00316",
-   "cuando": "2026-11-16T16:40:29.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00316|x",
-   "cuando": "2026-11-16T16:40:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00316|tiktok",
-   "cuando": "2026-11-16T16:40:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6afb31ffa75f2e0e28060e22",
-   "clave": "entrevistas:job00316|x",
-   "cuando": "2026-11-16T16:40:31.000Z",
-   "dueAt": "2026-11-16T16:42:44.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00316|x",
    "cuando": "2026-11-16T17:00:20.000Z",
@@ -19488,6 +19581,37 @@
    "cuando": "2026-11-23T12:40:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2124845106960183604"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x",
+   "cuando": "2026-11-23T13:20:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|tiktok",
+   "cuando": "2026-11-23T13:20:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:edfa9f86-d847-403f-9858-10233e91d347|x",
+   "cuando": "2026-11-23T13:20:17.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6b043d92a910126ee82f6200",
+   "clave": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x",
+   "cuando": "2026-11-23T13:20:18.000Z",
+   "dueAt": "2026-11-23T13:22:22.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19649,6 +19773,7 @@
   "bot:video_matias-zucchi_mwpjplbs46th_01.mp4": "2026-11-20T22:40:15.000Z",
   "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4": "2026-11-22T02:00:23.000Z",
   "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4": "2026-11-22T21:40:18.000Z",
+  "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4": "2026-11-23T13:20:13.000Z",
   "entrevistas:job00248": "2026-10-26T16:40:17.000Z",
   "entrevistas:job00249": "2026-10-26T17:00:18.000Z",
   "entrevistas:job00250": "2026-10-26T17:40:14.000Z",
@@ -20372,6 +20497,7 @@
   "web:eca084c4-f470-4290-a9ab-e8a57e117475": "2026-10-26T12:06:06.000Z",
   "web:ecbd39ca-e8d6-4701-920e-b903cf03fc41": "2026-11-11T10:02:35.000Z",
   "web:edb3fa19-fd36-48f1-95d8-c9bb8c366d4f": "2026-11-06T16:20:16.000Z",
+  "web:edfa9f86-d847-403f-9858-10233e91d347": "2026-11-23T13:20:13.000Z",
   "web:ef72fe96-ff6f-4ba0-b8c1-6b81ecb9475e": "2026-11-02T10:03:22.000Z",
   "web:efb8b273-d909-4552-a200-a555ac7dd49f": "2026-11-19T09:05:46.000Z",
   "web:f0f64009-e880-45a2-9552-b15ed75817f2": "2026-11-11T10:02:35.000Z",

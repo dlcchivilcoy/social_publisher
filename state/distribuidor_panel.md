@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/11/2026 10:00 (hora AR) · ACTIVO
+Actualizado: 23/11/2026 10:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,13 @@ Actualizado: 23/11/2026 10:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Reels del bot · Miss Bolivia participó en la quinta edición de la FLICH — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-23T09:20 enviado web:228b6d6b-86cb-4392-a8ca-6599d475ecc3|x 
-- 2026-11-23T09:20 programado web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x 
-- 2026-11-23T09:40 programado web:1f8a4af4-b2db-4be5-b0a6-a5c9b1109b84|x 
-- 2026-11-23T10:00 depurado web:1f8a4af4-b2db-4be5-b0a6-a5c9b1109b84|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-23T10:00 programado web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6|x 
 - 2026-11-23T10:20 programado web:4d89ade0-7563-4650-985d-371fb8d64317|x 
 - 2026-11-23T10:40 enviado web:0905cc0b-2dcc-44a0-a8b2-c7b651813a28|x 
@@ -58,3 +55,7 @@ Actualizado: 23/11/2026 10:00 (hora AR) · ACTIVO
 - 2026-11-23T12:40 enviado web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x 
 - 2026-11-23T12:40 enviado web:ba8e819e-fc43-4315-8b96-fd90deb06634|x 
 - 2026-11-23T12:40 enviado web:d29b119d-8f9b-47c4-8582-f320c151dbba|x 
+- 2026-11-23T13:20 recibido bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x 
+- 2026-11-23T13:20 recibido bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|tiktok 
+- 2026-11-23T13:20 recibido web:edfa9f86-d847-403f-9858-10233e91d347|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-23T13:20 programado bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x 
