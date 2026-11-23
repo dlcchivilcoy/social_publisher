@@ -988,6 +988,32 @@
    "volanta": "Vandalismo en Morea",
    "youtube_url": "https://youtube.com/shorts/vN8uWpibrlA"
   },
+  "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/": {
+   "categoria": "accidente_vial",
+   "descripcion": "Un violento siniestro vial a la altura del kilómetro 118 dejó dos fallecidos y un herido internado. El vehículo se prendió fuego y estaría vinculado a un robo previo.",
+   "distancia_km": 88.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-23T02:18:02.000Z",
+   "id": "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/",
+   "localidad": "San Antonio de Areco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-dos-muertos-y-un-herido-tras-un-choque-e-4d1488",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Dos personas perdieron la vida este sábado por la noche tras chocar e incendiarse el auto en el que circulaban por la Autovía Nacional 8.\n\nEl dramático episodio sucedió a la altura del kilómetro 118, debajo del puente de la Ruta Provincial 31, en jurisdicción de San Antonio de Areco.\n\nBomberos Voluntarios locales acudieron al lugar y debieron combatir las llamas que envolvían por completo al rodado.\n\nPersonal médico del Hospital Municipal constató el deceso de dos ocupantes en el habitáculo, mientras que una tercera persona permanece internada.\n\nEl vehículo involucrado estaría vinculado a un asalto perpetrado previamente en la vecina ciudad de San Pedro.\n\nLas causas del fatal desenlace son materia de investigación por parte de la Policía y los peritos de Policía Científica.\n\n📲 Más noticias de San Antonio de Areco en www.diariolacampaña.com.ar\n\n#SanAntonioDeAreco #SiniestroVial #Transito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos muertos tras un choque e incendio de un auto en la Autovía 8",
+   "urgente": false,
+   "video_bytes": 123647,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_03_san-antonio-de-areco_dos-muertos-tras-un-choque-e-i.mp4",
+   "volanta": "Tragedia en San Antonio de Areco",
+   "youtube_url": "https://youtube.com/shorts/q2a1tJHciFY"
+  },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": {
    "categoria": "otro_policial",
    "descripcion": "Un hombre de 46 años debió ser hospitalizado con heridas tras colisionar con su motocicleta contra un camión de la empresa Absa en una esquina de la ciudad.",
@@ -1559,6 +1585,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_08_bragado_tres-detenidos-con-armas-de-fu.mp4",
    "volanta": "Operativo en La Limpia",
    "youtube_url": "https://youtube.com/shorts/n8upAjW4u8g"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html": {
+   "categoria": "accidente_vial",
+   "descripcion": "Una mujer sufrió una lesión cervical este martes a la tarde tras colisionar dos vehículos Volkswagen en la esquina de Aristóbulo del Valle y diagonal Eva Duarte de Perón. Fue asistida y trasladada al Hospital Municipal en una ambulancia.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-23T02:02:48.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-hospitalizada-tras-un-choque-entre-dos-autos-876038",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Un violento choque entre dos automóviles se produjo esta tarde en las inmediaciones de la estación ferroviaria de nuestra ciudad.\n\nEl siniestro vial ocurrió en la intersección de la avenida Aristóbulo del Valle y la diagonal Eva Duarte de Perón, donde colisionaron dos unidades de la marca Volkswagen.\n\nComo consecuencia del impacto, una mujer que viajaba como acompañante en uno de los rodados sufrió un traumatismo en la zona cervical y debió ser asistida en el lugar.\n\nUna ambulancia se hizo presente en la escena para trasladar a la herida hacia el nosocomio local con el fin de realizarle los estudios médicos correspondientes.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #SiniestroVial #AccidenteDeTransito #BuenosAires",
+   "tipo": "video",
+   "titulo": "Una mujer herida tras un choque entre dos autos en Chacabuco",
+   "urgente": false,
+   "video_bytes": 175506,
+   "video_mb": 0.2,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_02_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
+   "volanta": "Choque en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/beaDZKfJWcs"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html": {
    "categoria": "otro_policial",
@@ -2646,25 +2698,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bragado-deportes-bragado-club-y-deportivo-colon-disputan-el-segundo",
    "volanta": "Bragado · Deportes"
-  },
-  "web:268e66c4-69d7-4958-b487-b115fffbc1a1": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: ARGENTINO venció a MARIANO MORENO en el inicio de los playoffs CHIVILCOY.– En el marco del TORNEO FEMENINO de Primera DIVISION de la ASOCIACION JUNINENSE de BASQUET, comenzaron los playoffs y ARGENTINO recibió a MARIANO MORENO de BRAGADO. El resultado final fue ARGENTINO 97 - MARIANO MORENO 21. El buen nivel de juego que están teniendo las chicas de ARGENTINO se vio reflejado tanto en el juego colectivo como en el resultado.",
-   "generado": "2026-11-13T02:12:12.661Z",
-   "id": "web:268e66c4-69d7-4958-b487-b115fffbc1a1",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_cf9e04e973654337852c5ffed2094142~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-argentino-vencio-a-mariano-moreno-en-el",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: ARGENTINO venció a MARIANO MORENO en el inicio de los playoffs",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-argentino-vencio-a-mariano-moreno-en-el",
-   "volanta": "Chivilcoy · Deportes"
   },
   "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab": {
    "categoria": "",
@@ -8452,6 +8485,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_02_9-de-julio_investigan-robo-y-destrozos-en.mp4",
    "viral": false
   },
+  "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/|x": {
+   "actualizado": "2026-11-23T02:20:16.000Z",
+   "buffer_id": "6b03a2e1d864a011051385b2",
+   "clave": "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/|x",
+   "creado": "2026-11-23T02:20:14.000Z",
+   "dueAt": "2026-11-23T02:23:32.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-23T02:18:02.000Z",
+   "id": "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-dos-muertos-y-un-herido-tras-un-choque-e-4d1488",
+   "noticia": "nota:san-antonio-de-areco-dos-muertos-y-un-herido-tras-un-choque-e-4d1488",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Dos muertos tras un choque e incendio de un auto en la Autovía 8\n\nUn violento siniestro vial a la altura del kilómetro 118 dejó dos fallecidos y un herido internado. El vehículo se prendió fuego y estaría vinculado a un robo previo.\n\nhttps://www.diariolacampaña.com.ar/n/san-antonio-de-areco-dos-muertos-y-un-herido-tras-un-choque-e-4d1488",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos muertos tras un choque e incendio de un auto en la Autovía 8",
+   "urgente": false,
+   "vence": "2026-11-23T04:18:02.000Z",
+   "video_bytes": 123647,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_03_san-antonio-de-areco_dos-muertos-tras-un-choque-e-i.mp4",
+   "viral": true
+  },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/|x": {
    "actualizado": "2026-11-17T00:40:21.000Z",
    "buffer_id": "",
@@ -9090,6 +9151,34 @@
    "vence": "2026-11-18T02:03:17.000Z",
    "video_bytes": 85364,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_08_bragado_tres-detenidos-con-armas-de-fu.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html|x": {
+   "actualizado": "2026-11-23T02:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html|x",
+   "creado": "2026-11-23T02:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-23T02:02:48.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-hospitalizada-tras-un-choque-entre-dos-autos-876038",
+   "noticia": "nota:chacabuco-una-mujer-hospitalizada-tras-un-choque-entre-dos-autos-876038",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Una mujer herida tras un choque entre dos autos en Chacabuco\n\nUna mujer sufrió una lesión cervical tras la colisión de dos autos. Fue asistida y trasladada al Hospital Municipal en una ambulancia.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-hospitalizada-tras-un-choque-entre-dos-autos-876038",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una mujer herida tras un choque entre dos autos en Chacabuco",
+   "urgente": false,
+   "vence": "2026-11-23T04:02:48.000Z",
+   "video_bytes": 175506,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_02_chacabuco_una-mujer-herida-tras-un-choqu.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html|x": {
@@ -10582,31 +10671,6 @@
    "titulo": "Bragado CLUB y DEPORTIVO COLÓN disputan el segundo punto de la semifinal",
    "urgente": false,
    "vence": "2026-11-20T21:01:44.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:268e66c4-69d7-4958-b487-b115fffbc1a1|x": {
-   "actualizado": "2026-11-13T02:20:15.000Z",
-   "buffer_id": "",
-   "clave": "web:268e66c4-69d7-4958-b487-b115fffbc1a1|x",
-   "creado": "2026-11-13T02:20:15.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-13T02:12:12.661Z",
-   "id": "web:268e66c4-69d7-4958-b487-b115fffbc1a1",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-argentino-vencio-a-mariano-moreno-en-el",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-argentino-vencio-a-mariano-moreno-en-el",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: ARGENTINO venció a MARIANO MORENO en el inicio de los playoffs",
-   "urgente": false,
-   "vence": "2026-11-13T06:12:12.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -14942,28 +15006,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x",
-   "cuando": "2026-11-15T22:40:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122093169781129317"
-  },
-  {
-   "clave": "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas|x",
-   "cuando": "2026-11-15T23:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto|x",
-   "cuando": "2026-11-15T23:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas|x",
    "cuando": "2026-11-16T00:20:15.000Z",
    "evento": "baja"
@@ -19105,6 +19147,29 @@
    "cuando": "2026-11-23T00:20:18.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7711150826638593301"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html|x",
+   "cuando": "2026-11-23T02:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/|x",
+   "cuando": "2026-11-23T02:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6b03a2e1d864a011051385b2",
+   "clave": "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/|x",
+   "cuando": "2026-11-23T02:20:17.000Z",
+   "dueAt": "2026-11-23T02:23:32.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19362,6 +19427,7 @@
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
+  "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/": "2026-11-23T02:20:14.000Z",
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": "2026-11-16T22:40:15.000Z",
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": "2026-11-10T22:40:14.000Z",
   "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte": "2026-11-20T02:20:19.000Z",
@@ -19433,6 +19499,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/10/una-persona-fue-hospitalizada-tras-un.html": "2026-10-29T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/calle07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-en-el-centro-de-chacabuco.html": "2026-11-12T23:20:13.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html": "2026-11-23T02:20:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-una-persona-lesionada-en.html": "2026-11-07T00:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html": "2026-11-13T23:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html": "2026-11-12T23:40:16.000Z",

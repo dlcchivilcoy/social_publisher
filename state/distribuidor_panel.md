@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 22/11/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 22/11/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-22)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 22/11/2026 23:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 3 | 0 |
 | Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,13 @@ Actualizado: 22/11/2026 23:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Reels policiales · Una mujer herida tras un choque entre dos autos en Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-22T02:20 enviado bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x 
-- 2026-11-22T02:20 programado policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo- 
-- 2026-11-22T02:40 recibido policiales:https://9dejulio.diariotiempodigital.com/Policial 
 - 2026-11-22T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/emergenci 
 - 2026-11-22T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/nuevo2111 
 - 2026-11-22T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/llamativo 
@@ -58,3 +56,6 @@ Actualizado: 22/11/2026 23:00 (hora AR) · ACTIVO
 - 2026-11-22T22:00 enviado bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|x 
 - 2026-11-23T00:00 programado bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok 
 - 2026-11-23T00:20 enviado bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok 
+- 2026-11-23T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/choque-en 
+- 2026-11-23T02:20 recibido policiales:https://boscoproducciones.com.ar/dos-personas-mur 
+- 2026-11-23T02:20 programado policiales:https://boscoproducciones.com.ar/dos-personas-mur 
