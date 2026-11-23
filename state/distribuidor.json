@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 2,
-    "sent": 4
+    "scheduled": 0,
+    "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-23T22:20:15.000Z"
+   "visto": "2026-11-23T23:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-23T22:20:15.000Z"
+   "visto": "2026-11-23T23:20:16.000Z"
   }
  },
  "contenidos": {
@@ -306,48 +306,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5fc5bb6f990e2e22.mp4",
    "youtube_url": "https://www.youtube.com/shorts/h9SEWYFbpN4"
   },
-  "entrevistas:job00309": {
-   "descripcion": "En Chivilcoy, la especialista en coaching deportivo Gisela Videla explicó cómo actúa de filtro para cuidar las emociones de los chicos antes de entrenar o competir.",
-   "duracion_seg": null,
-   "entrevistado": "Gisela Videla",
-   "generado": "2026-11-13T17:40:25.000Z",
-   "id": "entrevistas:job00309",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Gisela Videla: el rol del coaching antes de entrar a la cancha",
-   "urgente": false,
-   "video_bytes": 25899458,
-   "video_mb": 24.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00309.mp4",
-   "youtube_url": "https://youtu.be/pneQgb3_dVM"
-  },
-  "entrevistas:job00310": {
-   "descripcion": "Rubén, integrante del Circo Safari Show que se presenta en Chivilcoy, reveló cuál es su verdadero trabajo en la pista cuando surgen imprevistos técnicos durante la función. Mirá los secretos de la carpa para mantener la magia del espectáculo.",
-   "duracion_seg": null,
-   "entrevistado": "Rubén",
-   "generado": "2026-11-13T18:20:13.000Z",
-   "id": "entrevistas:job00310",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Rubén del Circo Safari Show: el detrás de escena",
-   "urgente": false,
-   "video_bytes": 16995593,
-   "video_mb": 16.2,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00310.mp4",
-   "youtube_url": "https://youtu.be/MdQ04Yuv9ds"
-  },
   "entrevistas:job00310-r1": {
    "descripcion": "Rubén, integrante del Circo Safari Show que llegó a Chivilcoy, relató cómo ingresó a los 11 años como vendedor y recorrió todos los oficios de la carpa. Conocé su historia de vida ligada a la pasión circense.",
    "duracion_seg": 53.9,
@@ -368,27 +326,6 @@
    "video_mb": 29.5,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00310_r1.mp4",
    "youtube_url": "https://youtu.be/MdQ04Yuv9ds"
-  },
-  "entrevistas:job00311": {
-   "descripcion": "Magdalena Gardella, del Centro Tradicionalista El Fogón en Chivilcoy, detalló los precios de las entradas y los combos para la Fiesta del Resero y de la Tradición.",
-   "duracion_seg": null,
-   "entrevistado": "Magdalena Gardella",
-   "generado": "2026-11-13T18:40:13.000Z",
-   "id": "entrevistas:job00311",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Fiesta del Resero: Magdalena Gardella detalló las entradas",
-   "urgente": false,
-   "video_bytes": 24557877,
-   "video_mb": 23.4,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00311.mp4",
-   "youtube_url": "https://youtu.be/nUQsApeUrCo"
   },
   "entrevistas:job00316": {
    "descripcion": "En Chivilcoy, el dirigente del MDF Luciano Dellepiane cuestionó la falta de mantenimiento estatal y advirtió sobre los riesgos viales del parate de la obra pública.",
@@ -2231,32 +2168,6 @@
    "volanta": "Incendio en 25 de Mayo",
    "youtube_url": "https://youtube.com/shorts/OgiuA5F3i5w"
   },
-  "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/": {
-   "categoria": "operativo_policial",
-   "descripcion": "Durante el fin de semana largo se realizaron controles vehiculares que derivaron en la retención de seis rodados, un caso positivo de alcohol en sangre y el hallazgo de una moto robada.",
-   "distancia_km": 83.7,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-13T22:02:14.000Z",
-   "id": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/",
-   "localidad": "Roque Pérez",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-seis-vehiculos-secuestrados-y-una-moto-robada-970dc5",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "El municipio desplegó controles de tránsito durante el fin de semana largo en Roque Pérez.\n\nComo resultado, seis vehículos fueron retenidos por diversas infracciones y se detectó un test de alcoholemia positivo.\n\nAdemás, la policía halló en la esquina de San Martín y San Juan una motocicleta Honda Wave robada.\n\n📲 Más noticias de Roque Pérez en www.diariolacampaña.com.ar\n\n#RoquePerez #Operativo #Policia #BuenosAires",
-   "tipo": "video",
-   "titulo": "Seis vehículos secuestrados y un caso de alcoholemia en Roque Pérez",
-   "urgente": false,
-   "video_bytes": 80180,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_03_25-de-mayo_seis-veh-culos-secuestrados-y-.mp4",
-   "volanta": "Operativos viales en Roque Pérez",
-   "youtube_url": "https://youtube.com/shorts/ptPzcCh6URw"
-  },
   "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/": {
    "categoria": "otro_policial",
    "descripcion": "Un conductor falleció tras chocar su camioneta Toyota Hilux contra un camión de La Serenísima en la Ruta Nacional 5, a la altura de 9 de Julio. El tránsito quedó interrumpido y trabajaron en el lugar bomberos y personal policial.",
@@ -2352,6 +2263,25 @@
    "titulo": "Chivilcoy: Una vecina denunció el robo de dos motos de su patio",
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-una-vecina-denuncio-el-robo-de-dos",
+   "volanta": "Chivilcoy · Policiales"
+  },
+  "web:03d609d2-1da8-4b67-a7c2-18219a814938": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: APREHENDIERON a un hombre por desobedecer una medida cautelar CHIVILCOY.– Personal policial procedió a la aprehensión de un hombre de 29 años en la intersección de avenida Güemes y Pringles. El sujeto, identificado como Nicolás Fernández, había incumplido una medida cautelar dispuesta por el Juzgado de Paz de Chivilcoy, en el marco de una causa por protección contra la violencia familiar. Interviene la UFI N.° 5 del Departamento Judicial de Mercedes, que dispuso que el aprehendido...",
+   "generado": "2026-11-23T23:02:08.682Z",
+   "id": "web:03d609d2-1da8-4b67-a7c2-18219a814938",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_67a4e057faa845b2ac9df3f1618ce5e6~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: APREHENDIERON a un hombre por desobedecer una medida cautelar",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por",
    "volanta": "Chivilcoy · Policiales"
   },
   "web:0631a52f-24c6-4511-a712-b95f4a815afb": {
@@ -6263,45 +6193,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5fc5bb6f990e2e22.mp4",
    "viral": false
   },
-  "entrevistas:job00309|tiktok": {
-   "actualizado": "2026-11-13T23:20:14.000Z",
-   "buffer_id": "6af77a73d16af15d4dd1d0e5",
-   "categoria": "",
-   "clave": "entrevistas:job00309|tiktok",
-   "creado": "2026-11-13T17:40:25.000Z",
-   "dueAt": "2026-11-13T23:03:45.000Z",
-   "enviado": "2026-11-13T23:05:28.402Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-13T17:40:25.000Z",
-   "id": "entrevistas:job00309",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7707795682672790804",
-   "metricas": {
-    "averageTimeWatched": 2.53,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 6,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 4.47,
-    "views": 102
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Gisela Videla: el rol del coaching antes de entrar a la cancha\n\nEn Chivilcoy, la especialista en coaching deportivo Gisela Videla explicó cómo actúa de filtro para cuidar las emociones de los chicos antes de entrenar o competir.\n\nhttps://youtu.be/pneQgb3_dVM\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Gisela Videla: el rol del coaching antes de entrar a la cancha",
-   "urgente": false,
-   "vence": "2026-11-15T17:40:25.000Z",
-   "video_bytes": 25899458,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00309.mp4",
-   "viral": false
-  },
   "entrevistas:job00310-r1|tiktok": {
    "actualizado": "2026-11-14T01:20:23.000Z",
    "buffer_id": "6af7a49881e1228421d1040a",
@@ -6339,84 +6230,6 @@
    "vence": "2026-11-15T21:40:17.000Z",
    "video_bytes": 30932052,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00310_r1.mp4",
-   "viral": false
-  },
-  "entrevistas:job00310|tiktok": {
-   "actualizado": "2026-11-13T23:20:14.000Z",
-   "buffer_id": "6af77a739257ce33980e6f0a",
-   "categoria": "",
-   "clave": "entrevistas:job00310|tiktok",
-   "creado": "2026-11-13T18:20:13.000Z",
-   "dueAt": "2026-11-13T22:43:12.000Z",
-   "enviado": "2026-11-13T22:44:58.142Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-13T18:20:13.000Z",
-   "id": "entrevistas:job00310",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7707790372642098453",
-   "metricas": {
-    "averageTimeWatched": 5.61,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 37,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 14.57,
-    "views": 146
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Rubén del Circo Safari Show: el detrás de escena\n\nRubén, integrante del Circo Safari Show que se presenta en Chivilcoy, reveló cuál es su verdadero trabajo en la pista cuando surgen imprevistos técnicos durante la función. Mirá los secretos de la carpa para mantener la magia del espectáculo.\n\nhttps://youtu.be/MdQ04Yuv9ds\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Rubén del Circo Safari Show: el detrás de escena",
-   "urgente": false,
-   "vence": "2026-11-15T18:20:13.000Z",
-   "video_bytes": 16995593,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00310.mp4",
-   "viral": false
-  },
-  "entrevistas:job00311|tiktok": {
-   "actualizado": "2026-11-13T23:20:14.000Z",
-   "buffer_id": "6af77a7181e1228421c3458b",
-   "categoria": "",
-   "clave": "entrevistas:job00311|tiktok",
-   "creado": "2026-11-13T18:40:13.000Z",
-   "dueAt": "2026-11-13T22:23:06.000Z",
-   "enviado": "2026-11-13T22:24:58.139Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-13T18:40:13.000Z",
-   "id": "entrevistas:job00311",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7707785223018138900",
-   "metricas": {
-    "averageTimeWatched": 6.44,
-    "comments": 0,
-    "engagementRate": 1.3,
-    "reach": 56,
-    "reactions": 2,
-    "shares": 1,
-    "totalTimeWatched": 24.88,
-    "views": 231
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Fiesta del Resero: Magdalena Gardella detalló las entradas\n\nMagdalena Gardella, del Centro Tradicionalista El Fogón en Chivilcoy, detalló los precios de las entradas y los combos para la Fiesta del Resero y de la Tradición.\n\nhttps://youtu.be/nUQsApeUrCo\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Fiesta del Resero: Magdalena Gardella detalló las entradas",
-   "urgente": false,
-   "vence": "2026-11-15T18:40:13.000Z",
-   "video_bytes": 24557877,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00311.mp4",
    "viral": false
   },
   "entrevistas:job00316|tiktok": {
@@ -8080,19 +7893,20 @@
    "viral": false
   },
   "entrevistas:job00337|tiktok": {
-   "actualizado": "2026-11-23T21:00:19.000Z",
+   "actualizado": "2026-11-23T23:20:16.000Z",
    "buffer_id": "6b04a96a07fee37ee6ffe343",
    "categoria": "",
    "clave": "entrevistas:job00337|tiktok",
    "creado": "2026-11-23T17:00:21.000Z",
    "dueAt": "2026-11-23T22:23:51.000Z",
+   "enviado": "2026-11-23T22:25:45.697Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T17:00:21.000Z",
    "id": "entrevistas:job00337",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7711496295940246804",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8137,19 +7951,20 @@
    "viral": false
   },
   "entrevistas:job00338|tiktok": {
-   "actualizado": "2026-11-23T21:00:19.000Z",
+   "actualizado": "2026-11-23T23:20:16.000Z",
    "buffer_id": "6b04a96a58d65b8ef8ca2d01",
    "categoria": "",
    "clave": "entrevistas:job00338|tiktok",
    "creado": "2026-11-23T17:00:21.000Z",
    "dueAt": "2026-11-23T22:43:50.000Z",
+   "enviado": "2026-11-23T22:45:44.173Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T17:00:21.000Z",
    "id": "entrevistas:job00338",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7711501393864985877",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9799,43 +9614,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_04_25-de-mayo_destrucci-n-total-de-una-casa-.mp4",
    "viral": false
   },
-  "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x": {
-   "actualizado": "2026-11-13T23:20:14.000Z",
-   "buffer_id": "6af78d1e4b28296eb11be5f5",
-   "clave": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/|x",
-   "creado": "2026-11-13T22:20:13.000Z",
-   "dueAt": "2026-11-13T22:23:13.000Z",
-   "enviado": "2026-11-13T22:23:18.223Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-13T22:02:14.000Z",
-   "id": "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2121368331361857989",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 51,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-seis-vehiculos-secuestrados-y-una-moto-robada-970dc5",
-   "noticia": "nota:roque-perez-seis-vehiculos-secuestrados-y-una-moto-robada-970dc5",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Seis vehículos secuestrados y un caso de alcoholemia en Roque Pérez\n\nDurante el fin de semana largo se realizaron controles vehiculares que derivaron en la retención de seis rodados, un caso positivo de alcohol en sangre y el hallazgo de una moto robada.\n\nhttps://www.diariolacampaña.com.ar/n/roque-perez-seis-vehiculos-secuestrados-y-una-moto-robada-970dc5",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Seis vehículos secuestrados y un caso de alcoholemia en Roque Pérez",
-   "urgente": false,
-   "vence": "2026-11-14T00:02:14.000Z",
-   "video_bytes": 80180,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-13_2134_03_25-de-mayo_seis-veh-culos-secuestrados-y-.mp4",
-   "viral": false
-  },
   "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/|x": {
    "actualizado": "2026-11-19T09:00:23.000Z",
    "buffer_id": "",
@@ -9940,6 +9718,33 @@
    "titulo": "Chivilcoy: Una vecina denunció el robo de dos motos de su patio",
    "urgente": false,
    "vence": "2026-11-21T02:42:10.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:03d609d2-1da8-4b67-a7c2-18219a814938|x": {
+   "actualizado": "2026-11-23T23:20:16.000Z",
+   "buffer_id": "",
+   "clave": "web:03d609d2-1da8-4b67-a7c2-18219a814938|x",
+   "creado": "2026-11-23T23:20:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-23T23:02:08.682Z",
+   "id": "web:03d609d2-1da8-4b67-a7c2-18219a814938",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: APREHENDIERON a un hombre por desobedecer una medida cautelar\n\nPersonal policial aprehendió en Chivilcoy a un hombre de 29 años. Había incumplido una medida cautelar por una causa de violencia familiar. Interviene la UFI N.° 5 de Mercedes.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: APREHENDIERON a un hombre por desobedecer una medida cautelar",
+   "urgente": false,
+   "vence": "2026-11-24T03:02:08.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -15003,34 +14808,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00317|tiktok",
-   "cuando": "2026-11-16T23:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7708893341324234005"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/348139-ruta-65-interceptaron-a-un-hombre-de-45-anos-que-r|x",
-   "cuando": "2026-11-16T23:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122456816005099989"
-  },
-  {
-   "clave": "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos|x",
-   "cuando": "2026-11-16T23:20:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un|x",
-   "cuando": "2026-11-16T23:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "buffer_id": "6afb99134b26315855ab7303",
    "clave": "bot:video_matias-zucchi_mwjsvheuls91_01.mp4|tiktok",
    "cuando": "2026-11-17T00:00:20.000Z",
@@ -19164,6 +18941,32 @@
    "cuando": "2026-11-23T22:40:17.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:03d609d2-1da8-4b67-a7c2-18219a814938|x",
+   "cuando": "2026-11-23T23:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:03d609d2-1da8-4b67-a7c2-18219a814938|x",
+   "cuando": "2026-11-23T23:20:16.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00337|tiktok",
+   "cuando": "2026-11-23T23:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7711496295940246804"
+  },
+  {
+   "clave": "entrevistas:job00338|tiktok",
+   "cuando": "2026-11-23T23:20:17.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7711501393864985877"
   }
  ],
  "tandas": {
@@ -19201,7 +19004,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-23",
- "ultima_sync": "2026-11-23T22:20:15.000Z",
+ "ultima_sync": "2026-11-23T23:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -19515,7 +19318,6 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html": "2026-11-22T02:20:21.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/chacabuco/348152-un-fuerte-temporal-provoco-inundaciones-cortes-de": "2026-11-17T23:40:12.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
-  "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en": "2026-10-24T23:20:14.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se": "2026-10-26T23:40:20.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac": "2026-10-28T23:20:14.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo": "2026-10-29T23:40:14.000Z",
@@ -19569,6 +19371,7 @@
   "web:038f5bfb-9ae4-4a1e-8808-3e58c092f151": "2026-10-24T23:40:14.000Z",
   "web:03ae8b4c-08d8-488d-9203-4b4212346184": "2026-11-10T10:02:42.000Z",
   "web:03c64a65-3269-4247-b8a7-1e92b9072a66": "2026-11-13T10:02:41.000Z",
+  "web:03d609d2-1da8-4b67-a7c2-18219a814938": "2026-11-23T23:20:14.000Z",
   "web:045183d9-6073-43b7-83df-69738e914aa5": "2026-11-12T10:02:44.000Z",
   "web:04a24de3-2093-4b59-8e4e-5da6fa217039": "2026-11-04T09:00:19.000Z",
   "web:0631a52f-24c6-4511-a712-b95f4a815afb": "2026-11-22T21:40:18.000Z",
