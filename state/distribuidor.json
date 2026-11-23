@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 0,
-    "sent": 0
+    "scheduled": 5,
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-23T20:00:16.000Z"
+   "visto": "2026-11-23T21:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-23T20:00:16.000Z"
+   "visto": "2026-11-23T21:20:14.000Z"
   }
  },
  "contenidos": {
@@ -6271,19 +6271,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|tiktok": {
-   "actualizado": "2026-11-23T21:00:19.000Z",
+   "actualizado": "2026-11-23T21:20:14.000Z",
    "buffer_id": "6b04a966f72f10e188311eff",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|tiktok",
    "creado": "2026-11-23T13:20:13.000Z",
    "dueAt": "2026-11-23T21:03:02.000Z",
+   "enviado": "2026-11-23T21:05:53.365Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T13:19:06.000Z",
    "id": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7711474430341352711",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -15267,14 +15268,6 @@
  },
  "registro": [
   {
-   "clave": "web:f84c9b38-6290-47dc-9e63-f3c2c8f2e0fb|x",
-   "cuando": "2026-11-16T22:20:27.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
    "buffer_id": "6afb81ace5f1076ba4cfa4f3",
    "clave": "bot:video_matias-zucchi_mwjsvheuls91_01.mp4|x",
    "cuando": "2026-11-16T22:20:28.000Z",
@@ -19432,6 +19425,12 @@
    "cuando": "2026-11-23T21:00:26.000Z",
    "dueAt": "2026-11-23T22:43:50.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|tiktok",
+   "cuando": "2026-11-23T21:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7711474430341352711"
   }
  ],
  "tandas": {
@@ -19469,7 +19468,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-23",
- "ultima_sync": "2026-11-23T20:00:16.000Z",
+ "ultima_sync": "2026-11-23T21:20:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
