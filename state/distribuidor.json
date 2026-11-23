@@ -936,6 +936,48 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00336.mp4",
    "youtube_url": "https://youtu.be/bmJzPcZ9xgs"
   },
+  "entrevistas:job00337": {
+   "descripcion": "El ex concejal de Mercedes Carlos Mosso cuestionó el destino de los fondos viales que afectan a Chivilcoy y la región. Advirtió que la recaudación millonaria se retiene para equilibrio fiscal en lugar de invertirse en rutas.",
+   "duracion_seg": null,
+   "entrevistado": "Carlos Mosso",
+   "generado": "2026-11-23T17:00:21.000Z",
+   "id": "entrevistas:job00337",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Carlos Mosso: ¿A dónde va el impuesto a los combustibles?",
+   "urgente": false,
+   "video_bytes": 29021969,
+   "video_mb": 27.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00337.mp4",
+   "youtube_url": "https://youtu.be/rzowJnhf390"
+  },
+  "entrevistas:job00338": {
+   "descripcion": "Gabriela Gilli, organizadora de la milonga La Puñalada en Chivilcoy, explicó cómo se distingue el baile social de improvisación del tango de escenario coreografiado. Destacó el valor del abrazo y el encuentro con el otro en la pista.",
+   "duracion_seg": null,
+   "entrevistado": "Hugo Mastromarino",
+   "generado": "2026-11-23T17:00:21.000Z",
+   "id": "entrevistas:job00338",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Gabriela Gilli: la diferencia entre tango show y tango al piso",
+   "urgente": false,
+   "video_bytes": 21169098,
+   "video_mb": 20.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00338.mp4",
+   "youtube_url": "https://youtu.be/RPCdWPIXL8s"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -8490,6 +8532,118 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00336.mp4",
    "viral": false
   },
+  "entrevistas:job00337|tiktok": {
+   "actualizado": "2026-11-23T17:00:21.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00337|tiktok",
+   "creado": "2026-11-23T17:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-23T17:00:21.000Z",
+   "id": "entrevistas:job00337",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Carlos Mosso: ¿A dónde va el impuesto a los combustibles?\n\nEl ex concejal de Mercedes Carlos Mosso cuestionó el destino de los fondos viales que afectan a Chivilcoy y la región. Advirtió que la recaudación millonaria se retiene para equilibrio fiscal en lugar de invertirse en rutas.\n\nhttps://youtu.be/rzowJnhf390\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Carlos Mosso: ¿A dónde va el impuesto a los combustibles?",
+   "urgente": false,
+   "vence": "2026-11-25T17:00:21.000Z",
+   "video_bytes": 29021969,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00337.mp4",
+   "viral": false
+  },
+  "entrevistas:job00337|x": {
+   "actualizado": "2026-11-23T17:00:39.000Z",
+   "buffer_id": "6b0471386b0f5eaba88d7d1d",
+   "clave": "entrevistas:job00337|x",
+   "creado": "2026-11-23T17:00:21.000Z",
+   "dueAt": "2026-11-23T17:02:03.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-23T17:00:21.000Z",
+   "id": "entrevistas:job00337",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:carlos-combustibles-impuesto-mosso",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Carlos Mosso: ¿A dónde va el impuesto a los combustibles?\n\nEl ex concejal de Mercedes Carlos Mosso cuestionó el destino de los fondos viales que afectan a Chivilcoy y la región.\n\nhttps://youtu.be/rzowJnhf390",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Carlos Mosso: ¿A dónde va el impuesto a los combustibles?",
+   "urgente": false,
+   "vence": "2026-11-23T19:00:21.000Z",
+   "video_bytes": 29021969,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00337.mp4",
+   "viral": false
+  },
+  "entrevistas:job00338|tiktok": {
+   "actualizado": "2026-11-23T17:00:21.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00338|tiktok",
+   "creado": "2026-11-23T17:00:21.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-23T17:00:21.000Z",
+   "id": "entrevistas:job00338",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Gabriela Gilli: la diferencia entre tango show y tango al piso\n\nGabriela Gilli, organizadora de la milonga La Puñalada en Chivilcoy, explicó cómo se distingue el baile social de improvisación del tango de escenario coreografiado. Destacó el valor del abrazo y el encuentro con el otro en la pista.\n\nhttps://youtu.be/RPCdWPIXL8s\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gabriela Gilli: la diferencia entre tango show y tango al piso",
+   "urgente": false,
+   "vence": "2026-11-25T17:00:21.000Z",
+   "video_bytes": 21169098,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00338.mp4",
+   "viral": false
+  },
+  "entrevistas:job00338|x": {
+   "actualizado": "2026-11-23T17:00:39.000Z",
+   "buffer_id": "6b047138827feee79c0e231f",
+   "clave": "entrevistas:job00338|x",
+   "creado": "2026-11-23T17:00:21.000Z",
+   "dueAt": "2026-11-23T17:07:53.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-23T17:00:21.000Z",
+   "id": "entrevistas:job00338",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:diferencia-gabriela-gilli-piso-show-tango",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Gabriela Gilli: la diferencia entre tango show y tango al piso\n\nGabriela Gilli explicó cómo se distingue el baile social de improvisación del tango de escenario. Además, destacó el valor del abrazo y el encuentro con el otro en la pista.\n\nhttps://youtu.be/RPCdWPIXL8s",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Gabriela Gilli: la diferencia entre tango show y tango al piso",
+   "urgente": false,
+   "vence": "2026-11-23T19:00:21.000Z",
+   "video_bytes": 21169098,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00338.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
    "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
@@ -15099,62 +15253,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00317",
-   "cuando": "2026-11-16T17:20:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00317|x",
-   "cuando": "2026-11-16T17:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00317|tiktok",
-   "cuando": "2026-11-16T17:20:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6afb3b502f6896f5ef3e686b",
-   "clave": "entrevistas:job00317|x",
-   "cuando": "2026-11-16T17:20:16.000Z",
-   "dueAt": "2026-11-16T17:22:14.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00318",
-   "cuando": "2026-11-16T18:00:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00318|x",
-   "cuando": "2026-11-16T18:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00318|tiktok",
-   "cuando": "2026-11-16T18:00:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6afb44b4d1e269de78f614c1",
-   "clave": "entrevistas:job00318|x",
-   "cuando": "2026-11-16T18:00:20.000Z",
-   "dueAt": "2026-11-16T18:02:30.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00317|x",
    "cuando": "2026-11-16T18:20:18.000Z",
    "evento": "enviado",
@@ -19268,6 +19366,62 @@
    "cuando": "2026-11-23T13:40:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2124856142022979868"
+  },
+  {
+   "clave": "entrevistas:job00337",
+   "cuando": "2026-11-23T17:00:21.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00338",
+   "cuando": "2026-11-23T17:00:21.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00337|x",
+   "cuando": "2026-11-23T17:00:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00337|tiktok",
+   "cuando": "2026-11-23T17:00:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00338|x",
+   "cuando": "2026-11-23T17:00:39.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00338|tiktok",
+   "cuando": "2026-11-23T17:00:39.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b0471386b0f5eaba88d7d1d",
+   "clave": "entrevistas:job00337|x",
+   "cuando": "2026-11-23T17:00:40.000Z",
+   "dueAt": "2026-11-23T17:02:03.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b047138827feee79c0e231f",
+   "clave": "entrevistas:job00338|x",
+   "cuando": "2026-11-23T17:00:40.000Z",
+   "dueAt": "2026-11-23T17:07:53.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19521,6 +19675,8 @@
   "entrevistas:job00334": "2026-11-20T18:20:14.000Z",
   "entrevistas:job00335": "2026-11-20T19:20:15.000Z",
   "entrevistas:job00336": "2026-11-20T20:20:18.000Z",
+  "entrevistas:job00337": "2026-11-23T17:00:21.000Z",
+  "entrevistas:job00338": "2026-11-23T17:00:21.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
