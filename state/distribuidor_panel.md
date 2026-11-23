@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/11/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 23/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 23/11/2026 07:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 1 | 7 | 5 | 0 | 0 | 1 |
+| Notas web | X | 15 | 1 | 8 | 4 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,25 +20,23 @@ Actualizado: 23/11/2026 07:00 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 75 · likes 0
 - X · Reels del bot: 9 con métricas · mediana vistas/impresiones 71 · likes 0
 - X · Reels policiales: 8 con métricas · mediana vistas/impresiones 83.5 · likes 0
-- X · Notas web: 85 con métricas · mediana vistas/impresiones 24 · likes 0
+- X · Notas web: 84 con métricas · mediana vistas/impresiones 24 · likes 0
 - TikTok · Recortes de entrevistas: 30 con métricas · mediana vistas/impresiones 157.5 · likes 1
 - TikTok · Reels del bot: 11 con métricas · mediana vistas/impresiones 243 · likes 2
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (4 esperando)
 - X · Notas web · Chivilcoy: Camino a la definición: se palpita la gran final de la Copa del Club  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Horacio y Belén Heiland cerraron la temporada con la victoria en el G — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Clausura (AJB): Argentino venció a Sportivo Rojas como visitan — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Liga Nacional: Joaquín Valinotti, tras el desahogo de Racing: “Ganamo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Liga Mercedina (Torneo Clausura 2026): Ciclón de Chivilcoy gritó campeón invicto — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-23T09:03 recibido web:d29b119d-8f9b-47c4-8582-f320c151dbba|x 
 - 2026-11-23T09:03 recibido web:ba8e819e-fc43-4315-8b96-fd90deb06634|x 
 - 2026-11-23T09:03 recibido web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x 
 - 2026-11-23T09:04 recibido web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x 
@@ -63,3 +61,4 @@ Actualizado: 23/11/2026 07:00 (hora AR) · ACTIVO
 - 2026-11-23T09:40 programado web:1f8a4af4-b2db-4be5-b0a6-a5c9b1109b84|x 
 - 2026-11-23T10:00 depurado web:1f8a4af4-b2db-4be5-b0a6-a5c9b1109b84|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-23T10:00 programado web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6|x 
+- 2026-11-23T10:20 programado web:4d89ade0-7563-4650-985d-371fb8d64317|x 

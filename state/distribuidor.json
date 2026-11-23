@@ -3340,25 +3340,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-politica-federico-feminella-renuncio-a-la-conduccion-de",
    "volanta": "Chivilcoy · Política"
   },
-  "web:49037013-a165-485b-983d-91a1691d32f9": {
-   "categoria": "",
-   "descripcion": "Volvió a caer un histórico “robacables” de Chivilcoy: fue aprehendido tras hacer un boquete en una cerámica CHIVILCOY.– Se trata de José Luis Garibotti, de 62 años, quien fue sorprendido este miércoles por la policía en el predio de Cerámica Gandolfo con herramientas de corte y elementos eléctricos. Registra un extenso historial de detenciones y condenas por hechos similares en quintas, industrias, silos y hasta en un centro de salud. Un hombre con un frondoso prontuario por delitos contra la...",
-   "generado": "2026-11-13T10:00:56.243Z",
-   "id": "web:49037013-a165-485b-983d-91a1691d32f9",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_acb7cc44931241c9b799856a2eaf6e4f~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/reincidencia-delictiva-volvio-a-caer-un-historico-robacables-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Volvió a caer un histórico “robacables” de Chivilcoy: fue aprehendido tras hacer un boquete en una cerámica",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reincidencia-delictiva-volvio-a-caer-un-historico-robacables-de",
-   "volanta": "Reincidencia delictiva"
-  },
   "web:49e62895-3650-40a4-96b0-255e389c9fe6": {
    "categoria": "",
    "descripcion": "Intensa búsqueda en la región tras la fuga de dos condenados por delitos graves en Baradero Los prófugos, oriundos de Chivilcoy y Junín, estaban alojados bajo un régimen semiabierto en la Unidad Penal N° 11. El Servicio Penitenciario Bonaerense y la Policía desplegaron un operativo cerrojo para dar con su paradero. Un amplio operativo de seguridad se mantiene activo en el norte y centro de la provincia de Buenos Aires para recapturar a dos internos que se evadieron de la Unidad Penal N° 11 de...",
@@ -12002,44 +11983,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:49037013-a165-485b-983d-91a1691d32f9|x": {
-   "actualizado": "2026-11-13T10:20:14.000Z",
-   "buffer_id": "6af6e077df68225fc1b11d4d",
-   "clave": "web:49037013-a165-485b-983d-91a1691d32f9|x",
-   "creado": "2026-11-13T10:02:41.000Z",
-   "dueAt": "2026-11-13T10:07:38.000Z",
-   "enviado": "2026-11-13T10:07:46.256Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-13T10:00:56.243Z",
-   "id": "web:49037013-a165-485b-983d-91a1691d32f9",
-   "ig_hora": "2026-11-13T10:07:28.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2121183228539109653",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 6.25,
-    "impressions": 48,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/reincidencia-delictiva-volvio-a-caer-un-historico-robacables-de",
-   "noticia": "nota:reincidencia-delictiva-volvio-a-caer-un-historico-robacables-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Volvió a caer un histórico “robacables” de Chivilcoy: fue aprehendido tras hacer un boquete en una cerámica\n\nLa policía sorprendió a un hombre con herramientas de corte en Cerámica Gandolfo. Tiene un extenso historial de condenas.\n\nhttps://www.diariolacampaña.com.ar/n/reincidencia-delictiva-volvio-a-caer-un-historico-robacables-de",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Volvió a caer un histórico “robacables” de Chivilcoy: fue aprehendido tras hacer un boquete en una cerámica",
-   "urgente": false,
-   "vence": "2026-11-13T14:00:56.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:49e62895-3650-40a4-96b0-255e389c9fe6|x": {
    "actualizado": "2026-11-19T10:20:28.000Z",
    "buffer_id": "6afebc4c73dee4185935cff3",
@@ -12171,14 +12114,14 @@
    "viral": false
   },
   "web:4d89ade0-7563-4650-985d-371fb8d64317|x": {
-   "actualizado": "2026-11-23T09:03:47.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-23T10:20:13.000Z",
+   "buffer_id": "6b04135e95bbdb5492eb880d",
    "clave": "web:4d89ade0-7563-4650-985d-371fb8d64317|x",
    "creado": "2026-11-23T09:03:47.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-23T11:38:14.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-23T09:02:03.908Z",
    "id": "web:4d89ade0-7563-4650-985d-371fb8d64317",
    "ig_hora": "2026-11-23T11:38:36.000Z",
@@ -15737,13 +15680,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6afae6f891ba8aa74bccfcc2",
-   "clave": "web:44fd5518-ed5a-40fc-83e8-17f01377db20|x",
-   "cuando": "2026-11-16T11:20:24.000Z",
-   "dueAt": "2026-11-16T12:38:58.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6afaeba00c2af02527daaef0",
    "clave": "web:d4aa9117-36ae-4f13-b185-0fc7c06de2ed|x",
@@ -19906,6 +19842,13 @@
    "clave": "web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6|x",
    "cuando": "2026-11-23T10:00:24.000Z",
    "dueAt": "2026-11-23T11:23:03.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b04135e95bbdb5492eb880d",
+   "clave": "web:4d89ade0-7563-4650-985d-371fb8d64317|x",
+   "cuando": "2026-11-23T10:20:14.000Z",
+   "dueAt": "2026-11-23T11:38:14.000Z",
    "evento": "programado"
   }
  ],
