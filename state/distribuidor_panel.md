@@ -1,19 +1,19 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/11/2026 10:20 (hora AR) · ACTIVO
+Actualizado: 23/11/2026 10:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 16 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -34,7 +34,6 @@ Actualizado: 23/11/2026 10:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-23T10:00 programado web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6|x 
 - 2026-11-23T10:20 programado web:4d89ade0-7563-4650-985d-371fb8d64317|x 
 - 2026-11-23T10:40 enviado web:0905cc0b-2dcc-44a0-a8b2-c7b651813a28|x 
 - 2026-11-23T10:40 enviado web:0a15fc2c-0108-44f3-b021-e0f9df166285|x 
@@ -59,3 +58,4 @@ Actualizado: 23/11/2026 10:20 (hora AR) · ACTIVO
 - 2026-11-23T13:20 recibido bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|tiktok 
 - 2026-11-23T13:20 recibido web:edfa9f86-d847-403f-9858-10233e91d347|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-23T13:20 programado bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x 
+- 2026-11-23T13:40 enviado bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x 

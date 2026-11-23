@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-23T12:40:13.000Z"
+   "visto": "2026-11-23T13:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 15
+    "sent": 16
    },
    "pausado": false,
-   "visto": "2026-11-23T12:40:13.000Z"
+   "visto": "2026-11-23T13:40:14.000Z"
   }
  },
  "contenidos": {
@@ -6349,18 +6349,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x": {
-   "actualizado": "2026-11-23T13:20:17.000Z",
+   "actualizado": "2026-11-23T13:40:14.000Z",
    "buffer_id": "6b043d92a910126ee82f6200",
    "clave": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x",
    "creado": "2026-11-23T13:20:13.000Z",
    "dueAt": "2026-11-23T13:22:22.000Z",
+   "enviado": "2026-11-23T13:22:37.049Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T13:19:06.000Z",
    "id": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124856142022979868",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
    "noticia": "nota:chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
    "origen": "bot",
@@ -15443,12 +15444,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00316|x",
-   "cuando": "2026-11-16T17:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122369861867217098"
-  },
-  {
    "clave": "entrevistas:job00317",
    "cuando": "2026-11-16T17:20:15.000Z",
    "evento": "entrevista_aprobada"
@@ -19612,6 +19607,12 @@
    "cuando": "2026-11-23T13:20:18.000Z",
    "dueAt": "2026-11-23T13:22:22.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|x",
+   "cuando": "2026-11-23T13:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124856142022979868"
   }
  ],
  "tandas": {
@@ -19649,7 +19650,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-23",
- "ultima_sync": "2026-11-23T12:40:13.000Z",
+ "ultima_sync": "2026-11-23T13:40:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
