@@ -3456,6 +3456,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:52f685d3-7f10-479d-854f-0736a8e43a99": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Aprehendieron a un joven y recuperaron una moto robada CHIVILCOY.– En el marco de una investigación por el hurto de una motocicleta, ocurrido el 17 de noviembre, personal policial logró esclarecer el hecho y recuperar el vehículo sustraído. A partir del análisis de registros fílmicos y testimonios recolectados durante la investigación, se concretó la aprehensión de Thiago Simón Almirón, de 18 años, en la intersección de las calles Moreno y Junín, cuando circulaba en una motocicleta...",
+   "generado": "2026-11-23T22:28:16.722Z",
+   "id": "web:52f685d3-7f10-479d-854f-0736a8e43a99",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_e15e33602cf840bf98483ee5b468ef81~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-y-recuperaron",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Aprehendieron a un joven y recuperaron una moto robada",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-y-recuperaron",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:53643e41-5b43-415e-b955-0740b1d0ee5b": {
    "categoria": "",
    "descripcion": "Valentino Iberro logró dos segundos puestos en el karting zonal Con tan solo 7 años, un joven piloto chivilcoyano hace historia y sueña con llegar a lo más alto del automovilismo. El pequeño representante de Chivilcoy tuvo un gran fin de semana dentro del karting zonal, volviendo a demostrar que su muy corta edad no es un impedimento para ser rápido y estar a la altura de sus compañeros de pista. El pasado 7 y 8 de noviembre, el Karting Disciplina Oficial disputó su 8ª y 9ª fecha del...",
@@ -11833,6 +11852,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:52f685d3-7f10-479d-854f-0736a8e43a99|x": {
+   "actualizado": "2026-11-23T22:40:17.000Z",
+   "buffer_id": "",
+   "clave": "web:52f685d3-7f10-479d-854f-0736a8e43a99|x",
+   "creado": "2026-11-23T22:40:15.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-23T22:28:16.722Z",
+   "id": "web:52f685d3-7f10-479d-854f-0736a8e43a99",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-y-recuperaron",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-y-recuperaron",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Aprehendieron a un joven y recuperaron una moto robada\n\nPersonal policial esclareció el hurto de una motocicleta tras analizar registros fílmicos y testimonios. El vehículo sustraído fue recuperado.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-y-recuperaron",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Aprehendieron a un joven y recuperaron una moto robada",
+   "urgente": false,
+   "vence": "2026-11-24T02:28:16.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:53643e41-5b43-415e-b955-0740b1d0ee5b|x": {
    "actualizado": "2026-11-17T14:20:13.000Z",
    "buffer_id": "6afc595036ec401176a8bf1d",
@@ -14956,18 +15002,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mwjsvheuls91_01.mp4|x",
-   "cuando": "2026-11-16T23:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122455497345294419"
-  },
-  {
-   "clave": "entrevistas:job00316|tiktok",
-   "cuando": "2026-11-16T23:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7708898562087898389"
-  },
   {
    "clave": "entrevistas:job00317|tiktok",
    "cuando": "2026-11-16T23:00:21.000Z",
@@ -19116,6 +19150,20 @@
    "cuando": "2026-11-23T22:20:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7711480022099447046"
+  },
+  {
+   "clave": "web:52f685d3-7f10-479d-854f-0736a8e43a99|x",
+   "cuando": "2026-11-23T22:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:52f685d3-7f10-479d-854f-0736a8e43a99|x",
+   "cuando": "2026-11-23T22:40:17.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -19469,7 +19517,6 @@
   "policiales:https://www.diariodemocracia.com/ciudad/chacabuco/348152-un-fuerte-temporal-provoco-inundaciones-cortes-de": "2026-11-17T23:40:12.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347044-cuatro-aprehendidos-y-cuatro-motos-secuestradas-en": "2026-10-24T23:20:14.000Z",
-  "policiales:https://www.diariodemocracia.com/policiales/347048-allanan-tres-casas-en-el-barrio-la-celeste-y-cae-u": "2026-10-24T22:40:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se": "2026-10-26T23:40:20.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac": "2026-10-28T23:20:14.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo": "2026-10-29T23:40:14.000Z",
@@ -19678,6 +19725,7 @@
   "web:5296a026-93a3-4ae5-a568-78482a52580c": "2026-11-15T17:00:25.000Z",
   "web:52bbf159-92ef-4ce0-a4a9-c43237f3a3ba": "2026-10-27T10:03:31.000Z",
   "web:52c96f09-7e84-4dea-9e97-24ab64aa6215": "2026-11-01T13:20:14.000Z",
+  "web:52f685d3-7f10-479d-854f-0736a8e43a99": "2026-11-23T22:40:15.000Z",
   "web:53643e41-5b43-415e-b955-0740b1d0ee5b": "2026-11-17T13:40:13.000Z",
   "web:538c9642-3889-4297-9eed-8227576f7a51": "2026-11-19T13:20:14.000Z",
   "web:53a73a04-7714-4da8-a6b3-30f272f523ee": "2026-11-03T10:02:22.000Z",
