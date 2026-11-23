@@ -978,6 +978,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00338.mp4",
    "youtube_url": "https://youtu.be/RPCdWPIXL8s"
   },
+  "entrevistas:job00339": {
+   "descripcion": "El estudiante chivilcoyano Vicente Fontana relató la emoción de ver su nombre entre los aprobados de la Olimpiada Matemática Argentina. Compitió frente a más de 700 alumnos de todo el país en la final nacional.",
+   "duracion_seg": null,
+   "entrevistado": "Vicente Fontana",
+   "generado": "2026-11-23T18:00:23.000Z",
+   "id": "entrevistas:job00339",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Vicente Fontana: su emoción en la Olimpiada Matemática Argentina",
+   "urgente": false,
+   "video_bytes": 31776063,
+   "video_mb": 30.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00339.mp4",
+   "youtube_url": "https://youtu.be/dYduc5h32Ys"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -6303,43 +6324,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00309.mp4",
    "viral": false
   },
-  "entrevistas:job00309|x": {
-   "actualizado": "2026-11-13T18:00:16.000Z",
-   "buffer_id": "6af74b8b357fdb912a6d7382",
-   "clave": "entrevistas:job00309|x",
-   "creado": "2026-11-13T17:40:25.000Z",
-   "dueAt": "2026-11-13T17:42:05.000Z",
-   "enviado": "2026-11-13T17:42:23.712Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-13T17:40:25.000Z",
-   "id": "entrevistas:job00309",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2121297638511309086",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 31,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:antes-cancha-coaching-entrar-gisela-videla",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Gisela Videla: el rol del coaching antes de entrar a la cancha\n\nEn Chivilcoy, la especialista en coaching deportivo Gisela Videla explicó cómo actúa de filtro para cuidar las emociones de los chicos antes de entrenar o competir.\n\nhttps://youtu.be/pneQgb3_dVM",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Gisela Videla: el rol del coaching antes de entrar a la cancha",
-   "urgente": false,
-   "vence": "2026-11-13T19:40:25.000Z",
-   "video_bytes": 25899458,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00309.mp4",
-   "viral": false
-  },
   "entrevistas:job00310-r1|tiktok": {
    "actualizado": "2026-11-14T01:20:23.000Z",
    "buffer_id": "6af7a49881e1228421d1040a",
@@ -8644,6 +8628,62 @@
    "vence": "2026-11-23T19:00:21.000Z",
    "video_bytes": 21169098,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00338.mp4",
+   "viral": false
+  },
+  "entrevistas:job00339|tiktok": {
+   "actualizado": "2026-11-23T18:00:23.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00339|tiktok",
+   "creado": "2026-11-23T18:00:23.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-23T18:00:23.000Z",
+   "id": "entrevistas:job00339",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Vicente Fontana: su emoción en la Olimpiada Matemática Argentina\n\nEl estudiante chivilcoyano Vicente Fontana relató la emoción de ver su nombre entre los aprobados de la Olimpiada Matemática Argentina. Compitió frente a más de 700 alumnos de todo el país en la final nacional.\n\nhttps://youtu.be/dYduc5h32Ys\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Vicente Fontana: su emoción en la Olimpiada Matemática Argentina",
+   "urgente": false,
+   "vence": "2026-11-25T18:00:23.000Z",
+   "video_bytes": 31776063,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00339.mp4",
+   "viral": false
+  },
+  "entrevistas:job00339|x": {
+   "actualizado": "2026-11-23T18:00:27.000Z",
+   "buffer_id": "6b047f3c76f8581f138b9150",
+   "clave": "entrevistas:job00339|x",
+   "creado": "2026-11-23T18:00:23.000Z",
+   "dueAt": "2026-11-23T18:02:31.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-23T18:00:23.000Z",
+   "id": "entrevistas:job00339",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:argentina-emocion-fontana-matematica-olimpiada-vicente",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Vicente Fontana: su emoción en la Olimpiada Matemática Argentina\n\nEl estudiante chivilcoyano superó la final nacional del certamen. Compitió frente a más de 700 alumnos de todo el país.\n\nhttps://youtu.be/dYduc5h32Ys",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Vicente Fontana: su emoción en la Olimpiada Matemática Argentina",
+   "urgente": false,
+   "vence": "2026-11-23T20:00:23.000Z",
+   "video_bytes": 31776063,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00339.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
@@ -15255,34 +15295,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00319",
-   "cuando": "2026-11-16T18:40:14.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00319|x",
-   "cuando": "2026-11-16T18:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00319|tiktok",
-   "cuando": "2026-11-16T18:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6afb4e18d3924e687ee9d2f6",
-   "clave": "entrevistas:job00319|x",
-   "cuando": "2026-11-16T18:40:25.000Z",
-   "dueAt": "2026-11-16T18:42:24.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00319|x",
    "cuando": "2026-11-16T19:40:13.000Z",
    "evento": "enviado",
@@ -19424,6 +19436,34 @@
    "cuando": "2026-11-23T17:20:15.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2124913704361689490"
+  },
+  {
+   "clave": "entrevistas:job00339",
+   "cuando": "2026-11-23T18:00:23.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00339|x",
+   "cuando": "2026-11-23T18:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00339|tiktok",
+   "cuando": "2026-11-23T18:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b047f3c76f8581f138b9150",
+   "clave": "entrevistas:job00339|x",
+   "cuando": "2026-11-23T18:00:28.000Z",
+   "dueAt": "2026-11-23T18:02:31.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19471,8 +19511,6 @@
   "baja:chivilcoy-salud-chivilcoy-guillermo-britos-advirtio-que-el-sanatorio": "2026-11-21T12:00:17.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u": "2026-10-24T18:00:17.000Z",
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmov8ilec3w": "2026-10-24T18:00:17.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmq82oimbth": "2026-10-24T18:40:13.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvms20a49rd8": "2026-10-24T19:40:16.000Z",
   "bot:corresponsal_2026-10-25_matias-zucchi_mvnu6i2kx15w": "2026-10-25T13:20:14.000Z",
@@ -19676,6 +19714,7 @@
   "entrevistas:job00336": "2026-11-20T20:20:18.000Z",
   "entrevistas:job00337": "2026-11-23T17:00:21.000Z",
   "entrevistas:job00338": "2026-11-23T17:00:21.000Z",
+  "entrevistas:job00339": "2026-11-23T18:00:23.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
@@ -20140,7 +20179,6 @@
   "web:9e4086cb-884a-42ed-9f34-88efb0194b7a": "2026-11-03T22:20:16.000Z",
   "web:9e410369-9ce4-49e1-bf5c-09b21d0fc6b8": "2026-11-10T10:02:42.000Z",
   "web:9e795c0b-5665-45d1-8325-8af58d45b889": "2026-11-04T21:40:12.000Z",
-  "web:9f2f4ad4-ec7d-4e33-94b8-2d8c741a84d4": "2026-10-24T18:00:17.000Z",
   "web:9fc2d3cd-ceb0-47cf-a0a0-9ee0e42443b4": "2026-11-11T10:02:35.000Z",
   "web:9fd64415-c3e6-4424-a6a4-6383bdcdb27e": "2026-10-26T13:48:30.000Z",
   "web:9ffa156e-f7e0-46db-b1d7-f1547bc03cf8": "2026-11-08T23:00:17.000Z",

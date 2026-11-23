@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/11/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 23/11/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -17,7 +17,7 @@ Actualizado: 23/11/2026 14:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 29 con métricas · mediana vistas/impresiones 75 · likes 0
+- X · Recortes de entrevistas: 28 con métricas · mediana vistas/impresiones 76.5 · likes 0
 - X · Reels del bot: 10 con métricas · mediana vistas/impresiones 75 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 85 · likes 0
 - X · Notas web: 83 con métricas · mediana vistas/impresiones 22 · likes 0
@@ -27,7 +27,8 @@ Actualizado: 23/11/2026 14:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
+- TikTok · Recortes de entrevistas · Vicente Fontana: su emoción en la Olimpiada Matemática Argentina — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Carlos Mosso: ¿A dónde va el impuesto a los combustibles? — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Gabriela Gilli: la diferencia entre tango show y tango al piso — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Miss Bolivia participó en la quinta edición de la FLICH — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -36,10 +37,6 @@ Actualizado: 23/11/2026 14:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-23T11:20 programado web:d29b119d-8f9b-47c4-8582-f320c151dbba|x 
-- 2026-11-23T11:40 enviado web:4d89ade0-7563-4650-985d-371fb8d64317|x 
-- 2026-11-23T11:40 enviado web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6|x 
-- 2026-11-23T12:00 recibido web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x 
 - 2026-11-23T12:00 programado web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x 
 - 2026-11-23T12:25 depurado web:5a6c08d8-92f3-47b6-b140-8d1beb340fd1|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-23T12:40 enviado web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x 
@@ -61,3 +58,7 @@ Actualizado: 23/11/2026 14:40 (hora AR) · ACTIVO
 - 2026-11-23T17:00 programado entrevistas:job00338|x 
 - 2026-11-23T17:20 enviado entrevistas:job00337|x 
 - 2026-11-23T17:20 enviado entrevistas:job00338|x 
+- 2026-11-23T18:00 entrevista_aprobada entrevistas:job00339 
+- 2026-11-23T18:00 recibido entrevistas:job00339|x 
+- 2026-11-23T18:00 recibido entrevistas:job00339|tiktok 
+- 2026-11-23T18:00 programado entrevistas:job00339|x 
