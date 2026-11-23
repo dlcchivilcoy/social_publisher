@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-23T13:40:14.000Z"
+   "visto": "2026-11-23T17:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 16
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-23T13:40:14.000Z"
+   "visto": "2026-11-23T17:20:15.000Z"
   }
  },
  "contenidos": {
@@ -8561,18 +8561,19 @@
    "viral": false
   },
   "entrevistas:job00337|x": {
-   "actualizado": "2026-11-23T17:00:39.000Z",
+   "actualizado": "2026-11-23T17:20:15.000Z",
    "buffer_id": "6b0471386b0f5eaba88d7d1d",
    "clave": "entrevistas:job00337|x",
    "creado": "2026-11-23T17:00:21.000Z",
    "dueAt": "2026-11-23T17:02:03.000Z",
+   "enviado": "2026-11-23T17:11:10.183Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T17:00:21.000Z",
    "id": "entrevistas:job00337",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124913659050610966",
    "nota_url": "",
    "noticia": "titulo:carlos-combustibles-impuesto-mosso",
    "origen": "entrevistas",
@@ -8617,18 +8618,19 @@
    "viral": false
   },
   "entrevistas:job00338|x": {
-   "actualizado": "2026-11-23T17:00:39.000Z",
+   "actualizado": "2026-11-23T17:20:15.000Z",
    "buffer_id": "6b047138827feee79c0e231f",
    "clave": "entrevistas:job00338|x",
    "creado": "2026-11-23T17:00:21.000Z",
    "dueAt": "2026-11-23T17:07:53.000Z",
+   "enviado": "2026-11-23T17:11:20.983Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-23T17:00:21.000Z",
    "id": "entrevistas:job00338",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2124913704361689490",
    "nota_url": "",
    "noticia": "titulo:diferencia-gabriela-gilli-piso-show-tango",
    "origen": "entrevistas",
@@ -15253,18 +15255,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00317|x",
-   "cuando": "2026-11-16T18:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122379767169089931"
-  },
-  {
-   "clave": "entrevistas:job00318|x",
-   "cuando": "2026-11-16T18:20:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122391184337215622"
-  },
-  {
    "clave": "entrevistas:job00319",
    "cuando": "2026-11-16T18:40:14.000Z",
    "evento": "entrevista_aprobada"
@@ -19422,6 +19412,18 @@
    "cuando": "2026-11-23T17:00:40.000Z",
    "dueAt": "2026-11-23T17:07:53.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00337|x",
+   "cuando": "2026-11-23T17:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124913659050610966"
+  },
+  {
+   "clave": "entrevistas:job00338|x",
+   "cuando": "2026-11-23T17:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2124913704361689490"
   }
  ],
  "tandas": {
@@ -19459,7 +19461,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-23",
- "ultima_sync": "2026-11-23T13:40:14.000Z",
+ "ultima_sync": "2026-11-23T17:20:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -19469,7 +19471,6 @@
   "baja:chivilcoy-salud-chivilcoy-guillermo-britos-advirtio-que-el-sanatorio": "2026-11-21T12:00:17.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-24_matias-zucchi_mvmnljms612d": "2026-10-24T17:20:15.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmnuqsmtwp6": "2026-10-24T17:40:14.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmo6wk67zh5": "2026-10-24T17:40:14.000Z",
   "bot:corresponsal_2026-10-24_matias-zucchi_mvmojaypf08u": "2026-10-24T18:00:17.000Z",
@@ -20203,10 +20204,8 @@
   "web:bcc71360-9f79-4290-9d68-9770c7fb87ac": "2026-11-04T15:40:14.000Z",
   "web:bdae317a-c579-4ecd-a1a1-5be9a5ae1edf": "2026-11-05T12:00:18.000Z",
   "web:be3f2357-0b41-4b5c-a76e-7242f7a153df": "2026-10-31T20:40:14.000Z",
-  "web:bf6521bd-4d33-4790-8b06-46d2c1596e82": "2026-10-24T17:20:15.000Z",
   "web:bfd610a6-2963-4140-98d0-d45bf948298c": "2026-10-26T12:06:06.000Z",
   "web:bff9dfc7-873a-4a8d-a3de-da24428245eb": "2026-11-15T17:40:14.000Z",
-  "web:c00bb224-879f-4991-ba6d-b57cef2f5104": "2026-10-24T17:20:15.000Z",
   "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f": "2026-11-14T12:20:12.000Z",
   "web:c111ebae-74fb-4af9-b579-9f53a3522b71": "2026-11-06T09:00:16.000Z",
   "web:c12f83b2-56bb-4449-b6b3-e47b7fa75149": "2026-11-12T21:40:14.000Z",
