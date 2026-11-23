@@ -2782,3 +2782,42 @@ def declaracion(audio, dur: float, relato: str = "", habla: str = "", foto=None,
     logger.info(f"Gemini OK (declaración): «{raw.get('titulo', '')}» — {raw.get('nombre', '')} "
                 f"({raw.get('cargo', '')}), {len(raw.get('frases') or [])} frase(s)")
     return raw
+
+
+# ── Resumen del texto de los carruseles de la mañana (23/11/2026) ───────────────────────────
+# El editor: «el texto descriptivo por lo general sale cortado, tenés que hacer bien el resumen y que termine la
+# idea en una oración con sentido que no esté cortada». Antes era el primer párrafo recortado a 280 caracteres.
+_RESUMEN_CAPTION_PROMPT = (
+    "Sos redactor del «Diario La Campaña» de Chivilcoy (Argentina). Escribí el RESUMEN que acompaña a esta nota en "
+    "Instagram, debajo del titular.\n"
+    "REGLAS:\n"
+    "• Dos o tres oraciones COMPLETAS, cada una con sentido propio, que cuenten lo central: qué pasó o qué se "
+    "anunció, quién, dónde y cuándo si la nota lo dice. La última oración cierra la idea y termina en punto.\n"
+    "• Entre 160 y {MAX} caracteres en total. Nunca una oración cortada, nunca puntos suspensivos.\n"
+    "• Solo datos que estén en la nota: no inventes nombres, cifras, cargos, fechas ni opiniones.\n"
+    "• No repitas el titular palabra por palabra. Sin comillas de declaraciones, sin emojis, sin hashtags, sin "
+    "links ni invitaciones a la web (el sistema las agrega).\n"
+    "• Español rioplatense, tono informativo y sobrio, tercera persona. Los nombres en minúscula con mayúscula "
+    "inicial aunque la nota los traiga en MAYÚSCULAS."
+)
+_RESUMEN_CAPTION_SCHEMA = {"type": "OBJECT", "properties": {"resumen": {"type": "STRING"}}, "required": ["resumen"]}
+
+
+def resumen_caption(volanta: str, titular: str, cuerpo: str, max_chars: int = 360, api_key: str = "",
+                    model: str = "", key_pool=None) -> str:
+    """El resumen de la nota para el texto de Instagram, en oraciones completas, o "" ante cualquier error (el
+    que llama arma uno con las oraciones de la nota): nunca frena la publicación."""
+    base = " ".join((cuerpo or "").split()).strip()
+    if len(base) < 120:
+        return ""
+    try:
+        key = (api_key or "").strip() or _clave_por_defecto()
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+        texto = (f"{_RESUMEN_CAPTION_PROMPT.replace('{MAX}', str(max_chars))}\n\nVOLANTA: {(volanta or '').strip()}"
+                 f"\nTITULAR: {(titular or '').strip()}\n\nNOTA:\n{base[:9000]}")
+        datos = _post_json([{"text": texto}], key, model, _RESUMEN_CAPTION_SCHEMA,
+                           key_pool=key_pool or _gemini_keys(key), razonamiento="low")
+        return " ".join(str((datos or {}).get("resumen") or "").split()).strip()
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude escribir el resumen del carrusel ({e}); va uno con las oraciones de la nota.")
+        return ""

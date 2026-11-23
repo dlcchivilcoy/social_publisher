@@ -355,7 +355,7 @@ def _postear_nota_x(note: dict, volanta: str, titular: str, primer: str,
         return False
     from platforms import twitter
     titulo = f"{volanta} — {titular}" if volanta else titular
-    resumen = _resumen_caption(primer, max_chars=180)
+    resumen = _resumen_caption(primer, max_chars=180, tope=180)    # X: 280 caracteres en total
     img = _prepare_image(note["image"])
     try:
         twitter.publish(titulo, resumen, img, wix_url=wix_url, dry_run=dry_run)
@@ -372,18 +372,81 @@ def _postear_nota_x(note: dict, volanta: str, titular: str, primer: str,
             img.unlink()
 
 
-def _resumen_caption(texto: str, max_chars: int = 280) -> str:
-    """Resumen para el caption: ~5 líneas como máximo, cortado en final de oración
-    o de palabra, SIN puntos suspensivos."""
-    t = (texto or "").strip()
-    if not t or len(t) <= max_chars:
-        return t
-    corte = t[:max_chars]
-    for sep in (". ", "! ", "? "):
-        idx = corte.rfind(sep)
-        if idx >= max_chars * 0.5:
-            return corte[:idx + 1].strip()
-    return corte.rsplit(" ", 1)[0].rstrip(" ,;:").strip()
+# Abreviaturas que terminan en punto y NO cierran una oración («el Dr. Pérez», «Av. Sarmiento», «N.º 5»).
+_ABREVIATURAS = {"dr", "dra", "sr", "sra", "srta", "av", "avda", "ing", "lic", "prof", "arq", "gral", "cnel", "tte",
+                 "sgto", "cra", "cro", "dto", "depto", "nº", "n", "nro", "km", "aprox", "etc", "pág", "tel", "s.a",
+                 "s.r.l", "e", "ej", "ee.uu", "uu", "hs", "min", "mts"}
+_FIN_ORACION = re.compile(r"(?<=[.!?…])[\"»”']?\s+(?=[¿¡\"«“'(]?[A-ZÁÉÍÓÚÑÜ0-9])")
+
+
+def _oraciones(texto: str) -> list:
+    """Las oraciones del texto, sin partir en abreviaturas ni en números («1.500», «3.5»)."""
+    t = " ".join((texto or "").split())
+    if not t:
+        return []
+    salida, inicio = [], 0
+    for m in _FIN_ORACION.finditer(t):
+        previa = t[inicio:m.start()].rstrip("\"»”' ")
+        ultima = previa.rsplit(" ", 1)[-1].rstrip(".").lower()
+        if previa.endswith(".") and (ultima in _ABREVIATURAS or (len(ultima) == 1 and ultima.isalpha())):
+            continue
+        salida.append(t[inicio:m.start()].strip())
+        inicio = m.end()
+    salida.append(t[inicio:].strip())
+    return [o for o in salida if o]
+
+
+def _resumen_caption(texto: str, max_chars: int = 280, tope: int = 700) -> str:
+    """Resumen para el caption en ORACIONES COMPLETAS (23/11/2026, el editor: «el texto descriptivo por lo general
+    sale cortado … que termine la idea en una oración con sentido»): suma oraciones enteras mientras entren en
+    `max_chars`; si la primera sola ya es más larga, va ENTERA igual (hasta `tope`: Instagram admite 2.200). Nunca
+    corta una oración por la mitad ni pone puntos suspensivos."""
+    salida = ""
+    for o in _oraciones(texto):
+        if not salida:
+            if len(o) > tope:
+                # Una «oración» de más de 700 caracteres es un párrafo sin puntos: se corta en la última pausa
+                # (punto y coma, dos puntos o coma) y se cierra con punto.
+                corte = o[:tope]
+                idx = max(corte.rfind("; "), corte.rfind(": "), corte.rfind(", "))
+                o = (corte[:idx] if idx > tope * 0.4 else corte.rsplit(" ", 1)[0]).rstrip(" ,;:") + "."
+            salida = o
+        elif len(salida) + 1 + len(o) <= max_chars:
+            salida += " " + o
+        else:
+            break
+    if salida and salida[-1] not in ".!?…\"»”)":
+        salida += "."
+    return salida
+
+
+def _resumen_ok(resumen: str, max_chars: int) -> bool:
+    """¿El resumen de la IA sirve? Que no esté vacío, que no sea larguísimo y que termine una oración."""
+    r = (resumen or "").strip()
+    return 80 <= len(r) <= max_chars + 120 and r[-1] in ".!?\"»”)" and not r.endswith("...")
+
+
+def _resumen_ia_activo() -> bool:
+    return (get("CARRUSEL_RESUMEN_IA") or "1").strip() != "0"
+
+
+def _resumen_nota(volanta: str, titular: str, cuerpo, primer: str, max_chars: int = 360, escribir=None) -> str:
+    """El resumen del texto de Instagram de una nota: lo escribe Gemini con toda la nota (dos o tres oraciones
+    completas); si no puede, las oraciones enteras de la nota (_resumen_caption). CARRUSEL_RESUMEN_IA=0 apaga la IA."""
+    texto = "\n\n".join(cuerpo) if isinstance(cuerpo, (list, tuple)) else (cuerpo or "")
+    if _resumen_ia_activo():
+        try:
+            if escribir is None:
+                from utils import gemini
+                escribir = gemini.resumen_caption
+            r = escribir(volanta, titular, texto or primer, max_chars=max_chars)
+            if _resumen_ok(r, max_chars):
+                return r
+            if r:
+                logger.warning(f"[instagram] el resumen de la IA no sirve ({len(r)} caracteres); van las oraciones")
+        except Exception as e:  # noqa: BLE001 — el resumen nunca frena la publicación
+            logger.warning(f"[instagram] no pude pedir el resumen ({e}); van las oraciones de la nota")
+    return _resumen_caption(primer or texto, max_chars)
 
 
 def _publicar_nota_wix(note: dict, volanta: str, titular: str, cuerpo: list, primer: str) -> str:
@@ -663,12 +726,13 @@ def _carrusel_explicativo(note: dict, volanta: str, titular: str, cuerpo: list, 
 
 
 def _caption_individual(note: dict, volanta: str, titular: str, primer: str, site: str,
-                        reel: bool = False) -> str:
+                        reel: bool = False, resumen=None) -> str:
     """El texto de cada nota en Instagram: volanta, titular, un resumen, la invitación a deslizar (en el
     carrusel) y la WEB del diario (pedido del 18/10/2026: nunca el link de la nota) + hashtags."""
     cabeza = f"{volanta.strip().upper()}\n📰 {titular}" if (volanta or "").strip() else f"📰 {titular}"
     partes = [cabeza]
-    resumen = _resumen_caption(primer, 280)
+    if resumen is None:
+        resumen = _resumen_caption(primer, 280)
     if resumen:
         partes.append(resumen)
     if not reel:
@@ -695,8 +759,10 @@ def _instagram_individual(posts_folder: Path, notas: list, ledger: set, hoy: dat
         except Exception as e:  # noqa: BLE001 — una nota que no se puede armar no frena a las otras
             logger.error(f"[instagram] no se pudo armar el carrusel de «{titular[:40]}»: {e}")
             continue
-        armadas.append((note, titular, placas, _caption_individual(note, volanta, titular, primer, site, reel),
-                        _caption_individual(note, volanta, titular, primer, site)))
+        resumen = _resumen_nota(volanta, titular, cuerpo, primer)       # una sola vez: sirve a los dos textos
+        armadas.append((note, titular, placas,
+                        _caption_individual(note, volanta, titular, primer, site, reel, resumen=resumen),
+                        _caption_individual(note, volanta, titular, primer, site, resumen=resumen)))
     intervalo = _intervalo_seg()
     logger.info(f"[instagram] {len(armadas)} nota(s) como {formato}, una cada {intervalo // 60} min")
     if dry_run:
