@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/11/2026 06:40 (hora AR) · ACTIVO
+Actualizado: 23/11/2026 07:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 23/11/2026 06:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 1 | 7 | 6 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 7 | 5 | 0 | 0 | 1 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,20 +27,17 @@ Actualizado: 23/11/2026 06:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (6 esperando)
+## Cola propia (5 esperando)
 - X · Notas web · Chivilcoy: Camino a la definición: se palpita la gran final de la Copa del Club  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Horacio y Belén Heiland cerraron la temporada con la victoria en el G — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Clausura (AJB): Argentino venció a Sportivo Rojas como visitan — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Liga Nacional: Joaquín Valinotti, tras el desahogo de Racing: “Ganamo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Liga Mercedina (Torneo Clausura 2026): Ciclón de Chivilcoy gritó campeón invicto — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Torneo Clausura de Primera División: Gimnasia se quedó con el "1" de  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-23T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/dano-ince no hubo lugar antes de su vencimiento
-- 2026-11-23T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/noche2111 no hubo lugar antes de su vencimiento
 - 2026-11-23T09:03 recibido web:d29b119d-8f9b-47c4-8582-f320c151dbba|x 
 - 2026-11-23T09:03 recibido web:ba8e819e-fc43-4315-8b96-fd90deb06634|x 
 - 2026-11-23T09:03 recibido web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x 
@@ -64,3 +61,5 @@ Actualizado: 23/11/2026 06:40 (hora AR) · ACTIVO
 - 2026-11-23T09:20 enviado web:228b6d6b-86cb-4392-a8ca-6599d475ecc3|x 
 - 2026-11-23T09:20 programado web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x 
 - 2026-11-23T09:40 programado web:1f8a4af4-b2db-4be5-b0a6-a5c9b1109b84|x 
+- 2026-11-23T10:00 depurado web:1f8a4af4-b2db-4be5-b0a6-a5c9b1109b84|x no está en el carrusel del diario de hoy (sacado de Buffer)
+- 2026-11-23T10:00 programado web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6|x 
