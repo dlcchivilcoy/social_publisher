@@ -2821,3 +2821,38 @@ def resumen_caption(volanta: str, titular: str, cuerpo: str, max_chars: int = 36
     except Exception as e:  # noqa: BLE001
         logger.warning(f"No pude escribir el resumen del carrusel ({e}); va uno con las oraciones de la nota.")
         return ""
+
+
+# ── Titular corto para la PLACA del carrusel (23/11/2026) ─────────────────────────────────────
+# El editor: «lo mismo para el titular que queda en placa, fijate que el del sacerdote quedó cortado». Hay notas
+# cuyo «titular» es en realidad la primera oración entera (197 caracteres el 23/11) y en la placa no entraba: salía
+# cortado con «…». Ahora, si es largo, la IA escribe uno corto y completo.
+_TITULAR_PLACA_PROMPT = (
+    "Sos editor del «Diario La Campaña» de Chivilcoy (Argentina). El titular de esta nota es demasiado largo para "
+    "la placa de Instagram. Escribí UN titular nuevo:\n"
+    "• De entre 40 y {MAX} caracteres, completo y con sentido: nunca cortado, sin puntos suspensivos, sin punto "
+    "final.\n"
+    "• Que diga lo central de la nota con sus datos (quién y qué), en estilo periodístico, verbo en presente o "
+    "pasado.\n"
+    "• Solo datos que estén en la nota: no inventes nombres, cifras, cargos ni fechas.\n"
+    "• No repitas la volanta. Sin comillas de declaraciones, sin emojis, sin hashtags.\n"
+    "• Español rioplatense. Los nombres en minúscula con mayúscula inicial aunque la nota los traiga en MAYÚSCULAS."
+)
+_TITULAR_PLACA_SCHEMA = {"type": "OBJECT", "properties": {"titular": {"type": "STRING"}}, "required": ["titular"]}
+
+
+def titular_placa(volanta: str, titular: str, cuerpo: str, max_chars: int = 100, api_key: str = "", model: str = "",
+                  key_pool=None) -> str:
+    """Un titular corto y completo para la placa, o "" ante cualquier error (el que llama usa otro respaldo)."""
+    try:
+        key = (api_key or "").strip() or _clave_por_defecto()
+        model = (model or "").strip() or get("GEMINI_MODEL") or _MODELO_DEFAULT
+        base = " ".join((cuerpo or "").split()).strip()
+        texto = (f"{_TITULAR_PLACA_PROMPT.replace('{MAX}', str(max_chars))}\n\nVOLANTA: {(volanta or '').strip()}"
+                 f"\nTITULAR LARGO: {(titular or '').strip()}\n\nNOTA:\n{base[:9000]}")
+        datos = _post_json([{"text": texto}], key, model, _TITULAR_PLACA_SCHEMA,
+                           key_pool=key_pool or _gemini_keys(key), razonamiento="low")
+        return " ".join(str((datos or {}).get("titular") or "").split()).strip().rstrip(".")
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"No pude acortar el titular de la placa ({e}); va el respaldo.")
+        return ""

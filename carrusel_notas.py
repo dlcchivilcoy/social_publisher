@@ -420,6 +420,32 @@ def _resumen_caption(texto: str, max_chars: int = 280, tope: int = 700) -> str:
     return salida
 
 
+TITULAR_PLACA_MAX = 110          # caracteres que entran enteros en la placa (con el cuerpo mínimo de la letra)
+
+
+def _titular_placa(volanta: str, titular: str, cuerpo, escribir=None) -> str:
+    """El titular para las PLACAS (23/11/2026, el editor: «lo mismo para el titular que queda en placa, fijate que el
+    del sacerdote quedó cortado»): si entra (hasta TITULAR_PLACA_MAX caracteres) va tal cual; si no, Gemini escribe
+    uno corto y completo; si la IA falla, la primera oración (o hasta la última pausa) sin cortar palabras."""
+    t = " ".join((titular or "").split()).strip()
+    if len(t) <= TITULAR_PLACA_MAX:
+        return t
+    texto = "\n\n".join(cuerpo) if isinstance(cuerpo, (list, tuple)) else (cuerpo or "")
+    if _resumen_ia_activo():
+        try:
+            if escribir is None:
+                from utils import gemini
+                escribir = gemini.titular_placa
+            corto = " ".join((escribir(volanta, t, texto or t, max_chars=TITULAR_PLACA_MAX - 10) or "").split())
+            corto = corto.strip().rstrip(".")
+            if 25 <= len(corto) <= TITULAR_PLACA_MAX and not corto.endswith(("…", "...")):
+                logger.info(f"[placa] titular largo ({len(t)}) → «{corto}»")
+                return corto
+        except Exception as e:  # noqa: BLE001 — el titular nunca frena la publicación
+            logger.warning(f"[placa] no pude acortar el titular ({e}); va el respaldo")
+    return _resumen_caption(t, TITULAR_PLACA_MAX, tope=TITULAR_PLACA_MAX).rstrip(".")
+
+
 def _resumen_ok(resumen: str, max_chars: int) -> bool:
     """¿El resumen de la IA sirve? Que no esté vacío, que no sea larguísimo y que termine una oración."""
     r = (resumen or "").strip()
@@ -912,10 +938,11 @@ def run_notes_carousel(posts_folder: Path, allowed_pages: set[int], dry_run: boo
         if not titular:
             titular = note.get("titular") or note["title"]
         primer = cuerpo[0] if cuerpo else ""
-        datos.append((note, volanta, titular, cuerpo, primer))
+        placa = _titular_placa(volanta, titular, cuerpo)    # el de la placa: entero, nunca cortado (23/11)
+        datos.append((note, volanta, placa, cuerpo, primer))
         if i <= total_carrusel:
             try:
-                slide = compose_carrusel_slide(note["image"], volanta, titular, primer, site_url=site,
+                slide = compose_carrusel_slide(note["image"], volanta, placa, primer, site_url=site,
                                                idx=i, total=total_carrusel, tema="claro",
                                                estilo=estilos[i - 1])
                 slides.append(slide)
