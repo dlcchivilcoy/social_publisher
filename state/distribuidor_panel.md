@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/11/2026 06:00 (hora AR) · ACTIVO
+Actualizado: 23/11/2026 06:05 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 23/11/2026 06:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 6 | 8 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,34 +27,42 @@ Actualizado: 23/11/2026 06:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (8 esperando)
+- X · Notas web · Chivilcoy: Camino a la definición: se palpita la gran final de la Copa del Club  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Horacio y Belén Heiland cerraron la temporada con la victoria en el G — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Torneo Clausura (AJB): Argentino venció a Sportivo Rojas como visitan — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Liga Nacional: Joaquín Valinotti, tras el desahogo de Racing: “Ganamo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Liga Mercedina (Torneo Clausura 2026): Ciclón de Chivilcoy gritó campeón invicto — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Torneo Clausura de Primera División: Gimnasia se quedó con el "1" de  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Recordando al sacerdote José Lindor Zaccardi — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Concientización acerca del Día Internacional de los Derechos de la Ni — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-22T13:20 enviado bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|tiktok 
-- 2026-11-22T16:00 recibido web:2b45ee99-77fa-4008-8536-ab636885bf9e|x 
-- 2026-11-22T16:00 depurado web:2b45ee99-77fa-4008-8536-ab636885bf9e|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-22T20:20 recibido web:8137827c-f8be-4605-b572-6f65a9b4bfb3|x 
-- 2026-11-22T20:20 depurado web:8137827c-f8be-4605-b572-6f65a9b4bfb3|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-22T21:40 recibido bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|x 
-- 2026-11-22T21:40 recibido bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok 
-- 2026-11-22T21:40 recibido web:0631a52f-24c6-4511-a712-b95f4a815afb|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-11-22T21:40 programado bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|x 
-- 2026-11-22T22:00 enviado bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|x 
-- 2026-11-23T00:00 programado bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok 
-- 2026-11-23T00:20 enviado bot:video_matias-zucchi_mwscbcaibvm2_01.mp4|tiktok 
-- 2026-11-23T02:20 recibido policiales:https://www.chacabuquero.com.ar/2026/11/choque-en 
-- 2026-11-23T02:20 recibido policiales:https://boscoproducciones.com.ar/dos-personas-mur 
-- 2026-11-23T02:20 programado policiales:https://boscoproducciones.com.ar/dos-personas-mur 
-- 2026-11-23T02:40 recibido policiales:https://www.bragadoinforma.com.ar/nota/31215/fin- 
-- 2026-11-23T02:40 enviado policiales:https://boscoproducciones.com.ar/dos-personas-mur 
-- 2026-11-23T09:00 recibido policiales:https://www.latrochadigital.com.ar/2026/11/22/ins 
-- 2026-11-23T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/dano-ince 
-- 2026-11-23T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/noche2111 
 - 2026-11-23T09:00 vencido policiales:https://www.bragadoinforma.com.ar/nota/31215/fin- espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-23T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/choque-en espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-23T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/22/ins no hubo lugar antes de su vencimiento
 - 2026-11-23T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/dano-ince no hubo lugar antes de su vencimiento
 - 2026-11-23T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/noche2111 no hubo lugar antes de su vencimiento
+- 2026-11-23T09:03 recibido web:d29b119d-8f9b-47c4-8582-f320c151dbba|x 
+- 2026-11-23T09:03 recibido web:ba8e819e-fc43-4315-8b96-fd90deb06634|x 
+- 2026-11-23T09:03 recibido web:088d70a9-6599-4e6c-a6ca-3fdc90c8d32f|x 
+- 2026-11-23T09:04 recibido web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x 
+- 2026-11-23T09:04 recibido web:4d89ade0-7563-4650-985d-371fb8d64317|x 
+- 2026-11-23T09:04 recibido web:7b4c678e-eea3-4a99-bc8c-725c6dd831f6|x 
+- 2026-11-23T09:04 recibido web:1f8a4af4-b2db-4be5-b0a6-a5c9b1109b84|x 
+- 2026-11-23T09:04 recibido web:e4274fd1-053f-4ac0-8b14-aefcffccd755|x 
+- 2026-11-23T09:04 recibido web:33a866e0-a7fe-4701-ac8b-885a55855c7e|x 
+- 2026-11-23T09:04 recibido web:3f8887ff-4fa1-4011-9138-62d2d037d36b|x 
+- 2026-11-23T09:05 recibido web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba|x 
+- 2026-11-23T09:05 recibido web:0905cc0b-2dcc-44a0-a8b2-c7b651813a28|x 
+- 2026-11-23T09:05 recibido web:0a15fc2c-0108-44f3-b021-e0f9df166285|x 
+- 2026-11-23T09:05 recibido web:228b6d6b-86cb-4392-a8ca-6599d475ecc3|x 
+- 2026-11-23T09:05 programado web:228b6d6b-86cb-4392-a8ca-6599d475ecc3|x 
+- 2026-11-23T09:05 programado web:0a15fc2c-0108-44f3-b021-e0f9df166285|x 
+- 2026-11-23T09:05 programado web:0905cc0b-2dcc-44a0-a8b2-c7b651813a28|x 
+- 2026-11-23T09:05 programado web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba|x 
+- 2026-11-23T09:05 programado web:3f8887ff-4fa1-4011-9138-62d2d037d36b|x 
+- 2026-11-23T09:05 programado web:33a866e0-a7fe-4701-ac8b-885a55855c7e|x 
