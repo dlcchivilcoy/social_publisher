@@ -4394,6 +4394,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/frente-grande-chivilcoy-chivilcoy-el-observatorio-de-los-derechos-de",
    "volanta": "Frente Grande Chivilcoy"
   },
+  "web:95a435dd-1b55-4e07-8169-5d47a9388837": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Joha Dixon presentó su primera novela en la FLICH CHIVILCOY.– «MystigressJane: Los secretos entre las sombras» te cautivará con su trama llena de giros inesperados. Escrita por Joha Dixon cuando tenía 11 años y publicada a sus 15, esta novela es una prueba de que la imaginación no tiene límites. La joven autora ocupó uno de los stands en la FLICH realizada el pasado domingo en las instalaciones del Club Racing, ocasión en la que estuvo presentando su primer libro, que formará parte...",
+   "generado": "2026-11-24T23:39:52.999Z",
+   "id": "web:95a435dd-1b55-4e07-8169-5d47a9388837",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_4a1a6aa29d894afbb0ae3752c6e1175b~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Joha Dixon presentó su primera novela en la FLICH",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en",
+   "volanta": "Chivilcoy · Cultura"
+  },
   "web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba": {
    "categoria": "",
    "descripcion": "Más de 35 agrupaciones celebraron la 69ª edición del Desfile de la Tradición en Chivilcoy CHIVILCOY.– En el marco de la XXX Fiesta del Resero y 69° de la Tradición organizada por el Centro Tradicionalista ‘El Fogón’, vecinos, autoridades y delegaciones recorrieron las calles de la ciudad antes de compartir el almuerzo criollo y las destrezas en el predio. Este domingo 22 de noviembre, Chivilcoy volvió a vestir sus calles de patria y costumbre con la realización de la 69.ª edición del Desfile...",
@@ -13908,6 +13927,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:95a435dd-1b55-4e07-8169-5d47a9388837|x": {
+   "actualizado": "2026-11-24T23:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:95a435dd-1b55-4e07-8169-5d47a9388837|x",
+   "creado": "2026-11-24T23:40:13.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-24T23:39:52.999Z",
+   "id": "web:95a435dd-1b55-4e07-8169-5d47a9388837",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en",
+   "noticia": "nota:chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Joha Dixon presentó su primera novela en la FLICH\n\nLa joven autora Joha Dixon presentó su primer libro en las instalaciones del Club Racing. La obra fue escrita cuando tenía 11 años y publicada a sus 15.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Joha Dixon presentó su primera novela en la FLICH",
+   "urgente": false,
+   "vence": "2026-11-25T03:39:52.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba|x": {
    "actualizado": "2026-11-23T10:40:13.000Z",
    "buffer_id": "6b0401cc9c207fed958ba688",
@@ -15863,22 +15909,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok",
-   "cuando": "2026-11-17T18:40:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:5abbdc69-8f44-400c-8e8e-315798eae48e|x",
-   "cuando": "2026-11-17T18:40:28.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
   {
    "buffer_id": "6afc9f9cd4c8ef4106f6b8e1",
    "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|x",
@@ -20015,6 +20045,20 @@
    "cuando": "2026-11-24T22:40:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7711856994105281810"
+  },
+  {
+   "clave": "web:95a435dd-1b55-4e07-8169-5d47a9388837|x",
+   "cuando": "2026-11-24T23:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:95a435dd-1b55-4e07-8169-5d47a9388837|x",
+   "cuando": "2026-11-24T23:40:15.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -20392,7 +20436,6 @@
   "policiales:https://www.lamanana.com.ar/secuestraron-seis-vehiculos-y-detectaron-un-caso-de-alcoholemia-en-operativos-de-transito/": "2026-11-13T22:20:13.000Z",
   "policiales:https://www.lamanana.com.ar/unos-35-efectivos-policiales-fueron-parte-del-operativo-de-seguridad-en-lujan/": "2026-11-11T22:40:16.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/25/chivilcoy-le-robaron-la-moto-frente-a-su-casa-y-la-exhibieron-en-redes-sociales/": "2026-10-26T09:00:18.000Z",
-  "policiales:https://www.latrochadigital.com.ar/2026/10/25/rally-de-chivilcoy-un-violento-vuelco-pudo-terminar-en-tragedia/": "2026-10-25T23:40:15.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/26/bragado-robos-persecucion-y-detencion-de-una-banda/": "2026-10-27T00:20:13.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/28/choque-entre-una-camioneta-y-una-moto-en-avenida-garmendia-dos-jovenes-hospitalizadas/": "2026-10-28T22:40:14.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/10/30/bragado-un-detenido-por-droga-intento-arrebatar-el-arma-a-un-policia/": "2026-10-30T23:40:18.000Z",
@@ -20711,6 +20754,7 @@
   "web:93908f78-67cb-4a45-a902-712d32f96cb3": "2026-11-05T10:02:30.000Z",
   "web:9460231f-30bd-422d-89e0-f6db3cfd0675": "2026-10-28T14:40:14.000Z",
   "web:94a1ed2f-6e3d-4321-8824-5f14bd63f880": "2026-11-02T10:03:22.000Z",
+  "web:95a435dd-1b55-4e07-8169-5d47a9388837": "2026-11-24T23:40:13.000Z",
   "web:969326c4-49d1-4610-b2d3-40abe436dfc7": "2026-11-05T10:02:30.000Z",
   "web:96d8a1d2-9950-4aad-8e5a-ac9eec980838": "2026-11-05T10:02:30.000Z",
   "web:97069d4b-6dd1-45f5-83f8-f19d0e9df3ba": "2026-11-23T09:03:47.000Z",
