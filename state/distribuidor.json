@@ -3463,6 +3463,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-femenino-liga-mercedina-torneo-clausura-2026-ciclon-de",
    "volanta": "Fútbol Femenino"
   },
+  "web:4d9a51a7-7f3a-4bbe-b7ec-c36d06e56f5c": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Trasladan a un menor aprehendido por robos a comercios En el marco de la investigación por los episodios delictivos registrados en locales comerciales de Chivilcoy, la Justicia dispuso este martes 24 de noviembre el traslado del joven aprehendido hacia el Centro de Recepción Malvinas Argentinas, ubicado en la localidad de Pablo Nogués, donde cumplirá una medida privativa de la libertad. La resolución fue adoptada por disposición del Dr. Luis Marcelo Giacoia, titular del Juzgado de...",
+   "generado": "2026-11-24T20:52:30.814Z",
+   "id": "web:4d9a51a7-7f3a-4bbe-b7ec-c36d06e56f5c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0bb76ca104984bf4a74e7c5661d0de3a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-trasladan-a-un-menor-aprehendido-por",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Trasladan a un menor aprehendido por robos a comercios",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-trasladan-a-un-menor-aprehendido-por",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:4e6e2626-d326-4a75-93b5-756fb6f07584": {
    "categoria": "",
    "descripcion": "Mariano Calandrino analizó el Rally de Chivilcoy y anticipó la definición en Ameghino El dirigente del Auto Club Chivilcoy y referente del Campeonato Rally Regional, Mariano Calandrino, visitó los estudios de Radio del Centro para efectuar un balance pormenorizado de lo acontecido en la reciente competencia disputada en los caminos rurales del distrito. En su rol de director de la prueba, analizó las complejidades que presentó el factor meteorológico, detalló los estrictos criterios de...",
@@ -8493,15 +8512,15 @@
    "viral": false
   },
   "entrevistas:job00342|tiktok": {
-   "actualizado": "2026-11-24T17:00:25.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-24T21:00:21.000Z",
+   "buffer_id": "6b05fae7bbd94e83696d8f76",
    "categoria": "",
    "clave": "entrevistas:job00342|tiktok",
    "creado": "2026-11-24T17:00:25.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-24T21:03:46.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-24T17:00:25.000Z",
    "id": "entrevistas:job00342",
    "intentos": 0,
@@ -8550,15 +8569,15 @@
    "viral": false
   },
   "entrevistas:job00343|tiktok": {
-   "actualizado": "2026-11-24T17:40:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-24T21:00:21.000Z",
+   "buffer_id": "6b05faece57cd4af41f3c314",
    "categoria": "",
    "clave": "entrevistas:job00343|tiktok",
    "creado": "2026-11-24T17:40:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-24T22:23:08.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-24T17:40:18.000Z",
    "id": "entrevistas:job00343",
    "intentos": 0,
@@ -8607,15 +8626,15 @@
    "viral": false
   },
   "entrevistas:job00344|tiktok": {
-   "actualizado": "2026-11-24T18:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-24T21:00:21.000Z",
+   "buffer_id": "6b05faead3db96136614c61f",
    "categoria": "",
    "clave": "entrevistas:job00344|tiktok",
    "creado": "2026-11-24T18:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-24T22:03:35.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-24T18:20:14.000Z",
    "id": "entrevistas:job00344",
    "intentos": 0,
@@ -8664,15 +8683,15 @@
    "viral": false
   },
   "entrevistas:job00345|tiktok": {
-   "actualizado": "2026-11-24T19:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-24T21:00:21.000Z",
+   "buffer_id": "6b05fae9e57cd4af41f3be87",
    "categoria": "",
    "clave": "entrevistas:job00345|tiktok",
    "creado": "2026-11-24T19:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-24T21:43:49.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-24T19:00:18.000Z",
    "id": "entrevistas:job00345",
    "intentos": 0,
@@ -8721,15 +8740,15 @@
    "viral": false
   },
   "entrevistas:job00346|tiktok": {
-   "actualizado": "2026-11-24T19:40:27.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-24T21:00:21.000Z",
+   "buffer_id": "6b05fae8bbd94e83696d9340",
    "categoria": "",
    "clave": "entrevistas:job00346|tiktok",
    "creado": "2026-11-24T19:40:27.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-24T21:23:20.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-24T19:40:27.000Z",
    "id": "entrevistas:job00346",
    "intentos": 0,
@@ -12284,6 +12303,33 @@
    "titulo": "Liga Mercedina (Torneo Clausura 2026): Ciclón de Chivilcoy gritó campeón invicto en Sub 17 y El Frontón celebró en Sub 13",
    "urgente": false,
    "vence": "2026-11-23T13:02:03.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:4d9a51a7-7f3a-4bbe-b7ec-c36d06e56f5c|x": {
+   "actualizado": "2026-11-24T21:00:21.000Z",
+   "buffer_id": "",
+   "clave": "web:4d9a51a7-7f3a-4bbe-b7ec-c36d06e56f5c|x",
+   "creado": "2026-11-24T21:00:18.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-24T20:52:30.814Z",
+   "id": "web:4d9a51a7-7f3a-4bbe-b7ec-c36d06e56f5c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-trasladan-a-un-menor-aprehendido-por",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-trasladan-a-un-menor-aprehendido-por",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Trasladan a un menor aprehendido por robos a comercios\n\nLa Justicia dispuso el traslado del joven aprehendido hacia el Centro de Recepción Malvinas Argentinas. Allí cumplirá una medida privativa de la libertad por resolución de un juez.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-trasladan-a-un-menor-aprehendido-por",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Trasladan a un menor aprehendido por robos a comercios",
+   "urgente": false,
+   "vence": "2026-11-25T00:52:30.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -15858,51 +15904,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97|x",
-   "cuando": "2026-11-17T18:00:35.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97|x",
-   "cuando": "2026-11-17T18:00:35.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "entrevistas:job00321|x",
-   "cuando": "2026-11-17T18:00:36.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122747316645789776"
-  },
-  {
-   "buffer_id": "6afc9645d4c8ef4106f2b127",
-   "clave": "entrevistas:job00322|x",
-   "cuando": "2026-11-17T18:00:37.000Z",
-   "dueAt": "2026-11-17T18:02:33.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00322-r1",
-   "cuando": "2026-11-17T18:20:13.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00323",
-   "cuando": "2026-11-17T18:20:13.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00322-r1|x",
-   "cuando": "2026-11-17T18:20:13.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Recortes de entrevistas, programado)",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00322-r1|tiktok",
    "cuando": "2026-11-17T18:20:13.000Z",
@@ -20015,11 +20016,59 @@
    "cuando": "2026-11-24T20:40:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2125314158975398258"
+  },
+  {
+   "clave": "web:4d9a51a7-7f3a-4bbe-b7ec-c36d06e56f5c|x",
+   "cuando": "2026-11-24T21:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:4d9a51a7-7f3a-4bbe-b7ec-c36d06e56f5c|x",
+   "cuando": "2026-11-24T21:00:21.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "buffer_id": "6b05fae7bbd94e83696d8f76",
+   "clave": "entrevistas:job00342|tiktok",
+   "cuando": "2026-11-24T21:00:28.000Z",
+   "dueAt": "2026-11-24T21:03:46.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b05fae8bbd94e83696d9340",
+   "clave": "entrevistas:job00346|tiktok",
+   "cuando": "2026-11-24T21:00:28.000Z",
+   "dueAt": "2026-11-24T21:23:20.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b05fae9e57cd4af41f3be87",
+   "clave": "entrevistas:job00345|tiktok",
+   "cuando": "2026-11-24T21:00:28.000Z",
+   "dueAt": "2026-11-24T21:43:49.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b05faead3db96136614c61f",
+   "clave": "entrevistas:job00344|tiktok",
+   "cuando": "2026-11-24T21:00:28.000Z",
+   "dueAt": "2026-11-24T22:03:35.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b05faece57cd4af41f3c314",
+   "clave": "entrevistas:job00343|tiktok",
+   "cuando": "2026-11-24T21:00:28.000Z",
+   "dueAt": "2026-11-24T22:23:08.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-14 18",
    "2026-11-14 21",
    "2026-11-15 10",
    "2026-11-15 18",
@@ -20048,7 +20097,8 @@
    "2026-11-23 10",
    "2026-11-23 18",
    "2026-11-23 21",
-   "2026-11-24 10"
+   "2026-11-24 10",
+   "2026-11-24 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-24",
@@ -20107,7 +20157,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:corresponsal_2026-11-21_matias-zucchi_mwqc3v64udx0": "2026-11-21T12:00:17.000Z",
-  "bot:video_matias-zucchi_mvoamgi4bxzf_01.mp4": "2026-10-25T21:00:16.000Z",
   "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4": "2026-10-26T00:40:15.000Z",
   "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4": "2026-10-26T02:00:18.000Z",
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4": "2026-10-26T15:20:14.000Z",
@@ -20537,7 +20586,6 @@
   "web:3d6dd4d6-874c-4845-9393-b40b2650e570": "2026-11-21T00:20:13.000Z",
   "web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c": "2026-11-18T23:20:24.000Z",
   "web:3db074fa-b73d-41dc-9567-5ce1c3d65907": "2026-11-04T02:00:20.000Z",
-  "web:3e3abc09-6c21-4ab2-88f6-118e63835441": "2026-10-25T21:00:16.000Z",
   "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a": "2026-11-24T12:20:17.000Z",
   "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c": "2026-11-15T01:20:17.000Z",
   "web:3f8887ff-4fa1-4011-9138-62d2d037d36b": "2026-11-23T09:03:47.000Z",
@@ -20569,6 +20617,7 @@
   "web:4bec2eeb-a652-4343-a2bb-2b08277fdbe3": "2026-11-12T00:20:13.000Z",
   "web:4d5d9406-be42-46a8-b22f-c157c62f6e29": "2026-11-14T12:20:12.000Z",
   "web:4d89ade0-7563-4650-985d-371fb8d64317": "2026-11-23T09:03:47.000Z",
+  "web:4d9a51a7-7f3a-4bbe-b7ec-c36d06e56f5c": "2026-11-24T21:00:18.000Z",
   "web:4e6e2626-d326-4a75-93b5-756fb6f07584": "2026-11-20T09:03:47.000Z",
   "web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90": "2026-11-18T10:02:51.000Z",
   "web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5": "2026-11-06T15:20:14.000Z",
