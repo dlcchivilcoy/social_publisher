@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00343",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-11-24T17:37:31.000Z",
+ "titulo": "Marcelo Speranza: ¿El verano será más frío o extremo?",
+ "descripcion": "El meteorólogo Marcelo Speranza analizó el clima en Chivilcoy y desmintió los pronósticos que anuncian un verano frío. Explicó cómo afectará El Niño y las ventanas de calor intenso.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00343.mp4",
+ "duracion_seg": null,
+ "espera_youtube_publico": {
+  "short": "qtjTtq1Vv0E",
+  "largo": "LNMMnbtkmfY"
+ },
+ "youtube_url": "https://youtube.com/shorts/qtjTtq1Vv0E",
+ "prioridad": 7,
+ "entrevistado": "Marcelo Speranza",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
