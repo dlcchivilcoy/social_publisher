@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -13,7 +13,7 @@ Actualizado: 24/11/2026 14:40 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 17 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 16 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -27,17 +27,14 @@ Actualizado: 24/11/2026 14:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (2 esperando)
 - TikTok · Recortes de entrevistas · Marcelo Speranza: ¿El verano será más frío o extremo? — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Martin Etcheverria: allanamiento y compactación de motos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Recortes de entrevistas · Martin Etcheverria: allanamiento y compactación de motos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-24T10:40 enviado web:1f15c022-45f1-4b4d-9705-ccfc81248ef4|x 
-- 2026-11-24T10:40 enviado web:418d89ff-d0d5-4393-a00a-aa5a186423df|x 
 - 2026-11-24T10:40 enviado web:5787b273-eb59-4cd3-b83e-1e5be0b2b53f|x 
 - 2026-11-24T10:40 enviado web:7a946b68-69fc-44b2-9078-8a533f5cbacf|x 
 - 2026-11-24T10:40 programado web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x 
@@ -61,3 +58,5 @@ Actualizado: 24/11/2026 14:40 (hora AR) · ACTIVO
 - 2026-11-24T17:40 recibido entrevistas:job00343|x 
 - 2026-11-24T17:40 recibido entrevistas:job00343|tiktok 
 - 2026-11-24T17:40 programado entrevistas:job00343|x 
+- 2026-11-24T18:00 enviado entrevistas:job00343|x 
+- 2026-11-24T18:00 programado entrevistas:job00342|x 
