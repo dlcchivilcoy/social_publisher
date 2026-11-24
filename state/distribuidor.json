@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-24T10:40:15.000Z"
+   "visto": "2026-11-24T11:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 1,
-    "sent": 19
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-24T10:40:15.000Z"
+   "visto": "2026-11-24T11:40:16.000Z"
   }
  },
  "contenidos": {
@@ -12527,19 +12527,20 @@
    "viral": false
   },
   "web:64604e9f-8703-4ec5-996d-0046ce6f4991|x": {
-   "actualizado": "2026-11-24T10:00:23.000Z",
+   "actualizado": "2026-11-24T11:40:16.000Z",
    "buffer_id": "6b056038e860c84f09c7c1bb",
    "clave": "web:64604e9f-8703-4ec5-996d-0046ce6f4991|x",
    "creado": "2026-11-24T09:20:14.000Z",
    "dueAt": "2026-11-24T11:23:01.000Z",
+   "enviado": "2026-11-24T11:23:16.036Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T09:03:36.065Z",
    "id": "web:64604e9f-8703-4ec5-996d-0046ce6f4991",
    "ig_hora": "2026-11-24T11:23:13.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125188494410588393",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-el-torneo-clausura-cerro-su-fase-regular-con-goleada",
    "noticia": "nota:futbol-chivilcoy-el-torneo-clausura-cerro-su-fase-regular-con-goleada",
    "origen": "web",
@@ -15350,12 +15351,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x",
-   "cuando": "2026-11-17T13:00:20.000Z",
-   "evento": "depurado",
-   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
-  },
   {
    "clave": "web:1cd196f2-3537-4e49-be39-a657b9945fa4|x",
    "cuando": "2026-11-17T13:00:21.000Z",
@@ -19508,6 +19503,12 @@
    "cuando": "2026-11-24T11:20:15.000Z",
    "dueAt": "2026-11-24T12:38:12.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:64604e9f-8703-4ec5-996d-0046ce6f4991|x",
+   "cuando": "2026-11-24T11:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125188494410588393"
   }
  ],
  "tandas": {
@@ -19545,7 +19546,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-24",
- "ultima_sync": "2026-11-24T10:40:15.000Z",
+ "ultima_sync": "2026-11-24T11:40:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
