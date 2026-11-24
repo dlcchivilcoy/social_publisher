@@ -66,7 +66,7 @@ function revisarNotasWeb() {
   var base = DriveApp.getFolderById(folderId);
   var vistos = _vistos('PROCESSED_NOTAS_WEB');
   var ahora = new Date().getTime();
-  var hayNuevo = false;
+  var nuevos = [];
 
   var subs = base.getFolders();
   while (subs.hasNext()) {
@@ -77,10 +77,12 @@ function revisarNotasWeb() {
     if (!_tieneWordYFoto(sub)) continue;
     if (ahora - _archivoMasNuevo(sub) < NOTAS_WEB_SETTLE_MS) continue;
 
-    _marcarVisto('PROCESSED_NOTAS_WEB', sub.getId());
-    hayNuevo = true;
+    nuevos.push(sub.getId());
     Logger.log('Nota web nueva lista: ' + nombre);
   }
 
-  if (hayNuevo) _dispatch('--notas-web');
+  // 24/11/2026: se marcan como vistas solo si GitHub aceptó el pedido (si la clave venció, se reintenta).
+  if (nuevos.length && _dispatch('--notas-web')) {
+    for (var i = 0; i < nuevos.length; i++) _marcarVisto('PROCESSED_NOTAS_WEB', nuevos[i]);
+  }
 }

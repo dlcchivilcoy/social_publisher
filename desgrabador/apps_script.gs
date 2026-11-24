@@ -42,7 +42,30 @@ function _dispatch(args) {
     payload: JSON.stringify({ ref: 'main', inputs: { args: args } }),
     muteHttpExceptions: true
   });
-  Logger.log('dispatch(' + args + ') → ' + res.getResponseCode());
+  var code = res.getResponseCode();
+  Logger.log('dispatch(' + args + ') → ' + code);
+  // 24/11/2026: el GITHUB_PAT venció y GitHub contestó 401; el video igual quedaba marcado como visto y se
+  // perdió sin aviso. Ahora, si GitHub no lo acepta, NO se marca (se reintenta al minuto siguiente) y se manda
+  // un mail (uno por hora como mucho) diciendo qué pasó.
+  if (code >= 200 && code < 300) return true;
+  _avisarFallo(args, code, res.getContentText());
+  return false;
+}
+
+function _avisarFallo(args, code, cuerpo) {
+  var props = PropertiesService.getScriptProperties();
+  var ahora = new Date().getTime();
+  var ultimo = Number(props.getProperty('ALERTA_DISPATCH_ULT') || 0);
+  if (ahora - ultimo < 3600000) return;
+  props.setProperty('ALERTA_DISPATCH_ULT', String(ahora));
+  var motivo = code === 401 ? 'la clave GITHUB_PAT venció o no sirve: hay que generar una nueva en GitHub y ' +
+    'pegarla en Configuración del proyecto → Propiedades de la secuencia de comandos → GITHUB_PAT'
+    : 'GitHub contestó ' + code;
+  MailApp.sendEmail(Session.getEffectiveUser().getEmail(),
+    'El desgrabador no pudo arrancar (GitHub ' + code + ')',
+    'Lo que llegó al Drive no se pudo mandar a procesar: ' + motivo + '.\n\n' +
+    'No se pierde: se reintenta cada minuto hasta que funcione.\n\nPedido: ' + args + '\n\nRespuesta: ' +
+    String(cuerpo || '').slice(0, 300));
 }
 
 function _vistos(key) {
@@ -95,8 +118,7 @@ function _procesarCarpeta(folderId, vistosKey, hacerArgs, excludeId) {
     if (ahora - f.getLastUpdated().getTime() < 30000) continue;
     var email = '';
     try { email = f.getOwner() ? f.getOwner().getEmail() : ''; } catch (e) {}
-    _dispatch(hacerArgs(f.getName(), email));
-    _marcarVisto(vistosKey, f.getId());
+    if (_dispatch(hacerArgs(f.getName(), email))) _marcarVisto(vistosKey, f.getId());
   }
 }
 
@@ -130,8 +152,7 @@ function _procesarPlacas(folderId, vistosKey, excludeId, hacerArgs) {
     var ultimo = 0, fl = sf.getFiles();
     while (fl.hasNext()) { var t = fl.next().getLastUpdated().getTime(); if (t > ultimo) ultimo = t; }
     if (ahora - ultimo < 60000) continue;
-    _dispatch(hacerArgs(sf.getName()));
-    _marcarVisto(vistosKey, sf.getId());
+    if (_dispatch(hacerArgs(sf.getName()))) _marcarVisto(vistosKey, sf.getId());
   }
 }
 
