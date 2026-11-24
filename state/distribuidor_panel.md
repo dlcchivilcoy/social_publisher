@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/11/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-11-23)
+## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
-| Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 5 |
+| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,22 +27,12 @@ Actualizado: 23/11/2026 23:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
-- X · Reels policiales · Apuñalaron a un joven de 24 años en calle Belgrano y detuvieron a la expareja de — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Detuvieron a tres personas por estafas bancarias en 9 de Julio y Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-23T19:20 recibido entrevistas:job00341|tiktok 
-- 2026-11-23T19:20 programado entrevistas:job00341|x 
-- 2026-11-23T20:00 enviado entrevistas:job00340|x 
-- 2026-11-23T20:00 enviado entrevistas:job00341|x 
-- 2026-11-23T21:00 programado bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|tiktok 
-- 2026-11-23T21:00 programado entrevistas:job00341|tiktok 
-- 2026-11-23T21:00 programado entrevistas:job00340|tiktok 
-- 2026-11-23T21:00 programado entrevistas:job00339|tiktok 
 - 2026-11-23T21:00 programado entrevistas:job00337|tiktok 
 - 2026-11-23T21:00 programado entrevistas:job00338|tiktok 
 - 2026-11-23T21:20 enviado bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4|tiktok 
@@ -60,3 +50,11 @@ Actualizado: 23/11/2026 23:40 (hora AR) · ACTIVO
 - 2026-11-24T02:20 programado policiales:https://www.diariodemocracia.com/policiales/34845 
 - 2026-11-24T02:40 recibido policiales:https://bragadoesnoticia.com.ar/desarticulan-una- 
 - 2026-11-24T02:40 enviado policiales:https://www.diariodemocracia.com/policiales/34845 
+- 2026-11-24T09:00 recibido policiales:https://www.diariodemocracia.com/policiales/34840 
+- 2026-11-24T09:00 recibido policiales:https://junin24.com/locales/tratan-de-recuperar-u 
+- 2026-11-24T09:00 recibido policiales:https://www.latrochadigital.com.ar/2026/11/23/inc 
+- 2026-11-24T09:00 vencido policiales:https://bragadoesnoticia.com.ar/desarticulan-una- espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-24T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34845 espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-24T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34840 no hubo lugar antes de su vencimiento
+- 2026-11-24T09:00 vencido policiales:https://junin24.com/locales/tratan-de-recuperar-u no hubo lugar antes de su vencimiento
+- 2026-11-24T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/23/inc no hubo lugar antes de su vencimiento

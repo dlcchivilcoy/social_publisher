@@ -1138,6 +1138,32 @@
    "volanta": "Robos en Junín",
    "youtube_url": "https://youtube.com/shorts/idjigmY9EfM"
   },
+  "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada": {
+   "categoria": "robo",
+   "descripcion": "Sustrajeron una bicicleta marca SLP rodado 29 de un edificio situado en la calle Lavalle al 100. El ilícito quedó filmado por una cámara de seguridad privada y ya fue presentada la denuncia formal.",
+   "distancia_km": 91.2,
+   "duracion_seg": 43.3,
+   "generado": "2026-11-24T03:02:05.000Z",
+   "id": "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/robaron-una-bicicleta-slp-de-un-edificio-en-la-calle-lavalle-en-218a7a",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 5,
+   "radio_ok": true,
+   "texto_tiktok": "Un delincuente concretó el robo de una bicicleta en un edificio situado sobre la calle Lavalle al 100.\n\nEl rodado sustraído es marca SLP, tamaño 29, de color negro con inscripciones blancas.\n\nLa secuencia completa quedó grabada por un dispositivo de seguridad privado y la respectiva denuncia ya fue radicada.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Robaron una bicicleta SLP de un edificio en la calle Lavalle",
+   "urgente": false,
+   "video_bytes": 720768,
+   "video_mb": 0.7,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_07_junin_robaron-una-bicicleta-slp-de-u.mp4",
+   "volanta": "Robo en Junín",
+   "youtube_url": "https://youtube.com/shorts/biad4FWkNMI"
+  },
   "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas": {
    "categoria": "accidente_vial",
    "descripcion": "Jesús Almeyra, de 22 años, perdió la vida este martes luego de colisionar la moto Yamaha 150 cc que manejaba contra otro vehículo en la ciudad de Chivilcoy.",
@@ -1944,6 +1970,32 @@
    "volanta": "Robo en Junín",
    "youtube_url": "https://youtube.com/shorts/D88uCjxMrB4"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna": {
+   "categoria": "otro_policial",
+   "descripcion": "Pablo 'El Ruso' Taulamet, de 47 años y oriundo de Lincoln, falleció este domingo tras un presunto accidente náutico en Junín. Cayó de una moto de agua y llegó sin vida al hospital.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-24T02:46:34.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-investigan-la-muerte-de-un-hombre-de-47-anos-tras-caer-de-55444c",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Un vecino de Lincoln de 47 años falleció este domingo tras sufrir un trágico accidente náutico en el Parque Natural Laguna de Gómez, en Junín.\n\nLa víctima, identificada como Pablo 'El Ruso' Taulamet, cayó de una moto de agua en el Camino Costero por causas que ahora son materia de investigación judicial.\n\nEl episodio fatal se registró alrededor de las 19:15, según informaron fuentes policiales a este medio.\n\nTras el incidente, el hombre fue trasladado de urgencia en una ambulancia hacia el Hospital Interzonal General de Agudos de Junín, en un operativo que incluyó patrulleros y allegados.\n\nA pesar de los esfuerzos médicos, el paciente ingresó al centro asistencial inconsciente y sin signos vitales.\n\nLas autoridades competentes dispusieron la realización de una autopsia para esclarecer con precisión cómo se desencadenaron los hechos.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Murió un hombre de 47 años tras caer de una moto de agua en Junín",
+   "urgente": false,
+   "video_bytes": 111921,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_06_junin_muri-un-hombre-de-47-a-os-tras.mp4",
+   "volanta": "Tragedia en la Laguna de Gómez",
+   "youtube_url": "https://youtube.com/shorts/5V1DgRrlGFw"
+  },
   "policiales:https://www.diariodemocracia.com/policiales/348453-apunalaron-a-un-joven-en-calle-belgrano-y-aprehend": {
    "categoria": "homicidio",
    "descripcion": "Un joven de 24 años fue atacado a puñaladas este lunes por la mañana en la calle Belgrano al 1200 en Junín por la expareja de su novia. La víctima sufrió una grave lesión en la pierna derecha y debió ser intervenida quirúrgicamente de urgencia en el HIGA.",
@@ -2177,6 +2229,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_08_9-de-julio_robaron-la-moto-del-globo-de-l.mp4",
    "volanta": "Robo en Chivilcoy",
    "youtube_url": "https://youtube.com/shorts/78QET5Y0aQc"
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/23/incendio-de-un-automovil-en-la-ruta-5-a-la-altura-de-9-de-julio/": {
+   "categoria": "otro_policial",
+   "descripcion": "Un automóvil Ford Focus se prendió fuego durante la madrugada de este lunes en la Ruta Nacional 5, a la altura del kilómetro 256, en el distrito de 9 de Julio. Una persona fue trasladada al hospital.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-24T03:18:00.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/23/incendio-de-un-automovil-en-la-ruta-5-a-la-altura-de-9-de-julio/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-un-auto-se-prendio-fuego-en-la-ruta-5-y-una-persona-de6475",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un automóvil Ford Focus se incendió de madrugada en la Ruta Nacional 5, dentro del distrito de 9 de Julio.\n\nEl episodio ocurrió pasada la 1 de la mañana a la altura del kilómetro 256, lo que motivó la intervención de bomberos y policía.\n\nUna persona debió ser trasladada al Hospital Julio de Vedia tras sufrir una crisis nerviosa a causa del dramático momento vivido.\n\nTrabajaron en el lugar dotaciones de bomberos, efectivos de la Policía Comunal y operarios de la empresa concesionaria de la ruta.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Un auto se prendió fuego en la Ruta 5 en el distrito de 9 de Julio",
+   "urgente": false,
+   "video_bytes": 72825,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_09_9-de-julio_un-auto-se-prendi-fuego-en-la-.mp4",
+   "volanta": "Incendio en la Ruta 5",
+   "youtube_url": "https://youtube.com/shorts/vH_ofaebd-s"
   },
   "web:01599053-9367-4272-a3b7-d36e906da218": {
    "categoria": "",
@@ -8067,14 +8145,14 @@
    "viral": true
   },
   "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/|x": {
-   "actualizado": "2026-11-24T02:40:13.000Z",
+   "actualizado": "2026-11-24T09:00:27.000Z",
    "buffer_id": "",
    "clave": "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/|x",
    "creado": "2026-11-24T02:40:13.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-24T02:32:09.000Z",
    "id": "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/",
    "intentos": 0,
@@ -8296,6 +8374,33 @@
    "vence": "2026-11-17T01:01:35.000Z",
    "video_bytes": 2765309,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_05_junin_sufri-dos-robos-en-una-semana-.mp4",
+   "viral": false
+  },
+  "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada|x": {
+   "actualizado": "2026-11-24T09:00:27.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada|x",
+   "creado": "2026-11-24T09:00:22.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-24T03:02:05.000Z",
+   "id": "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/robaron-una-bicicleta-slp-de-un-edificio-en-la-calle-lavalle-en-218a7a",
+   "noticia": "nota:robaron-una-bicicleta-slp-de-un-edificio-en-la-calle-lavalle-en-218a7a",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 5,
+   "texto": "Robaron una bicicleta SLP de un edificio en la calle Lavalle\n\nEl hecho ocurrió en un inmueble ubicado al 100 y quedó registrado por una cámara de seguridad privada. La denuncia formal ya fue presentada ante las autoridades.\n\nhttps://www.diariolacampaña.com.ar/n/robaron-una-bicicleta-slp-de-un-edificio-en-la-calle-lavalle-en-218a7a",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Robaron una bicicleta SLP de un edificio en la calle Lavalle",
+   "urgente": false,
+   "vence": "2026-11-24T05:02:05.000Z",
+   "video_bytes": 720768,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_07_junin_robaron-una-bicicleta-slp-de-u.mp4",
    "viral": false
   },
   "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas|x": {
@@ -9210,15 +9315,42 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-19_0134_04_chacabuco_cay-un-hombre-de-31-a-os-tras-.mp4",
    "viral": false
   },
+  "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna|x": {
+   "actualizado": "2026-11-24T09:00:27.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna|x",
+   "creado": "2026-11-24T09:00:22.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-24T02:46:34.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-investigan-la-muerte-de-un-hombre-de-47-anos-tras-caer-de-55444c",
+   "noticia": "nota:junin-investigan-la-muerte-de-un-hombre-de-47-anos-tras-caer-de-55444c",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Murió un hombre de 47 años tras caer de una moto de agua en Junín\n\nPablo 'El Ruso' Taulamet, de 47 años y oriundo de Lincoln, falleció este domingo tras un presunto accidente náutico en Junín. Cayó de una moto de agua y llegó sin vida al hospital.\n\nhttps://www.diariolacampaña.com.ar/n/junin-investigan-la-muerte-de-un-hombre-de-47-anos-tras-caer-de-55444c",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Murió un hombre de 47 años tras caer de una moto de agua en Junín",
+   "urgente": false,
+   "vence": "2026-11-24T04:46:34.000Z",
+   "video_bytes": 111921,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_06_junin_muri-un-hombre-de-47-a-os-tras.mp4",
+   "viral": false
+  },
   "policiales:https://www.diariodemocracia.com/policiales/348453-apunalaron-a-un-joven-en-calle-belgrano-y-aprehend|x": {
-   "actualizado": "2026-11-24T02:20:22.000Z",
+   "actualizado": "2026-11-24T09:00:27.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/348453-apunalaron-a-un-joven-en-calle-belgrano-y-aprehend|x",
    "creado": "2026-11-24T02:20:22.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-24T02:16:41.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/348453-apunalaron-a-un-joven-en-calle-belgrano-y-aprehend",
    "intentos": 0,
@@ -9457,6 +9589,33 @@
    "vence": "2026-11-23T04:47:09.000Z",
    "video_bytes": 111181,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_08_9-de-julio_robaron-la-moto-del-globo-de-l.mp4",
+   "viral": false
+  },
+  "policiales:https://www.latrochadigital.com.ar/2026/11/23/incendio-de-un-automovil-en-la-ruta-5-a-la-altura-de-9-de-julio/|x": {
+   "actualizado": "2026-11-24T09:00:27.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/23/incendio-de-un-automovil-en-la-ruta-5-a-la-altura-de-9-de-julio/|x",
+   "creado": "2026-11-24T09:00:22.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-24T03:18:00.000Z",
+   "id": "policiales:https://www.latrochadigital.com.ar/2026/11/23/incendio-de-un-automovil-en-la-ruta-5-a-la-altura-de-9-de-julio/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-un-auto-se-prendio-fuego-en-la-ruta-5-y-una-persona-de6475",
+   "noticia": "nota:9-de-julio-un-auto-se-prendio-fuego-en-la-ruta-5-y-una-persona-de6475",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Un auto se prendió fuego en la Ruta 5 en el distrito de 9 de Julio\n\nEl vehículo se incendió durante la madrugada en el kilómetro 256. Una persona debió ser trasladada al hospital.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-un-auto-se-prendio-fuego-en-la-ruta-5-y-una-persona-de6475",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Un auto se prendió fuego en la Ruta 5 en el distrito de 9 de Julio",
+   "urgente": false,
+   "vence": "2026-11-24T05:18:00.000Z",
+   "video_bytes": 72825,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_09_9-de-julio_un-auto-se-prendi-fuego-en-la-.mp4",
    "viral": false
   },
   "web:01599053-9367-4272-a3b7-d36e906da218|x": {
@@ -14518,58 +14677,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/|x",
-   "cuando": "2026-11-17T00:40:21.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "web:4b894c99-4b3e-4cec-9703-086eaee6d5d4|x",
-   "cuando": "2026-11-17T00:40:21.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos|x",
-   "cuando": "2026-11-17T01:20:15.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un|x",
-   "cuando": "2026-11-17T01:40:15.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/|x",
-   "cuando": "2026-11-17T02:20:20.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas|x",
-   "cuando": "2026-11-17T02:40:16.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|x",
-   "cuando": "2026-11-17T09:00:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok",
-   "cuando": "2026-11-17T09:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "web:41ee3e32-bcc0-459d-bd54-85372c380544|x",
    "cuando": "2026-11-17T09:00:28.000Z",
    "estado": "descartado",
@@ -18677,6 +18784,60 @@
    "cuando": "2026-11-24T02:40:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2125052800077815924"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna|x",
+   "cuando": "2026-11-24T09:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada|x",
+   "cuando": "2026-11-24T09:00:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/23/incendio-de-un-automovil-en-la-ruta-5-a-la-altura-de-9-de-julio/|x",
+   "cuando": "2026-11-24T09:00:27.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/|x",
+   "cuando": "2026-11-24T09:00:27.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348453-apunalaron-a-un-joven-en-calle-belgrano-y-aprehend|x",
+   "cuando": "2026-11-24T09:00:27.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna|x",
+   "cuando": "2026-11-24T09:00:27.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada|x",
+   "cuando": "2026-11-24T09:00:27.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/23/incendio-de-un-automovil-en-la-ruta-5-a-la-altura-de-9-de-julio/|x",
+   "cuando": "2026-11-24T09:00:27.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -18950,6 +19111,7 @@
   "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas": "2026-10-27T23:20:16.000Z",
   "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea": "2026-11-01T23:40:14.000Z",
   "policiales:https://junin24.com/locales/solo-danos-materiales-como-consecuencia-de-un-principio-de-incendio-en-una-cocina": "2026-11-02T00:20:13.000Z",
+  "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada": "2026-11-24T09:00:22.000Z",
   "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas": "2026-11-15T23:20:14.000Z",
   "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores": "2026-11-14T22:40:13.000Z",
   "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero": "2026-11-03T00:40:17.000Z",
@@ -19040,6 +19202,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un": "2026-11-16T23:40:19.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348139-ruta-65-interceptaron-a-un-hombre-de-45-anos-que-r": "2026-11-16T22:20:13.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348231-robaron-una-caja-de-seguridad-en-un-estudio-contab": "2026-11-19T02:40:14.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna": "2026-11-24T09:00:22.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348453-apunalaron-a-un-joven-en-calle-belgrano-y-aprehend": "2026-11-24T02:20:22.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348457-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de": "2026-11-24T02:20:22.000Z",
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": "2026-11-05T00:40:13.000Z",
@@ -19072,6 +19235,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/18/un-hombre-murio-en-un-violento-accidente-sobre-la-ruta-5/": "2026-11-19T09:00:19.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/": "2026-11-21T09:00:22.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/22/insolito-robaron-la-moto-del-globo-de-la-muerte-de-un-circo/": "2026-11-23T09:00:30.000Z",
+  "policiales:https://www.latrochadigital.com.ar/2026/11/23/incendio-de-un-automovil-en-la-ruta-5-a-la-altura-de-9-de-julio/": "2026-11-24T09:00:22.000Z",
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": "2026-11-02T10:03:22.000Z",
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0": "2026-11-11T10:02:35.000Z",
   "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e": "2026-11-12T10:02:44.000Z",
