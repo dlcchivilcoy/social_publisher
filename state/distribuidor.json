@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-24T09:20:46.000Z"
+   "visto": "2026-11-24T10:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 1,
-    "sent": 20
+    "sent": 19
    },
    "pausado": false,
-   "visto": "2026-11-24T09:20:46.000Z"
+   "visto": "2026-11-24T10:40:15.000Z"
   }
  },
  "contenidos": {
@@ -10424,19 +10424,20 @@
    "viral": false
   },
   "web:1afcd512-3a37-4dc0-bb3c-2ef89d740d1b|x": {
-   "actualizado": "2026-11-24T09:04:01.000Z",
+   "actualizado": "2026-11-24T10:40:15.000Z",
    "buffer_id": "6b0553032acbde8befbcc375",
    "clave": "web:1afcd512-3a37-4dc0-bb3c-2ef89d740d1b|x",
    "creado": "2026-11-24T09:03:24.000Z",
    "dueAt": "2026-11-24T10:23:37.000Z",
+   "enviado": "2026-11-24T10:23:46.188Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T09:03:12.695Z",
    "id": "web:1afcd512-3a37-4dc0-bb3c-2ef89d740d1b",
    "ig_hora": "2026-11-24T10:23:13.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125173521043067376",
    "nota_url": "https://www.diariolacampaña.com.ar/n/medicina-estetica-y-regenerativa-chivilcoy-roberto-angeloff-destaco",
    "noticia": "nota:medicina-estetica-y-regenerativa-chivilcoy-roberto-angeloff-destaco",
    "origen": "web",
@@ -10518,19 +10519,20 @@
    "viral": false
   },
   "web:1f15c022-45f1-4b4d-9705-ccfc81248ef4|x": {
-   "actualizado": "2026-11-24T09:04:01.000Z",
+   "actualizado": "2026-11-24T10:40:15.000Z",
    "buffer_id": "6b055303e7f2021e568325e8",
    "clave": "web:1f15c022-45f1-4b4d-9705-ccfc81248ef4|x",
    "creado": "2026-11-24T09:03:24.000Z",
    "dueAt": "2026-11-24T09:38:35.000Z",
+   "enviado": "2026-11-24T09:38:46.100Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T09:02:52.844Z",
    "id": "web:1f15c022-45f1-4b4d-9705-ccfc81248ef4",
    "ig_hora": "2026-11-24T09:38:13.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125162196007014907",
    "nota_url": "https://www.diariolacampaña.com.ar/n/olimpiada-de-matematica-chivilcoy-vicente-fontana-era-mi-primera-vez",
    "noticia": "nota:olimpiada-de-matematica-chivilcoy-vicente-fontana-era-mi-primera-vez",
    "origen": "web",
@@ -11408,19 +11410,20 @@
    "viral": false
   },
   "web:418d89ff-d0d5-4393-a00a-aa5a186423df|x": {
-   "actualizado": "2026-11-24T09:20:46.000Z",
+   "actualizado": "2026-11-24T10:40:15.000Z",
    "buffer_id": "6b0556ef11153f46452b3837",
    "clave": "web:418d89ff-d0d5-4393-a00a-aa5a186423df|x",
    "creado": "2026-11-24T09:03:24.000Z",
    "dueAt": "2026-11-24T10:38:47.000Z",
+   "enviado": "2026-11-24T10:39:01.625Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T09:03:20.361Z",
    "id": "web:418d89ff-d0d5-4393-a00a-aa5a186423df",
    "ig_hora": "2026-11-24T10:38:13.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125177360622272584",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ateneo-borges-fotografia-muestra-colectiva-fin-de-ano-miradas-que",
    "noticia": "nota:ateneo-borges-fotografia-muestra-colectiva-fin-de-ano-miradas-que",
    "origen": "web",
@@ -12086,19 +12089,20 @@
    "viral": false
   },
   "web:5787b273-eb59-4cd3-b83e-1e5be0b2b53f|x": {
-   "actualizado": "2026-11-24T09:04:01.000Z",
+   "actualizado": "2026-11-24T10:40:15.000Z",
    "buffer_id": "6b055303b0942b30ce2107ca",
    "clave": "web:5787b273-eb59-4cd3-b83e-1e5be0b2b53f|x",
    "creado": "2026-11-24T09:03:24.000Z",
    "dueAt": "2026-11-24T09:53:53.000Z",
+   "enviado": "2026-11-24T09:54:01.898Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T09:02:57.101Z",
    "id": "web:5787b273-eb59-4cd3-b83e-1e5be0b2b53f",
    "ig_hora": "2026-11-24T09:53:13.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125166037171662960",
    "nota_url": "https://www.diariolacampaña.com.ar/n/institucion-de-servicio-el-club-de-leones-de-chivilcoy-celebro-su-62",
    "noticia": "nota:institucion-de-servicio-el-club-de-leones-de-chivilcoy-celebro-su-62",
    "origen": "web",
@@ -12989,19 +12993,20 @@
    "viral": false
   },
   "web:7a946b68-69fc-44b2-9078-8a533f5cbacf|x": {
-   "actualizado": "2026-11-24T09:04:01.000Z",
+   "actualizado": "2026-11-24T10:40:15.000Z",
    "buffer_id": "6b055302e7f2021e5683259d",
    "clave": "web:7a946b68-69fc-44b2-9078-8a533f5cbacf|x",
    "creado": "2026-11-24T09:03:24.000Z",
    "dueAt": "2026-11-24T09:23:20.000Z",
+   "enviado": "2026-11-24T09:23:31.104Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T09:02:48.551Z",
    "id": "web:7a946b68-69fc-44b2-9078-8a533f5cbacf",
    "ig_hora": "2026-11-24T09:23:13.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125158358281847116",
    "nota_url": "https://www.diariolacampaña.com.ar/n/recuperan-el-rodado-esclarecieron-el-hurto-de-una-motocicleta-un",
    "noticia": "nota:recuperan-el-rodado-esclarecieron-el-hurto-de-una-motocicleta-un",
    "origen": "web",
@@ -15094,14 +15099,14 @@
    "viral": false
   },
   "web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x": {
-   "actualizado": "2026-11-24T09:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-24T10:40:15.000Z",
+   "buffer_id": "6b05698f3eddeb40cea5654d",
    "clave": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x",
    "creado": "2026-11-24T09:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-24T11:53:48.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-24T09:03:43.671Z",
    "id": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30",
    "ig_hora": "2026-11-24T11:53:13.000Z",
@@ -15345,47 +15350,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x",
-   "cuando": "2026-11-17T11:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122655744977666238"
-  },
-  {
-   "clave": "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824|x",
-   "cuando": "2026-11-17T11:40:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122636679605264473"
-  },
-  {
-   "buffer_id": "6afc3d21d4d832ae4bc5bf3d",
-   "clave": "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x",
-   "cuando": "2026-11-17T11:40:18.000Z",
-   "dueAt": "2026-11-17T12:53:50.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afc3d216d6484cf6f16fd68",
-   "clave": "web:14c161cd-c8d1-48e8-8946-281aee6be5d2|x",
-   "cuando": "2026-11-17T11:40:18.000Z",
-   "dueAt": "2026-11-17T13:08:44.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afc41d9d4d832ae4bc774f6",
-   "clave": "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab|x",
-   "cuando": "2026-11-17T12:00:29.000Z",
-   "dueAt": "2026-11-17T13:23:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x",
-   "cuando": "2026-11-17T12:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "buffer_id": "6afc4681223fb0bae76c2266",
    "clave": "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x",
@@ -19507,6 +19471,43 @@
    "cuando": "2026-11-24T10:00:24.000Z",
    "dueAt": "2026-11-24T11:23:01.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:1afcd512-3a37-4dc0-bb3c-2ef89d740d1b|x",
+   "cuando": "2026-11-24T10:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125173521043067376"
+  },
+  {
+   "clave": "web:1f15c022-45f1-4b4d-9705-ccfc81248ef4|x",
+   "cuando": "2026-11-24T10:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125162196007014907"
+  },
+  {
+   "clave": "web:418d89ff-d0d5-4393-a00a-aa5a186423df|x",
+   "cuando": "2026-11-24T10:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125177360622272584"
+  },
+  {
+   "clave": "web:5787b273-eb59-4cd3-b83e-1e5be0b2b53f|x",
+   "cuando": "2026-11-24T10:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125166037171662960"
+  },
+  {
+   "clave": "web:7a946b68-69fc-44b2-9078-8a533f5cbacf|x",
+   "cuando": "2026-11-24T10:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125158358281847116"
+  },
+  {
+   "buffer_id": "6b05698f3eddeb40cea5654d",
+   "clave": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x",
+   "cuando": "2026-11-24T10:40:15.000Z",
+   "dueAt": "2026-11-24T11:53:48.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19544,7 +19545,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-24",
- "ultima_sync": "2026-11-24T09:20:46.000Z",
+ "ultima_sync": "2026-11-24T10:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
