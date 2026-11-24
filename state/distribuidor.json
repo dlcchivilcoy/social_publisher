@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 2
+    "scheduled": 0,
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-24T21:40:15.000Z"
+   "visto": "2026-11-24T22:40:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 17
    },
    "pausado": false,
-   "visto": "2026-11-24T21:40:15.000Z"
+   "visto": "2026-11-24T22:40:16.000Z"
   }
  },
  "contenidos": {
@@ -8551,19 +8551,20 @@
    "viral": false
   },
   "entrevistas:job00343|tiktok": {
-   "actualizado": "2026-11-24T21:00:21.000Z",
+   "actualizado": "2026-11-24T22:40:16.000Z",
    "buffer_id": "6b05faece57cd4af41f3c314",
    "categoria": "",
    "clave": "entrevistas:job00343|tiktok",
    "creado": "2026-11-24T17:40:18.000Z",
    "dueAt": "2026-11-24T22:23:08.000Z",
+   "enviado": "2026-11-24T22:32:59.199Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T17:40:18.000Z",
    "id": "entrevistas:job00343",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7711866696838941953",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8608,19 +8609,20 @@
    "viral": false
   },
   "entrevistas:job00344|tiktok": {
-   "actualizado": "2026-11-24T21:00:21.000Z",
+   "actualizado": "2026-11-24T22:40:16.000Z",
    "buffer_id": "6b05faead3db96136614c61f",
    "categoria": "",
    "clave": "entrevistas:job00344|tiktok",
    "creado": "2026-11-24T18:20:14.000Z",
    "dueAt": "2026-11-24T22:03:35.000Z",
+   "enviado": "2026-11-24T22:12:38.808Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T18:20:14.000Z",
    "id": "entrevistas:job00344",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7711862131200707847",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8665,19 +8667,20 @@
    "viral": false
   },
   "entrevistas:job00345|tiktok": {
-   "actualizado": "2026-11-24T21:00:21.000Z",
+   "actualizado": "2026-11-24T22:40:16.000Z",
    "buffer_id": "6b05fae9e57cd4af41f3be87",
    "categoria": "",
    "clave": "entrevistas:job00345|tiktok",
    "creado": "2026-11-24T19:00:18.000Z",
    "dueAt": "2026-11-24T21:43:49.000Z",
+   "enviado": "2026-11-24T21:53:45.958Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T19:00:18.000Z",
    "id": "entrevistas:job00345",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7711856994105281810",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -15861,29 +15864,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00323|tiktok",
-   "cuando": "2026-11-17T18:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6afc9aded4c8ef4106f4d9cb",
-   "clave": "entrevistas:job00323|x",
-   "cuando": "2026-11-17T18:20:14.000Z",
-   "dueAt": "2026-11-17T18:22:37.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|x",
-   "cuando": "2026-11-17T18:40:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
    "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok",
    "cuando": "2026-11-17T18:40:27.000Z",
    "estado": "pendiente",
@@ -20017,6 +19997,24 @@
    "cuando": "2026-11-24T21:40:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7711850430405430580"
+  },
+  {
+   "clave": "entrevistas:job00343|tiktok",
+   "cuando": "2026-11-24T22:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7711866696838941953"
+  },
+  {
+   "clave": "entrevistas:job00344|tiktok",
+   "cuando": "2026-11-24T22:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7711862131200707847"
+  },
+  {
+   "clave": "entrevistas:job00345|tiktok",
+   "cuando": "2026-11-24T22:40:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7711856994105281810"
   }
  ],
  "tandas": {
@@ -20054,7 +20052,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-24",
- "ultima_sync": "2026-11-24T21:40:15.000Z",
+ "ultima_sync": "2026-11-24T22:40:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

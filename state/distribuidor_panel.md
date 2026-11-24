@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 2 | 3 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -14,7 +14,7 @@ Actualizado: 24/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Canales
 - X: conectado · Buffer: 17 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 2 enviadas + 3 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 26 con métricas · mediana vistas/impresiones 84 · likes 0
@@ -33,9 +33,6 @@ Actualizado: 24/11/2026 19:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-24T18:20 entrevista_aprobada entrevistas:job00344 
-- 2026-11-24T18:20 recibido entrevistas:job00344|x 
-- 2026-11-24T18:20 recibido entrevistas:job00344|tiktok 
 - 2026-11-24T18:20 programado entrevistas:job00344|x 
 - 2026-11-24T19:00 entrevista_aprobada entrevistas:job00345 
 - 2026-11-24T19:00 recibido entrevistas:job00345|x 
@@ -58,3 +55,6 @@ Actualizado: 24/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-24T21:00 programado entrevistas:job00343|tiktok 
 - 2026-11-24T21:40 enviado entrevistas:job00342|tiktok 
 - 2026-11-24T21:40 enviado entrevistas:job00346|tiktok 
+- 2026-11-24T22:40 enviado entrevistas:job00343|tiktok 
+- 2026-11-24T22:40 enviado entrevistas:job00344|tiktok 
+- 2026-11-24T22:40 enviado entrevistas:job00345|tiktok 
