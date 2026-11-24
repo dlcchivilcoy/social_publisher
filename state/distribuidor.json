@@ -915,6 +915,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00344.mp4",
    "youtube_url": "https://youtu.be/5l0Nr3evJro"
   },
+  "entrevistas:job00345": {
+   "descripcion": "Iván Elizalde anunció en Chivilcoy el partido a beneficio del comedor Los Piruchitos, con entrada libre a cambio de alimentos no perecederos y juguetes. Habrá sorteos y una jornada para disfrutar en familia.",
+   "duracion_seg": null,
+   "entrevistado": "Iván Elizalde",
+   "generado": "2026-11-24T19:00:18.000Z",
+   "id": "entrevistas:job00345",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Iván Elizalde: básquet solidario para Los Piruchitos",
+   "urgente": false,
+   "video_bytes": 26348422,
+   "video_mb": 25.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00345.mp4",
+   "youtube_url": "https://youtu.be/hAfBJo55ZlM"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -8638,6 +8659,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00344.mp4",
    "viral": false
   },
+  "entrevistas:job00345|tiktok": {
+   "actualizado": "2026-11-24T19:00:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00345|tiktok",
+   "creado": "2026-11-24T19:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-24T19:00:18.000Z",
+   "id": "entrevistas:job00345",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Iván Elizalde: básquet solidario para Los Piruchitos\n\nIván Elizalde anunció en Chivilcoy el partido a beneficio del comedor Los Piruchitos, con entrada libre a cambio de alimentos no perecederos y juguetes. Habrá sorteos y una jornada para disfrutar en familia.\n\nhttps://youtu.be/hAfBJo55ZlM\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Iván Elizalde: básquet solidario para Los Piruchitos",
+   "urgente": false,
+   "vence": "2026-11-26T19:00:18.000Z",
+   "video_bytes": 26348422,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00345.mp4",
+   "viral": false
+  },
+  "entrevistas:job00345|x": {
+   "actualizado": "2026-11-24T19:00:21.000Z",
+   "buffer_id": "6b05dece4148285e965a7e3c",
+   "clave": "entrevistas:job00345|x",
+   "creado": "2026-11-24T19:00:18.000Z",
+   "dueAt": "2026-11-24T19:02:39.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-24T19:00:18.000Z",
+   "id": "entrevistas:job00345",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:basquet-elizalde-ivan-piruchitos-solidario",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Iván Elizalde: básquet solidario para Los Piruchitos\n\nIván Elizalde anunció un partido a beneficio en Chivilcoy con entrada a cambio de alimentos no perecederos y juguetes. El evento para disfrutar en familia incluirá sorteos.\n\nhttps://youtu.be/hAfBJo55ZlM",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Iván Elizalde: básquet solidario para Los Piruchitos",
+   "urgente": false,
+   "vence": "2026-11-24T21:00:18.000Z",
+   "video_bytes": 26348422,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00345.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
    "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
@@ -15747,34 +15824,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00320",
-   "cuando": "2026-11-17T16:40:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00320|x",
-   "cuando": "2026-11-17T16:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00320|tiktok",
-   "cuando": "2026-11-17T16:40:15.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6afc8370a166de7b3ec0f241",
-   "clave": "entrevistas:job00320|x",
-   "cuando": "2026-11-17T16:40:16.000Z",
-   "dueAt": "2026-11-17T16:42:55.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "entrevistas:job00320|x",
    "cuando": "2026-11-17T17:00:20.000Z",
    "evento": "enviado",
@@ -19906,6 +19955,34 @@
    "cuando": "2026-11-24T18:20:24.000Z",
    "dueAt": "2026-11-24T18:22:59.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00345",
+   "cuando": "2026-11-24T19:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00345|x",
+   "cuando": "2026-11-24T19:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00345|tiktok",
+   "cuando": "2026-11-24T19:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b05dece4148285e965a7e3c",
+   "clave": "entrevistas:job00345|x",
+   "cuando": "2026-11-24T19:00:32.000Z",
+   "dueAt": "2026-11-24T19:02:39.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20152,6 +20229,7 @@
   "entrevistas:job00342": "2026-11-24T17:00:25.000Z",
   "entrevistas:job00343": "2026-11-24T17:40:18.000Z",
   "entrevistas:job00344": "2026-11-24T18:20:14.000Z",
+  "entrevistas:job00345": "2026-11-24T19:00:18.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
