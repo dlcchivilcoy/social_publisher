@@ -55,7 +55,14 @@ def colaborador_para(texto: str, user_id: str = "", siempre: bool = False) -> st
         return ""
     if (user_id or get("INSTAGRAM_USER_ID") or "").strip() != (get("DIARIO_IG_ID") or DIARIO_IG):
         return ""
-    return CUENTA_AGRO if (siempre or es_del_campo(texto)) else ""
+    if siempre:
+        return CUENTA_AGRO
+    # 24/11/2026 (el editor: «poné en colab solo las de la página 6 de diarioyradio, porque hoy metiste una de un
+    # médico que nada que ver»): por palabras del campo queda APAGADA; solo la nota 6 del Drive (`siempre`).
+    # COLAB_AGRO_TEXTO=1 la vuelve a prender.
+    if (get("COLAB_AGRO_TEXTO") or "0").strip() != "1":
+        return ""
+    return CUENTA_AGRO if es_del_campo(texto) else ""
 
 
 # 23/11/2026 (el editor: «poné en colab las notas de la página 6 cargadas en el drive de diarioyradio con

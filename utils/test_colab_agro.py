@@ -12,6 +12,7 @@ os.environ.pop("AGRO_INSTAGRAM_USER_ID", None)
 os.environ.pop("AGRO_INSTAGRAM_ACCESS_TOKEN", None)
 os.environ.pop("AGRO_FACEBOOK_PAGE_ACCESS_TOKEN", None)
 os.environ.pop("COLAB_AGRO", None)
+os.environ["COLAB_AGRO_TEXTO"] = "1"     # 24/11/2026: la colab por palabras se prueba prendida (de fábrica, apagada)
 
 from platforms import instagram as IG  # noqa: E402
 from utils import colab_agro as CA  # noqa: E402
@@ -62,6 +63,10 @@ os.environ["INSTAGRAM_USER_ID"] = "17841405971293744"
 chequear("las palabras ambiguas solas no alcanzan",
          not CA.es_del_campo("La productora del recital y el rendimiento del equipo"))
 
+# 24/11/2026: de fábrica, por palabras NO (solo la nota 6).
+os.environ.pop("COLAB_AGRO_TEXTO", None)
+chequear("de fábrica, un texto del campo NO va en colab", CA.colaborador_para("Récord de cosecha de soja") == "")
+chequear("de fábrica, la nota 6 SÍ", CA.colaborador_para("Un médico de la ciudad", siempre=True) == "diarioyradioagro")
 # 23/11/2026: la nota 6 del Drive SIEMPRE en colab con agro.
 from pathlib import Path as _P  # noqa: E402
 os.environ.pop("COLAB_AGRO_NOTAS", None)
