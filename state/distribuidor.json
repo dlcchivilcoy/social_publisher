@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-24T11:40:16.000Z"
+   "visto": "2026-11-24T12:40:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 1,
-    "sent": 18
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-11-24T11:40:16.000Z"
+   "visto": "2026-11-24T12:40:23.000Z"
   }
  },
  "contenidos": {
@@ -3358,25 +3358,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-hallaron-a-un-hombre-sin-vida-en-una",
    "volanta": "Chivilcoy · Policiales"
   },
-  "web:4d5d9406-be42-46a8-b22f-c157c62f6e29": {
-   "categoria": "",
-   "descripcion": "Sportivo 25 de Mayo venció a Argentino en el cierre de la fase regular Completando la fase regular en el último juego, Argentino recibió a Sportivo 25 de Mayo, sin chances los equipos de clasificación para los playoffs. Fue triunfo de la visita por un ajustado 75 a 71, donde el tercer cuarto fue clave para el conjunto visitante. Fotos de los de mayor valoración del juego.",
-   "generado": "2026-11-14T12:13:10.320Z",
-   "id": "web:4d5d9406-be42-46a8-b22f-c157c62f6e29",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c14680cc6d664435a8a4c7b99658f5f9~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-sportivo-25-de-mayo-vencio-a-argentino-en-el",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Sportivo 25 de Mayo venció a Argentino en el cierre de la fase regular",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-sportivo-25-de-mayo-vencio-a-argentino-en-el",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:4d89ade0-7563-4650-985d-371fb8d64317": {
    "categoria": "",
    "descripcion": "Liga Mercedina (Torneo Clausura 2026): Ciclón de Chivilcoy gritó campeón invicto en Sub 17 y El Frontón celebró en Sub 13 El conjunto chivilcoyano venció 1 a 0 a El Frontón en la final disputada en nuestra ciudad y se coronó sin recibir goles en todo el certamen. Por su parte, el equipo de San Andrés de Giles se quedó con la corona de la división menor tras la derrota de Ciclón ante Trocha. El Fútbol Femenino de la Liga Mercedina de Fútbol cerró la actividad de sus categorías formativas del...",
@@ -4688,25 +4669,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-cierre-de-ano-de-la-categoria-mosquitos",
    "volanta": "Chivilcoy · Deportes"
   },
-  "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Racing superó a Gimnasia en la última fecha del Clausura CHIVILCOY.– Por la última fecha del Torneo Clausura de Primera División, Gimnasia recibió a Racing en un gran partido, donde el local estuvo adelante en el tanteador durante gran parte del juego. En el último cuarto, la visita logró pasar al frente y los últimos minutos se disputaron tanto a tanto. Llegando al final, a falta de 2 segundos y con un doble arriba para «la AKD», el local pidió minuto para armar la última jugada...",
-   "generado": "2026-11-14T12:07:14.642Z",
-   "id": "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_932a4ea82c0849c784b99b87b0967b69~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-supero-a-gimnasia-en-la-ultima",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Racing superó a Gimnasia en la última fecha del Clausura",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-racing-supero-a-gimnasia-en-la-ultima",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:c215b26a-1860-4016-8c29-ff480e2f8fcc": {
    "categoria": "",
    "descripcion": "Chivilcoy: Un motociclista herido tras ser chocado por una camioneta que se fugó Un motociclista resultó herido este jueves 19 de noviembre, alrededor de las 8:45, en la intersección de las avenidas Güemes y Ortiz, en Chivilcoy. El otro vehículo involucrado, una Ford Ranchero, abandonó el lugar tras el choque. El conductor de la moto fue identificado como Miguel Oviedo, quien transportaba una escalera de trabajo. Por circunstancias que aún deben establecerse, se produjo el impacto que lo dejó...",
@@ -5487,11 +5449,11 @@
  },
  "cuota_visto": "2026-11-02T17:20:19.000Z",
  "metricas_buffer": {
-  "con_metricas": 33,
+  "con_metricas": 42,
   "disponible": true,
-  "enviados": 33,
+  "enviados": 42,
   "motivo": "",
-  "visto": "2026-11-23T12:25:24.000Z"
+  "visto": "2026-11-24T12:40:22.000Z"
  },
  "pausas": {
   "tiktok": {
@@ -6192,14 +6154,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7710981526237760789",
    "metricas": {
-    "averageTimeWatched": 6.04,
+    "averageTimeWatched": 5.93,
     "comments": 0,
-    "engagementRate": 5.18,
+    "engagementRate": 5.05,
     "reach": 0,
-    "reactions": 10,
+    "reactions": 11,
     "shares": 0,
-    "totalTimeWatched": 27.15,
-    "views": 193
+    "totalTimeWatched": 31.03,
+    "views": 218
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-hinchas-de-boca-festejaron-en-el-centro",
    "origen": "bot",
@@ -6232,8 +6194,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0.81,
-    "impressions": 124,
+    "engagementRate": 0.75,
+    "impressions": 133,
     "reactions": 0,
     "reposts": 0
    },
@@ -6268,14 +6230,14 @@
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7711150826638593301",
    "metricas": {
-    "averageTimeWatched": 8.58,
+    "averageTimeWatched": 5.96,
     "comments": 0,
-    "engagementRate": 0,
+    "engagementRate": 1.65,
     "reach": 0,
-    "reactions": 0,
+    "reactions": 4,
     "shares": 0,
-    "totalTimeWatched": 10.28,
-    "views": 64
+    "totalTimeWatched": 34.75,
+    "views": 243
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-se-lleva-a-cabo-la-quinta-edicion-de-la",
    "origen": "bot",
@@ -6309,7 +6271,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 78,
+    "impressions": 95,
     "reactions": 0,
     "reposts": 0
    },
@@ -6343,6 +6305,16 @@
    "id": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7711474430341352711",
+   "metricas": {
+    "averageTimeWatched": 4,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 3.92,
+    "views": 42
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -6371,6 +6343,14 @@
    "id": "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124856142022979868",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 92,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
    "noticia": "nota:chivilcoy-cultura-chivilcoy-miss-bolivia-participo-en-la-quinta",
    "origen": "bot",
@@ -8061,6 +8041,16 @@
    "id": "entrevistas:job00337",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7711496295940246804",
+   "metricas": {
+    "averageTimeWatched": 5.92,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 5.12,
+    "views": 36
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8089,6 +8079,14 @@
    "id": "entrevistas:job00337",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124913659050610966",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 93,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:carlos-combustibles-impuesto-mosso",
    "origen": "entrevistas",
@@ -8119,6 +8117,16 @@
    "id": "entrevistas:job00338",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7711501393864985877",
+   "metricas": {
+    "averageTimeWatched": 2.73,
+    "comments": 0,
+    "engagementRate": 2.7,
+    "reach": 0,
+    "reactions": 1,
+    "shares": 0,
+    "totalTimeWatched": 2,
+    "views": 37
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8147,6 +8155,14 @@
    "id": "entrevistas:job00338",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124913704361689490",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 110,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:diferencia-gabriela-gilli-piso-show-tango",
    "origen": "entrevistas",
@@ -8177,6 +8193,16 @@
    "id": "entrevistas:job00339",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7711491110501240084",
+   "metricas": {
+    "averageTimeWatched": 7.44,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 5.7,
+    "views": 31
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8205,6 +8231,14 @@
    "id": "entrevistas:job00339",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124928123745526160",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 82,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:argentina-emocion-fontana-matematica-olimpiada-vicente",
    "origen": "entrevistas",
@@ -8235,6 +8269,16 @@
    "id": "entrevistas:job00340",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7711485889762921749",
+   "metricas": {
+    "averageTimeWatched": 5.61,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 5.23,
+    "views": 43
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8263,6 +8307,14 @@
    "id": "entrevistas:job00340",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124936605005664595",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 80,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:brasil-dominguez-final-handball-simon",
    "origen": "entrevistas",
@@ -8293,6 +8345,16 @@
    "id": "entrevistas:job00341",
    "intentos": 0,
    "link": "https://tiktok.com/@diarioyradio/video/7711480022099447046",
+   "metricas": {
+    "averageTimeWatched": 3.35,
+    "comments": 0,
+    "engagementRate": 0,
+    "reach": 0,
+    "reactions": 0,
+    "shares": 0,
+    "totalTimeWatched": 3.33,
+    "views": 40
+   },
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -8321,6 +8383,14 @@
    "id": "entrevistas:job00341",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124946693036642553",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 85,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "",
    "noticia": "titulo:alerta-bothin-ivan-piletas-seguridad",
    "origen": "entrevistas",
@@ -8407,11 +8477,11 @@
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124690345501884791",
    "metricas": {
-    "clicks": 0,
+    "clicks": 1,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
-    "reactions": 0,
+    "engagementRate": 0.98,
+    "impressions": 204,
+    "reactions": 1,
     "reposts": 0
    },
    "nota_url": "https://www.diariolacampaña.com.ar/n/san-antonio-de-areco-dos-muertos-y-un-herido-tras-un-choque-e-4d1488",
@@ -9168,7 +9238,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 93,
+    "impressions": 99,
     "reactions": 0,
     "reposts": 0
    },
@@ -9669,6 +9739,14 @@
    "id": "policiales:https://www.diariodemocracia.com/policiales/348457-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2125052800077815924",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de-cab868",
    "noticia": "nota:chacabuco-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de-cab868",
    "origen": "policiales",
@@ -10039,7 +10117,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -10115,7 +10193,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 16,
     "reactions": 0,
     "reposts": 0
    },
@@ -10191,7 +10269,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 18,
     "reactions": 0,
     "reposts": 0
    },
@@ -10457,6 +10535,14 @@
    "ig_hora": "2026-11-24T10:23:13.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2125173521043067376",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/medicina-estetica-y-regenerativa-chivilcoy-roberto-angeloff-destaco",
    "noticia": "nota:medicina-estetica-y-regenerativa-chivilcoy-roberto-angeloff-destaco",
    "origen": "web",
@@ -10552,6 +10638,14 @@
    "ig_hora": "2026-11-24T09:38:13.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2125162196007014907",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/olimpiada-de-matematica-chivilcoy-vicente-fontana-era-mi-primera-vez",
    "noticia": "nota:olimpiada-de-matematica-chivilcoy-vicente-fontana-era-mi-primera-vez",
    "origen": "web",
@@ -10704,7 +10798,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 21,
     "reactions": 0,
     "reposts": 0
    },
@@ -10817,19 +10911,28 @@
    "viral": false
   },
   "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8|x": {
-   "actualizado": "2026-11-24T11:00:21.000Z",
+   "actualizado": "2026-11-24T12:40:23.000Z",
    "buffer_id": "6b056e4616f206ca59d75f68",
    "clave": "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8|x",
    "creado": "2026-11-24T09:20:14.000Z",
    "dueAt": "2026-11-24T12:23:33.000Z",
+   "enviado": "2026-11-24T12:23:46.321Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T09:03:54.472Z",
    "id": "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8",
    "ig_hora": "2026-11-24T12:23:13.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125203719796969961",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-maximo-sala-proyecta-su-2027-con-la-mira-puesta-en-la-doble",
    "noticia": "nota:ciclismo-maximo-sala-proyecta-su-2027-con-la-mira-puesta-en-la-doble",
    "origen": "web",
@@ -11098,7 +11201,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -11437,7 +11540,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 13,
     "reactions": 0,
     "reposts": 0
    },
@@ -11471,6 +11574,14 @@
    "ig_hora": "2026-11-24T10:38:13.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2125177360622272584",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/ateneo-borges-fotografia-muestra-colectiva-fin-de-ano-miradas-que",
    "noticia": "nota:ateneo-borges-fotografia-muestra-colectiva-fin-de-ano-miradas-que",
    "origen": "web",
@@ -11794,33 +11905,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x": {
-   "actualizado": "2026-11-14T12:20:22.000Z",
-   "buffer_id": "",
-   "clave": "web:4d5d9406-be42-46a8-b22f-c157c62f6e29|x",
-   "creado": "2026-11-14T12:20:12.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-14T12:13:10.320Z",
-   "id": "web:4d5d9406-be42-46a8-b22f-c157c62f6e29",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-sportivo-25-de-mayo-vencio-a-argentino-en-el",
-   "noticia": "nota:chivilcoy-deportes-sportivo-25-de-mayo-vencio-a-argentino-en-el",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Sportivo 25 de Mayo venció a Argentino en el cierre de la fase regular\n\nLa visita se impuso por 75 a 71 en un partido donde el tercer cuarto fue clave. Ambos equipos llegaron al último juego de la fase regular sin chances de playoffs.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-sportivo-25-de-mayo-vencio-a-argentino-en-el",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Sportivo 25 de Mayo venció a Argentino en el cierre de la fase regular",
-   "urgente": false,
-   "vence": "2026-11-14T16:13:10.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:4d89ade0-7563-4650-985d-371fb8d64317|x": {
    "actualizado": "2026-11-23T11:40:13.000Z",
    "buffer_id": "6b04135e95bbdb5492eb880d",
@@ -11840,7 +11924,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 11,
     "reactions": 0,
     "reposts": 0
    },
@@ -12028,6 +12112,14 @@
    "ig_hora": "2026-11-24T09:08:13.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2125154522137866293",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/papa-previene-chivilcoy-ivan-bothin-destaco-el-alcance-de-la-ley",
    "noticia": "nota:papa-previene-chivilcoy-ivan-bothin-destaco-el-alcance-de-la-ley",
    "origen": "web",
@@ -12150,6 +12242,14 @@
    "ig_hora": "2026-11-24T09:53:13.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2125166037171662960",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/institucion-de-servicio-el-club-de-leones-de-chivilcoy-celebro-su-62",
    "noticia": "nota:institucion-de-servicio-el-club-de-leones-de-chivilcoy-celebro-su-62",
    "origen": "web",
@@ -12166,19 +12266,28 @@
    "viral": false
   },
   "web:57ce77f4-620f-458a-bf27-3a9cfba99984|x": {
-   "actualizado": "2026-11-24T11:20:14.000Z",
+   "actualizado": "2026-11-24T12:40:23.000Z",
    "buffer_id": "6b0572ef55068b4114bc9d0a",
    "clave": "web:57ce77f4-620f-458a-bf27-3a9cfba99984|x",
    "creado": "2026-11-24T09:20:14.000Z",
    "dueAt": "2026-11-24T12:38:12.000Z",
+   "enviado": "2026-11-24T12:38:16.154Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T09:03:59.489Z",
    "id": "web:57ce77f4-620f-458a-bf27-3a9cfba99984",
    "ig_hora": "2026-11-24T12:38:13.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125207369046970647",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/cierre-de-temporada-chivilcoy-patin-artistico-life-on-wheels",
    "noticia": "nota:cierre-de-temporada-chivilcoy-patin-artistico-life-on-wheels",
    "origen": "web",
@@ -12462,7 +12571,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 17,
     "reactions": 0,
     "reposts": 0
    },
@@ -12588,6 +12697,14 @@
    "ig_hora": "2026-11-24T11:23:13.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2125188494410588393",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-el-torneo-clausura-cerro-su-fase-regular-con-goleada",
    "noticia": "nota:futbol-chivilcoy-el-torneo-clausura-cerro-su-fase-regular-con-goleada",
    "origen": "web",
@@ -13055,6 +13172,14 @@
    "ig_hora": "2026-11-24T09:23:13.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2125158358281847116",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/recuperan-el-rodado-esclarecieron-el-hurto-de-una-motocicleta-un",
    "noticia": "nota:recuperan-el-rodado-esclarecieron-el-hurto-de-una-motocicleta-un",
    "origen": "web",
@@ -13088,8 +13213,8 @@
    "metricas": {
     "clicks": 0,
     "comments": 0,
-    "engagementRate": 0,
-    "impressions": 0,
+    "engagementRate": 3.57,
+    "impressions": 28,
     "reactions": 0,
     "reposts": 0
    },
@@ -13452,7 +13577,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 14,
     "reactions": 0,
     "reposts": 0
    },
@@ -13985,7 +14110,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 11,
     "reactions": 0,
     "reposts": 0
    },
@@ -14065,33 +14190,6 @@
    "titulo": "Chivilcoy: Cierre de año de la categoría Mosquitos en el Estadio Centro",
    "urgente": false,
    "vence": "2026-11-15T21:38:11.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x": {
-   "actualizado": "2026-11-14T12:20:22.000Z",
-   "buffer_id": "",
-   "clave": "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f|x",
-   "creado": "2026-11-14T12:20:12.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-14T12:07:14.642Z",
-   "id": "web:c037c64c-a9fe-4bfe-a737-448c3f8f368f",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-supero-a-gimnasia-en-la-ultima",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-racing-supero-a-gimnasia-en-la-ultima",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Racing superó a Gimnasia en la última fecha del Clausura\n\nEl local lideró gran parte del juego. En el último cuarto, la visita pasó al frente y quedó dos puntos arriba a falta de dos segundos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-racing-supero-a-gimnasia-en-la-ultima",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Racing superó a Gimnasia en la última fecha del Clausura",
-   "urgente": false,
-   "vence": "2026-11-14T16:07:14.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -14512,6 +14610,14 @@
    "ig_hora": "2026-11-23T12:38:36.000Z",
    "intentos": 0,
    "link": "https://x.com/3000669687/status/2124845106960183604",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 29,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/golf-chivilcoy-camino-a-la-definicion-se-palpita-la-gran-final-de-la",
    "noticia": "nota:golf-chivilcoy-camino-a-la-definicion-se-palpita-la-gran-final-de-la",
    "origen": "web",
@@ -14780,7 +14886,7 @@
     "clicks": 0,
     "comments": 0,
     "engagementRate": 0,
-    "impressions": 0,
+    "impressions": 10,
     "reactions": 0,
     "reposts": 0
    },
@@ -15147,19 +15253,28 @@
    "viral": false
   },
   "web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x": {
-   "actualizado": "2026-11-24T10:40:15.000Z",
+   "actualizado": "2026-11-24T12:40:23.000Z",
    "buffer_id": "6b05698f3eddeb40cea5654d",
    "clave": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x",
    "creado": "2026-11-24T09:20:14.000Z",
    "dueAt": "2026-11-24T11:53:48.000Z",
+   "enviado": "2026-11-24T11:54:01.727Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T09:03:43.671Z",
    "id": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30",
    "ig_hora": "2026-11-24T11:53:13.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125196234939854863",
+   "metricas": {
+    "clicks": 0,
+    "comments": 0,
+    "engagementRate": 0,
+    "impressions": 0,
+    "reactions": 0,
+    "reposts": 0
+   },
    "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-de-primera-racing-club-es-el-primer-finalista-del-torneo",
    "noticia": "nota:basquet-de-primera-racing-club-es-el-primer-finalista-del-torneo",
    "origen": "web",
@@ -15398,25 +15513,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x",
-   "cuando": "2026-11-17T13:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122659520363020621"
-  },
-  {
-   "clave": "web:d03c3c10-1591-42b2-8b28-464788b1537c|x",
-   "cuando": "2026-11-17T13:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122670654101004735"
-  },
-  {
-   "buffer_id": "6afc4fe6b7c36a6dabfe288b",
-   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|tiktok",
-   "cuando": "2026-11-17T13:00:22.000Z",
-   "dueAt": "2026-11-17T13:03:03.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:d0efc114-d938-4147-8730-19457aaf57f4|x",
    "cuando": "2026-11-17T13:20:29.000Z",
@@ -19559,6 +19655,24 @@
    "cuando": "2026-11-24T12:20:20.000Z",
    "dueAt": "2026-11-24T12:53:40.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8|x",
+   "cuando": "2026-11-24T12:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125203719796969961"
+  },
+  {
+   "clave": "web:57ce77f4-620f-458a-bf27-3a9cfba99984|x",
+   "cuando": "2026-11-24T12:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125207369046970647"
+  },
+  {
+   "clave": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x",
+   "cuando": "2026-11-24T12:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125196234939854863"
   }
  ],
  "tandas": {
@@ -19596,7 +19710,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-24",
- "ultima_sync": "2026-11-24T11:40:16.000Z",
+ "ultima_sync": "2026-11-24T12:40:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
