@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 12:40 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 13:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 24/11/2026 12:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 6 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,10 +33,6 @@ Actualizado: 24/11/2026 12:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-24T09:20 recibido web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x 
-- 2026-11-24T09:20 enviado web:52e07397-06d1-46f3-be67-3d5ae940b537|x 
-- 2026-11-24T09:20 programado web:418d89ff-d0d5-4393-a00a-aa5a186423df|x 
-- 2026-11-24T09:40 programado web:9abd2e31-effb-412b-b22a-68d9f05f7765|x 
 - 2026-11-24T09:40 programado web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x 
 - 2026-11-24T10:00 depurado web:370421fa-a7e4-4b47-b517-6386c3f56b35|x no está en el carrusel del diario de hoy
 - 2026-11-24T10:00 depurado web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c|x no está en el carrusel del diario de hoy
@@ -58,3 +54,7 @@ Actualizado: 24/11/2026 12:40 (hora AR) · ACTIVO
 - 2026-11-24T12:40 enviado web:57ce77f4-620f-458a-bf27-3a9cfba99984|x 
 - 2026-11-24T12:40 enviado web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x 
 - 2026-11-24T14:00 enviado web:3e764d05-c40e-4a27-9a3a-b330f6736f0a|x 
+- 2026-11-24T16:00 recibido web:06a62431-1821-4e06-8415-f2cee6c6ab22|x 
+- 2026-11-24T16:00 recibido web:be164541-87a8-46ba-bfc0-d7351086d27e|x 
+- 2026-11-24T16:00 depurado web:06a62431-1821-4e06-8415-f2cee6c6ab22|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-24T16:00 depurado web:be164541-87a8-46ba-bfc0-d7351086d27e|x de la web, a X solo van las notas del diario de la mañana
