@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 16:20 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 16:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 4 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 24/11/2026 16:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (5 esperando)
+- TikTok · Recortes de entrevistas · Gonzalo Perez (INTA): US$ 200 extra por hectárea — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Iván Elizalde: básquet solidario para Los Piruchitos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Fátima Estroz: chau a los tacones altos para salir de fiesta — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Marcelo Speranza: ¿El verano será más frío o extremo? — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -37,10 +38,6 @@ Actualizado: 24/11/2026 16:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-24T14:00 enviado web:3e764d05-c40e-4a27-9a3a-b330f6736f0a|x 
-- 2026-11-24T16:00 recibido web:06a62431-1821-4e06-8415-f2cee6c6ab22|x 
-- 2026-11-24T16:00 recibido web:be164541-87a8-46ba-bfc0-d7351086d27e|x 
-- 2026-11-24T16:00 depurado web:06a62431-1821-4e06-8415-f2cee6c6ab22|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-24T16:00 depurado web:be164541-87a8-46ba-bfc0-d7351086d27e|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-24T17:00 entrevista_aprobada entrevistas:job00342 
 - 2026-11-24T17:00 recibido entrevistas:job00342|x 
@@ -62,3 +59,7 @@ Actualizado: 24/11/2026 16:20 (hora AR) · ACTIVO
 - 2026-11-24T19:20 enviado entrevistas:job00342|x 
 - 2026-11-24T19:20 enviado entrevistas:job00344|x 
 - 2026-11-24T19:20 enviado entrevistas:job00345|x 
+- 2026-11-24T19:40 entrevista_aprobada entrevistas:job00346 
+- 2026-11-24T19:40 recibido entrevistas:job00346|x 
+- 2026-11-24T19:40 recibido entrevistas:job00346|tiktok 
+- 2026-11-24T19:40 programado entrevistas:job00346|x 
