@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -28,8 +28,8 @@ Actualizado: 24/11/2026 14:00 (hora AR) · ACTIVO
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
 ## Cola propia (2 esperando)
-- X · Recortes de entrevistas · Martin Etcheverria: allanamiento y compactación de motos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Recortes de entrevistas · Martin Etcheverria: allanamiento y compactación de motos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Recortes de entrevistas · Martin Etcheverria: allanamiento y compactación de motos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
