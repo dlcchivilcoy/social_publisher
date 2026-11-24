@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -27,15 +27,14 @@ Actualizado: 24/11/2026 13:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (2 esperando)
+- X · Recortes de entrevistas · Martin Etcheverria: allanamiento y compactación de motos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- TikTok · Recortes de entrevistas · Martin Etcheverria: allanamiento y compactación de motos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-24T09:40 programado web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x 
-- 2026-11-24T10:00 depurado web:370421fa-a7e4-4b47-b517-6386c3f56b35|x no está en el carrusel del diario de hoy
-- 2026-11-24T10:00 depurado web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c|x no está en el carrusel del diario de hoy
 - 2026-11-24T10:00 depurado web:9abd2e31-effb-412b-b22a-68d9f05f7765|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-24T10:00 depurado web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-24T10:00 programado web:64604e9f-8703-4ec5-996d-0046ce6f4991|x 
@@ -58,3 +57,6 @@ Actualizado: 24/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-24T16:00 recibido web:be164541-87a8-46ba-bfc0-d7351086d27e|x 
 - 2026-11-24T16:00 depurado web:06a62431-1821-4e06-8415-f2cee6c6ab22|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-24T16:00 depurado web:be164541-87a8-46ba-bfc0-d7351086d27e|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-24T17:00 entrevista_aprobada entrevistas:job00342 
+- 2026-11-24T17:00 recibido entrevistas:job00342|x 
+- 2026-11-24T17:00 recibido entrevistas:job00342|tiktok 
