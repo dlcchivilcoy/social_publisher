@@ -10798,14 +10798,14 @@
    "viral": false
   },
   "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8|x": {
-   "actualizado": "2026-11-24T09:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-24T11:00:21.000Z",
+   "buffer_id": "6b056e4616f206ca59d75f68",
    "clave": "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8|x",
    "creado": "2026-11-24T09:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-24T12:23:33.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-24T09:03:54.472Z",
    "id": "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8",
    "ig_hora": "2026-11-24T12:23:13.000Z",
@@ -15351,13 +15351,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6afc4681223fb0bae76c2266",
-   "clave": "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x",
-   "cuando": "2026-11-17T12:20:17.000Z",
-   "dueAt": "2026-11-17T13:38:03.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6afc4b2ee3ed8b2730c08613",
    "clave": "web:d4bbca93-5c56-43b0-9c5d-9a6d37b7b315|x",
    "cuando": "2026-11-17T12:40:14.000Z",
@@ -19507,6 +19500,13 @@
    "clave": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x",
    "cuando": "2026-11-24T10:40:15.000Z",
    "dueAt": "2026-11-24T11:53:48.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b056e4616f206ca59d75f68",
+   "clave": "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8|x",
+   "cuando": "2026-11-24T11:00:22.000Z",
+   "dueAt": "2026-11-24T12:23:33.000Z",
    "evento": "programado"
   }
  ],
