@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 06:04 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 06:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 24/11/2026 06:04 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 0 | 5 | 2 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 5 | 8 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 20 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 20 enviadas + 1 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 21 con métricas · mediana vistas/impresiones 83 · likes 0
@@ -27,23 +27,20 @@ Actualizado: 24/11/2026 06:04 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
-- X · Notas web · Fotografía: Muestra Colectiva Fin de Año: Miradas que cuentan...imágenes que per — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (8 esperando)
+- X · Notas web · Chivilcoy: Patín artístico: "Life on wheels" deslumbró en el Estadio del Club Co — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Máximo Sala proyecta su 2027 con la mira puesta en la Doble Bragado y los Juegos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Tomás Delía y Simón Cisneros analizaron las claves del triunfo: el ajuste táctic — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Racing Club es el primer finalista del Torneo Clausura, espera rival entre Colón — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: El balance de Marcos Salvaggio: “Nos propusimos mantener la categoría — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: El Torneo Clausura cerró su fase regular con goleada de Once Tigres y — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Gustavo Caggiano se encuentra abocado a la redacción de un libro que busca “reco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: “Entregamos en varias oportunidades el certificado de habilitación en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-24T02:20 recibido policiales:https://www.diariodemocracia.com/policiales/34845 
-- 2026-11-24T02:20 recibido policiales:https://www.diariodemocracia.com/policiales/34845 
-- 2026-11-24T02:20 programado policiales:https://www.diariodemocracia.com/policiales/34845 
-- 2026-11-24T02:40 recibido policiales:https://bragadoesnoticia.com.ar/desarticulan-una- 
-- 2026-11-24T02:40 enviado policiales:https://www.diariodemocracia.com/policiales/34845 
-- 2026-11-24T09:00 recibido policiales:https://www.diariodemocracia.com/policiales/34840 
-- 2026-11-24T09:00 recibido policiales:https://junin24.com/locales/tratan-de-recuperar-u 
-- 2026-11-24T09:00 recibido policiales:https://www.latrochadigital.com.ar/2026/11/23/inc 
-- 2026-11-24T09:00 vencido policiales:https://bragadoesnoticia.com.ar/desarticulan-una- espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-24T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34845 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-24T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34840 no hubo lugar antes de su vencimiento
 - 2026-11-24T09:00 vencido policiales:https://junin24.com/locales/tratan-de-recuperar-u no hubo lugar antes de su vencimiento
@@ -60,3 +57,12 @@ Actualizado: 24/11/2026 06:04 (hora AR) · ACTIVO
 - 2026-11-24T09:04 programado web:1f15c022-45f1-4b4d-9705-ccfc81248ef4|x 
 - 2026-11-24T09:04 programado web:5787b273-eb59-4cd3-b83e-1e5be0b2b53f|x 
 - 2026-11-24T09:04 programado web:1afcd512-3a37-4dc0-bb3c-2ef89d740d1b|x 
+- 2026-11-24T09:20 recibido web:57ce77f4-620f-458a-bf27-3a9cfba99984|x 
+- 2026-11-24T09:20 recibido web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8|x 
+- 2026-11-24T09:20 recibido web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c|x 
+- 2026-11-24T09:20 recibido web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x 
+- 2026-11-24T09:20 recibido web:370421fa-a7e4-4b47-b517-6386c3f56b35|x 
+- 2026-11-24T09:20 recibido web:64604e9f-8703-4ec5-996d-0046ce6f4991|x 
+- 2026-11-24T09:20 recibido web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x 
+- 2026-11-24T09:20 enviado web:52e07397-06d1-46f3-be67-3d5ae940b537|x 
+- 2026-11-24T09:20 programado web:418d89ff-d0d5-4393-a00a-aa5a186423df|x 

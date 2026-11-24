@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 6
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-24T02:40:19.000Z"
+   "visto": "2026-11-24T09:20:46.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
+    "scheduled": 1,
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-24T02:40:19.000Z"
+   "visto": "2026-11-24T09:20:46.000Z"
   }
  },
  "contenidos": {
@@ -2788,6 +2788,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/bragado-deportes-bragado-club-y-deportivo-colon-disputan-el-segundo",
    "volanta": "Bragado · Deportes"
   },
+  "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8": {
+   "categoria": "",
+   "descripcion": "Máximo Sala proyecta su 2027 con la mira puesta en la Doble Bragado y los Juegos Panamericanos Tras brillar en el velódromo santafesino y subirse al podio frente a corredores de élite, el pedalista ya proyecta su 2027 con la mira puesta en la Doble Bragado y los Juegos Panamericanos. El ciclismo local celebra una actuación sobresaliente de la mano de Máximo Sala, quien regresó del Campeonato Argentino de Pista disputado en Rafaela, Santa Fe, con un título nacional y dos podios adicionales,...",
+   "generado": "2026-11-24T09:03:54.472Z",
+   "id": "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5ddac02738c946d08634de7cac7be0a0~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-maximo-sala-proyecta-su-2027-con-la-mira-puesta-en-la-doble",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Máximo Sala proyecta su 2027 con la mira puesta en la Doble Bragado y los Juegos Panamericanos",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-maximo-sala-proyecta-su-2027-con-la-mira-puesta-en-la-doble",
+   "volanta": "Ciclismo"
+  },
   "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab": {
    "categoria": "",
    "descripcion": "Chivilcoy: ¡Oro continental! Marina Arce se consagró Campeona Panamericana de XCM en Sierra de los Padres Recién recuperada de una lesión en las costillas, la ciclista de Chivilcoy dominó un circuito exigente de más de 90 kilómetros y se subió a lo más alto del podio continental en Mar del Plata. La resiliencia y el talento de Marina Arce volvieron a dejar la bandera argentina y el nombre de Chivilcoy en lo más alto del continente. El domingo 15 de noviembre, en el marco del Mar del Plata...",
@@ -2996,6 +3015,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-salud-britos-advirtio-que-el-sanatorio-de-chivilcoy-esta-en",
    "volanta": "Chivilcoy · Salud"
+  },
+  "web:370421fa-a7e4-4b47-b517-6386c3f56b35": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El balance de Marcos Salvaggio: “Nos propusimos mantener la categoría y llegar a otra Copa Argentina, lo cumplimos. Además, terminamos entre los cuatro por el primer ascenso” Luego de la eliminación en las instancias decisivas del Torneo Federal ‘A’, Marcos Salvaggio, futbolista y referente del plantel de Gimnasia y Esgrima de Chivilcoy, dialogó con La Mañana del Centro para analizar el desenlace de la temporada y poner en perspectiva la campaña realizada por la institución. El...",
+   "generado": "2026-11-24T09:03:39.874Z",
+   "id": "web:370421fa-a7e4-4b47-b517-6386c3f56b35",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_1ef70bc2eed44e87a03a8e1a0589b527~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-el-balance-de-marcos-salvaggio-nos-propusimos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El balance de Marcos Salvaggio: “Nos propusimos mantener la categoría y llegar a otra Copa Argentina, lo cumplimos. Además, terminamos entre los cuatro por el primer ascenso”",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-chivilcoy-el-balance-de-marcos-salvaggio-nos-propusimos",
+   "volanta": "Fútbol"
   },
   "web:3a27f600-fd73-4505-9cb2-6434f4ad6e89": {
    "categoria": "",
@@ -3529,6 +3567,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/institucion-de-servicio-el-club-de-leones-de-chivilcoy-celebro-su-62",
    "volanta": "Institución de servicio"
   },
+  "web:57ce77f4-620f-458a-bf27-3a9cfba99984": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Patín artístico: \"Life on wheels\" deslumbró en el Estadio del Club Colón El estadio \"Oscar y Alfredo Barca\" fue escenario del festival de cierre de año y un imponente show de patinaje que reunió a familias, deportistas y referentes de la disciplina de Chivilcoy y la región. Las patinadoras representantes de los clubes Colón y Gimnasia de Chivilcoy pudieron mostrar su técnica delante del público local. Durante casi dos horas, el público disfrutó de una velada a puro talento, brillo...",
+   "generado": "2026-11-24T09:03:59.489Z",
+   "id": "web:57ce77f4-620f-458a-bf27-3a9cfba99984",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_8e54805a8eb142118af32d9ffe7bb8d2~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cierre-de-temporada-chivilcoy-patin-artistico-life-on-wheels",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Patín artístico: \"Life on wheels\" deslumbró en el Estadio del Club Colón",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/cierre-de-temporada-chivilcoy-patin-artistico-life-on-wheels",
+   "volanta": "Cierre de temporada"
+  },
   "web:58e141af-ad69-4845-a7f9-40c71d9349cb": {
    "categoria": "",
    "descripcion": "Chivilcoy: Laura Azcola consideró: “Apuntamos a salirnos de estas tareas simples que habitualmente realizan las personas con discapacidad\" La directora de Discapacidad de la Municipalidad de Chivilcoy, Laura Azcola, realizó un pormenorizado balance acerca del desarrollo y los resultados del programa de habilidades pre-laborales implementado a lo largo del año. La iniciativa, que fue anunciada originalmente entre los meses de marzo y abril en el despacho del intendente Guillermo Britos, tuvo...",
@@ -3756,6 +3813,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-basquet-femenino-argentino-gano-de",
    "volanta": "Chivilcoy · Deportes"
+  },
+  "web:64604e9f-8703-4ec5-996d-0046ce6f4991": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El Torneo Clausura cerró su fase regular con goleada de Once Tigres y desahogo de Pellegrini CHIVILCOY.– La 13ª y última jornada de la fase regular del Torneo Clausura de Primera División echó el cierre este lunes por la tarde con dos encuentros que terminaron de acomodar las piezas en la tabla de posiciones de cara al inicio de los mata-mata. En el partido que dejó más margen en el marcador, Once Tigres no dejó dudas, goleó 6 a 0 a 22 de Octubre y abrochó su boleto a los octavos...",
+   "generado": "2026-11-24T09:03:36.065Z",
+   "id": "web:64604e9f-8703-4ec5-996d-0046ce6f4991",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2a2646fdc40a4dc599a9efe62684cae5~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-el-torneo-clausura-cerro-su-fase-regular-con-goleada",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Torneo Clausura cerró su fase regular con goleada de Once Tigres y desahogo de Pellegrini",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-chivilcoy-el-torneo-clausura-cerro-su-fase-regular-con-goleada",
+   "volanta": "Fútbol"
   },
   "web:6660aa77-72e5-4b87-ac3a-0c96160d4930": {
    "categoria": "",
@@ -4383,6 +4459,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-chivilcoy-roman-mastrangelo-subio-al-podio-en-el-cierre-de",
    "volanta": "Ciclismo"
+  },
+  "web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c": {
+   "categoria": "",
+   "descripcion": "Tomás Delía y Simón Cisneros analizaron las claves del triunfo: el ajuste táctico que cambió el rumbo del juego y lo que viene para el equipo Luego de un año exigente con múltiples competencias en simultáneo, Racing volvió a ratificar su protagonismo en el ámbito local al asegurar su clasificación a una nueva definición de campeonato. Tras el partido, los referentes del plantel Tomás Delía y Simón Cisneros dialogaron con la prensa y analizaron las claves del triunfo, el ajuste táctico que...",
+   "generado": "2026-11-24T09:03:50.756Z",
+   "id": "web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_0e0e7943c93444bc85a0cd237d4bda68~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-finalista-tomas-delia-y-simon-cisneros-analizaron-las-claves",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Tomás Delía y Simón Cisneros analizaron las claves del triunfo: el ajuste táctico que cambió el rumbo del juego y lo que viene para el equipo",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/racing-finalista-tomas-delia-y-simon-cisneros-analizaron-las-claves",
+   "volanta": "Racing Finalista"
   },
   "web:aa699acf-5076-4312-a4f2-93b7679d840a": {
    "categoria": "",
@@ -5030,6 +5125,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-colon-y-bragado-club-abren-las-semifinales-del",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a": {
+   "categoria": "",
+   "descripcion": "Gustavo Caggiano se encuentra abocado a la redacción de un libro que busca “reconstruir el origen y la actualidad del coleccionismo en Chivilcoy” CHIVILCOY.– El Ateneo \"Jorge Luis Borges\", ubicado en la esquina de Humberto Primo y pasaje Fournier —en inmediaciones de la terminal de ómnibus—, continúa consolidando su agenda de actividades culturales en la ciudad. En esta ocasión, la institución inauguró una exposición fotográfica colectiva que representa la tercera propuesta artística...",
+   "generado": "2026-11-24T09:03:28.006Z",
+   "id": "web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_18af3bb7dcfe4dd4b2b9e2951a6293cb~mv2.jpeg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/historia-y-entrevistas-gustavo-caggiano-se-encuentra-abocado-a-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Gustavo Caggiano se encuentra abocado a la redacción de un libro que busca “reconstruir el origen y la actualidad del coleccionismo en Chivilcoy”",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/historia-y-entrevistas-gustavo-caggiano-se-encuentra-abocado-a-la",
+   "volanta": "Historia y entrevistas"
+  },
   "web:ea501eca-e6aa-48e2-81a7-be44a5f2529a": {
    "categoria": "",
    "descripcion": "Un vecino de Alberti murió en un choque frontal sobre la Ruta 5 El siniestro ocurrió durante la madrugada de este domingo, a la altura del kilómetro 183. La víctima fue identificada como Adrián Ezequiel Buchholz, de 30 años, quien conducía un automóvil que colisionó con un camión que circulaba en sentido contrario. Un trágico siniestro vial ocurrido durante la madrugada de este domingo sobre la Ruta Nacional 5 dejó como saldo el fallecimiento de un vecino de Alberti. El hecho se registró...",
@@ -5181,6 +5295,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
    "volanta": "Chivilcoy · De duelo"
+  },
+  "web:f1f5b74d-dab6-4cbf-b460-011968d98b30": {
+   "categoria": "",
+   "descripcion": "Racing Club es el primer finalista del Torneo Clausura, espera rival entre Colón y Bragado Club La \"Academia\" barrió su serie ante Gimnasia tras imponerse con autoridad por 78 a 48 en el Estadio Centro. En la otra llave, Bragado Club se hizo fuerte de local, igualó el cruce y forzó un tercer partido decisivo en Chivilcoy. El Torneo Clausura de Primera División de la Asociación Básquetbol Chivilcoy (ABCh) ya tiene a su primer invitado a la gran final. Racing Club cerró de manera contundente su...",
+   "generado": "2026-11-24T09:03:43.671Z",
+   "id": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_45ae112093544f61b2f8365b2fad6145~mv2.png",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-de-primera-racing-club-es-el-primer-finalista-del-torneo",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Racing Club es el primer finalista del Torneo Clausura, espera rival entre Colón y Bragado Club",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-de-primera-racing-club-es-el-primer-finalista-del-torneo",
+   "volanta": "Básquet de Primera"
   },
   "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9": {
    "categoria": "",
@@ -10662,6 +10795,35 @@
    "video_url": "",
    "viral": false
   },
+  "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8|x": {
+   "actualizado": "2026-11-24T09:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8|x",
+   "creado": "2026-11-24T09:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-24T09:03:54.472Z",
+   "id": "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8",
+   "ig_hora": "2026-11-24T12:23:13.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ciclismo-maximo-sala-proyecta-su-2027-con-la-mira-puesta-en-la-doble",
+   "noticia": "nota:ciclismo-maximo-sala-proyecta-su-2027-con-la-mira-puesta-en-la-doble",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Máximo Sala proyecta su 2027 con la mira puesta en la Doble Bragado y los Juegos Panamericanos\n\nEl ciclista brilló en Rafaela con un título nacional y dos podios adicionales. Ahora se enfoca en sus próximos desafíos.\n\nhttps://www.diariolacampaña.com.ar/n/ciclismo-maximo-sala-proyecta-su-2027-con-la-mira-puesta-en-la-doble",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Máximo Sala proyecta su 2027 con la mira puesta en la Doble Bragado y los Juegos Panamericanos",
+   "urgente": false,
+   "vence": "2026-11-24T13:23:13.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab|x": {
    "actualizado": "2026-11-17T14:20:13.000Z",
    "buffer_id": "6afc41d9d4d832ae4bc774f6",
@@ -11037,6 +11199,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:370421fa-a7e4-4b47-b517-6386c3f56b35|x": {
+   "actualizado": "2026-11-24T09:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:370421fa-a7e4-4b47-b517-6386c3f56b35|x",
+   "creado": "2026-11-24T09:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-24T09:03:39.874Z",
+   "id": "web:370421fa-a7e4-4b47-b517-6386c3f56b35",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-el-balance-de-marcos-salvaggio-nos-propusimos",
+   "noticia": "nota:futbol-chivilcoy-el-balance-de-marcos-salvaggio-nos-propusimos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: El balance de Marcos Salvaggio: “Nos propusimos mantener la categoría y llegar a otra Copa Argentina, lo cumplimos. Además, terminamos entre los cuatro por el primer ascenso”\n\nSalvaggio analizó la temporada tras la eliminación del torneo.\n\nhttps://www.diariolacampaña.com.ar/n/futbol-chivilcoy-el-balance-de-marcos-salvaggio-nos-propusimos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El balance de Marcos Salvaggio: “Nos propusimos mantener la categoría y llegar a otra Copa Argentina, lo cumplimos. Además, terminamos entre los cuatro por el primer ascenso”",
+   "urgente": false,
+   "vence": "2026-11-24T13:03:39.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:3a27f600-fd73-4505-9cb2-6434f4ad6e89|x": {
    "actualizado": "2026-11-19T14:00:22.000Z",
    "buffer_id": "6afee01f34f1a439bb9e210f",
@@ -11218,14 +11408,14 @@
    "viral": false
   },
   "web:418d89ff-d0d5-4393-a00a-aa5a186423df|x": {
-   "actualizado": "2026-11-24T09:03:24.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-24T09:20:46.000Z",
+   "buffer_id": "6b0556ef11153f46452b3837",
    "clave": "web:418d89ff-d0d5-4393-a00a-aa5a186423df|x",
    "creado": "2026-11-24T09:03:24.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-24T10:38:47.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-24T09:03:20.361Z",
    "id": "web:418d89ff-d0d5-4393-a00a-aa5a186423df",
    "ig_hora": "2026-11-24T10:38:13.000Z",
@@ -11774,19 +11964,20 @@
    "viral": false
   },
   "web:52e07397-06d1-46f3-be67-3d5ae940b537|x": {
-   "actualizado": "2026-11-24T09:04:01.000Z",
+   "actualizado": "2026-11-24T09:20:46.000Z",
    "buffer_id": "6b055302e7f2021e56832532",
    "clave": "web:52e07397-06d1-46f3-be67-3d5ae940b537|x",
    "creado": "2026-11-24T09:03:24.000Z",
    "dueAt": "2026-11-24T09:08:06.000Z",
+   "enviado": "2026-11-24T09:08:16.479Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T09:02:44.663Z",
    "id": "web:52e07397-06d1-46f3-be67-3d5ae940b537",
    "ig_hora": "2026-11-24T09:08:13.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125154522137866293",
    "nota_url": "https://www.diariolacampaña.com.ar/n/papa-previene-chivilcoy-ivan-bothin-destaco-el-alcance-de-la-ley",
    "noticia": "nota:papa-previene-chivilcoy-ivan-bothin-destaco-el-alcance-de-la-ley",
    "origen": "web",
@@ -11919,6 +12110,35 @@
    "titulo": "El Club de Leones de Chivilcoy celebró su 62° aniversario con un almuerzo conmemorativo y la jura de un nuevo integrante",
    "urgente": false,
    "vence": "2026-11-24T13:02:57.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:57ce77f4-620f-458a-bf27-3a9cfba99984|x": {
+   "actualizado": "2026-11-24T09:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:57ce77f4-620f-458a-bf27-3a9cfba99984|x",
+   "creado": "2026-11-24T09:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-24T09:03:59.489Z",
+   "id": "web:57ce77f4-620f-458a-bf27-3a9cfba99984",
+   "ig_hora": "2026-11-24T12:38:13.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/cierre-de-temporada-chivilcoy-patin-artistico-life-on-wheels",
+   "noticia": "nota:cierre-de-temporada-chivilcoy-patin-artistico-life-on-wheels",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Patín artístico: \"Life on wheels\" deslumbró en el Estadio del Club Colón\n\nPatinadoras de Colón y Gimnasia mostraron su técnica en el show de cierre de año en el estadio Oscar y Alfredo Barca. El evento reunió a familias y deportistas.\n\nhttps://www.diariolacampaña.com.ar/n/cierre-de-temporada-chivilcoy-patin-artistico-life-on-wheels",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Patín artístico: \"Life on wheels\" deslumbró en el Estadio del Club Colón",
+   "urgente": false,
+   "vence": "2026-11-24T13:38:13.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -12298,6 +12518,35 @@
    "titulo": "Chivilcoy: Básquet femenino: Argentino ganó de visitante ante Sportivo Rojas",
    "urgente": false,
    "vence": "2026-11-21T22:06:05.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:64604e9f-8703-4ec5-996d-0046ce6f4991|x": {
+   "actualizado": "2026-11-24T09:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:64604e9f-8703-4ec5-996d-0046ce6f4991|x",
+   "creado": "2026-11-24T09:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-24T09:03:36.065Z",
+   "id": "web:64604e9f-8703-4ec5-996d-0046ce6f4991",
+   "ig_hora": "2026-11-24T11:23:13.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-el-torneo-clausura-cerro-su-fase-regular-con-goleada",
+   "noticia": "nota:futbol-chivilcoy-el-torneo-clausura-cerro-su-fase-regular-con-goleada",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: El Torneo Clausura cerró su fase regular con goleada de Once Tigres y desahogo de Pellegrini\n\nOnce Tigres goleó 6 a 0 a 22 de Octubre y abrochó su boleto a los octavos. Con dos partidos, terminó la última jornada de la fase regular.\n\nhttps://www.diariolacampaña.com.ar/n/futbol-chivilcoy-el-torneo-clausura-cerro-su-fase-regular-con-goleada",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Torneo Clausura cerró su fase regular con goleada de Once Tigres y desahogo de Pellegrini",
+   "urgente": false,
+   "vence": "2026-11-24T13:03:36.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -13410,6 +13659,34 @@
    "titulo": "Chivilcoy: Román Mastrángelo subió al podio en el cierre de la Vuelta al Valle y Rodrigo Díaz se consagró campeón",
    "urgente": false,
    "vence": "2026-11-19T13:40:35.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c|x": {
+   "actualizado": "2026-11-24T09:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c|x",
+   "creado": "2026-11-24T09:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-24T09:03:50.756Z",
+   "id": "web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/racing-finalista-tomas-delia-y-simon-cisneros-analizaron-las-claves",
+   "noticia": "nota:racing-finalista-tomas-delia-y-simon-cisneros-analizaron-las-claves",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Tomás Delía y Simón Cisneros analizaron las claves del triunfo: el ajuste táctico que cambió el rumbo del juego y lo que viene para el equipo\n\nRacing clasificó a una nueva definición tras un año exigente. Sus referentes dialogaron con la prensa.\n\nhttps://www.diariolacampaña.com.ar/n/racing-finalista-tomas-delia-y-simon-cisneros-analizaron-las-claves",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Tomás Delía y Simón Cisneros analizaron las claves del triunfo: el ajuste táctico que cambió el rumbo del juego y lo que viene para el equipo",
+   "urgente": false,
+   "vence": "2026-11-24T13:03:50.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -14534,6 +14811,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x": {
+   "actualizado": "2026-11-24T09:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x",
+   "creado": "2026-11-24T09:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-24T09:03:28.006Z",
+   "id": "web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/historia-y-entrevistas-gustavo-caggiano-se-encuentra-abocado-a-la",
+   "noticia": "nota:historia-y-entrevistas-gustavo-caggiano-se-encuentra-abocado-a-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Gustavo Caggiano se encuentra abocado a la redacción de un libro que busca “reconstruir el origen y la actualidad del coleccionismo en Chivilcoy”\n\nEl Ateneo Jorge Luis Borges inauguró una exposición fotográfica colectiva.\n\nhttps://www.diariolacampaña.com.ar/n/historia-y-entrevistas-gustavo-caggiano-se-encuentra-abocado-a-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Gustavo Caggiano se encuentra abocado a la redacción de un libro que busca “reconstruir el origen y la actualidad del coleccionismo en Chivilcoy”",
+   "urgente": false,
+   "vence": "2026-11-24T13:03:28.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:ea501eca-e6aa-48e2-81a7-be44a5f2529a|x": {
    "actualizado": "2026-11-16T11:20:24.000Z",
    "buffer_id": "6afad52f06e1675856e2aca9",
@@ -14788,6 +15093,35 @@
    "video_url": "",
    "viral": false
   },
+  "web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x": {
+   "actualizado": "2026-11-24T09:20:14.000Z",
+   "buffer_id": "",
+   "clave": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x",
+   "creado": "2026-11-24T09:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-24T09:03:43.671Z",
+   "id": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30",
+   "ig_hora": "2026-11-24T11:53:13.000Z",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/basquet-de-primera-racing-club-es-el-primer-finalista-del-torneo",
+   "noticia": "nota:basquet-de-primera-racing-club-es-el-primer-finalista-del-torneo",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Racing Club es el primer finalista del Torneo Clausura, espera rival entre Colón y Bragado Club\n\nLa \"Academia\" barrió su serie ante Gimnasia tras imponerse con autoridad por 78 a 48 en el Estadio Centro.\n\nhttps://www.diariolacampaña.com.ar/n/basquet-de-primera-racing-club-es-el-primer-finalista-del-torneo",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Racing Club es el primer finalista del Torneo Clausura, espera rival entre Colón y Bragado Club",
+   "urgente": false,
+   "vence": "2026-11-24T13:03:43.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x": {
    "actualizado": "2026-11-20T22:40:38.000Z",
    "buffer_id": "",
@@ -15011,71 +15345,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:229a7170-c2c4-42c1-abe1-cb945b533f0e|x",
-   "cuando": "2026-11-17T10:04:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824|x",
-   "cuando": "2026-11-17T10:04:27.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:e7db619d-9df6-4b45-871f-f8453608c66f|x",
-   "cuando": "2026-11-17T10:04:35.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6afc26b41d0f4cca06147127",
-   "clave": "web:e7db619d-9df6-4b45-871f-f8453608c66f|x",
-   "cuando": "2026-11-17T10:04:37.000Z",
-   "dueAt": "2026-11-17T10:08:38.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afc26b4fae76827be3e36e9",
-   "clave": "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824|x",
-   "cuando": "2026-11-17T10:04:37.000Z",
-   "dueAt": "2026-11-17T10:23:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afc26b4fae76827be3e3737",
-   "clave": "web:229a7170-c2c4-42c1-abe1-cb945b533f0e|x",
-   "cuando": "2026-11-17T10:04:37.000Z",
-   "dueAt": "2026-11-17T10:53:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afc26b52c90bee7eb1642cd",
-   "clave": "web:13973a3b-2171-416a-a98c-8226b8fae8f7|x",
-   "cuando": "2026-11-17T10:04:37.000Z",
-   "dueAt": "2026-11-17T11:08:08.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afc26b554b9dc9e0726c45b",
-   "clave": "web:5da64ba1-ff4b-482f-b881-4a873f748575|x",
-   "cuando": "2026-11-17T10:04:37.000Z",
-   "dueAt": "2026-11-17T11:23:47.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:e7db619d-9df6-4b45-871f-f8453608c66f|x",
-   "cuando": "2026-11-17T10:20:17.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122633031714279822"
-  },
   {
    "buffer_id": "6afc2a61fb90347d01bcb056",
    "clave": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x",
@@ -19170,6 +19439,75 @@
    "cuando": "2026-11-24T09:04:03.000Z",
    "dueAt": "2026-11-24T10:23:37.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:57ce77f4-620f-458a-bf27-3a9cfba99984|x",
+   "cuando": "2026-11-24T09:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8|x",
+   "cuando": "2026-11-24T09:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c|x",
+   "cuando": "2026-11-24T09:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:f1f5b74d-dab6-4cbf-b460-011968d98b30|x",
+   "cuando": "2026-11-24T09:20:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:370421fa-a7e4-4b47-b517-6386c3f56b35|x",
+   "cuando": "2026-11-24T09:20:34.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:64604e9f-8703-4ec5-996d-0046ce6f4991|x",
+   "cuando": "2026-11-24T09:20:37.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x",
+   "cuando": "2026-11-24T09:20:46.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:52e07397-06d1-46f3-be67-3d5ae940b537|x",
+   "cuando": "2026-11-24T09:20:46.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125154522137866293"
+  },
+  {
+   "buffer_id": "6b0556ef11153f46452b3837",
+   "clave": "web:418d89ff-d0d5-4393-a00a-aa5a186423df|x",
+   "cuando": "2026-11-24T09:20:47.000Z",
+   "dueAt": "2026-11-24T10:38:47.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19207,7 +19545,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-24",
- "ultima_sync": "2026-11-24T02:40:19.000Z",
+ "ultima_sync": "2026-11-24T09:20:46.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -19643,6 +19981,7 @@
   "web:25a7e087-aa0a-4b66-bbc2-f90599ed4a50": "2026-11-20T12:00:20.000Z",
   "web:265a42c3-bd6d-4c58-bb99-66ce3bccf594": "2026-11-20T17:20:12.000Z",
   "web:268e66c4-69d7-4958-b487-b115fffbc1a1": "2026-11-13T02:20:15.000Z",
+  "web:26ada5c9-0420-490f-9b5e-4fe3e7c41ba8": "2026-11-24T09:20:14.000Z",
   "web:26b25411-f69f-490e-8bb8-4a36156faf79": "2026-11-05T10:02:30.000Z",
   "web:27dff6dd-cc71-429b-b4b6-cd136b76a346": "2026-10-28T01:00:19.000Z",
   "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab": "2026-11-17T10:03:18.000Z",
@@ -19680,6 +20019,7 @@
   "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b": "2026-11-17T10:03:18.000Z",
   "web:36063451-bcf8-479d-8bfe-ebe6376e7dcf": "2026-11-21T12:00:17.000Z",
   "web:36e83a1d-e03b-401c-8c1b-edd4182a003f": "2026-10-27T00:00:21.000Z",
+  "web:370421fa-a7e4-4b47-b517-6386c3f56b35": "2026-11-24T09:20:14.000Z",
   "web:37a8cc6e-d0f6-44df-bd80-5ee911112801": "2026-10-30T00:00:18.000Z",
   "web:38185935-c480-4780-9b62-2a630fd62c5f": "2026-11-12T10:02:44.000Z",
   "web:3965ee13-9730-4798-8e40-1c97199ed3e6": "2026-11-06T10:02:35.000Z",
@@ -19747,6 +20087,7 @@
   "web:5571de4c-caad-4918-b27a-06c644676364": "2026-10-30T01:20:15.000Z",
   "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85": "2026-10-29T10:20:14.000Z",
   "web:5787b273-eb59-4cd3-b83e-1e5be0b2b53f": "2026-11-24T09:03:24.000Z",
+  "web:57ce77f4-620f-458a-bf27-3a9cfba99984": "2026-11-24T09:20:14.000Z",
   "web:5842b562-9d0d-4ac1-97f5-5ef5846efb84": "2026-10-26T10:20:14.000Z",
   "web:589aada5-2294-49ca-8ee9-5c71fc761177": "2026-11-10T10:02:42.000Z",
   "web:58e141af-ad69-4845-a7f9-40c71d9349cb": "2026-11-16T10:03:28.000Z",
@@ -19770,6 +20111,7 @@
   "web:62ebb555-db92-4262-86b8-2f76e3982e4b": "2026-11-16T02:40:14.000Z",
   "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf": "2026-11-21T18:20:14.000Z",
   "web:63aa75e2-c7f1-4a80-bb02-196acdb9f9a5": "2026-10-26T10:20:14.000Z",
+  "web:64604e9f-8703-4ec5-996d-0046ce6f4991": "2026-11-24T09:20:14.000Z",
   "web:6541af24-4488-427f-95aa-ae535252bd65": "2026-11-02T18:20:16.000Z",
   "web:6660aa77-72e5-4b87-ac3a-0c96160d4930": "2026-11-15T01:00:17.000Z",
   "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b": "2026-10-28T10:20:19.000Z",
@@ -19909,6 +20251,7 @@
   "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56": "2026-10-29T10:20:14.000Z",
   "web:a84ee201-6571-4781-a9ba-cda913722cca": "2026-11-19T09:05:46.000Z",
   "web:a872c57c-897c-4bec-8f45-2e83bffd630f": "2026-11-02T18:20:16.000Z",
+  "web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c": "2026-11-24T09:20:14.000Z",
   "web:a90209ec-7ecb-4911-8fe1-6f0708e7fa60": "2026-11-03T10:02:22.000Z",
   "web:aa54283b-118c-4bae-8790-73ed73c0006c": "2026-11-08T20:40:12.000Z",
   "web:aa699acf-5076-4312-a4f2-93b7679d840a": "2026-11-21T21:20:14.000Z",
@@ -20034,6 +20377,7 @@
   "web:e7db619d-9df6-4b45-871f-f8453608c66f": "2026-11-17T10:03:18.000Z",
   "web:e8070380-cce0-41f4-8a78-b0a02378bc68": "2026-11-08T17:20:17.000Z",
   "web:e9cee33f-5562-4cef-aec9-c786a2894f5c": "2026-11-18T15:40:15.000Z",
+  "web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a": "2026-11-24T09:20:14.000Z",
   "web:ea13235b-dbb9-482c-b517-2865e5df2d34": "2026-10-31T16:40:18.000Z",
   "web:ea501eca-e6aa-48e2-81a7-be44a5f2529a": "2026-11-16T10:03:28.000Z",
   "web:ea80be45-a556-40be-ba81-3d8bdb1f6e52": "2026-10-27T12:40:18.000Z",
@@ -20057,6 +20401,7 @@
   "web:f0f64009-e880-45a2-9552-b15ed75817f2": "2026-11-11T10:02:35.000Z",
   "web:f12ef051-6163-4424-8626-4ff7b049b205": "2026-11-13T10:02:41.000Z",
   "web:f1a20b87-1804-430d-9961-2598fe26d092": "2026-11-16T20:00:18.000Z",
+  "web:f1f5b74d-dab6-4cbf-b460-011968d98b30": "2026-11-24T09:20:14.000Z",
   "web:f34b4317-aae2-4788-9b60-afe5d1e7eb93": "2026-10-26T12:06:06.000Z",
   "web:f41a2633-9d2b-4ebf-8110-d6c83a861b1d": "2026-10-26T16:40:17.000Z",
   "web:f4ea668f-c7dc-4af0-ad5a-2e6391586d72": "2026-10-28T10:02:28.000Z",
