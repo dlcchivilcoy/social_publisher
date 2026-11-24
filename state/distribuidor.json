@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-24T18:00:26.000Z"
+   "visto": "2026-11-24T19:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 16
+    "sent": 17
    },
    "pausado": false,
-   "visto": "2026-11-24T18:00:26.000Z"
+   "visto": "2026-11-24T19:20:14.000Z"
   }
  },
  "contenidos": {
@@ -8519,18 +8519,19 @@
    "viral": false
   },
   "entrevistas:job00342|x": {
-   "actualizado": "2026-11-24T18:00:27.000Z",
+   "actualizado": "2026-11-24T19:20:14.000Z",
    "buffer_id": "6b05d0bcbd6e90a3281ea8e4",
    "clave": "entrevistas:job00342|x",
    "creado": "2026-11-24T17:00:25.000Z",
    "dueAt": "2026-11-24T18:02:11.000Z",
+   "enviado": "2026-11-24T18:07:48.971Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T17:00:25.000Z",
    "id": "entrevistas:job00342",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125290302558568559",
    "nota_url": "",
    "noticia": "titulo:allanamiento-compactacion-etcheverria-martin-motos",
    "origen": "entrevistas",
@@ -8632,18 +8633,19 @@
    "viral": false
   },
   "entrevistas:job00344|x": {
-   "actualizado": "2026-11-24T18:20:23.000Z",
+   "actualizado": "2026-11-24T19:20:14.000Z",
    "buffer_id": "6b05d56820f9e770f0844916",
    "clave": "entrevistas:job00344|x",
    "creado": "2026-11-24T18:20:14.000Z",
    "dueAt": "2026-11-24T18:22:59.000Z",
+   "enviado": "2026-11-24T18:23:22.496Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T18:20:14.000Z",
    "id": "entrevistas:job00344",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125294217974927419",
    "nota_url": "",
    "noticia": "titulo:altos-chau-estroz-fatima-fiesta-salir-tacones",
    "origen": "entrevistas",
@@ -8688,18 +8690,19 @@
    "viral": false
   },
   "entrevistas:job00345|x": {
-   "actualizado": "2026-11-24T19:00:21.000Z",
+   "actualizado": "2026-11-24T19:20:14.000Z",
    "buffer_id": "6b05dece4148285e965a7e3c",
    "clave": "entrevistas:job00345|x",
    "creado": "2026-11-24T19:00:18.000Z",
    "dueAt": "2026-11-24T19:02:39.000Z",
+   "enviado": "2026-11-24T19:05:44.654Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T19:00:18.000Z",
    "id": "entrevistas:job00345",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125304880549990785",
    "nota_url": "",
    "noticia": "titulo:basquet-elizalde-ivan-piruchitos-solidario",
    "origen": "entrevistas",
@@ -15824,25 +15827,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00320|x",
-   "cuando": "2026-11-17T17:00:20.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122732278962950217"
-  },
-  {
-   "clave": "entrevistas:job00321",
-   "cuando": "2026-11-17T17:40:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00321|x",
-   "cuando": "2026-11-17T17:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
    "clave": "entrevistas:job00321|tiktok",
    "cuando": "2026-11-17T17:40:23.000Z",
    "estado": "pendiente",
@@ -19983,6 +19967,24 @@
    "cuando": "2026-11-24T19:00:32.000Z",
    "dueAt": "2026-11-24T19:02:39.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00342|x",
+   "cuando": "2026-11-24T19:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125290302558568559"
+  },
+  {
+   "clave": "entrevistas:job00344|x",
+   "cuando": "2026-11-24T19:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125294217974927419"
+  },
+  {
+   "clave": "entrevistas:job00345|x",
+   "cuando": "2026-11-24T19:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125304880549990785"
   }
  ],
  "tandas": {
@@ -20020,7 +20022,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-24",
- "ultima_sync": "2026-11-24T18:00:26.000Z",
+ "ultima_sync": "2026-11-24T19:20:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
