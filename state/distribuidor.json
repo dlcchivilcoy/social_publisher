@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-24T12:40:23.000Z"
+   "visto": "2026-11-24T14:00:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 1,
+    "scheduled": 0,
     "sent": 17
    },
    "pausado": false,
-   "visto": "2026-11-24T12:40:23.000Z"
+   "visto": "2026-11-24T14:00:19.000Z"
   }
  },
  "contenidos": {
@@ -11469,18 +11469,19 @@
    "viral": false
   },
   "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a|x": {
-   "actualizado": "2026-11-24T12:20:19.000Z",
+   "actualizado": "2026-11-24T14:00:19.000Z",
    "buffer_id": "6b05810435d19879be29bc79",
    "clave": "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a|x",
    "creado": "2026-11-24T12:20:17.000Z",
    "dueAt": "2026-11-24T12:53:40.000Z",
+   "enviado": "2026-11-24T12:53:46.605Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T12:13:17.438Z",
    "id": "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125211270101999745",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-por-dos-robos",
    "noticia": "nota:chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-por-dos-robos",
    "origen": "web",
@@ -15513,14 +15514,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:d0efc114-d938-4147-8730-19457aaf57f4|x",
-   "cuando": "2026-11-17T13:20:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "buffer_id": "6afc549ecb397a6ba1ee2b02",
    "clave": "web:d0efc114-d938-4147-8730-19457aaf57f4|x",
@@ -19673,6 +19666,12 @@
    "cuando": "2026-11-24T12:40:23.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2125196234939854863"
+  },
+  {
+   "clave": "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a|x",
+   "cuando": "2026-11-24T14:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125211270101999745"
   }
  ],
  "tandas": {
@@ -19710,7 +19709,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-24",
- "ultima_sync": "2026-11-24T12:40:23.000Z",
+ "ultima_sync": "2026-11-24T14:00:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
