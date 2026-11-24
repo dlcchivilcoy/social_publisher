@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 06:20 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 06:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 24/11/2026 06:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 1 | 5 | 8 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 7 | 6 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,22 +27,18 @@ Actualizado: 24/11/2026 06:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (8 esperando)
+## Cola propia (6 esperando)
 - X · Notas web · Chivilcoy: Patín artístico: "Life on wheels" deslumbró en el Estadio del Club Co — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Máximo Sala proyecta su 2027 con la mira puesta en la Doble Bragado y los Juegos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Tomás Delía y Simón Cisneros analizaron las claves del triunfo: el ajuste táctic — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Racing Club es el primer finalista del Torneo Clausura, espera rival entre Colón — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: El balance de Marcos Salvaggio: “Nos propusimos mantener la categoría — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: El Torneo Clausura cerró su fase regular con goleada de Once Tigres y — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Gustavo Caggiano se encuentra abocado a la redacción de un libro que busca “reco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: “Entregamos en varias oportunidades el certificado de habilitación en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-24T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34845 espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-24T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34840 no hubo lugar antes de su vencimiento
 - 2026-11-24T09:00 vencido policiales:https://junin24.com/locales/tratan-de-recuperar-u no hubo lugar antes de su vencimiento
 - 2026-11-24T09:00 vencido policiales:https://www.latrochadigital.com.ar/2026/11/23/inc no hubo lugar antes de su vencimiento
 - 2026-11-24T09:03 recibido web:418d89ff-d0d5-4393-a00a-aa5a186423df|x 
@@ -66,3 +62,5 @@ Actualizado: 24/11/2026 06:20 (hora AR) · ACTIVO
 - 2026-11-24T09:20 recibido web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x 
 - 2026-11-24T09:20 enviado web:52e07397-06d1-46f3-be67-3d5ae940b537|x 
 - 2026-11-24T09:20 programado web:418d89ff-d0d5-4393-a00a-aa5a186423df|x 
+- 2026-11-24T09:40 programado web:9abd2e31-effb-412b-b22a-68d9f05f7765|x 
+- 2026-11-24T09:40 programado web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x 
