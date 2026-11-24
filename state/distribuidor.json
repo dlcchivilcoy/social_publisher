@@ -3111,6 +3111,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-que-circulaba-3",
    "volanta": "Chivilcoy · Policiales"
   },
+  "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Aprehendieron a un menor por dos robos a comercios y un daño CHIVILCOY.– Personal policial aprehendió este martes 24 de noviembre a un joven de 17 años en la zona de calle 82, entre 25 de Mayo y avenida Mitre, tras ser vinculado mediante registros fílmicos con tres hechos ocurridos durante la víspera en distintos locales comerciales. Al momento del procedimiento, los efectivos le incautaron dos cajas registradoras y $ 42.800 en efectivo, elementos que posteriormente fueron...",
+   "generado": "2026-11-24T12:13:17.438Z",
+   "id": "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_bd6c643a27ff49649c3d1e734714b50d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-por-dos-robos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Aprehendieron a un menor por dos robos a comercios y un daño",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-por-dos-robos",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c": {
    "categoria": "",
    "descripcion": "Chivilcoy: Continúa el Festival Internacional de Cine Raices en El Chasqui En el Teatro El Chasqui se está desarrollando el Festival Internacional de Cine Raices en su tercer día de proyección y competencia, tanto de largometrajes como de cortometrajes. También se proyectan películas fuera de competencia, como ocurre con la propuesta de «Raices locales», donde se muestran largos o cortometrajes realizados en Chivilcoy o con participación chivilcoyana. El director de «EMI», Ezequiel Enriquez...",
@@ -11346,6 +11365,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a|x": {
+   "actualizado": "2026-11-24T12:20:19.000Z",
+   "buffer_id": "6b05810435d19879be29bc79",
+   "clave": "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a|x",
+   "creado": "2026-11-24T12:20:17.000Z",
+   "dueAt": "2026-11-24T12:53:40.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-24T12:13:17.438Z",
+   "id": "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-por-dos-robos",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-por-dos-robos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Aprehendieron a un menor por dos robos a comercios y un daño\n\nPersonal policial aprehendió a un joven vinculado por registros fílmicos con hechos en locales comerciales. Le incautaron dos cajas registradoras y dinero.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-por-dos-robos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Aprehendieron a un menor por dos robos a comercios y un daño",
+   "urgente": false,
+   "vence": "2026-11-24T16:13:17.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c|x": {
    "actualizado": "2026-11-15T01:20:17.000Z",
    "buffer_id": "",
@@ -15351,18 +15398,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:1cd196f2-3537-4e49-be39-a657b9945fa4|x",
-   "cuando": "2026-11-17T13:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122666879126769983"
-  },
-  {
-   "clave": "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b|x",
-   "cuando": "2026-11-17T13:00:21.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122674628095103064"
-  },
   {
    "clave": "web:5ab4f553-19c5-49e1-91e6-d9ae58211ed7|x",
    "cuando": "2026-11-17T13:00:21.000Z",
@@ -19509,6 +19544,21 @@
    "cuando": "2026-11-24T11:40:16.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2125188494410588393"
+  },
+  {
+   "clave": "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a|x",
+   "cuando": "2026-11-24T12:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6b05810435d19879be29bc79",
+   "clave": "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a|x",
+   "cuando": "2026-11-24T12:20:20.000Z",
+   "dueAt": "2026-11-24T12:53:40.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20036,6 +20086,7 @@
   "web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c": "2026-11-18T23:20:24.000Z",
   "web:3db074fa-b73d-41dc-9567-5ce1c3d65907": "2026-11-04T02:00:20.000Z",
   "web:3e3abc09-6c21-4ab2-88f6-118e63835441": "2026-10-25T21:00:16.000Z",
+  "web:3e764d05-c40e-4a27-9a3a-b330f6736f0a": "2026-11-24T12:20:17.000Z",
   "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c": "2026-11-15T01:20:17.000Z",
   "web:3f8887ff-4fa1-4011-9138-62d2d037d36b": "2026-11-23T09:03:47.000Z",
   "web:3fae7597-04b8-4378-8e2d-22c4f444cefd": "2026-11-04T10:20:13.000Z",
