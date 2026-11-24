@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 1 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 24/11/2026 14:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Recortes de entrevistas · Marcelo Speranza: ¿El verano será más frío o extremo? — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Martin Etcheverria: allanamiento y compactación de motos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Recortes de entrevistas · Martin Etcheverria: allanamiento y compactación de motos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
@@ -35,10 +36,6 @@ Actualizado: 24/11/2026 14:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-24T10:00 depurado web:9abd2e31-effb-412b-b22a-68d9f05f7765|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-24T10:00 depurado web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-24T10:00 programado web:64604e9f-8703-4ec5-996d-0046ce6f4991|x 
-- 2026-11-24T10:40 enviado web:1afcd512-3a37-4dc0-bb3c-2ef89d740d1b|x 
 - 2026-11-24T10:40 enviado web:1f15c022-45f1-4b4d-9705-ccfc81248ef4|x 
 - 2026-11-24T10:40 enviado web:418d89ff-d0d5-4393-a00a-aa5a186423df|x 
 - 2026-11-24T10:40 enviado web:5787b273-eb59-4cd3-b83e-1e5be0b2b53f|x 
@@ -60,3 +57,7 @@ Actualizado: 24/11/2026 14:20 (hora AR) · ACTIVO
 - 2026-11-24T17:00 entrevista_aprobada entrevistas:job00342 
 - 2026-11-24T17:00 recibido entrevistas:job00342|x 
 - 2026-11-24T17:00 recibido entrevistas:job00342|tiktok 
+- 2026-11-24T17:40 entrevista_aprobada entrevistas:job00343 
+- 2026-11-24T17:40 recibido entrevistas:job00343|x 
+- 2026-11-24T17:40 recibido entrevistas:job00343|tiktok 
+- 2026-11-24T17:40 programado entrevistas:job00343|x 

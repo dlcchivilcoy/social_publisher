@@ -873,6 +873,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00342.mp4",
    "youtube_url": "https://youtu.be/94HnAa1sifo"
   },
+  "entrevistas:job00343": {
+   "descripcion": "El meteorólogo Marcelo Speranza analizó el clima en Chivilcoy y desmintió los pronósticos que anuncian un verano frío. Explicó cómo afectará El Niño y las ventanas de calor intenso.",
+   "duracion_seg": null,
+   "entrevistado": "Marcelo Speranza",
+   "generado": "2026-11-24T17:40:18.000Z",
+   "id": "entrevistas:job00343",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Marcelo Speranza: ¿El verano será más frío o extremo?",
+   "urgente": false,
+   "video_bytes": 37224895,
+   "video_mb": 35.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00343.mp4",
+   "youtube_url": "https://youtu.be/LNMMnbtkmfY"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -8483,6 +8504,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00342.mp4",
    "viral": false
   },
+  "entrevistas:job00343|tiktok": {
+   "actualizado": "2026-11-24T17:40:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00343|tiktok",
+   "creado": "2026-11-24T17:40:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-24T17:40:18.000Z",
+   "id": "entrevistas:job00343",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Marcelo Speranza: ¿El verano será más frío o extremo?\n\nEl meteorólogo Marcelo Speranza analizó el clima en Chivilcoy y desmintió los pronósticos que anuncian un verano frío. Explicó cómo afectará El Niño y las ventanas de calor intenso.\n\nhttps://youtu.be/LNMMnbtkmfY\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marcelo Speranza: ¿El verano será más frío o extremo?",
+   "urgente": false,
+   "vence": "2026-11-26T17:40:18.000Z",
+   "video_bytes": 37224895,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00343.mp4",
+   "viral": false
+  },
+  "entrevistas:job00343|x": {
+   "actualizado": "2026-11-24T17:40:18.000Z",
+   "buffer_id": "6b05cc039694e6b567061704",
+   "clave": "entrevistas:job00343|x",
+   "creado": "2026-11-24T17:40:18.000Z",
+   "dueAt": "2026-11-24T17:42:25.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-24T17:40:18.000Z",
+   "id": "entrevistas:job00343",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:extremo-frio-marcelo-sera-speranza-verano",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Marcelo Speranza: ¿El verano será más frío o extremo?\n\nEl meteorólogo Marcelo Speranza analizó el clima en Chivilcoy y desmintió los pronósticos que anuncian un verano frío. Explicó cómo afectará El Niño y las ventanas de calor intenso.\n\nhttps://youtu.be/LNMMnbtkmfY",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Marcelo Speranza: ¿El verano será más frío o extremo?",
+   "urgente": false,
+   "vence": "2026-11-24T19:40:18.000Z",
+   "video_bytes": 37224895,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00343.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
    "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
@@ -15592,30 +15669,6 @@
  },
  "registro": [
   {
-   "clave": "web:14c161cd-c8d1-48e8-8946-281aee6be5d2|x",
-   "cuando": "2026-11-17T14:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122678330629435482"
-  },
-  {
-   "clave": "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab|x",
-   "cuando": "2026-11-17T14:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122682104693530637"
-  },
-  {
-   "clave": "web:53643e41-5b43-415e-b955-0740b1d0ee5b|x",
-   "cuando": "2026-11-17T14:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122693304307351651"
-  },
-  {
-   "clave": "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9|x",
-   "cuando": "2026-11-17T14:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122685753851257293"
-  },
-  {
    "clave": "web:d0efc114-d938-4147-8730-19457aaf57f4|x",
    "cuando": "2026-11-17T14:20:13.000Z",
    "evento": "enviado",
@@ -19749,6 +19802,34 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00343",
+   "cuando": "2026-11-24T17:40:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00343|x",
+   "cuando": "2026-11-24T17:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00343|tiktok",
+   "cuando": "2026-11-24T17:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b05cc039694e6b567061704",
+   "clave": "entrevistas:job00343|x",
+   "cuando": "2026-11-24T17:40:19.000Z",
+   "dueAt": "2026-11-24T17:42:25.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -19993,6 +20074,7 @@
   "entrevistas:job00340": "2026-11-23T18:40:20.000Z",
   "entrevistas:job00341": "2026-11-23T19:20:15.000Z",
   "entrevistas:job00342": "2026-11-24T17:00:25.000Z",
+  "entrevistas:job00343": "2026-11-24T17:40:18.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
