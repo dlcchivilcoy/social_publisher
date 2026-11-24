@@ -17,7 +17,7 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-23T23:20:16.000Z"
+   "visto": "2026-11-24T02:40:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 20
    },
    "pausado": false,
-   "visto": "2026-11-23T23:20:16.000Z"
+   "visto": "2026-11-24T02:40:19.000Z"
   }
  },
  "contenidos": {
@@ -929,6 +929,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_03_san-antonio-de-areco_dos-muertos-tras-un-choque-e-i.mp4",
    "volanta": "Tragedia en San Antonio de Areco",
    "youtube_url": "https://youtube.com/shorts/q2a1tJHciFY"
+  },
+  "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/": {
+   "categoria": "estafa",
+   "descripcion": "Tres mayores de edad fueron aprehendidos tras intentar retirar dólares con DNI falsos en una entidad bancaria. La investigación reveló maniobras previas en Bragado y derivó en operativos con secuestros y pericias.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-24T02:32:09.000Z",
+   "id": "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/",
+   "localidad": "9 de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-desarticularon-una-banda-de-estafadores-que-operaba-0f6173",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Tres mayores de edad quedaron aprehendidos tras una intervención policial en una sucursal bancaria de 9 de Julio, donde intentaban retirar dinero con documentación falsa.\n\nLas tareas investigativas permitieron vincularlos con otro suceso previo en la ciudad de Bragado y capturar a un tercer sospechoso en un peaje de la zona.\n\nLa causa quedó a disposición de la justicia departamental.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #EstafaBancaria #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron a tres personas por estafas bancarias en 9 de Julio y Bragado",
+   "urgente": false,
+   "video_bytes": 74137,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_04_bragado_detuvieron-a-tres-personas-por.mp4",
+   "volanta": "Estafa en 9 de Julio",
+   "youtube_url": "https://youtube.com/shorts/UTxnwmi2tLw"
   },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": {
    "categoria": "otro_policial",
@@ -8040,6 +8066,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_03_san-antonio-de-areco_dos-muertos-tras-un-choque-e-i.mp4",
    "viral": true
   },
+  "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/|x": {
+   "actualizado": "2026-11-24T02:40:13.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/|x",
+   "creado": "2026-11-24T02:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-24T02:32:09.000Z",
+   "id": "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-desarticularon-una-banda-de-estafadores-que-operaba-0f6173",
+   "noticia": "nota:9-de-julio-desarticularon-una-banda-de-estafadores-que-operaba-0f6173",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Detuvieron a tres personas por estafas bancarias en 9 de Julio y Bragado\n\nTres mayores de edad fueron aprehendidos al intentar retirar dólares con DNI falsos. La investigación reveló maniobras previas y derivó en operativos con secuestros.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-desarticularon-una-banda-de-estafadores-que-operaba-0f6173",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a tres personas por estafas bancarias en 9 de Julio y Bragado",
+   "urgente": false,
+   "vence": "2026-11-24T04:32:09.000Z",
+   "video_bytes": 74137,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_04_bragado_detuvieron-a-tres-personas-por.mp4",
+   "viral": false
+  },
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/|x": {
    "actualizado": "2026-11-17T00:40:21.000Z",
    "buffer_id": "",
@@ -9185,18 +9239,19 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/348457-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de|x": {
-   "actualizado": "2026-11-24T02:20:35.000Z",
+   "actualizado": "2026-11-24T02:40:19.000Z",
    "buffer_id": "6b04f4749a4bd32ca3e826c4",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/348457-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de|x",
    "creado": "2026-11-24T02:20:22.000Z",
    "dueAt": "2026-11-24T02:23:56.000Z",
+   "enviado": "2026-11-24T02:24:04.005Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-24T02:01:50.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/348457-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125052800077815924",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de-cab868",
    "noticia": "nota:chacabuco-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de-cab868",
    "origen": "policiales",
@@ -14463,22 +14518,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas|x",
-   "cuando": "2026-11-17T00:40:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "web:4b894c99-4b3e-4cec-9703-086eaee6d5d4|x",
-   "cuando": "2026-11-17T00:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/|x",
    "cuando": "2026-11-17T00:40:21.000Z",
    "evento": "vencido",
@@ -18624,6 +18663,20 @@
    "cuando": "2026-11-24T02:20:36.000Z",
    "dueAt": "2026-11-24T02:23:56.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/|x",
+   "cuando": "2026-11-24T02:40:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348457-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de|x",
+   "cuando": "2026-11-24T02:40:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125052800077815924"
   }
  ],
  "tandas": {
@@ -18661,7 +18714,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-24",
- "ultima_sync": "2026-11-23T23:20:16.000Z",
+ "ultima_sync": "2026-11-24T02:40:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -18877,6 +18930,7 @@
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
   "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/": "2026-11-23T02:20:14.000Z",
+  "policiales:https://bragadoesnoticia.com.ar/desarticulan-una-presunta-banda-dedicada-a-estafas-bancarias-que-tambien-operaba-en-bragado/": "2026-11-24T02:40:13.000Z",
   "policiales:https://bragadoesnoticia.com.ar/moto-choca-con-un-camion-una-persona-herida/": "2026-11-16T22:40:15.000Z",
   "policiales:https://casaresonline.com.ar/alberti-encontraron-un-cuerpo-en-el-canal-cafiero-y-sospechan-que-pertenece-al-joven-desaparecido-en-mechita-hay-dos-personas-demoradas/": "2026-11-10T22:40:14.000Z",
   "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte": "2026-11-20T02:20:19.000Z",

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 23/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 23/11/2026 23:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-23)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 23/11/2026 23:20 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 3 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 2 | 0 | 3 | 0 |
 | Notas web | X | 15 | 13 | 0 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,14 @@ Actualizado: 23/11/2026 23:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
 - X · Reels policiales · Apuñalaron a un joven de 24 años en calle Belgrano y detuvieron a la expareja de — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Detuvieron a tres personas por estafas bancarias en 9 de Julio y Bragado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-23T19:20 entrevista_aprobada entrevistas:job00341 
-- 2026-11-23T19:20 recibido entrevistas:job00341|x 
 - 2026-11-23T19:20 recibido entrevistas:job00341|tiktok 
 - 2026-11-23T19:20 programado entrevistas:job00341|x 
 - 2026-11-23T20:00 enviado entrevistas:job00340|x 
@@ -59,3 +58,5 @@ Actualizado: 23/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-24T02:20 recibido policiales:https://www.diariodemocracia.com/policiales/34845 
 - 2026-11-24T02:20 recibido policiales:https://www.diariodemocracia.com/policiales/34845 
 - 2026-11-24T02:20 programado policiales:https://www.diariodemocracia.com/policiales/34845 
+- 2026-11-24T02:40 recibido policiales:https://bragadoesnoticia.com.ar/desarticulan-una- 
+- 2026-11-24T02:40 enviado policiales:https://www.diariodemocracia.com/policiales/34845 
