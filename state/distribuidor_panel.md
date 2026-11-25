@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 17:00 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 17:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
@@ -27,8 +27,9 @@ Actualizado: 25/11/2026 17:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (6 esperando)
 - TikTok · Reels del bot · Forzaron la entrada del comercio Plackcell por segunda vez en el año — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Romina Serrano: la vitamina D funciona como una hormona — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Chechu de Laberintoh explica el dolor y el placer — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Alberto Butteri y la durísima prueba de bomberos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Gina Viscardi: organizar la mente para crear tras sufrir ansiedad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -38,10 +39,6 @@ Actualizado: 25/11/2026 17:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T17:20 entrevista_aprobada entrevistas:job00347 
-- 2026-11-25T17:20 recibido entrevistas:job00347|x 
-- 2026-11-25T17:20 recibido entrevistas:job00347|tiktok 
-- 2026-11-25T17:20 programado entrevistas:job00347|x 
 - 2026-11-25T17:40 enviado entrevistas:job00347|x 
 - 2026-11-25T18:00 entrevista_aprobada entrevistas:job00348 
 - 2026-11-25T18:00 recibido entrevistas:job00348|x 
@@ -63,3 +60,7 @@ Actualizado: 25/11/2026 17:00 (hora AR) · ACTIVO
 - 2026-11-25T19:40 enviado entrevistas:job00349|x 
 - 2026-11-25T19:40 programado bot:video_matias-zucchi_mwwi0l704484_01.mp4|x 
 - 2026-11-25T19:40 programado entrevistas:job00350|x 
+- 2026-11-25T20:20 entrevista_aprobada entrevistas:job00351 
+- 2026-11-25T20:20 recibido entrevistas:job00351|x 
+- 2026-11-25T20:20 recibido entrevistas:job00351|tiktok 
+- 2026-11-25T20:20 programado entrevistas:job00351|x 

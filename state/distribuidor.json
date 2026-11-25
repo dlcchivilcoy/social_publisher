@@ -1104,6 +1104,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00350.mp4",
    "youtube_url": "https://youtu.be/VpRnl6u9Tx0"
   },
+  "entrevistas:job00351": {
+   "descripcion": "En Chivilcoy, la médica dermatóloga Romina Serrano explicó la relevancia de la vitamina D y su déficit en enfermedades inflamatorias como la psoriasis. Conocé por qué es clave reponerla por vía oral.",
+   "duracion_seg": null,
+   "entrevistado": "Romina Serrano",
+   "generado": "2026-11-25T20:20:15.000Z",
+   "id": "entrevistas:job00351",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Romina Serrano: la vitamina D funciona como una hormona",
+   "urgente": false,
+   "video_bytes": 39092077,
+   "video_mb": 37.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00351.mp4",
+   "youtube_url": "https://youtu.be/9uX07FNNcRA"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -9826,6 +9847,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00350.mp4",
    "viral": false
   },
+  "entrevistas:job00351|tiktok": {
+   "actualizado": "2026-11-25T20:20:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00351|tiktok",
+   "creado": "2026-11-25T20:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-25T20:20:15.000Z",
+   "id": "entrevistas:job00351",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Romina Serrano: la vitamina D funciona como una hormona\n\nEn Chivilcoy, la médica dermatóloga Romina Serrano explicó la relevancia de la vitamina D y su déficit en enfermedades inflamatorias como la psoriasis. Conocé por qué es clave reponerla por vía oral.\n\nhttps://youtu.be/9uX07FNNcRA\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Romina Serrano: la vitamina D funciona como una hormona",
+   "urgente": false,
+   "vence": "2026-11-27T20:20:15.000Z",
+   "video_bytes": 39092077,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00351.mp4",
+   "viral": false
+  },
+  "entrevistas:job00351|x": {
+   "actualizado": "2026-11-25T20:20:18.000Z",
+   "buffer_id": "6b0743036d6a7603c626421d",
+   "clave": "entrevistas:job00351|x",
+   "creado": "2026-11-25T20:20:15.000Z",
+   "dueAt": "2026-11-25T20:22:11.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-25T20:20:15.000Z",
+   "id": "entrevistas:job00351",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:funciona-hormona-romina-serrano-vitamina",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Romina Serrano: la vitamina D funciona como una hormona\n\nEn Chivilcoy, la médica dermatóloga Romina Serrano explicó la relevancia de la vitamina D y su déficit en la psoriasis. También detalló por qué es clave reponerla por vía oral.\n\nhttps://youtu.be/9uX07FNNcRA",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Romina Serrano: la vitamina D funciona como una hormona",
+   "urgente": false,
+   "vence": "2026-11-25T22:20:15.000Z",
+   "video_bytes": 39092077,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00351.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
    "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
@@ -17661,35 +17738,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6afe5ce946636f319e7ebdad",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html|x",
-   "cuando": "2026-11-19T02:20:25.000Z",
-   "dueAt": "2026-11-19T02:23:27.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/348231-robaron-una-caja-de-seguridad-en-un-estudio-contab|x",
-   "cuando": "2026-11-19T02:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html|x",
-   "cuando": "2026-11-19T02:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123240732467105866"
-  },
-  {
-   "clave": "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/|x",
-   "cuando": "2026-11-19T09:00:19.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html|x",
    "cuando": "2026-11-19T09:00:21.000Z",
    "estado": "pendiente",
@@ -21825,6 +21873,34 @@
    "cuando": "2026-11-25T19:40:22.000Z",
    "dueAt": "2026-11-25T19:47:23.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00351",
+   "cuando": "2026-11-25T20:20:16.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00351|x",
+   "cuando": "2026-11-25T20:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00351|tiktok",
+   "cuando": "2026-11-25T20:20:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b0743036d6a7603c626421d",
+   "clave": "entrevistas:job00351|x",
+   "cuando": "2026-11-25T20:20:19.000Z",
+   "dueAt": "2026-11-25T20:22:11.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22068,6 +22144,7 @@
   "entrevistas:job00348": "2026-11-25T18:00:31.000Z",
   "entrevistas:job00349": "2026-11-25T19:00:22.000Z",
   "entrevistas:job00350": "2026-11-25T19:40:15.000Z",
+  "entrevistas:job00351": "2026-11-25T20:20:15.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
