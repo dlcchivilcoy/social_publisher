@@ -17,7 +17,7 @@
     "sent": 6
    },
    "pausado": false,
-   "visto": "2026-11-25T00:20:20.000Z"
+   "visto": "2026-11-25T01:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 18
+    "sent": 19
    },
    "pausado": false,
-   "visto": "2026-11-25T00:20:20.000Z"
+   "visto": "2026-11-25T01:40:14.000Z"
   }
  },
  "contenidos": {
@@ -3206,25 +3206,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-menor-por-dos-robos",
    "volanta": "Chivilcoy · Policiales"
   },
-  "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Continúa el Festival Internacional de Cine Raices en El Chasqui En el Teatro El Chasqui se está desarrollando el Festival Internacional de Cine Raices en su tercer día de proyección y competencia, tanto de largometrajes como de cortometrajes. También se proyectan películas fuera de competencia, como ocurre con la propuesta de «Raices locales», donde se muestran largos o cortometrajes realizados en Chivilcoy o con participación chivilcoyana. El director de «EMI», Ezequiel Enriquez...",
-   "generado": "2026-11-15T01:02:44.524Z",
-   "id": "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_46112a25547d4844b80ed8ca5bab6055~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Continúa el Festival Internacional de Cine Raices en El Chasqui",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
-   "volanta": "Chivilcoy · Cultura"
-  },
   "web:3f8887ff-4fa1-4011-9138-62d2d037d36b": {
    "categoria": "",
    "descripcion": "Fernando Antonelli advirtió sobre despidos y el cese de áreas productivas en Chivilcoy El delegado regional del Ministerio de Trabajo de la Provincia de Buenos Aires, doctor Fernando Antonelli, trazó un crudo y detallado diagnóstico acerca del deterioro del empleo en Chivilcoy. Durante una entrevista concedida a Radio del Centro, el funcionario advirtió sobre una dinámica empresarial reiterada: la clausura definitiva de los sectores operativos y manufactureros para conservar únicamente...",
@@ -4060,25 +4041,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/politica-local-federico-feminella-renuncio-a-la-direccion-ejecutiva",
    "volanta": "Política local"
-  },
-  "web:761944f8-e1c1-436a-9ef1-bf5df2286672": {
-   "categoria": "",
-   "descripcion": "Colón venció a Bragado Club y pasó a la final Por la semifinal de la Copa de Oro de la categoría Cadetes, Colón recibió a Bragado Club. Fue triunfo del local por 62 a 32, con lo que se ganó el pasaje a la final, donde enfrentará a Argentino, que fue el ganador de la otra semifinal. Felicitaciones a todos.",
-   "generado": "2026-11-15T01:08:25.289Z",
-   "id": "web:761944f8-e1c1-436a-9ef1-bf5df2286672",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_8a087cfe1d0042fea887489e2f42724e~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-colon-vencio-a-bragado-club-y-paso-a-la-final",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Colón venció a Bragado Club y pasó a la final",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-colon-vencio-a-bragado-club-y-paso-a-la-final",
-   "volanta": "Chivilcoy · Deportes"
   },
   "web:764b2539-78a7-4f05-92a1-20413bf6f24b": {
    "categoria": "",
@@ -6567,18 +6529,19 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwve046qdarc_01.mp4|x": {
-   "actualizado": "2026-11-25T00:40:19.000Z",
+   "actualizado": "2026-11-25T01:40:14.000Z",
    "buffer_id": "6b062e74f0b405190ac90377",
    "clave": "bot:video_matias-zucchi_mwve046qdarc_01.mp4|x",
    "creado": "2026-11-25T00:40:14.000Z",
    "dueAt": "2026-11-25T00:42:23.000Z",
+   "enviado": "2026-11-25T00:42:37.107Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T00:37:12.000Z",
    "id": "bot:video_matias-zucchi_mwve046qdarc_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125389657709977777",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
    "noticia": "nota:chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
    "origen": "bot",
@@ -11932,31 +11895,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c|x": {
-   "actualizado": "2026-11-15T01:20:17.000Z",
-   "buffer_id": "",
-   "clave": "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c|x",
-   "creado": "2026-11-15T01:20:17.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-15T01:02:44.524Z",
-   "id": "web:3eafe838-318c-4ddb-95e3-9d06fd8cab1c",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
-   "noticia": "nota:chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Continúa el Festival Internacional de Cine Raices en El Chasqui",
-   "urgente": false,
-   "vence": "2026-11-15T05:02:44.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:3f8887ff-4fa1-4011-9138-62d2d037d36b|x": {
    "actualizado": "2026-11-23T10:40:13.000Z",
    "buffer_id": "6b0401cd9c1a68014f60ff1f",
@@ -13432,33 +13370,6 @@
    "titulo": "Federico Feminella renunció a la Dirección Ejecutiva de PAMI Chivilcoy, continuará como concejal",
    "urgente": false,
    "vence": "2026-11-18T14:01:57.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:761944f8-e1c1-436a-9ef1-bf5df2286672|x": {
-   "actualizado": "2026-11-15T01:20:32.000Z",
-   "buffer_id": "",
-   "clave": "web:761944f8-e1c1-436a-9ef1-bf5df2286672|x",
-   "creado": "2026-11-15T01:20:17.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-15T01:08:25.289Z",
-   "id": "web:761944f8-e1c1-436a-9ef1-bf5df2286672",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-colon-vencio-a-bragado-club-y-paso-a-la-final",
-   "noticia": "nota:chivilcoy-deportes-colon-vencio-a-bragado-club-y-paso-a-la-final",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Colón venció a Bragado Club y pasó a la final\n\nPor la semifinal de la Copa de Oro de la categoría Cadetes, Colón recibió a Bragado Club.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-colon-vencio-a-bragado-club-y-paso-a-la-final",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Colón venció a Bragado Club y pasó a la final",
-   "urgente": false,
-   "vence": "2026-11-15T05:08:25.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16001,14 +15912,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x",
-   "cuando": "2026-11-17T22:20:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "buffer_id": "6afcd31fc68ceea50aaa2139",
    "clave": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x",
@@ -20158,6 +20061,12 @@
    "cuando": "2026-11-25T00:40:20.000Z",
    "dueAt": "2026-11-25T00:42:23.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwve046qdarc_01.mp4|x",
+   "cuando": "2026-11-25T01:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125389657709977777"
   }
  ],
  "tandas": {
@@ -20195,7 +20104,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-25",
- "ultima_sync": "2026-11-25T00:20:20.000Z",
+ "ultima_sync": "2026-11-25T01:40:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
