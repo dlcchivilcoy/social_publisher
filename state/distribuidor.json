@@ -15980,14 +15980,14 @@
    "viral": false
   },
   "web:d45928cf-7fdb-4476-904f-f002db28e6f3|x": {
-   "actualizado": "2026-11-25T09:03:59.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-25T09:40:20.000Z",
+   "buffer_id": "6b06ad05d8190259b88dd2f9",
    "clave": "web:d45928cf-7fdb-4476-904f-f002db28e6f3|x",
    "creado": "2026-11-25T09:03:59.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-25T10:53:04.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-25T09:03:00.535Z",
    "id": "web:d45928cf-7fdb-4476-904f-f002db28e6f3",
    "ig_hora": "2026-11-25T10:53:46.000Z",
@@ -16873,14 +16873,14 @@
    "viral": false
   },
   "web:f6e503e0-4701-4361-8023-144c9fe4fff2|x": {
-   "actualizado": "2026-11-25T09:03:59.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-25T09:40:20.000Z",
+   "buffer_id": "6b06ad056212ba833caf4acc",
    "clave": "web:f6e503e0-4701-4361-8023-144c9fe4fff2|x",
    "creado": "2026-11-25T09:03:59.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-25T11:08:36.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-25T09:03:05.318Z",
    "id": "web:f6e503e0-4701-4361-8023-144c9fe4fff2",
    "ig_hora": "2026-11-25T11:08:46.000Z",
@@ -17031,19 +17031,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6afd89ed986651ea338887df",
-   "clave": "web:9d8ecd66-8e74-41a7-9a81-7553d8501625|x",
-   "cuando": "2026-11-18T11:20:13.000Z",
-   "dueAt": "2026-11-18T12:37:14.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:34ca221c-d3ad-47c6-a684-17ca82485f5e|x",
-   "cuando": "2026-11-18T11:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123017816320184726"
-  },
   {
    "clave": "web:692034a6-2c77-4c88-827a-99bbd456a36c|x",
    "cuando": "2026-11-18T11:40:18.000Z",
@@ -21195,6 +21182,20 @@
    "clave": "web:ddb4bc54-794b-4b92-8f34-46b1c1e25b4a|x",
    "cuando": "2026-11-25T09:20:20.000Z",
    "dueAt": "2026-11-25T10:38:35.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b06ad05d8190259b88dd2f9",
+   "clave": "web:d45928cf-7fdb-4476-904f-f002db28e6f3|x",
+   "cuando": "2026-11-25T09:40:21.000Z",
+   "dueAt": "2026-11-25T10:53:04.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b06ad056212ba833caf4acc",
+   "clave": "web:f6e503e0-4701-4361-8023-144c9fe4fff2|x",
+   "cuando": "2026-11-25T09:40:21.000Z",
+   "dueAt": "2026-11-25T11:08:36.000Z",
    "evento": "programado"
   }
  ],

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 06:20 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 06:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 25/11/2026 06:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Notas web | X | 15 | 1 | 5 | 9 | 0 | 0 | 0 |
+| Notas web | X | 15 | 1 | 7 | 7 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,7 +27,7 @@ Actualizado: 25/11/2026 06:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (11 esperando)
+## Cola propia (9 esperando)
 - TikTok · Reels del bot · Deportivo Colón y Racing Club jugarán la final del Torneo Clausura — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · La última etapa del prix del norte se disputó en Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · El Campeonato Regional de Rally consagró a sus campeones de la temporada 2026 en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -35,8 +35,6 @@ Actualizado: 25/11/2026 06:20 (hora AR) · ACTIVO
 - X · Notas web · Chivilcoy: Alimentos No Perecederos y Juguetes: Iván Elizalde junto a Salva Otei — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Festejo, historia y presente ganador: Florencio Varela celebró su cena y ya pien — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Súper Moli golpeó por penales, se quedó con la Liguilla y forzó la Sú — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Peña folklórica para Adultos Mayores y entrega de ambos confeccionado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: La milonga La Puñalada llega a su 10° edición y lo festejará junto a  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: 25N: prevención, asistencia y compromiso social, los ejes del abordaj — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -44,8 +42,6 @@ Actualizado: 25/11/2026 06:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T09:00 vencido policiales:https://www.bragadoinforma.com.ar/nota/31220/tens espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-25T09:00 vencido policiales:https://lobos24.com.ar/2026/11/24/informacion-de- no hubo lugar antes de su vencimiento
 - 2026-11-25T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/rescate-e no hubo lugar antes de su vencimiento
 - 2026-11-25T09:04 recibido web:d74994de-502e-4337-9520-6ed2b5a25bae|x 
 - 2026-11-25T09:04 recibido web:cae8f993-8dcb-468d-8000-3d7a60bcca52|x 
@@ -69,3 +65,5 @@ Actualizado: 25/11/2026 06:20 (hora AR) · ACTIVO
 - 2026-11-25T09:05 programado web:0f583263-cff5-49e8-af45-ef80b5826e6c|x 
 - 2026-11-25T09:20 enviado web:050f605d-892a-436d-9386-3e34bc71592e|x 
 - 2026-11-25T09:20 programado web:ddb4bc54-794b-4b92-8f34-46b1c1e25b4a|x 
+- 2026-11-25T09:40 programado web:d45928cf-7fdb-4476-904f-f002db28e6f3|x 
+- 2026-11-25T09:40 programado web:f6e503e0-4701-4361-8023-144c9fe4fff2|x 
