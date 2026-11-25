@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-25T09:20:19.000Z"
+   "visto": "2026-11-25T10:40:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 4,
-    "sent": 16
+    "scheduled": 2,
+    "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-25T09:20:19.000Z"
+   "visto": "2026-11-25T10:40:15.000Z"
   }
  },
  "contenidos": {
@@ -11151,19 +11151,20 @@
    "viral": false
   },
   "web:05f62681-9aa5-43aa-a039-6fea901495ed|x": {
-   "actualizado": "2026-11-25T09:05:20.000Z",
+   "actualizado": "2026-11-25T10:40:15.000Z",
    "buffer_id": "6b06a4d340e1d58d1214a134",
    "clave": "web:05f62681-9aa5-43aa-a039-6fea901495ed|x",
    "creado": "2026-11-25T09:03:59.000Z",
    "dueAt": "2026-11-25T09:53:33.000Z",
+   "enviado": "2026-11-25T09:53:46.056Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T09:02:14.708Z",
    "id": "web:05f62681-9aa5-43aa-a039-6fea901495ed",
    "ig_hora": "2026-11-25T09:53:46.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125528358565920865",
    "nota_url": "https://www.diariolacampaña.com.ar/n/paso-por-chivilcoy-franco-flexas-recorre-a-pie-la-provincia-de-buenos",
    "noticia": "nota:paso-por-chivilcoy-franco-flexas-recorre-a-pie-la-provincia-de-buenos",
    "origen": "web",
@@ -11796,19 +11797,20 @@
    "viral": false
   },
   "web:1efd7937-7442-429d-9454-7538e34225e8|x": {
-   "actualizado": "2026-11-25T09:05:20.000Z",
+   "actualizado": "2026-11-25T10:40:15.000Z",
    "buffer_id": "6b06a4d240e1d58d12149ee0",
    "clave": "web:1efd7937-7442-429d-9454-7538e34225e8|x",
    "creado": "2026-11-25T09:03:59.000Z",
    "dueAt": "2026-11-25T09:38:40.000Z",
+   "enviado": "2026-11-25T09:38:46.174Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T09:02:03.618Z",
    "id": "web:1efd7937-7442-429d-9454-7538e34225e8",
    "ig_hora": "2026-11-25T09:38:46.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125524583704834091",
    "nota_url": "https://www.diariolacampaña.com.ar/n/concejo-deliberante-chivilcoy-martin-etcheverria-repaso-sus-proyectos",
    "noticia": "nota:concejo-deliberante-chivilcoy-martin-etcheverria-repaso-sus-proyectos",
    "origen": "web",
@@ -12982,19 +12984,20 @@
    "viral": false
   },
   "web:44c83f47-fa9b-471a-8f63-c5e8ca0016d8|x": {
-   "actualizado": "2026-11-25T09:05:20.000Z",
+   "actualizado": "2026-11-25T10:40:15.000Z",
    "buffer_id": "6b06a4d422dfb7833a975de3",
    "clave": "web:44c83f47-fa9b-471a-8f63-c5e8ca0016d8|x",
    "creado": "2026-11-25T09:03:59.000Z",
    "dueAt": "2026-11-25T10:08:30.000Z",
+   "enviado": "2026-11-25T10:08:31.301Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T09:02:24.352Z",
    "id": "web:44c83f47-fa9b-471a-8f63-c5e8ca0016d8",
    "ig_hora": "2026-11-25T10:08:46.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125532071355363600",
    "nota_url": "https://www.diariolacampaña.com.ar/n/reclamo-vial-carlos-mosso-analizo-el-critico-estado-de-las-obras-y",
    "noticia": "nota:reclamo-vial-carlos-mosso-analizo-el-critico-estado-de-las-obras-y",
    "origen": "web",
@@ -15092,14 +15095,14 @@
    "viral": false
   },
   "web:a7006b82-c26d-419f-8d32-75902a38cfde|x": {
-   "actualizado": "2026-11-25T09:03:59.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-25T10:40:15.000Z",
+   "buffer_id": "6b06bb1047d547758403b471",
    "clave": "web:a7006b82-c26d-419f-8d32-75902a38cfde|x",
    "creado": "2026-11-25T09:03:59.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-25T11:53:08.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-25T09:03:18.097Z",
    "id": "web:a7006b82-c26d-419f-8d32-75902a38cfde",
    "ig_hora": "2026-11-25T11:53:46.000Z",
@@ -16223,19 +16226,20 @@
    "viral": false
   },
   "web:ddb4bc54-794b-4b92-8f34-46b1c1e25b4a|x": {
-   "actualizado": "2026-11-25T09:20:19.000Z",
+   "actualizado": "2026-11-25T10:40:15.000Z",
    "buffer_id": "6b06a8546212ba833cad69d2",
    "clave": "web:ddb4bc54-794b-4b92-8f34-46b1c1e25b4a|x",
    "creado": "2026-11-25T09:03:59.000Z",
    "dueAt": "2026-11-25T10:38:35.000Z",
+   "enviado": "2026-11-25T10:38:46.059Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T09:02:56.593Z",
    "id": "web:ddb4bc54-794b-4b92-8f34-46b1c1e25b4a",
    "ig_hora": "2026-11-25T10:38:46.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125539683228622864",
    "nota_url": "https://www.diariolacampaña.com.ar/n/vocacion-de-servicio-defensa-civil-chivilcoy-celebro-su-dia-con-una",
    "noticia": "nota:vocacion-de-servicio-defensa-civil-chivilcoy-celebro-su-dia-con-una",
    "origen": "web",
@@ -16806,14 +16810,14 @@
    "viral": false
   },
   "web:f698d077-1709-4e35-97fc-3ba2f9d16745|x": {
-   "actualizado": "2026-11-25T09:03:59.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-25T10:40:15.000Z",
+   "buffer_id": "6b06bb10f81b8caf36900059",
    "clave": "web:f698d077-1709-4e35-97fc-3ba2f9d16745|x",
    "creado": "2026-11-25T09:03:59.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-25T12:08:50.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-25T09:03:22.279Z",
    "id": "web:f698d077-1709-4e35-97fc-3ba2f9d16745",
    "ig_hora": "2026-11-25T12:08:46.000Z",
@@ -17031,48 +17035,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:bb99a3ee-2a46-43f4-9098-145146c59f56|x",
-   "cuando": "2026-11-18T11:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123002592401752333"
-  },
-  {
-   "buffer_id": "6afd8ea203c6b6e75e033c18",
-   "clave": "web:09d582bb-d391-4be5-adf7-75cec83c05fe|x",
-   "cuando": "2026-11-18T11:40:18.000Z",
-   "dueAt": "2026-11-18T12:52:00.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afd8ea2771ad9d67623f1ee",
-   "clave": "web:44289470-403b-4f8c-b4f2-0f1d3fba55d0|x",
-   "cuando": "2026-11-18T11:40:18.000Z",
-   "dueAt": "2026-11-18T13:07:13.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afd935367b44b742a516318",
-   "clave": "web:fad92e16-ef85-4bcc-b7ff-84f088f97a85|x",
-   "cuando": "2026-11-18T12:00:19.000Z",
-   "dueAt": "2026-11-18T13:22:09.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:c4854cf8-a2b0-40af-8957-20584264a3a0|x",
-   "cuando": "2026-11-18T12:20:18.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6afd9802771ad9d6762858df",
-   "clave": "web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90|x",
-   "cuando": "2026-11-18T12:20:18.000Z",
-   "dueAt": "2026-11-18T13:37:33.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6afd9cb03cc95fb47cef844b",
    "clave": "web:c4854cf8-a2b0-40af-8957-20584264a3a0|x",
@@ -21198,6 +21160,44 @@
    "cuando": "2026-11-25T10:20:15.000Z",
    "dueAt": "2026-11-25T11:38:52.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:05f62681-9aa5-43aa-a039-6fea901495ed|x",
+   "cuando": "2026-11-25T10:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125528358565920865"
+  },
+  {
+   "clave": "web:1efd7937-7442-429d-9454-7538e34225e8|x",
+   "cuando": "2026-11-25T10:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125524583704834091"
+  },
+  {
+   "clave": "web:44c83f47-fa9b-471a-8f63-c5e8ca0016d8|x",
+   "cuando": "2026-11-25T10:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125532071355363600"
+  },
+  {
+   "clave": "web:ddb4bc54-794b-4b92-8f34-46b1c1e25b4a|x",
+   "cuando": "2026-11-25T10:40:15.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125539683228622864"
+  },
+  {
+   "buffer_id": "6b06bb1047d547758403b471",
+   "clave": "web:a7006b82-c26d-419f-8d32-75902a38cfde|x",
+   "cuando": "2026-11-25T10:40:16.000Z",
+   "dueAt": "2026-11-25T11:53:08.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b06bb10f81b8caf36900059",
+   "clave": "web:f698d077-1709-4e35-97fc-3ba2f9d16745|x",
+   "cuando": "2026-11-25T10:40:16.000Z",
+   "dueAt": "2026-11-25T12:08:50.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21235,7 +21235,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-25",
- "ultima_sync": "2026-11-25T09:20:19.000Z",
+ "ultima_sync": "2026-11-25T10:40:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
