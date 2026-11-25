@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
@@ -18,7 +18,7 @@ Actualizado: 25/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 83 · likes 0
-- X · Reels del bot: 12 con métricas · mediana vistas/impresiones 84.5 · likes 0
+- X · Reels del bot: 11 con métricas · mediana vistas/impresiones 72 · likes 0
 - X · Reels policiales: 10 con métricas · mediana vistas/impresiones 85.5 · likes 0
 - X · Notas web: 107 con métricas · mediana vistas/impresiones 22 · likes 0
 - TikTok · Recortes de entrevistas: 32 con métricas · mediana vistas/impresiones 147.5 · likes 1
@@ -27,16 +27,13 @@ Actualizado: 25/11/2026 14:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Recortes de entrevistas · Rogelio Zilliotti: por qué no saca fotos con gente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T11:20 programado web:cae8f993-8dcb-468d-8000-3d7a60bcca52|x 
-- 2026-11-25T11:40 programado web:d74994de-502e-4337-9520-6ed2b5a25bae|x 
-- 2026-11-25T12:00 recibido web:f949cd3a-20b5-4eff-981f-52a316b0ff85|x 
-- 2026-11-25T12:00 enviado web:03a74db9-6c2a-429e-927d-0b4a3a0e5a7b|x 
 - 2026-11-25T12:00 enviado web:a7006b82-c26d-419f-8d32-75902a38cfde|x 
 - 2026-11-25T12:00 enviado web:d45928cf-7fdb-4476-904f-f002db28e6f3|x 
 - 2026-11-25T12:00 enviado web:f6e503e0-4701-4361-8023-144c9fe4fff2|x 
@@ -58,3 +55,7 @@ Actualizado: 25/11/2026 14:00 (hora AR) · ACTIVO
 - 2026-11-25T14:00 enviado web:d7b743b0-decb-4fd8-8f34-dc15c4a2e39c|x 
 - 2026-11-25T16:00 recibido web:0e615bd0-eb94-46b5-8457-1eff754ee293|x 
 - 2026-11-25T16:00 depurado web:0e615bd0-eb94-46b5-8457-1eff754ee293|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-25T17:20 entrevista_aprobada entrevistas:job00347 
+- 2026-11-25T17:20 recibido entrevistas:job00347|x 
+- 2026-11-25T17:20 recibido entrevistas:job00347|tiktok 
+- 2026-11-25T17:20 programado entrevistas:job00347|x 
