@@ -17,7 +17,7 @@
     "sent": 2
    },
    "pausado": false,
-   "visto": "2026-11-25T18:40:17.000Z"
+   "visto": "2026-11-25T19:40:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-25T18:40:17.000Z"
+   "visto": "2026-11-25T19:40:20.000Z"
   }
  },
  "contenidos": {
@@ -326,6 +326,27 @@
    "video_mb": 16.9,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a62222e977ab9497.mp4",
    "youtube_url": "https://www.youtube.com/shorts/cV7uHX0Ryg4"
+  },
+  "bot:video_matias-zucchi_mwwi0l704484_01.mp4": {
+   "descripcion": "Un delincuente forzó el acceso al local de telefonía celular Plackcell, ubicado en avenida Avellaneda 70, durante la madrugada del 25 de noviembre. Los responsables del comercio descubrieron la situación cerca de las 9, al llegar para abrir sus puertas e iniciar la jornada laboral.\n\nLa secuencia quedó registrada por una cámara de seguridad del establecimiento. Las imágenes captaron a una persona con el rostro cubierto con un casco de moto, quien empujó de forma reiterada la puerta de blindex hasta vencer el mecanismo de la cerradura.\n\nUna vez adentro del salón de ventas, el intruso revisó el sector del mostrador y posteriormente se dio a la fuga. En una primera inspección ocular, los propietarios no constataron faltantes de mercadería, aunque el hecho provocó daños materiales en la abertura de vidrio y en el sistema de cierre.\n\nEs el segundo episodio de estas características que sufre el mismo comercio en lo que va del año. Ante lo sucedido, se radicó la denuncia policial correspondiente y los videos de las cámaras de vigilancia quedaron a disposición de los investigadores para intentar identificar al autor.",
+   "duracion_seg": 31.5,
+   "generado": "2026-11-25T19:37:03.000Z",
+   "id": "bot:video_matias-zucchi_mwwi0l704484_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-forzaron-la-entrada-del-comercio",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Forzaron la entrada del comercio Plackcell por segunda vez en el año",
+   "urgente": false,
+   "video_bytes": 1027557,
+   "video_mb": 1.0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dd03ae8cb25ddca6.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/8n_mJd7GchY"
   },
   "entrevistas:job00316": {
    "descripcion": "En Chivilcoy, el dirigente del MDF Luciano Dellepiane cuestionó la falta de mantenimiento estatal y advirtió sobre los riesgos viales del parate de la obra pública.",
@@ -1061,6 +1082,27 @@
    "video_mb": 27.6,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00349.mp4",
    "youtube_url": "https://youtu.be/1Ze4yGliA2k"
+  },
+  "entrevistas:job00350": {
+   "descripcion": "En Chivilcoy, Chechu del proyecto Laberintoh explicó cómo se relacionan el dolor, el placer y el consentimiento en las prácticas íntimas.",
+   "duracion_seg": null,
+   "entrevistado": "Chechu",
+   "generado": "2026-11-25T19:40:15.000Z",
+   "id": "entrevistas:job00350",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Chechu de Laberintoh explica el dolor y el placer",
+   "urgente": false,
+   "video_bytes": 31076295,
+   "video_mb": 29.6,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00350.mp4",
+   "youtube_url": "https://youtu.be/VpRnl6u9Tx0"
   },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
@@ -5033,6 +5075,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-robaron-una-moto-del-globo-de-la",
    "volanta": "Chivilcoy · Policiales"
   },
+  "web:b7ed9672-3521-445f-a1f0-54fa7ba3e5dd": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Forzaron la entrada del comercio Plackcell por segunda vez en el año CHIVILCOY.– Un intruso con casco ingresó al comercio de celulares de avenida Avellaneda 70 durante la madrugada. La primera revisión no detectó faltantes, pero sí daños en la puerta y la cerradura. El local de telefonía celular Plackcell sufrió un nuevo ingreso durante la madrugada de este miércoles 25 de noviembre. Sus responsables advirtieron lo ocurrido alrededor de las 9, cuando llegaron para comenzar la...",
+   "generado": "2026-11-25T19:35:07.607Z",
+   "id": "web:b7ed9672-3521-445f-a1f0-54fa7ba3e5dd",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d7693e07357a43b1bd25e67c3387613c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-forzaron-la-entrada-del-comercio",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Forzaron la entrada del comercio Plackcell por segunda vez en el año",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-forzaron-la-entrada-del-comercio",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b": {
    "categoria": "",
    "descripcion": "Chivilcoy: Violencia familiar e incendio en Moquehuá: imputaron a un hombre tras agredir a su hija y prender fuego su vivienda CHIVILCOY.– Un violento episodio sacudió la tranquilidad de la localidad este martes por la noche y derivó en un operativo policial y de bomberos que culminó con la imputación de un hombre, identificado como Julio Aranda, tras agredir físicamente a su hija menor de edad y provocar un incendio intencional en su propio domicilio. El hecho se desencadenó alrededor de las...",
@@ -7060,6 +7121,62 @@
    "vence": "2026-11-25T04:20:52.000Z",
    "video_bytes": 17767150,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_a62222e977ab9497.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwwi0l704484_01.mp4|tiktok": {
+   "actualizado": "2026-11-25T19:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwwi0l704484_01.mp4|tiktok",
+   "creado": "2026-11-25T19:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-25T19:37:03.000Z",
+   "id": "bot:video_matias-zucchi_mwwi0l704484_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-forzaron-la-entrada-del-comercio",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Forzaron la entrada del comercio Plackcell por segunda vez en el año\n\nUn delincuente con casco de moto forzó la puerta de blindex del local durante la madrugada, revisó el mostrador y escapó. Los propietarios no constataron faltantes de mercadería en una primera inspección, aunque el hecho causó daños materiales.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-forzaron-la-entrada-del-comercio\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Forzaron la entrada del comercio Plackcell por segunda vez en el año",
+   "urgente": false,
+   "vence": "2026-11-27T19:37:03.000Z",
+   "video_bytes": 1027557,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dd03ae8cb25ddca6.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwwi0l704484_01.mp4|x": {
+   "actualizado": "2026-11-25T19:40:21.000Z",
+   "buffer_id": "6b0739a6d54ca56e476570b8",
+   "clave": "bot:video_matias-zucchi_mwwi0l704484_01.mp4|x",
+   "creado": "2026-11-25T19:40:15.000Z",
+   "dueAt": "2026-11-25T19:42:01.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-25T19:37:03.000Z",
+   "id": "bot:video_matias-zucchi_mwwi0l704484_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-forzaron-la-entrada-del-comercio",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-forzaron-la-entrada-del-comercio",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Forzaron la entrada del comercio Plackcell por segunda vez en el año\n\nUn delincuente rompió la puerta de blindex y revisó el mostrador del local. Los propietarios no constataron faltantes de mercadería, pero sí daños materiales en el acceso.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-forzaron-la-entrada-del-comercio",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Forzaron la entrada del comercio Plackcell por segunda vez en el año",
+   "urgente": false,
+   "vence": "2026-11-25T21:37:03.000Z",
+   "video_bytes": 1027557,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dd03ae8cb25ddca6.mp4",
    "viral": false
   },
   "entrevistas:job00316|tiktok": {
@@ -9625,18 +9742,19 @@
    "viral": false
   },
   "entrevistas:job00349|x": {
-   "actualizado": "2026-11-25T19:00:22.000Z",
+   "actualizado": "2026-11-25T19:40:20.000Z",
    "buffer_id": "6b07304803e79bc5c6f80b2a",
    "clave": "entrevistas:job00349|x",
    "creado": "2026-11-25T19:00:22.000Z",
    "dueAt": "2026-11-25T19:02:39.000Z",
+   "enviado": "2026-11-25T19:06:28.387Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T19:00:22.000Z",
    "id": "entrevistas:job00349",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125667451861868678",
    "nota_url": "",
    "noticia": "titulo:alberto-bomberos-butteri-durisima-prueba",
    "origen": "entrevistas",
@@ -9650,6 +9768,62 @@
    "vence": "2026-11-25T21:00:22.000Z",
    "video_bytes": 28981315,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00349.mp4",
+   "viral": false
+  },
+  "entrevistas:job00350|tiktok": {
+   "actualizado": "2026-11-25T19:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00350|tiktok",
+   "creado": "2026-11-25T19:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-25T19:40:15.000Z",
+   "id": "entrevistas:job00350",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Chechu de Laberintoh explica el dolor y el placer\n\nEn Chivilcoy, Chechu del proyecto Laberintoh explicó cómo se relacionan el dolor, el placer y el consentimiento en las prácticas íntimas.\n\nhttps://youtu.be/VpRnl6u9Tx0\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chechu de Laberintoh explica el dolor y el placer",
+   "urgente": false,
+   "vence": "2026-11-27T19:40:15.000Z",
+   "video_bytes": 31076295,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00350.mp4",
+   "viral": false
+  },
+  "entrevistas:job00350|x": {
+   "actualizado": "2026-11-25T19:40:21.000Z",
+   "buffer_id": "6b0739a62c45af88d79fd01a",
+   "clave": "entrevistas:job00350|x",
+   "creado": "2026-11-25T19:40:15.000Z",
+   "dueAt": "2026-11-25T19:47:23.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-25T19:40:15.000Z",
+   "id": "entrevistas:job00350",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:chechu-dolor-explica-laberintoh-placer",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Chechu de Laberintoh explica el dolor y el placer\n\nEn Chivilcoy, Chechu del proyecto Laberintoh explicó cómo se relacionan el dolor, el placer y el consentimiento en las prácticas íntimas.\n\nhttps://youtu.be/VpRnl6u9Tx0",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chechu de Laberintoh explica el dolor y el placer",
+   "urgente": false,
+   "vence": "2026-11-25T21:40:15.000Z",
+   "video_bytes": 31076295,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00350.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
@@ -15697,6 +15871,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:b7ed9672-3521-445f-a1f0-54fa7ba3e5dd|x": {
+   "actualizado": "2026-11-25T19:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:b7ed9672-3521-445f-a1f0-54fa7ba3e5dd|x",
+   "creado": "2026-11-25T19:40:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-25T19:35:07.607Z",
+   "id": "web:b7ed9672-3521-445f-a1f0-54fa7ba3e5dd",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-forzaron-la-entrada-del-comercio",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-forzaron-la-entrada-del-comercio",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Forzaron la entrada del comercio Plackcell por segunda vez en el año",
+   "urgente": false,
+   "vence": "2026-11-25T23:35:07.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x": {
    "actualizado": "2026-11-19T09:20:13.000Z",
    "buffer_id": "6afebc4b4ad8a97b3a2dca4b",
@@ -17461,68 +17660,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00324|tiktok",
-   "cuando": "2026-11-18T22:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709640628597984518"
-  },
-  {
-   "clave": "entrevistas:job00325|tiktok",
-   "cuando": "2026-11-18T22:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709635606942469396"
-  },
-  {
-   "clave": "entrevistas:job00326|tiktok",
-   "cuando": "2026-11-18T22:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709630549429587220"
-  },
-  {
-   "clave": "entrevistas:job00327|tiktok",
-   "cuando": "2026-11-18T22:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709625396651625736"
-  },
-  {
-   "clave": "web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c|x",
-   "cuando": "2026-11-18T23:20:26.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:221b8fb0-b926-4a1a-8a3e-ecccb5751759|x",
-   "cuando": "2026-11-18T23:20:27.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Notas web, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:3d6e03e9-835c-4aa3-889f-058a5b97bb8c|x",
-   "cuando": "2026-11-18T23:20:27.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html|x",
-   "cuando": "2026-11-19T02:20:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.lamanana.com.ar/detuvieron-a-un-hombre-por-violencia-de-genero-reiterada/|x",
-   "cuando": "2026-11-19T02:20:24.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "buffer_id": "6afe5ce946636f319e7ebdad",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/incidente-con-demorados-entre-chacabuco.html|x",
@@ -21623,6 +21760,71 @@
    "cuando": "2026-11-25T19:20:19.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00350",
+   "cuando": "2026-11-25T19:40:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwwi0l704484_01.mp4|x",
+   "cuando": "2026-11-25T19:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwwi0l704484_01.mp4|tiktok",
+   "cuando": "2026-11-25T19:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "entrevistas:job00350|x",
+   "cuando": "2026-11-25T19:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00350|tiktok",
+   "cuando": "2026-11-25T19:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "web:b7ed9672-3521-445f-a1f0-54fa7ba3e5dd|x",
+   "cuando": "2026-11-25T19:40:20.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00349|x",
+   "cuando": "2026-11-25T19:40:21.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125667451861868678"
+  },
+  {
+   "buffer_id": "6b0739a6d54ca56e476570b8",
+   "clave": "bot:video_matias-zucchi_mwwi0l704484_01.mp4|x",
+   "cuando": "2026-11-25T19:40:22.000Z",
+   "dueAt": "2026-11-25T19:42:01.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b0739a62c45af88d79fd01a",
+   "clave": "entrevistas:job00350|x",
+   "cuando": "2026-11-25T19:40:22.000Z",
+   "dueAt": "2026-11-25T19:47:23.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21660,7 +21862,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-25",
- "ultima_sync": "2026-11-25T18:40:17.000Z",
+ "ultima_sync": "2026-11-25T19:40:20.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -21763,6 +21965,7 @@
   "bot:video_matias-zucchi_mwva3xndaqua_01.mp4": "2026-11-25T00:00:19.000Z",
   "bot:video_matias-zucchi_mwve046qdarc_01.mp4": "2026-11-25T00:40:14.000Z",
   "bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4": "2026-11-25T02:40:13.000Z",
+  "bot:video_matias-zucchi_mwwi0l704484_01.mp4": "2026-11-25T19:40:15.000Z",
   "entrevistas:job00252": "2026-10-27T17:20:17.000Z",
   "entrevistas:job00253": "2026-10-27T18:00:20.000Z",
   "entrevistas:job00254": "2026-10-27T18:20:15.000Z",
@@ -21864,6 +22067,7 @@
   "entrevistas:job00347": "2026-11-25T17:20:13.000Z",
   "entrevistas:job00348": "2026-11-25T18:00:31.000Z",
   "entrevistas:job00349": "2026-11-25T19:00:22.000Z",
+  "entrevistas:job00350": "2026-11-25T19:40:15.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
@@ -22371,6 +22575,7 @@
   "web:b5a7a825-0c09-4093-a2f9-5ca4caccb455": "2026-11-06T17:40:14.000Z",
   "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6": "2026-11-09T10:02:37.000Z",
   "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7": "2026-11-13T10:02:41.000Z",
+  "web:b7ed9672-3521-445f-a1f0-54fa7ba3e5dd": "2026-11-25T19:40:15.000Z",
   "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b": "2026-11-19T09:05:46.000Z",
   "web:b8356399-c1a9-4319-bdf3-d449371f55e1": "2026-11-12T10:02:44.000Z",
   "web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3": "2026-11-16T14:40:14.000Z",

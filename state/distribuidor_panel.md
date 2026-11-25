@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 16:20 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 16:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 2 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 6 |
+| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,7 +27,9 @@ Actualizado: 25/11/2026 16:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (5 esperando)
+- TikTok · Reels del bot · Forzaron la entrada del comercio Plackcell por segunda vez en el año — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- TikTok · Recortes de entrevistas · Chechu de Laberintoh explica el dolor y el placer — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Alberto Butteri y la durísima prueba de bomberos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Gina Viscardi: organizar la mente para crear tras sufrir ansiedad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Rogelio Zilliotti: por qué no saca fotos con gente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -36,15 +38,6 @@ Actualizado: 25/11/2026 16:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T13:00 enviado web:f698d077-1709-4e35-97fc-3ba2f9d16745|x 
-- 2026-11-25T13:00 programado bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|tiktok 
-- 2026-11-25T13:00 programado bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok 
-- 2026-11-25T13:20 depurado web:8b10d292-9c09-4b23-af31-8a3268e37c10|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-25T14:00 enviado bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok 
-- 2026-11-25T14:00 enviado bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|tiktok 
-- 2026-11-25T14:00 enviado web:d7b743b0-decb-4fd8-8f34-dc15c4a2e39c|x 
-- 2026-11-25T16:00 recibido web:0e615bd0-eb94-46b5-8457-1eff754ee293|x 
-- 2026-11-25T16:00 depurado web:0e615bd0-eb94-46b5-8457-1eff754ee293|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-25T17:20 entrevista_aprobada entrevistas:job00347 
 - 2026-11-25T17:20 recibido entrevistas:job00347|x 
 - 2026-11-25T17:20 recibido entrevistas:job00347|tiktok 
@@ -61,3 +54,12 @@ Actualizado: 25/11/2026 16:20 (hora AR) · ACTIVO
 - 2026-11-25T19:00 programado entrevistas:job00349|x 
 - 2026-11-25T19:20 recibido web:86d44e99-7320-4ee4-bcfb-52ce147d042c|x 
 - 2026-11-25T19:20 depurado web:86d44e99-7320-4ee4-bcfb-52ce147d042c|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-25T19:40 entrevista_aprobada entrevistas:job00350 
+- 2026-11-25T19:40 recibido bot:video_matias-zucchi_mwwi0l704484_01.mp4|x 
+- 2026-11-25T19:40 recibido bot:video_matias-zucchi_mwwi0l704484_01.mp4|tiktok 
+- 2026-11-25T19:40 recibido entrevistas:job00350|x 
+- 2026-11-25T19:40 recibido entrevistas:job00350|tiktok 
+- 2026-11-25T19:40 recibido web:b7ed9672-3521-445f-a1f0-54fa7ba3e5dd|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-25T19:40 enviado entrevistas:job00349|x 
+- 2026-11-25T19:40 programado bot:video_matias-zucchi_mwwi0l704484_01.mp4|x 
+- 2026-11-25T19:40 programado entrevistas:job00350|x 
