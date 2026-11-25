@@ -14880,14 +14880,14 @@
    "viral": false
   },
   "web:8b10d292-9c09-4b23-af31-8a3268e37c10|x": {
-   "actualizado": "2026-11-25T12:40:33.000Z",
+   "actualizado": "2026-11-25T13:20:14.000Z",
    "buffer_id": "6b06d742981067389cada5ad",
    "clave": "web:8b10d292-9c09-4b23-af31-8a3268e37c10|x",
    "creado": "2026-11-25T12:40:23.000Z",
    "dueAt": "2026-11-25T13:23:31.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-25T12:38:11.962Z",
    "id": "web:8b10d292-9c09-4b23-af31-8a3268e37c10",
    "intentos": 0,
@@ -17412,11 +17412,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00325",
-   "cuando": "2026-11-18T17:00:21.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00325|x",
    "cuando": "2026-11-18T17:00:31.000Z",
@@ -21575,6 +21570,12 @@
    "cuando": "2026-11-25T13:00:31.000Z",
    "dueAt": "2026-11-25T13:23:06.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:8b10d292-9c09-4b23-af31-8a3268e37c10|x",
+   "cuando": "2026-11-25T13:20:14.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
   }
  ],
  "tandas": {
