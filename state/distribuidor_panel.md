@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 25/11/2026 07:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Notas web | X | 15 | 1 | 6 | 6 | 0 | 0 | 2 |
+| Notas web | X | 15 | 1 | 7 | 5 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,21 +27,19 @@ Actualizado: 25/11/2026 07:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (8 esperando)
+## Cola propia (7 esperando)
 - TikTok · Reels del bot · Deportivo Colón y Racing Club jugarán la final del Torneo Clausura — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - X · Notas web · La última etapa del prix del norte se disputó en Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · El Campeonato Regional de Rally consagró a sus campeones de la temporada 2026 en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Categorías Formativas de la ABCh: Se definieron nuevos finalistas en  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Alimentos No Perecederos y Juguetes: Iván Elizalde junto a Salva Otei — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Festejo, historia y presente ganador: Florencio Varela celebró su cena y ya pien — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Súper Moli golpeó por penales, se quedó con la Liguilla y forzó la Sú — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T09:04 recibido web:cae8f993-8dcb-468d-8000-3d7a60bcca52|x 
 - 2026-11-25T09:04 recibido web:2e1f463d-cd94-4055-a6a9-a12845b09bf8|x 
 - 2026-11-25T09:04 recibido web:f698d077-1709-4e35-97fc-3ba2f9d16745|x 
 - 2026-11-25T09:04 recibido web:a7006b82-c26d-419f-8d32-75902a38cfde|x 
@@ -66,3 +64,4 @@ Actualizado: 25/11/2026 07:00 (hora AR) · ACTIVO
 - 2026-11-25T09:40 programado web:f6e503e0-4701-4361-8023-144c9fe4fff2|x 
 - 2026-11-25T10:00 depurado web:3e668e19-c4df-4209-9137-7d7c001394da|x no está en el carrusel del diario de hoy
 - 2026-11-25T10:00 depurado web:0f583263-cff5-49e8-af45-ef80b5826e6c|x no está en el carrusel del diario de hoy (sacado de Buffer)
+- 2026-11-25T10:20 programado web:03a74db9-6c2a-429e-927d-0b4a3a0e5a7b|x 
