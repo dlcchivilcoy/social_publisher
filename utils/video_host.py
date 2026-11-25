@@ -20,6 +20,9 @@ logger = get_logger("video_host")
 API = "https://api.github.com"
 UPLOADS = "https://uploads.github.com"
 TAG = "reel-latest"
+# Días que se guarda cada video en el Release. Instagram/Facebook lo bajan en minutos y Wix lo copia,
+# pero un corresponsal puede quedar esperando aprobación un par de días: se deja holgado.
+DIAS = 14
 
 
 def _token() -> str:
@@ -77,16 +80,18 @@ def upload_reel(mp4_path: Path, intentos: int = 4) -> str:
     with open(mp4_path, "rb") as f:
         data = f.read()
 
+    lleno = False
     for i in range(max(1, intentos)):
         try:
             release = _ensure_release(repo, h)
             release_id = release["id"]
 
-            # Borrar un asset previo con el mismo nombre (GitHub no permite duplicados)
-            for a in release.get("assets", []):
-                if a.get("name") == asset_name:
-                    requests.delete(f"{API}/repos/{repo}/releases/assets/{a['id']}", headers=h, timeout=30)
-                    logger.debug(f"Asset previo borrado: {asset_name}")
+            # Borrar el asset previo con el mismo nombre (GitHub no permite duplicados) y los de más
+            # de DIAS días: GitHub acepta 1.000 por Release y al llenarse rechaza todo con 422
+            # (25/11/2026). Tras un 422 se limpia más fuerte.
+            from utils.release_limpieza import limpiar
+            limpiar(repo, h, release_id, dias=DIAS, max_borrar=200 if lleno else 30, nombre=asset_name,
+                    logger=logger)
 
             up = requests.post(
                 f"{UPLOADS}/repos/{repo}/releases/{release_id}/assets?name={asset_name}",
@@ -98,6 +103,12 @@ def upload_reel(mp4_path: Path, intentos: int = 4) -> str:
             logger.info(f"Reel subido a GitHub Release: {url}")
             return url
         except Exception as e:  # noqa: BLE001 — decidimos reintentar según el tipo de error
+            if (i < intentos - 1 and not lleno and isinstance(e, requests.HTTPError) and e.response is not None
+                    and e.response.status_code == 422):
+                # Release lleno (o nombre trabado por una subida a medias): limpiar fuerte y otra vez.
+                lleno = True
+                logger.warning(f"Subida del reel rechazada (422: {e}); libero lugar en el Release y reintento…")
+                continue
             if i < intentos - 1 and _es_transitorio(e):
                 espera = 5 * (i + 1)
                 logger.warning(f"Subida del reel falló (intento {i + 1}/{intentos}: {e}); "

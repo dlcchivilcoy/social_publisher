@@ -25,7 +25,7 @@ _GH_TAG = "img-latest"
 # salir por GitHub. Ahí los nombres se repetían (dos corridas a la vez subiendo «portada.jpg» se
 # pisaban la foto mientras Instagram la bajaba): cada asset lleva un sello único, y los de más de
 # `_GH_DIAS` días se borran solos (son temporales: Instagram y Wix los bajan en minutos).
-_GH_DIAS = 7
+_GH_DIAS = 3          # 25/11: ~130 imágenes por día; con 7 días quedaba cerca del tope de 1.000
 _GH_BORRAR_POR_VEZ = 25
 # Si ImgBB ya dijo en esta corrida que la clave no sirve, no se le vuelve a preguntar.
 _IMGBB_CLAVE_MALA = [False]
@@ -83,39 +83,29 @@ def _upload_to_github(image_path: Path) -> str:
     release = _ensure_release(repo, h)
     release_id = release["id"]
     _limpiar_viejos(repo, h, release_id)
-    up = requests.post(
-        f"{_GH_UPLOADS}/repos/{repo}/releases/{release_id}/assets?name={asset_name}",
-        headers={**h, "Content-Type": _gh_content_type(asset_name)},
-        data=data, timeout=120,
-    )
+    for vuelta in range(2):
+        up = requests.post(
+            f"{_GH_UPLOADS}/repos/{repo}/releases/{release_id}/assets?name={asset_name}",
+            headers={**h, "Content-Type": _gh_content_type(asset_name)},
+            data=data, timeout=120,
+        )
+        if up.status_code == 422 and vuelta == 0:
+            # 25/11/2026: el Release lleno (1.000 archivos) rechaza todo con 422 → liberar lugar y otra vez.
+            logger.warning("GitHub rechazó la imagen (422: Release lleno?); libero lugar y reintento…")
+            _limpiar_viejos(repo, h, release_id, max_borrar=200)
+            continue
+        break
     up.raise_for_status()
     url = up.json()["browser_download_url"]
     logger.info(f"Imagen subida a GitHub Release (respaldo de ImgBB): {url}")
     return url
 
 
-def _limpiar_viejos(repo: str, h: dict, release_id: int) -> None:
-    """Borra los assets de imagen de más de `_GH_DIAS` días (unos pocos por vez, para no demorar
-    la subida). Si algo falla, sigue: es limpieza, no es lo importante."""
-    try:
-        from datetime import datetime, timedelta, timezone
-        limite = datetime.now(timezone.utc) - timedelta(days=_GH_DIAS)
-        borrados = 0
-        for pagina in range(1, 11):
-            r = requests.get(f"{_GH_API}/repos/{repo}/releases/{release_id}/assets",
-                             headers=h, params={"per_page": 100, "page": pagina}, timeout=30)
-            if not r.ok or not r.json():
-                break
-            for a in r.json():
-                creado = datetime.fromisoformat(a["created_at"].replace("Z", "+00:00"))
-                if creado < limite:
-                    requests.delete(f"{_GH_API}/repos/{repo}/releases/assets/{a['id']}",
-                                    headers=h, timeout=30)
-                    borrados += 1
-                    if borrados >= _GH_BORRAR_POR_VEZ:
-                        return
-    except Exception as e:  # noqa: BLE001
-        logger.debug(f"Limpieza de imágenes viejas del release: {e}")
+def _limpiar_viejos(repo: str, h: dict, release_id: int, max_borrar: int = _GH_BORRAR_POR_VEZ) -> None:
+    """Borra las imágenes de más de `_GH_DIAS` días y, si el Release se acerca al tope de 1.000 de
+    GitHub, también las más viejas de más de un día (ver utils/release_limpieza.py)."""
+    from utils.release_limpieza import limpiar
+    limpiar(repo, h, release_id, dias=_GH_DIAS, max_borrar=max_borrar, logger=logger)
 
 
 # ── ImgBB (hosting primario) ──────────────────────────────────────────────────
