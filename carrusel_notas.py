@@ -115,13 +115,16 @@ def _fb_intervalo_seg() -> int:
     (pedido del editor: «que se publiquen desde las 7am de lunes a viernes pero cada 15 minutos»); antes
     salían cada 2 minutos (POST_DELAY_SECONDS)."""
     try:
-        return max(0, int(float(get("NOTAS_FB_INTERVALO_MIN") or 15) * 60))
+        return max(0, int(float(get("NOTAS_FB_INTERVALO_MIN") or 20) * 60))
     except ValueError:
-        return 900
+        return 1200
 
 
 TZ_AR = timezone(timedelta(hours=-3))
-FB_HASTA_DEFECTO = "08:00"
+# 25/11/2026 (el editor: «en Facebook repartí las notas entre las 6 y las 12, unos 3 posteos cada 20 minutos»):
+# una cada 20 min (NOTAS_FB_INTERVALO_MIN) y la última antes de las 11:40, no de las 12: GitHub corta una corrida a
+# las 6 h y --notes-web arranca a las 6:00 (timeout del workflow 355 min). Antes, de 6 a 8 cada 15 min como mucho.
+FB_HASTA_DEFECTO = "11:40"
 FB_INTERVALO_MIN_SEG = 180
 
 
@@ -182,6 +185,102 @@ def _caption_fb_nota(volanta: str, titular: str, url: str) -> str:
     from utils.branding import link_nota
     cabeza = f"📰 {volanta} — {titular}" if volanta else f"📰 {titular}"
     return f"{cabeza}\n👉 {link_nota(url)}"
+
+
+# ── Las notas de Facebook en REEL (25/11/2026) ─────────────────────────────────────────
+# El editor: «tratá de convertir los carruseles en reels». En Facebook el reel trae seguidores (cultura 3,4 por
+# posteo, salud 2,4) y rinde el doble que la foto en casi todas las categorías; menos en POLICIALES y CLIMA, donde la
+# foto rinde el triple (informe de métricas del 16 al 22/11): esas siguen en foto. El reel es el mismo que ya existía
+# para Instagram (las placas del carrusel explicativo, sin numerar). Facebook acepta 30 reels por API cada 24 h y
+# por página, y la página ya publica unos 29 (videos propios, entrevistados, reels de prueba): antes de cada reel se
+# cuenta cuántos hay y, si no queda lugar (NOTAS_FB_REELS_TECHO, 27), la nota sale en foto. Si el reel falla,
+# también sale en foto: ninguna nota se pierde. NOTAS_FB_REEL=0 vuelve todo a foto.
+FB_REELS_TECHO_DEFECTO = 27
+FB_REEL_EN_FOTO = ("policiales", "clima")
+
+
+def _fb_reel_activo() -> bool:
+    return str(get("NOTAS_FB_REEL") or "1").strip().lower() in ("1", "true", "si", "sí", "on")
+
+
+def _fb_reels_techo() -> int:
+    try:
+        return int(get("NOTAS_FB_REELS_TECHO") or FB_REELS_TECHO_DEFECTO)
+    except ValueError:
+        return FB_REELS_TECHO_DEFECTO
+
+
+def _fb_categoria(volanta: str, titular: str, cuerpo: list) -> str:
+    """La categoría de la nota con el mismo criterio que usa el informe de métricas."""
+    from metricas_redes.etiquetas import categoria_por_texto
+    return categoria_por_texto(" ".join([volanta or "", titular or "", " ".join((cuerpo or [])[:2])]))
+
+
+def _fb_va_en_reel(volanta: str, titular: str, cuerpo: list) -> bool:
+    return _fb_reel_activo() and _fb_categoria(volanta, titular, cuerpo) not in FB_REEL_EN_FOTO
+
+
+def _fb_reels_24h():
+    """Reels de la página en las últimas 24 h (de cualquier corrida), o None si no se pudo leer."""
+    import requests
+    page_id, token = get("FACEBOOK_PAGE_ID"), get("FACEBOOK_PAGE_ACCESS_TOKEN")
+    if not page_id or not token:
+        return None
+    desde = datetime.now(timezone.utc) - timedelta(hours=24)
+    url = f"https://graph.facebook.com/{facebook.GRAPH_VERSION}/{page_id}/video_reels"
+    params, total = {"fields": "created_time", "limit": 100, "access_token": token}, 0
+    try:
+        for _ in range(3):
+            r = requests.get(url, params=params, timeout=30)
+            if r.status_code >= 400:
+                return None
+            d = r.json() or {}
+            viejos = False
+            for x in d.get("data") or []:
+                try:
+                    cuando = datetime.strptime((x.get("created_time") or "")[:19], "%Y-%m-%dT%H:%M:%S")
+                except ValueError:
+                    continue
+                if cuando.replace(tzinfo=timezone.utc) < desde:
+                    viejos = True
+                    continue
+                total += 1
+            siguiente = ((d.get("paging") or {}).get("next")) or ""
+            if viejos or not siguiente:
+                return total
+            url, params = siguiente, None      # el «next» ya trae todo (también el token)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"[facebook] no pude contar los reels de la página: {type(e).__name__}")
+        return None
+    return total
+
+
+def _fb_hay_lugar_reel(contar=None) -> bool:
+    n = (contar or _fb_reels_24h)()
+    if n is None:
+        logger.warning("[facebook] no sé cuántos reels tiene la página en 24 h: la nota sale en foto")
+        return False
+    if n >= _fb_reels_techo():
+        logger.info(f"[facebook] la página ya tiene {n} reels en 24 h (techo {_fb_reels_techo()}): sale en foto")
+        return False
+    return True
+
+
+def _caption_fb_reel(volanta: str, titular: str, url: str, primer: str) -> str:
+    """El texto del reel: el mismo comienzo que la foto (titular y link arriba) y un resumen corto."""
+    resumen = _resumen_caption(primer, 280) if primer else ""
+    return _caption_fb_nota(volanta, titular, url) + (f"\n\n{resumen}" if resumen else "")
+
+
+def _armar_reel_fb(note: dict, volanta: str, titular: str, cuerpo: list, primer: str, k: int) -> Path:
+    placas = _carrusel_explicativo(note, volanta, titular, cuerpo, primer, _site(), tema=_tema_de(k),
+                                   numerar=False)
+    return _reel_de_placas(placas)
+
+
+def _publicar_reel_fb(caption: str, mp4: Path) -> dict:
+    """Solo como REEL (sin caer al video común, que en Facebook rinde menos de la mitad)."""
+    return facebook._publish_reel(caption, mp4)
 
 
 # ── Aviso: que ninguna nota de la carpeta se pierda en silencio ───────────────────────
@@ -281,7 +380,7 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
     # salió en esta corrida no se repite; se anota como hecho.
     titulares_vistos = set()
     for i, note in enumerate(pending):
-        volanta, titular, _ = _parse_nota(note["docx"])
+        volanta, titular, cuerpo = _parse_nota(note["docx"])
         if not titular:
             titular = note.get("titular") or note["title"]
         wix_title = f"{volanta} — {titular}" if volanta else titular
@@ -300,8 +399,16 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
             continue
         titulares_vistos.add(clave_titular)
 
+        # El reel se arma ANTES de esperar el turno: el armado (IA + video) no corre la grilla.
+        mp4 = None
+        if _fb_va_en_reel(volanta, titular, cuerpo):
+            try:
+                mp4 = _armar_reel_fb(note, volanta, titular, cuerpo, cuerpo[0] if cuerpo else "", i)
+            except Exception as e:  # noqa: BLE001 — sin reel, la nota sale en foto
+                logger.warning(f"[facebook] no pude armar el reel de «{titular[:40]}» ({e}): sale en foto")
         if dry_run:
-            logger.info(f"[facebook][dry-run] postearía [{modo}] «{titular[:40]}» → {url}")
+            logger.info(f"[facebook][dry-run] postearía [{'reel' if mp4 else modo}] «{titular[:40]}» → {url}"
+                        + (f" ({mp4})" if mp4 else ""))
             continue
 
         # Una cada `intervalo` desde la anterior que salió (la primera, enseguida).
@@ -309,6 +416,16 @@ def _postear_notas_facebook(posts_folder: Path, notes: list, dry_run: bool) -> N
             falta = ultimo + intervalo - time.monotonic()
             if falta > 0:
                 time.sleep(falta)
+        if mp4 is not None and _fb_hay_lugar_reel():
+            try:
+                _publicar_reel_fb(_caption_fb_reel(volanta, titular, url, cuerpo[0] if cuerpo else ""), mp4)
+                ultimo = time.monotonic()
+                fb_ledger.add(note["key"])
+                _save_fb_ledger(posts_folder, fb_ledger)
+                logger.info(f"[facebook] OK [reel] — «{titular[:40]}» → {url}")
+                continue
+            except Exception as e:  # noqa: BLE001 — el reel no salió: va la foto, como siempre
+                logger.error(f"[facebook] el reel de «{titular[:40]}» FALLÓ ({e}): sale en foto")
         try:
             if subir_foto:
                 # Subimos la FOTO PROPIA de la nota → la imagen SIEMPRE es la correcta.

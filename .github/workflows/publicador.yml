@@ -94,7 +94,8 @@ jobs:
     # minutos (CARRUSEL_INTERVALO_MIN): 14 notas son ~65 min de publicacion legitima.
     # 260 desde el 19/10/2026: arranca a las 7 y sale una cada 15 minutos: 14 notas son ~3 h 30.
     # 340: --notes-web publica en Facebook una nota cada 15 min (20/10/2026): 20 notas ≈ 5 h.
-    timeout-minutes: 340
+    # 355 (25/11/2026): las notas de Facebook van de 6:00 a 11:40, una cada 20 min (el tope de GitHub es 360).
+    timeout-minutes: 355
     # El runner corre en UTC; con esto Python usa hora de Argentina para
     # date.today()/now() (clave para detectar la "edicion de hoy" y los ledgers diarios).
     env:
