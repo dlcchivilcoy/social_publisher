@@ -2191,32 +2191,6 @@
    "volanta": "Temporal en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/wIUDqFxtICI"
   },
-  "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p": {
-   "categoria": "operativo_policial",
-   "descripcion": "Un hombre de 42 años fue arrestado en el barrio Prado Español tras un allanamiento donde se incautaron dosis de cocaína y marihuana. La investigación se inició en septiembre.",
-   "distancia_km": 50.1,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-15T22:03:17.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p",
-   "localidad": "Chacabuco",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "radio_ok": true,
-   "texto_tiktok": "Personal policial detuvo a un hombre de 42 años en una vivienda de la calle Alfredo Palacios, situada entre Chacabuco y Pedro Aparicio.\n\nEl operativo se originó tras una serie de denuncias anónimas y registros de cámaras que alertaban sobre la comercialización de estupefacientes bajo la modalidad menudeo.\n\nDurante la requisa en el domicilio del barrio Prado Español, los efectivos incautaron cocaína fraccionada y envoltorios con marihuana listos para su comercialización.\n\nEl imputado quedó a disposición de la justicia bajo la carátula de infracción a la ley 23737 de drogas.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Operativo #Policia #BuenosAires",
-   "tipo": "video",
-   "titulo": "Detuvieron a un hombre de 42 años tras allanar una vivienda en Chacabuco",
-   "urgente": false,
-   "video_bytes": 137737,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_02_chacabuco_detuvieron-a-un-hombre-de-42-a.mp4",
-   "volanta": "Operativo antidrogas en Chacabuco",
-   "youtube_url": "https://youtube.com/shorts/ArxpDlVWNxk"
-  },
   "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un": {
    "categoria": "robo",
    "descripcion": "Cayó un sospechoso este lunes 16 de noviembre de 2026 tras un operativo de urgencia por un asalto en una vivienda de la calle 27 de Diciembre.",
@@ -5019,6 +4993,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-una-motociclista-fue-hospitalizada-tras-2",
    "volanta": "Chivilcoy · Accidente"
+  },
+  "web:b0b9173e-bae3-4c9c-a326-c2f824151b29": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Allanaron una vivienda y secuestraron elementos por un hurto en un auto Personal de la Estación de Policía Comunal y de la SubDDI Chivilcoy llevó adelante un allanamiento en el marco de una investigación por un hurto denunciado durante la jornada de este miércoles 25 de noviembre. La denuncia fue radicada por un vecino, quien constató el faltante de varios elementos del interior de su automóvil Volkswagen Gol, que se encontraba estacionado frente a su domicilio, ubicado en la calle...",
+   "generado": "2026-11-25T22:29:14.061Z",
+   "id": "web:b0b9173e-bae3-4c9c-a326-c2f824151b29",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7a7bd9a46ce546dca92dc249c84b5517~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-allanaron-una-vivienda-y-secuestraron",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Allanaron una vivienda y secuestraron elementos por un hurto en un auto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-allanaron-una-vivienda-y-secuestraron",
+   "volanta": "Chivilcoy · Policiales"
   },
   "web:b13a4343-1c5f-4791-894f-bb286876e7d0": {
    "categoria": "",
@@ -11125,43 +11118,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_06_chacabuco_temporal-en-chacabuco-55-mil-m.mp4",
    "viral": true
   },
-  "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x": {
-   "actualizado": "2026-11-15T22:40:14.000Z",
-   "buffer_id": "6afa301e06e1675856ac5010",
-   "clave": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p|x",
-   "creado": "2026-11-15T22:20:14.000Z",
-   "dueAt": "2026-11-15T22:23:19.000Z",
-   "enviado": "2026-11-15T22:23:33.190Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-15T22:03:17.000Z",
-   "id": "policiales:https://www.diariodemocracia.com/policiales/348057-detenido-e-imputado-por-comercializar-sustancias-p",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122093169781129317",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 79,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
-   "noticia": "nota:chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 8,
-   "texto": "Detuvieron a un hombre de 42 años tras allanar una vivienda en Chacabuco\n\nUn hombre de 42 años fue arrestado en el barrio Prado Español tras un allanamiento donde se incautaron dosis de cocaína y marihuana. La investigación se inició en septiembre.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-hombre-de-42-anos-en-un-allanamiento-5dbb49",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Detuvieron a un hombre de 42 años tras allanar una vivienda en Chacabuco",
-   "urgente": false,
-   "vence": "2026-11-16T00:03:17.000Z",
-   "video_bytes": 137737,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_02_chacabuco_detuvieron-a-un-hombre-de-42-a.mp4",
-   "viral": false
-  },
   "policiales:https://www.diariodemocracia.com/policiales/348086-detuvieron-a-un-hombre-tras-un-allanamiento-por-un|x": {
    "actualizado": "2026-11-17T01:40:15.000Z",
    "buffer_id": "",
@@ -15843,6 +15799,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:b0b9173e-bae3-4c9c-a326-c2f824151b29|x": {
+   "actualizado": "2026-11-25T22:40:22.000Z",
+   "buffer_id": "",
+   "clave": "web:b0b9173e-bae3-4c9c-a326-c2f824151b29|x",
+   "creado": "2026-11-25T22:40:20.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-25T22:29:14.061Z",
+   "id": "web:b0b9173e-bae3-4c9c-a326-c2f824151b29",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-allanaron-una-vivienda-y-secuestraron",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-allanaron-una-vivienda-y-secuestraron",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Allanaron una vivienda y secuestraron elementos por un hurto en un auto\n\nEfectivos policiales realizaron el procedimiento tras la denuncia de un vecino. Constató que le sustrajeron varios elementos del interior de su vehículo estacionado.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-allanaron-una-vivienda-y-secuestraron",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Allanaron una vivienda y secuestraron elementos por un hurto en un auto",
+   "urgente": false,
+   "vence": "2026-11-26T02:29:14.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b13a4343-1c5f-4791-894f-bb286876e7d0|x": {
    "actualizado": "2026-11-16T15:20:20.000Z",
    "buffer_id": "",
@@ -17762,22 +17745,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:dbf352ff-5f10-4d42-b7a1-25afb048d043|x",
-   "cuando": "2026-11-19T09:07:11.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:49e62895-3650-40a4-96b0-255e389c9fe6|x",
-   "cuando": "2026-11-19T09:07:12.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
   {
    "clave": "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x",
    "cuando": "2026-11-19T09:07:23.000Z",
@@ -21909,6 +21876,20 @@
    "cuando": "2026-11-25T22:20:22.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2125697001740214286"
+  },
+  {
+   "clave": "web:b0b9173e-bae3-4c9c-a326-c2f824151b29|x",
+   "cuando": "2026-11-25T22:40:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b0b9173e-bae3-4c9c-a326-c2f824151b29|x",
+   "cuando": "2026-11-25T22:40:22.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21956,8 +21937,6 @@
   "baja:chivilcoy-salud-chivilcoy-guillermo-britos-advirtio-que-el-sanatorio": "2026-11-21T12:00:17.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvptfbhp7cf5": "2026-10-26T22:40:15.000Z",
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvptr2lgbjmt": "2026-10-26T22:40:15.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p": "2026-10-27T00:00:21.000Z",
   "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6": "2026-10-27T00:40:14.000Z",
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk": "2026-10-27T13:00:20.000Z",
@@ -22306,7 +22285,6 @@
   "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e": "2026-11-12T10:02:44.000Z",
   "web:01599053-9367-4272-a3b7-d36e906da218": "2026-11-20T23:00:18.000Z",
   "web:01bf9e9c-5d81-432e-9d5f-303e147f07d7": "2026-11-03T10:02:22.000Z",
-  "web:024c510b-0090-4885-a004-6612c092f38b": "2026-10-26T22:40:15.000Z",
   "web:03a74db9-6c2a-429e-927d-0b4a3a0e5a7b": "2026-11-25T09:03:59.000Z",
   "web:03ae8b4c-08d8-488d-9203-4b4212346184": "2026-11-10T10:02:42.000Z",
   "web:03c64a65-3269-4247-b8a7-1e92b9072a66": "2026-11-13T10:02:41.000Z",
@@ -22504,7 +22482,6 @@
   "web:6660aa77-72e5-4b87-ac3a-0c96160d4930": "2026-11-15T01:00:17.000Z",
   "web:6663a0b6-a0ed-49e6-be95-5cf688623f0b": "2026-10-28T10:20:19.000Z",
   "web:66bad44b-4ffb-4fe4-a2d7-800fe271a723": "2026-10-29T10:02:34.000Z",
-  "web:67070b71-0e27-4e84-903f-83a20dacbf1a": "2026-10-26T22:40:15.000Z",
   "web:67beb8fd-c98a-40d7-bf9b-c8169e153f9d": "2026-11-09T10:02:37.000Z",
   "web:692034a6-2c77-4c88-827a-99bbd456a36c": "2026-11-18T10:02:51.000Z",
   "web:69435ce6-31c0-4174-9050-72995e3d7874": "2026-11-06T10:02:35.000Z",
@@ -22648,6 +22625,7 @@
   "web:ad88cc96-5c59-46c7-ae00-26c4333f393e": "2026-11-11T00:00:21.000Z",
   "web:b034af07-ddaf-426e-8207-d2724c540524": "2026-11-12T13:20:16.000Z",
   "web:b078718b-3db7-4e2d-a7e7-5e989121b045": "2026-10-29T10:02:34.000Z",
+  "web:b0b9173e-bae3-4c9c-a326-c2f824151b29": "2026-11-25T22:40:20.000Z",
   "web:b13a4343-1c5f-4791-894f-bb286876e7d0": "2026-11-16T15:20:14.000Z",
   "web:b19ae9f4-1a0f-40fc-b51a-a1f4a01d87b7": "2026-10-28T10:02:28.000Z",
   "web:b25195a6-8663-4776-9925-1b3d65850489": "2026-11-19T09:05:46.000Z",

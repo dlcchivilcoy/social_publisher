@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 25/11/2026 19:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 3 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 7 |
+| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -19,7 +19,7 @@ Actualizado: 25/11/2026 19:20 (hora AR) · ACTIVO
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 83 · likes 0
 - X · Reels del bot: 11 con métricas · mediana vistas/impresiones 72 · likes 0
-- X · Reels policiales: 10 con métricas · mediana vistas/impresiones 85.5 · likes 0
+- X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
 - X · Notas web: 107 con métricas · mediana vistas/impresiones 22 · likes 0
 - TikTok · Recortes de entrevistas: 32 con métricas · mediana vistas/impresiones 147.5 · likes 1
 - TikTok · Reels del bot: 11 con métricas · mediana vistas/impresiones 225 · likes 4
@@ -33,8 +33,6 @@ Actualizado: 25/11/2026 19:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T19:40 programado bot:video_matias-zucchi_mwwi0l704484_01.mp4|x 
-- 2026-11-25T19:40 programado entrevistas:job00350|x 
 - 2026-11-25T20:20 entrevista_aprobada entrevistas:job00351 
 - 2026-11-25T20:20 recibido entrevistas:job00351|x 
 - 2026-11-25T20:20 recibido entrevistas:job00351|tiktok 
@@ -58,3 +56,5 @@ Actualizado: 25/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-25T22:20 enviado entrevistas:job00351|tiktok 
 - 2026-11-25T22:20 enviado entrevistas:job00352|tiktok 
 - 2026-11-25T22:20 enviado entrevistas:job00352|x 
+- 2026-11-25T22:40 recibido web:b0b9173e-bae3-4c9c-a326-c2f824151b29|x 
+- 2026-11-25T22:40 depurado web:b0b9173e-bae3-4c9c-a326-c2f824151b29|x de la web, a X solo van las notas del diario de la mañana
