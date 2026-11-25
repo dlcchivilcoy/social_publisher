@@ -54,27 +54,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_48715283272c98de.mp4",
    "youtube_url": "https://www.youtube.com/shorts/3eJ3pOfVS1E"
   },
-  "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4": {
-   "descripcion": "En las instalaciones del Teatro El Chasqui continúa el desarrollo del Festival Internacional de Cine Raíces, que transita su tercera jornada de proyecciones y competencia oficial para producciones de corto y largometraje.\n\nAdemás de las obras que participan del certamen, la propuesta cuenta con secciones fuera de competencia. Entre ellas se destaca «Raíces locales», un espacio dedicado a la difusión de cortometrajes y largometrajes realizados íntegramente en Chivilcoy o que cuentan con la participación de realizadores y actores de la comunidad.\n\nDurante las actividades, el director Ezequiel Enríquez Mena presentó la película «EMI» y mantuvo un intercambio con el público asistente para dialogar sobre los detalles de la producción.\n\nLa agenda de proyecciones continuará el domingo a partir de las 18 con la presentación de la película «Plata o Mierda».",
-   "duracion_seg": 59.1,
-   "generado": "2026-11-15T01:04:15.000Z",
-   "id": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Continúa el Festival Internacional de Cine Raices en El Chasqui",
-   "urgente": false,
-   "video_bytes": 4544125,
-   "video_mb": 4.3,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2594ef04e2cb14e0.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/oUpffTveV1k"
-  },
   "bot:video_matias-zucchi_mwi2eoljergp_01.mp4": {
    "descripcion": "El básquet formativo tuvo una jornada especial con el cierre de año de la categoría Mosquitos, desarrollado en las instalaciones del Estadio Centro bajo la organización del Club Gimnasia y Esgrima.\n\nEl encuentro deportivo y recreativo reunió a una gran cantidad de chicos pertenecientes a distintas instituciones de la zona. Además del club anfitrión, participaron de las actividades las delegaciones de Colón, Racing y Bragado Club.\n\nLa propuesta contó con un importante marco de público en las tribunas, donde familias enteras acompañaron a los pequeños basquetbolistas durante los diferentes partidos que marcaron la despedida del ciclo deportivo.",
    "duracion_seg": 124.1,
@@ -6145,45 +6124,6 @@
    "vence": "2026-11-17T20:38:09.000Z",
    "video_bytes": 2825618,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_48715283272c98de.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok": {
-   "actualizado": "2026-11-15T13:20:16.000Z",
-   "buffer_id": "6af9ace476c23bf1c77e573a",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|tiktok",
-   "creado": "2026-11-15T01:20:17.000Z",
-   "dueAt": "2026-11-15T13:03:38.000Z",
-   "enviado": "2026-11-15T13:06:35.088Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-15T01:04:15.000Z",
-   "id": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7708383545772805397",
-   "metricas": {
-    "averageTimeWatched": 3.62,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 169,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 12.97,
-    "views": 243
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Continúa el Festival Internacional de Cine Raices en El Chasqui\n\nEl evento transita su tercera jornada con proyecciones de cortos y largometrajes en competencia oficial y secciones fuera de certamen como Raíces locales, dedicada a producciones vinculadas a Chivilcoy. Durante las actividades, el director Ezequiel Enríquez Mena presentó la película EMI y dialogó con el público sobre los detalles de la realización.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Continúa el Festival Internacional de Cine Raices en El Chasqui",
-   "urgente": false,
-   "vence": "2026-11-17T01:04:15.000Z",
-   "video_bytes": 4544125,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2594ef04e2cb14e0.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok": {
