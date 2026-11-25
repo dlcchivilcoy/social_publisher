@@ -4577,6 +4577,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-independiente-y-la-mira-puesta-en-la-clasificacion-el-rojo",
    "volanta": "Fútbol"
   },
+  "web:86d44e99-7320-4ee4-bcfb-52ce147d042c": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Los Grobo pidió autorización para vender Molino Cánepa y su acopio local CHIVILCOY.– La operación prevé transferir ambos activos a Molinos Fénix y destinar los fondos al pago de deudas. El acuerdo depende del aval del juez que interviene en el concurso preventivo. Los Grobo Agropecuaria solicitó autorización judicial para vender Cánepa Hermanos S.A.I.C.A. y su planta de acopio de Chivilcoy a Molinos Fénix por un total de US$5,5 millones. La propuesta forma parte de las...",
+   "generado": "2026-11-25T19:04:18.240Z",
+   "id": "web:86d44e99-7320-4ee4-bcfb-52ce147d042c",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_c9fdd1df0a284762bbd8b10142c25ef2~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-economia-chivilcoy-los-grobo-pidio-autorizacion-para-vender",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Los Grobo pidió autorización para vender Molino Cánepa y su acopio local",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-economia-chivilcoy-los-grobo-pidio-autorizacion-para-vender",
+   "volanta": "Chivilcoy · Economía"
+  },
   "web:8979344a-0701-4069-b470-ee00954debc6": {
    "categoria": "",
    "descripcion": "La escritora Verónica Salinas visitará Chivilcoy en diciembre para el cierre del Club de Lectura El club de lectura que funciona durante todo el año en las instalaciones de Encuentro por las Artes culminará su ciclo 2026 con un acontecimiento literario de jerarquía. La actividad contará con la presencia estelar de la escritora, actriz y cantante argentina radicada en Noruega, Verónica Salinas, quien arribará a Chivilcoy el miércoles 9 de diciembre para brindar una charla abierta a la...",
@@ -14897,6 +14916,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:86d44e99-7320-4ee4-bcfb-52ce147d042c|x": {
+   "actualizado": "2026-11-25T19:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:86d44e99-7320-4ee4-bcfb-52ce147d042c|x",
+   "creado": "2026-11-25T19:20:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-25T19:04:18.240Z",
+   "id": "web:86d44e99-7320-4ee4-bcfb-52ce147d042c",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-economia-chivilcoy-los-grobo-pidio-autorizacion-para-vender",
+   "noticia": "nota:chivilcoy-economia-chivilcoy-los-grobo-pidio-autorizacion-para-vender",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Los Grobo pidió autorización para vender Molino Cánepa y su acopio local\n\no \"del juez que interviene en el concurso preventivo\".\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-economia-chivilcoy-los-grobo-pidio-autorizacion-para-vender",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Los Grobo pidió autorización para vender Molino Cánepa y su acopio local",
+   "urgente": false,
+   "vence": "2026-11-25T23:04:18.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:8979344a-0701-4069-b470-ee00954debc6|x": {
    "actualizado": "2026-11-19T11:40:15.000Z",
    "buffer_id": "6afebc4d4fb82a830a0cebba",
@@ -17415,19 +17461,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6afe11ef570d3cc01e691926",
-   "clave": "entrevistas:job00324|tiktok",
-   "cuando": "2026-11-18T21:00:31.000Z",
-   "dueAt": "2026-11-18T22:23:14.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|tiktok",
-   "cuando": "2026-11-18T21:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709620276052495637"
-  },
   {
    "clave": "entrevistas:job00324|tiktok",
    "cuando": "2026-11-18T22:40:14.000Z",
@@ -21576,6 +21609,20 @@
    "cuando": "2026-11-25T19:00:24.000Z",
    "dueAt": "2026-11-25T19:02:39.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:86d44e99-7320-4ee4-bcfb-52ce147d042c|x",
+   "cuando": "2026-11-25T19:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:86d44e99-7320-4ee4-bcfb-52ce147d042c|x",
+   "cuando": "2026-11-25T19:20:19.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22233,6 +22280,7 @@
   "web:84b9ef63-b752-4b47-a2ac-8e5b53cabe38": "2026-10-31T21:00:19.000Z",
   "web:85c7c574-2535-4b4c-9aa4-cab46d956ea6": "2026-11-02T10:03:22.000Z",
   "web:86ad29b1-82b6-4e00-868b-4e29af5b4496": "2026-11-05T10:02:30.000Z",
+  "web:86d44e99-7320-4ee4-bcfb-52ce147d042c": "2026-11-25T19:20:14.000Z",
   "web:872a2063-6765-4479-9b88-9ec7435019ea": "2026-11-04T10:20:13.000Z",
   "web:87b34ef6-682f-453d-9a41-c5e57e182a44": "2026-11-10T10:02:42.000Z",
   "web:87b7d270-489f-4f55-9ab2-4b6d23b9f3e4": "2026-10-27T00:40:14.000Z",
