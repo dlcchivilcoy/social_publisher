@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 10:40 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 11:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 25/11/2026 10:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Notas web | X | 15 | 13 | 1 | 0 | 0 | 0 | 4 |
+| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 21 enviadas + 2 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 22 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 2 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 83 · likes 0
@@ -33,9 +33,6 @@ Actualizado: 25/11/2026 10:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T10:40 enviado web:44c83f47-fa9b-471a-8f63-c5e8ca0016d8|x 
-- 2026-11-25T10:40 enviado web:ddb4bc54-794b-4b92-8f34-46b1c1e25b4a|x 
-- 2026-11-25T10:40 programado web:a7006b82-c26d-419f-8d32-75902a38cfde|x 
 - 2026-11-25T10:40 programado web:f698d077-1709-4e35-97fc-3ba2f9d16745|x 
 - 2026-11-25T11:00 programado web:2e1f463d-cd94-4055-a6a9-a12845b09bf8|x 
 - 2026-11-25T11:20 programado web:cae8f993-8dcb-468d-8000-3d7a60bcca52|x 
@@ -58,3 +55,6 @@ Actualizado: 25/11/2026 10:40 (hora AR) · ACTIVO
 - 2026-11-25T13:00 programado bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|tiktok 
 - 2026-11-25T13:00 programado bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok 
 - 2026-11-25T13:20 depurado web:8b10d292-9c09-4b23-af31-8a3268e37c10|x no está en el carrusel del diario de hoy (sacado de Buffer)
+- 2026-11-25T14:00 enviado bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok 
+- 2026-11-25T14:00 enviado bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|tiktok 
+- 2026-11-25T14:00 enviado web:d7b743b0-decb-4fd8-8f34-dc15c4a2e39c|x 
