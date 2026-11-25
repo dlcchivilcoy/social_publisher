@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 08:40 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 09:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,11 +9,11 @@ Actualizado: 25/11/2026 08:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Notas web | X | 15 | 5 | 8 | 0 | 0 | 0 | 2 |
+| Notas web | X | 15 | 9 | 5 | 0 | 0 | 0 | 2 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 18 enviadas + 2 programadas de 100 por día
+- X: conectado · Buffer: 20 enviadas + 2 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -35,12 +35,6 @@ Actualizado: 25/11/2026 08:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T09:05 recibido web:05f62681-9aa5-43aa-a039-6fea901495ed|x 
-- 2026-11-25T09:05 recibido web:1efd7937-7442-429d-9454-7538e34225e8|x 
-- 2026-11-25T09:05 recibido web:0f583263-cff5-49e8-af45-ef80b5826e6c|x 
-- 2026-11-25T09:05 recibido web:050f605d-892a-436d-9386-3e34bc71592e|x 
-- 2026-11-25T09:05 programado web:050f605d-892a-436d-9386-3e34bc71592e|x 
-- 2026-11-25T09:05 programado web:1efd7937-7442-429d-9454-7538e34225e8|x 
 - 2026-11-25T09:05 programado web:05f62681-9aa5-43aa-a039-6fea901495ed|x 
 - 2026-11-25T09:05 programado web:44c83f47-fa9b-471a-8f63-c5e8ca0016d8|x 
 - 2026-11-25T09:05 programado web:0f583263-cff5-49e8-af45-ef80b5826e6c|x 
@@ -60,3 +54,9 @@ Actualizado: 25/11/2026 08:40 (hora AR) · ACTIVO
 - 2026-11-25T11:00 programado web:2e1f463d-cd94-4055-a6a9-a12845b09bf8|x 
 - 2026-11-25T11:20 programado web:cae8f993-8dcb-468d-8000-3d7a60bcca52|x 
 - 2026-11-25T11:40 programado web:d74994de-502e-4337-9520-6ed2b5a25bae|x 
+- 2026-11-25T12:00 recibido web:f949cd3a-20b5-4eff-981f-52a316b0ff85|x 
+- 2026-11-25T12:00 enviado web:03a74db9-6c2a-429e-927d-0b4a3a0e5a7b|x 
+- 2026-11-25T12:00 enviado web:a7006b82-c26d-419f-8d32-75902a38cfde|x 
+- 2026-11-25T12:00 enviado web:d45928cf-7fdb-4476-904f-f002db28e6f3|x 
+- 2026-11-25T12:00 enviado web:f6e503e0-4701-4361-8023-144c9fe4fff2|x 
+- 2026-11-25T12:00 programado web:f949cd3a-20b5-4eff-981f-52a316b0ff85|x 
