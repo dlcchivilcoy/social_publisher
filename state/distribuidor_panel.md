@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 15:40 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 16:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 25/11/2026 15:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Recortes de entrevistas · Alberto Butteri y la durísima prueba de bomberos — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Gina Viscardi: organizar la mente para crear tras sufrir ansiedad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Rogelio Zilliotti: por qué no saca fotos con gente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -35,10 +36,6 @@ Actualizado: 25/11/2026 15:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T12:40 depurado web:f949cd3a-20b5-4eff-981f-52a316b0ff85|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-25T12:40 programado web:d7b743b0-decb-4fd8-8f34-dc15c4a2e39c|x 
-- 2026-11-25T12:40 programado web:8b10d292-9c09-4b23-af31-8a3268e37c10|x 
-- 2026-11-25T13:00 enviado web:2e1f463d-cd94-4055-a6a9-a12845b09bf8|x 
 - 2026-11-25T13:00 enviado web:cae8f993-8dcb-468d-8000-3d7a60bcca52|x 
 - 2026-11-25T13:00 enviado web:d74994de-502e-4337-9520-6ed2b5a25bae|x 
 - 2026-11-25T13:00 enviado web:f698d077-1709-4e35-97fc-3ba2f9d16745|x 
@@ -60,3 +57,7 @@ Actualizado: 25/11/2026 15:40 (hora AR) · ACTIVO
 - 2026-11-25T18:00 recibido entrevistas:job00348|tiktok 
 - 2026-11-25T18:00 programado entrevistas:job00348|x 
 - 2026-11-25T18:40 enviado entrevistas:job00348|x 
+- 2026-11-25T19:00 entrevista_aprobada entrevistas:job00349 
+- 2026-11-25T19:00 recibido entrevistas:job00349|x 
+- 2026-11-25T19:00 recibido entrevistas:job00349|tiktok 
+- 2026-11-25T19:00 programado entrevistas:job00349|x 
