@@ -54,27 +54,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_48715283272c98de.mp4",
    "youtube_url": "https://www.youtube.com/shorts/3eJ3pOfVS1E"
   },
-  "bot:video_matias-zucchi_mwi2eoljergp_01.mp4": {
-   "descripcion": "El básquet formativo tuvo una jornada especial con el cierre de año de la categoría Mosquitos, desarrollado en las instalaciones del Estadio Centro bajo la organización del Club Gimnasia y Esgrima.\n\nEl encuentro deportivo y recreativo reunió a una gran cantidad de chicos pertenecientes a distintas instituciones de la zona. Además del club anfitrión, participaron de las actividades las delegaciones de Colón, Racing y Bragado Club.\n\nLa propuesta contó con un importante marco de público en las tribunas, donde familias enteras acompañaron a los pequeños basquetbolistas durante los diferentes partidos que marcaron la despedida del ciclo deportivo.",
-   "duracion_seg": 124.1,
-   "generado": "2026-11-15T16:51:15.000Z",
-   "id": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO",
-   "urgente": false,
-   "video_bytes": 28196847,
-   "video_mb": 26.9,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae04118e838617e.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/G05XcGp1B1A"
-  },
   "bot:video_matias-zucchi_mwjo5rifucll_01.mp4": {
    "descripcion": "Familiares, amigos y vecinos despidieron este lunes 16 de noviembre a Jesús Almeira, el joven que falleció tras un choque de motos en Chivilcoy.\n\nUna caravana de motociclistas acompañó el cortejo fúnebre durante la mañana. Sus allegados se sumaron en dos ruedas a lo largo del recorrido para rendirle homenaje y acompañar a su familia en este difícil momento.\n\nEl siniestro vial ocurrió el sábado 14 de noviembre, cerca de las 14, en la intersección de avenida Avellaneda y Arenales. Almeira sufrió heridas graves tras colisionar con otra motocicleta y fue trasladado al Hospital Municipal, donde se constató su fallecimiento.\n\nEn el hecho también intervino otra moto conducida por una joven de 25 años, quien resultó lesionada.\n\nDiario La Campaña y Radio del Centro envían sus sinceras condolencias a los familiares y amigos de Jesús Almeira.",
    "duracion_seg": 35.2,
@@ -6252,45 +6231,6 @@
    "vence": "2026-11-17T20:38:09.000Z",
    "video_bytes": 2825618,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_48715283272c98de.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok": {
-   "actualizado": "2026-11-15T21:20:19.000Z",
-   "buffer_id": "6afa1d61a869c35e5b968813",
-   "categoria": "",
-   "clave": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4|tiktok",
-   "creado": "2026-11-15T17:00:25.000Z",
-   "dueAt": "2026-11-15T21:03:20.000Z",
-   "enviado": "2026-11-15T21:05:13.869Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-15T16:51:15.000Z",
-   "id": "bot:video_matias-zucchi_mwi2eoljergp_01.mp4",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7708506817919274248",
-   "metricas": {
-    "averageTimeWatched": 7.11,
-    "comments": 0,
-    "engagementRate": 1.57,
-    "reach": 209,
-    "reactions": 4,
-    "shares": 4,
-    "totalTimeWatched": 63.52,
-    "views": 509
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO\n\nBajo la organización del Club Gimnasia y Esgrima, una gran cantidad de chicos de distintas instituciones de la zona participaron de una jornada deportiva y recreativa. Las actividades contaron con la presencia de delegaciones de Colón, Racing y Bragado Club, acompañadas por familias enteras en las tribunas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-basquet-de-la-categoria-mosquitos\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El básquet de la categoría MOSQUITOS cerró el año en el ESTADIO CENTRO",
-   "urgente": false,
-   "vence": "2026-11-17T16:51:15.000Z",
-   "video_bytes": 28196847,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dae04118e838617e.mp4",
    "viral": false
   },
   "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|tiktok": {
