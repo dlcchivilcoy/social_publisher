@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 23:42 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-11-24)
+## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 2 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 3 | 1 |
-| Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 12 |
+| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,20 +27,14 @@ Actualizado: 24/11/2026 23:42 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (2 esperando)
 - TikTok · Reels del bot · Deportivo Colón y Racing Club jugarán la final del Torneo Clausura — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Demoraron a un automovilista pampeano tras resistirse al secuestro de su auto en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T00:00 recibido bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok 
-- 2026-11-25T00:00 programado bot:video_matias-zucchi_mwva3xndaqua_01.mp4|x 
-- 2026-11-25T00:00 programado bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok 
-- 2026-11-25T00:20 recibido web:d9ea25b8-3de1-4342-8768-959e5bf6f94c|x 
-- 2026-11-25T00:20 depurado web:d9ea25b8-3de1-4342-8768-959e5bf6f94c|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-25T00:20 enviado bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok 
 - 2026-11-25T00:20 enviado bot:video_matias-zucchi_mwva3xndaqua_01.mp4|x 
 - 2026-11-25T00:40 recibido bot:video_matias-zucchi_mwve046qdarc_01.mp4|x 
@@ -61,3 +55,8 @@ Actualizado: 24/11/2026 23:42 (hora AR) · ACTIVO
 - 2026-11-25T02:41 enviado policiales:https://junin24.com/locales/malestar-y-preocupaci 
 - 2026-11-25T02:41 video_cambiado bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|x el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)
 - 2026-11-25T02:42 video_cambiado policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11 el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)
+- 2026-11-25T09:00 recibido policiales:https://lobos24.com.ar/2026/11/24/informacion-de- 
+- 2026-11-25T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/rescate-e 
+- 2026-11-25T09:00 vencido policiales:https://www.bragadoinforma.com.ar/nota/31220/tens espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-25T09:00 vencido policiales:https://lobos24.com.ar/2026/11/24/informacion-de- no hubo lugar antes de su vencimiento
+- 2026-11-25T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/rescate-e no hubo lugar antes de su vencimiento
