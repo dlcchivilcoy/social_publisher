@@ -285,6 +285,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5fc5bb6f990e2e22.mp4",
    "youtube_url": "https://www.youtube.com/shorts/h9SEWYFbpN4"
   },
+  "bot:video_matias-zucchi_mwva3xndaqua_01.mp4": {
+   "descripcion": "La joven autora Joha Dixon presentó su primera novela, titulada «MystigressJane: Los secretos entre las sombras», durante la Feria del Libro de Chivilcoy (FLICH).\n\nEl evento se llevó a cabo el domingo 22 de noviembre en las instalaciones del Club Racing, donde la escritora contó con un stand propio para dar a conocer su obra, la cual formará parte de una saga.\n\nLa novela fue escrita por Dixon cuando tenía 11 años y logró publicarla a sus 15 años. La trama propone una historia cargada de giros inesperados y fantasía.\n\nSegún detalla su sinopsis, la narración se sitúa tras una etapa de paz en la que humanos y animales compartían costumbres y vivencias, momento en el que estalla el caos ante una amenaza oscura y una misteriosa bestia que busca venganza contra la humanidad, mientras distintos bandos secretos se disputan el destino del reino animal.",
+   "duracion_seg": 79.3,
+   "generado": "2026-11-24T23:40:37.000Z",
+   "id": "bot:video_matias-zucchi_mwva3xndaqua_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Joha Dixon presentó su primera novela en la FLICH",
+   "urgente": false,
+   "video_bytes": 17582200,
+   "video_mb": 16.8,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23b99ab1a1e17ad1.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/q1iQvQhV_K8"
+  },
   "entrevistas:job00316": {
    "descripcion": "En Chivilcoy, el dirigente del MDF Luciano Dellepiane cuestionó la falta de mantenimiento estatal y advirtió sobre los riesgos viales del parate de la obra pública.",
    "duracion_seg": null,
@@ -6469,6 +6490,62 @@
    "vence": "2026-11-23T15:19:06.000Z",
    "video_bytes": 8780457,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_5fc5bb6f990e2e22.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok": {
+   "actualizado": "2026-11-25T00:00:24.000Z",
+   "buffer_id": "6b06251b9192919413257e58",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok",
+   "creado": "2026-11-25T00:00:19.000Z",
+   "dueAt": "2026-11-25T00:03:23.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-24T23:40:37.000Z",
+   "id": "bot:video_matias-zucchi_mwva3xndaqua_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Joha Dixon presentó su primera novela en la FLICH\n\nLa autora dio a conocer «MystigressJane: Los secretos entre las sombras», una obra de fantasía que formará parte de una saga y que escribió a los 11 años. La presentación se realizó el domingo 22 de noviembre en el Club Racing con un stand propio.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Joha Dixon presentó su primera novela en la FLICH",
+   "urgente": false,
+   "vence": "2026-11-26T23:40:37.000Z",
+   "video_bytes": 17582200,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23b99ab1a1e17ad1.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwva3xndaqua_01.mp4|x": {
+   "actualizado": "2026-11-25T00:00:24.000Z",
+   "buffer_id": "6b062519a2fd17422e6e8e47",
+   "clave": "bot:video_matias-zucchi_mwva3xndaqua_01.mp4|x",
+   "creado": "2026-11-25T00:00:19.000Z",
+   "dueAt": "2026-11-25T00:02:09.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-24T23:40:37.000Z",
+   "id": "bot:video_matias-zucchi_mwva3xndaqua_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en",
+   "noticia": "nota:chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Joha Dixon presentó su primera novela en la FLICH\n\nLa autora dio a conocer su libro MystigressJane: Los secretos entre las sombras en el Club Racing. La obra de fantasía fue escrita a sus 11 años y publicada a sus 15 como parte de una saga.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-joha-dixon-presento-su-primera-novela-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Joha Dixon presentó su primera novela en la FLICH",
+   "urgente": false,
+   "vence": "2026-11-25T01:40:37.000Z",
+   "video_bytes": 17582200,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23b99ab1a1e17ad1.mp4",
    "viral": false
   },
   "entrevistas:job00316|tiktok": {
@@ -15910,31 +15987,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6afc9f9cd4c8ef4106f6b8e1",
-   "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|x",
-   "cuando": "2026-11-17T18:40:28.000Z",
-   "dueAt": "2026-11-17T18:42:50.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|x",
-   "cuando": "2026-11-17T19:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122762476781515013"
-  },
-  {
-   "clave": "entrevistas:job00322|x",
-   "cuando": "2026-11-17T19:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122753539873120418"
-  },
-  {
-   "clave": "entrevistas:job00323|x",
-   "cuando": "2026-11-17T19:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122757379359990158"
-  },
-  {
    "buffer_id": "6afcc067953f4c1b18bdbed9",
    "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok",
    "cuando": "2026-11-17T21:00:41.000Z",
@@ -20059,11 +20111,40 @@
    "cuando": "2026-11-24T23:40:15.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwva3xndaqua_01.mp4|x",
+   "cuando": "2026-11-25T00:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok",
+   "cuando": "2026-11-25T00:00:24.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "buffer_id": "6b062519a2fd17422e6e8e47",
+   "clave": "bot:video_matias-zucchi_mwva3xndaqua_01.mp4|x",
+   "cuando": "2026-11-25T00:00:27.000Z",
+   "dueAt": "2026-11-25T00:02:09.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b06251b9192919413257e58",
+   "clave": "bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok",
+   "cuando": "2026-11-25T00:00:27.000Z",
+   "dueAt": "2026-11-25T00:03:23.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-14 21",
    "2026-11-15 10",
    "2026-11-15 18",
    "2026-11-15 21",
@@ -20092,10 +20173,11 @@
    "2026-11-23 18",
    "2026-11-23 21",
    "2026-11-24 10",
-   "2026-11-24 18"
+   "2026-11-24 18",
+   "2026-11-24 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-24",
+ "ultima_limpieza_release": "2026-11-25",
  "ultima_sync": "2026-11-24T22:40:16.000Z",
  "version": 1,
  "vistos": {
@@ -20203,6 +20285,7 @@
   "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4": "2026-11-22T02:00:23.000Z",
   "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4": "2026-11-22T21:40:18.000Z",
   "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4": "2026-11-23T13:20:13.000Z",
+  "bot:video_matias-zucchi_mwva3xndaqua_01.mp4": "2026-11-25T00:00:19.000Z",
   "entrevistas:job00248": "2026-10-26T16:40:17.000Z",
   "entrevistas:job00249": "2026-10-26T17:00:18.000Z",
   "entrevistas:job00250": "2026-10-26T17:40:14.000Z",
