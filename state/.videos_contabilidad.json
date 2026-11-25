@@ -45886,5 +45886,60 @@
     "yt_privacy": "public",
     "fecha_youtube": "2026-11-24T21:37:10",
     "yt_metrics": {}
+  },
+  {
+    "file": "corresponsal_2026-11-25_matias-zucchi_mwvgl0667j37",
+    "uploader": "",
+    "fecha_recibido": "2026-11-24T22:44:56",
+    "hay_noticia": true,
+    "es_placa": true,
+    "corr_foto": true,
+    "volanta": "Ruta 51 · Accidente",
+    "titulo": "Se incendió un auto en la ruta y el conductor resultó ileso",
+    "resumen": "Un Chevrolet Aveo se incendió por un desperfecto mecánico a la altura del kilómetro 170 de la Ruta Provincial 51, antes de llegar a Ayarza. El vehículo era conducido por Luis Esteban Dianda, de 31 años y oriundo de Chivilcoy, quien resultó ileso. La ruta quedó liberada al tránsito.",
+    "texto": "Un Chevrolet Aveo se incendió por un desperfecto mecánico a la altura del kilómetro 170 de la Ruta Provincial 51, antes de llegar a Ayarza.\n\nEl vehículo era conducido por Luis Esteban Dianda, de 31 años y oriundo de Chivilcoy, quien resultó ileso.\n\nLa ruta quedó liberada al tránsito y se aguarda la llegada de una grúa para retirar el rodado.",
+    "bajada_reel": "El hecho ocurrió por un desperfecto mecánico cerca de Ayarza y el tránsito quedó liberado.",
+    "escrito": "🔥 Se incendió un auto en la Ruta 51: el conductor resultó ileso\nUn Chevrolet Aveo se incendió por un desperfecto mecánico a la altura del kilómetro 170 de la Ruta Provincial 51, antes de llegar a Ayarza.\nEl vehículo era conducido por Luis Esteban Dianda, de 31 años y oriundo de Chivilcoy, quien resultó ileso.\nLa ruta quedó liberada al tránsito y se aguarda la llegada de una grúa para retirar el rodado.\n📲 Más información en @diarioyradio.",
+    "tarjetas_fotos": [],
+    "draft_id": "7e2be751-eca4-4956-b6fd-5aa5d2454f12",
+    "reel_url": "",
+    "estado": "publicado_foto_corr",
+    "origen": "corresponsal-whatsapp",
+    "corresponsal_nombre": "matias zucchi",
+    "corresponsal_celular": "5492346417636",
+    "corresponsal_lugar": "",
+    "autorizacion": "ACEPTADA — Autorizo al Diario La Campaña y Radio del Centro a publicar el material, sin obligación de ningún tipo de retribución. — 2026-11-25T01:42:30.547Z — wa:5492346417636",
+    "decl": null,
+    "formato": "carrusel",
+    "tema_carrusel": "claro",
+    "laminas": [
+      {
+        "titulo": "Incendio en la Ruta 51",
+        "texto": "Un Chevrolet Aveo se incendió por un desperfecto mecánico a la altura del kilómetro 170 de la Ruta Provincial 51, antes de llegar a Ayarza."
+      },
+      {
+        "titulo": "El conductor resultó ileso",
+        "texto": "El vehículo era conducido por Luis Esteban Dianda, de 31 años y oriundo de Chivilcoy, quien resultó ileso."
+      },
+      {
+        "titulo": "Tránsito liberado",
+        "texto": "La ruta quedó liberada al tránsito y se aguarda la llegada de una grúa para retirar el rodado."
+      }
+    ],
+    "carrusel_prev": "https://static.wixstatic.com/media/82cea5_930b0ff4b4104d8d8cbc050ab5a84325~mv2.jpg",
+    "publicacion_directa": true,
+    "fecha_publicado": "2026-11-24T22:46:10",
+    "estado_canales": {
+      "instagram": "ok",
+      "facebook": "ok",
+      "youtube": "omitido",
+      "wix": "ok"
+    },
+    "post_url": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-51-accidente-chivilcoy-se-incendio-un-auto-en-la-ruta-y-el",
+    "ig_media_id": "17966996841236824",
+    "fb_video_id": "",
+    "ig_historia_id": "",
+    "fb_historia_id": "",
+    "fb_post_id": "1456376377985890_2104053967202895"
   }
 ]
