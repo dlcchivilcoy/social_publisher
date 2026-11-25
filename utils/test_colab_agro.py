@@ -17,7 +17,12 @@ os.environ["COLAB_AGRO_TEXTO"] = "1"     # 24/11/2026: la colab por palabras se 
 from platforms import instagram as IG  # noqa: E402
 from utils import colab_agro as CA  # noqa: E402
 
+# 25/11/2026: de fábrica no hay ninguna colab automática (ni la nota 6); lo que sigue prueba con COLAB_AGRO=1.
+_sin = (not CA.activo() and CA.colaborador_para("Cosecha de trigo", "17841405971293744", siempre=True) == "")
+os.environ["COLAB_AGRO"] = "1"
+
 fallas, total = [], 0
+_pendiente = [("25/11: de fábrica, sin colab (ni la nota 6)", _sin)]
 
 
 def chequear(nombre, cond):
@@ -26,6 +31,10 @@ def chequear(nombre, cond):
     print(("OK  " if cond else "MAL ") + nombre)
     if not cond:
         fallas.append(nombre)
+
+
+for _n, _c in _pendiente:
+    chequear(_n, _c)
 
 
 contenedores = []

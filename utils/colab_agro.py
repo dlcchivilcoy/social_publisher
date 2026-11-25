@@ -39,8 +39,10 @@ FIRMES = tuple(t for t in _CAMPO_FUERTE if t not in AMBIGUAS)
 ESPERAS_ACEPTAR = (5, 10, 20, 30, 60)
 
 
+# 25/11/2026 (el editor: «sacá las colaboraciones automatizadas con la otra cuenta»): ninguna colab automática
+# entre @diarioyradio y @diarioyradioagro. COLAB_AGRO=1 las vuelve a prender.
 def activo() -> bool:
-    return (get("COLAB_AGRO") or "1").strip().lower() not in ("0", "false", "no", "off")
+    return (get("COLAB_AGRO") or "0").strip().lower() in ("1", "true", "si", "sí", "on")
 
 
 def es_del_campo(texto: str) -> bool:
