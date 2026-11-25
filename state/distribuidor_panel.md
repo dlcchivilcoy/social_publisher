@@ -1,14 +1,14 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 23:20 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 23:42 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 3 | 0 |
+| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 2 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 1 | 0 | 1 | 0 | 3 | 1 |
 | Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 12 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,20 +27,15 @@ Actualizado: 24/11/2026 23:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Reels del bot · Deportivo Colón y Racing Club jugarán la final del Torneo Clausura — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Reels del bot · Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- X · Reels policiales · Dos aprehendidos y motos recuperadas tras diversos operativos en Roque Pérez — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Reels policiales · Demoraron a un automovilista pampeano tras resistirse al secuestro de su auto en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-24T22:40 enviado entrevistas:job00343|tiktok 
-- 2026-11-24T22:40 enviado entrevistas:job00344|tiktok 
-- 2026-11-24T22:40 enviado entrevistas:job00345|tiktok 
-- 2026-11-24T23:40 recibido web:95a435dd-1b55-4e07-8169-5d47a9388837|x 
-- 2026-11-24T23:40 depurado web:95a435dd-1b55-4e07-8169-5d47a9388837|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-25T00:00 recibido bot:video_matias-zucchi_mwva3xndaqua_01.mp4|x 
 - 2026-11-25T00:00 recibido bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok 
 - 2026-11-25T00:00 programado bot:video_matias-zucchi_mwva3xndaqua_01.mp4|x 
 - 2026-11-25T00:00 programado bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok 
@@ -60,3 +55,9 @@ Actualizado: 24/11/2026 23:20 (hora AR) · ACTIVO
 - 2026-11-25T02:20 recibido web:7de0c278-06b2-46a5-b5cf-f664ea3eb882|x 
 - 2026-11-25T02:20 depurado web:7de0c278-06b2-46a5-b5cf-f664ea3eb882|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-25T02:20 programado policiales:https://junin24.com/locales/malestar-y-preocupaci 
+- 2026-11-25T02:40 recibido bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|x 
+- 2026-11-25T02:40 recibido bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|tiktok 
+- 2026-11-25T02:41 recibido policiales:https://www.bragadoinforma.com.ar/nota/31220/tens 
+- 2026-11-25T02:41 enviado policiales:https://junin24.com/locales/malestar-y-preocupaci 
+- 2026-11-25T02:41 video_cambiado bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|x el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)
+- 2026-11-25T02:42 video_cambiado policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11 el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)
