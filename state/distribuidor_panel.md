@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 24/11/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 24/11/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-24)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 3 | 0 |
-| Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 9 |
+| Notas web | X | 15 | 11 | 0 | 0 | 0 | 0 | 10 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,13 @@ Actualizado: 24/11/2026 21:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Reels del bot · Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-24T19:40 recibido entrevistas:job00346|tiktok 
-- 2026-11-24T19:40 programado entrevistas:job00346|x 
-- 2026-11-24T20:40 enviado entrevistas:job00346|x 
-- 2026-11-24T21:00 recibido web:4d9a51a7-7f3a-4bbe-b7ec-c36d06e56f5c|x 
 - 2026-11-24T21:00 depurado web:4d9a51a7-7f3a-4bbe-b7ec-c36d06e56f5c|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-24T21:00 programado entrevistas:job00342|tiktok 
 - 2026-11-24T21:00 programado entrevistas:job00346|tiktok 
@@ -58,3 +55,7 @@ Actualizado: 24/11/2026 21:20 (hora AR) · ACTIVO
 - 2026-11-25T00:20 depurado web:d9ea25b8-3de1-4342-8768-959e5bf6f94c|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-25T00:20 enviado bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok 
 - 2026-11-25T00:20 enviado bot:video_matias-zucchi_mwva3xndaqua_01.mp4|x 
+- 2026-11-25T00:40 recibido bot:video_matias-zucchi_mwve046qdarc_01.mp4|x 
+- 2026-11-25T00:40 recibido bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok 
+- 2026-11-25T00:40 recibido web:9d0de243-3208-4e13-9995-ff07670f898d|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-25T00:40 programado bot:video_matias-zucchi_mwve046qdarc_01.mp4|x 

@@ -306,6 +306,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23b99ab1a1e17ad1.mp4",
    "youtube_url": "https://www.youtube.com/shorts/q1iQvQhV_K8"
   },
+  "bot:video_matias-zucchi_mwve046qdarc_01.mp4": {
+   "descripcion": "Estudiantes de la Escuela Secundaria N.º 8 llevaron adelante una jornada de concientización ambiental en conjunto con RSU Ambiental, orientada a fomentar la separación de residuos en origen entre los vecinos de la ciudad.\n\nDurante la actividad, las alumnas se desempeñaron como promotoras, distribuyeron bolsas y dialogaron de manera directa con la comunidad acerca de la importancia de incorporar hábitos sustentables cotidianos, además de recordar la existencia y el uso de los puntos limpios locales.\n\nLas jóvenes destacaron la positiva recepción por parte de los ciudadanos, quienes en muchos casos ya contaban con información previa sobre la iniciativa gracias a intervenciones anteriores. Asimismo, remarcaron el interés creciente de las familias por sumarse a estas prácticas ecológicas desde sus propios hogares.\n\nDesde el espacio de articulación entre la institución educativa y RSU Ambiental manifestaron su satisfacción por el compromiso demostrado por las estudiantes y por la continua expansión del mensaje ambientalista en Chivilcoy.",
+   "duracion_seg": 55.1,
+   "generado": "2026-11-25T00:37:12.000Z",
+   "id": "bot:video_matias-zucchi_mwve046qdarc_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU",
+   "urgente": false,
+   "video_bytes": 9158532,
+   "video_mb": 8.7,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_227ba1f0e67a1375.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/4X44Wda4EM0"
+  },
   "entrevistas:job00316": {
    "descripcion": "En Chivilcoy, el dirigente del MDF Luciano Dellepiane cuestionó la falta de mantenimiento estatal y advirtió sobre los riesgos viales del parate de la obra pública.",
    "duracion_seg": null,
@@ -1315,32 +1336,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_07_junin_chivilcoy-un-motociclista-de-2.mp4",
    "volanta": "Trágico choque en Chivilcoy",
    "youtube_url": "https://youtube.com/shorts/AqY0Bl3xQI8"
-  },
-  "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores": {
-   "categoria": "robo",
-   "descripcion": "Una serie de procedimientos policiales en distintos puntos de la ciudad permitió esclarecer un hurto, atrapar a un prófugo, detener a un hombre por drogas y arrestar a otros dos acusados por tentativa de robo y daños.",
-   "distancia_km": 91.2,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-14T22:33:20.000Z",
-   "id": "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cuatro-aprehensiones-un-profugo-recapturado-y-operativos-bfa638",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "radio_ok": true,
-   "texto_tiktok": "La policía local llevó adelante diversos procedimientos que terminaron con el arresto de cuatro personas en distintos puntos de la ciudad.\n\nEntre los casos se destacan el esclarecimiento de un hurto tras un allanamiento, la captura de un evadido y operativos por drogas y daños.\n\nLas fiscalías intervinientes dispusieron las medidas legales correspondientes para cada uno de los sospechosos.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Robo #Inseguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Múltiples operativos en Junín: cuatro aprehensiones, un prófugo y drogas",
-   "urgente": false,
-   "video_bytes": 77309,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-14_2134_09_junin_m-ltiples-operativos-en-jun-n-.mp4",
-   "volanta": "Junín",
-   "youtube_url": "https://youtube.com/shorts/_2tfdoy0a4o"
   },
   "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com": {
    "categoria": "robo",
@@ -4503,6 +4498,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/rugby-chivilcoy-campeon-en-primera-y-femenino-historico-doblete-de",
    "volanta": "Rugby"
   },
+  "web:9d0de243-3208-4e13-9995-ff07670f898d": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU CHIVILCOY. En el marco de las acciones de concientización sobre el cuidado del medio ambiente, alumnas de la Escuela Secundaria N.º 8 participaron como promotoras de RSU Ambiental en una jornada de difusión y entrega de bolsas a los vecinos de la ciudad. Durante la actividad, las estudiantes dialogaron con la comunidad sobre la importancia de incorporar hábitos sustentables en el día a día y aprovechar los...",
+   "generado": "2026-11-25T00:35:49.555Z",
+   "id": "web:9d0de243-3208-4e13-9995-ff07670f898d",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_6087a52c1e9a4122a9241192ac38347c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
+   "volanta": "Chivilcoy · Medio ambiente"
+  },
   "web:9d8ecd66-8e74-41a7-9a81-7553d8501625": {
    "categoria": "",
    "descripcion": "Maximiliano Robledo y El Olimpo van por la gloria en la LICHFA: \"No hay segunda opción, vamos por todo\" Tras una vibrante definición desde el punto del penal ante Cecilio, El Olimpo selló su pasaje a la gran final del torneo de la LICHFA. Luego de la clasificación, Maximiliano Robledo analizó lo que dejó un encuentro sumamente disputado y palpitó el duelo decisivo que se viene ante Súper Moli. El encuentro terminó empatado 1 a 1 y en la definición por penales, El Olimpo se impuso por 5 a 4...",
@@ -6541,6 +6555,62 @@
    "vence": "2026-11-25T01:40:37.000Z",
    "video_bytes": 17582200,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_23b99ab1a1e17ad1.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok": {
+   "actualizado": "2026-11-25T00:40:14.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok",
+   "creado": "2026-11-25T00:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-25T00:37:12.000Z",
+   "id": "bot:video_matias-zucchi_mwve046qdarc_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU\n\nEstudiantes de la institución realizaron una jornada de concientización ambiental junto a RSU Ambiental para fomentar la separación de residuos en origen, repartiendo bolsas y dialogando con los vecinos sobre hábitos sustentables y puntos limpios. Ambas partes manifestaron su satisfacción por el compromiso de las jóvenes y la expansión del mensaje en Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU",
+   "urgente": false,
+   "vence": "2026-11-27T00:37:12.000Z",
+   "video_bytes": 9158532,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_227ba1f0e67a1375.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwve046qdarc_01.mp4|x": {
+   "actualizado": "2026-11-25T00:40:19.000Z",
+   "buffer_id": "6b062e74f0b405190ac90377",
+   "clave": "bot:video_matias-zucchi_mwve046qdarc_01.mp4|x",
+   "creado": "2026-11-25T00:40:14.000Z",
+   "dueAt": "2026-11-25T00:42:23.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-25T00:37:12.000Z",
+   "id": "bot:video_matias-zucchi_mwve046qdarc_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
+   "noticia": "nota:chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU\n\nEstudiantes repartieron bolsas y dialogaron con vecinos para fomentar hábitos sustentables y el uso de puntos limpios. Destacaron la positiva recepción de la comunidad.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU",
+   "urgente": false,
+   "vence": "2026-11-25T02:37:12.000Z",
+   "video_bytes": 9158532,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_227ba1f0e67a1375.mp4",
    "viral": false
   },
   "entrevistas:job00316|tiktok": {
@@ -9251,34 +9321,6 @@
    "vence": "2026-11-16T01:03:19.000Z",
    "video_bytes": 96997,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-15_2135_07_junin_chivilcoy-un-motociclista-de-2.mp4",
-   "viral": false
-  },
-  "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores|x": {
-   "actualizado": "2026-11-15T00:40:15.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores|x",
-   "creado": "2026-11-14T22:40:13.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-14T22:33:20.000Z",
-   "id": "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-cuatro-aprehensiones-un-profugo-recapturado-y-operativos-bfa638",
-   "noticia": "nota:junin-cuatro-aprehensiones-un-profugo-recapturado-y-operativos-bfa638",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Múltiples operativos en Junín: cuatro aprehensiones, un prófugo y drogas\n\nVarios procedimientos policiales permitieron esclarecer un hurto y atrapar a un prófugo. También arrestaron a implicados por drogas, tentativa de robo y daños.\n\nhttps://www.diariolacampaña.com.ar/n/junin-cuatro-aprehensiones-un-profugo-recapturado-y-operativos-bfa638",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Múltiples operativos en Junín: cuatro aprehensiones, un prófugo y drogas",
-   "urgente": false,
-   "vence": "2026-11-15T00:33:20.000Z",
-   "video_bytes": 77309,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-14_2134_09_junin_m-ltiples-operativos-en-jun-n-.mp4",
    "viral": false
   },
   "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com|x": {
@@ -14178,6 +14220,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:9d0de243-3208-4e13-9995-ff07670f898d|x": {
+   "actualizado": "2026-11-25T00:40:14.000Z",
+   "buffer_id": "",
+   "clave": "web:9d0de243-3208-4e13-9995-ff07670f898d|x",
+   "creado": "2026-11-25T00:40:14.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-25T00:35:49.555Z",
+   "id": "web:9d0de243-3208-4e13-9995-ff07670f898d",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
+   "noticia": "nota:chivilcoy-medio-ambiente-chivilcoy-alumnas-de-la-secundaria-8",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU",
+   "urgente": false,
+   "vence": "2026-11-25T04:35:49.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:9d8ecd66-8e74-41a7-9a81-7553d8501625|x": {
    "actualizado": "2026-11-18T13:00:19.000Z",
    "buffer_id": "6afd89ed986651ea338887df",
@@ -15980,33 +16047,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6afcc071953f4c1b18bdd60e",
-   "clave": "entrevistas:job00322|tiktok",
-   "cuando": "2026-11-17T21:00:41.000Z",
-   "dueAt": "2026-11-17T22:23:45.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afcc072953f4c1b18bdd692",
-   "clave": "entrevistas:job00321|tiktok",
-   "cuando": "2026-11-17T21:00:41.000Z",
-   "dueAt": "2026-11-17T22:43:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afcc07730e8d67e7ca428de",
-   "clave": "entrevistas:job00320|tiktok",
-   "cuando": "2026-11-17T21:00:41.000Z",
-   "dueAt": "2026-11-17T23:03:01.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok",
-   "cuando": "2026-11-17T21:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709249159408192786"
-  },
   {
    "clave": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x",
    "cuando": "2026-11-17T22:20:14.000Z",
@@ -20133,6 +20173,37 @@
    "cuando": "2026-11-25T00:20:20.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2125380123192922557"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwve046qdarc_01.mp4|x",
+   "cuando": "2026-11-25T00:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok",
+   "cuando": "2026-11-25T00:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:9d0de243-3208-4e13-9995-ff07670f898d|x",
+   "cuando": "2026-11-25T00:40:19.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6b062e74f0b405190ac90377",
+   "clave": "bot:video_matias-zucchi_mwve046qdarc_01.mp4|x",
+   "cuando": "2026-11-25T00:40:20.000Z",
+   "dueAt": "2026-11-25T00:42:23.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20225,7 +20296,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:corresponsal_2026-11-21_matias-zucchi_mwqc3v64udx0": "2026-11-21T12:00:17.000Z",
-  "bot:video_matias-zucchi_mvoivsfr5obd_01.mp4": "2026-10-26T00:40:15.000Z",
   "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4": "2026-10-26T02:00:18.000Z",
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4": "2026-10-26T15:20:14.000Z",
   "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4": "2026-10-27T09:00:19.000Z",
@@ -20278,6 +20348,7 @@
   "bot:video_matias-zucchi_mwscbcaibvm2_01.mp4": "2026-11-22T21:40:18.000Z",
   "bot:video_matias-zucchi_mwtacmnt6ylu_01.mp4": "2026-11-23T13:20:13.000Z",
   "bot:video_matias-zucchi_mwva3xndaqua_01.mp4": "2026-11-25T00:00:19.000Z",
+  "bot:video_matias-zucchi_mwve046qdarc_01.mp4": "2026-11-25T00:40:14.000Z",
   "entrevistas:job00248": "2026-10-26T16:40:17.000Z",
   "entrevistas:job00249": "2026-10-26T17:00:18.000Z",
   "entrevistas:job00250": "2026-10-26T17:40:14.000Z",
@@ -20846,6 +20917,7 @@
   "web:9ac331e3-58a9-43ce-9986-c29dbe470fdf": "2026-11-03T10:02:22.000Z",
   "web:9acc6c98-f75c-4e62-a910-7a47963fb3b9": "2026-11-17T10:03:18.000Z",
   "web:9c2673f5-3976-4a53-b1e8-0746d539c8b0": "2026-11-11T10:02:35.000Z",
+  "web:9d0de243-3208-4e13-9995-ff07670f898d": "2026-11-25T00:40:14.000Z",
   "web:9d6e2c2f-9fc7-45c1-b526-e6505524729f": "2026-10-30T19:20:18.000Z",
   "web:9d73f4ad-65b2-47bb-a98c-0b8e454efaf6": "2026-11-12T10:02:44.000Z",
   "web:9d8ecd66-8e74-41a7-9a81-7553d8501625": "2026-11-18T10:02:51.000Z",
@@ -20895,7 +20967,6 @@
   "web:b6c2adf2-4be5-445c-aa35-6be8ff3fb6f6": "2026-11-09T10:02:37.000Z",
   "web:b6d79f8b-20cb-429f-95dc-adf0d9340584": "2026-10-26T10:20:14.000Z",
   "web:b6eeb454-27ba-4f49-9a61-9cc5824a1ca7": "2026-11-13T10:02:41.000Z",
-  "web:b74d2bea-0d1f-4271-a1aa-e11092c59f72": "2026-10-26T00:40:15.000Z",
   "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b": "2026-11-19T09:05:46.000Z",
   "web:b8356399-c1a9-4319-bdf3-d449371f55e1": "2026-11-12T10:02:44.000Z",
   "web:b8c98a17-8a4d-4d07-82a0-5a1eca2973c3": "2026-11-16T14:40:14.000Z",
