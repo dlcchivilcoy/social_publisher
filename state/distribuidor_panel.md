@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 06:00 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 06:05 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 25/11/2026 06:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 5 | 10 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,36 +27,46 @@ Actualizado: 25/11/2026 06:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (12 esperando)
 - TikTok · Reels del bot · Deportivo Colón y Racing Club jugarán la final del Torneo Clausura — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+- X · Notas web · La última etapa del prix del norte se disputó en Chacabuco — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · El Campeonato Regional de Rally consagró a sus campeones de la temporada 2026 en — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Categorías Formativas de la ABCh: Se definieron nuevos finalistas en  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Alimentos No Perecederos y Juguetes: Iván Elizalde junto a Salva Otei — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Festejo, historia y presente ganador: Florencio Varela celebró su cena y ya pien — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Súper Moli golpeó por penales, se quedó con la Liguilla y forzó la Sú — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Peña folklórica para Adultos Mayores y entrega de ambos confeccionado — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: La milonga La Puñalada llega a su 10° edición y lo festejará junto a  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Defensa Civil Chivilcoy celebró su día con una jornada abierta en la Plaza Princ — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: 25N: prevención, asistencia y compromiso social, los ejes del abordaj — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - TikTok · Reels del bot · Alumnas de la Secundaria 8 promueven la separación de residuos junto a RSU — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T00:20 enviado bot:video_matias-zucchi_mwva3xndaqua_01.mp4|tiktok 
-- 2026-11-25T00:20 enviado bot:video_matias-zucchi_mwva3xndaqua_01.mp4|x 
-- 2026-11-25T00:40 recibido bot:video_matias-zucchi_mwve046qdarc_01.mp4|x 
-- 2026-11-25T00:40 recibido bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok 
-- 2026-11-25T00:40 recibido web:9d0de243-3208-4e13-9995-ff07670f898d|x la misma noticia ya sale en X (Reels del bot, pendiente)
-- 2026-11-25T00:40 programado bot:video_matias-zucchi_mwve046qdarc_01.mp4|x 
-- 2026-11-25T01:40 enviado bot:video_matias-zucchi_mwve046qdarc_01.mp4|x 
-- 2026-11-25T02:00 recibido web:7e2be751-eca4-4956-b6fd-5aa5d2454f12|x 
-- 2026-11-25T02:00 depurado web:7e2be751-eca4-4956-b6fd-5aa5d2454f12|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-25T02:20 recibido policiales:https://junin24.com/locales/malestar-y-preocupaci 
-- 2026-11-25T02:20 recibido policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11 
-- 2026-11-25T02:20 recibido web:7de0c278-06b2-46a5-b5cf-f664ea3eb882|x 
-- 2026-11-25T02:20 depurado web:7de0c278-06b2-46a5-b5cf-f664ea3eb882|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-25T02:20 programado policiales:https://junin24.com/locales/malestar-y-preocupaci 
-- 2026-11-25T02:40 recibido bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|x 
-- 2026-11-25T02:40 recibido bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|tiktok 
-- 2026-11-25T02:41 recibido policiales:https://www.bragadoinforma.com.ar/nota/31220/tens 
-- 2026-11-25T02:41 enviado policiales:https://junin24.com/locales/malestar-y-preocupaci 
-- 2026-11-25T02:41 video_cambiado bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|x el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)
-- 2026-11-25T02:42 video_cambiado policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11 el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)
 - 2026-11-25T09:00 recibido policiales:https://lobos24.com.ar/2026/11/24/informacion-de- 
 - 2026-11-25T09:00 recibido policiales:https://www.chacabuquero.com.ar/2026/11/rescate-e 
 - 2026-11-25T09:00 vencido policiales:https://www.bragadoinforma.com.ar/nota/31220/tens espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-25T09:00 vencido policiales:https://lobos24.com.ar/2026/11/24/informacion-de- no hubo lugar antes de su vencimiento
 - 2026-11-25T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/rescate-e no hubo lugar antes de su vencimiento
+- 2026-11-25T09:04 recibido web:d74994de-502e-4337-9520-6ed2b5a25bae|x 
+- 2026-11-25T09:04 recibido web:cae8f993-8dcb-468d-8000-3d7a60bcca52|x 
+- 2026-11-25T09:04 recibido web:2e1f463d-cd94-4055-a6a9-a12845b09bf8|x 
+- 2026-11-25T09:04 recibido web:f698d077-1709-4e35-97fc-3ba2f9d16745|x 
+- 2026-11-25T09:04 recibido web:a7006b82-c26d-419f-8d32-75902a38cfde|x 
+- 2026-11-25T09:04 recibido web:03a74db9-6c2a-429e-927d-0b4a3a0e5a7b|x 
+- 2026-11-25T09:04 recibido web:f6e503e0-4701-4361-8023-144c9fe4fff2|x 
+- 2026-11-25T09:04 recibido web:d45928cf-7fdb-4476-904f-f002db28e6f3|x 
+- 2026-11-25T09:04 recibido web:ddb4bc54-794b-4b92-8f34-46b1c1e25b4a|x 
+- 2026-11-25T09:04 recibido web:3e668e19-c4df-4209-9137-7d7c001394da|x 
+- 2026-11-25T09:04 recibido web:44c83f47-fa9b-471a-8f63-c5e8ca0016d8|x 
+- 2026-11-25T09:05 recibido web:05f62681-9aa5-43aa-a039-6fea901495ed|x 
+- 2026-11-25T09:05 recibido web:1efd7937-7442-429d-9454-7538e34225e8|x 
+- 2026-11-25T09:05 recibido web:0f583263-cff5-49e8-af45-ef80b5826e6c|x 
+- 2026-11-25T09:05 recibido web:050f605d-892a-436d-9386-3e34bc71592e|x 
+- 2026-11-25T09:05 programado web:050f605d-892a-436d-9386-3e34bc71592e|x 
+- 2026-11-25T09:05 programado web:1efd7937-7442-429d-9454-7538e34225e8|x 
+- 2026-11-25T09:05 programado web:05f62681-9aa5-43aa-a039-6fea901495ed|x 
+- 2026-11-25T09:05 programado web:44c83f47-fa9b-471a-8f63-c5e8ca0016d8|x 
+- 2026-11-25T09:05 programado web:0f583263-cff5-49e8-af45-ef80b5826e6c|x 
