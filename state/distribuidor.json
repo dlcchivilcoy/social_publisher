@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-25T12:00:18.000Z"
+   "visto": "2026-11-25T13:00:18.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 2,
-    "sent": 20
+    "sent": 21
    },
    "pausado": false,
-   "visto": "2026-11-25T12:00:18.000Z"
+   "visto": "2026-11-25T13:00:18.000Z"
   }
  },
  "contenidos": {
@@ -7013,15 +7013,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok": {
-   "actualizado": "2026-11-25T00:40:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-25T13:00:19.000Z",
+   "buffer_id": "6b06dbef932feb2e3d287967",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok",
    "creado": "2026-11-25T00:40:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-25T13:23:06.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-25T00:37:12.000Z",
    "id": "bot:video_matias-zucchi_mwve046qdarc_01.mp4",
    "intentos": 0,
@@ -7078,15 +7078,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|tiktok": {
-   "actualizado": "2026-11-25T02:40:13.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-25T13:00:19.000Z",
+   "buffer_id": "6b06dbebeec551e3dcba6fb6",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|tiktok",
    "creado": "2026-11-25T02:40:13.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-25T13:03:23.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-25T02:20:52.000Z",
    "id": "bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4",
    "intentos": 0,
@@ -12469,19 +12469,20 @@
    "viral": false
   },
   "web:2e1f463d-cd94-4055-a6a9-a12845b09bf8|x": {
-   "actualizado": "2026-11-25T11:00:17.000Z",
+   "actualizado": "2026-11-25T13:00:18.000Z",
    "buffer_id": "6b06bfc34f2f059ad9a44a86",
    "clave": "web:2e1f463d-cd94-4055-a6a9-a12845b09bf8|x",
    "creado": "2026-11-25T09:03:59.000Z",
    "dueAt": "2026-11-25T12:23:41.000Z",
+   "enviado": "2026-11-25T12:23:46.182Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T09:03:26.061Z",
    "id": "web:2e1f463d-cd94-4055-a6a9-a12845b09bf8",
    "ig_hora": "2026-11-25T12:23:46.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125566107654222311",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -16002,19 +16003,20 @@
    "viral": false
   },
   "web:cae8f993-8dcb-468d-8000-3d7a60bcca52|x": {
-   "actualizado": "2026-11-25T11:20:13.000Z",
+   "actualizado": "2026-11-25T13:00:18.000Z",
    "buffer_id": "6b06c46d84d9eccde03f8255",
    "clave": "web:cae8f993-8dcb-468d-8000-3d7a60bcca52|x",
    "creado": "2026-11-25T09:03:59.000Z",
    "dueAt": "2026-11-25T12:38:04.000Z",
+   "enviado": "2026-11-25T12:38:16.313Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T09:03:29.634Z",
    "id": "web:cae8f993-8dcb-468d-8000-3d7a60bcca52",
    "ig_hora": "2026-11-25T12:38:46.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125569757764079688",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -16397,19 +16399,20 @@
    "viral": false
   },
   "web:d74994de-502e-4337-9520-6ed2b5a25bae|x": {
-   "actualizado": "2026-11-25T11:40:14.000Z",
+   "actualizado": "2026-11-25T13:00:18.000Z",
    "buffer_id": "6b06c91f12688bcaa7bd733f",
    "clave": "web:d74994de-502e-4337-9520-6ed2b5a25bae|x",
    "creado": "2026-11-25T09:03:59.000Z",
    "dueAt": "2026-11-25T12:53:48.000Z",
+   "enviado": "2026-11-25T12:54:02.568Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T09:03:34.135Z",
    "id": "web:d74994de-502e-4337-9520-6ed2b5a25bae",
    "ig_hora": "2026-11-25T12:53:46.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125573726221512814",
    "nota_url": "https://www.diariolacampaña.com.ar/n/ajedrez-la-ultima-etapa-del-prix-del-norte-se-disputo-en-chacabuco",
    "noticia": "nota:ajedrez-la-ultima-etapa-del-prix-del-norte-se-disputo-en-chacabuco",
    "origen": "web",
@@ -17138,19 +17141,20 @@
    "viral": false
   },
   "web:f698d077-1709-4e35-97fc-3ba2f9d16745|x": {
-   "actualizado": "2026-11-25T10:40:15.000Z",
+   "actualizado": "2026-11-25T13:00:18.000Z",
    "buffer_id": "6b06bb10f81b8caf36900059",
    "clave": "web:f698d077-1709-4e35-97fc-3ba2f9d16745|x",
    "creado": "2026-11-25T09:03:59.000Z",
    "dueAt": "2026-11-25T12:08:50.000Z",
+   "enviado": "2026-11-25T12:09:03.016Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T09:03:22.279Z",
    "id": "web:f698d077-1709-4e35-97fc-3ba2f9d16745",
    "ig_hora": "2026-11-25T12:08:46.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125562403354013913",
    "metricas": {
     "clicks": 0,
     "comments": 0,
@@ -17408,47 +17412,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6afdcba0ff73344f88f8c34d",
-   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x",
-   "cuando": "2026-11-18T16:00:33.000Z",
-   "dueAt": "2026-11-18T16:02:12.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwmae6f5pe7w_01.mp4|x",
-   "cuando": "2026-11-18T16:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123085968970219826"
-  },
-  {
-   "clave": "entrevistas:job00324",
-   "cuando": "2026-11-18T16:40:16.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00324|x",
-   "cuando": "2026-11-18T16:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00324|tiktok",
-   "cuando": "2026-11-18T16:40:17.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6afdd4f2ff73344f88fd6544",
-   "clave": "entrevistas:job00324|x",
-   "cuando": "2026-11-18T16:40:18.000Z",
-   "dueAt": "2026-11-18T16:42:01.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00325",
    "cuando": "2026-11-18T17:00:21.000Z",
@@ -21574,11 +21537,48 @@
    "cuando": "2026-11-25T12:40:34.000Z",
    "dueAt": "2026-11-25T13:23:31.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:2e1f463d-cd94-4055-a6a9-a12845b09bf8|x",
+   "cuando": "2026-11-25T13:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125566107654222311"
+  },
+  {
+   "clave": "web:cae8f993-8dcb-468d-8000-3d7a60bcca52|x",
+   "cuando": "2026-11-25T13:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125569757764079688"
+  },
+  {
+   "clave": "web:d74994de-502e-4337-9520-6ed2b5a25bae|x",
+   "cuando": "2026-11-25T13:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125573726221512814"
+  },
+  {
+   "clave": "web:f698d077-1709-4e35-97fc-3ba2f9d16745|x",
+   "cuando": "2026-11-25T13:00:19.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125562403354013913"
+  },
+  {
+   "buffer_id": "6b06dbebeec551e3dcba6fb6",
+   "clave": "bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4|tiktok",
+   "cuando": "2026-11-25T13:00:31.000Z",
+   "dueAt": "2026-11-25T13:03:23.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b06dbef932feb2e3d287967",
+   "clave": "bot:video_matias-zucchi_mwve046qdarc_01.mp4|tiktok",
+   "cuando": "2026-11-25T13:00:31.000Z",
+   "dueAt": "2026-11-25T13:23:06.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-15 10",
    "2026-11-15 18",
    "2026-11-15 21",
    "2026-11-16 10",
@@ -21607,11 +21607,12 @@
    "2026-11-23 21",
    "2026-11-24 10",
    "2026-11-24 18",
-   "2026-11-24 21"
+   "2026-11-24 21",
+   "2026-11-25 10"
   ]
  },
  "ultima_limpieza_release": "2026-11-25",
- "ultima_sync": "2026-11-25T12:00:18.000Z",
+ "ultima_sync": "2026-11-25T13:00:18.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
