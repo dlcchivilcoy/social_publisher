@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 14:40 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 15:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
@@ -27,17 +27,14 @@ Actualizado: 25/11/2026 14:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- TikTok · Recortes de entrevistas · Gina Viscardi: organizar la mente para crear tras sufrir ansiedad — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Rogelio Zilliotti: por qué no saca fotos con gente — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T12:00 enviado web:d45928cf-7fdb-4476-904f-f002db28e6f3|x 
-- 2026-11-25T12:00 enviado web:f6e503e0-4701-4361-8023-144c9fe4fff2|x 
-- 2026-11-25T12:00 programado web:f949cd3a-20b5-4eff-981f-52a316b0ff85|x 
-- 2026-11-25T12:40 recibido web:8b10d292-9c09-4b23-af31-8a3268e37c10|x 
 - 2026-11-25T12:40 recibido web:d7b743b0-decb-4fd8-8f34-dc15c4a2e39c|x 
 - 2026-11-25T12:40 depurado web:f949cd3a-20b5-4eff-981f-52a316b0ff85|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-25T12:40 programado web:d7b743b0-decb-4fd8-8f34-dc15c4a2e39c|x 
@@ -59,3 +56,7 @@ Actualizado: 25/11/2026 14:40 (hora AR) · ACTIVO
 - 2026-11-25T17:20 recibido entrevistas:job00347|tiktok 
 - 2026-11-25T17:20 programado entrevistas:job00347|x 
 - 2026-11-25T17:40 enviado entrevistas:job00347|x 
+- 2026-11-25T18:00 entrevista_aprobada entrevistas:job00348 
+- 2026-11-25T18:00 recibido entrevistas:job00348|x 
+- 2026-11-25T18:00 recibido entrevistas:job00348|tiktok 
+- 2026-11-25T18:00 programado entrevistas:job00348|x 
