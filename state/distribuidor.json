@@ -4137,6 +4137,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-chivilcoy-torneo-clausura-de-primera-division-gimnasia-se",
    "volanta": "Fútbol"
   },
+  "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Se incendió un auto en la ruta y el conductor resultó ileso CHIVILCOY.– Un Chevrolet Aveo se incendió por un desperfecto mecánico a la altura del kilómetro 170 de la Ruta Provincial 51, antes de llegar a Ayarza. El vehículo era conducido por Luis Esteban Dianda, de 31 años y oriundo de Chivilcoy, quien resultó ileso. La ruta quedó liberada al tránsito y se aguarda la llegada de una grúa para retirar el rodado.",
+   "generado": "2026-11-25T01:45:16.959Z",
+   "id": "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_509fcfaf563f4c1381eed571481db03a~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-51-accidente-chivilcoy-se-incendio-un-auto-en-la-ruta-y-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Se incendió un auto en la ruta y el conductor resultó ileso",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ruta-51-accidente-chivilcoy-se-incendio-un-auto-en-la-ruta-y-el",
+   "volanta": "Ruta 51 · Accidente"
+  },
   "web:7f27bdc8-3410-406c-a7fa-a0920049340f": {
    "categoria": "",
    "descripcion": "Chivilcoy: El Municipio limpia el canal de las Tres Bocas y reclama obras provinciales CHIVILCOY.– En medio del alerta por el fenómeno de El Niño y ante las graves inundaciones que golpean a distintas provincias, el intendente municipal Guillermo Britos y el secretario de Obras Públicas Eduardo Alonso informaron sobre las tareas de saneamiento hídrico que se ejecutan en el distrito, detallaron los frentes de obra activos, cuestionaron la demora de la Provincia en proyectos estructurales y...",
@@ -5651,43 +5670,6 @@
    "titulo": "Continúa el Festival Internacional de Cine Raices en El Chasqui",
    "urgente": false,
    "vence": "2026-11-17T01:04:15.000Z",
-   "video_bytes": 4544125,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2594ef04e2cb14e0.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x": {
-   "actualizado": "2026-11-15T01:40:17.000Z",
-   "buffer_id": "6af908e1b9a106584c7dcf69",
-   "clave": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4|x",
-   "creado": "2026-11-15T01:20:17.000Z",
-   "dueAt": "2026-11-15T01:22:47.000Z",
-   "enviado": "2026-11-15T01:23:07.294Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-15T01:04:15.000Z",
-   "id": "bot:video_matias-zucchi_mwh4j79aklgu_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2121775972001235175",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 1.79,
-    "impressions": 56,
-    "reactions": 1,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
-   "noticia": "nota:chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Continúa el Festival Internacional de Cine Raices en El Chasqui\n\nEl evento transita su tercera jornada de proyecciones y competencia de cortos y largometrajes. La propuesta incluye obras en certamen y secciones fuera de competencia como Raíces locales.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-continua-el-festival-internacional-de",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Continúa el Festival Internacional de Cine Raices en El Chasqui",
-   "urgente": false,
-   "vence": "2026-11-15T03:04:15.000Z",
    "video_bytes": 4544125,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_2594ef04e2cb14e0.mp4",
    "viral": false
@@ -13553,6 +13535,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12|x": {
+   "actualizado": "2026-11-25T02:00:19.000Z",
+   "buffer_id": "",
+   "clave": "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12|x",
+   "creado": "2026-11-25T02:00:17.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-25T01:45:16.959Z",
+   "id": "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/ruta-51-accidente-chivilcoy-se-incendio-un-auto-en-la-ruta-y-el",
+   "noticia": "nota:ruta-51-accidente-chivilcoy-se-incendio-un-auto-en-la-ruta-y-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Se incendió un auto en la ruta y el conductor resultó ileso\n\nUn Chevrolet Aveo se incendió por un desperfecto mecánico en la Ruta Provincial 51. La traza ya quedó liberada al tránsito y se espera una grúa para retirar el rodado.\n\nhttps://www.diariolacampaña.com.ar/n/ruta-51-accidente-chivilcoy-se-incendio-un-auto-en-la-ruta-y-el",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Se incendió un auto en la ruta y el conductor resultó ileso",
+   "urgente": false,
+   "vence": "2026-11-25T05:45:16.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:7f27bdc8-3410-406c-a7fa-a0920049340f|x": {
    "actualizado": "2026-11-20T16:20:17.000Z",
    "buffer_id": "",
@@ -15912,21 +15921,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6afcd31fc68ceea50aaa2139",
-   "clave": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x",
-   "cuando": "2026-11-17T22:20:15.000Z",
-   "dueAt": "2026-11-17T22:23:09.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x",
-   "cuando": "2026-11-17T22:40:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
   {
    "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok",
    "cuando": "2026-11-17T22:40:14.000Z",
@@ -20067,6 +20061,20 @@
    "cuando": "2026-11-25T01:40:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2125389657709977777"
+  },
+  {
+   "clave": "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12|x",
+   "cuando": "2026-11-25T02:00:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12|x",
+   "cuando": "2026-11-25T02:00:19.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -20114,7 +20122,6 @@
   "baja:chivilcoy-salud-chivilcoy-guillermo-britos-advirtio-que-el-sanatorio": "2026-11-21T12:00:17.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvolpp5p9zcj": "2026-10-26T02:00:18.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvp9zxnralxl": "2026-10-26T13:48:30.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpbs78rc7yl": "2026-10-26T14:20:14.000Z",
   "bot:corresponsal_2026-10-26_matias-zucchi_mvpgtbepowsq": "2026-10-26T16:40:17.000Z",
@@ -20159,7 +20166,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:corresponsal_2026-11-21_matias-zucchi_mwqc3v64udx0": "2026-11-21T12:00:17.000Z",
-  "bot:video_matias-zucchi_mvolcauzsxcq_01.mp4": "2026-10-26T02:00:18.000Z",
   "bot:video_matias-zucchi_mvpdqd15vijw_01.mp4": "2026-10-26T15:20:14.000Z",
   "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4": "2026-10-27T09:00:19.000Z",
   "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4": "2026-10-27T14:20:14.000Z",
@@ -20717,6 +20723,7 @@
   "web:7dd5195a-6787-458a-861f-22ceaaf90ea3": "2026-11-13T10:02:41.000Z",
   "web:7de16944-cbd0-472a-9ccc-0f7b42b113cd": "2026-11-13T10:02:41.000Z",
   "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3": "2026-10-29T10:20:14.000Z",
+  "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12": "2026-11-25T02:00:17.000Z",
   "web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5": "2026-10-28T21:20:21.000Z",
   "web:7f27bdc8-3410-406c-a7fa-a0920049340f": "2026-11-20T16:20:13.000Z",
   "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285": "2026-11-12T13:40:16.000Z",
