@@ -2747,6 +2747,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/centro-tradicionalista-el-fogon-chivilcoy-magdalena-gardella-adelanto",
    "volanta": "CENTRO TRADICIONALISTA EL FOGÓN"
   },
+  "web:0e615bd0-eb94-46b5-8457-1eff754ee293": {
+   "categoria": "",
+   "descripcion": "Chivilcoy conmemoró el Día de la Eliminación de la Violencia contra las Mujeres En el marco del Día Internacional de la Eliminación de la Violencia contra las Mujeres (25N), se llevó a cabo en Chivilcoy una jornada conmemorativa que reunió a autoridades municipales, fuerzas policiales, instituciones locales, organizaciones sociales y vecinos, con el objetivo de reafirmar el compromiso colectivo hacia una comunidad libre de violencias. El acto contó con la presencia del intendente municipal,...",
+   "generado": "2026-11-25T15:57:29.315Z",
+   "id": "web:0e615bd0-eb94-46b5-8457-1eff754ee293",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_7e82a3c5c1334d0a97b0bdf4989d373c~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-conmemoro-el-dia-de-la-eliminacion-de-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy conmemoró el Día de la Eliminación de la Violencia contra las Mujeres",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-conmemoro-el-dia-de-la-eliminacion-de-la",
+   "volanta": "Chivilcoy · Sociedad"
+  },
   "web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5": {
    "categoria": "",
    "descripcion": "De La Pérgula: “En este tiempo hay dos o tres cosas que nos unen como pueblo: una es la Selección Argentina con el fútbol, otra es la Virgen de Luján, y…",
@@ -11627,6 +11646,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:0e615bd0-eb94-46b5-8457-1eff754ee293|x": {
+   "actualizado": "2026-11-25T16:00:28.000Z",
+   "buffer_id": "",
+   "clave": "web:0e615bd0-eb94-46b5-8457-1eff754ee293|x",
+   "creado": "2026-11-25T16:00:25.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-25T15:57:29.315Z",
+   "id": "web:0e615bd0-eb94-46b5-8457-1eff754ee293",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-conmemoro-el-dia-de-la-eliminacion-de-la",
+   "noticia": "nota:chivilcoy-sociedad-chivilcoy-conmemoro-el-dia-de-la-eliminacion-de-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy conmemoró el Día de la Eliminación de la Violencia contra las Mujeres\n\nAutoridades, fuerzas policiales, instituciones, organizaciones y vecinos realizaron una jornada para reafirmar el compromiso hacia una comunidad libre de violencias.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-conmemoro-el-dia-de-la-eliminacion-de-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy conmemoró el Día de la Eliminación de la Violencia contra las Mujeres",
+   "urgente": false,
+   "vence": "2026-11-25T19:57:29.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5|x": {
    "actualizado": "2026-11-16T11:00:32.000Z",
    "buffer_id": "6afadd8e0c2af02527d4d6ce",
@@ -17310,19 +17356,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00326",
-   "cuando": "2026-11-18T17:20:19.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00326|x",
-   "cuando": "2026-11-18T17:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
    "clave": "entrevistas:job00326|tiktok",
    "cuando": "2026-11-18T17:20:25.000Z",
    "estado": "pendiente",
@@ -21468,6 +21501,20 @@
    "cuando": "2026-11-25T14:00:24.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2125577369347862826"
+  },
+  {
+   "clave": "web:0e615bd0-eb94-46b5-8457-1eff754ee293|x",
+   "cuando": "2026-11-25T16:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:0e615bd0-eb94-46b5-8457-1eff754ee293|x",
+   "cuando": "2026-11-25T16:00:28.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -21893,6 +21940,7 @@
   "web:0cd5c457-7502-4d59-8051-9927ae917ce7": "2026-10-29T10:02:34.000Z",
   "web:0d0f2a09-0416-445a-82b7-74eed589d782": "2026-11-05T10:02:30.000Z",
   "web:0d728d16-1d2e-4eb0-a9d3-e4a738b6b357": "2026-11-16T10:03:28.000Z",
+  "web:0e615bd0-eb94-46b5-8457-1eff754ee293": "2026-11-25T16:00:25.000Z",
   "web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5": "2026-11-16T10:03:28.000Z",
   "web:0ee18e61-d4a2-470e-b13a-cc50e25e5814": "2026-11-09T10:20:14.000Z",
   "web:0f583263-cff5-49e8-af45-ef80b5826e6c": "2026-11-25T09:03:59.000Z",
