@@ -11526,14 +11526,14 @@
    "viral": false
   },
   "web:0f583263-cff5-49e8-af45-ef80b5826e6c|x": {
-   "actualizado": "2026-11-25T09:05:20.000Z",
+   "actualizado": "2026-11-25T10:00:27.000Z",
    "buffer_id": "6b06a4d522dfb7833a975e5d",
    "clave": "web:0f583263-cff5-49e8-af45-ef80b5826e6c|x",
    "creado": "2026-11-25T09:03:59.000Z",
    "dueAt": "2026-11-25T10:23:06.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-25T09:01:59.692Z",
    "id": "web:0f583263-cff5-49e8-af45-ef80b5826e6c",
    "intentos": 0,
@@ -12672,14 +12672,14 @@
    "viral": false
   },
   "web:3e668e19-c4df-4209-9137-7d7c001394da|x": {
-   "actualizado": "2026-11-25T09:03:59.000Z",
+   "actualizado": "2026-11-25T10:00:27.000Z",
    "buffer_id": "",
    "clave": "web:3e668e19-c4df-4209-9137-7d7c001394da|x",
    "creado": "2026-11-25T09:03:59.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-25T09:02:49.173Z",
    "id": "web:3e668e19-c4df-4209-9137-7d7c001394da",
    "intentos": 0,
@@ -17032,18 +17032,6 @@
  },
  "registro": [
   {
-   "clave": "web:692034a6-2c77-4c88-827a-99bbd456a36c|x",
-   "cuando": "2026-11-18T11:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122998816718647425"
-  },
-  {
-   "clave": "web:747d5ae9-2756-46ee-8d93-309ec883e498|x",
-   "cuando": "2026-11-18T11:40:18.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123006556178370975"
-  },
-  {
    "clave": "web:93018c2f-e4af-4ca4-8846-c489c90f0853|x",
    "cuando": "2026-11-18T11:40:18.000Z",
    "evento": "enviado",
@@ -21197,6 +21185,18 @@
    "cuando": "2026-11-25T09:40:21.000Z",
    "dueAt": "2026-11-25T11:08:36.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:3e668e19-c4df-4209-9137-7d7c001394da|x",
+   "cuando": "2026-11-25T10:00:27.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:0f583263-cff5-49e8-af45-ef80b5826e6c|x",
+   "cuando": "2026-11-25T10:00:30.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
   }
  ],
  "tandas": {
