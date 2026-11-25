@@ -13,11 +13,11 @@
     "channelId": "6acbfa43778b240e2fdcb2d5",
     "isAtLimit": false,
     "limit": 25,
-    "scheduled": 3,
-    "sent": 6
+    "scheduled": 0,
+    "sent": 9
    },
    "pausado": false,
-   "visto": "2026-11-25T22:20:22.000Z"
+   "visto": "2026-11-25T23:40:19.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 24
    },
    "pausado": false,
-   "visto": "2026-11-25T22:20:22.000Z"
+   "visto": "2026-11-25T23:40:19.000Z"
   }
  },
  "contenidos": {
@@ -326,6 +326,27 @@
    "video_mb": 1.0,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dd03ae8cb25ddca6.mp4",
    "youtube_url": "https://www.youtube.com/shorts/8n_mJd7GchY"
+  },
+  "bot:video_matias-zucchi_mwwremu73j5t_01.mp4": {
+   "descripcion": "Un siniestro vial se produjo en la intersección de la avenida Urquiza y calle Rivadavia, a la altura del Parque Infantil.\n\nEn el lugar colisionaron una motocicleta y una camioneta Renault Kangoo. A raíz del impacto, se convocó al servicio de emergencias médicas.\n\nUna ambulancia se presentó en el sitio para asistir y trasladar al conductor del rodado menor. Según se informó, no se reportaron personas con heridas de gravedad.",
+   "duracion_seg": 9.3,
+   "generado": "2026-11-25T23:38:33.000Z",
+   "id": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-chocaron-una-camioneta-y-una-moto-en",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Chocaron una camioneta y una moto en Urquiza y Rivadavia",
+   "urgente": false,
+   "video_bytes": 967469,
+   "video_mb": 0.9,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_41d054260cacdb36.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/fmlfHYzvpsQ"
   },
   "entrevistas:job00316": {
    "descripcion": "En Chivilcoy, el dirigente del MDF Luciano Dellepiane cuestionó la falta de mantenimiento estatal y advirtió sobre los riesgos viales del parate de la obra pública.",
@@ -3911,6 +3932,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-hinchas-de-boca-festejaron-en-el-centro",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:51250292-3f3e-4b65-8aa7-227449825ad0": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Chocaron una camioneta y una moto en Urquiza y Rivadavia CHIVILCOY.– Accidente en la intersección de avenida Urquiza y calle Rivadavia, a la altura del Parque Infantil. Se produjo un choque entre una moto y una camioneta Kangoo. Al lugar llegó una ambulancia que trasladó al conductor del motovehículo. No se reportaron heridos de gravedad.",
+   "generado": "2026-11-25T23:37:27.124Z",
+   "id": "web:51250292-3f3e-4b65-8aa7-227449825ad0",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_b0aa2b21292b4b5e854c35460e89002e~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-chocaron-una-camioneta-y-una-moto-en",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Chocaron una camioneta y una moto en Urquiza y Rivadavia",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-accidente-chivilcoy-chocaron-una-camioneta-y-una-moto-en",
+   "volanta": "Chivilcoy · Accidente"
+  },
   "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110": {
    "categoria": "",
    "descripcion": "Secuestraron la camioneta que se fugó tras un choque en Chivilcoy Las cámaras municipales permitieron reconstruir el recorrido del vehículo. La Ford Ranchero quedó a disposición del Juzgado de Faltas de Chivilcoy. Personal policial y agentes de Tránsito localizaron en Gorostiaga la camioneta involucrada en el choque ocurrido el jueves por la mañana en la intersección de las avenidas Güemes y Ortiz, en Chivilcoy. El vehículo había abandonado el lugar sin detenerse después del impacto. El...",
@@ -7156,6 +7196,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_dd03ae8cb25ddca6.mp4",
    "viral": false
   },
+  "bot:video_matias-zucchi_mwwremu73j5t_01.mp4|tiktok": {
+   "actualizado": "2026-11-25T23:40:16.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4|tiktok",
+   "creado": "2026-11-25T23:40:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-25T23:38:33.000Z",
+   "id": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-chocaron-una-camioneta-y-una-moto-en",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Chocaron una camioneta y una moto en Urquiza y Rivadavia\n\nUn siniestro vial se produjo en la intersección de la avenida Urquiza y calle Rivadavia, a la altura del Parque Infantil. En el lugar colisionaron una motocicleta y una camioneta Renault Kangoo. A raíz del impacto, se convocó al servicio de emergencias médicas. Una ambulancia se presentó en el sitio para asistir y trasladar al conductor del rodado menor. Según se informó, no se reportaron personas con heridas de gravedad.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-chocaron-una-camioneta-y-una-moto-en\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chocaron una camioneta y una moto en Urquiza y Rivadavia",
+   "urgente": false,
+   "vence": "2026-11-27T23:38:33.000Z",
+   "video_bytes": 967469,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_41d054260cacdb36.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwwremu73j5t_01.mp4|x": {
+   "actualizado": "2026-11-25T23:40:19.000Z",
+   "buffer_id": "6b0771e4a791bea1b2379ece",
+   "clave": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4|x",
+   "creado": "2026-11-25T23:40:16.000Z",
+   "dueAt": "2026-11-25T23:42:45.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-25T23:38:33.000Z",
+   "id": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-chocaron-una-camioneta-y-una-moto-en",
+   "noticia": "nota:chivilcoy-accidente-chivilcoy-chocaron-una-camioneta-y-una-moto-en",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Chocaron una camioneta y una moto en Urquiza y Rivadavia\n\nUna ambulancia asistió y trasladó al conductor del rodado menor tras el impacto a la altura del Parque Infantil. Según se informó, no se reportaron personas con heridas de gravedad.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-chocaron-una-camioneta-y-una-moto-en",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Chocaron una camioneta y una moto en Urquiza y Rivadavia",
+   "urgente": false,
+   "vence": "2026-11-26T01:38:33.000Z",
+   "video_bytes": 967469,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_41d054260cacdb36.mp4",
+   "viral": false
+  },
   "entrevistas:job00316|tiktok": {
    "actualizado": "2026-11-16T23:00:20.000Z",
    "buffer_id": "6afb6ef59bf8f900343e3752",
@@ -9577,19 +9673,20 @@
    "viral": false
   },
   "entrevistas:job00347|tiktok": {
-   "actualizado": "2026-11-25T21:00:20.000Z",
+   "actualizado": "2026-11-25T23:40:19.000Z",
    "buffer_id": "6b074c6d3610f1bc9168f44e",
    "categoria": "",
    "clave": "entrevistas:job00347|tiktok",
    "creado": "2026-11-25T17:20:13.000Z",
    "dueAt": "2026-11-25T23:03:35.000Z",
+   "enviado": "2026-11-25T23:05:39.788Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T17:20:13.000Z",
    "id": "entrevistas:job00347",
    "intentos": 0,
-   "link": "",
+   "link": "https://www.tiktok.com/@diarioyradio/video/7712248751217265940?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9634,19 +9731,20 @@
    "viral": false
   },
   "entrevistas:job00348|tiktok": {
-   "actualizado": "2026-11-25T21:00:20.000Z",
+   "actualizado": "2026-11-25T23:40:19.000Z",
    "buffer_id": "6b074c6c3610f1bc9168f34a",
    "categoria": "",
    "clave": "entrevistas:job00348|tiktok",
    "creado": "2026-11-25T18:00:31.000Z",
    "dueAt": "2026-11-25T22:43:21.000Z",
+   "enviado": "2026-11-25T22:45:13.857Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T18:00:31.000Z",
    "id": "entrevistas:job00348",
    "intentos": 0,
-   "link": "",
+   "link": "https://www.tiktok.com/@diarioyradio/video/7712243507338939654?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -9691,19 +9789,20 @@
    "viral": false
   },
   "entrevistas:job00349|tiktok": {
-   "actualizado": "2026-11-25T21:00:20.000Z",
+   "actualizado": "2026-11-25T23:40:19.000Z",
    "buffer_id": "6b074c6bb39ac731b6fdcb87",
    "categoria": "",
    "clave": "entrevistas:job00349|tiktok",
    "creado": "2026-11-25T19:00:22.000Z",
    "dueAt": "2026-11-25T22:23:54.000Z",
+   "enviado": "2026-11-25T22:25:43.841Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-25T19:00:22.000Z",
    "id": "entrevistas:job00349",
    "intentos": 0,
-   "link": "",
+   "link": "https://www.tiktok.com/@diarioyradio/video/7712238450640047367?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
    "nota_url": "",
    "origen": "entrevistas",
    "plataforma": "tiktok",
@@ -13908,6 +14007,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:51250292-3f3e-4b65-8aa7-227449825ad0|x": {
+   "actualizado": "2026-11-25T23:40:16.000Z",
+   "buffer_id": "",
+   "clave": "web:51250292-3f3e-4b65-8aa7-227449825ad0|x",
+   "creado": "2026-11-25T23:40:16.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-25T23:37:27.124Z",
+   "id": "web:51250292-3f3e-4b65-8aa7-227449825ad0",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-accidente-chivilcoy-chocaron-una-camioneta-y-una-moto-en",
+   "noticia": "nota:chivilcoy-accidente-chivilcoy-chocaron-una-camioneta-y-una-moto-en",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Chocaron una camioneta y una moto en Urquiza y Rivadavia",
+   "urgente": false,
+   "vence": "2026-11-26T03:37:27.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110|x": {
    "actualizado": "2026-11-20T14:20:16.000Z",
    "buffer_id": "",
@@ -17745,56 +17869,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x",
-   "cuando": "2026-11-19T09:07:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6afebc4b4ad8a97b3a2dca4b",
-   "clave": "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x",
-   "cuando": "2026-11-19T09:07:25.000Z",
-   "dueAt": "2026-11-19T09:10:13.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afebc4c73dee4185935cff3",
-   "clave": "web:49e62895-3650-40a4-96b0-255e389c9fe6|x",
-   "cuando": "2026-11-19T09:07:25.000Z",
-   "dueAt": "2026-11-19T09:25:02.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afebc4c73dee4185935d01a",
-   "clave": "web:dbf352ff-5f10-4d42-b7a1-25afb048d043|x",
-   "cuando": "2026-11-19T09:07:25.000Z",
-   "dueAt": "2026-11-19T09:40:51.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afebc4cbad67efd5ad93998",
-   "clave": "web:20466408-a7de-4dfe-ae72-76c8866f0181|x",
-   "cuando": "2026-11-19T09:07:25.000Z",
-   "dueAt": "2026-11-19T09:55:28.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afebc4dbad67efd5ad939be",
-   "clave": "web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b|x",
-   "cuando": "2026-11-19T09:07:25.000Z",
-   "dueAt": "2026-11-19T10:10:02.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afebc4d4fb82a830a0cebba",
-   "clave": "web:8979344a-0701-4069-b470-ee00954debc6|x",
-   "cuando": "2026-11-19T09:07:25.000Z",
-   "dueAt": "2026-11-19T10:25:29.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x",
    "cuando": "2026-11-19T09:20:13.000Z",
@@ -21890,6 +21964,55 @@
    "cuando": "2026-11-25T22:40:22.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4|x",
+   "cuando": "2026-11-25T23:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4|tiktok",
+   "cuando": "2026-11-25T23:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:51250292-3f3e-4b65-8aa7-227449825ad0|x",
+   "cuando": "2026-11-25T23:40:19.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "clave": "entrevistas:job00347|tiktok",
+   "cuando": "2026-11-25T23:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://www.tiktok.com/@diarioyradio/video/7712248751217265940?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
+  },
+  {
+   "clave": "entrevistas:job00348|tiktok",
+   "cuando": "2026-11-25T23:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://www.tiktok.com/@diarioyradio/video/7712243507338939654?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
+  },
+  {
+   "clave": "entrevistas:job00349|tiktok",
+   "cuando": "2026-11-25T23:40:19.000Z",
+   "evento": "enviado",
+   "link": "https://www.tiktok.com/@diarioyradio/video/7712238450640047367?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
+  },
+  {
+   "buffer_id": "6b0771e4a791bea1b2379ece",
+   "clave": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4|x",
+   "cuando": "2026-11-25T23:40:20.000Z",
+   "dueAt": "2026-11-25T23:42:45.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -21927,7 +22050,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-25",
- "ultima_sync": "2026-11-25T22:20:22.000Z",
+ "ultima_sync": "2026-11-25T23:40:19.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -22028,6 +22151,7 @@
   "bot:video_matias-zucchi_mwve046qdarc_01.mp4": "2026-11-25T00:40:14.000Z",
   "bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4": "2026-11-25T02:40:13.000Z",
   "bot:video_matias-zucchi_mwwi0l704484_01.mp4": "2026-11-25T19:40:15.000Z",
+  "bot:video_matias-zucchi_mwwremu73j5t_01.mp4": "2026-11-25T23:40:16.000Z",
   "entrevistas:job00252": "2026-10-27T17:20:17.000Z",
   "entrevistas:job00253": "2026-10-27T18:00:20.000Z",
   "entrevistas:job00254": "2026-10-27T18:20:15.000Z",
@@ -22148,7 +22272,6 @@
   "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/": "2026-11-17T23:20:15.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/": "2026-11-21T02:40:31.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/": "2026-11-15T22:40:14.000Z",
-  "policiales:https://diarionucleo.com/ciudad/pergamino/291221-policia-choco-provoco-impacto-detener-auto-tiraron": "2026-10-26T23:20:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion": "2026-11-02T23:40:16.000Z",
   "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/": "2026-11-02T22:40:16.000Z",
   "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos": "2026-11-16T23:20:29.000Z",
@@ -22235,7 +22358,6 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html": "2026-11-22T02:20:21.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/chacabuco/348152-un-fuerte-temporal-provoco-inundaciones-cortes-de": "2026-11-17T23:40:12.000Z",
   "policiales:https://www.diariodemocracia.com/ciudad/junin/347344-bomberos-y-la-policia-actuaron-tras-un-principio-d": "2026-10-31T00:20:20.000Z",
-  "policiales:https://www.diariodemocracia.com/policiales/347110-rapidamente-resulto-esclarecido-el-ilicito-que-se": "2026-10-26T23:40:20.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347232-esclarecieron-tres-robos-de-techos-solares-en-chac": "2026-10-28T23:20:14.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347286-cayo-un-sospechoso-de-robos-atraparon-a-un-profugo": "2026-10-29T23:40:14.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/347450-detuvieron-al-autor-del-robo-ocurrido-en-el-edific": "2026-11-01T22:20:15.000Z",
@@ -22439,6 +22561,7 @@
   "web:4e8f2b6b-ce23-4302-93bb-cd2810dc5e90": "2026-11-18T10:02:51.000Z",
   "web:4fbc21a1-6aa9-49c7-ad6d-9696e33e5bf5": "2026-11-06T15:20:14.000Z",
   "web:50ef56fd-4c47-4dfd-b6a7-6c243fec43e7": "2026-11-22T02:00:23.000Z",
+  "web:51250292-3f3e-4b65-8aa7-227449825ad0": "2026-11-25T23:40:16.000Z",
   "web:512d8f8c-4b67-478b-90a4-9a8f2c6c2110": "2026-11-20T13:40:15.000Z",
   "web:51d406e0-8d07-4bc1-b1c2-9567feb03776": "2026-11-11T10:02:35.000Z",
   "web:520b9327-4abb-4720-aa44-9684331b9ca6": "2026-11-04T22:40:21.000Z",
