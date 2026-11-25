@@ -1285,6 +1285,32 @@
    "volanta": "Robos en Junín",
    "youtube_url": "https://youtube.com/shorts/idjigmY9EfM"
   },
+  "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos": {
+   "categoria": "robo",
+   "descripcion": "Habitantes del complejo habitacional reclaman mayor seguridad tras una nueva madrugada de intentos de robo de motovehículos. Aseguran que el sospechoso está identificado.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-25T02:01:17.000Z",
+   "id": "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-denuncian-reiterados-intentos-de-robo-de-motos-en-el-dd621d",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un nuevo episodio de inseguridad afectó a los residentes del barrio FOETRA durante la madrugada de este martes.\n\nUn delincuente intentó sustraer motocicletas en las torres 1 y 2 del complejo habitacional.\n\nLos vecinos exigen respuestas a las autoridades y denuncian que el sospechoso ya fue identificado.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Inseguridad #RoboDeMotos #BuenosAires",
+   "tipo": "video",
+   "titulo": "Vecinos de Junín denuncian reiterados intentos de robo de motos",
+   "urgente": false,
+   "video_bytes": 75581,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-25_0132_01_junin_vecinos-de-jun-n-denuncian-rei.mp4",
+   "volanta": "Inseguridad en barrio FOETRA",
+   "youtube_url": "https://youtube.com/shorts/5ApLbovcthA"
+  },
   "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada": {
    "categoria": "robo",
    "descripcion": "Sustrajeron una bicicleta marca SLP rodado 29 de un edificio situado en la calle Lavalle al 100. El ilícito quedó filmado por una cámara de seguridad privada y ya fue presentada la denuncia formal.",
@@ -2350,6 +2376,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_09_9-de-julio_un-auto-se-prendi-fuego-en-la-.mp4",
    "volanta": "Incendio en la Ruta 5",
    "youtube_url": "https://youtube.com/shorts/vH_ofaebd-s"
+  },
+  "policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11/24/252-operativos-en-roque-prez-recuperaron-motos-robadas-y-aprehendieron-a-dos-personas": {
+   "categoria": "robo",
+   "descripcion": "Durante diferentes procedimientos policiales concretados el 24/11/2026, las autoridades recuperaron dos motocicletas robadas e interceptaron a dos personas. Hallaron vehículos irregulares, labraron actas viales y detectaron un test de alcoholemia positivo.",
+   "distancia_km": 83.7,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-25T02:18:09.000Z",
+   "id": "policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11/24/252-operativos-en-roque-prez-recuperaron-motos-robadas-y-aprehendieron-a-dos-personas",
+   "localidad": "Roque Pérez",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-recuperaron-motos-robadas-aprehendieron-a-dos-7131a7",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "La Secretaría de Seguridad municipal informó que el despliegue se desarrolló el 24/11/2026 en Roque Pérez.\n\nEn el marco de las diligencias, los agentes hallaron rodados con pedido de secuestro y arrestaron a dos personas.\n\nAdemás, concretaron retenciones vehiculares por irregularidades y un test de alcoholemia con 1,97 de resultado.\n\n📲 Más noticias de Roque Pérez en www.diariolacampaña.com.ar\n\n#RoquePerez #Robo #Inseguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos aprehendidos y motos recuperadas tras diversos operativos en Roque Pérez",
+   "urgente": false,
+   "video_bytes": 95136,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-25_0132_02_roque-perez_dos-aprehendidos-y-motos-recup.mp4",
+   "volanta": "Operativos en Roque Pérez",
+   "youtube_url": "https://youtube.com/shorts/-9e0-1bSYSc"
   },
   "web:01599053-9367-4272-a3b7-d36e906da218": {
    "categoria": "",
@@ -4136,6 +4188,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-chivilcoy-torneo-clausura-de-primera-division-gimnasia-se",
    "volanta": "Fútbol"
+  },
+  "web:7de0c278-06b2-46a5-b5cf-f664ea3eb882": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Deportivo Colón y Racing Club jugarán la final del Torneo Clausura CHIVILCOY.– Semifinal del Torneo Clausura de Básquet de Primera División: Deportivo Colón venció por 109 a 44 a Bragado Club. De esta manera, Deportivo Colón y Racing Club son los finalistas.",
+   "generado": "2026-11-25T02:20:11.201Z",
+   "id": "web:7de0c278-06b2-46a5-b5cf-f664ea3eb882",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_4953cf75124f41bf8611adaef4ad82e6~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-y-racing-club-jugaran-la",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Deportivo Colón y Racing Club jugarán la final del Torneo Clausura",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-deportivo-colon-y-racing-club-jugaran-la",
+   "volanta": "Chivilcoy · Deportes"
   },
   "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12": {
    "categoria": "",
@@ -9194,6 +9265,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_05_junin_sufri-dos-robos-en-una-semana-.mp4",
    "viral": false
   },
+  "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos|x": {
+   "actualizado": "2026-11-25T02:20:19.000Z",
+   "buffer_id": "6b0645e3a8becebb775329ec",
+   "clave": "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos|x",
+   "creado": "2026-11-25T02:20:14.000Z",
+   "dueAt": "2026-11-25T02:23:03.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-25T02:01:17.000Z",
+   "id": "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-denuncian-reiterados-intentos-de-robo-de-motos-en-el-dd621d",
+   "noticia": "nota:junin-denuncian-reiterados-intentos-de-robo-de-motos-en-el-dd621d",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Vecinos de Junín denuncian reiterados intentos de robo de motos\n\nHabitantes del complejo habitacional reclaman mayor seguridad tras una nueva madrugada de intentos de robo de motovehículos. Aseguran que el sospechoso está identificado.\n\nhttps://www.diariolacampaña.com.ar/n/junin-denuncian-reiterados-intentos-de-robo-de-motos-en-el-dd621d",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Vecinos de Junín denuncian reiterados intentos de robo de motos",
+   "urgente": false,
+   "vence": "2026-11-25T04:01:17.000Z",
+   "video_bytes": 75581,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-25_0132_01_junin_vecinos-de-jun-n-denuncian-rei.mp4",
+   "viral": false
+  },
   "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada|x": {
    "actualizado": "2026-11-24T09:00:27.000Z",
    "buffer_id": "",
@@ -10386,6 +10485,34 @@
    "vence": "2026-11-24T05:18:00.000Z",
    "video_bytes": 72825,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_09_9-de-julio_un-auto-se-prendi-fuego-en-la-.mp4",
+   "viral": false
+  },
+  "policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11/24/252-operativos-en-roque-prez-recuperaron-motos-robadas-y-aprehendieron-a-dos-personas|x": {
+   "actualizado": "2026-11-25T02:20:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11/24/252-operativos-en-roque-prez-recuperaron-motos-robadas-y-aprehendieron-a-dos-personas|x",
+   "creado": "2026-11-25T02:20:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-25T02:18:09.000Z",
+   "id": "policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11/24/252-operativos-en-roque-prez-recuperaron-motos-robadas-y-aprehendieron-a-dos-personas",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/roque-perez-recuperaron-motos-robadas-aprehendieron-a-dos-7131a7",
+   "noticia": "nota:roque-perez-recuperaron-motos-robadas-aprehendieron-a-dos-7131a7",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Dos aprehendidos y motos recuperadas tras diversos operativos en Roque Pérez\n\nLas autoridades hallaron vehículos irregulares y labraron actas viales durante diferentes procedimientos policiales. También detectaron un test de alcoholemia positivo.\n\nhttps://www.diariolacampaña.com.ar/n/roque-perez-recuperaron-motos-robadas-aprehendieron-a-dos-7131a7",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos aprehendidos y motos recuperadas tras diversos operativos en Roque Pérez",
+   "urgente": false,
+   "vence": "2026-11-25T04:18:09.000Z",
+   "video_bytes": 95136,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-25_0132_02_roque-perez_dos-aprehendidos-y-motos-recup.mp4",
    "viral": false
   },
   "web:01599053-9367-4272-a3b7-d36e906da218|x": {
@@ -13535,6 +13662,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:7de0c278-06b2-46a5-b5cf-f664ea3eb882|x": {
+   "actualizado": "2026-11-25T02:20:19.000Z",
+   "buffer_id": "",
+   "clave": "web:7de0c278-06b2-46a5-b5cf-f664ea3eb882|x",
+   "creado": "2026-11-25T02:20:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-25T02:20:11.201Z",
+   "id": "web:7de0c278-06b2-46a5-b5cf-f664ea3eb882",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-y-racing-club-jugaran-la",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-deportivo-colon-y-racing-club-jugaran-la",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Deportivo Colón y Racing Club jugarán la final del Torneo Clausura\n\nDeportivo Colón venció por 109 a 44 a Bragado Club en la semifinal del Torneo Clausura de Básquet de Primera División.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-deportivo-colon-y-racing-club-jugaran-la",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Deportivo Colón y Racing Club jugarán la final del Torneo Clausura",
+   "urgente": false,
+   "vence": "2026-11-25T06:20:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12|x": {
    "actualizado": "2026-11-25T02:00:19.000Z",
    "buffer_id": "",
@@ -15921,36 +16075,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok",
-   "cuando": "2026-11-17T22:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709254204610645268"
-  },
-  {
-   "clave": "entrevistas:job00322-r1|tiktok",
-   "cuando": "2026-11-17T22:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709259264430312722"
-  },
-  {
-   "clave": "entrevistas:job00322|tiktok",
-   "cuando": "2026-11-17T22:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709268734753508609"
-  },
-  {
-   "clave": "entrevistas:job00323|tiktok",
-   "cuando": "2026-11-17T22:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709264568295492870"
-  },
-  {
-   "clave": "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/|x",
-   "cuando": "2026-11-17T22:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2122817887349969345"
-  },
   {
    "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-menor-de-16-anos-resulto-herido-en-un-accidente-entre-una-moto-y-una-camioneta/|x",
    "cuando": "2026-11-17T23:20:16.000Z",
@@ -20075,6 +20199,43 @@
    "cuando": "2026-11-25T02:00:19.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos|x",
+   "cuando": "2026-11-25T02:20:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11/24/252-operativos-en-roque-prez-recuperaron-motos-robadas-y-aprehendieron-a-dos-personas|x",
+   "cuando": "2026-11-25T02:20:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:7de0c278-06b2-46a5-b5cf-f664ea3eb882|x",
+   "cuando": "2026-11-25T02:20:19.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:7de0c278-06b2-46a5-b5cf-f664ea3eb882|x",
+   "cuando": "2026-11-25T02:20:19.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "buffer_id": "6b0645e3a8becebb775329ec",
+   "clave": "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos|x",
+   "cuando": "2026-11-25T02:20:19.000Z",
+   "dueAt": "2026-11-25T02:23:03.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -20342,6 +20503,7 @@
   "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/": "2026-11-02T22:40:16.000Z",
   "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos": "2026-11-16T23:20:29.000Z",
   "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas": "2026-10-27T23:20:16.000Z",
+  "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos": "2026-11-25T02:20:14.000Z",
   "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea": "2026-11-01T23:40:14.000Z",
   "policiales:https://junin24.com/locales/solo-danos-materiales-como-consecuencia-de-un-principio-de-incendio-en-una-cocina": "2026-11-02T00:20:13.000Z",
   "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada": "2026-11-24T09:00:22.000Z",
@@ -20467,6 +20629,7 @@
   "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/": "2026-11-21T09:00:22.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/22/insolito-robaron-la-moto-del-globo-de-la-muerte-de-un-circo/": "2026-11-23T09:00:30.000Z",
   "policiales:https://www.latrochadigital.com.ar/2026/11/23/incendio-de-un-automovil-en-la-ruta-5-a-la-altura-de-9-de-julio/": "2026-11-24T09:00:22.000Z",
+  "policiales:https://www.roqueperezhoy.com.ar/noticias/2026/11/24/252-operativos-en-roque-prez-recuperaron-motos-robadas-y-aprehendieron-a-dos-personas": "2026-11-25T02:20:14.000Z",
   "web:00e5dd74-44ac-4950-93b6-b45c439734be": "2026-11-02T10:03:22.000Z",
   "web:00fdccfd-78ef-4101-badf-d0dc1e19b3a0": "2026-11-11T10:02:35.000Z",
   "web:01420ed6-06ac-426a-b80b-a6cc421e4e5e": "2026-11-12T10:02:44.000Z",
@@ -20721,6 +20884,7 @@
   "web:7c08fa60-17eb-41bc-b0c6-116b9d38eeb0": "2026-10-28T10:20:19.000Z",
   "web:7d3ffeef-4241-46c5-b117-a6ee22ac3234": "2026-10-28T10:02:28.000Z",
   "web:7dd5195a-6787-458a-861f-22ceaaf90ea3": "2026-11-13T10:02:41.000Z",
+  "web:7de0c278-06b2-46a5-b5cf-f664ea3eb882": "2026-11-25T02:20:14.000Z",
   "web:7de16944-cbd0-472a-9ccc-0f7b42b113cd": "2026-11-13T10:02:41.000Z",
   "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3": "2026-10-29T10:20:14.000Z",
   "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12": "2026-11-25T02:00:17.000Z",
