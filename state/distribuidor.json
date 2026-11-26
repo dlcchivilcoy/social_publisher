@@ -6011,25 +6011,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-chivilcoy-torneo-federal-a-revalida-cuatro-candidatos-para-un",
    "volanta": "Fútbol"
   },
-  "web:f1a20b87-1804-430d-9961-2598fe26d092": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Una caravana de motociclistas despidió a un joven fallecido en un choque CHIVILCOY.– Familiares, amigos y vecinos despidieron este lunes a Jesús Almeira, el joven que murió tras un choque entre dos motos en avenida Avellaneda y Arenales. Una caravana de motociclistas acompañó el cortejo fúnebre en la mañana del lunes 16 de noviembre, en Chivilcoy. Sus amigos se sumaron al recorrido en moto para rendirle homenaje y acompañar a su familia en la despedida. Almeira había sufrido...",
-   "generado": "2026-11-16T19:46:39.335Z",
-   "id": "web:f1a20b87-1804-430d-9961-2598fe26d092",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_2d2ab59649db41ff848c37a5fe7ba0ed~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Una caravana de motociclistas despidió a un joven fallecido en un choque",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
-   "volanta": "Chivilcoy · De duelo"
-  },
   "web:f1f5b74d-dab6-4cbf-b460-011968d98b30": {
    "categoria": "",
    "descripcion": "Racing Club es el primer finalista del Torneo Clausura, espera rival entre Colón y Bragado Club La \"Academia\" barrió su serie ante Gimnasia tras imponerse con autoridad por 78 a 48 en el Estadio Centro. En la otra llave, Bragado Club se hizo fuerte de local, igualó el cruce y forzó un tercer partido decisivo en Chivilcoy. El Torneo Clausura de Primera División de la Asociación Básquetbol Chivilcoy (ABCh) ya tiene a su primer invitado a la gran final. Racing Club cerró de manera contundente su...",
@@ -17869,31 +17850,6 @@
    "titulo": "Chivilcoy: Torneo Federal ‘A’ - Reválida: Cuatro candidatos para un solo boleto, así se jugarán las semifinales por el segundo ascenso",
    "urgente": false,
    "vence": "2026-11-19T13:04:06.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:f1a20b87-1804-430d-9961-2598fe26d092|x": {
-   "actualizado": "2026-11-16T20:00:18.000Z",
-   "buffer_id": "",
-   "clave": "web:f1a20b87-1804-430d-9961-2598fe26d092|x",
-   "creado": "2026-11-16T20:00:18.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-16T19:46:39.335Z",
-   "id": "web:f1a20b87-1804-430d-9961-2598fe26d092",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
-   "noticia": "nota:chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Una caravana de motociclistas despidió a un joven fallecido en un choque",
-   "urgente": false,
-   "vence": "2026-11-16T23:46:39.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
