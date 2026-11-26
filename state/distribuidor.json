@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-26T13:00:24.000Z"
+   "visto": "2026-11-26T17:20:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-26T13:00:24.000Z"
+   "visto": "2026-11-26T17:20:14.000Z"
   }
  },
  "contenidos": {
@@ -10256,18 +10256,19 @@
    "viral": false
   },
   "entrevistas:job00353|x": {
-   "actualizado": "2026-11-26T17:00:21.000Z",
+   "actualizado": "2026-11-26T17:20:14.000Z",
    "buffer_id": "6b0865a983496b7c1b383a0d",
    "clave": "entrevistas:job00353|x",
    "creado": "2026-11-26T17:00:19.000Z",
    "dueAt": "2026-11-26T17:02:27.000Z",
+   "enviado": "2026-11-26T17:10:26.891Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-26T17:00:19.000Z",
    "id": "entrevistas:job00353",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2126000641097019395",
    "nota_url": "",
    "noticia": "titulo:esteban-fitzsimons-origen-uruguaya-yerba",
    "origen": "entrevistas",
@@ -18194,14 +18195,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/|x",
-   "cuando": "2026-11-20T02:40:23.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x",
    "cuando": "2026-11-20T02:40:23.000Z",
    "evento": "enviado",
@@ -22355,6 +22348,12 @@
    "cuando": "2026-11-26T17:00:26.000Z",
    "dueAt": "2026-11-26T17:02:27.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00353|x",
+   "cuando": "2026-11-26T17:20:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2126000641097019395"
   }
  ],
  "tandas": {
@@ -22392,7 +22391,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-26",
- "ultima_sync": "2026-11-26T13:00:24.000Z",
+ "ultima_sync": "2026-11-26T17:20:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
