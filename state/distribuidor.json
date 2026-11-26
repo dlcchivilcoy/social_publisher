@@ -2004,6 +2004,32 @@
    "volanta": "Intento de estafa en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/U74v0Vn3MfM"
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html": {
+   "categoria": "otro_policial",
+   "descripcion": "Una mujer y un menor que circulaban en moto sufrieron lesiones y debieron ser trasladados al Hospital en ambulancia tras caer al pavimento en la esquina de Villegas y Entre Ríos.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-26T02:33:17.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-y-un-nino-heridos-tras-caer-de-una-moto-en-ac67af",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Una mujer y un niño sufrieron heridas al caer de su moto en la esquina de Villegas y Entre Ríos, en Chacabuco.\n\nEl siniestro ocurrió este miércoles por la mañana tras un roce con el auto de un vecino.\n\nAmbos heridos fueron trasladados en ambulancia al Hospital municipal para su atención.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Una mujer y un niño en moto cayeron tras rozar con un auto",
+   "urgente": false,
+   "video_bytes": 116788,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-26_0134_08_chacabuco_una-mujer-y-un-ni-o-en-moto-ca.mp4",
+   "volanta": "Accidente en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/p0mBbJPuwI8"
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html": {
    "categoria": "otro_policial",
    "descripcion": "Una vecina alertó a la Policía tras sufrir un asalto en un campo ubicado en la zona rural. El caso pasó a manos de la Patrulla Rural del partido vecino.",
@@ -4229,25 +4255,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/siniestralidad-vial-en-chivilcoy-chivilcoy-choques-entre-motos-una",
    "volanta": "Siniestralidad vial en Chivilcoy"
   },
-  "web:62ebb555-db92-4262-86b8-2f76e3982e4b": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Colón finalizó primero en la fase regular por cuarta vez consecutiva CHIVILCOY.– Colón finalizó primero absoluto de la fase regular por cuarta vez consecutiva. Le ganó esta noche a San Lorenzo 88-63 en el Oscar y Alfredo Barca y se aseguró ante su gente el primer puesto en la fase regular. Definirá, de ser necesario, todos los partidos de local en los playoffs. Los goleadores resultaron Denis Bosarelli con 28 puntos, Rolandelli con 13 y Francisco Luengo con 12. Martirena, con 16, y...",
-   "generado": "2026-11-16T02:25:24.406Z",
-   "id": "web:62ebb555-db92-4262-86b8-2f76e3982e4b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_bf75136ca76a493581ff59268638a777~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Colón finalizó primero en la fase regular por cuarta vez consecutiva",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
-   "volanta": "Chivilcoy · Deportes"
-  },
   "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf": {
    "categoria": "",
    "descripcion": "Chivilcoy: Básquet femenino: Argentino ganó de visitante ante Sportivo Rojas CHIVILCOY.– La Primera de básquet femenino de Argentino sigue por la senda de las victorias en la Asociación Juninense de Básquet. Anoche, en condición de visitante, derrotó a Sportivo Rojas por 57 a 32.",
@@ -4932,6 +4939,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-amateur-maximiliano-robledo-y-el-olimpo-van-por-la-gloria-en",
    "volanta": "Fútbol Amateur"
   },
+  "web:a47c8a2a-b376-4038-9b42-02e8ecd93f81": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: APREHENDIERON a un joven tras un allanamiento por un hurto Personal de la Estación de Policía Comunal Chivilcoy y de la Subdelegación Departamental de Investigaciones (SubDDI) esclarecieron un hecho de hurto denunciado este 25 de noviembre. Según se informó, el denunciante constató la sustracción de varios elementos del interior de su automóvil Volkswagen Gol, que se encontraba estacionado en la calle Boquerón 594. A partir de las tareas investigativas y del relevamiento de cámaras...",
+   "generado": "2026-11-26T02:31:34.982Z",
+   "id": "web:a47c8a2a-b376-4038-9b42-02e8ecd93f81",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d96dde3041ed4f20a5290585e6e075c5~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-tras-un",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: APREHENDIERON a un joven tras un allanamiento por un hurto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-tras-un",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:a7006b82-c26d-419f-8d32-75902a38cfde": {
    "categoria": "",
    "descripcion": "Festejo, historia y presente ganador: Florencio Varela celebró su cena y ya piensa en los cruces decisivos de la Liga Chivilcoyana CHIVILCOY.– El Club Florencio Varela atraviesa un cierre de año cargado de emociones, combinando la mística de su historia reciente con la ilusión de un presente competitivo. En los últimos días, la institución aurinegra fue protagonista tanto fuera como dentro de la cancha: por un lado, con una emotiva cena que reunió a toda la familia del \"Mirasol\" y, por otro,...",
@@ -5292,6 +5318,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquetbol-torneo-clausura-de-primera-division-contundente-primer",
    "volanta": "Básquetbol"
+  },
+  "web:c7200b69-c4a4-4390-8574-2b79c3aead55": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Aprehendieron a un hombre y recuperaron elementos sustraídos de un galpón En el marco de un procedimiento realizado este martes 25 de noviembre, personal del Grupo Táctico Operativo (GTO) y de la Estación de Policía Comunal Chivilcoy aprehendió a un hombre de 25 años en la intersección de Rodríguez Peña y Francisco Ramírez. El procedimiento se originó a raíz de un hecho ocurrido en un galpón ubicado en avenida Monseñor De Andrea y Balcarce, de donde el sujeto había sustraído dos...",
+   "generado": "2026-11-26T02:23:22.509Z",
+   "id": "web:c7200b69-c4a4-4390-8574-2b79c3aead55",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_cab11d36806e4537a741049d370ff9f8~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Aprehendieron a un hombre y recuperaron elementos sustraídos de un galpón",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-y",
+   "volanta": "Chivilcoy · Policiales"
   },
   "web:c84c8adb-3791-435c-bf8f-60519d299bc0": {
    "categoria": "",
@@ -10974,6 +11019,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_10_chacabuco_usurpando-la-identidad-del-sob.mp4",
    "viral": false
   },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html|x": {
+   "actualizado": "2026-11-26T02:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html|x",
+   "creado": "2026-11-26T02:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-26T02:33:17.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-y-un-nino-heridos-tras-caer-de-una-moto-en-ac67af",
+   "noticia": "nota:chacabuco-una-mujer-y-un-nino-heridos-tras-caer-de-una-moto-en-ac67af",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Una mujer y un niño en moto cayeron tras rozar con un auto\n\nUna mujer y un menor que circulaban en moto sufrieron lesiones y debieron ser trasladados al Hospital en ambulancia tras caer al pavimento en la esquina de Villegas y Entre Ríos.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-una-mujer-y-un-nino-heridos-tras-caer-de-una-moto-en-ac67af",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Una mujer y un niño en moto cayeron tras rozar con un auto",
+   "urgente": false,
+   "vence": "2026-11-26T04:33:17.000Z",
+   "video_bytes": 116788,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-26_0134_08_chacabuco_una-mujer-y-un-ni-o-en-moto-ca.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html|x": {
    "actualizado": "2026-11-23T09:00:32.000Z",
    "buffer_id": "",
@@ -14512,33 +14585,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:62ebb555-db92-4262-86b8-2f76e3982e4b|x": {
-   "actualizado": "2026-11-16T02:40:23.000Z",
-   "buffer_id": "",
-   "clave": "web:62ebb555-db92-4262-86b8-2f76e3982e4b|x",
-   "creado": "2026-11-16T02:40:14.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-16T02:25:24.406Z",
-   "id": "web:62ebb555-db92-4262-86b8-2f76e3982e4b",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
-   "noticia": "nota:chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Colón finalizó primero en la fase regular por cuarta vez consecutiva\n\nCHIVILCOY.– Colón finalizó primero absoluto de la fase regular por cuarta vez consecutiva.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-colon-finalizo-primero-en-la-fase",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Colón finalizó primero en la fase regular por cuarta vez consecutiva",
-   "urgente": false,
-   "vence": "2026-11-16T06:25:24.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x": {
    "actualizado": "2026-11-21T18:20:16.000Z",
    "buffer_id": "",
@@ -15740,6 +15786,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:a47c8a2a-b376-4038-9b42-02e8ecd93f81|x": {
+   "actualizado": "2026-11-26T02:40:25.000Z",
+   "buffer_id": "",
+   "clave": "web:a47c8a2a-b376-4038-9b42-02e8ecd93f81|x",
+   "creado": "2026-11-26T02:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-26T02:31:34.982Z",
+   "id": "web:a47c8a2a-b376-4038-9b42-02e8ecd93f81",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-tras-un",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-tras-un",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: APREHENDIERON a un joven tras un allanamiento por un hurto\n\nPersonal policial esclareció el hurto de elementos del interior de un auto estacionado en la calle Boquerón. La víctima había denunciado el hecho.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-tras-un",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: APREHENDIERON a un joven tras un allanamiento por un hurto",
+   "urgente": false,
+   "vence": "2026-11-26T06:31:34.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:a7006b82-c26d-419f-8d32-75902a38cfde|x": {
    "actualizado": "2026-11-25T12:00:18.000Z",
    "buffer_id": "6b06bb1047d547758403b471",
@@ -16337,6 +16410,33 @@
    "titulo": "Torneo Clausura De Primera División: contundente primer paso de Colón hacia la final",
    "urgente": false,
    "vence": "2026-11-20T13:08:36.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:c7200b69-c4a4-4390-8574-2b79c3aead55|x": {
+   "actualizado": "2026-11-26T02:40:25.000Z",
+   "buffer_id": "",
+   "clave": "web:c7200b69-c4a4-4390-8574-2b79c3aead55|x",
+   "creado": "2026-11-26T02:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-26T02:23:22.509Z",
+   "id": "web:c7200b69-c4a4-4390-8574-2b79c3aead55",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-y",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Aprehendieron a un hombre y recuperaron elementos sustraídos de un galpón\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Aprehendieron a un hombre y recuperaron elementos sustraídos de un galpón",
+   "urgente": false,
+   "vence": "2026-11-26T06:23:22.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17817,38 +17917,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:49e62895-3650-40a4-96b0-255e389c9fe6|x",
-   "cuando": "2026-11-19T10:20:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123346859552907720"
-  },
-  {
-   "clave": "web:dbf352ff-5f10-4d42-b7a1-25afb048d043|x",
-   "cuando": "2026-11-19T10:20:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123350828111061222"
-  },
-  {
-   "clave": "web:e0d6be2b-ab30-47c7-9857-ff090fd4e45b|x",
-   "cuando": "2026-11-19T10:20:28.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123358184983101610"
-  },
-  {
-   "buffer_id": "6afecd6dec3834f154509d49",
-   "clave": "web:efb8b273-d909-4552-a200-a555ac7dd49f|x",
-   "cuando": "2026-11-19T10:20:29.000Z",
-   "dueAt": "2026-11-19T11:40:06.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afed20f7c25de751c32ec14",
-   "clave": "web:b25195a6-8663-4776-9925-1b3d65850489|x",
-   "cuando": "2026-11-19T10:40:16.000Z",
-   "dueAt": "2026-11-19T11:55:31.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6afed6c4ffd0192517ab1eb6",
    "clave": "web:e3c0a836-b40d-420b-b76b-e8a9f383a162|x",
@@ -21963,6 +22031,42 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html|x",
+   "cuando": "2026-11-26T02:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:a47c8a2a-b376-4038-9b42-02e8ecd93f81|x",
+   "cuando": "2026-11-26T02:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:c7200b69-c4a4-4390-8574-2b79c3aead55|x",
+   "cuando": "2026-11-26T02:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:a47c8a2a-b376-4038-9b42-02e8ecd93f81|x",
+   "cuando": "2026-11-26T02:40:25.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:c7200b69-c4a4-4390-8574-2b79c3aead55|x",
+   "cuando": "2026-11-26T02:40:25.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22295,6 +22399,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html": "2026-11-21T09:00:22.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-y-algo-mas-en-un-barrio-de.html": "2026-11-07T22:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html": "2026-11-22T09:00:16.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html": "2026-11-26T02:40:14.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche07112026.html": "2026-11-07T23:40:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/noche21112026.html": "2026-11-23T09:00:30.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo-robo-en-una-zina-particular-de.html": "2026-11-19T09:00:19.000Z",
@@ -22675,6 +22780,7 @@
   "web:a13517b3-e29e-4a98-b0bc-d2fa2f109778": "2026-11-15T14:40:13.000Z",
   "web:a1ce6b3a-2e43-4458-8426-d7f3c7905a34": "2026-10-28T10:20:19.000Z",
   "web:a3d30d89-bce5-41df-b635-6f903026b394": "2026-10-28T10:02:28.000Z",
+  "web:a47c8a2a-b376-4038-9b42-02e8ecd93f81": "2026-11-26T02:40:14.000Z",
   "web:a4af8e93-1494-4e38-bc38-5764b271088c": "2026-11-09T09:00:17.000Z",
   "web:a555a251-a510-4b0c-b618-aa0f2ac8eea4": "2026-11-06T17:00:18.000Z",
   "web:a642e972-d928-4d92-8619-4b52387cb16a": "2026-11-03T02:00:19.000Z",
@@ -22739,6 +22845,7 @@
   "web:c636a949-65bd-4d05-988f-93cbad23a411": "2026-10-27T16:20:15.000Z",
   "web:c6713e1d-61d9-4e84-b151-556ac94ad1d6": "2026-11-20T09:03:47.000Z",
   "web:c6773443-ef8a-493a-b392-a16cd01f5057": "2026-10-27T10:03:31.000Z",
+  "web:c7200b69-c4a4-4390-8574-2b79c3aead55": "2026-11-26T02:40:14.000Z",
   "web:c78cf34b-a7dd-4d5d-a862-56c5b50b3972": "2026-10-31T02:40:16.000Z",
   "web:c7af8d6c-57bc-4d60-ba96-5f9966aa50f2": "2026-11-02T10:03:22.000Z",
   "web:c8022409-4d8f-45ba-a34f-1011272f6310": "2026-11-12T10:02:44.000Z",
