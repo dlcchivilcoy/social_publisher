@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 26/11/2026 19:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 9 | 0 | 0 | 0 | 0 | 12 |
+| Notas web | X | 15 | 9 | 0 | 0 | 0 | 0 | 13 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -34,8 +34,6 @@ Actualizado: 26/11/2026 19:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T18:20 recibido entrevistas:job00355|tiktok 
-- 2026-11-26T18:20 programado entrevistas:job00355|x 
 - 2026-11-26T18:40 enviado entrevistas:job00355|x 
 - 2026-11-26T19:00 entrevista_aprobada entrevistas:job00356 
 - 2026-11-26T19:00 recibido entrevistas:job00356|x 
@@ -59,3 +57,5 @@ Actualizado: 26/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-26T22:00 enviado entrevistas:job00355|tiktok 
 - 2026-11-26T22:00 enviado entrevistas:job00356|tiktok 
 - 2026-11-26T22:00 enviado entrevistas:job00357|tiktok 
+- 2026-11-26T22:40 recibido web:a3d42149-dee5-45b1-afa6-b20f9760d616|x 
+- 2026-11-26T22:40 depurado web:a3d42149-dee5-45b1-afa6-b20f9760d616|x de la web, a X solo van las notas del diario de la mañana
