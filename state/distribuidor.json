@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-26T19:40:15.000Z"
+   "visto": "2026-11-26T20:40:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 17
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-11-26T19:40:15.000Z"
+   "visto": "2026-11-26T20:40:23.000Z"
   }
  },
  "contenidos": {
@@ -6446,43 +6446,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_01edab53a7d38e13.mp4",
    "viral": false
   },
-  "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x": {
-   "actualizado": "2026-11-16T20:40:22.000Z",
-   "buffer_id": "6afb60da3509d4c5b87e474d",
-   "clave": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4|x",
-   "creado": "2026-11-16T20:00:18.000Z",
-   "dueAt": "2026-11-16T20:02:22.000Z",
-   "enviado": "2026-11-16T20:04:30.988Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-16T19:48:14.000Z",
-   "id": "bot:video_matias-zucchi_mwjo5rifucll_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122420568163074315",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 132,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
-   "noticia": "nota:chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Una caravana de motociclistas despidió a un joven fallecido en un choque\n\nFamiliares, amigos y vecinos acompañaron el cortejo fúnebre de Jesús Almeira en Chivilcoy. El joven murió tras chocar con otra motocicleta.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-de-duelo-chivilcoy-una-caravana-de-motociclistas-despidio-a",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Una caravana de motociclistas despidió a un joven fallecido en un choque",
-   "urgente": false,
-   "vence": "2026-11-16T21:48:14.000Z",
-   "video_bytes": 10212157,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_01edab53a7d38e13.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mwjsvheuls91_01.mp4|tiktok": {
    "actualizado": "2026-11-17T00:20:24.000Z",
    "buffer_id": "6afb99134b26315855ab7303",
@@ -10429,18 +10392,19 @@
    "viral": false
   },
   "entrevistas:job00357|x": {
-   "actualizado": "2026-11-26T19:40:16.000Z",
+   "actualizado": "2026-11-26T20:40:23.000Z",
    "buffer_id": "6b088b201fa409158291e6e9",
    "clave": "entrevistas:job00357|x",
    "creado": "2026-11-26T19:40:15.000Z",
    "dueAt": "2026-11-26T19:42:44.000Z",
+   "enviado": "2026-11-26T19:42:58.851Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-26T19:40:15.000Z",
    "id": "entrevistas:job00357",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2126039027191058909",
    "nota_url": "",
    "noticia": "titulo:carla-cuch-decoracion-diseno-palomequez",
    "origen": "entrevistas",
@@ -18342,14 +18306,6 @@
  },
  "registro": [
   {
-   "clave": "web:d0b1d7bb-5cfb-465e-882c-ccbd45b12f77|x",
-   "cuando": "2026-11-20T09:04:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x",
    "cuando": "2026-11-20T09:04:33.000Z",
    "estado": "pendiente",
@@ -22494,6 +22450,12 @@
    "cuando": "2026-11-26T19:40:16.000Z",
    "dueAt": "2026-11-26T19:42:44.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00357|x",
+   "cuando": "2026-11-26T20:40:24.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2126039027191058909"
   }
  ],
  "tandas": {
@@ -22531,7 +22493,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-26",
- "ultima_sync": "2026-11-26T19:40:15.000Z",
+ "ultima_sync": "2026-11-26T20:40:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

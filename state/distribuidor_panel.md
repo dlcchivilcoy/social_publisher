@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 17:20 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 17:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 1 |
+| Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 1 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -13,12 +13,12 @@ Actualizado: 26/11/2026 17:20 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 17 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 33 con métricas · mediana vistas/impresiones 83 · likes 0
-- X · Reels del bot: 13 con métricas · mediana vistas/impresiones 71 · likes 0
+- X · Reels del bot: 12 con métricas · mediana vistas/impresiones 68.5 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
 - X · Notas web: 105 con métricas · mediana vistas/impresiones 23 · likes 0
 - TikTok · Recortes de entrevistas: 38 con métricas · mediana vistas/impresiones 147.5 · likes 1
@@ -37,7 +37,6 @@ Actualizado: 26/11/2026 17:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T15:40 depurado web:9e24f711-f945-4e5b-82f6-f435d45a615f|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-26T16:00 recibido web:29486b4a-cb57-4e22-902c-589d7ff385b1|x 
 - 2026-11-26T16:00 depurado web:29486b4a-cb57-4e22-902c-589d7ff385b1|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-26T17:00 entrevista_aprobada entrevistas:job00353 
@@ -62,3 +61,4 @@ Actualizado: 26/11/2026 17:20 (hora AR) · ACTIVO
 - 2026-11-26T19:40 recibido entrevistas:job00357|tiktok 
 - 2026-11-26T19:40 enviado entrevistas:job00356|x 
 - 2026-11-26T19:40 programado entrevistas:job00357|x 
+- 2026-11-26T20:40 enviado entrevistas:job00357|x 
