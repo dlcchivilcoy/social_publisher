@@ -6326,6 +6326,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-colon-goleo-a-bragado-club-y-clasifico-a-una-nueva",
    "volanta": "Chivilcoy · Deportes"
   },
+  "web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Arluchi cerrará su planta de producción y trasladará su actividad a Brasil La planta de Arluchi S.A. en el Parque Industrial de Chivilcoy dejará de producir el próximo 30 de noviembre, fecha en la que serán desvinculados 13 operarios. El cronograma fue informado durante una audiencia de conciliación realizada el miércoles 25 de noviembre en la delegación local del Ministerio de Trabajo bonaerense. Según confirmó el responsable de la dependencia, Fernando Antonelli, participaron del...",
+   "generado": "2026-11-26T12:02:15.623Z",
+   "id": "web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_106f9ce1ad094bf89bc6de878d623b92~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-chivilcoy-arluchi-cerrara-su-planta-de-produccion",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Arluchi cerrará su planta de producción y trasladará su actividad a Brasil",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-gremiales-chivilcoy-arluchi-cerrara-su-planta-de-produccion",
+   "volanta": "Chivilcoy · Gremiales"
+  },
   "web:fad92e16-ef85-4bcc-b7ff-84f088f97a85": {
    "categoria": "",
    "descripcion": "Triunfo chivilcoyano en el cierre del Rally Serie: Romina Caballo y Pamela Martino, lo más alto en Diego Gaynor CHIVILCOY.– La representante local Romina Caballo se adjudicó la clasificación general femenina y su categoría en la última fecha del tradicional certamen, que celebró sus 20 años de trayectoria. Además, Pamela Martino destacó con una victoria en la modalidad Gravel y Fernando Sinelli sumó un podio en Máster C2. Con una jornada acompañada por un clima ideal, el Rally Serie bajó el...",
@@ -17376,14 +17395,14 @@
    "viral": false
   },
   "web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x": {
-   "actualizado": "2026-11-26T12:00:22.000Z",
+   "actualizado": "2026-11-26T12:20:21.000Z",
    "buffer_id": "6b081f5896d200044e42652a",
    "clave": "web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x",
    "creado": "2026-11-26T11:40:17.000Z",
    "dueAt": "2026-11-26T13:11:37.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-26T11:36:32.585Z",
    "id": "web:d9830c7a-a731-4ed2-b3ed-124084977d6f",
    "intentos": 0,
@@ -18026,14 +18045,14 @@
    "viral": false
   },
   "web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x": {
-   "actualizado": "2026-11-26T11:40:30.000Z",
+   "actualizado": "2026-11-26T12:20:21.000Z",
    "buffer_id": "6b081aae908ca1bcccbc4327",
    "clave": "web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x",
    "creado": "2026-11-26T11:40:17.000Z",
    "dueAt": "2026-11-26T12:56:48.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-26T11:28:14.936Z",
    "id": "web:f56995a6-b101-4a83-8cd4-dabb08b85b0a",
    "intentos": 0,
@@ -18313,6 +18332,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2|x": {
+   "actualizado": "2026-11-26T12:20:22.000Z",
+   "buffer_id": "6b0824069bacd0ac3d243f0c",
+   "clave": "web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2|x",
+   "creado": "2026-11-26T12:20:13.000Z",
+   "dueAt": "2026-11-26T13:41:25.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-26T12:02:15.623Z",
+   "id": "web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-chivilcoy-arluchi-cerrara-su-planta-de-produccion",
+   "noticia": "nota:chivilcoy-gremiales-chivilcoy-arluchi-cerrara-su-planta-de-produccion",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Arluchi cerrará su planta de producción y trasladará su actividad a Brasil\n\nLa planta de Arluchi S.A. en el Parque Industrial de Chivilcoy dejará de producir el próximo 30 de noviembre, fecha en la que serán desvinculados 13 operarios.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-gremiales-chivilcoy-arluchi-cerrara-su-planta-de-produccion",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Arluchi cerrará su planta de producción y trasladará su actividad a Brasil",
+   "urgente": false,
+   "vence": "2026-11-26T16:02:15.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:fad92e16-ef85-4bcc-b7ff-84f088f97a85|x": {
    "actualizado": "2026-11-18T14:00:20.000Z",
    "buffer_id": "6afd935367b44b742a516318",
@@ -18409,33 +18456,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6aff6366373c7db3cb51fa3d",
-   "clave": "entrevistas:job00330|tiktok",
-   "cuando": "2026-11-19T21:00:23.000Z",
-   "dueAt": "2026-11-19T21:23:38.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aff63668ec824f4cebe4ccc",
-   "clave": "entrevistas:job00329|tiktok",
-   "cuando": "2026-11-19T21:00:23.000Z",
-   "dueAt": "2026-11-19T21:43:34.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6aff63678ec824f4cebe4e90",
-   "clave": "entrevistas:job00328|tiktok",
-   "cuando": "2026-11-19T21:00:23.000Z",
-   "dueAt": "2026-11-19T22:03:41.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00331|tiktok",
-   "cuando": "2026-11-19T21:20:16.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709991233552321799"
-  },
   {
    "clave": "web:c50043a5-8e6c-4be2-b1a2-f6974b815d4e|x",
    "cuando": "2026-11-19T21:40:28.000Z",
@@ -22576,6 +22596,33 @@
    "cuando": "2026-11-26T12:00:30.000Z",
    "dueAt": "2026-11-26T13:26:51.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2|x",
+   "cuando": "2026-11-26T12:20:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x",
+   "cuando": "2026-11-26T12:20:22.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "clave": "web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x",
+   "cuando": "2026-11-26T12:20:22.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "buffer_id": "6b0824069bacd0ac3d243f0c",
+   "clave": "web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2|x",
+   "cuando": "2026-11-26T12:20:22.000Z",
+   "dueAt": "2026-11-26T13:41:25.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -23461,6 +23508,7 @@
   "web:f841cb1f-56ef-4ba9-b9a2-c0d6d39880a6": "2026-10-30T23:00:20.000Z",
   "web:f84c9b38-6290-47dc-9e63-f3c2c8f2e0fb": "2026-11-16T22:20:13.000Z",
   "web:f949cd3a-20b5-4eff-981f-52a316b0ff85": "2026-11-25T12:00:16.000Z",
+  "web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2": "2026-11-26T12:20:13.000Z",
   "web:fa24c212-927b-4b43-b2d4-535b06d40feb": "2026-10-29T14:00:20.000Z",
   "web:fa7a2365-e27c-4bdf-9c34-2f2ee579ca54": "2026-10-28T18:40:15.000Z",
   "web:fad92e16-ef85-4bcc-b7ff-84f088f97a85": "2026-11-18T10:02:51.000Z",
