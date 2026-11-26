@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 07:20 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 07:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,35 +9,32 @@ Actualizado: 26/11/2026 07:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 5 | 3 | 0 | 0 | 5 |
+| Notas web | X | 15 | 2 | 5 | 2 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 19 enviadas + 3 programadas de 100 por día
+- X: conectado · Buffer: 19 enviadas + 1 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 83 · likes 0
 - X · Reels del bot: 11 con métricas · mediana vistas/impresiones 72 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
-- X · Notas web: 107 con métricas · mediana vistas/impresiones 22 · likes 0
+- X · Notas web: 106 con métricas · mediana vistas/impresiones 21.5 · likes 0
 - TikTok · Recortes de entrevistas: 32 con métricas · mediana vistas/impresiones 147.5 · likes 1
 - TikTok · Reels del bot: 11 con métricas · mediana vistas/impresiones 225 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (2 esperando)
 - X · Notas web · Chivilcoy: Mariana Fancio e Ignacio Alzueta: El Club La Pampa ultima detalles pa — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Arrancó la Supercopa “Agustín Latanci”: emoción, homenaje y cuatro se — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chacinados El Pato hace historia en la Supercopa y grabó su nombre en el flamant — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T09:06 recibido web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x 
-- 2026-11-26T09:06 recibido web:19a4e6dc-921a-46cf-ace1-21162f872a9b|x 
 - 2026-11-26T09:06 recibido web:229196b7-11f9-40f8-985a-00bedd97d6c6|x 
 - 2026-11-26T09:06 recibido web:f29282a3-153c-48df-bcfd-f74e206f03a3|x 
 - 2026-11-26T09:06 recibido web:2ecb73c4-da12-40da-975d-8e154064d700|x 
@@ -61,3 +58,5 @@ Actualizado: 26/11/2026 07:20 (hora AR) · ACTIVO
 - 2026-11-26T10:00 depurado web:a422d85e-f533-4299-ac23-3caa379ec2ad|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-26T10:00 programado web:229196b7-11f9-40f8-985a-00bedd97d6c6|x 
 - 2026-11-26T10:20 programado web:19a4e6dc-921a-46cf-ace1-21162f872a9b|x 
+- 2026-11-26T10:40 enviado web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44|x 
+- 2026-11-26T10:40 programado web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x 

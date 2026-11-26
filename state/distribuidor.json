@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-26T09:40:13.000Z"
+   "visto": "2026-11-26T10:40:14.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 3,
+    "scheduled": 1,
     "sent": 19
    },
    "pausado": false,
-   "visto": "2026-11-26T09:40:13.000Z"
+   "visto": "2026-11-26T10:40:14.000Z"
   }
  },
  "contenidos": {
@@ -4292,25 +4292,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-chivilcoy-liga-nacional-joaquin-valinotti-tras-el-desahogo-de",
    "volanta": "Básquet"
-  },
-  "web:62d60b10-08a0-4e4a-b50b-4faca841dd26": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Choques entre motos: una postal cotidiana que este sábado terminó en tragedia La muerte de Jesús Almeyra, de 22 años, ocurrida tras un violento choque entre dos motocicletas en la esquina de avenida Avellaneda y calle Arenales, volvió a encender todas las alarmas en torno al tránsito en Chivilcoy. Más allá de la conmoción que genera una nueva vida perdida en el asfalto, el episodio del sábado por la tarde deja al descubierto un fenómeno recurrente en las crónicas policiales...",
-   "generado": "2026-11-16T10:01:50.891Z",
-   "id": "web:62d60b10-08a0-4e4a-b50b-4faca841dd26",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c375e0afcd154b939995c83d85dc88dc~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/siniestralidad-vial-en-chivilcoy-chivilcoy-choques-entre-motos-una",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Choques entre motos: una postal cotidiana que este sábado terminó en tragedia",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/siniestralidad-vial-en-chivilcoy-chivilcoy-choques-entre-motos-una",
-   "volanta": "Siniestralidad vial en Chivilcoy"
   },
   "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf": {
    "categoria": "",
@@ -14883,44 +14864,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:62d60b10-08a0-4e4a-b50b-4faca841dd26|x": {
-   "actualizado": "2026-11-16T10:20:19.000Z",
-   "buffer_id": "6afad52e8e87c256a3cbef8c",
-   "clave": "web:62d60b10-08a0-4e4a-b50b-4faca841dd26|x",
-   "creado": "2026-11-16T10:03:28.000Z",
-   "dueAt": "2026-11-16T10:08:21.000Z",
-   "enviado": "2026-11-16T10:08:31.013Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-16T10:01:50.891Z",
-   "id": "web:62d60b10-08a0-4e4a-b50b-4faca841dd26",
-   "ig_hora": "2026-11-16T10:08:16.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122270579826835894",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 1.37,
-    "impressions": 73,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/siniestralidad-vial-en-chivilcoy-chivilcoy-choques-entre-motos-una",
-   "noticia": "nota:siniestralidad-vial-en-chivilcoy-chivilcoy-choques-entre-motos-una",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Choques entre motos: una postal cotidiana que este sábado terminó en tragedia\n\nUn violento choque entre dos motocicletas dejó una nueva vida perdida en el asfalto. El hecho volvió a encender las alarmas en torno al tránsito local.\n\nhttps://www.diariolacampaña.com.ar/n/siniestralidad-vial-en-chivilcoy-chivilcoy-choques-entre-motos-una",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Choques entre motos: una postal cotidiana que este sábado terminó en tragedia",
-   "urgente": false,
-   "vence": "2026-11-16T14:01:50.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:6333bc8a-d6d6-459b-86f0-28db21c7dfcf|x": {
    "actualizado": "2026-11-21T18:20:16.000Z",
    "buffer_id": "",
@@ -15267,19 +15210,20 @@
    "viral": false
   },
   "web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44|x": {
-   "actualizado": "2026-11-26T09:07:22.000Z",
+   "actualizado": "2026-11-26T10:40:14.000Z",
    "buffer_id": "6b07f6cc17fc84b971bb13ec",
    "clave": "web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44|x",
    "creado": "2026-11-26T09:06:23.000Z",
    "dueAt": "2026-11-26T09:56:41.000Z",
+   "enviado": "2026-11-26T09:56:46.149Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-26T09:03:17.028Z",
    "id": "web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44",
    "ig_hora": "2026-11-26T09:56:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125891501913682333",
    "nota_url": "https://www.diariolacampaña.com.ar/n/literatura-e-ilustracion-gina-viscardi-presento-sus-haikus-de-tierra",
    "noticia": "nota:literatura-e-ilustracion-gina-viscardi-presento-sus-haikus-de-tierra",
    "origen": "web",
@@ -17241,14 +17185,14 @@
    "viral": false
   },
   "web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x": {
-   "actualizado": "2026-11-26T09:06:23.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T10:40:14.000Z",
+   "buffer_id": "6b080c8ed8848786e0d93e82",
    "clave": "web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x",
    "creado": "2026-11-26T09:06:23.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T11:56:53.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-26T09:04:06.319Z",
    "id": "web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5",
    "ig_hora": "2026-11-26T11:56:11.000Z",
@@ -18539,18 +18483,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6aff347e95650eb4b8b96674",
-   "clave": "entrevistas:job00329|x",
-   "cuando": "2026-11-19T17:40:14.000Z",
-   "dueAt": "2026-11-19T17:42:37.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00330",
-   "cuando": "2026-11-19T18:20:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00330|x",
    "cuando": "2026-11-19T18:20:20.000Z",
@@ -22704,6 +22636,19 @@
    "cuando": "2026-11-26T10:20:14.000Z",
    "dueAt": "2026-11-26T11:41:59.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44|x",
+   "cuando": "2026-11-26T10:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125891501913682333"
+  },
+  {
+   "buffer_id": "6b080c8ed8848786e0d93e82",
+   "clave": "web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x",
+   "cuando": "2026-11-26T10:40:14.000Z",
+   "dueAt": "2026-11-26T11:56:53.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22741,7 +22686,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-26",
- "ultima_sync": "2026-11-26T09:40:13.000Z",
+ "ultima_sync": "2026-11-26T10:40:14.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -23275,7 +23220,6 @@
   "web:5abbdc69-8f44-400c-8e8e-315798eae48e": "2026-11-17T18:40:17.000Z",
   "web:5b212ff6-9006-4b2b-ae18-48b4e0798b82": "2026-11-05T10:02:30.000Z",
   "web:5b92851b-96ea-4e38-9225-346618040e09": "2026-11-05T10:02:30.000Z",
-  "web:5bed14ed-a1b5-489b-a283-67d7d832c78c": "2026-10-27T10:20:16.000Z",
   "web:5cc5344e-df2a-4e5c-beba-2b15b56032eb": "2026-11-14T20:20:13.000Z",
   "web:5d3261d2-cc3a-49db-9b44-0eebec69a1c3": "2026-11-10T10:02:42.000Z",
   "web:5da64ba1-ff4b-482f-b881-4a873f748575": "2026-11-17T10:03:18.000Z",
