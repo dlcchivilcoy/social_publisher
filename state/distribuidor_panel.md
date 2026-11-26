@@ -1,20 +1,20 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 21:40 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 22:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 4 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 24 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 9 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 23 enviadas + 0 programadas de 100 por día
+- TikTok: conectado · Buffer: 10 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 83 · likes 0
@@ -33,8 +33,6 @@ Actualizado: 25/11/2026 21:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T21:00 enviado entrevistas:job00350|x 
-- 2026-11-25T21:00 enviado entrevistas:job00351|x 
 - 2026-11-25T21:00 programado entrevistas:job00352|x 
 - 2026-11-25T21:00 programado bot:video_matias-zucchi_mwwi0l704484_01.mp4|tiktok 
 - 2026-11-25T21:00 programado entrevistas:job00352|tiktok 
@@ -58,3 +56,5 @@ Actualizado: 25/11/2026 21:40 (hora AR) · ACTIVO
 - 2026-11-25T23:40 enviado entrevistas:job00349|tiktok 
 - 2026-11-25T23:40 programado bot:video_matias-zucchi_mwwremu73j5t_01.mp4|x 
 - 2026-11-26T00:00 programado bot:video_matias-zucchi_mwwremu73j5t_01.mp4|tiktok 
+- 2026-11-26T01:00 enviado bot:video_matias-zucchi_mwwremu73j5t_01.mp4|tiktok 
+- 2026-11-26T01:00 enviado bot:video_matias-zucchi_mwwremu73j5t_01.mp4|x 
