@@ -5433,6 +5433,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/propuesta-familiar-avenidas-ortiz-y-carlos-gardel-circo-safari-show",
    "volanta": "Propuesta familiar"
   },
+  "web:c9cf8f55-d133-43d5-9b4b-654e0625b95b": {
+   "categoria": "",
+   "descripcion": "Los bancos de Chivilcoy atenderán de 8 a 13 desde el lunes CHIVILCOY.– El horario de verano regirá hasta el 23 de marzo de 2027 inclusive. La modificación adelanta dos horas la atención al público. Las sucursales bancarias de Chivilcoy cambiarán su horario de atención desde el próximo lunes 30 de noviembre. Durante la temporada estival, los usuarios podrán realizar sus trámites presenciales de lunes a viernes, entre las 8 y las 13. La medida fue establecida mediante el Decreto 2298/2026 del...",
+   "generado": "2026-11-26T11:41:19.225Z",
+   "id": "web:c9cf8f55-d133-43d5-9b4b-654e0625b95b",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_38752802361a434d9af54e80acb566de~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-de-chivilcoy-atenderan-de-8-a-13-desde",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Los bancos de Chivilcoy atenderán de 8 a 13 desde el lunes",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-los-bancos-de-chivilcoy-atenderan-de-8-a-13-desde",
+   "volanta": "Chivilcoy · Servicios"
+  },
   "web:c9db04af-d3ab-4346-a206-72ea501d0adb": {
    "categoria": "",
    "descripcion": "El Tricolor ganó 62 a 56 y forzó un tercer partido Y el Tricolor lo hizo. Contra todos los pronósticos y por cómo se había dado el primer juego, nada hacía pensar que se podía revertir el resultado. Pero este grupo de jugadores, muchos con larga experiencia y sobre todo mucho amor propio, sorprendió al equipo de Tamburini venciéndolo 62 a 56 y estirando la serie a un tercer juego de las semifinales del Torneo Clausura de Primera División. El León no tuvo su mejor juego, lo que sumado al buen...",
@@ -16762,6 +16781,34 @@
    "video_url": "",
    "viral": false
   },
+  "web:c9cf8f55-d133-43d5-9b4b-654e0625b95b|x": {
+   "actualizado": "2026-11-26T12:00:22.000Z",
+   "buffer_id": "6b081f5c3fe6982f760db060",
+   "clave": "web:c9cf8f55-d133-43d5-9b4b-654e0625b95b|x",
+   "creado": "2026-11-26T12:00:20.000Z",
+   "dueAt": "2026-11-26T13:26:51.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-26T11:41:19.225Z",
+   "id": "web:c9cf8f55-d133-43d5-9b4b-654e0625b95b",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-de-chivilcoy-atenderan-de-8-a-13-desde",
+   "noticia": "nota:chivilcoy-servicios-los-bancos-de-chivilcoy-atenderan-de-8-a-13-desde",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Los bancos de Chivilcoy atenderán de 8 a 13 desde el lunes\n\nLa modificación adelanta dos horas la atención durante la temporada estival. El esquema regirá hasta el 23 de marzo de 2027 inclusive, según estableció el Decreto 2298/2026.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-los-bancos-de-chivilcoy-atenderan-de-8-a-13-desde",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Los bancos de Chivilcoy atenderán de 8 a 13 desde el lunes",
+   "urgente": false,
+   "vence": "2026-11-26T15:41:19.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:c9db04af-d3ab-4346-a206-72ea501d0adb|x": {
    "actualizado": "2026-11-21T17:00:29.000Z",
    "buffer_id": "",
@@ -17329,14 +17376,14 @@
    "viral": false
   },
   "web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x": {
-   "actualizado": "2026-11-26T11:40:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T12:00:22.000Z",
+   "buffer_id": "6b081f5896d200044e42652a",
    "clave": "web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x",
    "creado": "2026-11-26T11:40:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T13:11:37.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-26T11:36:32.585Z",
    "id": "web:d9830c7a-a731-4ed2-b3ed-124084977d6f",
    "intentos": 0,
@@ -18362,25 +18409,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00330|x",
-   "cuando": "2026-11-19T19:20:25.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123482159587496153"
-  },
-  {
-   "clave": "entrevistas:job00331|x",
-   "cuando": "2026-11-19T19:20:25.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123493165944463567"
-  },
-  {
-   "buffer_id": "6aff63658ec824f4cebe47c9",
-   "clave": "entrevistas:job00331|tiktok",
-   "cuando": "2026-11-19T21:00:23.000Z",
-   "dueAt": "2026-11-19T21:03:02.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6aff6366373c7db3cb51fa3d",
    "clave": "entrevistas:job00330|tiktok",
@@ -22526,6 +22554,28 @@
    "cuando": "2026-11-26T11:40:30.000Z",
    "dueAt": "2026-11-26T12:56:48.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:c9cf8f55-d133-43d5-9b4b-654e0625b95b|x",
+   "cuando": "2026-11-26T12:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6b081f5896d200044e42652a",
+   "clave": "web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x",
+   "cuando": "2026-11-26T12:00:30.000Z",
+   "dueAt": "2026-11-26T13:11:37.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b081f5c3fe6982f760db060",
+   "clave": "web:c9cf8f55-d133-43d5-9b4b-654e0625b95b|x",
+   "cuando": "2026-11-26T12:00:30.000Z",
+   "dueAt": "2026-11-26T13:26:51.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -23308,6 +23358,7 @@
   "web:c8022409-4d8f-45ba-a34f-1011272f6310": "2026-11-12T10:02:44.000Z",
   "web:c84c8adb-3791-435c-bf8f-60519d299bc0": "2026-11-19T09:05:46.000Z",
   "web:c8557ac8-0d14-44dc-8ab0-776bc57fc89e": "2026-11-02T10:03:22.000Z",
+  "web:c9cf8f55-d133-43d5-9b4b-654e0625b95b": "2026-11-26T12:00:20.000Z",
   "web:c9db04af-d3ab-4346-a206-72ea501d0adb": "2026-11-21T17:00:24.000Z",
   "web:cae8f993-8dcb-468d-8000-3d7a60bcca52": "2026-11-25T09:03:59.000Z",
   "web:cb5bd56e-c625-4389-948e-845e3cd94779": "2026-11-02T10:03:22.000Z",
