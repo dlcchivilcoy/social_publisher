@@ -5160,6 +5160,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/dano-chivilcoy-violencia-familiar-e-incendio-en-moquehua-imputaron-a",
    "volanta": "Daño"
   },
+  "web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El Municipio entregó aportes económicos a 31 instituciones deportivas En un nuevo acompañamiento al deporte local, el Municipio de Chivilcoy realizó una entrega de aportes económicos a 31 instituciones deportivas de la ciudad y las localidades rurales, por un monto total de $16.430.000. El acto se llevó a cabo en la sede de la Agrupación Atlética Chivilcoy y estuvo encabezado por el intendente Guillermo Britos, acompañado por funcionarios municipales y representantes de las...",
+   "generado": "2026-11-26T23:22:18.460Z",
+   "id": "web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_d6ebe38b98714312aa5edb57e55800c1~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-municipio-entrego-aportes-economicos",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio entregó aportes económicos a 31 instituciones deportivas",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-el-municipio-entrego-aportes-economicos",
+   "volanta": "Chivilcoy · Deportes"
+  },
   "web:ba8e819e-fc43-4315-8b96-fd90deb06634": {
    "categoria": "",
    "descripcion": "Chivilcoy: Horacio y Belén Heiland cerraron la temporada con la victoria en el Gran Premio Rally de Ameghino CHIVILCOY.– El Gran Premio Rally de Ameghino completó este domingo la última fecha de la temporada 2026 del Campeonato Regional de Rally, con Horacio Heiland / Belén Heiland (Hyundai) como ganadores de la clasificación general y de la R5. Sebastián Monserrat / Claudio Muciachio (Volkswagen) finalizaron segundos, a 7.9 segundos, mientras que Emmanuel Bracco / Mariano Pissaco...",
@@ -16200,6 +16219,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e|x": {
+   "actualizado": "2026-11-26T23:40:17.000Z",
+   "buffer_id": "",
+   "clave": "web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e|x",
+   "creado": "2026-11-26T23:40:15.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-26T23:22:18.460Z",
+   "id": "web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-municipio-entrego-aportes-economicos",
+   "noticia": "nota:chivilcoy-deportes-chivilcoy-el-municipio-entrego-aportes-economicos",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: El Municipio entregó aportes económicos a 31 instituciones deportivas\n\nEl monto total otorgado fue de $16.430.000 para entidades de la ciudad y localidades rurales. El intendente Guillermo Britos encabezó el acto.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-deportes-chivilcoy-el-municipio-entrego-aportes-economicos",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio entregó aportes económicos a 31 instituciones deportivas",
+   "urgente": false,
+   "vence": "2026-11-27T03:22:18.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:ba8e819e-fc43-4315-8b96-fd90deb06634|x": {
    "actualizado": "2026-11-23T12:40:13.000Z",
    "buffer_id": "6b041cc4c9e1646179059dab",
@@ -18033,20 +18079,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6b00157db3576a91c14c5e15",
-   "clave": "web:d0b1d7bb-5cfb-465e-882c-ccbd45b12f77|x",
-   "cuando": "2026-11-20T09:40:14.000Z",
-   "dueAt": "2026-11-20T10:53:58.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6b00157ed6ba71125fadfbe0",
-   "clave": "web:307fc9d4-4abc-4362-b593-36783c0bf652|x",
-   "cuando": "2026-11-20T09:40:14.000Z",
-   "dueAt": "2026-11-20T11:08:06.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6b001a35d6ba71125fafd69f",
    "clave": "web:98ed68af-c1a7-496d-a8bf-6de7af346ff4|x",
@@ -22176,6 +22208,20 @@
    "cuando": "2026-11-26T23:00:20.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7712604245110967573"
+  },
+  {
+   "clave": "web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e|x",
+   "cuando": "2026-11-26T23:40:17.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e|x",
+   "cuando": "2026-11-26T23:40:17.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22433,7 +22479,6 @@
   "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion": "2026-11-02T23:40:16.000Z",
   "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/": "2026-11-02T22:40:16.000Z",
   "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos": "2026-11-16T23:20:29.000Z",
-  "policiales:https://junin24.com/locales/destrozos-en-la-vivienda-en-la-que-se-cometieron-dos-robos-en-menos-de-24-horas": "2026-10-27T23:20:16.000Z",
   "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos": "2026-11-25T02:20:14.000Z",
   "policiales:https://junin24.com/locales/robaron-en-panaderia-la-europea": "2026-11-01T23:40:14.000Z",
   "policiales:https://junin24.com/locales/solo-danos-materiales-como-consecuencia-de-un-principio-de-incendio-en-una-cocina": "2026-11-02T00:20:13.000Z",
@@ -22463,7 +22508,6 @@
   "policiales:https://semanariodejunin.com.ar/nota/76536/detuvieron-en-junin-a-un-hombre-de-41-anos-acusado-de-abuso-sexual-contra-una-menor": "2026-11-14T00:20:14.000Z",
   "policiales:https://semanariodejunin.com.ar/nota/76579/feroz-intento-de-robo-a-un-delivery-en-junin-se-resistio-a-golpes-y-evito-el-asalto": "2026-11-15T23:40:13.000Z",
   "policiales:https://www.abcsaladillo.com.ar/general/la-patrulla-rural-secuestro-trasmallos-en-del-carril/": "2026-11-19T09:00:19.000Z",
-  "policiales:https://www.bragadoinforma.com.ar/nota/31068/alberti-robaron-en-una-empresa-y-violentaron-la-caja-de-seguridad.html": "2026-10-27T23:20:16.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31090/un-automovil-se-incendio-anoche-en-la-ruta-provincial-46.html": "2026-10-31T00:20:20.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31099/chocaron-dos-motos-una-mujer-sufrio-una-fractura-grave-y-un-adolescente-fue-aprehendido.html": "2026-11-01T00:20:15.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31116/volco-una-camioneta-en-ruta-5-entre-bragado-y-9-de-julio.html": "2026-11-03T22:20:16.000Z",
@@ -22471,7 +22515,6 @@
   "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html": "2026-11-21T02:20:13.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31215/fin-de-semana-largo-con-dos-aprehendidos-por-resistencia-a-la-autoridad-y-un-hecho-de-dano.html": "2026-11-23T02:40:14.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31220/tension-en-el-acceso-elizondo-redujeron-a-un-automovilista-que-se-resistio-al-secuestro-de-su-vehiculo.html": "2026-11-25T02:40:13.000Z",
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/10/27/26592-la-justicia-confirmo-la-prision-preventiva-de-german-diaz-y-el-concejo-deliberante-definira-su-reemplazo": "2026-10-27T23:20:16.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/28/26622-aprehendieron-a-un-joven-en-el-edificio-del-exsupermercado-clc": "2026-10-28T23:20:14.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26700-un-adolescente-resulto-con-lesiones-leves-tras-un-choque-entre-un-auto-y-una-moto": "2026-10-31T23:20:16.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26703-una-camioneta-se-incendio-durante-la-madrugada-en-la-via-publica": "2026-10-31T22:40:14.000Z",
@@ -22925,6 +22968,7 @@
   "web:b8f99c2d-7f06-4d78-a4ac-7cd0d76d7fab": "2026-11-10T10:02:42.000Z",
   "web:b925d902-abaf-4747-b015-c7ca603f167c": "2026-11-06T10:02:35.000Z",
   "web:b9614f68-7894-4d54-ab85-71bd96e07340": "2026-11-04T14:20:13.000Z",
+  "web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e": "2026-11-26T23:40:15.000Z",
   "web:ba6d8630-806d-4312-84ba-717760fde847": "2026-11-04T10:20:13.000Z",
   "web:ba81d4a4-8ed1-485b-8321-eafc7a8a7a9a": "2026-11-04T10:20:13.000Z",
   "web:ba8e819e-fc43-4315-8b96-fd90deb06634": "2026-11-23T09:03:47.000Z",
