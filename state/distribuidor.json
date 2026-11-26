@@ -6159,25 +6159,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/choques-varios-jornada-vial-complicada-en-chivilcoy-cuatro-siniestros",
    "volanta": "Choques varios"
   },
-  "web:f84c9b38-6290-47dc-9e63-f3c2c8f2e0fb": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Finalizó la novena edición del Festival Internacional de Cine Raíces Con un destacado marco de público que acompañó cada una de las propuestas, concluyó este domingo la novena edición del Festival Internacional de Cine Raíces en las instalaciones del Teatro El Chasqui. La última jornada coronó cuatro días intensos de proyecciones, debates y encuentros, reafirmando el arraigo y la vigencia del festival en la comunidad chivilcoyana. Como Mejor Largometraje Documental fue premiada...",
-   "generado": "2026-11-16T22:00:44.494Z",
-   "id": "web:f84c9b38-6290-47dc-9e63-f3c2c8f2e0fb",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_58cc6f264d6f4d1d9c6ac246870d6ac2~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-finalizo-la-novena-edicion-del-festival",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Finalizó la novena edición del Festival Internacional de Cine Raíces",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-cultura-chivilcoy-finalizo-la-novena-edicion-del-festival",
-   "volanta": "Chivilcoy · Cultura"
-  },
   "web:f949cd3a-20b5-4eff-981f-52a316b0ff85": {
    "categoria": "",
    "descripcion": "Colón goleó a Bragado Club y clasificó a una nueva final El León dominó de principio a fin. Marcó presión y tuvo mucha efectividad, jugando bien para superar a Bragado Club por 109 a 44 y alcanzar una nueva final, la cuarta consecutiva en el ciclo Tamburini. Bragado Club hizo una gran campaña llegando a semifinales, siendo uno de los animadores del torneo y llevando al bicampeón a un tercer partido. Gran actuación hoy de Erbel De Pietro con 25 puntos y 5 triples seguidos; Luengo sumó 15 y...",
@@ -18060,31 +18041,6 @@
    "titulo": "Jornada vial complicada en Chivilcoy: cuatro siniestros con motos en distintos puntos de la ciudad",
    "urgente": false,
    "vence": "2026-11-20T13:00:58.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:f84c9b38-6290-47dc-9e63-f3c2c8f2e0fb|x": {
-   "actualizado": "2026-11-16T22:20:13.000Z",
-   "buffer_id": "",
-   "clave": "web:f84c9b38-6290-47dc-9e63-f3c2c8f2e0fb|x",
-   "creado": "2026-11-16T22:20:13.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-16T22:00:44.494Z",
-   "id": "web:f84c9b38-6290-47dc-9e63-f3c2c8f2e0fb",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-cultura-chivilcoy-finalizo-la-novena-edicion-del-festival",
-   "noticia": "nota:chivilcoy-cultura-chivilcoy-finalizo-la-novena-edicion-del-festival",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Finalizó la novena edición del Festival Internacional de Cine Raíces",
-   "urgente": false,
-   "vence": "2026-11-17T02:00:44.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
