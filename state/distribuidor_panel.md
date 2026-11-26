@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 15:40 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 16:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 1 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 1 |
+| Recortes de entrevistas | X | 8 | 2 | 1 | 0 | 0 | 0 | 1 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 26/11/2026 15:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Recortes de entrevistas · Salva Oteiza en Chivilcoy: el impacto de la fama a los 18 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Beatriz Cánepa: arte con madera reciclada en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Esteban Fitzsimons: el origen de la yerba "uruguaya" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -35,10 +36,6 @@ Actualizado: 26/11/2026 15:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T12:20 depurado web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-26T12:20 programado web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2|x 
-- 2026-11-26T12:40 depurado web:c9cf8f55-d133-43d5-9b4b-654e0625b95b|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-26T13:00 depurado web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-26T13:00 enviado web:0231552d-c918-4a4d-bf98-84c65feb7c8e|x 
 - 2026-11-26T13:00 enviado web:19a4e6dc-921a-46cf-ace1-21162f872a9b|x 
 - 2026-11-26T13:00 enviado web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x 
@@ -60,3 +57,7 @@ Actualizado: 26/11/2026 15:40 (hora AR) · ACTIVO
 - 2026-11-26T18:20 recibido entrevistas:job00355|tiktok 
 - 2026-11-26T18:20 programado entrevistas:job00355|x 
 - 2026-11-26T18:40 enviado entrevistas:job00355|x 
+- 2026-11-26T19:00 entrevista_aprobada entrevistas:job00356 
+- 2026-11-26T19:00 recibido entrevistas:job00356|x 
+- 2026-11-26T19:00 recibido entrevistas:job00356|tiktok 
+- 2026-11-26T19:00 programado entrevistas:job00356|x 

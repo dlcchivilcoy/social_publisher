@@ -1207,6 +1207,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00355.mp4",
    "youtube_url": "https://youtu.be/DGkCarewXZU"
   },
+  "entrevistas:job00356": {
+   "descripcion": "El streamer Salva Oteiza contó en Chivilcoy cómo vive el reconocimiento de los chicos que le piden fotos en la plaza. Con 18 años, reflexiona sobre el alcance de sus redes y el cariño de su ciudad.",
+   "duracion_seg": null,
+   "entrevistado": "Salva Oteiza",
+   "generado": "2026-11-26T19:00:17.000Z",
+   "id": "entrevistas:job00356",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Salva Oteiza en Chivilcoy: el impacto de la fama a los 18 años",
+   "urgente": false,
+   "video_bytes": 25638167,
+   "video_mb": 24.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00356.mp4",
+   "youtube_url": "https://youtu.be/18EArKccf3w"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -10357,6 +10378,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00355.mp4",
    "viral": false
   },
+  "entrevistas:job00356|tiktok": {
+   "actualizado": "2026-11-26T19:00:17.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00356|tiktok",
+   "creado": "2026-11-26T19:00:17.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-26T19:00:17.000Z",
+   "id": "entrevistas:job00356",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Salva Oteiza en Chivilcoy: el impacto de la fama a los 18 años\n\nEl streamer Salva Oteiza contó en Chivilcoy cómo vive el reconocimiento de los chicos que le piden fotos en la plaza. Con 18 años, reflexiona sobre el alcance de sus redes y el cariño de su ciudad.\n\nhttps://youtu.be/18EArKccf3w\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Salva Oteiza en Chivilcoy: el impacto de la fama a los 18 años",
+   "urgente": false,
+   "vence": "2026-11-28T19:00:17.000Z",
+   "video_bytes": 25638167,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00356.mp4",
+   "viral": false
+  },
+  "entrevistas:job00356|x": {
+   "actualizado": "2026-11-26T19:00:20.000Z",
+   "buffer_id": "6b0881c5f0a96d0f21816ecf",
+   "clave": "entrevistas:job00356|x",
+   "creado": "2026-11-26T19:00:17.000Z",
+   "dueAt": "2026-11-26T19:02:50.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-26T19:00:17.000Z",
+   "id": "entrevistas:job00356",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:anos-chivilcoy-fama-impacto-oteiza-salva",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Salva Oteiza en Chivilcoy: el impacto de la fama a los 18 años\n\nEl streamer contó cómo vive el reconocimiento de los chicos que le piden fotos en la plaza. Con 18 años, reflexiona sobre el alcance de sus redes.\n\nhttps://youtu.be/18EArKccf3w",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Salva Oteiza en Chivilcoy: el impacto de la fama a los 18 años",
+   "urgente": false,
+   "vence": "2026-11-26T21:00:17.000Z",
+   "video_bytes": 25638167,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00356.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
    "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
@@ -18268,36 +18345,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-esclarecieron.html|x",
-   "cuando": "2026-11-20T09:00:29.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "web:08fd2a3f-5e18-4be2-818e-34bec857979d|x",
-   "cuando": "2026-11-20T09:03:51.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:4e6e2626-d326-4a75-93b5-756fb6f07584|x",
-   "cuando": "2026-11-20T09:03:53.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:ec55e592-9c0f-4539-8414-481ecbfa2719|x",
-   "cuando": "2026-11-20T09:04:02.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:c6713e1d-61d9-4e84-b151-556ac94ad1d6|x",
    "cuando": "2026-11-20T09:04:05.000Z",
    "estado": "pendiente",
@@ -22428,6 +22475,34 @@
    "cuando": "2026-11-26T18:40:13.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2126018804375257359"
+  },
+  {
+   "clave": "entrevistas:job00356",
+   "cuando": "2026-11-26T19:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00356|x",
+   "cuando": "2026-11-26T19:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00356|tiktok",
+   "cuando": "2026-11-26T19:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b0881c5f0a96d0f21816ecf",
+   "clave": "entrevistas:job00356|x",
+   "cuando": "2026-11-26T19:00:21.000Z",
+   "dueAt": "2026-11-26T19:02:50.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22475,7 +22550,6 @@
   "baja:chivilcoy-salud-chivilcoy-guillermo-britos-advirtio-que-el-sanatorio": "2026-11-21T12:00:17.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-27_matias-zucchi_mvr0f271du7a": "2026-10-27T18:40:16.000Z",
   "bot:corresponsal_2026-10-28_matias-zucchi_mvrdav7b3yef": "2026-10-28T00:40:14.000Z",
   "bot:corresponsal_2026-10-28_matias-zucchi_mvre45w36ibz": "2026-10-28T01:00:19.000Z",
   "bot:corresponsal_2026-10-28_matias-zucchi_mvs75i6tcke1": "2026-10-28T14:40:14.000Z",
@@ -22664,6 +22738,7 @@
   "entrevistas:job00353": "2026-11-26T17:00:19.000Z",
   "entrevistas:job00354": "2026-11-26T17:40:13.000Z",
   "entrevistas:job00355": "2026-11-26T18:20:14.000Z",
+  "entrevistas:job00356": "2026-11-26T19:00:17.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
@@ -23109,7 +23184,6 @@
   "web:975edcef-ec1f-4523-a752-70f08fd5d109": "2026-11-04T14:00:20.000Z",
   "web:9869ea43-5e12-4498-bdb2-3cb48381f45a": "2026-11-11T10:02:35.000Z",
   "web:987bd392-013a-42fa-93e2-03b50c823a35": "2026-11-02T10:03:22.000Z",
-  "web:98a9875b-509c-4991-a320-f773a9713053": "2026-10-27T18:40:16.000Z",
   "web:98b0f753-ec92-48e9-b7b8-d415a4b356db": "2026-11-26T09:06:23.000Z",
   "web:98ed68af-c1a7-496d-a8bf-6de7af346ff4": "2026-11-20T09:03:47.000Z",
   "web:990de47c-8ca8-4fd3-898a-2d852ee61aa7": "2026-10-29T15:40:17.000Z",
