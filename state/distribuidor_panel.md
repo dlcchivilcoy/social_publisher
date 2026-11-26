@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 26/11/2026 07:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 1 | 4 | 4 | 0 | 0 | 5 |
+| Notas web | X | 15 | 1 | 5 | 3 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,17 +27,15 @@ Actualizado: 26/11/2026 07:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
+## Cola propia (3 esperando)
 - X · Notas web · Chivilcoy: Mariana Fancio e Ignacio Alzueta: El Club La Pampa ultima detalles pa — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Arrancó la Supercopa “Agustín Latanci”: emoción, homenaje y cuatro se — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chacinados El Pato hace historia en la Supercopa y grabó su nombre en el flamant — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Formativo Femenino - Torneo Clausura (AJB): Argentino llega encendido — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T09:06 recibido web:0231552d-c918-4a4d-bf98-84c65feb7c8e|x 
 - 2026-11-26T09:06 recibido web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x 
 - 2026-11-26T09:06 recibido web:19a4e6dc-921a-46cf-ace1-21162f872a9b|x 
 - 2026-11-26T09:06 recibido web:229196b7-11f9-40f8-985a-00bedd97d6c6|x 
@@ -62,3 +60,4 @@ Actualizado: 26/11/2026 07:00 (hora AR) · ACTIVO
 - 2026-11-26T10:00 depurado web:98b0f753-ec92-48e9-b7b8-d415a4b356db|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-26T10:00 depurado web:a422d85e-f533-4299-ac23-3caa379ec2ad|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-26T10:00 programado web:229196b7-11f9-40f8-985a-00bedd97d6c6|x 
+- 2026-11-26T10:20 programado web:19a4e6dc-921a-46cf-ace1-21162f872a9b|x 
