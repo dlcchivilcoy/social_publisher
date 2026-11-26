@@ -13019,14 +13019,14 @@
    "viral": false
   },
   "web:229196b7-11f9-40f8-985a-00bedd97d6c6|x": {
-   "actualizado": "2026-11-26T09:06:23.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T10:00:21.000Z",
+   "buffer_id": "6b0803360c8fd35c65173b3c",
    "clave": "web:229196b7-11f9-40f8-985a-00bedd97d6c6|x",
    "creado": "2026-11-26T09:06:23.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T11:26:11.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-26T09:03:57.985Z",
    "id": "web:229196b7-11f9-40f8-985a-00bedd97d6c6",
    "ig_hora": "2026-11-26T11:26:11.000Z",
@@ -15844,14 +15844,14 @@
    "viral": false
   },
   "web:90eb41ef-51b3-4a4f-bd23-6c5f4ce3b180|x": {
-   "actualizado": "2026-11-26T09:06:23.000Z",
+   "actualizado": "2026-11-26T10:00:20.000Z",
    "buffer_id": "",
    "clave": "web:90eb41ef-51b3-4a4f-bd23-6c5f4ce3b180|x",
    "creado": "2026-11-26T09:06:23.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-26T09:03:25.906Z",
    "id": "web:90eb41ef-51b3-4a4f-bd23-6c5f4ce3b180",
    "intentos": 0,
@@ -15975,14 +15975,14 @@
    "viral": false
   },
   "web:98b0f753-ec92-48e9-b7b8-d415a4b356db|x": {
-   "actualizado": "2026-11-26T09:07:22.000Z",
+   "actualizado": "2026-11-26T10:00:20.000Z",
    "buffer_id": "6b07f6cd7cb39d7aa3659232",
    "clave": "web:98b0f753-ec92-48e9-b7b8-d415a4b356db|x",
    "creado": "2026-11-26T09:06:23.000Z",
    "dueAt": "2026-11-26T10:26:11.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-26T09:03:06.646Z",
    "id": "web:98b0f753-ec92-48e9-b7b8-d415a4b356db",
    "intentos": 0,
@@ -16208,14 +16208,14 @@
    "viral": false
   },
   "web:a422d85e-f533-4299-ac23-3caa379ec2ad|x": {
-   "actualizado": "2026-11-26T09:07:22.000Z",
+   "actualizado": "2026-11-26T10:00:20.000Z",
    "buffer_id": "6b07f6cc7cb39d7aa3659206",
    "clave": "web:a422d85e-f533-4299-ac23-3caa379ec2ad|x",
    "creado": "2026-11-26T09:06:23.000Z",
    "dueAt": "2026-11-26T10:11:45.000Z",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
    "espera": "",
-   "estado": "programado",
+   "estado": "descartado",
    "generado": "2026-11-26T09:02:51.978Z",
    "id": "web:a422d85e-f533-4299-ac23-3caa379ec2ad",
    "intentos": 0,
@@ -17100,14 +17100,14 @@
    "viral": false
   },
   "web:d0e0dea1-4602-4eb9-a993-c82091d1e1b6|x": {
-   "actualizado": "2026-11-26T09:06:23.000Z",
+   "actualizado": "2026-11-26T10:00:20.000Z",
    "buffer_id": "",
    "clave": "web:d0e0dea1-4602-4eb9-a993-c82091d1e1b6|x",
    "creado": "2026-11-26T09:06:23.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-26T09:04:15.449Z",
    "id": "web:d0e0dea1-4602-4eb9-a993-c82091d1e1b6",
    "intentos": 0,
@@ -18156,14 +18156,14 @@
    "viral": false
   },
   "web:f43c1af9-49ed-4cde-ae35-d9f81087c717|x": {
-   "actualizado": "2026-11-26T09:06:23.000Z",
+   "actualizado": "2026-11-26T10:00:20.000Z",
    "buffer_id": "",
    "clave": "web:f43c1af9-49ed-4cde-ae35-d9f81087c717|x",
    "creado": "2026-11-26T09:06:23.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "no está en el carrusel del diario de hoy",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "descartado",
    "generado": "2026-11-26T09:03:34.754Z",
    "id": "web:f43c1af9-49ed-4cde-ae35-d9f81087c717",
    "intentos": 0,
@@ -18539,48 +18539,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00328|x",
-   "cuando": "2026-11-19T17:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00328|tiktok",
-   "cuando": "2026-11-19T17:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6aff2b32d32f1cc858d67bdc",
-   "clave": "entrevistas:job00328|x",
-   "cuando": "2026-11-19T17:00:34.000Z",
-   "dueAt": "2026-11-19T17:02:34.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00328|x",
-   "cuando": "2026-11-19T17:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123463923215016135"
-  },
-  {
-   "clave": "entrevistas:job00329",
-   "cuando": "2026-11-19T17:40:13.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00329|x",
-   "cuando": "2026-11-19T17:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00329|tiktok",
    "cuando": "2026-11-19T17:40:14.000Z",
@@ -22709,6 +22667,43 @@
    "clave": "web:f29282a3-153c-48df-bcfd-f74e206f03a3|x",
    "cuando": "2026-11-26T09:40:14.000Z",
    "dueAt": "2026-11-26T10:56:12.000Z",
+   "evento": "programado"
+  },
+  {
+   "clave": "web:90eb41ef-51b3-4a4f-bd23-6c5f4ce3b180|x",
+   "cuando": "2026-11-26T10:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:d0e0dea1-4602-4eb9-a993-c82091d1e1b6|x",
+   "cuando": "2026-11-26T10:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:f43c1af9-49ed-4cde-ae35-d9f81087c717|x",
+   "cuando": "2026-11-26T10:00:20.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy"
+  },
+  {
+   "clave": "web:98b0f753-ec92-48e9-b7b8-d415a4b356db|x",
+   "cuando": "2026-11-26T10:00:21.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "clave": "web:a422d85e-f533-4299-ac23-3caa379ec2ad|x",
+   "cuando": "2026-11-26T10:00:21.000Z",
+   "evento": "depurado",
+   "motivo": "no está en el carrusel del diario de hoy (sacado de Buffer)"
+  },
+  {
+   "buffer_id": "6b0803360c8fd35c65173b3c",
+   "clave": "web:229196b7-11f9-40f8-985a-00bedd97d6c6|x",
+   "cuando": "2026-11-26T10:00:23.000Z",
+   "dueAt": "2026-11-26T11:26:11.000Z",
    "evento": "programado"
   }
  ],
