@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 18:20 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 18:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 1 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 1 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 9 | 0 | 0 | 0 | 0 | 11 |
+| Notas web | X | 15 | 9 | 0 | 0 | 0 | 0 | 12 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,13 @@ Actualizado: 26/11/2026 18:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Reels del bot · Bomberos acudieron por humo en el ascensor de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T17:00 recibido entrevistas:job00353|tiktok 
-- 2026-11-26T17:00 programado entrevistas:job00353|x 
-- 2026-11-26T17:20 enviado entrevistas:job00353|x 
-- 2026-11-26T17:40 entrevista_aprobada entrevistas:job00354 
 - 2026-11-26T17:40 recibido entrevistas:job00354|x el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)
 - 2026-11-26T17:40 recibido entrevistas:job00354|tiktok el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)
 - 2026-11-26T18:20 entrevista_aprobada entrevistas:job00355 
@@ -58,3 +55,7 @@ Actualizado: 26/11/2026 18:20 (hora AR) · ACTIVO
 - 2026-11-26T21:00 programado entrevistas:job00356|tiktok 
 - 2026-11-26T21:00 programado entrevistas:job00355|tiktok 
 - 2026-11-26T21:00 programado entrevistas:job00353|tiktok 
+- 2026-11-26T21:40 recibido bot:video_matias-zucchi_mwy2j2otveye_01.mp4|x 
+- 2026-11-26T21:40 recibido bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok 
+- 2026-11-26T21:40 recibido web:6d05ce9c-c561-4117-8261-a57d0b738f32|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-26T21:40 programado bot:video_matias-zucchi_mwy2j2otveye_01.mp4|x 

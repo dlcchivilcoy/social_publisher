@@ -348,6 +348,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_41d054260cacdb36.mp4",
    "youtube_url": "https://www.youtube.com/shorts/fmlfHYzvpsQ"
   },
+  "bot:video_matias-zucchi_mwy2j2otveye_01.mp4": {
+   "descripcion": "Una dotación de bomberos voluntarios acudió a un edificio ubicado en avenida De Tomaso 99, frente a la estación de servicio Shell, tras un alerta por la presencia de humo en las instalaciones.\n\nEl hecho se originó al reportarse una humareda que provenía de uno de los ascensores del inmueble, lo que motivó el llamado a los servicios de emergencia.\n\nEn el lugar trabajó el personal de bomberos para intervenir ante la situación informada y constatar lo sucedido en la estructura.",
+   "duracion_seg": 18.2,
+   "generado": "2026-11-26T21:37:48.000Z",
+   "id": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Bomberos acudieron por humo en el ascensor de un edificio",
+   "urgente": false,
+   "video_bytes": 5323475,
+   "video_mb": 5.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b21130f328075838.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/-JM97yNDDb8"
+  },
   "entrevistas:job00316": {
    "descripcion": "En Chivilcoy, el dirigente del MDF Luciano Dellepiane cuestionó la falta de mantenimiento estatal y advirtió sobre los riesgos viales del parate de la obra pública.",
    "duracion_seg": null,
@@ -4453,6 +4474,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-facundo-tumbesi-ganamos-un-partido-clave-que-nos-permite",
    "volanta": "Fútbol"
   },
+  "web:6d05ce9c-c561-4117-8261-a57d0b738f32": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Bomberos acudieron por humo en el ascensor de un edificio CHIVILCOY.– Se reportó humo proveniente de un ascensor en un edificio ubicado en avenida De Tomaso 99, frente a la estación de servicio Shell. En el lugar intervino una dotación de bomberos.",
+   "generado": "2026-11-26T21:36:25.394Z",
+   "id": "web:6d05ce9c-c561-4117-8261-a57d0b738f32",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_446f2785a49d43bcbf133fb6082103d6~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Bomberos acudieron por humo en el ascensor de un edificio",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el",
+   "volanta": "Chivilcoy · Bomberos"
+  },
   "web:6f1c27db-98fb-45a0-b31a-9079360edfc6": {
    "categoria": "",
    "descripcion": "Gandolfo y Labaronnie lideran el Rally de Ameghino tras la primera etapa Ramiro Gandolfo y Juan Labaronnie quedaron al frente del Gran Premio Rally de Ameghino después de completar la primera etapa, disputada este sábado 21 de noviembre. La jornada comprendió cinco pruebas especiales y 71,24 kilómetros cronometrados. Los líderes aventajaron por seis segundos a Sebastián Monserrat y Claudio Muciachio, mientras que Horacio y Belén Heiland finalizaron terceros en la general, a 22,1 segundos....",
@@ -7412,6 +7452,62 @@
    "vence": "2026-11-26T01:38:33.000Z",
    "video_bytes": 967469,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_41d054260cacdb36.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok": {
+   "actualizado": "2026-11-26T21:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok",
+   "creado": "2026-11-26T21:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-26T21:37:48.000Z",
+   "id": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Bomberos acudieron por humo en el ascensor de un edificio\n\nUna dotación de bomberos voluntarios acudió a un edificio ubicado en avenida De Tomaso 99 tras un alerta por la presencia de humo en las instalaciones. El personal intervino luego de reportarse que la humareda provenía de uno de los ascensores del inmueble.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bomberos acudieron por humo en el ascensor de un edificio",
+   "urgente": false,
+   "vence": "2026-11-28T21:37:48.000Z",
+   "video_bytes": 5323475,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b21130f328075838.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwy2j2otveye_01.mp4|x": {
+   "actualizado": "2026-11-26T21:40:21.000Z",
+   "buffer_id": "6b08a7459bf88745f600e673",
+   "clave": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4|x",
+   "creado": "2026-11-26T21:40:15.000Z",
+   "dueAt": "2026-11-26T21:42:13.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-26T21:37:48.000Z",
+   "id": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el",
+   "noticia": "nota:chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Bomberos acudieron por humo en el ascensor de un edificio\n\nUna dotación intervino en un inmueble de avenida De Tomaso 99 tras un alerta por la presencia de humo en las instalaciones. El personal constató lo sucedido en la estructura.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bomberos acudieron por humo en el ascensor de un edificio",
+   "urgente": false,
+   "vence": "2026-11-26T23:37:48.000Z",
+   "video_bytes": 5323475,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b21130f328075838.mp4",
    "viral": false
   },
   "entrevistas:job00316|tiktok": {
@@ -15140,6 +15236,31 @@
    "video_url": "",
    "viral": false
   },
+  "web:6d05ce9c-c561-4117-8261-a57d0b738f32|x": {
+   "actualizado": "2026-11-26T21:40:15.000Z",
+   "buffer_id": "",
+   "clave": "web:6d05ce9c-c561-4117-8261-a57d0b738f32|x",
+   "creado": "2026-11-26T21:40:15.000Z",
+   "dueAt": "",
+   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "estado": "descartado",
+   "generado": "2026-11-26T21:36:25.394Z",
+   "id": "web:6d05ce9c-c561-4117-8261-a57d0b738f32",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el",
+   "noticia": "nota:chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Bomberos acudieron por humo en el ascensor de un edificio",
+   "urgente": false,
+   "vence": "2026-11-27T01:36:25.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:6f1c27db-98fb-45a0-b31a-9079360edfc6|x": {
    "actualizado": "2026-11-21T23:00:22.000Z",
    "buffer_id": "",
@@ -18305,37 +18426,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:43a80259-224c-4361-b631-3814b78880dc|x",
-   "cuando": "2026-11-20T09:04:51.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:f78304d9-a338-4cad-a91c-4dbb95f32587|x",
-   "cuando": "2026-11-20T09:04:53.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:eb8b75f6-688a-44fd-b4de-4b9bb4386276|x",
-   "cuando": "2026-11-20T09:04:55.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6b000d37d5f8acdd0d871667",
-   "clave": "web:eb8b75f6-688a-44fd-b4de-4b9bb4386276|x",
-   "cuando": "2026-11-20T09:04:57.000Z",
-   "dueAt": "2026-11-20T09:08:45.000Z",
-   "evento": "programado"
-  },
   {
    "buffer_id": "6b000d37ca85ebefb00e3a1a",
    "clave": "web:f78304d9-a338-4cad-a91c-4dbb95f32587|x",
@@ -22452,6 +22542,37 @@
    "cuando": "2026-11-26T21:00:27.000Z",
    "dueAt": "2026-11-26T22:03:25.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4|x",
+   "cuando": "2026-11-26T21:40:18.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok",
+   "cuando": "2026-11-26T21:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:6d05ce9c-c561-4117-8261-a57d0b738f32|x",
+   "cuando": "2026-11-26T21:40:21.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
+   "origen": "web"
+  },
+  {
+   "buffer_id": "6b08a7459bf88745f600e673",
+   "clave": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4|x",
+   "cuando": "2026-11-26T21:40:21.000Z",
+   "dueAt": "2026-11-26T21:42:13.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22583,6 +22704,7 @@
   "bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4": "2026-11-25T02:40:13.000Z",
   "bot:video_matias-zucchi_mwwi0l704484_01.mp4": "2026-11-25T19:40:15.000Z",
   "bot:video_matias-zucchi_mwwremu73j5t_01.mp4": "2026-11-25T23:40:16.000Z",
+  "bot:video_matias-zucchi_mwy2j2otveye_01.mp4": "2026-11-26T21:40:15.000Z",
   "entrevistas:job00255": "2026-10-28T16:40:16.000Z",
   "entrevistas:job00256": "2026-10-28T17:00:32.000Z",
   "entrevistas:job00257": "2026-10-28T17:40:18.000Z",
@@ -23052,6 +23174,7 @@
   "web:6c0a8ea0-4fe2-4867-afec-9de1d0d9c1ed": "2026-11-05T16:20:20.000Z",
   "web:6c2549f5-4da4-476d-9999-68ca2d91f5cf": "2026-11-07T23:40:13.000Z",
   "web:6c408fc2-8757-49c7-81fb-32d1d39afb67": "2026-11-10T13:20:13.000Z",
+  "web:6d05ce9c-c561-4117-8261-a57d0b738f32": "2026-11-26T21:40:15.000Z",
   "web:6d89df05-3cd7-473e-86f0-a26bb0b4a677": "2026-10-30T15:00:19.000Z",
   "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb": "2026-11-09T10:02:37.000Z",
   "web:6f1c27db-98fb-45a0-b31a-9079360edfc6": "2026-11-21T23:00:20.000Z",
