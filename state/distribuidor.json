@@ -2906,25 +2906,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-conmemoro-el-dia-de-la-eliminacion-de-la",
    "volanta": "Chivilcoy · Sociedad"
   },
-  "web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5": {
-   "categoria": "",
-   "descripcion": "De La Pérgula: “En este tiempo hay dos o tres cosas que nos unen como pueblo: una es la Selección Argentina con el fútbol, otra es la Virgen de Luján, y…",
-   "generado": "2026-11-16T10:02:10.391Z",
-   "id": "web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_1404798ecfe94790938a067a6a69f660~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/visita-de-leon-xiv-y-ordenacion-sacerdotal-de-la-pergula-en-este",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Visita de León XIV y Ordenación Sacerdotal",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/visita-de-leon-xiv-y-ordenacion-sacerdotal-de-la-pergula-en-este",
-   "volanta": ""
-  },
   "web:0f583263-cff5-49e8-af45-ef80b5826e6c": {
    "categoria": "",
    "descripcion": "Chivilcoy: Dos realidades en el Hospital Municipal: el alta domiciliaria de Theo y la crítica internación de Tomás Destaville CHIVILCOY.– Mientras el joven de 19 años accidentado en la UNLu continúa su recuperación en su casa, un inspector de Migraciones de 36 años permanece sedado en Terapia Intensiva tras una agresión en la Plaza Principal. Dos vecinos con cuadros de traumatismo de cráneo protagonizan hoy panoramas opuestos en el seguimiento médico local: por un lado, Theo Posse Molina, de...",
@@ -12440,34 +12421,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5|x": {
-   "actualizado": "2026-11-16T11:00:32.000Z",
-   "buffer_id": "6afadd8e0c2af02527d4d6ce",
-   "clave": "web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5|x",
-   "creado": "2026-11-16T10:03:28.000Z",
-   "dueAt": "2026-11-16T12:08:33.000Z",
-   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
-   "espera": "",
-   "estado": "descartado",
-   "generado": "2026-11-16T10:02:10.391Z",
-   "id": "web:0e89caf9-daa5-4ac1-af88-e99fc8f4e6b5",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/visita-de-leon-xiv-y-ordenacion-sacerdotal-de-la-pergula-en-este",
-   "noticia": "nota:visita-de-leon-xiv-y-ordenacion-sacerdotal-de-la-pergula-en-este",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Visita de León XIV y Ordenación Sacerdotal\n\nDe La Pérgula afirmó que hoy unen al pueblo argentino la Selección de fútbol y la Virgen de Luján.\n\nhttps://www.diariolacampaña.com.ar/n/visita-de-leon-xiv-y-ordenacion-sacerdotal-de-la-pergula-en-este",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Visita de León XIV y Ordenación Sacerdotal",
-   "urgente": false,
-   "vence": "2026-11-16T14:02:10.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:0f583263-cff5-49e8-af45-ef80b5826e6c|x": {
    "actualizado": "2026-11-25T10:00:27.000Z",
    "buffer_id": "6b06a4d522dfb7833a975e5d",
@@ -18453,14 +18406,14 @@
    "viral": false
   },
   "web:fd5e3906-9aff-490a-890a-bfeb9d0339fe|x": {
-   "actualizado": "2026-11-26T09:06:23.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T11:20:15.000Z",
+   "buffer_id": "6b0815efbb834d5e8e9e9241",
    "clave": "web:fd5e3906-9aff-490a-890a-bfeb9d0339fe|x",
    "creado": "2026-11-26T09:06:23.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T12:41:30.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-26T09:04:22.476Z",
    "id": "web:fd5e3906-9aff-490a-890a-bfeb9d0339fe",
    "ig_hora": "2026-11-26T12:41:11.000Z",
@@ -18483,14 +18436,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00330|tiktok",
-   "cuando": "2026-11-19T18:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00329|x",
    "cuando": "2026-11-19T18:20:21.000Z",
@@ -22647,6 +22592,13 @@
    "clave": "web:0231552d-c918-4a4d-bf98-84c65feb7c8e|x",
    "cuando": "2026-11-26T11:00:22.000Z",
    "dueAt": "2026-11-26T12:11:49.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b0815efbb834d5e8e9e9241",
+   "clave": "web:fd5e3906-9aff-490a-890a-bfeb9d0339fe|x",
+   "cuando": "2026-11-26T11:20:16.000Z",
+   "dueAt": "2026-11-26T12:41:30.000Z",
    "evento": "programado"
   }
  ],

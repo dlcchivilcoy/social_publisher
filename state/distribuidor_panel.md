@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 08:00 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 08:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 26/11/2026 08:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 2 | 6 | 1 | 0 | 0 | 5 |
+| Notas web | X | 15 | 2 | 7 | 0 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,14 +27,12 @@ Actualizado: 26/11/2026 08:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- X · Notas web · Chivilcoy: Mariana Fancio e Ignacio Alzueta: El Club La Pampa ultima detalles pa — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T09:06 recibido web:f29282a3-153c-48df-bcfd-f74e206f03a3|x 
 - 2026-11-26T09:06 recibido web:2ecb73c4-da12-40da-975d-8e154064d700|x 
 - 2026-11-26T09:06 recibido web:f43c1af9-49ed-4cde-ae35-d9f81087c717|x 
 - 2026-11-26T09:06 recibido web:90eb41ef-51b3-4a4f-bd23-6c5f4ce3b180|x 
@@ -59,3 +57,4 @@ Actualizado: 26/11/2026 08:00 (hora AR) · ACTIVO
 - 2026-11-26T10:40 enviado web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44|x 
 - 2026-11-26T10:40 programado web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x 
 - 2026-11-26T11:00 programado web:0231552d-c918-4a4d-bf98-84c65feb7c8e|x 
+- 2026-11-26T11:20 programado web:fd5e3906-9aff-490a-890a-bfeb9d0339fe|x 
