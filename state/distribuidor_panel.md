@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 15:20 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 15:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 1 |
+| Recortes de entrevistas | X | 8 | 2 | 0 | 0 | 0 | 0 | 1 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -13,7 +13,7 @@ Actualizado: 26/11/2026 15:20 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 18 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 17 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
@@ -35,7 +35,6 @@ Actualizado: 26/11/2026 15:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T12:20 depurado web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-26T12:20 depurado web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-26T12:20 programado web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2|x 
 - 2026-11-26T12:40 depurado web:c9cf8f55-d133-43d5-9b4b-654e0625b95b|x no está en el carrusel del diario de hoy (sacado de Buffer)
@@ -60,3 +59,4 @@ Actualizado: 26/11/2026 15:20 (hora AR) · ACTIVO
 - 2026-11-26T18:20 recibido entrevistas:job00355|x 
 - 2026-11-26T18:20 recibido entrevistas:job00355|tiktok 
 - 2026-11-26T18:20 programado entrevistas:job00355|x 
+- 2026-11-26T18:40 enviado entrevistas:job00355|x 
