@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 09:40 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 10:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,20 +9,20 @@ Actualizado: 26/11/2026 09:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 5 | 0 | 0 | 0 | 8 |
+| Notas web | X | 15 | 9 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 19 enviadas + 1 programadas de 100 por día
+- X: conectado · Buffer: 18 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 83 · likes 0
-- X · Reels del bot: 11 con métricas · mediana vistas/impresiones 72 · likes 0
+- X · Recortes de entrevistas: 37 con métricas · mediana vistas/impresiones 78 · likes 0
+- X · Reels del bot: 13 con métricas · mediana vistas/impresiones 71 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
-- X · Notas web: 98 con métricas · mediana vistas/impresiones 22 · likes 0
-- TikTok · Recortes de entrevistas: 32 con métricas · mediana vistas/impresiones 147.5 · likes 1
-- TikTok · Reels del bot: 11 con métricas · mediana vistas/impresiones 225 · likes 4
+- X · Notas web: 109 con métricas · mediana vistas/impresiones 23 · likes 0
+- TikTok · Recortes de entrevistas: 38 con métricas · mediana vistas/impresiones 147.5 · likes 1
+- TikTok · Reels del bot: 15 con métricas · mediana vistas/impresiones 147 · likes 2
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
@@ -33,11 +33,6 @@ Actualizado: 26/11/2026 09:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T10:00 depurado web:90eb41ef-51b3-4a4f-bd23-6c5f4ce3b180|x no está en el carrusel del diario de hoy
-- 2026-11-26T10:00 depurado web:d0e0dea1-4602-4eb9-a993-c82091d1e1b6|x no está en el carrusel del diario de hoy
-- 2026-11-26T10:00 depurado web:f43c1af9-49ed-4cde-ae35-d9f81087c717|x no está en el carrusel del diario de hoy
-- 2026-11-26T10:00 depurado web:98b0f753-ec92-48e9-b7b8-d415a4b356db|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-26T10:00 depurado web:a422d85e-f533-4299-ac23-3caa379ec2ad|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-26T10:00 programado web:229196b7-11f9-40f8-985a-00bedd97d6c6|x 
 - 2026-11-26T10:20 programado web:19a4e6dc-921a-46cf-ace1-21162f872a9b|x 
 - 2026-11-26T10:40 enviado web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44|x 
@@ -58,3 +53,8 @@ Actualizado: 26/11/2026 09:40 (hora AR) · ACTIVO
 - 2026-11-26T12:20 depurado web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-26T12:20 programado web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2|x 
 - 2026-11-26T12:40 depurado web:c9cf8f55-d133-43d5-9b4b-654e0625b95b|x no está en el carrusel del diario de hoy (sacado de Buffer)
+- 2026-11-26T13:00 depurado web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2|x no está en el carrusel del diario de hoy (sacado de Buffer)
+- 2026-11-26T13:00 enviado web:0231552d-c918-4a4d-bf98-84c65feb7c8e|x 
+- 2026-11-26T13:00 enviado web:19a4e6dc-921a-46cf-ace1-21162f872a9b|x 
+- 2026-11-26T13:00 enviado web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x 
+- 2026-11-26T13:00 enviado web:fd5e3906-9aff-490a-890a-bfeb9d0339fe|x 
