@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@ Actualizado: 26/11/2026 13:40 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 37 con métricas · mediana vistas/impresiones 78 · likes 0
+- X · Recortes de entrevistas: 36 con métricas · mediana vistas/impresiones 80 · likes 0
 - X · Reels del bot: 13 con métricas · mediana vistas/impresiones 71 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
 - X · Notas web: 105 con métricas · mediana vistas/impresiones 23 · likes 0
@@ -27,16 +27,13 @@ Actualizado: 26/11/2026 13:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Recortes de entrevistas · Esteban Fitzsimons: el origen de la yerba "uruguaya" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T11:00 programado web:0231552d-c918-4a4d-bf98-84c65feb7c8e|x 
-- 2026-11-26T11:20 programado web:fd5e3906-9aff-490a-890a-bfeb9d0339fe|x 
-- 2026-11-26T11:40 recibido web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x 
-- 2026-11-26T11:40 recibido web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x 
 - 2026-11-26T11:40 enviado web:229196b7-11f9-40f8-985a-00bedd97d6c6|x 
 - 2026-11-26T11:40 enviado web:2ecb73c4-da12-40da-975d-8e154064d700|x 
 - 2026-11-26T11:40 enviado web:f29282a3-153c-48df-bcfd-f74e206f03a3|x 
@@ -58,3 +55,7 @@ Actualizado: 26/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-26T15:40 depurado web:9e24f711-f945-4e5b-82f6-f435d45a615f|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-26T16:00 recibido web:29486b4a-cb57-4e22-902c-589d7ff385b1|x 
 - 2026-11-26T16:00 depurado web:29486b4a-cb57-4e22-902c-589d7ff385b1|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-26T17:00 entrevista_aprobada entrevistas:job00353 
+- 2026-11-26T17:00 recibido entrevistas:job00353|x 
+- 2026-11-26T17:00 recibido entrevistas:job00353|tiktok 
+- 2026-11-26T17:00 programado entrevistas:job00353|x 

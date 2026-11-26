@@ -1146,6 +1146,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00352.mp4",
    "youtube_url": "https://youtu.be/c_Jma3dTl5k"
   },
+  "entrevistas:job00353": {
+   "descripcion": "Esteban Fitzsimons, responsable comercial de Ril Store en Chivilcoy, reveló el verdadero origen de marcas reconocidas de yerba como Canarias y Baldo. Explicó por qué se las asocia con Uruguay a pesar de producirse en Brasil.",
+   "duracion_seg": null,
+   "entrevistado": "Esteban Fitzsimons",
+   "generado": "2026-11-26T17:00:19.000Z",
+   "id": "entrevistas:job00353",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Esteban Fitzsimons: el origen de la yerba \"uruguaya\"",
+   "urgente": false,
+   "video_bytes": 29624687,
+   "video_mb": 28.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00353.mp4",
+   "youtube_url": "https://youtu.be/i8Mnq75usIg"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -7406,43 +7427,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00316.mp4",
    "viral": false
   },
-  "entrevistas:job00316|x": {
-   "actualizado": "2026-11-16T17:00:19.000Z",
-   "buffer_id": "6afb31ffa75f2e0e28060e22",
-   "clave": "entrevistas:job00316|x",
-   "creado": "2026-11-16T16:40:29.000Z",
-   "dueAt": "2026-11-16T16:42:44.000Z",
-   "enviado": "2026-11-16T16:43:01.679Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-16T16:40:29.000Z",
-   "id": "entrevistas:job00316",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122369861867217098",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 50,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:advierte-dellepiane-freno-luciano-obra-publica",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Luciano Dellepiane advierte sobre el freno a la obra pública\n\nEn Chivilcoy, el dirigente del MDF Luciano Dellepiane cuestionó la falta de mantenimiento estatal y advirtió sobre los riesgos viales del parate de la obra pública.\n\nhttps://youtu.be/xAWOY-czX-k",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Luciano Dellepiane advierte sobre el freno a la obra pública",
-   "urgente": false,
-   "vence": "2026-11-16T18:40:29.000Z",
-   "video_bytes": 23155078,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00316.mp4",
-   "viral": false
-  },
   "entrevistas:job00317|tiktok": {
    "actualizado": "2026-11-16T23:00:20.000Z",
    "buffer_id": "6afb6ef42b3e825373d58c47",
@@ -10241,6 +10225,62 @@
    "vence": "2026-11-25T23:00:19.000Z",
    "video_bytes": 23317991,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00352.mp4",
+   "viral": false
+  },
+  "entrevistas:job00353|tiktok": {
+   "actualizado": "2026-11-26T17:00:19.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00353|tiktok",
+   "creado": "2026-11-26T17:00:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-26T17:00:19.000Z",
+   "id": "entrevistas:job00353",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Esteban Fitzsimons: el origen de la yerba \"uruguaya\"\n\nEsteban Fitzsimons, responsable comercial de Ril Store en Chivilcoy, reveló el verdadero origen de marcas reconocidas de yerba como Canarias y Baldo. Explicó por qué se las asocia con Uruguay a pesar de producirse en Brasil.\n\nhttps://youtu.be/i8Mnq75usIg\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Esteban Fitzsimons: el origen de la yerba \"uruguaya\"",
+   "urgente": false,
+   "vence": "2026-11-28T17:00:19.000Z",
+   "video_bytes": 29624687,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00353.mp4",
+   "viral": false
+  },
+  "entrevistas:job00353|x": {
+   "actualizado": "2026-11-26T17:00:21.000Z",
+   "buffer_id": "6b0865a983496b7c1b383a0d",
+   "clave": "entrevistas:job00353|x",
+   "creado": "2026-11-26T17:00:19.000Z",
+   "dueAt": "2026-11-26T17:02:27.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-26T17:00:19.000Z",
+   "id": "entrevistas:job00353",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:esteban-fitzsimons-origen-uruguaya-yerba",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Esteban Fitzsimons: el origen de la yerba \"uruguaya\"\n\nEsteban Fitzsimons, de Ril Store, reveló el origen de yerbas como Canarias y Baldo. Explicó por qué se las asocia con Uruguay aunque se producen en Brasil.\n\nhttps://youtu.be/i8Mnq75usIg",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Esteban Fitzsimons: el origen de la yerba \"uruguaya\"",
+   "urgente": false,
+   "vence": "2026-11-26T19:00:19.000Z",
+   "video_bytes": 29624687,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00353.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
@@ -18154,35 +18194,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00330|tiktok",
-   "cuando": "2026-11-19T22:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7709996428575116565"
-  },
-  {
-   "clave": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x",
-   "cuando": "2026-11-20T02:20:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.lamanana.com.ar/perdidas-totales-tras-el-incendio-de-una-vivienda/|x",
-   "cuando": "2026-11-20T02:20:37.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6affae75d5f8acdd0d6405b8",
-   "clave": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x",
-   "cuando": "2026-11-20T02:20:37.000Z",
-   "dueAt": "2026-11-20T02:23:36.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/|x",
    "cuando": "2026-11-20T02:40:23.000Z",
    "estado": "pendiente",
@@ -22316,6 +22327,34 @@
    "cuando": "2026-11-26T16:00:32.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00353",
+   "cuando": "2026-11-26T17:00:19.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00353|x",
+   "cuando": "2026-11-26T17:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00353|tiktok",
+   "cuando": "2026-11-26T17:00:21.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b0865a983496b7c1b383a0d",
+   "clave": "entrevistas:job00353|x",
+   "cuando": "2026-11-26T17:00:26.000Z",
+   "dueAt": "2026-11-26T17:02:27.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22552,6 +22591,7 @@
   "entrevistas:job00350": "2026-11-25T19:40:15.000Z",
   "entrevistas:job00351": "2026-11-25T20:20:15.000Z",
   "entrevistas:job00352": "2026-11-25T21:00:19.000Z",
+  "entrevistas:job00353": "2026-11-26T17:00:19.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
