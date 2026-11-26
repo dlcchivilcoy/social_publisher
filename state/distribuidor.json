@@ -7197,15 +7197,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwwremu73j5t_01.mp4|tiktok": {
-   "actualizado": "2026-11-25T23:40:16.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T00:00:21.000Z",
+   "buffer_id": "6b077696d4eda4b659bfb8a9",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4|tiktok",
    "creado": "2026-11-25T23:40:16.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T00:03:27.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-25T23:38:33.000Z",
    "id": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4",
    "intentos": 0,
@@ -17870,12 +17870,6 @@
  },
  "registro": [
   {
-   "clave": "web:b7f2a88a-c904-4dbd-acd5-c3ae4b30af0b|x",
-   "cuando": "2026-11-19T09:20:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123343086176567566"
-  },
-  {
    "buffer_id": "6afebf4dfc3e30ab95ba8b17",
    "clave": "web:69649be8-12b5-49fe-a08e-169906bb6799|x",
    "cuando": "2026-11-19T09:20:14.000Z",
@@ -22013,11 +22007,17 @@
    "cuando": "2026-11-25T23:40:20.000Z",
    "dueAt": "2026-11-25T23:42:45.000Z",
    "evento": "programado"
+  },
+  {
+   "buffer_id": "6b077696d4eda4b659bfb8a9",
+   "clave": "bot:video_matias-zucchi_mwwremu73j5t_01.mp4|tiktok",
+   "cuando": "2026-11-26T00:00:22.000Z",
+   "dueAt": "2026-11-26T00:03:27.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-15 21",
    "2026-11-16 10",
    "2026-11-16 18",
    "2026-11-16 21",
@@ -22046,10 +22046,11 @@
    "2026-11-24 18",
    "2026-11-24 21",
    "2026-11-25 10",
-   "2026-11-25 18"
+   "2026-11-25 18",
+   "2026-11-25 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-25",
+ "ultima_limpieza_release": "2026-11-26",
  "ultima_sync": "2026-11-25T23:40:19.000Z",
  "version": 1,
  "vistos": {
@@ -22060,7 +22061,6 @@
   "baja:chivilcoy-salud-chivilcoy-guillermo-britos-advirtio-que-el-sanatorio": "2026-11-21T12:00:17.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-26_matias-zucchi_mvpwvq7udt9p": "2026-10-27T00:00:21.000Z",
   "bot:corresponsal_2026-10-27_matias-zucchi_mvpy7dpnj3h6": "2026-10-27T00:40:14.000Z",
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqo5kpzvtbk": "2026-10-27T13:00:20.000Z",
   "bot:corresponsal_2026-10-27_matias-zucchi_mvqvsjcnv1j1": "2026-10-27T16:20:15.000Z",
@@ -22509,7 +22509,6 @@
   "web:34f6c2bc-72ff-4d48-84bc-64729fa9b00c": "2026-10-29T01:00:22.000Z",
   "web:35d673f5-f628-46c7-b2f5-72c08d5ec55b": "2026-11-17T10:03:18.000Z",
   "web:36063451-bcf8-479d-8bfe-ebe6376e7dcf": "2026-11-21T12:00:17.000Z",
-  "web:36e83a1d-e03b-401c-8c1b-edd4182a003f": "2026-10-27T00:00:21.000Z",
   "web:370421fa-a7e4-4b47-b517-6386c3f56b35": "2026-11-24T09:20:14.000Z",
   "web:37a8cc6e-d0f6-44df-bd80-5ee911112801": "2026-10-30T00:00:18.000Z",
   "web:38185935-c480-4780-9b62-2a630fd62c5f": "2026-11-12T10:02:44.000Z",

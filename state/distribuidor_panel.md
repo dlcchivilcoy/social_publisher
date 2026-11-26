@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 25/11/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-25)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,7 +7,7 @@ Actualizado: 25/11/2026 20:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 3 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 3 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 9 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,14 +27,12 @@ Actualizado: 25/11/2026 20:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- TikTok · Reels del bot · Chocaron una camioneta y una moto en Urquiza y Rivadavia — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T21:00 enviado bot:video_matias-zucchi_mwwi0l704484_01.mp4|x 
 - 2026-11-25T21:00 enviado entrevistas:job00350|x 
 - 2026-11-25T21:00 enviado entrevistas:job00351|x 
 - 2026-11-25T21:00 programado entrevistas:job00352|x 
@@ -59,3 +57,4 @@ Actualizado: 25/11/2026 20:40 (hora AR) · ACTIVO
 - 2026-11-25T23:40 enviado entrevistas:job00348|tiktok 
 - 2026-11-25T23:40 enviado entrevistas:job00349|tiktok 
 - 2026-11-25T23:40 programado bot:video_matias-zucchi_mwwremu73j5t_01.mp4|x 
+- 2026-11-26T00:00 programado bot:video_matias-zucchi_mwwremu73j5t_01.mp4|tiktok 
