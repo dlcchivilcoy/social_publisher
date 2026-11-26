@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 08:20 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 08:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 26/11/2026 08:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 2 | 7 | 0 | 0 | 0 | 5 |
+| Notas web | X | 15 | 5 | 5 | 1 | 0 | 0 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,25 +20,20 @@ Actualizado: 26/11/2026 08:20 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 83 · likes 0
 - X · Reels del bot: 11 con métricas · mediana vistas/impresiones 72 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
-- X · Notas web: 106 con métricas · mediana vistas/impresiones 21.5 · likes 0
+- X · Notas web: 103 con métricas · mediana vistas/impresiones 22 · likes 0
 - TikTok · Recortes de entrevistas: 32 con métricas · mediana vistas/impresiones 147.5 · likes 1
 - TikTok · Reels del bot: 11 con métricas · mediana vistas/impresiones 225 · likes 4
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Notas web · Alberti licita una planta potabilizadora y Chivilcoy mantiene el reclamo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T09:06 recibido web:2ecb73c4-da12-40da-975d-8e154064d700|x 
-- 2026-11-26T09:06 recibido web:f43c1af9-49ed-4cde-ae35-d9f81087c717|x 
-- 2026-11-26T09:06 recibido web:90eb41ef-51b3-4a4f-bd23-6c5f4ce3b180|x 
-- 2026-11-26T09:07 recibido web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44|x 
-- 2026-11-26T09:07 recibido web:98b0f753-ec92-48e9-b7b8-d415a4b356db|x 
-- 2026-11-26T09:07 recibido web:c53a271f-c74d-4ba8-8781-ca59fb8f9e78|x 
 - 2026-11-26T09:07 recibido web:a422d85e-f533-4299-ac23-3caa379ec2ad|x 
 - 2026-11-26T09:07 programado web:c53a271f-c74d-4ba8-8781-ca59fb8f9e78|x 
 - 2026-11-26T09:07 programado web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44|x 
@@ -58,3 +53,9 @@ Actualizado: 26/11/2026 08:20 (hora AR) · ACTIVO
 - 2026-11-26T10:40 programado web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x 
 - 2026-11-26T11:00 programado web:0231552d-c918-4a4d-bf98-84c65feb7c8e|x 
 - 2026-11-26T11:20 programado web:fd5e3906-9aff-490a-890a-bfeb9d0339fe|x 
+- 2026-11-26T11:40 recibido web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x 
+- 2026-11-26T11:40 recibido web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x 
+- 2026-11-26T11:40 enviado web:229196b7-11f9-40f8-985a-00bedd97d6c6|x 
+- 2026-11-26T11:40 enviado web:2ecb73c4-da12-40da-975d-8e154064d700|x 
+- 2026-11-26T11:40 enviado web:f29282a3-153c-48df-bcfd-f74e206f03a3|x 
+- 2026-11-26T11:40 programado web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x 
