@@ -13320,14 +13320,14 @@
    "viral": false
   },
   "web:2ecb73c4-da12-40da-975d-8e154064d700|x": {
-   "actualizado": "2026-11-26T09:06:23.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T09:20:16.000Z",
+   "buffer_id": "6b07f9d0d96a331f4a786b8f",
    "clave": "web:2ecb73c4-da12-40da-975d-8e154064d700|x",
    "creado": "2026-11-26T09:06:23.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T10:41:02.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-26T09:03:39.568Z",
    "id": "web:2ecb73c4-da12-40da-975d-8e154064d700",
    "ig_hora": "2026-11-26T10:41:11.000Z",
@@ -18541,14 +18541,6 @@
   {
    "clave": "web:c215b26a-1860-4016-8c29-ff480e2f8fcc|x",
    "cuando": "2026-11-19T16:20:16.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:c215b26a-1860-4016-8c29-ff480e2f8fcc|x",
-   "cuando": "2026-11-19T16:20:16.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
   },
@@ -22707,6 +22699,13 @@
    "clave": "web:98b0f753-ec92-48e9-b7b8-d415a4b356db|x",
    "cuando": "2026-11-26T09:07:25.000Z",
    "dueAt": "2026-11-26T10:26:11.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b07f9d0d96a331f4a786b8f",
+   "clave": "web:2ecb73c4-da12-40da-975d-8e154064d700|x",
+   "cuando": "2026-11-26T09:20:17.000Z",
+   "dueAt": "2026-11-26T10:41:02.000Z",
    "evento": "programado"
   }
  ],

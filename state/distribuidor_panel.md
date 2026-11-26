@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 06:07 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 06:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 26/11/2026 06:07 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 0 | 4 | 10 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 5 | 9 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,7 +27,7 @@ Actualizado: 26/11/2026 06:07 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (9 esperando)
 - X · Notas web · Chivilcoy: Mariana Fancio e Ignacio Alzueta: El Club La Pampa ultima detalles pa — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Tomás y Germán Vega tras su destacada actuación internacional en Sant — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Arrancó la Supercopa “Agustín Latanci”: emoción, homenaje y cuatro se — espera su momento (se programa cerca de la hora en que sale en las otras redes)
@@ -35,7 +35,6 @@ Actualizado: 26/11/2026 06:07 (hora AR) · ACTIVO
 - X · Notas web · Chivilcoy: Formativo Femenino - Torneo Clausura (AJB): Argentino llega encendido — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Final repetida: Colón no dejó dudas ante Bragado Club y nuevamente definirá el t — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Alicia Marino presentó su novela “Romance sin fronteras” en el Museo  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: ‘MystigressJane: Los secretos entre las sombras’, la joven autora Joh — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · El Concejo Deliberante de Chivilcoy sesionará este jueves con proyectos sobre UP — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy conmemoró el Día Internacional de la Eliminación de la Violencia contr — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
@@ -43,7 +42,6 @@ Actualizado: 26/11/2026 06:07 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T02:40 recibido web:a47c8a2a-b376-4038-9b42-02e8ecd93f81|x 
 - 2026-11-26T02:40 recibido web:c7200b69-c4a4-4390-8574-2b79c3aead55|x 
 - 2026-11-26T02:40 depurado web:a47c8a2a-b376-4038-9b42-02e8ecd93f81|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-26T02:40 depurado web:c7200b69-c4a4-4390-8574-2b79c3aead55|x de la web, a X solo van las notas del diario de la mañana
@@ -68,3 +66,4 @@ Actualizado: 26/11/2026 06:07 (hora AR) · ACTIVO
 - 2026-11-26T09:07 programado web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44|x 
 - 2026-11-26T09:07 programado web:a422d85e-f533-4299-ac23-3caa379ec2ad|x 
 - 2026-11-26T09:07 programado web:98b0f753-ec92-48e9-b7b8-d415a4b356db|x 
+- 2026-11-26T09:20 programado web:2ecb73c4-da12-40da-975d-8e154064d700|x 
