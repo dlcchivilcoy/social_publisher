@@ -1167,6 +1167,25 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00353.mp4",
    "youtube_url": "https://youtu.be/i8Mnq75usIg"
   },
+  "entrevistas:job00354": {
+   "descripcion": "Federico Fage, integrante de 'Kilómetros que ayudan', detalló en Chivilcoy la campaña solidaria para poner en funcionamiento la pileta adaptada del predio de ATIADIM.",
+   "duracion_seg": null,
+   "entrevistado": "Federico Fage",
+   "generado": "2026-11-26T17:40:13.000Z",
+   "id": "entrevistas:job00354",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Federico Fage: reactivar la pileta de ATIADIM en Chivilcoy",
+   "urgente": false,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00354.mp4",
+   "youtube_url": "https://youtu.be/I2rBLc7_e4M"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -10284,6 +10303,56 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00353.mp4",
    "viral": false
   },
+  "entrevistas:job00354|tiktok": {
+   "actualizado": "2026-11-26T17:40:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00354|tiktok",
+   "creado": "2026-11-26T17:40:13.000Z",
+   "dueAt": "",
+   "error": "el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)",
+   "estado": "descartado",
+   "generado": "2026-11-26T17:40:13.000Z",
+   "id": "entrevistas:job00354",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Federico Fage: reactivar la pileta de ATIADIM en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-28T17:40:13.000Z",
+   "video_bytes": 0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00354.mp4",
+   "viral": false
+  },
+  "entrevistas:job00354|x": {
+   "actualizado": "2026-11-26T17:40:13.000Z",
+   "buffer_id": "",
+   "clave": "entrevistas:job00354|x",
+   "creado": "2026-11-26T17:40:13.000Z",
+   "dueAt": "",
+   "error": "el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)",
+   "estado": "descartado",
+   "generado": "2026-11-26T17:40:13.000Z",
+   "id": "entrevistas:job00354",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:atiadim-chivilcoy-fage-federico-pileta-reactivar",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Federico Fage: reactivar la pileta de ATIADIM en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-26T19:40:13.000Z",
+   "video_bytes": 0,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00354.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
    "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
@@ -18195,28 +18264,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://cuartopoderbragado.com.ar/piden-libertad-o-condicional-para-el-preso-que-ayudo-a-esclarecer-el-homicidio-de-mechita-denuncian-amenazas-de-muerte|x",
-   "cuando": "2026-11-20T02:40:23.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123603182316052563"
-  },
-  {
-   "clave": "policiales:https://noticiasmercedes.com/policia-de-mercedes-condenado-por-abusos-sexuales-en-su-casa-cobrando-2-364-000/|x",
-   "cuando": "2026-11-20T09:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-19-10-15-0-junin-dos-hombres-aprehendidos-tras-esclarecer-un-robo-a-un-comercio|x",
-   "cuando": "2026-11-20T09:00:28.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/policiales-de-chacabuco-esclarecieron.html|x",
    "cuando": "2026-11-20T09:00:29.000Z",
    "estado": "pendiente",
@@ -22354,6 +22401,27 @@
    "cuando": "2026-11-26T17:20:14.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2126000641097019395"
+  },
+  {
+   "clave": "entrevistas:job00354",
+   "cuando": "2026-11-26T17:40:13.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00354|x",
+   "cuando": "2026-11-26T17:40:43.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00354|tiktok",
+   "cuando": "2026-11-26T17:40:43.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)",
+   "origen": "entrevistas"
   }
  ],
  "tandas": {
@@ -22486,7 +22554,6 @@
   "bot:video_matias-zucchi_mwvhqnrgy18u_01.mp4": "2026-11-25T02:40:13.000Z",
   "bot:video_matias-zucchi_mwwi0l704484_01.mp4": "2026-11-25T19:40:15.000Z",
   "bot:video_matias-zucchi_mwwremu73j5t_01.mp4": "2026-11-25T23:40:16.000Z",
-  "entrevistas:job00252": "2026-10-27T17:20:17.000Z",
   "entrevistas:job00253": "2026-10-27T18:00:20.000Z",
   "entrevistas:job00254": "2026-10-27T18:20:15.000Z",
   "entrevistas:job00255": "2026-10-28T16:40:16.000Z",
@@ -22591,6 +22658,7 @@
   "entrevistas:job00351": "2026-11-25T20:20:15.000Z",
   "entrevistas:job00352": "2026-11-25T21:00:19.000Z",
   "entrevistas:job00353": "2026-11-26T17:00:19.000Z",
+  "entrevistas:job00354": "2026-11-26T17:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",

@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 1 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -34,9 +34,6 @@ Actualizado: 26/11/2026 14:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T11:40 enviado web:2ecb73c4-da12-40da-975d-8e154064d700|x 
-- 2026-11-26T11:40 enviado web:f29282a3-153c-48df-bcfd-f74e206f03a3|x 
-- 2026-11-26T11:40 programado web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x 
 - 2026-11-26T12:00 recibido web:c9cf8f55-d133-43d5-9b4b-654e0625b95b|x 
 - 2026-11-26T12:00 programado web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x 
 - 2026-11-26T12:00 programado web:c9cf8f55-d133-43d5-9b4b-654e0625b95b|x 
@@ -59,3 +56,6 @@ Actualizado: 26/11/2026 14:20 (hora AR) · ACTIVO
 - 2026-11-26T17:00 recibido entrevistas:job00353|tiktok 
 - 2026-11-26T17:00 programado entrevistas:job00353|x 
 - 2026-11-26T17:20 enviado entrevistas:job00353|x 
+- 2026-11-26T17:40 entrevista_aprobada entrevistas:job00354 
+- 2026-11-26T17:40 recibido entrevistas:job00354|x el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)
+- 2026-11-26T17:40 recibido entrevistas:job00354|tiktok el video no se puede bajar: HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=30)
