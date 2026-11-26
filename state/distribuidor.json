@@ -10403,14 +10403,14 @@
    "viral": false
   },
   "policiales:https://junin24.com/locales/vuelco-en-ruta-188-involucro-a-operarios-que-regresaban-a-san-nicolas-tras-haber-terminado-de-trabajar-en-junin|x": {
-   "actualizado": "2026-11-26T02:20:23.000Z",
+   "actualizado": "2026-11-26T09:00:20.000Z",
    "buffer_id": "",
    "clave": "policiales:https://junin24.com/locales/vuelco-en-ruta-188-involucro-a-operarios-que-regresaban-a-san-nicolas-tras-haber-terminado-de-trabajar-en-junin|x",
    "creado": "2026-11-26T02:20:23.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-26T02:17:52.000Z",
    "id": "policiales:https://junin24.com/locales/vuelco-en-ruta-188-involucro-a-operarios-que-regresaban-a-san-nicolas-tras-haber-terminado-de-trabajar-en-junin",
    "intentos": 0,
@@ -10431,14 +10431,14 @@
    "viral": false
   },
   "policiales:https://junin24.com/policiales/operativos-en-junin-recuperaron-una-motocicleta-robada-en-el-barrio-foetra-y-una-bicicleta-sustraida-tras-un-allanamiento|x": {
-   "actualizado": "2026-11-26T02:20:23.000Z",
+   "actualizado": "2026-11-26T09:00:20.000Z",
    "buffer_id": "",
    "clave": "policiales:https://junin24.com/policiales/operativos-en-junin-recuperaron-una-motocicleta-robada-en-el-barrio-foetra-y-una-bicicleta-sustraida-tras-un-allanamiento|x",
    "creado": "2026-11-26T02:20:23.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-26T02:03:14.000Z",
    "id": "policiales:https://junin24.com/policiales/operativos-en-junin-recuperaron-una-motocicleta-robada-en-el-barrio-foetra-y-una-bicicleta-sustraida-tras-un-allanamiento",
    "intentos": 0,
@@ -11020,14 +11020,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html|x": {
-   "actualizado": "2026-11-26T02:40:14.000Z",
+   "actualizado": "2026-11-26T09:00:20.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html|x",
    "creado": "2026-11-26T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-26T02:33:17.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html",
    "intentos": 0,
@@ -17918,27 +17918,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6afed6c4ffd0192517ab1eb6",
-   "clave": "web:e3c0a836-b40d-420b-b76b-e8a9f383a162|x",
-   "cuando": "2026-11-19T11:00:23.000Z",
-   "dueAt": "2026-11-19T12:10:09.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afed6c6ffd0192517ab2257",
-   "clave": "web:0649b9df-9dcf-46f0-b904-cf607353f7e7|x",
-   "cuando": "2026-11-19T11:00:23.000Z",
-   "dueAt": "2026-11-19T12:25:28.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6afedb6da905c231b635677b",
-   "clave": "web:a84ee201-6571-4781-a9ba-cda913722cca|x",
-   "cuando": "2026-11-19T11:20:13.000Z",
-   "dueAt": "2026-11-19T12:40:46.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "web:44237ca1-fd70-452d-89bb-5cd456e50210|x",
    "cuando": "2026-11-19T11:40:15.000Z",
    "evento": "enviado",
@@ -22067,6 +22046,24 @@
    "cuando": "2026-11-26T02:40:25.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "policiales:https://junin24.com/locales/vuelco-en-ruta-188-involucro-a-operarios-que-regresaban-a-san-nicolas-tras-haber-terminado-de-trabajar-en-junin|x",
+   "cuando": "2026-11-26T09:00:20.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://junin24.com/policiales/operativos-en-junin-recuperaron-una-motocicleta-robada-en-el-barrio-foetra-y-una-bicicleta-sustraida-tras-un-allanamiento|x",
+   "cuando": "2026-11-26T09:00:20.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos-de-un-accidente-ocurrido-en.html|x",
+   "cuando": "2026-11-26T09:00:20.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
   }
  ],
  "tandas": {
@@ -22150,7 +22147,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:corresponsal_2026-11-21_matias-zucchi_mwqc3v64udx0": "2026-11-21T12:00:17.000Z",
-  "bot:video_matias-zucchi_mvq35au6tpbn_01.mp4": "2026-10-27T09:00:19.000Z",
   "bot:video_matias-zucchi_mvqrmh7lpiyr_01.mp4": "2026-10-27T14:20:14.000Z",
   "bot:video_matias-zucchi_mvs8nj5rbvyv_01.mp4": "2026-10-28T15:20:14.000Z",
   "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4": "2026-10-28T17:20:18.000Z",

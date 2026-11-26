@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 25/11/2026 23:40 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 06:00 (hora AR) · ACTIVO
 
-## Hoy (2026-11-25)
+## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 2 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 3 | 0 | 2 | 0 |
-| Notas web | X | 15 | 14 | 0 | 0 | 0 | 0 | 11 |
+| Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Notas web | X | 15 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,18 +27,12 @@ Actualizado: 25/11/2026 23:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
-- X · Reels policiales · Una mujer y un niño en moto cayeron tras rozar con un auto — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Volcó una camioneta en la Ruta 188 y dos operarios terminaron heridos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Reels policiales · Recuperan vehículos robados y arrestan a tres hombres en varios operativos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-25T21:00 programado entrevistas:job00347|tiktok 
-- 2026-11-25T22:20 enviado bot:video_matias-zucchi_mwwi0l704484_01.mp4|tiktok 
-- 2026-11-25T22:20 enviado entrevistas:job00350|tiktok 
 - 2026-11-25T22:20 enviado entrevistas:job00351|tiktok 
 - 2026-11-25T22:20 enviado entrevistas:job00352|tiktok 
 - 2026-11-25T22:20 enviado entrevistas:job00352|x 
@@ -61,3 +55,6 @@ Actualizado: 25/11/2026 23:40 (hora AR) · ACTIVO
 - 2026-11-26T02:40 recibido web:c7200b69-c4a4-4390-8574-2b79c3aead55|x 
 - 2026-11-26T02:40 depurado web:a47c8a2a-b376-4038-9b42-02e8ecd93f81|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-26T02:40 depurado web:c7200b69-c4a4-4390-8574-2b79c3aead55|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-26T09:00 vencido policiales:https://junin24.com/locales/vuelco-en-ruta-188-in espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-26T09:00 vencido policiales:https://junin24.com/policiales/operativos-en-juni espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- 2026-11-26T09:00 vencido policiales:https://www.chacabuquero.com.ar/2026/11/mas-datos espera su momento (se programa cerca de la hora en que sale en las otras redes)
