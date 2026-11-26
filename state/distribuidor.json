@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 10
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-26T01:00:19.000Z"
+   "visto": "2026-11-26T09:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 23
+    "scheduled": 3,
+    "sent": 19
    },
    "pausado": false,
-   "visto": "2026-11-26T01:00:19.000Z"
+   "visto": "2026-11-26T09:40:13.000Z"
   }
  },
  "contenidos": {
@@ -16826,19 +16826,20 @@
    "viral": false
   },
   "web:c53a271f-c74d-4ba8-8781-ca59fb8f9e78|x": {
-   "actualizado": "2026-11-26T09:07:22.000Z",
+   "actualizado": "2026-11-26T09:40:13.000Z",
    "buffer_id": "6b07f6cb63939e1d0089f693",
    "clave": "web:c53a271f-c74d-4ba8-8781-ca59fb8f9e78|x",
    "creado": "2026-11-26T09:06:23.000Z",
    "dueAt": "2026-11-26T09:26:58.000Z",
+   "enviado": "2026-11-26T09:27:03.374Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-26T09:03:02.259Z",
    "id": "web:c53a271f-c74d-4ba8-8781-ca59fb8f9e78",
    "ig_hora": "2026-11-26T09:26:11.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2125884023905898674",
    "nota_url": "https://www.diariolacampaña.com.ar/n/informe-meteorologico-marcelo-speranza-advirtio-sobre-tormentas",
    "noticia": "nota:informe-meteorologico-marcelo-speranza-advirtio-sobre-tormentas",
    "origen": "web",
@@ -18126,14 +18127,14 @@
    "viral": false
   },
   "web:f29282a3-153c-48df-bcfd-f74e206f03a3|x": {
-   "actualizado": "2026-11-26T09:06:23.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T09:40:14.000Z",
+   "buffer_id": "6b07fe7ebfa140308ddf7820",
    "clave": "web:f29282a3-153c-48df-bcfd-f74e206f03a3|x",
    "creado": "2026-11-26T09:06:23.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T10:56:12.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-26T09:03:49.205Z",
    "id": "web:f29282a3-153c-48df-bcfd-f74e206f03a3",
    "ig_hora": "2026-11-26T10:56:11.000Z",
@@ -18538,17 +18539,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:c215b26a-1860-4016-8c29-ff480e2f8fcc|x",
-   "cuando": "2026-11-19T16:20:16.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "entrevistas:job00328",
-   "cuando": "2026-11-19T17:00:18.000Z",
-   "evento": "entrevista_aprobada"
-  },
   {
    "clave": "entrevistas:job00328|x",
    "cuando": "2026-11-19T17:00:28.000Z",
@@ -22707,6 +22697,19 @@
    "cuando": "2026-11-26T09:20:17.000Z",
    "dueAt": "2026-11-26T10:41:02.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:c53a271f-c74d-4ba8-8781-ca59fb8f9e78|x",
+   "cuando": "2026-11-26T09:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2125884023905898674"
+  },
+  {
+   "buffer_id": "6b07fe7ebfa140308ddf7820",
+   "clave": "web:f29282a3-153c-48df-bcfd-f74e206f03a3|x",
+   "cuando": "2026-11-26T09:40:14.000Z",
+   "dueAt": "2026-11-26T10:56:12.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22744,7 +22747,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-26",
- "ultima_sync": "2026-11-26T01:00:19.000Z",
+ "ultima_sync": "2026-11-26T09:40:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
