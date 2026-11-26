@@ -3305,6 +3305,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ciclismo-de-montana-chivilcoy-oro-continental-marina-arce-se-consagro",
    "volanta": "Ciclismo de montaña"
   },
+  "web:29486b4a-cb57-4e22-902c-589d7ff385b1": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Advierten sobre menores al volante y maniobras peligrosas en moto CHIVILCOY.– Controles y operativos de tránsito: «La responsabilidad individual es clave para cuidar la vida» Los controles se realizan de manera conjunta entre las áreas municipales y las fuerzas policiales. Las autoridades señalaron que, de manera recurrente, las motos secuestradas son conducidas por menores de edad, que circulan con caños de escape libres y realizan maniobras peligrosas. La Secretaría de Seguridad...",
+   "generado": "2026-11-26T15:41:47.361Z",
+   "id": "web:29486b4a-cb57-4e22-902c-589d7ff385b1",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_be8572d511ca4505a1b98619ad134586~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-vial-chivilcoy-advierten-sobre-menores-al-volante",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Advierten sobre menores al volante y maniobras peligrosas en moto",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-seguridad-vial-chivilcoy-advierten-sobre-menores-al-volante",
+   "volanta": "Chivilcoy · Seguridad vial"
+  },
   "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79": {
    "categoria": "",
    "descripcion": "El fuego, el barro y lo común: Chivilcoy vive su tercer Encuentro de Cerámica CHIVILCOY.– Durante tres jornadas en La Ronda Centro Cultural, ceramistas, docentes, artistas y público general compartirán talleres, charlas, horneadas colectivas y música. El barro, el agua, el aire y el fuego vuelven a convocar a la comunidad en Chivilcoy. Del sábado al lunes, La Ronda Centro Cultural (Ayacucho 280) será escenario del 3er Encuentro de Cerámica, una propuesta que combina formación técnica,...",
@@ -13113,6 +13132,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:29486b4a-cb57-4e22-902c-589d7ff385b1|x": {
+   "actualizado": "2026-11-26T16:00:32.000Z",
+   "buffer_id": "",
+   "clave": "web:29486b4a-cb57-4e22-902c-589d7ff385b1|x",
+   "creado": "2026-11-26T16:00:22.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-26T15:41:47.361Z",
+   "id": "web:29486b4a-cb57-4e22-902c-589d7ff385b1",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-vial-chivilcoy-advierten-sobre-menores-al-volante",
+   "noticia": "nota:chivilcoy-seguridad-vial-chivilcoy-advierten-sobre-menores-al-volante",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Advierten sobre menores al volante y maniobras peligrosas en moto\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-seguridad-vial-chivilcoy-advierten-sobre-menores-al-volante",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Advierten sobre menores al volante y maniobras peligrosas en moto",
+   "urgente": false,
+   "vence": "2026-11-26T19:41:47.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x": {
    "actualizado": "2026-11-20T11:20:14.000Z",
    "buffer_id": "6b0010cdd5f8acdd0d8897cc",
@@ -18108,18 +18154,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00328|tiktok",
-   "cuando": "2026-11-19T22:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7710006703122861319"
-  },
-  {
-   "clave": "entrevistas:job00329|tiktok",
-   "cuando": "2026-11-19T22:20:24.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7710001571270003986"
-  },
-  {
    "clave": "entrevistas:job00330|tiktok",
    "cuando": "2026-11-19T22:20:24.000Z",
    "evento": "enviado",
@@ -22268,6 +22302,20 @@
    "cuando": "2026-11-26T15:40:21.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:29486b4a-cb57-4e22-902c-589d7ff385b1|x",
+   "cuando": "2026-11-26T16:00:32.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:29486b4a-cb57-4e22-902c-589d7ff385b1|x",
+   "cuando": "2026-11-26T16:00:32.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22733,6 +22781,7 @@
   "web:27dff6dd-cc71-429b-b4b6-cd136b76a346": "2026-10-28T01:00:19.000Z",
   "web:28e09b6c-a7a4-4bd9-b5b9-078f1303f3ab": "2026-11-17T10:03:18.000Z",
   "web:292c8e3c-5713-4e83-b415-a536e66b9e64": "2026-11-06T14:00:21.000Z",
+  "web:29486b4a-cb57-4e22-902c-589d7ff385b1": "2026-11-26T16:00:22.000Z",
   "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79": "2026-11-20T09:03:47.000Z",
   "web:2a3acecc-93f5-47dc-8a55-ab56cc4a7f0b": "2026-11-12T10:02:44.000Z",
   "web:2b45ee99-77fa-4008-8536-ab636885bf9e": "2026-11-22T16:00:16.000Z",

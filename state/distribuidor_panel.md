@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 12:40 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 13:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 26/11/2026 12:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 9 | 0 | 0 | 0 | 0 | 10 |
+| Notas web | X | 15 | 9 | 0 | 0 | 0 | 0 | 11 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 26/11/2026 12:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T10:40 enviado web:794daf57-3bf9-4a6f-b86f-2619bcbbdf44|x 
-- 2026-11-26T10:40 programado web:d26cf0c8-ecfc-4aac-a8d9-6f44e56b77d5|x 
 - 2026-11-26T11:00 programado web:0231552d-c918-4a4d-bf98-84c65feb7c8e|x 
 - 2026-11-26T11:20 programado web:fd5e3906-9aff-490a-890a-bfeb9d0339fe|x 
 - 2026-11-26T11:40 recibido web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x 
@@ -58,3 +56,5 @@ Actualizado: 26/11/2026 12:40 (hora AR) · ACTIVO
 - 2026-11-26T13:00 enviado web:fd5e3906-9aff-490a-890a-bfeb9d0339fe|x 
 - 2026-11-26T15:40 recibido web:9e24f711-f945-4e5b-82f6-f435d45a615f|x 
 - 2026-11-26T15:40 depurado web:9e24f711-f945-4e5b-82f6-f435d45a615f|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-26T16:00 recibido web:29486b4a-cb57-4e22-902c-589d7ff385b1|x 
+- 2026-11-26T16:00 depurado web:29486b4a-cb57-4e22-902c-589d7ff385b1|x de la web, a X solo van las notas del diario de la mañana
