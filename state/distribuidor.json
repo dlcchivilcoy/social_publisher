@@ -10143,15 +10143,15 @@
    "viral": false
   },
   "entrevistas:job00353|tiktok": {
-   "actualizado": "2026-11-26T17:00:19.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T21:00:17.000Z",
+   "buffer_id": "6b089debc81617797de298ec",
    "categoria": "",
    "clave": "entrevistas:job00353|tiktok",
    "creado": "2026-11-26T17:00:19.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T22:03:25.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-26T17:00:19.000Z",
    "id": "entrevistas:job00353",
    "intentos": 0,
@@ -10250,15 +10250,15 @@
    "viral": false
   },
   "entrevistas:job00355|tiktok": {
-   "actualizado": "2026-11-26T18:20:14.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T21:00:17.000Z",
+   "buffer_id": "6b089deaf0a96d0f218e5110",
    "categoria": "",
    "clave": "entrevistas:job00355|tiktok",
    "creado": "2026-11-26T18:20:14.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T21:43:05.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-26T18:20:14.000Z",
    "id": "entrevistas:job00355",
    "intentos": 0,
@@ -10307,15 +10307,15 @@
    "viral": false
   },
   "entrevistas:job00356|tiktok": {
-   "actualizado": "2026-11-26T19:00:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T21:00:17.000Z",
+   "buffer_id": "6b089de99068b6e07964977b",
    "categoria": "",
    "clave": "entrevistas:job00356|tiktok",
    "creado": "2026-11-26T19:00:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T21:23:34.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-26T19:00:17.000Z",
    "id": "entrevistas:job00356",
    "intentos": 0,
@@ -10364,15 +10364,15 @@
    "viral": false
   },
   "entrevistas:job00357|tiktok": {
-   "actualizado": "2026-11-26T19:40:15.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-26T21:00:17.000Z",
+   "buffer_id": "6b089de59068b6e0796491c7",
    "categoria": "",
    "clave": "entrevistas:job00357|tiktok",
    "creado": "2026-11-26T19:40:15.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-26T21:03:41.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-26T19:40:15.000Z",
    "id": "entrevistas:job00357",
    "intentos": 0,
@@ -18306,38 +18306,6 @@
  },
  "registro": [
   {
-   "clave": "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x",
-   "cuando": "2026-11-20T09:04:33.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:445649bf-b33a-41c9-8469-6db55b0bd62d|x",
-   "cuando": "2026-11-20T09:04:38.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:1ad007ee-de8a-4d54-b75c-4f87b9c62d71|x",
-   "cuando": "2026-11-20T09:04:47.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:d14ece9c-b6ae-4210-9921-a170b45d7d43|x",
-   "cuando": "2026-11-20T09:04:49.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
    "clave": "web:43a80259-224c-4361-b631-3814b78880dc|x",
    "cuando": "2026-11-20T09:04:51.000Z",
    "estado": "pendiente",
@@ -22456,11 +22424,38 @@
    "cuando": "2026-11-26T20:40:24.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2126039027191058909"
+  },
+  {
+   "buffer_id": "6b089de59068b6e0796491c7",
+   "clave": "entrevistas:job00357|tiktok",
+   "cuando": "2026-11-26T21:00:27.000Z",
+   "dueAt": "2026-11-26T21:03:41.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b089de99068b6e07964977b",
+   "clave": "entrevistas:job00356|tiktok",
+   "cuando": "2026-11-26T21:00:27.000Z",
+   "dueAt": "2026-11-26T21:23:34.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b089deaf0a96d0f218e5110",
+   "clave": "entrevistas:job00355|tiktok",
+   "cuando": "2026-11-26T21:00:27.000Z",
+   "dueAt": "2026-11-26T21:43:05.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b089debc81617797de298ec",
+   "clave": "entrevistas:job00353|tiktok",
+   "cuando": "2026-11-26T21:00:27.000Z",
+   "dueAt": "2026-11-26T22:03:25.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-16 18",
    "2026-11-16 21",
    "2026-11-17 10",
    "2026-11-17 18",
@@ -22489,7 +22484,8 @@
    "2026-11-25 10",
    "2026-11-25 18",
    "2026-11-25 21",
-   "2026-11-26 10"
+   "2026-11-26 10",
+   "2026-11-26 18"
   ]
  },
  "ultima_limpieza_release": "2026-11-26",

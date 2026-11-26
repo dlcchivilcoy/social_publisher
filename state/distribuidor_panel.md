@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 1 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 1 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 4 | 0 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -27,20 +27,12 @@ Actualizado: 26/11/2026 17:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (4 esperando)
-- TikTok · Recortes de entrevistas · Carla Palomequez: diseño vs. decoración en el CUCH — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Salva Oteiza en Chivilcoy: el impacto de la fama a los 18 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Beatriz Cánepa: arte con madera reciclada en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Esteban Fitzsimons: el origen de la yerba "uruguaya" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T16:00 recibido web:29486b4a-cb57-4e22-902c-589d7ff385b1|x 
-- 2026-11-26T16:00 depurado web:29486b4a-cb57-4e22-902c-589d7ff385b1|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-26T17:00 entrevista_aprobada entrevistas:job00353 
-- 2026-11-26T17:00 recibido entrevistas:job00353|x 
 - 2026-11-26T17:00 recibido entrevistas:job00353|tiktok 
 - 2026-11-26T17:00 programado entrevistas:job00353|x 
 - 2026-11-26T17:20 enviado entrevistas:job00353|x 
@@ -62,3 +54,7 @@ Actualizado: 26/11/2026 17:40 (hora AR) · ACTIVO
 - 2026-11-26T19:40 enviado entrevistas:job00356|x 
 - 2026-11-26T19:40 programado entrevistas:job00357|x 
 - 2026-11-26T20:40 enviado entrevistas:job00357|x 
+- 2026-11-26T21:00 programado entrevistas:job00357|tiktok 
+- 2026-11-26T21:00 programado entrevistas:job00356|tiktok 
+- 2026-11-26T21:00 programado entrevistas:job00355|tiktok 
+- 2026-11-26T21:00 programado entrevistas:job00353|tiktok 
