@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 09:20 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 09:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 26/11/2026 09:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 5 | 6 | 0 | 0 | 0 | 7 |
+| Notas web | X | 15 | 5 | 5 | 0 | 0 | 0 | 8 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -20,7 +20,7 @@ Actualizado: 26/11/2026 09:20 (hora AR) · ACTIVO
 - X · Recortes de entrevistas: 31 con métricas · mediana vistas/impresiones 83 · likes 0
 - X · Reels del bot: 11 con métricas · mediana vistas/impresiones 72 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
-- X · Notas web: 103 con métricas · mediana vistas/impresiones 22 · likes 0
+- X · Notas web: 98 con métricas · mediana vistas/impresiones 22 · likes 0
 - TikTok · Recortes de entrevistas: 32 con métricas · mediana vistas/impresiones 147.5 · likes 1
 - TikTok · Reels del bot: 11 con métricas · mediana vistas/impresiones 225 · likes 4
 
@@ -33,7 +33,6 @@ Actualizado: 26/11/2026 09:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T09:40 programado web:f29282a3-153c-48df-bcfd-f74e206f03a3|x 
 - 2026-11-26T10:00 depurado web:90eb41ef-51b3-4a4f-bd23-6c5f4ce3b180|x no está en el carrusel del diario de hoy
 - 2026-11-26T10:00 depurado web:d0e0dea1-4602-4eb9-a993-c82091d1e1b6|x no está en el carrusel del diario de hoy
 - 2026-11-26T10:00 depurado web:f43c1af9-49ed-4cde-ae35-d9f81087c717|x no está en el carrusel del diario de hoy
@@ -58,3 +57,4 @@ Actualizado: 26/11/2026 09:20 (hora AR) · ACTIVO
 - 2026-11-26T12:20 depurado web:d9830c7a-a731-4ed2-b3ed-124084977d6f|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-26T12:20 depurado web:f56995a6-b101-4a83-8cd4-dabb08b85b0a|x no está en el carrusel del diario de hoy (sacado de Buffer)
 - 2026-11-26T12:20 programado web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2|x 
+- 2026-11-26T12:40 depurado web:c9cf8f55-d133-43d5-9b4b-654e0625b95b|x no está en el carrusel del diario de hoy (sacado de Buffer)
