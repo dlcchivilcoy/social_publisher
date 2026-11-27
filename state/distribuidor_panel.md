@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 20:40 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 21:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,9 +7,9 @@ Actualizado: 26/11/2026 20:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 4 | 0 | 0 | 0 | 0 | 1 |
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels del bot | TikTok | 20 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Notas web | X | 15 | 9 | 0 | 0 | 0 | 0 | 14 |
+| Notas web | X | 15 | 9 | 0 | 0 | 0 | 0 | 15 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,12 @@ Actualizado: 26/11/2026 20:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
-- TikTok · Reels del bot · Bomberos acudieron por humo en el ascensor de un edificio — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T19:00 recibido entrevistas:job00356|tiktok 
-- 2026-11-26T19:00 programado entrevistas:job00356|x 
-- 2026-11-26T19:40 entrevista_aprobada entrevistas:job00357 
 - 2026-11-26T19:40 recibido entrevistas:job00357|x 
 - 2026-11-26T19:40 recibido entrevistas:job00357|tiktok 
 - 2026-11-26T19:40 enviado entrevistas:job00356|x 
@@ -59,3 +55,6 @@ Actualizado: 26/11/2026 20:40 (hora AR) · ACTIVO
 - 2026-11-26T23:00 enviado entrevistas:job00353|tiktok 
 - 2026-11-26T23:40 recibido web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e|x 
 - 2026-11-26T23:40 depurado web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-27T00:00 recibido web:fe556d60-4cc4-452b-bf71-ab8a6a4dd680|x 
+- 2026-11-27T00:00 depurado web:fe556d60-4cc4-452b-bf71-ab8a6a4dd680|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-27T00:00 programado bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok 
