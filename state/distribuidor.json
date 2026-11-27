@@ -4144,25 +4144,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de",
    "volanta": "Coleccionismo en Olavarría"
   },
-  "web:5da64ba1-ff4b-482f-b881-4a873f748575": {
-   "categoria": "",
-   "descripcion": "“El medicamento es importante, pero no alcanza. Es una enfermedad compleja que va acompañada de la actividad física, plan de alimentación y controlar los…",
-   "generado": "2026-11-17T10:01:24.428Z",
-   "id": "web:5da64ba1-ff4b-482f-b881-4a873f748575",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_fa36c2859c70434597b070e65fd90f3e~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/control-y-tratamiento-de-la-diabetes-el-medicamento-es-importante",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Control y tratamiento de la Diabetes",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/control-y-tratamiento-de-la-diabetes-el-medicamento-es-importante",
-   "volanta": ""
-  },
   "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa": {
    "categoria": "",
    "descripcion": "Cierre a sala llena del Festival Internacional de Cine Raíces y entrega de premios Con cuatro jornadas de proyecciones gratuitas y debates en el Teatro El Chasqui, el certamen chivilcoyano bajó el telón y anunció sus ganadores. El evento ya proyecta su décima edición. Con una masiva concurrencia de público que acompañó cada una de las funciones, concluyó anoche la novena edición del Festival Internacional de Cine Raíces en las instalaciones del Teatro El Chasqui. La jornada final coronó...",
@@ -14713,34 +14694,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:5da64ba1-ff4b-482f-b881-4a873f748575|x": {
-   "actualizado": "2026-11-17T11:00:23.000Z",
-   "buffer_id": "6afc26b554b9dc9e0726c45b",
-   "clave": "web:5da64ba1-ff4b-482f-b881-4a873f748575|x",
-   "creado": "2026-11-17T10:03:18.000Z",
-   "dueAt": "2026-11-17T11:23:47.000Z",
-   "error": "no está en el carrusel del diario de hoy (sacado de Buffer)",
-   "espera": "",
-   "estado": "descartado",
-   "generado": "2026-11-17T10:01:24.428Z",
-   "id": "web:5da64ba1-ff4b-482f-b881-4a873f748575",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/control-y-tratamiento-de-la-diabetes-el-medicamento-es-importante",
-   "noticia": "nota:control-y-tratamiento-de-la-diabetes-el-medicamento-es-importante",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Control y tratamiento de la Diabetes\n\nEl medicamento es importante, pero no alcanza para esta enfermedad compleja. El tratamiento va acompañado de actividad física, un plan de alimentación y otros controles.\n\nhttps://www.diariolacampaña.com.ar/n/control-y-tratamiento-de-la-diabetes-el-medicamento-es-importante",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Control y tratamiento de la Diabetes",
-   "urgente": false,
-   "vence": "2026-11-17T14:01:24.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x": {
    "actualizado": "2026-11-17T11:40:17.000Z",
    "buffer_id": "6afc2a61fb90347d01bcb056",
@@ -17729,14 +17682,14 @@
    "viral": false
   },
   "web:de88d412-54b4-470f-b2e9-11fac9bfc287|x": {
-   "actualizado": "2026-11-27T09:04:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-27T11:20:14.000Z",
+   "buffer_id": "6b09676fe94385a8fd9bc3a4",
    "clave": "web:de88d412-54b4-470f-b2e9-11fac9bfc287|x",
    "creado": "2026-11-27T09:04:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-27T12:39:03.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-27T09:02:11.405Z",
    "id": "web:de88d412-54b4-470f-b2e9-11fac9bfc287",
    "ig_hora": "2026-11-27T12:39:05.000Z",
@@ -18606,13 +18559,6 @@
   }
  },
  "registro": [
-  {
-   "buffer_id": "6b009d70861298c9b147ee8c",
-   "clave": "entrevistas:job00335|x",
-   "cuando": "2026-11-20T19:20:16.000Z",
-   "dueAt": "2026-11-20T19:22:30.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "entrevistas:job00334|x",
    "cuando": "2026-11-20T19:40:14.000Z",
@@ -22771,6 +22717,13 @@
    "clave": "web:45099b95-c331-4cfc-8065-4d8d9dd70046|x",
    "cuando": "2026-11-27T11:00:22.000Z",
    "dueAt": "2026-11-27T12:24:52.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b09676fe94385a8fd9bc3a4",
+   "clave": "web:de88d412-54b4-470f-b2e9-11fac9bfc287|x",
+   "cuando": "2026-11-27T11:20:15.000Z",
+   "dueAt": "2026-11-27T12:39:03.000Z",
    "evento": "programado"
   }
  ],
