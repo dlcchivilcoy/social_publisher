@@ -1186,6 +1186,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00359.mp4",
    "youtube_url": "https://youtu.be/eupect55WkE"
   },
+  "entrevistas:job00360": {
+   "descripcion": "Mirá el video completo para conocer más.",
+   "duracion_seg": null,
+   "entrevistado": "Walter Siffer",
+   "generado": "2026-11-27T17:40:15.000Z",
+   "id": "entrevistas:job00360",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Walter Siffer: \"Piazzolla se vende como Charly García\"",
+   "urgente": false,
+   "video_bytes": 13891465,
+   "video_mb": 13.2,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00360.mp4",
+   "youtube_url": "https://youtu.be/agJZUpROMg4"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -10232,6 +10253,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00359.mp4",
    "viral": false
   },
+  "entrevistas:job00360|tiktok": {
+   "actualizado": "2026-11-27T17:40:15.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00360|tiktok",
+   "creado": "2026-11-27T17:40:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-27T17:40:15.000Z",
+   "id": "entrevistas:job00360",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Walter Siffer: \"Piazzolla se vende como Charly García\"\n\nMirá el video completo para conocer más.\n\nhttps://youtu.be/agJZUpROMg4\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Walter Siffer: \"Piazzolla se vende como Charly García\"",
+   "urgente": false,
+   "vence": "2026-11-29T17:40:15.000Z",
+   "video_bytes": 13891465,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00360.mp4",
+   "viral": false
+  },
+  "entrevistas:job00360|x": {
+   "actualizado": "2026-11-27T17:40:15.000Z",
+   "buffer_id": "6b09c0802b8a129ed815324f",
+   "clave": "entrevistas:job00360|x",
+   "creado": "2026-11-27T17:40:15.000Z",
+   "dueAt": "2026-11-27T17:42:08.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-27T17:40:15.000Z",
+   "id": "entrevistas:job00360",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:charly-garcia-piazzolla-siffer-vende-walter",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Walter Siffer: \"Piazzolla se vende como Charly García\"\n\nMirá el video completo para conocer más.\n\nhttps://youtu.be/agJZUpROMg4",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Walter Siffer: \"Piazzolla se vende como Charly García\"",
+   "urgente": false,
+   "vence": "2026-11-27T19:40:15.000Z",
+   "video_bytes": 13891465,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00360.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
    "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
@@ -18073,33 +18150,6 @@
  },
  "registro": [
   {
-   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x",
-   "cuando": "2026-11-21T00:00:19.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123909911159464195"
-  },
-  {
-   "buffer_id": "6b00df149ffbc8503ce541b1",
-   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok",
-   "cuando": "2026-11-21T00:00:20.000Z",
-   "dueAt": "2026-11-21T00:03:15.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "web:3d6dd4d6-874c-4845-9393-b40b2650e570|x",
-   "cuando": "2026-11-21T00:20:20.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:3d6dd4d6-874c-4845-9393-b40b2650e570|x",
-   "cuando": "2026-11-21T00:20:20.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok",
    "cuando": "2026-11-21T01:00:20.000Z",
    "evento": "enviado",
@@ -22236,6 +22286,34 @@
    "cuando": "2026-11-27T17:20:14.000Z",
    "dueAt": "2026-11-27T17:22:56.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00360",
+   "cuando": "2026-11-27T17:40:15.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00360|x",
+   "cuando": "2026-11-27T17:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00360|tiktok",
+   "cuando": "2026-11-27T17:40:15.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b09c0802b8a129ed815324f",
+   "clave": "entrevistas:job00360|x",
+   "cuando": "2026-11-27T17:40:16.000Z",
+   "dueAt": "2026-11-27T17:42:08.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22276,7 +22354,6 @@
  "ultima_sync": "2026-11-27T17:00:21.000Z",
  "version": 1,
  "vistos": {
-  "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
   "baja:chivilcoy-deportes-se-realizara-el-torneo-intercolegial-de-ajedrez": "2026-10-31T21:40:15.000Z",
   "baja:chivilcoy-murio-un-joven-de-22-anos-tras-chocar-con-su-moto-2efdaf": "2026-11-16T00:20:15.000Z",
@@ -22310,8 +22387,6 @@
   "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": "2026-11-17T18:40:17.000Z",
   "bot:corresponsal_2026-11-17_matias-zucchi_mwkzuzdfbu4w": "2026-11-18T00:00:18.000Z",
   "bot:corresponsal_2026-11-21_matias-zucchi_mwqc3v64udx0": "2026-11-21T12:00:17.000Z",
-  "bot:video_matias-zucchi_mvsckhvf8egf_01.mp4": "2026-10-28T17:20:18.000Z",
-  "bot:video_matias-zucchi_mvsdb5z6rdgk_01.mp4": "2026-10-28T17:20:19.000Z",
   "bot:video_matias-zucchi_mvstco4fog1j_01.mp4": "2026-10-29T01:00:22.000Z",
   "bot:video_matias-zucchi_mvtlralrhlb1_01.mp4": "2026-10-29T14:20:15.000Z",
   "bot:video_matias-zucchi_mvtn1n69ll48_01.mp4": "2026-10-29T14:40:15.000Z",
@@ -22469,6 +22544,7 @@
   "entrevistas:job00357": "2026-11-26T19:40:15.000Z",
   "entrevistas:job00358": "2026-11-27T16:40:13.000Z",
   "entrevistas:job00359": "2026-11-27T17:20:13.000Z",
+  "entrevistas:job00360": "2026-11-27T17:40:15.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
@@ -22951,7 +23027,6 @@
   "web:aa54283b-118c-4bae-8790-73ed73c0006c": "2026-11-08T20:40:12.000Z",
   "web:aa699acf-5076-4312-a4f2-93b7679d840a": "2026-11-21T21:20:14.000Z",
   "web:aa775535-c5f2-4a64-95ca-135757291376": "2026-11-10T10:02:42.000Z",
-  "web:ab49bf7c-fb09-4cb1-85c2-95746ad6d0fd": "2026-10-28T17:20:18.000Z",
   "web:acddc0ea-365f-4fd8-a6ff-85ede5935e71": "2026-11-27T09:04:17.000Z",
   "web:ad51dbec-66aa-42b6-9fcd-3649b1bf9d7f": "2026-11-11T10:02:35.000Z",
   "web:ad88cc96-5c59-46c7-ae00-26c4333f393e": "2026-11-11T00:00:21.000Z",

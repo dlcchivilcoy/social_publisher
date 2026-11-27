@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 14:20 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 14:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
@@ -27,7 +27,8 @@ Actualizado: 27/11/2026 14:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (3 esperando)
+- TikTok · Recortes de entrevistas · Walter Siffer: "Piazzolla se vende como Charly García" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Máximo Cataldi: la dura presión del ranking en el tenis — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · María Elena Cura: El Museo Almacén El Recreo en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
@@ -35,10 +36,6 @@ Actualizado: 27/11/2026 14:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T11:40 recibido bot:video_matias-zucchi_mwywfyb710ld_01.mp4|x dura 171 s y X admite 140 s sin suscripción
-- 2026-11-27T11:40 recibido bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok 
-- 2026-11-27T11:40 recibido web:706eae81-2a51-4d9e-98d8-0d5709170bd0|x 
-- 2026-11-27T11:40 enviado web:07d8b695-b237-4c82-8347-6e7a62f222ca|x 
 - 2026-11-27T11:40 enviado web:3e30bac7-6cae-49f8-9258-347ccbb5faf6|x 
 - 2026-11-27T11:40 enviado web:b0c4567c-9a3c-445c-89b9-0994cd239b90|x 
 - 2026-11-27T11:40 programado web:706eae81-2a51-4d9e-98d8-0d5709170bd0|x 
@@ -60,3 +57,7 @@ Actualizado: 27/11/2026 14:20 (hora AR) · ACTIVO
 - 2026-11-27T17:20 recibido entrevistas:job00359|x 
 - 2026-11-27T17:20 recibido entrevistas:job00359|tiktok 
 - 2026-11-27T17:20 programado entrevistas:job00359|x 
+- 2026-11-27T17:40 entrevista_aprobada entrevistas:job00360 
+- 2026-11-27T17:40 recibido entrevistas:job00360|x 
+- 2026-11-27T17:40 recibido entrevistas:job00360|tiktok 
+- 2026-11-27T17:40 programado entrevistas:job00360|x 
