@@ -17,7 +17,7 @@
     "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-27T10:40:16.000Z"
+   "visto": "2026-11-27T11:40:20.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
-    "sent": 18
+    "scheduled": 4,
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-11-27T10:40:16.000Z"
+   "visto": "2026-11-27T11:40:20.000Z"
   }
  },
  "contenidos": {
@@ -326,6 +326,27 @@
    "video_mb": 5.1,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b21130f328075838.mp4",
    "youtube_url": "https://www.youtube.com/shorts/-JM97yNDDb8"
+  },
+  "bot:video_matias-zucchi_mwywfyb710ld_01.mp4": {
+   "descripcion": "Bomberos Voluntarios de Chivilcoy llevó a cabo el acto protocolar por el pase a reserva de Oscar Gerez.\n\nLa ceremonia formalizó una nueva etapa en la trayectoria del integrante del cuerpo activo local.\n\nDesde la institución se reconoció el camino transitado por Gerez tras su pase a reserva.",
+   "duracion_seg": 170.6,
+   "generado": "2026-11-27T11:37:15.000Z",
+   "id": "bot:video_matias-zucchi_mwywfyb710ld_01.mp4",
+   "localidad": "Chivilcoy",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a",
+   "origen": "bot",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Bomberos Voluntarios realizó el pase a reserva de Oscar Gerez",
+   "urgente": false,
+   "video_bytes": 21037714,
+   "video_mb": 20.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4f0f2f6503b7a82f.mp4",
+   "youtube_url": "https://www.youtube.com/shorts/DAOve_Ufojc"
   },
   "entrevistas:job00320": {
    "descripcion": "En Chivilcoy, la coordinadora del CUCH, Victoria Barros, detalló cómo los chicos aplican programación y placas para automatizar dispositivos hogareños.",
@@ -2871,25 +2892,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/en-la-plaza-y-en-la-unlu-chivilcoy-dos-realidades-en-el-hospital",
    "volanta": "En la Plaza y en la UNLu"
   },
-  "web:13973a3b-2171-416a-a98c-8226b8fae8f7": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Samantha San Romé presenta la reedición de su libro “El cielo de los ex novios” con nuevas poesías vinculadas a la temática CHIVILCOY.– La escritora y gestora cultural Samantha San Romé estuvo presente en los estudios de Radio del Centro para repasar su actualidad artística, sus proyectos editoriales más recientes y la intensa agenda cultural que se avecina. Reconocida en el plano local por su constante compromiso en la coordinación de iniciativas comunitarias, la autora hizo una...",
-   "generado": "2026-11-17T10:01:15.051Z",
-   "id": "web:13973a3b-2171-416a-a98c-8226b8fae8f7",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e6878bb02f5d4c648ddb4717e6f50673~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/literatura-y-gestion-cultural-chivilcoy-samantha-san-rome-presenta-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Samantha San Romé presenta la reedición de su libro “El cielo de los ex novios” con nuevas poesías vinculadas a la temática",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/literatura-y-gestion-cultural-chivilcoy-samantha-san-rome-presenta-la",
-   "volanta": "Literatura y Gestión Cultural"
-  },
   "web:14192db7-5d91-4203-a34b-3cc4138f57f8": {
    "categoria": "",
    "descripcion": "Chivilcoy: Una motociclista fue hospitalizada tras chocar con un utilitario Una motociclista resultó lesionada este jueves por la mañana tras un choque con un utilitario en inmediaciones de General Rodríguez y La Rica, en Chivilcoy. Por circunstancias que aún se investigan, colisionaron una motocicleta blanca de 110 centímetros cúbicos y un furgón Fiat Ducato. La conductora de la moto recibió las primeras atenciones del SAME en el lugar y luego fue trasladada al hospital para una evaluación...",
@@ -3174,25 +3176,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/basquet-de-primera-final-repetida-colon-no-dejo-dudas-ante-bragado",
    "volanta": "Básquet de Primera"
-  },
-  "web:229a7170-c2c4-42c1-abe1-cb945b533f0e": {
-   "categoria": "",
-   "descripcion": "El Gobierno garantizó fondos para finalizar la Autovía 5 entre Mercedes y Suipacha El jefe de Gabinete, Diego Santilli, recibió a los diputados nacionales Eduardo Falcone y Alberto Benegas Lynch. El Ejecutivo confirmó que los recursos para concluir ese tramo estratégico del corredor vial estarán contemplados de manera innominada en la ley de gastos del próximo año. El Gobierno nacional ratificó su compromiso de avanzar y concluir la obra de la Autovía Nacional N° 5 en el tramo que une las...",
-   "generado": "2026-11-17T10:01:11.068Z",
-   "id": "web:229a7170-c2c4-42c1-abe1-cb945b533f0e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_2c5c395ba28d4dfda00c80d32e5f2e57~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/presupuesto-2027-el-gobierno-garantizo-fondos-para-finalizar-la",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "El Gobierno garantizó fondos para finalizar la Autovía 5 entre Mercedes y Suipacha",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/presupuesto-2027-el-gobierno-garantizo-fondos-para-finalizar-la",
-   "volanta": "Presupuesto 2027"
   },
   "web:25a7e087-aa0a-4b66-bbc2-f90599ed4a50": {
    "categoria": "",
@@ -4144,25 +4127,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de",
    "volanta": "Coleccionismo en Olavarría"
   },
-  "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa": {
-   "categoria": "",
-   "descripcion": "Cierre a sala llena del Festival Internacional de Cine Raíces y entrega de premios Con cuatro jornadas de proyecciones gratuitas y debates en el Teatro El Chasqui, el certamen chivilcoyano bajó el telón y anunció sus ganadores. El evento ya proyecta su décima edición. Con una masiva concurrencia de público que acompañó cada una de las funciones, concluyó anoche la novena edición del Festival Internacional de Cine Raíces en las instalaciones del Teatro El Chasqui. La jornada final coronó...",
-   "generado": "2026-11-17T10:01:31.505Z",
-   "id": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_e8f8fe69f10244ce96528b145629bbd5~mv2.jpeg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ix-edicion-cierre-a-sala-llena-del-festival-internacional-de-cine",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Cierre a sala llena del Festival Internacional de Cine Raíces y entrega de premios",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ix-edicion-cierre-a-sala-llena-del-festival-internacional-de-cine",
-   "volanta": "IX Edición"
-  },
   "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6": {
    "categoria": "",
    "descripcion": "Chivilcoy: Liga Nacional: Joaquín Valinotti, tras el desahogo de Racing: “Ganamos desde la defensa y esta victoria nos va a dar mucha confianza” El base analizó el triunfo que cortó una racha adversa de cinco caídas consecutivas. Destacó la solidez del equipo para dejar al rival en 66 puntos, el respaldo del público en Chivilcoy y la paridad de una temporada exigente. Racing se reencontró con el éxito en la Liga Nacional tras superar a Lanús en su casa por 69 a 66 y su próxima parada será...",
@@ -4333,6 +4297,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ameghino-deportes-gandolfo-y-labaronnie-lideran-el-rally-de-ameghino",
    "volanta": "Ameghino · Deportes"
+  },
+  "web:706eae81-2a51-4d9e-98d8-0d5709170bd0": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Bomberos Voluntarios realizó el pase a reserva de Oscar Gerez Acto protocolar por el pase a reserva de Oscar Gerez en Bomberos Voluntarios de Chivilcoy.",
+   "generado": "2026-11-27T11:35:58.139Z",
+   "id": "web:706eae81-2a51-4d9e-98d8-0d5709170bd0",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_5944c5b863f944e1bf42831d1a13ff8d~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Bomberos Voluntarios realizó el pase a reserva de Oscar Gerez",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a",
+   "volanta": "Chivilcoy · Sociedad"
   },
   "web:708b3dc3-89c1-4021-87b6-cceb80ad74dc": {
    "categoria": "",
@@ -4523,25 +4506,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-obras-publicas-chivilcoy-el-municipio-limpia-el-canal-de",
    "volanta": "Chivilcoy · Obras públicas"
-  },
-  "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824": {
-   "categoria": "",
-   "descripcion": "Tres incendios vehiculares en menos de diez días sacudieron a Chivilcoy y la zona Durante la primera quincena de noviembre, los cuerpos de Bomberos Voluntarios de Chivilcoy y Alberti debieron intervenir en una seguidilla de incendios vehiculares que encendieron la alerta en la región. Los siniestros se registraron en distintos contextos —desde zonas rurales durante la madrugada hasta calles céntricas a plena tarde— y tuvieron como denominador común la rápida reacción de los ocupantes y de los...",
-   "generado": "2026-11-17T10:00:57.241Z",
-   "id": "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a45f0f6e288b45fdbb6aaf6e5e8a100a~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/reiteracion-de-siniestros-tres-incendios-vehiculares-en-menos-de-diez",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Tres incendios vehiculares en menos de diez días sacudieron a Chivilcoy y la zona",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reiteracion-de-siniestros-tres-incendios-vehiculares-en-menos-de-diez",
-   "volanta": "Reiteración de Siniestros"
   },
   "web:8137827c-f8be-4605-b572-6f65a9b4bfb3": {
    "categoria": "",
@@ -7456,6 +7420,59 @@
    "vence": "2026-11-26T23:37:48.000Z",
    "video_bytes": 5323475,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_b21130f328075838.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok": {
+   "actualizado": "2026-11-27T11:40:19.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok",
+   "creado": "2026-11-27T11:40:19.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-27T11:37:15.000Z",
+   "id": "bot:video_matias-zucchi_mwywfyb710ld_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a",
+   "origen": "bot",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Bomberos Voluntarios realizó el pase a reserva de Oscar Gerez\n\nBomberos Voluntarios de Chivilcoy llevó a cabo el acto protocolar por el pase a reserva de Oscar Gerez. La ceremonia formalizó una nueva etapa en la trayectoria del integrante del cuerpo activo local. Desde la institución se reconoció el camino transitado por Gerez tras su pase a reserva.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bomberos Voluntarios realizó el pase a reserva de Oscar Gerez",
+   "urgente": false,
+   "vence": "2026-11-29T11:37:15.000Z",
+   "video_bytes": 21037714,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4f0f2f6503b7a82f.mp4",
+   "viral": false
+  },
+  "bot:video_matias-zucchi_mwywfyb710ld_01.mp4|x": {
+   "actualizado": "2026-11-27T11:40:19.000Z",
+   "buffer_id": "",
+   "clave": "bot:video_matias-zucchi_mwywfyb710ld_01.mp4|x",
+   "creado": "2026-11-27T11:40:19.000Z",
+   "dueAt": "",
+   "error": "dura 171 s y X admite 140 s sin suscripción",
+   "estado": "descartado",
+   "generado": "2026-11-27T11:37:15.000Z",
+   "id": "bot:video_matias-zucchi_mwywfyb710ld_01.mp4",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a",
+   "noticia": "nota:chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a",
+   "origen": "bot",
+   "plataforma": "x",
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Bomberos Voluntarios realizó el pase a reserva de Oscar Gerez",
+   "urgente": false,
+   "vence": "2026-11-27T13:37:15.000Z",
+   "video_bytes": 21037714,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_4f0f2f6503b7a82f.mp4",
    "viral": false
   },
   "entrevistas:job00320|tiktok": {
@@ -12173,19 +12190,20 @@
    "viral": false
   },
   "web:07d8b695-b237-4c82-8347-6e7a62f222ca|x": {
-   "actualizado": "2026-11-27T09:40:14.000Z",
+   "actualizado": "2026-11-27T11:40:20.000Z",
    "buffer_id": "6b094ffe658222306cfe9f5b",
    "clave": "web:07d8b695-b237-4c82-8347-6e7a62f222ca|x",
    "creado": "2026-11-27T09:04:17.000Z",
    "dueAt": "2026-11-27T10:54:38.000Z",
+   "enviado": "2026-11-27T10:54:46.299Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-27T09:01:40.913Z",
    "id": "web:07d8b695-b237-4c82-8347-6e7a62f222ca",
    "ig_hora": "2026-11-27T10:54:05.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2126268486414451034",
    "nota_url": "https://www.diariolacampaña.com.ar/n/asamblea-local-num-chivilcoy-contra-la-violencia-machista-memoria",
    "noticia": "nota:asamblea-local-num-chivilcoy-contra-la-violencia-machista-memoria",
    "origen": "web",
@@ -12442,44 +12460,6 @@
    "titulo": "Chivilcoy: Dos realidades en el Hospital Municipal: el alta domiciliaria de Theo y la crítica internación de Tomás Destaville",
    "urgente": false,
    "vence": "2026-11-25T13:01:59.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:13973a3b-2171-416a-a98c-8226b8fae8f7|x": {
-   "actualizado": "2026-11-17T11:40:17.000Z",
-   "buffer_id": "6afc26b52c90bee7eb1642cd",
-   "clave": "web:13973a3b-2171-416a-a98c-8226b8fae8f7|x",
-   "creado": "2026-11-17T10:03:18.000Z",
-   "dueAt": "2026-11-17T11:08:08.000Z",
-   "enviado": "2026-11-17T11:08:16.054Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-17T10:01:15.051Z",
-   "id": "web:13973a3b-2171-416a-a98c-8226b8fae8f7",
-   "ig_hora": "2026-11-17T11:08:04.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122648004565807121",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 19,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/literatura-y-gestion-cultural-chivilcoy-samantha-san-rome-presenta-la",
-   "noticia": "nota:literatura-y-gestion-cultural-chivilcoy-samantha-san-rome-presenta-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Samantha San Romé presenta la reedición de su libro “El cielo de los ex novios” con nuevas poesías vinculadas a la temática\n\nLa escritora Samantha San Romé repasó su actualidad artística y su agenda cultural en Radio del Centro.\n\nhttps://www.diariolacampaña.com.ar/n/literatura-y-gestion-cultural-chivilcoy-samantha-san-rome-presenta-la",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Samantha San Romé presenta la reedición de su libro “El cielo de los ex novios” con nuevas poesías vinculadas a la temática",
-   "urgente": false,
-   "vence": "2026-11-17T14:01:15.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -12992,44 +12972,6 @@
    "titulo": "Final repetida: Colón no dejó dudas ante Bragado Club y nuevamente definirá el título ante Racing",
    "urgente": false,
    "vence": "2026-11-26T13:03:57.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:229a7170-c2c4-42c1-abe1-cb945b533f0e|x": {
-   "actualizado": "2026-11-17T11:40:17.000Z",
-   "buffer_id": "6afc26b4fae76827be3e3737",
-   "clave": "web:229a7170-c2c4-42c1-abe1-cb945b533f0e|x",
-   "creado": "2026-11-17T10:03:18.000Z",
-   "dueAt": "2026-11-17T10:53:41.000Z",
-   "enviado": "2026-11-17T10:53:46.340Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-17T10:01:11.068Z",
-   "id": "web:229a7170-c2c4-42c1-abe1-cb945b533f0e",
-   "ig_hora": "2026-11-17T10:53:04.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122644356301570072",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 19.23,
-    "impressions": 26,
-    "reactions": 1,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/presupuesto-2027-el-gobierno-garantizo-fondos-para-finalizar-la",
-   "noticia": "nota:presupuesto-2027-el-gobierno-garantizo-fondos-para-finalizar-la",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "El Gobierno garantizó fondos para finalizar la Autovía 5 entre Mercedes y Suipacha\n\nEl Ejecutivo confirmó que los recursos para concluir el tramo del corredor vial estarán contemplados de manera innominada en la ley de gastos del próximo año.\n\nhttps://www.diariolacampaña.com.ar/n/presupuesto-2027-el-gobierno-garantizo-fondos-para-finalizar-la",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "El Gobierno garantizó fondos para finalizar la Autovía 5 entre Mercedes y Suipacha",
-   "urgente": false,
-   "vence": "2026-11-17T14:01:11.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -13724,19 +13666,20 @@
    "viral": false
   },
   "web:3e30bac7-6cae-49f8-9258-347ccbb5faf6|x": {
-   "actualizado": "2026-11-27T09:40:14.000Z",
+   "actualizado": "2026-11-27T11:40:20.000Z",
    "buffer_id": "6b094ffe062ed764a8018a8e",
    "clave": "web:3e30bac7-6cae-49f8-9258-347ccbb5faf6|x",
    "creado": "2026-11-27T09:04:17.000Z",
    "dueAt": "2026-11-27T11:09:33.000Z",
+   "enviado": "2026-11-27T11:09:46.076Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-27T09:01:45.483Z",
    "id": "web:3e30bac7-6cae-49f8-9258-347ccbb5faf6",
    "ig_hora": "2026-11-27T11:09:05.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2126272260486877306",
    "nota_url": "https://www.diariolacampaña.com.ar/n/politica-regional-el-frente-grande-realiza-su-primer-encuentro-de-la",
    "noticia": "nota:politica-regional-el-frente-grande-realiza-su-primer-encuentro-de-la",
    "origen": "web",
@@ -14694,44 +14637,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x": {
-   "actualizado": "2026-11-17T11:40:17.000Z",
-   "buffer_id": "6afc2a61fb90347d01bcb056",
-   "clave": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa|x",
-   "creado": "2026-11-17T10:03:18.000Z",
-   "dueAt": "2026-11-17T11:38:47.000Z",
-   "enviado": "2026-11-17T11:39:01.771Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-17T10:01:31.505Z",
-   "id": "web:5ebf1b07-aee9-4e1a-b860-841adf1527aa",
-   "ig_hora": "2026-11-17T11:38:04.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122655744977666238",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 14,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/ix-edicion-cierre-a-sala-llena-del-festival-internacional-de-cine",
-   "noticia": "nota:ix-edicion-cierre-a-sala-llena-del-festival-internacional-de-cine",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Cierre a sala llena del Festival Internacional de Cine Raíces y entrega de premios\n\nEl certamen chivilcoyano concluyó en el Teatro El Chasqui con proyecciones y debates. Anunció sus ganadores y ya proyecta su décima edición.\n\nhttps://www.diariolacampaña.com.ar/n/ix-edicion-cierre-a-sala-llena-del-festival-internacional-de-cine",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Cierre a sala llena del Festival Internacional de Cine Raíces y entrega de premios",
-   "urgente": false,
-   "vence": "2026-11-17T14:01:31.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x": {
    "actualizado": "2026-11-23T12:40:13.000Z",
    "buffer_id": "6b04180db37f5256c8d982a3",
@@ -15022,6 +14927,34 @@
    "titulo": "Gandolfo y Labaronnie lideran el Rally de Ameghino tras la primera etapa",
    "urgente": false,
    "vence": "2026-11-22T02:56:26.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:706eae81-2a51-4d9e-98d8-0d5709170bd0|x": {
+   "actualizado": "2026-11-27T11:40:20.000Z",
+   "buffer_id": "6b096c25776ce2127611bd12",
+   "clave": "web:706eae81-2a51-4d9e-98d8-0d5709170bd0|x",
+   "creado": "2026-11-27T11:40:19.000Z",
+   "dueAt": "2026-11-27T12:54:12.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-27T11:35:58.139Z",
+   "id": "web:706eae81-2a51-4d9e-98d8-0d5709170bd0",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a",
+   "noticia": "nota:chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Bomberos Voluntarios realizó el pase a reserva de Oscar Gerez\n\nActo protocolar por el pase a reserva de Oscar Gerez en Bomberos Voluntarios de Chivilcoy.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Bomberos Voluntarios realizó el pase a reserva de Oscar Gerez",
+   "urgente": false,
+   "vence": "2026-11-27T15:35:58.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -15353,44 +15286,6 @@
    "titulo": "Chivilcoy: El Municipio limpia el canal de las Tres Bocas y reclama obras provinciales",
    "urgente": false,
    "vence": "2026-11-20T20:18:32.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
-  "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824|x": {
-   "actualizado": "2026-11-17T11:40:17.000Z",
-   "buffer_id": "6afc26b4fae76827be3e36e9",
-   "clave": "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824|x",
-   "creado": "2026-11-17T10:03:18.000Z",
-   "dueAt": "2026-11-17T10:23:08.000Z",
-   "enviado": "2026-11-17T10:23:16.018Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-17T10:00:57.241Z",
-   "id": "web:7fee0cd4-1da8-4eb8-bf87-221715ef0824",
-   "ig_hora": "2026-11-17T10:23:04.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122636679605264473",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 33,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/reiteracion-de-siniestros-tres-incendios-vehiculares-en-menos-de-diez",
-   "noticia": "nota:reiteracion-de-siniestros-tres-incendios-vehiculares-en-menos-de-diez",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Tres incendios vehiculares en menos de diez días sacudieron a Chivilcoy y la zona\n\nBomberos de Chivilcoy y Alberti intervinieron ante una seguidilla de siniestros que encendieron la alerta en la región. Ocurrieron en zonas rurales y calles céntricas.\n\nhttps://www.diariolacampaña.com.ar/n/reiteracion-de-siniestros-tres-incendios-vehiculares-en-menos-de-diez",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Tres incendios vehiculares en menos de diez días sacudieron a Chivilcoy y la zona",
-   "urgente": false,
-   "vence": "2026-11-17T14:00:57.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -16350,19 +16245,20 @@
    "viral": false
   },
   "web:b0c4567c-9a3c-445c-89b9-0994cd239b90|x": {
-   "actualizado": "2026-11-27T10:20:13.000Z",
+   "actualizado": "2026-11-27T11:40:20.000Z",
    "buffer_id": "6b09595e049983dcfbacd12c",
    "clave": "web:b0c4567c-9a3c-445c-89b9-0994cd239b90|x",
    "creado": "2026-11-27T09:04:17.000Z",
    "dueAt": "2026-11-27T11:39:20.000Z",
+   "enviado": "2026-11-27T11:39:31.165Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-27T09:01:53.494Z",
    "id": "web:b0c4567c-9a3c-445c-89b9-0994cd239b90",
    "ig_hora": "2026-11-27T11:39:05.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2126279747319505291",
    "nota_url": "https://www.diariolacampaña.com.ar/n/futbol-chivilcoy-torneo-clausura-de-primera-division-quedaron",
    "noticia": "nota:futbol-chivilcoy-torneo-clausura-de-primera-division-quedaron",
    "origen": "web",
@@ -18559,52 +18455,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "entrevistas:job00334|x",
-   "cuando": "2026-11-20T19:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123844624909296035"
-  },
-  {
-   "clave": "entrevistas:job00335|x",
-   "cuando": "2026-11-20T19:40:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123859582212509986"
-  },
-  {
-   "clave": "entrevistas:job00336",
-   "cuando": "2026-11-20T20:20:19.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00336|x",
-   "cuando": "2026-11-20T20:20:38.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "clave": "entrevistas:job00336|tiktok",
-   "cuando": "2026-11-20T20:20:38.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
-  {
-   "buffer_id": "6b00ab976f199ec35b7c949d",
-   "clave": "entrevistas:job00336|x",
-   "cuando": "2026-11-20T20:20:39.000Z",
-   "dueAt": "2026-11-20T20:22:52.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "entrevistas:job00336|x",
-   "cuando": "2026-11-20T20:40:13.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123874863915974851"
-  },
   {
    "buffer_id": "6b00b4eddd205ed779968795",
    "clave": "entrevistas:job00336|tiktok",
@@ -22725,6 +22575,55 @@
    "cuando": "2026-11-27T11:20:15.000Z",
    "dueAt": "2026-11-27T12:39:03.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwywfyb710ld_01.mp4|x",
+   "cuando": "2026-11-27T11:40:20.000Z",
+   "estado": "descartado",
+   "evento": "recibido",
+   "motivo": "dura 171 s y X admite 140 s sin suscripción",
+   "origen": "bot"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok",
+   "cuando": "2026-11-27T11:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "bot"
+  },
+  {
+   "clave": "web:706eae81-2a51-4d9e-98d8-0d5709170bd0|x",
+   "cuando": "2026-11-27T11:40:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:07d8b695-b237-4c82-8347-6e7a62f222ca|x",
+   "cuando": "2026-11-27T11:40:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2126268486414451034"
+  },
+  {
+   "clave": "web:3e30bac7-6cae-49f8-9258-347ccbb5faf6|x",
+   "cuando": "2026-11-27T11:40:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2126272260486877306"
+  },
+  {
+   "clave": "web:b0c4567c-9a3c-445c-89b9-0994cd239b90|x",
+   "cuando": "2026-11-27T11:40:20.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2126279747319505291"
+  },
+  {
+   "buffer_id": "6b096c25776ce2127611bd12",
+   "clave": "web:706eae81-2a51-4d9e-98d8-0d5709170bd0|x",
+   "cuando": "2026-11-27T11:40:21.000Z",
+   "dueAt": "2026-11-27T12:54:12.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22762,7 +22661,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-27",
- "ultima_sync": "2026-11-27T10:40:16.000Z",
+ "ultima_sync": "2026-11-27T11:40:20.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -22855,6 +22754,7 @@
   "bot:video_matias-zucchi_mwwi0l704484_01.mp4": "2026-11-25T19:40:15.000Z",
   "bot:video_matias-zucchi_mwwremu73j5t_01.mp4": "2026-11-25T23:40:16.000Z",
   "bot:video_matias-zucchi_mwy2j2otveye_01.mp4": "2026-11-26T21:40:15.000Z",
+  "bot:video_matias-zucchi_mwywfyb710ld_01.mp4": "2026-11-27T11:40:19.000Z",
   "entrevistas:job00255": "2026-10-28T16:40:16.000Z",
   "entrevistas:job00256": "2026-10-28T17:00:32.000Z",
   "entrevistas:job00257": "2026-10-28T17:40:18.000Z",
@@ -23328,6 +23228,7 @@
   "web:6e187d9a-8633-4631-9f81-02dcf59a7bbb": "2026-11-09T10:02:37.000Z",
   "web:6f1c27db-98fb-45a0-b31a-9079360edfc6": "2026-11-21T23:00:20.000Z",
   "web:7043907f-96fa-4ca7-b7a2-aec9499785ad": "2026-11-06T10:02:35.000Z",
+  "web:706eae81-2a51-4d9e-98d8-0d5709170bd0": "2026-11-27T11:40:19.000Z",
   "web:708b3dc3-89c1-4021-87b6-cceb80ad74dc": "2026-11-27T09:04:17.000Z",
   "web:714face4-6e7c-4d56-be14-b048fd1cefb1": "2026-10-29T14:40:15.000Z",
   "web:715ed60b-7e27-4f93-b061-3e96c07992e4": "2026-11-12T10:02:44.000Z",
