@@ -1228,6 +1228,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00361.mp4",
    "youtube_url": "https://youtu.be/RO02_Qsntwc"
   },
+  "entrevistas:job00362": {
+   "descripcion": "En Chivilcoy, el intendente de General Viamonte Franco Flexas cuestionó el reparto de la coparticipación que perjudica a la Provincia de Buenos Aires. Reclamó un acuerdo con la Nación y las provincias para compensar el desbalance de recursos.",
+   "duracion_seg": null,
+   "entrevistado": "Franco Flexas",
+   "generado": "2026-11-27T19:00:18.000Z",
+   "id": "entrevistas:job00362",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Franco Flexas: Buenos Aires aporta el 40% y recibe el 22%",
+   "urgente": false,
+   "video_bytes": 14772363,
+   "video_mb": 14.1,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00362.mp4",
+   "youtube_url": "https://youtu.be/m4uZNMuqmVI"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -4037,25 +4058,6 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-deportes-chivilcoy-racing-vencio-a-gimnasia-y-es-finalista",
    "volanta": "Chivilcoy · Deportes"
-  },
-  "web:5abbdc69-8f44-400c-8e8e-315798eae48e": {
-   "categoria": "",
-   "descripcion": "Organizan el octavo encuentro de coleccionismo con más de treinta expositores Integrantes de Coleccionismo Olavarría invitaron a la comunidad a participar de su próximo encuentro, programado para el domingo 22 de noviembre en el gimnasio del Club Mariano Moreno, ubicado en España 2045, a metros de la avenida Sarmiento. La actividad comenzará a las 13 horas con entrada libre y gratuita. Juan, integrante del grupo organizador, señaló que se trata de la octava edición del evento y detalló que...",
-   "generado": "2026-11-17T18:36:00.040Z",
-   "id": "web:5abbdc69-8f44-400c-8e8e-315798eae48e",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_6429769174fa413a8dbefe904b6622f6~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Organizan el octavo encuentro de coleccionismo con más de treinta expositores",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de",
-   "volanta": "Coleccionismo en Olavarría"
   },
   "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6": {
    "categoria": "",
@@ -10307,6 +10309,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00361.mp4",
    "viral": false
   },
+  "entrevistas:job00362|tiktok": {
+   "actualizado": "2026-11-27T19:00:18.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00362|tiktok",
+   "creado": "2026-11-27T19:00:18.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-27T19:00:18.000Z",
+   "id": "entrevistas:job00362",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Franco Flexas: Buenos Aires aporta el 40% y recibe el 22%\n\nEn Chivilcoy, el intendente de General Viamonte Franco Flexas cuestionó el reparto de la coparticipación que perjudica a la Provincia de Buenos Aires. Reclamó un acuerdo con la Nación y las provincias para compensar el desbalance de recursos.\n\nhttps://youtu.be/m4uZNMuqmVI\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Franco Flexas: Buenos Aires aporta el 40% y recibe el 22%",
+   "urgente": false,
+   "vence": "2026-11-29T19:00:18.000Z",
+   "video_bytes": 14772363,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00362.mp4",
+   "viral": false
+  },
+  "entrevistas:job00362|x": {
+   "actualizado": "2026-11-27T19:00:20.000Z",
+   "buffer_id": "6b09d345117f51b3fb959204",
+   "clave": "entrevistas:job00362|x",
+   "creado": "2026-11-27T19:00:18.000Z",
+   "dueAt": "2026-11-27T19:02:18.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-27T19:00:18.000Z",
+   "id": "entrevistas:job00362",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:aires-aporta-buenos-flexas-franco-recibe",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Franco Flexas: Buenos Aires aporta el 40% y recibe el 22%\n\nEl intendente Franco Flexas cuestionó el reparto de la coparticipación que perjudica a Buenos Aires. Reclamó un acuerdo para compensar el desbalance de recursos.\n\nhttps://youtu.be/m4uZNMuqmVI",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Franco Flexas: Buenos Aires aporta el 40% y recibe el 22%",
+   "urgente": false,
+   "vence": "2026-11-27T21:00:18.000Z",
+   "video_bytes": 14772363,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00362.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
    "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
@@ -14368,31 +14426,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:5abbdc69-8f44-400c-8e8e-315798eae48e|x": {
-   "actualizado": "2026-11-17T18:40:17.000Z",
-   "buffer_id": "",
-   "clave": "web:5abbdc69-8f44-400c-8e8e-315798eae48e|x",
-   "creado": "2026-11-17T18:40:17.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-17T18:36:00.040Z",
-   "id": "web:5abbdc69-8f44-400c-8e8e-315798eae48e",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de",
-   "noticia": "nota:coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Organizan el octavo encuentro de coleccionismo con más de treinta expositores",
-   "urgente": false,
-   "vence": "2026-11-17T22:36:00.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:62b6ac08-1dae-4a6d-b73b-37323b3b83d6|x": {
    "actualizado": "2026-11-23T12:40:13.000Z",
    "buffer_id": "6b04180db37f5256c8d982a3",
@@ -18120,36 +18153,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/|x",
-   "cuando": "2026-11-21T09:00:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html|x",
-   "cuando": "2026-11-21T09:00:30.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/|x",
-   "cuando": "2026-11-21T09:00:36.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/|x",
-   "cuando": "2026-11-21T09:00:36.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
   {
    "clave": "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin|x",
    "cuando": "2026-11-21T09:00:36.000Z",
@@ -22282,6 +22285,34 @@
    "cuando": "2026-11-27T18:20:26.000Z",
    "dueAt": "2026-11-27T18:22:09.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "entrevistas:job00362",
+   "cuando": "2026-11-27T19:00:18.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00362|x",
+   "cuando": "2026-11-27T19:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00362|tiktok",
+   "cuando": "2026-11-27T19:00:20.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b09d345117f51b3fb959204",
+   "clave": "entrevistas:job00362|x",
+   "cuando": "2026-11-27T19:00:21.000Z",
+   "dueAt": "2026-11-27T19:02:18.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22328,7 +22359,6 @@
   "baja:chivilcoy-salud-chivilcoy-guillermo-britos-advirtio-que-el-sanatorio": "2026-11-21T12:00:17.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-28_matias-zucchi_mvsfufhh7c6p": "2026-10-28T18:40:15.000Z",
   "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh": "2026-10-28T21:20:21.000Z",
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti": "2026-10-29T14:20:15.000Z",
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b": "2026-10-29T14:40:15.000Z",
@@ -22406,7 +22436,6 @@
   "bot:video_matias-zucchi_mwwremu73j5t_01.mp4": "2026-11-25T23:40:16.000Z",
   "bot:video_matias-zucchi_mwy2j2otveye_01.mp4": "2026-11-26T21:40:15.000Z",
   "bot:video_matias-zucchi_mwywfyb710ld_01.mp4": "2026-11-27T11:40:19.000Z",
-  "entrevistas:job00259": "2026-10-28T18:40:15.000Z",
   "entrevistas:job00260": "2026-10-29T17:00:20.000Z",
   "entrevistas:job00261": "2026-10-29T17:20:13.000Z",
   "entrevistas:job00262": "2026-10-29T18:00:21.000Z",
@@ -22512,6 +22541,7 @@
   "entrevistas:job00359": "2026-11-27T17:20:13.000Z",
   "entrevistas:job00360": "2026-11-27T17:40:15.000Z",
   "entrevistas:job00361": "2026-11-27T18:20:25.000Z",
+  "entrevistas:job00362": "2026-11-27T19:00:18.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
@@ -23157,7 +23187,6 @@
   "web:f949cd3a-20b5-4eff-981f-52a316b0ff85": "2026-11-25T12:00:16.000Z",
   "web:f9d89116-1d9c-4c4a-85f0-c8b4fa1baeb2": "2026-11-26T12:20:13.000Z",
   "web:fa24c212-927b-4b43-b2d4-535b06d40feb": "2026-10-29T14:00:20.000Z",
-  "web:fa7a2365-e27c-4bdf-9c34-2f2ee579ca54": "2026-10-28T18:40:15.000Z",
   "web:fad92e16-ef85-4bcc-b7ff-84f088f97a85": "2026-11-18T10:02:51.000Z",
   "web:fb96dc84-1dc8-4250-b39f-2faf6ee3d297": "2026-11-04T10:20:13.000Z",
   "web:fbf18cb2-fdbc-428f-aba5-f02fe7e0ddb8": "2026-11-19T22:00:18.000Z",
