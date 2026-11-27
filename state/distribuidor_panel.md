@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 07:40 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 08:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 27/11/2026 07:40 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Notas web | X | 15 | 5 | 5 | 2 | 0 | 1 | 3 |
+| Notas web | X | 15 | 5 | 6 | 1 | 0 | 1 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,15 +27,13 @@ Actualizado: 27/11/2026 07:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (2 esperando)
+## Cola propia (1 esperando)
 - X · Notas web · Chivilcoy: “El éxito deportivo contrastó con las dificultades financieras que at — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Liga Nacional: Matías Morera dejó de ser jugador de Racing de Chivilcoy — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T09:05 recibido web:7c6388e1-93d2-4dbd-bdda-d196e57cc139|x 
 - 2026-11-27T09:05 recibido web:708b3dc3-89c1-4021-87b6-cceb80ad74dc|x 
 - 2026-11-27T09:05 recibido web:91c0aa8b-9aaf-43ba-b968-8de8f756b954|x 
 - 2026-11-27T09:05 recibido web:d8227d2d-fc78-4fa7-8572-e2873ba15670|x 
@@ -60,3 +58,4 @@ Actualizado: 27/11/2026 07:40 (hora AR) · ACTIVO
 - 2026-11-27T10:40 enviado web:d8227d2d-fc78-4fa7-8572-e2873ba15670|x 
 - 2026-11-27T10:40 programado web:be6e81ab-17b2-4338-80bd-01f750a85d0f|x 
 - 2026-11-27T10:40 programado web:acddc0ea-365f-4fd8-a6ff-85ede5935e71|x 
+- 2026-11-27T11:00 programado web:45099b95-c331-4cfc-8065-4d8d9dd70046|x 
