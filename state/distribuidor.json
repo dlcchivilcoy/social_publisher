@@ -1144,6 +1144,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00357.mp4",
    "youtube_url": "https://youtu.be/5qYMs317lXg"
   },
+  "entrevistas:job00358": {
+   "descripcion": "María Elena Cura, referente del Museo Almacén El Recreo en Chivilcoy, reveló que conservan productos intactos con su contenido original y que todavía utilizan a diario vajilla y objetos de época.",
+   "duracion_seg": null,
+   "entrevistado": "María Elena Cura",
+   "generado": "2026-11-27T16:40:13.000Z",
+   "id": "entrevistas:job00358",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "María Elena Cura: El Museo Almacén El Recreo en Chivilcoy",
+   "urgente": false,
+   "video_bytes": 28805068,
+   "video_mb": 27.5,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00358.mp4",
+   "youtube_url": "https://youtu.be/NgxCwCH9YT8"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -10114,6 +10135,62 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00357.mp4",
    "viral": false
   },
+  "entrevistas:job00358|tiktok": {
+   "actualizado": "2026-11-27T16:40:13.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00358|tiktok",
+   "creado": "2026-11-27T16:40:13.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-27T16:40:13.000Z",
+   "id": "entrevistas:job00358",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "María Elena Cura: El Museo Almacén El Recreo en Chivilcoy\n\nMaría Elena Cura, referente del Museo Almacén El Recreo en Chivilcoy, reveló que conservan productos intactos con su contenido original y que todavía utilizan a diario vajilla y objetos de época.\n\nhttps://youtu.be/NgxCwCH9YT8\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "María Elena Cura: El Museo Almacén El Recreo en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-29T16:40:13.000Z",
+   "video_bytes": 28805068,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00358.mp4",
+   "viral": false
+  },
+  "entrevistas:job00358|x": {
+   "actualizado": "2026-11-27T16:40:14.000Z",
+   "buffer_id": "6b09b26f015034238d41debe",
+   "clave": "entrevistas:job00358|x",
+   "creado": "2026-11-27T16:40:13.000Z",
+   "dueAt": "2026-11-27T16:42:13.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-27T16:40:13.000Z",
+   "id": "entrevistas:job00358",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:almacen-chivilcoy-cura-elena-maria-museo-recreo",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "María Elena Cura: El Museo Almacén El Recreo en Chivilcoy\n\nMaría Elena Cura, referente del Museo Almacén El Recreo en Chivilcoy, reveló que conservan productos intactos con su contenido original y que todavía utilizan a diario vajilla y objetos de época.\n\nhttps://youtu.be/NgxCwCH9YT8",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "María Elena Cura: El Museo Almacén El Recreo en Chivilcoy",
+   "urgente": false,
+   "vence": "2026-11-27T18:40:13.000Z",
+   "video_bytes": 28805068,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00358.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
    "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
@@ -17955,34 +18032,6 @@
  },
  "registro": [
   {
-   "clave": "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x",
-   "cuando": "2026-11-20T22:40:38.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "web"
-  },
-  {
-   "clave": "web:eb7dd6ce-68b1-4158-924b-cd46e922a21a|x",
-   "cuando": "2026-11-20T22:40:38.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "clave": "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x",
-   "cuando": "2026-11-20T22:40:38.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "entrevistas:job00332|tiktok",
-   "cuando": "2026-11-20T22:40:39.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7710382757339352372"
-  },
-  {
    "clave": "entrevistas:job00333|tiktok",
    "cuando": "2026-11-20T22:40:39.000Z",
    "evento": "enviado",
@@ -22117,6 +22166,34 @@
    "cuando": "2026-11-27T15:40:25.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "entrevistas:job00358",
+   "cuando": "2026-11-27T16:40:14.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00358|x",
+   "cuando": "2026-11-27T16:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00358|tiktok",
+   "cuando": "2026-11-27T16:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b09b26f015034238d41debe",
+   "clave": "entrevistas:job00358|x",
+   "cuando": "2026-11-27T16:40:15.000Z",
+   "dueAt": "2026-11-27T16:42:13.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22350,6 +22427,7 @@
   "entrevistas:job00355": "2026-11-26T18:20:14.000Z",
   "entrevistas:job00356": "2026-11-26T19:00:17.000Z",
   "entrevistas:job00357": "2026-11-26T19:40:15.000Z",
+  "entrevistas:job00358": "2026-11-27T16:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
