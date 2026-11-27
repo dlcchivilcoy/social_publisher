@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 14:00 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 14:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 2 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
@@ -27,17 +27,14 @@ Actualizado: 27/11/2026 14:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (1 esperando)
+## Cola propia (2 esperando)
+- TikTok · Recortes de entrevistas · Máximo Cataldi: la dura presión del ranking en el tenis — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · María Elena Cura: El Museo Almacén El Recreo en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T10:40 programado web:be6e81ab-17b2-4338-80bd-01f750a85d0f|x 
-- 2026-11-27T10:40 programado web:acddc0ea-365f-4fd8-a6ff-85ede5935e71|x 
-- 2026-11-27T11:00 programado web:45099b95-c331-4cfc-8065-4d8d9dd70046|x 
-- 2026-11-27T11:20 programado web:de88d412-54b4-470f-b2e9-11fac9bfc287|x 
 - 2026-11-27T11:40 recibido bot:video_matias-zucchi_mwywfyb710ld_01.mp4|x dura 171 s y X admite 140 s sin suscripción
 - 2026-11-27T11:40 recibido bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok 
 - 2026-11-27T11:40 recibido web:706eae81-2a51-4d9e-98d8-0d5709170bd0|x 
@@ -59,3 +56,7 @@ Actualizado: 27/11/2026 14:00 (hora AR) · ACTIVO
 - 2026-11-27T16:40 recibido entrevistas:job00358|tiktok 
 - 2026-11-27T16:40 programado entrevistas:job00358|x 
 - 2026-11-27T17:00 enviado entrevistas:job00358|x 
+- 2026-11-27T17:20 entrevista_aprobada entrevistas:job00359 
+- 2026-11-27T17:20 recibido entrevistas:job00359|x 
+- 2026-11-27T17:20 recibido entrevistas:job00359|tiktok 
+- 2026-11-27T17:20 programado entrevistas:job00359|x 
