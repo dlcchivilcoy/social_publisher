@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 17:40 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 18:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 5 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
@@ -27,22 +27,12 @@ Actualizado: 27/11/2026 17:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
-- TikTok · Recortes de entrevistas · Franco Flexas: Buenos Aires aporta el 40% y recibe el 22% — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Bettina Casselli: Horacio Cavallo tocará a sus 86 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Walter Siffer: "Piazzolla se vende como Charly García" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · Máximo Cataldi: la dura presión del ranking en el tenis — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
-- TikTok · Recortes de entrevistas · María Elena Cura: El Museo Almacén El Recreo en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
+## Cola propia (0 esperando)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T16:40 recibido entrevistas:job00358|tiktok 
-- 2026-11-27T16:40 programado entrevistas:job00358|x 
-- 2026-11-27T17:00 enviado entrevistas:job00358|x 
-- 2026-11-27T17:20 entrevista_aprobada entrevistas:job00359 
-- 2026-11-27T17:20 recibido entrevistas:job00359|x 
 - 2026-11-27T17:20 recibido entrevistas:job00359|tiktok 
 - 2026-11-27T17:20 programado entrevistas:job00359|x 
 - 2026-11-27T17:40 entrevista_aprobada entrevistas:job00360 
@@ -63,3 +53,8 @@ Actualizado: 27/11/2026 17:40 (hora AR) · ACTIVO
 - 2026-11-27T19:20 enviado entrevistas:job00362|x 
 - 2026-11-27T19:40 recibido web:b2362383-962e-4ad2-84de-0eca6f2eb26f|x 
 - 2026-11-27T19:40 depurado web:b2362383-962e-4ad2-84de-0eca6f2eb26f|x de la web, a X solo van las notas del diario de la mañana
+- 2026-11-27T21:00 programado entrevistas:job00362|tiktok 
+- 2026-11-27T21:00 programado entrevistas:job00361|tiktok 
+- 2026-11-27T21:00 programado entrevistas:job00360|tiktok 
+- 2026-11-27T21:00 programado entrevistas:job00359|tiktok 
+- 2026-11-27T21:00 programado entrevistas:job00358|tiktok 
