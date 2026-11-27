@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 06:00 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 06:05 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 27/11/2026 06:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Notas web | X | 15 | 0 | 0 | 0 | 0 | 1 | 0 |
+| Notas web | X | 15 | 0 | 4 | 11 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,34 +27,45 @@ Actualizado: 27/11/2026 06:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (11 esperando)
+- X · Notas web · Chivilcoy: Nuevo acompañamiento al deporte local: se realizó la entrega de aport — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: “El éxito deportivo contrastó con las dificultades financieras que at — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Liga Nacional: Matías Morera dejó de ser jugador de Racing de Chivilcoy — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: El clásico moderno define al campeón del Torneo Clausura de Primera D — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Con convicción desde los doce pasos, Super Moli logró llegar a la Gra — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Torneo Clausura de Primera División: Quedaron programados los octavos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · El Frente Grande realiza su Primer Encuentro de la Militancia de la Cuarta Secci — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Contra la violencia machista: memoria, arte y reclamo en la Plaza Fem — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy se prepara para vivir una nueva edición de La Noche de los Museos con  — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Esteban Fitzsimons repasó el crecimiento de Ril Store y anticipó la d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
+- X · Notas web · Chivilcoy: Allanamiento por comercialización de drogas: secuestro de cocaína y e — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T21:40 programado bot:video_matias-zucchi_mwy2j2otveye_01.mp4|x 
-- 2026-11-26T22:00 enviado bot:video_matias-zucchi_mwy2j2otveye_01.mp4|x 
-- 2026-11-26T22:00 enviado entrevistas:job00355|tiktok 
-- 2026-11-26T22:00 enviado entrevistas:job00356|tiktok 
-- 2026-11-26T22:00 enviado entrevistas:job00357|tiktok 
-- 2026-11-26T22:40 recibido web:a3d42149-dee5-45b1-afa6-b20f9760d616|x 
-- 2026-11-26T22:40 depurado web:a3d42149-dee5-45b1-afa6-b20f9760d616|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-26T23:00 enviado entrevistas:job00353|tiktok 
-- 2026-11-26T23:40 recibido web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e|x 
-- 2026-11-26T23:40 depurado web:b9f3dac0-ca2f-4bc7-8add-d4d25cc04d4e|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-27T00:00 recibido web:fe556d60-4cc4-452b-bf71-ab8a6a4dd680|x 
-- 2026-11-27T00:00 depurado web:fe556d60-4cc4-452b-bf71-ab8a6a4dd680|x de la web, a X solo van las notas del diario de la mañana
-- 2026-11-27T00:00 programado bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok 
-- 2026-11-27T00:20 enviado bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok 
-- 2026-11-27T02:20 recibido policiales:https://junin24.com/noticias/violento-choque-entr 
-- 2026-11-27T02:20 recibido policiales:https://www.diariodemocracia.com/policiales/34858 
-- 2026-11-27T02:20 programado policiales:https://junin24.com/noticias/violento-choque-entr 
-- 2026-11-27T02:40 recibido policiales:https://www.diariodemocracia.com/policiales/34858 
-- 2026-11-27T02:40 enviado policiales:https://junin24.com/noticias/violento-choque-entr 
 - 2026-11-27T09:00 recibido policiales:https://www.diariodemocracia.com/policiales/34857 
 - 2026-11-27T09:00 recibido web:8bab1cce-2b2a-4883-99b7-a4921e1c962f|x 
 - 2026-11-27T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34858 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-27T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34858 espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - 2026-11-27T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34857 no hubo lugar antes de su vencimiento
 - 2026-11-27T09:00 vencido web:8bab1cce-2b2a-4883-99b7-a4921e1c962f|x no hubo lugar antes de su vencimiento
+- 2026-11-27T09:04 recibido web:c66c0930-d138-4fc8-8d12-3e032d463aa5|x 
+- 2026-11-27T09:04 recibido web:de88d412-54b4-470f-b2e9-11fac9bfc287|x 
+- 2026-11-27T09:04 recibido web:45099b95-c331-4cfc-8065-4d8d9dd70046|x 
+- 2026-11-27T09:04 recibido web:acddc0ea-365f-4fd8-a6ff-85ede5935e71|x 
+- 2026-11-27T09:04 recibido web:be6e81ab-17b2-4338-80bd-01f750a85d0f|x 
+- 2026-11-27T09:04 recibido web:b0c4567c-9a3c-445c-89b9-0994cd239b90|x 
+- 2026-11-27T09:04 recibido web:3e30bac7-6cae-49f8-9258-347ccbb5faf6|x 
+- 2026-11-27T09:04 recibido web:07d8b695-b237-4c82-8347-6e7a62f222ca|x 
+- 2026-11-27T09:05 recibido web:7c6388e1-93d2-4dbd-bdda-d196e57cc139|x 
+- 2026-11-27T09:05 recibido web:708b3dc3-89c1-4021-87b6-cceb80ad74dc|x 
+- 2026-11-27T09:05 recibido web:91c0aa8b-9aaf-43ba-b968-8de8f756b954|x 
+- 2026-11-27T09:05 recibido web:d8227d2d-fc78-4fa7-8572-e2873ba15670|x 
+- 2026-11-27T09:05 recibido web:ca6740a0-8b3c-4402-895d-3e4a1450e101|x 
+- 2026-11-27T09:05 recibido web:dd73165f-97fa-44c4-a931-0cc77c9c80f5|x 
+- 2026-11-27T09:05 recibido web:c25e06c6-b03a-4b49-9eb0-c0ab16fd8fa8|x 
+- 2026-11-27T09:05 programado web:dd73165f-97fa-44c4-a931-0cc77c9c80f5|x 
+- 2026-11-27T09:05 programado web:ca6740a0-8b3c-4402-895d-3e4a1450e101|x 
+- 2026-11-27T09:05 programado web:d8227d2d-fc78-4fa7-8572-e2873ba15670|x 
+- 2026-11-27T09:05 programado web:708b3dc3-89c1-4021-87b6-cceb80ad74dc|x 
