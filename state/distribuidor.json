@@ -2236,6 +2236,32 @@
    "volanta": "Operativo policial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/kmhoBuOQHlw"
   },
+  "policiales:https://www.diariodemocracia.com/policiales/348578-un-incendio-destruyo-tres-contenedores-de-basura-y": {
+   "categoria": "incendio",
+   "descripcion": "Tres tachos de residuos y un cerco de madera ardieron en la zona del Parque Borchex. El fuego comenzó pasadas las 22.48 del miércoles en avenida Circunvalación y Álvarez Rodríguez. Bomberos controlaron las llamas sin registrar heridos ni problemas en el tránsito.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-27T02:46:40.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348578-un-incendio-destruyo-tres-contenedores-de-basura-y",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-incendio-destruyo-tres-contenedores-y-un-vallado-en-ced3dc",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un impresionante incendio se desató anoche en el sector del Parque Borchex y movilizó a los bomberos.\n\nEl fuego arrasó por completo con tres contenedores plásticos y afectó un cerco de madera en la esquina de avenida Circunvalación y Álvarez Rodríguez.\n\nEl aviso ingresó a las 22.48 del miércoles y los rescatistas lograron dominar las llamas utilizando agua del móvil.\n\nDesde el operativo confirmaron que no hubo personas lesionadas ni inconvenientes con la visibilidad en las calles.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Incendio #Bomberos #BuenosAires",
+   "tipo": "video",
+   "titulo": "Fuego destruyó tres contenedores y un vallado cerca del Parque Borchex",
+   "urgente": false,
+   "video_bytes": 77482,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-27_0132_04_junin_fuego-destruy-tres-contenedore.mp4",
+   "volanta": "Incendio en Junín",
+   "youtube_url": "https://youtube.com/shorts/QbGq3XLqlHY"
+  },
   "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m": {
    "categoria": "narcotrafico",
    "descripcion": "Dos personas resultaron aprehendidas por tenencia de marihuana y una moto fue incautada durante procedimientos realizados este jueves a las 4:47 PM en distintos puntos de la ciudad por personal de prevención y seguridad urbana.",
@@ -3624,25 +3650,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/ateneo-borges-fotografia-muestra-colectiva-fin-de-ano-miradas-que",
    "volanta": "Ateneo Borges"
   },
-  "web:41ee3e32-bcc0-459d-bd54-85372c380544": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Vecinos reclaman por calles anegadas tras la lluvia Vecinos de Chivilcoy grabaron cómo quedaron sus cuadras tras la lluvia. En los videos se ve el agua acumulada sobre las calles y las dificultades para circular. ¿Tenés una foto o un video de cómo quedó tu cuadra? Etiquetanos en @diarioyradio y lo compartimos. Si podés, indicá el barrio y las calles para ubicar el reclamo.",
-   "generado": "2026-11-17T02:53:30.305Z",
-   "id": "web:41ee3e32-bcc0-459d-bd54-85372c380544",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_63af699d211a46c4bea2a1dcdf739d92~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Vecinos reclaman por calles anegadas tras la lluvia",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
-   "volanta": "Chivilcoy · Sociedad"
-  },
   "web:43a80259-224c-4361-b631-3814b78880dc": {
    "categoria": "",
    "descripcion": "Silvia González: pedido por el agravamiento de penas viales, más controles y una advertencia: “en la Ruta 5, nos están falleciendo familias enteras” La titular de la Fundación Estrellas Amarillas, Silvia Gonzalez, repasó en diálogo con Radio del Centro el amplio espectro de acciones y gestiones que la organización viene desplegando tanto a nivel nacional como provincial en materia de seguridad vial. Entre los temas prioritarios analizados durante la entrevista se destacaron el impulso...",
@@ -4554,6 +4561,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-por-violar",
    "volanta": "Chivilcoy · Policiales"
+  },
+  "web:8bab1cce-2b2a-4883-99b7-a4921e1c962f": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Cuatro dotaciones de bomberos trabajaron en el incendio de una cava Un incendio en una cava ubicada en calle 123 y Suipacha, en Chivilcoy, motivó la concurrencia de cuatro dotaciones de bomberos durante la madrugada. El hecho fue reportado alrededor de las 0.15 en cercanías del Club Teas. Por el momento, no se cuenta con precisiones sobre las causas ni el alcance del siniestro.",
+   "generado": "2026-11-27T03:31:24.604Z",
+   "id": "web:8bab1cce-2b2a-4883-99b7-a4921e1c962f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2046f78672874f0d9d46d4babf6e93cf~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-cuatro-dotaciones-de-bomberos-trabajaron",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Cuatro dotaciones de bomberos trabajaron en el incendio de una cava",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-bomberos-chivilcoy-cuatro-dotaciones-de-bomberos-trabajaron",
+   "volanta": "Chivilcoy · Bomberos"
   },
   "web:8d685a3e-55db-42df-bf39-d5595b1bafe9": {
    "categoria": "",
@@ -6297,33 +6323,6 @@
    "titulo": "Vecinos reclaman por calles anegadas tras la lluvia",
    "urgente": false,
    "vence": "2026-11-19T02:55:28.000Z",
-   "video_bytes": 12003132,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cf3f80f43f0a2591.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|x": {
-   "actualizado": "2026-11-17T09:00:28.000Z",
-   "buffer_id": "",
-   "clave": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4|x",
-   "creado": "2026-11-17T09:00:20.000Z",
-   "dueAt": "",
-   "error": "no hubo lugar antes de su vencimiento",
-   "estado": "vencido",
-   "generado": "2026-11-17T02:55:28.000Z",
-   "id": "bot:video_matias-zucchi_mwk3flrb5tbf_01.mp4",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
-   "noticia": "nota:chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Vecinos reclaman por calles anegadas tras la lluvia\n\nVecinos de Chivilcoy mostraron su malestar por el agua acumulada en las calles tras las lluvias. La situación genera complicaciones para circular a pie o en vehículos.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Vecinos reclaman por calles anegadas tras la lluvia",
-   "urgente": false,
-   "vence": "2026-11-17T04:55:28.000Z",
    "video_bytes": 12003132,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_cf3f80f43f0a2591.mp4",
    "viral": false
@@ -11300,15 +11299,42 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_01_chacabuco_aprehendieron-a-un-menor-de-15.mp4",
    "viral": false
   },
+  "policiales:https://www.diariodemocracia.com/policiales/348578-un-incendio-destruyo-tres-contenedores-de-basura-y|x": {
+   "actualizado": "2026-11-27T09:00:37.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348578-un-incendio-destruyo-tres-contenedores-de-basura-y|x",
+   "creado": "2026-11-27T09:00:20.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-27T02:46:40.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348578-un-incendio-destruyo-tres-contenedores-de-basura-y",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-un-incendio-destruyo-tres-contenedores-y-un-vallado-en-ced3dc",
+   "noticia": "nota:junin-un-incendio-destruyo-tres-contenedores-y-un-vallado-en-ced3dc",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Fuego destruyó tres contenedores y un vallado cerca del Parque Borchex\n\nTres tachos de residuos y un cerco de madera ardieron en la zona del Parque Borchex. El fuego comenzó pasadas las 22.48 del miércoles en avenida Circunvalación y Álvarez Rodríguez.\n\nhttps://www.diariolacampaña.com.ar/n/junin-un-incendio-destruyo-tres-contenedores-y-un-vallado-en-ced3dc",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Fuego destruyó tres contenedores y un vallado cerca del Parque Borchex",
+   "urgente": false,
+   "vence": "2026-11-27T04:46:40.000Z",
+   "video_bytes": 77482,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-27_0132_04_junin_fuego-destruy-tres-contenedore.mp4",
+   "viral": false
+  },
   "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m|x": {
-   "actualizado": "2026-11-27T02:40:14.000Z",
+   "actualizado": "2026-11-27T09:00:37.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m|x",
    "creado": "2026-11-27T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-27T02:31:39.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m",
    "intentos": 0,
@@ -11329,14 +11355,14 @@
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu|x": {
-   "actualizado": "2026-11-27T02:20:16.000Z",
+   "actualizado": "2026-11-27T09:00:37.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu|x",
    "creado": "2026-11-27T02:20:16.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-27T02:18:21.000Z",
    "id": "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu",
    "intentos": 0,
@@ -13562,31 +13588,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:41ee3e32-bcc0-459d-bd54-85372c380544|x": {
-   "actualizado": "2026-11-17T09:00:20.000Z",
-   "buffer_id": "",
-   "clave": "web:41ee3e32-bcc0-459d-bd54-85372c380544|x",
-   "creado": "2026-11-17T09:00:20.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-17T02:53:30.305Z",
-   "id": "web:41ee3e32-bcc0-459d-bd54-85372c380544",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
-   "noticia": "nota:chivilcoy-sociedad-chivilcoy-vecinos-reclaman-por-calles-anegadas",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Vecinos reclaman por calles anegadas tras la lluvia",
-   "urgente": false,
-   "vence": "2026-11-17T06:53:30.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:43a80259-224c-4361-b631-3814b78880dc|x": {
    "actualizado": "2026-11-20T10:20:14.000Z",
    "buffer_id": "6b000d38ca85ebefb00e3a47",
@@ -15182,6 +15183,33 @@
    "titulo": "Chivilcoy: Aprehendieron a un hombre por violar una restricción de acercamiento",
    "urgente": false,
    "vence": "2026-11-25T16:38:11.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
+  "web:8bab1cce-2b2a-4883-99b7-a4921e1c962f|x": {
+   "actualizado": "2026-11-27T09:00:37.000Z",
+   "buffer_id": "",
+   "clave": "web:8bab1cce-2b2a-4883-99b7-a4921e1c962f|x",
+   "creado": "2026-11-27T09:00:20.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-27T03:31:24.604Z",
+   "id": "web:8bab1cce-2b2a-4883-99b7-a4921e1c962f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-cuatro-dotaciones-de-bomberos-trabajaron",
+   "noticia": "nota:chivilcoy-bomberos-chivilcoy-cuatro-dotaciones-de-bomberos-trabajaron",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Cuatro dotaciones de bomberos trabajaron en el incendio de una cava\n\nEl hecho ocurrió durante la madrugada en calle 123 y Suipacha, cerca del Club Teas. Por el momento, no hay precisiones sobre las causas ni el alcance.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-cuatro-dotaciones-de-bomberos-trabajaron",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Cuatro dotaciones de bomberos trabajaron en el incendio de una cava",
+   "urgente": false,
+   "vence": "2026-11-27T07:31:24.000Z",
    "video_bytes": 0,
    "video_url": "",
    "viral": false
@@ -17913,44 +17941,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x",
-   "cuando": "2026-11-20T11:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123727744739459582"
-  },
-  {
-   "clave": "web:307fc9d4-4abc-4362-b593-36783c0bf652|x",
-   "cuando": "2026-11-20T11:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123735168288432598"
-  },
-  {
-   "clave": "web:445649bf-b33a-41c9-8469-6db55b0bd62d|x",
-   "cuando": "2026-11-20T11:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123723907018403893"
-  },
-  {
-   "clave": "web:d0b1d7bb-5cfb-465e-882c-ccbd45b12f77|x",
-   "cuando": "2026-11-20T11:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123731587808272726"
-  },
-  {
-   "buffer_id": "6b002cef39116a845dd0b2ad",
-   "clave": "web:4e6e2626-d326-4a75-93b5-756fb6f07584|x",
-   "cuando": "2026-11-20T11:20:15.000Z",
-   "dueAt": "2026-11-20T12:38:34.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6b0031a0c1f33e2aa5bd1905",
-   "clave": "web:08fd2a3f-5e18-4be2-818e-34bec857979d|x",
-   "cuando": "2026-11-20T11:40:16.000Z",
-   "dueAt": "2026-11-20T12:53:51.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "web:25a7e087-aa0a-4b66-bbc2-f90599ed4a50|x",
    "cuando": "2026-11-20T12:00:40.000Z",
@@ -22061,6 +22051,46 @@
    "cuando": "2026-11-27T02:40:23.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2126139981609513282"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348578-un-incendio-destruyo-tres-contenedores-de-basura-y|x",
+   "cuando": "2026-11-27T09:00:29.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "web:8bab1cce-2b2a-4883-99b7-a4921e1c962f|x",
+   "cuando": "2026-11-27T09:00:37.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m|x",
+   "cuando": "2026-11-27T09:00:37.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu|x",
+   "cuando": "2026-11-27T09:00:37.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348578-un-incendio-destruyo-tres-contenedores-de-basura-y|x",
+   "cuando": "2026-11-27T09:00:37.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "web:8bab1cce-2b2a-4883-99b7-a4921e1c962f|x",
+   "cuando": "2026-11-27T09:00:37.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -22413,6 +22443,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna": "2026-11-24T09:00:22.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348453-apunalaron-a-un-joven-en-calle-belgrano-y-aprehend": "2026-11-24T02:20:22.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348457-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de": "2026-11-24T02:20:22.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/348578-un-incendio-destruyo-tres-contenedores-de-basura-y": "2026-11-27T09:00:20.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m": "2026-11-27T02:40:14.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu": "2026-11-27T02:20:16.000Z",
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": "2026-11-05T00:40:13.000Z",
@@ -22714,6 +22745,7 @@
   "web:8a02f2cf-a18f-4f47-8cbc-72ba76bfff54": "2026-10-31T02:20:13.000Z",
   "web:8b10d292-9c09-4b23-af31-8a3268e37c10": "2026-11-25T12:40:23.000Z",
   "web:8b8cc9b7-8b3a-48c1-8302-f8e32d2ab17c": "2026-11-09T10:02:37.000Z",
+  "web:8bab1cce-2b2a-4883-99b7-a4921e1c962f": "2026-11-27T09:00:20.000Z",
   "web:8bcf2503-f895-462b-af3a-dffcba6750bb": "2026-11-11T10:02:35.000Z",
   "web:8ccde707-f548-4c61-83cf-fb2ee30a7c99": "2026-11-03T10:02:22.000Z",
   "web:8d454526-fe37-4a5c-a733-afb21a24349b": "2026-11-09T10:20:14.000Z",
