@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 07:00 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 07:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 27/11/2026 07:00 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Notas web | X | 15 | 2 | 5 | 5 | 0 | 1 | 3 |
+| Notas web | X | 15 | 2 | 6 | 4 | 0 | 1 | 3 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,18 +27,16 @@ Actualizado: 27/11/2026 07:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (5 esperando)
+## Cola propia (4 esperando)
 - X · Notas web · Chivilcoy: “El éxito deportivo contrastó con las dificultades financieras que at — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Liga Nacional: Matías Morera dejó de ser jugador de Racing de Chivilcoy — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: El clásico moderno define al campeón del Torneo Clausura de Primera D — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Con convicción desde los doce pasos, Super Moli logró llegar a la Gra — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Torneo Clausura de Primera División: Quedaron programados los octavos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T09:04 recibido web:45099b95-c331-4cfc-8065-4d8d9dd70046|x 
 - 2026-11-27T09:04 recibido web:acddc0ea-365f-4fd8-a6ff-85ede5935e71|x 
 - 2026-11-27T09:04 recibido web:be6e81ab-17b2-4338-80bd-01f750a85d0f|x 
 - 2026-11-27T09:04 recibido web:b0c4567c-9a3c-445c-89b9-0994cd239b90|x 
@@ -63,3 +61,4 @@ Actualizado: 27/11/2026 07:00 (hora AR) · ACTIVO
 - 2026-11-27T10:00 depurado web:91c0aa8b-9aaf-43ba-b968-8de8f756b954|x no está en el carrusel del diario de hoy
 - 2026-11-27T10:00 depurado web:c25e06c6-b03a-4b49-9eb0-c0ab16fd8fa8|x no está en el carrusel del diario de hoy
 - 2026-11-27T10:00 depurado web:c66c0930-d138-4fc8-8d12-3e032d463aa5|x no está en el carrusel del diario de hoy
+- 2026-11-27T10:20 programado web:b0c4567c-9a3c-445c-89b9-0994cd239b90|x 
