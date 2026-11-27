@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 12:20 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 12:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 27/11/2026 12:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 1 | 4 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 1 | 5 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -18,7 +18,7 @@ Actualizado: 27/11/2026 12:20 (hora AR) · ACTIVO
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 37 con métricas · mediana vistas/impresiones 80 · likes 0
-- X · Reels del bot: 12 con métricas · mediana vistas/impresiones 68.5 · likes 0
+- X · Reels del bot: 11 con métricas · mediana vistas/impresiones 71 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
 - X · Notas web: 103 con métricas · mediana vistas/impresiones 23 · likes 0
 - TikTok · Recortes de entrevistas: 38 con métricas · mediana vistas/impresiones 147 · likes 1
@@ -33,8 +33,6 @@ Actualizado: 27/11/2026 12:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T10:00 depurado web:91c0aa8b-9aaf-43ba-b968-8de8f756b954|x no está en el carrusel del diario de hoy
-- 2026-11-27T10:00 depurado web:c25e06c6-b03a-4b49-9eb0-c0ab16fd8fa8|x no está en el carrusel del diario de hoy
 - 2026-11-27T10:00 depurado web:c66c0930-d138-4fc8-8d12-3e032d463aa5|x no está en el carrusel del diario de hoy
 - 2026-11-27T10:20 programado web:b0c4567c-9a3c-445c-89b9-0994cd239b90|x 
 - 2026-11-27T10:40 enviado web:708b3dc3-89c1-4021-87b6-cceb80ad74dc|x 
@@ -58,3 +56,5 @@ Actualizado: 27/11/2026 12:20 (hora AR) · ACTIVO
 - 2026-11-27T13:00 enviado web:de88d412-54b4-470f-b2e9-11fac9bfc287|x 
 - 2026-11-27T13:00 programado bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok 
 - 2026-11-27T14:00 enviado bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok 
+- 2026-11-27T15:40 recibido web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a|x 
+- 2026-11-27T15:40 depurado web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a|x de la web, a X solo van las notas del diario de la mañana

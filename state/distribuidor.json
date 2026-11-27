@@ -4068,25 +4068,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/opinion-los-privilegios-que-la-democracia-no-consigue-desterrar",
    "volanta": "Opinión"
   },
-  "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: El Municipio destacó el rápido escurrimiento del agua tras el temporal CHIVILCOY.– Tras la intensa tormenta, el Municipio destacó el rápido escurrimiento del agua gracias al mantenimiento continuo. El secretario de Obras Públicas, Eduardo Alonso, brindó un balance sobre el impacto de los más de 50 milímetros caídos en apenas media hora, superando los 100 mm en total. Subrayó que la limpieza permanente de canales, cunetas y bocas de tormenta permitió normalizar la situación en pocas...",
-   "generado": "2026-11-17T15:05:51.152Z",
-   "id": "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_5a48f576aa464bbea409c0406b11e5ec~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: El Municipio destacó el rápido escurrimiento del agua tras el temporal",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
-   "volanta": "Chivilcoy · Servicios públicos"
-  },
   "web:6b678702-87da-4470-9680-6bda53c0a3ee": {
    "categoria": "",
    "descripcion": "Facundo Tumbesi: \"Ganamos un partido clave que nos permite seguir creciendo y pensar en el puntero\" El referente y futbolista de Colón analizó el agónico triunfo clásico, destacó el esfuerzo colectivo para dar vuelta el marcador en el complemento y palpitó el próximo duelo ante el líder del campeonato. El clásico dejó tela para cortar, y una de las voces autorizadas para analizarlo fue la de Facundo Tumbesi, referente del plantel de Colón. Tras el agónico y festejado 2 a 1 frente a Florencia...",
@@ -5721,6 +5702,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/participacion-articulada-chivilcoy-concientizacion-acerca-del-dia",
    "volanta": "Participación articulada"
   },
+  "web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: El Municipio sumó maquinarias para recolección y mantenimiento urbano El intendente Guillermo Britos encabezó la presentación de nuevas unidades y maquinarias destinadas a fortalecer el área de Servicios Públicos y el sistema de recolección de residuos de Chivilcoy, en el marco de una inversión total de 634 millones de pesos. Según explicó el jefe comunal, la incorporación se concretó en un contexto económico complejo para los municipios —incluso más difícil que el atravesado...",
+   "generado": "2026-11-27T15:34:20.677Z",
+   "id": "web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_35b6e0a375794cd286752e7942508d0e~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-sumo-maquinarias",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio sumó maquinarias para recolección y mantenimiento urbano",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-publicos-chivilcoy-el-municipio-sumo-maquinarias",
+   "volanta": "Chivilcoy · Servicios Públicos"
+  },
   "web:e9cee33f-5562-4cef-aec9-c786a2894f5c": {
    "categoria": "",
    "descripcion": "Colón y Bragado Club abren las semifinales del Torneo Clausura Esta noche, desde las 21:30 en el estadio Oscar y Alfredo Barca, jugarán Deportivo Colón y Bragado Club por el primer partido de las semifinales del Torneo Clausura. Como antecedente, el León le ganó los dos encuentros al Tricolor en este certamen: - En Chivilcoy: Colón 75-51 Bragado. - En Bragado: Bragado Club 47-71 Colón. El equipo de Maxi Tamburini, desde su asunción, llegó siempre a las finales y no quiere que esta sea la...",
@@ -6304,43 +6304,6 @@
    "titulo": "El Municipio destacó el rápido escurrimiento del agua tras el temporal",
    "urgente": false,
    "vence": "2026-11-19T15:07:13.000Z",
-   "video_bytes": 2511993,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d66471733a81d89.mp4",
-   "viral": false
-  },
-  "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x": {
-   "actualizado": "2026-11-17T15:40:14.000Z",
-   "buffer_id": "6afc70b45bbbda0a8916f3a2",
-   "clave": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|x",
-   "creado": "2026-11-17T15:20:16.000Z",
-   "dueAt": "2026-11-17T15:22:16.000Z",
-   "enviado": "2026-11-17T15:22:36.157Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-17T15:07:13.000Z",
-   "id": "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122712010072760429",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 66,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
-   "noticia": "nota:chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
-   "origen": "bot",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "El Municipio destacó el rápido escurrimiento del agua tras el temporal\n\nEl secretario de Obras Públicas, Eduardo Alonso, dio un balance positivo sobre la respuesta hidráulica. Afirmó que la mayoría de las zonas quedaron transitables en pocas horas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "El Municipio destacó el rápido escurrimiento del agua tras el temporal",
-   "urgente": false,
-   "vence": "2026-11-17T17:07:13.000Z",
    "video_bytes": 2511993,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_7d66471733a81d89.mp4",
    "viral": false
@@ -14416,31 +14379,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6|x": {
-   "actualizado": "2026-11-17T15:20:16.000Z",
-   "buffer_id": "",
-   "clave": "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6|x",
-   "creado": "2026-11-17T15:20:16.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "estado": "descartado",
-   "generado": "2026-11-17T15:05:51.152Z",
-   "id": "web:6aad4ebd-2759-453f-84f9-c45d2d44f4b6",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
-   "noticia": "nota:chivilcoy-servicios-publicos-chivilcoy-el-municipio-destaco-el-rapido",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: El Municipio destacó el rápido escurrimiento del agua tras el temporal",
-   "urgente": false,
-   "vence": "2026-11-17T19:05:51.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:6b678702-87da-4470-9680-6bda53c0a3ee|x": {
    "actualizado": "2026-11-18T13:00:19.000Z",
    "buffer_id": "6afd854375578146ec479b4b",
@@ -17254,6 +17192,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a|x": {
+   "actualizado": "2026-11-27T15:40:25.000Z",
+   "buffer_id": "",
+   "clave": "web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a|x",
+   "creado": "2026-11-27T15:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-27T15:34:20.677Z",
+   "id": "web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-sumo-maquinarias",
+   "noticia": "nota:chivilcoy-servicios-publicos-chivilcoy-el-municipio-sumo-maquinarias",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: El Municipio sumó maquinarias para recolección y mantenimiento urbano\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-publicos-chivilcoy-el-municipio-sumo-maquinarias",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: El Municipio sumó maquinarias para recolección y mantenimiento urbano",
+   "urgente": false,
+   "vence": "2026-11-27T19:34:20.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:e9cee33f-5562-4cef-aec9-c786a2894f5c|x": {
    "actualizado": "2026-11-18T15:40:21.000Z",
    "buffer_id": "",
@@ -17989,22 +17954,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x",
-   "cuando": "2026-11-20T22:40:22.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|tiktok",
-   "cuando": "2026-11-20T22:40:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
   {
    "clave": "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9|x",
    "cuando": "2026-11-20T22:40:38.000Z",
@@ -22154,6 +22103,20 @@
    "cuando": "2026-11-27T14:00:23.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7712837639698664725"
+  },
+  {
+   "clave": "web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a|x",
+   "cuando": "2026-11-27T15:40:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a|x",
+   "cuando": "2026-11-27T15:40:25.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22991,6 +22954,7 @@
   "web:e734229c-79c5-449c-91b5-fec63de9a1ad": "2026-11-04T10:20:13.000Z",
   "web:e7db619d-9df6-4b45-871f-f8453608c66f": "2026-11-17T10:03:18.000Z",
   "web:e8070380-cce0-41f4-8a78-b0a02378bc68": "2026-11-08T17:20:17.000Z",
+  "web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a": "2026-11-27T15:40:14.000Z",
   "web:e9cee33f-5562-4cef-aec9-c786a2894f5c": "2026-11-18T15:40:15.000Z",
   "web:ea0d58ec-3864-413c-8f0e-9afa61d9f57a": "2026-11-24T09:20:14.000Z",
   "web:ea13235b-dbb9-482c-b517-2865e5df2d34": "2026-10-31T16:40:18.000Z",
