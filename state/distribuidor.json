@@ -33,27 +33,6 @@
   }
  },
  "contenidos": {
-  "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2": {
-   "descripcion": "Coleccionismo Olavarría realizará su octavo encuentro el domingo 22 de noviembre en el Club Mariano Moreno con entrada libre y gratuita. La jornada contará con más de treinta expositores de la ciudad y la región, stands de exhibición, compra, venta y canje.",
-   "duracion_seg": 57.9,
-   "generado": "2026-11-17T18:38:09.000Z",
-   "id": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2",
-   "localidad": "Chivilcoy",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de",
-   "origen": "bot",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Organizan el octavo encuentro de coleccionismo con más de treinta expositores",
-   "urgente": false,
-   "video_bytes": 2825618,
-   "video_mb": 2.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_48715283272c98de.mp4",
-   "youtube_url": "https://www.youtube.com/shorts/3eJ3pOfVS1E"
-  },
   "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4": {
    "descripcion": "El Municipio destacó el rápido escurrimiento del agua tras el fuerte temporal que afectó a la región, donde se registraron más de 100 milímetros de lluvia en total y una intensa caída de 50 milímetros en apenas media hora.\n\nEl secretario de Obras Públicas, Eduardo Alonso, brindó un balance positivo sobre la respuesta hidráulica de la ciudad. El funcionario remarcó que la mayoría de los sectores quedaron transitables en pocas horas gracias a los trabajos continuos de mantenimiento en canales, cunetas y bocas de tormenta que realizan las cuadrillas de Pavimento y Vial.\n\nAlonso detalló que se ejecutaron limpiezas en los canales de las calles 520, 108, Hija de San José y en el conducto hacia Las Tres Niñas. Además, indicó que se interviene en Las Tres Bocas y se proyectan mejoras en el barrio Adas. Respecto a anegamientos puntuales, explicó que responden a conductos antiguos de escaso diámetro o a viviendas situadas bajo el nivel de calzada.\n\nDe cara a los pronósticos de nuevas tormentas vinculadas al fenómeno de El Niño, el secretario solicitó la colaboración de los vecinos para evitar arrojar basura, pasto cortado o escombros en la vía pública, materiales que suelen obstruir los desagües pluviales.",
    "duracion_seg": 20.8,
@@ -6279,45 +6258,6 @@
   }
  },
  "publicaciones": {
-  "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok": {
-   "actualizado": "2026-11-17T21:20:16.000Z",
-   "buffer_id": "6afcc067953f4c1b18bdbed9",
-   "categoria": "",
-   "clave": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2|tiktok",
-   "creado": "2026-11-17T18:40:17.000Z",
-   "dueAt": "2026-11-17T21:03:44.000Z",
-   "enviado": "2026-11-17T21:04:47.652Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-17T18:38:09.000Z",
-   "id": "bot:corresponsal_2026-11-17_juan-huertas-2284669269_mwkzazs7s9z2",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7709249159408192786",
-   "metricas": {
-    "averageTimeWatched": 3.73,
-    "comments": 0,
-    "engagementRate": 1.72,
-    "reach": 42,
-    "reactions": 2,
-    "shares": 0,
-    "totalTimeWatched": 8.58,
-    "views": 116
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de",
-   "origen": "bot",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Organizan el octavo encuentro de coleccionismo con más de treinta expositores\n\nColeccionismo Olavarría realizará su octavo encuentro el domingo 22 de noviembre en el Club Mariano Moreno con entrada libre y gratuita. La jornada contará con más de treinta expositores de la ciudad y la región, stands de exhibición, compra, venta y canje.\n\nhttps://www.diariolacampaña.com.ar/n/coleccionismo-en-olavarria-organizan-el-octavo-encuentro-de\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Organizan el octavo encuentro de coleccionismo con más de treinta expositores",
-   "urgente": false,
-   "vence": "2026-11-19T18:38:09.000Z",
-   "video_bytes": 2825618,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_48715283272c98de.mp4",
-   "viral": false
-  },
   "bot:video_matias-zucchi_mwktla6r9sx0_01.mp4|tiktok": {
    "actualizado": "2026-11-17T22:40:13.000Z",
    "buffer_id": "6afcc068ea84dfa925468a0d",
@@ -22296,7 +22236,6 @@
   "baja:chivilcoy-salud-chivilcoy-guillermo-britos-advirtio-que-el-sanatorio": "2026-11-21T12:00:17.000Z",
   "baja:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla": "2026-11-18T00:00:18.000Z",
   "baja:incendio-forestal-chivilcoy-emmanuel-artola-bomberos-acuden-a-un": "2026-10-31T21:40:15.000Z",
-  "bot:corresponsal_2026-10-28_matias-zucchi_mvslmgnyppsh": "2026-10-28T21:20:21.000Z",
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtmgsf7umti": "2026-10-29T14:20:15.000Z",
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtmrp2e9c0b": "2026-10-29T14:40:15.000Z",
   "bot:corresponsal_2026-10-29_matias-zucchi_mvtozqbggxh2": "2026-10-29T15:40:17.000Z",
@@ -22870,7 +22809,6 @@
   "web:7de16944-cbd0-472a-9ccc-0f7b42b113cd": "2026-11-13T10:02:41.000Z",
   "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3": "2026-10-29T10:20:14.000Z",
   "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12": "2026-11-25T02:00:17.000Z",
-  "web:7f1fa848-bf8f-44b0-9b78-850d7efb2ee5": "2026-10-28T21:20:21.000Z",
   "web:7f27bdc8-3410-406c-a7fa-a0920049340f": "2026-11-20T16:20:13.000Z",
   "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285": "2026-11-12T13:40:16.000Z",
   "web:7fcb1162-b823-4d08-a5e8-854ed71d5230": "2026-11-05T10:02:30.000Z",
