@@ -1,15 +1,15 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 18:40 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 19:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 1 | 4 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 1 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 1 | 6 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 1 | 7 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -27,16 +27,13 @@ Actualizado: 27/11/2026 18:40 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- TikTok · Reels del bot · Un hombre fue aprehendido tras un allanamiento por venta de drogas — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T17:20 programado entrevistas:job00359|x 
-- 2026-11-27T17:40 entrevista_aprobada entrevistas:job00360 
-- 2026-11-27T17:40 recibido entrevistas:job00360|x 
-- 2026-11-27T17:40 recibido entrevistas:job00360|tiktok 
 - 2026-11-27T17:40 programado entrevistas:job00360|x 
 - 2026-11-27T18:00 enviado entrevistas:job00359|x 
 - 2026-11-27T18:00 enviado entrevistas:job00360|x 
@@ -58,3 +55,7 @@ Actualizado: 27/11/2026 18:40 (hora AR) · ACTIVO
 - 2026-11-27T21:00 programado entrevistas:job00359|tiktok 
 - 2026-11-27T21:00 programado entrevistas:job00358|tiktok 
 - 2026-11-27T21:20 enviado entrevistas:job00362|tiktok 
+- 2026-11-27T22:00 recibido bot:video_matias-zucchi_mwziihamszrj_01.mp4|x 
+- 2026-11-27T22:00 recibido bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok 
+- 2026-11-27T22:00 recibido web:bffe1368-85f3-48b9-a81a-a5a472c88afe|x la misma noticia ya sale en X (Reels del bot, pendiente)
+- 2026-11-27T22:00 programado bot:video_matias-zucchi_mwziihamszrj_01.mp4|x 
