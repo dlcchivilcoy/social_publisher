@@ -1,0 +1,21 @@
+{
+ "id": "entrevistas:job00360",
+ "origen": "entrevistas",
+ "tipo": "video",
+ "generado": "2026-11-27T17:36:39.000Z",
+ "titulo": "Walter Siffer: \"Piazzolla se vende como Charly García\"",
+ "descripcion": "Mirá el video completo para conocer más.",
+ "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00360.mp4",
+ "duracion_seg": null,
+ "espera_youtube_publico": {
+  "short": "lyvrTUivdAI",
+  "largo": "agJZUpROMg4"
+ },
+ "youtube_url": "https://youtube.com/shorts/lyvrTUivdAI",
+ "prioridad": 7,
+ "entrevistado": "Walter Siffer",
+ "localidad": "Chivilcoy",
+ "plataformas": [
+  "x"
+ ]
+}
