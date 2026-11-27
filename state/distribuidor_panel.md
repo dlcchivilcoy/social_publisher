@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 13:40 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 14:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -13,11 +13,11 @@ Actualizado: 27/11/2026 13:40 (hora AR) · ACTIVO
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 18 enviadas + 0 programadas de 100 por día
+- X: conectado · Buffer: 19 enviadas + 0 programadas de 100 por día
 - TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 37 con métricas · mediana vistas/impresiones 80 · likes 0
+- X · Recortes de entrevistas: 36 con métricas · mediana vistas/impresiones 77.5 · likes 0
 - X · Reels del bot: 11 con métricas · mediana vistas/impresiones 71 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
 - X · Notas web: 103 con métricas · mediana vistas/impresiones 23 · likes 0
@@ -34,7 +34,6 @@ Actualizado: 27/11/2026 13:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T10:40 enviado web:d8227d2d-fc78-4fa7-8572-e2873ba15670|x 
 - 2026-11-27T10:40 programado web:be6e81ab-17b2-4338-80bd-01f750a85d0f|x 
 - 2026-11-27T10:40 programado web:acddc0ea-365f-4fd8-a6ff-85ede5935e71|x 
 - 2026-11-27T11:00 programado web:45099b95-c331-4cfc-8065-4d8d9dd70046|x 
@@ -59,3 +58,4 @@ Actualizado: 27/11/2026 13:40 (hora AR) · ACTIVO
 - 2026-11-27T16:40 recibido entrevistas:job00358|x 
 - 2026-11-27T16:40 recibido entrevistas:job00358|tiktok 
 - 2026-11-27T16:40 programado entrevistas:job00358|x 
+- 2026-11-27T17:00 enviado entrevistas:job00358|x 
