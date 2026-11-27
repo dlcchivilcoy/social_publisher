@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 5
+    "sent": 0
    },
    "pausado": false,
-   "visto": "2026-11-27T02:40:23.000Z"
+   "visto": "2026-11-27T09:40:13.000Z"
   },
   "x": {
    "desconectado": false,
@@ -25,11 +25,11 @@
     "channelId": "6acbfabe778b240e2fdcc1b9",
     "isAtLimit": false,
     "limit": 100,
-    "scheduled": 0,
+    "scheduled": 3,
     "sent": 15
    },
    "pausado": false,
-   "visto": "2026-11-27T02:40:23.000Z"
+   "visto": "2026-11-27T09:40:13.000Z"
   }
  },
  "contenidos": {
@@ -12211,14 +12211,14 @@
    "viral": false
   },
   "web:07d8b695-b237-4c82-8347-6e7a62f222ca|x": {
-   "actualizado": "2026-11-27T09:04:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-27T09:40:14.000Z",
+   "buffer_id": "6b094ffe658222306cfe9f5b",
    "clave": "web:07d8b695-b237-4c82-8347-6e7a62f222ca|x",
    "creado": "2026-11-27T09:04:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-27T10:54:38.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-27T09:01:40.913Z",
    "id": "web:07d8b695-b237-4c82-8347-6e7a62f222ca",
    "ig_hora": "2026-11-27T10:54:05.000Z",
@@ -13762,14 +13762,14 @@
    "viral": false
   },
   "web:3e30bac7-6cae-49f8-9258-347ccbb5faf6|x": {
-   "actualizado": "2026-11-27T09:04:17.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-27T09:40:14.000Z",
+   "buffer_id": "6b094ffe062ed764a8018a8e",
    "clave": "web:3e30bac7-6cae-49f8-9258-347ccbb5faf6|x",
    "creado": "2026-11-27T09:04:17.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-27T11:09:33.000Z",
    "error": "",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-27T09:01:45.483Z",
    "id": "web:3e30bac7-6cae-49f8-9258-347ccbb5faf6",
    "ig_hora": "2026-11-27T11:09:05.000Z",
@@ -17064,19 +17064,20 @@
    "viral": false
   },
   "web:ca6740a0-8b3c-4402-895d-3e4a1450e101|x": {
-   "actualizado": "2026-11-27T09:05:31.000Z",
+   "actualizado": "2026-11-27T09:40:13.000Z",
    "buffer_id": "6b0947dd776ce21276010385",
    "clave": "web:ca6740a0-8b3c-4402-895d-3e4a1450e101|x",
    "creado": "2026-11-27T09:04:17.000Z",
    "dueAt": "2026-11-27T09:39:25.000Z",
+   "enviado": "2026-11-27T09:39:31.160Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-27T09:01:07.082Z",
    "id": "web:ca6740a0-8b3c-4402-895d-3e4a1450e101",
    "ig_hora": "2026-11-27T09:39:05.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2126249548691456398",
    "nota_url": "https://www.diariolacampaña.com.ar/n/campana-solidaria-chivilcoy-federico-fage-detallo-las-actividades",
    "noticia": "nota:campana-solidaria-chivilcoy-federico-fage-detallo-las-actividades",
    "origen": "web",
@@ -17676,19 +17677,20 @@
    "viral": false
   },
   "web:dd73165f-97fa-44c4-a931-0cc77c9c80f5|x": {
-   "actualizado": "2026-11-27T09:05:31.000Z",
+   "actualizado": "2026-11-27T09:40:13.000Z",
    "buffer_id": "6b0947dc776ce2127600ffac",
    "clave": "web:dd73165f-97fa-44c4-a931-0cc77c9c80f5|x",
    "creado": "2026-11-27T09:04:17.000Z",
    "dueAt": "2026-11-27T09:24:57.000Z",
+   "enviado": "2026-11-27T09:25:03.918Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-27T09:00:58.753Z",
    "id": "web:dd73165f-97fa-44c4-a931-0cc77c9c80f5",
    "ig_hora": "2026-11-27T09:24:05.000Z",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2126245911105876017",
    "nota_url": "https://www.diariolacampaña.com.ar/n/allanamientos-y-aprehensiones-dos-hechos-delictivos-esclarecidos-en",
    "noticia": "nota:allanamientos-y-aprehensiones-dos-hechos-delictivos-esclarecidos-en",
    "origen": "web",
@@ -18658,31 +18660,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "web:265a42c3-bd6d-4c58-bb99-66ce3bccf594|x",
-   "cuando": "2026-11-20T17:20:14.000Z",
-   "evento": "depurado",
-   "motivo": "de la web, a X solo van las notas del diario de la mañana"
-  },
-  {
-   "clave": "entrevistas:job00332|x",
-   "cuando": "2026-11-20T17:20:15.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123826559924498751"
-  },
-  {
-   "clave": "entrevistas:job00333",
-   "cuando": "2026-11-20T17:40:15.000Z",
-   "evento": "entrevista_aprobada"
-  },
-  {
-   "clave": "entrevistas:job00333|x",
-   "cuando": "2026-11-20T17:40:21.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "entrevistas"
-  },
   {
    "clave": "entrevistas:job00333|tiktok",
    "cuando": "2026-11-20T17:40:21.000Z",
@@ -22829,6 +22806,32 @@
    "cuando": "2026-11-27T09:20:15.000Z",
    "dueAt": "2026-11-27T10:39:02.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "web:ca6740a0-8b3c-4402-895d-3e4a1450e101|x",
+   "cuando": "2026-11-27T09:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2126249548691456398"
+  },
+  {
+   "clave": "web:dd73165f-97fa-44c4-a931-0cc77c9c80f5|x",
+   "cuando": "2026-11-27T09:40:14.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2126245911105876017"
+  },
+  {
+   "buffer_id": "6b094ffe658222306cfe9f5b",
+   "clave": "web:07d8b695-b237-4c82-8347-6e7a62f222ca|x",
+   "cuando": "2026-11-27T09:40:14.000Z",
+   "dueAt": "2026-11-27T10:54:38.000Z",
+   "evento": "programado"
+  },
+  {
+   "buffer_id": "6b094ffe062ed764a8018a8e",
+   "clave": "web:3e30bac7-6cae-49f8-9258-347ccbb5faf6|x",
+   "cuando": "2026-11-27T09:40:14.000Z",
+   "dueAt": "2026-11-27T11:09:33.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22866,7 +22869,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-27",
- "ultima_sync": "2026-11-27T02:40:23.000Z",
+ "ultima_sync": "2026-11-27T09:40:13.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 06:20 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 06:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,12 +9,12 @@ Actualizado: 27/11/2026 06:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Notas web | X | 15 | 0 | 5 | 10 | 0 | 1 | 0 |
+| Notas web | X | 15 | 2 | 5 | 8 | 0 | 1 | 0 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
-- X: conectado · Buffer: 15 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 5 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- X: conectado · Buffer: 15 enviadas + 3 programadas de 100 por día
+- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 33 con métricas · mediana vistas/impresiones 83 · likes 0
@@ -27,15 +27,13 @@ Actualizado: 27/11/2026 06:20 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (10 esperando)
+## Cola propia (8 esperando)
 - X · Notas web · Chivilcoy: Nuevo acompañamiento al deporte local: se realizó la entrega de aport — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: “El éxito deportivo contrastó con las dificultades financieras que at — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Liga Nacional: Matías Morera dejó de ser jugador de Racing de Chivilcoy — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: El clásico moderno define al campeón del Torneo Clausura de Primera D — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Con convicción desde los doce pasos, Super Moli logró llegar a la Gra — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Torneo Clausura de Primera División: Quedaron programados los octavos — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · El Frente Grande realiza su Primer Encuentro de la Militancia de la Cuarta Secci — espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- X · Notas web · Chivilcoy: Contra la violencia machista: memoria, arte y reclamo en la Plaza Fem — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Esteban Fitzsimons repasó el crecimiento de Ril Store y anticipó la d — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 - X · Notas web · Chivilcoy: Allanamiento por comercialización de drogas: secuestro de cocaína y e — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
@@ -43,10 +41,6 @@ Actualizado: 27/11/2026 06:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T09:00 recibido web:8bab1cce-2b2a-4883-99b7-a4921e1c962f|x 
-- 2026-11-27T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34858 espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-27T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34858 espera su momento (se programa cerca de la hora en que sale en las otras redes)
-- 2026-11-27T09:00 vencido policiales:https://www.diariodemocracia.com/policiales/34857 no hubo lugar antes de su vencimiento
 - 2026-11-27T09:00 vencido web:8bab1cce-2b2a-4883-99b7-a4921e1c962f|x no hubo lugar antes de su vencimiento
 - 2026-11-27T09:04 recibido web:c66c0930-d138-4fc8-8d12-3e032d463aa5|x 
 - 2026-11-27T09:04 recibido web:de88d412-54b4-470f-b2e9-11fac9bfc287|x 
@@ -68,3 +62,7 @@ Actualizado: 27/11/2026 06:20 (hora AR) · ACTIVO
 - 2026-11-27T09:05 programado web:d8227d2d-fc78-4fa7-8572-e2873ba15670|x 
 - 2026-11-27T09:05 programado web:708b3dc3-89c1-4021-87b6-cceb80ad74dc|x 
 - 2026-11-27T09:20 programado web:7c6388e1-93d2-4dbd-bdda-d196e57cc139|x 
+- 2026-11-27T09:40 enviado web:ca6740a0-8b3c-4402-895d-3e4a1450e101|x 
+- 2026-11-27T09:40 enviado web:dd73165f-97fa-44c4-a931-0cc77c9c80f5|x 
+- 2026-11-27T09:40 programado web:07d8b695-b237-4c82-8347-6e7a62f222ca|x 
+- 2026-11-27T09:40 programado web:3e30bac7-6cae-49f8-9258-347ccbb5faf6|x 
