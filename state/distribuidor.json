@@ -1430,6 +1430,32 @@
    "volanta": "Vuelco en la Ruta 188",
    "youtube_url": "https://youtube.com/shorts/qnOLTSSG7P0"
   },
+  "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal": {
+   "categoria": "accidente_vial",
+   "descripcion": "Un conductor de 30 años falleció este martes tras un violento impacto frontal contra un camión en la Ruta Nacional 5, a la altura del partido de Nueve de Julio. El camionero resultó sin lesiones y la policía científica trabaja en el lugar para esclarecer el trágico suceso.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-27T02:01:19.000Z",
+   "id": "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal",
+   "localidad": "Nueve de Julio",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/nueve-de-julio-un-automovilista-de-30-anos-murio-en-un-choque-d3b344",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 9,
+   "radio_ok": true,
+   "texto_tiktok": "Un automovilista de 30 años perdió la vida este martes por la mañana tras chocar contra un camión en la Ruta Nacional 5.\n\nEl fatal siniestro se produjo cerca de las 06:30 a la altura del partido de Nueve de Julio, cuando un transporte de carga invadió el carril contrario por motivos que se investigan.\n\nComo consecuencia del violento impacto frontal contra un Volkswagen Bora gris, el conductor del rodado menor falleció en el acto en el lugar del hecho.\n\nPor su parte, el chofer del camión, oriundo de Río Negro, resultó ileso mientras personal policial y de emergencias realizaba las peritajes correspondientes.\n\n📲 Más noticias de Nueve de Julio en www.diariolacampaña.com.ar\n\n#NueveDeJulio #SiniestroVial #Ruta5 #BuenosAires",
+   "tipo": "video",
+   "titulo": "Nueve de Julio: automovilista de 30 años murió en un violento choque en la Ruta 5",
+   "urgente": false,
+   "video_bytes": 94217,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-27_0132_01_junin_nueve-de-julio-automovilista-d.mp4",
+   "volanta": "Choque en Nueve de Julio",
+   "youtube_url": "https://youtube.com/shorts/zKzY67oHZaQ"
+  },
   "policiales:https://junin24.com/policiales/operativos-en-junin-recuperaron-una-motocicleta-robada-en-el-barrio-foetra-y-una-bicicleta-sustraida-tras-un-allanamiento": {
    "categoria": "robo",
    "descripcion": "La policía recuperó una moto y una bicicleta en distintos procedimientos. Además, aprehendieron a tres sujetos por tentativa de robo, disturbios e incumplimiento de una medida cautelar.",
@@ -1559,32 +1585,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_06_san-andres-de-giles_excarcelaron-al-joven-de-18-a-.mp4",
    "volanta": "San Andrés de Giles",
    "youtube_url": "https://youtube.com/shorts/EbfbWKnvI_I"
-  },
-  "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/": {
-   "categoria": "otro_policial",
-   "descripcion": "Jorge Limonta, de quien no se precisó la edad, falleció anoche en la calle Rivadavia al ser atropellado por un motovehículo que iba a gran velocidad. El Municipio decretó duelo comunal.",
-   "distancia_km": 72.7,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-17T00:03:11.000Z",
-   "id": "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/",
-   "localidad": "San Andrés de Giles",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-murio-jorge-limonta-tras-ser-atropellado-4676b5",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 9,
-   "radio_ok": true,
-   "texto_tiktok": "Jorge Limonta falleció anoche en la zona céntrica de San Andrés de Giles.\n\nEl trágico episodio ocurrió cerca de las 23 sobre la calle Rivadavia.\n\nLa víctima murió luego de ser impactada por un motovehículo que circulaba a gran velocidad.\n\nEl hecho es investigado como homicidio culposo y el Municipio decretó duelo mediante el Decreto 1617/2026.\n\n📲 Más noticias de San Andrés de Giles en www.diariolacampaña.com.ar\n\n#SanAndresDeGiles #SiniestroVial #SeguridadVial #BuenosAires",
-   "tipo": "video",
-   "titulo": "Murió Jorge Limonta tras ser atropellado por una moto en San Andrés de Giles",
-   "urgente": false,
-   "video_bytes": 84030,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_09_san-andres-de-giles_muri-jorge-limonta-tras-ser-at.mp4",
-   "volanta": "San Andrés de Giles",
-   "youtube_url": "https://youtube.com/shorts/de1sbNZs3FM"
   },
   "policiales:https://noticiasmercedes.com/policia-de-mercedes-condenado-por-abusos-sexuales-en-su-casa-cobrando-2-364-000/": {
    "categoria": "judicial",
@@ -2261,6 +2261,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_01_chacabuco_aprehendieron-a-un-menor-de-15.mp4",
    "volanta": "Operativo policial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/kmhoBuOQHlw"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu": {
+   "categoria": "robo",
+   "descripcion": "Cayó un hombre vinculado al asalto a una comerciante en Necochea y Juan B. Justo. Le sustrajeron billetes, el aparato móvil y efectos personales. La UFI 6 interviene en el caso.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-27T02:18:21.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-sospechoso-tras-un-robo-en-necochea-y-af27b7",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un individuo fue arrestado por personal policial tras ser sindicado como el autor de un violento asalto callejero.\n\nEl episodio tuvo lugar en la intersección de Necochea y Juan B.\n\nJusto, donde una comerciante fue interceptada y despojada de sus pertenencias personales.\n\nLos investigadores analizaron registros fílmicos municipales para identificar al sospechoso y concretar su captura horas más tarde.\n\nLa Unidad Funcional de Instrucción número 6 encabeza las diligencias judiciales correspondientes al caso.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Robo #Policiales #Seguridad #BuenosAires",
+   "tipo": "video",
+   "titulo": "Detuvieron a un sospechoso por robar una cartera tras un forcejeo",
+   "urgente": false,
+   "video_bytes": 76194,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-27_0132_02_chacabuco_detuvieron-a-un-sospechoso-por.mp4",
+   "volanta": "Robo en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/1R4VU4sP77o"
   },
   "policiales:https://www.junindigital.com/policiales/2026-11-19-10-15-0-junin-dos-hombres-aprehendidos-tras-esclarecer-un-robo-a-un-comercio": {
    "categoria": "robo",
@@ -10373,6 +10399,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-26_0134_04_junin_volc-una-camioneta-en-la-ruta-.mp4",
    "viral": false
   },
+  "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal|x": {
+   "actualizado": "2026-11-27T02:20:26.000Z",
+   "buffer_id": "6b08e8ea70e2a88e2cecfb85",
+   "clave": "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal|x",
+   "creado": "2026-11-27T02:20:16.000Z",
+   "dueAt": "2026-11-27T02:23:47.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-27T02:01:19.000Z",
+   "id": "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/nueve-de-julio-un-automovilista-de-30-anos-murio-en-un-choque-d3b344",
+   "noticia": "nota:nueve-de-julio-un-automovilista-de-30-anos-murio-en-un-choque-d3b344",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 9,
+   "texto": "Nueve de Julio: automovilista de 30 años murió en un violento choque en la Ruta 5\n\nEl impacto frontal fue contra un camión, cuyo chofer resultó ileso.\n\nhttps://www.diariolacampaña.com.ar/n/nueve-de-julio-un-automovilista-de-30-anos-murio-en-un-choque-d3b344",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Nueve de Julio: automovilista de 30 años murió en un violento choque en la Ruta 5",
+   "urgente": false,
+   "vence": "2026-11-27T04:01:19.000Z",
+   "video_bytes": 94217,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-27_0132_01_junin_nueve-de-julio-automovilista-d.mp4",
+   "viral": true
+  },
   "policiales:https://junin24.com/policiales/operativos-en-junin-recuperaron-una-motocicleta-robada-en-el-barrio-foetra-y-una-bicicleta-sustraida-tras-un-allanamiento|x": {
    "actualizado": "2026-11-26T09:00:20.000Z",
    "buffer_id": "",
@@ -10520,34 +10574,6 @@
    "video_bytes": 99528,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-20_0132_06_san-andres-de-giles_excarcelaron-al-joven-de-18-a-.mp4",
    "viral": false
-  },
-  "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/|x": {
-   "actualizado": "2026-11-17T02:20:20.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/|x",
-   "creado": "2026-11-17T00:20:16.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-17T00:03:11.000Z",
-   "id": "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/san-andres-de-giles-murio-jorge-limonta-tras-ser-atropellado-4676b5",
-   "noticia": "nota:san-andres-de-giles-murio-jorge-limonta-tras-ser-atropellado-4676b5",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 9,
-   "texto": "Murió Jorge Limonta tras ser atropellado por una moto en San Andrés de Giles\n\nJorge Limonta, de quien no se precisó la edad, falleció anoche en la calle Rivadavia al ser atropellado por un motovehículo que iba a gran velocidad.\n\nhttps://www.diariolacampaña.com.ar/n/san-andres-de-giles-murio-jorge-limonta-tras-ser-atropellado-4676b5",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Murió Jorge Limonta tras ser atropellado por una moto en San Andrés de Giles",
-   "urgente": false,
-   "vence": "2026-11-17T02:03:11.000Z",
-   "video_bytes": 84030,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_09_san-andres-de-giles_muri-jorge-limonta-tras-ser-at.mp4",
-   "viral": true
   },
   "policiales:https://noticiasmercedes.com/policia-de-mercedes-condenado-por-abusos-sexuales-en-su-casa-cobrando-2-364-000/|x": {
    "actualizado": "2026-11-20T09:00:29.000Z",
@@ -11299,6 +11325,34 @@
    "vence": "2026-11-24T04:01:50.000Z",
    "video_bytes": 85478,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_01_chacabuco_aprehendieron-a-un-menor-de-15.mp4",
+   "viral": false
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu|x": {
+   "actualizado": "2026-11-27T02:20:16.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu|x",
+   "creado": "2026-11-27T02:20:16.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-27T02:18:21.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-sospechoso-tras-un-robo-en-necochea-y-af27b7",
+   "noticia": "nota:chacabuco-detuvieron-a-un-sospechoso-tras-un-robo-en-necochea-y-af27b7",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Detuvieron a un sospechoso por robar una cartera tras un forcejeo\n\nCayó un hombre vinculado al asalto a una comerciante en Necochea y Juan B. Justo. Le sustrajeron billetes, el aparato móvil y efectos personales. La UFI 6 interviene en el caso.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-detuvieron-a-un-sospechoso-tras-un-robo-en-necochea-y-af27b7",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Detuvieron a un sospechoso por robar una cartera tras un forcejeo",
+   "urgente": false,
+   "vence": "2026-11-27T04:18:21.000Z",
+   "video_bytes": 76194,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-27_0132_02_chacabuco_detuvieron-a-un-sospechoso-por.mp4",
    "viral": false
   },
   "policiales:https://www.junindigital.com/policiales/2026-11-19-10-15-0-junin-dos-hombres-aprehendidos-tras-esclarecer-un-robo-a-un-comercio|x": {
@@ -17859,26 +17913,6 @@
  },
  "registro": [
   {
-   "clave": "web:f78304d9-a338-4cad-a91c-4dbb95f32587|x",
-   "cuando": "2026-11-20T10:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123708806676832619"
-  },
-  {
-   "buffer_id": "6b001edfc0a7142f84af200f",
-   "clave": "web:8e817278-db9c-4cf6-92d0-f5c02816d27d|x",
-   "cuando": "2026-11-20T10:20:15.000Z",
-   "dueAt": "2026-11-20T11:38:47.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6b00238dc0a7142f84b0db7e",
-   "clave": "web:82c6f999-2e95-44a6-8a0a-611e9c4d8d0e|x",
-   "cuando": "2026-11-20T10:40:13.000Z",
-   "dueAt": "2026-11-20T11:53:55.000Z",
-   "evento": "programado"
-  },
-  {
    "buffer_id": "6b00238d39116a845dcc85c2",
    "clave": "web:c6713e1d-61d9-4e84-b151-556ac94ad1d6|x",
    "cuando": "2026-11-20T10:40:13.000Z",
@@ -22003,6 +22037,29 @@
    "cuando": "2026-11-27T00:20:16.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7712635293282667782"
+  },
+  {
+   "clave": "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal|x",
+   "cuando": "2026-11-27T02:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu|x",
+   "cuando": "2026-11-27T02:20:26.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "buffer_id": "6b08e8ea70e2a88e2cecfb85",
+   "clave": "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal|x",
+   "cuando": "2026-11-27T02:20:26.000Z",
+   "dueAt": "2026-11-27T02:23:47.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22264,6 +22321,7 @@
   "policiales:https://junin24.com/locales/tratan-de-recuperar-una-bicicleta-robada": "2026-11-24T09:00:22.000Z",
   "policiales:https://junin24.com/locales/vuelco-en-ruta-188-involucro-a-operarios-que-regresaban-a-san-nicolas-tras-haber-terminado-de-trabajar-en-junin": "2026-11-26T02:20:23.000Z",
   "policiales:https://junin24.com/noticias/chivilcoy-un-joven-de-22-anos-murio-tras-un-choque-entre-dos-motocicletas": "2026-11-15T23:20:14.000Z",
+  "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal": "2026-11-27T02:20:16.000Z",
   "policiales:https://junin24.com/policiales/esclarecen-un-hurto-tras-un-allanamiento-en-el-barrio-la-celeste-y-atrapan-a-un-sujeto-que-intento-entrar-a-una-casa-con-destornilladores": "2026-11-14T22:40:13.000Z",
   "policiales:https://junin24.com/policiales/esclarecieron-el-robo-de-una-bicicleta-en-el-diario-democracia-y-aprehendieron-a-un-sujeto-por-violencia-de-genero": "2026-11-03T00:40:17.000Z",
   "policiales:https://junin24.com/policiales/la-ddi-junin-esclarecio-hurtos-cometidos-con-inhibidores-de-senal-tras-un-allanamiento-de-urgencia": "2026-11-04T00:40:13.000Z",
@@ -22354,6 +22412,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna": "2026-11-24T09:00:22.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348453-apunalaron-a-un-joven-en-calle-belgrano-y-aprehend": "2026-11-24T02:20:22.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348457-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de": "2026-11-24T02:20:22.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu": "2026-11-27T02:20:16.000Z",
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": "2026-10-29T23:40:14.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-11-11-10-17-0-junin-persecucion-tras-una-fuga-en-la-ruta-188-y-recuperan-una-moto-robada-que-conducia-un-menor": "2026-11-11T23:20:14.000Z",

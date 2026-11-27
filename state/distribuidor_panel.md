@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 26/11/2026 23:00 (hora AR) · ACTIVO
+Actualizado: 26/11/2026 23:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-26)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -8,7 +8,7 @@ Actualizado: 26/11/2026 23:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | TikTok | 10 | 4 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Reels policiales | X | 6 | 0 | 1 | 1 | 0 | 0 | 0 |
 | Notas web | X | 15 | 9 | 0 | 0 | 0 | 0 | 15 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -27,15 +27,13 @@ Actualizado: 26/11/2026 23:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (0 esperando)
+## Cola propia (1 esperando)
+- X · Reels policiales · Detuvieron a un sospechoso por robar una cartera tras un forcejeo — espera su momento (se programa cerca de la hora en que sale en las otras redes)
 
 ## Errores recientes
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-26T19:40 recibido entrevistas:job00357|tiktok 
-- 2026-11-26T19:40 enviado entrevistas:job00356|x 
-- 2026-11-26T19:40 programado entrevistas:job00357|x 
 - 2026-11-26T20:40 enviado entrevistas:job00357|x 
 - 2026-11-26T21:00 programado entrevistas:job00357|tiktok 
 - 2026-11-26T21:00 programado entrevistas:job00356|tiktok 
@@ -58,3 +56,6 @@ Actualizado: 26/11/2026 23:00 (hora AR) · ACTIVO
 - 2026-11-27T00:00 depurado web:fe556d60-4cc4-452b-bf71-ab8a6a4dd680|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-27T00:00 programado bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok 
 - 2026-11-27T00:20 enviado bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok 
+- 2026-11-27T02:20 recibido policiales:https://junin24.com/noticias/violento-choque-entr 
+- 2026-11-27T02:20 recibido policiales:https://www.diariodemocracia.com/policiales/34858 
+- 2026-11-27T02:20 programado policiales:https://junin24.com/noticias/violento-choque-entr 
