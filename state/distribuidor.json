@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 0
+    "sent": 1
    },
    "pausado": false,
-   "visto": "2026-11-27T13:00:21.000Z"
+   "visto": "2026-11-27T14:00:21.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 18
    },
    "pausado": false,
-   "visto": "2026-11-27T13:00:21.000Z"
+   "visto": "2026-11-27T14:00:21.000Z"
   }
  },
  "contenidos": {
@@ -7346,19 +7346,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok": {
-   "actualizado": "2026-11-27T13:00:22.000Z",
+   "actualizado": "2026-11-27T14:00:21.000Z",
    "buffer_id": "6b097ee7e94385a8fda6a320",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok",
    "creado": "2026-11-27T11:40:19.000Z",
    "dueAt": "2026-11-27T13:03:32.000Z",
+   "enviado": "2026-11-27T13:11:08.891Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-27T11:37:15.000Z",
    "id": "bot:video_matias-zucchi_mwywfyb710ld_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7712837639698664725",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-sociedad-chivilcoy-bomberos-voluntarios-realizo-el-pase-a",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -18379,12 +18380,6 @@
  },
  "registro": [
   {
-   "clave": "entrevistas:job00336|tiktok",
-   "cuando": "2026-11-20T21:40:19.000Z",
-   "evento": "enviado",
-   "link": "https://tiktok.com/@diarioyradio/video/7710362364000013588"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mwpjplbs46th_01.mp4|x",
    "cuando": "2026-11-20T22:40:22.000Z",
    "estado": "pendiente",
@@ -22543,6 +22538,12 @@
    "cuando": "2026-11-27T13:00:23.000Z",
    "dueAt": "2026-11-27T13:03:32.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok",
+   "cuando": "2026-11-27T14:00:23.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7712837639698664725"
   }
  ],
  "tandas": {
@@ -22580,7 +22581,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-27",
- "ultima_sync": "2026-11-27T13:00:21.000Z",
+ "ultima_sync": "2026-11-27T14:00:21.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",

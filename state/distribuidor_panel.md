@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 10:40 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 11:00 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 27/11/2026 10:40 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 20 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 1 | 4 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 18 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 0 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 37 con métricas · mediana vistas/impresiones 80 · likes 0
@@ -33,7 +33,6 @@ Actualizado: 27/11/2026 10:40 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T09:40 programado web:3e30bac7-6cae-49f8-9258-347ccbb5faf6|x 
 - 2026-11-27T10:00 depurado web:91c0aa8b-9aaf-43ba-b968-8de8f756b954|x no está en el carrusel del diario de hoy
 - 2026-11-27T10:00 depurado web:c25e06c6-b03a-4b49-9eb0-c0ab16fd8fa8|x no está en el carrusel del diario de hoy
 - 2026-11-27T10:00 depurado web:c66c0930-d138-4fc8-8d12-3e032d463aa5|x no está en el carrusel del diario de hoy
@@ -58,3 +57,4 @@ Actualizado: 27/11/2026 10:40 (hora AR) · ACTIVO
 - 2026-11-27T13:00 enviado web:be6e81ab-17b2-4338-80bd-01f750a85d0f|x 
 - 2026-11-27T13:00 enviado web:de88d412-54b4-470f-b2e9-11fac9bfc287|x 
 - 2026-11-27T13:00 programado bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok 
+- 2026-11-27T14:00 enviado bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok 
