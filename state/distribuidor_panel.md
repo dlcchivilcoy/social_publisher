@@ -1,12 +1,12 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 19:20 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 19:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 1 | 4 | 0 | 0 | 0 | 0 |
-| Reels del bot | X | 10 | 0 | 1 | 0 | 0 | 0 | 1 |
+| Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
+| Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 1 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 1 | 7 |
@@ -14,15 +14,15 @@ Actualizado: 27/11/2026 19:20 (hora AR) · ACTIVO
 
 ## Canales
 - X: conectado · Buffer: 19 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 2 enviadas + 4 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 33 con métricas · mediana vistas/impresiones 80 · likes 0
 - X · Reels del bot: 10 con métricas · mediana vistas/impresiones 84 · likes 0
-- X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
+- X · Reels policiales: 8 con métricas · mediana vistas/impresiones 87 · likes 0
 - X · Notas web: 103 con métricas · mediana vistas/impresiones 23 · likes 0
-- TikTok · Recortes de entrevistas: 38 con métricas · mediana vistas/impresiones 147 · likes 1
-- TikTok · Reels del bot: 12 con métricas · mediana vistas/impresiones 201.5 · likes 3.5
+- TikTok · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 139 · likes 1
+- TikTok · Reels del bot: 11 con métricas · mediana vistas/impresiones 178 · likes 3
 
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
@@ -34,11 +34,6 @@ Actualizado: 27/11/2026 19:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T17:40 programado entrevistas:job00360|x 
-- 2026-11-27T18:00 enviado entrevistas:job00359|x 
-- 2026-11-27T18:00 enviado entrevistas:job00360|x 
-- 2026-11-27T18:20 entrevista_aprobada entrevistas:job00361 
-- 2026-11-27T18:20 recibido entrevistas:job00361|x 
 - 2026-11-27T18:20 recibido entrevistas:job00361|tiktok 
 - 2026-11-27T18:20 programado entrevistas:job00361|x 
 - 2026-11-27T19:00 entrevista_aprobada entrevistas:job00362 
@@ -59,3 +54,8 @@ Actualizado: 27/11/2026 19:20 (hora AR) · ACTIVO
 - 2026-11-27T22:00 recibido bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok 
 - 2026-11-27T22:00 recibido web:bffe1368-85f3-48b9-a81a-a5a472c88afe|x la misma noticia ya sale en X (Reels del bot, pendiente)
 - 2026-11-27T22:00 programado bot:video_matias-zucchi_mwziihamszrj_01.mp4|x 
+- 2026-11-27T22:40 enviado bot:video_matias-zucchi_mwziihamszrj_01.mp4|x 
+- 2026-11-27T22:40 enviado entrevistas:job00358|tiktok 
+- 2026-11-27T22:40 enviado entrevistas:job00359|tiktok 
+- 2026-11-27T22:40 enviado entrevistas:job00360|tiktok 
+- 2026-11-27T22:40 enviado entrevistas:job00361|tiktok 
