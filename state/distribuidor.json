@@ -1207,6 +1207,27 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00360.mp4",
    "youtube_url": "https://youtu.be/agJZUpROMg4"
   },
+  "entrevistas:job00361": {
+   "descripcion": "Bettina Casselli, presidenta del Centro de Jubilados JOTA de Chivilcoy, destacó con orgullo que Horacio Cavallo, exdocente de 86 años, abrirá el evento institucional tocando el acordeón.",
+   "duracion_seg": null,
+   "entrevistado": "Bettina Casselli",
+   "generado": "2026-11-27T18:20:25.000Z",
+   "id": "entrevistas:job00361",
+   "localidad": "Chivilcoy",
+   "origen": "entrevistas",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "tipo": "video",
+   "titulo": "Bettina Casselli: Horacio Cavallo tocará a sus 86 años",
+   "urgente": false,
+   "video_bytes": 19168546,
+   "video_mb": 18.3,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00361.mp4",
+   "youtube_url": "https://youtu.be/RO02_Qsntwc"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -5860,25 +5881,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/operativo-provincial-allanamientos-en-marcos-paz-chivilcoy-salto-y",
    "volanta": "Operativo Provincial"
   },
-  "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97": {
-   "categoria": "",
-   "descripcion": "Chivilcoy: Baja presión de agua por una falla eléctrica en ABSA CHIVILCOY.– El desperfecto afecta al sistema central que abastece a la ciudad. Personal de ABSA y EDEN trabaja para reparar la instalación y recuperar el servicio. Una falla eléctrica en la planta principal de ABSA provoca una baja generalizada en la presión del agua en Chivilcoy este martes 17 de noviembre. Según la información difundida por la prestataria, los inconvenientes comenzaron durante el temporal de la noche del lunes,...",
-   "generado": "2026-11-17T18:00:19.230Z",
-   "id": "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_c7700c53deb04488aed262d2733a43f6~mv2.jpg",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Baja presión de agua por una falla eléctrica en ABSA",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla",
-   "volanta": "Chivilcoy · Servicios"
-  },
   "web:ec55e592-9c0f-4539-8414-481ecbfa2719": {
    "categoria": "",
    "descripcion": "Chivilcoy: Liga Desarrollo: Racing festejó en casa y se metió en la pelea; Instituto sigue invicto Con Tomás Delía como figura en el Grilon Arena, Racing de Chivilcoy superó 85-77 a Lanús en un cruce directo de la zona media. Más arriba, Instituto estiró a nueve su racha ganadora tras vencer 71-52 a San Lorenzo. La Liga de Desarrollo dejó dos postales bien marcadas en sus últimas presentaciones: la necesidad de hacerse fuerte en casa para acomodarse en la tabla y la solidez de un líder que...",
@@ -7329,43 +7331,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00321.mp4",
    "viral": false
   },
-  "entrevistas:job00321|x": {
-   "actualizado": "2026-11-17T18:00:35.000Z",
-   "buffer_id": "6afc91870ec7d2b08236499e",
-   "clave": "entrevistas:job00321|x",
-   "creado": "2026-11-17T17:40:16.000Z",
-   "dueAt": "2026-11-17T17:42:33.000Z",
-   "enviado": "2026-11-17T17:42:53.891Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-17T17:40:16.000Z",
-   "id": "entrevistas:job00321",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122747316645789776",
-   "metricas": {
-    "clicks": 0,
-    "comments": 0,
-    "engagementRate": 0,
-    "impressions": 69,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "",
-   "noticia": "titulo:alejandro-aviones-diguardi-plata-terapias",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Alejandro Diguardi: \"Hay plata para aviones y no para terapias\"\n\nAlejandro Diguardi cuestionó el gasto del Estado ante la falta de fondos para el autismo. Reclamó que la cobertura de estas terapias es una decisión política urgente.\n\nhttps://youtu.be/DnZsYgQlmaY",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Alejandro Diguardi: \"Hay plata para aviones y no para terapias\"",
-   "urgente": false,
-   "vence": "2026-11-17T19:40:16.000Z",
-   "video_bytes": 24860459,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00321.mp4",
-   "viral": false
-  },
   "entrevistas:job00322-r1|tiktok": {
    "actualizado": "2026-11-17T22:40:13.000Z",
    "buffer_id": "6afcc068ea84dfa925468a92",
@@ -7401,31 +7366,6 @@
    "titulo": "Sandra Martinez: balance edilicio en escuelas de Chivilcoy",
    "urgente": false,
    "vence": "2026-11-19T18:20:12.000Z",
-   "video_bytes": 15071814,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00322_r1.mp4",
-   "viral": false
-  },
-  "entrevistas:job00322-r1|x": {
-   "actualizado": "2026-11-17T18:20:12.000Z",
-   "buffer_id": "",
-   "clave": "entrevistas:job00322-r1|x",
-   "creado": "2026-11-17T18:20:12.000Z",
-   "dueAt": "",
-   "error": "la misma noticia ya sale en X (Recortes de entrevistas, programado)",
-   "estado": "descartado",
-   "generado": "2026-11-17T18:20:12.000Z",
-   "id": "entrevistas:job00322-r1",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "",
-   "noticia": "titulo:balance-chivilcoy-edilicio-escuelas-martinez-sandra",
-   "origen": "entrevistas",
-   "plataforma": "x",
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Sandra Martinez: balance edilicio en escuelas de Chivilcoy",
-   "urgente": false,
-   "vence": "2026-11-17T20:20:12.000Z",
    "video_bytes": 15071814,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00322_r1.mp4",
    "viral": false
@@ -10309,6 +10249,62 @@
    "vence": "2026-11-27T19:40:15.000Z",
    "video_bytes": 13891465,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00360.mp4",
+   "viral": false
+  },
+  "entrevistas:job00361|tiktok": {
+   "actualizado": "2026-11-27T18:20:25.000Z",
+   "buffer_id": "",
+   "categoria": "",
+   "clave": "entrevistas:job00361|tiktok",
+   "creado": "2026-11-27T18:20:25.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
+   "estado": "pendiente",
+   "generado": "2026-11-27T18:20:25.000Z",
+   "id": "entrevistas:job00361",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "origen": "entrevistas",
+   "plataforma": "tiktok",
+   "prioridad": 7,
+   "texto": "Bettina Casselli: Horacio Cavallo tocará a sus 86 años\n\nBettina Casselli, presidenta del Centro de Jubilados JOTA de Chivilcoy, destacó con orgullo que Horacio Cavallo, exdocente de 86 años, abrirá el evento institucional tocando el acordeón.\n\nhttps://youtu.be/RO02_Qsntwc\n\n#chivilcoy #diariolacampaña #radiodelcentro",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bettina Casselli: Horacio Cavallo tocará a sus 86 años",
+   "urgente": false,
+   "vence": "2026-11-29T18:20:25.000Z",
+   "video_bytes": 19168546,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00361.mp4",
+   "viral": false
+  },
+  "entrevistas:job00361|x": {
+   "actualizado": "2026-11-27T18:20:25.000Z",
+   "buffer_id": "6b09c9ea77ae85b658506118",
+   "clave": "entrevistas:job00361|x",
+   "creado": "2026-11-27T18:20:25.000Z",
+   "dueAt": "2026-11-27T18:22:09.000Z",
+   "error": "",
+   "espera": "",
+   "estado": "programado",
+   "generado": "2026-11-27T18:20:25.000Z",
+   "id": "entrevistas:job00361",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:anos-bettina-casselli-cavallo-horacio-tocara",
+   "origen": "entrevistas",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Bettina Casselli: Horacio Cavallo tocará a sus 86 años\n\nBettina Casselli, presidenta del Centro de Jubilados JOTA de Chivilcoy, destacó con orgullo que Horacio Cavallo, exdocente de 86 años, abrirá el evento institucional tocando el acordeón.\n\nhttps://youtu.be/RO02_Qsntwc",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Bettina Casselli: Horacio Cavallo tocará a sus 86 años",
+   "urgente": false,
+   "vence": "2026-11-27T20:20:25.000Z",
+   "video_bytes": 19168546,
+   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00361.mp4",
    "viral": false
   },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
@@ -17534,33 +17530,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97|x": {
-   "actualizado": "2026-11-17T18:00:35.000Z",
-   "buffer_id": "",
-   "clave": "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97|x",
-   "creado": "2026-11-17T18:00:24.000Z",
-   "dueAt": "",
-   "error": "de la web, a X solo van las notas del diario de la mañana",
-   "estado": "descartado",
-   "generado": "2026-11-17T18:00:19.230Z",
-   "id": "web:eb8e0b3b-587b-40aa-8877-dbd82b928a97",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla",
-   "noticia": "nota:chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Chivilcoy: Baja presión de agua por una falla eléctrica en ABSA\n\nEl desperfecto afecta al sistema central que abastece a la ciudad. Personal de ABSA y EDEN trabaja para reparar la instalación y recuperar el servicio.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-baja-presion-de-agua-por-una-falla",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Chivilcoy: Baja presión de agua por una falla eléctrica en ABSA",
-   "urgente": false,
-   "vence": "2026-11-17T22:00:19.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:ec55e592-9c0f-4539-8414-481ecbfa2719|x": {
    "actualizado": "2026-11-20T13:40:17.000Z",
    "buffer_id": "6b002844c1f33e2aa5b8d313",
@@ -18151,35 +18120,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.junindigital.com/policiales/2026-11-20-11-53-0-secuestraron-un-volkswagen-gol-trend-y-aprehendieron-a-un-joven-en-junin|x",
-   "cuando": "2026-11-21T02:20:13.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "buffer_id": "6b00ffde5102766245ed32fc",
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html|x",
-   "cuando": "2026-11-21T02:20:14.000Z",
-   "dueAt": "2026-11-21T02:23:20.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/|x",
-   "cuando": "2026-11-21T02:40:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html|x",
-   "cuando": "2026-11-21T02:40:31.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123965511432020396"
-  },
   {
    "clave": "policiales:https://diariodelujan.com/operativo-por-abuso-sexual-infantil/|x",
    "cuando": "2026-11-21T09:00:30.000Z",
@@ -22314,6 +22254,34 @@
    "cuando": "2026-11-27T18:00:25.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2126371059104428297"
+  },
+  {
+   "clave": "entrevistas:job00361",
+   "cuando": "2026-11-27T18:20:25.000Z",
+   "evento": "entrevista_aprobada"
+  },
+  {
+   "clave": "entrevistas:job00361|x",
+   "cuando": "2026-11-27T18:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "clave": "entrevistas:job00361|tiktok",
+   "cuando": "2026-11-27T18:20:25.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "entrevistas"
+  },
+  {
+   "buffer_id": "6b09c9ea77ae85b658506118",
+   "clave": "entrevistas:job00361|x",
+   "cuando": "2026-11-27T18:20:26.000Z",
+   "dueAt": "2026-11-27T18:22:09.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
@@ -22438,7 +22406,6 @@
   "bot:video_matias-zucchi_mwwremu73j5t_01.mp4": "2026-11-25T23:40:16.000Z",
   "bot:video_matias-zucchi_mwy2j2otveye_01.mp4": "2026-11-26T21:40:15.000Z",
   "bot:video_matias-zucchi_mwywfyb710ld_01.mp4": "2026-11-27T11:40:19.000Z",
-  "entrevistas:job00258": "2026-10-28T18:20:17.000Z",
   "entrevistas:job00259": "2026-10-28T18:40:15.000Z",
   "entrevistas:job00260": "2026-10-29T17:00:20.000Z",
   "entrevistas:job00261": "2026-10-29T17:20:13.000Z",
@@ -22544,6 +22511,7 @@
   "entrevistas:job00358": "2026-11-27T16:40:13.000Z",
   "entrevistas:job00359": "2026-11-27T17:20:13.000Z",
   "entrevistas:job00360": "2026-11-27T17:40:15.000Z",
+  "entrevistas:job00361": "2026-11-27T18:20:25.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",

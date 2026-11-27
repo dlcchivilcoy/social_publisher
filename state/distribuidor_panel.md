@@ -1,11 +1,11 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 15:00 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 15:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 0 | 0 | 0 | 0 | 0 |
-| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 3 | 1 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | TikTok | 10 | 0 | 0 | 4 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
@@ -17,7 +17,7 @@ Actualizado: 27/11/2026 15:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 36 con métricas · mediana vistas/impresiones 77.5 · likes 0
+- X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 80 · likes 0
 - X · Reels del bot: 11 con métricas · mediana vistas/impresiones 71 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
 - X · Notas web: 103 con métricas · mediana vistas/impresiones 23 · likes 0
@@ -27,7 +27,8 @@ Actualizado: 27/11/2026 15:00 (hora AR) · ACTIVO
 ## Cuota de la API de Buffer
 15m: quedan 148 de 150 · 24h: quedan 583 de 600 · 30d: quedan 872 de 2000 (visto 2026-11-02T17:20:19.000Z)
 
-## Cola propia (3 esperando)
+## Cola propia (4 esperando)
+- TikTok · Recortes de entrevistas · Bettina Casselli: Horacio Cavallo tocará a sus 86 años — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Walter Siffer: "Piazzolla se vende como Charly García" — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · Máximo Cataldi: la dura presión del ranking en el tenis — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
 - TikTok · Recortes de entrevistas · María Elena Cura: El Museo Almacén El Recreo en Chivilcoy — TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima
@@ -36,10 +37,6 @@ Actualizado: 27/11/2026 15:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T11:40 programado web:706eae81-2a51-4d9e-98d8-0d5709170bd0|x 
-- 2026-11-27T12:20 depurado web:706eae81-2a51-4d9e-98d8-0d5709170bd0|x no está en el carrusel del diario de hoy (sacado de Buffer)
-- 2026-11-27T13:00 enviado web:45099b95-c331-4cfc-8065-4d8d9dd70046|x 
-- 2026-11-27T13:00 enviado web:acddc0ea-365f-4fd8-a6ff-85ede5935e71|x 
 - 2026-11-27T13:00 enviado web:be6e81ab-17b2-4338-80bd-01f750a85d0f|x 
 - 2026-11-27T13:00 enviado web:de88d412-54b4-470f-b2e9-11fac9bfc287|x 
 - 2026-11-27T13:00 programado bot:video_matias-zucchi_mwywfyb710ld_01.mp4|tiktok 
@@ -61,3 +58,7 @@ Actualizado: 27/11/2026 15:00 (hora AR) · ACTIVO
 - 2026-11-27T17:40 programado entrevistas:job00360|x 
 - 2026-11-27T18:00 enviado entrevistas:job00359|x 
 - 2026-11-27T18:00 enviado entrevistas:job00360|x 
+- 2026-11-27T18:20 entrevista_aprobada entrevistas:job00361 
+- 2026-11-27T18:20 recibido entrevistas:job00361|x 
+- 2026-11-27T18:20 recibido entrevistas:job00361|tiktok 
+- 2026-11-27T18:20 programado entrevistas:job00361|x 
