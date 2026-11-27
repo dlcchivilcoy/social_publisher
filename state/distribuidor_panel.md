@@ -1,10 +1,10 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 16:00 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 16:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Recortes de entrevistas | X | 8 | 3 | 2 | 0 | 0 | 0 | 0 |
+| Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 0 | 0 | 5 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 0 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -17,8 +17,8 @@ Actualizado: 27/11/2026 16:00 (hora AR) · ACTIVO
 - TikTok: conectado · Buffer: 1 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
-- X · Recortes de entrevistas: 35 con métricas · mediana vistas/impresiones 80 · likes 0
-- X · Reels del bot: 11 con métricas · mediana vistas/impresiones 71 · likes 0
+- X · Recortes de entrevistas: 33 con métricas · mediana vistas/impresiones 80 · likes 0
+- X · Reels del bot: 10 con métricas · mediana vistas/impresiones 84 · likes 0
 - X · Reels policiales: 9 con métricas · mediana vistas/impresiones 86 · likes 0
 - X · Notas web: 103 con métricas · mediana vistas/impresiones 23 · likes 0
 - TikTok · Recortes de entrevistas: 38 con métricas · mediana vistas/impresiones 147 · likes 1
@@ -38,8 +38,6 @@ Actualizado: 27/11/2026 16:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T15:40 recibido web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a|x 
-- 2026-11-27T15:40 depurado web:e945c1a3-3c6c-49cc-8cd6-fe9f29b8360a|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-27T16:40 entrevista_aprobada entrevistas:job00358 
 - 2026-11-27T16:40 recibido entrevistas:job00358|x 
 - 2026-11-27T16:40 recibido entrevistas:job00358|tiktok 
@@ -63,3 +61,5 @@ Actualizado: 27/11/2026 16:00 (hora AR) · ACTIVO
 - 2026-11-27T19:00 recibido entrevistas:job00362|x 
 - 2026-11-27T19:00 recibido entrevistas:job00362|tiktok 
 - 2026-11-27T19:00 programado entrevistas:job00362|x 
+- 2026-11-27T19:20 enviado entrevistas:job00361|x 
+- 2026-11-27T19:20 enviado entrevistas:job00362|x 
