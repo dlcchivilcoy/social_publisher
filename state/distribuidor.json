@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 4
+    "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-26T23:00:20.000Z"
+   "visto": "2026-11-27T00:20:16.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 15
+    "sent": 14
    },
    "pausado": false,
-   "visto": "2026-11-26T23:00:20.000Z"
+   "visto": "2026-11-27T00:20:16.000Z"
   }
  },
  "contenidos": {
@@ -7286,19 +7286,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok": {
-   "actualizado": "2026-11-27T00:00:19.000Z",
+   "actualizado": "2026-11-27T00:20:16.000Z",
    "buffer_id": "6b08c814548b6e180d4383a7",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok",
    "creado": "2026-11-26T21:40:15.000Z",
    "dueAt": "2026-11-27T00:03:18.000Z",
+   "enviado": "2026-11-27T00:05:14.151Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-26T21:37:48.000Z",
    "id": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7712635293282667782",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-bomberos-acudieron-por-humo-en-el",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -18126,12 +18127,6 @@
  },
  "registro": [
   {
-   "clave": "web:d14ece9c-b6ae-4210-9921-a170b45d7d43|x",
-   "cuando": "2026-11-20T10:20:14.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2123716422043890073"
-  },
-  {
    "clave": "web:f78304d9-a338-4cad-a91c-4dbb95f32587|x",
    "cuando": "2026-11-20T10:20:14.000Z",
    "evento": "enviado",
@@ -22270,6 +22265,12 @@
    "cuando": "2026-11-27T00:00:21.000Z",
    "dueAt": "2026-11-27T00:03:18.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwy2j2otveye_01.mp4|tiktok",
+   "cuando": "2026-11-27T00:20:16.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7712635293282667782"
   }
  ],
  "tandas": {
@@ -22307,7 +22308,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-27",
- "ultima_sync": "2026-11-26T23:00:20.000Z",
+ "ultima_sync": "2026-11-27T00:20:16.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
