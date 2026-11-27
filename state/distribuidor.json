@@ -17,7 +17,7 @@
     "sent": 5
    },
    "pausado": false,
-   "visto": "2026-11-27T00:20:16.000Z"
+   "visto": "2026-11-27T02:40:23.000Z"
   },
   "x": {
    "desconectado": false,
@@ -26,10 +26,10 @@
     "isAtLimit": false,
     "limit": 100,
     "scheduled": 0,
-    "sent": 14
+    "sent": 15
    },
    "pausado": false,
-   "visto": "2026-11-27T00:20:16.000Z"
+   "visto": "2026-11-27T02:40:23.000Z"
   }
  },
  "contenidos": {
@@ -1716,32 +1716,6 @@
    "volanta": "Bragado",
    "youtube_url": "https://youtube.com/shorts/Qy_PMP9L_d0"
   },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas": {
-   "categoria": "alerta_meteorologica",
-   "descripcion": "Rige un aviso oficial para este lunes 16 y martes 17 de noviembre. Se prevén precipitaciones acumuladas de hasta 50 milímetros, actividad eléctrica y ocasional caída de granizo en la región.",
-   "distancia_km": 49.3,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-17T00:32:57.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas",
-   "localidad": "Bragado",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-amarilla-por-tormentas-y-pronostican-733174",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 8,
-   "radio_ok": true,
-   "texto_tiktok": "El partido de Bragado y gran parte de la provincia de Buenos Aires se encuentran bajo alerta meteorológica de nivel amarillo por tormentas fuertes.\n\nEl fenómeno rige entre el lunes 16 y el martes 17 de noviembre, impulsado por el avance de un frente frío que genera inestabilidad.\n\nSe esperan ráfagas intensas, actividad eléctrica, ocasional caída de granizo y acumulados de lluvia de hasta 50 milímetros.\n\nLas condiciones más críticas se concentran durante la tarde y la noche de este lunes.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Clima #AlertaMeteorologica #BuenosAires",
-   "tipo": "video",
-   "titulo": "Bragado bajo alerta amarilla por tormentas y posibles ráfagas intensas",
-   "urgente": false,
-   "video_bytes": 84668,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_10_bragado_bragado-bajo-alerta-amarilla-p.mp4",
-   "volanta": "Alerta meteorológica en Bragado",
-   "youtube_url": "https://youtube.com/shorts/p6LU4p9V5qA"
-  },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion": {
    "categoria": "operativo_policial",
    "descripcion": "Tres sujetos terminaron apresados por personal policial tras ser descubiertos circulando con una carabina y una escopeta sin documentación en las inmediaciones de un campo en La Limpia.",
@@ -2261,6 +2235,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_01_chacabuco_aprehendieron-a-un-menor-de-15.mp4",
    "volanta": "Operativo policial en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/kmhoBuOQHlw"
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m": {
+   "categoria": "narcotrafico",
+   "descripcion": "Dos personas resultaron aprehendidas por tenencia de marihuana y una moto fue incautada durante procedimientos realizados este jueves a las 4:47 PM en distintos puntos de la ciudad por personal de prevención y seguridad urbana.",
+   "distancia_km": 91.2,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-27T02:31:39.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m",
+   "localidad": "Junín",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-dos-aprehendidos-por-tenencia-de-marihuana-y-una-moto-5df7bd",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "Personal policial llevó a cabo dos procedimientos este jueves a las 4:47 PM que culminaron con dos aprehensiones por tenencia de marihuana.\n\nEl primer operativo se concretó en avenida San Martín y Rivadavia, donde efectivos de la UPPL interceptaron a un mayor con cannabis sativa.\n\nOtra intervención estuvo a cargo de agentes de la sección de apoyo urbano en República y Soria, hallando estupefacientes y reteniendo un rodado sin papeles.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Narcotrafico #Operativo #BuenosAires",
+   "tipo": "video",
+   "titulo": "Dos aprehendidos por tenencia de marihuana y una moto incautada a las 4:47 PM",
+   "urgente": false,
+   "video_bytes": 87280,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-27_0132_03_chacabuco_dos-aprehendidos-por-tenencia-.mp4",
+   "volanta": "Operativos policiales en Junín",
+   "youtube_url": "https://youtube.com/shorts/GuRZYh7cRnY"
   },
   "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu": {
    "categoria": "robo",
@@ -10400,18 +10400,19 @@
    "viral": false
   },
   "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal|x": {
-   "actualizado": "2026-11-27T02:20:26.000Z",
+   "actualizado": "2026-11-27T02:40:23.000Z",
    "buffer_id": "6b08e8ea70e2a88e2cecfb85",
    "clave": "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal|x",
    "creado": "2026-11-27T02:20:16.000Z",
    "dueAt": "2026-11-27T02:23:47.000Z",
+   "enviado": "2026-11-27T02:24:08.254Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-27T02:01:19.000Z",
    "id": "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal",
    "intentos": 0,
-   "link": "",
+   "link": "https://x.com/3000669687/status/2126139981609513282",
    "nota_url": "https://www.diariolacampaña.com.ar/n/nueve-de-julio-un-automovilista-de-30-anos-murio-en-un-choque-d3b344",
    "noticia": "nota:nueve-de-julio-un-automovilista-de-30-anos-murio-en-un-choque-d3b344",
    "origen": "policiales",
@@ -10720,34 +10721,6 @@
    "vence": "2026-11-25T04:32:12.000Z",
    "video_bytes": 90040,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-25_0132_05_bragado_demoraron-a-un-automovilista-p.mp4",
-   "viral": false
-  },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas|x": {
-   "actualizado": "2026-11-17T02:40:16.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas|x",
-   "creado": "2026-11-17T00:40:17.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-17T00:32:57.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/16/27009-bragado-bajo-alerta-amarilla-por-tormentas-cuando-se-esperan-las-lluvias-mas-intensas",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-amarilla-por-tormentas-y-pronostican-733174",
-   "noticia": "nota:bragado-rige-una-alerta-amarilla-por-tormentas-y-pronostican-733174",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 8,
-   "texto": "Bragado bajo alerta amarilla por tormentas y posibles ráfagas intensas\n\nRige un aviso oficial para este lunes y martes. Se prevén precipitaciones de hasta 50 milímetros, actividad eléctrica y granizo en la región.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-rige-una-alerta-amarilla-por-tormentas-y-pronostican-733174",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Bragado bajo alerta amarilla por tormentas y posibles ráfagas intensas",
-   "urgente": false,
-   "vence": "2026-11-17T02:32:57.000Z",
-   "video_bytes": 84668,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-16_2135_10_bragado_bragado-bajo-alerta-amarilla-p.mp4",
    "viral": false
   },
   "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion|x": {
@@ -11325,6 +11298,34 @@
    "vence": "2026-11-24T04:01:50.000Z",
    "video_bytes": 85478,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-24_0132_01_chacabuco_aprehendieron-a-un-menor-de-15.mp4",
+   "viral": false
+  },
+  "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m|x": {
+   "actualizado": "2026-11-27T02:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m|x",
+   "creado": "2026-11-27T02:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-27T02:31:39.000Z",
+   "id": "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-dos-aprehendidos-por-tenencia-de-marihuana-y-una-moto-5df7bd",
+   "noticia": "nota:junin-dos-aprehendidos-por-tenencia-de-marihuana-y-una-moto-5df7bd",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Dos aprehendidos por tenencia de marihuana y una moto incautada a las 4:47 PM\n\nhttps://www.diariolacampaña.com.ar/n/junin-dos-aprehendidos-por-tenencia-de-marihuana-y-una-moto-5df7bd",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Dos aprehendidos por tenencia de marihuana y una moto incautada a las 4:47 PM",
+   "urgente": false,
+   "vence": "2026-11-27T04:31:39.000Z",
+   "video_bytes": 87280,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-27_0132_03_chacabuco_dos-aprehendidos-por-tenencia-.mp4",
    "viral": false
   },
   "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu|x": {
@@ -17913,20 +17914,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6b00238d39116a845dcc85c2",
-   "clave": "web:c6713e1d-61d9-4e84-b151-556ac94ad1d6|x",
-   "cuando": "2026-11-20T10:40:13.000Z",
-   "dueAt": "2026-11-20T12:08:55.000Z",
-   "evento": "programado"
-  },
-  {
-   "buffer_id": "6b002844c1f33e2aa5b8d313",
-   "clave": "web:ec55e592-9c0f-4539-8414-481ecbfa2719|x",
-   "cuando": "2026-11-20T11:00:20.000Z",
-   "dueAt": "2026-11-20T12:23:08.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "web:2a28c1ac-35c5-477c-ae7f-6d0c714c6d79|x",
    "cuando": "2026-11-20T11:20:15.000Z",
    "evento": "enviado",
@@ -22060,6 +22047,20 @@
    "cuando": "2026-11-27T02:20:26.000Z",
    "dueAt": "2026-11-27T02:23:47.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m|x",
+   "cuando": "2026-11-27T02:40:23.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://junin24.com/noticias/violento-choque-entre-un-camion-y-un-automovil-en-la-ruta-5-dejo-el-saldo-de-una-victima-fatal|x",
+   "cuando": "2026-11-27T02:40:23.000Z",
+   "evento": "enviado",
+   "link": "https://x.com/3000669687/status/2126139981609513282"
   }
  ],
  "tandas": {
@@ -22097,7 +22098,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-27",
- "ultima_sync": "2026-11-27T00:20:16.000Z",
+ "ultima_sync": "2026-11-27T02:40:23.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-accidente-choque-entre-un-auto-y-una-moto-en-necochea-y": "2026-10-28T17:20:18.000Z",
@@ -22412,6 +22413,7 @@
   "policiales:https://www.diariodemocracia.com/policiales/348404-investigan-la-muerte-de-un-hombre-en-la-laguna": "2026-11-24T09:00:22.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348453-apunalaron-a-un-joven-en-calle-belgrano-y-aprehend": "2026-11-24T02:20:22.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348457-aprehendieron-a-un-menor-de-15-anos-por-el-robo-de": "2026-11-24T02:20:22.000Z",
+  "policiales:https://www.diariodemocracia.com/policiales/348582-dos-aprehendidos-por-tenencia-de-marihuana-y-una-m": "2026-11-27T02:40:14.000Z",
   "policiales:https://www.diariodemocracia.com/policiales/348584-detuvieron-a-un-sospechoso-tras-un-robo-en-la-esqu": "2026-11-27T02:20:16.000Z",
   "policiales:https://www.diariojunin.com/noticias/103054_estafa-inmobiliaria-en-eeuu-el-juninense-ezequiel-quotpocho-quot-cerutti-y-otros-seis-futbolistas-figuran-entre-los-millonarios-damnificados.html": "2026-11-05T00:40:13.000Z",
   "policiales:https://www.junindigital.com/policiales/2026-10-29-13-59-0-causa-por-abuso-sexual-y-amenazas-un-aprehendido-y-secuestro-de-un-revolver-en-junin": "2026-10-29T23:40:14.000Z",
