@@ -5009,6 +5009,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/futbol-chivilcoy-torneo-clausura-de-primera-division-quedaron",
    "volanta": "Fútbol"
   },
+  "web:b2362383-962e-4ad2-84de-0eca6f2eb26f": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Tres dotaciones de bomberos controlaron un incendio en el basural Un incendio de basura y pastizales movilizó este viernes a tres dotaciones de Bomberos Voluntarios de Chivilcoy hacia el basural de la calle 84. Según informó el tercer oficial Emmanuel Artola, quien estuvo al frente del operativo, el fuego afectó basura y pastizales en el sector del antiguo reciclado. Las dotaciones trabajaron en el lugar hasta sofocar el siniestro. Alrededor de las 15:26, Artola confirmó que la...",
+   "generado": "2026-11-27T19:26:13.192Z",
+   "id": "web:b2362383-962e-4ad2-84de-0eca6f2eb26f",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_2212e5d43bf64b338c535858535d9a56~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-tres-dotaciones-de-bomberos-controlaron",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Tres dotaciones de bomberos controlaron un incendio en el basural",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-bomberos-chivilcoy-tres-dotaciones-de-bomberos-controlaron",
+   "volanta": "Chivilcoy · Bomberos"
+  },
   "web:b25195a6-8663-4776-9925-1b3d65850489": {
    "categoria": "",
    "descripcion": "Chivilcoy: Con oficio y experiencia, Super Moli selló su pase a la final de la LICHFA CHIVILCOY.– Tras superar una exigente llave de semifinales, Maximiliano Migueliza analizó el sufrimiento del cierre, destacó el aporte de los refuerzos y palpitó la definición del próximo sábado en Benítez. En una semifinal disputada con los dientes apretados, Super Moli logró meterse en el partido decisivo de la Liga Chivilcoyana de Fútbol Amateur (LICHFA). Luego del encuentro, una de sus figuras,...",
@@ -15924,6 +15943,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:b2362383-962e-4ad2-84de-0eca6f2eb26f|x": {
+   "actualizado": "2026-11-27T19:40:16.000Z",
+   "buffer_id": "",
+   "clave": "web:b2362383-962e-4ad2-84de-0eca6f2eb26f|x",
+   "creado": "2026-11-27T19:40:12.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-27T19:26:13.192Z",
+   "id": "web:b2362383-962e-4ad2-84de-0eca6f2eb26f",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-tres-dotaciones-de-bomberos-controlaron",
+   "noticia": "nota:chivilcoy-bomberos-chivilcoy-tres-dotaciones-de-bomberos-controlaron",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Tres dotaciones de bomberos controlaron un incendio en el basural\n\nEl tercer oficial Emmanuel Artola informó que el fuego afectó basura y pastizales en el sector del antiguo reciclado. Personal de bomberos trabajó en el lugar hasta sofocarlo.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-bomberos-chivilcoy-tres-dotaciones-de-bomberos-controlaron",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Tres dotaciones de bomberos controlaron un incendio en el basural",
+   "urgente": false,
+   "vence": "2026-11-27T23:26:13.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:b25195a6-8663-4776-9925-1b3d65850489|x": {
    "actualizado": "2026-11-19T12:40:15.000Z",
    "buffer_id": "6afed20f7c25de751c32ec14",
@@ -18044,18 +18090,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/le-robaron-temprano-en-chacabuco.html|x",
-   "cuando": "2026-11-21T09:00:36.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.latrochadigital.com.ar/2026/11/20/felipe-fort-protagonizo-un-accidente-en-la-ruta-5/|x",
-   "cuando": "2026-11-21T09:00:36.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
   {
    "clave": "web:36063451-bcf8-479d-8bfe-ebe6376e7dcf|x",
    "cuando": "2026-11-21T12:00:20.000Z",
@@ -22204,6 +22238,20 @@
    "cuando": "2026-11-27T19:20:21.000Z",
    "evento": "enviado",
    "link": "https://x.com/3000669687/status/2126392070084460832"
+  },
+  {
+   "clave": "web:b2362383-962e-4ad2-84de-0eca6f2eb26f|x",
+   "cuando": "2026-11-27T19:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:b2362383-962e-4ad2-84de-0eca6f2eb26f|x",
+   "cuando": "2026-11-27T19:40:16.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22923,6 +22971,7 @@
   "web:b0b9173e-bae3-4c9c-a326-c2f824151b29": "2026-11-25T22:40:20.000Z",
   "web:b0c4567c-9a3c-445c-89b9-0994cd239b90": "2026-11-27T09:04:17.000Z",
   "web:b13a4343-1c5f-4791-894f-bb286876e7d0": "2026-11-16T15:20:14.000Z",
+  "web:b2362383-962e-4ad2-84de-0eca6f2eb26f": "2026-11-27T19:40:12.000Z",
   "web:b25195a6-8663-4776-9925-1b3d65850489": "2026-11-19T09:05:46.000Z",
   "web:b333b47e-b16a-4899-bd75-63c2b7086095": "2026-11-03T10:02:22.000Z",
   "web:b4b8df92-6a44-497e-bfda-6b94b8414a97": "2026-11-16T10:03:28.000Z",
