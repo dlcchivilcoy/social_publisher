@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 21:00 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 21:20 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -7,14 +7,14 @@ Actualizado: 27/11/2026 21:00 (hora AR) · ACTIVO
 | Recortes de entrevistas | X | 8 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Recortes de entrevistas | TikTok | 10 | 5 | 0 | 0 | 0 | 0 | 0 |
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 1 |
-| Reels del bot | TikTok | 20 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Notas web | X | 15 | 12 | 0 | 0 | 0 | 1 | 10 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
 - X: conectado · Buffer: 19 enviadas + 0 programadas de 100 por día
-- TikTok: conectado · Buffer: 6 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
+- TikTok: conectado · Buffer: 7 enviadas + 0 programadas de 25 por día · tope medido 13 por 24 h
 
 ## Métricas (Buffer, lo enviado en 3 días)
 - X · Recortes de entrevistas: 33 con métricas · mediana vistas/impresiones 80 · likes 0
@@ -33,7 +33,6 @@ Actualizado: 27/11/2026 21:00 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T19:20 enviado entrevistas:job00362|x 
 - 2026-11-27T19:40 recibido web:b2362383-962e-4ad2-84de-0eca6f2eb26f|x 
 - 2026-11-27T19:40 depurado web:b2362383-962e-4ad2-84de-0eca6f2eb26f|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-27T21:00 programado entrevistas:job00362|tiktok 
@@ -58,3 +57,4 @@ Actualizado: 27/11/2026 21:00 (hora AR) · ACTIVO
 - 2026-11-28T00:00 recibido web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d|x 
 - 2026-11-28T00:00 depurado web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-28T00:00 programado bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok 
+- 2026-11-28T00:20 enviado bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok 

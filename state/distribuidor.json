@@ -14,10 +14,10 @@
     "isAtLimit": false,
     "limit": 25,
     "scheduled": 0,
-    "sent": 6
+    "sent": 7
    },
    "pausado": false,
-   "visto": "2026-11-27T22:40:12.000Z"
+   "visto": "2026-11-28T00:20:15.000Z"
   },
   "x": {
    "desconectado": false,
@@ -29,7 +29,7 @@
     "sent": 19
    },
    "pausado": false,
-   "visto": "2026-11-27T22:40:12.000Z"
+   "visto": "2026-11-28T00:20:15.000Z"
   }
  },
  "contenidos": {
@@ -7084,19 +7084,20 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok": {
-   "actualizado": "2026-11-28T00:00:22.000Z",
+   "actualizado": "2026-11-28T00:20:15.000Z",
    "buffer_id": "6b0a199723fb5b77000253d9",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok",
    "creado": "2026-11-27T22:00:18.000Z",
    "dueAt": "2026-11-28T00:03:00.000Z",
+   "enviado": "2026-11-28T00:04:20.844Z",
    "error": "",
    "espera": "",
-   "estado": "programado",
+   "estado": "enviado",
    "generado": "2026-11-27T21:53:38.000Z",
    "id": "bot:video_matias-zucchi_mwziihamszrj_01.mp4",
    "intentos": 0,
-   "link": "",
+   "link": "https://tiktok.com/@diarioyradio/video/7713006313109736725",
    "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-un-hombre-fue-aprehendido-tras-un",
    "origen": "bot",
    "plataforma": "tiktok",
@@ -17873,14 +17874,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x",
-   "cuando": "2026-11-22T02:20:25.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html|x",
    "cuando": "2026-11-22T02:20:34.000Z",
    "estado": "pendiente",
@@ -22028,6 +22021,12 @@
    "cuando": "2026-11-28T00:00:23.000Z",
    "dueAt": "2026-11-28T00:03:00.000Z",
    "evento": "programado"
+  },
+  {
+   "clave": "bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok",
+   "cuando": "2026-11-28T00:20:15.000Z",
+   "evento": "enviado",
+   "link": "https://tiktok.com/@diarioyradio/video/7713006313109736725"
   }
  ],
  "tandas": {
@@ -22065,7 +22064,7 @@
   ]
  },
  "ultima_limpieza_release": "2026-11-28",
- "ultima_sync": "2026-11-27T22:40:12.000Z",
+ "ultima_sync": "2026-11-28T00:20:15.000Z",
  "version": 1,
  "vistos": {
   "baja:chivilcoy-deportes-chivilcoy-racing-supero-a-quilmes-en-un-cierre-muy": "2026-11-07T09:00:16.000Z",
