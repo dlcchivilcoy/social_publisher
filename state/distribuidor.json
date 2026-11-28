@@ -1279,6 +1279,32 @@
    "volanta": "Siniestro vial en Alberti",
    "youtube_url": "https://youtube.com/shorts/DkXeTYD02rg"
   },
+  "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/": {
+   "categoria": "robo",
+   "descripcion": "Delincuentes faenaron un animal y mataron a otro de un disparo en un establecimiento rural ubicado a unos 2.000 metros de la ruta nacional 5. El propietario alertó que la zona se convirtió en tierra de nadie.",
+   "distancia_km": 99.4,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-28T02:01:26.000Z",
+   "id": "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/",
+   "localidad": "9 de Julio",
+   "nota_url": "",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un nuevo caso de abigeato generó gran preocupación entre los productores rurales del partido de 9 de Julio.\n\nEl episodio ocurrió este último jueves en un establecimiento ubicado sobre el camino Fantasma, a unos 2.000 metros de la ruta nacional 5.\n\nLos delincuentes mataron a dos terneros de aproximadamente 240 kilos cada uno, utilizando un disparo de arma de fuego en uno de los casos y faenando por completo al segundo ejemplar.\n\nEl productor damnificado, identificado como N.R., radicó la denuncia en el Comando de Patrulla Rural y advirtió que la zona es tierra de nadie debido a los reiterados delitos similares.\n\n📲 Más noticias de 9 de Julio en www.diariolacampaña.com.ar\n\n#9DeJulio #Abigeato #InseguridadRural #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Mataron dos terneros de 240 kilos en un campo ubicado sobre el camino Fantasma",
+   "urgente": false,
+   "video_bytes": 168829,
+   "video_mb": 0.2,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_02_9-de-julio_mataron-dos-terneros-de-240-ki.mp4",
+   "volanta": "Abigeato en 9 de Julio",
+   "youtube_url": ""
+  },
   "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos": {
    "categoria": "robo",
    "descripcion": "Habitantes del complejo habitacional reclaman mayor seguridad tras una nueva madrugada de intentos de robo de motovehículos. Aseguran que el sospechoso está identificado.",
@@ -1617,32 +1643,6 @@
    "volanta": "Bragado",
    "youtube_url": "https://youtube.com/shorts/Qy_PMP9L_d0"
   },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion": {
-   "categoria": "operativo_policial",
-   "descripcion": "Tres sujetos terminaron apresados por personal policial tras ser descubiertos circulando con una carabina y una escopeta sin documentación en las inmediaciones de un campo en La Limpia.",
-   "distancia_km": 56.0,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-18T00:03:17.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion",
-   "localidad": "La Limpia",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-limpia-detuvieron-a-tres-hombres-armados-en-un-operativo-4828bd",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Personal policial arrestó a tres sujetos mayores de edad durante un operativo de control realizado en la zona rural de La Limpia.\n\nLos uniformados interceptaron un automóvil Chevrolet Corsa en las inmediaciones del establecimiento El Chajá y requisaron el habitáculo.\n\nDurante la inspección hallaron una carabina calibre 22 con la numeración limada, una escopeta calibre 16 y municiones de diversos calibres.\n\nLa causa quedó a cargo de la Unidad Funcional de Instrucción número 4 del Departamento Judicial de Mercedes bajo la carátula de portación ilegal de arma.\n\n📲 Más noticias de La Limpia en www.diariolacampaña.com.ar\n\n#LaLimpia #Operativo #Policia #BuenosAires",
-   "tipo": "video",
-   "titulo": "Tres detenidos con armas de fuego en un campo de Bragado",
-   "urgente": false,
-   "video_bytes": 85364,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_08_bragado_tres-detenidos-con-armas-de-fu.mp4",
-   "volanta": "Operativo en La Limpia",
-   "youtube_url": "https://youtube.com/shorts/n8upAjW4u8g"
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html": {
    "categoria": "accidente_vial",
    "descripcion": "Una mujer sufrió una lesión cervical este martes a la tarde tras colisionar dos vehículos Volkswagen en la esquina de Aristóbulo del Valle y diagonal Eva Duarte de Perón. Fue asistida y trasladada al Hospital Municipal en una ambulancia.",
@@ -1694,6 +1694,32 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_09_chacabuco_quusaron-contenedores-de-basur.mp4",
    "volanta": "Incendio intencional en Chacabuco",
    "youtube_url": "https://youtube.com/shorts/LnhAGfxUZE8"
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html": {
+   "categoria": "incendio",
+   "descripcion": "Bomberos debieron intervenir en tres focos ígneos distintos registrados en la ciudad. Una persona sufrió quemaduras y debió ser asistida.",
+   "distancia_km": 50.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-28T02:16:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html",
+   "localidad": "Chacabuco",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-tres-incendios-en-simultaneo-y-una-persona-con-c82c69",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Tres incendios se registraron en distintos puntos de la ciudad de Chacabuco.\n\nComo consecuencia de los siniestros, una persona resultó con quemaduras y debió recibir asistencia médica.\n\nPersonal de bomberos trabajó en la extinción de los tres focos ígneos.\n\n📲 Más noticias de Chacabuco en www.diariolacampaña.com.ar\n\n#Chacabuco #Incendio #Bomberos #BuenosAires",
+   "tipo": "video",
+   "titulo": "Tres incendios simultáneos en Chacabuco dejaron una persona con quemaduras",
+   "urgente": false,
+   "video_bytes": 75942,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_03_chacabuco_tres-incendios-simult-neos-en-.mp4",
+   "volanta": "Incendios en Chacabuco",
+   "youtube_url": "https://youtube.com/shorts/5usVPRaTHe4"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html": {
    "categoria": "accidente_vial",
@@ -10115,6 +10141,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-21_0133_06_alberti_choque-entre-un-auto-y-una-mot.mp4",
    "viral": false
   },
+  "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/|x": {
+   "actualizado": "2026-11-28T02:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/|x",
+   "creado": "2026-11-28T02:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-28T02:01:26.000Z",
+   "id": "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "",
+   "noticia": "titulo:camino-campo-fantasma-kilos-mataron-terneros-ubicado",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Mataron dos terneros de 240 kilos en un campo ubicado sobre el camino Fantasma\n\nDelincuentes faenaron un animal y mataron a otro de un disparo a 2.000 metros de la ruta nacional 5. El propietario alertó que la zona se convirtió en tierra de nadie.",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Mataron dos terneros de 240 kilos en un campo ubicado sobre el camino Fantasma",
+   "urgente": false,
+   "vence": "2026-11-28T04:01:26.000Z",
+   "video_bytes": 168829,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_02_9-de-julio_mataron-dos-terneros-de-240-ki.mp4",
+   "viral": false
+  },
   "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos|x": {
    "actualizado": "2026-11-25T02:41:00.000Z",
    "buffer_id": "6b0645e3a8becebb775329ec",
@@ -10502,34 +10556,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-25_0132_05_bragado_demoraron-a-un-automovilista-p.mp4",
    "viral": false
   },
-  "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion|x": {
-   "actualizado": "2026-11-18T02:20:14.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion|x",
-   "creado": "2026-11-18T00:20:16.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-18T00:03:17.000Z",
-   "id": "policiales:https://www.bragadotv.com.ar/noticias/2026/11/17/27024-tres-aprehendidos-por-circular-con-armas-sin-autorizacion",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/la-limpia-detuvieron-a-tres-hombres-armados-en-un-operativo-4828bd",
-   "noticia": "nota:la-limpia-detuvieron-a-tres-hombres-armados-en-un-operativo-4828bd",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Tres detenidos con armas de fuego en un campo de Bragado\n\nTres sujetos terminaron apresados por personal policial tras ser descubiertos circulando con una carabina y una escopeta sin documentación en las inmediaciones de un campo en La Limpia.\n\nhttps://www.diariolacampaña.com.ar/n/la-limpia-detuvieron-a-tres-hombres-armados-en-un-operativo-4828bd",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Tres detenidos con armas de fuego en un campo de Bragado",
-   "urgente": false,
-   "vence": "2026-11-18T02:03:17.000Z",
-   "video_bytes": 85364,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_08_bragado_tres-detenidos-con-armas-de-fu.mp4",
-   "viral": false
-  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html|x": {
    "actualizado": "2026-11-23T09:00:32.000Z",
    "buffer_id": "",
@@ -10583,6 +10609,34 @@
    "vence": "2026-11-23T05:03:07.000Z",
    "video_bytes": 166415,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-23_0134_09_chacabuco_quusaron-contenedores-de-basur.mp4",
+   "viral": false
+  },
+  "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html|x": {
+   "actualizado": "2026-11-28T02:20:15.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html|x",
+   "creado": "2026-11-28T02:20:15.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-28T02:16:38.000Z",
+   "id": "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chacabuco-tres-incendios-en-simultaneo-y-una-persona-con-c82c69",
+   "noticia": "nota:chacabuco-tres-incendios-en-simultaneo-y-una-persona-con-c82c69",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Tres incendios simultáneos en Chacabuco dejaron una persona con quemaduras\n\nBomberos debieron intervenir en tres focos ígneos distintos registrados en la ciudad. Una persona sufrió quemaduras y debió ser asistida.\n\nhttps://www.diariolacampaña.com.ar/n/chacabuco-tres-incendios-en-simultaneo-y-una-persona-con-c82c69",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Tres incendios simultáneos en Chacabuco dejaron una persona con quemaduras",
+   "urgente": false,
+   "vence": "2026-11-28T04:16:38.000Z",
+   "video_bytes": 75942,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_03_chacabuco_tres-incendios-simult-neos-en-.mp4",
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html|x": {
@@ -17758,21 +17812,6 @@
  },
  "registro": [
   {
-   "buffer_id": "6b025172cc364169c11f7678",
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x",
-   "cuando": "2026-11-22T02:20:34.000Z",
-   "dueAt": "2026-11-22T02:23:04.000Z",
-   "evento": "programado"
-  },
-  {
-   "clave": "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x",
-   "cuando": "2026-11-22T02:40:14.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html|x",
    "cuando": "2026-11-22T09:00:29.000Z",
    "estado": "pendiente",
@@ -21911,6 +21950,22 @@
    "cuando": "2026-11-28T00:40:16.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/|x",
+   "cuando": "2026-11-28T02:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html|x",
+   "cuando": "2026-11-28T02:20:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -22156,6 +22211,7 @@
   "policiales:https://diarioelsalado.com.ar/2026/11/un-motociclista-sufrio-una-fractura-tras-un-choque-en-la-avenida-san-martin/": "2026-11-21T02:40:31.000Z",
   "policiales:https://diarioelsalado.com.ar/2026/11/un-vecino-de-alberti-murio-en-un-choque-frontal-sobre-la-ruta-5/": "2026-11-15T22:40:14.000Z",
   "policiales:https://diarionucleo.com/ciudad/pergamino/291502-trasladaron-plata-joven-herida-durante-persecucion": "2026-11-02T23:40:16.000Z",
+  "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/": "2026-11-28T02:20:15.000Z",
   "policiales:https://infociudad.com.ar/actualidad/intento-robar-una-moto-de-un-deposito-y-termino-detenido/": "2026-11-02T22:40:16.000Z",
   "policiales:https://junin24.com/locales/comerciante-sufrio-en-su-local-dos-robos-en-menos-de-una-semana-estamos-podridos": "2026-11-16T23:20:29.000Z",
   "policiales:https://junin24.com/locales/malestar-y-preocupacion-en-el-barrio-foetra-por-los-reiterados-intentos-de-robo-de-motos": "2026-11-25T02:20:14.000Z",
@@ -22217,6 +22273,7 @@
   "policiales:https://www.chacabuquero.com.ar/2026/11/confrontacion-con-un-herido-en-un.html": "2026-11-13T23:20:13.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/dano-incendiario-en-la-noche-de.html": "2026-11-23T09:00:30.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/dia12112026.html": "2026-11-12T23:40:16.000Z",
+  "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html": "2026-11-28T02:20:15.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html": "2026-11-22T09:00:16.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/granizo-para-iniciar-el-dia-en-chacabuco.html": "2026-11-03T00:40:17.000Z",
   "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html": "2026-11-22T02:20:21.000Z",
