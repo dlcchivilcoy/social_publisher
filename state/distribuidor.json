@@ -306,48 +306,6 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1b462de9187001d5.mp4",
    "youtube_url": "https://www.youtube.com/shorts/n8zXS4qljlY"
   },
-  "entrevistas:job00320": {
-   "descripcion": "En Chivilcoy, la coordinadora del CUCH, Victoria Barros, detalló cómo los chicos aplican programación y placas para automatizar dispositivos hogareños.",
-   "duracion_seg": null,
-   "entrevistado": "Victoria Barros",
-   "generado": "2026-11-17T16:40:14.000Z",
-   "id": "entrevistas:job00320",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Victoria Barros: Robótica y domótica infantil en el CUCH",
-   "urgente": false,
-   "video_bytes": 11784207,
-   "video_mb": 11.2,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00320.mp4",
-   "youtube_url": "https://youtu.be/fZ31v_qxjek"
-  },
-  "entrevistas:job00321": {
-   "descripcion": "En Chivilcoy, Alejandro Diguardi, integrante del Observatorio de Discapacidad del MDF, cuestionó las prioridades de gasto del Estado frente a la falta de fondos para tratamientos de autismo. Reclamó que la cobertura de estas terapias es una decisión política urgente.",
-   "duracion_seg": null,
-   "entrevistado": "Alejandro Diguardi",
-   "generado": "2026-11-17T17:40:16.000Z",
-   "id": "entrevistas:job00321",
-   "localidad": "Chivilcoy",
-   "origen": "entrevistas",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "tipo": "video",
-   "titulo": "Alejandro Diguardi: \"Hay plata para aviones y no para terapias\"",
-   "urgente": false,
-   "video_bytes": 24860459,
-   "video_mb": 23.7,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00321.mp4",
-   "youtube_url": "https://youtu.be/DnZsYgQlmaY"
-  },
   "entrevistas:job00324": {
    "descripcion": "En Chivilcoy, el dirigente del Club Colón, Esteban Lobianco, explicó las estrictas sanciones formativas que aplican si los padres insultan desde la tribuna o si los chicos cometen faltas graves.",
    "duracion_seg": null,
@@ -6190,6 +6148,25 @@
    "urgente": false,
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-hombre-y-1",
    "volanta": "Chivilcoy · Policiales"
+  },
+  "web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Acordaron obras gratuitas de gas natural para varios barrios A partir de las gestiones realizadas por la Municipalidad de Chivilcoy ante Camuzzi Gas Pampeana, se concretó el avance de nueve proyectos de extensión de la red de gas natural en distintos sectores de la ciudad. Las obras no tendrán ningún costo para los vecinos alcanzados por esta iniciativa. Esta primera etapa contempla la instalación de aproximadamente 665 metros de nuevas cañerías, que permitirán llegar a 33...",
+   "generado": "2026-11-27T23:57:19.169Z",
+   "id": "web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_43e1ba41608247d0b9bf6dd30e2e7bbb~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-acordaron-obras-gratuitas-de-gas",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Acordaron obras gratuitas de gas natural para varios barrios",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-servicios-chivilcoy-acordaron-obras-gratuitas-de-gas",
+   "volanta": "Chivilcoy · Servicios"
   }
  },
  "cuota": {
@@ -7107,15 +7084,15 @@
    "viral": false
   },
   "bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok": {
-   "actualizado": "2026-11-27T22:00:18.000Z",
-   "buffer_id": "",
+   "actualizado": "2026-11-28T00:00:22.000Z",
+   "buffer_id": "6b0a199723fb5b77000253d9",
    "categoria": "",
    "clave": "bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok",
    "creado": "2026-11-27T22:00:18.000Z",
-   "dueAt": "",
+   "dueAt": "2026-11-28T00:03:00.000Z",
    "error": "",
-   "espera": "TikTok sale en tandas (10:00, 18:00, 21:00): espera la próxima",
-   "estado": "pendiente",
+   "espera": "",
+   "estado": "programado",
    "generado": "2026-11-27T21:53:38.000Z",
    "id": "bot:video_matias-zucchi_mwziihamszrj_01.mp4",
    "intentos": 0,
@@ -7161,84 +7138,6 @@
    "vence": "2026-11-27T23:53:38.000Z",
    "video_bytes": 3098177,
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/reel-latest/dist_1b462de9187001d5.mp4",
-   "viral": false
-  },
-  "entrevistas:job00320|tiktok": {
-   "actualizado": "2026-11-17T23:40:23.000Z",
-   "buffer_id": "6afcc07730e8d67e7ca428de",
-   "categoria": "",
-   "clave": "entrevistas:job00320|tiktok",
-   "creado": "2026-11-17T16:40:14.000Z",
-   "dueAt": "2026-11-17T23:03:01.000Z",
-   "enviado": "2026-11-17T23:05:39.857Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-17T16:40:14.000Z",
-   "id": "entrevistas:job00320",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7709280073697840404",
-   "metricas": {
-    "averageTimeWatched": 5.1,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 30,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 18.18,
-    "views": 194
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Victoria Barros: Robótica y domótica infantil en el CUCH\n\nEn Chivilcoy, la coordinadora del CUCH, Victoria Barros, detalló cómo los chicos aplican programación y placas para automatizar dispositivos hogareños.\n\nhttps://youtu.be/fZ31v_qxjek\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Victoria Barros: Robótica y domótica infantil en el CUCH",
-   "urgente": false,
-   "vence": "2026-11-19T16:40:14.000Z",
-   "video_bytes": 11784207,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00320.mp4",
-   "viral": false
-  },
-  "entrevistas:job00321|tiktok": {
-   "actualizado": "2026-11-17T23:40:23.000Z",
-   "buffer_id": "6afcc072953f4c1b18bdd692",
-   "categoria": "",
-   "clave": "entrevistas:job00321|tiktok",
-   "creado": "2026-11-17T17:40:16.000Z",
-   "dueAt": "2026-11-17T22:43:06.000Z",
-   "enviado": "2026-11-17T22:43:57.853Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-17T17:40:16.000Z",
-   "id": "entrevistas:job00321",
-   "intentos": 0,
-   "link": "https://tiktok.com/@diarioyradio/video/7709274696415595796",
-   "metricas": {
-    "averageTimeWatched": 7.13,
-    "comments": 0,
-    "engagementRate": 0,
-    "reach": 21,
-    "reactions": 0,
-    "shares": 0,
-    "totalTimeWatched": 26.72,
-    "views": 199
-   },
-   "nota_url": "",
-   "origen": "entrevistas",
-   "plataforma": "tiktok",
-   "prioridad": 7,
-   "texto": "Alejandro Diguardi: \"Hay plata para aviones y no para terapias\"\n\nEn Chivilcoy, Alejandro Diguardi, integrante del Observatorio de Discapacidad del MDF, cuestionó las prioridades de gasto del Estado frente a la falta de fondos para tratamientos de autismo. Reclamó que la cobertura de estas terapias es una decisión política urgente.\n\nhttps://youtu.be/DnZsYgQlmaY\n\n#chivilcoy #diariolacampaña #radiodelcentro",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Alejandro Diguardi: \"Hay plata para aviones y no para terapias\"",
-   "urgente": false,
-   "vence": "2026-11-19T17:40:16.000Z",
-   "video_bytes": 24860459,
-   "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00321.mp4",
    "viral": false
   },
   "entrevistas:job00324|tiktok": {
@@ -17943,32 +17842,36 @@
    "video_bytes": 0,
    "video_url": "",
    "viral": false
+  },
+  "web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d|x": {
+   "actualizado": "2026-11-28T00:00:22.000Z",
+   "buffer_id": "",
+   "clave": "web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d|x",
+   "creado": "2026-11-28T00:00:20.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-27T23:57:19.169Z",
+   "id": "web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-acordaron-obras-gratuitas-de-gas",
+   "noticia": "nota:chivilcoy-servicios-chivilcoy-acordaron-obras-gratuitas-de-gas",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Acordaron obras gratuitas de gas natural para varios barrios\n\nLa Municipalidad de Chivilcoy gestionó ante Camuzzi nueve proyectos para extender la red de gas natural. Los trabajos no tendrán costo para los vecinos alcanzados.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-servicios-chivilcoy-acordaron-obras-gratuitas-de-gas",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Acordaron obras gratuitas de gas natural para varios barrios",
+   "urgente": false,
+   "vence": "2026-11-28T03:57:19.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
   }
  },
  "registro": [
-  {
-   "clave": "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|tiktok",
-   "cuando": "2026-11-22T02:00:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "bot"
-  },
-  {
-   "clave": "web:50ef56fd-4c47-4dfd-b6a7-6c243fec43e7|x",
-   "cuando": "2026-11-22T02:00:32.000Z",
-   "estado": "descartado",
-   "evento": "recibido",
-   "motivo": "la misma noticia ya sale en X (Reels del bot, pendiente)",
-   "origen": "web"
-  },
-  {
-   "buffer_id": "6b024cc0d864a011058d091f",
-   "clave": "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x",
-   "cuando": "2026-11-22T02:00:33.000Z",
-   "dueAt": "2026-11-22T02:02:00.000Z",
-   "evento": "programado"
-  },
   {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x",
    "cuando": "2026-11-22T02:20:25.000Z",
@@ -22104,11 +22007,31 @@
    "cuando": "2026-11-27T23:20:18.000Z",
    "evento": "depurado",
    "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "clave": "web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d|x",
+   "cuando": "2026-11-28T00:00:22.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d|x",
+   "cuando": "2026-11-28T00:00:22.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
+  },
+  {
+   "buffer_id": "6b0a199723fb5b77000253d9",
+   "clave": "bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok",
+   "cuando": "2026-11-28T00:00:23.000Z",
+   "dueAt": "2026-11-28T00:03:00.000Z",
+   "evento": "programado"
   }
  ],
  "tandas": {
   "tiktok": [
-   "2026-11-17 21",
    "2026-11-18 10",
    "2026-11-18 18",
    "2026-11-18 21",
@@ -22137,10 +22060,11 @@
    "2026-11-26 18",
    "2026-11-26 21",
    "2026-11-27 10",
-   "2026-11-27 18"
+   "2026-11-27 18",
+   "2026-11-27 21"
   ]
  },
- "ultima_limpieza_release": "2026-11-27",
+ "ultima_limpieza_release": "2026-11-28",
  "ultima_sync": "2026-11-27T22:40:12.000Z",
  "version": 1,
  "vistos": {
@@ -22988,6 +22912,7 @@
   "web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061": "2026-11-13T10:02:41.000Z",
   "web:fe556d60-4cc4-452b-bf71-ab8a6a4dd680": "2026-11-27T00:00:17.000Z",
   "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7": "2026-11-11T13:00:20.000Z",
-  "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b": "2026-10-29T10:20:14.000Z"
+  "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b": "2026-10-29T10:20:14.000Z",
+  "web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d": "2026-11-28T00:00:20.000Z"
  }
 }
