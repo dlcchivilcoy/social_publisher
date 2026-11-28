@@ -4142,25 +4142,6 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/muestra-pictorica-chivilcoy-beatriz-canepa-y-fabiana-rocha-son-dos-de",
    "volanta": "Muestra Pictórica"
   },
-  "web:72962c62-5965-4c6f-846b-7ccd90b6b31b": {
-   "categoria": "",
-   "descripcion": "Conmoción en Chivilcoy: hallaron a dos hombres sin vida en distintos procedimientos policiales CHIVILCOY.– En hechos ocurridos en las últimas horas, las autoridades locales intervinieron en dos domicilios diferentes tras el hallazgo de personas fallecidas. La Justicia de Mercedes ordenó las autopsias de rigor para esclarecer fehacientemente las causas de los decesos. Dos trágicos episodios enlutaron a la comunidad de Chivilcoy durante las últimas jornadas, luego de que efectivos policiales y...",
-   "generado": "2026-11-18T10:01:37.963Z",
-   "id": "web:72962c62-5965-4c6f-846b-7ccd90b6b31b",
-   "imagen_url": "https://static.wixstatic.com/media/82cea5_a9f2ca62e0b64492bfcfabd6e7d2b344~mv2.png",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/en-las-ultimas-horas-conmocion-en-chivilcoy-hallaron-a-dos-hombres",
-   "origen": "web",
-   "plataformas": [
-    "x"
-   ],
-   "prioridad": 6,
-   "solo_finde": false,
-   "tipo": "nota",
-   "titulo": "Conmoción en Chivilcoy: hallaron a dos hombres sin vida en distintos procedimientos policiales",
-   "urgente": false,
-   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/en-las-ultimas-horas-conmocion-en-chivilcoy-hallaron-a-dos-hombres",
-   "volanta": "En las últimas horas"
-  },
   "web:747d5ae9-2756-46ee-8d93-309ec883e498": {
    "categoria": "",
    "descripcion": "Federico Feminella renunció a la Dirección Ejecutiva de PAMI Chivilcoy, continuará como concejal CHIVILCOY.– La decisión fue comunicada el lunes por la tarde a Sebastián Pareja.  Continuará como concejal y coordinador local de La Libertad Avanza. Así lo confirmó el propio dirigente a través de sus redes sociales. Federico Feminella presentó en las últimas horas su renuncia al cargo de director ejecutivo de la Unidad de Gestión Local (UGL) 38 de PAMI Chivilcoy. La información fue confirmada,...",
@@ -14445,44 +14426,6 @@
    "video_url": "",
    "viral": false
   },
-  "web:72962c62-5965-4c6f-846b-7ccd90b6b31b|x": {
-   "actualizado": "2026-11-18T10:20:14.000Z",
-   "buffer_id": "6afd7818e6ccf7cfbbbb3dc2",
-   "clave": "web:72962c62-5965-4c6f-846b-7ccd90b6b31b|x",
-   "creado": "2026-11-18T10:02:51.000Z",
-   "dueAt": "2026-11-18T10:07:17.000Z",
-   "enviado": "2026-11-18T10:07:31.302Z",
-   "error": "",
-   "espera": "",
-   "estado": "enviado",
-   "generado": "2026-11-18T10:01:37.963Z",
-   "id": "web:72962c62-5965-4c6f-846b-7ccd90b6b31b",
-   "ig_hora": "2026-11-18T10:07:22.000Z",
-   "intentos": 0,
-   "link": "https://x.com/3000669687/status/2122995104868683828",
-   "metricas": {
-    "clicks": 1,
-    "comments": 0,
-    "engagementRate": 3.7,
-    "impressions": 27,
-    "reactions": 0,
-    "reposts": 0
-   },
-   "nota_url": "https://www.diariolacampaña.com.ar/n/en-las-ultimas-horas-conmocion-en-chivilcoy-hallaron-a-dos-hombres",
-   "noticia": "nota:en-las-ultimas-horas-conmocion-en-chivilcoy-hallaron-a-dos-hombres",
-   "origen": "web",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Conmoción en Chivilcoy: hallaron a dos hombres sin vida en distintos procedimientos policiales\n\nhttps://www.diariolacampaña.com.ar/n/en-las-ultimas-horas-conmocion-en-chivilcoy-hallaron-a-dos-hombres",
-   "texto_v": 2,
-   "tipo": "nota",
-   "titulo": "Conmoción en Chivilcoy: hallaron a dos hombres sin vida en distintos procedimientos policiales",
-   "urgente": false,
-   "vence": "2026-11-18T14:01:37.000Z",
-   "video_bytes": 0,
-   "video_url": "",
-   "viral": false
-  },
   "web:747d5ae9-2756-46ee-8d93-309ec883e498|x": {
    "actualizado": "2026-11-18T11:40:17.000Z",
    "buffer_id": "6afd7819b74fdaddf6302897",
@@ -22672,7 +22615,6 @@
   "web:53a73a04-7714-4da8-a6b3-30f272f523ee": "2026-11-03T10:02:22.000Z",
   "web:547df2b0-7a1a-4b57-923f-b7947b7b5134": "2026-11-07T22:40:14.000Z",
   "web:5571de4c-caad-4918-b27a-06c644676364": "2026-10-30T01:20:15.000Z",
-  "web:561853b1-67e1-45fd-b235-1ca7ac0f7b85": "2026-10-29T10:20:14.000Z",
   "web:5787b273-eb59-4cd3-b83e-1e5be0b2b53f": "2026-11-24T09:03:24.000Z",
   "web:57ce77f4-620f-458a-bf27-3a9cfba99984": "2026-11-24T09:20:14.000Z",
   "web:58459b5e-c957-4576-9d37-2bf95a3dd6ca": "2026-11-27T23:20:14.000Z",
@@ -22742,7 +22684,6 @@
   "web:7dd5195a-6787-458a-861f-22ceaaf90ea3": "2026-11-13T10:02:41.000Z",
   "web:7de0c278-06b2-46a5-b5cf-f664ea3eb882": "2026-11-25T02:20:14.000Z",
   "web:7de16944-cbd0-472a-9ccc-0f7b42b113cd": "2026-11-13T10:02:41.000Z",
-  "web:7dfebfa0-68ca-4f33-a90e-79343f8814f3": "2026-10-29T10:20:14.000Z",
   "web:7e2be751-eca4-4956-b6fd-5aa5d2454f12": "2026-11-25T02:00:17.000Z",
   "web:7f27bdc8-3410-406c-a7fa-a0920049340f": "2026-11-20T16:20:13.000Z",
   "web:7fb82dc9-0d16-43cf-963d-96e91c8c2285": "2026-11-12T13:40:16.000Z",
@@ -22827,7 +22768,6 @@
   "web:a64ce084-265d-420e-aab2-c9ecfce66084": "2026-11-12T10:02:44.000Z",
   "web:a6553dae-33dd-4e2f-97f9-a1eb44c4e105": "2026-11-13T00:40:18.000Z",
   "web:a7006b82-c26d-419f-8d32-75902a38cfde": "2026-11-25T09:03:59.000Z",
-  "web:a70da9aa-a4d0-49ae-8807-3a2b0a395f56": "2026-10-29T10:20:14.000Z",
   "web:a84ee201-6571-4781-a9ba-cda913722cca": "2026-11-19T09:05:46.000Z",
   "web:a872c57c-897c-4bec-8f45-2e83bffd630f": "2026-11-02T18:20:16.000Z",
   "web:a8b3d0f8-ed98-4eaa-9399-3460c9aa587c": "2026-11-24T09:20:14.000Z",
@@ -22928,7 +22868,6 @@
   "web:d9dcfd14-725c-42fd-9211-6aea4bbb19fa": "2026-10-30T10:20:13.000Z",
   "web:d9ea25b8-3de1-4342-8768-959e5bf6f94c": "2026-11-25T00:20:14.000Z",
   "web:da7a71c1-fb14-4868-ba84-3e52bf96430a": "2026-11-09T00:00:16.000Z",
-  "web:dbcff185-c524-4cad-9ffd-27938d2a4920": "2026-10-29T10:20:14.000Z",
   "web:dbf352ff-5f10-4d42-b7a1-25afb048d043": "2026-11-19T09:05:46.000Z",
   "web:dc97c866-ac5d-4b68-a77b-dcdada7a4b3a": "2026-11-09T10:02:37.000Z",
   "web:dcb22c81-7d51-4e86-bbc1-15b7a80a5a24": "2026-11-07T09:00:16.000Z",
@@ -22983,7 +22922,6 @@
   "web:f43c1af9-49ed-4cde-ae35-d9f81087c717": "2026-11-26T09:06:23.000Z",
   "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae": "2026-11-02T10:03:22.000Z",
   "web:f56995a6-b101-4a83-8cd4-dabb08b85b0a": "2026-11-26T11:40:17.000Z",
-  "web:f5e279af-867b-46f2-92ed-06cee448bd38": "2026-10-29T10:20:14.000Z",
   "web:f6713c0e-7058-4a61-af6e-2cb5e32fb4f9": "2026-11-20T22:40:15.000Z",
   "web:f6815fdc-6983-4a94-8ba2-35a647bf7d9b": "2026-11-19T13:20:14.000Z",
   "web:f698d077-1709-4e35-97fc-3ba2f9d16745": "2026-11-25T09:03:59.000Z",
@@ -23007,7 +22945,6 @@
   "web:fdb62d8a-4184-48fa-97fa-5aa4f2fc3061": "2026-11-13T10:02:41.000Z",
   "web:fe556d60-4cc4-452b-bf71-ab8a6a4dd680": "2026-11-27T00:00:17.000Z",
   "web:feb532fd-5a81-4f28-a01c-a36a3f475fa7": "2026-11-11T13:00:20.000Z",
-  "web:ff60d7e4-2efb-4024-98e0-5a5b08e4345b": "2026-10-29T10:20:14.000Z",
   "web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d": "2026-11-28T00:00:20.000Z"
  }
 }
