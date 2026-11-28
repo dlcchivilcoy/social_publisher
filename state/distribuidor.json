@@ -1487,6 +1487,32 @@
    "volanta": "Operativos policiales en Lobos",
    "youtube_url": "https://youtube.com/shorts/I1e060UGH9M"
   },
+  "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/": {
+   "categoria": "robo",
+   "descripcion": "Cayó una banda integrada por dos hombres y una mujer oriundos del conurbano que circulaba en un Volkswagen Voyage. Les secuestraron herramientas y herramientas de corte.",
+   "distancia_km": 89.8,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-28T02:32:46.000Z",
+   "id": "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/",
+   "localidad": "Lobos",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-detuvieron-a-tres-personas-del-conurbano-investigadas-por-35e0a8",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Personal policial detuvo en Lobos a dos hombres y una mujer mayores de edad, todos procedentes del conurbano bonaerense.\n\nEl operativo se originó tras una alerta del sistema de monitoreo comunal que advirtió el paso de un Volkswagen Voyage vinculado a robos previos de neumáticos.\n\nDurante la requisa del rodado, los efectivos secuestraron criques, llaves de tubo, destornilladores, una pinza y un cortapernos.\n\nLa investigación quedó a cargo de la UFI N° 2 de Saladillo bajo la carátula de hurto y los imputados debían presentarse en la sede judicial.\n\n📲 Más noticias de Lobos en www.diariolacampaña.com.ar\n\n#Lobos #Policiales #Detenidos #RoboDeRuedas #BuenosAires",
+   "tipo": "video",
+   "titulo": "Tres personas del conurbano detenidas en Lobos por robar ruedas de auxilio",
+   "urgente": false,
+   "video_bytes": 90344,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_04_lobos_tres-personas-del-conurbano-de.mp4",
+   "volanta": "Operativo policial en Lobos",
+   "youtube_url": "https://youtube.com/shorts/IXPThSJ4Oy0"
+  },
   "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/": {
    "categoria": "judicial",
    "descripcion": "La Justicia otorgó la libertad al motoclista de 18 años acusado de atropellar y matar a Jorge Limonta. El hecho ocurrió el domingo por la noche y la causa está caratulada como homicidio culposo agravado.",
@@ -10381,6 +10407,34 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-25_0132_06_lobos_cinco-detenidos-y-demorados-en.mp4",
    "viral": false
   },
+  "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/|x": {
+   "actualizado": "2026-11-28T02:40:14.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/|x",
+   "creado": "2026-11-28T02:40:14.000Z",
+   "dueAt": "",
+   "error": "",
+   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
+   "estado": "pendiente",
+   "generado": "2026-11-28T02:32:46.000Z",
+   "id": "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lobos-detuvieron-a-tres-personas-del-conurbano-investigadas-por-35e0a8",
+   "noticia": "nota:lobos-detuvieron-a-tres-personas-del-conurbano-investigadas-por-35e0a8",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Tres personas del conurbano detenidas en Lobos por robar ruedas de auxilio\n\nCayó una banda integrada por dos hombres y una mujer oriundos del conurbano que circulaba en un Volkswagen Voyage. Les secuestraron herramientas y herramientas de corte.\n\nhttps://www.diariolacampaña.com.ar/n/lobos-detuvieron-a-tres-personas-del-conurbano-investigadas-por-35e0a8",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Tres personas del conurbano detenidas en Lobos por robar ruedas de auxilio",
+   "urgente": false,
+   "vence": "2026-11-28T04:32:46.000Z",
+   "video_bytes": 90344,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_04_lobos_tres-personas-del-conurbano-de.mp4",
+   "viral": false
+  },
   "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/|x": {
    "actualizado": "2026-11-20T09:00:29.000Z",
    "buffer_id": "",
@@ -17812,14 +17866,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html|x",
-   "cuando": "2026-11-22T09:00:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html|x",
    "cuando": "2026-11-22T09:00:29.000Z",
    "estado": "pendiente",
@@ -21966,6 +22012,14 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/|x",
+   "cuando": "2026-11-28T02:40:14.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
   }
  ],
  "tandas": {
@@ -22231,6 +22285,7 @@
   "policiales:https://lobos24.com.ar/2026/11/02/tres-procedimientos-policiales-en-lobos-dos-aprehendidos-y-cinco-motos-secuestradas/": "2026-11-02T23:20:15.000Z",
   "policiales:https://lobos24.com.ar/2026/11/09/policiales-robaron-3-millones-de-una-inmobiliaria-y-un-joven-murio-en-un-siniestro-vial/": "2026-11-09T22:40:14.000Z",
   "policiales:https://lobos24.com.ar/2026/11/24/informacion-de-prensa-cinco-procedimientos-policiales-en-lobos-demorados-por-robos-violacion-de-domicilio-y-desobediencia/": "2026-11-25T09:00:19.000Z",
+  "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/": "2026-11-28T02:40:14.000Z",
   "policiales:https://noticiasgilenses.com.ar/el-conductor-de-la-moto-que-atropello-al-vecino-limonta-quedo-detenido/": "2026-11-17T22:20:13.000Z",
   "policiales:https://noticiasgilenses.com.ar/la-justicia-excarcelo-al-motoclista-que-le-quito-la-vida-a-jorge-limonta/": "2026-11-20T02:40:15.000Z",
   "policiales:https://noticiasgilenses.com.ar/otra-muerte-que-desnuda-un-problema-al-que-las-autoridades-no-le-encuentran-solucion/": "2026-11-17T00:20:16.000Z",
