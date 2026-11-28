@@ -1149,32 +1149,6 @@
    "volanta": "Robo en 9 de Julio",
    "youtube_url": "https://youtube.com/shorts/k5NE24RAM64"
   },
-  "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": {
-   "categoria": "robo",
-   "descripcion": "Investigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.",
-   "distancia_km": 88.2,
-   "duracion_seg": 13.0,
-   "generado": "2026-11-17T22:32:50.000Z",
-   "id": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea",
-   "localidad": "Morea",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-investigan-graves-hechos-de-vandalismo-y-robo-en-el-74f76f",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 7,
-   "radio_ok": true,
-   "texto_tiktok": "Investigan graves hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea.\n\nEl episodio generó un repudio generalizado entre los vecinos de la comunidad del partido de 9 de Julio.\n\nLa policía local inició una investigación para dar con los responsables de los daños y faltantes en el predio.\n\n📲 Más noticias de Morea en www.diariolacampaña.com.ar\n\n#Morea #Inseguridad #Robo #BuenosAires",
-   "tipo": "video",
-   "titulo": "Investigan robo y destrozos en el cementerio de la localidad de Morea",
-   "urgente": false,
-   "video_bytes": 141560,
-   "video_mb": 0.1,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_02_9-de-julio_investigan-robo-y-destrozos-en.mp4",
-   "volanta": "Vandalismo en Morea",
-   "youtube_url": "https://youtube.com/shorts/vN8uWpibrlA"
-  },
   "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/": {
    "categoria": "accidente_vial",
    "descripcion": "Un violento siniestro vial a la altura del kilómetro 118 dejó dos fallecidos y un herido internado. El vehículo se prendió fuego y estaría vinculado a un robo previo.",
@@ -5902,6 +5876,25 @@
    "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/reciente-libro-chivilcoy-alicia-marino-presento-su-novela-romance-sin",
    "volanta": "Reciente libro"
   },
+  "web:f37c1e1a-513a-464b-8229-1909fefa7fc9": {
+   "categoria": "",
+   "descripcion": "Chivilcoy: Aprehendieron a un joven y secuestraron una moto con numeración suprimida Personal del Grupo Táctico Operativo (GTO) de la Policía Comunal y de la SubDDI Chivilcoy aprehendió a un joven de 21 años en la intersección de la avenida Carlos Gardel y Pringles. Durante el procedimiento, los efectivos secuestraron una motocicleta Honda Wave de 110 cc, que presentaba la numeración del cuadro y del motor suprimidas. Intervino la UFI N.º 6 del Departamento Judicial de Mercedes, que dispuso...",
+   "generado": "2026-11-28T00:37:05.129Z",
+   "id": "web:f37c1e1a-513a-464b-8229-1909fefa7fc9",
+   "imagen_url": "https://static.wixstatic.com/media/82cea5_9d8557eb685f464daf121da6d3ea37f9~mv2.jpg",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-y",
+   "origen": "web",
+   "plataformas": [
+    "x"
+   ],
+   "prioridad": 6,
+   "solo_finde": false,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Aprehendieron a un joven y secuestraron una moto con numeración suprimida",
+   "urgente": false,
+   "url_canonica": "https://www.xn--diariolacampaa-2nb.com.ar/single-post/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-y",
+   "volanta": "Chivilcoy · Policiales"
+  },
   "web:f43c1af9-49ed-4cde-ae35-d9f81087c717": {
    "categoria": "",
    "descripcion": "El Concejo Deliberante de Chivilcoy sesionará este jueves con proyectos sobre UPD, obra pública y endeudamiento CHIVILCOY.– El cuerpo deliberativo celebrará una nueva sesión pública ordinaria el 26 de noviembre a las 20:00 en su recinto, con un temario de once despachos de comisión que abarca regulación de festejos estudiantiles, infraestructura deportiva, pedidos de informe y asistencia económica. El Honorable Concejo Deliberante (HCD) de Chivilcoy llevará adelante este jueves 26 de...",
@@ -10015,34 +10008,6 @@
    "vence": "2026-11-22T04:32:57.000Z",
    "video_bytes": 110068,
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-22_0134_04_9-de-julio_robaron-una-moto-rouser-en-la-.mp4",
-   "viral": false
-  },
-  "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x": {
-   "actualizado": "2026-11-18T00:40:16.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea|x",
-   "creado": "2026-11-17T22:40:13.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-17T22:32:50.000Z",
-   "id": "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/9-de-julio-investigan-graves-hechos-de-vandalismo-y-robo-en-el-74f76f",
-   "noticia": "nota:9-de-julio-investigan-graves-hechos-de-vandalismo-y-robo-en-el-74f76f",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 7,
-   "texto": "Investigan robo y destrozos en el cementerio de la localidad de Morea\n\nInvestigan hechos de vandalismo y robo registrados en el cementerio de la localidad de Morea, en el partido de 9 de Julio. Hay repudio generalizado.\n\nhttps://www.diariolacampaña.com.ar/n/9-de-julio-investigan-graves-hechos-de-vandalismo-y-robo-en-el-74f76f",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Investigan robo y destrozos en el cementerio de la localidad de Morea",
-   "urgente": false,
-   "vence": "2026-11-18T00:32:50.000Z",
-   "video_bytes": 141560,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_02_9-de-julio_investigan-robo-y-destrozos-en.mp4",
    "viral": false
   },
   "policiales:https://boscoproducciones.com.ar/dos-personas-murieron-tras-un-choque-y-posterior-incendio-de-un-automovil-en-la-autovia-8/|x": {
@@ -17433,6 +17398,33 @@
    "video_url": "",
    "viral": false
   },
+  "web:f37c1e1a-513a-464b-8229-1909fefa7fc9|x": {
+   "actualizado": "2026-11-28T00:40:16.000Z",
+   "buffer_id": "",
+   "clave": "web:f37c1e1a-513a-464b-8229-1909fefa7fc9|x",
+   "creado": "2026-11-28T00:40:14.000Z",
+   "dueAt": "",
+   "error": "de la web, a X solo van las notas del diario de la mañana",
+   "estado": "descartado",
+   "generado": "2026-11-28T00:37:05.129Z",
+   "id": "web:f37c1e1a-513a-464b-8229-1909fefa7fc9",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-y",
+   "noticia": "nota:chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-y",
+   "origen": "web",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Chivilcoy: Aprehendieron a un joven y secuestraron una moto con numeración suprimida\n\nEfectivos policiales aprehendieron a un joven de 21 años en Gardel y Pringles. En el lugar, incautaron una motocicleta con la numeración del cuadro y motor suprimidas.\n\nhttps://www.diariolacampaña.com.ar/n/chivilcoy-policiales-chivilcoy-aprehendieron-a-un-joven-y",
+   "texto_v": 2,
+   "tipo": "nota",
+   "titulo": "Chivilcoy: Aprehendieron a un joven y secuestraron una moto con numeración suprimida",
+   "urgente": false,
+   "vence": "2026-11-28T04:37:05.000Z",
+   "video_bytes": 0,
+   "video_url": "",
+   "viral": false
+  },
   "web:f43c1af9-49ed-4cde-ae35-d9f81087c717|x": {
    "actualizado": "2026-11-26T10:00:20.000Z",
    "buffer_id": "",
@@ -17873,20 +17865,6 @@
   }
  },
  "registro": [
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html|x",
-   "cuando": "2026-11-22T02:20:34.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|x",
-   "cuando": "2026-11-22T02:20:34.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2124322501433979068"
-  },
   {
    "buffer_id": "6b025172cc364169c11f7678",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x",
@@ -22027,6 +22005,20 @@
    "cuando": "2026-11-28T00:20:15.000Z",
    "evento": "enviado",
    "link": "https://tiktok.com/@diarioyradio/video/7713006313109736725"
+  },
+  {
+   "clave": "web:f37c1e1a-513a-464b-8229-1909fefa7fc9|x",
+   "cuando": "2026-11-28T00:40:16.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "web"
+  },
+  {
+   "clave": "web:f37c1e1a-513a-464b-8229-1909fefa7fc9|x",
+   "cuando": "2026-11-28T00:40:16.000Z",
+   "evento": "depurado",
+   "motivo": "de la web, a X solo van las notas del diario de la mañana"
   }
  ],
  "tandas": {
@@ -22884,6 +22876,7 @@
   "web:f1a20b87-1804-430d-9961-2598fe26d092": "2026-11-16T20:00:18.000Z",
   "web:f1f5b74d-dab6-4cbf-b460-011968d98b30": "2026-11-24T09:20:14.000Z",
   "web:f29282a3-153c-48df-bcfd-f74e206f03a3": "2026-11-26T09:06:23.000Z",
+  "web:f37c1e1a-513a-464b-8229-1909fefa7fc9": "2026-11-28T00:40:14.000Z",
   "web:f43c1af9-49ed-4cde-ae35-d9f81087c717": "2026-11-26T09:06:23.000Z",
   "web:f5616153-89ec-4d49-bf9f-6ba5d531d7ae": "2026-11-02T10:03:22.000Z",
   "web:f56995a6-b101-4a83-8cd4-dabb08b85b0a": "2026-11-26T11:40:17.000Z",

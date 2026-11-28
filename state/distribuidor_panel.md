@@ -1,5 +1,5 @@
 # Distribuidor X / TikTok — panel
-Actualizado: 27/11/2026 21:20 (hora AR) · ACTIVO
+Actualizado: 27/11/2026 21:40 (hora AR) · ACTIVO
 
 ## Hoy (2026-11-27)
 | Origen | Red | Cupo | enviado | programado | pendiente | error | vencido | descartado |
@@ -9,7 +9,7 @@ Actualizado: 27/11/2026 21:20 (hora AR) · ACTIVO
 | Reels del bot | X | 10 | 1 | 0 | 0 | 0 | 0 | 1 |
 | Reels del bot | TikTok | 20 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Reels policiales | X | 6 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Notas web | X | 15 | 12 | 0 | 0 | 0 | 1 | 10 |
+| Notas web | X | 15 | 12 | 0 | 0 | 0 | 1 | 11 |
 | Nacionales y categorías | X | 12 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Canales
@@ -33,8 +33,6 @@ Actualizado: 27/11/2026 21:20 (hora AR) · ACTIVO
 - ninguno
 
 ## Últimos movimientos
-- 2026-11-27T19:40 recibido web:b2362383-962e-4ad2-84de-0eca6f2eb26f|x 
-- 2026-11-27T19:40 depurado web:b2362383-962e-4ad2-84de-0eca6f2eb26f|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-27T21:00 programado entrevistas:job00362|tiktok 
 - 2026-11-27T21:00 programado entrevistas:job00361|tiktok 
 - 2026-11-27T21:00 programado entrevistas:job00360|tiktok 
@@ -58,3 +56,5 @@ Actualizado: 27/11/2026 21:20 (hora AR) · ACTIVO
 - 2026-11-28T00:00 depurado web:ff8146b4-f595-490f-92bb-49f0e7ce3b0d|x de la web, a X solo van las notas del diario de la mañana
 - 2026-11-28T00:00 programado bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok 
 - 2026-11-28T00:20 enviado bot:video_matias-zucchi_mwziihamszrj_01.mp4|tiktok 
+- 2026-11-28T00:40 recibido web:f37c1e1a-513a-464b-8229-1909fefa7fc9|x 
+- 2026-11-28T00:40 depurado web:f37c1e1a-513a-464b-8229-1909fefa7fc9|x de la web, a X solo van las notas del diario de la mañana
