@@ -1123,6 +1123,32 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00362.mp4",
    "youtube_url": "https://youtu.be/m4uZNMuqmVI"
   },
+  "policiales:http://www.elcivismo.com.ar/notas/59435/detuvieron-al-motochorro-que-le-sustrajo-la-cartera-en-el-sarmiento.html": {
+   "categoria": "robo",
+   "descripcion": "Personal policial logró capturar al sujeto que circulaba en moto y le había robado las pertenencias a una transeúnte en la vía pública.",
+   "distancia_km": 90.1,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-28T03:17:46.000Z",
+   "id": "policiales:http://www.elcivismo.com.ar/notas/59435/detuvieron-al-motochorro-que-le-sustrajo-la-cartera-en-el-sarmiento.html",
+   "localidad": "Luján",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-detuvieron-al-conductor-de-una-moto-acusado-de-robarle-la-b65267",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 6,
+   "radio_ok": true,
+   "texto_tiktok": "Un operativo policial culminó con la captura del sujeto que asaltó a una mujer en la vía pública.\n\nEl malviviente circulaba a bordo de una moto al momento de cometer el ilícito.\n\nLa víctima sufrió el arrebato de sus pertenencias personales y de valor.\n\nLas autoridades trabajan para esclarecer por completo el episodio delictivo.\n\n📲 Más noticias de Luján en www.diariolacampaña.com.ar\n\n#Lujan #Inseguridad #Policiales #BuenosAires",
+   "tipo": "video",
+   "titulo": "Atraparon al delincuente en moto que le robó la cartera a una vecina",
+   "urgente": false,
+   "video_bytes": 87201,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_07_lujan_atraparon-al-delincuente-en-mo.mp4",
+   "volanta": "Robo en Luján",
+   "youtube_url": "https://youtube.com/shorts/p1gNZfcFeDc"
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": {
    "categoria": "robo",
    "descripcion": "Sustrajeron un motovehículo marca Rouser en cercanías de la calle Levalle al 100 en la ciudad de 9 de Julio. Investigan el hecho.",
@@ -1435,32 +1461,6 @@
    "volanta": "Operativos policiales en Junín",
    "youtube_url": "https://youtube.com/shorts/op0jhc-VnlA"
   },
-  "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com": {
-   "categoria": "robo",
-   "descripcion": "Una Corven Energy 110 sustraída de madrugada fue hallada oculta entre la vegetación cerca del río Salado. La policía la ubicó en menos de dos horas mediante el seguimiento del COM.",
-   "distancia_km": 91.2,
-   "duracion_seg": 56.2,
-   "generado": "2026-11-18T00:32:05.000Z",
-   "id": "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com",
-   "localidad": "Junín",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-recuperan-una-moto-robada-en-menos-de-dos-horas-con-las-13161d",
-   "origen": "policiales",
-   "plataformas": [
-    "x",
-    "tiktok"
-   ],
-   "prioridad": 6,
-   "radio_ok": true,
-   "texto_tiktok": "Una motocicleta robada en Junín fue recuperada por la policía en menos de dos horas durante la madrugada.\n\nEl operativo se concretó mediante el monitoreo de las cámaras del COM y un rastrillaje cerca del río Salado.\n\nEl rodado estaba escondido entre la vegetación próxima al puente Posadas y la investigación quedó a cargo de la fiscalía interviniente.\n\n📲 Más noticias de Junín en www.diariolacampaña.com.ar\n\n#Junin #Policiales #Seguridad #BuenosAires",
-   "tipo": "video",
-   "titulo": "Recuperan en menos de dos horas una moto robada en Junín tras seguirla por las cámaras",
-   "urgente": false,
-   "video_bytes": 1810949,
-   "video_mb": 1.7,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_10_junin_recuperan-en-menos-de-dos-hora.mp4",
-   "volanta": "Robo en Junín",
-   "youtube_url": "https://youtube.com/shorts/9Zffe-ZfP0M"
-  },
   "policiales:https://lobos24.com.ar/2026/11/24/informacion-de-prensa-cinco-procedimientos-policiales-en-lobos-demorados-por-robos-violacion-de-domicilio-y-desobediencia/": {
    "categoria": "otro_policial",
    "descripcion": "La Policía Comunal informó sobre cinco operativos realizados entre el 21 y el 24 de noviembre. Hubo aprehendidos por robo de moto y bicicleta, violación de domicilio, un paradero activo y un caso de violencia con desobediencia de perímetro.",
@@ -1668,6 +1668,58 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-25_0132_05_bragado_demoraron-a-un-automovilista-p.mp4",
    "volanta": "Bragado",
    "youtube_url": "https://youtube.com/shorts/Qy_PMP9L_d0"
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31240/volvio-el-calor-y-regreso-el-humo-nuevo-incendio-en-el-basural-municipal-en-medio-de-la-polemica-por-los-fondos-para-obras.html": {
+   "categoria": "incendio",
+   "descripcion": "Bomberos voluntarios combatieron un foco ígneo en el predio municipal debido al aumento de temperatura. Vecinos reclaman soluciones definitivas ante la falta de avances en las tareas de saneamiento.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-28T03:01:54.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31240/volvio-el-calor-y-regreso-el-humo-nuevo-incendio-en-el-basural-municipal-en-medio-de-la-polemica-por-los-fondos-para-obras.html",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-nuevo-incendio-en-el-basural-municipal-con-266c7f",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 8,
+   "radio_ok": true,
+   "texto_tiktok": "Un nuevo foco ígneo se desató en el basural a cielo abierto de Bragado durante la mañana de este viernes.\n\nBomberos voluntarios acudieron al predio municipal tras la suba de la temperatura que reactivó las llamas.\n\nLa situación genera preocupación vecinal por el humo tóxico y cuestionamientos sobre el uso de recursos comunales.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #Incendio #Bomberos #BuenosAires",
+   "tipo": "video",
+   "titulo": "Nuevo incendio en el basural municipal de Bragado en medio del calor",
+   "urgente": false,
+   "video_bytes": 105834,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_06_bragado_nuevo-incendio-en-el-basural-m.mp4",
+   "volanta": "Incendio en Bragado",
+   "youtube_url": "https://youtube.com/shorts/5oyTH-51Zn0"
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31241/fuerte-descargo-del-automovilista-aprehendido-denuncio-maltratos-una-multa-de-702-mil-pesos-y-acusaciones-falsas.html": {
+   "categoria": "operativo_policial",
+   "descripcion": "Un hombre de 59 años que viajó desde La Pampa acusó a inspectores de tránsito de sacarlo a la fuerza del auto durante un operativo en el acceso Bernardo Elizondo. Aseguró que sufrió lesiones y debió pagar casi un millón de pesos entre multa y gastos.",
+   "distancia_km": 49.3,
+   "duracion_seg": 13.0,
+   "generado": "2026-11-28T02:46:41.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31241/fuerte-descargo-del-automovilista-aprehendido-denuncio-maltratos-una-multa-de-702-mil-pesos-y-acusaciones-falsas.html",
+   "localidad": "Bragado",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-automovilista-denuncio-agresiones-maltratos-y-una-multa-3415ea",
+   "origen": "policiales",
+   "plataformas": [
+    "x",
+    "tiktok"
+   ],
+   "prioridad": 7,
+   "radio_ok": true,
+   "texto_tiktok": "José Luis Saracco relató el violento episodio que vivió en un control vehicular sobre el acceso Bernardo Elizondo de Bragado.\n\nEl conductor de 59 años aseguró que inspectores lo sacaron a la fuerza del habitáculo y le provocaron lesiones que requiriero atención médica.\n\nAdemás de rechazar las acusaciones en su contra, indicó que debió abonar una infracción de 702 mil pesos para recuperar su automóvil.\n\n📲 Más noticias de Bragado en www.diariolacampaña.com.ar\n\n#Bragado #OperativoPolicial #Denuncia #BuenosAires",
+   "tipo": "video",
+   "titulo": "Denunció agresiones y una multa millonaria tras un control en Bragado",
+   "urgente": false,
+   "video_bytes": 95070,
+   "video_mb": 0.1,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_05_bragado_denunci-agresiones-y-una-multa.mp4",
+   "volanta": "Operativo policial en Bragado",
+   "youtube_url": "https://youtube.com/shorts/xIpyr-2Sk0w"
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html": {
    "categoria": "accidente_vial",
@@ -9982,6 +10034,33 @@
    "video_url": "https://github.com/dlcchivilcoy/social_publisher/releases/download/buzon-distribuidor/entrevista_job00362.mp4",
    "viral": false
   },
+  "policiales:http://www.elcivismo.com.ar/notas/59435/detuvieron-al-motochorro-que-le-sustrajo-la-cartera-en-el-sarmiento.html|x": {
+   "actualizado": "2026-11-28T09:00:30.000Z",
+   "buffer_id": "",
+   "clave": "policiales:http://www.elcivismo.com.ar/notas/59435/detuvieron-al-motochorro-que-le-sustrajo-la-cartera-en-el-sarmiento.html|x",
+   "creado": "2026-11-28T09:00:18.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-28T03:17:46.000Z",
+   "id": "policiales:http://www.elcivismo.com.ar/notas/59435/detuvieron-al-motochorro-que-le-sustrajo-la-cartera-en-el-sarmiento.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/lujan-detuvieron-al-conductor-de-una-moto-acusado-de-robarle-la-b65267",
+   "noticia": "nota:lujan-detuvieron-al-conductor-de-una-moto-acusado-de-robarle-la-b65267",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 6,
+   "texto": "Atraparon al delincuente en moto que le robó la cartera a una vecina\n\nPersonal policial logró capturar al sujeto que circulaba en moto y le había robado las pertenencias a una transeúnte en la vía pública.\n\nhttps://www.diariolacampaña.com.ar/n/lujan-detuvieron-al-conductor-de-una-moto-acusado-de-robarle-la-b65267",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Atraparon al delincuente en moto que le robó la cartera a una vecina",
+   "urgente": false,
+   "vence": "2026-11-28T05:17:46.000Z",
+   "video_bytes": 87201,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_07_lujan_atraparon-al-delincuente-en-mo.mp4",
+   "viral": false
+  },
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x": {
    "actualizado": "2026-11-22T09:00:31.000Z",
    "buffer_id": "",
@@ -10168,14 +10247,14 @@
    "viral": false
   },
   "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/|x": {
-   "actualizado": "2026-11-28T02:20:15.000Z",
+   "actualizado": "2026-11-28T09:00:30.000Z",
    "buffer_id": "",
    "clave": "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/|x",
    "creado": "2026-11-28T02:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-28T02:01:26.000Z",
    "id": "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/",
    "intentos": 0,
@@ -10352,34 +10431,6 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-26_0134_01_junin_recuperan-veh-culos-robados-y-.mp4",
    "viral": false
   },
-  "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com|x": {
-   "actualizado": "2026-11-18T02:40:17.000Z",
-   "buffer_id": "",
-   "clave": "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com|x",
-   "creado": "2026-11-18T00:40:14.000Z",
-   "dueAt": "",
-   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "vencido",
-   "generado": "2026-11-18T00:32:05.000Z",
-   "id": "policiales:https://junin24.com/policiales/rapido-accionar-policial-en-junin-recuperan-una-motocicleta-robada-en-menos-de-dos-horas-tras-seguirla-por-las-camaras-del-com",
-   "intentos": 0,
-   "link": "",
-   "nota_url": "https://www.diariolacampaña.com.ar/n/junin-recuperan-una-moto-robada-en-menos-de-dos-horas-con-las-13161d",
-   "noticia": "nota:junin-recuperan-una-moto-robada-en-menos-de-dos-horas-con-las-13161d",
-   "origen": "policiales",
-   "plataforma": "x",
-   "prioridad": 6,
-   "texto": "Recuperan en menos de dos horas una moto robada en Junín tras seguirla por las cámaras\n\nUna Corven Energy 110 sustraída de madrugada fue hallada oculta entre la vegetación cerca del río Salado. La policía la ubicó con el seguimiento del COM.\n\nhttps://www.diariolacampaña.com.ar/n/junin-recuperan-una-moto-robada-en-menos-de-dos-horas-con-las-13161d",
-   "texto_v": 2,
-   "tipo": "video",
-   "titulo": "Recuperan en menos de dos horas una moto robada en Junín tras seguirla por las cámaras",
-   "urgente": false,
-   "vence": "2026-11-18T02:32:05.000Z",
-   "video_bytes": 1810949,
-   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-17_2134_10_junin_recuperan-en-menos-de-dos-hora.mp4",
-   "viral": false
-  },
   "policiales:https://lobos24.com.ar/2026/11/24/informacion-de-prensa-cinco-procedimientos-policiales-en-lobos-demorados-por-robos-violacion-de-domicilio-y-desobediencia/|x": {
    "actualizado": "2026-11-25T09:00:37.000Z",
    "buffer_id": "",
@@ -10408,14 +10459,14 @@
    "viral": false
   },
   "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/|x": {
-   "actualizado": "2026-11-28T02:40:14.000Z",
+   "actualizado": "2026-11-28T09:00:30.000Z",
    "buffer_id": "",
    "clave": "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/|x",
    "creado": "2026-11-28T02:40:14.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-28T02:32:46.000Z",
    "id": "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/",
    "intentos": 0,
@@ -10610,6 +10661,60 @@
    "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-25_0132_05_bragado_demoraron-a-un-automovilista-p.mp4",
    "viral": false
   },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31240/volvio-el-calor-y-regreso-el-humo-nuevo-incendio-en-el-basural-municipal-en-medio-de-la-polemica-por-los-fondos-para-obras.html|x": {
+   "actualizado": "2026-11-28T09:00:30.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31240/volvio-el-calor-y-regreso-el-humo-nuevo-incendio-en-el-basural-municipal-en-medio-de-la-polemica-por-los-fondos-para-obras.html|x",
+   "creado": "2026-11-28T09:00:18.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-28T03:01:54.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31240/volvio-el-calor-y-regreso-el-humo-nuevo-incendio-en-el-basural-municipal-en-medio-de-la-polemica-por-los-fondos-para-obras.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-nuevo-incendio-en-el-basural-municipal-con-266c7f",
+   "noticia": "nota:bragado-nuevo-incendio-en-el-basural-municipal-con-266c7f",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 8,
+   "texto": "Nuevo incendio en el basural municipal de Bragado en medio del calor\n\nBomberos combatieron un foco ígneo en el predio municipal debido al calor. Vecinos reclaman soluciones definitivas ante la falta de avances en las tareas de saneamiento.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-nuevo-incendio-en-el-basural-municipal-con-266c7f",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Nuevo incendio en el basural municipal de Bragado en medio del calor",
+   "urgente": false,
+   "vence": "2026-11-28T05:01:54.000Z",
+   "video_bytes": 105834,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_06_bragado_nuevo-incendio-en-el-basural-m.mp4",
+   "viral": false
+  },
+  "policiales:https://www.bragadoinforma.com.ar/nota/31241/fuerte-descargo-del-automovilista-aprehendido-denuncio-maltratos-una-multa-de-702-mil-pesos-y-acusaciones-falsas.html|x": {
+   "actualizado": "2026-11-28T09:00:30.000Z",
+   "buffer_id": "",
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31241/fuerte-descargo-del-automovilista-aprehendido-denuncio-maltratos-una-multa-de-702-mil-pesos-y-acusaciones-falsas.html|x",
+   "creado": "2026-11-28T09:00:18.000Z",
+   "dueAt": "",
+   "error": "no hubo lugar antes de su vencimiento",
+   "estado": "vencido",
+   "generado": "2026-11-28T02:46:41.000Z",
+   "id": "policiales:https://www.bragadoinforma.com.ar/nota/31241/fuerte-descargo-del-automovilista-aprehendido-denuncio-maltratos-una-multa-de-702-mil-pesos-y-acusaciones-falsas.html",
+   "intentos": 0,
+   "link": "",
+   "nota_url": "https://www.diariolacampaña.com.ar/n/bragado-automovilista-denuncio-agresiones-maltratos-y-una-multa-3415ea",
+   "noticia": "nota:bragado-automovilista-denuncio-agresiones-maltratos-y-una-multa-3415ea",
+   "origen": "policiales",
+   "plataforma": "x",
+   "prioridad": 7,
+   "texto": "Denunció agresiones y una multa millonaria tras un control en Bragado\n\nUn hombre de 59 años que viajó desde La Pampa acusó a inspectores de tránsito de sacarlo a la fuerza del auto durante un operativo en el acceso Bernardo Elizondo.\n\nhttps://www.diariolacampaña.com.ar/n/bragado-automovilista-denuncio-agresiones-maltratos-y-una-multa-3415ea",
+   "texto_v": 2,
+   "tipo": "video",
+   "titulo": "Denunció agresiones y una multa millonaria tras un control en Bragado",
+   "urgente": false,
+   "vence": "2026-11-28T04:46:41.000Z",
+   "video_bytes": 95070,
+   "video_url": "https://github.com/dlcchivilcoy/policiales-bsas/releases/download/reels-policiales/2026-11-28_0132_05_bragado_denunci-agresiones-y-una-multa.mp4",
+   "viral": false
+  },
   "policiales:https://www.chacabuquero.com.ar/2026/11/choque-entre-autos-en-chacabuco.html|x": {
    "actualizado": "2026-11-23T09:00:32.000Z",
    "buffer_id": "",
@@ -10666,14 +10771,14 @@
    "viral": false
   },
   "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html|x": {
-   "actualizado": "2026-11-28T02:20:15.000Z",
+   "actualizado": "2026-11-28T09:00:30.000Z",
    "buffer_id": "",
    "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html|x",
    "creado": "2026-11-28T02:20:15.000Z",
    "dueAt": "",
-   "error": "",
+   "error": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
    "espera": "espera su momento (se programa cerca de la hora en que sale en las otras redes)",
-   "estado": "pendiente",
+   "estado": "vencido",
    "generado": "2026-11-28T02:16:38.000Z",
    "id": "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html",
    "intentos": 0,
@@ -17866,65 +17971,6 @@
  },
  "registro": [
   {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html|x",
-   "cuando": "2026-11-22T09:00:29.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html|x",
-   "cuando": "2026-11-22T09:00:31.000Z",
-   "estado": "pendiente",
-   "evento": "recibido",
-   "motivo": "",
-   "origen": "policiales"
-  },
-  {
-   "clave": "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100|x",
-   "cuando": "2026-11-22T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/tragedia-en-una-obra-en-construccion-en.html|x",
-   "cuando": "2026-11-22T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/emergencia-y-choque-en-chacabuco.html|x",
-   "cuando": "2026-11-22T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/nuevo21112026.html|x",
-   "cuando": "2026-11-22T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/llamativo-intento-de-suplantacion-de.html|x",
-   "cuando": "2026-11-22T09:00:31.000Z",
-   "evento": "vencido",
-   "motivo": "no hubo lugar antes de su vencimiento"
-  },
-  {
-   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/hallazgo-en-un-descampado-de-chacabuco.html|x",
-   "cuando": "2026-11-22T09:00:31.000Z",
-   "evento": "enviado",
-   "link": "https://x.com/3000669687/status/2124327831656096092"
-  },
-  {
-   "buffer_id": "6b02e761d864a01105c421e6",
-   "clave": "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|tiktok",
-   "cuando": "2026-11-22T13:00:17.000Z",
-   "dueAt": "2026-11-22T13:03:31.000Z",
-   "evento": "programado"
-  },
-  {
    "clave": "bot:video_matias-zucchi_mwr66auc1o7g_01.mp4|tiktok",
    "cuando": "2026-11-22T13:20:14.000Z",
    "evento": "enviado",
@@ -22020,6 +22066,66 @@
    "evento": "recibido",
    "motivo": "",
    "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31241/fuerte-descargo-del-automovilista-aprehendido-denuncio-maltratos-una-multa-de-702-mil-pesos-y-acusaciones-falsas.html|x",
+   "cuando": "2026-11-28T09:00:28.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31240/volvio-el-calor-y-regreso-el-humo-nuevo-incendio-en-el-basural-municipal-en-medio-de-la-polemica-por-los-fondos-para-obras.html|x",
+   "cuando": "2026-11-28T09:00:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:http://www.elcivismo.com.ar/notas/59435/detuvieron-al-motochorro-que-le-sustrajo-la-cartera-en-el-sarmiento.html|x",
+   "cuando": "2026-11-28T09:00:30.000Z",
+   "estado": "pendiente",
+   "evento": "recibido",
+   "motivo": "",
+   "origen": "policiales"
+  },
+  {
+   "clave": "policiales:https://elregionaldigital.com.ar/un-nuevo-hecho-de-abigeato-en-un-campo-de-9-de-julio-mataron-dos-terneros-de-240-kilos/|x",
+   "cuando": "2026-11-28T09:00:30.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://lobos24.com.ar/2026/11/27/tres-sujetos-del-conurbano-aprehendidos-en-lobos-las-investigan-por-el-robo-de-ruedas-de-auxilio/|x",
+   "cuando": "2026-11-28T09:00:30.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.chacabuquero.com.ar/2026/11/dos-salidas-de-bomberos-por-emergencias.html|x",
+   "cuando": "2026-11-28T09:00:30.000Z",
+   "evento": "vencido",
+   "motivo": "espera su momento (se programa cerca de la hora en que sale en las otras redes)"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31241/fuerte-descargo-del-automovilista-aprehendido-denuncio-maltratos-una-multa-de-702-mil-pesos-y-acusaciones-falsas.html|x",
+   "cuando": "2026-11-28T09:00:30.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:https://www.bragadoinforma.com.ar/nota/31240/volvio-el-calor-y-regreso-el-humo-nuevo-incendio-en-el-basural-municipal-en-medio-de-la-polemica-por-los-fondos-para-obras.html|x",
+   "cuando": "2026-11-28T09:00:30.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
+  },
+  {
+   "clave": "policiales:http://www.elcivismo.com.ar/notas/59435/detuvieron-al-motochorro-que-le-sustrajo-la-cartera-en-el-sarmiento.html|x",
+   "cuando": "2026-11-28T09:00:30.000Z",
+   "evento": "vencido",
+   "motivo": "no hubo lugar antes de su vencimiento"
   }
  ],
  "tandas": {
@@ -22248,6 +22354,7 @@
   "entrevistas:job00360": "2026-11-27T17:40:15.000Z",
   "entrevistas:job00361": "2026-11-27T18:20:25.000Z",
   "entrevistas:job00362": "2026-11-27T19:00:18.000Z",
+  "policiales:http://www.elcivismo.com.ar/notas/59435/detuvieron-al-motochorro-que-le-sustrajo-la-cartera-en-el-sarmiento.html": "2026-11-28T09:00:18.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/Policiales/actualidad/95811_robaron-una-moto-rouser-en-la-zona-de-levalle-al-100": "2026-11-22T02:40:14.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/politica/municipalidad_y_gobierno/95735_hechos-de-vandalismo-y-robo-en-el-cementerio-de-morea": "2026-11-17T22:40:13.000Z",
   "policiales:https://9dejulio.diariotiempodigital.com/sociedad/ciudad/95518_robo-en-la-terminal-de-omnibus": "2026-11-01T23:20:16.000Z",
@@ -22306,6 +22413,8 @@
   "policiales:https://www.bragadoinforma.com.ar/nota/31210/un-motociclista-resulto-herido-tras-chocar-contra-una-camioneta-en-pellegrini-y-combate-de-san-lorenzo.html": "2026-11-21T02:20:13.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31215/fin-de-semana-largo-con-dos-aprehendidos-por-resistencia-a-la-autoridad-y-un-hecho-de-dano.html": "2026-11-23T02:40:14.000Z",
   "policiales:https://www.bragadoinforma.com.ar/nota/31220/tension-en-el-acceso-elizondo-redujeron-a-un-automovilista-que-se-resistio-al-secuestro-de-su-vehiculo.html": "2026-11-25T02:40:13.000Z",
+  "policiales:https://www.bragadoinforma.com.ar/nota/31240/volvio-el-calor-y-regreso-el-humo-nuevo-incendio-en-el-basural-municipal-en-medio-de-la-polemica-por-los-fondos-para-obras.html": "2026-11-28T09:00:18.000Z",
+  "policiales:https://www.bragadoinforma.com.ar/nota/31241/fuerte-descargo-del-automovilista-aprehendido-denuncio-maltratos-una-multa-de-702-mil-pesos-y-acusaciones-falsas.html": "2026-11-28T09:00:18.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26700-un-adolescente-resulto-con-lesiones-leves-tras-un-choque-entre-un-auto-y-una-moto": "2026-10-31T23:20:16.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26703-una-camioneta-se-incendio-durante-la-madrugada-en-la-via-publica": "2026-10-31T22:40:14.000Z",
   "policiales:https://www.bragadotv.com.ar/noticias/2026/10/31/26730-aprehendieron-a-un-hombre-acusado-de-cometer-dos-robos-utilizando-inhibidores-de-senal": "2026-10-31T22:20:15.000Z",
